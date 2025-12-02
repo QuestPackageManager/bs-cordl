@@ -3,15 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IMenuButtonTrigger_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__ITickable_def.hpp"
 CORDL_MODULE_EXPORT(InstantMenuButtonTrigger)
+namespace GlobalNamespace {
+class IMenuButtonTrigger;
+}
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
 namespace System {
 class Action;
+}
+namespace Zenject {
+class ITickable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +23,7 @@ class InstantMenuButtonTrigger;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::InstantMenuButtonTrigger);
-// Dependencies IMenuButtonTrigger, System.Object, Zenject.ITickable
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: InstantMenuButtonTrigger
@@ -40,7 +44,7 @@ public:
 
   static inline ::GlobalNamespace::InstantMenuButtonTrigger* New_ctor();
 
-  /// @brief Method Tick, addr 0x3bab69c, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x579a684, size 0xd0, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::GlobalNamespace::IVRPlatformHelper* const& __cordl_internal_get__vrPlatformHelper() const;
@@ -55,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bab768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x579a754, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_menuButtonTriggeredEvent, addr 0x3bab564, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_menuButtonTriggeredEvent, addr 0x579a52c, size 0xac, virtual true, abstract: false, final true
   inline void add_menuButtonTriggeredEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::IMenuButtonTrigger"
@@ -67,7 +71,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x3bab600, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x579a5d8, size 0xac, virtual true, abstract: false, final true
   inline void remove_menuButtonTriggeredEvent(::System::Action* value);
 
 protected:
@@ -85,7 +89,7 @@ public:
   InstantMenuButtonTrigger(InstantMenuButtonTrigger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6014 };
 
   /// @brief Field _vrPlatformHelper, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;

@@ -3,17 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IesParameters)
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
 class IesParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::IesParameters);
-// Dependencies Org.BouncyCastle.Crypto.ICipherParameters, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Parameters.IesParameters
@@ -34,10 +36,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method GetDerivationV, addr 0x23bf97c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDerivationV, addr 0x32edb2c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDerivationV();
 
-  /// @brief Method GetEncodingV, addr 0x23bf984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingV, addr 0x32edb34, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncodingV();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::IesParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize);
@@ -60,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set_macKeySize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x23bf940, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32edb20, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize);
 
-  /// @brief Method get_MacKeySize, addr 0x23bf98c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MacKeySize, addr 0x32edb3c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MacKeySize();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

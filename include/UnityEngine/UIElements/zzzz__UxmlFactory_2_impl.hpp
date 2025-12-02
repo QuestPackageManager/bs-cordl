@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UxmlFactory_2.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseUxmlFactory_2_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__IBaseUxmlFactory_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__IUxmlFactory_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IBaseUxmlFactory_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlFactory_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 template <typename TCreatedType, typename TTraits>
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>::Create(::UnityEngine::UIElements::IUxmlAttributes* bag,

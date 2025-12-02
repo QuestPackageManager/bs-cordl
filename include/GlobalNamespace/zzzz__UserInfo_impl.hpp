@@ -19,8 +19,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UserInfo::*)(::GlobalNamespace::UserInfo_Platform, ::StringW, ::StringW)>(
     &::GlobalNamespace::UserInfo::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x407f1b0;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5d2b040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

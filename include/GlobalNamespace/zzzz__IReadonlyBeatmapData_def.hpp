@@ -54,6 +54,8 @@ public:
 
   __declspec(property(get = get_cuttableNotesCount)) int32_t cuttableNotesCount;
 
+  __declspec(property(get = get_cuttableScoringObjectsCount)) int32_t cuttableScoringObjectsCount;
+
   __declspec(property(get = get_numberOfLines)) int32_t numberOfLines;
 
   __declspec(property(get = get_obstaclesCount)) int32_t obstaclesCount;
@@ -95,6 +97,9 @@ public:
   /// @brief Method get_cuttableNotesCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_cuttableNotesCount();
 
+  /// @brief Method get_cuttableScoringObjectsCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t get_cuttableScoringObjectsCount();
+
   /// @brief Method get_numberOfLines, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_numberOfLines();
 
@@ -120,7 +125,7 @@ public:
   IReadonlyBeatmapData(IReadonlyBeatmapData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12879 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14849 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

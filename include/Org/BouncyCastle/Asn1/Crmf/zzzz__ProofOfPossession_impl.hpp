@@ -1,21 +1,21 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Asn1/Crmf/ProofOfPossession.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__ProofOfPossession_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__PopoPrivKey_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__PopoSigningKey_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(
     &::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::_ctor)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x2316454;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x3243270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::GetInstance)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2312144;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x323f094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x23165a0;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x32433b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession*>::get(),
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::*)(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey*)>(
     &::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2316610;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x3243418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::*)(int32_t, ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey*)>(
     &::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2316640;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x3243428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2316670;
+  constexpr static std::size_t addrs = 0x3243434;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::get_Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2316678;
+  constexpr static std::size_t addrs = 0x324343c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::ToAsn1Object)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2316680;
+  constexpr static std::size_t addrs = 0x3243444;
 
   inline static ::MethodInfo const* methodInfo() {
 

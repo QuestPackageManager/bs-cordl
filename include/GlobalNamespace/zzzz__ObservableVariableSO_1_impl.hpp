@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ObservableVariableSO_1.hpp"
-#include "GlobalNamespace/zzzz__IObservableChange_impl.hpp"
-#include "GlobalNamespace/zzzz__IValue_1_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ObservableVariableSO_1_def.hpp"
+#include "GlobalNamespace/zzzz__IObservableChange_def.hpp"
+#include "GlobalNamespace/zzzz__IValue_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 template <typename T> constexpr ::System::Action*& GlobalNamespace::ObservableVariableSO_1<T>::__cordl_internal_get_didChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/EventSystems/IDropHandler.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__IDropHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::IDropHandler.OnDrop
 template <>

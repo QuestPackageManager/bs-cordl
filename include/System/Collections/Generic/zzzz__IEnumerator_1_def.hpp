@@ -3,16 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 CORDL_MODULE_EXPORT(IEnumerator_1)
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
 // Forward declare root types
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::IEnumerator_1);
-// Dependencies System.Collections.IEnumerator, System.IDisposable
+// Dependencies
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -43,7 +47,7 @@ public:
   IEnumerator_1(IEnumerator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3772 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

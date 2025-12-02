@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::ConsoleSpecialKey value);
 
-  /// @brief Method .ctor, addr 0x3e0ba30, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a51cfc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e0b9bc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a51c90, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::ConsoleSpecialKey type);
 
-  /// @brief Method get_Cancel, addr 0x3e0ba28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cancel, addr 0x5a51cf4, size 0x8, virtual false, abstract: false, final false
   inline bool get_Cancel();
 
 protected:
@@ -70,7 +70,7 @@ public:
   ConsoleCancelEventArgs(ConsoleCancelEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2516 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2524 };
 
   /// @brief Field _type, offset: 0x10, size: 0x4, def value: None
   ::System::ConsoleSpecialKey ____type;

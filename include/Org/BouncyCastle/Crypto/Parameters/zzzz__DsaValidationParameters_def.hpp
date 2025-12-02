@@ -35,16 +35,16 @@ public:
   /// @brief Field usageIndex, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_usageIndex, put = __cordl_internal_set_usageIndex)) int32_t usageIndex;
 
-  /// @brief Method Equals, addr 0x23bb2dc, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x32e9470, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x23bb380, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x32e9524, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* other);
 
-  /// @brief Method GetHashCode, addr 0x23bb410, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x32e95c4, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetSeed, addr 0x23bb254, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetSeed, addr 0x32e93e8, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter);
@@ -69,16 +69,16 @@ public:
 
   constexpr void __cordl_internal_set_usageIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x23bb148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e92e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter);
 
-  /// @brief Method .ctor, addr 0x23bb150, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e92f0, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter, int32_t usageIndex);
 
-  /// @brief Method get_Counter, addr 0x23bb2cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Counter, addr 0x32e9460, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Counter();
 
-  /// @brief Method get_UsageIndex, addr 0x23bb2d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UsageIndex, addr 0x32e9468, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_UsageIndex();
 
 protected:

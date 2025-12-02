@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::GroupTrack::*)()>(&::UnityEngine::Timeline::GroupTrack::CanCompileClips)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48273c0;
+  constexpr static std::size_t addrs = 0x67a7d00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* (
     ::UnityEngine::Timeline::GroupTrack::*)()>(&::UnityEngine::Timeline::GroupTrack::get_outputs)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x48273c8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x67a7d08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::GroupTrack::*)()>(&::UnityEngine::Timeline::GroupTrack::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4827420;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x67a7d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::GroupTrack*>::get(), ".ctor",

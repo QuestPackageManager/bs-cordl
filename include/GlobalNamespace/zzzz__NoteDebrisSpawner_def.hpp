@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__INoteDebrisDidFinishEvent_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteDebrisSpawner)
@@ -12,6 +11,12 @@ struct ColorType;
 }
 namespace GlobalNamespace {
 class DeterminismConfig;
+}
+namespace GlobalNamespace {
+class INoteDebrisDidFinishEvent;
+}
+namespace GlobalNamespace {
+class IRandom;
 }
 namespace GlobalNamespace {
 struct NoteData_GameplayType;
@@ -25,9 +30,6 @@ class NoteDebris;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System {
-class Random;
-}
 namespace UnityEngine {
 struct Quaternion;
 }
@@ -40,7 +42,7 @@ class NoteDebrisSpawner;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteDebrisSpawner);
-// Dependencies INoteDebrisDidFinishEvent, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: NoteDebrisSpawner
@@ -81,7 +83,7 @@ public:
       _poolForNoteGameplayType;
 
   /// @brief Field _random, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random)) ::System::Random* _random;
+  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random)) ::GlobalNamespace::IRandom* _random;
 
   /// @brief Field _rotation, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__rotation, put = __cordl_internal_set__rotation)) float_t _rotation;
@@ -89,23 +91,23 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteDebrisDidFinishEvent"
   constexpr operator ::GlobalNamespace::INoteDebrisDidFinishEvent*() noexcept;
 
-  /// @brief Method DespawnNoteDebris, addr 0x3b8af98, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method DespawnNoteDebris, addr 0x5777760, size 0xb8, virtual false, abstract: false, final false
   inline void DespawnNoteDebris(::GlobalNamespace::NoteDebris* noteDebris);
 
-  /// @brief Method HandleNoteDebrisDidFinish, addr 0x3b8aedc, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteDebrisDidFinish, addr 0x5777698, size 0xc8, virtual true, abstract: false, final true
   inline void HandleNoteDebrisDidFinish(::GlobalNamespace::NoteDebris* noteDebris);
 
   static inline ::GlobalNamespace::NoteDebrisSpawner* New_ctor();
 
-  /// @brief Method SpawnDebris, addr 0x3b8a0fc, size 0x8dc, virtual false, abstract: false, final false
+  /// @brief Method SpawnDebris, addr 0x57767e8, size 0x8d8, virtual false, abstract: false, final false
   inline void SpawnDebris(::GlobalNamespace::NoteData_GameplayType noteGameplayType, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, float_t saberSpeed,
                           ::UnityEngine::Vector3 saberDir, ::UnityEngine::Vector3 notePos, ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale,
                           ::GlobalNamespace::ColorType colorType, float_t timeToNextColorNote, ::UnityEngine::Vector3 moveVec);
 
-  /// @brief Method SpawnNoteDebris, addr 0x3b8add0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SpawnNoteDebris, addr 0x5777554, size 0x144, virtual false, abstract: false, final false
   inline void SpawnNoteDebris(::GlobalNamespace::NoteData_GameplayType noteGameplayType, ::ByRef<::GlobalNamespace::NoteDebris*> debris0, ::ByRef<::GlobalNamespace::NoteDebris*> debris1);
 
-  /// @brief Method Start, addr 0x3b8ad04, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x577742c, size 0x128, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::NoteDebris_Pool* const& __cordl_internal_get__burstSliderElementNotesDebrisPool() const;
@@ -144,9 +146,9 @@ public:
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::NoteData_GameplayType, ::GlobalNamespace::NoteDebris_Pool*>*& __cordl_internal_get__poolForNoteGameplayType();
 
-  constexpr ::System::Random* const& __cordl_internal_get__random() const;
+  constexpr ::GlobalNamespace::IRandom* const& __cordl_internal_get__random() const;
 
-  constexpr ::System::Random*& __cordl_internal_get__random();
+  constexpr ::GlobalNamespace::IRandom*& __cordl_internal_get__random();
 
   constexpr float_t const& __cordl_internal_get__rotation() const;
 
@@ -170,11 +172,11 @@ public:
 
   constexpr void __cordl_internal_set__poolForNoteGameplayType(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::NoteData_GameplayType, ::GlobalNamespace::NoteDebris_Pool*>* value);
 
-  constexpr void __cordl_internal_set__random(::System::Random* value);
+  constexpr void __cordl_internal_set__random(::GlobalNamespace::IRandom* value);
 
   constexpr void __cordl_internal_set__rotation(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b8b03c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5777818, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INoteDebrisDidFinishEvent"
@@ -195,7 +197,7 @@ public:
   NoteDebrisSpawner(NoteDebrisSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4253 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5819 };
 
   /// @brief Field kLifeTimeOffset offset 0xffffffff size 0x4
   static constexpr float_t kLifeTimeOffset{ static_cast<float_t>(0.05f) };
@@ -228,7 +230,7 @@ public:
   ::GlobalNamespace::NoteDebris_Pool* ____burstSliderElementNotesDebrisPool;
 
   /// @brief Field _random, offset: 0x48, size: 0x8, def value: None
-  ::System::Random* ____random;
+  ::GlobalNamespace::IRandom* ____random;
 
   /// @brief Field _determinismConfig, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::DeterminismConfig* ____determinismConfig;

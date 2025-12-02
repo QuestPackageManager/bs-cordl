@@ -4,12 +4,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BeatSaber/AvatarCore/zzzz__AvatarPoseData_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IAvatarPoseDataProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__ITickable_def.hpp"
 CORDL_MODULE_EXPORT(ConnectedPlayerAvatarPoseDataProvider)
 namespace BeatSaber::AvatarCore {
 struct AvatarPoseData;
+}
+namespace BeatSaber::AvatarCore {
+class IAvatarPoseDataProvider;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarPoseRestriction;
@@ -23,13 +24,16 @@ class INodePoseSyncStateManager;
 namespace System {
 template <typename T> class Action_1;
 }
+namespace Zenject {
+class ITickable;
+}
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
 class ConnectedPlayerAvatarPoseDataProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider);
-// Dependencies BeatSaber.AvatarCore.AvatarPoseData, BeatSaber.AvatarCore.IAvatarPoseDataProvider, System.Object, Zenject.ITickable
+// Dependencies BeatSaber.AvatarCore.AvatarPoseData, System.Object
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // CS Name: BeatSaber.AvatarCore.ConnectedPlayerAvatarPoseDataProvider
@@ -64,7 +68,7 @@ public:
                                                                                          ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager,
                                                                                          ::BeatSaber::AvatarCore::IAvatarPoseRestriction* avatarPoseRestriction);
 
-  /// @brief Method Tick, addr 0x224f30c, size 0x558, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x316f740, size 0x4f8, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction* const& __cordl_internal_get__avatarPoseRestriction() const;
@@ -97,14 +101,14 @@ public:
 
   constexpr void __cordl_internal_set_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
-  /// @brief Method .ctor, addr 0x224f2d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x316f734, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager,
                     ::BeatSaber::AvatarCore::IAvatarPoseRestriction* avatarPoseRestriction);
 
-  /// @brief Method add_poseDidChangeEvent, addr 0x224f170, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_poseDidChangeEvent, addr 0x316f5b4, size 0xc0, virtual true, abstract: false, final true
   inline void add_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
-  /// @brief Method get_currentPose, addr 0x224f160, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_currentPose, addr 0x316f5a4, size 0x10, virtual true, abstract: false, final true
   inline ::BeatSaber::AvatarCore::AvatarPoseData get_currentPose();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseDataProvider"
@@ -113,7 +117,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_poseDidChangeEvent, addr 0x224f220, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_poseDidChangeEvent, addr 0x316f674, size 0xc0, virtual true, abstract: false, final true
   inline void remove_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
 protected:
@@ -131,7 +135,7 @@ public:
   ConnectedPlayerAvatarPoseDataProvider(ConnectedPlayerAvatarPoseDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17580 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21399 };
 
   /// @brief Field poseDidChangeEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* ___poseDidChangeEvent;

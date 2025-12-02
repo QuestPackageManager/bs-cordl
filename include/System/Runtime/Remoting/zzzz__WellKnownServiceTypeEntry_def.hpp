@@ -44,7 +44,7 @@ public:
   static inline ::System::Runtime::Remoting::WellKnownServiceTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri,
                                                                                  ::System::Runtime::Remoting::WellKnownObjectMode mode);
 
-  /// @brief Method ToString, addr 0x3cd7a00, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x591a7b0, size 0xe0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Runtime::Remoting::WellKnownObjectMode const& __cordl_internal_get_obj_mode() const;
@@ -65,16 +65,16 @@ public:
 
   constexpr void __cordl_internal_set_obj_uri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3cd78b4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591a6a4, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri, ::System::Runtime::Remoting::WellKnownObjectMode mode);
 
-  /// @brief Method get_Mode, addr 0x3cd79e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mode, addr 0x591a798, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::WellKnownObjectMode get_Mode();
 
-  /// @brief Method get_ObjectType, addr 0x3cd79f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x591a7a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method get_ObjectUri, addr 0x3cd79f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectUri, addr 0x591a7a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ObjectUri();
 
 protected:
@@ -92,7 +92,7 @@ public:
   WellKnownServiceTypeEntry(WellKnownServiceTypeEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3099 };
 
   /// @brief Field obj_type, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ___obj_type;

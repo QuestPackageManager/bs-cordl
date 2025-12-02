@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::LocalizationRequiredAttribute::*)()>(
     &::JetBrains::Annotations::LocalizationRequiredAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4af30a0;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6c09364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::LocalizationRequiredAttribute*>::get(),
@@ -21,8 +21,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::LocalizationRequiredAttribute::*)(bool)>(
     &::JetBrains::Annotations::LocalizationRequiredAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4af30c0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6c09370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::JetBrains::Annotations::LocalizationRequiredAttribute::*)()>(
     &::JetBrains::Annotations::LocalizationRequiredAttribute::get_Required)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af30ec;
+  constexpr static std::size_t addrs = 0x6c09378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::LocalizationRequiredAttribute*>::get(),
@@ -50,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::LocalizationRequiredAttribute::*)(bool)>(
     &::JetBrains::Annotations::LocalizationRequiredAttribute::set_Required)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4af30f4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6c09380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

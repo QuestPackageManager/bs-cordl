@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeControlPlayable*> (*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Timeline::ITimeControl*)>(&::UnityEngine::Timeline::TimeControlPlayable::Create)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4829520;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x67aa008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TimeControlPlayable::*)(::UnityEngine::Timeline::ITimeControl*)>(
     &::UnityEngine::Timeline::TimeControlPlayable::Initialize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4829610;
+  constexpr static std::size_t addrs = 0x67aa110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TimeControlPlayable::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Timeline::TimeControlPlayable::PrepareFrame)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4829618;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x67aa118;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TimeControlPlayable::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Timeline::TimeControlPlayable::OnBehaviourPlay)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x482970c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x67aa214;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TimeControlPlayable::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Timeline::TimeControlPlayable::OnBehaviourPause)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x48297c0;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x67aa2cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,8 +87,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TimeControlPlayable::*)()>(&::UnityEngine::Timeline::TimeControlPlayable::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4829870;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x67aa380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TimeControlPlayable*>::get(), ".ctor",

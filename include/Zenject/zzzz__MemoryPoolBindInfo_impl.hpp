@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::MemoryPoolBindInfo::*)()>(&::Zenject::MemoryPoolBindInfo::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4b16d00;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6c2bc24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolBindInfo*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::MemoryPoolBindInfo::*)()>(&::Zenject::MemoryPoolBindInfo::get_ShowExpandWarning)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b16d2c;
+  constexpr static std::size_t addrs = 0x6c2bc3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolBindInfo*>::get(), "get_ShowExpandWarning",
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::MemoryPoolBindInfo::*)(bool)>(&::Zenject::MemoryPoolBindInfo::set_ShowExpandWarning)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4b16d34;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6c2bc44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::PoolExpandMethods (::Zenject::MemoryPoolBindInfo::*)()>(
     &::Zenject::MemoryPoolBindInfo::get_ExpandMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b16d40;
+  constexpr static std::size_t addrs = 0x6c2bc4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolBindInfo*>::get(), "get_ExpandMethod",
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::MemoryPoolBindInfo::*)(::Zenject::PoolExpandMethods)>(
     &::Zenject::MemoryPoolBindInfo::set_ExpandMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b16d48;
+  constexpr static std::size_t addrs = 0x6c2bc54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::MemoryPoolBindInfo::*)()>(&::Zenject::MemoryPoolBindInfo::get_InitialSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b16d50;
+  constexpr static std::size_t addrs = 0x6c2bc5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolBindInfo*>::get(), "get_InitialSize",
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::MemoryPoolBindInfo::*)(int32_t)>(&::Zenject::MemoryPoolBindInfo::set_InitialSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b16d58;
+  constexpr static std::size_t addrs = 0x6c2bc64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::MemoryPoolBindInfo::*)()>(&::Zenject::MemoryPoolBindInfo::get_MaxSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b16d60;
+  constexpr static std::size_t addrs = 0x6c2bc6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolBindInfo*>::get(), "get_MaxSize",
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::MemoryPoolBindInfo::*)(int32_t)>(&::Zenject::MemoryPoolBindInfo::set_MaxSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b16d68;
+  constexpr static std::size_t addrs = 0x6c2bc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

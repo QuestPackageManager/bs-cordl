@@ -35,16 +35,16 @@ public:
                       put = __cordl_internal_set__missionLevelScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>
       _missionLevelScenesTransitionSetupData;
 
-  /// @brief Method HandleMissionLevelDidFinishEvent, addr 0x3acc08c, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionLevelDidFinishEvent, addr 0x56a5898, size 0x264, virtual false, abstract: false, final false
   inline void HandleMissionLevelDidFinishEvent(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData,
                                                ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
   static inline ::GlobalNamespace::MissionLevelAnalytics* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3acbffc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x56a5808, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3acbf6c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x56a5778, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAnalyticsModel* const& __cordl_internal_get__analyticsModel() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__missionLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3acc2a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56a5afc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,7 +77,7 @@ public:
   MissionLevelAnalytics(MissionLevelAnalytics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3983 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5543 };
 
   /// @brief Field _missionLevelScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> ____missionLevelScenesTransitionSetupData;

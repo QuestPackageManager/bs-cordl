@@ -19,7 +19,7 @@ namespace BGLib::UnityExtension {
 class CORDL_TYPE ButtonAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
-  /// @brief Field title, offset 0x10, size 0x8
+  /// @brief Field title, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title)) ::StringW title;
 
   static inline ::BGLib::UnityExtension::ButtonAttribute* New_ctor(::StringW title);
@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22b69d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31fda28, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW title);
 
 protected:
@@ -48,17 +48,17 @@ public:
   ButtonAttribute(ButtonAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20701 };
 
-  /// @brief Field title, offset: 0x10, size: 0x8, def value: None
+  /// @brief Field title, offset: 0x18, size: 0x8, def value: None
   ::StringW ___title;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::BGLib::UnityExtension::ButtonAttribute, ___title) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BGLib::UnityExtension::ButtonAttribute, ___title) == 0x18, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::ButtonAttribute, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::ButtonAttribute, 0x20>, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension
 NEED_NO_BOX(::BGLib::UnityExtension::ButtonAttribute);

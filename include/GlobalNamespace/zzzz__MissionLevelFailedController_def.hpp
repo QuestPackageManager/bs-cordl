@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
@@ -43,8 +40,14 @@ class MissionObjectiveCheckersManager;
 namespace GlobalNamespace {
 class PrepareLevelCompletionResults;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -81,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_autoRestart(bool value);
 
-  /// @brief Method .ctor, addr 0x3bb0a94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57a0d80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool autoRestart);
 
 protected:
@@ -99,7 +102,7 @@ public:
   MissionLevelFailedController_InitData(MissionLevelFailedController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6028 };
 
   /// @brief Field autoRestart, offset: 0x10, size: 0x1, def value: None
   bool ___autoRestart;
@@ -112,7 +115,7 @@ static_assert(offsetof(::GlobalNamespace::MissionLevelFailedController_InitData,
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelFailedController_InitData, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MissionLevelFailedController/<LevelFailedCoroutine>d__13
@@ -145,21 +148,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3bb0ac0, size 0x16c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x57a0d8c, size 0x174, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MissionLevelFailedController__LevelFailedCoroutine_d__13* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bb0dc0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x57a1094, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bb0dc8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x57a109c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bb0e00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x57a10d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3bb0abc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x57a0d88, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -186,7 +189,7 @@ public:
 
   constexpr void __cordl_internal_set__missionCompletionResults_5__2(::GlobalNamespace::MissionCompletionResults* value);
 
-  /// @brief Method .ctor, addr 0x3bb0a64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57a0d74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -213,7 +216,7 @@ public:
   MissionLevelFailedController__LevelFailedCoroutine_d__13(MissionLevelFailedController__LevelFailedCoroutine_d__13 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4449 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6029 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -285,18 +288,18 @@ public:
   __declspec(property(get = __cordl_internal_get__prepareLevelCompletionResults, put = __cordl_internal_set__prepareLevelCompletionResults)) ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>
       _prepareLevelCompletionResults;
 
-  /// @brief Method HandleLevelFailed, addr 0x3bb09e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFailed, addr 0x57a0d00, size 0x20, virtual false, abstract: false, final false
   inline void HandleLevelFailed();
 
-  /// @brief Method LevelFailedCoroutine, addr 0x3bb0a04, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method LevelFailedCoroutine, addr 0x57a0d20, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* LevelFailedCoroutine();
 
   static inline ::GlobalNamespace::MissionLevelFailedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bb08e4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x57a0bc8, size 0x138, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3bb07f0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x57a0ad0, size 0xf8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -353,7 +356,7 @@ public:
 
   constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
 
-  /// @brief Method .ctor, addr 0x3bb0a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57a0d7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -371,7 +374,7 @@ public:
   MissionLevelFailedController(MissionLevelFailedController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4450 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6030 };
 
   /// @brief Field _levelFailedTextEffect, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelFailedTextEffect> ____levelFailedTextEffect;

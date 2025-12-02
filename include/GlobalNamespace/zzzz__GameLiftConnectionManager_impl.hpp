@@ -3,14 +3,10 @@
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_impl.hpp"
 #include "GlobalNamespace/zzzz__GameLiftConnectionManager_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_impl.hpp"
-#include "GlobalNamespace/zzzz__IConnectionInitParams_1_impl.hpp"
-#include "GlobalNamespace/zzzz__IConnectionManager_impl.hpp"
-#include "GlobalNamespace/zzzz__IPollable_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameLiftConnectionManager_def.hpp"
 #include "BGNet/Core/GameLift/zzzz__IGameLiftPlayerSessionProvider_def.hpp"
@@ -25,23 +21,25 @@
 #include "GlobalNamespace/zzzz__GameLiftConnectionManager_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
 #include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
-#include "GlobalNamespace/zzzz__ICertificateValidator_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
 #include "GlobalNamespace/zzzz__IConnection_def.hpp"
+#include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include "GlobalNamespace/zzzz__PublicServerInfo_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_3_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__IAsyncDisposable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::GameLiftConnectionManager_ConnectionState::GameLiftConnectionManager_ConnectionState(int32_t value__) noexcept {
   this->value__ = value__;
@@ -57,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager_GameLiftConnectionManagerParamsBase::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager_GameLiftConnectionManagerParamsBase::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22c87b0;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x31a4a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -147,8 +145,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager_ConnectToServerParams::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager_ConnectToServerParams::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22c87f0;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x31a4aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -197,8 +195,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager_StartClientParams::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager_StartClientParams::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22c881c;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x31a4ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -223,8 +221,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81::MoveNext)> {
-  constexpr static std::size_t size = 0x634;
-  constexpr static std::size_t addrs = 0x22c8848;
+  constexpr static std::size_t size = 0x514;
+  constexpr static std::size_t addrs = 0x31a4afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -238,8 +236,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22c8e7c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x31a5010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,32 +271,107 @@ GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81::i___S
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::GameLiftConnectionManager*", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "secret", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "secret", ty: "::StringW",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IAuthenticationTokenProvider*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::PlayerSessionInfo*>", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81::GameLiftConnectionManager__GameLiftConnectToServer_d__81(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::GameLiftConnectionManager* __4__this, ::StringW secret, ::StringW code,
-    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IAuthenticationTokenProvider*> __u__1,
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::GameLiftConnectionManager* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::StringW secret, ::StringW code,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IAuthenticationTokenProvider*> __u__1,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::PlayerSessionInfo*> __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
+  this->cancellationToken = cancellationToken;
   this->secret = secret;
   this->code = code;
-  this->cancellationToken = cancellationToken;
   this->__u__1 = __u__1;
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81::GameLiftConnectionManager__GameLiftConnectToServer_d__81() {}
+//  Writing Method size for method: ::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80::*)()>(
+    &::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80::MoveNext)> {
+  constexpr static std::size_t size = 0x3d0;
+  constexpr static std::size_t addrs = 0x31a5018;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80>::get(),
+                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80::SetStateMachine)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x31a53e8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80>::get(),
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80>::get(), "SetStateMachine",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGNet::Core::GameLift::PlayerSessionInfo*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
+// "::GlobalNamespace::GameLiftConnectionManager*", modifiers: "", def_value: Some("{}") }, CppParam { name: "authenticationTokenProvider", ty: "::GlobalNamespace::IAuthenticationTokenProvider*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "secret", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "code", ty: "::StringW", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::PlayerSessionInfo*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGNet::Core::GameLift::PlayerSessionInfo*> __t__builder,
+    ::GlobalNamespace::GameLiftConnectionManager* __4__this, ::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider, ::StringW secret, ::StringW code,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::PlayerSessionInfo*> __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->authenticationTokenProvider = authenticationTokenProvider;
+  this->secret = secret;
+  this->code = code;
+  this->cancellationToken = cancellationToken;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80() {}
 //  Writing Method size for method: ::GlobalNamespace::GameLiftConnectionManager.add_onInitializedEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::GameLiftConnectionManager::add_onInitializedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22c67e4;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x31a2824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,8 +385,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::GameLiftConnectionManager::remove_onInitializedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22c6880;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x31a28d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -327,8 +400,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::GameLiftConnectionManager::add_onConnectedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22c691c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x31a297c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -342,8 +415,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::GameLiftConnectionManager::remove_onConnectedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22c69b8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x31a2a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -357,8 +430,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::GameLiftConnectionManager::add_onDisconnectedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c6a54;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a2ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -372,8 +445,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::GameLiftConnectionManager::remove_onDisconnectedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c6b04;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a2b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -387,8 +460,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(
     ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(&::GlobalNamespace::GameLiftConnectionManager::add_onConnectionFailedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c6bb4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a2c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -402,8 +475,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(
     ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(&::GlobalNamespace::GameLiftConnectionManager::remove_onConnectionFailedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c6c64;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a2d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -417,8 +490,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action_1<::GlobalNamespace::IConnection*>*)>(
     &::GlobalNamespace::GameLiftConnectionManager::add_onConnectionConnectedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c6d14;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a2dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -432,8 +505,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action_1<::GlobalNamespace::IConnection*>*)>(
     &::GlobalNamespace::GameLiftConnectionManager::remove_onConnectionConnectedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c6dc4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a2e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -447,8 +520,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(
     ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*)>(&::GlobalNamespace::GameLiftConnectionManager::add_onConnectionDisconnectedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c6e74;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a2f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -463,8 +536,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(
     ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*)>(&::GlobalNamespace::GameLiftConnectionManager::remove_onConnectionDisconnectedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c6f24;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a3014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -480,8 +553,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*)>(
         &::GlobalNamespace::GameLiftConnectionManager::add_onReceivedDataEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c6fd4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a30d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -497,8 +570,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*)>(
         &::GlobalNamespace::GameLiftConnectionManager::remove_onReceivedDataEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c7084;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a3194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -513,8 +586,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::get_userId)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x22c7134;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x31a3254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(),
@@ -527,8 +600,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::get_userName)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x22c7220;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x31a3368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(),
@@ -542,7 +615,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::get_isConnected)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22c730c;
+  constexpr static std::size_t addrs = 0x31a347c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(),
@@ -556,7 +629,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::get_isConnecting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22c731c;
+  constexpr static std::size_t addrs = 0x31a348c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(),
@@ -570,7 +643,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::get_isDisconnecting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22c732c;
+  constexpr static std::size_t addrs = 0x31a349c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(),
@@ -583,8 +656,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::get_connectionCount)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22c733c;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x31a34ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(),
@@ -597,8 +670,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::get_isConnectionOwner)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22c73e0;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x31a3554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(),
@@ -611,8 +684,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::get_isDisposed)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22c7484;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x31a35fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(),
@@ -625,8 +698,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::get_playerSessionId)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22c7528;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x31a36a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(),
@@ -639,8 +712,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevelSelectionMask (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::get_selectionMask)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22c7544;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x31a36bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(),
@@ -654,7 +727,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayServerConfiguration (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::get_configuration)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22c7558;
+  constexpr static std::size_t addrs = 0x31a36d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(),
@@ -668,7 +741,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::get_code)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c756c;
+  constexpr static std::size_t addrs = 0x31a36e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(), "get_code",
@@ -682,7 +755,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::get_secret)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c7574;
+  constexpr static std::size_t addrs = 0x31a36f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(),
@@ -695,8 +768,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(&::GlobalNamespace::GameLiftConnectionManager::SendToAll)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x22c757c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a36f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -711,8 +784,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(
     ::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod, ::GlobalNamespace::IConnection*)>(&::GlobalNamespace::GameLiftConnectionManager::SendToAll)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x22c7638;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x31a37b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -728,8 +801,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::PollUpdate)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x22c76fc;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x31a3888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(),
@@ -741,8 +814,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::_ctor)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x22c779c;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x31a392c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(), ".ctor",
@@ -754,28 +827,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(
-    ::BGNet::Core::ITimeProvider*, ::BGNet::Core::ITaskUtility*, ::GlobalNamespace::IConnectionManager*, ::GlobalNamespace::ICertificateValidator*)>(
-    &::GlobalNamespace::GameLiftConnectionManager::_ctor)> {
-  constexpr static std::size_t size = 0x49c;
-  constexpr static std::size_t addrs = 0x22c7940;
+    ::BGNet::Core::ITimeProvider*, ::BGNet::Core::ITaskUtility*, ::GlobalNamespace::IConnectionManager*)>(&::GlobalNamespace::GameLiftConnectionManager::_ctor)> {
+  constexpr static std::size_t size = 0x520;
+  constexpr static std::size_t addrs = 0x31a3a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::ITimeProvider*>::get(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::ITimeProvider*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::ITaskUtility*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectionManager*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ICertificateValidator*>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectionManager*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameLiftConnectionManager.DisposeAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::GameLiftConnectionManager::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::ValueTask (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::DisposeAsync)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22c7ddc;
+  constexpr static std::size_t addrs = 0x31a3f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(),
@@ -787,8 +858,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::Dispose)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x22c7e80;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x31a3fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(), "Dispose",
@@ -802,7 +873,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::GameLiftConnectionManager::Disconnect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c7f20;
+  constexpr static std::size_t addrs = 0x31a4070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -817,7 +888,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::GameLiftConnectionManager::DisconnectInternal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22c818c;
+  constexpr static std::size_t addrs = 0x31a4324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -831,8 +902,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(
     ::GlobalNamespace::DisconnectedReason, ::GlobalNamespace::ConnectionFailedReason)>(&::GlobalNamespace::GameLiftConnectionManager::DisconnectInternal)> {
-  constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x22c7f28;
+  constexpr static std::size_t size = 0x2ac;
+  constexpr static std::size_t addrs = 0x31a4078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -847,8 +918,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IConnection* (::GlobalNamespace::GameLiftConnectionManager::*)(int32_t)>(
     &::GlobalNamespace::GameLiftConnectionManager::GetConnection)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22c8198;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x31a4330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -863,7 +934,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::HandleConnected)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x22c8244;
+  constexpr static std::size_t addrs = 0x31a43e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(),
@@ -877,7 +948,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::GlobalNamespace::IConnection*)>(
     &::GlobalNamespace::GameLiftConnectionManager::HandleConnectionConnected)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22c8274;
+  constexpr static std::size_t addrs = 0x31a4418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -892,7 +963,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(
     ::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason)>(&::GlobalNamespace::GameLiftConnectionManager::HandleConnectionDisconnected)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22c8290;
+  constexpr static std::size_t addrs = 0x31a4434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -908,7 +979,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::GameLiftConnectionManager::HandleConnectionFailed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22c82ac;
+  constexpr static std::size_t addrs = 0x31a4450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -923,7 +994,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(
     ::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod)>(&::GlobalNamespace::GameLiftConnectionManager::HandleReceivedData)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22c82b8;
+  constexpr static std::size_t addrs = 0x31a445c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -934,13 +1005,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::GameLiftConnectionManager.GetGameLiftPlayerSessionInfo
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>* (
+    ::GlobalNamespace::GameLiftConnectionManager::*)(::GlobalNamespace::IAuthenticationTokenProvider*, ::System::Threading::CancellationToken, ::StringW, ::StringW)>(
+    &::GlobalNamespace::GameLiftConnectionManager::GetGameLiftPlayerSessionInfo)> {
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x31a4478;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(), 34));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::GameLiftConnectionManager.GameLiftConnectToServer
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::StringW, ::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::GameLiftConnectionManager::GameLiftConnectToServer)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22c82d4;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x31a4580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -956,8 +1043,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(
     ::StringW, ::StringW, int32_t, ::StringW, ::StringW, ::StringW, ::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration)>(
     &::GlobalNamespace::GameLiftConnectionManager::HandleConnectToServerSuccess)> {
-  constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x22c8388;
+  constexpr static std::size_t size = 0x3cc;
+  constexpr static std::size_t addrs = 0x31a4648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -977,7 +1064,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>*, ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*,
     ::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration, int32_t, int32_t)>(&::GlobalNamespace::GameLiftConnectionManager::GetPublicServers)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x22c8754;
+  constexpr static std::size_t addrs = 0x31a4a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1026,18 +1113,6 @@ constexpr ::GlobalNamespace::IConnectionManager* const& GlobalNamespace::GameLif
 constexpr void GlobalNamespace::GameLiftConnectionManager::__cordl_internal_set__connectionManager(::GlobalNamespace::IConnectionManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectionManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::GlobalNamespace::ICertificateValidator*& GlobalNamespace::GameLiftConnectionManager::__cordl_internal_get__certificateValidator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____certificateValidator;
-}
-constexpr ::GlobalNamespace::ICertificateValidator* const& GlobalNamespace::GameLiftConnectionManager::__cordl_internal_get__certificateValidator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____certificateValidator;
-}
-constexpr void GlobalNamespace::GameLiftConnectionManager::__cordl_internal_set__certificateValidator(::GlobalNamespace::ICertificateValidator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____certificateValidator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::GameLiftConnectionManager::__cordl_internal_get__code() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1421,14 +1496,13 @@ inline void GlobalNamespace::GameLiftConnectionManager::_ctor() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::GameLiftConnectionManager::_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility,
-                                                              ::GlobalNamespace::IConnectionManager* connectionManager, ::GlobalNamespace::ICertificateValidator* certificateValidator) {
+                                                              ::GlobalNamespace::IConnectionManager* connectionManager) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::ITimeProvider*>::get(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::ITimeProvider*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::ITaskUtility*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectionManager*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ICertificateValidator*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, timeProvider, taskUtility, connectionManager, certificateValidator);
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectionManager*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, timeProvider, taskUtility, connectionManager);
 }
 template <typename T> inline bool GlobalNamespace::GameLiftConnectionManager::Init(::GlobalNamespace::IConnectionInitParams_1<T>* initParams) {
   static auto* ___internal_method_base =
@@ -1439,10 +1513,10 @@ template <typename T> inline bool GlobalNamespace::GameLiftConnectionManager::In
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, initParams);
 }
-inline ::System::Threading::Tasks::Task* GlobalNamespace::GameLiftConnectionManager::DisposeAsync() {
+inline ::System::Threading::Tasks::ValueTask GlobalNamespace::GameLiftConnectionManager::DisposeAsync() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(),
                                                                              "DisposeAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::ValueTask, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::GameLiftConnectionManager::Dispose() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(), "Dispose",
@@ -1507,6 +1581,14 @@ inline void GlobalNamespace::GameLiftConnectionManager::HandleReceivedData(::Glo
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::DeliveryMethod>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, connection, reader, deliveryMethod);
 }
+inline ::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>*
+GlobalNamespace::GameLiftConnectionManager::GetGameLiftPlayerSessionInfo(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider,
+                                                                         ::System::Threading::CancellationToken cancellationToken, ::StringW secret, ::StringW code) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(), 34)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>*, false>(this, ___internal_method, authenticationTokenProvider,
+                                                                                                                                      cancellationToken, secret, code);
+}
 inline void GlobalNamespace::GameLiftConnectionManager::GameLiftConnectToServer(::StringW secret, ::StringW code, ::System::Threading::CancellationToken cancellationToken) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLiftConnectionManager*>::get(), "GameLiftConnectToServer", std::span<Il2CppClass const* const, 0>(),
@@ -1544,9 +1626,8 @@ inline ::GlobalNamespace::GameLiftConnectionManager* GlobalNamespace::GameLiftCo
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameLiftConnectionManager*>());
 }
 inline ::GlobalNamespace::GameLiftConnectionManager* GlobalNamespace::GameLiftConnectionManager::New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility,
-                                                                                                          ::GlobalNamespace::IConnectionManager* connectionManager,
-                                                                                                          ::GlobalNamespace::ICertificateValidator* certificateValidator) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameLiftConnectionManager*>(timeProvider, taskUtility, connectionManager, certificateValidator));
+                                                                                                          ::GlobalNamespace::IConnectionManager* connectionManager) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameLiftConnectionManager*>(timeProvider, taskUtility, connectionManager));
 }
 /// @brief Convert operator to "::GlobalNamespace::IConnectionManager"
 constexpr GlobalNamespace::GameLiftConnectionManager::operator ::GlobalNamespace::IConnectionManager*() noexcept {
@@ -1571,6 +1652,14 @@ constexpr GlobalNamespace::GameLiftConnectionManager::operator ::System::IDispos
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* GlobalNamespace::GameLiftConnectionManager::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IAsyncDisposable"
+constexpr GlobalNamespace::GameLiftConnectionManager::operator ::System::IAsyncDisposable*() noexcept {
+  return static_cast<::System::IAsyncDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IAsyncDisposable"
+constexpr ::System::IAsyncDisposable* GlobalNamespace::GameLiftConnectionManager::i___System__IAsyncDisposable() noexcept {
+  return static_cast<::System::IAsyncDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameLiftConnectionManager::GameLiftConnectionManager() {}

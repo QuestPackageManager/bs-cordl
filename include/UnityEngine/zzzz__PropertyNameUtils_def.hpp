@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PropertyNameUtils)
+namespace UnityEngine::Bindings {
+struct ManagedSpanWrapper;
+}
 namespace UnityEngine {
 struct PropertyName;
 }
@@ -22,11 +25,11 @@ namespace UnityEngine {
 class CORDL_TYPE PropertyNameUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PropertyNameFromString, addr 0x48a6e6c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method PropertyNameFromString, addr 0x68a4744, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityEngine::PropertyName PropertyNameFromString(::StringW name);
 
-  /// @brief Method PropertyNameFromString_Injected, addr 0x48a6eb8, size 0x44, virtual false, abstract: false, final false
-  static inline void PropertyNameFromString_Injected(::StringW name, ::ByRef<::UnityEngine::PropertyName> ret);
+  /// @brief Method PropertyNameFromString_Injected, addr 0x68a4878, size 0x44, virtual false, abstract: false, final false
+  static inline void PropertyNameFromString_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> name, ::ByRef<::UnityEngine::PropertyName> ret);
 
 protected:
   // Ctor Parameters []
@@ -43,7 +46,7 @@ public:
   PropertyNameUtils(PropertyNameUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10263 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

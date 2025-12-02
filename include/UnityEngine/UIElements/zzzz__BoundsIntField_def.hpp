@@ -61,7 +61,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::BoundsIntField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x498d0f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b03604, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +79,7 @@ public:
   BoundsIntField_UxmlFactory(BoundsIntField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5526 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4138 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -94,25 +94,25 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE BoundsIntField_UxmlTraits : public ::UnityEngine::UIElements::BaseField_1_UxmlTraits<::UnityEngine::BoundsInt> {
 public:
   // Declarations
-  /// @brief Field m_PositionXValue, offset 0x80, size 0x8
+  /// @brief Field m_PositionXValue, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PositionXValue, put = __cordl_internal_set_m_PositionXValue)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_PositionXValue;
 
-  /// @brief Field m_PositionYValue, offset 0x88, size 0x8
+  /// @brief Field m_PositionYValue, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PositionYValue, put = __cordl_internal_set_m_PositionYValue)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_PositionYValue;
 
-  /// @brief Field m_PositionZValue, offset 0x90, size 0x8
+  /// @brief Field m_PositionZValue, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PositionZValue, put = __cordl_internal_set_m_PositionZValue)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_PositionZValue;
 
-  /// @brief Field m_SizeXValue, offset 0x98, size 0x8
+  /// @brief Field m_SizeXValue, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SizeXValue, put = __cordl_internal_set_m_SizeXValue)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_SizeXValue;
 
-  /// @brief Field m_SizeYValue, offset 0xa0, size 0x8
+  /// @brief Field m_SizeYValue, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SizeYValue, put = __cordl_internal_set_m_SizeYValue)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_SizeYValue;
 
-  /// @brief Field m_SizeZValue, offset 0xa8, size 0x8
+  /// @brief Field m_SizeZValue, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SizeZValue, put = __cordl_internal_set_m_SizeZValue)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_SizeZValue;
 
-  /// @brief Method Init, addr 0x498d140, size 0x258, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b0366c, size 0x2a8, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::BoundsIntField_UxmlTraits* New_ctor();
@@ -153,7 +153,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SizeZValue(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x498d398, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b03914, size 0x1d0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -171,42 +171,42 @@ public:
   BoundsIntField_UxmlTraits(BoundsIntField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5527 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4139 };
 
-  /// @brief Field m_PositionXValue, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field m_PositionXValue, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_PositionXValue;
 
-  /// @brief Field m_PositionYValue, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field m_PositionYValue, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_PositionYValue;
 
-  /// @brief Field m_PositionZValue, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field m_PositionZValue, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_PositionZValue;
 
-  /// @brief Field m_SizeXValue, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field m_SizeXValue, offset: 0xb0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_SizeXValue;
 
-  /// @brief Field m_SizeYValue, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field m_SizeYValue, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_SizeYValue;
 
-  /// @brief Field m_SizeZValue, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field m_SizeZValue, offset: 0xc0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_SizeZValue;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::BoundsIntField_UxmlTraits, ___m_PositionXValue) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BoundsIntField_UxmlTraits, ___m_PositionXValue) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BoundsIntField_UxmlTraits, ___m_PositionYValue) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BoundsIntField_UxmlTraits, ___m_PositionYValue) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BoundsIntField_UxmlTraits, ___m_PositionZValue) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BoundsIntField_UxmlTraits, ___m_PositionZValue) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BoundsIntField_UxmlTraits, ___m_SizeXValue) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BoundsIntField_UxmlTraits, ___m_SizeXValue) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BoundsIntField_UxmlTraits, ___m_SizeYValue) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BoundsIntField_UxmlTraits, ___m_SizeYValue) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BoundsIntField_UxmlTraits, ___m_SizeZValue) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BoundsIntField_UxmlTraits, ___m_SizeZValue) == 0xc0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BoundsIntField_UxmlTraits, 0xb0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BoundsIntField_UxmlTraits, 0xc8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.BoundsInt, UnityEngine.UIElements.BaseField`1<TValueType>
@@ -226,10 +226,10 @@ public:
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
-  /// @brief Field m_PositionField, offset 0x450, size 0x8
+  /// @brief Field m_PositionField, offset 0x538, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PositionField, put = __cordl_internal_set_m_PositionField)) ::UnityEngine::UIElements::Vector3IntField* m_PositionField;
 
-  /// @brief Field m_SizeField, offset 0x458, size 0x8
+  /// @brief Field m_SizeField, offset 0x540, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SizeField, put = __cordl_internal_set_m_SizeField)) ::UnityEngine::UIElements::Vector3IntField* m_SizeField;
 
   /// @brief Field positionUssClassName, offset 0xffffffff, size 0x8
@@ -245,10 +245,10 @@ public:
 
   static inline ::UnityEngine::UIElements::BoundsIntField* New_ctor(::StringW label);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x498ccf8, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x6b031f0, size 0xd0, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(::UnityEngine::BoundsInt newValue);
 
-  /// @brief Method UpdateMixedValueContent, addr 0x498cdf4, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x6b032c0, size 0x80, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   constexpr ::UnityEngine::UIElements::Vector3IntField* const& __cordl_internal_get_m_PositionField() const;
@@ -263,16 +263,16 @@ public:
 
   constexpr void __cordl_internal_set_m_SizeField(::UnityEngine::UIElements::Vector3IntField* value);
 
-  /// @brief Method <.ctor>b__10_0, addr 0x498cfa0, size 0xac, virtual false, abstract: false, final false
-  inline void __ctor_b__10_0(::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3Int>* e);
+  /// @brief Method <.ctor>b__11_0, addr 0x6b0348c, size 0xbc, virtual false, abstract: false, final false
+  inline void __ctor_b__11_0(::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3Int>* e);
 
-  /// @brief Method <.ctor>b__10_1, addr 0x498d04c, size 0xac, virtual false, abstract: false, final false
-  inline void __ctor_b__10_1(::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3Int>* e);
+  /// @brief Method <.ctor>b__11_1, addr 0x6b03548, size 0xbc, virtual false, abstract: false, final false
+  inline void __ctor_b__11_1(::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3Int>* e);
 
-  /// @brief Method .ctor, addr 0x498c858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b02cfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x498c860, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b02d04, size 0x3c0, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -310,22 +310,22 @@ public:
   BoundsIntField(BoundsIntField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5528 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4140 };
 
-  /// @brief Field m_PositionField, offset: 0x450, size: 0x8, def value: None
+  /// @brief Field m_PositionField, offset: 0x538, size: 0x8, def value: None
   ::UnityEngine::UIElements::Vector3IntField* ___m_PositionField;
 
-  /// @brief Field m_SizeField, offset: 0x458, size: 0x8, def value: None
+  /// @brief Field m_SizeField, offset: 0x540, size: 0x8, def value: None
   ::UnityEngine::UIElements::Vector3IntField* ___m_SizeField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::BoundsIntField, ___m_PositionField) == 0x450, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BoundsIntField, ___m_PositionField) == 0x538, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BoundsIntField, ___m_SizeField) == 0x458, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BoundsIntField, ___m_SizeField) == 0x540, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BoundsIntField, 0x460>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BoundsIntField, 0x548>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::BoundsIntField);

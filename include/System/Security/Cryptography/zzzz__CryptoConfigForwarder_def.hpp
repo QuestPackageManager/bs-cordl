@@ -22,7 +22,7 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE CryptoConfigForwarder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateFromName, addr 0x3cb6e9c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateFromName, addr 0x58facd8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* CreateFromName(::StringW name);
 
 protected:
@@ -40,7 +40,7 @@ public:
   CryptoConfigForwarder(CryptoConfigForwarder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3004 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,16 +23,16 @@ public:
   /// @brief Field DefaultCategory, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_DefaultCategory, put = setStaticF_DefaultCategory)) ::StringW DefaultCategory;
 
-  /// @brief Method IsLogging, addr 0x3db6584, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method IsLogging, addr 0x59ca29c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsLogging();
 
-  /// @brief Method Log, addr 0x3db658c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x59ca2a8, size 0x58, virtual false, abstract: false, final false
   static inline void Log(int32_t level, ::StringW category, ::StringW message);
 
-  /// @brief Method Log_icall, addr 0x3db6588, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Log_icall, addr 0x59ca2a4, size 0x4, virtual false, abstract: false, final false
   static inline void Log_icall(int32_t level, ::ByRef<::StringW> category, ::ByRef<::StringW> message);
 
-  /// @brief Method NotifyOfCrossThreadDependency, addr 0x3db65f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NotifyOfCrossThreadDependency, addr 0x59ca300, size 0x4, virtual false, abstract: false, final false
   static inline void NotifyOfCrossThreadDependency();
 
   static inline ::StringW getStaticF_DefaultCategory();
@@ -54,7 +54,7 @@ public:
   Debugger(Debugger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3665 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

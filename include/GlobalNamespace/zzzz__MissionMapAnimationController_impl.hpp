@@ -1,8 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MissionMapAnimationController.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionMapAnimationController_def.hpp"
@@ -12,17 +9,19 @@
 #include "GlobalNamespace/zzzz__MissionNode_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNodesManager_def.hpp"
 #include "HMUI/zzzz__ScrollView_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MissionMapAnimationController___c._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionMapAnimationController___c::*)()>(
     &::GlobalNamespace::MissionMapAnimationController___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c0ad94;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5802320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionMapAnimationController___c*>::get(),
@@ -35,8 +34,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MissionMapAnimationController___c::*)(::GlobalNamespace::MissionNodeConnection*)>(
     &::GlobalNamespace::MissionMapAnimationController___c::_UpdateNodesAndConnectionCoroutine_b__15_0)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c0ad9c;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x5802324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MissionMapAnimationController___c::*)(::GlobalNamespace::MissionNodeConnection*)>(
     &::GlobalNamespace::MissionMapAnimationController___c::_UpdateNodesAndConnectionCoroutine_b__15_1)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c0adc4;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x580236c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,8 +113,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::*)(int32_t)>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c0adec;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x58021fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c0ae14;
+  constexpr static std::size_t addrs = 0x580239c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,8 +143,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::MoveNext)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3c0ae18;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x58023a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c0af14;
+  constexpr static std::size_t addrs = 0x58024a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c0af1c;
+  constexpr static std::size_t addrs = 0x58024b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -190,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c0af54;
+  constexpr static std::size_t addrs = 0x58024e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -320,8 +319,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::*)(int32_t)>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c0af5c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5802194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c0af84;
+  constexpr static std::size_t addrs = 0x58024f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -350,8 +349,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::MoveNext)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3c0af88;
+  constexpr static std::size_t size = 0x1e8;
+  constexpr static std::size_t addrs = 0x58024f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -366,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c0b190;
+  constexpr static std::size_t addrs = 0x58026dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -381,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c0b198;
+  constexpr static std::size_t addrs = 0x58026e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -396,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c0b1d0;
+  constexpr static std::size_t addrs = 0x580271c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -537,8 +536,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::*)(int32_t)>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c0b1d8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x58022b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -553,7 +552,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c0b200;
+  constexpr static std::size_t addrs = 0x5802724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -567,8 +566,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::MoveNext)> {
-  constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x3c0b204;
+  constexpr static std::size_t size = 0x328;
+  constexpr static std::size_t addrs = 0x5802728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -583,7 +582,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c0b520;
+  constexpr static std::size_t addrs = 0x5802a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -598,7 +597,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c0b528;
+  constexpr static std::size_t addrs = 0x5802a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -613,7 +612,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c0b560;
+  constexpr static std::size_t addrs = 0x5802a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -774,8 +773,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::*)(int32_t)>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c0b568;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5802258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -790,7 +789,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c0b590;
+  constexpr static std::size_t addrs = 0x5802aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -805,7 +804,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::MoveNext)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c0b594;
+  constexpr static std::size_t addrs = 0x5802aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -820,7 +819,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c0b72c;
+  constexpr static std::size_t addrs = 0x5802c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -835,7 +834,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c0b734;
+  constexpr static std::size_t addrs = 0x5802c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -850,7 +849,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c0b76c;
+  constexpr static std::size_t addrs = 0x5802c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -966,8 +965,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MissionMapAnimationController::*)()>(
     &::GlobalNamespace::MissionMapAnimationController::get_animatedUpdateIsRequired)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3c0a92c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5801ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionMapAnimationController*>::get(),
@@ -980,8 +979,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionMapAnimationController::*)()>(
     &::GlobalNamespace::MissionMapAnimationController::ScrollToTopMostNotClearedMission)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3c0a9a4;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x5801f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -995,8 +994,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionMapAnimationController::*)(bool, ::System::Action*)>(
     &::GlobalNamespace::MissionMapAnimationController::UpdateMissionMapAfterMissionWasCleared)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3c0aa74;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x5802034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1011,8 +1010,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
     ::GlobalNamespace::MissionMapAnimationController::*)(::GlobalNamespace::MissionNode*, ::System::Action*)>(&::GlobalNamespace::MissionMapAnimationController::UpdateMissionMapCoroutine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c0ab64;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x580212c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1027,8 +1026,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
     ::GlobalNamespace::MissionMapAnimationController::*)(::GlobalNamespace::MissionNode*)>(&::GlobalNamespace::MissionMapAnimationController::UpdateClearedNodeStateCoroutine)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3c0abe0;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x580219c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1042,8 +1041,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MissionMapAnimationController::*)()>(
     &::GlobalNamespace::MissionMapAnimationController::UpdateStageCoroutine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3c0ac54;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5802204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionMapAnimationController*>::get(),
@@ -1056,8 +1055,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MissionMapAnimationController::*)()>(
     &::GlobalNamespace::MissionMapAnimationController::UpdateNodesAndConnectionCoroutine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3c0acbc;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5802260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1071,8 +1070,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionMapAnimationController::*)()>(
     &::GlobalNamespace::MissionMapAnimationController::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c0ad24;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x58022bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionMapAnimationController*>::get(),

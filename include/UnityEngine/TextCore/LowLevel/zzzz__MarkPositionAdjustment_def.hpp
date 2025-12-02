@@ -19,15 +19,21 @@ namespace UnityEngine::TextCore::LowLevel {
 struct CORDL_TYPE MarkPositionAdjustment {
 public:
   // Declarations
-  __declspec(property(get = get_xPositionAdjustment)) float_t xPositionAdjustment;
+  __declspec(property(get = get_xPositionAdjustment, put = set_xPositionAdjustment)) float_t xPositionAdjustment;
 
-  __declspec(property(get = get_yPositionAdjustment)) float_t yPositionAdjustment;
+  __declspec(property(get = get_yPositionAdjustment, put = set_yPositionAdjustment)) float_t yPositionAdjustment;
 
-  /// @brief Method get_xPositionAdjustment, addr 0x492356c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xPositionAdjustment, addr 0x698c47c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xPositionAdjustment();
 
-  /// @brief Method get_yPositionAdjustment, addr 0x4923574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yPositionAdjustment, addr 0x698c48c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yPositionAdjustment();
+
+  /// @brief Method set_xPositionAdjustment, addr 0x698c484, size 0x8, virtual false, abstract: false, final false
+  inline void set_xPositionAdjustment(float_t value);
+
+  /// @brief Method set_yPositionAdjustment, addr 0x698c494, size 0x8, virtual false, abstract: false, final false
+  inline void set_yPositionAdjustment(float_t value);
 
   // Ctor Parameters []
   // @brief default ctor
@@ -38,7 +44,7 @@ public:
   constexpr MarkPositionAdjustment(float_t m_XPositionAdjustment, float_t m_YPositionAdjustment) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21655 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

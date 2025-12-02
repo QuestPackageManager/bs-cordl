@@ -69,7 +69,7 @@ public:
   static ::UnityEngine::InputSystem::InputProcessor_CachingPolicy const EvaluateOnEveryRead;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6641 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8694 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -99,23 +99,23 @@ public:
   /// @brief Field s_Processors, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Processors, put = setStaticF_s_Processors)) ::UnityEngine::InputSystem::Utilities::TypeTable s_Processors;
 
-  /// @brief Method GetValueTypeFromType, addr 0x4582eec, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetValueTypeFromType, addr 0x6300d4c, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Type* GetValueTypeFromType(::System::Type* processorType);
 
   static inline ::UnityEngine::InputSystem::InputProcessor* New_ctor();
 
   /// @brief Method Process, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Process(::cordl_internals::Ptr<void> buffer, int32_t bufferSize, ::UnityEngine::InputSystem::InputControl* control);
+  inline void Process(void* buffer, int32_t bufferSize, ::UnityEngine::InputSystem::InputControl* control);
 
   /// @brief Method ProcessAsObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* ProcessAsObject(::System::Object* value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method .ctor, addr 0x4582fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6300e28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Utilities::TypeTable getStaticF_s_Processors();
 
-  /// @brief Method get_cachingPolicy, addr 0x4582fdc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_cachingPolicy, addr 0x6300e20, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputProcessor_CachingPolicy get_cachingPolicy();
 
   static inline void setStaticF_s_Processors(::UnityEngine::InputSystem::Utilities::TypeTable value);
@@ -135,7 +135,7 @@ public:
   InputProcessor(InputProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8695 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::TMPro::ShaderUtilities::get_ShaderRef_MobileSDF)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x47fea00;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x677db70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get(), "get_ShaderRef_MobileSDF",
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::TMPro::ShaderUtilities::get_ShaderRef_MobileBitmap)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x47feafc;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x677dc78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get(), "get_ShaderRef_MobileBitmap",
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::TMPro::ShaderUtilities::GetShaderPropertyIDs)> {
-  constexpr static std::size_t size = 0xacc;
-  constexpr static std::size_t addrs = 0x47f8308;
+  constexpr static std::size_t size = 0xdc4;
+  constexpr static std::size_t addrs = 0x6775014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get(), "GetShaderPropertyIDs",
@@ -48,8 +48,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::ShaderUtilities::UpdateShaderRatios)> {
-  constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x47fed74;
+  constexpr static std::size_t size = 0x42c;
+  constexpr static std::size_t addrs = 0x677df00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,8 +62,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Material*)>(&::TMPro::ShaderUtilities::GetFontExtent)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x47ff1d0;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x677e32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Material*)>(&::TMPro::ShaderUtilities::IsMaskingEnabled)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x47ff214;
+  constexpr static std::size_t addrs = 0x677e37c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,8 +90,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Material*, bool, bool)>(&::TMPro::ShaderUtilities::GetPadding)> {
-  constexpr static std::size_t size = 0x6a8;
-  constexpr static std::size_t addrs = 0x47ff3b0;
+  constexpr static std::size_t size = 0x79c;
+  constexpr static std::size_t addrs = 0x677e518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,13 +101,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::TMPro::ShaderUtilities.ComputePaddingForProperties
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Material*)>(&::TMPro::ShaderUtilities::ComputePaddingForProperties)> {
+  constexpr static std::size_t size = 0x2f4;
+  constexpr static std::size_t addrs = 0x677ecb4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get(), "ComputePaddingForProperties", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::TMPro::ShaderUtilities.GetPadding
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>, bool, bool)>(
     &::TMPro::ShaderUtilities::GetPadding)> {
-  constexpr static std::size_t size = 0x8f0;
-  constexpr static std::size_t addrs = 0x47ffa58;
+  constexpr static std::size_t size = 0x838;
+  constexpr static std::size_t addrs = 0x677efa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,6 +160,42 @@ inline void TMPro::ShaderUtilities::setStaticF_ID_Shininess(int32_t value) {
 }
 inline int32_t TMPro::ShaderUtilities::getStaticF_ID_Shininess() {
   return ::cordl_internals::getStaticField<int32_t, "ID_Shininess", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get>();
+}
+inline void TMPro::ShaderUtilities::setStaticF_ID_OutlineOffset1(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "ID_OutlineOffset1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get>(std::forward<int32_t>(value));
+}
+inline int32_t TMPro::ShaderUtilities::getStaticF_ID_OutlineOffset1() {
+  return ::cordl_internals::getStaticField<int32_t, "ID_OutlineOffset1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get>();
+}
+inline void TMPro::ShaderUtilities::setStaticF_ID_OutlineOffset2(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "ID_OutlineOffset2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get>(std::forward<int32_t>(value));
+}
+inline int32_t TMPro::ShaderUtilities::getStaticF_ID_OutlineOffset2() {
+  return ::cordl_internals::getStaticField<int32_t, "ID_OutlineOffset2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get>();
+}
+inline void TMPro::ShaderUtilities::setStaticF_ID_OutlineOffset3(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "ID_OutlineOffset3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get>(std::forward<int32_t>(value));
+}
+inline int32_t TMPro::ShaderUtilities::getStaticF_ID_OutlineOffset3() {
+  return ::cordl_internals::getStaticField<int32_t, "ID_OutlineOffset3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get>();
+}
+inline void TMPro::ShaderUtilities::setStaticF_ID_OutlineMode(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "ID_OutlineMode", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get>(std::forward<int32_t>(value));
+}
+inline int32_t TMPro::ShaderUtilities::getStaticF_ID_OutlineMode() {
+  return ::cordl_internals::getStaticField<int32_t, "ID_OutlineMode", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get>();
+}
+inline void TMPro::ShaderUtilities::setStaticF_ID_IsoPerimeter(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "ID_IsoPerimeter", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get>(std::forward<int32_t>(value));
+}
+inline int32_t TMPro::ShaderUtilities::getStaticF_ID_IsoPerimeter() {
+  return ::cordl_internals::getStaticField<int32_t, "ID_IsoPerimeter", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get>();
+}
+inline void TMPro::ShaderUtilities::setStaticF_ID_Softness(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "ID_Softness", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get>(std::forward<int32_t>(value));
+}
+inline int32_t TMPro::ShaderUtilities::getStaticF_ID_Softness() {
+  return ::cordl_internals::getStaticField<int32_t, "ID_Softness", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get>();
 }
 inline void TMPro::ShaderUtilities::setStaticF_ID_UnderlayColor(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "ID_UnderlayColor", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get>(std::forward<int32_t>(value));
@@ -566,6 +616,12 @@ inline float_t TMPro::ShaderUtilities::GetPadding(::UnityEngine::Material* mater
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, material, enableExtraPadding, isBold);
+}
+inline float_t TMPro::ShaderUtilities::ComputePaddingForProperties(::UnityEngine::Material* mat) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get(), "ComputePaddingForProperties", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, mat);
 }
 inline float_t TMPro::ShaderUtilities::GetPadding(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> materials, bool enableExtraPadding, bool isBold) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

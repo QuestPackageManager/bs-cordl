@@ -3,11 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -28,6 +23,21 @@ namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
 namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine::UI {
@@ -39,8 +49,7 @@ class MissionToggle;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionToggle);
-// Dependencies UnityEngine.Color, UnityEngine.EventSystems.IEventSystemHandler, UnityEngine.EventSystems.IPointerClickHandler, UnityEngine.EventSystems.IPointerEnterHandler,
-// UnityEngine.EventSystems.IPointerExitHandler, UnityEngine.EventSystems.ISubmitHandler, UnityEngine.EventSystems.UIBehaviour
+// Dependencies UnityEngine.Color, UnityEngine.EventSystems.UIBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MissionToggle
@@ -120,36 +129,36 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept;
 
-  /// @brief Method ChangeHighlight, addr 0x3b54fdc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ChangeHighlight, addr 0x573dab4, size 0x20, virtual false, abstract: false, final false
   inline void ChangeHighlight(bool value, bool ignoreCurrentValue);
 
-  /// @brief Method ChangeSelection, addr 0x3b54c98, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ChangeSelection, addr 0x573d788, size 0x64, virtual false, abstract: false, final false
   inline void ChangeSelection(bool value, bool callSelectionDidChange, bool ignoreCurrentValue);
 
-  /// @brief Method InternalToggle, addr 0x3b55020, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InternalToggle, addr 0x573daf4, size 0x30, virtual false, abstract: false, final false
   inline void InternalToggle();
 
   static inline ::GlobalNamespace::MissionToggle* New_ctor();
 
-  /// @brief Method OnPointerClick, addr 0x3b55050, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x573db24, size 0xb8, virtual true, abstract: false, final false
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerEnter, addr 0x3b55190, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnPointerEnter, addr 0x573dc78, size 0x20, virtual true, abstract: false, final false
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x3b551b4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnPointerExit, addr 0x573dc98, size 0x1c, virtual true, abstract: false, final false
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSubmit, addr 0x3b550f8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method OnSubmit, addr 0x573dbdc, size 0x9c, virtual true, abstract: false, final false
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method RefreshUI, addr 0x3b54d10, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x573d7fc, size 0x2ac, virtual false, abstract: false, final false
   inline void RefreshUI();
 
-  /// @brief Method SetText, addr 0x3b54ffc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x573dad4, size 0x20, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
 
-  /// @brief Method Start, addr 0x3b54fc0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x573dab0, size 0x4, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
@@ -248,19 +257,19 @@ public:
 
   constexpr void __cordl_internal_set_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value);
 
-  /// @brief Method .ctor, addr 0x3b551d0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x573dcb4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_selectionDidChangeEvent, addr 0x3b54b14, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectionDidChangeEvent, addr 0x573d5ec, size 0xc0, virtual false, abstract: false, final false
   inline void add_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value);
 
-  /// @brief Method get_highlighted, addr 0x3b54fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlighted, addr 0x573daa8, size 0x8, virtual false, abstract: false, final false
   inline bool get_highlighted();
 
-  /// @brief Method get_interactable, addr 0x3b54cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x573d7ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method get_selected, addr 0x3b54c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selected, addr 0x573d774, size 0x8, virtual false, abstract: false, final false
   inline bool get_selected();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -278,16 +287,16 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
 
-  /// @brief Method remove_selectionDidChangeEvent, addr 0x3b54bc4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectionDidChangeEvent, addr 0x573d6ac, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value);
 
-  /// @brief Method set_interactable, addr 0x3b54d04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x573d7f4, size 0x8, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
-  /// @brief Method set_missionCleared, addr 0x3b54c74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_missionCleared, addr 0x573d76c, size 0x8, virtual false, abstract: false, final false
   inline void set_missionCleared(bool value);
 
-  /// @brief Method set_selected, addr 0x3b54c88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_selected, addr 0x573d77c, size 0xc, virtual false, abstract: false, final false
   inline void set_selected(bool value);
 
 protected:
@@ -305,7 +314,7 @@ public:
   MissionToggle(MissionToggle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5314 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6905 };
 
   /// @brief Field _missionToggleWasPressedSignal, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____missionToggleWasPressedSignal;

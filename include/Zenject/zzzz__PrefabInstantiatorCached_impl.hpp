@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Zenject/PrefabInstantiatorCached.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IPrefabInstantiator_impl.hpp"
 #include "Zenject/zzzz__PrefabInstantiatorCached_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
@@ -17,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::PrefabInstantiatorCached::*)(::Zenject::IPrefabInstantiator*)>(
     &::Zenject::PrefabInstantiatorCached::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4b3f8d0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6c53750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* (::Zenject::PrefabInstantiatorCached::*)()>(
     &::Zenject::PrefabInstantiatorCached::get_ExtraArguments)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4b3f8f8;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6c53758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabInstantiatorCached*>::get(),
@@ -46,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::PrefabInstantiatorCached::*)()>(
     &::Zenject::PrefabInstantiatorCached::get_ArgumentTarget)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4b3f99c;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6c53800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabInstantiatorCached*>::get(),
@@ -60,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::GameObjectCreationParameters* (::Zenject::PrefabInstantiatorCached::*)()>(
     &::Zenject::PrefabInstantiatorCached::get_GameObjectCreationParameters)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4b3fa3c;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6c538a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,8 +74,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (::Zenject::PrefabInstantiatorCached::*)()>(
     &::Zenject::PrefabInstantiatorCached::GetPrefab)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4b3fae0;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6c5394c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabInstantiatorCached*>::get(), "GetPrefab",
@@ -89,8 +88,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::Zenject::PrefabInstantiatorCached::*)(
     ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::ByRef<::System::Action*>)>(&::Zenject::PrefabInstantiatorCached::Instantiate)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x4b3fb84;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x6c539f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

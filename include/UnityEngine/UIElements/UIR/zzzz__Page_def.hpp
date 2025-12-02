@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GfxUpdateBufferRange_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Page)
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::UIElements::UIR {
 class GPUBufferAllocator;
 }
@@ -34,7 +36,7 @@ template <typename T> class Page_DataSet_1;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::Page);
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UIR::Page_DataSet_1);
-// Dependencies System.IDisposable, System.Object, Unity.Collections.NativeArray`1<T>, UnityEngine.UIElements.UIR.GfxUpdateBufferRange
+// Dependencies System.Object, Unity.Collections.NativeArray`1<T>, UnityEngine.UIElements.UIR.GfxUpdateBufferRange
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
@@ -211,7 +213,7 @@ public:
   Page_DataSet_1(Page_DataSet_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5380 };
 
   /// @brief Field <disposed>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
@@ -253,7 +255,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements::UIR
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.Page
@@ -284,10 +286,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x49baffc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6ac6ec0, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49bbdc4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6ac7c64, size 0xa0, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::Page* New_ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage);
@@ -322,19 +324,19 @@ public:
 
   constexpr void __cordl_internal_set_vertices(::UnityEngine::UIElements::UIR::Page_DataSet_1<::UnityEngine::UIElements::Vertex>* value);
 
-  /// @brief Method .ctor, addr 0x49b7d5c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac7b1c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage);
 
-  /// @brief Method get_disposed, addr 0x49bbdb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6ac7c54, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_isEmpty, addr 0x49b7eac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x6ac7d04, size 0x48, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x49bbdb8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6ac7c5c, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -352,7 +354,7 @@ public:
   Page(Page const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5381 };
 
   /// @brief Field <disposed>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____disposed_k__BackingField;

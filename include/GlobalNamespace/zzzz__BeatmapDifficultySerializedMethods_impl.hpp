@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::BeatmapDifficulty)>(
     &::GlobalNamespace::BeatmapDifficultySerializedMethods::SerializedName)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2242334;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x3162444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::GlobalNamespace::BeatmapDifficulty>)>(
     &::GlobalNamespace::BeatmapDifficultySerializedMethods::BeatmapDifficultyFromSerializedName)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x22423cc;
+  constexpr static std::size_t addrs = 0x316250c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IMultiplayerSpectatingSpot_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerSpectatingSpot)
@@ -34,7 +33,7 @@ class MultiplayerConnectedPlayerSpectatingSpot;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot);
-// Dependencies IMultiplayerSpectatingSpot, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerConnectedPlayerSpectatingSpot
@@ -75,27 +74,27 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerSpectatingSpot"
   constexpr operator ::GlobalNamespace::IMultiplayerSpectatingSpot*() noexcept;
 
-  /// @brief Method HandlePlayerDisconnected, addr 0x3be5220, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDisconnected, addr 0x57d7a98, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method HandlePlayerStateChanged, addr 0x3be521c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerStateChanged, addr 0x57d7a94, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method IMultiplayerSpectatingSpot.get_transform, addr 0x3be522c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IMultiplayerSpectatingSpot.get_transform, addr 0x57d7aa0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> IMultiplayerSpectatingSpot_get_transform();
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3be4ee0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x57d7754, size 0x1ac, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ReloadBasedOnPlayerCurrentState, addr 0x3be50a8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ReloadBasedOnPlayerCurrentState, addr 0x57d7920, size 0x174, virtual false, abstract: false, final false
   inline void ReloadBasedOnPlayerCurrentState(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method SetIsObserved, addr 0x3be5088, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method SetIsObserved, addr 0x57d7900, size 0x20, virtual true, abstract: false, final true
   inline void SetIsObserved(bool isObserved);
 
-  /// @brief Method Start, addr 0x3be4b8c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x57d73ec, size 0x1f4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
@@ -140,34 +139,34 @@ public:
 
   constexpr void __cordl_internal_set_isObservedChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x3be5224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57d7a9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_hasBeenRemovedEvent, addr 0x3be4810, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_hasBeenRemovedEvent, addr 0x57d702c, size 0xc0, virtual true, abstract: false, final true
   inline void add_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
-  /// @brief Method add_isObservedChangedEvent, addr 0x3be4970, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_isObservedChangedEvent, addr 0x57d71ac, size 0xc0, virtual false, abstract: false, final false
   inline void add_isObservedChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method get_isMain, addr 0x3be4b84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isMain, addr 0x57d73e4, size 0x8, virtual true, abstract: false, final true
   inline bool get_isMain();
 
-  /// @brief Method get_observable, addr 0x3be4ad0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_observable, addr 0x57d732c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IMultiplayerObservable* get_observable();
 
-  /// @brief Method get_spotName, addr 0x3be4ae0, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_spotName, addr 0x57d733c, size 0xa8, virtual true, abstract: false, final true
   inline ::StringW get_spotName();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerSpectatingSpot"
   constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot* i___GlobalNamespace__IMultiplayerSpectatingSpot() noexcept;
 
-  /// @brief Method remove_hasBeenRemovedEvent, addr 0x3be48c0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_hasBeenRemovedEvent, addr 0x57d70ec, size 0xc0, virtual true, abstract: false, final true
   inline void remove_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
-  /// @brief Method remove_isObservedChangedEvent, addr 0x3be4a20, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_isObservedChangedEvent, addr 0x57d726c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_isObservedChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method set_observable, addr 0x3be4ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_observable, addr 0x57d7334, size 0x8, virtual false, abstract: false, final false
   inline void set_observable(::GlobalNamespace::IMultiplayerObservable* value);
 
 protected:
@@ -185,7 +184,7 @@ public:
   MultiplayerConnectedPlayerSpectatingSpot(MultiplayerConnectedPlayerSpectatingSpot const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4623 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6202 };
 
   /// @brief Field _connectedPlayer, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;

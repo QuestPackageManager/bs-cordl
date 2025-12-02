@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IMultiplayerSpectatingSpot_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -32,7 +31,7 @@ class MultiplayerEnvironmentSpectatingSpot;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot);
-// Dependencies IMultiplayerSpectatingSpot, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerEnvironmentSpectatingSpot
@@ -69,18 +68,18 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerSpectatingSpot"
   constexpr operator ::GlobalNamespace::IMultiplayerSpectatingSpot*() noexcept;
 
-  /// @brief Method IMultiplayerSpectatingSpot.get_transform, addr 0x3be54a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IMultiplayerSpectatingSpot.get_transform, addr 0x57d7d4c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> IMultiplayerSpectatingSpot_get_transform();
 
   static inline ::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3be547c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x57d7d24, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method SetIsObserved, addr 0x3be549c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SetIsObserved, addr 0x57d7d44, size 0x4, virtual true, abstract: false, final true
   inline void SetIsObserved(bool isObserved);
 
-  /// @brief Method Start, addr 0x3be5460, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x57d7d0c, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage* const& __cordl_internal_get__activePlayersTimeOffsetAverage() const;
@@ -119,25 +118,25 @@ public:
 
   constexpr void __cordl_internal_set_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
-  /// @brief Method .ctor, addr 0x3be54a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57d7d48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_hasBeenRemovedEvent, addr 0x3be5234, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_hasBeenRemovedEvent, addr 0x57d7aa8, size 0xc0, virtual true, abstract: false, final true
   inline void add_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
-  /// @brief Method get_isMain, addr 0x3be5458, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isMain, addr 0x57d7d04, size 0x8, virtual true, abstract: false, final true
   inline bool get_isMain();
 
-  /// @brief Method get_observable, addr 0x3be5394, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_observable, addr 0x57d7c28, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IMultiplayerObservable* get_observable();
 
-  /// @brief Method get_spotName, addr 0x3be539c, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method get_spotName, addr 0x57d7c30, size 0xd4, virtual true, abstract: false, final true
   inline ::StringW get_spotName();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerSpectatingSpot"
   constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot* i___GlobalNamespace__IMultiplayerSpectatingSpot() noexcept;
 
-  /// @brief Method remove_hasBeenRemovedEvent, addr 0x3be52e4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_hasBeenRemovedEvent, addr 0x57d7b68, size 0xc0, virtual true, abstract: false, final true
   inline void remove_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
 protected:
@@ -155,7 +154,7 @@ public:
   MultiplayerEnvironmentSpectatingSpot(MultiplayerEnvironmentSpectatingSpot const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4624 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6203 };
 
   /// @brief Field _preferredSpectatingSpot, offset: 0x20, size: 0x1, def value: None
   bool ____preferredSpectatingSpot;

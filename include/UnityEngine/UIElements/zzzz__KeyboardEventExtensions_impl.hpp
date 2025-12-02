@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::KeyDownEvent*)>(
     &::UnityEngine::UIElements::KeyboardEventExtensions::ShouldSendNavigationMoveEvent)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4a2aea8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6b699c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Event*)>(
     &::UnityEngine::UIElements::KeyboardEventExtensions::ShouldSendNavigationMoveEventRuntime)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4a2b23c;
+  constexpr static std::size_t addrs = 0x6b69d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GameState)
 namespace GlobalNamespace {
 class GameplayServerFiniteStateMachine;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -15,7 +17,7 @@ class GameState;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameState);
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: GameState
@@ -42,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_fsm(::GlobalNamespace::GameplayServerFiniteStateMachine* value);
 
-  /// @brief Method .ctor, addr 0x22cbbc4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ab980, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayServerFiniteStateMachine* fsm);
 
   /// @brief Convert to "::System::IDisposable"
@@ -63,7 +65,7 @@ public:
   GameState(GameState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14771 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18957 };
 
   /// @brief Field fsm, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::GameplayServerFiniteStateMachine* ___fsm;

@@ -3,14 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Concurrent/zzzz__IProducerConsumerCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConcurrentBag_1)
@@ -20,8 +12,23 @@ template <typename T> class ConcurrentBag_1_Enumerator;
 namespace System::Collections::Concurrent {
 template <typename T> class ConcurrentBag_1_WorkStealingQueue;
 }
+namespace System::Collections::Concurrent {
+template <typename T> class IProducerConsumerCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -31,6 +38,9 @@ template <typename T> class ThreadLocal_1;
 }
 namespace System {
 class Array;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -194,7 +204,7 @@ public:
   static constexpr int32_t StartIndex{ static_cast<int32_t>(0x0) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11359 };
 
   /// @brief Field _headIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____headIndex;
@@ -230,7 +240,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Concurrent
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
@@ -323,7 +333,7 @@ public:
   ConcurrentBag_1_Enumerator(ConcurrentBag_1_Enumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9511 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11360 };
 
   /// @brief Field _array, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> ____array;
@@ -338,8 +348,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Concurrent
-// Dependencies System.Collections.Concurrent.IProducerConsumerCollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>,
-// System.Collections.ICollection, System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
@@ -508,7 +517,7 @@ public:
   ConcurrentBag_1(ConcurrentBag_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9512 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11361 };
 
   /// @brief Field _locals, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::ConcurrentBag_1_WorkStealingQueue<T>*>* ____locals;

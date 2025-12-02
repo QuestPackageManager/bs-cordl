@@ -3,22 +3,22 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConditionalWeakTable_2)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -31,6 +31,9 @@ template <typename TKey, typename TValue> class ConditionalWeakTable_2_Enumerato
 }
 namespace System::Runtime::CompilerServices {
 struct Ephemeron;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 struct IntPtr;
@@ -84,13 +87,13 @@ public:
   ConditionalWeakTable_2_CreateValueCallback(ConditionalWeakTable_2_CreateValueCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3436 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Runtime::CompilerServices
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Object
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
@@ -187,7 +190,7 @@ public:
   ConditionalWeakTable_2_Enumerator(ConditionalWeakTable_2_Enumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3437 };
 
   /// @brief Field _table, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* ____table;
@@ -202,7 +205,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Runtime::CompilerServices
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
@@ -308,20 +311,8 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConditionalWeakTable_2(ConditionalWeakTable_2 const&) = delete;
 
-  /// @brief Field COMPACT_FACTOR offset 0xffffffff size 0x4
-  static constexpr float_t COMPACT_FACTOR{ static_cast<float_t>(0.5f) };
-
-  /// @brief Field EXPAND_FACTOR offset 0xffffffff size 0x4
-  static constexpr float_t EXPAND_FACTOR{ static_cast<float_t>(1.1f) };
-
-  /// @brief Field INITIAL_SIZE offset 0xffffffff size 0x4
-  static constexpr int32_t INITIAL_SIZE{ static_cast<int32_t>(0xd) };
-
-  /// @brief Field LOAD_FACTOR offset 0xffffffff size 0x4
-  static constexpr float_t LOAD_FACTOR{ static_cast<float_t>(0.7f) };
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3421 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3438 };
 
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> ___data;

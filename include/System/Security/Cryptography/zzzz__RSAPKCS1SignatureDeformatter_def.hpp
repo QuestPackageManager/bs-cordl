@@ -36,13 +36,13 @@ public:
 
   static inline ::System::Security::Cryptography::RSAPKCS1SignatureDeformatter* New_ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method SetHashAlgorithm, addr 0x3cb52b8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method SetHashAlgorithm, addr 0x58f8e10, size 0x58, virtual true, abstract: false, final false
   inline void SetHashAlgorithm(::StringW strName);
 
-  /// @brief Method SetKey, addr 0x3cb5314, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetKey, addr 0x58f8e68, size 0xf8, virtual true, abstract: false, final false
   inline void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method VerifySignature, addr 0x3cb53fc, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x58f8f60, size 0x14c, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
 
   constexpr ::StringW const& __cordl_internal_get_hashName() const;
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set_rsa(::System::Security::Cryptography::RSA* value);
 
-  /// @brief Method .ctor, addr 0x3cb527c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f8e00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cb5284, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f8e04, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
 protected:
@@ -78,7 +78,7 @@ public:
   RSAPKCS1SignatureDeformatter(RSAPKCS1SignatureDeformatter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2999 };
 
   /// @brief Field rsa, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Cryptography::RSA* ___rsa;

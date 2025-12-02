@@ -73,16 +73,16 @@ public:
 
   static inline ::Zenject::Context___c* New_ctor();
 
-  /// @brief Method __zenCreate, addr 0x4b252a0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6c39630, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b252f4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c39674, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b251e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c3958c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <set_NormalInstallerTypes>b__16_0, addr 0x4b251ec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <set_NormalInstallerTypes>b__16_0, addr 0x6c39590, size 0xa0, virtual false, abstract: false, final false
   inline bool _set_NormalInstallerTypes_b__16_0(::System::Type* x);
 
   static inline ::Zenject::Context___c* getStaticF___9();
@@ -108,7 +108,7 @@ public:
   Context___c(Context___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14441 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -157,13 +157,13 @@ public:
   __declspec(property(get = __cordl_internal_get__scriptableObjectInstallers,
                       put = __cordl_internal_set__scriptableObjectInstallers)) ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* _scriptableObjectInstallers;
 
-  /// @brief Method AddNormalInstaller, addr 0x4b235c0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddNormalInstaller, addr 0x6c37a40, size 0xb4, virtual false, abstract: false, final false
   inline void AddNormalInstaller(::Zenject::InstallerBase* installer);
 
-  /// @brief Method AddNormalInstallerType, addr 0x4b234b4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method AddNormalInstallerType, addr 0x6c37928, size 0x118, virtual false, abstract: false, final false
   inline void AddNormalInstallerType(::System::Type* installerType);
 
-  /// @brief Method CheckInstallerPrefabTypes, addr 0x4b23664, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method CheckInstallerPrefabTypes, addr 0x6c37af4, size 0x3dc, virtual false, abstract: false, final false
   inline void CheckInstallerPrefabTypes(::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* installers,
                                         ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* installerPrefabs);
 
@@ -173,19 +173,19 @@ public:
   /// @brief Method GetRootGameObjects, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects();
 
-  /// @brief Method InstallInstallers, addr 0x4b23b14, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method InstallInstallers, addr 0x6c37ed0, size 0x10, virtual true, abstract: false, final false
   inline void InstallInstallers();
 
-  /// @brief Method InstallInstallers, addr 0x4b23b24, size 0x76c, virtual false, abstract: false, final false
+  /// @brief Method InstallInstallers, addr 0x6c37ee0, size 0x674, virtual false, abstract: false, final false
   inline void InstallInstallers(::System::Collections::Generic::List_1<::Zenject::InstallerBase*>* normalInstallers, ::System::Collections::Generic::List_1<::System::Type*>* normalInstallerTypes,
                                 ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* scriptableObjectInstallers,
                                 ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* installers,
                                 ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* installerPrefabs);
 
-  /// @brief Method InstallSceneBindings, addr 0x4b2435c, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method InstallSceneBindings, addr 0x6c38628, size 0x53c, virtual false, abstract: false, final false
   inline void InstallSceneBindings(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableMonoBehaviours);
 
-  /// @brief Method InstallZenjectBinding, addr 0x4b248bc, size 0x568, virtual false, abstract: false, final false
+  /// @brief Method InstallZenjectBinding, addr 0x6c38b64, size 0x68c, virtual false, abstract: false, final false
   inline void InstallZenjectBinding(::Zenject::ZenjectBinding* binding);
 
   static inline ::Zenject::Context* New_ctor();
@@ -220,43 +220,43 @@ public:
 
   constexpr void __cordl_internal_set__scriptableObjectInstallers(::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b2501c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c393f0, size 0x148, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b24eb0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c39280, size 0x170, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Container, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_InstallerPrefabs, addr 0x4b23178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstallerPrefabs, addr 0x6c3753c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* get_InstallerPrefabs();
 
-  /// @brief Method get_Installers, addr 0x4b230e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Installers, addr 0x6c37478, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* get_Installers();
 
-  /// @brief Method get_NormalInstallerTypes, addr 0x4b232a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NormalInstallerTypes, addr 0x6c376c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_NormalInstallerTypes();
 
-  /// @brief Method get_NormalInstallers, addr 0x4b2341c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NormalInstallers, addr 0x6c37864, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InstallerBase*>* get_NormalInstallers();
 
-  /// @brief Method get_ScriptableObjectInstallers, addr 0x4b23210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ScriptableObjectInstallers, addr 0x6c37600, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* get_ScriptableObjectInstallers();
 
-  /// @brief Method set_InstallerPrefabs, addr 0x4b23180, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_InstallerPrefabs, addr 0x6c37544, size 0xbc, virtual false, abstract: false, final false
   inline void set_InstallerPrefabs(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* value);
 
-  /// @brief Method set_Installers, addr 0x4b230e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_Installers, addr 0x6c37480, size 0xbc, virtual false, abstract: false, final false
   inline void set_Installers(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* value);
 
-  /// @brief Method set_NormalInstallerTypes, addr 0x4b232b0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method set_NormalInstallerTypes, addr 0x6c376cc, size 0x198, virtual false, abstract: false, final false
   inline void set_NormalInstallerTypes(::System::Collections::Generic::IEnumerable_1<::System::Type*>* value);
 
-  /// @brief Method set_NormalInstallers, addr 0x4b23424, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_NormalInstallers, addr 0x6c3786c, size 0xbc, virtual false, abstract: false, final false
   inline void set_NormalInstallers(::System::Collections::Generic::IEnumerable_1<::Zenject::InstallerBase*>* value);
 
-  /// @brief Method set_ScriptableObjectInstallers, addr 0x4b23218, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_ScriptableObjectInstallers, addr 0x6c37608, size 0xbc, virtual false, abstract: false, final false
   inline void set_ScriptableObjectInstallers(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
 
 protected:
@@ -274,7 +274,7 @@ public:
   Context(Context const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14442 };
 
   /// @brief Field _scriptableObjectInstallers, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* ____scriptableObjectInstallers;

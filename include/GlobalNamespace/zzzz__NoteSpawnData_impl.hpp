@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::NoteSpawnData::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(&::GlobalNamespace::NoteSpawnData::_ctor)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ae2e88;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x56bea30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

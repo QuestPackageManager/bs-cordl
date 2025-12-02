@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::DivInstruction_DivInt64* New_ctor();
 
-  /// @brief Method Run, addr 0x40c6c28, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5d75da0, size 0x10c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40c6978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d75b78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   DivInstruction_DivInt64(DivInstruction_DivInt64 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16260 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

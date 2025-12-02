@@ -1,8 +1,9 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Animations/AnimationPlayableOutput.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayableOutput_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutputHandle_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationPlayableOutput_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayableOutput_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutputHandle_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutput_def.hpp"
@@ -12,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Animations::AnimationPlayableOutput (*)(
     ::UnityEngine::Playables::PlayableGraph, ::StringW, ::UnityEngine::Animator*)>(&::UnityEngine::Animations::AnimationPlayableOutput::Create)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x48546e0;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x680edf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Animations::AnimationPlayableOutput::*)(::UnityEngine::Playables::PlayableOutputHandle)>(
     &::UnityEngine::Animations::AnimationPlayableOutput::_ctor)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4856714;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x68111c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -44,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Animations::AnimationPlayableOutput (*)()>(
     &::UnityEngine::Animations::AnimationPlayableOutput::get_Null)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4856698;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6811144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationPlayableOutput>::get(),
@@ -59,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableOutputHandle (::UnityEngine::Animations::AnimationPlayableOutput::*)()>(
     &::UnityEngine::Animations::AnimationPlayableOutput::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4856848;
+  constexpr static std::size_t addrs = 0x68112dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationPlayableOutput>::get(),
@@ -72,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableOutput (*)(::UnityEngine::Animations::AnimationPlayableOutput)>(
     &::UnityEngine::Animations::AnimationPlayableOutput::op_Implicit___UnityEngine__Playables__PlayableOutput)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4854788;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x680ee54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,8 +88,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Animations::AnimationPlayableOutput (*)(::UnityEngine::Playables::PlayableOutput)>(
     &::UnityEngine::Animations::AnimationPlayableOutput::op_Explicit___UnityEngine__Animations__AnimationPlayableOutput)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4856854;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x68112e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,8 +103,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Animator> (::UnityEngine::Animations::AnimationPlayableOutput::*)()>(
     &::UnityEngine::Animations::AnimationPlayableOutput::GetTarget)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48568d8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6811368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationPlayableOutput>::get(),
@@ -116,8 +117,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Animations::AnimationPlayableOutput::*)(::UnityEngine::Animator*)>(
     &::UnityEngine::Animations::AnimationPlayableOutput::SetTarget)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4856804;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x68112d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,8 +132,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Animator> (*)(::ByRef<::UnityEngine::Playables::PlayableOutputHandle>)>(
     &::UnityEngine::Animations::AnimationPlayableOutput::InternalGetTarget)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4856914;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x681136c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,14 +147,45 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Playables::PlayableOutputHandle>, ::UnityEngine::Animator*)>(
     &::UnityEngine::Animations::AnimationPlayableOutput::InternalSetTarget)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4856950;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x681148c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationPlayableOutput>::get(), "InternalSetTarget", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableOutputHandle>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Animator*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Animations::AnimationPlayableOutput.InternalGetTarget_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ByRef<::UnityEngine::Playables::PlayableOutputHandle>)>(
+    &::UnityEngine::Animations::AnimationPlayableOutput::InternalGetTarget_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x681151c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationPlayableOutput>::get(), "InternalGetTarget_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableOutputHandle>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Animations::AnimationPlayableOutput.InternalSetTarget_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Playables::PlayableOutputHandle>, ::System::IntPtr)>(
+    &::UnityEngine::Animations::AnimationPlayableOutput::InternalSetTarget_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6811558;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationPlayableOutput>::get(), "InternalSetTarget_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableOutputHandle>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
@@ -218,6 +250,19 @@ inline void UnityEngine::Animations::AnimationPlayableOutput::InternalSetTarget(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationPlayableOutput>::get(), "InternalSetTarget", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableOutputHandle>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Animator*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, handle, target);
+}
+inline ::System::IntPtr UnityEngine::Animations::AnimationPlayableOutput::InternalGetTarget_Injected(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationPlayableOutput>::get(), "InternalGetTarget_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableOutputHandle>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, handle);
+}
+inline void UnityEngine::Animations::AnimationPlayableOutput::InternalSetTarget_Injected(::ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle, ::System::IntPtr target) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationPlayableOutput>::get(), "InternalSetTarget_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableOutputHandle>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, handle, target);
 }
 /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"

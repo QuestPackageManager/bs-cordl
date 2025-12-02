@@ -3,13 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityOpus/zzzz__NumChannels_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Decoder)
+namespace System {
+class IDisposable;
+}
 namespace UnityOpus {
 struct NumChannels;
 }
@@ -22,7 +24,7 @@ class Decoder;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityOpus::Decoder);
-// Dependencies System.IDisposable, System.IntPtr, System.Object, UnityOpus.NumChannels
+// Dependencies System.IntPtr, System.Object, UnityOpus.NumChannels
 namespace UnityOpus {
 // Is value type: false
 // CS Name: UnityOpus.Decoder
@@ -44,16 +46,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Decode, addr 0x3aaab70, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x56844d0, size 0x68, virtual false, abstract: false, final false
   inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t dataLength, ::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t decodeFec);
 
-  /// @brief Method Dispose, addr 0x3aaaed0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x56847a8, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3aaad74, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x56846a8, size 0x34, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x3aaae30, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5684758, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityOpus::Decoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
@@ -82,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_softclipMem(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3aaa9b0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x568430c, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
 
   /// @brief Convert to "::System::IDisposable"
@@ -103,7 +105,7 @@ public:
   Decoder(Decoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23115 };
 
   /// @brief Field maximumPacketDuration offset 0xffffffff size 0x4
   static constexpr int32_t maximumPacketDuration{ static_cast<int32_t>(0x1680) };

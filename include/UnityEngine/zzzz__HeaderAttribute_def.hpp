@@ -19,7 +19,7 @@ namespace UnityEngine {
 class CORDL_TYPE HeaderAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
-  /// @brief Field header, offset 0x10, size 0x8
+  /// @brief Field header, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header)) ::StringW header;
 
   static inline ::UnityEngine::HeaderAttribute* New_ctor(::StringW header);
@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_header(::StringW value);
 
-  /// @brief Method .ctor, addr 0x48a6d04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68a46b4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
 protected:
@@ -48,17 +48,17 @@ public:
   HeaderAttribute(HeaderAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10256 };
 
-  /// @brief Field header, offset: 0x10, size: 0x8, def value: None
+  /// @brief Field header, offset: 0x18, size: 0x8, def value: None
   ::StringW ___header;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::HeaderAttribute, ___header) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::HeaderAttribute, ___header) == 0x18, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::HeaderAttribute, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::HeaderAttribute, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::HeaderAttribute);

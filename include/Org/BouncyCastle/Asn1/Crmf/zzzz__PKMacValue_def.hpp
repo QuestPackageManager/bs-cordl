@@ -49,10 +49,10 @@ public:
   /// @brief Field macValue, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_macValue, put = __cordl_internal_set_macValue)) ::Org::BouncyCastle::Asn1::DerBitString* macValue;
 
-  /// @brief Method GetInstance, addr 0x23155a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3242450, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x231542c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x32422cc, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::Org::BouncyCastle::Asn1::DerBitString* macValue);
@@ -61,7 +61,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23156a8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3242514, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_algID() const;
@@ -76,19 +76,19 @@ public:
 
   constexpr void __cordl_internal_set_macValue(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method .ctor, addr 0x231566c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32424fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::Org::BouncyCastle::Asn1::DerBitString* macValue);
 
-  /// @brief Method .ctor, addr 0x23155c0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3242464, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PbmParameter* pbmParams, ::Org::BouncyCastle::Asn1::DerBitString* macValue);
 
-  /// @brief Method .ctor, addr 0x2315378, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3242218, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_AlgID, addr 0x2315698, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AlgID, addr 0x3242504, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgID();
 
-  /// @brief Method get_MacValue, addr 0x23156a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MacValue, addr 0x324250c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_MacValue();
 
 protected:

@@ -57,12 +57,12 @@ public:
   /// @brief Field smooth, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_smooth, put = __cordl_internal_set_smooth)) bool smooth;
 
-  /// @brief Method Init, addr 0x4700bf8, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6495b68, size 0x268, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::UnityEngine::ProBuilder::BezierShape* New_ctor();
 
-  /// @brief Method Refresh, addr 0x4700e4c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x6495dd0, size 0xd8, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr bool const& __cordl_internal_get_closeLoop() const;
@@ -113,19 +113,19 @@ public:
 
   constexpr void __cordl_internal_set_smooth(bool value);
 
-  /// @brief Method .ctor, addr 0x4700f08, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6495ea8, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isEditing, addr 0x4700b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEditing, addr 0x6495ab4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEditing();
 
-  /// @brief Method get_mesh, addr 0x4700b5c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x6495ac4, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> get_mesh();
 
-  /// @brief Method set_isEditing, addr 0x4700b50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isEditing, addr 0x6495abc, size 0x8, virtual false, abstract: false, final false
   inline void set_isEditing(bool value);
 
-  /// @brief Method set_mesh, addr 0x4700bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x6495b60, size 0x8, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
 
 protected:
@@ -143,7 +143,7 @@ public:
   BezierShape(BezierShape const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16669 };
 
   /// @brief Field points, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint>* ___points;

@@ -5,8 +5,7 @@
 #include "UnityEngine/UIElements/zzzz__ContextType_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IMouseEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerOrMouseEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::ElementUnderPointer.GetTopElementUnderPointer
@@ -15,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (
     ::UnityEngine::UIElements::ElementUnderPointer::*)(int32_t, ::ByRef<::UnityEngine::Vector2>, ::ByRef<bool>)>(&::UnityEngine::UIElements::ElementUnderPointer::GetTopElementUnderPointer)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a2566c;
+  constexpr static std::size_t addrs = 0x6b62270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::ElementUnderPointer::*)(int32_t)>(
     &::UnityEngine::UIElements::ElementUnderPointer::GetTopElementUnderPointer)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4a256e0;
+  constexpr static std::size_t addrs = 0x6b622e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t, ::UnityEngine::Vector2)>(&::UnityEngine::UIElements::ElementUnderPointer::SetElementUnderPointer)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4a25710;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x6b62314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::ElementUnderPointer::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::ElementUnderPointer::GetEventPointerPosition)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4a25870;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x6b62478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t, ::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::ElementUnderPointer::SetTemporaryElementUnderPointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a25a28;
+  constexpr static std::size_t addrs = 0x6b62638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t, ::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::ElementUnderPointer::SetElementUnderPointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a25c7c;
+  constexpr static std::size_t addrs = 0x6b6280c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,8 +111,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t, ::UnityEngine::UIElements::EventBase*, bool)>(&::UnityEngine::UIElements::ElementUnderPointer::SetElementUnderPointer)> {
-  constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x4a25a30;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x6b62640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,8 +128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)(
     ::UnityEngine::UIElements::EventDispatcher*, ::UnityEngine::UIElements::ContextType)>(&::UnityEngine::UIElements::ElementUnderPointer::CommitElementUnderPointers)> {
-  constexpr static std::size_t size = 0xcb0;
-  constexpr static std::size_t addrs = 0x4a25c84;
+  constexpr static std::size_t size = 0xcac;
+  constexpr static std::size_t addrs = 0x6b62814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,8 +143,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)()>(&::UnityEngine::UIElements::ElementUnderPointer::_ctor)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x4a27098;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x6b63abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ElementUnderPointer*>::get(), ".ctor",
@@ -183,35 +182,20 @@ constexpr void UnityEngine::UIElements::ElementUnderPointer::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TopElementUnderPointer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityEngine::UIElements::IPointerEvent*, ::Array<::UnityEngine::UIElements::IPointerEvent*>*>&
-UnityEngine::UIElements::ElementUnderPointer::__cordl_internal_get_m_TriggerPointerEvent() {
+constexpr ::ArrayW<::UnityEngine::UIElements::IPointerOrMouseEvent*, ::Array<::UnityEngine::UIElements::IPointerOrMouseEvent*>*>&
+UnityEngine::UIElements::ElementUnderPointer::__cordl_internal_get_m_TriggerEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_TriggerPointerEvent;
+  return this->___m_TriggerEvent;
 }
-constexpr ::ArrayW<::UnityEngine::UIElements::IPointerEvent*, ::Array<::UnityEngine::UIElements::IPointerEvent*>*> const&
-UnityEngine::UIElements::ElementUnderPointer::__cordl_internal_get_m_TriggerPointerEvent() const {
+constexpr ::ArrayW<::UnityEngine::UIElements::IPointerOrMouseEvent*, ::Array<::UnityEngine::UIElements::IPointerOrMouseEvent*>*> const&
+UnityEngine::UIElements::ElementUnderPointer::__cordl_internal_get_m_TriggerEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_TriggerPointerEvent;
+  return this->___m_TriggerEvent;
 }
-constexpr void UnityEngine::UIElements::ElementUnderPointer::__cordl_internal_set_m_TriggerPointerEvent(
-    ::ArrayW<::UnityEngine::UIElements::IPointerEvent*, ::Array<::UnityEngine::UIElements::IPointerEvent*>*> value) {
+constexpr void UnityEngine::UIElements::ElementUnderPointer::__cordl_internal_set_m_TriggerEvent(
+    ::ArrayW<::UnityEngine::UIElements::IPointerOrMouseEvent*, ::Array<::UnityEngine::UIElements::IPointerOrMouseEvent*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TriggerPointerEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::ArrayW<::UnityEngine::UIElements::IMouseEvent*, ::Array<::UnityEngine::UIElements::IMouseEvent*>*>&
-UnityEngine::UIElements::ElementUnderPointer::__cordl_internal_get_m_TriggerMouseEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_TriggerMouseEvent;
-}
-constexpr ::ArrayW<::UnityEngine::UIElements::IMouseEvent*, ::Array<::UnityEngine::UIElements::IMouseEvent*>*> const&
-UnityEngine::UIElements::ElementUnderPointer::__cordl_internal_get_m_TriggerMouseEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_TriggerMouseEvent;
-}
-constexpr void
-UnityEngine::UIElements::ElementUnderPointer::__cordl_internal_set_m_TriggerMouseEvent(::ArrayW<::UnityEngine::UIElements::IMouseEvent*, ::Array<::UnityEngine::UIElements::IMouseEvent*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TriggerMouseEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TriggerEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& UnityEngine::UIElements::ElementUnderPointer::__cordl_internal_get_m_PickingPointerPositions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

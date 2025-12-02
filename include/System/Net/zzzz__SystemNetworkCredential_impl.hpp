@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::SystemNetworkCredential::*)()>(&::System::Net::SystemNetworkCredential::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x449ea18;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x61ee39c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::SystemNetworkCredential*>::get(), ".ctor",

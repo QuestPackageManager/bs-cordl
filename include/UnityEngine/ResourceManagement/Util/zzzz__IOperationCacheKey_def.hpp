@@ -3,15 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 CORDL_MODULE_EXPORT(IOperationCacheKey)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
 class IOperationCacheKey;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::IOperationCacheKey);
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // CS Name: UnityEngine.ResourceManagement.Util.IOperationCacheKey
@@ -29,7 +31,7 @@ public:
   IOperationCacheKey(IOperationCacheKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15632 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18692 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
