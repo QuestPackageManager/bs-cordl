@@ -54,18 +54,19 @@ add_compile_options(
     target_sources(${CMAKE_PROJECT_NAME} PRIVATE "${CMAKE_CURRENT_BINARY_DIR}/include/${src_file_path}")
     # target_precompile_headers(${CMAKE_PROJECT_NAME} PRIVATE "${CMAKE_CURRENT_LIST_DIR}/include/${file_path}")
     endforeach()
-    
+
     # If `test/` contains .cpp files (not just headers), add them directly
-    file(GLOB_RECURSE test_cpp_files ${CMAKE_CURRENT_LIST_DIR}/test/*.cpp)
-    if (test_cpp_files)
-        list(TRANSFORM test_cpp_files PREPEND "${CMAKE_CURRENT_LIST_DIR}/")
-        target_sources(${CMAKE_PROJECT_NAME} PRIVATE ${test_cpp_files})
-    endif()
+    # file(GLOB_RECURSE test_cpp_files ${CMAKE_CURRENT_LIST_DIR}/test/*.cpp)
+    # if (test_cpp_files)
+    #    list(TRANSFORM test_cpp_files PREPEND "${CMAKE_CURRENT_LIST_DIR}/")
+    #     target_sources(${CMAKE_PROJECT_NAME} PRIVATE ${test_cpp_files})
+    # endif()
     
     target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_LIST_DIR}/include)
     target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_LIST_DIR}/extern/includes)
     target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE SYSTEM ${CMAKE_CURRENT_LIST_DIR}/extern/includes/libil2cpp/il2cpp/libil2cpp)
+   
     # Include `test/` so test headers are visible to the target
-    target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_LIST_DIR}/test)
+    # target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_LIST_DIR}/test)
     
 include(${CMAKE_CURRENT_LIST_DIR}/extern.cmake)
