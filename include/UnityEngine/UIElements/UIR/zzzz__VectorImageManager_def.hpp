@@ -95,21 +95,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddUser, addr 0x6ac1dd8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method AddUser, addr 0x6b2ac5c, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::GradientRemap* AddUser(::UnityEngine::UIElements::VectorImage* vi, ::UnityEngine::UIElements::VisualElement* context);
 
-  /// @brief Method Commit, addr 0x6ac1db0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Commit, addr 0x6b2ac34, size 0x28, virtual false, abstract: false, final false
   inline void Commit();
 
-  /// @brief Method Dispose, addr 0x6ac1c14, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6b2aa98, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6ac1c84, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6b2ab08, size 0x12c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageManager* New_ctor(::UnityEngine::UIElements::AtlasBase* atlas);
 
-  /// @brief Method Register, addr 0x6ac1ee4, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x6b2ad68, size 0x3c4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* Register(::UnityEngine::UIElements::VectorImage* vi, ::UnityEngine::UIElements::VisualElement* context);
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -157,7 +157,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RenderInfoPool(::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool* value);
 
-  /// @brief Method .ctor, addr 0x6ac1a38, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b2a8bc, size 0x1cc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::AtlasBase* atlas);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::VectorImageManager*>* getStaticF_instances();
@@ -166,10 +166,10 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerUnregister();
 
-  /// @brief Method get_atlas, addr 0x6ac1a20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_atlas, addr 0x6b2a8a4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_atlas();
 
-  /// @brief Method get_disposed, addr 0x6ac1c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6b2aa88, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
@@ -181,7 +181,7 @@ public:
 
   static inline void setStaticF_s_MarkerUnregister(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_disposed, addr 0x6ac1c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6b2aa90, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

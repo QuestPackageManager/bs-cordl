@@ -22,7 +22,7 @@ public:
   /// @brief Field navmesh_count, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_navmesh_count, put = __cordl_internal_set_navmesh_count)) int32_t navmesh_count;
 
-  /// @brief Method CreateSendGameBuildAnalytic, addr 0x6bf0be0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateSendGameBuildAnalytic, addr 0x6c59a64, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::SendGameBuildAnalytic* CreateSendGameBuildAnalytic();
 
   static inline ::UnityEditor::Analytics::SendGameBuildAnalytic* New_ctor();
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_navmesh_count(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6bf0b68, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c599ec, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +51,7 @@ public:
   SendGameBuildAnalytic(SendGameBuildAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22561 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22588 };
 
   /// @brief Field navmesh_count, offset: 0x2c, size: 0x4, def value: None
   int32_t ___navmesh_count;

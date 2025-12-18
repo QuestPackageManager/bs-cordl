@@ -4,7 +4,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__MultiplayerAvatarAudioController_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__MultiplayerAvatarAudioController_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatSaberConnectedPlayer_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4::*)(int32_t)>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3170418;
+  constexpr static std::size_t addrs = 0x31a010c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4::*)()>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3170424;
+  constexpr static std::size_t addrs = 0x31a0118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4::*)()>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4::MoveNext)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3170428;
+  constexpr static std::size_t addrs = 0x31a011c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4::*)()>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3170500;
+  constexpr static std::size_t addrs = 0x31a01f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4::*)()>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3170508;
+  constexpr static std::size_t addrs = 0x31a01fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4::*)()>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3170540;
+  constexpr static std::size_t addrs = 0x31a0234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -205,15 +205,15 @@ constexpr ::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4:
 //  Writing Method size for method: ::BeatSaber::AvatarCore::MultiplayerAvatarAudioController.set_connectedPlayer
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarAudioController::*)(::GlobalNamespace::IConnectedPlayer*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarAudioController::*)(::GlobalNamespace::IBeatSaberConnectedPlayer*)>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarAudioController::set_connectedPlayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31703bc;
+  constexpr static std::size_t addrs = 0x31a00b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::MultiplayerAvatarAudioController*>::get(), "set_connectedPlayer", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectedPlayer*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberConnectedPlayer*>::get() })));
     return ___internal_method;
   }
 };
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::BeatSaber::AvatarCore::MultiplayerAvatarAudioController::*)()>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarAudioController::Start)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x31703c4;
+  constexpr static std::size_t addrs = 0x31a00b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarAudioController::*)()>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarAudioController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3170420;
+  constexpr static std::size_t addrs = 0x31a0114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -259,22 +259,22 @@ constexpr void BeatSaber::AvatarCore::MultiplayerAvatarAudioController::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IConnectedPlayer*& BeatSaber::AvatarCore::MultiplayerAvatarAudioController::__cordl_internal_get__connectedPlayer() {
+constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& BeatSaber::AvatarCore::MultiplayerAvatarAudioController::__cordl_internal_get__connectedPlayer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
-constexpr ::GlobalNamespace::IConnectedPlayer* const& BeatSaber::AvatarCore::MultiplayerAvatarAudioController::__cordl_internal_get__connectedPlayer() const {
+constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& BeatSaber::AvatarCore::MultiplayerAvatarAudioController::__cordl_internal_get__connectedPlayer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
-constexpr void BeatSaber::AvatarCore::MultiplayerAvatarAudioController::__cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value) {
+constexpr void BeatSaber::AvatarCore::MultiplayerAvatarAudioController::__cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectedPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void BeatSaber::AvatarCore::MultiplayerAvatarAudioController::set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value) {
+inline void BeatSaber::AvatarCore::MultiplayerAvatarAudioController::set_connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::MultiplayerAvatarAudioController*>::get(), "set_connectedPlayer", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectedPlayer*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberConnectedPlayer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::System::Collections::IEnumerator* BeatSaber::AvatarCore::MultiplayerAvatarAudioController::Start() {

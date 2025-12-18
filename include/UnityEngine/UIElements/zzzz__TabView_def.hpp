@@ -84,7 +84,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::TabView_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b436d8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bac55c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -120,7 +120,7 @@ public:
   /// @brief Field m_Reorderable, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Reorderable, put = __cordl_internal_set_m_Reorderable)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Reorderable;
 
-  /// @brief Method Init, addr 0x6b43740, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6bac5c4, size 0x11c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::TabView_UxmlTraits* New_ctor();
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Reorderable(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6b4385c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bac6e0, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -181,18 +181,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method Apply, addr 0x6b42a7c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x6bab900, size 0x1ac, virtual false, abstract: false, final false
   inline void Apply(::UnityEngine::UIElements::TabView* tabView);
 
   static inline ::UnityEngine::UIElements::TabView_ViewState* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x6b4390c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x6bac790, size 0xc, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x6b43900, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x6bac784, size 0xc, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method Save, addr 0x6b42c28, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x6babaac, size 0x1e8, virtual false, abstract: false, final false
   inline void Save(::UnityEngine::UIElements::TabView* tabView);
 
   constexpr ::StringW const& __cordl_internal_get_m_ActiveTabKey() const;
@@ -213,7 +213,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TabOrder(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x6b43918, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bac79c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -272,7 +272,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TabView___c__DisplayClass48_0* New_ctor();
 
-  /// @brief Method <OnElementAdded>b__0, addr 0x6b4398c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <OnElementAdded>b__0, addr 0x6bac810, size 0x34, virtual false, abstract: false, final false
   inline void _OnElementAdded_b__0(::UnityEngine::UIElements::Tab* t);
 
   constexpr ::UnityEngine::UIElements::TabView* const& __cordl_internal_get___4__this() const;
@@ -287,7 +287,7 @@ public:
 
   constexpr void __cordl_internal_set_index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6b43038, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6babebc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -335,7 +335,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TabView___c__DisplayClass55_0* New_ctor();
 
-  /// @brief Method <FindTabByKey>b__0, addr 0x6b439c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <FindTabByKey>b__0, addr 0x6bac844, size 0x1c, virtual false, abstract: false, final false
   inline bool _FindTabByKey_b__0(::UnityEngine::UIElements::Tab* tab);
 
   constexpr ::StringW const& __cordl_internal_get_key() const;
@@ -344,7 +344,7 @@ public:
 
   constexpr void __cordl_internal_set_key(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6b434d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bac358, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -460,30 +460,30 @@ public:
   /// @brief Field verticalUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_verticalUssClassName, put = setStaticF_verticalUssClassName)) ::StringW verticalUssClassName;
 
-  /// @brief Method FindTabByKey, addr 0x6b433f4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method FindTabByKey, addr 0x6bac278, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Tab* FindTabByKey(::StringW key);
 
   static inline ::UnityEngine::UIElements::TabView* New_ctor();
 
-  /// @brief Method OnElementAdded, addr 0x6b42e10, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method OnElementAdded, addr 0x6babc94, size 0x228, virtual false, abstract: false, final false
   inline void OnElementAdded(::UnityEngine::UIElements::VisualElement* ve, int32_t index);
 
-  /// @brief Method OnElementRemoved, addr 0x6b4303c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnElementRemoved, addr 0x6babec0, size 0x1a4, virtual false, abstract: false, final false
   inline void OnElementRemoved(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method OnTabClosed, addr 0x6b431e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnTabClosed, addr 0x6bac068, size 0x1c, virtual false, abstract: false, final false
   inline void OnTabClosed(::UnityEngine::UIElements::Tab* tab, int32_t index);
 
-  /// @brief Method OnTabSelected, addr 0x6b431e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnTabSelected, addr 0x6bac064, size 0x4, virtual false, abstract: false, final false
   inline void OnTabSelected(::UnityEngine::UIElements::Tab* tab);
 
-  /// @brief Method OnViewDataReady, addr 0x6b429ac, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x6bab830, size 0xd0, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method ReorderTab, addr 0x6b43200, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method ReorderTab, addr 0x6bac084, size 0x1f4, virtual false, abstract: false, final false
   inline void ReorderTab(int32_t from, int32_t to);
 
-  /// @brief Method SaveViewState, addr 0x6b42424, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SaveViewState, addr 0x6bab2a8, size 0x34, virtual false, abstract: false, final false
   inline void SaveViewState();
 
   constexpr ::System::Action_2<::UnityEngine::UIElements::Tab*, ::UnityEngine::UIElements::Tab*>* const& __cordl_internal_get_activeTabChanged() const;
@@ -558,7 +558,7 @@ public:
 
   constexpr void __cordl_internal_set_tabReordered(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x6b4260c, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bab490, size 0x3a0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_contentContainerUssClassName();
@@ -573,22 +573,22 @@ public:
 
   static inline ::StringW getStaticF_verticalUssClassName();
 
-  /// @brief Method get_activeTab, addr 0x6b42280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activeTab, addr 0x6bab104, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Tab* get_activeTab();
 
-  /// @brief Method get_contentContainer, addr 0x6b42260, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x6bab0e4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_header, addr 0x6b42268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_header, addr 0x6bab0ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_header();
 
-  /// @brief Method get_reorderable, addr 0x6b42458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reorderable, addr 0x6bab2dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_reorderable();
 
-  /// @brief Method get_tabHeaders, addr 0x6b42278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tabHeaders, addr 0x6bab0fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* get_tabHeaders();
 
-  /// @brief Method get_tabs, addr 0x6b42270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tabs, addr 0x6bab0f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Tab*>* get_tabs();
 
   static inline void setStaticF_contentContainerUssClassName(::StringW value);
@@ -603,10 +603,10 @@ public:
 
   static inline void setStaticF_verticalUssClassName(::StringW value);
 
-  /// @brief Method set_activeTab, addr 0x6b42288, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method set_activeTab, addr 0x6bab10c, size 0x19c, virtual false, abstract: false, final false
   inline void set_activeTab(::UnityEngine::UIElements::Tab* value);
 
-  /// @brief Method set_reorderable, addr 0x6b42460, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method set_reorderable, addr 0x6bab2e4, size 0x1ac, virtual false, abstract: false, final false
   inline void set_reorderable(bool value);
 
 protected:

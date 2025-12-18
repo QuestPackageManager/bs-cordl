@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<float_t, ::StringW>*>* (
     ::GlobalNamespace::NoteJumpStartBeatOffsetDropdown::*)()>(&::GlobalNamespace::NoteJumpStartBeatOffsetDropdown::GetNamedValues)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x580b2fc;
+  constexpr static std::size_t addrs = 0x586efd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJumpStartBeatOffsetDropdown::*)()>(
     &::GlobalNamespace::NoteJumpStartBeatOffsetDropdown::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x580b49c;
+  constexpr static std::size_t addrs = 0x586f178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpStartBeatOffsetDropdown*>::get(),

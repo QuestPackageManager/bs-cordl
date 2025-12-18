@@ -97,7 +97,7 @@ public:
   AvatarPartCollection_1(AvatarPartCollection_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22068 };
 
   /// @brief Field _partById, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, T>* ____partById;

@@ -43,10 +43,10 @@ public:
   /// @brief Field _sceneRenderer, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneRenderer, put = __cordl_internal_set__sceneRenderer)) ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> _sceneRenderer;
 
-  /// @brief Method AddRenderPasses, addr 0x5650694, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x56b12dc, size 0x4, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x5650690, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x56b12d8, size 0x4, virtual true, abstract: false, final false
   inline void Create();
 
   static inline ::GlobalNamespace::BloomPrePassRendererFeature* New_ctor();
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneRenderer(::UnityW<::GlobalNamespace::BloomPrePassRendererSO> value);
 
-  /// @brief Method .ctor, addr 0x5650698, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56b12e0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   BloomPrePassRendererFeature(BloomPrePassRendererFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19640 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19666 };
 
   /// @brief Field _sceneEffectContainer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> ____sceneEffectContainer;

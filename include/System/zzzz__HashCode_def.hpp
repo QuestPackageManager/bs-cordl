@@ -28,7 +28,7 @@ public:
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Add(T value);
 
-  /// @brief Method Add, addr 0x5a2cdd8, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x5a93724, size 0x2ac, virtual false, abstract: false, final false
   inline void Add(int32_t value);
 
   /// @brief Method Combine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -51,37 +51,37 @@ public:
   template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
   static inline int32_t Combine(T1 value1, T2 value2, T3 value3, T4 value4, T5 value5, T6 value6, T7 value7, T8 value8);
 
-  /// @brief Method Equals, addr 0x5a2d348, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5a93c94, size 0x48, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GenerateGlobalSeed, addr 0x5a2cadc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GenerateGlobalSeed, addr 0x5a93428, size 0x24, virtual false, abstract: false, final false
   static inline uint32_t GenerateGlobalSeed();
 
-  /// @brief Method GetHashCode, addr 0x5a2d2dc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5a93c28, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Initialize, addr 0x5a2cb0c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5a93458, size 0xb8, virtual false, abstract: false, final false
   static inline void Initialize(::ByRef<uint32_t> v1, ::ByRef<uint32_t> v2, ::ByRef<uint32_t> v3, ::ByRef<uint32_t> v4);
 
-  /// @brief Method MixEmptyState, addr 0x5a2cd48, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method MixEmptyState, addr 0x5a93694, size 0x68, virtual false, abstract: false, final false
   static inline uint32_t MixEmptyState();
 
-  /// @brief Method MixFinal, addr 0x5a2cdb0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method MixFinal, addr 0x5a936fc, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t MixFinal(uint32_t hash);
 
-  /// @brief Method MixState, addr 0x5a2ccbc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MixState, addr 0x5a93608, size 0x8c, virtual false, abstract: false, final false
   static inline uint32_t MixState(uint32_t v1, uint32_t v2, uint32_t v3, uint32_t v4);
 
-  /// @brief Method QueueRound, addr 0x5a2cc40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method QueueRound, addr 0x5a9358c, size 0x7c, virtual false, abstract: false, final false
   static inline uint32_t QueueRound(uint32_t hash, uint32_t queuedValue);
 
-  /// @brief Method Rol, addr 0x5a2cb00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Rol, addr 0x5a9344c, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t Rol(uint32_t value, int32_t count);
 
-  /// @brief Method Round, addr 0x5a2cbc4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Round, addr 0x5a93510, size 0x7c, virtual false, abstract: false, final false
   static inline uint32_t Round(uint32_t hash, uint32_t input);
 
-  /// @brief Method ToHashCode, addr 0x5a2d084, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ToHashCode, addr 0x5a939d0, size 0x258, virtual false, abstract: false, final false
   inline int32_t ToHashCode();
 
   static inline uint32_t getStaticF_s_seed();

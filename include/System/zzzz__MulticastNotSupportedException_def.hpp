@@ -31,13 +31,13 @@ public:
 
   static inline ::System::MulticastNotSupportedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5a348d4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a9b220, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5a34958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a9b2a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5a34934, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a9b280, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

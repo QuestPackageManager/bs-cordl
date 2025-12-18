@@ -73,22 +73,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x63923ec, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x63f9f78, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x6392378, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x63f9f04, size 0x68, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x63923e0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x63f9f6c, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x63923f8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x63f9f84, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x639215c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f9ce8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::LowLevel::InputEventBuffer buffer);
 
-  /// @brief Method get_Current, addr 0x63923f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x63f9f7c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
@@ -112,7 +112,7 @@ public:
                                         int32_t m_CurrentIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9003 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -174,56 +174,56 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AdvanceToNextEvent, addr 0x6391fd0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method AdvanceToNextEvent, addr 0x63f9b5c, size 0xe8, virtual false, abstract: false, final false
   inline void AdvanceToNextEvent(::ByRef<::UnityEngine::InputSystem::LowLevel::InputEvent*> currentReadPos, ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEvent*> currentWritePos,
                                  ::ByRef<int32_t> numEventsRetainedInBuffer, ::ByRef<int32_t> numRemainingEvents, bool leaveEventInBuffer);
 
-  /// @brief Method AllocateEvent, addr 0x6391cd4, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method AllocateEvent, addr 0x63f9860, size 0x2e4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEvent* AllocateEvent(int32_t sizeInBytes, int32_t capacityIncrementInBytes, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method AppendEvent, addr 0x6391c2c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AppendEvent, addr 0x63f97b8, size 0xa8, virtual false, abstract: false, final false
   inline void AppendEvent(::UnityEngine::InputSystem::LowLevel::InputEvent* eventPtr, int32_t capacityIncrementInBytes, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method Clone, addr 0x6392228, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x63f9db4, size 0xe8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventBuffer Clone();
 
-  /// @brief Method Contains, addr 0x6391790, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x63f931c, size 0x7c, virtual false, abstract: false, final false
   inline bool Contains(::UnityEngine::InputSystem::LowLevel::InputEvent* eventPtr);
 
-  /// @brief Method Dispose, addr 0x63921c4, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x63f9d50, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetEnumerator, addr 0x63920b8, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x63f9c44, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* GetEnumerator();
 
-  /// @brief Method Reset, addr 0x6391fb8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x63f9b44, size 0x18, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x63921c0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x63f9d4c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x6392310, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x63f9e9c, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method .ctor, addr 0x6391afc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f9688, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<uint8_t> buffer, int32_t eventCount, int32_t sizeInBytes, bool transferNativeArrayOwnership);
 
-  /// @brief Method .ctor, addr 0x6391954, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f94e0, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::LowLevel::InputEvent* eventPtr, int32_t eventCount, int32_t sizeInBytes, int32_t capacityInBytes);
 
-  /// @brief Method get_bufferPtr, addr 0x639190c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_bufferPtr, addr 0x63f9498, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr get_bufferPtr();
 
-  /// @brief Method get_capacityInBytes, addr 0x63918ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_capacityInBytes, addr 0x63f9438, size 0x54, virtual false, abstract: false, final false
   inline int64_t get_capacityInBytes();
 
-  /// @brief Method get_data, addr 0x6391900, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_data, addr 0x63f948c, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> get_data();
 
-  /// @brief Method get_eventCount, addr 0x639189c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventCount, addr 0x63f9428, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_eventCount();
 
-  /// @brief Method get_sizeInBytes, addr 0x63918a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sizeInBytes, addr 0x63f9430, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_sizeInBytes();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
@@ -251,7 +251,7 @@ public:
   static constexpr int64_t BufferSizeUnknown{ static_cast<int64_t>(0xffffffffffffffff) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9000 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9004 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

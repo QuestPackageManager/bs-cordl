@@ -147,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set_node(::UnityEngine::UIElements::Layout::LayoutNode value);
 
-  /// @brief Method .ctor, addr 0x6acf6b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b38534, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -202,10 +202,10 @@ public:
   /// @brief Field onLayoutLog, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_onLayoutLog, put = setStaticF_onLayoutLog)) ::System::Action_1<::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogData*>* onLayoutLog;
 
-  /// @brief Method CalculateLayout, addr 0x6acf588, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CalculateLayout, addr 0x6b3840c, size 0x74, virtual false, abstract: false, final false
   static inline void CalculateLayout(::System::IntPtr node, float_t parentWidth, float_t parentHeight, int32_t parentDirection, ::System::IntPtr state, ::System::IntPtr exceptionGCHandle);
 
-  /// @brief Method LayoutLog_Internal, addr 0x6acf5fc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method LayoutLog_Internal, addr 0x6b38480, size 0xb4, virtual false, abstract: false, final false
   static inline void LayoutLog_Internal(::System::IntPtr nodePtr, ::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogEventType type, ::StringW message);
 
   static inline ::System::Action_1<::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogData*>* getStaticF_onLayoutLog();

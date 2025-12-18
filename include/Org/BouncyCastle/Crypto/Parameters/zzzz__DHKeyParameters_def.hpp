@@ -38,13 +38,13 @@ public:
   /// @brief Field parameters, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters;
 
-  /// @brief Method Equals, addr 0x32e7604, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3311e48, size 0xac, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x32e76b0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x3311ef4, size 0x6c, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* other);
 
-  /// @brief Method GetHashCode, addr 0x32e771c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3311f60, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
@@ -64,16 +64,16 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
 
-  /// @brief Method .ctor, addr 0x32e756c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3311db0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x32e75e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3311e2c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid);
 
-  /// @brief Method get_AlgorithmOid, addr 0x32e75fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AlgorithmOid, addr 0x3311e40, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_AlgorithmOid();
 
-  /// @brief Method get_Parameters, addr 0x32e75f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x3311e38, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* get_Parameters();
 
 protected:

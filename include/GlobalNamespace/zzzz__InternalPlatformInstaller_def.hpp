@@ -33,19 +33,19 @@ public:
                       put = __cordl_internal_set__mockPlatformAdditionalContentModelInitialData)) ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>
       _mockPlatformAdditionalContentModelInitialData;
 
-  /// @brief Method BindAdditionalContentModel, addr 0x364b988, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method BindAdditionalContentModel, addr 0x367879c, size 0x8c, virtual false, abstract: false, final false
   inline void BindAdditionalContentModel();
 
-  /// @brief Method BindAnalyticsModel, addr 0x364b8b4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method BindAnalyticsModel, addr 0x36786c8, size 0xd4, virtual false, abstract: false, final false
   inline void BindAnalyticsModel();
 
-  /// @brief Method BindBeatmapDataAssetFileModel, addr 0x364ba14, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method BindBeatmapDataAssetFileModel, addr 0x3678828, size 0xa0, virtual false, abstract: false, final false
   inline void BindBeatmapDataAssetFileModel();
 
-  /// @brief Method BindMockPlatformAdditionalContentModel, addr 0x364bab4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method BindMockPlatformAdditionalContentModel, addr 0x36788c8, size 0xc8, virtual false, abstract: false, final false
   inline void BindMockPlatformAdditionalContentModel();
 
-  /// @brief Method InstallBindings, addr 0x364b894, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x36786a8, size 0x20, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::InternalPlatformInstaller* New_ctor(::GlobalNamespace::AppInitSetupData* appInitSetupData,
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__mockPlatformAdditionalContentModelInitialData(::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> value);
 
-  /// @brief Method .ctor, addr 0x364b828, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x367863c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::AppInitSetupData* appInitSetupData, ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData);
 
 protected:
@@ -81,7 +81,7 @@ public:
   InternalPlatformInstaller(InternalPlatformInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21018 };
 
   /// @brief Field _isTest, offset: 0x18, size: 0x1, def value: None
   bool ____isTest;

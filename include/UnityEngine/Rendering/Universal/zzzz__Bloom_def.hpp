@@ -78,10 +78,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x6653fa8, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x66bbb34, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// @brief Method IsTileCompatible, addr 0x6653fd8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x66bbb64, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::Bloom* New_ctor();
@@ -152,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set_tint(::UnityEngine::Rendering::ColorParameter* value);
 
-  /// @brief Method .ctor, addr 0x6653fe0, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66bbb6c, size 0x27c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -173,7 +173,7 @@ public:
   Bloom(Bloom const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12709 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12713 };
 
   /// @brief Field skipIterations, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedIntParameter* ___skipIterations;

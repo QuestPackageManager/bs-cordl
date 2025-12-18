@@ -126,45 +126,45 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method BindHeaderContent, addr 0x6af6b5c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method BindHeaderContent, addr 0x6b5f9e0, size 0xdc, virtual false, abstract: false, final false
   inline void BindHeaderContent();
 
-  /// @brief Method CreateDefaultHeaderContent, addr 0x6af6c38, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultHeaderContent, addr 0x6b5fabc, size 0x1a8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* CreateDefaultHeaderContent();
 
-  /// @brief Method DefaultBindHeaderContent, addr 0x6af6de0, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method DefaultBindHeaderContent, addr 0x6b5fc64, size 0x2bc, virtual false, abstract: false, final false
   inline void DefaultBindHeaderContent(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method DestroyHeaderContent, addr 0x6af5f84, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method DestroyHeaderContent, addr 0x6b5ee08, size 0x17c, virtual false, abstract: false, final false
   inline void DestroyHeaderContent();
 
-  /// @brief Method Dispose, addr 0x6af4ffc, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6b5de80, size 0x190, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method InitManipulators, addr 0x6af6590, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method InitManipulators, addr 0x6b5f414, size 0x264, virtual false, abstract: false, final false
   inline void InitManipulators();
 
   static inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn* New_ctor(::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method OnColumnChanged, addr 0x6af67f4, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method OnColumnChanged, addr 0x6b5f678, size 0x1b0, virtual false, abstract: false, final false
   inline void OnColumnChanged(::UnityEngine::UIElements::Column* c, ::UnityEngine::UIElements::ColumnDataType role);
 
-  /// @brief Method OnColumnResized, addr 0x6af69d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnColumnResized, addr 0x6b5f85c, size 0x4, virtual false, abstract: false, final false
   inline void OnColumnResized(::UnityEngine::UIElements::Column* c);
 
-  /// @brief Method OnMoverChanged, addr 0x6af69dc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnMoverChanged, addr 0x6b5f860, size 0xa4, virtual false, abstract: false, final false
   inline void OnMoverChanged(::UnityEngine::UIElements::Internal::ColumnMover* mv);
 
-  /// @brief Method UnbindHeaderContent, addr 0x6af6a80, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method UnbindHeaderContent, addr 0x6b5f904, size 0xdc, virtual false, abstract: false, final false
   inline void UnbindHeaderContent();
 
-  /// @brief Method UpdateDataFromColumn, addr 0x6af69a4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method UpdateDataFromColumn, addr 0x6b5f828, size 0x34, virtual false, abstract: false, final false
   inline void UpdateDataFromColumn();
 
-  /// @brief Method UpdateGeometryFromColumn, addr 0x6af6484, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method UpdateGeometryFromColumn, addr 0x6b5f308, size 0x10c, virtual false, abstract: false, final false
   inline void UpdateGeometryFromColumn();
 
-  /// @brief Method UpdateHeaderTemplate, addr 0x6af6260, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method UpdateHeaderTemplate, addr 0x6b5f0e4, size 0x224, virtual false, abstract: false, final false
   inline void UpdateHeaderTemplate();
 
   constexpr ::UnityEngine::UIElements::Clickable* const& __cordl_internal_get__clickable_k__BackingField() const;
@@ -209,7 +209,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SortIndicatorContainer(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator* value);
 
-  /// @brief Method .ctor, addr 0x6af1d8c, size 0x6d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b5ac10, size 0x6d4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Column* column);
 
   static inline ::StringW getStaticF_contentContainerUssClassName();
@@ -246,19 +246,19 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_clickable, addr 0x6af5e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickable, addr 0x6b5ed04, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Clickable* get_clickable();
 
-  /// @brief Method get_column, addr 0x6af5ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_column, addr 0x6b5ed24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Column* get_column();
 
-  /// @brief Method get_content, addr 0x6af5eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_content, addr 0x6b5ed34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_content();
 
-  /// @brief Method get_isContentBound, addr 0x6af6100, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_isContentBound, addr 0x6b5ef84, size 0xb8, virtual false, abstract: false, final false
   inline bool get_isContentBound();
 
-  /// @brief Method get_mover, addr 0x6af5e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mover, addr 0x6b5ed14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Internal::ColumnMover* get_mover();
 
   static inline void setStaticF_contentContainerUssClassName(::StringW value);
@@ -295,22 +295,22 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_clickable, addr 0x6af5e88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clickable, addr 0x6b5ed0c, size 0x8, virtual false, abstract: false, final false
   inline void set_clickable(::UnityEngine::UIElements::Clickable* value);
 
-  /// @brief Method set_column, addr 0x6af5ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_column, addr 0x6b5ed2c, size 0x8, virtual false, abstract: false, final false
   inline void set_column(::UnityEngine::UIElements::Column* value);
 
-  /// @brief Method set_content, addr 0x6af5eb8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_content, addr 0x6b5ed3c, size 0xcc, virtual false, abstract: false, final false
   inline void set_content(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method set_isContentBound, addr 0x6af61b8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method set_isContentBound, addr 0x6b5f03c, size 0xa8, virtual false, abstract: false, final false
   inline void set_isContentBound(bool value);
 
-  /// @brief Method set_mover, addr 0x6af5e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mover, addr 0x6b5ed1c, size 0x8, virtual false, abstract: false, final false
   inline void set_mover(::UnityEngine::UIElements::Internal::ColumnMover* value);
 
-  /// @brief Method set_sortOrderLabel, addr 0x6af4528, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_sortOrderLabel, addr 0x6b5d3ac, size 0x2c, virtual false, abstract: false, final false
   inline void set_sortOrderLabel(::StringW value);
 
 protected:

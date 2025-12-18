@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::Rendering::XRView::*)(
     ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4, bool, ::UnityEngine::Rect, ::UnityEngine::Mesh*, int32_t)>(&::UnityEngine::Experimental::Rendering::XRView::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x652dab8;
+  constexpr static std::size_t addrs = 0x6595644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Experimental::Rendering::XRView::ComputeEyeCenterUV)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x652dd10;
+  constexpr static std::size_t addrs = 0x659589c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::AlertViewHUD> (*)()>(&::GlobalNamespace::AlertViewHUD::get_Instance)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x581b13c;
+  constexpr static std::size_t addrs = 0x58818a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlertViewHUD*>::get(), "get_Instance",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::AlertViewHUD*)>(&::GlobalNamespace::AlertViewHUD::set_Instance)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x581b188;
+  constexpr static std::size_t addrs = 0x58818ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::get_HideAfterSec)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581b1d8;
+  constexpr static std::size_t addrs = 0x588193c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlertViewHUD*>::get(), "get_HideAfterSec",
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)(int32_t)>(&::GlobalNamespace::AlertViewHUD::set_HideAfterSec)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581b1e0;
+  constexpr static std::size_t addrs = 0x5881944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::get_CenterInCamera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581b1e8;
+  constexpr static std::size_t addrs = 0x588194c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlertViewHUD*>::get(), "get_CenterInCamera",
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)(bool)>(&::GlobalNamespace::AlertViewHUD::set_CenterInCamera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581b1f0;
+  constexpr static std::size_t addrs = 0x5881954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::get_Hidden)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x581b1f8;
+  constexpr static std::size_t addrs = 0x588195c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlertViewHUD*>::get(), "get_Hidden",
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::Awake)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x581b220;
+  constexpr static std::size_t addrs = 0x5881984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlertViewHUD*>::get(), "Awake",
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::GlobalNamespace::AlertViewHUD_MessageType)>(&::GlobalNamespace::AlertViewHUD::PostMessage)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x581b370;
+  constexpr static std::size_t addrs = 0x5881ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)(::StringW, ::GlobalNamespace::AlertViewHUD_MessageType)>(
     &::GlobalNamespace::AlertViewHUD::Post)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x581b46c;
+  constexpr static std::size_t addrs = 0x5881bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::ClearMessage)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x581b628;
+  constexpr static std::size_t addrs = 0x5881d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlertViewHUD*>::get(), "ClearMessage",
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::Update)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x581b688;
+  constexpr static std::size_t addrs = 0x5881dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlertViewHUD*>::get(), "Update",
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::CalculateHideAfterMessage)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x581b6a0;
+  constexpr static std::size_t addrs = 0x5881e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlertViewHUD*>::get(),
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::Reset)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x581b5d4;
+  constexpr static std::size_t addrs = 0x5881d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlertViewHUD*>::get(), "Reset",
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::Hide)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x581b354;
+  constexpr static std::size_t addrs = 0x5881ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlertViewHUD*>::get(), "Hide",
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::FollowCamera)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x581b714;
+  constexpr static std::size_t addrs = 0x5881e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlertViewHUD*>::get(), "FollowCamera",
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x581b9ec;
+  constexpr static std::size_t addrs = 0x5882150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlertViewHUD*>::get(), ".ctor",

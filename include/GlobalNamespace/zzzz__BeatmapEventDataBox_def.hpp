@@ -79,7 +79,7 @@ public:
   static ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType const Wave;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14875 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -137,21 +137,21 @@ public:
 
   __declspec(property(get = get_subtypeIdentifier)) int32_t subtypeIdentifier;
 
-  /// @brief Method BeatDistributionParamToStep, addr 0x35ec918, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BeatDistributionParamToStep, addr 0x3617854, size 0x20, virtual false, abstract: false, final false
   static inline float_t BeatDistributionParamToStep(float_t distributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType distributionParamType, int32_t count);
 
-  /// @brief Method EventDistributionParamToStep, addr 0x35ec8ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method EventDistributionParamToStep, addr 0x36177e8, size 0x6c, virtual false, abstract: false, final false
   static inline float_t EventDistributionParamToStep(int32_t index, float_t distributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType distributionParamType, int32_t count,
                                                      ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method GetBeatStep, addr 0x35ec830, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetBeatStep, addr 0x361776c, size 0x50, virtual false, abstract: false, final false
   static inline float_t GetBeatStep(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType distributionParamType, float_t distributionParam,
                                     float_t lastBaseEventRelativeBeat);
 
-  /// @brief Method GetBeatStep, addr 0x35ec810, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetBeatStep, addr 0x361774c, size 0x20, virtual false, abstract: false, final false
   inline float_t GetBeatStep(float_t lastBaseEventRelativeBeat);
 
-  /// @brief Method GetDistribution, addr 0x35ec880, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetDistribution, addr 0x36177bc, size 0x2c, virtual false, abstract: false, final false
   inline float_t GetDistribution(bool isFirstBaseDataEvent, int32_t distributionOrderIndex);
 
   static inline ::GlobalNamespace::BeatmapEventDataBox* New_ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType beatDistributionParamType,
@@ -213,7 +213,7 @@ public:
 
   constexpr void __cordl_internal_set__indexFilter_k__BackingField(::GlobalNamespace::IndexFilter* value);
 
-  /// @brief Method .ctor, addr 0x35ec7bc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36176f8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType beatDistributionParamType, float_t beatDistributionParam,
                     ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent,
                     ::GlobalNamespace::EaseType eventDistributionEaseType);
@@ -221,7 +221,7 @@ public:
   /// @brief Method get_beatStep, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_beatStep();
 
-  /// @brief Method get_indexFilter, addr 0x35ec7b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_indexFilter, addr 0x36176f0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IndexFilter* get_indexFilter();
 
   /// @brief Method get_subtypeIdentifier, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -242,7 +242,7 @@ public:
   BeatmapEventDataBox(BeatmapEventDataBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14876 };
 
   /// @brief Field <indexFilter>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IndexFilter* ____indexFilter_k__BackingField;

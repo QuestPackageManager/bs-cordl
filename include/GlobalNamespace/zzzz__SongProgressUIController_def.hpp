@@ -97,21 +97,21 @@ public:
   /// @brief Field _stringBuilder, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder)) ::System::Text::StringBuilder* _stringBuilder;
 
-  /// @brief Method HandleSongDidFinish, addr 0x579964c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleSongDidFinish, addr 0x57ffef4, size 0xcc, virtual false, abstract: false, final false
   inline void HandleSongDidFinish();
 
   static inline ::GlobalNamespace::SongProgressUIController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5799184, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x57ffa2c, size 0x110, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5798e58, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x57ff700, size 0x32c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5799294, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x57ffb3c, size 0x170, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateSongProgressUIElements, addr 0x5799404, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method UpdateSongProgressUIElements, addr 0x57ffcac, size 0x248, virtual false, abstract: false, final false
   inline void UpdateSongProgressUIElements(int32_t minutes, int32_t seconds);
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
@@ -222,7 +222,7 @@ public:
 
   constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x5799718, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57fffc0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

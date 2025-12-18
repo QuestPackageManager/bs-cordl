@@ -80,7 +80,7 @@ public:
   static ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle_Layout const Fixed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18385 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -143,7 +143,7 @@ public:
   static ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle_Direction const Up;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18371 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18386 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -224,13 +224,13 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle* New_ctor();
 
-  /// @brief Method SetHeight, addr 0x584ae80, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetHeight, addr 0x58b15e4, size 0x28, virtual false, abstract: false, final false
   inline bool SetHeight(float_t height);
 
-  /// @brief Method SetIndent, addr 0x584aed0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetIndent, addr 0x58b1634, size 0x40, virtual false, abstract: false, final false
   inline bool SetIndent(float_t value);
 
-  /// @brief Method SetWidth, addr 0x584aea8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetWidth, addr 0x58b160c, size 0x28, virtual false, abstract: false, final false
   inline bool SetWidth(float_t width);
 
   constexpr bool const& __cordl_internal_get_adaptHeight() const;
@@ -311,25 +311,25 @@ public:
 
   constexpr void __cordl_internal_set_useBottomRightMargin(bool value);
 
-  /// @brief Method .ctor, addr 0x584af10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b1674, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BottomMargin, addr 0x584ae5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_BottomMargin, addr 0x58b15c0, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_BottomMargin();
 
-  /// @brief Method get_BottomRightMargin, addr 0x5845948, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_BottomRightMargin, addr 0x58ac0ac, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_BottomRightMargin();
 
-  /// @brief Method get_LeftMargin, addr 0x584ae30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LeftMargin, addr 0x58b1594, size 0x8, virtual false, abstract: false, final false
   inline float_t get_LeftMargin();
 
-  /// @brief Method get_RightMargin, addr 0x584ae40, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_RightMargin, addr 0x58b15a4, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_RightMargin();
 
-  /// @brief Method get_TopLeftMargin, addr 0x584ae78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TopLeftMargin, addr 0x58b15dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_TopLeftMargin();
 
-  /// @brief Method get_TopMargin, addr 0x584ae38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TopMargin, addr 0x58b159c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_TopMargin();
 
 protected:
@@ -347,7 +347,7 @@ public:
   LayoutStyle(LayoutStyle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18387 };
 
   /// @brief Field flexDirection, offset: 0x1c, size: 0x4, def value: None
   ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle_Direction ___flexDirection;

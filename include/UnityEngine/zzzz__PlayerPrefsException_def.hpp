@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::PlayerPrefsException* New_ctor(::StringW error);
 
-  /// @brief Method .ctor, addr 0x68a3aac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x690c930, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW error);
 
 protected:
@@ -39,7 +39,7 @@ public:
   PlayerPrefsException(PlayerPrefsException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10250 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10254 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

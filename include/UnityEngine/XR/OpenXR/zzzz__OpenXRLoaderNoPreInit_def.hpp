@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::XR::OpenXR::OpenXRLoaderNoPreInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67bc0c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6823c3c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   OpenXRLoaderNoPreInit(OpenXRLoaderNoPreInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18475 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

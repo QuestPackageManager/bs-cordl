@@ -31,12 +31,12 @@ public:
 
   __declspec(property(get = get_rightHandVRController)) ::UnityW<::GlobalNamespace::VRController> rightHandVRController;
 
-  /// @brief Method DisableAutoplayForAllControllers, addr 0x57db06c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method DisableAutoplayForAllControllers, addr 0x5841950, size 0x48, virtual false, abstract: false, final false
   inline void DisableAutoplayForAllControllers();
 
   static inline ::GlobalNamespace::PlayerVRControllersManager* New_ctor();
 
-  /// @brief Method SetupAutoplayForAllControllers, addr 0x57db020, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetupAutoplayForAllControllers, addr 0x5841904, size 0x4c, virtual false, abstract: false, final false
   inline void SetupAutoplayForAllControllers();
 
   constexpr ::UnityW<::GlobalNamespace::VRController> const& __cordl_internal_get__leftHandVRController() const;
@@ -51,13 +51,13 @@ public:
 
   constexpr void __cordl_internal_set__rightHandVRController(::UnityW<::GlobalNamespace::VRController> value);
 
-  /// @brief Method .ctor, addr 0x57db0b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5841998, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_leftHandVRController, addr 0x57db010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftHandVRController, addr 0x58418f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_leftHandVRController();
 
-  /// @brief Method get_rightHandVRController, addr 0x57db018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightHandVRController, addr 0x58418fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_rightHandVRController();
 
 protected:

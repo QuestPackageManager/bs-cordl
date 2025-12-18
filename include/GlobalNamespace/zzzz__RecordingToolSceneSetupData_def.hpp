@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set_taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x571c47c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x577a328, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,7 +50,7 @@ public:
   RecordingToolSceneSetupData(RecordingToolSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6816 };
 
   /// @brief Field taskCompletionSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<bool>* ___taskCompletionSource;

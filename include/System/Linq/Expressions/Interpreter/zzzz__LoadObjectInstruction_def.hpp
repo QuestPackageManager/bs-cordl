@@ -35,10 +35,10 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LoadObjectInstruction* New_ctor(::System::Object* value);
 
-  /// @brief Method Run, addr 0x5da04f0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5e0807c, size 0x74, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToString, addr 0x5da0564, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5e080f0, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Object* const& __cordl_internal_get__value() const;
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5da049c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e08028, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value);
 
-  /// @brief Method get_InstructionName, addr 0x5da04ac, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5e08038, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5da04a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5e08030, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -71,7 +71,7 @@ public:
   LoadObjectInstruction(LoadObjectInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16531 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16545 };
 
   /// @brief Field _value, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____value;

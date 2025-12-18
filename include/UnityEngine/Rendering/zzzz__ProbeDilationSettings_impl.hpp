@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeDilationSettings::*)()>(
     &::UnityEngine::Rendering::ProbeDilationSettings::SetDefaults)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6572fe0;
+  constexpr static std::size_t addrs = 0x65dab6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeDilationSettings>::get(),
@@ -23,7 +23,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion, ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion)>(
     &::UnityEngine::Rendering::ProbeDilationSettings::UpgradeFromTo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6573000;
+  constexpr static std::size_t addrs = 0x65dab8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

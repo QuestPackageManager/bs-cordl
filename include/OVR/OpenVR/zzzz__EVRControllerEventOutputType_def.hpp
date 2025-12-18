@@ -51,7 +51,7 @@ public:
   static ::OVR::OpenVR::EVRControllerEventOutputType const ControllerEventOutput_VREvents;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8399 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

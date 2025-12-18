@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__time_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x35dfe1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360ac80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t time);
 
-  /// @brief Method get_time, addr 0x35dfe14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x360ac78, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
 protected:
@@ -53,7 +53,7 @@ public:
   BeatmapObjectExecutionRating(BeatmapObjectExecutionRating const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14781 };
 
   /// @brief Field <time>k__BackingField, offset: 0x10, size: 0x4, def value: None
   float_t ____time_k__BackingField;

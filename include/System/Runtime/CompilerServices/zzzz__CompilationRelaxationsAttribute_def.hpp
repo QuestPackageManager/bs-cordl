@@ -37,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set_m_relaxations(int32_t value);
 
-  /// @brief Method .ctor, addr 0x595c52c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c2e78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::CompilerServices::CompilationRelaxations relaxations);
 
-  /// @brief Method .ctor, addr 0x595c524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c2e70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t relaxations);
 
-  /// @brief Method get_CompilationRelaxations, addr 0x595c534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompilationRelaxations, addr 0x59c2e80, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CompilationRelaxations();
 
 protected:

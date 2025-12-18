@@ -28,21 +28,21 @@ public:
   // Declarations
   __declspec(property(get = get_Data, put = set_Data)) ::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData* Data;
 
-  /// @brief Method GetPersistedQueryID, addr 0x319b8b4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetPersistedQueryID, addr 0x31cb730, size 0x14, virtual true, abstract: false, final false
   inline uint64_t GetPersistedQueryID();
 
-  /// @brief Method GetVariableNames, addr 0x319b688, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetVariableNames, addr 0x31cb504, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* GetVariableNames();
 
   static inline ::BeatSaber::Main::GraphQL::Mutations::BSUpsertUser* New_ctor();
 
-  /// @brief Method .ctor, addr 0x319b8c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cb744, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Data, addr 0x319b804, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x31cb680, size 0xb0, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData* get_Data();
 
-  /// @brief Method set_Data, addr 0x319b784, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x31cb600, size 0x80, virtual false, abstract: false, final false
   inline void set_Data(::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData* value);
 
 protected:
@@ -60,7 +60,7 @@ public:
   BSUpsertUser(BSUpsertUser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20910 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

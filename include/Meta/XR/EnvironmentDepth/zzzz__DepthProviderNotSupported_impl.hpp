@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::*)()>(
     &::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::Meta_XR_EnvironmentDepth_IDepthProvider_get_IsSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x582937c;
+  constexpr static std::size_t addrs = 0x588fae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::*)(bool)>(
     &::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::Meta_XR_EnvironmentDepth_IDepthProvider_set_RemoveHands)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5829384;
+  constexpr static std::size_t addrs = 0x588fae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::DepthProviderNotSupported*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::*)(bool, bool)>(
     &::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::Meta_XR_EnvironmentDepth_IDepthProvider_SetDepthEnabled)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5829388;
+  constexpr static std::size_t addrs = 0x588faec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::RenderTexture*>, ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>)>(
     &::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::Meta_XR_EnvironmentDepth_IDepthProvider_TryGetUpdatedDepthTexture)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x582938c;
+  constexpr static std::size_t addrs = 0x588faf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::*)()>(
     &::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5826af4;
+  constexpr static std::size_t addrs = 0x588d258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::EnvironmentDepth::DepthProviderNotSupported*>::get(),

@@ -32,7 +32,7 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentAudioEffectsPlayer* New_ctor();
 
-  /// @brief Method PlayEffect, addr 0x56ab03c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method PlayEffect, addr 0x570bcf0, size 0x60, virtual false, abstract: false, final false
   inline void PlayEffect(::UnityEngine::AudioClip* clip, float_t volume);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  /// @brief Method .ctor, addr 0x56ab09c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x570bd50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioSource, addr 0x56ab034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_audioSource, addr 0x570bce8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioSource> get_audioSource();
 
 protected:

@@ -19,10 +19,10 @@ namespace System::Threading {
 class CORDL_TYPE TimeoutHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTime, addr 0x5a94594, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTime, addr 0x5afaee0, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t GetTime();
 
-  /// @brief Method UpdateTimeOut, addr 0x5a94690, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method UpdateTimeOut, addr 0x5afafdc, size 0x34, virtual false, abstract: false, final false
   static inline int32_t UpdateTimeOut(uint32_t startTime, int32_t originalWaitMillisecondsTimeout);
 
 protected:

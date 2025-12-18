@@ -44,7 +44,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5639940, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x569e754, size 0x104, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::GenericLogger_ScopedStopwatch* New_ctor(::StringW processName);
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__stopwatch(::System::Diagnostics::Stopwatch* value);
 
-  /// @brief Method .ctor, addr 0x5639848, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x569e65c, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::StringW processName);
 
   /// @brief Convert to "::System::IDisposable"
@@ -82,7 +82,7 @@ public:
   GenericLogger_ScopedStopwatch(GenericLogger_ScopedStopwatch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20231 };
 
   /// @brief Field _processName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____processName;
@@ -109,16 +109,16 @@ public:
   // Declarations
   using ScopedStopwatch = ::GlobalNamespace::GenericLogger_ScopedStopwatch;
 
-  /// @brief Method Format, addr 0x5639588, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x569e39c, size 0xf8, virtual false, abstract: false, final false
   static inline ::StringW Format(::GlobalNamespace::IVerboseLogger* logger, ::StringW message);
 
-  /// @brief Method Log, addr 0x5639680, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x569e494, size 0x7c, virtual false, abstract: false, final false
   static inline void Log(::GlobalNamespace::IVerboseLogger* logger, ::StringW message);
 
   /// @brief Method Log, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Log(T logger, ::StringW message);
 
-  /// @brief Method LogWithTimestamp, addr 0x56396fc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method LogWithTimestamp, addr 0x569e510, size 0x14c, virtual false, abstract: false, final false
   static inline void LogWithTimestamp(::StringW message);
 
 protected:
@@ -136,10 +136,10 @@ public:
   GenericLogger(GenericLogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20232 };
 
   /// @brief Field kVerboseLogDefineSymbol offset 0xffffffff size 0x8
-  static constexpr ::ConstString kVerboseLogDefineSymbol{ u"BS_VERBOSE_LOGGING" };
+  static constexpr ::ConstString kVerboseLogDefineSymbol{ u"BG_VERBOSE_LOGGING" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

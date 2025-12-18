@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x577b8e4;
+  constexpr static std::size_t addrs = 0x57e218c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x577ba0c;
+  constexpr static std::size_t addrs = 0x57e22b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::*)()>(
     &::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::OnValidate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x577ba10;
+  constexpr static std::size_t addrs = 0x57e22b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::*)(float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::SetFloat)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x577b8e8;
+  constexpr static std::size_t addrs = 0x57e2190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::*)()>(
     &::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::LateUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x577babc;
+  constexpr static std::size_t addrs = 0x57e2364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::*)()>(
     &::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::SetMaterialsIfNeeded)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x577ba14;
+  constexpr static std::size_t addrs = 0x57e22bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::*)()>(
     &::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x577bac0;
+  constexpr static std::size_t addrs = 0x57e2368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

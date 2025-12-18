@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_m_next(::System::Security::Util::TokenizerShortBlock* value);
 
-  /// @brief Method .ctor, addr 0x58dd654, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5943fa0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

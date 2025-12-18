@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3314f84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x333f7c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

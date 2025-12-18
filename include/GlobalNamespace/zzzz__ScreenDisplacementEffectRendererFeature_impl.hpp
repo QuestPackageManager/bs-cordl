@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectRendererFeature::*)()>(
     &::GlobalNamespace::ScreenDisplacementEffectRendererFeature::Create)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5d3104c;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x5d98b6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectRendererFeature::*)(bool)>(
     &::GlobalNamespace::ScreenDisplacementEffectRendererFeature::Dispose)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5d3139c;
+  constexpr static std::size_t addrs = 0x5d98f1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,8 +46,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectRendererFeature::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData>)>(
     &::GlobalNamespace::ScreenDisplacementEffectRendererFeature::AddRenderPasses)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5d313d8;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5d98f58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*)>(&::GlobalNamespace::ScreenDisplacementEffectRendererFeature::DestroySafe)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5d3146c;
+  constexpr static std::size_t addrs = 0x5d98ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectRendererFeature::*)()>(
     &::GlobalNamespace::ScreenDisplacementEffectRendererFeature::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d314f8;
+  constexpr static std::size_t addrs = 0x5d99084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

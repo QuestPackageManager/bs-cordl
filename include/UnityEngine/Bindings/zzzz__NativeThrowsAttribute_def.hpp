@@ -31,10 +31,10 @@ public:
 
   constexpr void __cordl_internal_set__ThrowsException_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x69821f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69eb07c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_ThrowsException, addr 0x69821f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_ThrowsException, addr 0x69eb074, size 0x8, virtual true, abstract: false, final true
   inline void set_ThrowsException(bool value);
 
 protected:
@@ -52,7 +52,7 @@ public:
   NativeThrowsAttribute(NativeThrowsAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22711 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22709 };
 
   /// @brief Field <ThrowsException>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____ThrowsException_k__BackingField;

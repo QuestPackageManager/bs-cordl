@@ -23,10 +23,10 @@ namespace Unity::Collections::LowLevel::Unsafe {
 struct CORDL_TYPE UnsafeStreamBlockData {
 public:
   // Declarations
-  /// @brief Method Allocate, addr 0x62b0f04, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x6318a90, size 0x6c, virtual false, abstract: false, final false
   inline ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* Allocate(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* oldBlock, int32_t threadIndex);
 
-  /// @brief Method Free, addr 0x62b0f70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x6318afc, size 0x1c, virtual false, abstract: false, final false
   inline void Free(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* oldBlock);
 
   // Ctor Parameters []
@@ -43,7 +43,7 @@ public:
   static constexpr int32_t AllocationSize{ static_cast<int32_t>(0x1000) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15775 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15789 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

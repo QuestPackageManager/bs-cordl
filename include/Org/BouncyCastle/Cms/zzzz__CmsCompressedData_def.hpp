@@ -30,13 +30,13 @@ public:
   /// @brief Field contentInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo;
 
-  /// @brief Method GetContent, addr 0x358287c, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x35ad0c0, size 0x2a4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetContent();
 
-  /// @brief Method GetContent, addr 0x3582b20, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x35ad364, size 0x1f8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetContent(int32_t limit);
 
-  /// @brief Method GetEncoded, addr 0x3582d20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x35ad564, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedData* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
@@ -51,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set_contentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
-  /// @brief Method .ctor, addr 0x3582834, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ad078, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
 
-  /// @brief Method .ctor, addr 0x358285c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ad0a0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* compressedDataStream);
 
-  /// @brief Method .ctor, addr 0x3582854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ad098, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method get_ContentInfo, addr 0x3582d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentInfo, addr 0x35ad55c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_ContentInfo();
 
 protected:

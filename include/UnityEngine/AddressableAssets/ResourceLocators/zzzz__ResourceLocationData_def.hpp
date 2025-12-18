@@ -105,28 +105,28 @@ public:
 
   constexpr void __cordl_internal_set_m_ResourceType(::UnityEngine::ResourceManagement::Util::SerializedType value);
 
-  /// @brief Method .ctor, addr 0x624d054, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62b4be0, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> keys, ::StringW id, ::System::Type* provider, ::System::Type* t, ::ArrayW<::StringW, ::Array<::StringW>*> dependencies);
 
-  /// @brief Method get_Data, addr 0x624cf5c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x62b4ae8, size 0x40, virtual false, abstract: false, final false
   inline ::System::Object* get_Data();
 
-  /// @brief Method get_Dependencies, addr 0x624cf48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dependencies, addr 0x62b4ad4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Dependencies();
 
-  /// @brief Method get_InternalId, addr 0x624cf38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalId, addr 0x62b4ac4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalId();
 
-  /// @brief Method get_Keys, addr 0x624cf30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x62b4abc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Keys();
 
-  /// @brief Method get_Provider, addr 0x624cf40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Provider, addr 0x62b4acc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Provider();
 
-  /// @brief Method get_ResourceType, addr 0x624cf50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ResourceType, addr 0x62b4adc, size 0xc, virtual false, abstract: false, final false
   inline ::System::Type* get_ResourceType();
 
-  /// @brief Method set_Data, addr 0x624cf9c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x62b4b28, size 0xb8, virtual false, abstract: false, final false
   inline void set_Data(::System::Object* value);
 
 protected:
@@ -144,7 +144,7 @@ public:
   ResourceLocationData(ResourceLocationData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19540 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19566 };
 
   /// @brief Field m_Keys, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___m_Keys;

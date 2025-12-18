@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::TypeHandleRefEqualityComparer::*)(
     ::System::Runtime::Serialization::TypeHandleRef*, ::System::Runtime::Serialization::TypeHandleRef*)>(&::System::Runtime::Serialization::TypeHandleRefEqualityComparer::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f2edf0;
+  constexpr static std::size_t addrs = 0x5f9697c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Serialization::TypeHandleRefEqualityComparer::*)(
     ::System::Runtime::Serialization::TypeHandleRef*)>(&::System::Runtime::Serialization::TypeHandleRefEqualityComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f2ee18;
+  constexpr static std::size_t addrs = 0x5f969a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::TypeHandleRefEqualityComparer::*)()>(
     &::System::Runtime::Serialization::TypeHandleRefEqualityComparer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f2b680;
+  constexpr static std::size_t addrs = 0x5f9320c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

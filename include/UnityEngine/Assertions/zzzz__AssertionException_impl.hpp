@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Assertions::AssertionException::*)(::StringW, ::StringW)>(
     &::UnityEngine::Assertions::AssertionException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x68d2c74;
+  constexpr static std::size_t addrs = 0x693baf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Assertions::AssertionException::*)()>(
     &::UnityEngine::Assertions::AssertionException::get_Message)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x68d3664;
+  constexpr static std::size_t addrs = 0x693c4e8;
 
   inline static ::MethodInfo const* methodInfo() {
 

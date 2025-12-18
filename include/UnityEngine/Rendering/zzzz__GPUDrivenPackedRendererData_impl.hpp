@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(
     &::UnityEngine::Rendering::GPUDrivenPackedRendererData::get_staticShadowCaster)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68f8af0;
+  constexpr static std::size_t addrs = 0x6961974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedRendererData>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(
     &::UnityEngine::Rendering::GPUDrivenPackedRendererData::get_lodMask)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68f8afc;
+  constexpr static std::size_t addrs = 0x6961980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedRendererData>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::ShadowCastingMode (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(
     &::UnityEngine::Rendering::GPUDrivenPackedRendererData::get_shadowCastingMode)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68f8b08;
+  constexpr static std::size_t addrs = 0x696198c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedRendererData>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::LightProbeUsage (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(
     &::UnityEngine::Rendering::GPUDrivenPackedRendererData::get_lightProbeUsage)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68f8b14;
+  constexpr static std::size_t addrs = 0x6961998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedRendererData>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::MotionVectorGenerationMode (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(
     &::UnityEngine::Rendering::GPUDrivenPackedRendererData::get_motionVecGenMode)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68f8b20;
+  constexpr static std::size_t addrs = 0x69619a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedRendererData>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(
     &::UnityEngine::Rendering::GPUDrivenPackedRendererData::get_isPartOfStaticBatch)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68f8b2c;
+  constexpr static std::size_t addrs = 0x69619b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedRendererData>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(
     &::UnityEngine::Rendering::GPUDrivenPackedRendererData::get_hasTree)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68f8b38;
+  constexpr static std::size_t addrs = 0x69619bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedRendererData>::get(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(
     &::UnityEngine::Rendering::GPUDrivenPackedRendererData::get_smallMeshCulling)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68f8b44;
+  constexpr static std::size_t addrs = 0x69619c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedRendererData>::get(),
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(
     &::UnityEngine::Rendering::GPUDrivenPackedRendererData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68f8b50;
+  constexpr static std::size_t addrs = 0x69619d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedRendererData>::get(),

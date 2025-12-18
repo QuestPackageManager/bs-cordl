@@ -28,24 +28,24 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE LocalizedTextMeshProUGUI : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityW<::TMPro::TextMeshProUGUI>> {
 public:
   // Declarations
-  /// @brief Method IsAlignmentLeft, addr 0x31f3bbc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentLeft, addr 0x32245e8, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAlignmentLeft(::TMPro::TextAlignmentOptions alignment);
 
-  /// @brief Method IsAlignmentRight, addr 0x31f3b94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentRight, addr 0x32245c0, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAlignmentRight(::TMPro::TextAlignmentOptions alignment);
 
-  /// @brief Method IsOppositeDirection, addr 0x31f3b40, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsOppositeDirection, addr 0x322456c, size 0x54, virtual false, abstract: false, final false
   static inline bool IsOppositeDirection(::TMPro::TextAlignmentOptions alignment, ::BGLib::Polyglot::LanguageDirection direction);
 
   static inline ::BGLib::Polyglot::LocalizedTextMeshProUGUI* New_ctor();
 
-  /// @brief Method SetText, addr 0x31f3a28, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetText, addr 0x3224454, size 0x28, virtual true, abstract: false, final false
   inline void SetText(::TMPro::TextMeshProUGUI* text, ::StringW value);
 
-  /// @brief Method UpdateAlignment, addr 0x31f3a50, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method UpdateAlignment, addr 0x322447c, size 0xf0, virtual true, abstract: false, final false
   inline void UpdateAlignment(::TMPro::TextMeshProUGUI* text, ::BGLib::Polyglot::LanguageDirection direction);
 
-  /// @brief Method .ctor, addr 0x31f3be4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3224610, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   LocalizedTextMeshProUGUI(LocalizedTextMeshProUGUI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21980 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -27,10 +27,10 @@ public:
 
   static inline ::BeatGames::Analytics::NavigationEventSender* New_ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager);
 
-  /// @brief Method SendButtonClick, addr 0x3161480, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SendButtonClick, addr 0x3191178, size 0xf0, virtual false, abstract: false, final false
   inline void SendButtonClick(::StringW buttonID, ::StringW screenID);
 
-  /// @brief Method SendScreenImpression, addr 0x3161320, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SendScreenImpression, addr 0x3191018, size 0xec, virtual false, abstract: false, final false
   inline void SendScreenImpression(::StringW screenID);
 
   constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager> const& __cordl_internal_get__analyticsManager() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__analyticsManager(::UnityW<::OSCE::Analytics::AnalyticsManager> value);
 
-  /// @brief Method .ctor, addr 0x3161308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3191000, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager);
 
 protected:
@@ -57,7 +57,7 @@ public:
   NavigationEventSender(NavigationEventSender const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22950 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22976 };
 
   /// @brief Field _analyticsManager, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::OSCE::Analytics::AnalyticsManager> ____analyticsManager;

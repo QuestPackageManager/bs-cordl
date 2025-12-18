@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapCharacteristic (*)(::StringW)>(
     &::BeatSaber::Main::Leaderboards::LeaderboardHelpers::ConvertCharacteristic)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x31a0b78;
+  constexpr static std::size_t addrs = 0x31d09f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapDifficulty (*)(::GlobalNamespace::BeatmapDifficulty)>(
     &::BeatSaber::Main::Leaderboards::LeaderboardHelpers::ConvertDifficulty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x31a0ec0;
+  constexpr static std::size_t addrs = 0x31d0d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

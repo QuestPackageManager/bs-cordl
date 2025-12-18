@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DecalEntityChunk::*)()>(
     &::UnityEngine::Rendering::Universal::DecalEntityChunk::Push)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x663bfd0;
+  constexpr static std::size_t addrs = 0x66a3b5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DecalEntityChunk::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::DecalEntityChunk::RemoveAtSwapBack)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x663bfe0;
+  constexpr static std::size_t addrs = 0x66a3b6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DecalEntityChunk::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::DecalEntityChunk::SetCapacity)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x663c0ac;
+  constexpr static std::size_t addrs = 0x66a3c38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DecalEntityChunk::*)()>(
     &::UnityEngine::Rendering::Universal::DecalEntityChunk::Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x663c148;
+  constexpr static std::size_t addrs = 0x66a3cd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DecalEntityChunk::*)()>(
     &::UnityEngine::Rendering::Universal::DecalEntityChunk::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x663c1b4;
+  constexpr static std::size_t addrs = 0x66a3d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DecalEntityChunk*>::get(),

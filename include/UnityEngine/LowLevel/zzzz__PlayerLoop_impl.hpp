@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LowLevel::PlayerLoopSystem (*)()>(&::UnityEngine::LowLevel::PlayerLoop::GetCurrentPlayerLoop)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x68cd6fc;
+  constexpr static std::size_t addrs = 0x6936580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LowLevel::PlayerLoop*>::get(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::LowLevel::PlayerLoopSystem)>(&::UnityEngine::LowLevel::PlayerLoop::SetPlayerLoop)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x68cd988;
+  constexpr static std::size_t addrs = 0x693680c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (*)(::UnityEngine::LowLevel::PlayerLoopSystem, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*>)>(
         &::UnityEngine::LowLevel::PlayerLoop::PlayerLoopSystemToInternal)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x68cda70;
+  constexpr static std::size_t addrs = 0x69368f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystemInternal, ::Array<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*>, ::ByRef<int32_t>)>(
     &::UnityEngine::LowLevel::PlayerLoop::InternalToPlayerLoopSystem)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x68cd790;
+  constexpr static std::size_t addrs = 0x6936614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystemInternal, ::Array<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*> (*)()>(
         &::UnityEngine::LowLevel::PlayerLoop::GetCurrentPlayerLoopInternal)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x68cd768;
+  constexpr static std::size_t addrs = 0x69365ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LowLevel::PlayerLoop*>::get(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystemInternal, ::Array<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*>)>(&::UnityEngine::LowLevel::PlayerLoop::SetPlayerLoopInternal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x68cdc1c;
+  constexpr static std::size_t addrs = 0x6936aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

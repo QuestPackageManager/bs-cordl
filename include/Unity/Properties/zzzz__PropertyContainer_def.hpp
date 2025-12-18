@@ -74,13 +74,13 @@ public:
 
   static inline ::Unity::Properties::GetPropertyVisitor_PropertyContainer___c* New_ctor();
 
-  /// @brief Method <.cctor>b__5_0, addr 0x696a114, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__5_0, addr 0x69d2f98, size 0x44, virtual false, abstract: false, final false
   inline ::Unity::Properties::PropertyContainer_GetPropertyVisitor* __cctor_b__5_0();
 
-  /// @brief Method <.cctor>b__5_1, addr 0x696a158, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__5_1, addr 0x69d2fdc, size 0x20, virtual false, abstract: false, final false
   inline void __cctor_b__5_1(::Unity::Properties::PropertyContainer_GetPropertyVisitor* v);
 
-  /// @brief Method .ctor, addr 0x696a110, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d2f94, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Properties::GetPropertyVisitor_PropertyContainer___c* getStaticF___9();
@@ -102,7 +102,7 @@ public:
   GetPropertyVisitor_PropertyContainer___c(GetPropertyVisitor_PropertyContainer___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19297 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19323 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -127,7 +127,7 @@ public:
 
   static inline ::Unity::Properties::PropertyContainer_GetPropertyVisitor* New_ctor();
 
-  /// @brief Method Reset, addr 0x6969ec4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x69d2d48, size 0x34, virtual true, abstract: false, final false
   inline void Reset();
 
   /// @brief Method VisitPath, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -139,7 +139,7 @@ public:
 
   constexpr void __cordl_internal_set_Property(::Unity::Properties::IProperty* value);
 
-  /// @brief Method .ctor, addr 0x6969f24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d2da8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Pool::ObjectPool_1<::Unity::Properties::PropertyContainer_GetPropertyVisitor*>* getStaticF_Pool();
@@ -161,7 +161,7 @@ public:
   PropertyContainer_GetPropertyVisitor(PropertyContainer_GetPropertyVisitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19298 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19324 };
 
   /// @brief Field Property, offset: 0xb8, size: 0x8, def value: None
   ::Unity::Properties::IProperty* ___Property;
@@ -216,7 +216,7 @@ public:
   GetValueVisitor_1_PropertyContainer___c(GetValueVisitor_1_PropertyContainer___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19299 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19325 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -275,7 +275,7 @@ public:
   PropertyContainer_GetValueVisitor_1(PropertyContainer_GetValueVisitor_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19300 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19326 };
 
   /// @brief Field Value, offset: 0xb8, size: 0x8, def value: None
   TSrcValue ___Value;
@@ -336,7 +336,7 @@ public:
   PropertyContainer(PropertyContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19301 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19327 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

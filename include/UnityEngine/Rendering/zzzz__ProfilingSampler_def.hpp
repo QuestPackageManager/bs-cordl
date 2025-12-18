@@ -66,16 +66,16 @@ public:
 
   __declspec(property(get = get_sampler, put = set_sampler)) ::UnityEngine::Profiling::CustomSampler* sampler;
 
-  /// @brief Method Begin, addr 0x654edbc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x65b6948, size 0x38, virtual false, abstract: false, final false
   inline void Begin(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method End, addr 0x654edf4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method End, addr 0x65b6980, size 0x38, virtual false, abstract: false, final false
   inline void End(::UnityEngine::Rendering::CommandBuffer* cmd);
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TEnum> static inline ::UnityEngine::Rendering::ProfilingSampler* Get(TEnum marker);
 
-  /// @brief Method IsValid, addr 0x654ee2c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x65b69b8, size 0x20, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::UnityEngine::Rendering::ProfilingSampler* New_ctor();
@@ -112,49 +112,49 @@ public:
 
   constexpr void __cordl_internal_set_m_Recorder(::UnityEngine::Profiling::Recorder* value);
 
-  /// @brief Method .ctor, addr 0x654f0bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65b6c48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x654ecc8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65b6854, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_cpuElapsedTime, addr 0x654ef64, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_cpuElapsedTime, addr 0x65b6af0, size 0x68, virtual false, abstract: false, final false
   inline float_t get_cpuElapsedTime();
 
-  /// @brief Method get_cpuSampleCount, addr 0x654efcc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_cpuSampleCount, addr 0x65b6b58, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_cpuSampleCount();
 
-  /// @brief Method get_gpuElapsedTime, addr 0x654eeb8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_gpuElapsedTime, addr 0x65b6a44, size 0x68, virtual false, abstract: false, final false
   inline float_t get_gpuElapsedTime();
 
-  /// @brief Method get_gpuSampleCount, addr 0x654ef20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_gpuSampleCount, addr 0x65b6aac, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_gpuSampleCount();
 
-  /// @brief Method get_inlineCpuElapsedTime, addr 0x654f010, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_inlineCpuElapsedTime, addr 0x65b6b9c, size 0x68, virtual false, abstract: false, final false
   inline float_t get_inlineCpuElapsedTime();
 
-  /// @brief Method get_inlineCpuSampleCount, addr 0x654f078, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_inlineCpuSampleCount, addr 0x65b6c04, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_inlineCpuSampleCount();
 
-  /// @brief Method get_inlineSampler, addr 0x654ee5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inlineSampler, addr 0x65b69e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Profiling::CustomSampler* get_inlineSampler();
 
-  /// @brief Method get_name, addr 0x654ee6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x65b69f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_sampler, addr 0x654ee4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sampler, addr 0x65b69d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Profiling::CustomSampler* get_sampler();
 
-  /// @brief Method set_enableRecording, addr 0x654ee7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_enableRecording, addr 0x65b6a08, size 0x3c, virtual false, abstract: false, final false
   inline void set_enableRecording(bool value);
 
-  /// @brief Method set_inlineSampler, addr 0x654ee64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_inlineSampler, addr 0x65b69f0, size 0x8, virtual false, abstract: false, final false
   inline void set_inlineSampler(::UnityEngine::Profiling::CustomSampler* value);
 
-  /// @brief Method set_name, addr 0x654ee74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x65b6a00, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method set_sampler, addr 0x654ee54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sampler, addr 0x65b69e0, size 0x8, virtual false, abstract: false, final false
   inline void set_sampler(::UnityEngine::Profiling::CustomSampler* value);
 
 protected:
@@ -172,7 +172,7 @@ public:
   ProfilingSampler(ProfilingSampler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12022 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12026 };
 
   /// @brief Field <sampler>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Profiling::CustomSampler* ____sampler_k__BackingField;

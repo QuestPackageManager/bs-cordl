@@ -117,7 +117,7 @@ public:
   static ::System::Net::WebConnectionTunnel_NtlmAuthState const Response;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11616 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11620 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -144,10 +144,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x61297dc, size 0xd90, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6191368, size 0xd90, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x612a56c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x61920f8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -171,7 +171,7 @@ public:
           __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11621 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -234,10 +234,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x612a5d8, size 0x870, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6192164, size 0x870, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x612ae48, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x61929d4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -262,7 +262,7 @@ public:
       ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11618 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11622 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -393,15 +393,15 @@ public:
   /// @brief Field ntlmAuthState, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_ntlmAuthState, put = __cordl_internal_set_ntlmAuthState)) ::System::Net::WebConnectionTunnel_NtlmAuthState ntlmAuthState;
 
-  /// @brief Method FlushContents, addr 0x6129740, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method FlushContents, addr 0x61912cc, size 0x9c, virtual false, abstract: false, final false
   inline void FlushContents(::System::IO::Stream* stream, int32_t contentLength);
 
-  /// @brief Method Initialize, addr 0x6129578, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6191104, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* Initialize(::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::System::Net::WebConnectionTunnel* New_ctor(::System::Net::HttpWebRequest* request, ::System::Uri* connectUri);
 
-  /// @brief Method ReadHeaders, addr 0x6129644, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ReadHeaders, addr 0x61911d0, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_3<::System::Net::WebHeaderCollection*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t>>*
   ReadHeaders(::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken);
 
@@ -477,58 +477,58 @@ public:
 
   constexpr void __cordl_internal_set_ntlmAuthState(::System::Net::WebConnectionTunnel_NtlmAuthState value);
 
-  /// @brief Method .ctor, addr 0x61294f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6191084, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpWebRequest* request, ::System::Uri* connectUri);
 
-  /// @brief Method get_Challenge, addr 0x6129538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Challenge, addr 0x61910c4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Challenge();
 
-  /// @brief Method get_CloseConnection, addr 0x6129510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CloseConnection, addr 0x619109c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CloseConnection();
 
-  /// @brief Method get_ConnectUri, addr 0x61294f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConnectUri, addr 0x619107c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Uri* get_ConnectUri();
 
-  /// @brief Method get_Data, addr 0x6129568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x61910f4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Data();
 
-  /// @brief Method get_Headers, addr 0x6129548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x61910d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_ProxyVersion, addr 0x6129558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProxyVersion, addr 0x61910e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Version* get_ProxyVersion();
 
-  /// @brief Method get_Request, addr 0x61294e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Request, addr 0x6191074, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpWebRequest* get_Request();
 
-  /// @brief Method get_StatusCode, addr 0x6129520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusCode, addr 0x61910ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_StatusCode();
 
-  /// @brief Method get_Success, addr 0x6129500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Success, addr 0x619108c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Success();
 
-  /// @brief Method set_Challenge, addr 0x6129540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Challenge, addr 0x61910cc, size 0x8, virtual false, abstract: false, final false
   inline void set_Challenge(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_CloseConnection, addr 0x6129518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CloseConnection, addr 0x61910a4, size 0x8, virtual false, abstract: false, final false
   inline void set_CloseConnection(bool value);
 
-  /// @brief Method set_Data, addr 0x6129570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x61910fc, size 0x8, virtual false, abstract: false, final false
   inline void set_Data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method set_Headers, addr 0x6129550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Headers, addr 0x61910dc, size 0x8, virtual false, abstract: false, final false
   inline void set_Headers(::System::Net::WebHeaderCollection* value);
 
-  /// @brief Method set_ProxyVersion, addr 0x6129560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProxyVersion, addr 0x61910ec, size 0x8, virtual false, abstract: false, final false
   inline void set_ProxyVersion(::System::Version* value);
 
-  /// @brief Method set_StatusCode, addr 0x6129528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusCode, addr 0x61910b4, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusCode(int32_t value);
 
-  /// @brief Method set_StatusDescription, addr 0x6129530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusDescription, addr 0x61910bc, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusDescription(::StringW value);
 
-  /// @brief Method set_Success, addr 0x6129508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Success, addr 0x6191094, size 0x8, virtual false, abstract: false, final false
   inline void set_Success(bool value);
 
 protected:
@@ -546,7 +546,7 @@ public:
   WebConnectionTunnel(WebConnectionTunnel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11619 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11623 };
 
   /// @brief Field <Request>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Net::HttpWebRequest* ____Request_k__BackingField;

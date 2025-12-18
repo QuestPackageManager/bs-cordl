@@ -55,19 +55,19 @@ namespace LiteNetLib {
 class CORDL_TYPE EventBasedNatPunchListener_OnNatIntroductionRequest : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x56879ac, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x56e8654, size 0x2c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Net::IPEndPoint* localEndPoint, ::System::Net::IPEndPoint* remoteEndPoint, ::StringW token, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x56879d8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x56e8680, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5687998, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x56e8640, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Net::IPEndPoint* localEndPoint, ::System::Net::IPEndPoint* remoteEndPoint, ::StringW token);
 
   static inline ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5687850, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56e84f8, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -85,7 +85,7 @@ public:
   EventBasedNatPunchListener_OnNatIntroductionRequest(EventBasedNatPunchListener_OnNatIntroductionRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19788 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19814 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -100,19 +100,19 @@ namespace LiteNetLib {
 class CORDL_TYPE EventBasedNatPunchListener_OnNatIntroductionSuccess : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5687b40, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x56e87e8, size 0x9c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Net::IPEndPoint* targetEndPoint, ::LiteNetLib::NatAddressType type, ::StringW token, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5687bdc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x56e8884, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5687b2c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x56e87d4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Net::IPEndPoint* targetEndPoint, ::LiteNetLib::NatAddressType type, ::StringW token);
 
   static inline ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x56879e4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56e868c, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -130,7 +130,7 @@ public:
   EventBasedNatPunchListener_OnNatIntroductionSuccess(EventBasedNatPunchListener_OnNatIntroductionSuccess const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19815 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -160,10 +160,10 @@ public:
   /// @brief Convert operator to "::LiteNetLib::INatPunchListener"
   constexpr operator ::LiteNetLib::INatPunchListener*() noexcept;
 
-  /// @brief Method LiteNetLib.INatPunchListener.OnNatIntroductionRequest, addr 0x5687814, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INatPunchListener.OnNatIntroductionRequest, addr 0x56e84bc, size 0x1c, virtual true, abstract: false, final true
   inline void LiteNetLib_INatPunchListener_OnNatIntroductionRequest(::System::Net::IPEndPoint* localEndPoint, ::System::Net::IPEndPoint* remoteEndPoint, ::StringW token);
 
-  /// @brief Method LiteNetLib.INatPunchListener.OnNatIntroductionSuccess, addr 0x5687830, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INatPunchListener.OnNatIntroductionSuccess, addr 0x56e84d8, size 0x1c, virtual true, abstract: false, final true
   inline void LiteNetLib_INatPunchListener_OnNatIntroductionSuccess(::System::Net::IPEndPoint* targetEndPoint, ::LiteNetLib::NatAddressType type, ::StringW token);
 
   static inline ::LiteNetLib::EventBasedNatPunchListener* New_ctor();
@@ -180,22 +180,22 @@ public:
 
   constexpr void __cordl_internal_set_NatIntroductionSuccess(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess* value);
 
-  /// @brief Method .ctor, addr 0x568784c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56e84f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_NatIntroductionRequest, addr 0x5687564, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_NatIntroductionRequest, addr 0x56e820c, size 0xac, virtual false, abstract: false, final false
   inline void add_NatIntroductionRequest(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest* value);
 
-  /// @brief Method add_NatIntroductionSuccess, addr 0x56876bc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_NatIntroductionSuccess, addr 0x56e8364, size 0xac, virtual false, abstract: false, final false
   inline void add_NatIntroductionSuccess(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess* value);
 
   /// @brief Convert to "::LiteNetLib::INatPunchListener"
   constexpr ::LiteNetLib::INatPunchListener* i___LiteNetLib__INatPunchListener() noexcept;
 
-  /// @brief Method remove_NatIntroductionRequest, addr 0x5687610, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_NatIntroductionRequest, addr 0x56e82b8, size 0xac, virtual false, abstract: false, final false
   inline void remove_NatIntroductionRequest(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest* value);
 
-  /// @brief Method remove_NatIntroductionSuccess, addr 0x5687768, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_NatIntroductionSuccess, addr 0x56e8410, size 0xac, virtual false, abstract: false, final false
   inline void remove_NatIntroductionSuccess(::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionSuccess* value);
 
 protected:
@@ -213,7 +213,7 @@ public:
   EventBasedNatPunchListener(EventBasedNatPunchListener const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19816 };
 
   /// @brief Field NatIntroductionRequest, offset: 0x10, size: 0x8, def value: None
   ::LiteNetLib::EventBasedNatPunchListener_OnNatIntroductionRequest* ___NatIntroductionRequest;

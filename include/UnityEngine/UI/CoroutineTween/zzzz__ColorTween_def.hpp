@@ -81,7 +81,7 @@ public:
   static ::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenMode const RGB;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17489 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -106,7 +106,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenCallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6be011c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c48fa0, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,7 +124,7 @@ public:
   ColorTween_ColorTweenCallback(ColorTween_ColorTweenCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17490 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -156,52 +156,52 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::CoroutineTween::ITweenValue"
   constexpr operator ::UnityEngine::UI::CoroutineTween::ITweenValue*();
 
-  /// @brief Method AddOnChangedCallback, addr 0x6be0084, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AddOnChangedCallback, addr 0x6c48f08, size 0x98, virtual false, abstract: false, final false
   inline void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>* callback);
 
-  /// @brief Method GetDuration, addr 0x6be0170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDuration, addr 0x6c48ff4, size 0x8, virtual false, abstract: false, final false
   inline float_t GetDuration();
 
-  /// @brief Method GetIgnoreTimescale, addr 0x6be0168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIgnoreTimescale, addr 0x6c48fec, size 0x8, virtual false, abstract: false, final false
   inline bool GetIgnoreTimescale();
 
-  /// @brief Method TweenValue, addr 0x6bdff98, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method TweenValue, addr 0x6c48e1c, size 0xdc, virtual true, abstract: false, final true
   inline void TweenValue(float_t floatPercentage);
 
-  /// @brief Method ValidTarget, addr 0x6be0074, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ValidTarget, addr 0x6c48ef8, size 0x10, virtual true, abstract: false, final true
   inline bool ValidTarget();
 
-  /// @brief Method get_duration, addr 0x6bdff78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_duration, addr 0x6c48dfc, size 0x8, virtual true, abstract: false, final true
   inline float_t get_duration();
 
-  /// @brief Method get_ignoreTimeScale, addr 0x6bdff88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ignoreTimeScale, addr 0x6c48e0c, size 0x8, virtual true, abstract: false, final true
   inline bool get_ignoreTimeScale();
 
-  /// @brief Method get_startColor, addr 0x6bdff38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_startColor, addr 0x6c48dbc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_startColor();
 
-  /// @brief Method get_targetColor, addr 0x6bdff50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_targetColor, addr 0x6c48dd4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_targetColor();
 
-  /// @brief Method get_tweenMode, addr 0x6bdff68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tweenMode, addr 0x6c48dec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenMode get_tweenMode();
 
   /// @brief Convert to "::UnityEngine::UI::CoroutineTween::ITweenValue"
   constexpr ::UnityEngine::UI::CoroutineTween::ITweenValue* i___UnityEngine__UI__CoroutineTween__ITweenValue();
 
-  /// @brief Method set_duration, addr 0x6bdff80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x6c48e04, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_ignoreTimeScale, addr 0x6bdff90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreTimeScale, addr 0x6c48e14, size 0x8, virtual false, abstract: false, final false
   inline void set_ignoreTimeScale(bool value);
 
-  /// @brief Method set_startColor, addr 0x6bdff44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_startColor, addr 0x6c48dc8, size 0xc, virtual false, abstract: false, final false
   inline void set_startColor(::UnityEngine::Color value);
 
-  /// @brief Method set_targetColor, addr 0x6bdff5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_targetColor, addr 0x6c48de0, size 0xc, virtual false, abstract: false, final false
   inline void set_targetColor(::UnityEngine::Color value);
 
-  /// @brief Method set_tweenMode, addr 0x6bdff70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tweenMode, addr 0x6c48df4, size 0x8, virtual false, abstract: false, final false
   inline void set_tweenMode(::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenMode value);
 
   // Ctor Parameters []
@@ -216,7 +216,7 @@ public:
                        ::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenMode m_TweenMode, float_t m_Duration, bool m_IgnoreTimeScale) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17491 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

@@ -35,7 +35,7 @@ public:
   /// @brief Method UnPauseCurrentChannel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UnPauseCurrentChannel();
 
-  /// @brief Method .ctor, addr 0x56a8cd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x570998c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_activeAudioClip, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

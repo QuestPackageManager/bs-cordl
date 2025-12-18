@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int32_t, int32_t, ::ByRef<bool>)>(&::System::UncNameHelper::ParseCanonicalName)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x615daac;
+  constexpr static std::size_t addrs = 0x61c5638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t*, uint16_t, ::ByRef<int32_t>, bool)>(&::System::UncNameHelper::IsValid)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x615dab0;
+  constexpr static std::size_t addrs = 0x61c563c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

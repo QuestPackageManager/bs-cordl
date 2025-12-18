@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem::*)(
     ::UnityEngine::GameObject*, ::UnityEngine::GameObject*)>(&::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem::CompareChildren)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5854760;
+  constexpr static std::size_t addrs = 0x58baec4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem::get_Label)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x58547cc;
+  constexpr static std::size_t addrs = 0x58baf30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem::get_Valid)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5854838;
+  constexpr static std::size_t addrs = 0x58baf9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem::BuildHandle)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5854874;
+  constexpr static std::size_t addrs = 0x58bafd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> (
     ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem::*)()>(&::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem::FetchExpectedChildren)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x585488c;
+  constexpr static std::size_t addrs = 0x58baff0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5854898;
+  constexpr static std::size_t addrs = 0x58baffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem*>::get(),

@@ -35,45 +35,45 @@ public:
   /// @brief Field use_std3, offset 0x11, size 0x1
   __declspec(property(get = __cordl_internal_get_use_std3, put = __cordl_internal_set_use_std3)) bool use_std3;
 
-  /// @brief Method Convert, addr 0x59c86c4, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x5a2f010, size 0x200, virtual false, abstract: false, final false
   inline ::StringW Convert(::StringW input, int32_t index, int32_t count, bool toAscii);
 
-  /// @brief Method Equals, addr 0x59c8504, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5a2ee50, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetAscii, addr 0x59c85a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetAscii, addr 0x5a2eeec, size 0x5c, virtual false, abstract: false, final false
   inline ::StringW GetAscii(::StringW unicode);
 
-  /// @brief Method GetAscii, addr 0x59c85fc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetAscii, addr 0x5a2ef48, size 0xc8, virtual false, abstract: false, final false
   inline ::StringW GetAscii(::StringW unicode, int32_t index, int32_t count);
 
-  /// @brief Method GetHashCode, addr 0x59c8590, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5a2eedc, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetUnicode, addr 0x59c94b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetUnicode, addr 0x5a2fe04, size 0x5c, virtual false, abstract: false, final false
   inline ::StringW GetUnicode(::StringW ascii);
 
-  /// @brief Method GetUnicode, addr 0x59c9514, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetUnicode, addr 0x5a2fe60, size 0xc8, virtual false, abstract: false, final false
   inline ::StringW GetUnicode(::StringW ascii, int32_t index, int32_t count);
 
-  /// @brief Method NamePrep, addr 0x59c8c80, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method NamePrep, addr 0x5a2f5cc, size 0x118, virtual false, abstract: false, final false
   inline ::StringW NamePrep(::StringW s, int32_t offset);
 
   static inline ::System::Globalization::IdnMapping* New_ctor();
 
-  /// @brief Method ToAscii, addr 0x59c88c4, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ToAscii, addr 0x5a2f210, size 0x1e8, virtual false, abstract: false, final false
   inline ::StringW ToAscii(::StringW s, int32_t offset);
 
-  /// @brief Method ToUnicode, addr 0x59c8aac, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method ToUnicode, addr 0x5a2f3f8, size 0x1d4, virtual false, abstract: false, final false
   inline ::StringW ToUnicode(::StringW s, int32_t offset);
 
-  /// @brief Method VerifyLength, addr 0x59c91fc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method VerifyLength, addr 0x5a2fb48, size 0xbc, virtual false, abstract: false, final false
   inline void VerifyLength(::StringW s, int32_t offset);
 
-  /// @brief Method VerifyProhibitedCharacters, addr 0x59c92b8, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method VerifyProhibitedCharacters, addr 0x5a2fc04, size 0x200, virtual false, abstract: false, final false
   inline void VerifyProhibitedCharacters(::StringW s, int32_t offset);
 
-  /// @brief Method VerifyStd3AsciiRules, addr 0x59c8d98, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method VerifyStd3AsciiRules, addr 0x5a2f6e4, size 0x160, virtual false, abstract: false, final false
   inline void VerifyStd3AsciiRules(::StringW s, int32_t offset);
 
   constexpr bool const& __cordl_internal_get_allow_unassigned() const;
@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set_use_std3(bool value);
 
-  /// @brief Method .ctor, addr 0x59c8460, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a2edac, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

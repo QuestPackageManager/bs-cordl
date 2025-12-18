@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Type*, ::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::DebugGizmoType, ::UnityEngine::Color, ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache*)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::Setup)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x584dc7c;
+  constexpr static std::size_t addrs = 0x58b43e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)()>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5859708;
+  constexpr static std::size_t addrs = 0x58bfe6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)()>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::Update)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x5859804;
+  constexpr static std::size_t addrs = 0x58bff68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)()>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::AddGizmoRenderer)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x585970c;
+  constexpr static std::size_t addrs = 0x58bfe70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)(::UnityEngine::Object*)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::GetState)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x584e574;
+  constexpr static std::size_t addrs = 0x58b4cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)(::UnityEngine::Object*, bool)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::SetState)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x584e40c;
+  constexpr static std::size_t addrs = 0x58b4b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)()>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5859afc;
+  constexpr static std::size_t addrs = 0x58c0260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)()>(
     &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x584fa30;
+  constexpr static std::size_t addrs = 0x58b6194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c*>::get(),
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(float_t)>(
     &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x584fa34;
+  constexpr static std::size_t addrs = 0x58b6198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(int32_t, int32_t, int32_t)>(
     &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_1)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x584fa38;
+  constexpr static std::size_t addrs = 0x58b619c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(int32_t, int32_t, float_t)>(
     &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_2)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x584fa7c;
+  constexpr static std::size_t addrs = 0x58b61e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(float_t)>(
     &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_3)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x584fb84;
+  constexpr static std::size_t addrs = 0x58b62e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(bool, bool, bool)>(
     &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_4)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x584fba0;
+  constexpr static std::size_t addrs = 0x58b6304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(bool, bool, float_t)>(
     &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_5)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x584fbb4;
+  constexpr static std::size_t addrs = 0x58b6318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::*)(float_t)>(
     &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils___c::__cctor_b__4_6)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x584fbc0;
+  constexpr static std::size_t addrs = 0x58b6324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::IsTypeSupported)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x584edec;
+  constexpr static std::size_t addrs = 0x58b5550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::IsTypeSupportsValueRange)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x584eef8;
+  constexpr static std::size_t addrs = 0x58b565c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -236,7 +236,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Meta::XR::ImmersiveDebugger::Manager::Tweak* (*)(::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::DebugMember*,
                                                                    ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::Create)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x584efac;
+  constexpr static std::size_t addrs = 0x58b5710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -254,7 +254,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Meta::XR::ImmersiveDebugger::Manager::TweakEnum* (*)(::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::DebugMember*, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle,
                                                            ::System::Type*)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::Create)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x584f1c8;
+  constexpr static std::size_t addrs = 0x58b592c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*)>(
     &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::IsMemberValidForTweak)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x584f44c;
+  constexpr static std::size_t addrs = 0x58b5bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -288,7 +288,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::DebugMember*, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle)>(
         &::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::ProcessMinMaxRange)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x584f5d0;
+  constexpr static std::size_t addrs = 0x58b5d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, ::StringW)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakUtils::RoundToNearest)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x584f830;
+  constexpr static std::size_t addrs = 0x58b5f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

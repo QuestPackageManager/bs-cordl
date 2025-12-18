@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::UnityEngine::ScalableBufferManager::get_widthScaleFactor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6854bd8;
+  constexpr static std::size_t addrs = 0x68bc750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ScalableBufferManager*>::get(),
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::UnityEngine::ScalableBufferManager::get_heightScaleFactor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6854c00;
+  constexpr static std::size_t addrs = 0x68bc778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ScalableBufferManager*>::get(),
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, float_t)>(&::UnityEngine::ScalableBufferManager::ResizeBuffers)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6854c28;
+  constexpr static std::size_t addrs = 0x68bc7a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

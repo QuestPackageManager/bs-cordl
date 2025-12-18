@@ -24,15 +24,15 @@ public:
   /// @brief Field BuildInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_BuildInfo, put = __cordl_internal_set_BuildInfo)) ::UnityW<::UnityEngine::UI::Text> BuildInfo;
 
-  /// @brief Method LoadBuildInfo, addr 0x5c0406c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method LoadBuildInfo, addr 0x5c6ab4c, size 0xb4, virtual false, abstract: false, final false
   inline void LoadBuildInfo();
 
   static inline ::GlobalNamespace::OVRBuildInfo* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x5c04068, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5c6ab48, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x5c04120, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5c6ac00, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_BuildInfo() const;
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_BuildInfo(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x5c04124, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c6ac04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,7 +59,7 @@ public:
   OVRBuildInfo(OVRBuildInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7107 };
 
   /// @brief Field BuildInfo, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___BuildInfo;

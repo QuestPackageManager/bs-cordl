@@ -27,10 +27,10 @@ namespace BGLib::DotnetExtension::Disposables {
 class CORDL_TYPE DisposableExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddTo, addr 0x31e8bdc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AddTo, addr 0x32195b8, size 0x1c, virtual false, abstract: false, final false
   static inline void AddTo(::System::IDisposable* disposable, ::BGLib::DotnetExtension::Disposables::CompositeDisposable* compositeDisposable);
 
-  /// @brief Method AddTo, addr 0x31e8bf8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AddTo, addr 0x32195d4, size 0x1c, virtual false, abstract: false, final false
   static inline void AddTo(::System::IDisposable* disposable, ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable* compositeDisposable);
 
 protected:
@@ -48,7 +48,7 @@ public:
   DisposableExtensions(DisposableExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20542 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

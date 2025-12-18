@@ -181,7 +181,7 @@ public:
   TemporalAA_ShaderConstants(TemporalAA_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12941 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -218,7 +218,7 @@ public:
   TemporalAA_ShaderKeywords(TemporalAA_ShaderKeywords const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12938 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12942 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -245,43 +245,43 @@ public:
 
   __declspec(property(get = get_varianceClampScale, put = set_varianceClampScale)) float_t varianceClampScale;
 
-  /// @brief Method Create, addr 0x66a12bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6708e48, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::TemporalAA_Settings Create();
 
-  /// @brief Method get_baseBlendFactor, addr 0x66a11e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_baseBlendFactor, addr 0x6708d70, size 0x10, virtual false, abstract: false, final false
   inline float_t get_baseBlendFactor();
 
-  /// @brief Method get_contrastAdaptiveSharpening, addr 0x66a1294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contrastAdaptiveSharpening, addr 0x6708e20, size 0x8, virtual false, abstract: false, final false
   inline float_t get_contrastAdaptiveSharpening();
 
-  /// @brief Method get_jitterScale, addr 0x66a1218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_jitterScale, addr 0x6708da4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_jitterScale();
 
-  /// @brief Method get_mipBias, addr 0x66a1240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mipBias, addr 0x6708dcc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_mipBias();
 
-  /// @brief Method get_quality, addr 0x66a11c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_quality, addr 0x6708d50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::TemporalAAQuality get_quality();
 
-  /// @brief Method get_varianceClampScale, addr 0x66a1268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_varianceClampScale, addr 0x6708df4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_varianceClampScale();
 
-  /// @brief Method set_baseBlendFactor, addr 0x66a11f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_baseBlendFactor, addr 0x6708d80, size 0x24, virtual false, abstract: false, final false
   inline void set_baseBlendFactor(float_t value);
 
-  /// @brief Method set_contrastAdaptiveSharpening, addr 0x66a129c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_contrastAdaptiveSharpening, addr 0x6708e28, size 0x20, virtual false, abstract: false, final false
   inline void set_contrastAdaptiveSharpening(float_t value);
 
-  /// @brief Method set_jitterScale, addr 0x66a1220, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_jitterScale, addr 0x6708dac, size 0x20, virtual false, abstract: false, final false
   inline void set_jitterScale(float_t value);
 
-  /// @brief Method set_mipBias, addr 0x66a1248, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_mipBias, addr 0x6708dd4, size 0x20, virtual false, abstract: false, final false
   inline void set_mipBias(float_t value);
 
-  /// @brief Method set_quality, addr 0x66a11cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_quality, addr 0x6708d58, size 0x18, virtual false, abstract: false, final false
   inline void set_quality(::UnityEngine::Rendering::Universal::TemporalAAQuality value);
 
-  /// @brief Method set_varianceClampScale, addr 0x66a1270, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_varianceClampScale, addr 0x6708dfc, size 0x24, virtual false, abstract: false, final false
   inline void set_varianceClampScale(float_t value);
 
   // Ctor Parameters []
@@ -296,7 +296,7 @@ public:
                                 float_t m_ContrastAdaptiveSharpening, int32_t resetHistoryFrames, int32_t jitterFrameCountOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12943 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -354,18 +354,18 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE TemporalAA_JitterFunc : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x66a12f0, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6708e7c, size 0xc8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(int32_t frameIndex, ::ByRef<::UnityEngine::Vector2> jitter, ::ByRef<bool> allowScaling, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x66a13b8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6708f44, size 0x24, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::UnityEngine::Vector2> jitter, ::ByRef<bool> allowScaling, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x66a12dc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6708e68, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(int32_t frameIndex, ::ByRef<::UnityEngine::Vector2> jitter, ::ByRef<bool> allowScaling);
 
   static inline ::UnityEngine::Rendering::Universal::TemporalAA_JitterFunc* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x669eed8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6706a64, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -383,7 +383,7 @@ public:
   TemporalAA_JitterFunc(TemporalAA_JitterFunc const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12944 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -508,7 +508,7 @@ public:
 
   constexpr void __cordl_internal_set_taaVarianceClampScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x66a13dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6708f68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -526,7 +526,7 @@ public:
   TemporalAA_TaaPassData(TemporalAA_TaaPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12945 };
 
   /// @brief Field dstTex, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___dstTex;
@@ -616,13 +616,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::TemporalAA___c* New_ctor();
 
-  /// @brief Method <Render>b__17_0, addr 0x66a1438, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__17_0, addr 0x6708fc4, size 0x318, virtual false, abstract: false, final false
   inline void _Render_b__17_0(::UnityEngine::Rendering::Universal::TemporalAA_TaaPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <Render>b__17_1, addr 0x66a1750, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__17_1, addr 0x67092dc, size 0x114, virtual false, abstract: false, final false
   inline void _Render_b__17_1(::UnityEngine::Rendering::Universal::TemporalAA_TaaPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x66a1434, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6708fc0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::TemporalAA___c* getStaticF___9();
@@ -658,7 +658,7 @@ public:
   TemporalAA___c(TemporalAA___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12946 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -702,33 +702,33 @@ public:
   /// @brief Field taaFilterWeights, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_taaFilterWeights, put = setStaticF_taaFilterWeights)) ::ArrayW<float_t, ::Array<float_t>*> taaFilterWeights;
 
-  /// @brief Method CalculateFilterWeights, addr 0x669f3dc, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method CalculateFilterWeights, addr 0x6706f68, size 0x23c, virtual false, abstract: false, final false
   static inline ::ArrayW<float_t, ::Array<float_t>*> CalculateFilterWeights(::ByRef<::UnityEngine::Rendering::Universal::TemporalAA_Settings> settings);
 
-  /// @brief Method CalculateJitter, addr 0x669f344, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CalculateJitter, addr 0x6706ed0, size 0x98, virtual false, abstract: false, final false
   static inline void CalculateJitter(int32_t frameIndex, ::ByRef<::UnityEngine::Vector2> jitter, ::ByRef<bool> allowScaling);
 
-  /// @brief Method CalculateJitterMatrix, addr 0x669f17c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method CalculateJitterMatrix, addr 0x6706d08, size 0x1c8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 CalculateJitterMatrix(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                ::UnityEngine::Rendering::Universal::TemporalAA_JitterFunc* jitterFunc);
 
-  /// @brief Method CalculateTaaFrameIndex, addr 0x669eb08, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CalculateTaaFrameIndex, addr 0x6706694, size 0x40, virtual false, abstract: false, final false
   static inline int32_t CalculateTaaFrameIndex(::ByRef<::UnityEngine::Rendering::Universal::TemporalAA_Settings> settings);
 
-  /// @brief Method ExecutePass, addr 0x669fcf4, size 0x538, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6707880, size 0x538, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Material* taaMaterial, ::ByRef<::UnityEngine::Rendering::Universal::CameraData> cameraData,
                                  ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination, ::UnityEngine::RenderTexture* motionVectors);
 
-  /// @brief Method Render, addr 0x66a022c, size 0xbb4, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6707db8, size 0xbb4, virtual false, abstract: false, final false
   static inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Material* taaMaterial,
                             ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> srcColor,
                             ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> srcDepth, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> srcMotionVectors,
                             ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> dstColor);
 
-  /// @brief Method TemporalAADescFromCameraDesc, addr 0x669f618, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method TemporalAADescFromCameraDesc, addr 0x67071a4, size 0x208, virtual false, abstract: false, final false
   static inline ::UnityEngine::RenderTextureDescriptor TemporalAADescFromCameraDesc(::ByRef<::UnityEngine::RenderTextureDescriptor> cameraDesc);
 
-  /// @brief Method ValidateAndWarn, addr 0x669f820, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method ValidateAndWarn, addr 0x67073ac, size 0x31c, virtual false, abstract: false, final false
   static inline ::StringW ValidateAndWarn(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, bool isSTPRequested);
 
   static inline ::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::Array<::UnityEngine::Experimental::Rendering::GraphicsFormat>*> getStaticF_AccumulationFormatList();
@@ -766,7 +766,7 @@ public:
   TemporalAA(TemporalAA const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12947 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

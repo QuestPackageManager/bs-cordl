@@ -38,30 +38,30 @@ public:
   /// @brief Field newLineOnAttributes, offset 0xd0, size 0x1
   __declspec(property(get = __cordl_internal_get_newLineOnAttributes, put = __cordl_internal_set_newLineOnAttributes)) bool newLineOnAttributes;
 
-  /// @brief Method FlushBuffer, addr 0x5f95280, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method FlushBuffer, addr 0x5ffce0c, size 0x28, virtual true, abstract: false, final false
   inline void FlushBuffer();
 
-  /// @brief Method Init, addr 0x5f94ebc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5ffca48, size 0x24, virtual false, abstract: false, final false
   inline void Init(::System::Xml::XmlWriterSettings* settings);
 
   static inline ::System::Xml::HtmlUtf8RawTextWriterIndent* New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method StartElementContent, addr 0x5f950f8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method StartElementContent, addr 0x5ffcc84, size 0x74, virtual true, abstract: false, final false
   inline void StartElementContent();
 
-  /// @brief Method WriteDocType, addr 0x5f94ee0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WriteDocType, addr 0x5ffca6c, size 0x1c, virtual true, abstract: false, final false
   inline void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset);
 
-  /// @brief Method WriteEndElement, addr 0x5f9516c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method WriteEndElement, addr 0x5ffccf8, size 0xa0, virtual true, abstract: false, final false
   inline void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteIndent, addr 0x5f950a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WriteIndent, addr 0x5ffcc34, size 0x50, virtual false, abstract: false, final false
   inline void WriteIndent();
 
-  /// @brief Method WriteStartAttribute, addr 0x5f9520c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method WriteStartAttribute, addr 0x5ffcd98, size 0x74, virtual true, abstract: false, final false
   inline void WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteStartElement, addr 0x5f94efc, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x5ffca88, size 0x1ac, virtual true, abstract: false, final false
   inline void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
   constexpr int32_t const& __cordl_internal_get_endBlockPos() const;
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_newLineOnAttributes(bool value);
 
-  /// @brief Method .ctor, addr 0x5f94e70, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ffc9fc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
 protected:
@@ -106,7 +106,7 @@ public:
   HtmlUtf8RawTextWriterIndent(HtmlUtf8RawTextWriterIndent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9246 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9250 };
 
   /// @brief Field indentLevel, offset: 0xbc, size: 0x4, def value: None
   int32_t ___indentLevel;

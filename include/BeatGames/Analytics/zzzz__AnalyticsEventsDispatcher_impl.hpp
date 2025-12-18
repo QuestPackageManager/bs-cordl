@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatGames::Analytics::NavigationEventSender* (::BeatGames::Analytics::AnalyticsEventsDispatcher::*)()>(
     &::BeatGames::Analytics::AnalyticsEventsDispatcher::get_Navigation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3161178;
+  constexpr static std::size_t addrs = 0x3190e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::AnalyticsEventsDispatcher*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatGames::Analytics::Events::SessionEventSender* (::BeatGames::Analytics::AnalyticsEventsDispatcher::*)()>(
     &::BeatGames::Analytics::AnalyticsEventsDispatcher::get_Session)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3161180;
+  constexpr static std::size_t addrs = 0x3190e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::AnalyticsEventsDispatcher*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatGames::Analytics::Events::TelemetryEventSender* (::BeatGames::Analytics::AnalyticsEventsDispatcher::*)()>(
     &::BeatGames::Analytics::AnalyticsEventsDispatcher::get_Telemetry)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3161188;
+  constexpr static std::size_t addrs = 0x3190e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::AnalyticsEventsDispatcher*>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::AnalyticsEventsDispatcher::*)(::OSCE::Analytics::AnalyticsManager*, ::StringW)>(
     &::BeatGames::Analytics::AnalyticsEventsDispatcher::_ctor)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3161190;
+  constexpr static std::size_t addrs = 0x3190e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

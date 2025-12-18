@@ -30,13 +30,13 @@ public:
   /// @brief Field parameters, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters)) ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters;
 
-  /// @brief Method Equals, addr 0x32e89e0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3313224, size 0xac, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x32e8a8c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x33132d0, size 0x6c, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* other);
 
-  /// @brief Method GetHashCode, addr 0x32e8af8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x331333c, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::DsaParameters* value);
 
-  /// @brief Method .ctor, addr 0x32e89cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3313210, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);
 
-  /// @brief Method get_Parameters, addr 0x32e89d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x331321c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* get_Parameters();
 
 protected:

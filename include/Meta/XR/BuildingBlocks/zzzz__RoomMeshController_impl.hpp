@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::*)(int32_t)>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581e6bc;
+  constexpr static std::size_t addrs = 0x5884e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x581e8a8;
+  constexpr static std::size_t addrs = 0x588500c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::MoveNext)> {
   constexpr static std::size_t size = 0x524;
-  constexpr static std::size_t addrs = 0x581e99c;
+  constexpr static std::size_t addrs = 0x5885100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::__m__Finally1)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x581ef08;
+  constexpr static std::size_t addrs = 0x588566c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::__m__Finally2)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x581eec0;
+  constexpr static std::size_t addrs = 0x5885624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581ef5c;
+  constexpr static std::size_t addrs = 0x58856c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x581ef64;
+  constexpr static std::size_t addrs = 0x58856c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__LoadRoomMesh_d__6::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581ef9c;
+  constexpr static std::size_t addrs = 0x5885700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::*)(int32_t)>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581e604;
+  constexpr static std::size_t addrs = 0x5884d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x581efa4;
+  constexpr static std::size_t addrs = 0x5885708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::MoveNext)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x581efa8;
+  constexpr static std::size_t addrs = 0x588570c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581f294;
+  constexpr static std::size_t addrs = 0x58859f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x581f29c;
+  constexpr static std::size_t addrs = 0x5885a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -409,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__Start_d__4::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581f2d4;
+  constexpr static std::size_t addrs = 0x5885a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -548,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::*)(int32_t)>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581e660;
+  constexpr static std::size_t addrs = 0x5884dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -563,7 +563,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x581f2dc;
+  constexpr static std::size_t addrs = 0x5885a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -578,7 +578,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x581f2e0;
+  constexpr static std::size_t addrs = 0x5885a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -593,7 +593,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581f740;
+  constexpr static std::size_t addrs = 0x5885ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -608,7 +608,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x581f748;
+  constexpr static std::size_t addrs = 0x5885eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -623,7 +623,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController__UpdateVolume_d__5::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581f780;
+  constexpr static std::size_t addrs = 0x5885ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -739,7 +739,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController::*)()>(&::Meta::XR::BuildingBlocks::RoomMeshController::Awake)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x581e50c;
+  constexpr static std::size_t addrs = 0x5884c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::RoomMeshController*>::get(), "Awake",
@@ -753,7 +753,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Meta::XR::BuildingBlocks::RoomMeshController::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController::Start)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x581e5b0;
+  constexpr static std::size_t addrs = 0x5884d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::RoomMeshController*>::get(), "Start",
@@ -767,7 +767,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Meta::XR::BuildingBlocks::RoomMeshController::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController::UpdateVolume)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x581e60c;
+  constexpr static std::size_t addrs = 0x5884d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::RoomMeshController*>::get(),
@@ -781,7 +781,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Meta::XR::BuildingBlocks::RoomMeshController::*)()>(
     &::Meta::XR::BuildingBlocks::RoomMeshController::LoadRoomMesh)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x581e668;
+  constexpr static std::size_t addrs = 0x5884dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::RoomMeshController*>::get(),
@@ -795,7 +795,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController::*)(::GlobalNamespace::OVRAnchor, ::UnityEngine::GameObject*)>(
     &::Meta::XR::BuildingBlocks::RoomMeshController::InstantiateRoomMesh)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x581e6c4;
+  constexpr static std::size_t addrs = 0x5884e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -810,7 +810,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::RoomMeshController::*)()>(&::Meta::XR::BuildingBlocks::RoomMeshController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x581e8a4;
+  constexpr static std::size_t addrs = 0x5885008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::RoomMeshController*>::get(), ".ctor",

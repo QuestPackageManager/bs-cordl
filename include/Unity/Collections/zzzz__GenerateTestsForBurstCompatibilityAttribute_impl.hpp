@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Type*, ::Array<::System::Type*>*> (
     ::Unity::Collections::GenerateTestsForBurstCompatibilityAttribute::*)()>(&::Unity::Collections::GenerateTestsForBurstCompatibilityAttribute::get_GenericTypeArguments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62a3e40;
+  constexpr static std::size_t addrs = 0x630b9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::GenerateTestsForBurstCompatibilityAttribute::*)(
     ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(&::Unity::Collections::GenerateTestsForBurstCompatibilityAttribute::set_GenericTypeArguments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62a3e48;
+  constexpr static std::size_t addrs = 0x630b9d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::GenerateTestsForBurstCompatibilityAttribute::*)()>(
     &::Unity::Collections::GenerateTestsForBurstCompatibilityAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62a3e50;
+  constexpr static std::size_t addrs = 0x630b9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

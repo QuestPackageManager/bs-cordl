@@ -34,13 +34,13 @@ public:
 
   constexpr void __cordl_internal_set__isAnimatorMotion_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x68015e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x686915c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isLooping, addr 0x680eb78, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_isLooping, addr 0x68766f0, size 0x80, virtual false, abstract: false, final false
   inline bool get_isLooping();
 
-  /// @brief Method get_isLooping_Injected, addr 0x680ebf8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isLooping_Injected, addr 0x6876770, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isLooping_Injected(::System::IntPtr _unity_self);
 
 protected:
@@ -58,7 +58,7 @@ public:
   Motion(Motion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20009 };
 
   /// @brief Field <isAnimatorMotion>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____isAnimatorMotion_k__BackingField;

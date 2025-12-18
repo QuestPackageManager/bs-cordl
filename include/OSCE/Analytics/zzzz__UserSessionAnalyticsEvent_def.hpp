@@ -38,27 +38,27 @@ public:
   /// @brief Field user_id, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_user_id, put = __cordl_internal_set_user_id)) ::StringW user_id;
 
-  /// @brief Method ApplyBasicFields, addr 0x5d245c8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ApplyBasicFields, addr 0x5d8b0a8, size 0x6c, virtual true, abstract: false, final false
   inline void ApplyBasicFields(::OSCE::Analytics::AnalyticsManager* manager);
 
-  /// @brief Method ApplyTime, addr 0x5d2480c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ApplyTime, addr 0x5d8b2ec, size 0x4c, virtual true, abstract: false, final false
   inline void ApplyTime(::OSCE::Analytics::AnalyticsManager* manager);
 
-  /// @brief Method EventRequiresAnalyticsID, addr 0x5d24794, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method EventRequiresAnalyticsID, addr 0x5d8b274, size 0x8, virtual true, abstract: false, final false
   inline bool EventRequiresAnalyticsID();
 
-  /// @brief Method GetIDForEvent, addr 0x5d24880, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetIDForEvent, addr 0x5d8b360, size 0x15c, virtual false, abstract: false, final false
   inline ::StringW GetIDForEvent(::OSCE::Analytics::AnalyticsManager* manager);
 
-  /// @brief Method GetIDType, addr 0x5d2478c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIDType, addr 0x5d8b26c, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IDType GetIDType();
 
   static inline ::OSCE::Analytics::UserSessionAnalyticsEvent* New_ctor();
 
-  /// @brief Method ReturnEventToPool, addr 0x5d2479c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ReturnEventToPool, addr 0x5d8b27c, size 0x70, virtual true, abstract: false, final false
   inline void ReturnEventToPool();
 
-  /// @brief Method ReturnedToPool, addr 0x5d24700, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ReturnedToPool, addr 0x5d8b1e0, size 0x84, virtual true, abstract: false, final false
   inline void ReturnedToPool();
 
   constexpr ::StringW const& __cordl_internal_get_session_id() const;
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_user_id(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5d24788, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d8b268, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,7 +103,7 @@ public:
   UserSessionAnalyticsEvent(UserSessionAnalyticsEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21712 };
 
   /// @brief Field user_id, offset: 0x28, size: 0x8, def value: None
   ::StringW ___user_id;

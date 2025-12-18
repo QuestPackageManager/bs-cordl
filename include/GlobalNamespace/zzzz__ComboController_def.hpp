@@ -65,21 +65,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IComboController"
   constexpr operator ::GlobalNamespace::IComboController*() noexcept;
 
-  /// @brief Method HandleNoteWasCut, addr 0x57df92c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x5846210, size 0xb0, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleNoteWasMissed, addr 0x57df9dc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x58462c0, size 0x84, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandlePlayerHeadDidEnterObstacles, addr 0x57df8d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerHeadDidEnterObstacles, addr 0x58461b8, size 0x58, virtual false, abstract: false, final false
   inline void HandlePlayerHeadDidEnterObstacles();
 
   static inline ::GlobalNamespace::ComboController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57df700, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5845fe4, size 0x1d4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x57df5ac, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5845e90, size 0x154, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -118,25 +118,25 @@ public:
 
   constexpr void __cordl_internal_set_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x57dfa60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5846344, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x57df454, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x5845d38, size 0xac, virtual true, abstract: false, final true
   inline void add_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method add_comboDidChangeEvent, addr 0x57df2d4, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_comboDidChangeEvent, addr 0x5845bb8, size 0xc0, virtual true, abstract: false, final true
   inline void add_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method get_maxCombo, addr 0x57df2cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxCombo, addr 0x5845bb0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxCombo();
 
   /// @brief Convert to "::GlobalNamespace::IComboController"
   constexpr ::GlobalNamespace::IComboController* i___GlobalNamespace__IComboController() noexcept;
 
-  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x57df500, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x5845de4, size 0xac, virtual true, abstract: false, final true
   inline void remove_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method remove_comboDidChangeEvent, addr 0x57df394, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_comboDidChangeEvent, addr 0x5845c78, size 0xc0, virtual true, abstract: false, final true
   inline void remove_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
 protected:

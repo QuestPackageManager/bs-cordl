@@ -97,28 +97,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ApplyBatchProps, addr 0x6aa0270, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ApplyBatchProps, addr 0x6b090f4, size 0xf0, virtual false, abstract: false, final false
   inline void ApplyBatchProps();
 
-  /// @brief Method Dispose, addr 0x6aa0514, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6b09398, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6aa057c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6b09400, size 0x90, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DrawRanges, addr 0x6aa0360, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method DrawRanges, addr 0x6b091e4, size 0x1a4, virtual false, abstract: false, final false
   inline void DrawRanges(::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<uint16_t>* ib, ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<::UnityEngine::UIElements::Vertex>* vb,
                          ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::DrawBufferRange> ranges);
 
-  /// @brief Method Execute, addr 0x6a9fd74, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x6b08bf8, size 0x388, virtual false, abstract: false, final false
   inline void Execute();
 
   static inline ::UnityEngine::UIElements::UIR::CommandList* New_ctor(::UnityEngine::UIElements::VisualElement* owner, ::System::IntPtr vertexDecl, ::System::IntPtr stencilState);
 
-  /// @brief Method Reset, addr 0x6a9fc54, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6b08ad8, size 0x120, virtual false, abstract: false, final false
   inline void Reset(::UnityEngine::UIElements::VisualElement* newOwner);
 
-  /// @brief Method SetTexture, addr 0x6aa00fc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method SetTexture, addr 0x6b08f80, size 0x174, virtual false, abstract: false, final false
   inline void SetTexture(int32_t name, ::UnityEngine::Texture* texture, int32_t gpuDataOffset, ::UnityEngine::Vector4 gpuData0, ::UnityEngine::Vector4 gpuData1);
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -181,16 +181,16 @@ public:
 
   constexpr void __cordl_internal_set_m_VertexDecl(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6a9fa78, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b088fc, size 0x1dc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* owner, ::System::IntPtr vertexDecl, ::System::IntPtr stencilState);
 
-  /// @brief Method get_disposed, addr 0x6aa0504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6b09388, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x6aa050c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6b09390, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

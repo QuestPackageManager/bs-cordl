@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureResource::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureResource::GetName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65c5654;
+  constexpr static std::size_t addrs = 0x662d1e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureResource::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureResource::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x65c565c;
+  constexpr static std::size_t addrs = 0x662d1e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

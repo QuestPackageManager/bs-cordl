@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Meta::XR::ImmersiveDebugger::Utils::Vector2Container* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5832ed8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x589963c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   Vector2Container(Vector2Container const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18306 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18321 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

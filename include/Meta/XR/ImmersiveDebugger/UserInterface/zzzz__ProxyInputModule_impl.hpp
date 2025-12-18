@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule> (
     ::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule::get_InputModule)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5841560;
+  constexpr static std::size_t addrs = 0x58a7cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule::set_InputModule)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5841568;
+  constexpr static std::size_t addrs = 0x58a7ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule::*)(
     ::UnityEngine::GameObject*, ::GlobalNamespace::OVRCursor*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5841570;
+  constexpr static std::size_t addrs = 0x58a7cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule::Refresh)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5841578;
+  constexpr static std::size_t addrs = 0x58a7cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule::SearchForEventSystem)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5841630;
+  constexpr static std::size_t addrs = 0x58a7d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule::*)(::UnityEngine::EventSystems::EventSystem*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule::SetupEventSystem)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5841724;
+  constexpr static std::size_t addrs = 0x58a7e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule::SetupInputModule)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5841800;
+  constexpr static std::size_t addrs = 0x58a7f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

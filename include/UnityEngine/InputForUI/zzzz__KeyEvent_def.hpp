@@ -126,7 +126,7 @@ public:
   static ::UnityEngine::InputForUI::KeyEvent_Type const State;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21617 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -158,7 +158,7 @@ public:
   constexpr ButtonsState_KeyEvent__buttons_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21619 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -189,31 +189,31 @@ public:
 
   using _buttons_e__FixedBuffer = ::UnityEngine::InputForUI::ButtonsState_KeyEvent__buttons_e__FixedBuffer;
 
-  /// @brief Method ClearUnchecked, addr 0x69255ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ClearUnchecked, addr 0x698e470, size 0x24, virtual false, abstract: false, final false
   inline void ClearUnchecked(uint32_t index);
 
-  /// @brief Method GetAllPressed, addr 0x692563c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetAllPressed, addr 0x698e4c0, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::KeyCode>* GetAllPressed();
 
-  /// @brief Method GetUnchecked, addr 0x69255ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetUnchecked, addr 0x698e430, size 0x1c, virtual false, abstract: false, final false
   inline bool GetUnchecked(uint32_t index);
 
-  /// @brief Method IsPressed, addr 0x6925610, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsPressed, addr 0x698e494, size 0x2c, virtual false, abstract: false, final false
   inline bool IsPressed(::UnityEngine::KeyCode keyCode);
 
-  /// @brief Method Reset, addr 0x6925714, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x698e598, size 0x16c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetPressed, addr 0x69256dc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetPressed, addr 0x698e560, size 0x38, virtual false, abstract: false, final false
   inline void SetPressed(::UnityEngine::KeyCode keyCode, bool pressed);
 
-  /// @brief Method SetUnchecked, addr 0x69255c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetUnchecked, addr 0x698e44c, size 0x24, virtual false, abstract: false, final false
   inline void SetUnchecked(uint32_t index);
 
-  /// @brief Method ShouldBeProcessed, addr 0x69255a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ShouldBeProcessed, addr 0x698e424, size 0xc, virtual false, abstract: false, final false
   static inline bool ShouldBeProcessed(::UnityEngine::KeyCode keyCode);
 
-  /// @brief Method ToString, addr 0x6925880, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x698e704, size 0x74, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -224,7 +224,7 @@ public:
   constexpr KeyEvent_ButtonsState(::UnityEngine::InputForUI::ButtonsState_KeyEvent__buttons_e__FixedBuffer buttons) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21593 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21620 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -284,27 +284,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x69258f8, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x698e77c, size 0x74, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.KeyCode>.GetEnumerator, addr 0x6925a0c, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.KeyCode>.GetEnumerator, addr 0x698e890, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::KeyCode>* System_Collections_Generic_IEnumerable_UnityEngine_KeyCode__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.KeyCode>.get_Current, addr 0x692596c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.KeyCode>.get_Current, addr 0x698e7f0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::KeyCode System_Collections_Generic_IEnumerator_UnityEngine_KeyCode__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6925ab4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x698e938, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6925974, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x698e7f8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69259ac, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x698e830, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x69258f4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x698e778, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -343,7 +343,7 @@ public:
 
   constexpr void __cordl_internal_set__index_5__1(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x69256bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x698e540, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::KeyCode>"
@@ -376,7 +376,7 @@ public:
   ButtonsState_KeyEvent__GetAllPressed_d__8(ButtonsState_KeyEvent__GetAllPressed_d__8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21618 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -437,28 +437,28 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputForUI::IEventProperties"
   constexpr operator ::UnityEngine::InputForUI::IEventProperties*();
 
-  /// @brief Method ToString, addr 0x69253a4, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x698e228, size 0x1fc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_eventModifiers, addr 0x6925394, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_eventModifiers, addr 0x698e218, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventModifiers get_eventModifiers();
 
-  /// @brief Method get_eventSource, addr 0x692537c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_eventSource, addr 0x698e200, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventSource get_eventSource();
 
   /// @brief Convert to "::UnityEngine::InputForUI::IEventProperties"
   constexpr ::UnityEngine::InputForUI::IEventProperties* i___UnityEngine__InputForUI__IEventProperties();
 
-  /// @brief Method set_eventModifiers, addr 0x692539c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventModifiers, addr 0x698e220, size 0x8, virtual false, abstract: false, final false
   inline void set_eventModifiers(::UnityEngine::InputForUI::EventModifiers value);
 
-  /// @brief Method set_eventSource, addr 0x6925384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventSource, addr 0x698e208, size 0x8, virtual false, abstract: false, final false
   inline void set_eventSource(::UnityEngine::InputForUI::EventSource value);
 
-  /// @brief Method set_playerId, addr 0x692538c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerId, addr 0x698e210, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(uint32_t value);
 
-  /// @brief Method set_timestamp, addr 0x6925374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_timestamp, addr 0x698e1f8, size 0x8, virtual false, abstract: false, final false
   inline void set_timestamp(::Unity::IntegerTime::DiscreteTime value);
 
   // Ctor Parameters []
@@ -475,7 +475,7 @@ public:
                      ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21621 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };

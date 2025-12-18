@@ -61,7 +61,7 @@ public:
   /// @brief Convert operator to "::OculusStudios::GraphQL::ClientInterface::IGraphQLInputSupportsClientMutationId"
   constexpr operator ::OculusStudios::GraphQL::ClientInterface::IGraphQLInputSupportsClientMutationId*() noexcept;
 
-  /// @brief Method GetParams, addr 0x319cae8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetParams, addr 0x31cc964, size 0xc, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>* GetParams();
 
   static inline ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData* New_ctor();
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__params(::System::Collections::Generic::SortedDictionary_2<::StringW, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x319caf4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cc970, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData"
@@ -84,13 +84,13 @@ public:
   /// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IGraphQLInputSupportsClientMutationId"
   constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLInputSupportsClientMutationId* i___OculusStudios__GraphQL__ClientInterface__IGraphQLInputSupportsClientMutationId() noexcept;
 
-  /// @brief Method set_ClientMutationId, addr 0x319c93c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method set_ClientMutationId, addr 0x31cc7b8, size 0x80, virtual true, abstract: false, final true
   inline void set_ClientMutationId(::StringW value);
 
-  /// @brief Method set_CountryCode, addr 0x319c9bc, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method set_CountryCode, addr 0x31cc838, size 0xac, virtual true, abstract: false, final true
   inline void set_CountryCode(::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::ISOCountryCode> value);
 
-  /// @brief Method set_Locale, addr 0x319ca68, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method set_Locale, addr 0x31cc8e4, size 0x80, virtual true, abstract: false, final true
   inline void set_Locale(::StringW value);
 
 protected:
@@ -108,7 +108,7 @@ public:
   XOCBeatGamesUserUpsertData(XOCBeatGamesUserUpsertData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20946 };
 
   /// @brief Field _params, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::SortedDictionary_2<::StringW, ::System::Object*>* ____params;

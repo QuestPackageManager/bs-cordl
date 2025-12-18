@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::FrameTimeSampleHistory___c::*)()>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x654eacc;
+  constexpr static std::size_t addrs = 0x65b6658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::FrameTimeSampleHistory___c*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::FrameTimeSampleHistory___c::*)(float_t, float_t)>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory___c::__cctor_b__15_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x654ead0;
+  constexpr static std::size_t addrs = 0x65b665c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::FrameTimeSampleHistory___c::*)(float_t, float_t)>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory___c::__cctor_b__15_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x654ead8;
+  constexpr static std::size_t addrs = 0x65b6664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::FrameTimeSampleHistory___c::*)(float_t, float_t)>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory___c::__cctor_b__15_2)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x654eaec;
+  constexpr static std::size_t addrs = 0x65b6678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::FrameTimeSampleHistory___c::*)(float_t, float_t)>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory___c::__cctor_b__15_3)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x654eaf8;
+  constexpr static std::size_t addrs = 0x65b6684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::FrameTimeSampleHistory___c::*)(float_t, float_t)>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory___c::__cctor_b__15_4)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x654eb0c;
+  constexpr static std::size_t addrs = 0x65b6698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::FrameTimeSampleHistory___c::*)(float_t, float_t)>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory___c::__cctor_b__15_5)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x654eb1c;
+  constexpr static std::size_t addrs = 0x65b66a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::FrameTimeSampleHistory::*)(int32_t)>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6541de4;
+  constexpr static std::size_t addrs = 0x65a9970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::FrameTimeSampleHistory::*)(::UnityEngine::Rendering::FrameTimeSample)>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory::Add)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x65421d0;
+  constexpr static std::size_t addrs = 0x65a9d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::FrameTimeSampleHistory::*)()>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory::ComputeAggregateValues)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x65422b8;
+  constexpr static std::size_t addrs = 0x65a9e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::FrameTimeSampleHistory*>::get(),
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::FrameTimeSampleHistory::*)(int32_t)>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory::DiscardOldSamples)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6542120;
+  constexpr static std::size_t addrs = 0x65a9cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::FrameTimeSampleHistory::*)()>(
     &::UnityEngine::Rendering::FrameTimeSampleHistory::Clear)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6543e14;
+  constexpr static std::size_t addrs = 0x65ab9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::FrameTimeSampleHistory*>::get(),
@@ -246,7 +246,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ByRef<::UnityEngine::Rendering::FrameTimeSample>, ::UnityEngine::Rendering::FrameTimeSample, ::System::Func_3<float_t, float_t, float_t>*)>(
         &::UnityEngine::Rendering::FrameTimeSampleHistory::_ComputeAggregateValues_g__ForEachSampleMember_12_0)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x654e744;
+  constexpr static std::size_t addrs = 0x65b62d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

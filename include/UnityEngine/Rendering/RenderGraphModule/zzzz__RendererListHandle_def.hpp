@@ -28,22 +28,22 @@ public:
   // Declarations
   __declspec(property(get = get_handle, put = set_handle)) int32_t handle;
 
-  /// @brief Method IsValid, addr 0x65caf84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6632b10, size 0x8, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method .ctor, addr 0x65c8e6c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66309f8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t handle, ::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType type);
 
-  /// @brief Method get_handle, addr 0x65cae58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handle, addr 0x66329e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_handle();
 
-  /// @brief Method op_Implicit, addr 0x65cae68, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x66329f4, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RendererList op_Implicit___UnityEngine__Rendering__RendererList(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle rendererList);
 
-  /// @brief Method op_Implicit, addr 0x65c6454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x662dfe0, size 0x8, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle handle);
 
-  /// @brief Method set_handle, addr 0x65cae60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_handle, addr 0x66329ec, size 0x8, virtual false, abstract: false, final false
   inline void set_handle(int32_t value);
 
   // Ctor Parameters []
@@ -55,7 +55,7 @@ public:
   constexpr RendererListHandle(::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType type, bool m_IsValid, int32_t _handle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12429 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

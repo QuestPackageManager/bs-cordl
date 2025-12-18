@@ -68,10 +68,10 @@ public:
 
   static inline ::GlobalNamespace::MusicPackPromoBanner* New_ctor();
 
-  /// @brief Method Setup, addr 0x56e7188, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x57445cc, size 0x160, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* newPromoInfo, bool probablyOwned);
 
-  /// @brief Method StartLoading, addr 0x56e711c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method StartLoading, addr 0x5744560, size 0x6c, virtual false, abstract: false, final false
   inline void StartLoading();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
@@ -122,16 +122,16 @@ public:
 
   constexpr void __cordl_internal_set__text(::StringW value);
 
-  /// @brief Method .ctor, addr 0x56e72e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x574472c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_promoButtonText, addr 0x56e7114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoButtonText, addr 0x5744558, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_promoButtonText();
 
-  /// @brief Method get_promoInfo, addr 0x56e7104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoInfo, addr 0x5744548, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DlcPromoPanelModel_PromoInfo* get_promoInfo();
 
-  /// @brief Method set_promoInfo, addr 0x56e710c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_promoInfo, addr 0x5744550, size 0x8, virtual false, abstract: false, final false
   inline void set_promoInfo(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* value);
 
 protected:
@@ -149,7 +149,7 @@ public:
   MusicPackPromoBanner(MusicPackPromoBanner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6575 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6568 };
 
   /// @brief Field kGetNow offset 0xffffffff size 0x8
   static constexpr ::ConstString kGetNow{ u"PROMO_GET_NOW_LABEL" };

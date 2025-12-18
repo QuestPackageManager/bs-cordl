@@ -66,10 +66,10 @@ namespace GlobalNamespace {
 class LiteNetLibConnectionManager_StartServerParams;
 }
 namespace GlobalNamespace {
-struct LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126;
+struct LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129;
 }
 namespace GlobalNamespace {
-struct LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127;
+struct LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130;
 }
 namespace GlobalNamespace {
 class LiteNetLibConnectionManager___c;
@@ -196,10 +196,10 @@ namespace GlobalNamespace {
 class LiteNetLibConnectionManager___c;
 }
 namespace GlobalNamespace {
-struct LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126;
+struct LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129;
 }
 namespace GlobalNamespace {
-struct LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127;
+struct LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::LiteNetLibConnectionManager_ConnectionState);
@@ -212,8 +212,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionR
 MARK_REF_PTR_T(::GlobalNamespace::LiteNetLibConnectionManager_StartClientParams);
 MARK_REF_PTR_T(::GlobalNamespace::LiteNetLibConnectionManager_StartServerParams);
 MARK_REF_PTR_T(::GlobalNamespace::LiteNetLibConnectionManager___c);
-MARK_VAL_T(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126);
-MARK_VAL_T(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127);
+MARK_VAL_T(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129);
+MARK_VAL_T(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130);
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -257,7 +257,7 @@ public:
   static ::GlobalNamespace::LiteNetLibConnectionManager_NetworkMode const Server;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18170 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -320,7 +320,7 @@ public:
   static ::GlobalNamespace::LiteNetLibConnectionManager_ConnectionState const Unconnected;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18171 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -343,6 +343,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field compatibilityVersion, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_compatibilityVersion, put = __cordl_internal_set_compatibilityVersion)) ::StringW compatibilityVersion;
+
   /// @brief Field connectionRequestHandler, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_connectionRequestHandler, put = __cordl_internal_set_connectionRequestHandler)) ::GlobalNamespace::IConnectionRequestHandler* connectionRequestHandler;
 
@@ -368,6 +371,10 @@ public:
   constexpr operator ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::LiteNetLibConnectionManager*>*() noexcept;
 
   static inline ::GlobalNamespace::LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase* New_ctor();
+
+  constexpr ::StringW const& __cordl_internal_get_compatibilityVersion() const;
+
+  constexpr ::StringW& __cordl_internal_get_compatibilityVersion();
 
   constexpr ::GlobalNamespace::IConnectionRequestHandler* const& __cordl_internal_get_connectionRequestHandler() const;
 
@@ -397,6 +404,8 @@ public:
 
   constexpr int32_t& __cordl_internal_get_port();
 
+  constexpr void __cordl_internal_set_compatibilityVersion(::StringW value);
+
   constexpr void __cordl_internal_set_connectionRequestHandler(::GlobalNamespace::IConnectionRequestHandler* value);
 
   constexpr void __cordl_internal_set_disconnectTimeoutMs(int32_t value);
@@ -411,7 +420,7 @@ public:
 
   constexpr void __cordl_internal_set_port(int32_t value);
 
-  /// @brief Method .ctor, addr 0x32148e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x323e47c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::LiteNetLibConnectionManager*>"
@@ -433,7 +442,7 @@ public:
   LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase(LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18159 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18172 };
 
   /// @brief Field connectionRequestHandler, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IConnectionRequestHandler* ___connectionRequestHandler;
@@ -456,6 +465,9 @@ public:
   /// @brief Field disconnectTimeoutMs, offset: 0x20, size: 0x4, def value: None
   int32_t ___disconnectTimeoutMs;
 
+  /// @brief Field compatibilityVersion, offset: 0x28, size: 0x8, def value: None
+  ::StringW ___compatibilityVersion;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -473,7 +485,9 @@ static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_LiteNetLib
 
 static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase, ___disconnectTimeoutMs) == 0x20, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase, ___compatibilityVersion) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase
@@ -483,10 +497,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE LiteNetLibConnectionManager_StartServerParams : public ::GlobalNamespace::LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase {
 public:
   // Declarations
-  /// @brief Field userId, offset 0x28, size 0x8
+  /// @brief Field userId, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_userId, put = __cordl_internal_set_userId)) ::StringW userId;
 
-  /// @brief Field userName, offset 0x30, size 0x8
+  /// @brief Field userName, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_userName, put = __cordl_internal_set_userName)) ::StringW userName;
 
   static inline ::GlobalNamespace::LiteNetLibConnectionManager_StartServerParams* New_ctor();
@@ -503,7 +517,7 @@ public:
 
   constexpr void __cordl_internal_set_userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x32148ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x323e488, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -521,22 +535,22 @@ public:
   LiteNetLibConnectionManager_StartServerParams(LiteNetLibConnectionManager_StartServerParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18160 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18173 };
 
-  /// @brief Field userId, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field userId, offset: 0x30, size: 0x8, def value: None
   ::StringW ___userId;
 
-  /// @brief Field userName, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field userName, offset: 0x38, size: 0x8, def value: None
   ::StringW ___userName;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_StartServerParams, ___userId) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_StartServerParams, ___userId) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_StartServerParams, ___userName) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_StartServerParams, ___userName) == 0x38, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager_StartServerParams, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager_StartServerParams, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase
@@ -548,7 +562,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LiteNetLibConnectionManager_StartClientParams* New_ctor();
 
-  /// @brief Method .ctor, addr 0x32148f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x323e494, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -566,12 +580,12 @@ public:
   LiteNetLibConnectionManager_StartClientParams(LiteNetLibConnectionManager_StartClientParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18161 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18174 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager_StartClientParams, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager_StartClientParams, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase
@@ -581,22 +595,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE LiteNetLibConnectionManager_ConnectToServerParams : public ::GlobalNamespace::LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase {
 public:
   // Declarations
-  /// @brief Field endPoint, offset 0x38, size 0x8
+  /// @brief Field endPoint, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_endPoint, put = __cordl_internal_set_endPoint)) ::System::Net::IPEndPoint* endPoint;
 
-  /// @brief Field serverIsConnectionOwner, offset 0x50, size 0x1
+  /// @brief Field serverIsConnectionOwner, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get_serverIsConnectionOwner, put = __cordl_internal_set_serverIsConnectionOwner)) bool serverIsConnectionOwner;
 
-  /// @brief Field serverUserId, offset 0x40, size 0x8
+  /// @brief Field serverUserId, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_serverUserId, put = __cordl_internal_set_serverUserId)) ::StringW serverUserId;
 
-  /// @brief Field serverUserName, offset 0x48, size 0x8
+  /// @brief Field serverUserName, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_serverUserName, put = __cordl_internal_set_serverUserName)) ::StringW serverUserName;
 
-  /// @brief Field userId, offset 0x28, size 0x8
+  /// @brief Field userId, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_userId, put = __cordl_internal_set_userId)) ::StringW userId;
 
-  /// @brief Field userName, offset 0x30, size 0x8
+  /// @brief Field userName, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_userName, put = __cordl_internal_set_userName)) ::StringW userName;
 
   static inline ::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams* New_ctor();
@@ -637,7 +651,7 @@ public:
 
   constexpr void __cordl_internal_set_userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3214904, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x323e4a0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -655,42 +669,42 @@ public:
   LiteNetLibConnectionManager_ConnectToServerParams(LiteNetLibConnectionManager_ConnectToServerParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18162 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18175 };
 
-  /// @brief Field userId, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field userId, offset: 0x30, size: 0x8, def value: None
   ::StringW ___userId;
 
-  /// @brief Field userName, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field userName, offset: 0x38, size: 0x8, def value: None
   ::StringW ___userName;
 
-  /// @brief Field endPoint, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field endPoint, offset: 0x40, size: 0x8, def value: None
   ::System::Net::IPEndPoint* ___endPoint;
 
-  /// @brief Field serverUserId, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field serverUserId, offset: 0x48, size: 0x8, def value: None
   ::StringW ___serverUserId;
 
-  /// @brief Field serverUserName, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field serverUserName, offset: 0x50, size: 0x8, def value: None
   ::StringW ___serverUserName;
 
-  /// @brief Field serverIsConnectionOwner, offset: 0x50, size: 0x1, def value: None
+  /// @brief Field serverIsConnectionOwner, offset: 0x58, size: 0x1, def value: None
   bool ___serverIsConnectionOwner;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams, ___userId) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams, ___userId) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams, ___userName) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams, ___userName) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams, ___endPoint) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams, ___endPoint) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams, ___serverUserId) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams, ___serverUserId) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams, ___serverUserName) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams, ___serverUserName) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams, ___serverIsConnectionOwner) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams, ___serverIsConnectionOwner) == 0x58, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies System.Object
@@ -700,6 +714,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE LiteNetLibConnectionManager_NetPeerConnectionRequest : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _compatibilityVersion, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__compatibilityVersion, put = __cordl_internal_set__compatibilityVersion)) ::StringW _compatibilityVersion;
+
   /// @brief Field _isConnectionOwner, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__isConnectionOwner, put = __cordl_internal_set__isConnectionOwner)) bool _isConnectionOwner;
 
@@ -712,6 +729,8 @@ public:
   /// @brief Field _userName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__userName, put = __cordl_internal_set__userName)) ::StringW _userName;
 
+  __declspec(property(get = get_compatibilityVersion)) ::StringW compatibilityVersion;
+
   __declspec(property(get = get_endPoint)) ::System::Net::IPEndPoint* endPoint;
 
   __declspec(property(get = get_isConnectionOwner)) bool isConnectionOwner;
@@ -720,11 +739,15 @@ public:
 
   __declspec(property(get = get_userName)) ::StringW userName;
 
-  /// @brief Method Accept, addr 0x32144d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Accept, addr 0x323e06c, size 0x18, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPeer* Accept();
 
   static inline ::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest* New_ctor(::LiteNetLib::ConnectionRequest* request, ::StringW userId, ::StringW userName,
-                                                                                                  bool isConnectionOwner);
+                                                                                                  bool isConnectionOwner, ::StringW compatibilityVersion);
+
+  constexpr ::StringW const& __cordl_internal_get__compatibilityVersion() const;
+
+  constexpr ::StringW& __cordl_internal_get__compatibilityVersion();
 
   constexpr bool const& __cordl_internal_get__isConnectionOwner() const;
 
@@ -742,6 +765,8 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__userName();
 
+  constexpr void __cordl_internal_set__compatibilityVersion(::StringW value);
+
   constexpr void __cordl_internal_set__isConnectionOwner(bool value);
 
   constexpr void __cordl_internal_set__request(::LiteNetLib::ConnectionRequest* value);
@@ -750,19 +775,22 @@ public:
 
   constexpr void __cordl_internal_set__userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3214948, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::LiteNetLib::ConnectionRequest* request, ::StringW userId, ::StringW userName, bool isConnectionOwner);
+  /// @brief Method .ctor, addr 0x323e4ec, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::LiteNetLib::ConnectionRequest* request, ::StringW userId, ::StringW userName, bool isConnectionOwner, ::StringW compatibilityVersion);
 
-  /// @brief Method get_endPoint, addr 0x3214930, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_compatibilityVersion, addr 0x323e4e4, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_compatibilityVersion();
+
+  /// @brief Method get_endPoint, addr 0x323e4cc, size 0x18, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_endPoint();
 
-  /// @brief Method get_isConnectionOwner, addr 0x3214928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isConnectionOwner, addr 0x323e4c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isConnectionOwner();
 
-  /// @brief Method get_userId, addr 0x3214918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userId, addr 0x323e4b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0x3214920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userName, addr 0x323e4bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userName();
 
 protected:
@@ -780,7 +808,7 @@ public:
   LiteNetLibConnectionManager_NetPeerConnectionRequest(LiteNetLibConnectionManager_NetPeerConnectionRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18176 };
 
   /// @brief Field _userId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____userId;
@@ -794,6 +822,9 @@ public:
   /// @brief Field _request, offset: 0x28, size: 0x8, def value: None
   ::LiteNetLib::ConnectionRequest* ____request;
 
+  /// @brief Field _compatibilityVersion, offset: 0x30, size: 0x8, def value: None
+  ::StringW ____compatibilityVersion;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -805,7 +836,9 @@ static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_NetPeerCon
 
 static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest, ____request) == 0x28, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest, ____compatibilityVersion) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies System.Object
@@ -815,6 +848,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE LiteNetLibConnectionManager_NetPeerConnection : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _compatibilityVersion, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__compatibilityVersion, put = __cordl_internal_set__compatibilityVersion)) ::StringW _compatibilityVersion;
+
   /// @brief Field _isConnectionOwner, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__isConnectionOwner, put = __cordl_internal_set__isConnectionOwner)) bool _isConnectionOwner;
 
@@ -823,6 +859,8 @@ public:
 
   /// @brief Field _userName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__userName, put = __cordl_internal_set__userName)) ::StringW _userName;
+
+  __declspec(property(get = get_compatibilityVersion)) ::StringW compatibilityVersion;
 
   __declspec(property(get = get_isConnectionOwner)) bool isConnectionOwner;
 
@@ -839,22 +877,27 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection*>*() noexcept;
 
-  /// @brief Method Disconnect, addr 0x32139bc, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Disconnect, addr 0x323d52c, size 0x18, virtual true, abstract: false, final true
   inline void Disconnect();
 
-  /// @brief Method Equals, addr 0x3214a48, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x323e5f4, size 0x114, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3214a00, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x323e5ac, size 0x48, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection* other);
 
-  /// @brief Method GetHashCode, addr 0x3214b5c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x323e708, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  static inline ::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection* New_ctor(::LiteNetLib::NetPeer* netPeer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
+  static inline ::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection* New_ctor(::LiteNetLib::NetPeer* netPeer, ::StringW userId, ::StringW userName, bool isConnectionOwner,
+                                                                                           ::StringW compatibilityVersion);
 
-  /// @brief Method Send, addr 0x3214970, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Send, addr 0x323e51c, size 0x90, virtual true, abstract: false, final true
   inline void Send(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
+
+  constexpr ::StringW const& __cordl_internal_get__compatibilityVersion() const;
+
+  constexpr ::StringW& __cordl_internal_get__compatibilityVersion();
 
   constexpr bool const& __cordl_internal_get__isConnectionOwner() const;
 
@@ -872,6 +915,8 @@ public:
 
   constexpr ::LiteNetLib::NetPeer*& __cordl_internal_get_netPeer();
 
+  constexpr void __cordl_internal_set__compatibilityVersion(::StringW value);
+
   constexpr void __cordl_internal_set__isConnectionOwner(bool value);
 
   constexpr void __cordl_internal_set__userId(::StringW value);
@@ -880,16 +925,19 @@ public:
 
   constexpr void __cordl_internal_set_netPeer(::LiteNetLib::NetPeer* value);
 
-  /// @brief Method .ctor, addr 0x32144e8, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::LiteNetLib::NetPeer* netPeer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
+  /// @brief Method .ctor, addr 0x323e084, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::LiteNetLib::NetPeer* netPeer, ::StringW userId, ::StringW userName, bool isConnectionOwner, ::StringW compatibilityVersion);
 
-  /// @brief Method get_isConnectionOwner, addr 0x3214968, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_compatibilityVersion, addr 0x323e514, size 0x8, virtual true, abstract: false, final true
+  inline ::StringW get_compatibilityVersion();
+
+  /// @brief Method get_isConnectionOwner, addr 0x323e50c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isConnectionOwner();
 
-  /// @brief Method get_userId, addr 0x3214958, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userId, addr 0x323e4fc, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0x3214960, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0x323e504, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::GlobalNamespace::IConnection"
@@ -914,7 +962,7 @@ public:
   LiteNetLibConnectionManager_NetPeerConnection(LiteNetLibConnectionManager_NetPeerConnection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18164 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18177 };
 
   /// @brief Field _userId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____userId;
@@ -928,6 +976,9 @@ public:
   /// @brief Field netPeer, offset: 0x28, size: 0x8, def value: None
   ::LiteNetLib::NetPeer* ___netPeer;
 
+  /// @brief Field _compatibilityVersion, offset: 0x30, size: 0x8, def value: None
+  ::StringW ____compatibilityVersion;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -939,7 +990,9 @@ static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_NetPeerCon
 
 static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection, ___netPeer) == 0x28, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection, ____compatibilityVersion) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies System.Object
@@ -952,24 +1005,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::LiteNetLibConnectionManager___c* __9;
 
-  /// @brief Field <>9__70_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__70_0, put = setStaticF___9__70_0)) ::System::Predicate_1<::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection*>* __9__70_0;
+  /// @brief Field <>9__71_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__71_0, put = setStaticF___9__71_0)) ::System::Predicate_1<::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection*>* __9__71_0;
 
   static inline ::GlobalNamespace::LiteNetLibConnectionManager___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3214bcc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x323e778, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_hasConnectionOwner>b__70_0, addr 0x3214bd0, size 0x14, virtual false, abstract: false, final false
-  inline bool _get_hasConnectionOwner_b__70_0(::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection* c);
+  /// @brief Method <get_hasConnectionOwner>b__71_0, addr 0x323e77c, size 0x14, virtual false, abstract: false, final false
+  inline bool _get_hasConnectionOwner_b__71_0(::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection* c);
 
   static inline ::GlobalNamespace::LiteNetLibConnectionManager___c* getStaticF___9();
 
-  static inline ::System::Predicate_1<::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection*>* getStaticF___9__70_0();
+  static inline ::System::Predicate_1<::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection*>* getStaticF___9__71_0();
 
   static inline void setStaticF___9(::GlobalNamespace::LiteNetLibConnectionManager___c* value);
 
-  static inline void setStaticF___9__70_0(::System::Predicate_1<::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection*>* value);
+  static inline void setStaticF___9__71_0(::System::Predicate_1<::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection*>* value);
 
 protected:
   // Ctor Parameters []
@@ -986,7 +1039,7 @@ public:
   LiteNetLibConnectionManager___c(LiteNetLibConnectionManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18178 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -997,17 +1050,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConne
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: LiteNetLibConnectionManager/<BackgroundDisconnectSentry>d__126
-struct CORDL_TYPE LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126 {
+// CS Name: LiteNetLibConnectionManager/<BackgroundDisconnectSentry>d__129
+struct CORDL_TYPE LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3214be4, size 0x458, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x323e790, size 0x458, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x321503c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x323ebe8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1015,18 +1068,18 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126();
+  constexpr LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LiteNetLibConnectionManager*", modifiers:
   // "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                            ::GlobalNamespace::LiteNetLibConnectionManager* __4__this, ::System::Threading::CancellationToken _cancellationToken_5__2,
                                                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18166 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18179 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -1049,33 +1102,33 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126, _cancellationToken_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129, _cancellationToken_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: LiteNetLibConnectionManager/<BackgroundShutdownSentry>d__127
-struct CORDL_TYPE LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127 {
+// CS Name: LiteNetLibConnectionManager/<BackgroundShutdownSentry>d__130
+struct CORDL_TYPE LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32150a8, size 0x454, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x323ec54, size 0x454, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x32154fc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x323f0a8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1083,18 +1136,18 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127();
+  constexpr LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LiteNetLibConnectionManager*", modifiers:
   // "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                          ::GlobalNamespace::LiteNetLibConnectionManager* __4__this, ::System::Threading::CancellationToken _cancellationToken_5__2,
                                                                          ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18167 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18180 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -1117,17 +1170,17 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127, _cancellationToken_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130, _cancellationToken_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies LiteNetLibConnectionManager::ConnectionState, LiteNetLibConnectionManager::NetworkMode, System.Object
@@ -1153,9 +1206,9 @@ public:
 
   using StartServerParams = ::GlobalNamespace::LiteNetLibConnectionManager_StartServerParams;
 
-  using _BackgroundDisconnectSentry_d__126 = ::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126;
+  using _BackgroundDisconnectSentry_d__129 = ::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129;
 
-  using _BackgroundShutdownSentry_d__127 = ::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127;
+  using _BackgroundShutdownSentry_d__130 = ::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130;
 
   using __c = ::GlobalNamespace::LiteNetLibConnectionManager___c;
 
@@ -1166,6 +1219,9 @@ public:
   /// @brief Field _backgroundSentryShutdownCts, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__backgroundSentryShutdownCts,
                       put = __cordl_internal_set__backgroundSentryShutdownCts)) ::System::Threading::CancellationTokenSource* _backgroundSentryShutdownCts;
+
+  /// @brief Field _compatibilityVersion, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__compatibilityVersion, put = __cordl_internal_set__compatibilityVersion)) ::StringW _compatibilityVersion;
 
   /// @brief Field _connectionRequestHandler, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__connectionRequestHandler,
@@ -1223,6 +1279,8 @@ public:
   /// @brief Field _userName, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__userName, put = __cordl_internal_set__userName)) ::StringW _userName;
 
+  __declspec(property(get = get_compatibilityVersion)) ::StringW compatibilityVersion;
+
   __declspec(property(get = get_connectionCount)) int32_t connectionCount;
 
   __declspec(property(get = get_connectionRequestHandler)) ::GlobalNamespace::IConnectionRequestHandler* connectionRequestHandler;
@@ -1245,38 +1303,38 @@ public:
 
   __declspec(property(get = get_isServer)) bool isServer;
 
-  /// @brief Field onConnectedEvent, offset 0xa0, size 0x8
+  /// @brief Field onConnectedEvent, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_onConnectedEvent, put = __cordl_internal_set_onConnectedEvent)) ::System::Action* onConnectedEvent;
 
-  /// @brief Field onConnectionConnectedEvent, offset 0xb8, size 0x8
+  /// @brief Field onConnectionConnectedEvent, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get_onConnectionConnectedEvent,
                       put = __cordl_internal_set_onConnectionConnectedEvent)) ::System::Action_1<::GlobalNamespace::IConnection*>* onConnectionConnectedEvent;
 
-  /// @brief Field onConnectionDisconnectedEvent, offset 0xc0, size 0x8
+  /// @brief Field onConnectionDisconnectedEvent, offset 0xc8, size 0x8
   __declspec(property(
       get = __cordl_internal_get_onConnectionDisconnectedEvent,
       put = __cordl_internal_set_onConnectionDisconnectedEvent)) ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* onConnectionDisconnectedEvent;
 
-  /// @brief Field onConnectionFailedEvent, offset 0xb0, size 0x8
+  /// @brief Field onConnectionFailedEvent, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_onConnectionFailedEvent,
                       put = __cordl_internal_set_onConnectionFailedEvent)) ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onConnectionFailedEvent;
 
-  /// @brief Field onDisconnectedEvent, offset 0xa8, size 0x8
+  /// @brief Field onDisconnectedEvent, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_onDisconnectedEvent, put = __cordl_internal_set_onDisconnectedEvent)) ::System::Action_1<::GlobalNamespace::DisconnectedReason>* onDisconnectedEvent;
 
-  /// @brief Field onInitializedEvent, offset 0x98, size 0x8
+  /// @brief Field onInitializedEvent, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_onInitializedEvent, put = __cordl_internal_set_onInitializedEvent)) ::System::Action* onInitializedEvent;
 
-  /// @brief Field onReceiveUnconnectedDataEvent, offset 0xd0, size 0x8
+  /// @brief Field onReceiveUnconnectedDataEvent, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get_onReceiveUnconnectedDataEvent,
                       put = __cordl_internal_set_onReceiveUnconnectedDataEvent)) ::System::Action_2<::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataReader*>* onReceiveUnconnectedDataEvent;
 
-  /// @brief Field onReceivedDataEvent, offset 0xc8, size 0x8
+  /// @brief Field onReceivedDataEvent, offset 0xd0, size 0x8
   __declspec(property(
       get = __cordl_internal_get_onReceivedDataEvent,
       put = __cordl_internal_set_onReceivedDataEvent)) ::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* onReceivedDataEvent;
 
-  /// @brief Field onStatisticsUpdatedEvent, offset 0xd8, size 0x8
+  /// @brief Field onStatisticsUpdatedEvent, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get_onStatisticsUpdatedEvent,
                       put = __cordl_internal_set_onStatisticsUpdatedEvent)) ::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate* onStatisticsUpdatedEvent;
 
@@ -1303,145 +1361,145 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AcceptAllPendingRequests, addr 0x32143cc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AcceptAllPendingRequests, addr 0x323df64, size 0x108, virtual false, abstract: false, final false
   inline void AcceptAllPendingRequests();
 
-  /// @brief Method BackgroundDisconnectSentry, addr 0x3214544, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method BackgroundDisconnectSentry, addr 0x323e0e0, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* BackgroundDisconnectSentry();
 
-  /// @brief Method BackgroundShutdownSentry, addr 0x32145f8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method BackgroundShutdownSentry, addr 0x323e194, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* BackgroundShutdownSentry();
 
-  /// @brief Method CheckSentryState, addr 0x32124d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CheckSentryState, addr 0x323c01c, size 0x4c, virtual false, abstract: false, final false
   inline void CheckSentryState();
 
-  /// @brief Method ConnectToEndPoint, addr 0x32127f0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ConnectToEndPoint, addr 0x323c33c, size 0xbc, virtual false, abstract: false, final false
   inline void ConnectToEndPoint(::StringW userId, ::StringW userName, ::System::Net::IPEndPoint* remoteEndPoint, ::StringW remoteUserId, ::StringW remoteUserName, bool remoteUserIsConnectionOwner);
 
-  /// @brief Method CreatePendingConnection, addr 0x32129a8, size 0x124, virtual false, abstract: false, final false
-  inline void CreatePendingConnection(::LiteNetLib::NetPeer* peer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
+  /// @brief Method CreatePendingConnection, addr 0x323c508, size 0x134, virtual false, abstract: false, final false
+  inline void CreatePendingConnection(::LiteNetLib::NetPeer* peer, ::StringW userId, ::StringW userName, bool isConnectionOwner, ::StringW compatibilityVersion);
 
-  /// @brief Method Disconnect, addr 0x3212d20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Disconnect, addr 0x323c890, size 0x8, virtual true, abstract: false, final true
   inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method DisconnectInternal, addr 0x3212ed0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method DisconnectInternal, addr 0x323ca40, size 0xcc, virtual false, abstract: false, final false
   inline void DisconnectInternal(::GlobalNamespace::DisconnectedReason disconnectedReason, ::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
-  /// @brief Method Dispose, addr 0x3212acc, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x323c63c, size 0x24, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeAsync, addr 0x3212b40, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method DisposeAsync, addr 0x323c6b0, size 0x1e0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::ValueTask DisposeAsync();
 
-  /// @brief Method DisposeInternal, addr 0x3212af0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method DisposeInternal, addr 0x323c660, size 0x50, virtual false, abstract: false, final false
   inline void DisposeInternal();
 
-  /// @brief Method FromLiteNetDeliveryMethod, addr 0x3214380, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FromLiteNetDeliveryMethod, addr 0x323df18, size 0x10, virtual false, abstract: false, final false
   static inline ::BGNet::Core::DeliveryMethod FromLiteNetDeliveryMethod(::LiteNetLib::DeliveryMethod deliveryMethod);
 
-  /// @brief Method GetConnection, addr 0x32134e0, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method GetConnection, addr 0x323d050, size 0x64, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IConnection* GetConnection(int32_t index);
 
-  /// @brief Method GetConnection, addr 0x32142b4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetConnection, addr 0x323de4c, size 0xcc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection* GetConnection(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method GetConnectionMessage, addr 0x32128a8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetConnectionMessage, addr 0x323c3f8, size 0x110, virtual false, abstract: false, final false
   inline ::LiteNetLib::Utils::NetDataWriter* GetConnectionMessage();
 
-  /// @brief Method GetLogFormatConnection, addr 0x32147c4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetLogFormatConnection, addr 0x323e360, size 0x74, virtual false, abstract: false, final false
   static inline ::StringW GetLogFormatConnection(::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection* netPeerConnection);
 
-  /// @brief Method GetLogFormatUserInfo, addr 0x3214838, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetLogFormatUserInfo, addr 0x323e3d4, size 0x90, virtual false, abstract: false, final false
   static inline ::StringW GetLogFormatUserInfo(::StringW userName, ::StringW userId, ::System::Net::IPEndPoint* ipEndPoint);
 
-  /// @brief Method HasConnectionToEndPoint, addr 0x32135f8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HasConnectionToEndPoint, addr 0x323d168, size 0xd4, virtual false, abstract: false, final false
   inline bool HasConnectionToEndPoint(::System::Net::IPEndPoint* endPoint);
 
-  /// @brief Method HasPendingConnectionToEndPoint, addr 0x32136cc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HasPendingConnectionToEndPoint, addr 0x323d23c, size 0xd4, virtual false, abstract: false, final false
   inline bool HasPendingConnectionToEndPoint(::System::Net::IPEndPoint* endPoint);
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline bool Init(::GlobalNamespace::IConnectionInitParams_1<T>* initParams);
 
-  /// @brief Method IsConnectedToUser, addr 0x3213544, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method IsConnectedToUser, addr 0x323d0b4, size 0xb4, virtual false, abstract: false, final false
   inline bool IsConnectedToUser(::StringW userId);
 
-  /// @brief Method LiteNetLib.INetEventListener.OnConnectionRequest, addr 0x32139f4, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INetEventListener.OnConnectionRequest, addr 0x323d564, size 0x194, virtual true, abstract: false, final true
   inline void LiteNetLib_INetEventListener_OnConnectionRequest(::LiteNetLib::ConnectionRequest* request);
 
-  /// @brief Method LiteNetLib.INetEventListener.OnNetworkError, addr 0x32139d4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INetEventListener.OnNetworkError, addr 0x323d544, size 0x1c, virtual true, abstract: false, final true
   inline void LiteNetLib_INetEventListener_OnNetworkError(::System::Net::IPEndPoint* endPoint, ::System::Net::Sockets::SocketError socketError);
 
-  /// @brief Method LiteNetLib.INetEventListener.OnNetworkLatencyUpdate, addr 0x32139f0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INetEventListener.OnNetworkLatencyUpdate, addr 0x323d560, size 0x4, virtual true, abstract: false, final true
   inline void LiteNetLib_INetEventListener_OnNetworkLatencyUpdate(::LiteNetLib::NetPeer* peer, int32_t latencyMs);
 
-  /// @brief Method LiteNetLib.INetEventListener.OnNetworkReceive, addr 0x32141e0, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INetEventListener.OnNetworkReceive, addr 0x323dd78, size 0xd4, virtual true, abstract: false, final true
   inline void LiteNetLib_INetEventListener_OnNetworkReceive(::LiteNetLib::NetPeer* peer, ::LiteNetLib::NetPacketReader* reader, ::LiteNetLib::DeliveryMethod deliveryMethod);
 
-  /// @brief Method LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected, addr 0x3214390, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected, addr 0x323df28, size 0x3c, virtual true, abstract: false, final true
   inline void LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected(::System::Net::IPEndPoint* remoteEndPoint, ::LiteNetLib::NetPacketReader* reader,
                                                                        ::LiteNetLib::UnconnectedMessageType messageType);
 
-  /// @brief Method LiteNetLib.INetEventListener.OnPeerConnected, addr 0x32137a0, size 0x21c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INetEventListener.OnPeerConnected, addr 0x323d310, size 0x21c, virtual true, abstract: false, final true
   inline void LiteNetLib_INetEventListener_OnPeerConnected(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method LiteNetLib.INetEventListener.OnPeerDisconnected, addr 0x3213c90, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INetEventListener.OnPeerDisconnected, addr 0x323d828, size 0x54, virtual true, abstract: false, final true
   inline void LiteNetLib_INetEventListener_OnPeerDisconnected(::LiteNetLib::NetPeer* peer, ::LiteNetLib::DisconnectInfo disconnectInfo);
 
-  /// @brief Method Log, addr 0x32146ac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x323e248, size 0x8c, virtual false, abstract: false, final false
   inline void Log(::StringW msg);
 
-  /// @brief Method LogError, addr 0x3214738, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x323e2d4, size 0x8c, virtual false, abstract: false, final false
   inline void LogError(::StringW msg);
 
   static inline ::GlobalNamespace::LiteNetLibConnectionManager* New_ctor();
 
   static inline ::GlobalNamespace::LiteNetLibConnectionManager* New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility);
 
-  /// @brief Method NoDomainReloadInit, addr 0x3211db8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x323b904, size 0x84, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
-  /// @brief Method PollUpdate, addr 0x3212434, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method PollUpdate, addr 0x323bf80, size 0x9c, virtual true, abstract: false, final true
   inline void PollUpdate();
 
-  /// @brief Method RemoveConnection, addr 0x3213fdc, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method RemoveConnection, addr 0x323db74, size 0x204, virtual false, abstract: false, final false
   inline void RemoveConnection(::LiteNetLib::NetPeer* netPeer, ::LiteNetLib::DisconnectReason reason);
 
-  /// @brief Method SendToAll, addr 0x3212278, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method SendToAll, addr 0x323bdc4, size 0x90, virtual true, abstract: false, final true
   inline void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
 
-  /// @brief Method SendToAll, addr 0x3212320, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method SendToAll, addr 0x323be6c, size 0xf0, virtual true, abstract: false, final true
   inline void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod, ::GlobalNamespace::IConnection* excludingConnection);
 
-  /// @brief Method SendUnconnectedMessage, addr 0x3212410, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SendUnconnectedMessage, addr 0x323bf5c, size 0x24, virtual false, abstract: false, final false
   inline void SendUnconnectedMessage(::System::Net::IPEndPoint* remoteEndPoint, ::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method StartBackgroundSentry, addr 0x321303c, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method StartBackgroundSentry, addr 0x323cbac, size 0x2c4, virtual false, abstract: false, final false
   inline void StartBackgroundSentry();
 
-  /// @brief Method ToConnectionFailedReason, addr 0x3214530, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ToConnectionFailedReason, addr 0x323e0cc, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ConnectionFailedReason ToConnectionFailedReason(::LiteNetLib::DisconnectReason disconnectReason);
 
-  /// @brief Method ToDisconnectedReason, addr 0x32144f8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ToDisconnectedReason, addr 0x323e094, size 0x38, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DisconnectedReason ToDisconnectedReason(::LiteNetLib::DisconnectReason disconnectReason);
 
-  /// @brief Method ToLiteNetDeliveryMethod, addr 0x3212308, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ToLiteNetDeliveryMethod, addr 0x323be54, size 0x18, virtual false, abstract: false, final false
   static inline ::LiteNetLib::DeliveryMethod ToLiteNetDeliveryMethod(::BGNet::Core::DeliveryMethod deliveryMethod);
 
-  /// @brief Method TryAccept, addr 0x3213b68, size 0x54, virtual false, abstract: false, final false
-  inline void TryAccept(::LiteNetLib::ConnectionRequest* request, ::StringW userId, ::StringW userName, bool isConnectionOwner);
+  /// @brief Method TryAccept, addr 0x323d6f8, size 0x5c, virtual false, abstract: false, final false
+  inline void TryAccept(::LiteNetLib::ConnectionRequest* request, ::StringW userId, ::StringW userName, bool isConnectionOwner, ::StringW compatibilityVersion);
 
-  /// @brief Method TryDisconnect, addr 0x3213bbc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method TryDisconnect, addr 0x323d754, size 0xd4, virtual false, abstract: false, final false
   inline void TryDisconnect(::LiteNetLib::DisconnectReason reason);
 
-  /// @brief Method TryStartNetManager, addr 0x3212f9c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method TryStartNetManager, addr 0x323cb0c, size 0xa0, virtual false, abstract: false, final false
   inline bool TryStartNetManager(int32_t port, bool enableBackgroundSentry);
 
-  /// @brief Method UpdateStatistics, addr 0x321251c, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method UpdateStatistics, addr 0x323c068, size 0x2d4, virtual false, abstract: false, final false
   inline void UpdateStatistics();
 
-  /// @brief Method <DisposeAsync>b__98_0, addr 0x32148c8, size 0x18, virtual false, abstract: false, final false
-  inline void _DisposeAsync_b__98_0();
+  /// @brief Method <DisposeAsync>b__101_0, addr 0x323e464, size 0x18, virtual false, abstract: false, final false
+  inline void _DisposeAsync_b__101_0();
 
   constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__backgroundSentryDisconnectCts() const;
 
@@ -1450,6 +1508,10 @@ public:
   constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__backgroundSentryShutdownCts() const;
 
   constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__backgroundSentryShutdownCts();
+
+  constexpr ::StringW const& __cordl_internal_get__compatibilityVersion() const;
+
+  constexpr ::StringW& __cordl_internal_get__compatibilityVersion();
 
   constexpr ::GlobalNamespace::IConnectionRequestHandler* const& __cordl_internal_get__connectionRequestHandler() const;
 
@@ -1559,6 +1621,8 @@ public:
 
   constexpr void __cordl_internal_set__backgroundSentryShutdownCts(::System::Threading::CancellationTokenSource* value);
 
+  constexpr void __cordl_internal_set__compatibilityVersion(::StringW value);
+
   constexpr void __cordl_internal_set__connectionRequestHandler(::GlobalNamespace::IConnectionRequestHandler* value);
 
   constexpr void __cordl_internal_set__connectionState(::GlobalNamespace::LiteNetLibConnectionManager_ConnectionState value);
@@ -1611,82 +1675,85 @@ public:
 
   constexpr void __cordl_internal_set_onStatisticsUpdatedEvent(::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate* value);
 
-  /// @brief Method .ctor, addr 0x3211ec4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x323ba10, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3211f64, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x323bab0, size 0x204, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility);
 
-  /// @brief Method add_onConnectedEvent, addr 0x3210fe4, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectedEvent, addr 0x323ab28, size 0xac, virtual true, abstract: false, final true
   inline void add_onConnectedEvent(::System::Action* value);
 
-  /// @brief Method add_onConnectionConnectedEvent, addr 0x321143c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectionConnectedEvent, addr 0x323af80, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
-  /// @brief Method add_onConnectionDisconnectedEvent, addr 0x32115bc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectionDisconnectedEvent, addr 0x323b100, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method add_onConnectionFailedEvent, addr 0x32112bc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectionFailedEvent, addr 0x323ae00, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method add_onDisconnectedEvent, addr 0x321113c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_onDisconnectedEvent, addr 0x323ac80, size 0xc0, virtual true, abstract: false, final true
   inline void add_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method add_onInitializedEvent, addr 0x3210e8c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_onInitializedEvent, addr 0x323a9d0, size 0xac, virtual true, abstract: false, final true
   inline void add_onInitializedEvent(::System::Action* value);
 
-  /// @brief Method add_onReceiveUnconnectedDataEvent, addr 0x32118bc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_onReceiveUnconnectedDataEvent, addr 0x323b400, size 0xc0, virtual false, abstract: false, final false
   inline void add_onReceiveUnconnectedDataEvent(::System::Action_2<::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataReader*>* value);
 
-  /// @brief Method add_onReceivedDataEvent, addr 0x321173c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_onReceivedDataEvent, addr 0x323b280, size 0xc0, virtual true, abstract: false, final true
   inline void add_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
-  /// @brief Method add_onStatisticsUpdatedEvent, addr 0x3211a3c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_onStatisticsUpdatedEvent, addr 0x323b580, size 0xac, virtual false, abstract: false, final false
   inline void add_onStatisticsUpdatedEvent(::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate* value);
 
-  /// @brief Method get_connectionCount, addr 0x3211d2c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_compatibilityVersion, addr 0x323b8fc, size 0x8, virtual true, abstract: false, final true
+  inline ::StringW get_compatibilityVersion();
+
+  /// @brief Method get_connectionCount, addr 0x323b870, size 0x50, virtual true, abstract: false, final true
   inline int32_t get_connectionCount();
 
-  /// @brief Method get_connectionRequestHandler, addr 0x3211d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_connectionRequestHandler, addr 0x323b8c0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IConnectionRequestHandler* get_connectionRequestHandler();
 
-  /// @brief Method get_encryptionLayer, addr 0x3211db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_encryptionLayer, addr 0x323b8f4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PacketEncryptionLayer* get_encryptionLayer();
 
-  /// @brief Method get_hasConnectionOwner, addr 0x3211be4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method get_hasConnectionOwner, addr 0x323b728, size 0x118, virtual false, abstract: false, final false
   inline bool get_hasConnectionOwner();
 
-  /// @brief Method get_isClient, addr 0x3211d0c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isClient, addr 0x323b850, size 0x10, virtual false, abstract: false, final false
   inline bool get_isClient();
 
-  /// @brief Method get_isConnected, addr 0x3211ba4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isConnected, addr 0x323b6e8, size 0x10, virtual true, abstract: false, final true
   inline bool get_isConnected();
 
-  /// @brief Method get_isConnecting, addr 0x3211bb4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isConnecting, addr 0x323b6f8, size 0x10, virtual true, abstract: false, final true
   inline bool get_isConnecting();
 
-  /// @brief Method get_isConnectionOwner, addr 0x3211bd4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isConnectionOwner, addr 0x323b718, size 0x10, virtual true, abstract: false, final true
   inline bool get_isConnectionOwner();
 
-  /// @brief Method get_isDisconnecting, addr 0x3211bc4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isDisconnecting, addr 0x323b708, size 0x10, virtual true, abstract: false, final true
   inline bool get_isDisconnecting();
 
-  /// @brief Method get_isDisposed, addr 0x3211d1c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isDisposed, addr 0x323b860, size 0x10, virtual true, abstract: false, final true
   inline bool get_isDisposed();
 
-  /// @brief Method get_isServer, addr 0x3211cfc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isServer, addr 0x323b840, size 0x10, virtual false, abstract: false, final false
   inline bool get_isServer();
 
-  /// @brief Method get_port, addr 0x3211d84, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_port, addr 0x323b8c8, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_port();
 
-  /// @brief Method get_unconnectedPacketHeader, addr 0x3211da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unconnectedPacketHeader, addr 0x323b8ec, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_unconnectedPacketHeader();
 
-  /// @brief Method get_userId, addr 0x3211b94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userId, addr 0x323b6d8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0x3211b9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0x323b6e0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::GlobalNamespace::IConnectionManager"
@@ -1704,31 +1771,31 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_onConnectedEvent, addr 0x3211090, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectedEvent, addr 0x323abd4, size 0xac, virtual true, abstract: false, final true
   inline void remove_onConnectedEvent(::System::Action* value);
 
-  /// @brief Method remove_onConnectionConnectedEvent, addr 0x32114fc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectionConnectedEvent, addr 0x323b040, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
-  /// @brief Method remove_onConnectionDisconnectedEvent, addr 0x321167c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectionDisconnectedEvent, addr 0x323b1c0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method remove_onConnectionFailedEvent, addr 0x321137c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectionFailedEvent, addr 0x323aec0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method remove_onDisconnectedEvent, addr 0x32111fc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_onDisconnectedEvent, addr 0x323ad40, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method remove_onInitializedEvent, addr 0x3210f38, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_onInitializedEvent, addr 0x323aa7c, size 0xac, virtual true, abstract: false, final true
   inline void remove_onInitializedEvent(::System::Action* value);
 
-  /// @brief Method remove_onReceiveUnconnectedDataEvent, addr 0x321197c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_onReceiveUnconnectedDataEvent, addr 0x323b4c0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onReceiveUnconnectedDataEvent(::System::Action_2<::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataReader*>* value);
 
-  /// @brief Method remove_onReceivedDataEvent, addr 0x32117fc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_onReceivedDataEvent, addr 0x323b340, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
-  /// @brief Method remove_onStatisticsUpdatedEvent, addr 0x3211ae8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_onStatisticsUpdatedEvent, addr 0x323b62c, size 0xac, virtual false, abstract: false, final false
   inline void remove_onStatisticsUpdatedEvent(::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate* value);
 
 protected:
@@ -1746,7 +1813,7 @@ public:
   LiteNetLibConnectionManager(LiteNetLibConnectionManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18168 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18181 };
 
   /// @brief Field kBackgroundDisconnectTimeout offset 0xffffffff size 0x8
   static constexpr int64_t kBackgroundDisconnectTimeout{ static_cast<int64_t>(0x47868c00) };
@@ -1814,31 +1881,34 @@ public:
   /// @brief Field _lastStatisticsUpdateTime, offset: 0x90, size: 0x8, def value: None
   int64_t ____lastStatisticsUpdateTime;
 
-  /// @brief Field onInitializedEvent, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _compatibilityVersion, offset: 0x98, size: 0x8, def value: None
+  ::StringW ____compatibilityVersion;
+
+  /// @brief Field onInitializedEvent, offset: 0xa0, size: 0x8, def value: None
   ::System::Action* ___onInitializedEvent;
 
-  /// @brief Field onConnectedEvent, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field onConnectedEvent, offset: 0xa8, size: 0x8, def value: None
   ::System::Action* ___onConnectedEvent;
 
-  /// @brief Field onDisconnectedEvent, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field onDisconnectedEvent, offset: 0xb0, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::DisconnectedReason>* ___onDisconnectedEvent;
 
-  /// @brief Field onConnectionFailedEvent, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field onConnectionFailedEvent, offset: 0xb8, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* ___onConnectionFailedEvent;
 
-  /// @brief Field onConnectionConnectedEvent, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field onConnectionConnectedEvent, offset: 0xc0, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::IConnection*>* ___onConnectionConnectedEvent;
 
-  /// @brief Field onConnectionDisconnectedEvent, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field onConnectionDisconnectedEvent, offset: 0xc8, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* ___onConnectionDisconnectedEvent;
 
-  /// @brief Field onReceivedDataEvent, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field onReceivedDataEvent, offset: 0xd0, size: 0x8, def value: None
   ::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* ___onReceivedDataEvent;
 
-  /// @brief Field onReceiveUnconnectedDataEvent, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field onReceiveUnconnectedDataEvent, offset: 0xd8, size: 0x8, def value: None
   ::System::Action_2<::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataReader*>* ___onReceiveUnconnectedDataEvent;
 
-  /// @brief Field onStatisticsUpdatedEvent, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field onStatisticsUpdatedEvent, offset: 0xe0, size: 0x8, def value: None
   ::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate* ___onStatisticsUpdatedEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -1882,25 +1952,27 @@ static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ____lastP
 
 static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ____lastStatisticsUpdateTime) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onInitializedEvent) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ____compatibilityVersion) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onConnectedEvent) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onInitializedEvent) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onDisconnectedEvent) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onConnectedEvent) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onConnectionFailedEvent) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onDisconnectedEvent) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onConnectionConnectedEvent) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onConnectionFailedEvent) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onConnectionDisconnectedEvent) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onConnectionConnectedEvent) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onReceivedDataEvent) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onConnectionDisconnectedEvent) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onReceiveUnconnectedDataEvent) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onReceivedDataEvent) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onStatisticsUpdatedEvent) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onReceiveUnconnectedDataEvent) == 0xd8, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager, 0xe0>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LiteNetLibConnectionManager, ___onStatisticsUpdatedEvent) == 0xe0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LiteNetLibConnectionManager, 0xe8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LiteNetLibConnectionManager_ConnectionState, "", "LiteNetLibConnectionManager/ConnectionState");
@@ -1921,5 +1993,5 @@ NEED_NO_BOX(::GlobalNamespace::LiteNetLibConnectionManager_StartServerParams);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LiteNetLibConnectionManager_StartServerParams*, "", "LiteNetLibConnectionManager/StartServerParams");
 NEED_NO_BOX(::GlobalNamespace::LiteNetLibConnectionManager___c);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LiteNetLibConnectionManager___c*, "", "LiteNetLibConnectionManager/<>c");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126, "", "LiteNetLibConnectionManager/<BackgroundDisconnectSentry>d__126");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127, "", "LiteNetLibConnectionManager/<BackgroundShutdownSentry>d__127");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129, "", "LiteNetLibConnectionManager/<BackgroundDisconnectSentry>d__129");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130, "", "LiteNetLibConnectionManager/<BackgroundShutdownSentry>d__130");

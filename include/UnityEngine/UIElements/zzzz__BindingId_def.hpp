@@ -36,22 +36,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::BindingId>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::BindingId>*();
 
-  /// @brief Method Equals, addr 0x6a95a98, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6afe91c, size 0xc4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6a95a48, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6afe8cc, size 0x50, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::BindingId other);
 
-  /// @brief Method GetHashCode, addr 0x6a95b5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6afe9e0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6a95a40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6afe8c4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6a95914, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afe798, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<::Unity::Properties::PropertyPath> path);
 
-  /// @brief Method .ctor, addr 0x6a95888, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afe70c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW path);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_Invalid();
@@ -59,22 +59,22 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::BindingId>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BindingId>* i___System__IEquatable_1___UnityEngine__UIElements__BindingId_();
 
-  /// @brief Method op_Equality, addr 0x6a95b64, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6afe9e8, size 0x50, virtual false, abstract: false, final false
   static inline bool op_Equality(::ByRef<::UnityEngine::UIElements::BindingId> lhs, ::ByRef<::UnityEngine::UIElements::BindingId> rhs);
 
-  /// @brief Method op_Implicit, addr 0x6a95958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6afe7dc, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW op_Implicit___StringW(::ByRef<::UnityEngine::UIElements::BindingId> vep);
 
-  /// @brief Method op_Implicit, addr 0x6a95960, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6afe7e4, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BindingId op_Implicit___UnityEngine__UIElements__BindingId(::StringW name);
 
-  /// @brief Method op_Implicit, addr 0x6a959e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6afe86c, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BindingId op_Implicit___UnityEngine__UIElements__BindingId(::ByRef<::Unity::Properties::PropertyPath> path);
 
-  /// @brief Method op_Implicit, addr 0x6a95948, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6afe7cc, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Properties::PropertyPath op_Implicit___Unity__Properties__PropertyPath(::ByRef<::UnityEngine::UIElements::BindingId> vep);
 
-  /// @brief Method op_Inequality, addr 0x6a95bb4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6afea38, size 0x9c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::ByRef<::UnityEngine::UIElements::BindingId> lhs, ::ByRef<::UnityEngine::UIElements::BindingId> rhs);
 
   static inline void setStaticF_Invalid(::UnityEngine::UIElements::BindingId value);

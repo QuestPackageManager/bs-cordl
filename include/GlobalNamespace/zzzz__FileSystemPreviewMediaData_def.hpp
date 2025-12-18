@@ -52,19 +52,19 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPreviewMediaData"
   constexpr operator ::GlobalNamespace::IPreviewMediaData*() noexcept;
 
-  /// @brief Method GetCoverSpriteAsync, addr 0x3600fa0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method GetCoverSpriteAsync, addr 0x362bedc, size 0x20, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverSpriteAsync();
 
-  /// @brief Method GetPreviewAudioClip, addr 0x3600fc0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method GetPreviewAudioClip, addr 0x362befc, size 0x20, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* GetPreviewAudioClip();
 
   static inline ::GlobalNamespace::FileSystemPreviewMediaData* New_ctor(::GlobalNamespace::SpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
                                                                         ::StringW rootPath, ::StringW coverSpritePath, ::StringW previewAudioClipPath);
 
-  /// @brief Method UnloadCoverSprite, addr 0x3601000, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnloadCoverSprite, addr 0x362bf3c, size 0x20, virtual true, abstract: false, final true
   inline void UnloadCoverSprite();
 
-  /// @brief Method UnloadPreviewAudioClip, addr 0x3600fe0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnloadPreviewAudioClip, addr 0x362bf1c, size 0x20, virtual true, abstract: false, final true
   inline void UnloadPreviewAudioClip();
 
   constexpr ::GlobalNamespace::AudioClipAsyncLoader* const& __cordl_internal_get__audioClipAsyncLoader() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__spriteAsyncLoader(::GlobalNamespace::SpriteAsyncLoader* value);
 
-  /// @brief Method .ctor, addr 0x3600e44, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x362bd80, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::SpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::StringW rootPath, ::StringW coverSpritePath,
                     ::StringW previewAudioClipPath);
 
@@ -113,7 +113,7 @@ public:
   FileSystemPreviewMediaData(FileSystemPreviewMediaData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14962 };
 
   /// @brief Field _spriteAsyncLoader, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::SpriteAsyncLoader* ____spriteAsyncLoader;

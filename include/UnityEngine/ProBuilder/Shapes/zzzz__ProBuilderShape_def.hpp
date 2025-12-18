@@ -79,28 +79,28 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Shapes::ProBuilderShape* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x64e9534, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x65510c0, size 0xa8, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Rebuild, addr 0x64e993c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x65514c8, size 0x154, virtual false, abstract: false, final false
   inline void Rebuild();
 
-  /// @brief Method Rebuild, addr 0x64e9a90, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x655161c, size 0xb4, virtual false, abstract: false, final false
   inline void Rebuild(::UnityEngine::Bounds bounds, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method Rebuild, addr 0x64e9758, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x65512e4, size 0x11c, virtual false, abstract: false, final false
   inline void Rebuild(::UnityEngine::Vector3 pivotPosition, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
-  /// @brief Method RotateInsideBounds, addr 0x64e9c54, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method RotateInsideBounds, addr 0x65517e0, size 0x190, virtual false, abstract: false, final false
   inline void RotateInsideBounds(::UnityEngine::Quaternion deltaRotation);
 
-  /// @brief Method SetShape, addr 0x64e9b44, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SetShape, addr 0x65516d0, size 0x110, virtual false, abstract: false, final false
   inline void SetShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method UpdateBounds, addr 0x64e9874, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x6551400, size 0xc8, virtual false, abstract: false, final false
   inline void UpdateBounds(::UnityEngine::Bounds bounds);
 
-  /// @brief Method UpdateShape, addr 0x64e95dc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method UpdateShape, addr 0x6551168, size 0x17c, virtual false, abstract: false, final false
   inline void UpdateShape();
 
   constexpr ::UnityEngine::Bounds const& __cordl_internal_get_m_EditionBounds() const;
@@ -145,40 +145,40 @@ public:
 
   constexpr void __cordl_internal_set_m_UnmodifiedMeshVersion(uint16_t value);
 
-  /// @brief Method .ctor, addr 0x64e9de4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6551970, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_editionBounds, addr 0x64e92d4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_editionBounds, addr 0x6550e60, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_editionBounds();
 
-  /// @brief Method get_isEditable, addr 0x64e9408, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isEditable, addr 0x6550f94, size 0x28, virtual false, abstract: false, final false
   inline bool get_isEditable();
 
-  /// @brief Method get_mesh, addr 0x64e9430, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x6550fbc, size 0x104, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> get_mesh();
 
-  /// @brief Method get_shape, addr 0x64e91bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shape, addr 0x6550d48, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Shapes::Shape* get_shape();
 
-  /// @brief Method get_shapeLocalBounds, addr 0x64e938c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_shapeLocalBounds, addr 0x6550f18, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_shapeLocalBounds();
 
-  /// @brief Method get_shapeRotation, addr 0x64e9290, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_shapeRotation, addr 0x6550e1c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_shapeRotation();
 
-  /// @brief Method get_shapeWorldBounds, addr 0x64e93c0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_shapeWorldBounds, addr 0x6550f4c, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_shapeWorldBounds();
 
-  /// @brief Method get_shapeWorldCenter, addr 0x64e92a8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_shapeWorldCenter, addr 0x6550e34, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_shapeWorldCenter();
 
-  /// @brief Method get_size, addr 0x64e91c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x6550d50, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_size();
 
-  /// @brief Method set_shapeRotation, addr 0x64e929c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_shapeRotation, addr 0x6550e28, size 0xc, virtual false, abstract: false, final false
   inline void set_shapeRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_size, addr 0x64e91d0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_size, addr 0x6550d5c, size 0xc0, virtual false, abstract: false, final false
   inline void set_size(::UnityEngine::Vector3 value);
 
 protected:
@@ -196,7 +196,7 @@ public:
   ProBuilderShape(ProBuilderShape const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16797 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16811 };
 
   /// @brief Field k_IconPath offset 0xffffffff size 0x8
   static constexpr ::ConstString k_IconPath{ u"Packages/com.unity.probuilder/Content/Icons/EditableMesh/EditableMesh.png" };

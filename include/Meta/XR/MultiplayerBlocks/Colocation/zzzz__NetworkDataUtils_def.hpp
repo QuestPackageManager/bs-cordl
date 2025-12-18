@@ -28,16 +28,16 @@ namespace Meta::XR::MultiplayerBlocks::Colocation {
 class CORDL_TYPE NetworkDataUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAllPlayersColocatedWith, addr 0x5867d9c, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method GetAllPlayersColocatedWith, addr 0x58ce500, size 0x388, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>* GetAllPlayersColocatedWith(uint64_t oculusId, bool includeMyself);
 
-  /// @brief Method GetAllPlayersFromColocationGroupId, addr 0x5867aec, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method GetAllPlayersFromColocationGroupId, addr 0x58ce250, size 0x2b0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Player>* GetAllPlayersFromColocationGroupId(uint32_t colocationGroupId);
 
-  /// @brief Method GetOculusIdOfColocatedGroupOwnerFromColocationGroupId, addr 0x586790c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetOculusIdOfColocatedGroupOwnerFromColocationGroupId, addr 0x58ce070, size 0x1e0, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<uint64_t> GetOculusIdOfColocatedGroupOwnerFromColocationGroupId(uint32_t colocationGroupId);
 
-  /// @brief Method GetPlayerFromOculusId, addr 0x5868124, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetPlayerFromOculusId, addr 0x58ce888, size 0x104, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::Meta::XR::MultiplayerBlocks::Colocation::Player> GetPlayerFromOculusId(uint64_t oculusId);
 
 protected:
@@ -55,7 +55,7 @@ public:
   NetworkDataUtils(NetworkDataUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20395 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

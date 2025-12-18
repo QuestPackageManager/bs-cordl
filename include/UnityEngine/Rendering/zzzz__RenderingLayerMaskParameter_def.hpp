@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::RenderingLayerMaskParameter* New_ctor(::UnityEngine::RenderingLayerMask value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x65adb14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66156a0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RenderingLayerMask value, bool overrideState);
 
 protected:
@@ -42,7 +42,7 @@ public:
   RenderingLayerMaskParameter(RenderingLayerMaskParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12307 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12311 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

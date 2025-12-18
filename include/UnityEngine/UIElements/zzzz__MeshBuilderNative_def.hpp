@@ -445,46 +445,46 @@ public:
 
   using NativeRectParams = ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams;
 
-  /// @brief Method MakeBorder, addr 0x6b82414, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method MakeBorder, addr 0x6beb298, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface MakeBorder(::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams borderParams, float_t posZ);
 
-  /// @brief Method MakeBorder_Injected, addr 0x6b8248c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MakeBorder_Injected, addr 0x6beb310, size 0x54, virtual false, abstract: false, final false
   static inline void MakeBorder_Injected(::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams> borderParams, float_t posZ,
                                          ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
-  /// @brief Method MakeSolidRect, addr 0x6b824e0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method MakeSolidRect, addr 0x6beb364, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface MakeSolidRect(::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams rectParams, float_t posZ);
 
-  /// @brief Method MakeSolidRect_Injected, addr 0x6b82558, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MakeSolidRect_Injected, addr 0x6beb3dc, size 0x54, virtual false, abstract: false, final false
   static inline void MakeSolidRect_Injected(::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams> rectParams, float_t posZ,
                                             ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
-  /// @brief Method MakeTexturedRect, addr 0x6b825ac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method MakeTexturedRect, addr 0x6beb430, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface MakeTexturedRect(::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams rectParams, float_t posZ);
 
-  /// @brief Method MakeTexturedRect_Injected, addr 0x6b82624, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MakeTexturedRect_Injected, addr 0x6beb4a8, size 0x54, virtual false, abstract: false, final false
   static inline void MakeTexturedRect_Injected(::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams> rectParams, float_t posZ,
                                                ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
-  /// @brief Method MakeVectorGraphics9SliceBackground, addr 0x6b828c0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method MakeVectorGraphics9SliceBackground, addr 0x6beb744, size 0x198, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface
   MakeVectorGraphics9SliceBackground(::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> svgVertices, ::ArrayW<uint16_t, ::Array<uint16_t>*> svgIndices,
                                      float_t svgWidth, float_t svgHeight, ::UnityEngine::Rect targetRect, ::UnityEngine::Vector4 sliceLTRB, ::UnityEngine::Color tint,
                                      ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage colorPage);
 
-  /// @brief Method MakeVectorGraphics9SliceBackground_Injected, addr 0x6b82a58, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method MakeVectorGraphics9SliceBackground_Injected, addr 0x6beb8dc, size 0x9c, virtual false, abstract: false, final false
   static inline void MakeVectorGraphics9SliceBackground_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> svgVertices, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> svgIndices,
                                                                  float_t svgWidth, float_t svgHeight, ::ByRef<::UnityEngine::Rect> targetRect, ::ByRef<::UnityEngine::Vector4> sliceLTRB,
                                                                  ::ByRef<::UnityEngine::Color> tint, ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage> colorPage,
                                                                  ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
-  /// @brief Method MakeVectorGraphicsStretchBackground, addr 0x6b82678, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method MakeVectorGraphicsStretchBackground, addr 0x6beb4fc, size 0x1a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface
   MakeVectorGraphicsStretchBackground(::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> svgVertices, ::ArrayW<uint16_t, ::Array<uint16_t>*> svgIndices,
                                       float_t svgWidth, float_t svgHeight, ::UnityEngine::Rect targetRect, ::UnityEngine::Rect sourceUV, ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::Color tint,
                                       ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage colorPage);
 
-  /// @brief Method MakeVectorGraphicsStretchBackground_Injected, addr 0x6b8281c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method MakeVectorGraphicsStretchBackground_Injected, addr 0x6beb6a0, size 0xa4, virtual false, abstract: false, final false
   static inline void MakeVectorGraphicsStretchBackground_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> svgVertices, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> svgIndices,
                                                                   float_t svgWidth, float_t svgHeight, ::ByRef<::UnityEngine::Rect> targetRect, ::ByRef<::UnityEngine::Rect> sourceUV,
                                                                   ::UnityEngine::ScaleMode scaleMode, ::ByRef<::UnityEngine::Color> tint,

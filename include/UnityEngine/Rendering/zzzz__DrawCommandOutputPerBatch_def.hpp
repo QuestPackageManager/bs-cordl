@@ -42,13 +42,13 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method EncodeGPUInstanceIndexAndCrossFade, addr 0x65f9348, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method EncodeGPUInstanceIndexAndCrossFade, addr 0x6660ed4, size 0xcc, virtual false, abstract: false, final false
   inline int32_t EncodeGPUInstanceIndexAndCrossFade(int32_t rendererIndex, bool negateCrossFade);
 
-  /// @brief Method Execute, addr 0x65f94b4, size 0x744, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6661040, size 0x744, virtual true, abstract: false, final true
   inline void Execute(int32_t batchIndex);
 
-  /// @brief Method IsInstanceFlipped, addr 0x65f9414, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IsInstanceFlipped, addr 0x6660fa0, size 0xa0, virtual false, abstract: false, final false
   inline bool IsInstanceFlipped(int32_t rendererIndex);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -90,7 +90,7 @@ public:
                                       ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectInstanceInfo> indirectInstanceInfoGlobalArray) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17618 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1e8 };

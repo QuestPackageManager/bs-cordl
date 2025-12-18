@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass::*)(
     ::UnityEngine::Camera*, int32_t, ::ByRef<::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter>)>(&::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass::GetRenderParameter)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6c0168c;
+  constexpr static std::size_t addrs = 0x6c6a510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass::*)()>(
     &::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass::GetRenderParameterCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6c01790;
+  constexpr static std::size_t addrs = 0x6c6a614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass>::get(),
@@ -85,7 +85,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ByRef<::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass>, ::System::IntPtr, int32_t, ::ByRef<::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter>)>(
         &::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass::GetRenderParameter_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c01734;
+  constexpr static std::size_t addrs = 0x6c6a5b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRDisplaySubsystem_XRMirrorViewBlitDesc::*)(
     int32_t, ::ByRef<::UnityEngine::XR::XRDisplaySubsystem_XRBlitParams>)>(&::UnityEngine::XR::XRDisplaySubsystem_XRMirrorViewBlitDesc::GetBlitParameter)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6c017cc;
+  constexpr static std::size_t addrs = 0x6c6a650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(Il2CppObject*)>(&::UnityEngine::XR::XRDisplaySubsystem_BindingsMarshaller::ConvertToNative)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c01820;
+  constexpr static std::size_t addrs = 0x6c6a6a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

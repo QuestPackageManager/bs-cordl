@@ -28,19 +28,19 @@ public:
 
   __declspec(property(get = get_maxUsers)) uint32_t maxUsers;
 
-  /// @brief Method .ctor, addr 0x5d19470, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7ff50, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t currentUsers, uint32_t maxUsers, ::StringW groupId, ::StringW joinKey);
 
-  /// @brief Method get_currentUsers, addr 0x5d19450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentUsers, addr 0x5d7ff30, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_currentUsers();
 
-  /// @brief Method get_groupId, addr 0x5d19460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupId, addr 0x5d7ff40, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_groupId();
 
-  /// @brief Method get_joinKey, addr 0x5d19468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_joinKey, addr 0x5d7ff48, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_joinKey();
 
-  /// @brief Method get_maxUsers, addr 0x5d19458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxUsers, addr 0x5d7ff38, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_maxUsers();
 
   // Ctor Parameters []
@@ -53,7 +53,7 @@ public:
   constexpr PartyInfo(uint32_t _currentUsers_k__BackingField, uint32_t _maxUsers_k__BackingField, ::StringW _groupId_k__BackingField, ::StringW _joinKey_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22175 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

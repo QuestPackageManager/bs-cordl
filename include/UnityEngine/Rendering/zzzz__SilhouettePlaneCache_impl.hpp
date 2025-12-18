@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SilhouettePlaneCache_Slot::*)(int32_t, int32_t, int32_t)>(
     &::UnityEngine::Rendering::SilhouettePlaneCache_Slot::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6613c98;
+  constexpr static std::size_t addrs = 0x667b824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SilhouettePlaneCache::*)()>(&::UnityEngine::Rendering::SilhouettePlaneCache::Init)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6613680;
+  constexpr static std::size_t addrs = 0x667b20c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SilhouettePlaneCache>::get(), "Init",
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SilhouettePlaneCache::*)()>(
     &::UnityEngine::Rendering::SilhouettePlaneCache::Dispose)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6613794;
+  constexpr static std::size_t addrs = 0x667b320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SilhouettePlaneCache>::get(), "Dispose",
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SilhouettePlaneCache::*)(
     int32_t, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane>, int32_t)>(&::UnityEngine::Rendering::SilhouettePlaneCache::Update)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x661384c;
+  constexpr static std::size_t addrs = 0x667b3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SilhouettePlaneCache::*)(int32_t, int32_t)>(
     &::UnityEngine::Rendering::SilhouettePlaneCache::FreeUnusedSlots)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x6613cac;
+  constexpr static std::size_t addrs = 0x667b838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::NativeArray_1<::UnityEngine::Plane> (::UnityEngine::Rendering::SilhouettePlaneCache::*)(int32_t)>(&::UnityEngine::Rendering::SilhouettePlaneCache::GetSubArray)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6613e4c;
+  constexpr static std::size_t addrs = 0x667b9d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

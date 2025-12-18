@@ -64,7 +64,7 @@ public:
   static ::UnityEngine::Rendering::ReloadAttribute_Package const Root;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11911 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -95,13 +95,13 @@ public:
 
   static inline ::UnityEngine::Rendering::ReloadAttribute* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> paths, ::UnityEngine::Rendering::ReloadAttribute_Package package);
 
-  /// @brief Method .ctor, addr 0x653a58c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a2118, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, ::UnityEngine::Rendering::ReloadAttribute_Package package);
 
-  /// @brief Method .ctor, addr 0x653a5f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a2180, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW pathFormat, int32_t rangeMin, int32_t rangeMax, ::UnityEngine::Rendering::ReloadAttribute_Package package);
 
-  /// @brief Method .ctor, addr 0x653a588, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a2114, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> paths, ::UnityEngine::Rendering::ReloadAttribute_Package package);
 
 protected:
@@ -119,7 +119,7 @@ public:
   ReloadAttribute(ReloadAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11908 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11912 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

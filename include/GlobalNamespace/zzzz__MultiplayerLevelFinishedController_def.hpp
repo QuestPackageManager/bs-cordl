@@ -13,13 +13,13 @@ namespace GlobalNamespace {
 class BeatmapBasicData;
 }
 namespace GlobalNamespace {
+class IBeatSaberMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
 class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
 class IMultiplayerLevelEndActionsPublisher;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
@@ -96,21 +96,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x57a1f0c, size 0x4f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58087b4, size 0x4f8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x57a2404, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5808cac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x57a240c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5808cb4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x57a2444, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5808cec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x57a1f08, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x58087b0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_localPlayerResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value);
 
-  /// @brief Method .ctor, addr 0x57a1c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58084d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -249,7 +249,7 @@ public:
 
   /// @brief Field _multiplayerSessionManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _otherPlayersCompletionResults, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__otherPlayersCompletionResults,
@@ -273,24 +273,24 @@ public:
   __declspec(property(
       get = get_otherPlayersCompletionResults)) ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersCompletionResults;
 
-  /// @brief Method HandlePlayerDidFinish, addr 0x57a1c34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDidFinish, addr 0x58084dc, size 0x20, virtual false, abstract: false, final false
   inline void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method HandlePlayerNetworkDidFailed, addr 0x57a1c54, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerNetworkDidFailed, addr 0x58084fc, size 0x38, virtual false, abstract: false, final false
   inline void HandlePlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method HandleRpcLevelFinished, addr 0x57a1c8c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method HandleRpcLevelFinished, addr 0x5808534, size 0x1e0, virtual false, abstract: false, final false
   inline void HandleRpcLevelFinished(::StringW userId, ::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
   static inline ::GlobalNamespace::MultiplayerLevelFinishedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57a1954, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58081fc, size 0x278, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x57a16cc, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5807f74, size 0x288, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartLevelFinished, addr 0x57a1bcc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method StartLevelFinished, addr 0x5808474, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartLevelFinished(::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults);
 
   constexpr ::GlobalNamespace::BeatmapBasicData* const& __cordl_internal_get__beatmapBasicData() const;
@@ -309,9 +309,9 @@ public:
 
   constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults*& __cordl_internal_get__localPlayerResults();
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* const& __cordl_internal_get__otherPlayersCompletionResults() const;
 
@@ -340,7 +340,7 @@ public:
 
   constexpr void __cordl_internal_set__localPlayerResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value);
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
 
   constexpr void __cordl_internal_set__otherPlayersCompletionResults(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
@@ -352,23 +352,23 @@ public:
   __cordl_internal_set_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,
                                                                    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
 
-  /// @brief Method .ctor, addr 0x57a1e6c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5808714, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_allResultsCollectedEvent, addr 0x57a1534, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_allResultsCollectedEvent, addr 0x5807ddc, size 0xc0, virtual false, abstract: false, final false
   inline void add_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,
                                                               ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
 
-  /// @brief Method get_gameResultsReady, addr 0x57a16b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameResultsReady, addr 0x5807f5c, size 0x8, virtual false, abstract: false, final false
   inline bool get_gameResultsReady();
 
-  /// @brief Method get_localPlayerResults, addr 0x57a16c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_localPlayerResults, addr 0x5807f6c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerLevelCompletionResults* get_localPlayerResults();
 
-  /// @brief Method get_otherPlayersCompletionResults, addr 0x57a16bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_otherPlayersCompletionResults, addr 0x5807f64, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* get_otherPlayersCompletionResults();
 
-  /// @brief Method remove_allResultsCollectedEvent, addr 0x57a15f4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_allResultsCollectedEvent, addr 0x5807e9c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,
                                                                  ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
 
@@ -399,7 +399,7 @@ public:
   ::GlobalNamespace::IGameplayRpcManager* ____rpcManager;
 
   /// @brief Field _multiplayerSessionManager, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
+  ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
   /// @brief Field _beatmapBasicData, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapBasicData* ____beatmapBasicData;

@@ -56,16 +56,16 @@ public:
 
   static inline ::GlobalNamespace::TestSceneUsage* New_ctor();
 
-  /// @brief Method Start, addr 0x582941c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x588fb80, size 0x54, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TogglePassthrough, addr 0x58296bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TogglePassthrough, addr 0x588fe20, size 0x4, virtual false, abstract: false, final false
   inline void TogglePassthrough();
 
-  /// @brief Method TogglePassthroughStatic, addr 0x58296c0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method TogglePassthroughStatic, addr 0x588fe24, size 0xa8, virtual false, abstract: false, final false
   static inline void TogglePassthroughStatic();
 
-  /// @brief Method Update, addr 0x5829470, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x588fbd4, size 0x24c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__confidence() const;
@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set_previousPassthroughEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x5829768, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x588fecc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -134,7 +134,7 @@ public:
   TestSceneUsage(TestSceneUsage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18272 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18287 };
 
   /// @brief Field _eyeGazeComponent, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVREyeGaze> ____eyeGazeComponent;

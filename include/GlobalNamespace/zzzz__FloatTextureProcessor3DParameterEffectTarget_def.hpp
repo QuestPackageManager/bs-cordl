@@ -201,13 +201,13 @@ public:
 
   static inline ::GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x577badc, size 0xcfc, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x57e2384, size 0xcfc, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x577bad8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x57e2380, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x577c7d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x57e3080, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget_TextureProcessor3DChannel const& __cordl_internal_get__channel() const;
@@ -234,7 +234,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x577c7dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57e3084, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

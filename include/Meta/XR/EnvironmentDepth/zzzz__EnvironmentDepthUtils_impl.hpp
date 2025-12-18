@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(float_t, float_t)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthUtils::ComputeNdcToLinearDepthParameters)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5827de4;
+  constexpr static std::size_t addrs = 0x588e548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (*)(::Meta::XR::EnvironmentDepth::DepthFrameDesc)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthUtils::CalculateReprojection)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5827e40;
+  constexpr static std::size_t addrs = 0x588e5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::ByRef<::UnityEngine::Matrix4x4>, ::ByRef<::UnityEngine::Matrix4x4>)>(
         &::Meta::XR::EnvironmentDepth::EnvironmentDepthUtils::CalculateDepthCameraMatrices)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x58291c4;
+  constexpr static std::size_t addrs = 0x588f928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

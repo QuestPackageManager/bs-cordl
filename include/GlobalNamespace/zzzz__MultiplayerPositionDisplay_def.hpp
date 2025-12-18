@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerPositionDisplay)
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
 class MultiplayerScoreProvider_RankedPlayer;
@@ -42,7 +42,7 @@ public:
   __declspec(property(get = __cordl_internal_get__colorAnimationStartTime, put = __cordl_internal_set__colorAnimationStartTime)) float_t _colorAnimationStartTime;
 
   /// @brief Field _connectedPlayer, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* _connectedPlayer;
 
   /// @brief Field _crossFadeDuration, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get__crossFadeDuration, put = __cordl_internal_set__crossFadeDuration)) float_t _crossFadeDuration;
@@ -83,30 +83,30 @@ public:
   /// @brief Field _wasFirst, offset 0x78, size 0x1
   __declspec(property(get = __cordl_internal_get__wasFirst, put = __cordl_internal_set__wasFirst)) bool _wasFirst;
 
-  /// @brief Method ChangeColor, addr 0x57d18a4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ChangeColor, addr 0x5838188, size 0x9c, virtual false, abstract: false, final false
   inline void ChangeColor(::UnityEngine::Color toColor, float_t duration);
 
-  /// @brief Method HandleFirstPlayerDidChange, addr 0x57d1bfc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleFirstPlayerDidChange, addr 0x58384e0, size 0xb4, virtual false, abstract: false, final false
   inline void HandleFirstPlayerDidChange(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer* obj);
 
-  /// @brief Method HandlePlayerFailed, addr 0x57d1be4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerFailed, addr 0x58384c8, size 0x18, virtual false, abstract: false, final false
   inline void HandlePlayerFailed();
 
   static inline ::GlobalNamespace::MultiplayerPositionDisplay* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57d17b8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x583809c, size 0xec, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x57d169c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5837f80, size 0x11c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x57d1940, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5838224, size 0x4c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateColors, addr 0x57d198c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method UpdateColors, addr 0x5838270, size 0xb8, virtual false, abstract: false, final false
   inline void UpdateColors();
 
-  /// @brief Method UpdatePosition, addr 0x57d1a44, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method UpdatePosition, addr 0x5838328, size 0x1a0, virtual false, abstract: false, final false
   inline void UpdatePosition();
 
   constexpr float_t const& __cordl_internal_get__colorAnimationStartDuration() const;
@@ -117,9 +117,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__colorAnimationStartTime();
 
-  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
   constexpr float_t const& __cordl_internal_get__crossFadeDuration() const;
 
@@ -177,7 +177,7 @@ public:
 
   constexpr void __cordl_internal_set__colorAnimationStartTime(float_t value);
 
-  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
   constexpr void __cordl_internal_set__crossFadeDuration(float_t value);
 
@@ -205,7 +205,7 @@ public:
 
   constexpr void __cordl_internal_set__wasFirst(bool value);
 
-  /// @brief Method .ctor, addr 0x57d1cb0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5838594, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -250,7 +250,7 @@ public:
   ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> ____scoreProvider;
 
   /// @brief Field _connectedPlayer, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
+  ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 
   /// @brief Field _wasFirst, offset: 0x78, size: 0x1, def value: None
   bool ____wasFirst;

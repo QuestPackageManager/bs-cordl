@@ -24,7 +24,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE CustomBinding : public ::UnityEngine::UIElements::Binding {
 public:
   // Declarations
-  /// @brief Method Update, addr 0x6a0a898, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x6a7371c, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingResult Update(::ByRef<::UnityEngine::UIElements::BindingContext> context);
 
 protected:

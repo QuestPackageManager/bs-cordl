@@ -104,26 +104,26 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x5925d1c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method AsyncProcessMessage, addr 0x598c668, size 0xc4, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* reqMsg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method GetSink, addr 0x5925300, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method GetSink, addr 0x598bc4c, size 0x27c, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Channels::CrossAppDomainSink* GetSink(int32_t domainID);
 
   static inline ::System::Runtime::Remoting::Channels::CrossAppDomainSink* New_ctor(int32_t domainID);
 
-  /// @brief Method ProcessMessageInDomain, addr 0x59255f8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ProcessMessageInDomain, addr 0x598bf44, size 0x164, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Channels::CrossAppDomainSink_ProcessMessageRes ProcessMessageInDomain(::ArrayW<uint8_t, ::Array<uint8_t>*> arrRequest,
                                                                                                                    ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* cadMsg);
 
-  /// @brief Method SendAsyncMessage, addr 0x5925de8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method SendAsyncMessage, addr 0x598c734, size 0x11c, virtual false, abstract: false, final false
   inline void SendAsyncMessage(::System::Object* data);
 
-  /// @brief Method SyncProcessMessage, addr 0x59258a8, size 0x3ac, virtual true, abstract: false, final false
+  /// @brief Method SyncProcessMessage, addr 0x598c1f4, size 0x3ac, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msgRequest);
 
-  /// @brief Method <AsyncProcessMessage>b__10_0, addr 0x5925ff8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <AsyncProcessMessage>b__10_0, addr 0x598c944, size 0x7c, virtual false, abstract: false, final false
   inline void _AsyncProcessMessage_b__10_0(::System::Object* data);
 
   constexpr int32_t const& __cordl_internal_get__domainID() const;
@@ -132,14 +132,14 @@ public:
 
   constexpr void __cordl_internal_set__domainID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x59255e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598bf34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t domainID);
 
   static inline ::System::Reflection::MethodInfo* getStaticF_processMessageMethod();
 
   static inline ::System::Collections::Hashtable* getStaticF_s_sinks();
 
-  /// @brief Method get_TargetDomainId, addr 0x59255f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetDomainId, addr 0x598bf3c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TargetDomainId();
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"

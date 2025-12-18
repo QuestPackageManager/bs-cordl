@@ -21,11 +21,11 @@ namespace System::Dynamic {
 class CORDL_TYPE SetIndexBinder : public ::System::Dynamic::DynamicMetaObjectBinder {
 public:
   // Declarations
-  /// @brief Method Bind, addr 0x5dac47c, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x5e14008, size 0x134, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method FallbackSetIndex, addr 0x5dac5b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackSetIndex, addr 0x5e1413c, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackSetIndex(::System::Dynamic::DynamicMetaObject* target,
                                                                 ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> indexes,
                                                                 ::System::Dynamic::DynamicMetaObject* value);
@@ -50,7 +50,7 @@ public:
   SetIndexBinder(SetIndexBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16639 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

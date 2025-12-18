@@ -17,7 +17,7 @@ namespace GlobalNamespace {
 class GhostDuplicationEffect;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
@@ -73,12 +73,12 @@ namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerResultsPyramidViewAvatar/Factory
 class CORDL_TYPE MultiplayerResultsPyramidViewAvatar_Factory
-    : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>> {
+    : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x57d2804, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58390e8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -145,7 +145,7 @@ public:
   __declspec(property(get = __cordl_internal_get__beatmapKey, put = __cordl_internal_set__beatmapKey)) ::GlobalNamespace::BeatmapKey _beatmapKey;
 
   /// @brief Field _connectedPlayer, offset 0x1e0, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* _connectedPlayer;
 
   /// @brief Field _firstPlaceColor, offset 0x150, size 0x10
   __declspec(property(get = __cordl_internal_get__firstPlaceColor, put = __cordl_internal_set__firstPlaceColor)) ::UnityEngine::Color _firstPlaceColor;
@@ -222,15 +222,15 @@ public:
 
   __declspec(property(get = get_badgeDirector)) ::UnityW<::UnityEngine::Playables::PlayableDirector> badgeDirector;
 
-  /// @brief Method Awake, addr 0x57d27c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58390a8, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar* New_ctor();
 
-  /// @brief Method Setup, addr 0x57d2228, size 0x4f0, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5838b0c, size 0x4f0, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MultiplayerPlayerResultsData* resultData, int32_t position, int32_t playerCount);
 
-  /// @brief Method SetupBadgeTimeline, addr 0x57d1ce0, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method SetupBadgeTimeline, addr 0x58385c4, size 0x548, virtual false, abstract: false, final false
   inline void SetupBadgeTimeline(::UnityEngine::Transform* startTransform, ::UnityEngine::Transform* midTransform);
 
   constexpr ::Tweening::Vector3Tween* const& __cordl_internal_get__avatarRiseTween() const;
@@ -273,9 +273,9 @@ public:
 
   constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get__beatmapKey();
 
-  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__firstPlaceColor() const;
 
@@ -393,7 +393,7 @@ public:
 
   constexpr void __cordl_internal_set__beatmapKey(::GlobalNamespace::BeatmapKey value);
 
-  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
   constexpr void __cordl_internal_set__firstPlaceColor(::UnityEngine::Color value);
 
@@ -443,10 +443,10 @@ public:
 
   constexpr void __cordl_internal_set__trophyImage(::UnityW<::HMUI::ImageView> value);
 
-  /// @brief Method .ctor, addr 0x57d27e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58390c4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_badgeDirector, addr 0x57d27bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_badgeDirector, addr 0x58390a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Playables::PlayableDirector> get_badgeDirector();
 
 protected:
@@ -569,7 +569,7 @@ public:
   ::UnityEngine::Vector3 ____originalBadgeLocalPos;
 
   /// @brief Field _connectedPlayer, offset: 0x1e0, size: 0x8, def value: None
-  ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
+  ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

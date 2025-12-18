@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteDebrisPoolInstaller::*)()>(
     &::GlobalNamespace::NoteDebrisPoolInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x57ea780;
+  constexpr static std::size_t addrs = 0x58510d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteDebrisPoolInstaller::*)()>(&::GlobalNamespace::NoteDebrisPoolInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57ea988;
+  constexpr static std::size_t addrs = 0x58512d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebrisPoolInstaller*>::get(), ".ctor",

@@ -51,16 +51,16 @@ public:
 
   static inline ::Zenject::ValidationUtil___c* New_ctor();
 
-  /// @brief Method <CreateDefaultArgs>b__0_0, addr 0x6c689fc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <CreateDefaultArgs>b__0_0, addr 0x6cd1880, size 0x68, virtual false, abstract: false, final false
   inline ::Zenject::TypeValuePair _CreateDefaultArgs_b__0_0(::System::Type* x);
 
-  /// @brief Method __zenCreate, addr 0x6c68a64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6cd18e8, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c68aa8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6cd192c, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6c689f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd187c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::ValidationUtil___c* getStaticF___9();
@@ -86,7 +86,7 @@ public:
   ValidationUtil___c(ValidationUtil___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14680 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14684 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -103,7 +103,7 @@ public:
   // Declarations
   using __c = ::Zenject::ValidationUtil___c;
 
-  /// @brief Method CreateDefaultArgs, addr 0x6c68884, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultArgs, addr 0x6cd1708, size 0x120, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* CreateDefaultArgs(::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes);
 
 protected:
@@ -121,7 +121,7 @@ public:
   ValidationUtil(ValidationUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14681 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14685 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

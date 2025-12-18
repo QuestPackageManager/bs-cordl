@@ -27,24 +27,24 @@ public:
   /// @brief Field m_RenderChain, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RenderChain, put = __cordl_internal_set_m_RenderChain)) ::UnityEngine::UIElements::UIR::RenderChain* m_RenderChain;
 
-  /// @brief Method DrawVisualElementBackground, addr 0x6aa22ac, size 0x11ec, virtual true, abstract: false, final false
+  /// @brief Method DrawVisualElementBackground, addr 0x6b0b130, size 0x11ec, virtual true, abstract: false, final false
   inline void DrawVisualElementBackground(Il2CppObject* mgc);
 
-  /// @brief Method DrawVisualElementBorder, addr 0x6aa3498, size 0x990, virtual true, abstract: false, final false
+  /// @brief Method DrawVisualElementBorder, addr 0x6b0c31c, size 0x990, virtual true, abstract: false, final false
   inline void DrawVisualElementBorder(Il2CppObject* mgc);
 
-  /// @brief Method DrawVisualElementStencilMask, addr 0x6aa3e28, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method DrawVisualElementStencilMask, addr 0x6b0ccac, size 0xa0, virtual true, abstract: false, final false
   inline void DrawVisualElementStencilMask(Il2CppObject* mgc);
 
-  /// @brief Method GenerateStencilClipEntryForRoundedRectBackground, addr 0x6aa3ec8, size 0x728, virtual false, abstract: false, final false
+  /// @brief Method GenerateStencilClipEntryForRoundedRectBackground, addr 0x6b0cd4c, size 0x728, virtual false, abstract: false, final false
   static inline void GenerateStencilClipEntryForRoundedRectBackground(Il2CppObject* mgc);
 
   static inline ::UnityEngine::UIElements::UIR::DefaultElementBuilder* New_ctor(::UnityEngine::UIElements::UIR::RenderChain* renderChain);
 
-  /// @brief Method RequiresStencilMask, addr 0x6aa2220, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method RequiresStencilMask, addr 0x6b0b0a4, size 0x8c, virtual true, abstract: false, final false
   inline bool RequiresStencilMask(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method ScheduleMeshGenerationJobs, addr 0x6aa45f0, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ScheduleMeshGenerationJobs, addr 0x6b0d474, size 0xe0, virtual true, abstract: false, final false
   inline void ScheduleMeshGenerationJobs(Il2CppObject* mgc);
 
   constexpr ::UnityEngine::UIElements::UIR::RenderChain* const& __cordl_internal_get_m_RenderChain() const;
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RenderChain(::UnityEngine::UIElements::UIR::RenderChain* value);
 
-  /// @brief Method .ctor, addr 0x6aa2218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b0b09c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::UIR::RenderChain* renderChain);
 
 protected:

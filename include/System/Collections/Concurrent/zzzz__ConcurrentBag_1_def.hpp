@@ -204,7 +204,7 @@ public:
   static constexpr int32_t StartIndex{ static_cast<int32_t>(0x0) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11363 };
 
   /// @brief Field _headIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____headIndex;
@@ -333,7 +333,7 @@ public:
   ConcurrentBag_1_Enumerator(ConcurrentBag_1_Enumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11364 };
 
   /// @brief Field _array, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> ____array;
@@ -517,7 +517,7 @@ public:
   ConcurrentBag_1(ConcurrentBag_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11365 };
 
   /// @brief Field _locals, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::ConcurrentBag_1_WorkStealingQueue<T>*>* ____locals;

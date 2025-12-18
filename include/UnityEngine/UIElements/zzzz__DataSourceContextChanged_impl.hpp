@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::VisualElement*, ::ByRef<::UnityEngine::UIElements::BindingId>, ::ByRef<::UnityEngine::UIElements::DataSourceContext>,
     ::ByRef<::UnityEngine::UIElements::DataSourceContext>)>(&::UnityEngine::UIElements::DataSourceContextChanged::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6a10c90;
+  constexpr static std::size_t addrs = 0x6a79b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

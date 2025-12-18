@@ -40,7 +40,7 @@ public:
   static inline ::System::Net::NetworkInformation::AixIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::AixNetworkInterface* iface,
                                                                                       ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses, int32_t mtu);
 
-  /// @brief Method ParseRouteInfo_icall, addr 0x6136560, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ParseRouteInfo_icall, addr 0x619e0ec, size 0x44, virtual false, abstract: false, final false
   static inline bool ParseRouteInfo_icall(::StringW iface, ::ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> gw_addr_list);
 
   constexpr int32_t const& __cordl_internal_get__mtu() const;
@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set__mtu(int32_t value);
 
-  /// @brief Method .ctor, addr 0x61364e0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x619e06c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::NetworkInformation::AixNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses, int32_t mtu);
 
-  /// @brief Method get_GatewayAddresses, addr 0x61365a4, size 0x28c, virtual true, abstract: false, final false
+  /// @brief Method get_GatewayAddresses, addr 0x619e130, size 0x28c, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
 
 protected:
@@ -70,7 +70,7 @@ public:
   AixIPInterfaceProperties(AixIPInterfaceProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11658 };
 
   /// @brief Field _mtu, offset: 0x20, size: 0x4, def value: None
   int32_t ____mtu;

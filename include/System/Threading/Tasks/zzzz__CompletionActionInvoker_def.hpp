@@ -39,12 +39,12 @@ public:
   /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
   constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
 
-  /// @brief Method MarkAborted, addr 0x5aaf200, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method MarkAborted, addr 0x5b15b4c, size 0x4, virtual true, abstract: false, final true
   inline void MarkAborted(::System::Threading::ThreadAbortException* e);
 
   static inline ::System::Threading::Tasks::CompletionActionInvoker* New_ctor(::System::Threading::Tasks::ITaskCompletionAction* action, ::System::Threading::Tasks::Task* completingTask);
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x5aaf154, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x5b15aa0, size 0xac, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
   constexpr ::System::Threading::Tasks::ITaskCompletionAction* const& __cordl_internal_get_m_action() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_m_completingTask(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0x5aab778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b120c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ITaskCompletionAction* action, ::System::Threading::Tasks::Task* completingTask);
 
   /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"

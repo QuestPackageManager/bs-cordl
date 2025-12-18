@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob::*)(::ByRef<::UnityEngine::Rendering::RangeKey>)>(
     &::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob::RemoveDrawRange)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x65fd8d8;
+  constexpr static std::size_t addrs = 0x6665464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob::*)(::ByRef<::UnityEngine::Rendering::DrawKey>)>(
     &::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob::RemoveDrawBatch)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x65fda7c;
+  constexpr static std::size_t addrs = 0x6665608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob::*)()>(
     &::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob::Execute)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x65fdcec;
+  constexpr static std::size_t addrs = 0x6665878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RemoveDrawInstanceIndicesJob>::get(),

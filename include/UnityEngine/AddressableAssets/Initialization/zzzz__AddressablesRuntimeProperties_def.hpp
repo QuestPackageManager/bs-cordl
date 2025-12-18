@@ -44,28 +44,28 @@ public:
   /// @brief Field s_TokenStartStack, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_TokenStartStack, put = setStaticF_s_TokenStartStack)) ::System::Collections::Generic::Stack_1<int32_t>* s_TokenStartStack;
 
-  /// @brief Method ClearCachedPropertyValues, addr 0x624df48, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ClearCachedPropertyValues, addr 0x62b5ad4, size 0x80, virtual false, abstract: false, final false
   static inline void ClearCachedPropertyValues();
 
-  /// @brief Method EvaluateProperty, addr 0x624dfc8, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method EvaluateProperty, addr 0x62b5b54, size 0x3dc, virtual false, abstract: false, final false
   static inline ::StringW EvaluateProperty(::StringW name);
 
-  /// @brief Method EvaluateString, addr 0x6239cbc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method EvaluateString, addr 0x62a1848, size 0xf4, virtual false, abstract: false, final false
   static inline ::StringW EvaluateString(::StringW inputString);
 
-  /// @brief Method EvaluateString, addr 0x624e964, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method EvaluateString, addr 0x62b64f0, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW EvaluateString(::StringW inputString, char16_t startDelimiter, char16_t endDelimiter, ::System::Func_2<::StringW, ::StringW>* varFunc);
 
-  /// @brief Method EvaluateStringInternal, addr 0x624e3a4, size 0x5c0, virtual false, abstract: false, final false
+  /// @brief Method EvaluateStringInternal, addr 0x62b5f30, size 0x5c0, virtual false, abstract: false, final false
   static inline ::StringW EvaluateStringInternal(::StringW inputString, char16_t startDelimiter, char16_t endDelimiter, ::System::Func_2<::StringW, ::StringW>* varFunc);
 
-  /// @brief Method GetAssemblies, addr 0x624de00, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetAssemblies, addr 0x62b598c, size 0x1c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::Assembly*, ::Array<::System::Reflection::Assembly*>*> GetAssemblies();
 
-  /// @brief Method GetCachedValueCount, addr 0x624de1c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetCachedValueCount, addr 0x62b59a8, size 0x84, virtual false, abstract: false, final false
   static inline int32_t GetCachedValueCount();
 
-  /// @brief Method SetPropertyValue, addr 0x624dea0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetPropertyValue, addr 0x62b5a2c, size 0xa8, virtual false, abstract: false, final false
   static inline void SetPropertyValue(::StringW name, ::StringW val);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_CachedValues();
@@ -99,7 +99,7 @@ public:
   AddressablesRuntimeProperties(AddressablesRuntimeProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19542 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19568 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

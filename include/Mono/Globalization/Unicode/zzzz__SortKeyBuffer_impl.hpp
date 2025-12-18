@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SortKeyBuffer::*)(int32_t)>(
     &::Mono::Globalization::Unicode::SortKeyBuffer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x589eb04;
+  constexpr static std::size_t addrs = 0x5905450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SortKeyBuffer::*)()>(&::Mono::Globalization::Unicode::SortKeyBuffer::Reset)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x58a32dc;
+  constexpr static std::size_t addrs = 0x5909c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SortKeyBuffer*>::get(), "Reset",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SortKeyBuffer::*)(
     ::System::Globalization::CompareOptions, int32_t, ::StringW, bool)>(&::Mono::Globalization::Unicode::SortKeyBuffer::Initialize)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x589eb08;
+  constexpr static std::size_t addrs = 0x5905454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t)>(
     &::Mono::Globalization::Unicode::SortKeyBuffer::AppendCJKExtension)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x589f74c;
+  constexpr static std::size_t addrs = 0x5906098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t, uint8_t, uint8_t, bool, uint8_t, bool, bool)>(&::Mono::Globalization::Unicode::SortKeyBuffer::AppendKana)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x589f884;
+  constexpr static std::size_t addrs = 0x59061d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t, uint8_t, uint8_t)>(
     &::Mono::Globalization::Unicode::SortKeyBuffer::AppendNormal)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x589f61c;
+  constexpr static std::size_t addrs = 0x5905f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t)>(
     &::Mono::Globalization::Unicode::SortKeyBuffer::AppendLevel5)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x58a33bc;
+  constexpr static std::size_t addrs = 0x5909d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SortKeyBuffer::*)(
     uint8_t, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>, ::ByRef<int32_t>)>(&::Mono::Globalization::Unicode::SortKeyBuffer::AppendBufferPrimitive)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x58a32f0;
+  constexpr static std::size_t addrs = 0x5909c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::SortKey* (::Mono::Globalization::Unicode::SortKeyBuffer::*)()>(
     &::Mono::Globalization::Unicode::SortKeyBuffer::GetResultAndReset)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x589f008;
+  constexpr static std::size_t addrs = 0x5905954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SortKeyBuffer*>::get(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SortKeyBuffer::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, uint8_t)>(
     &::Mono::Globalization::Unicode::SortKeyBuffer::GetOptimizedLength)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x58a3880;
+  constexpr static std::size_t addrs = 0x590a1cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::SortKey* (::Mono::Globalization::Unicode::SortKeyBuffer::*)()>(
     &::Mono::Globalization::Unicode::SortKeyBuffer::GetResult)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x58a344c;
+  constexpr static std::size_t addrs = 0x5909d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SortKeyBuffer*>::get(),

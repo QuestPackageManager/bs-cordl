@@ -95,7 +95,7 @@ public:
 
   static inline ::System::Net::Http::Headers::HttpHeaders_HeaderBucket* New_ctor(::System::Object* parsed, ::System::Func_2<::System::Object*, ::StringW>* converter);
 
-  /// @brief Method ParsedToString, addr 0x5ecddb4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ParsedToString, addr 0x5f35940, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW ParsedToString();
 
   constexpr ::System::Func_2<::System::Object*, ::StringW>* const& __cordl_internal_get_CustomToString() const;
@@ -116,16 +116,16 @@ public:
 
   constexpr void __cordl_internal_set_values(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x5ecd564, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f350f0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* parsed, ::System::Func_2<::System::Object*, ::StringW>* converter);
 
-  /// @brief Method get_HasStringValues, addr 0x5ecddf0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_HasStringValues, addr 0x5f3597c, size 0x5c, virtual false, abstract: false, final false
   inline bool get_HasStringValues();
 
-  /// @brief Method get_Values, addr 0x5ecd570, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x5f350fc, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_Values();
 
-  /// @brief Method set_Values, addr 0x5ecde4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Values, addr 0x5f359d8, size 0x8, virtual false, abstract: false, final false
   inline void set_Values(::System::Collections::Generic::List_1<::StringW>* value);
 
 protected:
@@ -143,7 +143,7 @@ public:
   HttpHeaders_HeaderBucket(HttpHeaders_HeaderBucket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20168 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20080 };
 
   /// @brief Field Parsed, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___Parsed;
@@ -204,23 +204,23 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5ecdeb0, size 0x36c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f35a3c, size 0x36c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Net::Http::Headers::HttpHeaders__GetEnumerator_d__19* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Collections.Generic.IEnumerable<System.String>>>.get_Current, addr 0x5ece264,
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Collections.Generic.IEnumerable<System.String>>>.get_Current, addr 0x5f35df0,
   /// size 0xc, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*>
   System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Collections_Generic_IEnumerable_System_String____get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5ece270, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5f35dfc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5ece2a8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5f35e34, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5ecde54, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5f359e0, size 0x5c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -247,10 +247,10 @@ public:
 
   constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::Dictionary_2_Enumerator<::StringW, ::System::Net::Http::Headers::HttpHeaders_HeaderBucket*> value);
 
-  /// @brief Method <>m__Finally1, addr 0x5ece21c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x5f35da8, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x5ecd7cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f35358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Collections::Generic::IEnumerable_1<::StringW>*>>"
@@ -278,7 +278,7 @@ public:
   HttpHeaders__GetEnumerator_d__19(HttpHeaders__GetEnumerator_d__19 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20169 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20081 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -340,13 +340,13 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x5ecccb0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x5f3483c, size 0x9c, virtual false, abstract: false, final false
   inline void Add(::StringW name, ::StringW value);
 
-  /// @brief Method Add, addr 0x5eccd4c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x5f348d8, size 0x84, virtual false, abstract: false, final false
   inline void Add(::StringW name, ::System::Collections::Generic::IEnumerable_1<::StringW>* values);
 
-  /// @brief Method AddInternal, addr 0x5eccf34, size 0x630, virtual false, abstract: false, final false
+  /// @brief Method AddInternal, addr 0x5f34ac0, size 0x630, virtual false, abstract: false, final false
   inline bool AddInternal(::StringW name, ::System::Collections::Generic::IEnumerable_1<::StringW>* values, ::System::Net::Http::Headers::HeaderInfo* headerInfo, bool ignoreInvalid);
 
   /// @brief Method AddOrRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -358,19 +358,19 @@ public:
   /// @brief Method AddOrRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void AddOrRemove(::StringW name, T value, ::System::Func_2<::System::Object*, ::StringW>* converter);
 
-  /// @brief Method CheckName, addr 0x5eccdd0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method CheckName, addr 0x5f3495c, size 0x164, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HeaderInfo* CheckName(::StringW name);
 
-  /// @brief Method GetAllHeaderValues, addr 0x5ecdbbc, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method GetAllHeaderValues, addr 0x5f35748, size 0x1f8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* GetAllHeaderValues(::System::Net::Http::Headers::HttpHeaders_HeaderBucket* bucket, ::System::Net::Http::Headers::HeaderInfo* headerInfo);
 
-  /// @brief Method GetEnumerator, addr 0x5ebb914, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x5f234a0, size 0x54, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*>>* GetEnumerator();
 
-  /// @brief Method GetKnownHeaderKind, addr 0x5ebe018, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetKnownHeaderKind, addr 0x5f25ba4, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Net::Http::Headers::HttpHeaderKind GetKnownHeaderKind(::StringW name);
 
-  /// @brief Method GetSingleHeaderString, addr 0x5ebe120, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method GetSingleHeaderString, addr 0x5f25cac, size 0x440, virtual false, abstract: false, final false
   static inline ::StringW GetSingleHeaderString(::StringW key, ::System::Collections::Generic::IEnumerable_1<::StringW>* values);
 
   /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -383,25 +383,25 @@ public:
 
   static inline ::System::Net::Http::Headers::HttpHeaders* New_ctor(::System::Net::Http::Headers::HttpHeaderKind headerKind);
 
-  /// @brief Method Remove, addr 0x5ecd7d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x5f35364, size 0x70, virtual false, abstract: false, final false
   inline bool Remove(::StringW name);
 
   /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SetValue(::StringW name, T value, ::System::Func_2<::System::Object*, ::StringW>* toStringConverter);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5ecd7d4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5f35360, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method ToString, addr 0x5ecd848, size 0x374, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5f353d4, size 0x374, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryAddWithoutValidation, addr 0x5ecd5f0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TryAddWithoutValidation, addr 0x5f3517c, size 0x84, virtual false, abstract: false, final false
   inline bool TryAddWithoutValidation(::StringW name, ::StringW value);
 
-  /// @brief Method TryAddWithoutValidation, addr 0x5ebbd98, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method TryAddWithoutValidation, addr 0x5f23924, size 0xa4, virtual false, abstract: false, final false
   inline bool TryAddWithoutValidation(::StringW name, ::System::Collections::Generic::IEnumerable_1<::StringW>* values);
 
-  /// @brief Method TryCheckName, addr 0x5ecd674, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TryCheckName, addr 0x5f35200, size 0xec, virtual false, abstract: false, final false
   inline bool TryCheckName(::StringW name, ::ByRef<::System::Net::Http::Headers::HeaderInfo*> headerInfo);
 
   constexpr ::System::Net::Http::Headers::HttpHeaderKind const& __cordl_internal_get_HeaderKind() const;
@@ -428,10 +428,10 @@ public:
 
   constexpr void __cordl_internal_set_transferEncodingChunked(::System::Nullable_1<bool> value);
 
-  /// @brief Method .ctor, addr 0x5eccba0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3472c, size 0x110, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5eca930, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f324bc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::HttpHeaderKind headerKind);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::HeaderInfo*>* getStaticF_known_headers();
@@ -460,7 +460,7 @@ public:
   HttpHeaders(HttpHeaders const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20170 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20082 };
 
   /// @brief Field headers, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::HttpHeaders_HeaderBucket*>* ___headers;

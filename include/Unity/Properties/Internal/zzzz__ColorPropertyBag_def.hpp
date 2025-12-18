@@ -57,21 +57,21 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method GetValue, addr 0x697f174, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x69e7ff8, size 0x8, virtual true, abstract: false, final false
   inline float_t GetValue(::ByRef<::UnityEngine::Color> container);
 
   static inline ::Unity::Properties::Internal::ColorPropertyBag_RProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x697f17c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x69e8000, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::ByRef<::UnityEngine::Color> container, float_t value);
 
-  /// @brief Method .ctor, addr 0x697f038, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e7ebc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x697f16c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x69e7ff0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x697f128, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x69e7fac, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -89,7 +89,7 @@ public:
   ColorPropertyBag_RProperty(ColorPropertyBag_RProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19431 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -108,21 +108,21 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method GetValue, addr 0x697f1d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x69e8054, size 0x8, virtual true, abstract: false, final false
   inline float_t GetValue(::ByRef<::UnityEngine::Color> container);
 
   static inline ::Unity::Properties::Internal::ColorPropertyBag_GProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x697f1d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x69e805c, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::ByRef<::UnityEngine::Color> container, float_t value);
 
-  /// @brief Method .ctor, addr 0x697f074, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e7ef8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x697f1c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x69e804c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x697f184, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x69e8008, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -140,7 +140,7 @@ public:
   ColorPropertyBag_GProperty(ColorPropertyBag_GProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19432 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -159,21 +159,21 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method GetValue, addr 0x697f22c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x69e80b0, size 0x8, virtual true, abstract: false, final false
   inline float_t GetValue(::ByRef<::UnityEngine::Color> container);
 
   static inline ::Unity::Properties::Internal::ColorPropertyBag_BProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x697f234, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x69e80b8, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::ByRef<::UnityEngine::Color> container, float_t value);
 
-  /// @brief Method .ctor, addr 0x697f0b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e7f34, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x697f224, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x69e80a8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x697f1e0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x69e8064, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -191,7 +191,7 @@ public:
   ColorPropertyBag_BProperty(ColorPropertyBag_BProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19407 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -210,21 +210,21 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method GetValue, addr 0x697f288, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x69e810c, size 0x8, virtual true, abstract: false, final false
   inline float_t GetValue(::ByRef<::UnityEngine::Color> container);
 
   static inline ::Unity::Properties::Internal::ColorPropertyBag_AProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x697f290, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x69e8114, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::ByRef<::UnityEngine::Color> container, float_t value);
 
-  /// @brief Method .ctor, addr 0x697f0ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e7f70, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x697f280, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x69e8104, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x697f23c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x69e80c0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -242,7 +242,7 @@ public:
   ColorPropertyBag_AProperty(ColorPropertyBag_AProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19408 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -267,7 +267,7 @@ public:
 
   static inline ::Unity::Properties::Internal::ColorPropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x697de3c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e6cc0, size 0x204, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -285,7 +285,7 @@ public:
   ColorPropertyBag(ColorPropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19435 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

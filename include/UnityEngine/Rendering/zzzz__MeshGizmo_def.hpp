@@ -65,7 +65,7 @@ public:
   constexpr MeshGizmo___c__DisplayClass10_0(::UnityEngine::Rendering::MeshGizmo* __4__this, ::UnityEngine::Color color) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12282 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12286 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -122,24 +122,24 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddWireCube, addr 0x65a8c60, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method AddWireCube, addr 0x66107ec, size 0x220, virtual false, abstract: false, final false
   inline void AddWireCube(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 size, ::UnityEngine::Color color);
 
-  /// @brief Method Clear, addr 0x65a8bb8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6610744, size 0xa8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x65a939c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6610f28, size 0x60, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DrawMesh, addr 0x65a91a4, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method DrawMesh, addr 0x6610d30, size 0x1bc, virtual false, abstract: false, final false
   inline void DrawMesh(::UnityEngine::Matrix4x4 trs, ::UnityEngine::Material* mat, ::UnityEngine::MeshTopology topology, ::UnityEngine::Rendering::CompareFunction depthTest, ::StringW gizmoName);
 
   static inline ::UnityEngine::Rendering::MeshGizmo* New_ctor(int32_t capacity);
 
-  /// @brief Method RenderWireframe, addr 0x65a9360, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RenderWireframe, addr 0x6610eec, size 0x3c, virtual false, abstract: false, final false
   inline void RenderWireframe(::UnityEngine::Matrix4x4 trs, ::UnityEngine::Rendering::CompareFunction depthTest, ::StringW gizmoName);
 
-  /// @brief Method <AddWireCube>g__AddEdge|10_0, addr 0x65a8e80, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method <AddWireCube>g__AddEdge|10_0, addr 0x6610a0c, size 0x324, virtual false, abstract: false, final false
   inline void _AddWireCube_g__AddEdge_10_0(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::ByRef<::UnityEngine::Rendering::MeshGizmo___c__DisplayClass10_0> _cordl_fixed_empty_name_whitespace);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>* const& __cordl_internal_get_colors() const;
@@ -184,7 +184,7 @@ public:
 
   constexpr void __cordl_internal_set_wireMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x65a8a44, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66105d0, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
   static inline int32_t getStaticF_vertexCountPerCube();
@@ -209,7 +209,7 @@ public:
   MeshGizmo(MeshGizmo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12283 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12287 };
 
   /// @brief Field mesh, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ___mesh;

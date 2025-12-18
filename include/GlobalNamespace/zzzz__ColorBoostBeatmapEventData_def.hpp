@@ -35,10 +35,10 @@ public:
 
   __declspec(property(get = get_previousSameTypeEventData)) ::GlobalNamespace::ColorBoostBeatmapEventData* previousSameTypeEventData;
 
-  /// @brief Method GetCopy, addr 0x316324c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x3192f44, size 0x78, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0x31632c4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x3192fbc, size 0x5c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::ColorBoostBeatmapEventData* New_ctor(float_t time, bool boostColorsAreOn);
@@ -49,15 +49,15 @@ public:
 
   constexpr void __cordl_internal_set_boostColorsAreOn(bool value);
 
-  /// @brief Method .ctor, addr 0x316322c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3192f24, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(float_t time, bool boostColorsAreOn);
 
   static inline ::GlobalNamespace::ColorBoostBeatmapEventData* getStaticF__defaultCopy();
 
-  /// @brief Method get_nextSameTypeEventData, addr 0x31631b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_nextSameTypeEventData, addr 0x3192ea8, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorBoostBeatmapEventData* get_nextSameTypeEventData();
 
-  /// @brief Method get_previousSameTypeEventData, addr 0x3163134, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_previousSameTypeEventData, addr 0x3192e2c, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorBoostBeatmapEventData* get_previousSameTypeEventData();
 
   static inline void setStaticF__defaultCopy(::GlobalNamespace::ColorBoostBeatmapEventData* value);
@@ -77,7 +77,7 @@ public:
   ColorBoostBeatmapEventData(ColorBoostBeatmapEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21049 };
 
   /// @brief Field boostColorsAreOn, offset: 0x30, size: 0x1, def value: None
   bool ___boostColorsAreOn;

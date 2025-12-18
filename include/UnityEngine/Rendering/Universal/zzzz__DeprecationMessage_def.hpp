@@ -34,7 +34,7 @@ public:
   static constexpr ::ConstString CompatibilityScriptingAPIObsolete{ u"This rendering path is for compatibility mode only (when Render Graph is disabled). Use Render Graph API instead." };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12566 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12570 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

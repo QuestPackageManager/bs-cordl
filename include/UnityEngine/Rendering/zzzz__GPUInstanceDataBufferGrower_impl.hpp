@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources::*)(
     ::UnityEngine::Rendering::GPUResidentDrawerResources*)>(&::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources::LoadShaders)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6604250;
+  constexpr static std::size_t addrs = 0x666bddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources::*)()>(
     &::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources::CreateResources)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6603fd0;
+  constexpr static std::size_t addrs = 0x666bb5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources::*)()>(
     &::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources::Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6604304;
+  constexpr static std::size_t addrs = 0x666be90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::GPUInstanceDataBufferGrower::*)(
     ::UnityEngine::Rendering::GPUInstanceDataBuffer*, ::ByRef<::UnityEngine::Rendering::InstanceNumInfo>)>(&::UnityEngine::Rendering::GPUInstanceDataBufferGrower::_ctor)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6603b78;
+  constexpr static std::size_t addrs = 0x666b704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -211,7 +211,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::GPUInstanceDataBufferGrower::*)(::ByRef<::UnityEngine::Rendering::GPUInstanceDataBufferGrower_GPUResources>)>(
     &::UnityEngine::Rendering::GPUInstanceDataBufferGrower::SubmitToGpu)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x6603d04;
+  constexpr static std::size_t addrs = 0x666b890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::GPUInstanceDataBufferGrower::*)()>(
     &::UnityEngine::Rendering::GPUInstanceDataBufferGrower::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6603fd4;
+  constexpr static std::size_t addrs = 0x666bb60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUInstanceDataBufferGrower>::get(),

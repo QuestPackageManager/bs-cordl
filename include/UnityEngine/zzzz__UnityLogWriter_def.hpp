@@ -28,33 +28,33 @@ public:
   // Declarations
   __declspec(property(get = get_Encoding)) ::System::Text::Encoding* Encoding;
 
-  /// @brief Method Init, addr 0x68969ec, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x68ff870, size 0xc8, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::UnityEngine::UnityLogWriter* New_ctor();
 
-  /// @brief Method Write, addr 0x6896b64, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x68ff9e8, size 0x1c, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write, addr 0x6896b54, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x68ff9d8, size 0x10, virtual true, abstract: false, final false
   inline void Write(::StringW s);
 
-  /// @brief Method Write, addr 0x6896b18, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x68ff99c, size 0x3c, virtual true, abstract: false, final false
   inline void Write(char16_t value);
 
-  /// @brief Method WriteStringToUnityLog, addr 0x6896880, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToUnityLog, addr 0x68ff704, size 0xc, virtual false, abstract: false, final false
   static inline void WriteStringToUnityLog(::StringW s);
 
-  /// @brief Method WriteStringToUnityLogImpl, addr 0x689688c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToUnityLogImpl, addr 0x68ff710, size 0x124, virtual false, abstract: false, final false
   static inline void WriteStringToUnityLogImpl(::StringW s);
 
-  /// @brief Method WriteStringToUnityLogImpl_Injected, addr 0x68969b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToUnityLogImpl_Injected, addr 0x68ff834, size 0x3c, virtual false, abstract: false, final false
   static inline void WriteStringToUnityLogImpl_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> s);
 
-  /// @brief Method .ctor, addr 0x6896ab4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68ff938, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Encoding, addr 0x6896b10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x68ff994, size 0x8, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
 protected:
@@ -72,7 +72,7 @@ public:
   UnityLogWriter(UnityLogWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10225 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

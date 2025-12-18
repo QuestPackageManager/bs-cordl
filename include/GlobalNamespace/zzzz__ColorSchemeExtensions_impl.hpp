@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::ColorScheme* (*)(::GlobalNamespace::ColorScheme*, bool, ::GlobalNamespace::ColorScheme*, ::GlobalNamespace::ColorScheme*, bool)>(
         &::GlobalNamespace::ColorSchemeExtensions::ResolveColorScheme)> {
   constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x35d0cb0;
+  constexpr static std::size_t addrs = 0x35fb4f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::ILightshowColorScheme* (*)(::GlobalNamespace::ILightshowColorScheme*, bool, ::GlobalNamespace::ILightshowColorScheme*, ::GlobalNamespace::ILightshowColorScheme*,
                                                               bool)>(&::GlobalNamespace::ColorSchemeExtensions::GetColorSchemeForLightshowOverride)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x35d12ac;
+  constexpr static std::size_t addrs = 0x35fbaf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::IGameplayColorScheme* (*)(::GlobalNamespace::IGameplayColorScheme*, ::GlobalNamespace::IGameplayColorScheme*, ::GlobalNamespace::IGameplayColorScheme*, bool)>(
         &::GlobalNamespace::ColorSchemeExtensions::GetColorSchemeForGameplayOverride)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x35d11d0;
+  constexpr static std::size_t addrs = 0x35fba14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

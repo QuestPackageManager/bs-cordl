@@ -602,556 +602,556 @@ public:
 
   static inline ::Unity::Properties::PrimitiveConverters_TypeConversion___c* New_ctor();
 
-  /// @brief Method <RegisterBooleanConverters>b__11_0, addr 0x697b550, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBooleanConverters>b__11_0, addr 0x69e43d4, size 0x10, virtual false, abstract: false, final false
   inline char16_t _RegisterBooleanConverters_b__11_0(::ByRef<bool> v);
 
-  /// @brief Method <RegisterBooleanConverters>b__11_1, addr 0x697b560, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBooleanConverters>b__11_1, addr 0x69e43e4, size 0x10, virtual false, abstract: false, final false
   inline int8_t _RegisterBooleanConverters_b__11_1(::ByRef<bool> v);
 
-  /// @brief Method <RegisterBooleanConverters>b__11_10, addr 0x697b5f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBooleanConverters>b__11_10, addr 0x69e447c, size 0x18, virtual false, abstract: false, final false
   inline double_t _RegisterBooleanConverters_b__11_10(::ByRef<bool> v);
 
-  /// @brief Method <RegisterBooleanConverters>b__11_11, addr 0x697b610, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBooleanConverters>b__11_11, addr 0x69e4494, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterBooleanConverters_b__11_11(::ByRef<bool> v);
 
-  /// @brief Method <RegisterBooleanConverters>b__11_2, addr 0x697b570, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBooleanConverters>b__11_2, addr 0x69e43f4, size 0x10, virtual false, abstract: false, final false
   inline int16_t _RegisterBooleanConverters_b__11_2(::ByRef<bool> v);
 
-  /// @brief Method <RegisterBooleanConverters>b__11_3, addr 0x697b580, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBooleanConverters>b__11_3, addr 0x69e4404, size 0x10, virtual false, abstract: false, final false
   inline int32_t _RegisterBooleanConverters_b__11_3(::ByRef<bool> v);
 
-  /// @brief Method <RegisterBooleanConverters>b__11_4, addr 0x697b590, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBooleanConverters>b__11_4, addr 0x69e4414, size 0x10, virtual false, abstract: false, final false
   inline int64_t _RegisterBooleanConverters_b__11_4(::ByRef<bool> v);
 
-  /// @brief Method <RegisterBooleanConverters>b__11_5, addr 0x697b5a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBooleanConverters>b__11_5, addr 0x69e4424, size 0x10, virtual false, abstract: false, final false
   inline uint8_t _RegisterBooleanConverters_b__11_5(::ByRef<bool> v);
 
-  /// @brief Method <RegisterBooleanConverters>b__11_6, addr 0x697b5b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBooleanConverters>b__11_6, addr 0x69e4434, size 0x10, virtual false, abstract: false, final false
   inline uint16_t _RegisterBooleanConverters_b__11_6(::ByRef<bool> v);
 
-  /// @brief Method <RegisterBooleanConverters>b__11_7, addr 0x697b5c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBooleanConverters>b__11_7, addr 0x69e4444, size 0x10, virtual false, abstract: false, final false
   inline uint32_t _RegisterBooleanConverters_b__11_7(::ByRef<bool> v);
 
-  /// @brief Method <RegisterBooleanConverters>b__11_8, addr 0x697b5d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBooleanConverters>b__11_8, addr 0x69e4454, size 0x10, virtual false, abstract: false, final false
   inline uint64_t _RegisterBooleanConverters_b__11_8(::ByRef<bool> v);
 
-  /// @brief Method <RegisterBooleanConverters>b__11_9, addr 0x697b5e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterBooleanConverters>b__11_9, addr 0x69e4464, size 0x18, virtual false, abstract: false, final false
   inline float_t _RegisterBooleanConverters_b__11_9(::ByRef<bool> v);
 
-  /// @brief Method <RegisterCharConverters>b__12_0, addr 0x697b63c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RegisterCharConverters>b__12_0, addr 0x69e44c0, size 0x70, virtual false, abstract: false, final false
   inline char16_t _RegisterCharConverters_b__12_0(::ByRef<::StringW> v);
 
-  /// @brief Method <RegisterCharConverters>b__12_1, addr 0x697b6ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterCharConverters>b__12_1, addr 0x69e4530, size 0x10, virtual false, abstract: false, final false
   inline bool _RegisterCharConverters_b__12_1(::ByRef<char16_t> v);
 
-  /// @brief Method <RegisterCharConverters>b__12_10, addr 0x697b6fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterCharConverters>b__12_10, addr 0x69e4580, size 0xc, virtual false, abstract: false, final false
   inline float_t _RegisterCharConverters_b__12_10(::ByRef<char16_t> v);
 
-  /// @brief Method <RegisterCharConverters>b__12_11, addr 0x697b708, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterCharConverters>b__12_11, addr 0x69e458c, size 0xc, virtual false, abstract: false, final false
   inline double_t _RegisterCharConverters_b__12_11(::ByRef<char16_t> v);
 
-  /// @brief Method <RegisterCharConverters>b__12_12, addr 0x697b714, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <RegisterCharConverters>b__12_12, addr 0x69e4598, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterCharConverters_b__12_12(::ByRef<char16_t> v);
 
-  /// @brief Method <RegisterCharConverters>b__12_13, addr 0x697b738, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterCharConverters>b__12_13, addr 0x69e45bc, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW _RegisterCharConverters_b__12_13(::ByRef<char16_t> v);
 
-  /// @brief Method <RegisterCharConverters>b__12_2, addr 0x697b6bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterCharConverters>b__12_2, addr 0x69e4540, size 0x8, virtual false, abstract: false, final false
   inline int8_t _RegisterCharConverters_b__12_2(::ByRef<char16_t> v);
 
-  /// @brief Method <RegisterCharConverters>b__12_3, addr 0x697b6c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterCharConverters>b__12_3, addr 0x69e4548, size 0x8, virtual false, abstract: false, final false
   inline int16_t _RegisterCharConverters_b__12_3(::ByRef<char16_t> v);
 
-  /// @brief Method <RegisterCharConverters>b__12_4, addr 0x697b6cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterCharConverters>b__12_4, addr 0x69e4550, size 0x8, virtual false, abstract: false, final false
   inline int32_t _RegisterCharConverters_b__12_4(::ByRef<char16_t> v);
 
-  /// @brief Method <RegisterCharConverters>b__12_5, addr 0x697b6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterCharConverters>b__12_5, addr 0x69e4558, size 0x8, virtual false, abstract: false, final false
   inline int64_t _RegisterCharConverters_b__12_5(::ByRef<char16_t> v);
 
-  /// @brief Method <RegisterCharConverters>b__12_6, addr 0x697b6dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterCharConverters>b__12_6, addr 0x69e4560, size 0x8, virtual false, abstract: false, final false
   inline uint8_t _RegisterCharConverters_b__12_6(::ByRef<char16_t> v);
 
-  /// @brief Method <RegisterCharConverters>b__12_7, addr 0x697b6e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterCharConverters>b__12_7, addr 0x69e4568, size 0x8, virtual false, abstract: false, final false
   inline uint16_t _RegisterCharConverters_b__12_7(::ByRef<char16_t> v);
 
-  /// @brief Method <RegisterCharConverters>b__12_8, addr 0x697b6ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterCharConverters>b__12_8, addr 0x69e4570, size 0x8, virtual false, abstract: false, final false
   inline uint32_t _RegisterCharConverters_b__12_8(::ByRef<char16_t> v);
 
-  /// @brief Method <RegisterCharConverters>b__12_9, addr 0x697b6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterCharConverters>b__12_9, addr 0x69e4578, size 0x8, virtual false, abstract: false, final false
   inline uint64_t _RegisterCharConverters_b__12_9(::ByRef<char16_t> v);
 
-  /// @brief Method <RegisterFloat32Converters>b__9_0, addr 0x697b240, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat32Converters>b__9_0, addr 0x69e40c4, size 0x1c, virtual false, abstract: false, final false
   inline int8_t _RegisterFloat32Converters_b__9_0(::ByRef<float_t> v);
 
-  /// @brief Method <RegisterFloat32Converters>b__9_1, addr 0x697b25c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat32Converters>b__9_1, addr 0x69e40e0, size 0x14, virtual false, abstract: false, final false
   inline char16_t _RegisterFloat32Converters_b__9_1(::ByRef<float_t> v);
 
-  /// @brief Method <RegisterFloat32Converters>b__9_10, addr 0x697b398, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat32Converters>b__9_10, addr 0x69e421c, size 0xc, virtual false, abstract: false, final false
   inline double_t _RegisterFloat32Converters_b__9_10(::ByRef<float_t> v);
 
-  /// @brief Method <RegisterFloat32Converters>b__9_11, addr 0x697b3a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat32Converters>b__9_11, addr 0x69e4228, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterFloat32Converters_b__9_11(::ByRef<float_t> v);
 
-  /// @brief Method <RegisterFloat32Converters>b__9_2, addr 0x697b270, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat32Converters>b__9_2, addr 0x69e40f4, size 0x74, virtual false, abstract: false, final false
   inline bool _RegisterFloat32Converters_b__9_2(::ByRef<float_t> v);
 
-  /// @brief Method <RegisterFloat32Converters>b__9_3, addr 0x697b2e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat32Converters>b__9_3, addr 0x69e4168, size 0x1c, virtual false, abstract: false, final false
   inline int16_t _RegisterFloat32Converters_b__9_3(::ByRef<float_t> v);
 
-  /// @brief Method <RegisterFloat32Converters>b__9_4, addr 0x697b300, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat32Converters>b__9_4, addr 0x69e4184, size 0x20, virtual false, abstract: false, final false
   inline int32_t _RegisterFloat32Converters_b__9_4(::ByRef<float_t> v);
 
-  /// @brief Method <RegisterFloat32Converters>b__9_5, addr 0x697b320, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat32Converters>b__9_5, addr 0x69e41a4, size 0x20, virtual false, abstract: false, final false
   inline int64_t _RegisterFloat32Converters_b__9_5(::ByRef<float_t> v);
 
-  /// @brief Method <RegisterFloat32Converters>b__9_6, addr 0x697b340, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat32Converters>b__9_6, addr 0x69e41c4, size 0x14, virtual false, abstract: false, final false
   inline uint8_t _RegisterFloat32Converters_b__9_6(::ByRef<float_t> v);
 
-  /// @brief Method <RegisterFloat32Converters>b__9_7, addr 0x697b354, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat32Converters>b__9_7, addr 0x69e41d8, size 0x14, virtual false, abstract: false, final false
   inline uint16_t _RegisterFloat32Converters_b__9_7(::ByRef<float_t> v);
 
-  /// @brief Method <RegisterFloat32Converters>b__9_8, addr 0x697b368, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat32Converters>b__9_8, addr 0x69e41ec, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _RegisterFloat32Converters_b__9_8(::ByRef<float_t> v);
 
-  /// @brief Method <RegisterFloat32Converters>b__9_9, addr 0x697b380, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat32Converters>b__9_9, addr 0x69e4204, size 0x18, virtual false, abstract: false, final false
   inline uint64_t _RegisterFloat32Converters_b__9_9(::ByRef<float_t> v);
 
-  /// @brief Method <RegisterFloat64Converters>b__10_0, addr 0x697b3c8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat64Converters>b__10_0, addr 0x69e424c, size 0x1c, virtual false, abstract: false, final false
   inline int8_t _RegisterFloat64Converters_b__10_0(::ByRef<double_t> v);
 
-  /// @brief Method <RegisterFloat64Converters>b__10_1, addr 0x697b3e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat64Converters>b__10_1, addr 0x69e4268, size 0x14, virtual false, abstract: false, final false
   inline char16_t _RegisterFloat64Converters_b__10_1(::ByRef<double_t> v);
 
-  /// @brief Method <RegisterFloat64Converters>b__10_10, addr 0x697b520, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat64Converters>b__10_10, addr 0x69e43a4, size 0xc, virtual false, abstract: false, final false
   inline float_t _RegisterFloat64Converters_b__10_10(::ByRef<double_t> v);
 
-  /// @brief Method <RegisterFloat64Converters>b__10_11, addr 0x697b52c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat64Converters>b__10_11, addr 0x69e43b0, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterFloat64Converters_b__10_11(::ByRef<double_t> v);
 
-  /// @brief Method <RegisterFloat64Converters>b__10_2, addr 0x697b3f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat64Converters>b__10_2, addr 0x69e427c, size 0x74, virtual false, abstract: false, final false
   inline bool _RegisterFloat64Converters_b__10_2(::ByRef<double_t> v);
 
-  /// @brief Method <RegisterFloat64Converters>b__10_3, addr 0x697b46c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat64Converters>b__10_3, addr 0x69e42f0, size 0x1c, virtual false, abstract: false, final false
   inline int16_t _RegisterFloat64Converters_b__10_3(::ByRef<double_t> v);
 
-  /// @brief Method <RegisterFloat64Converters>b__10_4, addr 0x697b488, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat64Converters>b__10_4, addr 0x69e430c, size 0x20, virtual false, abstract: false, final false
   inline int32_t _RegisterFloat64Converters_b__10_4(::ByRef<double_t> v);
 
-  /// @brief Method <RegisterFloat64Converters>b__10_5, addr 0x697b4a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat64Converters>b__10_5, addr 0x69e432c, size 0x20, virtual false, abstract: false, final false
   inline int64_t _RegisterFloat64Converters_b__10_5(::ByRef<double_t> v);
 
-  /// @brief Method <RegisterFloat64Converters>b__10_6, addr 0x697b4c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat64Converters>b__10_6, addr 0x69e434c, size 0x14, virtual false, abstract: false, final false
   inline uint8_t _RegisterFloat64Converters_b__10_6(::ByRef<double_t> v);
 
-  /// @brief Method <RegisterFloat64Converters>b__10_7, addr 0x697b4dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat64Converters>b__10_7, addr 0x69e4360, size 0x14, virtual false, abstract: false, final false
   inline uint16_t _RegisterFloat64Converters_b__10_7(::ByRef<double_t> v);
 
-  /// @brief Method <RegisterFloat64Converters>b__10_8, addr 0x697b4f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat64Converters>b__10_8, addr 0x69e4374, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _RegisterFloat64Converters_b__10_8(::ByRef<double_t> v);
 
-  /// @brief Method <RegisterFloat64Converters>b__10_9, addr 0x697b508, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloat64Converters>b__10_9, addr 0x69e438c, size 0x18, virtual false, abstract: false, final false
   inline uint64_t _RegisterFloat64Converters_b__10_9(::ByRef<double_t> v);
 
-  /// @brief Method <RegisterInt16Converters>b__2_0, addr 0x697ae70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt16Converters>b__2_0, addr 0x69e3cf4, size 0x8, virtual false, abstract: false, final false
   inline int8_t _RegisterInt16Converters_b__2_0(::ByRef<int16_t> v);
 
-  /// @brief Method <RegisterInt16Converters>b__2_1, addr 0x697ae78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt16Converters>b__2_1, addr 0x69e3cfc, size 0x8, virtual false, abstract: false, final false
   inline char16_t _RegisterInt16Converters_b__2_1(::ByRef<int16_t> v);
 
-  /// @brief Method <RegisterInt16Converters>b__2_10, addr 0x697aecc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt16Converters>b__2_10, addr 0x69e3d50, size 0xc, virtual false, abstract: false, final false
   inline double_t _RegisterInt16Converters_b__2_10(::ByRef<int16_t> v);
 
-  /// @brief Method <RegisterInt16Converters>b__2_11, addr 0x697aed8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt16Converters>b__2_11, addr 0x69e3d5c, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterInt16Converters_b__2_11(::ByRef<int16_t> v);
 
-  /// @brief Method <RegisterInt16Converters>b__2_2, addr 0x697ae80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt16Converters>b__2_2, addr 0x69e3d04, size 0x10, virtual false, abstract: false, final false
   inline bool _RegisterInt16Converters_b__2_2(::ByRef<int16_t> v);
 
-  /// @brief Method <RegisterInt16Converters>b__2_3, addr 0x697ae90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt16Converters>b__2_3, addr 0x69e3d14, size 0x8, virtual false, abstract: false, final false
   inline int32_t _RegisterInt16Converters_b__2_3(::ByRef<int16_t> v);
 
-  /// @brief Method <RegisterInt16Converters>b__2_4, addr 0x697ae98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt16Converters>b__2_4, addr 0x69e3d1c, size 0x8, virtual false, abstract: false, final false
   inline int64_t _RegisterInt16Converters_b__2_4(::ByRef<int16_t> v);
 
-  /// @brief Method <RegisterInt16Converters>b__2_5, addr 0x697aea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt16Converters>b__2_5, addr 0x69e3d24, size 0x8, virtual false, abstract: false, final false
   inline uint8_t _RegisterInt16Converters_b__2_5(::ByRef<int16_t> v);
 
-  /// @brief Method <RegisterInt16Converters>b__2_6, addr 0x697aea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt16Converters>b__2_6, addr 0x69e3d2c, size 0x8, virtual false, abstract: false, final false
   inline uint16_t _RegisterInt16Converters_b__2_6(::ByRef<int16_t> v);
 
-  /// @brief Method <RegisterInt16Converters>b__2_7, addr 0x697aeb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt16Converters>b__2_7, addr 0x69e3d34, size 0x8, virtual false, abstract: false, final false
   inline uint32_t _RegisterInt16Converters_b__2_7(::ByRef<int16_t> v);
 
-  /// @brief Method <RegisterInt16Converters>b__2_8, addr 0x697aeb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt16Converters>b__2_8, addr 0x69e3d3c, size 0x8, virtual false, abstract: false, final false
   inline uint64_t _RegisterInt16Converters_b__2_8(::ByRef<int16_t> v);
 
-  /// @brief Method <RegisterInt16Converters>b__2_9, addr 0x697aec0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt16Converters>b__2_9, addr 0x69e3d44, size 0xc, virtual false, abstract: false, final false
   inline float_t _RegisterInt16Converters_b__2_9(::ByRef<int16_t> v);
 
-  /// @brief Method <RegisterInt32Converters>b__3_0, addr 0x697aefc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt32Converters>b__3_0, addr 0x69e3d80, size 0x8, virtual false, abstract: false, final false
   inline int8_t _RegisterInt32Converters_b__3_0(::ByRef<int32_t> v);
 
-  /// @brief Method <RegisterInt32Converters>b__3_1, addr 0x697af04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt32Converters>b__3_1, addr 0x69e3d88, size 0x8, virtual false, abstract: false, final false
   inline char16_t _RegisterInt32Converters_b__3_1(::ByRef<int32_t> v);
 
-  /// @brief Method <RegisterInt32Converters>b__3_10, addr 0x697af58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt32Converters>b__3_10, addr 0x69e3ddc, size 0xc, virtual false, abstract: false, final false
   inline double_t _RegisterInt32Converters_b__3_10(::ByRef<int32_t> v);
 
-  /// @brief Method <RegisterInt32Converters>b__3_11, addr 0x697af64, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt32Converters>b__3_11, addr 0x69e3de8, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterInt32Converters_b__3_11(::ByRef<int32_t> v);
 
-  /// @brief Method <RegisterInt32Converters>b__3_2, addr 0x697af0c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt32Converters>b__3_2, addr 0x69e3d90, size 0x10, virtual false, abstract: false, final false
   inline bool _RegisterInt32Converters_b__3_2(::ByRef<int32_t> v);
 
-  /// @brief Method <RegisterInt32Converters>b__3_3, addr 0x697af1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt32Converters>b__3_3, addr 0x69e3da0, size 0x8, virtual false, abstract: false, final false
   inline int16_t _RegisterInt32Converters_b__3_3(::ByRef<int32_t> v);
 
-  /// @brief Method <RegisterInt32Converters>b__3_4, addr 0x697af24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt32Converters>b__3_4, addr 0x69e3da8, size 0x8, virtual false, abstract: false, final false
   inline int64_t _RegisterInt32Converters_b__3_4(::ByRef<int32_t> v);
 
-  /// @brief Method <RegisterInt32Converters>b__3_5, addr 0x697af2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt32Converters>b__3_5, addr 0x69e3db0, size 0x8, virtual false, abstract: false, final false
   inline uint8_t _RegisterInt32Converters_b__3_5(::ByRef<int32_t> v);
 
-  /// @brief Method <RegisterInt32Converters>b__3_6, addr 0x697af34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt32Converters>b__3_6, addr 0x69e3db8, size 0x8, virtual false, abstract: false, final false
   inline uint16_t _RegisterInt32Converters_b__3_6(::ByRef<int32_t> v);
 
-  /// @brief Method <RegisterInt32Converters>b__3_7, addr 0x697af3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt32Converters>b__3_7, addr 0x69e3dc0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t _RegisterInt32Converters_b__3_7(::ByRef<int32_t> v);
 
-  /// @brief Method <RegisterInt32Converters>b__3_8, addr 0x697af44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt32Converters>b__3_8, addr 0x69e3dc8, size 0x8, virtual false, abstract: false, final false
   inline uint64_t _RegisterInt32Converters_b__3_8(::ByRef<int32_t> v);
 
-  /// @brief Method <RegisterInt32Converters>b__3_9, addr 0x697af4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt32Converters>b__3_9, addr 0x69e3dd0, size 0xc, virtual false, abstract: false, final false
   inline float_t _RegisterInt32Converters_b__3_9(::ByRef<int32_t> v);
 
-  /// @brief Method <RegisterInt64Converters>b__4_0, addr 0x697af88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt64Converters>b__4_0, addr 0x69e3e0c, size 0x8, virtual false, abstract: false, final false
   inline int8_t _RegisterInt64Converters_b__4_0(::ByRef<int64_t> v);
 
-  /// @brief Method <RegisterInt64Converters>b__4_1, addr 0x697af90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt64Converters>b__4_1, addr 0x69e3e14, size 0x8, virtual false, abstract: false, final false
   inline char16_t _RegisterInt64Converters_b__4_1(::ByRef<int64_t> v);
 
-  /// @brief Method <RegisterInt64Converters>b__4_10, addr 0x697afe4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt64Converters>b__4_10, addr 0x69e3e68, size 0xc, virtual false, abstract: false, final false
   inline double_t _RegisterInt64Converters_b__4_10(::ByRef<int64_t> v);
 
-  /// @brief Method <RegisterInt64Converters>b__4_11, addr 0x697aff0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt64Converters>b__4_11, addr 0x69e3e74, size 0x20, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterInt64Converters_b__4_11(::ByRef<int64_t> v);
 
-  /// @brief Method <RegisterInt64Converters>b__4_2, addr 0x697af98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt64Converters>b__4_2, addr 0x69e3e1c, size 0x10, virtual false, abstract: false, final false
   inline bool _RegisterInt64Converters_b__4_2(::ByRef<int64_t> v);
 
-  /// @brief Method <RegisterInt64Converters>b__4_3, addr 0x697afa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt64Converters>b__4_3, addr 0x69e3e2c, size 0x8, virtual false, abstract: false, final false
   inline int16_t _RegisterInt64Converters_b__4_3(::ByRef<int64_t> v);
 
-  /// @brief Method <RegisterInt64Converters>b__4_4, addr 0x697afb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt64Converters>b__4_4, addr 0x69e3e34, size 0x8, virtual false, abstract: false, final false
   inline int32_t _RegisterInt64Converters_b__4_4(::ByRef<int64_t> v);
 
-  /// @brief Method <RegisterInt64Converters>b__4_5, addr 0x697afb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt64Converters>b__4_5, addr 0x69e3e3c, size 0x8, virtual false, abstract: false, final false
   inline uint8_t _RegisterInt64Converters_b__4_5(::ByRef<int64_t> v);
 
-  /// @brief Method <RegisterInt64Converters>b__4_6, addr 0x697afc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt64Converters>b__4_6, addr 0x69e3e44, size 0x8, virtual false, abstract: false, final false
   inline uint16_t _RegisterInt64Converters_b__4_6(::ByRef<int64_t> v);
 
-  /// @brief Method <RegisterInt64Converters>b__4_7, addr 0x697afc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt64Converters>b__4_7, addr 0x69e3e4c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t _RegisterInt64Converters_b__4_7(::ByRef<int64_t> v);
 
-  /// @brief Method <RegisterInt64Converters>b__4_8, addr 0x697afd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt64Converters>b__4_8, addr 0x69e3e54, size 0x8, virtual false, abstract: false, final false
   inline uint64_t _RegisterInt64Converters_b__4_8(::ByRef<int64_t> v);
 
-  /// @brief Method <RegisterInt64Converters>b__4_9, addr 0x697afd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt64Converters>b__4_9, addr 0x69e3e5c, size 0xc, virtual false, abstract: false, final false
   inline float_t _RegisterInt64Converters_b__4_9(::ByRef<int64_t> v);
 
-  /// @brief Method <RegisterInt8Converters>b__1_0, addr 0x697ade4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt8Converters>b__1_0, addr 0x69e3c68, size 0x8, virtual false, abstract: false, final false
   inline char16_t _RegisterInt8Converters_b__1_0(::ByRef<int8_t> v);
 
-  /// @brief Method <RegisterInt8Converters>b__1_1, addr 0x697adec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt8Converters>b__1_1, addr 0x69e3c70, size 0x10, virtual false, abstract: false, final false
   inline bool _RegisterInt8Converters_b__1_1(::ByRef<int8_t> v);
 
-  /// @brief Method <RegisterInt8Converters>b__1_10, addr 0x697ae40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt8Converters>b__1_10, addr 0x69e3cc4, size 0xc, virtual false, abstract: false, final false
   inline double_t _RegisterInt8Converters_b__1_10(::ByRef<int8_t> v);
 
-  /// @brief Method <RegisterInt8Converters>b__1_11, addr 0x697ae4c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt8Converters>b__1_11, addr 0x69e3cd0, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterInt8Converters_b__1_11(::ByRef<int8_t> v);
 
-  /// @brief Method <RegisterInt8Converters>b__1_2, addr 0x697adfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt8Converters>b__1_2, addr 0x69e3c80, size 0x8, virtual false, abstract: false, final false
   inline int16_t _RegisterInt8Converters_b__1_2(::ByRef<int8_t> v);
 
-  /// @brief Method <RegisterInt8Converters>b__1_3, addr 0x697ae04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt8Converters>b__1_3, addr 0x69e3c88, size 0x8, virtual false, abstract: false, final false
   inline int32_t _RegisterInt8Converters_b__1_3(::ByRef<int8_t> v);
 
-  /// @brief Method <RegisterInt8Converters>b__1_4, addr 0x697ae0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt8Converters>b__1_4, addr 0x69e3c90, size 0x8, virtual false, abstract: false, final false
   inline int64_t _RegisterInt8Converters_b__1_4(::ByRef<int8_t> v);
 
-  /// @brief Method <RegisterInt8Converters>b__1_5, addr 0x697ae14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt8Converters>b__1_5, addr 0x69e3c98, size 0x8, virtual false, abstract: false, final false
   inline uint8_t _RegisterInt8Converters_b__1_5(::ByRef<int8_t> v);
 
-  /// @brief Method <RegisterInt8Converters>b__1_6, addr 0x697ae1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt8Converters>b__1_6, addr 0x69e3ca0, size 0x8, virtual false, abstract: false, final false
   inline uint16_t _RegisterInt8Converters_b__1_6(::ByRef<int8_t> v);
 
-  /// @brief Method <RegisterInt8Converters>b__1_7, addr 0x697ae24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt8Converters>b__1_7, addr 0x69e3ca8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t _RegisterInt8Converters_b__1_7(::ByRef<int8_t> v);
 
-  /// @brief Method <RegisterInt8Converters>b__1_8, addr 0x697ae2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt8Converters>b__1_8, addr 0x69e3cb0, size 0x8, virtual false, abstract: false, final false
   inline uint64_t _RegisterInt8Converters_b__1_8(::ByRef<int8_t> v);
 
-  /// @brief Method <RegisterInt8Converters>b__1_9, addr 0x697ae34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterInt8Converters>b__1_9, addr 0x69e3cb8, size 0xc, virtual false, abstract: false, final false
   inline float_t _RegisterInt8Converters_b__1_9(::ByRef<int8_t> v);
 
-  /// @brief Method <RegisterObjectConverters>b__14_0, addr 0x697c0d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterObjectConverters>b__14_0, addr 0x69e4f5c, size 0x2c, virtual false, abstract: false, final false
   inline char16_t _RegisterObjectConverters_b__14_0(::ByRef<::System::Object*> v);
 
-  /// @brief Method <RegisterObjectConverters>b__14_1, addr 0x697c104, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <RegisterObjectConverters>b__14_1, addr 0x69e4f88, size 0x34, virtual false, abstract: false, final false
   inline bool _RegisterObjectConverters_b__14_1(::ByRef<::System::Object*> v);
 
-  /// @brief Method <RegisterObjectConverters>b__14_10, addr 0x697c298, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterObjectConverters>b__14_10, addr 0x69e511c, size 0x2c, virtual false, abstract: false, final false
   inline float_t _RegisterObjectConverters_b__14_10(::ByRef<::System::Object*> v);
 
-  /// @brief Method <RegisterObjectConverters>b__14_11, addr 0x697c2c4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterObjectConverters>b__14_11, addr 0x69e5148, size 0x2c, virtual false, abstract: false, final false
   inline double_t _RegisterObjectConverters_b__14_11(::ByRef<::System::Object*> v);
 
-  /// @brief Method <RegisterObjectConverters>b__14_2, addr 0x697c138, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterObjectConverters>b__14_2, addr 0x69e4fbc, size 0x2c, virtual false, abstract: false, final false
   inline int8_t _RegisterObjectConverters_b__14_2(::ByRef<::System::Object*> v);
 
-  /// @brief Method <RegisterObjectConverters>b__14_3, addr 0x697c164, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterObjectConverters>b__14_3, addr 0x69e4fe8, size 0x2c, virtual false, abstract: false, final false
   inline int16_t _RegisterObjectConverters_b__14_3(::ByRef<::System::Object*> v);
 
-  /// @brief Method <RegisterObjectConverters>b__14_4, addr 0x697c190, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterObjectConverters>b__14_4, addr 0x69e5014, size 0x2c, virtual false, abstract: false, final false
   inline int32_t _RegisterObjectConverters_b__14_4(::ByRef<::System::Object*> v);
 
-  /// @brief Method <RegisterObjectConverters>b__14_5, addr 0x697c1bc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterObjectConverters>b__14_5, addr 0x69e5040, size 0x2c, virtual false, abstract: false, final false
   inline int64_t _RegisterObjectConverters_b__14_5(::ByRef<::System::Object*> v);
 
-  /// @brief Method <RegisterObjectConverters>b__14_6, addr 0x697c1e8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterObjectConverters>b__14_6, addr 0x69e506c, size 0x2c, virtual false, abstract: false, final false
   inline uint8_t _RegisterObjectConverters_b__14_6(::ByRef<::System::Object*> v);
 
-  /// @brief Method <RegisterObjectConverters>b__14_7, addr 0x697c214, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterObjectConverters>b__14_7, addr 0x69e5098, size 0x2c, virtual false, abstract: false, final false
   inline uint16_t _RegisterObjectConverters_b__14_7(::ByRef<::System::Object*> v);
 
-  /// @brief Method <RegisterObjectConverters>b__14_8, addr 0x697c240, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterObjectConverters>b__14_8, addr 0x69e50c4, size 0x2c, virtual false, abstract: false, final false
   inline uint32_t _RegisterObjectConverters_b__14_8(::ByRef<::System::Object*> v);
 
-  /// @brief Method <RegisterObjectConverters>b__14_9, addr 0x697c26c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterObjectConverters>b__14_9, addr 0x69e50f0, size 0x2c, virtual false, abstract: false, final false
   inline uint64_t _RegisterObjectConverters_b__14_9(::ByRef<::System::Object*> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_0, addr 0x697b764, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_0, addr 0x69e45e8, size 0x34, virtual false, abstract: false, final false
   inline char16_t _RegisterStringConverters_b__13_0(::ByRef<::StringW> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_1, addr 0x697b798, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_1, addr 0x69e461c, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW _RegisterStringConverters_b__13_1(::ByRef<char16_t> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_10, addr 0x697bb38, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_10, addr 0x69e49bc, size 0xbc, virtual false, abstract: false, final false
   inline int64_t _RegisterStringConverters_b__13_10(::ByRef<::StringW> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_11, addr 0x697bbf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_11, addr 0x69e4a78, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _RegisterStringConverters_b__13_11(::ByRef<int64_t> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_12, addr 0x697bc00, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_12, addr 0x69e4a84, size 0xc0, virtual false, abstract: false, final false
   inline uint8_t _RegisterStringConverters_b__13_12(::ByRef<::StringW> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_13, addr 0x697bcc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_13, addr 0x69e4b44, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _RegisterStringConverters_b__13_13(::ByRef<uint8_t> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_14, addr 0x697bccc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_14, addr 0x69e4b50, size 0xc0, virtual false, abstract: false, final false
   inline uint16_t _RegisterStringConverters_b__13_14(::ByRef<::StringW> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_15, addr 0x697bd8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_15, addr 0x69e4c10, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _RegisterStringConverters_b__13_15(::ByRef<uint16_t> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_16, addr 0x697bd98, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_16, addr 0x69e4c1c, size 0xc0, virtual false, abstract: false, final false
   inline uint32_t _RegisterStringConverters_b__13_16(::ByRef<::StringW> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_17, addr 0x697be58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_17, addr 0x69e4cdc, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _RegisterStringConverters_b__13_17(::ByRef<uint32_t> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_18, addr 0x697be64, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_18, addr 0x69e4ce8, size 0xbc, virtual false, abstract: false, final false
   inline uint64_t _RegisterStringConverters_b__13_18(::ByRef<::StringW> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_19, addr 0x697bf20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_19, addr 0x69e4da4, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _RegisterStringConverters_b__13_19(::ByRef<uint64_t> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_2, addr 0x697b7c4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_2, addr 0x69e4648, size 0xe4, virtual false, abstract: false, final false
   inline bool _RegisterStringConverters_b__13_2(::ByRef<::StringW> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_20, addr 0x697bf2c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_20, addr 0x69e4db0, size 0xbc, virtual false, abstract: false, final false
   inline float_t _RegisterStringConverters_b__13_20(::ByRef<::StringW> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_21, addr 0x697bfe8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_21, addr 0x69e4e6c, size 0x68, virtual false, abstract: false, final false
   inline ::StringW _RegisterStringConverters_b__13_21(::ByRef<float_t> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_22, addr 0x697c050, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_22, addr 0x69e4ed4, size 0x20, virtual false, abstract: false, final false
   inline double_t _RegisterStringConverters_b__13_22(::ByRef<::StringW> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_23, addr 0x697c070, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_23, addr 0x69e4ef4, size 0x68, virtual false, abstract: false, final false
   inline ::StringW _RegisterStringConverters_b__13_23(::ByRef<double_t> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_3, addr 0x697b8a8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_3, addr 0x69e472c, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW _RegisterStringConverters_b__13_3(::ByRef<bool> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_4, addr 0x697b8d4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_4, addr 0x69e4758, size 0xc0, virtual false, abstract: false, final false
   inline int8_t _RegisterStringConverters_b__13_4(::ByRef<::StringW> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_5, addr 0x697b994, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_5, addr 0x69e4818, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _RegisterStringConverters_b__13_5(::ByRef<int8_t> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_6, addr 0x697b9a0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_6, addr 0x69e4824, size 0xc0, virtual false, abstract: false, final false
   inline int16_t _RegisterStringConverters_b__13_6(::ByRef<::StringW> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_7, addr 0x697ba60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_7, addr 0x69e48e4, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _RegisterStringConverters_b__13_7(::ByRef<int16_t> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_8, addr 0x697ba6c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_8, addr 0x69e48f0, size 0xc0, virtual false, abstract: false, final false
   inline int32_t _RegisterStringConverters_b__13_8(::ByRef<::StringW> v);
 
-  /// @brief Method <RegisterStringConverters>b__13_9, addr 0x697bb2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterStringConverters>b__13_9, addr 0x69e49b0, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _RegisterStringConverters_b__13_9(::ByRef<int32_t> v);
 
-  /// @brief Method <RegisterUInt16Converters>b__6_0, addr 0x697b09c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt16Converters>b__6_0, addr 0x69e3f20, size 0x8, virtual false, abstract: false, final false
   inline int8_t _RegisterUInt16Converters_b__6_0(::ByRef<uint16_t> v);
 
-  /// @brief Method <RegisterUInt16Converters>b__6_1, addr 0x697b0a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt16Converters>b__6_1, addr 0x69e3f28, size 0x8, virtual false, abstract: false, final false
   inline char16_t _RegisterUInt16Converters_b__6_1(::ByRef<uint16_t> v);
 
-  /// @brief Method <RegisterUInt16Converters>b__6_10, addr 0x697b0f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt16Converters>b__6_10, addr 0x69e3f7c, size 0xc, virtual false, abstract: false, final false
   inline double_t _RegisterUInt16Converters_b__6_10(::ByRef<uint16_t> v);
 
-  /// @brief Method <RegisterUInt16Converters>b__6_11, addr 0x697b104, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt16Converters>b__6_11, addr 0x69e3f88, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterUInt16Converters_b__6_11(::ByRef<uint16_t> v);
 
-  /// @brief Method <RegisterUInt16Converters>b__6_2, addr 0x697b0ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt16Converters>b__6_2, addr 0x69e3f30, size 0x10, virtual false, abstract: false, final false
   inline bool _RegisterUInt16Converters_b__6_2(::ByRef<uint16_t> v);
 
-  /// @brief Method <RegisterUInt16Converters>b__6_3, addr 0x697b0bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt16Converters>b__6_3, addr 0x69e3f40, size 0x8, virtual false, abstract: false, final false
   inline int16_t _RegisterUInt16Converters_b__6_3(::ByRef<uint16_t> v);
 
-  /// @brief Method <RegisterUInt16Converters>b__6_4, addr 0x697b0c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt16Converters>b__6_4, addr 0x69e3f48, size 0x8, virtual false, abstract: false, final false
   inline int32_t _RegisterUInt16Converters_b__6_4(::ByRef<uint16_t> v);
 
-  /// @brief Method <RegisterUInt16Converters>b__6_5, addr 0x697b0cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt16Converters>b__6_5, addr 0x69e3f50, size 0x8, virtual false, abstract: false, final false
   inline int64_t _RegisterUInt16Converters_b__6_5(::ByRef<uint16_t> v);
 
-  /// @brief Method <RegisterUInt16Converters>b__6_6, addr 0x697b0d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt16Converters>b__6_6, addr 0x69e3f58, size 0x8, virtual false, abstract: false, final false
   inline uint8_t _RegisterUInt16Converters_b__6_6(::ByRef<uint16_t> v);
 
-  /// @brief Method <RegisterUInt16Converters>b__6_7, addr 0x697b0dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt16Converters>b__6_7, addr 0x69e3f60, size 0x8, virtual false, abstract: false, final false
   inline uint32_t _RegisterUInt16Converters_b__6_7(::ByRef<uint16_t> v);
 
-  /// @brief Method <RegisterUInt16Converters>b__6_8, addr 0x697b0e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt16Converters>b__6_8, addr 0x69e3f68, size 0x8, virtual false, abstract: false, final false
   inline uint64_t _RegisterUInt16Converters_b__6_8(::ByRef<uint16_t> v);
 
-  /// @brief Method <RegisterUInt16Converters>b__6_9, addr 0x697b0ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt16Converters>b__6_9, addr 0x69e3f70, size 0xc, virtual false, abstract: false, final false
   inline float_t _RegisterUInt16Converters_b__6_9(::ByRef<uint16_t> v);
 
-  /// @brief Method <RegisterUInt32Converters>b__7_0, addr 0x697b128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt32Converters>b__7_0, addr 0x69e3fac, size 0x8, virtual false, abstract: false, final false
   inline int8_t _RegisterUInt32Converters_b__7_0(::ByRef<uint32_t> v);
 
-  /// @brief Method <RegisterUInt32Converters>b__7_1, addr 0x697b130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt32Converters>b__7_1, addr 0x69e3fb4, size 0x8, virtual false, abstract: false, final false
   inline char16_t _RegisterUInt32Converters_b__7_1(::ByRef<uint32_t> v);
 
-  /// @brief Method <RegisterUInt32Converters>b__7_10, addr 0x697b184, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt32Converters>b__7_10, addr 0x69e4008, size 0xc, virtual false, abstract: false, final false
   inline double_t _RegisterUInt32Converters_b__7_10(::ByRef<uint32_t> v);
 
-  /// @brief Method <RegisterUInt32Converters>b__7_11, addr 0x697b190, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt32Converters>b__7_11, addr 0x69e4014, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterUInt32Converters_b__7_11(::ByRef<uint32_t> v);
 
-  /// @brief Method <RegisterUInt32Converters>b__7_2, addr 0x697b138, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt32Converters>b__7_2, addr 0x69e3fbc, size 0x10, virtual false, abstract: false, final false
   inline bool _RegisterUInt32Converters_b__7_2(::ByRef<uint32_t> v);
 
-  /// @brief Method <RegisterUInt32Converters>b__7_3, addr 0x697b148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt32Converters>b__7_3, addr 0x69e3fcc, size 0x8, virtual false, abstract: false, final false
   inline int16_t _RegisterUInt32Converters_b__7_3(::ByRef<uint32_t> v);
 
-  /// @brief Method <RegisterUInt32Converters>b__7_4, addr 0x697b150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt32Converters>b__7_4, addr 0x69e3fd4, size 0x8, virtual false, abstract: false, final false
   inline int32_t _RegisterUInt32Converters_b__7_4(::ByRef<uint32_t> v);
 
-  /// @brief Method <RegisterUInt32Converters>b__7_5, addr 0x697b158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt32Converters>b__7_5, addr 0x69e3fdc, size 0x8, virtual false, abstract: false, final false
   inline int64_t _RegisterUInt32Converters_b__7_5(::ByRef<uint32_t> v);
 
-  /// @brief Method <RegisterUInt32Converters>b__7_6, addr 0x697b160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt32Converters>b__7_6, addr 0x69e3fe4, size 0x8, virtual false, abstract: false, final false
   inline uint8_t _RegisterUInt32Converters_b__7_6(::ByRef<uint32_t> v);
 
-  /// @brief Method <RegisterUInt32Converters>b__7_7, addr 0x697b168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt32Converters>b__7_7, addr 0x69e3fec, size 0x8, virtual false, abstract: false, final false
   inline uint16_t _RegisterUInt32Converters_b__7_7(::ByRef<uint32_t> v);
 
-  /// @brief Method <RegisterUInt32Converters>b__7_8, addr 0x697b170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt32Converters>b__7_8, addr 0x69e3ff4, size 0x8, virtual false, abstract: false, final false
   inline uint64_t _RegisterUInt32Converters_b__7_8(::ByRef<uint32_t> v);
 
-  /// @brief Method <RegisterUInt32Converters>b__7_9, addr 0x697b178, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt32Converters>b__7_9, addr 0x69e3ffc, size 0xc, virtual false, abstract: false, final false
   inline float_t _RegisterUInt32Converters_b__7_9(::ByRef<uint32_t> v);
 
-  /// @brief Method <RegisterUInt64Converters>b__8_0, addr 0x697b1b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt64Converters>b__8_0, addr 0x69e4038, size 0x8, virtual false, abstract: false, final false
   inline int8_t _RegisterUInt64Converters_b__8_0(::ByRef<uint64_t> v);
 
-  /// @brief Method <RegisterUInt64Converters>b__8_1, addr 0x697b1bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt64Converters>b__8_1, addr 0x69e4040, size 0x8, virtual false, abstract: false, final false
   inline char16_t _RegisterUInt64Converters_b__8_1(::ByRef<uint64_t> v);
 
-  /// @brief Method <RegisterUInt64Converters>b__8_10, addr 0x697b214, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt64Converters>b__8_10, addr 0x69e4098, size 0xc, virtual false, abstract: false, final false
   inline double_t _RegisterUInt64Converters_b__8_10(::ByRef<uint64_t> v);
 
-  /// @brief Method <RegisterUInt64Converters>b__8_11, addr 0x697b220, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt64Converters>b__8_11, addr 0x69e40a4, size 0x20, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterUInt64Converters_b__8_11(::ByRef<uint64_t> v);
 
-  /// @brief Method <RegisterUInt64Converters>b__8_2, addr 0x697b1c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt64Converters>b__8_2, addr 0x69e4048, size 0x10, virtual false, abstract: false, final false
   inline bool _RegisterUInt64Converters_b__8_2(::ByRef<uint64_t> v);
 
-  /// @brief Method <RegisterUInt64Converters>b__8_3, addr 0x697b1d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt64Converters>b__8_3, addr 0x69e4058, size 0x8, virtual false, abstract: false, final false
   inline int16_t _RegisterUInt64Converters_b__8_3(::ByRef<uint64_t> v);
 
-  /// @brief Method <RegisterUInt64Converters>b__8_4, addr 0x697b1dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt64Converters>b__8_4, addr 0x69e4060, size 0x8, virtual false, abstract: false, final false
   inline int32_t _RegisterUInt64Converters_b__8_4(::ByRef<uint64_t> v);
 
-  /// @brief Method <RegisterUInt64Converters>b__8_5, addr 0x697b1e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt64Converters>b__8_5, addr 0x69e4068, size 0x8, virtual false, abstract: false, final false
   inline int64_t _RegisterUInt64Converters_b__8_5(::ByRef<uint64_t> v);
 
-  /// @brief Method <RegisterUInt64Converters>b__8_6, addr 0x697b1ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt64Converters>b__8_6, addr 0x69e4070, size 0x8, virtual false, abstract: false, final false
   inline uint8_t _RegisterUInt64Converters_b__8_6(::ByRef<uint64_t> v);
 
-  /// @brief Method <RegisterUInt64Converters>b__8_7, addr 0x697b1f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt64Converters>b__8_7, addr 0x69e4078, size 0x8, virtual false, abstract: false, final false
   inline uint16_t _RegisterUInt64Converters_b__8_7(::ByRef<uint64_t> v);
 
-  /// @brief Method <RegisterUInt64Converters>b__8_8, addr 0x697b1fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt64Converters>b__8_8, addr 0x69e4080, size 0x8, virtual false, abstract: false, final false
   inline uint32_t _RegisterUInt64Converters_b__8_8(::ByRef<uint64_t> v);
 
-  /// @brief Method <RegisterUInt64Converters>b__8_9, addr 0x697b204, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt64Converters>b__8_9, addr 0x69e4088, size 0x10, virtual false, abstract: false, final false
   inline float_t _RegisterUInt64Converters_b__8_9(::ByRef<uint64_t> v);
 
-  /// @brief Method <RegisterUInt8Converters>b__5_0, addr 0x697b010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt8Converters>b__5_0, addr 0x69e3e94, size 0x8, virtual false, abstract: false, final false
   inline int8_t _RegisterUInt8Converters_b__5_0(::ByRef<uint8_t> v);
 
-  /// @brief Method <RegisterUInt8Converters>b__5_1, addr 0x697b018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt8Converters>b__5_1, addr 0x69e3e9c, size 0x8, virtual false, abstract: false, final false
   inline char16_t _RegisterUInt8Converters_b__5_1(::ByRef<uint8_t> v);
 
-  /// @brief Method <RegisterUInt8Converters>b__5_10, addr 0x697b06c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt8Converters>b__5_10, addr 0x69e3ef0, size 0xc, virtual false, abstract: false, final false
   inline double_t _RegisterUInt8Converters_b__5_10(::ByRef<uint8_t> v);
 
-  /// @brief Method <RegisterUInt8Converters>b__5_11, addr 0x697b078, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt8Converters>b__5_11, addr 0x69e3efc, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterUInt8Converters_b__5_11(::ByRef<uint8_t> v);
 
-  /// @brief Method <RegisterUInt8Converters>b__5_2, addr 0x697b020, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt8Converters>b__5_2, addr 0x69e3ea4, size 0x10, virtual false, abstract: false, final false
   inline bool _RegisterUInt8Converters_b__5_2(::ByRef<uint8_t> v);
 
-  /// @brief Method <RegisterUInt8Converters>b__5_3, addr 0x697b030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt8Converters>b__5_3, addr 0x69e3eb4, size 0x8, virtual false, abstract: false, final false
   inline int16_t _RegisterUInt8Converters_b__5_3(::ByRef<uint8_t> v);
 
-  /// @brief Method <RegisterUInt8Converters>b__5_4, addr 0x697b038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt8Converters>b__5_4, addr 0x69e3ebc, size 0x8, virtual false, abstract: false, final false
   inline int32_t _RegisterUInt8Converters_b__5_4(::ByRef<uint8_t> v);
 
-  /// @brief Method <RegisterUInt8Converters>b__5_5, addr 0x697b040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt8Converters>b__5_5, addr 0x69e3ec4, size 0x8, virtual false, abstract: false, final false
   inline int64_t _RegisterUInt8Converters_b__5_5(::ByRef<uint8_t> v);
 
-  /// @brief Method <RegisterUInt8Converters>b__5_6, addr 0x697b048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt8Converters>b__5_6, addr 0x69e3ecc, size 0x8, virtual false, abstract: false, final false
   inline uint16_t _RegisterUInt8Converters_b__5_6(::ByRef<uint8_t> v);
 
-  /// @brief Method <RegisterUInt8Converters>b__5_7, addr 0x697b050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt8Converters>b__5_7, addr 0x69e3ed4, size 0x8, virtual false, abstract: false, final false
   inline uint32_t _RegisterUInt8Converters_b__5_7(::ByRef<uint8_t> v);
 
-  /// @brief Method <RegisterUInt8Converters>b__5_8, addr 0x697b058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt8Converters>b__5_8, addr 0x69e3edc, size 0x8, virtual false, abstract: false, final false
   inline uint64_t _RegisterUInt8Converters_b__5_8(::ByRef<uint8_t> v);
 
-  /// @brief Method <RegisterUInt8Converters>b__5_9, addr 0x697b060, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUInt8Converters>b__5_9, addr 0x69e3ee4, size 0xc, virtual false, abstract: false, final false
   inline float_t _RegisterUInt8Converters_b__5_9(::ByRef<uint8_t> v);
 
-  /// @brief Method <Register>b__0_0, addr 0x697adb8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <Register>b__0_0, addr 0x69e3c3c, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Guid _Register_b__0_0(::ByRef<::StringW> g);
 
-  /// @brief Method .ctor, addr 0x697adb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e3c38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Properties::PrimitiveConverters_TypeConversion___c* getStaticF___9();
@@ -1905,7 +1905,7 @@ public:
   PrimitiveConverters_TypeConversion___c(PrimitiveConverters_TypeConversion___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19412 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1922,49 +1922,49 @@ public:
   // Declarations
   using __c = ::Unity::Properties::PrimitiveConverters_TypeConversion___c;
 
-  /// @brief Method Register, addr 0x696e1f4, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x69d7078, size 0x1e0, virtual false, abstract: false, final false
   static inline void Register();
 
-  /// @brief Method RegisterBooleanConverters, addr 0x697690c, size 0xd4c, virtual false, abstract: false, final false
+  /// @brief Method RegisterBooleanConverters, addr 0x69df790, size 0xd4c, virtual false, abstract: false, final false
   static inline void RegisterBooleanConverters();
 
-  /// @brief Method RegisterCharConverters, addr 0x6977658, size 0xf74, virtual false, abstract: false, final false
+  /// @brief Method RegisterCharConverters, addr 0x69e04dc, size 0xf74, virtual false, abstract: false, final false
   static inline void RegisterCharConverters();
 
-  /// @brief Method RegisterFloat32Converters, addr 0x6974e74, size 0xd4c, virtual false, abstract: false, final false
+  /// @brief Method RegisterFloat32Converters, addr 0x69ddcf8, size 0xd4c, virtual false, abstract: false, final false
   static inline void RegisterFloat32Converters();
 
-  /// @brief Method RegisterFloat64Converters, addr 0x6975bc0, size 0xd4c, virtual false, abstract: false, final false
+  /// @brief Method RegisterFloat64Converters, addr 0x69dea44, size 0xd4c, virtual false, abstract: false, final false
   static inline void RegisterFloat64Converters();
 
-  /// @brief Method RegisterInt16Converters, addr 0x696f160, size 0xd4c, virtual false, abstract: false, final false
+  /// @brief Method RegisterInt16Converters, addr 0x69d7fe4, size 0xd4c, virtual false, abstract: false, final false
   static inline void RegisterInt16Converters();
 
-  /// @brief Method RegisterInt32Converters, addr 0x696feac, size 0xd4c, virtual false, abstract: false, final false
+  /// @brief Method RegisterInt32Converters, addr 0x69d8d30, size 0xd4c, virtual false, abstract: false, final false
   static inline void RegisterInt32Converters();
 
-  /// @brief Method RegisterInt64Converters, addr 0x6970bf8, size 0xd4c, virtual false, abstract: false, final false
+  /// @brief Method RegisterInt64Converters, addr 0x69d9a7c, size 0xd4c, virtual false, abstract: false, final false
   static inline void RegisterInt64Converters();
 
-  /// @brief Method RegisterInt8Converters, addr 0x696e414, size 0xd4c, virtual false, abstract: false, final false
+  /// @brief Method RegisterInt8Converters, addr 0x69d7298, size 0xd4c, virtual false, abstract: false, final false
   static inline void RegisterInt8Converters();
 
-  /// @brief Method RegisterObjectConverters, addr 0x697a014, size 0xd4c, virtual false, abstract: false, final false
+  /// @brief Method RegisterObjectConverters, addr 0x69e2e98, size 0xd4c, virtual false, abstract: false, final false
   static inline void RegisterObjectConverters();
 
-  /// @brief Method RegisterStringConverters, addr 0x69785cc, size 0x1a48, virtual false, abstract: false, final false
+  /// @brief Method RegisterStringConverters, addr 0x69e1450, size 0x1a48, virtual false, abstract: false, final false
   static inline void RegisterStringConverters();
 
-  /// @brief Method RegisterUInt16Converters, addr 0x6972690, size 0xd4c, virtual false, abstract: false, final false
+  /// @brief Method RegisterUInt16Converters, addr 0x69db514, size 0xd4c, virtual false, abstract: false, final false
   static inline void RegisterUInt16Converters();
 
-  /// @brief Method RegisterUInt32Converters, addr 0x69733dc, size 0xd4c, virtual false, abstract: false, final false
+  /// @brief Method RegisterUInt32Converters, addr 0x69dc260, size 0xd4c, virtual false, abstract: false, final false
   static inline void RegisterUInt32Converters();
 
-  /// @brief Method RegisterUInt64Converters, addr 0x6974128, size 0xd4c, virtual false, abstract: false, final false
+  /// @brief Method RegisterUInt64Converters, addr 0x69dcfac, size 0xd4c, virtual false, abstract: false, final false
   static inline void RegisterUInt64Converters();
 
-  /// @brief Method RegisterUInt8Converters, addr 0x6971944, size 0xd4c, virtual false, abstract: false, final false
+  /// @brief Method RegisterUInt8Converters, addr 0x69da7c8, size 0xd4c, virtual false, abstract: false, final false
   static inline void RegisterUInt8Converters();
 
 protected:
@@ -1982,7 +1982,7 @@ public:
   TypeConversion_PrimitiveConverters(TypeConversion_PrimitiveConverters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19387 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19413 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2005,7 +2005,7 @@ public:
   /// @brief Method Convert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource, typename TDestination> static inline TDestination Convert(::ByRef<TSource> value);
 
-  /// @brief Method IsNumericType, addr 0x696e3d4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsNumericType, addr 0x69d7258, size 0x40, virtual false, abstract: false, final false
   static inline bool IsNumericType(::System::Type* t);
 
   /// @brief Method Register, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -2036,7 +2036,7 @@ public:
   TypeConversion(TypeConversion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19388 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19414 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -77,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set_showAlpha(bool value);
 
-  /// @brief Method .ctor, addr 0x68a4704, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x690d588, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(bool showAlpha);
 
-  /// @brief Method .ctor, addr 0x68a4720, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x690d5a4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(bool showAlpha, bool hdr);
 
 protected:
@@ -98,7 +98,7 @@ public:
   ColorUsageAttribute(ColorUsageAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10265 };
 
   /// @brief Field showAlpha, offset: 0x15, size: 0x1, def value: None
   bool ___showAlpha;

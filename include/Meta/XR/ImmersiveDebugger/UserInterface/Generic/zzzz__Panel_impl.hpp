@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::Init)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5846d00;
+  constexpr static std::size_t addrs = 0x58ad464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRHapticsClip* (*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::get_HapticsClip)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5846d4c;
+  constexpr static std::size_t addrs = 0x58ad4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::get_PixelsPerUnit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5846ea4;
+  constexpr static std::size_t addrs = 0x58ad608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::*)(float_t)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::set_PixelsPerUnit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5846eac;
+  constexpr static std::size_t addrs = 0x58ad610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::get_SphericalCoordinates)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5846eb4;
+  constexpr static std::size_t addrs = 0x58ad618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::*)(::UnityEngine::Vector3)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::set_SphericalCoordinates)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5846ec0;
+  constexpr static std::size_t addrs = 0x58ad624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface> (
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::get_Interface)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x584708c;
+  constexpr static std::size_t addrs = 0x58ad7f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::set_BackgroundStyle)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x584710c;
+  constexpr static std::size_t addrs = 0x58ad870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::Setup)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5846b6c;
+  constexpr static std::size_t addrs = 0x58ad2d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::*)(float_t, float_t, float_t)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::SetExpectedPixelsPerUnit)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5847174;
+  constexpr static std::size_t addrs = 0x58ad8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::*)(::UnityEngine::Vector3)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::SetPosition)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5846fac;
+  constexpr static std::size_t addrs = 0x58ad710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(float_t, float_t, float_t)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::SphericalToCartesian)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5846f3c;
+  constexpr static std::size_t addrs = 0x58ad6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::OnTransparencyChanged)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5847208;
+  constexpr static std::size_t addrs = 0x58ad96c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::OnHoverChanged)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x584727c;
+  constexpr static std::size_t addrs = 0x58ad9e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::RefreshCanvas)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x58473a0;
+  constexpr static std::size_t addrs = 0x58adb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::RefreshRaycaster)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5847484;
+  constexpr static std::size_t addrs = 0x58adbe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::LateUpdate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5847578;
+  constexpr static std::size_t addrs = 0x58adcdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::OnEnable)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5847590;
+  constexpr static std::size_t addrs = 0x58adcf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::OnDisable)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x58475ec;
+  constexpr static std::size_t addrs = 0x58add50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5846ce4;
+  constexpr static std::size_t addrs = 0x58ad448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c::*)()>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x582fc14;
+  constexpr static std::size_t addrs = 0x5896378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c*>::get(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c::*)(::System::Type*)>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c::_LoadAssembliesAsync_b__19_0)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x582fc18;
+  constexpr static std::size_t addrs = 0x589637c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c::*)(::System::Reflection::MemberInfo*)>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c::_LoadAssembliesAsync_b__19_1)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x582fd44;
+  constexpr static std::size_t addrs = 0x58964a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser__LoadAssembliesMainThread_d__18::*)()>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser__LoadAssembliesMainThread_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x582fd9c;
+  constexpr static std::size_t addrs = 0x5896500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser__LoadAssembliesMainThread_d__18::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser__LoadAssembliesMainThread_d__18::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5830134;
+  constexpr static std::size_t addrs = 0x5896898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::Init)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x582e940;
+  constexpr static std::size_t addrs = 0x58950a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser*>::get(),
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::System::Collections::Generic::List_1<::System::Type*>*>*)>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::add_OnAssemblyParsed)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x582e9f8;
+  constexpr static std::size_t addrs = 0x589515c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::System::Collections::Generic::List_1<::System::Type*>*>*)>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::remove_OnAssemblyParsed)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x582eb00;
+  constexpr static std::size_t addrs = 0x5895264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::get_Ready)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x582ec08;
+  constexpr static std::size_t addrs = 0x589536c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser*>::get(),
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::GetImmersiveDebuggerEnabled)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x582ec64;
+  constexpr static std::size_t addrs = 0x58953c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser*>::get(),
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::get_Enabled)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x582ecc4;
+  constexpr static std::size_t addrs = 0x5895428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser*>::get(),
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::Assembly*, ::Array<::System::Reflection::Assembly*>*> (*)()>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::GetAllAssemblies)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x582ed34;
+  constexpr static std::size_t addrs = 0x5895498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser*>::get(),
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::OnLoad)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x582ed50;
+  constexpr static std::size_t addrs = 0x58954b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser*>::get(),
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::RefreshWhenPlaying)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x582ee20;
+  constexpr static std::size_t addrs = 0x5895584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser*>::get(),
@@ -300,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::Refresh)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x582eda4;
+  constexpr static std::size_t addrs = 0x5895508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)(bool)>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::LoadAssembliesMainThread)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x582ee74;
+  constexpr static std::size_t addrs = 0x58955d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)()>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::LoadAssembliesAsync)> {
   constexpr static std::size_t size = 0xa04;
-  constexpr static std::size_t addrs = 0x582ef2c;
+  constexpr static std::size_t addrs = 0x5895690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser*>::get(),
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::System::Collections::Generic::List_1<::System::Type*>*>*)>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::RegisterAssemblyTypes)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x582f930;
+  constexpr static std::size_t addrs = 0x5896094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::System::Collections::Generic::List_1<::System::Type*>*>*)>(
     &::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser::Unregister)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x582fa1c;
+  constexpr static std::size_t addrs = 0x5896180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6137e50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x619f9dc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   FreeBSDNetworkInterfaceAPI(FreeBSDNetworkInterfaceAPI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11660 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11664 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

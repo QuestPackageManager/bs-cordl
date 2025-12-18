@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::ManifestResourceInfo::*)(
     ::System::Reflection::Assembly*, ::StringW, ::System::Reflection::ResourceLocation)>(&::System::Reflection::ManifestResourceInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5968578;
+  constexpr static std::size_t addrs = 0x59ceec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (::System::Reflection::ManifestResourceInfo::*)()>(
     &::System::Reflection::ManifestResourceInfo::get_ReferencedAssembly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5968584;
+  constexpr static std::size_t addrs = 0x59ceed0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::ManifestResourceInfo::*)()>(
     &::System::Reflection::ManifestResourceInfo::get_FileName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x596858c;
+  constexpr static std::size_t addrs = 0x59ceed8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::ResourceLocation (::System::Reflection::ManifestResourceInfo::*)()>(
     &::System::Reflection::ManifestResourceInfo::get_ResourceLocation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5968594;
+  constexpr static std::size_t addrs = 0x59ceee0;
 
   inline static ::MethodInfo const* methodInfo() {
 

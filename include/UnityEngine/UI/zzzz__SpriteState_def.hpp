@@ -35,34 +35,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UI::SpriteState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UI::SpriteState>*();
 
-  /// @brief Method Equals, addr 0x6bd8878, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c416fc, size 0x10c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UI::SpriteState other);
 
-  /// @brief Method get_disabledSprite, addr 0x6bd8868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledSprite, addr 0x6c416ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_disabledSprite();
 
-  /// @brief Method get_highlightedSprite, addr 0x6bd8838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedSprite, addr 0x6c416bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_highlightedSprite();
 
-  /// @brief Method get_pressedSprite, addr 0x6bd8848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedSprite, addr 0x6c416cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_pressedSprite();
 
-  /// @brief Method get_selectedSprite, addr 0x6bd8858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedSprite, addr 0x6c416dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_selectedSprite();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UI::SpriteState>"
   constexpr ::System::IEquatable_1<::UnityEngine::UI::SpriteState>* i___System__IEquatable_1___UnityEngine__UI__SpriteState_();
 
-  /// @brief Method set_disabledSprite, addr 0x6bd8870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disabledSprite, addr 0x6c416f4, size 0x8, virtual false, abstract: false, final false
   inline void set_disabledSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_highlightedSprite, addr 0x6bd8840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_highlightedSprite, addr 0x6c416c4, size 0x8, virtual false, abstract: false, final false
   inline void set_highlightedSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_pressedSprite, addr 0x6bd8850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressedSprite, addr 0x6c416d4, size 0x8, virtual false, abstract: false, final false
   inline void set_pressedSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_selectedSprite, addr 0x6bd8860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedSprite, addr 0x6c416e4, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedSprite(::UnityEngine::Sprite* value);
 
   // Ctor Parameters []
@@ -76,7 +76,7 @@ public:
                         ::UnityW<::UnityEngine::Sprite> m_DisabledSprite) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17449 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17463 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

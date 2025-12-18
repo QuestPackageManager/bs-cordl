@@ -123,10 +123,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5d22ae4, size 0x760, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d895c4, size 0x760, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5d23244, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d89d24, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -152,7 +152,7 @@ public:
                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21672 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21699 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -247,7 +247,7 @@ public:
 
   static inline ::OSCE::Web::REST___c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <PostAsync>b__0, addr 0x5d22a1c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <PostAsync>b__0, addr 0x5d894fc, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _PostAsync_b__0(::System::Threading::CancellationToken cancelToken);
 
   constexpr ::OSCE::Web::REST* const& __cordl_internal_get___4__this() const;
@@ -286,7 +286,7 @@ public:
 
   constexpr void __cordl_internal_set_response(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5d22a18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d894f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -304,7 +304,7 @@ public:
   REST___c__DisplayClass10_0(REST___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21700 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::OSCE::Web::REST* _____4__this;
@@ -352,10 +352,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5d232b0, size 0x314, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d89d90, size 0x314, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5d235c4, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d8a0a4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -375,7 +375,7 @@ public:
                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21701 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -431,10 +431,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5d23644, size 0x418, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d8a124, size 0x418, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5d23aa0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d8a580, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -454,7 +454,7 @@ public:
                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21675 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21702 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -510,10 +510,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5d23b20, size 0x474, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d8a600, size 0x474, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5d23f94, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d8aa74, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -539,7 +539,7 @@ public:
                                   ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21676 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21703 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -630,10 +630,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5d24014, size 0x2a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d8aaf4, size 0x2a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5d242b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d8ad98, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -656,7 +656,7 @@ public:
                                    ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21677 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21704 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -754,27 +754,27 @@ public:
   /// @brief Field _timer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__timer, put = __cordl_internal_set__timer)) ::System::Diagnostics::Stopwatch* _timer;
 
-  /// @brief Method BuildQueryString, addr 0x5d228c8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method BuildQueryString, addr 0x5d893a8, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* BuildQueryString(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* query, bool isFirstParameter);
 
-  /// @brief Method BuildUri, addr 0x5d227d4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method BuildUri, addr 0x5d892b4, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Uri*>* BuildUri(::StringW path, ::StringW auth, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* query);
 
-  /// @brief Method CreateClient, addr 0x5d2248c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateClient, addr 0x5d88f6c, size 0x74, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpClient* CreateClient();
 
-  /// @brief Method GetHandler, addr 0x5d22500, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetHandler, addr 0x5d88fe0, size 0x194, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpClientHandler* GetHandler();
 
   static inline ::OSCE::Web::REST* New_ctor();
 
-  /// @brief Method PostAsync, addr 0x5d22694, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method PostAsync, addr 0x5d89174, size 0x140, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* PostAsync(::StringW path, ::StringW auth, ::StringW json, ::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend,
                                                                   ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed,
                                                                   ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail, ::System::Threading::CancellationToken cancel,
                                                                   int32_t attempts, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams);
 
-  /// @brief Method PostRequest, addr 0x5d221cc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method PostRequest, addr 0x5d88cac, size 0xf4, virtual false, abstract: false, final false
   static inline void PostRequest(::StringW path, ::StringW authToken, ::StringW json, ::OSCE::Analytics::LoggerAnalyticsBatch* batchToSend,
                                  ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed, ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail,
                                  int32_t attempts, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* queryParams);
@@ -797,7 +797,7 @@ public:
 
   constexpr void __cordl_internal_set__timer(::System::Diagnostics::Stopwatch* value);
 
-  /// @brief Method .ctor, addr 0x5d223d8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d88eb8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::UriBuilder* getStaticF__oculusUriBuilder();
@@ -826,7 +826,7 @@ public:
   static constexpr int32_t EXPIRE_SECONDS{ static_cast<int32_t>(0x78) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21678 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21705 };
 
   /// @brief Field _handler, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Http::HttpClientHandler* ____handler;

@@ -121,7 +121,7 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x5e4bc44, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x5eb37d0, size 0x38, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
   static inline ::System::Data::XSDSchema_NameType* New_ctor(::StringW n, ::System::Type* t);
@@ -138,7 +138,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5e4bc3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5eb37c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW n, ::System::Type* t);
 
   /// @brief Convert to "::System::IComparable"
@@ -159,7 +159,7 @@ public:
   XSDSchema_NameType(XSDSchema_NameType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13841 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
@@ -251,161 +251,161 @@ public:
   __declspec(property(get = getStaticF_s_mapNameTypeXsd, put = setStaticF_s_mapNameTypeXsd)) ::ArrayW<::System::Data::XSDSchema_NameType*, ::Array<::System::Data::XSDSchema_NameType*>*>
       s_mapNameTypeXsd;
 
-  /// @brief Method AddTablesToList, addr 0x5e4a774, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method AddTablesToList, addr 0x5eb2300, size 0x1d4, virtual false, abstract: false, final false
   inline void AddTablesToList(::System::Collections::Generic::List_1<::System::Data::DataTable*>* tableList, ::System::Data::DataTable* dt);
 
-  /// @brief Method BuildKey, addr 0x5e47170, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method BuildKey, addr 0x5eaecfc, size 0x2ac, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> BuildKey(::System::Xml::Schema::XmlSchemaIdentityConstraint* keyNode, ::System::Data::DataTable* table);
 
-  /// @brief Method CollectElementsAnnotations, addr 0x5e3c510, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CollectElementsAnnotations, addr 0x5ea409c, size 0x8c, virtual false, abstract: false, final false
   inline void CollectElementsAnnotations(::System::Xml::Schema::XmlSchema* schema);
 
-  /// @brief Method CollectElementsAnnotations, addr 0x5e3c59c, size 0x928, virtual false, abstract: false, final false
+  /// @brief Method CollectElementsAnnotations, addr 0x5ea4128, size 0x928, virtual false, abstract: false, final false
   inline void CollectElementsAnnotations(::System::Xml::Schema::XmlSchema* schema, ::System::Collections::ArrayList* schemaList);
 
-  /// @brief Method DatasetElementCount, addr 0x5e3f438, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method DatasetElementCount, addr 0x5ea6fc4, size 0x214, virtual false, abstract: false, final false
   inline int32_t DatasetElementCount(::System::Xml::Schema::XmlSchemaObjectCollection* elements);
 
-  /// @brief Method FindDatasetElement, addr 0x5e3f7a8, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method FindDatasetElement, addr 0x5ea7334, size 0x4c4, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaElement* FindDatasetElement(::System::Xml::Schema::XmlSchemaObjectCollection* elements);
 
-  /// @brief Method FindField, addr 0x5e46fe8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method FindField, addr 0x5eaeb74, size 0x188, virtual false, abstract: false, final false
   inline ::System::Data::DataColumn* FindField(::System::Data::DataTable* table, ::StringW field);
 
-  /// @brief Method FindNameType, addr 0x5e4a494, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method FindNameType, addr 0x5eb2020, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Data::XSDSchema_NameType* FindNameType(::StringW name);
 
-  /// @brief Method FindTypeNode, addr 0x5e41b84, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method FindTypeNode, addr 0x5ea9710, size 0x304, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnnotated* FindTypeNode(::System::Xml::Schema::XmlSchemaAnnotated* node);
 
-  /// @brief Method GetBooleanAttribute, addr 0x5e3f64c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetBooleanAttribute, addr 0x5ea71d8, size 0x15c, virtual false, abstract: false, final false
   inline bool GetBooleanAttribute(::System::Xml::Schema::XmlSchemaAnnotated* element, ::StringW attrName, bool defVal);
 
-  /// @brief Method GetInstanceName, addr 0x5e3de94, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceName, addr 0x5ea5a20, size 0xe0, virtual false, abstract: false, final false
   inline ::StringW GetInstanceName(::System::Xml::Schema::XmlSchemaAnnotated* node);
 
-  /// @brief Method GetMsdataAttribute, addr 0x5e3cec4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetMsdataAttribute, addr 0x5ea4a50, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW GetMsdataAttribute(::System::Xml::Schema::XmlSchemaAnnotated* node, ::StringW ln);
 
-  /// @brief Method GetNamespaceFromPrefix, addr 0x5e4a948, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method GetNamespaceFromPrefix, addr 0x5eb24d4, size 0x3f8, virtual false, abstract: false, final false
   inline ::StringW GetNamespaceFromPrefix(::StringW prefix);
 
-  /// @brief Method GetParticle, addr 0x5e3fc6c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetParticle, addr 0x5ea77f8, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaParticle* GetParticle(::System::Xml::Schema::XmlSchemaComplexType* ct);
 
-  /// @brief Method GetParticleItems, addr 0x5e3ef80, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method GetParticleItems, addr 0x5ea6b0c, size 0x250, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* GetParticleItems(::System::Xml::Schema::XmlSchemaParticle* pt);
 
-  /// @brief Method GetPrefix, addr 0x5e48a2c, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method GetPrefix, addr 0x5eb05b8, size 0x3f0, virtual false, abstract: false, final false
   inline ::StringW GetPrefix(::StringW ns);
 
-  /// @brief Method GetStringAttribute, addr 0x5e41b00, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetStringAttribute, addr 0x5ea968c, size 0x84, virtual false, abstract: false, final false
   inline ::StringW GetStringAttribute(::System::Xml::Schema::XmlSchemaAnnotated* element, ::StringW attrName, ::StringW defVal);
 
-  /// @brief Method GetTableName, addr 0x5e47d9c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetTableName, addr 0x5eaf928, size 0x120, virtual false, abstract: false, final false
   inline ::StringW GetTableName(::System::Xml::Schema::XmlSchemaIdentityConstraint* key);
 
-  /// @brief Method GetTableNamespace, addr 0x5e4a220, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetTableNamespace, addr 0x5eb1dac, size 0x194, virtual false, abstract: false, final false
   inline ::StringW GetTableNamespace(::System::Xml::Schema::XmlSchemaIdentityConstraint* key);
 
-  /// @brief Method HandleAttributeColumn, addr 0x5e44c28, size 0x964, virtual false, abstract: false, final false
+  /// @brief Method HandleAttributeColumn, addr 0x5eac7b4, size 0x964, virtual false, abstract: false, final false
   inline void HandleAttributeColumn(::System::Xml::Schema::XmlSchemaAttribute* attrib, ::System::Data::DataTable* table, bool isBase);
 
-  /// @brief Method HandleAttributeGroup, addr 0x5e4558c, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method HandleAttributeGroup, addr 0x5ead118, size 0x398, virtual false, abstract: false, final false
   inline void HandleAttributeGroup(::System::Xml::Schema::XmlSchemaAttributeGroup* attributeGroup, ::System::Data::DataTable* table, bool isBase);
 
-  /// @brief Method HandleAttributes, addr 0x5e44960, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method HandleAttributes, addr 0x5eac4ec, size 0x2c8, virtual false, abstract: false, final false
   inline void HandleAttributes(::System::Xml::Schema::XmlSchemaObjectCollection* attributes, ::System::Data::DataTable* table, bool isBase);
 
-  /// @brief Method HandleColumnExpression, addr 0x5e3d94c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method HandleColumnExpression, addr 0x5ea54d8, size 0x200, virtual false, abstract: false, final false
   inline void HandleColumnExpression(::System::Object* instance, ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> attrs);
 
-  /// @brief Method HandleComplexType, addr 0x5e45924, size 0x60c, virtual false, abstract: false, final false
+  /// @brief Method HandleComplexType, addr 0x5ead4b0, size 0x60c, virtual false, abstract: false, final false
   inline void HandleComplexType(::System::Xml::Schema::XmlSchemaComplexType* ct, ::System::Data::DataTable* table, ::System::Collections::ArrayList* tableChildren, bool isNillable);
 
-  /// @brief Method HandleConstraint, addr 0x5e47ebc, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method HandleConstraint, addr 0x5eafa48, size 0x448, virtual false, abstract: false, final false
   inline void HandleConstraint(::System::Xml::Schema::XmlSchemaIdentityConstraint* keyNode);
 
-  /// @brief Method HandleDataSet, addr 0x5e4200c, size 0x1188, virtual false, abstract: false, final false
+  /// @brief Method HandleDataSet, addr 0x5ea9b98, size 0x1188, virtual false, abstract: false, final false
   inline void HandleDataSet(::System::Xml::Schema::XmlSchemaElement* node, bool isNewDataSet);
 
-  /// @brief Method HandleElementColumn, addr 0x5e43d8c, size 0xbd4, virtual false, abstract: false, final false
+  /// @brief Method HandleElementColumn, addr 0x5eab918, size 0xbd4, virtual false, abstract: false, final false
   inline void HandleElementColumn(::System::Xml::Schema::XmlSchemaElement* elem, ::System::Data::DataTable* table, bool isBase);
 
-  /// @brief Method HandleKeyref, addr 0x5e4758c, size 0x810, virtual false, abstract: false, final false
+  /// @brief Method HandleKeyref, addr 0x5eaf118, size 0x810, virtual false, abstract: false, final false
   inline void HandleKeyref(::System::Xml::Schema::XmlSchemaKeyref* keyref);
 
-  /// @brief Method HandleParticle, addr 0x5e43490, size 0x8fc, virtual false, abstract: false, final false
+  /// @brief Method HandleParticle, addr 0x5eab01c, size 0x8fc, virtual false, abstract: false, final false
   inline void HandleParticle(::System::Xml::Schema::XmlSchemaParticle* pt, ::System::Data::DataTable* table, ::System::Collections::ArrayList* tableChildren, bool isBase);
 
-  /// @brief Method HandleRefTableProperties, addr 0x5e3dda0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method HandleRefTableProperties, addr 0x5ea592c, size 0xf4, virtual false, abstract: false, final false
   inline void HandleRefTableProperties(::System::Collections::ArrayList* RefTables, ::System::Xml::Schema::XmlSchemaElement* element);
 
-  /// @brief Method HandleRelation, addr 0x5e3df74, size 0x880, virtual false, abstract: false, final false
+  /// @brief Method HandleRelation, addr 0x5ea5b00, size 0x880, virtual false, abstract: false, final false
   inline void HandleRelation(::System::Xml::XmlElement* node, bool fNested);
 
-  /// @brief Method HandleRelations, addr 0x5e43194, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method HandleRelations, addr 0x5eaad20, size 0x2fc, virtual false, abstract: false, final false
   inline void HandleRelations(::System::Xml::Schema::XmlSchemaAnnotation* ann, bool fNested);
 
-  /// @brief Method HandleSimpleContentColumn, addr 0x5e45f30, size 0x750, virtual false, abstract: false, final false
+  /// @brief Method HandleSimpleContentColumn, addr 0x5eadabc, size 0x750, virtual false, abstract: false, final false
   inline void HandleSimpleContentColumn(::StringW strType, ::System::Data::DataTable* table, bool isBase, ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> attrs,
                                         bool isNillable);
 
-  /// @brief Method HandleSimpleTypeSimpleContentColumn, addr 0x5e46680, size 0x968, virtual false, abstract: false, final false
+  /// @brief Method HandleSimpleTypeSimpleContentColumn, addr 0x5eae20c, size 0x968, virtual false, abstract: false, final false
   inline void HandleSimpleTypeSimpleContentColumn(::System::Xml::Schema::XmlSchemaSimpleType* typeNode, ::StringW strType, ::System::Data::DataTable* table, bool isBase,
                                                   ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> attrs, bool isNillable);
 
-  /// @brief Method HandleTable, addr 0x5e41e88, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method HandleTable, addr 0x5ea9a14, size 0x184, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* HandleTable(::System::Xml::Schema::XmlSchemaElement* node);
 
-  /// @brief Method HasAttributes, addr 0x5e3e7f4, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method HasAttributes, addr 0x5ea6380, size 0x250, virtual false, abstract: false, final false
   inline bool HasAttributes(::System::Xml::Schema::XmlSchemaObjectCollection* attributes);
 
-  /// @brief Method InstantiateSimpleTable, addr 0x5e48304, size 0x728, virtual false, abstract: false, final false
+  /// @brief Method InstantiateSimpleTable, addr 0x5eafe90, size 0x728, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* InstantiateSimpleTable(::System::Xml::Schema::XmlSchemaElement* node);
 
-  /// @brief Method InstantiateTable, addr 0x5e48e1c, size 0x1404, virtual false, abstract: false, final false
+  /// @brief Method InstantiateTable, addr 0x5eb09a8, size 0x1404, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* InstantiateTable(::System::Xml::Schema::XmlSchemaElement* node, ::System::Xml::Schema::XmlSchemaComplexType* typeNode, bool isRef);
 
-  /// @brief Method IsDatasetParticle, addr 0x5e3ea44, size 0x53c, virtual false, abstract: false, final false
+  /// @brief Method IsDatasetParticle, addr 0x5ea65d0, size 0x53c, virtual false, abstract: false, final false
   inline bool IsDatasetParticle(::System::Xml::Schema::XmlSchemaParticle* pt);
 
-  /// @brief Method IsTable, addr 0x5e3f1d0, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method IsTable, addr 0x5ea6d5c, size 0x268, virtual false, abstract: false, final false
   inline bool IsTable(::System::Xml::Schema::XmlSchemaElement* node);
 
-  /// @brief Method IsXsdType, addr 0x5e4a700, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IsXsdType, addr 0x5eb228c, size 0x74, virtual false, abstract: false, final false
   static inline bool IsXsdType(::StringW name);
 
-  /// @brief Method LoadSchema, addr 0x5e3fdb4, size 0x1d4c, virtual false, abstract: false, final false
+  /// @brief Method LoadSchema, addr 0x5ea7940, size 0x1d4c, virtual false, abstract: false, final false
   inline void LoadSchema(::System::Xml::Schema::XmlSchemaSet* schemaSet, ::System::Data::DataSet* ds);
 
-  /// @brief Method LoadSchema, addr 0x5e3fd98, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LoadSchema, addr 0x5ea7924, size 0x1c, virtual false, abstract: false, final false
   inline void LoadSchema(::System::Xml::Schema::XmlSchemaSet* schemaSet, ::System::Data::DataTable* dt);
 
   static inline ::System::Data::XSDSchema* New_ctor();
 
-  /// @brief Method ParseDataType, addr 0x5e4a56c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ParseDataType, addr 0x5eb20f8, size 0x194, virtual false, abstract: false, final false
   inline ::System::Type* ParseDataType(::StringW dt);
 
-  /// @brief Method QualifiedName, addr 0x5e3cfe0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method QualifiedName, addr 0x5ea4b6c, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW QualifiedName(::StringW name);
 
-  /// @brief Method SetExtProperties, addr 0x5e3d594, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method SetExtProperties, addr 0x5ea5120, size 0x3b8, virtual false, abstract: false, final false
   static inline void SetExtProperties(::System::Object* instance, ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> attrs);
 
-  /// @brief Method SetExtProperties, addr 0x5e3db4c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method SetExtProperties, addr 0x5ea56d8, size 0x254, virtual false, abstract: false, final false
   static inline void SetExtProperties(::System::Object* instance, ::System::Xml::XmlAttributeCollection* attrs);
 
-  /// @brief Method SetProperties, addr 0x5e3d064, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method SetProperties, addr 0x5ea4bf0, size 0x530, virtual false, abstract: false, final false
   static inline void SetProperties(::System::Object* instance, ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> attrs);
 
-  /// @brief Method TranslateAcceptRejectRule, addr 0x5e4741c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TranslateAcceptRejectRule, addr 0x5eaefa8, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Data::AcceptRejectRule TranslateAcceptRejectRule(::StringW strRule);
 
-  /// @brief Method TranslateRule, addr 0x5e474a0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TranslateRule, addr 0x5eaf02c, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Data::Rule TranslateRule(::StringW strRule);
 
-  /// @brief Method XsdtoClr, addr 0x5e4a3b4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method XsdtoClr, addr 0x5eb1f40, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Type* XsdtoClr(::StringW xsdTypeName);
 
   constexpr ::System::Xml::Schema::XmlSchemaObjectCollection* const& __cordl_internal_get__annotations() const;
@@ -524,17 +524,17 @@ public:
 
   constexpr void __cordl_internal_set__udSimpleTypes(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x5e4ad40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5eb28cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Data::XSDSchema_NameType*, ::Array<::System::Data::XSDSchema_NameType*>*> getStaticF_s_mapNameTypeXsd();
 
-  /// @brief Method get_FromInference, addr 0x5e3c500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FromInference, addr 0x5ea408c, size 0x8, virtual false, abstract: false, final false
   inline bool get_FromInference();
 
   static inline void setStaticF_s_mapNameTypeXsd(::ArrayW<::System::Data::XSDSchema_NameType*, ::Array<::System::Data::XSDSchema_NameType*>*> value);
 
-  /// @brief Method set_FromInference, addr 0x5e3c508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FromInference, addr 0x5ea4094, size 0x8, virtual false, abstract: false, final false
   inline void set_FromInference(bool value);
 
 protected:
@@ -552,7 +552,7 @@ public:
   XSDSchema(XSDSchema const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13842 };
 
   /// @brief Field _schemaSet, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaSet* ____schemaSet;

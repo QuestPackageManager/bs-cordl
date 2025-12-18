@@ -46,17 +46,17 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsReadable*() noexcept;
 
-  /// @brief Method GetContent, addr 0x358a2ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetContent, addr 0x35b4af0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* GetContent();
 
-  /// @brief Method GetInputStream, addr 0x358a174, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x35b49b8, size 0xa0, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableFile* New_ctor(::System::IO::FileInfo* file);
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableFile* New_ctor(::System::IO::FileInfo* file, int32_t bufSize);
 
-  /// @brief Method Write, addr 0x358a214, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x35b4a58, size 0x98, virtual true, abstract: false, final false
   inline void Write(::System::IO::Stream* zOut);
 
   constexpr int32_t const& __cordl_internal_get__bufSize() const;
@@ -71,10 +71,10 @@ public:
 
   constexpr void __cordl_internal_set__file(::System::IO::FileInfo* value);
 
-  /// @brief Method .ctor, addr 0x358a158, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b499c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::FileInfo* file);
 
-  /// @brief Method .ctor, addr 0x358a168, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b49ac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::FileInfo* file, int32_t bufSize);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsProcessable"

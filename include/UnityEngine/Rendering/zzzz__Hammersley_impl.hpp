@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::Rendering::Hammersley::Initialize)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x6584878;
+  constexpr static std::size_t addrs = 0x65ec404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Hammersley*>::get(), "Initialize",
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::ComputeShader*)>(
     &::UnityEngine::Rendering::Hammersley::BindConstants)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6584be8;
+  constexpr static std::size_t addrs = 0x65ec774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

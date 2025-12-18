@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ShadowSplitData::*)()>(
     &::UnityEngine::Rendering::ShadowSplitData::get_cullingPlaneCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68f462c;
+  constexpr static std::size_t addrs = 0x695d4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ShadowSplitData>::get(),
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::ShadowSplitData::*)()>(
     &::UnityEngine::Rendering::ShadowSplitData::get_cullingSphere)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68f4634;
+  constexpr static std::size_t addrs = 0x695d4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ShadowSplitData>::get(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ShadowSplitData::*)(float_t)>(
     &::UnityEngine::Rendering::ShadowSplitData::set_shadowCascadeBlendCullingFactor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x68f4078;
+  constexpr static std::size_t addrs = 0x695cefc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Plane (::UnityEngine::Rendering::ShadowSplitData::*)(int32_t)>(
     &::UnityEngine::Rendering::ShadowSplitData::GetCullingPlane)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x68f4640;
+  constexpr static std::size_t addrs = 0x695d4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ShadowSplitData::*)(::UnityEngine::Rendering::ShadowSplitData)>(
     &::UnityEngine::Rendering::ShadowSplitData::Equals)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x68f42bc;
+  constexpr static std::size_t addrs = 0x695d140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ShadowSplitData::*)(::System::Object*)>(
     &::UnityEngine::Rendering::ShadowSplitData::Equals)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x68f4788;
+  constexpr static std::size_t addrs = 0x695d60c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ShadowSplitData::*)()>(&::UnityEngine::Rendering::ShadowSplitData::GetHashCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x68f45b0;
+  constexpr static std::size_t addrs = 0x695d434;
 
   inline static ::MethodInfo const* methodInfo() {
 

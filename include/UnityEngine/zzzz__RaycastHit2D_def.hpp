@@ -37,19 +37,19 @@ public:
 
   __declspec(property(get = get_point)) ::UnityEngine::Vector2 point;
 
-  /// @brief Method get_collider, addr 0x693cb14, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method get_collider, addr 0x69a5998, size 0x3f4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider2D> get_collider();
 
-  /// @brief Method get_distance, addr 0x693cb04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x69a5988, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_fraction, addr 0x693cb0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fraction, addr 0x69a5990, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fraction();
 
-  /// @brief Method get_normal, addr 0x693cafc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x69a5980, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_normal();
 
-  /// @brief Method get_point, addr 0x693caf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x69a5978, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_point();
 
   // Ctor Parameters []
@@ -62,7 +62,7 @@ public:
   constexpr RaycastHit2D(::UnityEngine::Vector2 m_Centroid, ::UnityEngine::Vector2 m_Point, ::UnityEngine::Vector2 m_Normal, float_t m_Distance, float_t m_Fraction, int32_t m_Collider) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22491 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };

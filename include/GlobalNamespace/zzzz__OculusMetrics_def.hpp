@@ -39,21 +39,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CaptureFrame, addr 0x56ff438, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CaptureFrame, addr 0x575be14, size 0x4, virtual false, abstract: false, final false
   inline void CaptureFrame();
 
-  /// @brief Method Dispose, addr 0x56ff434, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x575be10, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GenerateListReport, addr 0x56ff43c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GenerateListReport, addr 0x575be18, size 0x19c, virtual false, abstract: false, final false
   inline ::StringW GenerateListReport();
 
-  /// @brief Method GenerateTableReport, addr 0x56ff5d8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GenerateTableReport, addr 0x575bfb4, size 0x1ec, virtual false, abstract: false, final false
   inline ::StringW GenerateTableReport();
 
   static inline ::GlobalNamespace::OculusMetrics* New_ctor(int32_t initialFrameCapacity);
 
-  /// @brief Method RecordMetrics, addr 0x56ff308, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method RecordMetrics, addr 0x575bce4, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OculusMetrics* RecordMetrics(int32_t initialFrameCapacity);
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__metrics() const;
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__samples(::System::Collections::Generic::List_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x56ff348, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x575bd24, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialFrameCapacity);
 
   /// @brief Convert to "::System::IDisposable"
@@ -95,7 +95,7 @@ public:
   OculusMetrics(OculusMetrics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6682 };
 
   /// @brief Field _metrics, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ____metrics;

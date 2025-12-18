@@ -56,14 +56,14 @@ public:
 
   constexpr void __cordl_internal_set_InputActionSets(::System::Collections::Generic::List_1<::UnityW<::Meta::XR::InputActions::InputActionSet>>* value);
 
-  /// @brief Method .ctor, addr 0x5c3bf40, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca2a20, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_InstanceAssetName();
 
   static inline ::UnityW<::Meta::XR::InputActions::RuntimeSettings> getStaticF__instance();
 
-  /// @brief Method get_Instance, addr 0x5c3be30, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x5ca2910, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityW<::Meta::XR::InputActions::RuntimeSettings> get_Instance();
 
   static inline void setStaticF_InstanceAssetName(::StringW value);
@@ -85,7 +85,7 @@ public:
   RuntimeSettings(RuntimeSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8551 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8555 };
 
   /// @brief Field InputActionDefinitions, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Meta::XR::InputActions::UserInputActionSet*>* ___InputActionDefinitions;

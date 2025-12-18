@@ -56,13 +56,13 @@ public:
 
   static inline ::HMUI::ScrollViewItemsVisibilityController___c* New_ctor();
 
-  /// @brief Method <Start>b__11_0, addr 0x567550c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__11_0, addr 0x56d61b4, size 0x4c, virtual false, abstract: false, final false
   inline float_t _Start_b__11_0(::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>* item);
 
-  /// @brief Method <Start>b__11_1, addr 0x5675558, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__11_1, addr 0x56d6200, size 0x4c, virtual false, abstract: false, final false
   inline float_t _Start_b__11_1(::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>* item);
 
-  /// @brief Method .ctor, addr 0x5675508, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56d61b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HMUI::ScrollViewItemsVisibilityController___c* getStaticF___9();
@@ -92,7 +92,7 @@ public:
   ScrollViewItemsVisibilityController___c(ScrollViewItemsVisibilityController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19200 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -153,16 +153,16 @@ public:
 
   static inline ::HMUI::ScrollViewItemsVisibilityController* New_ctor();
 
-  /// @brief Method Start, addr 0x5674ba8, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x56d5850, size 0x4d0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5675224, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x56d5ecc, size 0xac, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateVisibilityDownDirection, addr 0x56752d0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisibilityDownDirection, addr 0x56d5f78, size 0x188, virtual false, abstract: false, final false
   inline void UpdateVisibilityDownDirection(float_t newContentAnchoredPositionY);
 
-  /// @brief Method UpdateVisibilityUpDirection, addr 0x5675078, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisibilityUpDirection, addr 0x56d5d20, size 0x1ac, virtual false, abstract: false, final false
   inline void UpdateVisibilityUpDirection(float_t newContentAnchoredPositionY);
 
   constexpr float_t const& __cordl_internal_get__contentMaxY() const;
@@ -243,7 +243,7 @@ public:
 
   constexpr void __cordl_internal_set__viewportWorldCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method .ctor, addr 0x5675458, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56d6100, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -261,7 +261,7 @@ public:
   ScrollViewItemsVisibilityController(ScrollViewItemsVisibilityController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19201 };
 
   /// @brief Field _viewport, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____viewport;

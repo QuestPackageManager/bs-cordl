@@ -39,15 +39,15 @@ public:
   /// @brief Field _sdfPointsArray, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__sdfPointsArray, put = setStaticF__sdfPointsArray)) int32_t _sdfPointsArray;
 
-  /// @brief Method Awake, addr 0x565e57c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x56bf224, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x565e580, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x56bf228, size 0x70, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::SDFArrayManager* New_ctor();
 
-  /// @brief Method Update, addr 0x565e5f0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x56bf298, size 0x10c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__isInitialized() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__sdfPointArray(::ArrayW<::UnityW<::GlobalNamespace::SDFPoint>, ::Array<::UnityW<::GlobalNamespace::SDFPoint>>*> value);
 
-  /// @brief Method .ctor, addr 0x565e6fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56bf3a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__sdfPointsArray();
@@ -90,7 +90,7 @@ public:
   SDFArrayManager(SDFArrayManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19749 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19775 };
 
   /// @brief Field _sdfPointArray, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::SDFPoint>, ::Array<::UnityW<::GlobalNamespace::SDFPoint>>*> ____sdfPointArray;

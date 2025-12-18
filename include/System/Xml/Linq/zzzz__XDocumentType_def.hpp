@@ -50,14 +50,14 @@ public:
   /// @brief Field _systemId, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__systemId, put = __cordl_internal_set__systemId)) ::StringW _systemId;
 
-  /// @brief Method CloneNode, addr 0x5f8c200, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x5ff3d8c, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
   static inline ::System::Xml::Linq::XDocumentType* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset);
 
   static inline ::System::Xml::Linq::XDocumentType* New_ctor(::System::Xml::Linq::XDocumentType* other);
 
-  /// @brief Method WriteTo, addr 0x5f8c194, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x5ff3d20, size 0x6c, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
   constexpr ::StringW const& __cordl_internal_get__internalSubset() const;
@@ -84,25 +84,25 @@ public:
 
   constexpr void __cordl_internal_set__systemId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5f8b2b0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ff2e3c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset);
 
-  /// @brief Method .ctor, addr 0x5f8c108, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ff3c94, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDocumentType* other);
 
-  /// @brief Method get_InternalSubset, addr 0x5f8c16c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalSubset, addr 0x5ff3cf8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_Name, addr 0x5f8c174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5ff3d00, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x5f8c17c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x5ff3d08, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_PublicId, addr 0x5f8c184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicId, addr 0x5ff3d10, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PublicId();
 
-  /// @brief Method get_SystemId, addr 0x5f8c18c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SystemId, addr 0x5ff3d18, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SystemId();
 
 protected:
@@ -120,7 +120,7 @@ public:
   XDocumentType(XDocumentType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21757 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21784 };
 
   /// @brief Field _name, offset: 0x28, size: 0x8, def value: None
   ::StringW ____name;

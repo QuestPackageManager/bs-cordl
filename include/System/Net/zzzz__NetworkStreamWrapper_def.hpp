@@ -82,54 +82,54 @@ public:
   /// @brief Field _networkStream, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__networkStream, put = __cordl_internal_set__networkStream)) ::System::Net::Sockets::NetworkStream* _networkStream;
 
-  /// @brief Method BeginRead, addr 0x61edffc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x6255b88, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginWrite, addr 0x61ee05c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginWrite, addr 0x6255be8, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method Close, addr 0x61edfc4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x6255b50, size 0x38, virtual false, abstract: false, final false
   inline void Close(int32_t timeout);
 
-  /// @brief Method CloseSocket, addr 0x61e5054, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CloseSocket, addr 0x624cbe0, size 0x40, virtual false, abstract: false, final false
   inline void CloseSocket();
 
-  /// @brief Method Dispose, addr 0x61edf7c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6255b08, size 0x48, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndRead, addr 0x61ee01c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x6255ba8, size 0x20, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndWrite, addr 0x61ee07c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method EndWrite, addr 0x6255c08, size 0x20, virtual true, abstract: false, final false
   inline void EndWrite(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method Flush, addr 0x61ee0bc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x6255c48, size 0x20, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushAsync, addr 0x61ee0dc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method FlushAsync, addr 0x6255c68, size 0x20, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::System::Net::NetworkStreamWrapper* New_ctor(::System::Net::Sockets::TcpClient* client);
 
-  /// @brief Method Read, addr 0x61edf3c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x6255ac8, size 0x20, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method ReadAsync, addr 0x61ee03c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x6255bc8, size 0x20, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Seek, addr 0x61edf1c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x6255aa8, size 0x20, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x61ee0fc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x6255c88, size 0x20, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method SetSocketTimeoutOption, addr 0x61ea878, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetSocketTimeoutOption, addr 0x6252404, size 0x50, virtual false, abstract: false, final false
   inline void SetSocketTimeoutOption(int32_t timeout);
 
-  /// @brief Method Write, addr 0x61edf5c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x6255ae8, size 0x20, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method WriteAsync, addr 0x61ee09c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x6255c28, size 0x20, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
   constexpr ::System::Net::Sockets::TcpClient* const& __cordl_internal_get__client() const;
@@ -144,55 +144,55 @@ public:
 
   constexpr void __cordl_internal_set__networkStream(::System::Net::Sockets::NetworkStream* value);
 
-  /// @brief Method .ctor, addr 0x61edc14, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62557a0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::TcpClient* client);
 
-  /// @brief Method get_CanRead, addr 0x61eddd0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x625595c, size 0x1c, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x61eddec, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x6255978, size 0x1c, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanTimeout, addr 0x61ede24, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_CanTimeout, addr 0x62559b0, size 0x1c, virtual true, abstract: false, final false
   inline bool get_CanTimeout();
 
-  /// @brief Method get_CanWrite, addr 0x61ede08, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x6255994, size 0x1c, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x61edec0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x6255a4c, size 0x1c, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_NetworkStream, addr 0x61eddc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NetworkStream, addr 0x625594c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::NetworkStream* get_NetworkStream();
 
-  /// @brief Method get_Position, addr 0x61ededc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x6255a68, size 0x20, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method get_ReadTimeout, addr 0x61ede40, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_ReadTimeout, addr 0x62559cc, size 0x20, virtual true, abstract: false, final false
   inline int32_t get_ReadTimeout();
 
-  /// @brief Method get_ServerAddress, addr 0x61edd10, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_ServerAddress, addr 0x625589c, size 0x98, virtual false, abstract: false, final false
   inline ::System::Net::IPAddress* get_ServerAddress();
 
-  /// @brief Method get_Socket, addr 0x61edda8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Socket, addr 0x6255934, size 0x18, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* get_Socket();
 
-  /// @brief Method get_UsingSecureStream, addr 0x61edc90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_UsingSecureStream, addr 0x625581c, size 0x80, virtual false, abstract: false, final false
   inline bool get_UsingSecureStream();
 
-  /// @brief Method get_WriteTimeout, addr 0x61ede80, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_WriteTimeout, addr 0x6255a0c, size 0x20, virtual true, abstract: false, final false
   inline int32_t get_WriteTimeout();
 
-  /// @brief Method set_NetworkStream, addr 0x61eddc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NetworkStream, addr 0x6255954, size 0x8, virtual false, abstract: false, final false
   inline void set_NetworkStream(::System::Net::Sockets::NetworkStream* value);
 
-  /// @brief Method set_Position, addr 0x61edefc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x6255a88, size 0x20, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method set_ReadTimeout, addr 0x61ede60, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method set_ReadTimeout, addr 0x62559ec, size 0x20, virtual true, abstract: false, final false
   inline void set_ReadTimeout(int32_t value);
 
-  /// @brief Method set_WriteTimeout, addr 0x61edea0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method set_WriteTimeout, addr 0x6255a2c, size 0x20, virtual true, abstract: false, final false
   inline void set_WriteTimeout(int32_t value);
 
 protected:
@@ -210,7 +210,7 @@ public:
   NetworkStreamWrapper(NetworkStreamWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11449 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11453 };
 
   /// @brief Field _client, offset: 0x28, size: 0x8, def value: None
   ::System::Net::Sockets::TcpClient* ____client;

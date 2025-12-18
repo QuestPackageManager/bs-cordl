@@ -20,85 +20,85 @@ namespace Unity::Collections {
 struct CORDL_TYPE Bitwise {
 public:
   // Declarations
-  /// @brief Method AlignDown, addr 0x628c8d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AlignDown, addr 0x62f4460, size 0xc, virtual false, abstract: false, final false
   static inline int32_t AlignDown(int32_t value, int32_t alignPow2);
 
-  /// @brief Method AlignUp, addr 0x628c8e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AlignUp, addr 0x62f446c, size 0x14, virtual false, abstract: false, final false
   static inline int32_t AlignUp(int32_t value, int32_t alignPow2);
 
-  /// @brief Method CountBits, addr 0x628d584, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CountBits, addr 0x62f5110, size 0xc8, virtual false, abstract: false, final false
   static inline int32_t CountBits(uint64_t* ptr, int32_t length, int32_t pos, int32_t numBits);
 
-  /// @brief Method ExtractBits, addr 0x628c8fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ExtractBits, addr 0x62f4488, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t ExtractBits(uint32_t input, int32_t pos, uint32_t mask);
 
-  /// @brief Method ExtractBits, addr 0x628c93c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ExtractBits, addr 0x62f44c8, size 0xc, virtual false, abstract: false, final false
   static inline uint64_t ExtractBits(uint64_t input, int32_t pos, uint64_t mask);
 
-  /// @brief Method Find, addr 0x628d400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x62f4f8c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t Find(uint64_t* ptr, int32_t pos, int32_t count, int32_t numBits);
 
-  /// @brief Method FindByte, addr 0x628cf04, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method FindByte, addr 0x62f4a90, size 0x184, virtual false, abstract: false, final false
   static inline int32_t FindByte(uint64_t* ptr, int32_t beginBit, int32_t endBit, int32_t numBits);
 
-  /// @brief Method FindUint, addr 0x628cc34, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method FindUint, addr 0x62f47c0, size 0x138, virtual false, abstract: false, final false
   static inline int32_t FindUint(uint64_t* ptr, int32_t beginBit, int32_t endBit, int32_t numBits);
 
-  /// @brief Method FindUlong, addr 0x628ca8c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method FindUlong, addr 0x62f4618, size 0x1a8, virtual false, abstract: false, final false
   static inline int32_t FindUlong(uint64_t* ptr, int32_t beginBit, int32_t endBit, int32_t numBits);
 
-  /// @brief Method FindUpto14bits, addr 0x628d088, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method FindUpto14bits, addr 0x62f4c14, size 0x14c, virtual false, abstract: false, final false
   static inline int32_t FindUpto14bits(uint64_t* ptr, int32_t beginBit, int32_t endBit, int32_t numBits);
 
-  /// @brief Method FindUpto6bits, addr 0x628d1d4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method FindUpto6bits, addr 0x62f4d60, size 0x114, virtual false, abstract: false, final false
   static inline int32_t FindUpto6bits(uint64_t* ptr, int32_t beginBit, int32_t endBit, int32_t numBits);
 
-  /// @brief Method FindUshort, addr 0x628cd6c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method FindUshort, addr 0x62f48f8, size 0x198, virtual false, abstract: false, final false
   static inline int32_t FindUshort(uint64_t* ptr, int32_t beginBit, int32_t endBit, int32_t numBits);
 
-  /// @brief Method FindWithBeginEnd, addr 0x628d2e8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method FindWithBeginEnd, addr 0x62f4e74, size 0x118, virtual false, abstract: false, final false
   static inline int32_t FindWithBeginEnd(uint64_t* ptr, int32_t beginBit, int32_t endBit, int32_t numBits);
 
-  /// @brief Method FromBool, addr 0x628c8f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromBool, addr 0x62f4480, size 0x8, virtual false, abstract: false, final false
   static inline int32_t FromBool(bool value);
 
-  /// @brief Method GetBits, addr 0x628d660, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetBits, addr 0x62f51ec, size 0x70, virtual false, abstract: false, final false
   static inline uint64_t GetBits(uint64_t* ptr, int32_t length, int32_t pos, int32_t numBits);
 
-  /// @brief Method IsSet, addr 0x628d64c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsSet, addr 0x62f51d8, size 0x14, virtual false, abstract: false, final false
   static inline bool IsSet(uint64_t* ptr, int32_t pos);
 
-  /// @brief Method ReplaceBits, addr 0x628c908, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ReplaceBits, addr 0x62f4494, size 0x18, virtual false, abstract: false, final false
   static inline uint32_t ReplaceBits(uint32_t input, int32_t pos, uint32_t mask, uint32_t value);
 
-  /// @brief Method ReplaceBits, addr 0x628c948, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ReplaceBits, addr 0x62f44d4, size 0x18, virtual false, abstract: false, final false
   static inline uint64_t ReplaceBits(uint64_t input, int32_t pos, uint64_t mask, uint64_t value);
 
-  /// @brief Method SetBits, addr 0x628c920, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetBits, addr 0x62f44ac, size 0x1c, virtual false, abstract: false, final false
   static inline uint32_t SetBits(uint32_t input, int32_t pos, uint32_t mask, bool value);
 
-  /// @brief Method SetBits, addr 0x628c960, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetBits, addr 0x62f44ec, size 0x1c, virtual false, abstract: false, final false
   static inline uint64_t SetBits(uint64_t input, int32_t pos, uint64_t mask, bool value);
 
-  /// @brief Method TestAll, addr 0x628d500, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TestAll, addr 0x62f508c, size 0x84, virtual false, abstract: false, final false
   static inline bool TestAll(uint64_t* ptr, int32_t length, int32_t pos, int32_t numBits);
 
-  /// @brief Method TestAny, addr 0x628d484, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method TestAny, addr 0x62f5010, size 0x7c, virtual false, abstract: false, final false
   static inline bool TestAny(uint64_t* ptr, int32_t length, int32_t pos, int32_t numBits);
 
-  /// @brief Method TestNone, addr 0x628d408, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method TestNone, addr 0x62f4f94, size 0x7c, virtual false, abstract: false, final false
   static inline bool TestNone(uint64_t* ptr, int32_t length, int32_t pos, int32_t numBits);
 
-  /// @brief Method lzcnt, addr 0x628ca04, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method lzcnt, addr 0x62f4590, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t lzcnt(uint16_t value);
 
-  /// @brief Method lzcnt, addr 0x628c97c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method lzcnt, addr 0x62f4508, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t lzcnt(uint8_t value);
 
-  /// @brief Method tzcnt, addr 0x628ca40, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method tzcnt, addr 0x62f45cc, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t tzcnt(uint16_t value);
 
-  /// @brief Method tzcnt, addr 0x628c9b8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method tzcnt, addr 0x62f4544, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t tzcnt(uint8_t value);
 
   // Ctor Parameters []
@@ -106,7 +106,7 @@ public:
   constexpr Bitwise();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15520 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

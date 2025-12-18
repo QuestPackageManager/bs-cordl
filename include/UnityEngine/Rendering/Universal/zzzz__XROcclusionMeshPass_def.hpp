@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_xr(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-  /// @brief Method .ctor, addr 0x668a92c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66f24b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,7 +122,7 @@ public:
   XROcclusionMeshPass_PassData(XROcclusionMeshPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12861 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12865 };
 
   /// @brief Field xr, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Experimental::Rendering::XRPass* ___xr;
@@ -167,10 +167,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::XROcclusionMeshPass___c* New_ctor();
 
-  /// @brief Method <Render>b__6_0, addr 0x668b16c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__6_0, addr 0x66f2cf8, size 0x8, virtual false, abstract: false, final false
   inline void _Render_b__6_0(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x668b168, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66f2cf4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::XROcclusionMeshPass___c* getStaticF___9();
@@ -199,7 +199,7 @@ public:
   XROcclusionMeshPass___c(XROcclusionMeshPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12862 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12866 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -224,15 +224,15 @@ public:
   /// @brief Field m_PassData, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PassData, put = __cordl_internal_set_m_PassData)) ::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* m_PassData;
 
-  /// @brief Method Execute, addr 0x668a9c4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x66f2550, size 0xb0, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x668a930, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x66f24bc, size 0x94, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* data);
 
   static inline ::UnityEngine::Rendering::Universal::XROcclusionMeshPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method Render, addr 0x668aa74, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x66f2600, size 0x6a0, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> cameraColorAttachment,
                      ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> cameraDepthAttachment);
@@ -249,7 +249,7 @@ public:
 
   constexpr void __cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* value);
 
-  /// @brief Method .ctor, addr 0x668a83c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66f23c8, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
 protected:
@@ -267,7 +267,7 @@ public:
   XROcclusionMeshPass(XROcclusionMeshPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12863 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12867 };
 
   /// @brief Field m_PassData, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::XROcclusionMeshPass_PassData* ___m_PassData;

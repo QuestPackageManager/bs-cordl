@@ -24,25 +24,25 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE CoreMatrixUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MatrixTimesTranslation, addr 0x659ef0c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method MatrixTimesTranslation, addr 0x6606a98, size 0x5c, virtual false, abstract: false, final false
   static inline void MatrixTimesTranslation(::ByRef<::UnityEngine::Matrix4x4> inOutMatrix, ::UnityEngine::Vector3 translation);
 
-  /// @brief Method MultiplyGenericOrthoMatrix, addr 0x659f130, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method MultiplyGenericOrthoMatrix, addr 0x6606cbc, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 MultiplyGenericOrthoMatrix(::UnityEngine::Matrix4x4 ortho, ::UnityEngine::Matrix4x4 rhs);
 
-  /// @brief Method MultiplyOrthoMatrix, addr 0x659f1ec, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method MultiplyOrthoMatrix, addr 0x6606d78, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 MultiplyOrthoMatrix(::UnityEngine::Matrix4x4 ortho, ::UnityEngine::Matrix4x4 rhs, bool centered);
 
-  /// @brief Method MultiplyOrthoMatrixCentered, addr 0x659f098, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method MultiplyOrthoMatrixCentered, addr 0x6606c24, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 MultiplyOrthoMatrixCentered(::UnityEngine::Matrix4x4 ortho, ::UnityEngine::Matrix4x4 rhs);
 
-  /// @brief Method MultiplyPerspectiveMatrix, addr 0x659eff0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method MultiplyPerspectiveMatrix, addr 0x6606b7c, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 MultiplyPerspectiveMatrix(::UnityEngine::Matrix4x4 perspective, ::UnityEngine::Matrix4x4 rhs);
 
-  /// @brief Method MultiplyProjectionMatrix, addr 0x659f2e0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method MultiplyProjectionMatrix, addr 0x6606e6c, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 MultiplyProjectionMatrix(::UnityEngine::Matrix4x4 projMatrix, ::UnityEngine::Matrix4x4 rhs, bool orthoCentered);
 
-  /// @brief Method TranslationTimesMatrix, addr 0x659ef68, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method TranslationTimesMatrix, addr 0x6606af4, size 0x88, virtual false, abstract: false, final false
   static inline void TranslationTimesMatrix(::ByRef<::UnityEngine::Matrix4x4> inOutMatrix, ::UnityEngine::Vector3 translation);
 
 protected:
@@ -60,7 +60,7 @@ public:
   CoreMatrixUtils(CoreMatrixUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12248 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

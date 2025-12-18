@@ -37,22 +37,22 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE ReceiverPlanes {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x65f0c8c, size 0x8a8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6658818, size 0x8a8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ReceiverPlanes Create(::ByRef<::UnityEngine::Rendering::BatchCullingContext> cc, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method CreateEmptyForTesting, addr 0x65f0bc0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateEmptyForTesting, addr 0x665874c, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ReceiverPlanes CreateEmptyForTesting(::Unity::Collections::Allocator allocator);
 
-  /// @brief Method Dispose, addr 0x65f0c28, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x66587b4, size 0x64, virtual false, abstract: false, final false
   inline void Dispose(::Unity::Jobs::JobHandle job);
 
-  /// @brief Method IsSignBitSet, addr 0x65f0a60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsSignBitSet, addr 0x66585ec, size 0xc, virtual false, abstract: false, final false
   static inline bool IsSignBitSet(float_t x);
 
-  /// @brief Method LightFacingFrustumPlaneSubArray, addr 0x65f0a6c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method LightFacingFrustumPlaneSubArray, addr 0x66585f8, size 0x88, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> LightFacingFrustumPlaneSubArray();
 
-  /// @brief Method SilhouettePlaneSubArray, addr 0x65f0af4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SilhouettePlaneSubArray, addr 0x6658680, size 0xcc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> SilhouettePlaneSubArray();
 
   // Ctor Parameters []
@@ -64,7 +64,7 @@ public:
   constexpr ReceiverPlanes(::Unity::Collections::NativeList_1<::UnityEngine::Plane> planes, int32_t lightFacingPlaneCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17563 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17577 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

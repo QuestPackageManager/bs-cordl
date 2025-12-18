@@ -9,7 +9,7 @@ namespace BeatSaber::AvatarCore {
 class IAvatarPoseRestriction;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
 class INodePoseSyncStateManager;
@@ -40,7 +40,7 @@ public:
   __declspec(property(get = __cordl_internal_get__avatarPoseRestriction, put = __cordl_internal_set__avatarPoseRestriction)) ::BeatSaber::AvatarCore::IAvatarPoseRestriction* _avatarPoseRestriction;
 
   /// @brief Field _connectedPlayer, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* _connectedPlayer;
 
   /// @brief Field _headTransform, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__headTransform, put = __cordl_internal_set__headTransform)) ::UnityW<::UnityEngine::Transform> _headTransform;
@@ -55,26 +55,26 @@ public:
   /// @brief Field _rightSaberTransform, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__rightSaberTransform, put = __cordl_internal_set__rightSaberTransform)) ::UnityW<::UnityEngine::Transform> _rightSaberTransform;
 
-  __declspec(property(put = set_connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
+  __declspec(property(put = set_connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer;
 
   /// @brief Field didUpdatePoseEvent, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_didUpdatePoseEvent, put = __cordl_internal_set_didUpdatePoseEvent)) ::System::Action_1<::UnityEngine::Vector3>* didUpdatePoseEvent;
 
   static inline ::BeatSaber::AvatarCore::MultiplayerAvatarPoseController* New_ctor();
 
-  /// @brief Method Start, addr 0x3170550, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x31a0244, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3170568, size 0x4f0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x31a025c, size 0x4f0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction* const& __cordl_internal_get__avatarPoseRestriction() const;
 
   constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction*& __cordl_internal_get__avatarPoseRestriction();
 
-  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__headTransform() const;
 
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__avatarPoseRestriction(::BeatSaber::AvatarCore::IAvatarPoseRestriction* value);
 
-  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
   constexpr void __cordl_internal_set__headTransform(::UnityW<::UnityEngine::Transform> value);
 
@@ -110,17 +110,17 @@ public:
 
   constexpr void __cordl_internal_set_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x3170a58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31a074c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didUpdatePoseEvent, addr 0x316be48, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didUpdatePoseEvent, addr 0x319bb40, size 0xc0, virtual false, abstract: false, final false
   inline void add_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method remove_didUpdatePoseEvent, addr 0x316c018, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didUpdatePoseEvent, addr 0x319bd10, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method set_connectedPlayer, addr 0x3170548, size 0x8, virtual false, abstract: false, final false
-  inline void set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  /// @brief Method set_connectedPlayer, addr 0x31a023c, size 0x8, virtual false, abstract: false, final false
+  inline void set_connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
 protected:
   // Ctor Parameters []
@@ -137,7 +137,7 @@ public:
   MultiplayerAvatarPoseController(MultiplayerAvatarPoseController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21412 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21439 };
 
   /// @brief Field _leftSaberTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____leftSaberTransform;
@@ -155,7 +155,7 @@ public:
   ::BeatSaber::AvatarCore::IAvatarPoseRestriction* ____avatarPoseRestriction;
 
   /// @brief Field _connectedPlayer, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
+  ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 
   /// @brief Field didUpdatePoseEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::Vector3>* ___didUpdatePoseEvent;

@@ -65,7 +65,7 @@ public:
 
   static inline ::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <GenerateClassWriter>b__0, addr 0x5f48574, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <GenerateClassWriter>b__0, addr 0x5fb0100, size 0x90, virtual false, abstract: false, final false
   inline void _GenerateClassWriter_b__0(::System::Runtime::Serialization::XmlWriterDelegator* xw, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* ctx,
                                         ::System::Runtime::Serialization::ClassDataContract* ctr);
 
@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_classContract(::System::Runtime::Serialization::ClassDataContract* value);
 
-  /// @brief Method .ctor, addr 0x5f4856c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb00f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,7 +93,7 @@ public:
   CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0(CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17100 };
 
   /// @brief Field classContract, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::ClassDataContract* ___classContract;
@@ -118,7 +118,7 @@ public:
 
   static inline ::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <GenerateCollectionWriter>b__0, addr 0x5f48604, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <GenerateCollectionWriter>b__0, addr 0x5fb0190, size 0x90, virtual false, abstract: false, final false
   inline void _GenerateCollectionWriter_b__0(::System::Runtime::Serialization::XmlWriterDelegator* xw, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* ctx,
                                              ::System::Runtime::Serialization::CollectionDataContract* ctr);
 
@@ -128,7 +128,7 @@ public:
 
   constexpr void __cordl_internal_set_collectionContract(::System::Runtime::Serialization::CollectionDataContract* value);
 
-  /// @brief Method .ctor, addr 0x5f48570, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb00fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -146,7 +146,7 @@ public:
   CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0(CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17101 };
 
   /// @brief Field collectionContract, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::CollectionDataContract* ___collectionContract;
@@ -170,15 +170,15 @@ public:
 
   using __c__DisplayClass1_0 = ::System::Runtime::Serialization::CriticalHelper_XmlFormatWriterGenerator___c__DisplayClass1_0;
 
-  /// @brief Method GenerateClassWriter, addr 0x5f48284, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GenerateClassWriter, addr 0x5fafe10, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlFormatClassWriterDelegate* GenerateClassWriter(::System::Runtime::Serialization::ClassDataContract* classContract);
 
-  /// @brief Method GenerateCollectionWriter, addr 0x5f484c4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GenerateCollectionWriter, addr 0x5fb0050, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate* GenerateCollectionWriter(::System::Runtime::Serialization::CollectionDataContract* collectionContract);
 
   static inline ::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5f480e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fafc74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -196,7 +196,7 @@ public:
   XmlFormatWriterGenerator_CriticalHelper(XmlFormatWriterGenerator_CriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17088 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17102 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -216,10 +216,10 @@ public:
   /// @brief Field helper, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_helper, put = __cordl_internal_set_helper)) ::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper* helper;
 
-  /// @brief Method GenerateClassWriter, addr 0x5f480ec, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GenerateClassWriter, addr 0x5fafc78, size 0x198, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlFormatClassWriterDelegate* GenerateClassWriter(::System::Runtime::Serialization::ClassDataContract* classContract);
 
-  /// @brief Method GenerateCollectionWriter, addr 0x5f4832c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GenerateCollectionWriter, addr 0x5fafeb8, size 0x198, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate* GenerateCollectionWriter(::System::Runtime::Serialization::CollectionDataContract* collectionContract);
 
   static inline ::System::Runtime::Serialization::XmlFormatWriterGenerator* New_ctor();
@@ -230,7 +230,7 @@ public:
 
   constexpr void __cordl_internal_set_helper(::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper* value);
 
-  /// @brief Method .ctor, addr 0x5f48098, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fafc24, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -248,7 +248,7 @@ public:
   XmlFormatWriterGenerator(XmlFormatWriterGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17103 };
 
   /// @brief Field helper, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::XmlFormatWriterGenerator_CriticalHelper* ___helper;

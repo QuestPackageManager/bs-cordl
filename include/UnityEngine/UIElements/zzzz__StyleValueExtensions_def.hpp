@@ -52,22 +52,22 @@ public:
   /// @brief Method DebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW DebugString(::UnityEngine::UIElements::IStyleValue_1<T>* styleValue);
 
-  /// @brief Method ToLayoutValue, addr 0x6a605ac, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ToLayoutValue, addr 0x6ac9430, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutValue ToLayoutValue(::UnityEngine::UIElements::Length length);
 
-  /// @brief Method ToLength, addr 0x6a60710, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x6ac9594, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToLength, addr 0x6a60bd8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x6ac9a5c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleLength styleLength);
 
-  /// @brief Method ToRotate, addr 0x6a60820, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method ToRotate, addr 0x6ac96a4, size 0x168, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate ToRotate(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToScale, addr 0x6a60988, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ToScale, addr 0x6ac980c, size 0x10c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Scale ToScale(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToTranslate, addr 0x6a60a94, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ToTranslate, addr 0x6ac9918, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Translate ToTranslate(::UnityEngine::UIElements::StyleKeyword keyword);
 
 protected:

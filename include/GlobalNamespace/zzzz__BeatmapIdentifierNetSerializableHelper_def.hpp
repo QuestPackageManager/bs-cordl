@@ -27,11 +27,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapIdentifierNetSerializableHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToBeatmapKey, addr 0x35f6dc8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToBeatmapKey, addr 0x3621d04, size 0x74, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapKey ToBeatmapKey(::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable,
                                                            ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
 
-  /// @brief Method ToIdentifier, addr 0x35f6e68, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ToIdentifier, addr 0x3621da4, size 0x9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapKeyNetSerializable* ToIdentifier(::GlobalNamespace::BeatmapKey beatmapKey);
 
 protected:
@@ -49,7 +49,7 @@ public:
   BeatmapIdentifierNetSerializableHelper(BeatmapIdentifierNetSerializableHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14919 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

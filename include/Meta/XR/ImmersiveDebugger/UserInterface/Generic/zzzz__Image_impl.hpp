@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Image::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Image::get_Texture)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5846708;
+  constexpr static std::size_t addrs = 0x58ace6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Image::*)(::UnityEngine::Texture2D*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Image::set_Texture)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x584670c;
+  constexpr static std::size_t addrs = 0x58ace70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Image::*)(
     ::Meta::XR::ImmersiveDebugger::Manager::WatchTexture*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Image::Setup)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5846848;
+  constexpr static std::size_t addrs = 0x58acfac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Image::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Image::UpdateSize)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x58467b0;
+  constexpr static std::size_t addrs = 0x58acf14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Image::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Image::Update)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x58468bc;
+  constexpr static std::size_t addrs = 0x58ad020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Image::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Image::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58469b0;
+  constexpr static std::size_t addrs = 0x58ad114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

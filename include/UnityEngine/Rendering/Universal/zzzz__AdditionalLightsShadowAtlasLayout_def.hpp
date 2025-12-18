@@ -104,7 +104,7 @@ public:
   static ::UnityEngine::Rendering::Universal::ShadowResolutionRequest_AdditionalLightsShadowAtlasLayout_SettingsOptions const SoftShadow;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12794 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
@@ -133,16 +133,16 @@ public:
 
   __declspec(property(get = get_softShadow, put = set_softShadow)) bool softShadow;
 
-  /// @brief Method get_pointLightShadow, addr 0x6661180, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pointLightShadow, addr 0x66c8d0c, size 0xc, virtual false, abstract: false, final false
   inline bool get_pointLightShadow();
 
-  /// @brief Method get_softShadow, addr 0x6661174, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_softShadow, addr 0x66c8d00, size 0xc, virtual false, abstract: false, final false
   inline bool get_softShadow();
 
-  /// @brief Method set_pointLightShadow, addr 0x66610f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_pointLightShadow, addr 0x66c8c80, size 0x20, virtual false, abstract: false, final false
   inline void set_pointLightShadow(bool value);
 
-  /// @brief Method set_softShadow, addr 0x66610e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_softShadow, addr 0x66c8c70, size 0x10, virtual false, abstract: false, final false
   inline void set_softShadow(bool value);
 
   // Ctor Parameters []
@@ -158,7 +158,7 @@ public:
       ::UnityEngine::Rendering::Universal::ShadowResolutionRequest_AdditionalLightsShadowAtlasLayout_SettingsOptions m_ShadowProperties) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12795 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe };
@@ -221,11 +221,11 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout___c* New_ctor();
 
-  /// @brief Method <CreateCompareShadowResolutionRequesPredicate>b__24_0, addr 0x66612d0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method <CreateCompareShadowResolutionRequesPredicate>b__24_0, addr 0x66c8e5c, size 0x128, virtual false, abstract: false, final false
   inline int32_t _CreateCompareShadowResolutionRequesPredicate_b__24_0(::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest curr,
                                                                        ::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest other);
 
-  /// @brief Method .ctor, addr 0x66612cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66c8e58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout___c* getStaticF___9();
@@ -254,7 +254,7 @@ public:
   AdditionalLightsShadowAtlasLayout___c(AdditionalLightsShadowAtlasLayout___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12796 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -296,44 +296,44 @@ public:
   __declspec(property(get = getStaticF_s_VisibleLightIndexToCameraSquareDistance, put = setStaticF_s_VisibleLightIndexToCameraSquareDistance)) ::ArrayW<float_t, ::Array<float_t>*>
       s_VisibleLightIndexToCameraSquareDistance;
 
-  /// @brief Method ClearStaticCaches, addr 0x6661218, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ClearStaticCaches, addr 0x66c8da4, size 0x60, virtual false, abstract: false, final false
   static inline void ClearStaticCaches();
 
-  /// @brief Method CreateCompareShadowResolutionRequesPredicate, addr 0x6661010, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CreateCompareShadowResolutionRequesPredicate, addr 0x66c8b9c, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Func_3<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest,
                                  ::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest, int32_t>*
   CreateCompareShadowResolutionRequesPredicate();
 
-  /// @brief Method EstimateScaleFactorNeededToFitAllShadowsInAtlas, addr 0x6661114, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method EstimateScaleFactorNeededToFitAllShadowsInAtlas, addr 0x66c8ca0, size 0x60, virtual false, abstract: false, final false
   static inline int32_t EstimateScaleFactorNeededToFitAllShadowsInAtlas(
       ::ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest>> shadowResolutionRequests, int32_t endIndex,
       int32_t atlasSize);
 
-  /// @brief Method GetAtlasSize, addr 0x66611ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAtlasSize, addr 0x66c8d38, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetAtlasSize();
 
-  /// @brief Method GetShadowSlicesScaleFactor, addr 0x66611a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetShadowSlicesScaleFactor, addr 0x66c8d30, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetShadowSlicesScaleFactor();
 
-  /// @brief Method GetSliceShadowResolutionRequest, addr 0x66611ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetSliceShadowResolutionRequest, addr 0x66c8d78, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest GetSliceShadowResolutionRequest(int32_t originalVisibleLightIndex, int32_t sliceIndex);
 
-  /// @brief Method GetSortedShadowResolutionRequest, addr 0x66611c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetSortedShadowResolutionRequest, addr 0x66c8d54, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout_ShadowResolutionRequest GetSortedShadowResolutionRequest(int32_t sortedShadowResolutionRequestIndex);
 
-  /// @brief Method GetTotalShadowResolutionRequestCount, addr 0x6661194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTotalShadowResolutionRequestCount, addr 0x66c8d20, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetTotalShadowResolutionRequestCount();
 
-  /// @brief Method GetTotalShadowSlicesCount, addr 0x666118c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTotalShadowSlicesCount, addr 0x66c8d18, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetTotalShadowSlicesCount();
 
-  /// @brief Method HasSpaceForLight, addr 0x66611b4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HasSpaceForLight, addr 0x66c8d40, size 0x14, virtual false, abstract: false, final false
   inline bool HasSpaceForLight(int32_t originalVisibleLightIndex);
 
-  /// @brief Method HasTooManyShadowMaps, addr 0x666119c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasTooManyShadowMaps, addr 0x66c8d28, size 0x8, virtual false, abstract: false, final false
   inline bool HasTooManyShadowMaps();
 
-  /// @brief Method .ctor, addr 0x66601c4, size 0xe4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66c7d50, size 0xe4c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData,
                     ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
@@ -381,7 +381,7 @@ public:
       bool m_TooManyShadowMaps, int32_t m_ShadowSlicesScaleFactor, int32_t m_AtlasSize) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12797 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

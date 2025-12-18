@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_RatingDefinitionUri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5bda0c4, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c40ba4, size 0x1d8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -87,7 +87,7 @@ public:
   ContentRating(ContentRating const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17988 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18002 };
 
   /// @brief Field AgeRatingImageUri, offset: 0x10, size: 0x8, def value: None
   ::StringW ___AgeRatingImageUri;

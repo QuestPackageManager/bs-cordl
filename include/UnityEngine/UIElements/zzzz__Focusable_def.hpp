@@ -68,19 +68,19 @@ public:
   /// @brief Field tabIndexProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_tabIndexProperty, put = setStaticF_tabIndexProperty)) ::UnityEngine::UIElements::BindingId tabIndexProperty;
 
-  /// @brief Method Blur, addr 0x6b73364, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Blur, addr 0x6bdc1e8, size 0x38, virtual true, abstract: false, final false
   inline void Blur();
 
-  /// @brief Method BlurImmediately, addr 0x6b733f4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method BlurImmediately, addr 0x6bdc278, size 0x38, virtual false, abstract: false, final false
   inline void BlurImmediately();
 
-  /// @brief Method Focus, addr 0x6b73138, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Focus, addr 0x6bdbfbc, size 0xac, virtual true, abstract: false, final false
   inline void Focus();
 
-  /// @brief Method GetFirstFocusableChild, addr 0x6b7342c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetFirstFocusableChild, addr 0x6bdc2b0, size 0x138, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Focusable* GetFirstFocusableChild(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetFocusDelegate, addr 0x6b731e4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetFocusDelegate, addr 0x6bdc068, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Focusable* GetFocusDelegate();
 
   static inline ::UnityEngine::UIElements::Focusable* New_ctor();
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TabIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6b72e04, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bdbc88, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_canGrabFocusProperty();
@@ -126,25 +126,25 @@ public:
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_tabIndexProperty();
 
-  /// @brief Method get_canGrabFocus, addr 0x6b73128, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_canGrabFocus, addr 0x6bdbfac, size 0x10, virtual true, abstract: false, final false
   inline bool get_canGrabFocus();
 
-  /// @brief Method get_delegatesFocus, addr 0x6b72f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_delegatesFocus, addr 0x6bdbe18, size 0x8, virtual false, abstract: false, final false
   inline bool get_delegatesFocus();
 
-  /// @brief Method get_excludeFromFocusRing, addr 0x6b7302c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_excludeFromFocusRing, addr 0x6bdbeb0, size 0x8, virtual false, abstract: false, final false
   inline bool get_excludeFromFocusRing();
 
   /// @brief Method get_focusController, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::FocusController* get_focusController();
 
-  /// @brief Method get_focusable, addr 0x6b72ef8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_focusable, addr 0x6bdbd7c, size 0x8, virtual true, abstract: false, final false
   inline bool get_focusable();
 
-  /// @brief Method get_isEligibleToReceiveFocusFromDisabledChild, addr 0x6b73118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEligibleToReceiveFocusFromDisabledChild, addr 0x6bdbf9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEligibleToReceiveFocusFromDisabledChild();
 
-  /// @brief Method get_tabIndex, addr 0x6b72f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tabIndex, addr 0x6bdbe10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_tabIndex();
 
   static inline void setStaticF_canGrabFocusProperty(::UnityEngine::UIElements::BindingId value);
@@ -155,19 +155,19 @@ public:
 
   static inline void setStaticF_tabIndexProperty(::UnityEngine::UIElements::BindingId value);
 
-  /// @brief Method set_delegatesFocus, addr 0x6b72f9c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_delegatesFocus, addr 0x6bdbe20, size 0x90, virtual false, abstract: false, final false
   inline void set_delegatesFocus(bool value);
 
-  /// @brief Method set_excludeFromFocusRing, addr 0x6b73034, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method set_excludeFromFocusRing, addr 0x6bdbeb8, size 0xe4, virtual false, abstract: false, final false
   inline void set_excludeFromFocusRing(bool value);
 
-  /// @brief Method set_focusable, addr 0x6b72f00, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method set_focusable, addr 0x6bdbd84, size 0x8c, virtual true, abstract: false, final false
   inline void set_focusable(bool value);
 
-  /// @brief Method set_isEligibleToReceiveFocusFromDisabledChild, addr 0x6b73120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isEligibleToReceiveFocusFromDisabledChild, addr 0x6bdbfa4, size 0x8, virtual false, abstract: false, final false
   inline void set_isEligibleToReceiveFocusFromDisabledChild(bool value);
 
-  /// @brief Method set_tabIndex, addr 0x6b72e68, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_tabIndex, addr 0x6bdbcec, size 0x90, virtual false, abstract: false, final false
   inline void set_tabIndex(int32_t value);
 
 protected:

@@ -32,16 +32,16 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::UIFoldout* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x65eaf50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6652adc, size 0xc, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetState, addr 0x65eaf48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetState, addr 0x6652ad4, size 0x8, virtual false, abstract: false, final false
   inline void SetState(bool state);
 
-  /// @brief Method SetState, addr 0x65eaf5c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method SetState, addr 0x6652ae8, size 0x1f8, virtual false, abstract: false, final false
   inline void SetState(bool state, bool rebuildLayout);
 
-  /// @brief Method Start, addr 0x65eae84, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x6652a10, size 0xc4, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_arrowClosed() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_content(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x65eb154, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6652ce0, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,7 +80,7 @@ public:
   UIFoldout(UIFoldout const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12523 };
 
   /// @brief Field content, offset: 0x128, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___content;

@@ -127,51 +127,51 @@ public:
   /// @brief Field serializeReadOnlyTypes, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get_serializeReadOnlyTypes, put = __cordl_internal_set_serializeReadOnlyTypes)) bool serializeReadOnlyTypes;
 
-  /// @brief Method GetDataContract, addr 0x5f2fdac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetDataContract, addr 0x5f97938, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetDataContract(::System::Runtime::Serialization::DataContract* declaredTypeContract, ::System::Type* declaredType,
                                                                                 ::System::Type* objectType);
 
-  /// @brief Method GetDeserializeType, addr 0x5f30254, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDeserializeType, addr 0x5f97de0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* GetDeserializeType();
 
-  /// @brief Method GetSerializeType, addr 0x5f3023c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetSerializeType, addr 0x5f97dc8, size 0x18, virtual true, abstract: false, final false
   inline ::System::Type* GetSerializeType(::System::Object* graph);
 
-  /// @brief Method GetSurrogatedType, addr 0x5f2f45c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetSurrogatedType, addr 0x5f96fe8, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Type* GetSurrogatedType(::System::Runtime::Serialization::IDataContractSurrogate* dataContractSurrogate, ::System::Type* type);
 
-  /// @brief Method Initialize, addr 0x5f2ef3c, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5f96ac8, size 0x458, virtual false, abstract: false, final false
   inline void Initialize(::System::Type* type, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* knownTypes, int32_t maxItemsInObjectGraph, bool ignoreExtensionDataObject,
                          bool preserveObjectReferences, ::System::Runtime::Serialization::IDataContractSurrogate* dataContractSurrogate,
                          ::System::Runtime::Serialization::DataContractResolver* dataContractResolver, bool serializeReadOnlyTypes);
 
-  /// @brief Method InternalIsStartObject, addr 0x5f30208, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method InternalIsStartObject, addr 0x5f97d94, size 0x34, virtual true, abstract: false, final false
   inline bool InternalIsStartObject(::System::Runtime::Serialization::XmlReaderDelegator* reader);
 
-  /// @brief Method InternalReadObject, addr 0x5f2fe98, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method InternalReadObject, addr 0x5f97a24, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* InternalReadObject(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, bool verifyObjectName);
 
-  /// @brief Method InternalReadObject, addr 0x5f2feac, size 0x35c, virtual true, abstract: false, final false
+  /// @brief Method InternalReadObject, addr 0x5f97a38, size 0x35c, virtual true, abstract: false, final false
   inline ::System::Object* InternalReadObject(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, bool verifyObjectName,
                                               ::System::Runtime::Serialization::DataContractResolver* dataContractResolver);
 
-  /// @brief Method InternalWriteEndObject, addr 0x5f2fe44, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method InternalWriteEndObject, addr 0x5f979d0, size 0x54, virtual true, abstract: false, final false
   inline void InternalWriteEndObject(::System::Runtime::Serialization::XmlWriterDelegator* writer);
 
-  /// @brief Method InternalWriteObject, addr 0x5f2f480, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method InternalWriteObject, addr 0x5f9700c, size 0x14, virtual true, abstract: false, final false
   inline void InternalWriteObject(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* graph);
 
-  /// @brief Method InternalWriteObject, addr 0x5f2f494, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method InternalWriteObject, addr 0x5f97020, size 0x64, virtual true, abstract: false, final false
   inline void InternalWriteObject(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* graph, ::System::Runtime::Serialization::DataContractResolver* dataContractResolver);
 
-  /// @brief Method InternalWriteObjectContent, addr 0x5f2fcf0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method InternalWriteObjectContent, addr 0x5f9787c, size 0x8, virtual true, abstract: false, final false
   inline void InternalWriteObjectContent(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* graph);
 
-  /// @brief Method InternalWriteObjectContent, addr 0x5f2f4f8, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method InternalWriteObjectContent, addr 0x5f97084, size 0x3f0, virtual false, abstract: false, final false
   inline void InternalWriteObjectContent(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* graph,
                                          ::System::Runtime::Serialization::DataContractResolver* dataContractResolver);
 
-  /// @brief Method InternalWriteStartObject, addr 0x5f2fcb8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method InternalWriteStartObject, addr 0x5f97844, size 0x38, virtual true, abstract: false, final false
   inline void InternalWriteStartObject(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* graph);
 
   static inline ::System::Runtime::Serialization::DataContractSerializer* New_ctor(::System::Type* type);
@@ -187,32 +187,32 @@ public:
                                                                                    ::System::Runtime::Serialization::IDataContractSurrogate* dataContractSurrogate,
                                                                                    ::System::Runtime::Serialization::DataContractResolver* dataContractResolver);
 
-  /// @brief Method ReadObject, addr 0x5f2fc3c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ReadObject, addr 0x5f977c8, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Object* ReadObject(::System::Xml::XmlDictionaryReader* reader, bool verifyObjectName);
 
-  /// @brief Method ReadObject, addr 0x5f2fbc0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ReadObject, addr 0x5f9774c, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Object* ReadObject(::System::Xml::XmlReader* reader, bool verifyObjectName);
 
-  /// @brief Method SurrogateToDataContractType, addr 0x5f2fcf8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SurrogateToDataContractType, addr 0x5f97884, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Object* SurrogateToDataContractType(::System::Runtime::Serialization::IDataContractSurrogate* dataContractSurrogate, ::System::Object* oldObj,
                                                               ::System::Type* surrogatedDeclaredType, ::ByRef<::System::Type*> objType);
 
-  /// @brief Method WriteEndObject, addr 0x5f2fb4c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method WriteEndObject, addr 0x5f976d8, size 0x74, virtual true, abstract: false, final false
   inline void WriteEndObject(::System::Xml::XmlDictionaryWriter* writer);
 
-  /// @brief Method WriteEndObject, addr 0x5f2f9e0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method WriteEndObject, addr 0x5f9756c, size 0x74, virtual true, abstract: false, final false
   inline void WriteEndObject(::System::Xml::XmlWriter* writer);
 
-  /// @brief Method WriteObjectContent, addr 0x5f2fad0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method WriteObjectContent, addr 0x5f9765c, size 0x7c, virtual true, abstract: false, final false
   inline void WriteObjectContent(::System::Xml::XmlDictionaryWriter* writer, ::System::Object* graph);
 
-  /// @brief Method WriteObjectContent, addr 0x5f2f964, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method WriteObjectContent, addr 0x5f974f0, size 0x7c, virtual true, abstract: false, final false
   inline void WriteObjectContent(::System::Xml::XmlWriter* writer, ::System::Object* graph);
 
-  /// @brief Method WriteStartObject, addr 0x5f2fa54, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method WriteStartObject, addr 0x5f975e0, size 0x7c, virtual true, abstract: false, final false
   inline void WriteStartObject(::System::Xml::XmlDictionaryWriter* writer, ::System::Object* graph);
 
-  /// @brief Method WriteStartObject, addr 0x5f2f8e8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method WriteStartObject, addr 0x5f97474, size 0x7c, virtual true, abstract: false, final false
   inline void WriteStartObject(::System::Xml::XmlWriter* writer, ::System::Object* graph);
 
   constexpr ::System::Runtime::Serialization::DataContractResolver* const& __cordl_internal_get_dataContractResolver() const;
@@ -293,43 +293,43 @@ public:
 
   constexpr void __cordl_internal_set_serializeReadOnlyTypes(bool value);
 
-  /// @brief Method .ctor, addr 0x5f2ee9c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f96a28, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x5f2eed0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f96a5c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* knownTypes);
 
-  /// @brief Method .ctor, addr 0x5f2ef00, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f96a8c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* knownTypes, int32_t maxItemsInObjectGraph, bool ignoreExtensionDataObject,
                     bool preserveObjectReferences, ::System::Runtime::Serialization::IDataContractSurrogate* dataContractSurrogate);
 
-  /// @brief Method .ctor, addr 0x5f2ef20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f96aac, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* knownTypes, int32_t maxItemsInObjectGraph, bool ignoreExtensionDataObject,
                     bool preserveObjectReferences, ::System::Runtime::Serialization::IDataContractSurrogate* dataContractSurrogate,
                     ::System::Runtime::Serialization::DataContractResolver* dataContractResolver);
 
-  /// @brief Method get_DataContractResolver, addr 0x5f2f3e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataContractResolver, addr 0x5f96f6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContractResolver* get_DataContractResolver();
 
-  /// @brief Method get_DataContractSurrogate, addr 0x5f2f3c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataContractSurrogate, addr 0x5f96f54, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::IDataContractSurrogate* get_DataContractSurrogate();
 
-  /// @brief Method get_IgnoreExtensionDataObject, addr 0x5f2f3d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreExtensionDataObject, addr 0x5f96f64, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreExtensionDataObject();
 
-  /// @brief Method get_KnownDataContracts, addr 0x5f2f394, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_KnownDataContracts, addr 0x5f96f20, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* get_KnownDataContracts();
 
-  /// @brief Method get_MaxItemsInObjectGraph, addr 0x5f2f3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxItemsInObjectGraph, addr 0x5f96f4c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxItemsInObjectGraph();
 
-  /// @brief Method get_PreserveObjectReferences, addr 0x5f2f3d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PreserveObjectReferences, addr 0x5f96f5c, size 0x8, virtual false, abstract: false, final false
   inline bool get_PreserveObjectReferences();
 
-  /// @brief Method get_RootContract, addr 0x5f2f3f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_RootContract, addr 0x5f96f7c, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* get_RootContract();
 
-  /// @brief Method get_SerializeReadOnlyTypes, addr 0x5f2f3e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializeReadOnlyTypes, addr 0x5f96f74, size 0x8, virtual false, abstract: false, final false
   inline bool get_SerializeReadOnlyTypes();
 
 protected:
@@ -347,7 +347,7 @@ public:
   DataContractSerializer(DataContractSerializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16978 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16992 };
 
   /// @brief Field rootType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___rootType;

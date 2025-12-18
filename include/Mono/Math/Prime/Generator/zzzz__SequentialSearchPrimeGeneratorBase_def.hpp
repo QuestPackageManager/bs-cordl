@@ -25,21 +25,21 @@ namespace Mono::Math::Prime::Generator {
 class CORDL_TYPE SequentialSearchPrimeGeneratorBase : public ::Mono::Math::Prime::Generator::PrimeGeneratorBase {
 public:
   // Declarations
-  /// @brief Method GenerateNewPrime, addr 0x589636c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GenerateNewPrime, addr 0x5918258, size 0x10, virtual true, abstract: false, final false
   inline ::Mono::Math::BigInteger* GenerateNewPrime(int32_t bits);
 
-  /// @brief Method GenerateNewPrime, addr 0x589637c, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method GenerateNewPrime, addr 0x5918268, size 0x2ec, virtual true, abstract: false, final false
   inline ::Mono::Math::BigInteger* GenerateNewPrime(int32_t bits, ::System::Object* context);
 
-  /// @brief Method GenerateSearchBase, addr 0x58962fc, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GenerateSearchBase, addr 0x59181e8, size 0x70, virtual true, abstract: false, final false
   inline ::Mono::Math::BigInteger* GenerateSearchBase(int32_t bits, ::System::Object* context);
 
-  /// @brief Method IsPrimeAcceptable, addr 0x5896668, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsPrimeAcceptable, addr 0x5918554, size 0x8, virtual true, abstract: false, final false
   inline bool IsPrimeAcceptable(::Mono::Math::BigInteger* bi, ::System::Object* context);
 
   static inline ::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5894fdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5916cec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   SequentialSearchPrimeGeneratorBase(SequentialSearchPrimeGeneratorBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19282 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2295 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerPlayerResultsData)
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
 class MultiplayerBadgeAwardData;
@@ -38,7 +38,7 @@ public:
   __declspec(property(get = __cordl_internal_get_badge, put = __cordl_internal_set_badge)) ::GlobalNamespace::MultiplayerBadgeAwardData* badge;
 
   /// @brief Field connectedPlayer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_connectedPlayer, put = __cordl_internal_set_connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
+  __declspec(property(get = __cordl_internal_get_connectedPlayer, put = __cordl_internal_set_connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer;
 
   /// @brief Field multiplayerLevelCompletionResults, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_multiplayerLevelCompletionResults,
@@ -47,19 +47,19 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x3614ecc, size 0x1dc, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x363fe1c, size 0x1dc, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
-  static inline ::GlobalNamespace::MultiplayerPlayerResultsData* New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer,
+  static inline ::GlobalNamespace::MultiplayerPlayerResultsData* New_ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer,
                                                                           ::GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults);
 
   constexpr ::GlobalNamespace::MultiplayerBadgeAwardData* const& __cordl_internal_get_badge() const;
 
   constexpr ::GlobalNamespace::MultiplayerBadgeAwardData*& __cordl_internal_get_badge();
 
-  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get_connectedPlayer() const;
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get_connectedPlayer() const;
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get_connectedPlayer();
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& __cordl_internal_get_connectedPlayer();
 
   constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults* const& __cordl_internal_get_multiplayerLevelCompletionResults() const;
 
@@ -67,12 +67,12 @@ public:
 
   constexpr void __cordl_internal_set_badge(::GlobalNamespace::MultiplayerBadgeAwardData* value);
 
-  constexpr void __cordl_internal_set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set_connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
   constexpr void __cordl_internal_set_multiplayerLevelCompletionResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value);
 
-  /// @brief Method .ctor, addr 0x3614ec4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults);
+  /// @brief Method .ctor, addr 0x363fe14, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer, ::GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults);
 
   /// @brief Convert to "::System::IComparable"
   constexpr ::System::IComparable* i___System__IComparable() noexcept;
@@ -92,10 +92,10 @@ public:
   MultiplayerPlayerResultsData(MultiplayerPlayerResultsData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15094 };
 
   /// @brief Field connectedPlayer, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::IConnectedPlayer* ___connectedPlayer;
+  ::GlobalNamespace::IBeatSaberConnectedPlayer* ___connectedPlayer;
 
   /// @brief Field multiplayerLevelCompletionResults, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLevelCompletionResults* ___multiplayerLevelCompletionResults;

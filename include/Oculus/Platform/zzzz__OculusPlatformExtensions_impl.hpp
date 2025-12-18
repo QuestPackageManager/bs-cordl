@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*> (*)(::Oculus::Platform::Request*)>(
     &::Oculus::Platform::OculusPlatformExtensions::GetAwaiter)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5bd8570;
+  constexpr static std::size_t addrs = 0x5c3f050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

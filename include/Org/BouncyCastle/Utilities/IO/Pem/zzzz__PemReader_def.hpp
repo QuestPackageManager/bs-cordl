@@ -30,12 +30,12 @@ public:
   /// @brief Field reader, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_reader, put = __cordl_internal_set_reader)) ::System::IO::TextReader* reader;
 
-  /// @brief Method LoadObject, addr 0x3480d10, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method LoadObject, addr 0x34ab554, size 0x3e0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* LoadObject(::StringW type);
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemReader* New_ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method ReadPemObject, addr 0x3480ba4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ReadPemObject, addr 0x34ab3e8, size 0x16c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* ReadPemObject();
 
   constexpr ::System::IO::TextReader* const& __cordl_internal_get_reader() const;
@@ -44,10 +44,10 @@ public:
 
   constexpr void __cordl_internal_set_reader(::System::IO::TextReader* value);
 
-  /// @brief Method .ctor, addr 0x3480b44, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34ab388, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method get_Reader, addr 0x3480b9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reader, addr 0x34ab3e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::TextReader* get_Reader();
 
 protected:

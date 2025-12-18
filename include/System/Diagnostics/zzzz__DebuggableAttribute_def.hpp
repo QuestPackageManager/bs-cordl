@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set_m_debuggingModes(::System::Diagnostics::DebuggableAttribute_DebuggingModes value);
 
-  /// @brief Method .ctor, addr 0x59ca12c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a30a78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Diagnostics::DebuggableAttribute_DebuggingModes modes);
 
 protected:

@@ -21,10 +21,10 @@ namespace UnityEngine::TextCore::Text {
 class CORDL_TYPE TextGenerationInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x69d8914, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6a41798, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create();
 
-  /// @brief Method Destroy, addr 0x69d893c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6a417c0, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr ptr);
 
 protected:
@@ -42,7 +42,7 @@ public:
   TextGenerationInfo(TextGenerationInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17224 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17238 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

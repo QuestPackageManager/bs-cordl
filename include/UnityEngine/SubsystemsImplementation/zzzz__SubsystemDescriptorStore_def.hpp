@@ -54,25 +54,25 @@ public:
   template <typename TBaseTypeInList, typename TQueryType>
   static inline void AddDescriptorSubset(::System::Collections::Generic::List_1<TBaseTypeInList>* copyFrom, ::System::Collections::Generic::List_1<TQueryType>* copyTo);
 
-  /// @brief Method ClearManagedDescriptors, addr 0x6984c1c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ClearManagedDescriptors, addr 0x69edaa0, size 0x190, virtual false, abstract: false, final false
   static inline void ClearManagedDescriptors();
 
   /// @brief Method GetSubsystemDescriptors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void GetSubsystemDescriptors(::System::Collections::Generic::List_1<T>* descriptors);
 
-  /// @brief Method InitializeManagedDescriptor, addr 0x6984b30, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method InitializeManagedDescriptor, addr 0x69ed9b4, size 0xec, virtual false, abstract: false, final false
   static inline void InitializeManagedDescriptor(::System::IntPtr ptr, ::UnityEngine::IntegratedSubsystemDescriptor* desc);
 
-  /// @brief Method RegisterDeprecatedDescriptor, addr 0x6984298, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RegisterDeprecatedDescriptor, addr 0x69ed11c, size 0x80, virtual false, abstract: false, final false
   static inline void RegisterDeprecatedDescriptor(::UnityEngine::SubsystemDescriptor* descriptor);
 
   /// @brief Method RegisterDescriptor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDescriptor, typename TBaseTypeInList> static inline void RegisterDescriptor(TDescriptor descriptor, ::System::Collections::Generic::List_1<TBaseTypeInList>* storeInList);
 
-  /// @brief Method ReportSingleSubsystemAnalytics, addr 0x6984dac, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ReportSingleSubsystemAnalytics, addr 0x69edc30, size 0x14c, virtual false, abstract: false, final false
   static inline void ReportSingleSubsystemAnalytics(::StringW id);
 
-  /// @brief Method ReportSingleSubsystemAnalytics_Injected, addr 0x6984ef8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReportSingleSubsystemAnalytics_Injected, addr 0x69edd7c, size 0x3c, virtual false, abstract: false, final false
   static inline void ReportSingleSubsystemAnalytics_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> id);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::SubsystemDescriptor*>* getStaticF_s_DeprecatedDescriptors();
@@ -102,7 +102,7 @@ public:
   SubsystemDescriptorStore(SubsystemDescriptorStore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22511 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22538 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

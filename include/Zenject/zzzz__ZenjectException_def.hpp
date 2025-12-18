@@ -26,10 +26,10 @@ public:
 
   static inline ::Zenject::ZenjectException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x6c69168, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd1fec, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x6c691d4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd2058, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
@@ -47,7 +47,7 @@ public:
   ZenjectException(ZenjectException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14688 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

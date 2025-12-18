@@ -30,7 +30,7 @@ public:
   constexpr UntypedUnsafeList(void* Ptr, int32_t m_length, int32_t m_capacity, ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator, int32_t padding) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15729 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15743 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

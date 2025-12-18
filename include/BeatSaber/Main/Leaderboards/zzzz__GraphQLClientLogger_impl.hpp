@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Main::Leaderboards::GraphQLClientLogger::*)(::StringW)>(
     &::BeatSaber::Main::Leaderboards::GraphQLClientLogger::LogError)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x319cb78;
+  constexpr static std::size_t addrs = 0x31cc9f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Main::Leaderboards::GraphQLClientLogger::*)(::System::Exception*)>(
     &::BeatSaber::Main::Leaderboards::GraphQLClientLogger::LogError)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x319cc04;
+  constexpr static std::size_t addrs = 0x31cca80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Main::Leaderboards::GraphQLClientLogger::*)(::StringW)>(
     &::BeatSaber::Main::Leaderboards::GraphQLClientLogger::LogInfo)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x319cc60;
+  constexpr static std::size_t addrs = 0x31ccadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Main::Leaderboards::GraphQLClientLogger::*)(::System::Exception*)>(
     &::BeatSaber::Main::Leaderboards::GraphQLClientLogger::LogInfo)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x319ccec;
+  constexpr static std::size_t addrs = 0x31ccb68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Main::Leaderboards::GraphQLClientLogger::*)(::StringW)>(
     &::BeatSaber::Main::Leaderboards::GraphQLClientLogger::LogVerbose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x319cd48;
+  constexpr static std::size_t addrs = 0x31ccbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Main::Leaderboards::GraphQLClientLogger::*)(::StringW)>(
     &::BeatSaber::Main::Leaderboards::GraphQLClientLogger::LogWarning)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x319cd4c;
+  constexpr static std::size_t addrs = 0x31ccbc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Main::Leaderboards::GraphQLClientLogger::*)(::OculusStudios::GraphQL::ClientInterface::Request*)>(
     &::BeatSaber::Main::Leaderboards::GraphQLClientLogger::OnRequestSucceeded)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x319cdd8;
+  constexpr static std::size_t addrs = 0x31ccc54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Main::Leaderboards::GraphQLClientLogger::*)(::OculusStudios::GraphQL::ClientInterface::Request*)>(
     &::BeatSaber::Main::Leaderboards::GraphQLClientLogger::OnRequestFailed)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x319cddc;
+  constexpr static std::size_t addrs = 0x31ccc58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Main::Leaderboards::GraphQLClientLogger::*)()>(
     &::BeatSaber::Main::Leaderboards::GraphQLClientLogger::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x319cde0;
+  constexpr static std::size_t addrs = 0x31ccc5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Main::Leaderboards::GraphQLClientLogger*>::get(),

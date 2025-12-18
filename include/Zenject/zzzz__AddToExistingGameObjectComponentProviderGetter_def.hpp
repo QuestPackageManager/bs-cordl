@@ -51,7 +51,7 @@ public:
   __declspec(property(get = __cordl_internal_get__gameObjectGetter,
                       put = __cordl_internal_set__gameObjectGetter)) ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* _gameObjectGetter;
 
-  /// @brief Method GetGameObject, addr 0x6c5052c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetGameObject, addr 0x6cb93b0, size 0x84, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> GetGameObject(::Zenject::InjectContext* context);
 
   static inline ::Zenject::AddToExistingGameObjectComponentProviderGetter* New_ctor(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter,
@@ -66,12 +66,12 @@ public:
 
   constexpr void __cordl_internal_set__gameObjectGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method .ctor, addr 0x6c504ec, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb9370, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter, ::Zenject::DiContainer* container, ::System::Type* componentType,
                     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArguments, ::System::Object* concreteIdentifier,
                     ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_ShouldToggleActive, addr 0x6c50524, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ShouldToggleActive, addr 0x6cb93a8, size 0x8, virtual true, abstract: false, final false
   inline bool get_ShouldToggleActive();
 
 protected:
@@ -89,7 +89,7 @@ public:
   AddToExistingGameObjectComponentProviderGetter(AddToExistingGameObjectComponentProviderGetter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14510 };
 
   /// @brief Field _gameObjectGetter, offset: 0x38, size: 0x8, def value: None
   ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* ____gameObjectGetter;

@@ -44,31 +44,31 @@ public:
 
   __declspec(property(get = get_staticShadowCaster)) bool staticShadowCaster;
 
-  /// @brief Method .ctor, addr 0x68f8b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69619d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasTree, addr 0x68f8b38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasTree, addr 0x69619bc, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasTree();
 
-  /// @brief Method get_isPartOfStaticBatch, addr 0x68f8b2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isPartOfStaticBatch, addr 0x69619b0, size 0xc, virtual false, abstract: false, final false
   inline bool get_isPartOfStaticBatch();
 
-  /// @brief Method get_lightProbeUsage, addr 0x68f8b14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_lightProbeUsage, addr 0x6961998, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::LightProbeUsage get_lightProbeUsage();
 
-  /// @brief Method get_lodMask, addr 0x68f8afc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_lodMask, addr 0x6961980, size 0xc, virtual false, abstract: false, final false
   inline uint8_t get_lodMask();
 
-  /// @brief Method get_motionVecGenMode, addr 0x68f8b20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_motionVecGenMode, addr 0x69619a4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::MotionVectorGenerationMode get_motionVecGenMode();
 
-  /// @brief Method get_shadowCastingMode, addr 0x68f8b08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_shadowCastingMode, addr 0x696198c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ShadowCastingMode get_shadowCastingMode();
 
-  /// @brief Method get_smallMeshCulling, addr 0x68f8b44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_smallMeshCulling, addr 0x69619c8, size 0xc, virtual false, abstract: false, final false
   inline bool get_smallMeshCulling();
 
-  /// @brief Method get_staticShadowCaster, addr 0x68f8af0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_staticShadowCaster, addr 0x6961974, size 0xc, virtual false, abstract: false, final false
   inline bool get_staticShadowCaster();
 
   // Ctor Parameters []
@@ -79,7 +79,7 @@ public:
   constexpr GPUDrivenPackedRendererData(uint32_t data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10862 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

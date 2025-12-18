@@ -29,18 +29,18 @@ public:
   __declspec(property(get = __cordl_internal_get__taskCompletionSource,
                       put = __cordl_internal_set__taskCompletionSource)) ::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* _taskCompletionSource;
 
-  /// @brief Method Complete, addr 0x580d458, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x5871134, size 0x58, virtual false, abstract: false, final false
   inline void Complete();
 
   static inline ::GlobalNamespace::CompletableViewController* New_ctor();
 
-  /// @brief Method ResetCompletion, addr 0x580d3e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ResetCompletion, addr 0x58710c0, size 0x74, virtual false, abstract: false, final false
   inline void ResetCompletion();
 
-  /// @brief Method WaitForCompletionAsync, addr 0x580d394, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletionAsync, addr 0x5871070, size 0x50, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WaitForCompletionAsync();
 
-  /// @brief Method __Activate, addr 0x580d4b0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method __Activate, addr 0x587118c, size 0xa0, virtual true, abstract: false, final false
   inline void __Activate(bool addedToHierarchy, bool screenSystemEnabling);
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* const& __cordl_internal_get__taskCompletionSource() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x580d550, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x587122c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   CompletableViewController(CompletableViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6453 };
 
   /// @brief Field _taskCompletionSource, offset: 0x78, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* ____taskCompletionSource;

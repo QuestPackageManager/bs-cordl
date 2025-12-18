@@ -98,7 +98,7 @@ public:
   static ::TMPro::TMP_Compatibility_AnchorPositions const TopRight;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15860 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -123,7 +123,7 @@ public:
   // Declarations
   using AnchorPositions = ::TMPro::TMP_Compatibility_AnchorPositions;
 
-  /// @brief Method ConvertTextAlignmentEnumValues, addr 0x672a7dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ConvertTextAlignmentEnumValues, addr 0x6792354, size 0x24, virtual false, abstract: false, final false
   static inline ::TMPro::TextAlignmentOptions ConvertTextAlignmentEnumValues(::TMPro::TextAlignmentOptions oldValue);
 
 protected:
@@ -141,7 +141,7 @@ public:
   TMP_Compatibility(TMP_Compatibility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15861 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

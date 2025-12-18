@@ -140,7 +140,7 @@ public:
   static ::BeatSaber::Init::GameVersion_PreReleasePrefix const ReleaseCandidate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22387 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -172,28 +172,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::BeatSaber::Init::GameVersion_Content>"
   constexpr operator ::System::IEquatable_1<::BeatSaber::Init::GameVersion_Content>*();
 
-  /// @brief Method CompareTo, addr 0x3195700, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x31c557c, size 0x40, virtual true, abstract: false, final true
   inline int32_t CompareTo(::BeatSaber::Init::GameVersion_Content other);
 
-  /// @brief Method Equals, addr 0x3196478, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x31c62f4, size 0x94, virtual true, abstract: false, final true
   inline bool Equals(::BeatSaber::Init::GameVersion_Content other);
 
-  /// @brief Method Parse, addr 0x3195380, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x31c51fc, size 0x7c, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::GameVersion_Content Parse(::StringW versionCode);
 
-  /// @brief Method Parse, addr 0x3196044, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x31c5ec0, size 0x324, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::GameVersion_Content Parse(::StringW versionCore, ::StringW pattern);
 
-  /// @brief Method ParseOnStartOf, addr 0x3196368, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ParseOnStartOf, addr 0x31c61e4, size 0x7c, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::GameVersion_Content ParseOnStartOf(::StringW versionCode);
 
-  /// @brief Method ReadFromApplicationVersion, addr 0x31963e4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ReadFromApplicationVersion, addr 0x31c6260, size 0x94, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::GameVersion_Content ReadFromApplicationVersion();
 
-  /// @brief Method ToString, addr 0x31959a4, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x31c5820, size 0xd8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3196038, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31c5eb4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t major, uint32_t minor, uint32_t patch);
 
   static inline ::BeatSaber::Init::GameVersion_Content getStaticF_kZero();
@@ -215,7 +215,7 @@ public:
   constexpr GameVersion_Content(uint32_t major, uint32_t minor, uint32_t patch) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22388 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -268,10 +268,10 @@ public:
 
   static inline ::BeatSaber::Init::PreReleaseLabel_GameVersion___c* New_ctor();
 
-  /// @brief Method <.cctor>b__16_0, addr 0x31970d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__16_0, addr 0x31c6f54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__16_0(::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW> el);
 
-  /// @brief Method .ctor, addr 0x31970d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31c6f50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BeatSaber::Init::PreReleaseLabel_GameVersion___c* getStaticF___9();
@@ -293,7 +293,7 @@ public:
   PreReleaseLabel_GameVersion___c(PreReleaseLabel_GameVersion___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22389 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -313,7 +313,7 @@ public:
 
   static inline ::BeatSaber::Init::PreReleaseLabel_GameVersion___c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <Parse>b__0, addr 0x31970e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <Parse>b__0, addr 0x31c6f5c, size 0x2c, virtual false, abstract: false, final false
   inline bool _Parse_b__0(::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW> tuple);
 
   constexpr ::System::Text::RegularExpressions::Group* const& __cordl_internal_get_preReleasePrefixGroup() const;
@@ -322,7 +322,7 @@ public:
 
   constexpr void __cordl_internal_set_preReleasePrefixGroup(::System::Text::RegularExpressions::Group* value);
 
-  /// @brief Method .ctor, addr 0x31969f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31c686c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -340,7 +340,7 @@ public:
   PreReleaseLabel_GameVersion___c__DisplayClass10_0(PreReleaseLabel_GameVersion___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22390 };
 
   /// @brief Field preReleasePrefixGroup, offset: 0x10, size: 0x8, def value: None
   ::System::Text::RegularExpressions::Group* ___preReleasePrefixGroup;
@@ -365,7 +365,7 @@ public:
 
   static inline ::BeatSaber::Init::PreReleaseLabel_GameVersion___c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <GetPrefixText>b__0, addr 0x319710c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <GetPrefixText>b__0, addr 0x31c6f88, size 0x10, virtual false, abstract: false, final false
   inline bool _GetPrefixText_b__0(::System::ValueTuple_2<::BeatSaber::Init::GameVersion_PreReleasePrefix, ::StringW> tuple);
 
   constexpr ::BeatSaber::Init::GameVersion_PreReleasePrefix const& __cordl_internal_get_currentPreReleasePrefix() const;
@@ -374,7 +374,7 @@ public:
 
   constexpr void __cordl_internal_set_currentPreReleasePrefix(::BeatSaber::Init::GameVersion_PreReleasePrefix value);
 
-  /// @brief Method .ctor, addr 0x3196b38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31c69b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -392,7 +392,7 @@ public:
   PreReleaseLabel_GameVersion___c__DisplayClass11_0(PreReleaseLabel_GameVersion___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22391 };
 
   /// @brief Field currentPreReleasePrefix, offset: 0x10, size: 0x4, def value: None
   ::BeatSaber::Init::GameVersion_PreReleasePrefix ___currentPreReleasePrefix;
@@ -438,25 +438,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::BeatSaber::Init::GameVersion_PreReleaseLabel>"
   constexpr operator ::System::IEquatable_1<::BeatSaber::Init::GameVersion_PreReleaseLabel>*();
 
-  /// @brief Method CompareTo, addr 0x3196bb0, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x31c6a2c, size 0x2c, virtual true, abstract: false, final true
   inline int32_t CompareTo(::BeatSaber::Init::GameVersion_PreReleaseLabel other);
 
-  /// @brief Method Equals, addr 0x3196bdc, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x31c6a58, size 0x94, virtual true, abstract: false, final true
   inline bool Equals(::BeatSaber::Init::GameVersion_PreReleaseLabel other);
 
-  /// @brief Method FirstLetterToUpper, addr 0x31965d0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method FirstLetterToUpper, addr 0x31c644c, size 0x118, virtual false, abstract: false, final false
   static inline ::StringW FirstLetterToUpper(::ByRef<::StringW> value);
 
-  /// @brief Method GetPrefixText, addr 0x31969f4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetPrefixText, addr 0x31c6870, size 0x144, virtual false, abstract: false, final false
   inline ::StringW GetPrefixText();
 
-  /// @brief Method Parse, addr 0x31966e8, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x31c6564, size 0x308, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::GameVersion_PreReleaseLabel Parse(::StringW releaseLabel);
 
-  /// @brief Method ToString, addr 0x3196b3c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x31c69b8, size 0x74, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x319655c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31c63d8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Init::GameVersion_PreReleasePrefix prefix, ::StringW label);
 
   static inline ::BeatSaber::Init::GameVersion_PreReleaseLabel getStaticF_kDefault();
@@ -490,7 +490,7 @@ public:
   constexpr GameVersion_PreReleaseLabel(::BeatSaber::Init::GameVersion_PreReleasePrefix prefix, ::StringW label) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22392 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -545,22 +545,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::BeatSaber::Init::GameVersion_BuildInfo>"
   constexpr operator ::System::IEquatable_1<::BeatSaber::Init::GameVersion_BuildInfo>*();
 
-  /// @brief Method CompareTo, addr 0x3197784, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x31c7600, size 0xc0, virtual true, abstract: false, final true
   inline int32_t CompareTo(::BeatSaber::Init::GameVersion_BuildInfo other);
 
-  /// @brief Method Equals, addr 0x3197938, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x31c77b4, size 0x84, virtual true, abstract: false, final true
   inline bool Equals(::BeatSaber::Init::GameVersion_BuildInfo other);
 
-  /// @brief Method ExtractNumberFromPlatformId, addr 0x31978dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ExtractNumberFromPlatformId, addr 0x31c7758, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW ExtractNumberFromPlatformId(::StringW inputPlatformId);
 
-  /// @brief Method Parse, addr 0x319750c, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x31c7388, size 0x278, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::GameVersion_BuildInfo Parse(::StringW buildMetadataValue);
 
-  /// @brief Method ToString, addr 0x31972d0, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x31c714c, size 0x168, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3195e04, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31c5c80, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Init::RuntimePlatformType platform, ::StringW platformId, uint64_t buildId);
 
   static inline ::StringW getStaticF_kBuildIdPattern();
@@ -598,7 +598,7 @@ public:
   constexpr GameVersion_BuildInfo(uint64_t buildId, ::BeatSaber::Init::RuntimePlatformType platform, ::StringW platformId, int32_t platformIdIntValue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22394 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -657,28 +657,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::BeatSaber::Init::GameVersion_Metadata>"
   constexpr operator ::System::IEquatable_1<::BeatSaber::Init::GameVersion_Metadata>*();
 
-  /// @brief Method BuildInfoText, addr 0x31971e8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method BuildInfoText, addr 0x31c7064, size 0xe8, virtual false, abstract: false, final false
   inline ::StringW BuildInfoText();
 
-  /// @brief Method CompareTo, addr 0x3195740, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x31c55bc, size 0x130, virtual true, abstract: false, final true
   inline int32_t CompareTo(::BeatSaber::Init::GameVersion_Metadata other);
 
-  /// @brief Method Equals, addr 0x3197844, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x31c76c0, size 0x94, virtual true, abstract: false, final true
   inline bool Equals(::BeatSaber::Init::GameVersion_Metadata other);
 
-  /// @brief Method ExtractSubStrings, addr 0x3197438, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ExtractSubStrings, addr 0x31c72b4, size 0xd4, virtual false, abstract: false, final false
   static inline void ExtractSubStrings(::StringW versionMetadata, ::ByRef<::StringW> preReleaseLabelString, ::ByRef<::StringW> buildInfoString);
 
-  /// @brief Method Parse, addr 0x31953fc, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x31c5278, size 0x1a4, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::GameVersion_Metadata Parse(::StringW versionMetadata);
 
-  /// @brief Method ToString, addr 0x3195a7c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x31c58f8, size 0xf0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x319711c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31c6f98, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<::BeatSaber::Init::GameVersion_BuildInfo> buildInfo);
 
-  /// @brief Method .ctor, addr 0x3195ec8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31c5d44, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Init::GameVersion_PreReleaseLabel preReleaseLabel, ::System::Nullable_1<::BeatSaber::Init::GameVersion_BuildInfo> buildInfo);
 
   static inline ::BeatSaber::Init::GameVersion_Metadata getStaticF_kDefault();
@@ -700,7 +700,7 @@ public:
   constexpr GameVersion_Metadata(::BeatSaber::Init::GameVersion_PreReleaseLabel preReleaseLabel, ::System::Nullable_1<::BeatSaber::Init::GameVersion_BuildInfo> buildInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22393 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -755,21 +755,21 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::BeatSaber::Init::GameVersion*>"
   constexpr operator ::System::IEquatable_1<::BeatSaber::Init::GameVersion*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x31955a0, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x31c541c, size 0x160, virtual true, abstract: false, final true
   inline int32_t CompareTo(::BeatSaber::Init::GameVersion* other);
 
-  /// @brief Method Equals, addr 0x3195870, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x31c56ec, size 0x18, virtual true, abstract: false, final true
   inline bool Equals(::BeatSaber::Init::GameVersion* other);
 
   static inline ::BeatSaber::Init::GameVersion* New_ctor(::BeatSaber::Init::GameVersion_Content content, ::System::Nullable_1<::BeatSaber::Init::GameVersion_Metadata> metadata);
 
-  /// @brief Method Parse, addr 0x3195138, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x31c4fb4, size 0x248, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::GameVersion* Parse(::StringW version);
 
-  /// @brief Method ToString, addr 0x3195888, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x31c5704, size 0x11c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdatePlatformId, addr 0x3195c14, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method UpdatePlatformId, addr 0x31c5a90, size 0x1f0, virtual false, abstract: false, final false
   inline ::BeatSaber::Init::GameVersion* UpdatePlatformId(::StringW newPlatformId);
 
   constexpr ::BeatSaber::Init::GameVersion_Content const& __cordl_internal_get_content() const;
@@ -784,12 +784,12 @@ public:
 
   constexpr void __cordl_internal_set_metadata(::System::Nullable_1<::BeatSaber::Init::GameVersion_Metadata> value);
 
-  /// @brief Method .ctor, addr 0x319511c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31c4f98, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Init::GameVersion_Content content, ::System::Nullable_1<::BeatSaber::Init::GameVersion_Metadata> metadata);
 
   static inline ::BeatSaber::Init::GameVersion* getStaticF_kZero();
 
-  /// @brief Method get_IsReleasable, addr 0x3195b6c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReleasable, addr 0x31c59e8, size 0xa8, virtual false, abstract: false, final false
   inline bool get_IsReleasable();
 
   /// @brief Convert to "::System::IComparable_1<::BeatSaber::Init::GameVersion*>"
@@ -815,7 +815,7 @@ public:
   GameVersion(GameVersion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22395 };
 
   /// @brief Field kNumericPattern offset 0xffffffff size 0x8
   static constexpr ::ConstString kNumericPattern{ u"0|[1-9]\\d*" };

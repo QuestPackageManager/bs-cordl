@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::ShaderUtils___c__DisplayClass2_0::*)()>(
     &::UnityEngine::Rendering::Universal::ShaderUtils___c__DisplayClass2_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x669ae54;
+  constexpr static std::size_t addrs = 0x67029e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::ShaderUtils___c__DisplayClass2_0::*)(::StringW)>(
     &::UnityEngine::Rendering::Universal::ShaderUtils___c__DisplayClass2_0::_GetEnumFromPath_b__0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x669b170;
+  constexpr static std::size_t addrs = 0x6702cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Rendering::Universal::ShaderPathID)>(
     &::UnityEngine::Rendering::Universal::ShaderUtils::GetShaderPath)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x669ab28;
+  constexpr static std::size_t addrs = 0x67026b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::ShaderPathID (*)(::StringW)>(
     &::UnityEngine::Rendering::Universal::ShaderUtils::GetEnumFromPath)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x669ad54;
+  constexpr static std::size_t addrs = 0x67028e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Shader*)>(&::UnityEngine::Rendering::Universal::ShaderUtils::IsLWShader)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x669ae58;
+  constexpr static std::size_t addrs = 0x67029e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::UnityEngine::Rendering::Universal::ShaderUtils::get_PersistentDeltaTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x669aeec;
+  constexpr static std::size_t addrs = 0x6702a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::ShaderUtils*>::get(),

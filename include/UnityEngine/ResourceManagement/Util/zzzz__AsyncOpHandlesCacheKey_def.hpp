@@ -47,16 +47,16 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept;
 
-  /// @brief Method Equals, addr 0x66f7578, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x675f104, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x66f75e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x675f174, size 0x8c, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey* other);
 
-  /// @brief Method Equals, addr 0x66f7674, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x675f200, size 0x70, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* other);
 
-  /// @brief Method GetHashCode, addr 0x66f755c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x675f0e8, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey*
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Handles(::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method .ctor, addr 0x66eeb50, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67566dc, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* handles);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
@@ -92,7 +92,7 @@ public:
   AsyncOpHandlesCacheKey(AsyncOpHandlesCacheKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18711 };
 
   /// @brief Field m_Handles, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* ___m_Handles;

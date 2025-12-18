@@ -343,7 +343,7 @@ public:
   static constexpr ::ConstString _SURFACE_TYPE_TRANSPARENT{ u"_SURFACE_TYPE_TRANSPARENT" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13019 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

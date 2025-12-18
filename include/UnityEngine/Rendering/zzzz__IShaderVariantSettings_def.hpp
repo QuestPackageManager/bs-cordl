@@ -32,7 +32,7 @@ public:
   /// @brief Method get_shaderVariantLogLevel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::ShaderVariantLogLevel get_shaderVariantLogLevel();
 
-  /// @brief Method get_stripDebugVariants, addr 0x655113c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_stripDebugVariants, addr 0x65b8cc8, size 0x8, virtual true, abstract: false, final false
   inline bool get_stripDebugVariants();
 
   /// @brief Method set_exportShaderVariants, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -41,7 +41,7 @@ public:
   /// @brief Method set_shaderVariantLogLevel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_shaderVariantLogLevel(::UnityEngine::Rendering::ShaderVariantLogLevel value);
 
-  /// @brief Method set_stripDebugVariants, addr 0x6551144, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_stripDebugVariants, addr 0x65b8cd0, size 0x4, virtual true, abstract: false, final false
   inline void set_stripDebugVariants(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IShaderVariantSettings", modifiers: "const&", def_value: None }]
@@ -49,7 +49,7 @@ public:
   IShaderVariantSettings(IShaderVariantSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12037 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

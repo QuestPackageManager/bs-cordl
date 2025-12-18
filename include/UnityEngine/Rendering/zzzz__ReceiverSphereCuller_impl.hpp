@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::ReceiverSphereCuller (*)(::Unity::Collections::Allocator)>(
     &::UnityEngine::Rendering::ReceiverSphereCuller::CreateEmptyForTesting)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x65f1cb4;
+  constexpr static std::size_t addrs = 0x6659840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ReceiverSphereCuller::*)(::Unity::Jobs::JobHandle)>(
     &::UnityEngine::Rendering::ReceiverSphereCuller::Dispose)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x65f1d58;
+  constexpr static std::size_t addrs = 0x66598e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ReceiverSphereCuller::*)()>(
     &::UnityEngine::Rendering::ReceiverSphereCuller::UseReceiverPlanes)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x65f1a04;
+  constexpr static std::size_t addrs = 0x6659590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ReceiverSphereCuller>::get(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::ReceiverSphereCuller (*)(
     ::ByRef<::UnityEngine::Rendering::BatchCullingContext>, ::Unity::Collections::Allocator)>(&::UnityEngine::Rendering::ReceiverSphereCuller::Create)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x65f1dbc;
+  constexpr static std::size_t addrs = 0x6659948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::Unity::Mathematics::float3, ::Unity::Mathematics::float3, float_t, ::UnityEngine::Plane)>(
     &::UnityEngine::Rendering::ReceiverSphereCuller::DistanceUntilCylinderFullyCrossesPlane)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x65f1fec;
+  constexpr static std::size_t addrs = 0x6659b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<uint32_t (*)(::Unity::Collections::NativeArray_1<::UnityEngine::Plane>, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo>,
                              ::Unity::Mathematics::float3x3, ::ByRef<::UnityEngine::Rendering::AABB>)>(&::UnityEngine::Rendering::ReceiverSphereCuller::ComputeSplitVisibilityMask)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x65f2118;
+  constexpr static std::size_t addrs = 0x6659ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

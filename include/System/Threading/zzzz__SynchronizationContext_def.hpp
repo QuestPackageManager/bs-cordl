@@ -32,36 +32,36 @@ public:
   /// @brief Field _props, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__props, put = __cordl_internal_set__props)) ::System::Threading::SynchronizationContextProperties _props;
 
-  /// @brief Method CreateCopy, addr 0x5a9b798, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method CreateCopy, addr 0x5b020e4, size 0x44, virtual true, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* CreateCopy();
 
-  /// @brief Method GetThreadLocalContext, addr 0x5a9b674, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetThreadLocalContext, addr 0x5b01fc0, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Threading::SynchronizationContext* GetThreadLocalContext();
 
-  /// @brief Method IsWaitNotificationRequired, addr 0x5a9b498, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsWaitNotificationRequired, addr 0x5b01de4, size 0xc, virtual false, abstract: false, final false
   inline bool IsWaitNotificationRequired();
 
   static inline ::System::Threading::SynchronizationContext* New_ctor();
 
-  /// @brief Method OperationCompleted, addr 0x5a9b55c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OperationCompleted, addr 0x5b01ea8, size 0x4, virtual true, abstract: false, final false
   inline void OperationCompleted();
 
-  /// @brief Method OperationStarted, addr 0x5a9b558, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OperationStarted, addr 0x5b01ea4, size 0x4, virtual true, abstract: false, final false
   inline void OperationStarted();
 
-  /// @brief Method Post, addr 0x5a9b4c8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Post, addr 0x5b01e14, size 0x90, virtual true, abstract: false, final false
   inline void Post(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
-  /// @brief Method Send, addr 0x5a9b4a4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Send, addr 0x5b01df0, size 0x24, virtual true, abstract: false, final false
   inline void Send(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
-  /// @brief Method SetSynchronizationContext, addr 0x5a9b64c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetSynchronizationContext, addr 0x5b01f98, size 0x28, virtual false, abstract: false, final false
   static inline void SetSynchronizationContext(::System::Threading::SynchronizationContext* syncContext);
 
-  /// @brief Method Wait, addr 0x5a9b560, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Wait, addr 0x5b01eac, size 0x60, virtual true, abstract: false, final false
   inline int32_t Wait(::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> waitHandles, bool waitAll, int32_t millisecondsTimeout);
 
-  /// @brief Method WaitHelper, addr 0x5a9b5c0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method WaitHelper, addr 0x5b01f0c, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t WaitHelper(::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> waitHandles, bool waitAll, int32_t millisecondsTimeout);
 
   constexpr ::System::Threading::SynchronizationContextProperties const& __cordl_internal_get__props() const;
@@ -70,16 +70,16 @@ public:
 
   constexpr void __cordl_internal_set__props(::System::Threading::SynchronizationContextProperties value);
 
-  /// @brief Method .ctor, addr 0x5a9b494, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b01de0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Current, addr 0x5a92eec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x5af9838, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Threading::SynchronizationContext* get_Current();
 
-  /// @brief Method get_CurrentExplicit, addr 0x5a9b7dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentExplicit, addr 0x5b02128, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Threading::SynchronizationContext* get_CurrentExplicit();
 
-  /// @brief Method get_CurrentNoFlow, addr 0x5a9b6c4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentNoFlow, addr 0x5b02010, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Threading::SynchronizationContext* get_CurrentNoFlow();
 
 protected:

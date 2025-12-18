@@ -62,7 +62,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x619b048, size 0x170, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x6202bd4, size 0x170, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* item1, ::System::Object* item2);
 
   static inline ::System::ComponentModel::CultureInfoConverter_CultureComparer* New_ctor(::System::ComponentModel::CultureInfoConverter* cultureConverter);
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__converter(::System::ComponentModel::CultureInfoConverter* value);
 
-  /// @brief Method .ctor, addr 0x619b02c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6202bb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::CultureInfoConverter* cultureConverter);
 
   /// @brief Convert to "::System::Collections::IComparer"
@@ -94,7 +94,7 @@ public:
   CultureInfoConverter_CultureComparer(CultureInfoConverter_CultureComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11224 };
 
   /// @brief Field _converter, offset: 0x10, size: 0x8, def value: None
   ::System::ComponentModel::CultureInfoConverter* ____converter;
@@ -117,10 +117,10 @@ public:
   /// @brief Field s_cultureInfoNameMap, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_cultureInfoNameMap, put = setStaticF_s_cultureInfoNameMap)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_cultureInfoNameMap;
 
-  /// @brief Method CreateMap, addr 0x619b1b8, size 0x5a8c, virtual false, abstract: false, final false
+  /// @brief Method CreateMap, addr 0x6202d44, size 0x5a8c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* CreateMap();
 
-  /// @brief Method GetCultureInfoName, addr 0x619a938, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetCultureInfoName, addr 0x62024c4, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW GetCultureInfoName(::StringW cultureInfoDisplayName);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_cultureInfoNameMap();
@@ -142,7 +142,7 @@ public:
   CultureInfoConverter_CultureInfoMapper(CultureInfoConverter_CultureInfoMapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11225 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -166,29 +166,29 @@ public:
   /// @brief Field _values, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::System::ComponentModel::TypeConverter_StandardValuesCollection* _values;
 
-  /// @brief Method CanConvertFrom, addr 0x6199f40, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x6201acc, size 0x80, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x6199fc0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x6201b4c, size 0xa4, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x619a064, size 0x8d4, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x6201bf0, size 0x8d4, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x619a9e0, size 0x464, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x620256c, size 0x464, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetCultureName, addr 0x6199f20, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetCultureName, addr 0x6201aac, size 0x20, virtual true, abstract: false, final false
   inline ::StringW GetCultureName(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method GetStandardValues, addr 0x619ae44, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValues, addr 0x62029d0, size 0x1e8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesExclusive, addr 0x619b034, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesExclusive, addr 0x6202bc0, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesSupported, addr 0x619b03c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesSupported, addr 0x6202bc8, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::ComponentModel::CultureInfoConverter* New_ctor();
@@ -199,10 +199,10 @@ public:
 
   constexpr void __cordl_internal_set__values(::System::ComponentModel::TypeConverter_StandardValuesCollection* value);
 
-  /// @brief Method .ctor, addr 0x619b044, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6202bd0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DefaultCultureString, addr 0x6199edc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultCultureString, addr 0x6201a68, size 0x44, virtual false, abstract: false, final false
   inline ::StringW get_DefaultCultureString();
 
 protected:
@@ -223,7 +223,7 @@ public:
   static constexpr ::ConstString DefaultInvariantCultureString{ u"(Default)" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11226 };
 
   /// @brief Field _values, offset: 0x10, size: 0x8, def value: None
   ::System::ComponentModel::TypeConverter_StandardValuesCollection* ____values;

@@ -23,7 +23,7 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::CertificateStatus* New_ctor();
 
-  /// @brief Method .ctor, addr 0x344f230, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3479a74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Ocsp::CertificateStatus* getStaticF_Good();

@@ -55,7 +55,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x65f73cc, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x665ef58, size 0xf4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::Rendering::DebugRendererBatcherStats* New_ctor();
@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set_overrideOcclusionTestToAlwaysPass(bool value);
 
-  /// @brief Method .ctor, addr 0x65f72fc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x665ee88, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -123,7 +123,7 @@ public:
   DebugRendererBatcherStats(DebugRendererBatcherStats const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17580 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17594 };
 
   /// @brief Field enabled, offset: 0x10, size: 0x1, def value: None
   bool ___enabled;

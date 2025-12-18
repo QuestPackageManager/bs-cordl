@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_activeColorTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x5d31cd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d99864, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   ScreenDisplacementEffectGrabPass_PassData(ScreenDisplacementEffectGrabPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20781 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20806 };
 
   /// @brief Field activeColorTexture, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___activeColorTexture;
@@ -102,15 +102,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5d313cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5d98f4c, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::ScreenDisplacementEffectGrabPass* New_ctor(::UnityEngine::Shader* blitShader);
 
-  /// @brief Method RecordRenderGraph, addr 0x5d31508, size 0x618, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x5d99094, size 0x618, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method Render, addr 0x5d31b20, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x5d996ac, size 0x1b8, virtual false, abstract: false, final false
   inline void Render(::GlobalNamespace::ScreenDisplacementEffectGrabPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__blitMaterial() const;
@@ -119,7 +119,7 @@ public:
 
   constexpr void __cordl_internal_set__blitMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x5d31190, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d98d10, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Shader* blitShader);
 
   /// @brief Convert to "::System::IDisposable"
@@ -140,7 +140,7 @@ public:
   ScreenDisplacementEffectGrabPass(ScreenDisplacementEffectGrabPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20782 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20807 };
 
   /// @brief Field _blitMaterial, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____blitMaterial;

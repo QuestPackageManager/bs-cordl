@@ -46,7 +46,7 @@ public:
   /// @brief Method AllocateEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::GlobalNamespace::OVRNativeList_1<T> AllocateEmpty(::Unity::Collections::Allocator allocator);
 
-  /// @brief Method .ctor, addr 0x5cefee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d569c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<int32_t> count);
 
   // Ctor Parameters []
@@ -57,7 +57,7 @@ public:
   constexpr OVRNativeList_CapacityHelper(::System::Nullable_1<int32_t> _count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7923 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7927 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -108,7 +108,7 @@ public:
   OVRNativeList(OVRNativeList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7924 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7928 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

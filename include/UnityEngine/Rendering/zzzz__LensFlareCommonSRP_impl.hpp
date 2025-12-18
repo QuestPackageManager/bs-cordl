@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo::*)(
     int32_t, ::UnityEngine::Rendering::LensFlareComponentSRP*)>(&::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x657b768;
+  constexpr static std::size_t addrs = 0x65e32f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0::*)()>(
     &::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x657b764;
+  constexpr static std::size_t addrs = 0x65e32f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0::*)(
     ::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo*)>(&::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass50_0::_AddData_b__0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x65828a4;
+  constexpr static std::size_t addrs = 0x65ea430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0::*)()>(
     &::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x657b9b8;
+  constexpr static std::size_t addrs = 0x65e3544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0::*)(
     ::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo*)>(&::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass51_0::_RemoveData_b__0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6582920;
+  constexpr static std::size_t addrs = 0x65ea4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::LensFlareCommonSRP::*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x657ad80;
+  constexpr static std::size_t addrs = 0x65e290c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareCommonSRP*>::get(), ".ctor",
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::IsOcclusionRTCompatible)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x657ad84;
+  constexpr static std::size_t addrs = 0x65e2910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareCommonSRP*>::get(),
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)()>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::GetOcclusionRTFormat)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x657aea8;
+  constexpr static std::size_t addrs = 0x65e2a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareCommonSRP*>::get(),
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::Initialize)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x657af14;
+  constexpr static std::size_t addrs = 0x65e2aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareCommonSRP*>::get(),
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::Dispose)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x657b0fc;
+  constexpr static std::size_t addrs = 0x65e2c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareCommonSRP*>::get(), "Dispose",
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::LensFlareCommonSRP* (*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::get_Instance)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x657b1cc;
+  constexpr static std::size_t addrs = 0x65e2d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareCommonSRP*>::get(),
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Rendering::LensFlareCommonSRP_LensFlareCompInfo*>* (
     ::UnityEngine::Rendering::LensFlareCommonSRP::*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::get_Data)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x657b34c;
+  constexpr static std::size_t addrs = 0x65e2ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareCommonSRP*>::get(), "get_Data",
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::LensFlareCommonSRP::*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::IsEmpty)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x657b3a8;
+  constexpr static std::size_t addrs = 0x65e2f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareCommonSRP*>::get(), "IsEmpty",
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::LensFlareCommonSRP::*)()>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::GetNextAvailableIndex)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x657b440;
+  constexpr static std::size_t addrs = 0x65e2fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareCommonSRP*>::get(),
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::LensFlareCommonSRP::*)(::UnityEngine::Rendering::LensFlareComponentSRP*)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::AddData)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x657b580;
+  constexpr static std::size_t addrs = 0x65e310c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::LensFlareCommonSRP::*)(::UnityEngine::Rendering::LensFlareComponentSRP*)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::RemoveData)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x657b774;
+  constexpr static std::size_t addrs = 0x65e3300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuationPointLight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x657b9bc;
+  constexpr static std::size_t addrs = 0x65e3548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareCommonSRP*>::get(),
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuationDirLight)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x657b9c4;
+  constexpr static std::size_t addrs = 0x65e3550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, float_t)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuationSpotConeLight)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x657b9e4;
+  constexpr static std::size_t addrs = 0x65e3570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuationSpotBoxLight)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x657ba98;
+  constexpr static std::size_t addrs = 0x65e3624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuationSpotPyramidLight)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x657bac8;
+  constexpr static std::size_t addrs = 0x65e3654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -452,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, ::UnityEngine::Camera*)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuationAreaTubeLight)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x657bb74;
+  constexpr static std::size_t addrs = 0x65e3700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -469,7 +469,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuateForwardLight)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x657c09c;
+  constexpr static std::size_t addrs = 0x65e3c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -485,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuationAreaRectangleLight)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x657c0bc;
+  constexpr static std::size_t addrs = 0x65e3c48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -501,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::ShapeAttenuationAreaDiscLight)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x657c158;
+  constexpr static std::size_t addrs = 0x65e3ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::UnityEngine::Camera*, ::UnityEngine::Rendering::LensFlareComponentSRP*, ::UnityEngine::Rendering::LensFlareDataSRP*)>(&::UnityEngine::Rendering::LensFlareCommonSRP::IsLensFlareSRPHidden)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x657c1f4;
+  constexpr static std::size_t addrs = 0x65e3d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -535,7 +535,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, float_t, float_t, ::UnityEngine::Vector2, bool)>(
         &::UnityEngine::Rendering::LensFlareCommonSRP::GetFlareData0)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x657c31c;
+  constexpr static std::size_t addrs = 0x65e3ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -555,7 +555,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, float_t, float_t, float_t, ::UnityEngine::Vector2)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::GetLensFlareRayOffset)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x657c534;
+  constexpr static std::size_t addrs = 0x65e40c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -572,7 +572,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Camera*, bool, bool, ::UnityEngine::Matrix4x4, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::WorldToViewport)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x657c568;
+  constexpr static std::size_t addrs = 0x65e40f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -589,7 +589,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(bool, ::UnityEngine::Matrix4x4, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::WorldToViewportLocal)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x657c6c0;
+  constexpr static std::size_t addrs = 0x65e424c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -606,7 +606,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Camera*, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::WorldToViewportDistance)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x657c73c;
+  constexpr static std::size_t addrs = 0x65e42c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -621,7 +621,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Camera*)>(&::UnityEngine::Rendering::LensFlareCommonSRP::IsCloudLayerOpacityNeeded)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x657c7fc;
+  constexpr static std::size_t addrs = 0x65e4388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -636,7 +636,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, bool, int32_t, ::UnityEngine::Texture*)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::SetOcclusionPermutation)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x657ca44;
+  constexpr static std::size_t addrs = 0x65e45d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -655,7 +655,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::UnityEngine::Vector3, ::UnityEngine::Matrix4x4, ::UnityEngine::Rendering::UnsafeCommandBuffer*, bool, bool, ::UnityEngine::Texture*, ::UnityEngine::Texture*, int32_t,
                          int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::ComputeOcclusion)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x657cb6c;
+  constexpr static std::size_t addrs = 0x65e46f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -699,7 +699,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::UnityEngine::Vector3, ::UnityEngine::Matrix4x4, ::UnityEngine::Rendering::UnsafeCommandBuffer*, bool, bool, ::UnityEngine::Texture*, ::UnityEngine::Texture*)>(
         &::UnityEngine::Rendering::LensFlareCommonSRP::ComputeOcclusion)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x657ce00;
+  constexpr static std::size_t addrs = 0x65e498c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -725,7 +725,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::UnityEngine::Vector3, ::UnityEngine::Matrix4x4, ::UnityEngine::Rendering::CommandBuffer*, bool, bool, ::UnityEngine::Texture*, ::UnityEngine::Texture*, int32_t, int32_t,
                          int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::ComputeOcclusion)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x657ccc4;
+  constexpr static std::size_t addrs = 0x65e4850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -767,7 +767,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rendering::LensFlareDataElementSRP*)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::ForceSingleElement)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x657df44;
+  constexpr static std::size_t addrs = 0x65e5ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -784,7 +784,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::UnityEngine::Vector3, ::UnityEngine::Matrix4x4, ::UnityEngine::Rendering::CommandBuffer*, bool, bool, ::UnityEngine::Texture*, ::UnityEngine::Texture*)>(
         &::UnityEngine::Rendering::LensFlareCommonSRP::ComputeOcclusion)> {
   constexpr static std::size_t size = 0xfec;
-  constexpr static std::size_t addrs = 0x657cf58;
+  constexpr static std::size_t addrs = 0x65e4ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -809,7 +809,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::LensFlareDataElementSRP*, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Color, ::UnityEngine::Light*, float_t, float_t, ::UnityEngine::Material*,
     ::UnityEngine::Vector2, bool, ::UnityEngine::Vector2, ::UnityEngine::Vector4, bool, int32_t)>(&::UnityEngine::Rendering::LensFlareCommonSRP::ProcessLensFlareSRPElementsSingle)> {
   constexpr static std::size_t size = 0x1720;
-  constexpr static std::size_t addrs = 0x657e1b8;
+  constexpr static std::size_t addrs = 0x65e5d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -833,7 +833,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Light*, float_t, float_t, ::UnityEngine::Material*, ::UnityEngine::Vector2, bool, ::UnityEngine::Vector2, ::UnityEngine::Vector4, bool, int32_t)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::ProcessLensFlareSRPElements)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x657f8d8;
+  constexpr static std::size_t addrs = 0x65e7464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -859,7 +859,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RenderTargetIdentifier, ::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>*, int32_t, int32_t, int32_t,
     int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, bool)>(&::UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareDataDrivenCommon)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x657fca4;
+  constexpr static std::size_t addrs = 0x65e7830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -910,7 +910,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::UnityEngine::Rendering::RenderTargetIdentifier, ::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>*, bool)>(
         &::UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareDataDrivenCommon)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x657fe58;
+  constexpr static std::size_t addrs = 0x65e79e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -949,7 +949,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RenderTargetIdentifier, ::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>*, int32_t, int32_t, int32_t,
     int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, bool)>(&::UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareDataDrivenCommon)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x6580fe8;
+  constexpr static std::size_t addrs = 0x65e8b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1000,7 +1000,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::UnityEngine::Rendering::RenderTargetIdentifier, ::System::Func_4<::UnityW<::UnityEngine::Light>, ::UnityW<::UnityEngine::Camera>, ::UnityEngine::Vector3, float_t>*, bool)>(
         &::UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareDataDrivenCommon)> {
   constexpr static std::size_t size = 0xfbc;
-  constexpr static std::size_t addrs = 0x658002c;
+  constexpr static std::size_t addrs = 0x65e7bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1038,7 +1038,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4,
                          ::UnityEngine::Rendering::UnsafeCommandBuffer*, ::UnityEngine::Rendering::RTHandle*, bool)>(&::UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareScreenSpaceCommon)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x658119c;
+  constexpr static std::size_t addrs = 0x65e8d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1066,7 +1066,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RTHandle*, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, bool)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareScreenSpaceCommon)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x6581d7c;
+  constexpr static std::size_t addrs = 0x65e9908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1111,7 +1111,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::UnityEngine::Texture*, ::UnityEngine::Texture*, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4,
                          ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, bool)>(&::UnityEngine::Rendering::LensFlareCommonSRP::DoLensFlareScreenSpaceCommon)> {
   constexpr static std::size_t size = 0x990;
-  constexpr static std::size_t addrs = 0x65813ec;
+  constexpr static std::size_t addrs = 0x65e8f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1136,7 +1136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, float_t, float_t, float_t, float_t, float_t)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::DoPaniniProjection)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x657df7c;
+  constexpr static std::size_t addrs = 0x65e5b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1153,7 +1153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(float_t, float_t, float_t)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::CalcViewExtents)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6581fe8;
+  constexpr static std::size_t addrs = 0x65e9b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1169,7 +1169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(float_t, float_t, float_t, float_t)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::CalcCropExtents)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x658202c;
+  constexpr static std::size_t addrs = 0x65e9bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1185,7 +1185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, float_t)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::Panini_Generic_Inv)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x65820f4;
+  constexpr static std::size_t addrs = 0x65e9c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareCommonSRP*>::get(),
@@ -1201,7 +1201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::_ShapeAttenuationAreaTubeLight_g__Fpo_57_0)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x658284c;
+  constexpr static std::size_t addrs = 0x65ea3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1217,7 +1217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::_ShapeAttenuationAreaTubeLight_g__Fwt_57_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x658288c;
+  constexpr static std::size_t addrs = 0x65ea418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1233,7 +1233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::_ShapeAttenuationAreaTubeLight_g__DiffLineIntegral_57_2)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x657bda8;
+  constexpr static std::size_t addrs = 0x65e3934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1251,7 +1251,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::AnimationCurve*, ::ByRef<::UnityEngine::Rendering::LensFlareCommonSRP___c__DisplayClass74_0>)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::_ProcessLensFlareSRPElementsSingle_g__ComputeLocalSize_74_0)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x657fab0;
+  constexpr static std::size_t addrs = 0x65e763c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1270,7 +1270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(
     &::UnityEngine::Rendering::LensFlareCommonSRP::_ProcessLensFlareSRPElementsSingle_g__RandomRange_74_1)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x657fc64;
+  constexpr static std::size_t addrs = 0x65e77f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

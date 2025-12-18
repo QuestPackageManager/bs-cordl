@@ -45,19 +45,19 @@ public:
   /// @brief Field mPassword, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_mPassword, put = __cordl_internal_set_mPassword)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mPassword;
 
-  /// @brief Method CreateSrpKeyExchange, addr 0x334b118, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method CreateSrpKeyExchange, addr 0x337595c, size 0x90, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreateSrpKeyExchange(int32_t keyExchange);
 
-  /// @brief Method GetAuthentication, addr 0x334b0dc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAuthentication, addr 0x3375920, size 0x3c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsAuthentication* GetAuthentication();
 
-  /// @brief Method GetCipherSuites, addr 0x334aeb0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetCipherSuites, addr 0x33756f4, size 0x68, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetCipherSuites();
 
-  /// @brief Method GetClientExtensions, addr 0x334af18, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetClientExtensions, addr 0x337575c, size 0x34, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* GetClientExtensions();
 
-  /// @brief Method GetKeyExchange, addr 0x334b020, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method GetKeyExchange, addr 0x3375864, size 0xbc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* GetKeyExchange();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SrpTlsClient* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory,
@@ -69,7 +69,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SrpTlsClient* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method ProcessServerExtensions, addr 0x334af4c, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerExtensions, addr 0x3375790, size 0xd4, virtual true, abstract: false, final false
   inline void ProcessServerExtensions(::System::Collections::IDictionary* serverExtensions);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* const& __cordl_internal_get_mGroupVerifier() const;
@@ -90,17 +90,17 @@ public:
 
   constexpr void __cordl_internal_set_mPassword(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x334ad84, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33755c8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* groupVerifier,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method .ctor, addr 0x334ae20, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3375664, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method .ctor, addr 0x334ace0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3375524, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method get_RequireSrpServerExtension, addr 0x334aea8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequireSrpServerExtension, addr 0x33756ec, size 0x8, virtual true, abstract: false, final false
   inline bool get_RequireSrpServerExtension();
 
 protected:

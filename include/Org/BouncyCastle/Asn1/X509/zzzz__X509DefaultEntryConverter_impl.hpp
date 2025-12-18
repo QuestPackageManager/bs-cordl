@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::X509DefaultEntryConverter::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::StringW)>(
         &::Org::BouncyCastle::Asn1::X509::X509DefaultEntryConverter::GetConvertedValue)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x3545e98;
+  constexpr static std::size_t addrs = 0x35706dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509DefaultEntryConverter::*)()>(
     &::Org::BouncyCastle::Asn1::X509::X509DefaultEntryConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x354621c;
+  constexpr static std::size_t addrs = 0x3570a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

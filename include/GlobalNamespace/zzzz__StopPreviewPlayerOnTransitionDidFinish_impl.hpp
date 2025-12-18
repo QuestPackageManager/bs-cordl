@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StopPreviewPlayerOnTransitionDidFinish::*)()>(
     &::GlobalNamespace::StopPreviewPlayerOnTransitionDidFinish::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x56b00ec;
+  constexpr static std::size_t addrs = 0x5710da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StopPreviewPlayerOnTransitionDidFinish::*)()>(
     &::GlobalNamespace::StopPreviewPlayerOnTransitionDidFinish::OnDestroy)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x56b017c;
+  constexpr static std::size_t addrs = 0x5710e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*)>(
     &::GlobalNamespace::StopPreviewPlayerOnTransitionDidFinish::HandleTransitionDidFinish)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x56b0290;
+  constexpr static std::size_t addrs = 0x5710f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StopPreviewPlayerOnTransitionDidFinish::*)()>(
     &::GlobalNamespace::StopPreviewPlayerOnTransitionDidFinish::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x56b02a4;
+  constexpr static std::size_t addrs = 0x5710f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

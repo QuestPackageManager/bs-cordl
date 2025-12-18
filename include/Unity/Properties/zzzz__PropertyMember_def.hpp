@@ -46,25 +46,25 @@ public:
   /// @brief Convert operator to "::Unity::Properties::IMemberInfo"
   constexpr operator ::Unity::Properties::IMemberInfo*();
 
-  /// @brief Method GetCustomAttributes, addr 0x696da40, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetCustomAttributes, addr 0x69d68c4, size 0xc, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes();
 
-  /// @brief Method GetValue, addr 0x696d9f8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetValue, addr 0x69d687c, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* GetValue(::System::Object* obj);
 
-  /// @brief Method SetValue, addr 0x696da1c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method SetValue, addr 0x69d68a0, size 0x24, virtual true, abstract: false, final true
   inline void SetValue(::System::Object* obj, ::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x696d9d8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d685c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::PropertyInfo* propertyInfo);
 
-  /// @brief Method get_IsReadOnly, addr 0x696d988, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x69d680c, size 0x30, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x696d980, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Name, addr 0x69d6804, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_Name();
 
-  /// @brief Method get_ValueType, addr 0x696d9b8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_ValueType, addr 0x69d683c, size 0x20, virtual true, abstract: false, final true
   inline ::System::Type* get_ValueType();
 
   /// @brief Convert to "::Unity::Properties::IMemberInfo"
@@ -79,7 +79,7 @@ public:
   constexpr PropertyMember(::System::Reflection::PropertyInfo* m_PropertyInfo, ::StringW _Name_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19324 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19350 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

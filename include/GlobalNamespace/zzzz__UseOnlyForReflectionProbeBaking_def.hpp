@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE UseOnlyForReflectionProbeBaking : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Awake, addr 0x56f55d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5751fb4, size 0x24, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::UseOnlyForReflectionProbeBaking* New_ctor();
 
-  /// @brief Method .ctor, addr 0x56f55fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5751fd8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   UseOnlyForReflectionProbeBaking(UseOnlyForReflectionProbeBaking const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6628 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

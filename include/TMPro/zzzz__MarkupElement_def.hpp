@@ -32,37 +32,37 @@ public:
 
   __declspec(property(get = get_ValueStartIndex, put = set_ValueStartIndex)) int32_t ValueStartIndex;
 
-  /// @brief Method .ctor, addr 0x6786bcc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ee744, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(int32_t nameHashCode, int32_t startIndex, int32_t length);
 
-  /// @brief Method get_Attributes, addr 0x6786bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x67ee734, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::TMPro::MarkupAttribute, ::Array<::TMPro::MarkupAttribute>*> get_Attributes();
 
-  /// @brief Method get_NameHashCode, addr 0x6786a24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_NameHashCode, addr 0x67ee59c, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_NameHashCode();
 
-  /// @brief Method get_ValueHashCode, addr 0x6786acc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_ValueHashCode, addr 0x67ee644, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_ValueHashCode();
 
-  /// @brief Method get_ValueLength, addr 0x6786b6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_ValueLength, addr 0x67ee6e4, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_ValueLength();
 
-  /// @brief Method get_ValueStartIndex, addr 0x6786b1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_ValueStartIndex, addr 0x67ee694, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_ValueStartIndex();
 
-  /// @brief Method set_Attributes, addr 0x6786bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Attributes, addr 0x67ee73c, size 0x8, virtual false, abstract: false, final false
   inline void set_Attributes(::ArrayW<::TMPro::MarkupAttribute, ::Array<::TMPro::MarkupAttribute>*> value);
 
-  /// @brief Method set_NameHashCode, addr 0x6786a4c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_NameHashCode, addr 0x67ee5c4, size 0x80, virtual false, abstract: false, final false
   inline void set_NameHashCode(int32_t value);
 
-  /// @brief Method set_ValueHashCode, addr 0x6786af4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_ValueHashCode, addr 0x67ee66c, size 0x28, virtual false, abstract: false, final false
   inline void set_ValueHashCode(int32_t value);
 
-  /// @brief Method set_ValueLength, addr 0x6786b94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_ValueLength, addr 0x67ee70c, size 0x28, virtual false, abstract: false, final false
   inline void set_ValueLength(int32_t value);
 
-  /// @brief Method set_ValueStartIndex, addr 0x6786b44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_ValueStartIndex, addr 0x67ee6bc, size 0x28, virtual false, abstract: false, final false
   inline void set_ValueStartIndex(int32_t value);
 
   // Ctor Parameters []
@@ -73,7 +73,7 @@ public:
   constexpr MarkupElement(::ArrayW<::TMPro::MarkupAttribute, ::Array<::TMPro::MarkupAttribute>*> m_Attributes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15986 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

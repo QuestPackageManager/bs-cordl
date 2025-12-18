@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt64::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt64::Run)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5d9a924;
+  constexpr static std::size_t addrs = 0x5e024b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt64::*)()>(
     &::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt64::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d9a7a4;
+  constexpr static std::size_t addrs = 0x5e02330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

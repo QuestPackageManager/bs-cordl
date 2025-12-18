@@ -100,13 +100,13 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x35d1e0c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x35fc650, size 0xac, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method Copy, addr 0x35d1ecc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x35fc710, size 0x84, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorStyle* Copy();
 
-  /// @brief Method Lerp, addr 0x35d1944, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x35fc188, size 0x4c8, virtual false, abstract: false, final false
   inline void Lerp(::GlobalNamespace::IReadOnlyColorStyle* from, ::GlobalNamespace::IReadOnlyColorStyle* to, float_t t, ::GlobalNamespace::LerpMask mask);
 
   static inline ::GlobalNamespace::ColorStyle* New_ctor();
@@ -183,31 +183,31 @@ public:
 
   constexpr void __cordl_internal_set__useScriptableObjectGradientColors(bool value);
 
-  /// @brief Method .ctor, addr 0x35d1eb8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35fc6fc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x35d1750, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_color, addr 0x35fbf94, size 0x88, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_color0, addr 0x35d1804, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_color0, addr 0x35fc048, size 0x88, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_color0();
 
-  /// @brief Method get_color1, addr 0x35d1898, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_color1, addr 0x35fc0dc, size 0x88, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_color1();
 
-  /// @brief Method get_flipGradientColors, addr 0x35d193c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_flipGradientColors, addr 0x35fc180, size 0x8, virtual true, abstract: false, final true
   inline bool get_flipGradientColors();
 
-  /// @brief Method get_globalLightTintIntensity, addr 0x35d17e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_globalLightTintIntensity, addr 0x35fc028, size 0x8, virtual true, abstract: false, final true
   inline float_t get_globalLightTintIntensity();
 
-  /// @brief Method get_gradient, addr 0x35d17f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_gradient, addr 0x35fc038, size 0x8, virtual true, abstract: false, final true
   inline bool get_gradient();
 
-  /// @brief Method get_gradientDirection, addr 0x35d192c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_gradientDirection, addr 0x35fc170, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::GradientDirection get_gradientDirection();
 
-  /// @brief Method get_useScriptableObjectColor, addr 0x35d1740, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_useScriptableObjectColor, addr 0x35fbf84, size 0x8, virtual true, abstract: false, final true
   inline bool get_useScriptableObjectColor();
 
   /// @brief Convert to "::GlobalNamespace::IReadOnlyColorStyle"
@@ -216,25 +216,25 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_color, addr 0x35d17d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x35fc01c, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_color0, addr 0x35d188c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color0, addr 0x35fc0d0, size 0xc, virtual false, abstract: false, final false
   inline void set_color0(::UnityEngine::Color value);
 
-  /// @brief Method set_color1, addr 0x35d1920, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color1, addr 0x35fc164, size 0xc, virtual false, abstract: false, final false
   inline void set_color1(::UnityEngine::Color value);
 
-  /// @brief Method set_globalLightTintIntensity, addr 0x35d17ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_globalLightTintIntensity, addr 0x35fc030, size 0x8, virtual false, abstract: false, final false
   inline void set_globalLightTintIntensity(float_t value);
 
-  /// @brief Method set_gradient, addr 0x35d17fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gradient, addr 0x35fc040, size 0x8, virtual false, abstract: false, final false
   inline void set_gradient(bool value);
 
-  /// @brief Method set_gradientDirection, addr 0x35d1934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gradientDirection, addr 0x35fc178, size 0x8, virtual false, abstract: false, final false
   inline void set_gradientDirection(::GlobalNamespace::GradientDirection value);
 
-  /// @brief Method set_useScriptableObjectColor, addr 0x35d1748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useScriptableObjectColor, addr 0x35fbf8c, size 0x8, virtual false, abstract: false, final false
   inline void set_useScriptableObjectColor(bool value);
 
 protected:
@@ -252,7 +252,7 @@ public:
   ColorStyle(ColorStyle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22767 };
 
   /// @brief Field _useScriptableObjectColor, offset: 0x10, size: 0x1, def value: None
   bool ____useScriptableObjectColor;

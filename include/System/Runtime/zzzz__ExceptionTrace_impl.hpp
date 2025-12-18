@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::ExceptionTrace::*)(::StringW, ::System::Runtime::Diagnostics::EtwDiagnosticTrace*)>(
     &::System::Runtime::ExceptionTrace::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f692cc;
+  constexpr static std::size_t addrs = 0x5fd0e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ArgumentOutOfRangeException* (::System::Runtime::ExceptionTrace::*)(::StringW, ::System::Object*, ::StringW)>(&::System::Runtime::ExceptionTrace::ArgumentOutOfRange)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5f692d4;
+  constexpr static std::size_t addrs = 0x5fd0e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::ExceptionTrace::*)(::System::Exception*, ::System::Diagnostics::TraceEventType)>(
     &::System::Runtime::ExceptionTrace::TraceHandledException)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x5f69380;
+  constexpr static std::size_t addrs = 0x5fd0f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::ExceptionTrace::*)(::System::Exception*)>(
     &::System::Runtime::ExceptionTrace::BreakOnException)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f6a088;
+  constexpr static std::size_t addrs = 0x5fd1c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

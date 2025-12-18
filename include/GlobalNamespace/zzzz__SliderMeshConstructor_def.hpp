@@ -55,10 +55,10 @@ public:
   /// @brief Field reusableVerts, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_reusableVerts, put = __cordl_internal_set_reusableVerts)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> reusableVerts;
 
-  /// @brief Method CreateMeshIfNonExisting, addr 0x5766eec, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshIfNonExisting, addr 0x57cd708, size 0xbc, virtual false, abstract: false, final false
   inline void CreateMeshIfNonExisting();
 
-  /// @brief Method CreateSliderMesh, addr 0x5766fa8, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method CreateSliderMesh, addr 0x57cd7c4, size 0x1dc, virtual false, abstract: false, final false
   inline void CreateSliderMesh(::GlobalNamespace::VertexPath* path, float_t zDistanceBetweenNotes);
 
   /// @brief Method CreateSliderMeshInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -72,7 +72,7 @@ public:
 
   static inline ::GlobalNamespace::SliderMeshConstructor* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5766ee0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x57cd6fc, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
@@ -111,10 +111,10 @@ public:
 
   constexpr void __cordl_internal_set_reusableVerts(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method .ctor, addr 0x5767184, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57cd9a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x5766ed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x57cd6f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
 protected:

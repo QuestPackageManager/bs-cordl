@@ -58,7 +58,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x636deac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x63d5a38, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -103,13 +103,13 @@ public:
 
   constexpr void __cordl_internal_set_supportsImpulse(bool value);
 
-  /// @brief Method get_Type, addr 0x636e190, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x63d5d1c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_capabilities, addr 0x636dec8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_capabilities, addr 0x63d5a54, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities get_capabilities();
 
-  /// @brief Method get_typeStatic, addr 0x636e19c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x63d5d28, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -231,7 +231,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8815 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

@@ -64,19 +64,19 @@ public:
 
   static inline ::OVR::Input::UIButtonSquishHelper* New_ctor();
 
-  /// @brief Method OnPointerDown, addr 0x5c34a90, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method OnPointerDown, addr 0x5c9b570, size 0xc4, virtual true, abstract: false, final true
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerEnter, addr 0x5c349cc, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x5c9b4ac, size 0xc4, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x5c34b54, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x5c9b634, size 0xa4, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerUp, addr 0x5c34bf8, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method OnPointerUp, addr 0x5c9b6d8, size 0xa4, virtual true, abstract: false, final true
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method Start, addr 0x5c34954, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5c9b434, size 0x78, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__originalScale(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x5c34c9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c9b77c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -124,7 +124,7 @@ public:
   UIButtonSquishHelper(UIButtonSquishHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8525 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8529 };
 
   /// @brief Field _highlightAmount offset 0xffffffff size 0x4
   static constexpr float_t _highlightAmount{ static_cast<float_t>(1.05f) };

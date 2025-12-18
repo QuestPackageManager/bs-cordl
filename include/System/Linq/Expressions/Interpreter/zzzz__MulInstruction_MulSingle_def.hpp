@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MulInstruction_MulSingle* New_ctor();
 
-  /// @brief Method Run, addr 0x5d99330, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5e00ebc, size 0x10c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5d98cec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e00878, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   MulInstruction_MulSingle(MulInstruction_MulSingle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16449 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16463 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

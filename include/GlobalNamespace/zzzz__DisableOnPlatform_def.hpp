@@ -25,7 +25,7 @@ public:
   __declspec(property(get = __cordl_internal_get__disabledPlatforms, put = __cordl_internal_set__disabledPlatforms)) ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*>
       _disabledPlatforms;
 
-  /// @brief Method Awake, addr 0x563771c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x569c530, size 0x108, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::DisableOnPlatform* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__disabledPlatforms(::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> value);
 
-  /// @brief Method .ctor, addr 0x5637824, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x569c638, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   DisableOnPlatform(DisableOnPlatform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22792 };
 
   /// @brief Field _disabledPlatforms, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> ____disabledPlatforms;

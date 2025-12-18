@@ -235,7 +235,7 @@ public:
   LightCookieManager_ShaderProperty(LightCookieManager_ShaderProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12741 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -290,7 +290,7 @@ public:
   static ::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderFormat const Red;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12742 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -317,10 +317,10 @@ public:
 
   __declspec(property(get = get_isSquare)) bool isSquare;
 
-  /// @brief Method get_isPow2, addr 0x665b718, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_isPow2, addr 0x66c32a4, size 0x2c, virtual false, abstract: false, final false
   inline bool get_isPow2();
 
-  /// @brief Method get_isSquare, addr 0x665bfa4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isSquare, addr 0x66c3b30, size 0x10, virtual false, abstract: false, final false
   inline bool get_isSquare();
 
   // Ctor Parameters []
@@ -332,7 +332,7 @@ public:
   constexpr Settings_LightCookieManager_AtlasSettings(::UnityEngine::Vector2Int resolution, ::UnityEngine::Experimental::Rendering::GraphicsFormat format) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12743 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -362,7 +362,7 @@ public:
   // Declarations
   using AtlasSettings = ::UnityEngine::Rendering::Universal::Settings_LightCookieManager_AtlasSettings;
 
-  /// @brief Method Create, addr 0x665bf00, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x66c3a8c, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::LightCookieManager_Settings Create();
 
   // Ctor Parameters []
@@ -376,7 +376,7 @@ public:
                                         bool useStructuredBuffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12744 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -419,13 +419,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::LightCookieMapping_LightCookieManager___c* New_ctor();
 
-  /// @brief Method <.cctor>b__6_0, addr 0x665c12c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__6_0, addr 0x66c3cb8, size 0xcc, virtual false, abstract: false, final false
   inline int32_t __cctor_b__6_0(::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping a, ::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping b);
 
-  /// @brief Method <.cctor>b__6_1, addr 0x665c1f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__6_1, addr 0x66c3d84, size 0xc, virtual false, abstract: false, final false
   inline int32_t __cctor_b__6_1(::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping a, ::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping b);
 
-  /// @brief Method .ctor, addr 0x665c128, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66c3cb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::LightCookieMapping_LightCookieManager___c* getStaticF___9();
@@ -447,7 +447,7 @@ public:
   LightCookieMapping_LightCookieManager___c(LightCookieMapping_LightCookieManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12745 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -495,7 +495,7 @@ public:
   constexpr LightCookieManager_LightCookieMapping(uint16_t visibleLightIndex, uint16_t lightBufferIndex, ::UnityW<::UnityEngine::Light> light) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12746 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -566,7 +566,7 @@ public:
   constexpr LightCookieManager_WorkSlice_1(::ArrayW<T, ::Array<T>*> m_Data, int32_t m_Start, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12743 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12747 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -602,7 +602,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::LightCookieManager_WorkMemory* New_ctor();
 
-  /// @brief Method Resize, addr 0x665a07c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x66c1c08, size 0x120, virtual false, abstract: false, final false
   inline void Resize(int32_t size);
 
   constexpr ::ArrayW<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping, ::Array<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping>*> const&
@@ -620,7 +620,7 @@ public:
 
   constexpr void __cordl_internal_set_uvRects(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  /// @brief Method .ctor, addr 0x6659514, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66c10a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -638,7 +638,7 @@ public:
   LightCookieManager_WorkMemory(LightCookieManager_WorkMemory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12748 };
 
   /// @brief Field lightMappings, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping, ::Array<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping>*> ___lightMappings;
@@ -709,18 +709,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Clear, addr 0x6659e44, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x66c19d0, size 0x9c, virtual false, abstract: false, final false
   inline void Clear(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method Dispose, addr 0x6659694, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x66c1220, size 0x48, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData* New_ctor(int32_t size, bool useStructuredBuffer);
 
-  /// @brief Method Resize, addr 0x665b7f4, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x66c3380, size 0x218, virtual false, abstract: false, final false
   inline void Resize(int32_t size);
 
-  /// @brief Method Upload, addr 0x665ba0c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Upload, addr 0x66c3598, size 0x194, virtual false, abstract: false, final false
   inline void Upload(::UnityEngine::Rendering::CommandBuffer* cmd);
 
   constexpr bool const& __cordl_internal_get__isUploaded_k__BackingField() const;
@@ -783,28 +783,28 @@ public:
 
   constexpr void __cordl_internal_set_m_WorldToLightCpuData(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value);
 
-  /// @brief Method .ctor, addr 0x665963c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66c11c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t size, bool useStructuredBuffer);
 
-  /// @brief Method get_atlasUVRects, addr 0x665c214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlasUVRects, addr 0x66c3da0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> get_atlasUVRects();
 
-  /// @brief Method get_cookieEnableBits, addr 0x665c20c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cookieEnableBits, addr 0x66c3d98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ShaderBitArray get_cookieEnableBits();
 
-  /// @brief Method get_isUploaded, addr 0x665c224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isUploaded, addr 0x66c3db0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isUploaded();
 
-  /// @brief Method get_lightTypes, addr 0x665c21c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightTypes, addr 0x66c3da8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_lightTypes();
 
-  /// @brief Method get_worldToLights, addr 0x665c204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_worldToLights, addr 0x66c3d90, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> get_worldToLights();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_isUploaded, addr 0x665c22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isUploaded, addr 0x66c3db8, size 0x8, virtual false, abstract: false, final false
   inline void set_isUploaded(bool value);
 
 protected:
@@ -822,7 +822,7 @@ public:
   LightCookieManager_LightCookieShaderData(LightCookieManager_LightCookieShaderData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12749 };
 
   /// @brief Field m_Size, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Size;
@@ -942,72 +942,72 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AdjustUVRect, addr 0x665b538, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method AdjustUVRect, addr 0x66c30c4, size 0xbc, virtual false, abstract: false, final false
   inline void AdjustUVRect(::ByRef<::UnityEngine::Vector4> uvScaleOffset, ::UnityEngine::Texture* cookie, ::ByRef<::UnityEngine::Vector2> cookieSize);
 
-  /// @brief Method ApproximateCookieSizeDivisor, addr 0x665af9c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ApproximateCookieSizeDivisor, addr 0x66c2b28, size 0x2c, virtual false, abstract: false, final false
   inline int32_t ApproximateCookieSizeDivisor(float_t requestAtlasRatio);
 
-  /// @brief Method ComputeCookieRequestPixelCount, addr 0x665ae94, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ComputeCookieRequestPixelCount, addr 0x66c2a20, size 0x108, virtual false, abstract: false, final false
   inline uint32_t ComputeCookieRequestPixelCount(
       ::ByRef<::UnityEngine::Rendering::Universal::LightCookieManager_WorkSlice_1<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping>> validLightMappings);
 
-  /// @brief Method ComputeOctahedralCookieSize, addr 0x665b5f4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ComputeOctahedralCookieSize, addr 0x66c3180, size 0x124, virtual false, abstract: false, final false
   inline int32_t ComputeOctahedralCookieSize(::UnityEngine::Texture* cookie);
 
-  /// @brief Method Dispose, addr 0x6659664, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x66c11f0, size 0x30, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Fetch2D, addr 0x665b3d0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Fetch2D, addr 0x66c2f5c, size 0x168, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 Fetch2D(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Texture* cookie, int32_t cookieSizeDivisor);
 
-  /// @brief Method FetchCube, addr 0x665b260, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method FetchCube, addr 0x66c2dec, size 0x170, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 FetchCube(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Texture* cookie, int32_t cookieSizeDivisor);
 
-  /// @brief Method FetchUVRects, addr 0x665afc8, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method FetchUVRects, addr 0x66c2b54, size 0x298, virtual false, abstract: false, final false
   inline int32_t
   FetchUVRects(::UnityEngine::Rendering::CommandBuffer* cmd,
                ::ByRef<::UnityEngine::Rendering::Universal::LightCookieManager_WorkSlice_1<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping>> validLightMappings,
                ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> textureAtlasUVRects, int32_t cookieSizeDivisor);
 
-  /// @brief Method FilterAndValidateAdditionalLights, addr 0x665a19c, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method FilterAndValidateAdditionalLights, addr 0x66c1d28, size 0x468, virtual false, abstract: false, final false
   inline int32_t FilterAndValidateAdditionalLights(
       ::UnityEngine::Rendering::Universal::UniversalLightData* lightData,
       ::ArrayW<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping, ::Array<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping>*> validLightMappings);
 
-  /// @brief Method GetLightCookieShaderDataIndex, addr 0x66596dc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetLightCookieShaderDataIndex, addr 0x66c1268, size 0x48, virtual false, abstract: false, final false
   inline int32_t GetLightCookieShaderDataIndex(int32_t visibleLightIndex);
 
-  /// @brief Method GetLightCookieShaderFormat, addr 0x6659ee0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetLightCookieShaderFormat, addr 0x66c1a6c, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderFormat GetLightCookieShaderFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat cookieFormat);
 
-  /// @brief Method GetLightUVScaleOffset, addr 0x6659fc0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetLightUVScaleOffset, addr 0x66c1b4c, size 0xbc, virtual false, abstract: false, final false
   inline void GetLightUVScaleOffset(::ByRef<::UnityEngine::Rendering::Universal::UniversalAdditionalLightData*> additionalLightData, ::ByRef<::UnityEngine::Matrix4x4> uvTransform);
 
-  /// @brief Method InitAdditionalLights, addr 0x6659518, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method InitAdditionalLights, addr 0x66c10a4, size 0x124, virtual false, abstract: false, final false
   inline void InitAdditionalLights(int32_t size);
 
   static inline ::UnityEngine::Rendering::Universal::LightCookieManager* New_ctor(::ByRef<::UnityEngine::Rendering::Universal::LightCookieManager_Settings> settings);
 
-  /// @brief Method Setup, addr 0x6659724, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x66c12b0, size 0x198, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
-  /// @brief Method SetupAdditionalLights, addr 0x6659ca8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method SetupAdditionalLights, addr 0x66c1834, size 0x19c, virtual false, abstract: false, final false
   inline bool SetupAdditionalLights(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
-  /// @brief Method SetupMainLight, addr 0x66598bc, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method SetupMainLight, addr 0x66c1448, size 0x3ec, virtual false, abstract: false, final false
   inline bool SetupMainLight(::UnityEngine::Rendering::CommandBuffer* cmd, ::ByRef<::UnityEngine::Rendering::VisibleLight> visibleMainLight);
 
-  /// @brief Method ShrinkUVRect, addr 0x665b744, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ShrinkUVRect, addr 0x66c32d0, size 0xb0, virtual false, abstract: false, final false
   inline void ShrinkUVRect(::ByRef<::UnityEngine::Vector4> uvScaleOffset, float_t amountPixels, ::ByRef<::UnityEngine::Vector2> cookieSize);
 
-  /// @brief Method UpdateAdditionalLightsAtlas, addr 0x665a604, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method UpdateAdditionalLightsAtlas, addr 0x66c2190, size 0x184, virtual false, abstract: false, final false
   inline int32_t UpdateAdditionalLightsAtlas(
       ::UnityEngine::Rendering::CommandBuffer* cmd,
       ::ByRef<::UnityEngine::Rendering::Universal::LightCookieManager_WorkSlice_1<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping>> validLightMappings,
       ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> textureAtlasUVRects);
 
-  /// @brief Method UploadAdditionalLights, addr 0x665a788, size 0x70c, virtual false, abstract: false, final false
+  /// @brief Method UploadAdditionalLights, addr 0x66c2314, size 0x70c, virtual false, abstract: false, final false
   inline void
   UploadAdditionalLights(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData,
                          ::ByRef<::UnityEngine::Rendering::Universal::LightCookieManager_WorkSlice_1<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping>> validLightMappings,
@@ -1067,26 +1067,26 @@ public:
 
   constexpr void __cordl_internal_set_m_WorkMem(::UnityEngine::Rendering::Universal::LightCookieManager_WorkMemory* value);
 
-  /// @brief Method .ctor, addr 0x6659494, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66c1020, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<::UnityEngine::Rendering::Universal::LightCookieManager_Settings> settings);
 
   static inline ::UnityEngine::Matrix4x4 getStaticF_s_DirLightProj();
 
-  /// @brief Method get_AdditionalLightsCookieAtlasTexture, addr 0x665947c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_AdditionalLightsCookieAtlasTexture, addr 0x66c1008, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_AdditionalLightsCookieAtlasTexture();
 
-  /// @brief Method get_IsKeywordLightCookieEnabled, addr 0x665946c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsKeywordLightCookieEnabled, addr 0x66c0ff8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsKeywordLightCookieEnabled();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method isInitialized, addr 0x6659644, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method isInitialized, addr 0x66c11d0, size 0x20, virtual false, abstract: false, final false
   inline bool isInitialized();
 
   static inline void setStaticF_s_DirLightProj(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method set_IsKeywordLightCookieEnabled, addr 0x6659474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsKeywordLightCookieEnabled, addr 0x66c1000, size 0x8, virtual false, abstract: false, final false
   inline void set_IsKeywordLightCookieEnabled(bool value);
 
 protected:
@@ -1104,7 +1104,7 @@ public:
   LightCookieManager(LightCookieManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12750 };
 
   /// @brief Field k_MaxCookieSizeDivisor offset 0xffffffff size 0x4
   static constexpr int32_t k_MaxCookieSizeDivisor{ static_cast<int32_t>(0x10) };

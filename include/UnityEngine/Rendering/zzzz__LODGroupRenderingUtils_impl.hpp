@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::CalculateFOVHalfAngle)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x661347c;
+  constexpr static std::size_t addrs = 0x667b008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Rendering::LODParameters, float_t)>(
     &::UnityEngine::Rendering::LODGroupRenderingUtils::CalculateScreenRelativeMetric)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6613494;
+  constexpr static std::size_t addrs = 0x667b020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::UnityEngine::Rendering::LODGroupRenderingUtils::CalculatePerspectiveDistance)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x66134e8;
+  constexpr static std::size_t addrs = 0x667b074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::UnityEngine::Rendering::LODGroupRenderingUtils::CalculateSqrPerspectiveDistance)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6613514;
+  constexpr static std::size_t addrs = 0x667b0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LODGroupRenderingUtils*>::get(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::LODGroup*)>(
     &::UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldReferencePoint)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x661353c;
+  constexpr static std::size_t addrs = 0x667b0c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::LODGroup*)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldSpaceScale)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6613580;
+  constexpr static std::size_t addrs = 0x667b10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::LODGroup*)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldSpaceSize)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x66135c4;
+  constexpr static std::size_t addrs = 0x667b150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::CalculateLODDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66123b8;
+  constexpr static std::size_t addrs = 0x6679f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

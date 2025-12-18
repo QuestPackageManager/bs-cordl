@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float_t)>(&::UnityEngine::Rendering::ReceiverPlanes::IsSignBitSet)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65f0a60;
+  constexpr static std::size_t addrs = 0x66585ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<::UnityEngine::Plane> (::UnityEngine::Rendering::ReceiverPlanes::*)()>(
     &::UnityEngine::Rendering::ReceiverPlanes::LightFacingFrustumPlaneSubArray)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x65f0a6c;
+  constexpr static std::size_t addrs = 0x66585f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<::UnityEngine::Plane> (::UnityEngine::Rendering::ReceiverPlanes::*)()>(
     &::UnityEngine::Rendering::ReceiverPlanes::SilhouettePlaneSubArray)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x65f0af4;
+  constexpr static std::size_t addrs = 0x6658680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ReceiverPlanes>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::ReceiverPlanes (*)(::Unity::Collections::Allocator)>(
     &::UnityEngine::Rendering::ReceiverPlanes::CreateEmptyForTesting)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x65f0bc0;
+  constexpr static std::size_t addrs = 0x665874c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ReceiverPlanes::*)(::Unity::Jobs::JobHandle)>(
     &::UnityEngine::Rendering::ReceiverPlanes::Dispose)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x65f0c28;
+  constexpr static std::size_t addrs = 0x66587b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::ReceiverPlanes (*)(
     ::ByRef<::UnityEngine::Rendering::BatchCullingContext>, ::Unity::Collections::Allocator)>(&::UnityEngine::Rendering::ReceiverPlanes::Create)> {
   constexpr static std::size_t size = 0x8a8;
-  constexpr static std::size_t addrs = 0x65f0c8c;
+  constexpr static std::size_t addrs = 0x6658818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

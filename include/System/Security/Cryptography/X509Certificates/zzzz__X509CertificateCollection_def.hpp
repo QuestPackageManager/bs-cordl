@@ -46,19 +46,19 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x618dc88, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x61f5814, size 0xa4, virtual false, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection_X509CertificateEnumerator*
   New_ctor(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* mappings);
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x618db3c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x61f56c8, size 0xa4, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x618dbe0, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x61f576c, size 0xa8, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x618da94, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x61f5620, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr ::System::Collections::IEnumerator* const& __cordl_internal_get_enumerator() const;
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set_enumerator(::System::Collections::IEnumerator* value);
 
-  /// @brief Method .ctor, addr 0x618d8cc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f5458, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* mappings);
 
-  /// @brief Method get_Current, addr 0x618d99c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x61f5528, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -91,7 +91,7 @@ public:
   X509CertificateCollection_X509CertificateEnumerator(X509CertificateCollection_X509CertificateEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11168 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11172 };
 
   /// @brief Field enumerator, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IEnumerator* ___enumerator;
@@ -115,26 +115,26 @@ public:
 
   __declspec(property(get = get_Item)) ::System::Security::Cryptography::X509Certificates::X509Certificate* Item[];
 
-  /// @brief Method AddRange, addr 0x618d6fc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AddRange, addr 0x61f5288, size 0xd0, virtual false, abstract: false, final false
   inline void AddRange(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  /// @brief Method GetEnumerator, addr 0x618d870, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x61f53fc, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection_X509CertificateEnumerator* GetEnumerator();
 
-  /// @brief Method GetHashCode, addr 0x618d980, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x61f550c, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* New_ctor();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* New_ctor(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  /// @brief Method .ctor, addr 0x618a180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f1d0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x618d6d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f525c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  /// @brief Method get_Item, addr 0x618d7cc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x61f5358, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_Item(int32_t index);
 
 protected:
@@ -152,7 +152,7 @@ public:
   X509CertificateCollection(X509CertificateCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11169 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11173 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

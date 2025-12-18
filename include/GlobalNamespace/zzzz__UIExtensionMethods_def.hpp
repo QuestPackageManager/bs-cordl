@@ -24,10 +24,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE UIExtensionMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CopySizeAndPositionFrom, addr 0x563eb84, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CopySizeAndPositionFrom, addr 0x56a3998, size 0xcc, virtual false, abstract: false, final false
   static inline void CopySizeAndPositionFrom(::UnityEngine::RectTransform* target, ::UnityEngine::RectTransform* source);
 
-  /// @brief Method GetWorldRect, addr 0x563ec50, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetWorldRect, addr 0x56a3a64, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect GetWorldRect(::UnityEngine::RectTransform* target);
 
 protected:
@@ -45,7 +45,7 @@ public:
   UIExtensionMethods(UIExtensionMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20059 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20275 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

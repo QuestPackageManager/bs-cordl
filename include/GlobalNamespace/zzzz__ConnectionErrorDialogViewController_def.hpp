@@ -38,7 +38,7 @@ public:
 
   static inline ::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <Init>b__0, addr 0x580d730, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Init>b__0, addr 0x587140c, size 0x1c, virtual false, abstract: false, final false
   inline void _Init_b__0(int32_t btnIdx);
 
   constexpr ::System::Action* const& __cordl_internal_get_buttonAction() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_buttonAction(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x580d728, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5871404, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   ConnectionErrorDialogViewController___c__DisplayClass0_0(ConnectionErrorDialogViewController___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6455 };
 
   /// @brief Field buttonAction, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___buttonAction;
@@ -87,12 +87,12 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass0_0;
 
-  /// @brief Method Init, addr 0x580d554, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5871230, size 0x1d4, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::DisconnectedReason reason, ::System::Action* buttonAction);
 
   static inline ::GlobalNamespace::ConnectionErrorDialogViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x580d72c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5871408, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -110,7 +110,7 @@ public:
   ConnectionErrorDialogViewController(ConnectionErrorDialogViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6456 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

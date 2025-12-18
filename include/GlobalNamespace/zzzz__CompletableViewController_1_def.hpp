@@ -67,7 +67,7 @@ public:
   CompletableViewController_1(CompletableViewController_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6454 };
 
   /// @brief Field _taskCompletionSource, offset: 0x78, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<T>* ____taskCompletionSource;

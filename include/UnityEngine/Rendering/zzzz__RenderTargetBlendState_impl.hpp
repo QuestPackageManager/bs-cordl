@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderTargetBlendState (*)()>(
     &::UnityEngine::Rendering::RenderTargetBlendState::get_defaultValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68e9d74;
+  constexpr static std::size_t addrs = 0x6952bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetBlendState>::get(),
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::ColorWriteMask, ::UnityEngine::Rendering::BlendMode, ::UnityEngine::Rendering::BlendMode, ::UnityEngine::Rendering::BlendMode, ::UnityEngine::Rendering::BlendMode,
     ::UnityEngine::Rendering::BlendOp, ::UnityEngine::Rendering::BlendOp)>(&::UnityEngine::Rendering::RenderTargetBlendState::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x68f0a38;
+  constexpr static std::size_t addrs = 0x69598bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderTargetBlendState::*)(::UnityEngine::Rendering::RenderTargetBlendState)>(
     &::UnityEngine::Rendering::RenderTargetBlendState::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x68e9e48;
+  constexpr static std::size_t addrs = 0x6952ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderTargetBlendState::*)(::System::Object*)>(
     &::UnityEngine::Rendering::RenderTargetBlendState::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x68f0a5c;
+  constexpr static std::size_t addrs = 0x69598e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::RenderTargetBlendState::*)()>(
     &::UnityEngine::Rendering::RenderTargetBlendState::GetHashCode)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68ea20c;
+  constexpr static std::size_t addrs = 0x6953090;
 
   inline static ::MethodInfo const* methodInfo() {
 

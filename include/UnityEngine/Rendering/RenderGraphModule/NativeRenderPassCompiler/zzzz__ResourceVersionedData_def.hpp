@@ -22,13 +22,13 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE ResourceVersionedData {
 public:
   // Declarations
-  /// @brief Method RegisterReadingPass, addr 0x65de2c4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method RegisterReadingPass, addr 0x6645e50, size 0x194, virtual false, abstract: false, final false
   inline void RegisterReadingPass(Il2CppObject* ctx, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h, int32_t passId, int32_t index);
 
-  /// @brief Method RemoveReadingPass, addr 0x65de458, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method RemoveReadingPass, addr 0x6645fe4, size 0x31c, virtual false, abstract: false, final false
   inline void RemoveReadingPass(Il2CppObject* ctx, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h, int32_t passId);
 
-  /// @brief Method SetWritingPass, addr 0x65de2b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetWritingPass, addr 0x6645e40, size 0x10, virtual false, abstract: false, final false
   inline void SetWritingPass(Il2CppObject* ctx, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h, int32_t passId);
 
   // Ctor Parameters []
@@ -40,7 +40,7 @@ public:
   constexpr ResourceVersionedData(bool written, int32_t writePassId, int32_t numReaders) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12473 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12477 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

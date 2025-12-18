@@ -23,7 +23,7 @@ namespace UnityEngine::XR::OpenXR::API {
 class CORDL_TYPE UnityXRDisplay : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateTexture, addr 0x67be8b4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateTexture, addr 0x682642c, size 0xa4, virtual false, abstract: false, final false
   static inline bool CreateTexture(::UnityEngine::XR::OpenXR::API::UnityXRRenderTextureDesc desc, ::ByRef<uint32_t> id);
 
 protected:
@@ -41,7 +41,7 @@ public:
   UnityXRDisplay(UnityXRDisplay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18489 };
 
   /// @brief Field kUnityXRRenderTextureIdDontCare offset 0xffffffff size 0x4
   static constexpr uint32_t kUnityXRRenderTextureIdDontCare{ static_cast<uint32_t>(0x0u) };

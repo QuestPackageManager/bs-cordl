@@ -26,19 +26,19 @@ public:
   /// @brief Field _ignoreCase, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__ignoreCase, put = __cordl_internal_set__ignoreCase)) bool _ignoreCase;
 
-  /// @brief Method Compare, addr 0x5a47c10, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x5aae55c, size 0x64, virtual true, abstract: false, final false
   inline int32_t Compare(::StringW x, ::StringW y);
 
-  /// @brief Method Equals, addr 0x5a47d90, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5aae6dc, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5a47c74, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5aae5c0, size 0x84, virtual true, abstract: false, final false
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode, addr 0x5a47e28, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5aae774, size 0x68, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetHashCode, addr 0x5a47cf8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5aae644, size 0x98, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::StringW obj);
 
   static inline ::System::OrdinalComparer* New_ctor(bool ignoreCase);
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__ignoreCase(bool value);
 
-  /// @brief Method .ctor, addr 0x5a47ba8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aae4f4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(bool ignoreCase);
 
 protected:

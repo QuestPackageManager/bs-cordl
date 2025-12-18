@@ -152,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set_settings(::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* value);
 
-  /// @brief Method .ctor, addr 0x6642bbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66aa748, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -170,7 +170,7 @@ public:
   DecalScreenSpaceRenderPass_PassData(DecalScreenSpaceRenderPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12683 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12687 };
 
   /// @brief Field drawSystem, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DecalDrawScreenSpaceSystem* ___drawSystem;
@@ -230,10 +230,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__12_0, addr 0x6643c0c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__12_0, addr 0x66ab798, size 0xf0, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__12_0(::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
 
-  /// @brief Method .ctor, addr 0x6643c08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66ab794, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass___c* getStaticF___9();
@@ -262,7 +262,7 @@ public:
   DecalScreenSpaceRenderPass___c(DecalScreenSpaceRenderPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12688 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -300,28 +300,28 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ShaderTagIdList,
                       put = __cordl_internal_set_m_ShaderTagIdList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* m_ShaderTagIdList;
 
-  /// @brief Method CreateRenderListParams, addr 0x6642bc0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method CreateRenderListParams, addr 0x66aa74c, size 0x12c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererListParams CreateRenderListParams(::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData,
                                                                              ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                              ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
-  /// @brief Method Execute, addr 0x6642cec, size 0x2d8, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x66aa878, size 0x2d8, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x6643078, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x66aac04, size 0x178, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData* passData,
                                  ::UnityEngine::Rendering::RendererList rendererList);
 
-  /// @brief Method InitPassData, addr 0x6642fc4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x66aab50, size 0xb4, virtual false, abstract: false, final false
   inline void InitPassData(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::ByRef<::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass_PassData*> passData);
 
   static inline ::UnityEngine::Rendering::Universal::DecalScreenSpaceRenderPass* New_ctor(::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* settings,
                                                                                           ::UnityEngine::Rendering::Universal::DecalDrawScreenSpaceSystem* drawSystem, bool decalLayers);
 
-  /// @brief Method OnCameraCleanup, addr 0x6643ac8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method OnCameraCleanup, addr 0x66ab654, size 0xec, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method RecordRenderGraph, addr 0x66431f0, size 0x8d8, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x66aad7c, size 0x8d8, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
   constexpr bool const& __cordl_internal_get_m_DecalLayers() const;
@@ -360,7 +360,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShaderTagIdList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* value);
 
-  /// @brief Method .ctor, addr 0x6642920, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66aa4ac, size 0x29c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* settings, ::UnityEngine::Rendering::Universal::DecalDrawScreenSpaceSystem* drawSystem, bool decalLayers);
 
 protected:
@@ -378,7 +378,7 @@ public:
   DecalScreenSpaceRenderPass(DecalScreenSpaceRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12689 };
 
   /// @brief Field m_FilteringSettings, offset: 0xb8, size: 0x20, def value: None
   ::UnityEngine::Rendering::FilteringSettings ___m_FilteringSettings;

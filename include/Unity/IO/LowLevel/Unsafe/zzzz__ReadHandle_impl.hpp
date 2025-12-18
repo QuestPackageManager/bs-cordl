@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::IO::LowLevel::Unsafe::ReadHandle::*)()>(&::Unity::IO::LowLevel::Unsafe::ReadHandle::IsValid)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x682a72c;
+  constexpr static std::size_t addrs = 0x68922a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::IO::LowLevel::Unsafe::ReadHandle>::get(), "IsValid",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::IO::LowLevel::Unsafe::ReadHandle::*)()>(&::Unity::IO::LowLevel::Unsafe::ReadHandle::Dispose)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x682a7b8;
+  constexpr static std::size_t addrs = 0x6892330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::IO::LowLevel::Unsafe::ReadHandle>::get(), "Dispose",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::IO::LowLevel::Unsafe::ReadHandle::*)()>(&::Unity::IO::LowLevel::Unsafe::ReadHandle::Cancel)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x682a9c0;
+  constexpr static std::size_t addrs = 0x6892538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::IO::LowLevel::Unsafe::ReadHandle>::get(), "Cancel",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Unity::IO::LowLevel::Unsafe::ReadHandle)>(&::Unity::IO::LowLevel::Unsafe::ReadHandle::CancelInternal)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x682aa8c;
+  constexpr static std::size_t addrs = 0x6892604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (::Unity::IO::LowLevel::Unsafe::ReadHandle::*)()>(
     &::Unity::IO::LowLevel::Unsafe::ReadHandle::get_JobHandle)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x682ab08;
+  constexpr static std::size_t addrs = 0x6892680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::IO::LowLevel::Unsafe::ReadHandle>::get(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::IO::LowLevel::Unsafe::ReadStatus (::Unity::IO::LowLevel::Unsafe::ReadHandle::*)()>(
     &::Unity::IO::LowLevel::Unsafe::ReadHandle::get_Status)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x682a8b4;
+  constexpr static std::size_t addrs = 0x689242c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::IO::LowLevel::Unsafe::ReadHandle>::get(), "get_Status",
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::IO::LowLevel::Unsafe::ReadStatus (*)(::Unity::IO::LowLevel::Unsafe::ReadHandle)>(
     &::Unity::IO::LowLevel::Unsafe::ReadHandle::GetReadStatus)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x682abf8;
+  constexpr static std::size_t addrs = 0x6892770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Unity::IO::LowLevel::Unsafe::ReadHandle)>(&::Unity::IO::LowLevel::Unsafe::ReadHandle::ReleaseReadHandle)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x682a980;
+  constexpr static std::size_t addrs = 0x68924f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Unity::IO::LowLevel::Unsafe::ReadHandle)>(&::Unity::IO::LowLevel::Unsafe::ReadHandle::IsReadHandleValid)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x682a774;
+  constexpr static std::size_t addrs = 0x68922ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (*)(::Unity::IO::LowLevel::Unsafe::ReadHandle)>(
     &::Unity::IO::LowLevel::Unsafe::ReadHandle::GetJobHandle)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x682abac;
+  constexpr static std::size_t addrs = 0x6892724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::Unity::IO::LowLevel::Unsafe::ReadHandle>)>(
     &::Unity::IO::LowLevel::Unsafe::ReadHandle::CancelInternal_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x682aacc;
+  constexpr static std::size_t addrs = 0x6892644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::IO::LowLevel::Unsafe::ReadStatus (*)(::ByRef<::Unity::IO::LowLevel::Unsafe::ReadHandle>)>(
     &::Unity::IO::LowLevel::Unsafe::ReadHandle::GetReadStatus_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x682ac38;
+  constexpr static std::size_t addrs = 0x68927b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::Unity::IO::LowLevel::Unsafe::ReadHandle>)>(
     &::Unity::IO::LowLevel::Unsafe::ReadHandle::ReleaseReadHandle_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x682ac74;
+  constexpr static std::size_t addrs = 0x68927ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::Unity::IO::LowLevel::Unsafe::ReadHandle>)>(
     &::Unity::IO::LowLevel::Unsafe::ReadHandle::IsReadHandleValid_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x682acb0;
+  constexpr static std::size_t addrs = 0x6892828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::Unity::IO::LowLevel::Unsafe::ReadHandle>, ::ByRef<::Unity::Jobs::JobHandle>)>(
     &::Unity::IO::LowLevel::Unsafe::ReadHandle::GetJobHandle_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x682acec;
+  constexpr static std::size_t addrs = 0x6892864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

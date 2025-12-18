@@ -38,27 +38,27 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE Spline : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Extrude, addr 0x64d6a2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Extrude, addr 0x653e5b8, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* points, float_t radius, int32_t columns,
                                                                             int32_t rows, bool closeLoop, bool smooth);
 
-  /// @brief Method Extrude, addr 0x64d6a44, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Extrude, addr 0x653e5d0, size 0xd4, virtual false, abstract: false, final false
   static inline void Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* bezierPoints, float_t radius, int32_t columns, int32_t rows, bool closeLoop, bool smooth,
                              ::ByRef<::UnityEngine::ProBuilder::ProBuilderMesh*> target);
 
-  /// @brief Method Extrude, addr 0x64d7058, size 0x994, virtual false, abstract: false, final false
+  /// @brief Method Extrude, addr 0x653ebe4, size 0x994, virtual false, abstract: false, final false
   static inline void Extrude(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, float_t radius, int32_t radiusRows, bool closeLoop, bool smooth,
                              ::ByRef<::UnityEngine::ProBuilder::ProBuilderMesh*> target, ::System::Collections::Generic::IList_1<::UnityEngine::Quaternion>* pointRotations);
 
-  /// @brief Method GetControlPoints, addr 0x64d6b18, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method GetControlPoints, addr 0x653e6a4, size 0x540, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* GetControlPoints(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* bezierPoints,
                                                                                                  int32_t subdivisionsPerSegment, bool closeLoop,
                                                                                                  ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* rotations);
 
-  /// @brief Method GetRingRotation, addr 0x64d79ec, size 0x8f0, virtual false, abstract: false, final false
+  /// @brief Method GetRingRotation, addr 0x653f578, size 0x8f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion GetRingRotation(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, int32_t i, bool closeLoop, ::ByRef<float_t> secant);
 
-  /// @brief Method VertexRing, addr 0x64d82dc, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method VertexRing, addr 0x653fe68, size 0x25c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> VertexRing(::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 offset, float_t radius, int32_t segments);
 
 protected:
@@ -76,7 +76,7 @@ public:
   Spline(Spline const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16770 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16784 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

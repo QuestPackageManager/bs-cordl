@@ -30,22 +30,22 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE GraphicsFence {
 public:
   // Declarations
-  /// @brief Method GetPlatformNotSupportedVersion, addr 0x68d5d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformNotSupportedVersion, addr 0x693eb9c, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetPlatformNotSupportedVersion();
 
-  /// @brief Method GetVersionNumber, addr 0x68d5d20, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetVersionNumber, addr 0x693eba4, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetVersionNumber(::System::IntPtr fencePtr);
 
-  /// @brief Method InitPostAllocation, addr 0x68d5c58, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method InitPostAllocation, addr 0x693eadc, size 0xc0, virtual false, abstract: false, final false
   inline void InitPostAllocation();
 
-  /// @brief Method IsFencePending, addr 0x68d5d5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsFencePending, addr 0x693ebe0, size 0x58, virtual false, abstract: false, final false
   inline bool IsFencePending();
 
-  /// @brief Method TranslateSynchronizationStageToFlags, addr 0x68d5c48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method TranslateSynchronizationStageToFlags, addr 0x693eacc, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SynchronisationStageFlags TranslateSynchronizationStageToFlags(::UnityEngine::Rendering::SynchronisationStage s);
 
-  /// @brief Method Validate, addr 0x68d5db4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x693ec38, size 0x98, virtual false, abstract: false, final false
   inline void Validate();
 
   // Ctor Parameters []
@@ -57,7 +57,7 @@ public:
   constexpr GraphicsFence(::System::IntPtr m_Ptr, int32_t m_Version, ::UnityEngine::Rendering::GraphicsFenceType m_FenceType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10733 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10737 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -74,10 +74,10 @@ public:
 
   static inline ::UnityEngine::Rendering::GraphicsSettings___c* New_ctor();
 
-  /// @brief Method <.cctor>b__93_0, addr 0x68d71ac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__93_0, addr 0x6940030, size 0x50, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> __cctor_b__93_0();
 
-  /// @brief Method .ctor, addr 0x68d71a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x694002c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::GraphicsSettings___c* getStaticF___9();
@@ -99,7 +99,7 @@ public:
   GraphicsSettings___c(GraphicsSettings___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10738 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -121,10 +121,10 @@ public:
                       put =
                           setStaticF_s_CurrentRenderPipelineGlobalSettings)) ::System::Lazy_1<::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings>>* s_CurrentRenderPipelineGlobalSettings;
 
-  /// @brief Method GetDefaultMaterial, addr 0x68d6de0, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultMaterial, addr 0x693fc64, size 0x24c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetDefaultMaterial(::UnityEngine::Rendering::DefaultMaterialType type);
 
-  /// @brief Method GetDefaultShader, addr 0x68d6b78, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultShader, addr 0x693f9fc, size 0x268, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> GetDefaultShader(::UnityEngine::Rendering::DefaultShaderType type);
 
   /// @brief Method GetRenderPipelineSettings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -133,22 +133,22 @@ public:
   /// @brief Method GetSettingsForRenderPipeline, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> GetSettingsForRenderPipeline();
 
-  /// @brief Method HasShaderDefine, addr 0x68d64e8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HasShaderDefine, addr 0x693f36c, size 0xcc, virtual false, abstract: false, final false
   static inline bool HasShaderDefine(::UnityEngine::Rendering::BuiltinShaderDefine defineHash);
 
-  /// @brief Method HasShaderDefine, addr 0x68d64a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HasShaderDefine, addr 0x693f328, size 0x44, virtual false, abstract: false, final false
   static inline bool HasShaderDefine(::UnityEngine::Rendering::GraphicsTier tier, ::UnityEngine::Rendering::BuiltinShaderDefine defineHash);
 
-  /// @brief Method Internal_GetCurrentRenderPipelineGlobalSettings, addr 0x68d6128, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetCurrentRenderPipelineGlobalSettings, addr 0x693efac, size 0x118, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> Internal_GetCurrentRenderPipelineGlobalSettings();
 
-  /// @brief Method Internal_GetSettingsForRenderPipeline, addr 0x68d5e4c, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetSettingsForRenderPipeline, addr 0x693ecd0, size 0x2a0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Internal_GetSettingsForRenderPipeline(::StringW renderpipelineName);
 
-  /// @brief Method Internal_GetSettingsForRenderPipeline_Injected, addr 0x68d60ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetSettingsForRenderPipeline_Injected, addr 0x693ef70, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_GetSettingsForRenderPipeline_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> renderpipelineName);
 
-  /// @brief Method TryGetCurrentRenderPipelineGlobalSettings, addr 0x68d62e4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method TryGetCurrentRenderPipelineGlobalSettings, addr 0x693f168, size 0xe4, virtual false, abstract: false, final false
   static inline bool TryGetCurrentRenderPipelineGlobalSettings(::ByRef<::UnityEngine::Rendering::RenderPipelineGlobalSettings*> asset);
 
   /// @brief Method TryGetRenderPipelineSettings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -156,51 +156,51 @@ public:
 
   static inline ::System::Lazy_1<::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings>>* getStaticF_s_CurrentRenderPipelineGlobalSettings();
 
-  /// @brief Method get_INTERNAL_currentRenderPipeline, addr 0x68d65b4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method get_INTERNAL_currentRenderPipeline, addr 0x693f438, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> get_INTERNAL_currentRenderPipeline();
 
-  /// @brief Method get_INTERNAL_currentRenderPipeline_Injected, addr 0x68d66f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_INTERNAL_currentRenderPipeline_Injected, addr 0x693f574, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_INTERNAL_currentRenderPipeline_Injected();
 
-  /// @brief Method get_INTERNAL_defaultRenderPipeline, addr 0x68d6834, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method get_INTERNAL_defaultRenderPipeline, addr 0x693f6b8, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> get_INTERNAL_defaultRenderPipeline();
 
-  /// @brief Method get_INTERNAL_defaultRenderPipeline_Injected, addr 0x68d6970, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_INTERNAL_defaultRenderPipeline_Injected, addr 0x693f7f4, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_INTERNAL_defaultRenderPipeline_Injected();
 
-  /// @brief Method get_currentRenderPipeline, addr 0x68d6240, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_currentRenderPipeline, addr 0x693f0c4, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::RenderPipelineAsset> get_currentRenderPipeline();
 
-  /// @brief Method get_currentRenderPipelineAssetType, addr 0x68d67a8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_currentRenderPipelineAssetType, addr 0x693f62c, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Type* get_currentRenderPipelineAssetType();
 
-  /// @brief Method get_defaultRenderPipeline, addr 0x68d6a7c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_defaultRenderPipeline, addr 0x693f900, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::RenderPipelineAsset> get_defaultRenderPipeline();
 
-  /// @brief Method get_isScriptableRenderPipelineEnabled, addr 0x68d6718, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_isScriptableRenderPipelineEnabled, addr 0x693f59c, size 0x90, virtual false, abstract: false, final false
   static inline bool get_isScriptableRenderPipelineEnabled();
 
-  /// @brief Method get_lightsUseLinearIntensity, addr 0x68d63c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_lightsUseLinearIntensity, addr 0x693f24c, size 0x28, virtual false, abstract: false, final false
   static inline bool get_lightsUseLinearIntensity();
 
   static inline void setStaticF_s_CurrentRenderPipelineGlobalSettings(::System::Lazy_1<::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings>>* value);
 
-  /// @brief Method set_INTERNAL_defaultRenderPipeline, addr 0x68d6998, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method set_INTERNAL_defaultRenderPipeline, addr 0x693f81c, size 0xa8, virtual false, abstract: false, final false
   static inline void set_INTERNAL_defaultRenderPipeline(::UnityEngine::ScriptableObject* value);
 
-  /// @brief Method set_INTERNAL_defaultRenderPipeline_Injected, addr 0x68d6a40, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_INTERNAL_defaultRenderPipeline_Injected, addr 0x693f8c4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_INTERNAL_defaultRenderPipeline_Injected(::System::IntPtr value);
 
-  /// @brief Method set_defaultRenderPipeline, addr 0x68d6b20, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_defaultRenderPipeline, addr 0x693f9a4, size 0x58, virtual false, abstract: false, final false
   static inline void set_defaultRenderPipeline(::UnityEngine::Rendering::RenderPipelineAsset* value);
 
-  /// @brief Method set_lightsUseColorTemperature, addr 0x68d642c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_lightsUseColorTemperature, addr 0x693f2b0, size 0x3c, virtual false, abstract: false, final false
   static inline void set_lightsUseColorTemperature(bool value);
 
-  /// @brief Method set_lightsUseLinearIntensity, addr 0x68d63f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_lightsUseLinearIntensity, addr 0x693f274, size 0x3c, virtual false, abstract: false, final false
   static inline void set_lightsUseLinearIntensity(bool value);
 
-  /// @brief Method set_useScriptableRenderPipelineBatching, addr 0x68d6468, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_useScriptableRenderPipelineBatching, addr 0x693f2ec, size 0x3c, virtual false, abstract: false, final false
   static inline void set_useScriptableRenderPipelineBatching(bool value);
 
 protected:
@@ -218,7 +218,7 @@ public:
   GraphicsSettings(GraphicsSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10739 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -25,13 +25,13 @@ public:
   // Declarations
   __declspec(property(put = set_readable)) bool readable;
 
-  /// @brief Method SetFlags, addr 0x6bf6df4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetFlags, addr 0x6c5fc78, size 0x1c, virtual false, abstract: false, final false
   inline void SetFlags(::UnityEngine::Networking::DownloadedTextureFlags flgs, bool add);
 
-  /// @brief Method get_Default, addr 0x6bf6ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x6c5fc60, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::DownloadedTextureParams get_Default();
 
-  /// @brief Method set_readable, addr 0x6bf6de4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_readable, addr 0x6c5fc68, size 0x10, virtual false, abstract: false, final false
   inline void set_readable(bool value);
 
   // Ctor Parameters []
@@ -43,7 +43,7 @@ public:
   constexpr DownloadedTextureParams(::UnityEngine::Networking::DownloadedTextureFlags flags, int32_t mipmapCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22968 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -19,13 +19,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE SaberSwingRating : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AfterCutStepRating, addr 0x35e365c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method AfterCutStepRating, addr 0x360e4c0, size 0x40, virtual false, abstract: false, final false
   static inline float_t AfterCutStepRating(float_t angleDiff, float_t normalDiff);
 
-  /// @brief Method BeforeCutStepRating, addr 0x35e35ec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method BeforeCutStepRating, addr 0x360e450, size 0x40, virtual false, abstract: false, final false
   static inline float_t BeforeCutStepRating(float_t angleDiff, float_t normalDiff);
 
-  /// @brief Method NormalRating, addr 0x35e362c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method NormalRating, addr 0x360e490, size 0x30, virtual false, abstract: false, final false
   static inline float_t NormalRating(float_t normalDiff);
 
 protected:
@@ -43,7 +43,7 @@ public:
   SaberSwingRating(SaberSwingRating const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14833 };
 
   /// @brief Field kAfterCutAngleFor1Rating offset 0xffffffff size 0x4
   static constexpr float_t kAfterCutAngleFor1Rating{ static_cast<float_t>(60.0f) };

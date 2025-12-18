@@ -29,37 +29,37 @@ namespace UnityEngine::Profiling {
 class CORDL_TYPE Profiler : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMonoUsedSizeLong, addr 0x68c78b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMonoUsedSizeLong, addr 0x693073c, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetMonoUsedSizeLong();
 
-  /// @brief Method GetRuntimeMemorySizeLong, addr 0x68c77ec, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeMemorySizeLong, addr 0x6930670, size 0x90, virtual false, abstract: false, final false
   static inline int64_t GetRuntimeMemorySizeLong(::UnityEngine::Object* o);
 
-  /// @brief Method GetRuntimeMemorySizeLong_Injected, addr 0x68c787c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeMemorySizeLong_Injected, addr 0x6930700, size 0x3c, virtual false, abstract: false, final false
   static inline int64_t GetRuntimeMemorySizeLong_Injected(::System::IntPtr o);
 
-  /// @brief Method GetTotalAllocatedMemoryLong, addr 0x68c78e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetTotalAllocatedMemoryLong, addr 0x6930764, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetTotalAllocatedMemoryLong();
 
-  /// @brief Method GetTotalReservedMemoryLong, addr 0x68c7908, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetTotalReservedMemoryLong, addr 0x693078c, size 0x28, virtual false, abstract: false, final false
   static inline int64_t GetTotalReservedMemoryLong();
 
-  /// @brief Method get_enabled, addr 0x68c7788, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x693060c, size 0x28, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
-  /// @brief Method set_enableBinaryLog, addr 0x68c7710, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_enableBinaryLog, addr 0x6930594, size 0x3c, virtual false, abstract: false, final false
   static inline void set_enableBinaryLog(bool value);
 
-  /// @brief Method set_enabled, addr 0x68c77b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x6930634, size 0x3c, virtual false, abstract: false, final false
   static inline void set_enabled(bool value);
 
-  /// @brief Method set_logFile, addr 0x68c75b0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method set_logFile, addr 0x6930434, size 0x124, virtual false, abstract: false, final false
   static inline void set_logFile(::StringW value);
 
-  /// @brief Method set_logFile_Injected, addr 0x68c76d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_logFile_Injected, addr 0x6930558, size 0x3c, virtual false, abstract: false, final false
   static inline void set_logFile_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> value);
 
-  /// @brief Method set_maxUsedMemory, addr 0x68c774c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_maxUsedMemory, addr 0x69305d0, size 0x3c, virtual false, abstract: false, final false
   static inline void set_maxUsedMemory(int32_t value);
 
 protected:
@@ -77,7 +77,7 @@ public:
   Profiler(Profiler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10401 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10405 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,7 +23,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE OccluderDerivedData {
 public:
   // Declarations
-  /// @brief Method FromParameters, addr 0x660f5c4, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method FromParameters, addr 0x6677150, size 0x330, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::OccluderDerivedData FromParameters(::ByRef<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdate);
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
                                 ::UnityEngine::Vector4 facingDirWorldSpace) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17701 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };

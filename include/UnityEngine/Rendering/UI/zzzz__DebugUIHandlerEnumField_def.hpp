@@ -23,16 +23,16 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerEnumField* New_ctor();
 
-  /// @brief Method OnDecrement, addr 0x65e3a88, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method OnDecrement, addr 0x664b614, size 0x1d8, virtual true, abstract: false, final false
   inline void OnDecrement(bool fast);
 
-  /// @brief Method OnIncrement, addr 0x65e38ec, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method OnIncrement, addr 0x664b478, size 0x19c, virtual true, abstract: false, final false
   inline void OnIncrement(bool fast);
 
-  /// @brief Method UpdateValueLabel, addr 0x65e3c60, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method UpdateValueLabel, addr 0x664b7ec, size 0xa4, virtual true, abstract: false, final false
   inline void UpdateValueLabel();
 
-  /// @brief Method .ctor, addr 0x65e3d04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x664b890, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,7 +50,7 @@ public:
   DebugUIHandlerEnumField(DebugUIHandlerEnumField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12491 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

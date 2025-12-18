@@ -34,46 +34,46 @@ public:
   // Declarations
   __declspec(property(get = get_value)) int32_t value;
 
-  /// @brief Method Append, addr 0x65a68cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x660e458, size 0x74, virtual false, abstract: false, final false
   inline void Append(::System::Delegate* del);
 
-  /// @brief Method Append, addr 0x65a679c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x660e328, size 0x48, virtual false, abstract: false, final false
   inline void Append(::ByRef<::UnityEngine::Vector2> input);
 
-  /// @brief Method Append, addr 0x65a67e4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x660e370, size 0x64, virtual false, abstract: false, final false
   inline void Append(::ByRef<::UnityEngine::Vector3> input);
 
-  /// @brief Method Append, addr 0x65a6848, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x660e3d4, size 0x84, virtual false, abstract: false, final false
   inline void Append(::ByRef<::UnityEngine::Vector4> input);
 
-  /// @brief Method Append, addr 0x65a670c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x660e298, size 0x28, virtual false, abstract: false, final false
   inline void Append(::ByRef<bool> input);
 
-  /// @brief Method Append, addr 0x65a6764, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x660e2f0, size 0x38, virtual false, abstract: false, final false
   inline void Append(::ByRef<double_t> input);
 
-  /// @brief Method Append, addr 0x65a6734, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x660e2c0, size 0x30, virtual false, abstract: false, final false
   inline void Append(::ByRef<float_t> input);
 
-  /// @brief Method Append, addr 0x65a66cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x660e258, size 0x20, virtual false, abstract: false, final false
   inline void Append(::ByRef<int32_t> input);
 
-  /// @brief Method Append, addr 0x65a66ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x660e278, size 0x20, virtual false, abstract: false, final false
   inline void Append(::ByRef<uint32_t> input);
 
   /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Append(T input);
 
-  /// @brief Method Create, addr 0x65a66c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x660e24c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::HashFNV1A32 Create();
 
-  /// @brief Method GetFuncHashCode, addr 0x65a6940, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetFuncHashCode, addr 0x660e4cc, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t GetFuncHashCode(::System::Delegate* del);
 
-  /// @brief Method GetHashCode, addr 0x65a6994, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x660e520, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_value, addr 0x65a698c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x660e518, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
   // Ctor Parameters []
@@ -84,7 +84,7 @@ public:
   constexpr HashFNV1A32(uint32_t m_Hash) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12273 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12277 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

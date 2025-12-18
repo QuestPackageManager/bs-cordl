@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::CategoryAttribute* (*)()>(&::System::ComponentModel::CategoryAttribute::get_Default)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x61ace48;
+  constexpr static std::size_t addrs = 0x62149d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::CategoryAttribute*>::get(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::CategoryAttribute::*)()>(&::System::ComponentModel::CategoryAttribute::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x61acf08;
+  constexpr static std::size_t addrs = 0x6214a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::CategoryAttribute*>::get(), ".ctor",
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::CategoryAttribute::*)(::StringW)>(
     &::System::ComponentModel::CategoryAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61acf58;
+  constexpr static std::size_t addrs = 0x6214ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::CategoryAttribute::*)()>(
     &::System::ComponentModel::CategoryAttribute::get_Category)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x61acf64;
+  constexpr static std::size_t addrs = 0x6214af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::CategoryAttribute*>::get(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::CategoryAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::CategoryAttribute::Equals)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x61acfa4;
+  constexpr static std::size_t addrs = 0x6214b30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::CategoryAttribute::*)()>(
     &::System::ComponentModel::CategoryAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x61ad0e8;
+  constexpr static std::size_t addrs = 0x6214c74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::CategoryAttribute::*)(::StringW)>(
     &::System::ComponentModel::CategoryAttribute::GetLocalizedString)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x61ad138;
+  constexpr static std::size_t addrs = 0x6214cc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::CategoryAttribute::*)()>(
     &::System::ComponentModel::CategoryAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x61ad544;
+  constexpr static std::size_t addrs = 0x62150d0;
 
   inline static ::MethodInfo const* methodInfo() {
 

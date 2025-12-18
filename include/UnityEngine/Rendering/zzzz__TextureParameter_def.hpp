@@ -29,7 +29,7 @@ public:
   /// @brief Field dimension, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_dimension, put = __cordl_internal_set_dimension)) ::UnityEngine::Rendering::TextureDimension dimension;
 
-  /// @brief Method GetHashCode, addr 0x65aeb00, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x661668c, size 0x108, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::TextureParameter* New_ctor(::UnityEngine::Texture* value, ::UnityEngine::Rendering::TextureDimension dimension, bool overrideState);
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set_dimension(::UnityEngine::Rendering::TextureDimension value);
 
-  /// @brief Method .ctor, addr 0x65aea88, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6616614, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Texture* value, ::UnityEngine::Rendering::TextureDimension dimension, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x65aea7c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6616608, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Texture* value, bool overrideState);
 
 protected:
@@ -63,7 +63,7 @@ public:
   TextureParameter(TextureParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12334 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12338 };
 
   /// @brief Field dimension, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::Rendering::TextureDimension ___dimension;

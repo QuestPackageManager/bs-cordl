@@ -35,7 +35,7 @@ public:
   PredefinedSettings(PredefinedSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21864 };
 
   /// @brief Field kControllersPositionOffsetLimit offset 0xffffffff size 0x4
   static constexpr float_t kControllersPositionOffsetLimit{ static_cast<float_t>(0.1f) };

@@ -33,40 +33,40 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Index>"
   constexpr operator ::System::IEquatable_1<::System::Index>*();
 
-  /// @brief Method Equals, addr 0x5a2d4b8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5a93e04, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::System::Index other);
 
-  /// @brief Method Equals, addr 0x5a2d43c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5a93d88, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method FromStart, addr 0x5a2d3fc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method FromStart, addr 0x5a93d48, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Index FromStart(int32_t value);
 
-  /// @brief Method GetHashCode, addr 0x5a2d4c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5a93e14, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetOffset, addr 0x5a2d428, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetOffset, addr 0x5a93d74, size 0x14, virtual false, abstract: false, final false
   inline int32_t GetOffset(int32_t length);
 
-  /// @brief Method ToString, addr 0x5a2d4e4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5a93e30, size 0x28, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToStringFromEnd, addr 0x5a2d50c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ToStringFromEnd, addr 0x5a93e58, size 0x180, virtual false, abstract: false, final false
   inline ::StringW ToStringFromEnd();
 
-  /// @brief Method .ctor, addr 0x5a2d3f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a93d40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
-  /// @brief Method get_IsFromEnd, addr 0x5a2d41c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsFromEnd, addr 0x5a93d68, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsFromEnd();
 
-  /// @brief Method get_Value, addr 0x5a2d410, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5a93d5c, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Value();
 
   /// @brief Convert to "::System::IEquatable_1<::System::Index>"
   constexpr ::System::IEquatable_1<::System::Index>* i___System__IEquatable_1___System__Index_();
 
-  /// @brief Method op_Implicit, addr 0x5a2d4d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x5a93e1c, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Index op_Implicit___System__Index(int32_t value);
 
   // Ctor Parameters []

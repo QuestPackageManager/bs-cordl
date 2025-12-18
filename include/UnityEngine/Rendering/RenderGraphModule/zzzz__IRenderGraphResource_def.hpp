@@ -59,54 +59,54 @@ public:
   /// @brief Field writeCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_writeCount, put = __cordl_internal_set_writeCount)) uint32_t writeCount;
 
-  /// @brief Method CreateGraphicsResource, addr 0x65cb2e8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CreateGraphicsResource, addr 0x6632e74, size 0x4, virtual true, abstract: false, final false
   inline void CreateGraphicsResource();
 
-  /// @brief Method CreatePooledGraphicsResource, addr 0x65cb2e4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CreatePooledGraphicsResource, addr 0x6632e70, size 0x4, virtual true, abstract: false, final false
   inline void CreatePooledGraphicsResource();
 
-  /// @brief Method GetDescHashCode, addr 0x65cb308, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDescHashCode, addr 0x6632e94, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetDescHashCode();
 
-  /// @brief Method GetName, addr 0x65cb244, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetName, addr 0x6632dd0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetName();
 
-  /// @brief Method GetSortIndex, addr 0x65cb300, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetSortIndex, addr 0x6632e8c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetSortIndex();
 
-  /// @brief Method IncrementReadCount, addr 0x65cb2a0, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method IncrementReadCount, addr 0x6632e2c, size 0x10, virtual true, abstract: false, final false
   inline void IncrementReadCount();
 
-  /// @brief Method IncrementWriteCount, addr 0x65cb290, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method IncrementWriteCount, addr 0x6632e1c, size 0x10, virtual true, abstract: false, final false
   inline void IncrementWriteCount();
 
-  /// @brief Method IsCreated, addr 0x65cb288, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsCreated, addr 0x6632e14, size 0x8, virtual true, abstract: false, final false
   inline bool IsCreated();
 
-  /// @brief Method LogCreation, addr 0x65cb2f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method LogCreation, addr 0x6632e84, size 0x4, virtual true, abstract: false, final false
   inline void LogCreation(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* logger);
 
-  /// @brief Method LogRelease, addr 0x65cb2fc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method LogRelease, addr 0x6632e88, size 0x4, virtual true, abstract: false, final false
   inline void LogRelease(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* logger);
 
-  /// @brief Method NeedsFallBack, addr 0x65cb2c4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method NeedsFallBack, addr 0x6632e50, size 0x20, virtual true, abstract: false, final false
   inline bool NeedsFallBack();
 
-  /// @brief Method NewVersion, addr 0x65cb2b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method NewVersion, addr 0x6632e3c, size 0x14, virtual true, abstract: false, final false
   inline int32_t NewVersion();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* New_ctor();
 
-  /// @brief Method ReleaseGraphicsResource, addr 0x65cb2f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ReleaseGraphicsResource, addr 0x6632e80, size 0x4, virtual true, abstract: false, final false
   inline void ReleaseGraphicsResource();
 
-  /// @brief Method ReleasePooledGraphicsResource, addr 0x65cb2f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ReleasePooledGraphicsResource, addr 0x6632e7c, size 0x4, virtual true, abstract: false, final false
   inline void ReleasePooledGraphicsResource(int32_t frameIndex);
 
-  /// @brief Method Reset, addr 0x65cb224, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6632db0, size 0x20, virtual true, abstract: false, final false
   inline void Reset(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool* _);
 
-  /// @brief Method UpdateGraphicsResource, addr 0x65cb2ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateGraphicsResource, addr 0x6632e78, size 0x4, virtual true, abstract: false, final false
   inline void UpdateGraphicsResource();
 
   constexpr int32_t const& __cordl_internal_get_cachedHash() const;
@@ -175,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set_writeCount(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x65cb310, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6632e9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -193,7 +193,7 @@ public:
   IRenderGraphResource(IRenderGraphResource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12434 };
 
   /// @brief Field imported, offset: 0x10, size: 0x1, def value: None
   bool ___imported;

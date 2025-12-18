@@ -26,13 +26,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlNumber* New_ctor(::Org::BouncyCastle::Math::BigInteger* number);
 
-  /// @brief Method ToString, addr 0x3533ebc, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x355e700, size 0x60, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3533eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x355e6f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* number);
 
-  /// @brief Method get_Number, addr 0x3533eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Number, addr 0x355e6f8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Number();
 
 protected:

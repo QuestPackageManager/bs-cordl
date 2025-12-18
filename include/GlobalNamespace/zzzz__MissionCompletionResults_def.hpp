@@ -50,11 +50,11 @@ public:
 
   constexpr void __cordl_internal_set_missionObjectiveResults(::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> value);
 
-  /// @brief Method .ctor, addr 0x36081c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3633118, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
                     ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults);
 
-  /// @brief Method get_IsMissionComplete, addr 0x360814c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsMissionComplete, addr 0x363309c, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsMissionComplete();
 
 protected:
@@ -72,7 +72,7 @@ public:
   MissionCompletionResults(MissionCompletionResults const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15026 };
 
   /// @brief Field levelCompletionResults, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::LevelCompletionResults* ___levelCompletionResults;

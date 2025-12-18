@@ -41,14 +41,14 @@ public:
 
   constexpr void __cordl_internal_set__dragArea_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x6af2460, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b5b2e4, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_dragAreaUssClassName();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_dragArea, addr 0x6af7428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dragArea, addr 0x6b602ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragArea();
 
   static inline void setStaticF_dragAreaUssClassName(::StringW value);

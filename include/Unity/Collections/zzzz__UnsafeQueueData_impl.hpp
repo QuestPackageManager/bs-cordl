@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::UnsafeQueueBlockHeader* (::Unity::Collections::UnsafeQueueData::*)(int32_t)>(
     &::Unity::Collections::UnsafeQueueData::GetCurrentWriteBlockTLS)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62ab3b8;
+  constexpr static std::size_t addrs = 0x6312f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::UnsafeQueueData::*)(int32_t, ::Unity::Collections::UnsafeQueueBlockHeader*)>(
     &::Unity::Collections::UnsafeQueueData::SetCurrentWriteBlockTLS)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62ab3c8;
+  constexpr static std::size_t addrs = 0x6312f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::Unity::Collections::UnsafeQueueData*, ::Unity::Collections::UnsafeQueueBlockPoolData*, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
         &::Unity::Collections::UnsafeQueueData::DeallocateQueue)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x62ab3d8;
+  constexpr static std::size_t addrs = 0x6312f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

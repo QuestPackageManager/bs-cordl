@@ -86,7 +86,7 @@ public:
   // Declarations
   static inline ::System::Reflection::Assembly_ResolveEventHolder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x59716e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d802c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -142,151 +142,151 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method CreateNIE, addr 0x597157c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CreateNIE, addr 0x59d7ec8, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateNIE();
 
-  /// @brief Method Equals, addr 0x5971570, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x59d7ebc, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetAssembly, addr 0x59708e8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetAssembly, addr 0x59d7234, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* GetAssembly(::System::Type* type);
 
-  /// @brief Method GetCallingAssembly, addr 0x5970f68, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetCallingAssembly, addr 0x59d78b4, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* GetCallingAssembly();
 
-  /// @brief Method GetCustomAttributes, addr 0x59705a4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x59d6ef0, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x597056c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x59d6eb8, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetExecutingAssembly, addr 0x5970f18, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetExecutingAssembly, addr 0x59d7864, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* GetExecutingAssembly();
 
-  /// @brief Method GetFlags, addr 0x5970818, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetFlags, addr 0x59d7164, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Reflection::AssemblyNameFlags GetFlags();
 
-  /// @brief Method GetHashCode, addr 0x597155c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x59d7ea8, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetManifestResourceInfo, addr 0x59714ec, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetManifestResourceInfo, addr 0x59d7e38, size 0x38, virtual true, abstract: false, final false
   inline ::System::Reflection::ManifestResourceInfo* GetManifestResourceInfo(::StringW resourceName);
 
-  /// @brief Method GetManifestResourceNames, addr 0x5970f80, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetManifestResourceNames, addr 0x59d78cc, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetManifestResourceNames();
 
-  /// @brief Method GetManifestResourceStream, addr 0x59705dc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetManifestResourceStream, addr 0x59d6f28, size 0x38, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetManifestResourceStream(::StringW name);
 
-  /// @brief Method GetManifestResourceStream, addr 0x5970784, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetManifestResourceStream, addr 0x59d70d0, size 0x10, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetManifestResourceStream(::StringW name, ::ByRef<::System::Threading::StackCrawlMark> stackMark, bool skipSecurityCheck);
 
-  /// @brief Method GetManifestResourceStream, addr 0x5970614, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetManifestResourceStream, addr 0x59d6f60, size 0x170, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetManifestResourceStream(::System::Type* type, ::StringW name, bool skipSecurityCheck, ::ByRef<::System::Threading::StackCrawlMark> stackMark);
 
-  /// @brief Method GetModule, addr 0x5971628, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetModule, addr 0x59d7f74, size 0x24, virtual true, abstract: false, final false
   inline ::System::Reflection::Module* GetModule(::StringW name);
 
-  /// @brief Method GetModules, addr 0x5971670, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetModules, addr 0x59d7fbc, size 0x24, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::Module*, ::Array<::System::Reflection::Module*>*> GetModules(bool getResourceModules);
 
-  /// @brief Method GetModulesInternal, addr 0x5970ee0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetModulesInternal, addr 0x59d782c, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::Module*, ::Array<::System::Reflection::Module*>*> GetModulesInternal();
 
-  /// @brief Method GetName, addr 0x59708cc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetName, addr 0x59d7218, size 0x14, virtual true, abstract: false, final false
   inline ::System::Reflection::AssemblyName* GetName();
 
-  /// @brief Method GetName, addr 0x5970894, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetName, addr 0x59d71e0, size 0x38, virtual true, abstract: false, final false
   inline ::System::Reflection::AssemblyName* GetName(bool copiedName);
 
-  /// @brief Method GetObjectData, addr 0x59704fc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x59d6e48, size 0x38, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetPublicKey, addr 0x59707c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetPublicKey, addr 0x59d710c, size 0x2c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPublicKey();
 
-  /// @brief Method GetReferencedAssemblies, addr 0x597164c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetReferencedAssemblies, addr 0x59d7f98, size 0x24, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::AssemblyName*, ::Array<::System::Reflection::AssemblyName*>*> GetReferencedAssemblies();
 
-  /// @brief Method GetReferencedAssemblies, addr 0x5970fb8, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method GetReferencedAssemblies, addr 0x59d7904, size 0x2b0, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::AssemblyName*, ::Array<::System::Reflection::AssemblyName*>*> GetReferencedAssemblies(::System::Reflection::Assembly* _cordl_module);
 
-  /// @brief Method GetSimpleName, addr 0x5970794, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetSimpleName, addr 0x59d70e0, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW GetSimpleName();
 
-  /// @brief Method GetType, addr 0x5970878, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetType, addr 0x59d71c4, size 0x18, virtual true, abstract: false, final false
   inline ::System::Type* GetType(::StringW name);
 
-  /// @brief Method GetType, addr 0x5970864, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetType, addr 0x59d71b0, size 0x14, virtual true, abstract: false, final false
   inline ::System::Type* GetType(::StringW name, bool throwOnError);
 
-  /// @brief Method GetType, addr 0x5971604, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetType, addr 0x59d7f50, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* GetType(::StringW name, bool throwOnError, bool ignoreCase);
 
-  /// @brief Method GetTypes, addr 0x5970850, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetTypes, addr 0x59d719c, size 0x14, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetTypes();
 
-  /// @brief Method GetTypes, addr 0x5970844, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetTypes, addr 0x59d7190, size 0xc, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetTypes(bool exportedOnly);
 
-  /// @brief Method GetVersion, addr 0x59707ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetVersion, addr 0x59d7138, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Version* GetVersion();
 
-  /// @brief Method InternalGetReferencedAssemblies, addr 0x5970f7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetReferencedAssemblies, addr 0x59d78c8, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr InternalGetReferencedAssemblies(::System::Reflection::Assembly* _cordl_module);
 
-  /// @brief Method InternalGetSatelliteAssembly, addr 0x597096c, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method InternalGetSatelliteAssembly, addr 0x59d72b8, size 0x3e8, virtual false, abstract: false, final false
   inline ::System::Reflection::RuntimeAssembly* InternalGetSatelliteAssembly(::StringW name, ::System::Globalization::CultureInfo* culture, ::System::Version* version, bool throwOnFileNotFound,
                                                                              ::ByRef<::System::Threading::StackCrawlMark> stackMark);
 
-  /// @brief Method InternalGetType, addr 0x5970890, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetType, addr 0x59d71dc, size 0x4, virtual false, abstract: false, final false
   inline ::System::Type* InternalGetType(::System::Reflection::Module* _cordl_module, ::StringW name, bool throwOnError, bool ignoreCase);
 
-  /// @brief Method IsDefined, addr 0x5970534, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x59d6e80, size 0x38, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method Load, addr 0x5970df8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x59d7744, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* Load(::StringW assemblyString);
 
-  /// @brief Method LoadFrom, addr 0x5970df4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LoadFrom, addr 0x59d7740, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* LoadFrom(::StringW assemblyFile, bool refOnly, ::ByRef<::System::Threading::StackCrawlMark> stackMark);
 
-  /// @brief Method LoadWithPartialName, addr 0x5970e60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LoadWithPartialName, addr 0x59d77ac, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* LoadWithPartialName(::StringW partialName);
 
-  /// @brief Method LoadWithPartialName, addr 0x5970e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LoadWithPartialName, addr 0x59d77b8, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* LoadWithPartialName(::StringW partialName, ::System::Security::Policy::Evidence* securityEvidence);
 
-  /// @brief Method LoadWithPartialName, addr 0x5970e78, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LoadWithPartialName, addr 0x59d77c4, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* LoadWithPartialName(::StringW partialName, ::System::Security::Policy::Evidence* securityEvidence, bool oldBehavior);
 
   static inline ::System::Reflection::Assembly* New_ctor();
 
-  /// @brief Method ReflectionOnlyLoad, addr 0x5970e1c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ReflectionOnlyLoad, addr 0x59d7768, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* ReflectionOnlyLoad(::StringW assemblyString);
 
-  /// @brief Method ToString, addr 0x59708e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x59d722c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x59716dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d8028, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CodeBase, addr 0x597041c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_CodeBase, addr 0x59d6d68, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_CodeBase();
 
-  /// @brief Method get_FullName, addr 0x5970454, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_FullName, addr 0x59d6da0, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_FullName();
 
-  /// @brief Method get_IsFullyTrusted, addr 0x59715fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsFullyTrusted, addr 0x59d7f48, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsFullyTrusted();
 
-  /// @brief Method get_Location, addr 0x59704c4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Location, addr 0x59d6e10, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_Location();
 
-  /// @brief Method get_MonoAssembly, addr 0x597048c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_MonoAssembly, addr 0x59d6dd8, size 0x38, virtual true, abstract: false, final false
   inline ::System::IntPtr get_MonoAssembly();
 
-  /// @brief Method get_ReflectionOnly, addr 0x5971524, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_ReflectionOnly, addr 0x59d7e70, size 0x38, virtual true, abstract: false, final false
   inline bool get_ReflectionOnly();
 
   /// @brief Convert to "::System::Reflection::ICustomAttributeProvider"
@@ -298,13 +298,13 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method load_with_partial_name, addr 0x5970e74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method load_with_partial_name, addr 0x59d77c0, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* load_with_partial_name(::StringW name, ::System::Security::Policy::Evidence* e);
 
-  /// @brief Method op_Equality, addr 0x5971694, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x59d7fe0, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::Assembly* left, ::System::Reflection::Assembly* right);
 
-  /// @brief Method op_Inequality, addr 0x5970d9c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x59d76e8, size 0x58, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Reflection::Assembly* left, ::System::Reflection::Assembly* right);
 
 protected:

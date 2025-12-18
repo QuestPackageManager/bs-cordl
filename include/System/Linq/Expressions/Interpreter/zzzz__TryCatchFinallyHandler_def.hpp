@@ -61,11 +61,11 @@ public:
                           __cordl_internal_set__handlers)) ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*>
       _handlers;
 
-  /// @brief Method FilterPasses, addr 0x5d84988, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method FilterPasses, addr 0x5dec514, size 0x1d8, virtual false, abstract: false, final false
   static inline bool FilterPasses(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::ByRef<::System::Object*> exception,
                                   ::System::Linq::Expressions::Interpreter::ExceptionFilter* filter);
 
-  /// @brief Method HasHandler, addr 0x5d84828, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method HasHandler, addr 0x5dec3b4, size 0x160, virtual false, abstract: false, final false
   inline bool HasHandler(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Exception* exception,
                          ::ByRef<::System::Linq::Expressions::Interpreter::ExceptionHandler*> handler, ::ByRef<::System::Object*> unwrappedException);
 
@@ -113,21 +113,21 @@ public:
 
   constexpr void __cordl_internal_set__handlers(::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*> value);
 
-  /// @brief Method .ctor, addr 0x5d84814, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dec3a0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t tryStart, int32_t tryEnd, int32_t gotoEndLabelIndex, int32_t finallyStart, int32_t finallyEnd,
                     ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*> handlers);
 
-  /// @brief Method .ctor, addr 0x5d847fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dec388, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t tryStart, int32_t tryEnd, int32_t gotoEndTargetIndex,
                     ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*> handlers);
 
-  /// @brief Method get_Handlers, addr 0x5d847e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handlers, addr 0x5dec370, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*> get_Handlers();
 
-  /// @brief Method get_IsCatchBlockExist, addr 0x5d847ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCatchBlockExist, addr 0x5dec378, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCatchBlockExist();
 
-  /// @brief Method get_IsFinallyBlockExist, addr 0x5d847d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_IsFinallyBlockExist, addr 0x5dec35c, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsFinallyBlockExist();
 
 protected:
@@ -145,7 +145,7 @@ public:
   TryCatchFinallyHandler(TryCatchFinallyHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16389 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16403 };
 
   /// @brief Field TryStartIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___TryStartIndex;

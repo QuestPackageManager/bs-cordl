@@ -28,6 +28,8 @@ template <typename T>
 struct CORDL_TYPE ValueListBuilder_1 {
 public:
   // Declarations
+  __declspec(property(get = get_Item)) T Item[];
+
   __declspec(property(get = get_Length)) int32_t Length;
 
   /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -42,8 +44,14 @@ public:
   /// @brief Method Grow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Grow();
 
+  /// @brief Method Pop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T Pop();
+
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Span_1<T> initialSpan);
+
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::ByRef<T> get_Item(int32_t index);
 
   /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Length();
@@ -57,7 +65,7 @@ public:
   constexpr ValueListBuilder_1(::System::Span_1<T> _span, ::ArrayW<T, ::Array<T>*> _arrayFromPool, int32_t _pos) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11366 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

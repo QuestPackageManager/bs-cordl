@@ -48,10 +48,10 @@ public:
 
   static inline ::GlobalNamespace::QuestGraphicSettingsViewController___c* New_ctor();
 
-  /// @brief Method <ShouldShowStinsonEntries>b__7_0, addr 0x56dc004, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <ShouldShowStinsonEntries>b__7_0, addr 0x57388b8, size 0x1c, virtual false, abstract: false, final false
   inline bool _ShouldShowStinsonEntries_b__7_0(float_t freq);
 
-  /// @brief Method .ctor, addr 0x56dc000, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57388b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::QuestGraphicSettingsViewController___c* getStaticF___9();
@@ -77,7 +77,7 @@ public:
   QuestGraphicSettingsViewController___c(QuestGraphicSettingsViewController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6531 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6524 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -105,21 +105,21 @@ public:
                       put = __cordl_internal_set__stinsonOnlyEntries)) ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>
       _stinsonOnlyEntries;
 
-  /// @brief Method DidActivate, addr 0x56dba50, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5738304, size 0x228, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x56dbe04, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x57386b8, size 0x14c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Handle120HzToggleValueChanged, addr 0x56dbf68, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Handle120HzToggleValueChanged, addr 0x573881c, size 0x40, virtual false, abstract: false, final false
   inline void Handle120HzToggleValueChanged(bool newState);
 
-  /// @brief Method HandleMirrorChanged, addr 0x56dbf50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleMirrorChanged, addr 0x5738804, size 0x18, virtual false, abstract: false, final false
   inline void HandleMirrorChanged(int32_t newValue);
 
   static inline ::GlobalNamespace::QuestGraphicSettingsViewController* New_ctor();
 
-  /// @brief Method ShouldShowStinsonEntries, addr 0x56dbc78, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ShouldShowStinsonEntries, addr 0x573852c, size 0x18c, virtual false, abstract: false, final false
   static inline bool ShouldShowStinsonEntries();
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__120HzMode() const;
@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set__stinsonOnlyEntries(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  /// @brief Method .ctor, addr 0x56dbfa8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x573885c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -158,7 +158,7 @@ public:
   QuestGraphicSettingsViewController(QuestGraphicSettingsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6532 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6525 };
 
   /// @brief Field _mirror, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PresetsSettingsController> ____mirror;

@@ -125,12 +125,12 @@ namespace UnityEngine::TextCore::Text {
 class CORDL_TYPE TextGenerator_MissingCharacterEventCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x69cfeec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6a38d70, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(uint32_t unicode, int32_t stringIndex, ::UnityEngine::TextCore::Text::TextInfo* text, ::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
   static inline ::UnityEngine::TextCore::Text::TextGenerator_MissingCharacterEventCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x69cfe80, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a38d04, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -148,7 +148,7 @@ public:
   TextGenerator_MissingCharacterEventCallback(TextGenerator_MissingCharacterEventCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17202 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17216 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -163,7 +163,7 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE TextGenerator_SpecialCharacter {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x69cff00, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a38d84, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::Text::Character* character, int32_t materialIndex);
 
   // Ctor Parameters []
@@ -177,7 +177,7 @@ public:
                                            ::UnityW<::UnityEngine::Material> material, int32_t materialIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17203 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17217 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -613,104 +613,104 @@ public:
   /// @brief Field s_TextGenerator, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_TextGenerator, put = setStaticF_s_TextGenerator)) ::UnityEngine::TextCore::Text::TextGenerator* s_TextGenerator;
 
-  /// @brief Method CalculatePreferredValues, addr 0x69b0364, size 0x2360, virtual true, abstract: false, final false
+  /// @brief Method CalculatePreferredValues, addr 0x6a191e8, size 0x2360, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 CalculatePreferredValues(::ByRef<float_t> fontSize, ::UnityEngine::Vector2 marginSize, bool isTextAutoSizingEnabled,
                                                          ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method ClearMarkupTagAttributes, addr 0x69accb8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ClearMarkupTagAttributes, addr 0x6a15b3c, size 0x64, virtual false, abstract: false, final false
   inline void ClearMarkupTagAttributes();
 
-  /// @brief Method ClearMesh, addr 0x69a1ecc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ClearMesh, addr 0x6a0ad50, size 0x20, virtual false, abstract: false, final false
   static inline void ClearMesh(bool updateMesh, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method ComputeMarginSize, addr 0x69b2700, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ComputeMarginSize, addr 0x6a1b584, size 0x68, virtual false, abstract: false, final false
   inline void ComputeMarginSize(::UnityEngine::Rect rect, ::UnityEngine::Vector4 margins);
 
-  /// @brief Method DoMissingGlyphCallback, addr 0x69b659c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DoMissingGlyphCallback, addr 0x6a1f420, size 0xa0, virtual false, abstract: false, final false
   inline void DoMissingGlyphCallback(uint32_t unicode, int32_t stringIndex, ::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method DrawTextHighlight, addr 0x69af3bc, size 0x808, virtual false, abstract: false, final false
+  /// @brief Method DrawTextHighlight, addr 0x6a18240, size 0x808, virtual false, abstract: false, final false
   inline void DrawTextHighlight(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::UnityEngine::Color32 highlightColor,
                                 ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method DrawUnderlineMesh, addr 0x69ae390, size 0xf04, virtual false, abstract: false, final false
+  /// @brief Method DrawUnderlineMesh, addr 0x6a17214, size 0xf04, virtual false, abstract: false, final false
   inline void DrawUnderlineMesh(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t startScale, float_t endScale, float_t maxScale, float_t sdfScale,
                                 ::UnityEngine::Color32 underlineColor, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method GenerateText, addr 0x69a1820, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GenerateText, addr 0x6a0a6a4, size 0x1cc, virtual false, abstract: false, final false
   inline void GenerateText(::UnityEngine::TextCore::Text::TextGenerationSettings* settings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method GenerateTextMesh, addr 0x69a1adc, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method GenerateTextMesh, addr 0x6a0a960, size 0x3e8, virtual false, abstract: false, final false
   inline void GenerateTextMesh(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method GetEllipsisSpecialCharacter, addr 0x69b5e98, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method GetEllipsisSpecialCharacter, addr 0x6a1ed1c, size 0x2b4, virtual false, abstract: false, final false
   inline bool GetEllipsisSpecialCharacter(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
 
-  /// @brief Method GetPreferredValues, addr 0x69b00c8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetPreferredValues, addr 0x6a18f4c, size 0x164, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetPreferredValues(::UnityEngine::TextCore::Text::TextGenerationSettings* settings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method GetPreferredValuesInternal, addr 0x69b022c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetPreferredValuesInternal, addr 0x6a190b0, size 0x138, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetPreferredValuesInternal(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method GetSpecialCharacters, addr 0x69b26c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetSpecialCharacters, addr 0x6a1b548, size 0x3c, virtual false, abstract: false, final false
   inline bool GetSpecialCharacters(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
 
-  /// @brief Method GetTextElement, addr 0x69b614c, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method GetTextElement, addr 0x6a1efd0, size 0x450, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextElement* GetTextElement(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, uint32_t unicode,
                                                                     ::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::TextCore::Text::FontStyles fontStyle,
                                                                     ::UnityEngine::TextCore::Text::TextFontWeight fontWeight, ::ByRef<bool> isUsingAlternativeTypeface, bool populateLigatures);
 
-  /// @brief Method GetUnderlineSpecialCharacter, addr 0x69af294, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetUnderlineSpecialCharacter, addr 0x6a18118, size 0x128, virtual false, abstract: false, final false
   inline bool GetUnderlineSpecialCharacter(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
 
-  /// @brief Method InsertNewLine, addr 0x69afbc4, size 0x504, virtual false, abstract: false, final false
+  /// @brief Method InsertNewLine, addr 0x6a18a48, size 0x504, virtual false, abstract: false, final false
   inline void InsertNewLine(int32_t i, float_t baseScale, float_t currentElementScale, float_t currentEmScale, float_t boldSpacingAdjustment, float_t characterSpacingAdjustment, float_t width,
                             float_t lineGap, ::ByRef<bool> isMaxVisibleDescenderSet, ::ByRef<float_t> maxVisibleDescender, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
                             ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method LayoutPhase, addr 0x69a5e50, size 0x29dc, virtual false, abstract: false, final false
+  /// @brief Method LayoutPhase, addr 0x6a0ecd4, size 0x29dc, virtual false, abstract: false, final false
   inline void LayoutPhase(::UnityEngine::TextCore::Text::TextInfo* textInfo, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, float_t maxVisibleDescender);
 
   static inline ::UnityEngine::TextCore::Text::TextGenerator* New_ctor();
 
-  /// @brief Method ParsingPhase, addr 0x69a1eec, size 0x3f64, virtual false, abstract: false, final false
+  /// @brief Method ParsingPhase, addr 0x6a0ad70, size 0x3f64, virtual false, abstract: false, final false
   inline void ParsingPhase(::UnityEngine::TextCore::Text::TextInfo* textInfo, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::ByRef<uint32_t> charCode,
                            ::ByRef<float_t> maxVisibleDescender);
 
-  /// @brief Method PopulateFontAsset, addr 0x69b4da0, size 0x10f8, virtual false, abstract: false, final false
+  /// @brief Method PopulateFontAsset, addr 0x6a1dc24, size 0x10f8, virtual false, abstract: false, final false
   inline bool PopulateFontAsset(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
                                 ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*> textProcessingArray);
 
-  /// @brief Method PopulateTextBackingArray, addr 0x69b2768, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method PopulateTextBackingArray, addr 0x6a1b5ec, size 0xd4, virtual false, abstract: false, final false
   inline void PopulateTextBackingArray(::ByRef<::UnityEngine::TextCore::Text::RenderedText> sourceText);
 
-  /// @brief Method PopulateTextProcessingArray, addr 0x69b283c, size 0xce4, virtual false, abstract: false, final false
+  /// @brief Method PopulateTextProcessingArray, addr 0x6a1b6c0, size 0xce4, virtual false, abstract: false, final false
   inline void PopulateTextProcessingArray(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
 
-  /// @brief Method Prepare, addr 0x69a19ec, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Prepare, addr 0x6a0a870, size 0xf0, virtual false, abstract: false, final false
   inline void Prepare(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method PrepareFontAsset, addr 0x69b4d00, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method PrepareFontAsset, addr 0x6a1db84, size 0xa0, virtual false, abstract: false, final false
   inline bool PrepareFontAsset(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
 
-  /// @brief Method RestoreWordWrappingState, addr 0x69acfbc, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method RestoreWordWrappingState, addr 0x6a15e40, size 0x2a4, virtual false, abstract: false, final false
   inline int32_t RestoreWordWrappingState(::ByRef<::UnityEngine::TextCore::Text::WordWrapState> state, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method SaveGlyphVertexInfo, addr 0x69ad260, size 0xad4, virtual false, abstract: false, final false
+  /// @brief Method SaveGlyphVertexInfo, addr 0x6a160e4, size 0xad4, virtual false, abstract: false, final false
   inline void SaveGlyphVertexInfo(float_t padding, float_t stylePadding, ::UnityEngine::Color32 vertexColor, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
                                   ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method SaveSpriteVertexInfo, addr 0x69add34, size 0x65c, virtual false, abstract: false, final false
+  /// @brief Method SaveSpriteVertexInfo, addr 0x6a16bb8, size 0x65c, virtual false, abstract: false, final false
   inline void SaveSpriteVertexInfo(::UnityEngine::Color32 vertexColor, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method SaveWordWrappingState, addr 0x69acd1c, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method SaveWordWrappingState, addr 0x6a15ba0, size 0x2a0, virtual false, abstract: false, final false
   inline void SaveWordWrappingState(::ByRef<::UnityEngine::TextCore::Text::WordWrapState> state, int32_t index, int32_t count, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method SetArraySizes, addr 0x69b3520, size 0x17e0, virtual false, abstract: false, final false
+  /// @brief Method SetArraySizes, addr 0x6a1c3a4, size 0x17e0, virtual false, abstract: false, final false
   inline int32_t SetArraySizes(::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*> textProcessingArray,
                                ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method ValidateHtmlTag, addr 0x69a882c, size 0x448c, virtual false, abstract: false, final false
+  /// @brief Method ValidateHtmlTag, addr 0x6a116b0, size 0x448c, virtual false, abstract: false, final false
   inline bool ValidateHtmlTag(::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*> chars, int32_t startIndex,
                               ::ByRef<int32_t> endIndex, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo,
                               ::ByRef<bool> isThreadSuccess);
@@ -1413,7 +1413,7 @@ public:
 
   constexpr void __cordl_internal_set_m_isTextLayoutPhase(bool value);
 
-  /// @brief Method .ctor, addr 0x69b663c, size 0x6c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a1f4c0, size 0x6c4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::TextCore::Text::TextGenerator_MissingCharacterEventCallback* getStaticF_OnMissingCharacter();
@@ -1422,10 +1422,10 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextGenerator* getStaticF_s_TextGenerator();
 
-  /// @brief Method get_IsExecutingJob, addr 0x69a1780, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_IsExecutingJob, addr 0x6a0a604, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_IsExecutingJob();
 
-  /// @brief Method get_isTextTruncated, addr 0x69a1ec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTextTruncated, addr 0x6a0ad48, size 0x8, virtual false, abstract: false, final false
   inline bool get_isTextTruncated();
 
   static inline void setStaticF_OnMissingCharacter(::UnityEngine::TextCore::Text::TextGenerator_MissingCharacterEventCallback* value);
@@ -1434,7 +1434,7 @@ public:
 
   static inline void setStaticF_s_TextGenerator(::UnityEngine::TextCore::Text::TextGenerator* value);
 
-  /// @brief Method set_IsExecutingJob, addr 0x69a17cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_IsExecutingJob, addr 0x6a0a650, size 0x54, virtual false, abstract: false, final false
   static inline void set_IsExecutingJob(bool value);
 
 protected:
@@ -1452,7 +1452,7 @@ public:
   TextGenerator(TextGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17204 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17218 };
 
   /// @brief Field k_CarriageReturn offset 0xffffffff size 0x4
   static constexpr int32_t k_CarriageReturn{ static_cast<int32_t>(0xd) };

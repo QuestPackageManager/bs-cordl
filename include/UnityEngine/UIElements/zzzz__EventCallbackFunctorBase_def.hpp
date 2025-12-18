@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_invokePolicy(::UnityEngine::UIElements::InvokePolicy value);
 
-  /// @brief Method .ctor, addr 0x6b642e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bcd164, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"

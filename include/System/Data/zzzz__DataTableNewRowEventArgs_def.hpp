@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set__Row_k__BackingField(::System::Data::DataRow* value);
 
-  /// @brief Method .ctor, addr 0x5e1490c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e7c498, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRow* dataRow);
 
 protected:
@@ -50,7 +50,7 @@ public:
   DataTableNewRowEventArgs(DataTableNewRowEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13767 };
 
   /// @brief Field <Row>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataRow* ____Row_k__BackingField;

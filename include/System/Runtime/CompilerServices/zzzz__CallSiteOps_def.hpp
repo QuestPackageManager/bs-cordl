@@ -42,7 +42,7 @@ public:
   static inline T Bind(::System::Runtime::CompilerServices::CallSiteBinder* binder, ::System::Runtime::CompilerServices::CallSite_1<T>* site,
                        ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method ClearMatch, addr 0x5da518c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ClearMatch, addr 0x5e0cd18, size 0x18, virtual false, abstract: false, final false
   static inline void ClearMatch(::System::Runtime::CompilerServices::CallSite* site);
 
   /// @brief Method CreateMatchmaker, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -51,7 +51,7 @@ public:
   /// @brief Method GetCachedRules, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetCachedRules(::System::Runtime::CompilerServices::RuleCache_1<T>* cache);
 
-  /// @brief Method GetMatch, addr 0x5da5178, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetMatch, addr 0x5e0cd04, size 0x14, virtual false, abstract: false, final false
   static inline bool GetMatch(::System::Runtime::CompilerServices::CallSite* site);
 
   /// @brief Method GetRuleCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -63,7 +63,7 @@ public:
   /// @brief Method MoveRule, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void MoveRule(::System::Runtime::CompilerServices::RuleCache_1<T>* cache, T rule, int32_t i);
 
-  /// @brief Method SetNotMatched, addr 0x5da515c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetNotMatched, addr 0x5e0cce8, size 0x1c, virtual false, abstract: false, final false
   static inline bool SetNotMatched(::System::Runtime::CompilerServices::CallSite* site);
 
   /// @brief Method UpdateRules, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -84,7 +84,7 @@ public:
   CallSiteOps(CallSiteOps const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16598 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

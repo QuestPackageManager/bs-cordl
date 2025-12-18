@@ -39,37 +39,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BeatmapKey>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BeatmapKey>*();
 
-  /// @brief Method Equals, addr 0x35f70b4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3621ff0, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x35f7060, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3621f9c, size 0x54, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::BeatmapKey other);
 
-  /// @brief Method GetHashCode, addr 0x35f7140, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x362207c, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetIdentifier, addr 0x35f6ff4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetIdentifier, addr 0x3621f30, size 0x6c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKeyNetSerializable* GetIdentifier();
 
-  /// @brief Method IsValid, addr 0x35f6f2c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x3621e68, size 0x84, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method SerializedName, addr 0x35f6fb0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SerializedName, addr 0x3621eec, size 0x44, virtual false, abstract: false, final false
   inline ::StringW SerializedName();
 
-  /// @brief Method ToString, addr 0x35f71f4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3622130, size 0xb8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x35f6e3c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3621d78, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelId, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty difficulty);
 
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BeatmapKey>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::BeatmapKey>* i___System__IEquatable_1___GlobalNamespace__BeatmapKey_();
 
-  /// @brief Method op_Equality, addr 0x35f6f04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3621e40, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::BeatmapKey a, ::GlobalNamespace::BeatmapKey b);
 
-  /// @brief Method op_Inequality, addr 0x35f71bc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x36220f8, size 0x38, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::BeatmapKey a, ::GlobalNamespace::BeatmapKey b);
 
   // Ctor Parameters []
@@ -83,7 +83,7 @@ public:
                        ::StringW characteristic) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14920 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

@@ -49,10 +49,10 @@ public:
 
   static inline ::GlobalNamespace::TriggerFloatFxGroupEffectManager___c* New_ctor();
 
-  /// @brief Method <Start>b__3_0, addr 0x577d630, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__3_0, addr 0x57e3ed8, size 0x14, virtual false, abstract: false, final false
   inline bool _Start_b__3_0(::GlobalNamespace::FloatFxGroup* group);
 
-  /// @brief Method .ctor, addr 0x577d62c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57e3ed4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::TriggerFloatFxGroupEffectManager___c* getStaticF___9();
@@ -109,10 +109,10 @@ public:
 
   static inline ::GlobalNamespace::TriggerFloatFxGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x577d430, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x57e3cd8, size 0x114, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x577cf48, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x57e37f0, size 0x4e8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set__floatFxGroups(::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*> value);
 
-  /// @brief Method .ctor, addr 0x577d560, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57e3e08, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

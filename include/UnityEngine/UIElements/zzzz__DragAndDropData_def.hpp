@@ -40,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set__paths_k__BackingField(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x6b55f8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bbee10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_source, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* get_source();
 
-  /// @brief Method set_paths, addr 0x6b57304, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_paths, addr 0x6bc0188, size 0x8, virtual true, abstract: false, final false
   inline void set_paths(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
 protected:

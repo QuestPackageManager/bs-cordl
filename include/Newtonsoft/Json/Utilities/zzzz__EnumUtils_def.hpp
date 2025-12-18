@@ -78,10 +78,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::EnumUtils___c* New_ctor();
 
-  /// @brief Method <InitializeValuesAndNames>b__3_0, addr 0x5b12a74, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <InitializeValuesAndNames>b__3_0, addr 0x5b79554, size 0x14, virtual false, abstract: false, final false
   inline ::StringW _InitializeValuesAndNames_b__3_0(::System::Runtime::Serialization::EnumMemberAttribute* a);
 
-  /// @brief Method .ctor, addr 0x5b12a70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b79550, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::EnumUtils___c* getStaticF___9();
@@ -107,7 +107,7 @@ public:
   EnumUtils___c(EnumUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13385 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13389 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -161,7 +161,7 @@ public:
   EnumUtils___c__4_1(EnumUtils___c__4_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13390 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -185,37 +185,37 @@ public:
   /// @brief Field _camelCaseNamingStrategy, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__camelCaseNamingStrategy, put = setStaticF__camelCaseNamingStrategy)) ::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy* _camelCaseNamingStrategy;
 
-  /// @brief Method FindIndexByName, addr 0x5b12738, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FindIndexByName, addr 0x5b79218, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<int32_t> FindIndexByName(::ArrayW<::StringW, ::Array<::StringW>*> enumNames, ::StringW value, int32_t valueIndex, int32_t valueSubstringLength,
                                                               ::System::StringComparison comparison);
 
-  /// @brief Method GetEnumValuesAndNames, addr 0x5b11ef8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetEnumValuesAndNames, addr 0x5b789d8, size 0xa0, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::EnumInfo* GetEnumValuesAndNames(::System::Type* enumType);
 
   /// @brief Method GetFlagsValues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IList_1<T>* GetFlagsValues(T value);
 
-  /// @brief Method InitializeValuesAndNames, addr 0x5b113e4, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method InitializeValuesAndNames, addr 0x5b77ec4, size 0x4dc, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::EnumInfo*
   InitializeValuesAndNames(::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*> key);
 
-  /// @brief Method InternalFlagsFormat, addr 0x5b11d4c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method InternalFlagsFormat, addr 0x5b7882c, size 0x1ac, virtual false, abstract: false, final false
   static inline ::StringW InternalFlagsFormat(::Newtonsoft::Json::Utilities::EnumInfo* entry, uint64_t result);
 
-  /// @brief Method MatchName, addr 0x5b12820, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method MatchName, addr 0x5b79300, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<int32_t> MatchName(::StringW value, ::ArrayW<::StringW, ::Array<::StringW>*> enumNames, ::ArrayW<::StringW, ::Array<::StringW>*> resolvedNames, int32_t valueIndex,
                                                         int32_t valueSubstringLength, ::System::StringComparison comparison);
 
-  /// @brief Method ParseEnum, addr 0x5b11f98, size 0x7a0, virtual false, abstract: false, final false
+  /// @brief Method ParseEnum, addr 0x5b78a78, size 0x7a0, virtual false, abstract: false, final false
   static inline ::System::Object* ParseEnum(::System::Type* enumType, ::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy, ::StringW value, bool disallowNumber);
 
-  /// @brief Method ToUInt64, addr 0x5b118c0, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x5b783a0, size 0x280, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::System::Object* value);
 
-  /// @brief Method TryToString, addr 0x5b11b40, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method TryToString, addr 0x5b78620, size 0xa4, virtual false, abstract: false, final false
   static inline bool TryToString(::System::Type* enumType, ::System::Object* value, bool camelCase, ::ByRef<::StringW> name);
 
-  /// @brief Method TryToString, addr 0x5b11be4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method TryToString, addr 0x5b786c4, size 0x168, virtual false, abstract: false, final false
   static inline bool TryToString(::System::Type* enumType, ::System::Object* value, ::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy, ::ByRef<::StringW> name);
 
   static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>,
@@ -251,7 +251,7 @@ public:
   static constexpr ::ConstString EnumSeparatorString{ u", " };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13387 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13391 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

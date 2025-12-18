@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RenderGraphCompilationCache::*)()>(&::GlobalNamespace::RenderGraphCompilationCache::_ctor)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x652476c;
+  constexpr static std::size_t addrs = 0x658c2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RenderGraphCompilationCache*>::get(), ".ctor",
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::RenderGraphCompilationCache::*)(
     int32_t, int32_t, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledGraph*>)>(&::GlobalNamespace::RenderGraphCompilationCache::GetCompilationCache)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x652499c;
+  constexpr static std::size_t addrs = 0x658c528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::RenderGraphCompilationCache::*)(int32_t, int32_t, ::ByRef<Il2CppObject*>)>(
     &::GlobalNamespace::RenderGraphCompilationCache::GetCompilationCache)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6524a54;
+  constexpr static std::size_t addrs = 0x658c5e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RenderGraphCompilationCache::*)()>(&::GlobalNamespace::RenderGraphCompilationCache::Clear)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x6524b0c;
+  constexpr static std::size_t addrs = 0x658c698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RenderGraphCompilationCache*>::get(), "Clear",

@@ -133,7 +133,7 @@ public:
   BindSignalToBinder_1___c__DisplayClass6_0(BindSignalToBinder_1___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13967 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<TSignal>* ___callback;
@@ -189,7 +189,7 @@ public:
   BindSignalToBinder_1___c__DisplayClass7_0(BindSignalToBinder_1___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13968 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___callback;
@@ -245,7 +245,7 @@ public:
   BindSignalToBinder_1___c__DisplayClass8_0_1(BindSignalToBinder_1___c__DisplayClass8_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13965 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13969 };
 
   /// @brief Field handler, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<TObject, TSignal>* ___handler;
@@ -311,7 +311,7 @@ public:
   BindSignalToBinder_1___c__DisplayClass8_1_1(BindSignalToBinder_1___c__DisplayClass8_1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13970 };
 
   /// @brief Field x, offset: 0x10, size: 0x8, def value: None
   TObject ___x;
@@ -370,7 +370,7 @@ public:
   BindSignalToBinder_1___c__DisplayClass9_0_1(BindSignalToBinder_1___c__DisplayClass9_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13971 };
 
   /// @brief Field handlerGetter, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<TObject, ::System::Action*>* ___handlerGetter;
@@ -436,7 +436,7 @@ public:
   BindSignalToBinder_1___c__DisplayClass9_1_1(BindSignalToBinder_1___c__DisplayClass9_1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13968 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13972 };
 
   /// @brief Field x, offset: 0x10, size: 0x8, def value: None
   TObject ___x;
@@ -542,7 +542,7 @@ public:
   BindSignalToBinder_1(BindSignalToBinder_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13973 };
 
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

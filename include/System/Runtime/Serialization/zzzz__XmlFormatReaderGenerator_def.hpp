@@ -79,7 +79,7 @@ public:
 
   static inline ::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <GenerateClassReader>b__0, addr 0x5f47c48, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <GenerateClassReader>b__0, addr 0x5faf7d4, size 0x88, virtual false, abstract: false, final false
   inline ::System::Object* _GenerateClassReader_b__0(::System::Runtime::Serialization::XmlReaderDelegator* xr, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* ctx,
                                                      ::ArrayW<::System::Xml::XmlDictionaryString*, ::Array<::System::Xml::XmlDictionaryString*>*> memberNames,
                                                      ::ArrayW<::System::Xml::XmlDictionaryString*, ::Array<::System::Xml::XmlDictionaryString*>*> memberNamespaces);
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_classContract(::System::Runtime::Serialization::ClassDataContract* value);
 
-  /// @brief Method .ctor, addr 0x5f47c3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5faf7c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17093 };
 
   /// @brief Field classContract, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::ClassDataContract* ___classContract;
@@ -133,7 +133,7 @@ public:
 
   static inline ::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <GenerateCollectionReader>b__0, addr 0x5f47cd0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <GenerateCollectionReader>b__0, addr 0x5faf85c, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Object* _GenerateCollectionReader_b__0(::System::Runtime::Serialization::XmlReaderDelegator* xr, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* ctx,
                                                           ::System::Xml::XmlDictionaryString* inm, ::System::Xml::XmlDictionaryString* ins,
                                                           ::System::Runtime::Serialization::CollectionDataContract* cc);
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set_collectionContract(::System::Runtime::Serialization::CollectionDataContract* value);
 
-  /// @brief Method .ctor, addr 0x5f47c40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5faf7cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -162,7 +162,7 @@ public:
   CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17094 };
 
   /// @brief Field collectionContract, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::CollectionDataContract* ___collectionContract;
@@ -187,7 +187,7 @@ public:
 
   static inline ::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <GenerateGetOnlyCollectionReader>b__0, addr 0x5f47d5c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <GenerateGetOnlyCollectionReader>b__0, addr 0x5faf8e8, size 0x84, virtual false, abstract: false, final false
   inline void _GenerateGetOnlyCollectionReader_b__0(::System::Runtime::Serialization::XmlReaderDelegator* xr, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* ctx,
                                                     ::System::Xml::XmlDictionaryString* inm, ::System::Xml::XmlDictionaryString* ins, ::System::Runtime::Serialization::CollectionDataContract* cc);
 
@@ -197,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set_collectionContract(::System::Runtime::Serialization::CollectionDataContract* value);
 
-  /// @brief Method .ctor, addr 0x5f47c44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5faf7d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -215,7 +215,7 @@ public:
   CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0(CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17081 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17095 };
 
   /// @brief Field collectionContract, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::CollectionDataContract* ___collectionContract;
@@ -241,18 +241,18 @@ public:
 
   using __c__DisplayClass2_0 = ::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0;
 
-  /// @brief Method GenerateClassReader, addr 0x5f47698, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GenerateClassReader, addr 0x5faf224, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlFormatClassReaderDelegate* GenerateClassReader(::System::Runtime::Serialization::ClassDataContract* classContract);
 
-  /// @brief Method GenerateCollectionReader, addr 0x5f478d8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GenerateCollectionReader, addr 0x5faf464, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate* GenerateCollectionReader(::System::Runtime::Serialization::CollectionDataContract* collectionContract);
 
-  /// @brief Method GenerateGetOnlyCollectionReader, addr 0x5f47b18, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GenerateGetOnlyCollectionReader, addr 0x5faf6a4, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlFormatGetOnlyCollectionReaderDelegate* GenerateGetOnlyCollectionReader(::System::Runtime::Serialization::CollectionDataContract* collectionContract);
 
   static inline ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5f474fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5faf088, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -270,7 +270,7 @@ public:
   XmlFormatReaderGenerator_CriticalHelper(XmlFormatReaderGenerator_CriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17096 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -290,18 +290,18 @@ public:
   /// @brief Field helper, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_helper, put = __cordl_internal_set_helper)) ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper* helper;
 
-  /// @brief Method GenerateClassReader, addr 0x5f47500, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GenerateClassReader, addr 0x5faf08c, size 0x198, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlFormatClassReaderDelegate* GenerateClassReader(::System::Runtime::Serialization::ClassDataContract* classContract);
 
-  /// @brief Method GenerateCollectionReader, addr 0x5f47740, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GenerateCollectionReader, addr 0x5faf2cc, size 0x198, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate* GenerateCollectionReader(::System::Runtime::Serialization::CollectionDataContract* collectionContract);
 
-  /// @brief Method GenerateGetOnlyCollectionReader, addr 0x5f47980, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GenerateGetOnlyCollectionReader, addr 0x5faf50c, size 0x198, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlFormatGetOnlyCollectionReaderDelegate* GenerateGetOnlyCollectionReader(::System::Runtime::Serialization::CollectionDataContract* collectionContract);
 
   static inline ::System::Runtime::Serialization::XmlFormatReaderGenerator* New_ctor();
 
-  /// @brief Method UnsafeGetUninitializedObject, addr 0x5f47bc0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method UnsafeGetUninitializedObject, addr 0x5faf74c, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Object* UnsafeGetUninitializedObject(int32_t id);
 
   constexpr ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper* const& __cordl_internal_get_helper() const;
@@ -310,7 +310,7 @@ public:
 
   constexpr void __cordl_internal_set_helper(::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper* value);
 
-  /// @brief Method .ctor, addr 0x5f474ac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5faf038, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -328,7 +328,7 @@ public:
   XmlFormatReaderGenerator(XmlFormatReaderGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17097 };
 
   /// @brief Field helper, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper* ___helper;

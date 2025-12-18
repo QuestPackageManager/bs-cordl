@@ -21,7 +21,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE DisposeHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NotifyDisposedUsed, addr 0x6b54c64, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method NotifyDisposedUsed, addr 0x6bbdae8, size 0xd4, virtual false, abstract: false, final false
   static inline void NotifyDisposedUsed(::System::IDisposable* disposable);
 
 protected:

@@ -9,9 +9,6 @@ CORDL_MODULE_EXPORT(IConnectedPlayer)
 namespace GlobalNamespace {
 struct DisconnectedReason;
 }
-namespace GlobalNamespace {
-struct MultiplayerAvatarsData;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -25,6 +22,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE IConnectedPlayer {
 public:
   // Declarations
+  __declspec(property(get = get_compatibilityVersion)) ::StringW compatibilityVersion;
+
   __declspec(property(get = get_currentLatency)) int64_t currentLatency;
 
   __declspec(property(get = get_disconnectedReason)) ::GlobalNamespace::DisconnectedReason disconnectedReason;
@@ -39,8 +38,6 @@ public:
 
   __declspec(property(get = get_isMe)) bool isMe;
 
-  __declspec(property(get = get_multiplayerAvatarsData)) ::GlobalNamespace::MultiplayerAvatarsData multiplayerAvatarsData;
-
   __declspec(property(get = get_offsetSyncTime)) int64_t offsetSyncTime;
 
   __declspec(property(get = get_sortIndex)) int32_t sortIndex;
@@ -51,6 +48,9 @@ public:
 
   /// @brief Method HasState, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool HasState(::StringW state);
+
+  /// @brief Method get_compatibilityVersion, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW get_compatibilityVersion();
 
   /// @brief Method get_currentLatency, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int64_t get_currentLatency();
@@ -73,9 +73,6 @@ public:
   /// @brief Method get_isMe, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_isMe();
 
-  /// @brief Method get_multiplayerAvatarsData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::MultiplayerAvatarsData get_multiplayerAvatarsData();
-
   /// @brief Method get_offsetSyncTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int64_t get_offsetSyncTime();
 
@@ -93,7 +90,7 @@ public:
   IConnectedPlayer(IConnectedPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18133 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

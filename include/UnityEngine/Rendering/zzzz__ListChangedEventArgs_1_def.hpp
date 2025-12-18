@@ -59,7 +59,7 @@ public:
   ListChangedEventArgs_1(ListChangedEventArgs_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11908 };
 
   /// @brief Field index, offset: 0x10, size: 0x4, def value: None
   int32_t ___index;

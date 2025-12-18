@@ -53,116 +53,116 @@ public:
   /// @brief Field <IsInterior>k__BackingField, offset 0x46, size 0x1
   __declspec(property(get = __cordl_internal_get__IsInterior_k__BackingField, put = __cordl_internal_set__IsInterior_k__BackingField)) bool _IsInterior_k__BackingField;
 
-  /// @brief Method Area, addr 0x648e244, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Area, addr 0x64f5dd0, size 0xb8, virtual false, abstract: false, final false
   inline double_t Area();
 
-  /// @brief Method Centroid, addr 0x648e2fc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Centroid, addr 0x64f5e88, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Centroid();
 
-  /// @brief Method Contains, addr 0x648d4c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x64f5050, size 0x5c, virtual false, abstract: false, final false
   inline bool Contains(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
 
-  /// @brief Method EdgeIndex, addr 0x648d5f0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method EdgeIndex, addr 0x64f517c, size 0xd0, virtual false, abstract: false, final false
   inline int32_t EdgeIndex(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2);
 
-  /// @brief Method GetConstrainedEdgeAcross, addr 0x648e43c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetConstrainedEdgeAcross, addr 0x64f5fc8, size 0x1c, virtual false, abstract: false, final false
   inline bool GetConstrainedEdgeAcross(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
 
-  /// @brief Method GetConstrainedEdgeCCW, addr 0x648e3c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetConstrainedEdgeCCW, addr 0x64f5f50, size 0x3c, virtual false, abstract: false, final false
   inline bool GetConstrainedEdgeCCW(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
 
-  /// @brief Method GetConstrainedEdgeCW, addr 0x648e400, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetConstrainedEdgeCW, addr 0x64f5f8c, size 0x3c, virtual false, abstract: false, final false
   inline bool GetConstrainedEdgeCW(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
 
-  /// @brief Method GetDelaunayEdgeAcross, addr 0x648e594, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetDelaunayEdgeAcross, addr 0x64f6120, size 0x1c, virtual false, abstract: false, final false
   inline bool GetDelaunayEdgeAcross(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
 
-  /// @brief Method GetDelaunayEdgeCCW, addr 0x648e51c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDelaunayEdgeCCW, addr 0x64f60a8, size 0x3c, virtual false, abstract: false, final false
   inline bool GetDelaunayEdgeCCW(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
 
-  /// @brief Method GetDelaunayEdgeCW, addr 0x648e558, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDelaunayEdgeCW, addr 0x64f60e4, size 0x3c, virtual false, abstract: false, final false
   inline bool GetDelaunayEdgeCW(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
 
-  /// @brief Method IndexCCWFrom, addr 0x648d490, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IndexCCWFrom, addr 0x64f501c, size 0x34, virtual false, abstract: false, final false
   inline int32_t IndexCCWFrom(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
 
-  /// @brief Method IndexCWFrom, addr 0x648d45c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IndexCWFrom, addr 0x64f4fe8, size 0x34, virtual false, abstract: false, final false
   inline int32_t IndexCWFrom(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
 
-  /// @brief Method IndexOf, addr 0x648d3ac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x64f4f38, size 0xb0, virtual false, abstract: false, final false
   inline int32_t IndexOf(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
 
-  /// @brief Method Legalize, addr 0x648dba4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Legalize, addr 0x64f5730, size 0x98, virtual false, abstract: false, final false
   inline void Legalize(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* oPoint, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* nPoint);
 
-  /// @brief Method MarkConstrainedEdge, addr 0x648e22c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method MarkConstrainedEdge, addr 0x64f5db8, size 0x18, virtual false, abstract: false, final false
   inline void MarkConstrainedEdge(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge);
 
-  /// @brief Method MarkConstrainedEdge, addr 0x648e1bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MarkConstrainedEdge, addr 0x64f5d48, size 0xc, virtual false, abstract: false, final false
   inline void MarkConstrainedEdge(int32_t index);
 
-  /// @brief Method MarkConstrainedEdge, addr 0x648def8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method MarkConstrainedEdge, addr 0x64f5a84, size 0x30, virtual false, abstract: false, final false
   inline void MarkConstrainedEdge(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* q);
 
-  /// @brief Method MarkEdge, addr 0x648e00c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method MarkEdge, addr 0x64f5b98, size 0x1b0, virtual false, abstract: false, final false
   inline void MarkEdge(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* tList);
 
-  /// @brief Method MarkEdge, addr 0x648df28, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method MarkEdge, addr 0x64f5ab4, size 0xe4, virtual false, abstract: false, final false
   inline void MarkEdge(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* triangle);
 
-  /// @brief Method MarkNeighbor, addr 0x648d520, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method MarkNeighbor, addr 0x64f50ac, size 0xd0, virtual false, abstract: false, final false
   inline void MarkNeighbor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2,
                            ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
 
-  /// @brief Method MarkNeighbor, addr 0x648d6c0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method MarkNeighbor, addr 0x64f524c, size 0x178, virtual false, abstract: false, final false
   inline void MarkNeighbor(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
 
-  /// @brief Method MarkNeighborEdges, addr 0x648dd70, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method MarkNeighborEdges, addr 0x64f58fc, size 0x128, virtual false, abstract: false, final false
   inline void MarkNeighborEdges();
 
-  /// @brief Method NeighborAcrossFrom, addr 0x648da34, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method NeighborAcrossFrom, addr 0x64f55c0, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* NeighborAcrossFrom(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method NeighborCCWFrom, addr 0x648d990, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method NeighborCCWFrom, addr 0x64f551c, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* NeighborCCWFrom(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method NeighborCWFrom, addr 0x648d8ec, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method NeighborCWFrom, addr 0x64f5478, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* NeighborCWFrom(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*
   New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p3);
 
-  /// @brief Method OppositePoint, addr 0x648d838, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OppositePoint, addr 0x64f53c4, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* OppositePoint(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
 
-  /// @brief Method PointCCWFrom, addr 0x648dab8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method PointCCWFrom, addr 0x64f5644, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* PointCCWFrom(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method PointCWFrom, addr 0x648d864, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method PointCWFrom, addr 0x64f53f0, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* PointCWFrom(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method RotateCW, addr 0x648db40, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RotateCW, addr 0x64f56cc, size 0x64, virtual false, abstract: false, final false
   inline void RotateCW();
 
-  /// @brief Method SetConstrainedEdgeAcross, addr 0x648e4f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetConstrainedEdgeAcross, addr 0x64f607c, size 0x2c, virtual false, abstract: false, final false
   inline void SetConstrainedEdgeAcross(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p, bool ce);
 
-  /// @brief Method SetConstrainedEdgeCCW, addr 0x648e458, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetConstrainedEdgeCCW, addr 0x64f5fe4, size 0x4c, virtual false, abstract: false, final false
   inline void SetConstrainedEdgeCCW(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p, bool ce);
 
-  /// @brief Method SetConstrainedEdgeCW, addr 0x648e4a4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetConstrainedEdgeCW, addr 0x64f6030, size 0x4c, virtual false, abstract: false, final false
   inline void SetConstrainedEdgeCW(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p, bool ce);
 
-  /// @brief Method SetDelaunayEdgeAcross, addr 0x648e648, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetDelaunayEdgeAcross, addr 0x64f61d4, size 0x2c, virtual false, abstract: false, final false
   inline void SetDelaunayEdgeAcross(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p, bool ce);
 
-  /// @brief Method SetDelaunayEdgeCCW, addr 0x648e5b0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetDelaunayEdgeCCW, addr 0x64f613c, size 0x4c, virtual false, abstract: false, final false
   inline void SetDelaunayEdgeCCW(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p, bool ce);
 
-  /// @brief Method SetDelaunayEdgeCW, addr 0x648e5fc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetDelaunayEdgeCW, addr 0x64f6188, size 0x4c, virtual false, abstract: false, final false
   inline void SetDelaunayEdgeCW(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p, bool ce);
 
-  /// @brief Method ToString, addr 0x648dc3c, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x64f57c8, size 0x134, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 const& __cordl_internal_get_EdgeIsConstrained() const;
@@ -195,14 +195,14 @@ public:
 
   constexpr void __cordl_internal_set__IsInterior_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x648d348, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64f4ed4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p1, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p2,
                     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p3);
 
-  /// @brief Method get_IsInterior, addr 0x648d338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInterior, addr 0x64f4ec4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInterior();
 
-  /// @brief Method set_IsInterior, addr 0x648d340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsInterior, addr 0x64f4ecc, size 0x8, virtual false, abstract: false, final false
   inline void set_IsInterior(bool value);
 
 protected:
@@ -220,7 +220,7 @@ public:
   DelaunayTriangle(DelaunayTriangle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21543 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21570 };
 
   /// @brief Field Points, offset: 0x10, size: 0x18, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> ___Points;

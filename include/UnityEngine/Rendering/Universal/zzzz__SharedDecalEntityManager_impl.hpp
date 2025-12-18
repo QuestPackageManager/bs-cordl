@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::DecalEntityManager* (
     ::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)()>(&::UnityEngine::Rendering::Universal::SharedDecalEntityManager::Get)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x668dbb4;
+  constexpr static std::size_t addrs = 0x66f5740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)(
     ::UnityEngine::Rendering::Universal::DecalEntityManager*)>(&::UnityEngine::Rendering::Universal::SharedDecalEntityManager::Release)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x668de74;
+  constexpr static std::size_t addrs = 0x66f5a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)()>(
     &::UnityEngine::Rendering::Universal::SharedDecalEntityManager::Dispose)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x668de90;
+  constexpr static std::size_t addrs = 0x66f5a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)(
     ::UnityEngine::Rendering::Universal::DecalProjector*)>(&::UnityEngine::Rendering::Universal::SharedDecalEntityManager::OnDecalAdd)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x668e074;
+  constexpr static std::size_t addrs = 0x66f5c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)(
     ::UnityEngine::Rendering::Universal::DecalProjector*)>(&::UnityEngine::Rendering::Universal::SharedDecalEntityManager::OnDecalRemove)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x668e0cc;
+  constexpr static std::size_t addrs = 0x66f5c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)(
     ::UnityEngine::Rendering::Universal::DecalProjector*)>(&::UnityEngine::Rendering::Universal::SharedDecalEntityManager::OnDecalPropertyChange)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x668e0f0;
+  constexpr static std::size_t addrs = 0x66f5c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)()>(
     &::UnityEngine::Rendering::Universal::SharedDecalEntityManager::OnAllDecalPropertyChange)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x668e150;
+  constexpr static std::size_t addrs = 0x66f5cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)(
     ::UnityEngine::Rendering::Universal::DecalProjector*)>(&::UnityEngine::Rendering::Universal::SharedDecalEntityManager::OnDecalMaterialChange)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x668e168;
+  constexpr static std::size_t addrs = 0x66f5cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::SharedDecalEntityManager::*)()>(
     &::UnityEngine::Rendering::Universal::SharedDecalEntityManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x668e190;
+  constexpr static std::size_t addrs = 0x66f5d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

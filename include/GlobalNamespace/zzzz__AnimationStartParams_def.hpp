@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::AnimationStartParams* New_ctor();
 
-  /// @brief Method Start, addr 0x563b20c, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x56a0020, size 0x2ac, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__timeOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x563b4b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56a02cc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   AnimationStartParams(AnimationStartParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20029 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20245 };
 
   /// @brief Field _timeOffset, offset: 0x20, size: 0x4, def value: None
   float_t ____timeOffset;

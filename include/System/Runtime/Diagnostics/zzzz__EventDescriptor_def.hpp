@@ -54,13 +54,13 @@ public:
   /// @brief Field m_version, offset 0x2, size 0x1
   __declspec(property(get = __cordl_internal_get_m_version, put = __cordl_internal_set_m_version)) uint8_t m_version;
 
-  /// @brief Method Equals, addr 0x5f74b84, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5fdc710, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5f74c04, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x5fdc790, size 0x74, virtual false, abstract: false, final false
   inline bool Equals(::System::Runtime::Diagnostics::EventDescriptor other);
 
-  /// @brief Method GetHashCode, addr 0x5f74c78, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5fdc804, size 0x3c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   constexpr uint8_t const& __cordl_internal_get_m_channel() const;
@@ -105,22 +105,22 @@ public:
 
   constexpr void __cordl_internal_set_m_version(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x5f6d578, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd5104, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(int32_t id, uint8_t version, uint8_t channel, uint8_t level, uint8_t opcode, int32_t task, int64_t keywords);
 
-  /// @brief Method get_Channel, addr 0x5f74b64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Channel, addr 0x5fdc6f0, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_Channel();
 
-  /// @brief Method get_EventId, addr 0x5f74b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EventId, addr 0x5fdc6e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_EventId();
 
-  /// @brief Method get_Keywords, addr 0x5f74b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Keywords, addr 0x5fdc708, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Keywords();
 
-  /// @brief Method get_Level, addr 0x5f74b6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Level, addr 0x5fdc6f8, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_Level();
 
-  /// @brief Method get_Opcode, addr 0x5f74b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Opcode, addr 0x5fdc700, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_Opcode();
 
   // Ctor Parameters []
@@ -237,7 +237,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21133 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -88,7 +88,7 @@ public:
   SerializedDictionary_4(SerializedDictionary_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11918 };
 
   /// @brief Field m_Keys, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<SK>* ___m_Keys;

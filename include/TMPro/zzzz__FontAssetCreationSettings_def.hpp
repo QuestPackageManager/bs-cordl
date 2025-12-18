@@ -21,7 +21,7 @@ namespace TMPro {
 struct CORDL_TYPE FontAssetCreationSettings {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x673c9f0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67a4568, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::StringW sourceFontFileGUID, int32_t pointSize, int32_t pointSizeSamplingMode, int32_t padding, int32_t packingMode, int32_t atlasWidth, int32_t atlasHeight,
                     int32_t characterSelectionMode, ::StringW characterSet, int32_t renderMode);
 
@@ -44,7 +44,7 @@ public:
                                       bool includeFontFeatures) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15887 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };

@@ -19,7 +19,7 @@ namespace UnityEngine::UIElements::Layout {
 struct CORDL_TYPE LayoutConfigData {
 public:
   // Declarations
-  /// @brief Method get_Default, addr 0x6aca8dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x6b33760, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutConfigData get_Default();
 
   // Ctor Parameters []

@@ -86,13 +86,13 @@ public:
   /// @brief Field s_invokeMoveNext, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_invokeMoveNext, put = setStaticF_s_invokeMoveNext)) ::System::Threading::ContextCallback* s_invokeMoveNext;
 
-  /// @brief Method InvokeMoveNext, addr 0x595bdc8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method InvokeMoveNext, addr 0x59c2714, size 0xe4, virtual false, abstract: false, final false
   static inline void InvokeMoveNext(::System::Object* stateMachine);
 
   static inline ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner* New_ctor(::System::Threading::ExecutionContext* context,
                                                                                                      ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-  /// @brief Method Run, addr 0x595bbc8, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x59c2514, size 0x200, virtual false, abstract: false, final false
   inline void Run();
 
   constexpr ::System::Threading::ExecutionContext* const& __cordl_internal_get_m_context() const;
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set_m_stateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* value);
 
-  /// @brief Method .ctor, addr 0x595b800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c214c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ExecutionContext* context, ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   static inline ::System::Threading::ContextCallback* getStaticF_s_invokeMoveNext();
@@ -163,7 +163,7 @@ public:
   /// @brief Field m_invokeAction, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_invokeAction, put = __cordl_internal_set_m_invokeAction)) ::System::Action* m_invokeAction;
 
-  /// @brief Method Invoke, addr 0x595beac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x59c27f8, size 0x20, virtual false, abstract: false, final false
   inline void Invoke();
 
   static inline ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper* New_ctor(::System::Action* continuation, ::System::Action* invokeAction,
@@ -187,7 +187,7 @@ public:
 
   constexpr void __cordl_internal_set_m_invokeAction(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x595bb08, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c2454, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* continuation, ::System::Action* invokeAction, ::System::Threading::Tasks::Task* innerTask);
 
 protected:
@@ -243,7 +243,7 @@ public:
 
   static inline ::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <OutputAsyncCausalityEvents>b__0, addr 0x595becc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <OutputAsyncCausalityEvents>b__0, addr 0x59c2818, size 0x5c, virtual false, abstract: false, final false
   inline void _OutputAsyncCausalityEvents_b__0();
 
   constexpr ::System::Action* const& __cordl_internal_get_continuation() const;
@@ -258,7 +258,7 @@ public:
 
   constexpr void __cordl_internal_set_innerTask(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0x595b8fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c2248, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -312,13 +312,13 @@ public:
 
   static inline ::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c* New_ctor();
 
-  /// @brief Method <ThrowAsync>b__7_0, addr 0x595bf80, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ThrowAsync>b__7_0, addr 0x59c28cc, size 0x5c, virtual false, abstract: false, final false
   inline void _ThrowAsync_b__7_0(::System::Object* state);
 
-  /// @brief Method <ThrowAsync>b__7_1, addr 0x595bfdc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ThrowAsync>b__7_1, addr 0x59c2928, size 0x5c, virtual false, abstract: false, final false
   inline void _ThrowAsync_b__7_1(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x595bf7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c28c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c* getStaticF___9();
@@ -371,27 +371,27 @@ public:
 
   using __c__DisplayClass5_0 = ::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0;
 
-  /// @brief Method CreateContinuationWrapper, addr 0x595b900, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CreateContinuationWrapper, addr 0x59c224c, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Action* CreateContinuationWrapper(::System::Action* continuation, ::System::Action* invokeAction, ::System::Threading::Tasks::Task* innerTask);
 
-  /// @brief Method GetCompletionAction, addr 0x595b64c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetCompletionAction, addr 0x59c1f98, size 0x1b4, virtual false, abstract: false, final false
   inline ::System::Action* GetCompletionAction(::System::Threading::Tasks::Task* taskForTracing,
                                                ::ByRef<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*> runnerToInitialize);
 
-  /// @brief Method OutputAsyncCausalityEvents, addr 0x595b808, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method OutputAsyncCausalityEvents, addr 0x59c2154, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Action* OutputAsyncCausalityEvents(::System::Threading::Tasks::Task* innerTask, ::System::Action* continuation);
 
-  /// @brief Method PostBoxInitialization, addr 0x595b9c8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method PostBoxInitialization, addr 0x59c2314, size 0x140, virtual false, abstract: false, final false
   inline void PostBoxInitialization(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine, ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner* runner,
                                     ::System::Threading::Tasks::Task* builtTask);
 
-  /// @brief Method SetStateMachine, addr 0x595ae94, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetStateMachine, addr 0x59c17e0, size 0xb4, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-  /// @brief Method ThrowAsync, addr 0x595b154, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method ThrowAsync, addr 0x59c1aa0, size 0x2c8, virtual false, abstract: false, final false
   static inline void ThrowAsync(::System::Exception* exception, ::System::Threading::SynchronizationContext* targetContext);
 
-  /// @brief Method TryGetContinuationTask, addr 0x595bb40, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method TryGetContinuationTask, addr 0x59c248c, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* TryGetContinuationTask(::System::Action* action);
 
   // Ctor Parameters []

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RectTransform*, ::UnityEngine::RectTransform*)>(
     &::GlobalNamespace::UIExtensionMethods::CopySizeAndPositionFrom)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x563eb84;
+  constexpr static std::size_t addrs = 0x56a3998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::RectTransform*)>(&::GlobalNamespace::UIExtensionMethods::GetWorldRect)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x563ec50;
+  constexpr static std::size_t addrs = 0x56a3a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

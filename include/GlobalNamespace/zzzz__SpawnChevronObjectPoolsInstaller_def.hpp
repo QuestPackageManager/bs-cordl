@@ -25,7 +25,7 @@ public:
   __declspec(property(get = __cordl_internal_get__spawnRotationChevronPrefab, put = __cordl_internal_set__spawnRotationChevronPrefab)) ::UnityW<::GlobalNamespace::SpawnRotationChevron>
       _spawnRotationChevronPrefab;
 
-  /// @brief Method InstallBindings, addr 0x578bd0c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x57f25b4, size 0x88, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::SpawnChevronObjectPoolsInstaller* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__spawnRotationChevronPrefab(::UnityW<::GlobalNamespace::SpawnRotationChevron> value);
 
-  /// @brief Method .ctor, addr 0x578bd94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57f263c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -56,7 +56,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE FrustumPlaneCuller_PlanePacket4 {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x65f1a70, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66595fc, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> planes, int32_t offset, int32_t limit);
 
   // Ctor Parameters []
@@ -71,7 +71,7 @@ public:
                                             ::Unity::Mathematics::float4 nxAbs, ::Unity::Mathematics::float4 nyAbs, ::Unity::Mathematics::float4 nzAbs) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17564 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17578 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -132,7 +132,7 @@ public:
   constexpr FrustumPlaneCuller_SplitInfo(int32_t packetCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17565 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17579 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -159,16 +159,16 @@ public:
 
   using SplitInfo = ::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo;
 
-  /// @brief Method ComputeSplitVisibilityMask, addr 0x65f1b38, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ComputeSplitVisibilityMask, addr 0x66596c4, size 0x17c, virtual false, abstract: false, final false
   static inline uint32_t ComputeSplitVisibilityMask(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4> planePackets,
                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo> splitInfos,
                                                     ::ByRef<::UnityEngine::Rendering::AABB> bounds);
 
-  /// @brief Method Create, addr 0x65f15c4, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6659150, size 0x440, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::FrustumPlaneCuller Create(::ByRef<::UnityEngine::Rendering::BatchCullingContext> cc, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> receiverPlanes,
                                                                     ::ByRef<::UnityEngine::Rendering::ReceiverSphereCuller> receiverSphereCuller, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method Dispose, addr 0x65f1534, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x66590c0, size 0x90, virtual false, abstract: false, final false
   inline void Dispose(::Unity::Jobs::JobHandle job);
 
   // Ctor Parameters []
@@ -181,7 +181,7 @@ public:
                                ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo> splitInfos) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17566 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17580 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

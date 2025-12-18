@@ -20,7 +20,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE HaltonSequence : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x65a667c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x660e208, size 0x44, virtual false, abstract: false, final false
   static inline float_t Get(int32_t index, int32_t radix);
 
 protected:
@@ -38,7 +38,7 @@ public:
   HaltonSequence(HaltonSequence const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12272 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12276 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

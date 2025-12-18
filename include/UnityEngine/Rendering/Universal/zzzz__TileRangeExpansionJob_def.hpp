@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobFor"
   constexpr operator ::Unity::Jobs::IJobFor*();
 
-  /// @brief Method Execute, addr 0x66a20e4, size 0x214, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6709c70, size 0x214, virtual true, abstract: false, final true
   inline void Execute(int32_t jobIndex);
 
   /// @brief Convert to "::Unity::Jobs::IJobFor"
@@ -46,7 +46,7 @@ public:
                                   int32_t rangesPerItem, int32_t itemsPerTile, int32_t wordsPerTile, ::Unity::Mathematics::int2 tileResolution) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12951 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

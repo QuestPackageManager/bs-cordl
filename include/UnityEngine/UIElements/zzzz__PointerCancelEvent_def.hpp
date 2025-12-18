@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerCancelEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6b70b54, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6bd99d8, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerCancelEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6b70b50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bd99d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerCancelEvent___c* getStaticF___9();
@@ -76,21 +76,21 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::PointerCancelEvent___c;
 
-  /// @brief Method Init, addr 0x6b706a0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6bd9524, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6b706f4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6bd9578, size 0xa8, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerCancelEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x6b7091c, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x6bd97a0, size 0x1e0, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method PreDispatch, addr 0x6b707f0, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x6bd9674, size 0x12c, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x6b7079c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bd9620, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

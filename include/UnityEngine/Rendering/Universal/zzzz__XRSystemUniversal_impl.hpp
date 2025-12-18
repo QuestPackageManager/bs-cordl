@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::XRPassUniversal*)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::BeginLateLatching)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x66c8c98;
+  constexpr static std::size_t addrs = 0x6730824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::XRPassUniversal*)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::EndLateLatching)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x66c8d74;
+  constexpr static std::size_t addrs = 0x6730900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::XRPassUniversal*)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::UnmarkShaderProperties)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x66c8e3c;
+  constexpr static std::size_t addrs = 0x67309c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::XRPassUniversal*,
                                                                                            bool)>(&::UnityEngine::Rendering::Universal::XRSystemUniversal::MarkShaderProperties)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x66c8ec8;
+  constexpr static std::size_t addrs = 0x6730a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

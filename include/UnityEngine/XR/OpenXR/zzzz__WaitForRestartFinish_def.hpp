@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Timeout(float_t value);
 
-  /// @brief Method .ctor, addr 0x67bcb58, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68246d0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t timeout);
 
-  /// @brief Method get_keepWaiting, addr 0x67be7c8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method get_keepWaiting, addr 0x6826340, size 0xec, virtual true, abstract: false, final false
   inline bool get_keepWaiting();
 
 protected:
@@ -53,7 +53,7 @@ public:
   WaitForRestartFinish(WaitForRestartFinish const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18467 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18482 };
 
   /// @brief Field m_Timeout, offset: 0x10, size: 0x4, def value: None
   float_t ___m_Timeout;

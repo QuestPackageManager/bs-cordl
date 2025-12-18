@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> (*)(::System::Xml::XmlReader*)>(
     &::System::Runtime::Serialization::XmlSerializableServices::ReadNodes)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x5f5bcc0;
+  constexpr static std::size_t addrs = 0x5fc384c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlReader*)>(&::System::Runtime::Serialization::XmlSerializableServices::IsValidAttribute)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5f5c044;
+  constexpr static std::size_t addrs = 0x5fc3bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

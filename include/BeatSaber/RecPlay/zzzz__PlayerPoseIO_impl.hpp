@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::BeatSaber::RecPlay::PlayerPoseFrames)>(&::BeatSaber::RecPlay::PlayerPoseIO::SerializeAsText)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x31be8f0;
+  constexpr static std::size_t addrs = 0x31ef2e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::BeatSaber::RecPlay::PlayerPoseFrames>, ::ByRef<::StringW>)>(
     &::BeatSaber::RecPlay::PlayerPoseIO::DeserializeFromText)> {
   constexpr static std::size_t size = 0x7ec;
-  constexpr static std::size_t addrs = 0x31bf0e0;
+  constexpr static std::size_t addrs = 0x31efad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ReadOnlySpan_1<char16_t> (*)(::ByRef<::System::ReadOnlySpan_1<char16_t>>)>(
     &::BeatSaber::RecPlay::PlayerPoseIO::NextToken)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x31bf8cc;
+  constexpr static std::size_t addrs = 0x31f02c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::System::ReadOnlySpan_1<char16_t>>, char16_t, char16_t)>(
     &::BeatSaber::RecPlay::PlayerPoseIO::Clamp)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x31bfa6c;
+  constexpr static std::size_t addrs = 0x31f0464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Text::StringBuilder*, ::StringW, ::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*>)>(
         &::BeatSaber::RecPlay::PlayerPoseIO::_SerializeAsText_g__WriteFrames_0_0)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x31becc8;
+  constexpr static std::size_t addrs = 0x31ef6c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

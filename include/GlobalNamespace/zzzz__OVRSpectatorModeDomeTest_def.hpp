@@ -72,21 +72,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5cff0a4, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d65b84, size 0xa8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::OVRSpectatorModeDomeTest__TimerCoroutine_d__20* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5cff14c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d65c2c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5cff154, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d65c34, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5cff18c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d65c6c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5cff0a0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d65b80, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRSpectatorModeDomeTest> value);
 
-  /// @brief Method .ctor, addr 0x5cfeeec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d659cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -134,7 +134,7 @@ public:
   OVRSpectatorModeDomeTest__TimerCoroutine_d__20(OVRSpectatorModeDomeTest__TimerCoroutine_d__20 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7976 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -199,36 +199,36 @@ public:
   /// @brief Field readyToSwitch, offset 0x54, size 0x1
   __declspec(property(get = __cordl_internal_get_readyToSwitch, put = __cordl_internal_set_readyToSwitch)) bool readyToSwitch;
 
-  /// @brief Method Awake, addr 0x5cfe3a0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5d64e80, size 0x38, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Initialize, addr 0x5cfe494, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5d64f74, size 0x220, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::OVRSpectatorModeDomeTest* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x5cff040, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x5d65b20, size 0x20, virtual false, abstract: false, final false
   inline void OnApplicationPause();
 
-  /// @brief Method OnApplicationQuit, addr 0x5cff060, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x5d65b40, size 0x20, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
-  /// @brief Method SpectatorCameraDomePosition, addr 0x5cfee5c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SpectatorCameraDomePosition, addr 0x5d6593c, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 SpectatorCameraDomePosition(::UnityEngine::Vector3 spectatorAnchorPosition, float_t d, float_t e, float_t p);
 
-  /// @brief Method Start, addr 0x5cfe3d8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5d64eb8, size 0xbc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TimerCoroutine, addr 0x5cfee08, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TimerCoroutine, addr 0x5d658e8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* TimerCoroutine();
 
-  /// @brief Method Update, addr 0x5cfeef4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5d659d4, size 0x14c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateDefaultExternalCamera, addr 0x5cfe6b4, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method UpdateDefaultExternalCamera, addr 0x5d65194, size 0x3f8, virtual false, abstract: false, final false
   inline void UpdateDefaultExternalCamera();
 
-  /// @brief Method UpdateSpectatorCameraStatus, addr 0x5cfeaac, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method UpdateSpectatorCameraStatus, addr 0x5d6558c, size 0x35c, virtual false, abstract: false, final false
   inline void UpdateSpectatorCameraStatus();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_Head() const;
@@ -297,7 +297,7 @@ public:
 
   constexpr void __cordl_internal_set_readyToSwitch(bool value);
 
-  /// @brief Method .ctor, addr 0x5cff080, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d65b60, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -315,7 +315,7 @@ public:
   OVRSpectatorModeDomeTest(OVRSpectatorModeDomeTest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7977 };
 
   /// @brief Field distance_far offset 0xffffffff size 0x4
   static constexpr float_t distance_far{ static_cast<float_t>(1.2f) };

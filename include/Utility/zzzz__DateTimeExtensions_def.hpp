@@ -26,10 +26,10 @@ public:
   /// @brief Field EPOCH, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_EPOCH, put = setStaticF_EPOCH)) ::System::DateTime EPOCH;
 
-  /// @brief Method GetSecondsSinceEpoch, addr 0x5d21e90, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetSecondsSinceEpoch, addr 0x5d88970, size 0x10c, virtual false, abstract: false, final false
   static inline int32_t GetSecondsSinceEpoch();
 
-  /// @brief Method UnixTimestampToUniversalDateTime, addr 0x5d21f9c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method UnixTimestampToUniversalDateTime, addr 0x5d88a7c, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::DateTime UnixTimestampToUniversalDateTime(int32_t unixSecondsTimestamp);
 
   static inline ::System::DateTime getStaticF_EPOCH();
@@ -51,7 +51,7 @@ public:
   DateTimeExtensions(DateTimeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21692 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

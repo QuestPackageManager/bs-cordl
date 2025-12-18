@@ -25,19 +25,19 @@ public:
 
   __declspec(property(get = get_LowChar)) char16_t LowChar;
 
-  /// @brief Method .ctor, addr 0x5f0d2a4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f74e30, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(int32_t ch);
 
-  /// @brief Method .ctor, addr 0x5f16d88, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f7e914, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(char16_t lowChar, char16_t highChar);
 
-  /// @brief Method get_Char, addr 0x5f16f84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Char, addr 0x5f7eb10, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_Char();
 
-  /// @brief Method get_HighChar, addr 0x5f16f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HighChar, addr 0x5f7eb08, size 0x8, virtual false, abstract: false, final false
   inline char16_t get_HighChar();
 
-  /// @brief Method get_LowChar, addr 0x5f16f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LowChar, addr 0x5f7eb00, size 0x8, virtual false, abstract: false, final false
   inline char16_t get_LowChar();
 
   // Ctor Parameters []
@@ -48,7 +48,7 @@ public:
   constexpr SurrogateChar(char16_t lowChar, char16_t highChar) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16967 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

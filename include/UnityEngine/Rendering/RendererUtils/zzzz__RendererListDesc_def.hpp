@@ -58,27 +58,27 @@ public:
   /// @brief Field s_EmptyName, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_EmptyName, put = setStaticF_s_EmptyName)) ::UnityEngine::Rendering::ShaderTagId s_EmptyName;
 
-  /// @brief Method ConvertToParameters, addr 0x68fa0fc, size 0x750, virtual false, abstract: false, final false
+  /// @brief Method ConvertToParameters, addr 0x6962f80, size 0x750, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RendererListParams ConvertToParameters(::ByRef<::UnityEngine::Rendering::RendererUtils::RendererListDesc> desc);
 
-  /// @brief Method IsValid, addr 0x68f9fd8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6962e5c, size 0x124, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_s_EmptyName();
 
-  /// @brief Method get_batchLayerMask, addr 0x68f9fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_batchLayerMask, addr 0x6962e30, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_batchLayerMask();
 
-  /// @brief Method get_camera, addr 0x68f9fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_camera, addr 0x6962e44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_camera();
 
-  /// @brief Method get_cullingResult, addr 0x68f9fb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_cullingResult, addr 0x6962e38, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CullingResults get_cullingResult();
 
-  /// @brief Method get_passName, addr 0x68f9fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_passName, addr 0x6962e4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ShaderTagId get_passName();
 
-  /// @brief Method get_passNames, addr 0x68f9fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_passNames, addr 0x6962e54, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::ShaderTagId, ::Array<::UnityEngine::Rendering::ShaderTagId>*> get_passNames();
 
   static inline void setStaticF_s_EmptyName(::UnityEngine::Rendering::ShaderTagId value);
@@ -106,7 +106,7 @@ public:
                              ::ArrayW<::UnityEngine::Rendering::ShaderTagId, ::Array<::UnityEngine::Rendering::ShaderTagId>*> _passNames_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10870 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10874 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };

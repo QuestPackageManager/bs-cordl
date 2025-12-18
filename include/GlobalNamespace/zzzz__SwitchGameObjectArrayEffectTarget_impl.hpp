@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SwitchGameObjectArrayEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::SwitchGameObjectArrayEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x577cda8;
+  constexpr static std::size_t addrs = 0x57e3650;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SwitchGameObjectArrayEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::SwitchGameObjectArrayEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x577ce5c;
+  constexpr static std::size_t addrs = 0x57e3704;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SwitchGameObjectArrayEffectTarget::*)(float_t)>(
     &::GlobalNamespace::SwitchGameObjectArrayEffectTarget::SetFloat)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x577cdac;
+  constexpr static std::size_t addrs = 0x57e3654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SwitchGameObjectArrayEffectTarget::*)()>(
     &::GlobalNamespace::SwitchGameObjectArrayEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x577ce60;
+  constexpr static std::size_t addrs = 0x57e3708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SwitchGameObjectArrayEffectTarget*>::get(),

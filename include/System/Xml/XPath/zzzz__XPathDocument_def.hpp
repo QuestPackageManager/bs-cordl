@@ -52,10 +52,10 @@ public:
   __declspec(property(get = __cordl_internal_get_pageXmlNmsp, put = __cordl_internal_set_pageXmlNmsp)) ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>
       pageXmlNmsp;
 
-  /// @brief Method GetXmlNamespaceNode, addr 0x60cb5d4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetXmlNamespaceNode, addr 0x6133160, size 0x14, virtual false, abstract: false, final false
   inline int32_t GetXmlNamespaceNode(::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageXmlNmsp);
 
-  /// @brief Method LookupNamespaces, addr 0x60cb5e8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LookupNamespaces, addr 0x6133174, size 0xd8, virtual false, abstract: false, final false
   inline int32_t LookupNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageElem, int32_t idxElem,
                                   ::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNmsp);
 
@@ -89,10 +89,10 @@ public:
 
   constexpr void __cordl_internal_set_pageXmlNmsp(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value);
 
-  /// @brief Method get_HasLineInfo, addr 0x60cb5cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasLineInfo, addr 0x6133158, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasLineInfo();
 
-  /// @brief Method get_NameTable, addr 0x60cb5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x6133150, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
 protected:
@@ -110,7 +110,7 @@ public:
   XPathDocument(XPathDocument const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9445 };
 
   /// @brief Field pageXmlNmsp, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> ___pageXmlNmsp;

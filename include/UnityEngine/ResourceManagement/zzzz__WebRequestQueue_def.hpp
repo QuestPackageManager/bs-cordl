@@ -48,25 +48,25 @@ public:
   __declspec(property(get = getStaticF_s_QueuedOperations,
                       put = setStaticF_s_QueuedOperations)) ::System::Collections::Generic::Queue_1<::UnityEngine::ResourceManagement::WebRequestQueueOperation*>* s_QueuedOperations;
 
-  /// @brief Method BeginWebRequest, addr 0x66f0c14, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method BeginWebRequest, addr 0x67587a0, size 0x2b8, virtual false, abstract: false, final false
   static inline void BeginWebRequest(::UnityEngine::ResourceManagement::WebRequestQueueOperation* queueOperation);
 
-  /// @brief Method DequeueRequest, addr 0x66f1458, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method DequeueRequest, addr 0x6758fe4, size 0xbc, virtual false, abstract: false, final false
   static inline void DequeueRequest(::UnityEngine::Networking::UnityWebRequestAsyncOperation* operation);
 
-  /// @brief Method OnWebAsyncOpComplete, addr 0x66f1514, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnWebAsyncOpComplete, addr 0x67590a0, size 0xac, virtual false, abstract: false, final false
   static inline void OnWebAsyncOpComplete(::UnityEngine::AsyncOperation* operation);
 
-  /// @brief Method OnWebAsyncOpComplete, addr 0x66f133c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method OnWebAsyncOpComplete, addr 0x6758ec8, size 0x11c, virtual false, abstract: false, final false
   static inline void OnWebAsyncOpComplete(::UnityEngine::Networking::UnityWebRequestAsyncOperation* operation);
 
-  /// @brief Method QueueRequest, addr 0x66f0afc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method QueueRequest, addr 0x6758688, size 0x118, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* QueueRequest(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method SetMaxConcurrentRequests, addr 0x66f0a38, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetMaxConcurrentRequests, addr 0x67585c4, size 0xc4, virtual false, abstract: false, final false
   static inline void SetMaxConcurrentRequests(int32_t maxRequests);
 
-  /// @brief Method WaitForRequestToBeActive, addr 0x66f0ecc, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method WaitForRequestToBeActive, addr 0x6758a58, size 0x3d0, virtual false, abstract: false, final false
   static inline void WaitForRequestToBeActive(::UnityEngine::ResourceManagement::WebRequestQueueOperation* request, int32_t millisecondsTimeout);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* getStaticF_s_ActiveRequests();
@@ -96,7 +96,7 @@ public:
   WebRequestQueue(WebRequestQueue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18681 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

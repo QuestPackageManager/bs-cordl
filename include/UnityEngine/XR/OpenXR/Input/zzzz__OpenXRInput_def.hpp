@@ -200,7 +200,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18510 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -226,7 +226,7 @@ public:
   constexpr OpenXRInput_SerializedBinding(uint64_t actionId, ::StringW path) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18511 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -294,7 +294,7 @@ public:
   static ::UnityEngine::XR::OpenXR::Input::OpenXRInput_InputSourceNameFlags const UserPath;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18497 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18512 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -329,7 +329,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x67c20e8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6829c60, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::Input::OpenXRInput_GetInternalDeviceIdCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -344,10 +344,10 @@ public:
 
   constexpr void __cordl_internal_set_deviceId(uint32_t value);
 
-  /// @brief Method get_Type, addr 0x67c2820, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x682a398, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x67c282c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x682a3a4, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -396,7 +396,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18513 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -443,22 +443,22 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::Input::OpenXRInput___c* New_ctor();
 
-  /// @brief Method <AttachActionSets>b__9_0, addr 0x67c2890, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <AttachActionSets>b__9_0, addr 0x682a408, size 0x48, virtual false, abstract: false, final false
   inline bool _AttachActionSets_b__9_0(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature* f);
 
-  /// @brief Method <AttachActionSets>b__9_1, addr 0x67c28d8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <AttachActionSets>b__9_1, addr 0x682a450, size 0x40, virtual false, abstract: false, final false
   inline bool _AttachActionSets_b__9_1(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature* f);
 
-  /// @brief Method <CreateActions>b__11_0, addr 0x67c2918, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <CreateActions>b__11_0, addr 0x682a490, size 0x14, virtual false, abstract: false, final false
   inline ::StringW _CreateActions_b__11_0(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_DeviceConfig* d);
 
-  /// @brief Method <CreateActions>b__11_1, addr 0x67c292c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <CreateActions>b__11_1, addr 0x682a4a4, size 0x1c, virtual false, abstract: false, final false
   inline bool _CreateActions_b__11_1(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionBinding* b);
 
-  /// @brief Method <CreateActions>b__11_2, addr 0x67c2948, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <CreateActions>b__11_2, addr 0x682a4c0, size 0x14, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* _CreateActions_b__11_2(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionBinding* b);
 
-  /// @brief Method .ctor, addr 0x67c288c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x682a404, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::XR::OpenXR::Input::OpenXRInput___c* getStaticF___9();
@@ -501,7 +501,7 @@ public:
   OpenXRInput___c(OpenXRInput___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18499 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18514 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -533,158 +533,158 @@ public:
   /// @brief Field kVirtualControlMap, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kVirtualControlMap, put = setStaticF_kVirtualControlMap)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* kVirtualControlMap;
 
-  /// @brief Method AttachActionSets, addr 0x67b95c8, size 0xc18, virtual false, abstract: false, final false
+  /// @brief Method AttachActionSets, addr 0x6821140, size 0xc18, virtual false, abstract: false, final false
   static inline void AttachActionSets();
 
-  /// @brief Method CreateActions, addr 0x67bf22c, size 0xa28, virtual false, abstract: false, final false
+  /// @brief Method CreateActions, addr 0x6826da4, size 0xa28, virtual false, abstract: false, final false
   static inline bool
   CreateActions(::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig*>* actionMaps,
                 ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::Input::OpenXRInput_SerializedBinding>*>* interactionProfiles);
 
-  /// @brief Method GetActionHandle, addr 0x67c1f38, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetActionHandle, addr 0x6829ab0, size 0x70, virtual false, abstract: false, final false
   static inline uint64_t GetActionHandle(::UnityEngine::XR::InputDevice device, ::UnityEngine::XR::InputFeatureUsage usage);
 
-  /// @brief Method GetActionHandle, addr 0x67c1e94, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetActionHandle, addr 0x6829a0c, size 0xa4, virtual false, abstract: false, final false
   static inline uint64_t GetActionHandle(::UnityEngine::XR::InputDevice device, ::StringW usageName);
 
-  /// @brief Method GetActionHandle, addr 0x67c0c7c, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method GetActionHandle, addr 0x68287f4, size 0x228, virtual false, abstract: false, final false
   static inline uint64_t GetActionHandle(::UnityEngine::InputSystem::InputAction* inputAction, ::UnityEngine::InputSystem::InputDevice* inputDevice);
 
-  /// @brief Method GetActionHandleName, addr 0x67c08f0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetActionHandleName, addr 0x6828468, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW GetActionHandleName(::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method GetActionIsActive, addr 0x67c19bc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetActionIsActive, addr 0x6829534, size 0x70, virtual false, abstract: false, final false
   static inline bool GetActionIsActive(::UnityEngine::XR::InputDevice device, ::UnityEngine::XR::InputFeatureUsage usage);
 
-  /// @brief Method GetActionIsActive, addr 0x67c1a2c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetActionIsActive, addr 0x68295a4, size 0xa0, virtual false, abstract: false, final false
   static inline bool GetActionIsActive(::UnityEngine::XR::InputDevice device, ::StringW usageName);
 
-  /// @brief Method GetActionIsActive, addr 0x67c175c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetActionIsActive, addr 0x68292d4, size 0x1b8, virtual false, abstract: false, final false
   static inline bool GetActionIsActive(::UnityEngine::InputSystem::InputAction* inputAction);
 
-  /// @brief Method GetDeviceId, addr 0x67c0ea4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceId, addr 0x6828a1c, size 0xb0, virtual false, abstract: false, final false
   static inline uint32_t GetDeviceId(::UnityEngine::InputSystem::InputDevice* inputDevice);
 
-  /// @brief Method GetDeviceId, addr 0x67c125c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceId, addr 0x6828dd4, size 0xb8, virtual false, abstract: false, final false
   static inline uint32_t GetDeviceId(::UnityEngine::XR::InputDevice inputDevice);
 
-  /// @brief Method Internal_AttachActionSets, addr 0x67bfed8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Internal_AttachActionSets, addr 0x6827a50, size 0x60, virtual false, abstract: false, final false
   static inline bool Internal_AttachActionSets();
 
-  /// @brief Method Internal_CreateAction, addr 0x67c0504, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateAction, addr 0x682807c, size 0x260, virtual false, abstract: false, final false
   static inline uint64_t Internal_CreateAction(uint64_t actionSetId, ::StringW name, ::StringW localizedName, uint32_t actionType, ::UnityEngine::XR::OpenXR::Input::OpenXRInput_SerializedGuid guid,
                                                ::ArrayW<::StringW, ::Array<::StringW>*> userPaths, uint32_t userPathCount, bool isAdditive, ::ArrayW<::StringW, ::Array<::StringW>*> usages,
                                                uint32_t usageCount);
 
-  /// @brief Method Internal_CreateActionSet, addr 0x67c0438, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateActionSet, addr 0x6827fb0, size 0xcc, virtual false, abstract: false, final false
   static inline uint64_t Internal_CreateActionSet(::StringW name, ::StringW localizedName, ::UnityEngine::XR::OpenXR::Input::OpenXRInput_SerializedGuid guid);
 
-  /// @brief Method Internal_GetActionId, addr 0x67c2044, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetActionId, addr 0x6829bbc, size 0xa4, virtual false, abstract: false, final false
   static inline uint64_t Internal_GetActionId(uint32_t deviceId, ::StringW name);
 
-  /// @brief Method Internal_GetActionIdNoISX, addr 0x67c1fa8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetActionIdNoISX, addr 0x6829b20, size 0x9c, virtual false, abstract: false, final false
   static inline uint64_t Internal_GetActionIdNoISX(uint32_t deviceId, ::StringW usageName);
 
-  /// @brief Method Internal_GetActionIsActive, addr 0x67c1914, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetActionIsActive, addr 0x682948c, size 0xa8, virtual false, abstract: false, final false
   static inline bool Internal_GetActionIsActive(uint32_t deviceId, ::StringW name);
 
-  /// @brief Method Internal_GetActionIsActiveNoISX, addr 0x67c1acc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetActionIsActiveNoISX, addr 0x6829644, size 0xa0, virtual false, abstract: false, final false
   static inline bool Internal_GetActionIsActiveNoISX(uint32_t deviceId, ::StringW name);
 
-  /// @brief Method Internal_GetDeviceId, addr 0x67c20fc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetDeviceId, addr 0x6829c74, size 0x9c, virtual false, abstract: false, final false
   static inline uint32_t Internal_GetDeviceId(::UnityEngine::XR::InputDeviceCharacteristics characteristics, ::StringW name);
 
-  /// @brief Method Internal_RegisterDeviceDefinition, addr 0x67c0140, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Internal_RegisterDeviceDefinition, addr 0x6827cb8, size 0x13c, virtual false, abstract: false, final false
   static inline uint64_t Internal_RegisterDeviceDefinition(::StringW userPath, ::StringW interactionProfile, bool isAdditive, uint32_t characteristics, ::StringW name, ::StringW manufacturer,
                                                            ::StringW serialNumber);
 
-  /// @brief Method Internal_SendHapticImpulse, addr 0x67c0f54, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Internal_SendHapticImpulse, addr 0x6828acc, size 0xac, virtual false, abstract: false, final false
   static inline void Internal_SendHapticImpulse(uint32_t deviceId, uint64_t actionId, float_t amplitude, float_t frequency, float_t duration);
 
-  /// @brief Method Internal_SendHapticImpulseNoISX, addr 0x67c1314, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Internal_SendHapticImpulseNoISX, addr 0x6828e8c, size 0xa4, virtual false, abstract: false, final false
   static inline void Internal_SendHapticImpulseNoISX(uint32_t deviceId, float_t amplitude, float_t frequency, float_t duration);
 
-  /// @brief Method Internal_SetDpadBindingCustomValues, addr 0x67c0764, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetDpadBindingCustomValues, addr 0x68282dc, size 0xb4, virtual false, abstract: false, final false
   static inline void Internal_SetDpadBindingCustomValues(bool isLeft, float_t forceThreshold, float_t forceThresholdReleased, float_t centerRegion, float_t wedgeAngle, bool isSticky);
 
-  /// @brief Method Internal_StopHaptics, addr 0x67c14ec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Internal_StopHaptics, addr 0x6829064, size 0x84, virtual false, abstract: false, final false
   static inline void Internal_StopHaptics(uint32_t deviceId, uint64_t actionId);
 
-  /// @brief Method Internal_StopHapticsNoISX, addr 0x67c1470, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_StopHapticsNoISX, addr 0x6828fe8, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_StopHapticsNoISX(uint32_t deviceId);
 
-  /// @brief Method Internal_SuggestBindings, addr 0x67bfd88, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Internal_SuggestBindings, addr 0x6827900, size 0x150, virtual false, abstract: false, final false
   static inline bool
   Internal_SuggestBindings(::StringW interactionProfile,
                            ::ArrayW<::UnityEngine::XR::OpenXR::Input::OpenXRInput_SerializedBinding, ::Array<::UnityEngine::XR::OpenXR::Input::OpenXRInput_SerializedBinding>*> serializedBindings,
                            uint32_t serializedBindingCount);
 
-  /// @brief Method Internal_TryGetInputSourceName, addr 0x67c165c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Internal_TryGetInputSourceName, addr 0x68291d4, size 0x100, virtual false, abstract: false, final false
   static inline bool Internal_TryGetInputSourceName(uint32_t deviceId, uint64_t actionId, uint32_t index, uint32_t flags, ::ByRef<::StringW> outName);
 
-  /// @brief Method Internal_TryGetInputSourceNamePtr, addr 0x67c2198, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Internal_TryGetInputSourceNamePtr, addr 0x6829d10, size 0xac, virtual false, abstract: false, final false
   static inline bool Internal_TryGetInputSourceNamePtr(uint32_t deviceId, uint64_t actionId, uint32_t index, uint32_t flags, ::ByRef<::System::IntPtr> outName);
 
-  /// @brief Method Internal_TrySetControllerLateLatchAction, addr 0x67c1ccc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Internal_TrySetControllerLateLatchAction, addr 0x6829844, size 0x8c, virtual false, abstract: false, final false
   static inline bool Internal_TrySetControllerLateLatchAction(uint32_t deviceId, uint64_t actionId);
 
-  /// @brief Method RegisterDevices, addr 0x67bef84, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method RegisterDevices, addr 0x6826afc, size 0x2a8, virtual false, abstract: false, final false
   static inline bool RegisterDevices(::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig*>* actionMaps, bool isAdditive);
 
-  /// @brief Method RegisterLayouts, addr 0x67b8238, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method RegisterLayouts, addr 0x681fdb0, size 0x224, virtual false, abstract: false, final false
   static inline void RegisterLayouts();
 
-  /// @brief Method SanitizeCharForOpenXRPath, addr 0x67c0818, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SanitizeCharForOpenXRPath, addr 0x6828390, size 0xd8, virtual false, abstract: false, final false
   static inline char16_t SanitizeCharForOpenXRPath(char16_t c);
 
-  /// @brief Method SanitizeStringForOpenXRPath, addr 0x67c027c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method SanitizeStringForOpenXRPath, addr 0x6827df4, size 0x1bc, virtual false, abstract: false, final false
   static inline ::StringW SanitizeStringForOpenXRPath(::StringW input);
 
-  /// @brief Method SendHapticImpulse, addr 0x67c0bf8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SendHapticImpulse, addr 0x6828770, size 0x84, virtual false, abstract: false, final false
   static inline void SendHapticImpulse(::UnityEngine::InputSystem::InputAction* action, float_t amplitude, float_t duration, ::UnityEngine::InputSystem::InputDevice* inputDevice);
 
-  /// @brief Method SendHapticImpulse, addr 0x67c0b08, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SendHapticImpulse, addr 0x6828680, size 0xf0, virtual false, abstract: false, final false
   static inline void SendHapticImpulse(::UnityEngine::InputSystem::InputAction* action, float_t amplitude, float_t frequency, float_t duration, ::UnityEngine::InputSystem::InputDevice* inputDevice);
 
-  /// @brief Method SendHapticImpulse, addr 0x67c09d8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SendHapticImpulse, addr 0x6828550, size 0x84, virtual false, abstract: false, final false
   static inline void SendHapticImpulse(::UnityEngine::InputSystem::InputActionReference* actionRef, float_t amplitude, float_t duration, ::UnityEngine::InputSystem::InputDevice* inputDevice);
 
-  /// @brief Method SendHapticImpulse, addr 0x67c0a5c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SendHapticImpulse, addr 0x68285d4, size 0xac, virtual false, abstract: false, final false
   static inline void SendHapticImpulse(::UnityEngine::InputSystem::InputActionReference* actionRef, float_t amplitude, float_t frequency, float_t duration,
                                        ::UnityEngine::InputSystem::InputDevice* inputDevice);
 
-  /// @brief Method SendHapticImpulse, addr 0x67c1174, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SendHapticImpulse, addr 0x6828cec, size 0xe8, virtual false, abstract: false, final false
   static inline void SendHapticImpulse(::UnityEngine::XR::InputDevice device, float_t amplitude, float_t frequency, float_t duration);
 
-  /// @brief Method SetDpadBindingCustomValues, addr 0x67bfc54, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SetDpadBindingCustomValues, addr 0x68277cc, size 0x134, virtual false, abstract: false, final false
   static inline void SetDpadBindingCustomValues();
 
-  /// @brief Method StopHapticImpulse, addr 0x67c13b8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method StopHapticImpulse, addr 0x6828f30, size 0xb8, virtual false, abstract: false, final false
   static inline void StopHapticImpulse(::UnityEngine::XR::InputDevice device);
 
-  /// @brief Method StopHaptics, addr 0x67c1000, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method StopHaptics, addr 0x6828b78, size 0xd0, virtual false, abstract: false, final false
   static inline void StopHaptics(::UnityEngine::InputSystem::InputActionReference* actionRef, ::UnityEngine::InputSystem::InputDevice* inputDevice);
 
-  /// @brief Method StopHaptics, addr 0x67c10d0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method StopHaptics, addr 0x6828c48, size 0xa4, virtual false, abstract: false, final false
   static inline void StopHaptics(::UnityEngine::InputSystem::InputAction* inputAction, ::UnityEngine::InputSystem::InputDevice* inputDevice);
 
-  /// @brief Method TryGetInputSourceName, addr 0x67c1570, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TryGetInputSourceName, addr 0x68290e8, size 0xec, virtual false, abstract: false, final false
   static inline bool TryGetInputSourceName(::UnityEngine::InputSystem::InputAction* inputAction, int32_t index, ::ByRef<::StringW> name,
                                            ::UnityEngine::XR::OpenXR::Input::OpenXRInput_InputSourceNameFlags flags, ::UnityEngine::InputSystem::InputDevice* inputDevice);
 
-  /// @brief Method TrySetControllerLateLatchAction, addr 0x67c1d58, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TrySetControllerLateLatchAction, addr 0x68298d0, size 0x70, virtual false, abstract: false, final false
   static inline bool TrySetControllerLateLatchAction(::UnityEngine::XR::InputDevice device, ::UnityEngine::XR::InputFeatureUsage usage);
 
-  /// @brief Method TrySetControllerLateLatchAction, addr 0x67c1dc8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method TrySetControllerLateLatchAction, addr 0x6829940, size 0xcc, virtual false, abstract: false, final false
   static inline bool TrySetControllerLateLatchAction(::UnityEngine::XR::InputDevice device, ::StringW usageName);
 
-  /// @brief Method TrySetControllerLateLatchAction, addr 0x67c1b6c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method TrySetControllerLateLatchAction, addr 0x68296e4, size 0x160, virtual false, abstract: false, final false
   static inline bool TrySetControllerLateLatchAction(::UnityEngine::InputSystem::InputAction* inputAction);
 
-  /// @brief Method UserPathToDeviceName, addr 0x67bff38, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method UserPathToDeviceName, addr 0x6827ab0, size 0x208, virtual false, abstract: false, final false
   static inline ::StringW UserPathToDeviceName(::StringW userPath);
 
-  /// @brief Method ValidateActionMapConfig, addr 0x67bed40, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ValidateActionMapConfig, addr 0x68268b8, size 0x1b8, virtual false, abstract: false, final false
   static inline bool ValidateActionMapConfig(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature* interactionFeature,
                                              ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig* actionMapConfig);
 
@@ -715,7 +715,7 @@ public:
   static constexpr ::ConstString Library{ u"UnityOpenXR" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18515 };
 
   /// @brief Field s_devicePoseActionName offset 0xffffffff size 0x8
   static constexpr ::ConstString s_devicePoseActionName{ u"devicepose" };

@@ -45,14 +45,13 @@ constexpr ::BeatSaber::Settings::QualitySettings_ObstacleQuality BeatSaber::Sett
 // "::BeatSaber::Settings::QualitySettings_MainEffectOption", modifiers: "", def_value: Some("{}") }, CppParam { name: "bloom", ty: "::BeatSaber::Settings::QualitySettings_BloomQuality", modifiers:
 // "", def_value: Some("{}") }, CppParam { name: "mirror", ty: "::BeatSaber::Settings::QualitySettings_MirrorQuality", modifiers: "", def_value: Some("{}") }, CppParam { name: "obstacles", ty:
 // "::BeatSaber::Settings::QualitySettings_ObstacleQuality", modifiers: "", def_value: Some("{}") }, CppParam { name: "screenDisplacementEffects", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "smokeGraphics", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "depthTexture", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "burnMarkTrails", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxShockwaveParticles", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "maxNumberOfCutSoundEffects", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// CppParam { name: "smokeGraphics", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "burnMarkTrails", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "maxShockwaveParticles", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxNumberOfCutSoundEffects", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BeatSaber::Settings::QualitySettings::QualitySettings(float_t renderViewportScale, float_t vrResolutionScale, float_t menuVRResolutionScaleMultiplier, int32_t antiAliasingLevel,
                                                                   int32_t targetFramerate, int32_t vSyncCount, int32_t maxQueuedFrames,
                                                                   ::BeatSaber::Settings::QualitySettings_MainEffectOption mainEffect, ::BeatSaber::Settings::QualitySettings_BloomQuality bloom,
                                                                   ::BeatSaber::Settings::QualitySettings_MirrorQuality mirror, ::BeatSaber::Settings::QualitySettings_ObstacleQuality obstacles,
-                                                                  bool screenDisplacementEffects, bool smokeGraphics, bool depthTexture, bool burnMarkTrails, int32_t maxShockwaveParticles,
+                                                                  bool screenDisplacementEffects, bool smokeGraphics, bool burnMarkTrails, int32_t maxShockwaveParticles,
                                                                   int32_t maxNumberOfCutSoundEffects) noexcept {
   this->renderViewportScale = renderViewportScale;
   this->vrResolutionScale = vrResolutionScale;
@@ -67,7 +66,6 @@ constexpr ::BeatSaber::Settings::QualitySettings::QualitySettings(float_t render
   this->obstacles = obstacles;
   this->screenDisplacementEffects = screenDisplacementEffects;
   this->smokeGraphics = smokeGraphics;
-  this->depthTexture = depthTexture;
   this->burnMarkTrails = burnMarkTrails;
   this->maxShockwaveParticles = maxShockwaveParticles;
   this->maxNumberOfCutSoundEffects = maxNumberOfCutSoundEffects;

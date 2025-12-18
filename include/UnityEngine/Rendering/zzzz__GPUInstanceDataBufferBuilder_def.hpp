@@ -42,7 +42,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AddComponent, addr 0x6602188, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method AddComponent, addr 0x6669d14, size 0x12c, virtual false, abstract: false, final false
   inline void AddComponent(int32_t propertyID, bool isOverriden, int32_t byteSize, bool isPerInstance, ::UnityEngine::Rendering::InstanceType instanceType,
                            ::UnityEngine::Rendering::InstanceComponentGroup componentGroup);
 
@@ -51,13 +51,13 @@ public:
   inline void AddComponent(int32_t propertyID, bool isOverriden, bool isPerInstance, ::UnityEngine::Rendering::InstanceType instanceType,
                            ::UnityEngine::Rendering::InstanceComponentGroup componentGroup);
 
-  /// @brief Method Build, addr 0x66022b4, size 0x88c, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x6669e40, size 0x88c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* Build(::ByRef<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
 
-  /// @brief Method CreateMetadataValue, addr 0x660216c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CreateMetadataValue, addr 0x6669cf8, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::MetadataValue CreateMetadataValue(int32_t nameID, int32_t gpuAddress, bool isOverridden);
 
-  /// @brief Method Dispose, addr 0x6602b40, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x666a6cc, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// @brief Convert to "::System::IDisposable"
@@ -71,7 +71,7 @@ public:
   constexpr GPUInstanceDataBufferBuilder(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceComponentDesc> m_Components) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17649 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

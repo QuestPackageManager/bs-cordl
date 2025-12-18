@@ -48,10 +48,10 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6c61ce4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6ccab68, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Initialize, addr 0x6c61cc8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x6ccab4c, size 0x1c, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::Zenject::SceneContextRegistryAdderAndRemover* New_ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry);
@@ -68,13 +68,13 @@ public:
 
   constexpr void __cordl_internal_set__sceneContext(::UnityW<::Zenject::SceneContext> value);
 
-  /// @brief Method __zenCreate, addr 0x6c61d00, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6ccab84, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c61e10, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6ccac94, size 0x2d8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6c61cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccab44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry);
 
   /// @brief Convert to "::System::IDisposable"
@@ -98,7 +98,7 @@ public:
   SceneContextRegistryAdderAndRemover(SceneContextRegistryAdderAndRemover const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14660 };
 
   /// @brief Field _registry, offset: 0x10, size: 0x8, def value: None
   ::Zenject::SceneContextRegistry* ____registry;

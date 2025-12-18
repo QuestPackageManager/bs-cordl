@@ -119,7 +119,7 @@ public:
   OccluderContext_ShaderIDs(OccluderContext_ShaderIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17710 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -144,44 +144,44 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AllocateTexturesIfNecessary, addr 0x661009c, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method AllocateTexturesIfNecessary, addr 0x6677c28, size 0x250, virtual false, abstract: false, final false
   inline void AllocateTexturesIfNecessary(bool debugOverlayEnabled);
 
-  /// @brief Method CreateFarDepthPyramid, addr 0x6610718, size 0x4f8, virtual false, abstract: false, final false
+  /// @brief Method CreateFarDepthPyramid, addr 0x66782a4, size 0x4f8, virtual false, abstract: false, final false
   inline void CreateFarDepthPyramid(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, ::ByRef<::UnityEngine::Rendering::OccluderParameters> occluderParams,
                                     ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates,
                                     ::ByRef<::UnityEngine::Rendering::OccluderHandles> occluderHandles, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> silhouettePlanes,
                                     ::UnityEngine::ComputeShader* occluderDepthPyramidCS, int32_t occluderDepthDownscaleKernel);
 
-  /// @brief Method Dispose, addr 0x660fda8, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6677934, size 0x128, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetDebugOutput, addr 0x6610dc4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetDebugOutput, addr 0x6678950, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::OcclusionCullingDebugOutput GetDebugOutput();
 
-  /// @brief Method Import, addr 0x6610c10, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Import, addr 0x667879c, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::OccluderHandles Import(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
-  /// @brief Method IsSubviewValid, addr 0x660fd6c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsSubviewValid, addr 0x66778f8, size 0x24, virtual false, abstract: false, final false
   inline bool IsSubviewValid(int32_t subviewIndex);
 
-  /// @brief Method PrepareOccluders, addr 0x6610cb8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method PrepareOccluders, addr 0x6678844, size 0x10c, virtual false, abstract: false, final false
   inline void PrepareOccluders(::ByRef<::UnityEngine::Rendering::OccluderParameters> occluderParams);
 
-  /// @brief Method SetKeyword, addr 0x66102ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetKeyword, addr 0x6677e78, size 0x2c, virtual false, abstract: false, final false
   static inline void SetKeyword(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, ::UnityEngine::ComputeShader* cs, ::ByRef<::UnityEngine::Rendering::LocalKeyword> keyword, bool value);
 
-  /// @brief Method SetupFarDepthPyramidConstants, addr 0x6610318, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method SetupFarDepthPyramidConstants, addr 0x6677ea4, size 0x400, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::OccluderDepthPyramidConstants SetupFarDepthPyramidConstants(::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates,
                                                                                                ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> silhouettePlanes);
 
-  /// @brief Method UpdateMipBounds, addr 0x660fed0, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method UpdateMipBounds, addr 0x6677a5c, size 0x1cc, virtual false, abstract: false, final false
   inline void UpdateMipBounds();
 
-  /// @brief Method get_depthBufferSizeInOccluderPixels, addr 0x660fd90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_depthBufferSizeInOccluderPixels, addr 0x667791c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_depthBufferSizeInOccluderPixels();
 
-  /// @brief Method get_subviewCount, addr 0x660fd64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subviewCount, addr 0x66778f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_subviewCount();
 
   /// @brief Convert to "::System::IDisposable"
@@ -206,7 +206,7 @@ public:
                             ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::OccluderDepthPyramidConstants> constantBufferData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17711 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };

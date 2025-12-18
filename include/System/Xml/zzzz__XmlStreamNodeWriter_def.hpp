@@ -49,54 +49,54 @@ public:
   /// @brief Field stream, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream)) ::System::IO::Stream* stream;
 
-  /// @brief Method Advance, addr 0x5f0cfc0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Advance, addr 0x5f74b4c, size 0x10, virtual false, abstract: false, final false
   inline void Advance(int32_t count);
 
-  /// @brief Method Close, addr 0x5f0d63c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x5f751c8, size 0x34, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method EnsureByte, addr 0x5f0cfd0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method EnsureByte, addr 0x5f74b5c, size 0x20, virtual false, abstract: false, final false
   inline void EnsureByte();
 
-  /// @brief Method Flush, addr 0x5f0d604, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x5f75190, size 0x38, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushBuffer, addr 0x5f0d5c4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method FlushBuffer, addr 0x5f75150, size 0x40, virtual true, abstract: false, final false
   inline void FlushBuffer();
 
-  /// @brief Method GetBuffer, addr 0x5f0cf74, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetBuffer, addr 0x5f74b00, size 0x4c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBuffer(int32_t count, ::ByRef<int32_t> offset);
 
   static inline ::System::Xml::XmlStreamNodeWriter* New_ctor();
 
-  /// @brief Method SetOutput, addr 0x5f0cf28, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetOutput, addr 0x5f74ab4, size 0x18, virtual false, abstract: false, final false
   inline void SetOutput(::System::IO::Stream* stream, bool ownsStream, ::System::Text::Encoding* encoding);
 
-  /// @brief Method UnsafeGetUTF8Chars, addr 0x5f0d4b8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method UnsafeGetUTF8Chars, addr 0x5f75044, size 0x10c, virtual false, abstract: false, final false
   inline int32_t UnsafeGetUTF8Chars(char16_t* chars, int32_t charCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
 
-  /// @brief Method UnsafeWriteUTF8Chars, addr 0x5f0d19c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method UnsafeWriteUTF8Chars, addr 0x5f74d28, size 0x108, virtual false, abstract: false, final false
   inline void UnsafeWriteUTF8Chars(char16_t* chars, int32_t charCount);
 
-  /// @brief Method WriteByte, addr 0x5f0cff0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x5f74b7c, size 0x6c, virtual false, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method WriteByte, addr 0x5f0d05c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x5f74be8, size 0x4, virtual false, abstract: false, final false
   inline void WriteByte(char16_t ch);
 
-  /// @brief Method WriteBytes, addr 0x5f0d060, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method WriteBytes, addr 0x5f74bec, size 0x98, virtual false, abstract: false, final false
   inline void WriteBytes(uint8_t b1, uint8_t b2);
 
-  /// @brief Method WriteBytes, addr 0x5f0d0f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WriteBytes, addr 0x5f74c84, size 0x4, virtual false, abstract: false, final false
   inline void WriteBytes(char16_t ch1, char16_t ch2);
 
-  /// @brief Method WriteUTF8Char, addr 0x5f0d0fc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method WriteUTF8Char, addr 0x5f74c88, size 0xa0, virtual false, abstract: false, final false
   inline void WriteUTF8Char(int32_t ch);
 
-  /// @brief Method WriteUTF8Chars, addr 0x5f0d3cc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method WriteUTF8Chars, addr 0x5f74f58, size 0xc8, virtual false, abstract: false, final false
   inline void WriteUTF8Chars(::ArrayW<uint8_t, ::Array<uint8_t>*> chars, int32_t charOffset, int32_t charCount);
 
-  /// @brief Method WriteUTF8Chars, addr 0x5f0d494, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteUTF8Chars, addr 0x5f75020, size 0x24, virtual false, abstract: false, final false
   inline void WriteUTF8Chars(::StringW value);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
@@ -129,12 +129,12 @@ public:
 
   constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x5f0ce98, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f74a24, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Text::UTF8Encoding* getStaticF_UTF8Encoding();
 
-  /// @brief Method get_Position, addr 0x5f0cf40, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x5f74acc, size 0x34, virtual false, abstract: false, final false
   inline int32_t get_Position();
 
   static inline void setStaticF_UTF8Encoding(::System::Text::UTF8Encoding* value);
@@ -154,7 +154,7 @@ public:
   XmlStreamNodeWriter(XmlStreamNodeWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16960 };
 
   /// @brief Field stream, offset: 0x10, size: 0x8, def value: None
   ::System::IO::Stream* ___stream;

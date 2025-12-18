@@ -45,55 +45,55 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE PassData {
 public:
   // Declarations
-  /// @brief Method AddFirstUse, addr 0x65dae5c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method AddFirstUse, addr 0x66429e8, size 0x1d8, virtual false, abstract: false, final false
   inline void AddFirstUse(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h, Il2CppObject* ctx);
 
-  /// @brief Method AddFragment, addr 0x65dae04, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddFragment, addr 0x6642990, size 0x24, virtual false, abstract: false, final false
   inline void AddFragment(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h, Il2CppObject* ctx);
 
-  /// @brief Method AddFragmentInput, addr 0x65dae28, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddFragmentInput, addr 0x66429b4, size 0x24, virtual false, abstract: false, final false
   inline void AddFragmentInput(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h, Il2CppObject* ctx);
 
-  /// @brief Method AddLastUse, addr 0x65db034, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method AddLastUse, addr 0x6642bc0, size 0x1d8, virtual false, abstract: false, final false
   inline void AddLastUse(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h, Il2CppObject* ctx);
 
-  /// @brief Method AddRandomAccessResource, addr 0x65dae4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AddRandomAccessResource, addr 0x66429d8, size 0x10, virtual false, abstract: false, final false
   inline void AddRandomAccessResource();
 
-  /// @brief Method FirstUsedResources, addr 0x65dac08, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method FirstUsedResources, addr 0x6642794, size 0x94, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> FirstUsedResources(Il2CppObject* ctx);
 
-  /// @brief Method FragmentInputs, addr 0x65dab74, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method FragmentInputs, addr 0x6642700, size 0x94, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> FragmentInputs(Il2CppObject* ctx);
 
-  /// @brief Method Fragments, addr 0x65daae0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Fragments, addr 0x664266c, size 0x94, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> Fragments(Il2CppObject* ctx);
 
-  /// @brief Method GetName, addr 0x65da85c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x66423e8, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::Name GetName(Il2CppObject* ctx);
 
-  /// @brief Method Inputs, addr 0x65daa4c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Inputs, addr 0x66425d8, size 0x94, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassInputData> Inputs(Il2CppObject* ctx);
 
-  /// @brief Method IsUsedAsFragment, addr 0x65db20c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method IsUsedAsFragment, addr 0x6642d98, size 0x1f0, virtual false, abstract: false, final false
   inline bool IsUsedAsFragment(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h, Il2CppObject* ctx);
 
-  /// @brief Method LastUsedResources, addr 0x65dad30, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method LastUsedResources, addr 0x66428bc, size 0x94, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> LastUsedResources(Il2CppObject* ctx);
 
-  /// @brief Method Outputs, addr 0x65da9b8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Outputs, addr 0x6642544, size 0x94, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassOutputData> Outputs(Il2CppObject* ctx);
 
-  /// @brief Method RandomWriteTextures, addr 0x65dac9c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method RandomWriteTextures, addr 0x6642828, size 0x94, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassRandomWriteData> RandomWriteTextures(Il2CppObject* ctx);
 
-  /// @brief Method ResetAndInitialize, addr 0x65da948, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ResetAndInitialize, addr 0x66424d4, size 0x70, virtual false, abstract: false, final false
   inline void ResetAndInitialize(::ByRef<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*> pass, int32_t passIndex);
 
-  /// @brief Method SetupAndValidateFragmentInfo, addr 0x65dadc4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetupAndValidateFragmentInfo, addr 0x6642950, size 0x40, virtual false, abstract: false, final false
   inline void SetupAndValidateFragmentInfo(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h, Il2CppObject* ctx);
 
-  /// @brief Method .ctor, addr 0x65da8d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6642464, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*> pass, int32_t passIndex);
 
   // Ctor Parameters []
@@ -124,7 +124,7 @@ public:
                      bool hasSideEffects, bool culled, bool beginNativeSubpass, bool fragmentInfoValid, bool fragmentInfoHasDepth, bool insertGraphicsFence) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12466 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };

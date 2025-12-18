@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_lastItemId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6b5d860, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc66e4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -179,33 +179,33 @@ public:
   /// @brief Field m_TreeView, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TreeView, put = __cordl_internal_set_m_TreeView)) ::UnityEngine::UIElements::BaseTreeView* m_TreeView;
 
-  /// @brief Method CompareId, addr 0x6b5d86c, size 0x690, virtual true, abstract: false, final false
+  /// @brief Method CompareId, addr 0x6bc66f0, size 0x690, virtual true, abstract: false, final false
   inline int32_t CompareId(int32_t id1, int32_t id2);
 
-  /// @brief Method DelayExpandDropItem, addr 0x6b5ee48, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method DelayExpandDropItem, addr 0x6bc7ccc, size 0x20c, virtual false, abstract: false, final false
   inline void DelayExpandDropItem();
 
-  /// @brief Method DragCleanup, addr 0x6b5e888, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method DragCleanup, addr 0x6bc770c, size 0x140, virtual true, abstract: false, final false
   inline void DragCleanup();
 
-  /// @brief Method ExpandDropItem, addr 0x6b5f054, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ExpandDropItem, addr 0x6bc7ed8, size 0x258, virtual false, abstract: false, final false
   inline void ExpandDropItem();
 
-  /// @brief Method HandleAutoExpand, addr 0x6b5ed08, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method HandleAutoExpand, addr 0x6bc7b8c, size 0x140, virtual true, abstract: false, final false
   inline void HandleAutoExpand(::UnityEngine::UIElements::ReusableCollectionItem* item, ::UnityEngine::Vector2 pointerPosition);
 
-  /// @brief Method HandleDragAndDrop, addr 0x6b5e040, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method HandleDragAndDrop, addr 0x6bc6ec4, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::DragVisualMode HandleDragAndDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
 
   static inline ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController* New_ctor(::UnityEngine::UIElements::BaseTreeView* view);
 
-  /// @brief Method OnDrop, addr 0x6b5e114, size 0x774, virtual true, abstract: false, final false
+  /// @brief Method OnDrop, addr 0x6bc6f98, size 0x774, virtual true, abstract: false, final false
   inline void OnDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
 
-  /// @brief Method RestoreExpanded, addr 0x6b5e9c8, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method RestoreExpanded, addr 0x6bc784c, size 0x340, virtual false, abstract: false, final false
   inline void RestoreExpanded(::System::Collections::Generic::List_1<int32_t>* ids);
 
-  /// @brief Method SetupDragAndDrop, addr 0x6b5defc, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method SetupDragAndDrop, addr 0x6bc6d80, size 0x144, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StartDragArgs SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIds, bool skipText);
 
   constexpr ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData* const& __cordl_internal_get_m_DropData() const;
@@ -232,7 +232,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TreeView(::UnityEngine::UIElements::BaseTreeView* value);
 
-  /// @brief Method .ctor, addr 0x6b5d798, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc661c, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseTreeView* view);
 
 protected:

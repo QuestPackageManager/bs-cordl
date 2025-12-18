@@ -45,10 +45,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x665f0e8, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x66c6c74, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// @brief Method IsTileCompatible, addr 0x665f118, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x66c6ca4, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::MotionBlur* New_ctor();
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set_quality(::UnityEngine::Rendering::Universal::MotionBlurQualityParameter* value);
 
-  /// @brief Method .ctor, addr 0x665f120, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66c6cac, size 0x108, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -98,7 +98,7 @@ public:
   MotionBlur(MotionBlur const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12776 };
 
   /// @brief Field mode, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::MotionBlurModeParameter* ___mode;

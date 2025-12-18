@@ -47,30 +47,30 @@ public:
   /// @brief Field _packetsSent, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__packetsSent, put = __cordl_internal_set__packetsSent)) int64_t _packetsSent;
 
-  /// @brief Method AddBytesReceived, addr 0x568cce4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AddBytesReceived, addr 0x56ed98c, size 0x20, virtual false, abstract: false, final false
   inline void AddBytesReceived(int64_t bytesReceived);
 
-  /// @brief Method AddBytesSent, addr 0x568acbc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AddBytesSent, addr 0x56eb964, size 0x20, virtual false, abstract: false, final false
   inline void AddBytesSent(int64_t bytesSent);
 
-  /// @brief Method AddPacketLoss, addr 0x5692bc0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AddPacketLoss, addr 0x56f3868, size 0x20, virtual false, abstract: false, final false
   inline void AddPacketLoss(int64_t packetLoss);
 
-  /// @brief Method IncrementPacketLoss, addr 0x5692ba4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IncrementPacketLoss, addr 0x56f384c, size 0x1c, virtual false, abstract: false, final false
   inline void IncrementPacketLoss();
 
-  /// @brief Method IncrementPacketsReceived, addr 0x568ccc8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IncrementPacketsReceived, addr 0x56ed970, size 0x1c, virtual false, abstract: false, final false
   inline void IncrementPacketsReceived();
 
-  /// @brief Method IncrementPacketsSent, addr 0x568aca0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IncrementPacketsSent, addr 0x56eb948, size 0x1c, virtual false, abstract: false, final false
   inline void IncrementPacketsSent();
 
   static inline ::LiteNetLib::NetStatistics* New_ctor();
 
-  /// @brief Method Reset, addr 0x5692b44, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x56f37ec, size 0x60, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ToString, addr 0x5692be0, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x56f3888, size 0x2a8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int64_t const& __cordl_internal_get__bytesReceived() const;
@@ -103,25 +103,25 @@ public:
 
   constexpr void __cordl_internal_set__packetsSent(int64_t value);
 
-  /// @brief Method .ctor, addr 0x568a434, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56eb0dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BytesReceived, addr 0x5692ab8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_BytesReceived, addr 0x56f3760, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_BytesReceived();
 
-  /// @brief Method get_BytesSent, addr 0x5692a9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_BytesSent, addr 0x56f3744, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_BytesSent();
 
-  /// @brief Method get_PacketLoss, addr 0x5692ad4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PacketLoss, addr 0x56f377c, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_PacketLoss();
 
-  /// @brief Method get_PacketLossPercent, addr 0x5692af0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_PacketLossPercent, addr 0x56f3798, size 0x54, virtual false, abstract: false, final false
   inline int64_t get_PacketLossPercent();
 
-  /// @brief Method get_PacketsReceived, addr 0x5692a80, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PacketsReceived, addr 0x56f3728, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_PacketsReceived();
 
-  /// @brief Method get_PacketsSent, addr 0x5692a64, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PacketsSent, addr 0x56f370c, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_PacketsSent();
 
 protected:
@@ -139,7 +139,7 @@ public:
   NetStatistics(NetStatistics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19823 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19849 };
 
   /// @brief Field _packetsSent, offset: 0x10, size: 0x8, def value: None
   int64_t ____packetsSent;

@@ -34,15 +34,15 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x5a63db4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x5aca700, size 0x68, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Empty* New_ctor();
 
-  /// @brief Method ToString, addr 0x5a63da0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5aca6ec, size 0x14, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x5a63d9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aca6e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Empty* getStaticF_Value();

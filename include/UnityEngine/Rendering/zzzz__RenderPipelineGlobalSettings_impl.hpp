@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>* (
     ::UnityEngine::Rendering::RenderPipelineGlobalSettings::*)()>(&::UnityEngine::Rendering::RenderPipelineGlobalSettings::get_settingsList)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x68ee9ac;
+  constexpr static std::size_t addrs = 0x6957830;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::System::Type*, int32_t>* (
     ::UnityEngine::Rendering::RenderPipelineGlobalSettings::*)()>(&::UnityEngine::Rendering::RenderPipelineGlobalSettings::get_settingsMap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68eebf8;
+  constexpr static std::size_t addrs = 0x6957a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderPipelineGlobalSettings*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderPipelineGlobalSettings::*)()>(
     &::UnityEngine::Rendering::RenderPipelineGlobalSettings::RecreateSettingsMap)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x68eec00;
+  constexpr static std::size_t addrs = 0x6957a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderPipelineGlobalSettings*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderPipelineGlobalSettings::*)(
     ::System::Type*, ::ByRef<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>)>(&::UnityEngine::Rendering::RenderPipelineGlobalSettings::TryGet)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x68eed50;
+  constexpr static std::size_t addrs = 0x6957bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderPipelineGlobalSettings::*)(::System::Type*)>(
     &::UnityEngine::Rendering::RenderPipelineGlobalSettings::Contains)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68eee34;
+  constexpr static std::size_t addrs = 0x6957cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderPipelineGlobalSettings::*)()>(
     &::UnityEngine::Rendering::RenderPipelineGlobalSettings::OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68eeec4;
+  constexpr static std::size_t addrs = 0x6957d48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderPipelineGlobalSettings::*)()>(
     &::UnityEngine::Rendering::RenderPipelineGlobalSettings::OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68eeec8;
+  constexpr static std::size_t addrs = 0x6957d4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderPipelineGlobalSettings::*)()>(
     &::UnityEngine::Rendering::RenderPipelineGlobalSettings::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x68eeecc;
+  constexpr static std::size_t addrs = 0x6957d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderPipelineGlobalSettings*>::get(),

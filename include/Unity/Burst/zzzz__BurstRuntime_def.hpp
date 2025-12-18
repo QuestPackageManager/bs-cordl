@@ -61,7 +61,7 @@ public:
   constexpr BurstRuntime_HashCode32_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17280 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -93,7 +93,7 @@ public:
   constexpr BurstRuntime_HashCode64_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17267 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17281 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -112,7 +112,7 @@ public:
   // Declarations
   static inline ::Unity::Burst::BurstRuntime_PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x62558c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62bd44c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -130,7 +130,7 @@ public:
   BurstRuntime_PreserveAttribute(BurstRuntime_PreserveAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17268 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17282 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -154,40 +154,40 @@ public:
   /// @brief Method GetHashCode32, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t GetHashCode32();
 
-  /// @brief Method GetHashCode32, addr 0x6255400, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode32, addr 0x62bcf8c, size 0x24, virtual false, abstract: false, final false
   static inline int32_t GetHashCode32(::System::Type* type);
 
   /// @brief Method GetHashCode64, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int64_t GetHashCode64();
 
-  /// @brief Method GetHashCode64, addr 0x625547c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode64, addr 0x62bd008, size 0x24, virtual false, abstract: false, final false
   static inline int64_t GetHashCode64(::System::Type* type);
 
-  /// @brief Method GetUTF8LiteralPointer, addr 0x6255874, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetUTF8LiteralPointer, addr 0x62bd400, size 0x4c, virtual false, abstract: false, final false
   static inline uint8_t* GetUTF8LiteralPointer(::StringW str, ::ByRef<int32_t> byteCount);
 
-  /// @brief Method HashStringWithFNV1A32, addr 0x6255424, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HashStringWithFNV1A32, addr 0x62bcfb0, size 0x58, virtual false, abstract: false, final false
   static inline int32_t HashStringWithFNV1A32(::StringW text);
 
-  /// @brief Method HashStringWithFNV1A64, addr 0x62554a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HashStringWithFNV1A64, addr 0x62bd02c, size 0x60, virtual false, abstract: false, final false
   static inline int64_t HashStringWithFNV1A64(::StringW text);
 
-  /// @brief Method Initialize, addr 0x6255720, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x62bd2ac, size 0x4, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method LoadAdditionalLibrary, addr 0x6255500, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method LoadAdditionalLibrary, addr 0x62bd08c, size 0x70, virtual false, abstract: false, final false
   static inline bool LoadAdditionalLibrary(::StringW pathToLibBurstGenerated);
 
-  /// @brief Method LoadAdditionalLibraryInternal, addr 0x6255570, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method LoadAdditionalLibraryInternal, addr 0x62bd0fc, size 0x150, virtual false, abstract: false, final false
   static inline bool LoadAdditionalLibraryInternal(::StringW pathToLibBurstGenerated);
 
-  /// @brief Method Log, addr 0x6255818, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x62bd3a4, size 0x5c, virtual false, abstract: false, final false
   static inline void Log(uint8_t* message, int32_t logType, uint8_t* fileName, int32_t lineNumber);
 
-  /// @brief Method PreventRequiredAttributeStrip, addr 0x6255724, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method PreventRequiredAttributeStrip, addr 0x62bd2b0, size 0xf4, virtual false, abstract: false, final false
   static inline void PreventRequiredAttributeStrip();
 
-  /// @brief Method RuntimeLog, addr 0x62556c0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RuntimeLog, addr 0x62bd24c, size 0x60, virtual false, abstract: false, final false
   static inline void RuntimeLog(uint8_t* message, int32_t logType, uint8_t* fileName, int32_t lineNumber);
 
 protected:
@@ -205,7 +205,7 @@ public:
   BurstRuntime(BurstRuntime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17269 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17283 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

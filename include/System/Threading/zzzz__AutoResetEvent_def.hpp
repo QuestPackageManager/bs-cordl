@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Threading::AutoResetEvent* New_ctor(bool initialState);
 
-  /// @brief Method .ctor, addr 0x5a92328, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5af8c74, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool initialState);
 
 protected:

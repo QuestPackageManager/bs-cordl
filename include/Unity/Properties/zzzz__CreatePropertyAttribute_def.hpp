@@ -31,13 +31,13 @@ public:
 
   constexpr void __cordl_internal_set__ReadOnly_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x696a188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d300c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ReadOnly, addr 0x696a178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadOnly, addr 0x69d2ffc, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadOnly();
 
-  /// @brief Method set_ReadOnly, addr 0x696a180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReadOnly, addr 0x69d3004, size 0x8, virtual false, abstract: false, final false
   inline void set_ReadOnly(bool value);
 
 protected:
@@ -55,7 +55,7 @@ public:
   CreatePropertyAttribute(CreatePropertyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19303 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19329 };
 
   /// @brief Field <ReadOnly>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____ReadOnly_k__BackingField;

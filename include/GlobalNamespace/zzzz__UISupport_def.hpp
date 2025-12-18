@@ -18,7 +18,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE UISupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x62b241c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6319fa8, size 0x7c, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:
@@ -36,7 +36,7 @@ public:
   UISupport(UISupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8564 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8568 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -54,13 +54,13 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x351b440, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3545c84, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method CloneSelector, addr 0x351b1e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CloneSelector, addr 0x3545a2c, size 0x90, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::X509::Store::X509CertStoreSelector* CloneSelector(::Org::BouncyCastle::X509::Store::X509CertStoreSelector* s);
 
-  /// @brief Method Match, addr 0x351b318, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method Match, addr 0x3545b5c, size 0x128, virtual true, abstract: false, final true
   inline bool Match(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector* New_ctor();
@@ -85,19 +85,19 @@ public:
 
   constexpr void __cordl_internal_set_reverseSelector(::Org::BouncyCastle::X509::Store::X509CertStoreSelector* value);
 
-  /// @brief Method .ctor, addr 0x351b278, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3545abc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x351b27c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3545ac0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector* o);
 
-  /// @brief Method get_CertPair, addr 0x351b2d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertPair, addr 0x3545b14, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CertificatePair* get_CertPair();
 
-  /// @brief Method get_ForwardSelector, addr 0x351b2c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ForwardSelector, addr 0x3545b04, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::X509CertStoreSelector* get_ForwardSelector();
 
-  /// @brief Method get_ReverseSelector, addr 0x351b2c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReverseSelector, addr 0x3545b0c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::X509CertStoreSelector* get_ReverseSelector();
 
   /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Selector"
@@ -106,13 +106,13 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_CertPair, addr 0x351b2d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CertPair, addr 0x3545b1c, size 0x8, virtual false, abstract: false, final false
   inline void set_CertPair(::Org::BouncyCastle::X509::X509CertificatePair* value);
 
-  /// @brief Method set_ForwardSelector, addr 0x351b2e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_ForwardSelector, addr 0x3545b24, size 0x1c, virtual false, abstract: false, final false
   inline void set_ForwardSelector(::Org::BouncyCastle::X509::Store::X509CertStoreSelector* value);
 
-  /// @brief Method set_ReverseSelector, addr 0x351b2fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_ReverseSelector, addr 0x3545b40, size 0x1c, virtual false, abstract: false, final false
   inline void set_ReverseSelector(::Org::BouncyCastle::X509::Store::X509CertStoreSelector* value);
 
 protected:

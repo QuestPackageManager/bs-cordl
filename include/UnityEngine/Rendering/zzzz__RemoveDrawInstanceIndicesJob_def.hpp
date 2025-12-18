@@ -40,13 +40,13 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x65fdcec, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6665878, size 0x1e0, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method RemoveDrawBatch, addr 0x65fda7c, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method RemoveDrawBatch, addr 0x6665608, size 0x270, virtual false, abstract: false, final false
   inline void RemoveDrawBatch(::ByRef<::UnityEngine::Rendering::DrawKey> key);
 
-  /// @brief Method RemoveDrawRange, addr 0x65fd8d8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method RemoveDrawRange, addr 0x6665464, size 0x1a4, virtual false, abstract: false, final false
   inline void RemoveDrawRange(::ByRef<::UnityEngine::Rendering::RangeKey> key);
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -69,7 +69,7 @@ public:
                                          ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17640 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };

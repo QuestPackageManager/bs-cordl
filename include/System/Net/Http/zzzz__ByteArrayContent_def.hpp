@@ -40,15 +40,15 @@ public:
   /// @brief Field offset, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset)) int32_t offset;
 
-  /// @brief Method CreateContentReadStreamAsync, addr 0x5ebe5ec, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method CreateContentReadStreamAsync, addr 0x5f26178, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* CreateContentReadStreamAsync();
 
   static inline ::System::Net::Http::ByteArrayContent* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
-  /// @brief Method SerializeToStreamAsync, addr 0x5ebe6ac, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SerializeToStreamAsync, addr 0x5f26238, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method TryComputeLength, addr 0x5ebe6d0, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method TryComputeLength, addr 0x5f2625c, size 0x10, virtual true, abstract: false, final false
   inline bool TryComputeLength(::ByRef<int64_t> length);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_content() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_offset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5ebe588, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f26114, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
 protected:
@@ -87,7 +87,7 @@ public:
   ByteArrayContent(ByteArrayContent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20038 };
 
   /// @brief Field content, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___content;

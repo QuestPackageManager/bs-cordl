@@ -36,10 +36,10 @@ public:
 
   static inline ::UnityEngine::UIElements::GeometryChangedEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6b6a2ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6bd3130, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::GeometryChangedEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6b6a2a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bd312c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::GeometryChangedEvent___c* getStaticF___9();
@@ -93,13 +93,13 @@ public:
 
   __declspec(property(get = get_oldRect, put = set_oldRect)) ::UnityEngine::Rect oldRect;
 
-  /// @brief Method GetPooled, addr 0x6b6a050, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x6bd2ed4, size 0xc8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::GeometryChangedEvent* GetPooled(::UnityEngine::Rect oldRect, ::UnityEngine::Rect newRect);
 
-  /// @brief Method Init, addr 0x6b6a118, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6bd2f9c, size 0x60, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6b6a178, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6bd2ffc, size 0x14, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::GeometryChangedEvent* New_ctor();
@@ -122,25 +122,25 @@ public:
 
   constexpr void __cordl_internal_set__oldRect_k__BackingField(::UnityEngine::Rect value);
 
-  /// @brief Method .ctor, addr 0x6b6a1cc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bd3050, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_layoutPass, addr 0x6b6a1bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layoutPass, addr 0x6bd3040, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layoutPass();
 
-  /// @brief Method get_newRect, addr 0x6b6a1a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_newRect, addr 0x6bd3028, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_newRect();
 
-  /// @brief Method get_oldRect, addr 0x6b6a18c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_oldRect, addr 0x6bd3010, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_oldRect();
 
-  /// @brief Method set_layoutPass, addr 0x6b6a1c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_layoutPass, addr 0x6bd3048, size 0x8, virtual false, abstract: false, final false
   inline void set_layoutPass(int32_t value);
 
-  /// @brief Method set_newRect, addr 0x6b6a1b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_newRect, addr 0x6bd3034, size 0xc, virtual false, abstract: false, final false
   inline void set_newRect(::UnityEngine::Rect value);
 
-  /// @brief Method set_oldRect, addr 0x6b6a198, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_oldRect, addr 0x6bd301c, size 0xc, virtual false, abstract: false, final false
   inline void set_oldRect(::UnityEngine::Rect value);
 
 protected:

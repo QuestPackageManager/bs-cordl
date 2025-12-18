@@ -21,7 +21,7 @@ namespace Mono::Net::Security {
 class CORDL_TYPE NoReflectionHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetProvider, addr 0x5dc25fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetProvider, addr 0x5e2a188, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Object* GetProvider();
 
 protected:
@@ -39,7 +39,7 @@ public:
   NoReflectionHelper(NoReflectionHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11013 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

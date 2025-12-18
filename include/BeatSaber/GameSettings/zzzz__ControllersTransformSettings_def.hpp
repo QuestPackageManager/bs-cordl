@@ -52,24 +52,24 @@ public:
 
   __declspec(property(get = get_selectedControllerProfile)) ::BeatSaber::GameSettings::ControllerProfile* selectedControllerProfile;
 
-  /// @brief Method Deactivate, addr 0x319474c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x31c45c8, size 0x8, virtual false, abstract: false, final false
   inline void Deactivate();
 
-  /// @brief Method HandlePositionSliderValueDidChange, addr 0x3194e18, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HandlePositionSliderValueDidChange, addr 0x31c4c94, size 0xd0, virtual false, abstract: false, final false
   inline void HandlePositionSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-  /// @brief Method HandleRotationSliderValueDidChange, addr 0x3194ee8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HandleRotationSliderValueDidChange, addr 0x31c4d64, size 0xd0, virtual false, abstract: false, final false
   inline void HandleRotationSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-  /// @brief Method Initialize, addr 0x31941b0, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x31c402c, size 0x454, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::BeatSaber::GameSettings::ControllersTransformSettings* New_ctor();
 
-  /// @brief Method RefreshView, addr 0x3194b2c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method RefreshView, addr 0x31c49a8, size 0x19c, virtual false, abstract: false, final false
   inline void RefreshView(::BeatSaber::GameSettings::ControllerProfile* controllerProfile);
 
-  /// @brief Method SetInteractable, addr 0x3194d84, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetInteractable, addr 0x31c4c00, size 0x94, virtual false, abstract: false, final false
   inline void SetInteractable(bool interactable);
 
   constexpr bool const& __cordl_internal_get__isLeft() const;
@@ -120,10 +120,10 @@ public:
 
   constexpr void __cordl_internal_set__selectedControllerProfile(::BeatSaber::GameSettings::ControllerProfile* value);
 
-  /// @brief Method .ctor, addr 0x3194fb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31c4e34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_selectedControllerProfile, addr 0x3194d2c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_selectedControllerProfile, addr 0x31c4ba8, size 0x58, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::ControllerProfile* get_selectedControllerProfile();
 
 protected:
@@ -141,7 +141,7 @@ public:
   ControllersTransformSettings(ControllersTransformSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21884 };
 
   /// @brief Field kPositionMul offset 0xffffffff size 0x4
   static constexpr float_t kPositionMul{ static_cast<float_t>(100.0f) };

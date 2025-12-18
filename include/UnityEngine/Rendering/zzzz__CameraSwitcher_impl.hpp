@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CameraSwitcher::*)()>(&::UnityEngine::Rendering::CameraSwitcher::OnEnable)> {
   constexpr static std::size_t size = 0x6a8;
-  constexpr static std::size_t addrs = 0x652e004;
+  constexpr static std::size_t addrs = 0x6595b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CameraSwitcher*>::get(), "OnEnable",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CameraSwitcher::*)()>(&::UnityEngine::Rendering::CameraSwitcher::OnDisable)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x652e6c8;
+  constexpr static std::size_t addrs = 0x6596254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CameraSwitcher*>::get(), "OnDisable",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CameraSwitcher::*)()>(&::UnityEngine::Rendering::CameraSwitcher::GetCameraCount)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x652e6ac;
+  constexpr static std::size_t addrs = 0x6596238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CameraSwitcher*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (::UnityEngine::Rendering::CameraSwitcher::*)()>(
     &::UnityEngine::Rendering::CameraSwitcher::GetNextCamera)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x652e75c;
+  constexpr static std::size_t addrs = 0x65962e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CameraSwitcher*>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CameraSwitcher::*)(int32_t)>(
     &::UnityEngine::Rendering::CameraSwitcher::SetCameraIndex)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x652e7a4;
+  constexpr static std::size_t addrs = 0x6596330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CameraSwitcher::*)()>(&::UnityEngine::Rendering::CameraSwitcher::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x652e9c8;
+  constexpr static std::size_t addrs = 0x6596554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CameraSwitcher*>::get(), ".ctor",
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CameraSwitcher::*)()>(
     &::UnityEngine::Rendering::CameraSwitcher::_OnEnable_b__10_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x652e9d4;
+  constexpr static std::size_t addrs = 0x6596560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CameraSwitcher*>::get(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CameraSwitcher::*)(int32_t)>(
     &::UnityEngine::Rendering::CameraSwitcher::_OnEnable_b__10_1)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x652e9dc;
+  constexpr static std::size_t addrs = 0x6596568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CameraSwitcher::*)()>(
     &::UnityEngine::Rendering::CameraSwitcher::_OnEnable_b__10_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x652e9e0;
+  constexpr static std::size_t addrs = 0x659656c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CameraSwitcher*>::get(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CameraSwitcher::*)(int32_t)>(
     &::UnityEngine::Rendering::CameraSwitcher::_OnEnable_b__10_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x652e9e8;
+  constexpr static std::size_t addrs = 0x6596574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Button::Init)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x584362c;
+  constexpr static std::size_t addrs = 0x58a9d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRHapticsClip* (*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Button::get_HapticsClip)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5843678;
+  constexpr static std::size_t addrs = 0x58a9ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action* (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Button::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Button::get_Callback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58437d0;
+  constexpr static std::size_t addrs = 0x58a9f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Button::*)(::System::Action*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Button::set_Callback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58437d8;
+  constexpr static std::size_t addrs = 0x58a9f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Button::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Button::OnPointerClick)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x58437e0;
+  constexpr static std::size_t addrs = 0x58a9f44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Button::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Button::OnHoverChanged)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5843854;
+  constexpr static std::size_t addrs = 0x58a9fb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Button::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Button::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58439ac;
+  constexpr static std::size_t addrs = 0x58aa110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_rendererList(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
 
-  /// @brief Method .ctor, addr 0x663806c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x669fbf8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,7 +97,7 @@ public:
   DecalPreviewPass_PassData(DecalPreviewPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12655 };
 
   /// @brief Field rendererList, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle ___rendererList;
@@ -127,10 +127,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DecalPreviewPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__8_0, addr 0x6638c9c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__8_0, addr 0x66a0828, size 0x58, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__8_0(::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
 
-  /// @brief Method .ctor, addr 0x6638c98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66a0824, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::DecalPreviewPass___c* getStaticF___9();
@@ -159,7 +159,7 @@ public:
   DecalPreviewPass___c(DecalPreviewPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12656 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -191,16 +191,16 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ShaderTagIdList,
                       put = __cordl_internal_set_m_ShaderTagIdList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* m_ShaderTagIdList;
 
-  /// @brief Method Execute, addr 0x6638070, size 0x374, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x669fbfc, size 0x374, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x66383e4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x669ff70, size 0x38, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DecalPreviewPass_PassData* passData,
                                  ::UnityEngine::Rendering::RendererList rendererList);
 
   static inline ::UnityEngine::Rendering::Universal::DecalPreviewPass* New_ctor();
 
-  /// @brief Method RecordRenderGraph, addr 0x663841c, size 0x828, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x669ffa8, size 0x828, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
   constexpr ::UnityEngine::Rendering::FilteringSettings const& __cordl_internal_get_m_FilteringSettings() const;
@@ -227,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShaderTagIdList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* value);
 
-  /// @brief Method .ctor, addr 0x6637e28, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x669f9b4, size 0x244, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -245,7 +245,7 @@ public:
   DecalPreviewPass(DecalPreviewPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12653 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12657 };
 
   /// @brief Field m_FilteringSettings, offset: 0xb8, size: 0x20, def value: None
   ::UnityEngine::Rendering::FilteringSettings ___m_FilteringSettings;

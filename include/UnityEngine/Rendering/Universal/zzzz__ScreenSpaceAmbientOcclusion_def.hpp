@@ -59,16 +59,16 @@ public:
 
   __declspec(property(get = get_settings)) ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings* settings;
 
-  /// @brief Method AddRenderPasses, addr 0x668fb00, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x66f768c, size 0x1e8, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x668fa50, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x66f75dc, size 0xb0, virtual true, abstract: false, final false
   inline void Create();
 
-  /// @brief Method Dispose, addr 0x668fdd8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x66f7964, size 0x70, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetMaterials, addr 0x668fce8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetMaterials, addr 0x66f7874, size 0xf0, virtual false, abstract: false, final false
   inline bool GetMaterials();
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion* New_ctor();
@@ -103,10 +103,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Shader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x668fe48, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66f79d4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_settings, addr 0x668fa48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_settings, addr 0x66f75d4, size 0x8, virtual false, abstract: false, final false
   inline ::ByRef<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings*> get_settings();
 
 protected:
@@ -124,7 +124,7 @@ public:
   ScreenSpaceAmbientOcclusion(ScreenSpaceAmbientOcclusion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12899 };
 
   /// @brief Field k_AOBlueNoiseKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString k_AOBlueNoiseKeyword{ u"_BLUE_NOISE" };

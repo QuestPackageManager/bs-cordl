@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, int32_t, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags)>(
     &::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder::SetRenderAttachment)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x65b21e0;
+  constexpr static std::size_t addrs = 0x6619d6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, int32_t, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags)>(
     &::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder::SetInputAttachment)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x65b22b4;
+  constexpr static std::size_t addrs = 0x6619e40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags)>(
     &::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder::SetRenderAttachmentDepth)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x65b2388;
+  constexpr static std::size_t addrs = 0x6619f14;
 
   inline static ::MethodInfo const* methodInfo() {
 

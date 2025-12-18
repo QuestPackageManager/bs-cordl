@@ -31,13 +31,13 @@ public:
 
   static inline ::System::OutOfMemoryException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5a5404c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aba998, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5a53a5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aba3a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5a53a38, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aba384, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

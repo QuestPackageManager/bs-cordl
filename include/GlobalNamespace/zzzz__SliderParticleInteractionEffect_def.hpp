@@ -52,21 +52,21 @@ public:
   /// @brief Field _startColor, offset 0x40, size 0x10
   __declspec(property(get = __cordl_internal_get__startColor, put = __cordl_internal_set__startColor)) ::UnityEngine::Color _startColor;
 
-  /// @brief Method EndEffect, addr 0x5767c3c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method EndEffect, addr 0x57ce458, size 0xa8, virtual true, abstract: false, final false
   inline void EndEffect();
 
   static inline ::GlobalNamespace::SliderParticleInteractionEffect* New_ctor();
 
-  /// @brief Method SetPSStartColor, addr 0x5767a5c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetPSStartColor, addr 0x57ce278, size 0xa8, virtual false, abstract: false, final false
   inline void SetPSStartColor(::UnityEngine::Color color);
 
-  /// @brief Method Start, addr 0x57679c0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x57ce1dc, size 0x9c, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEffect, addr 0x5767b6c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method StartEffect, addr 0x57ce388, size 0xd0, virtual true, abstract: false, final false
   inline void StartEffect(float_t saberInteractionParam);
 
-  /// @brief Method Update, addr 0x5767b04, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x57ce320, size 0x68, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__startColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x5767ce4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57ce500, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

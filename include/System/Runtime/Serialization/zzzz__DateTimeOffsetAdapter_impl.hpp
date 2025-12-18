@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DateTimeOffsetAdapter::*)(::System::DateTime, int16_t)>(
     &::System::Runtime::Serialization::DateTimeOffsetAdapter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f308f4;
+  constexpr static std::size_t addrs = 0x5f98480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DateTimeOffsetAdapter>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Runtime::Serialization::DateTimeOffsetAdapter::*)()>(
     &::System::Runtime::Serialization::DateTimeOffsetAdapter::get_UtcDateTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f30900;
+  constexpr static std::size_t addrs = 0x5f9848c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DateTimeOffsetAdapter>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::System::Runtime::Serialization::DateTimeOffsetAdapter::*)()>(
     &::System::Runtime::Serialization::DateTimeOffsetAdapter::get_OffsetMinutes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f30908;
+  constexpr static std::size_t addrs = 0x5f98494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DateTimeOffsetAdapter>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (*)(::System::Runtime::Serialization::DateTimeOffsetAdapter)>(
     &::System::Runtime::Serialization::DateTimeOffsetAdapter::GetDateTimeOffset)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x5f30910;
+  constexpr static std::size_t addrs = 0x5f9849c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DateTimeOffsetAdapter (*)(::System::DateTimeOffset)>(
     &::System::Runtime::Serialization::DateTimeOffsetAdapter::GetDateTimeOffsetAdapter)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5f30bf0;
+  constexpr static std::size_t addrs = 0x5f9877c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::DateTimeOffsetAdapter::*)(::System::IFormatProvider*)>(
     &::System::Runtime::Serialization::DateTimeOffsetAdapter::ToString)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5f30b20;
+  constexpr static std::size_t addrs = 0x5f986ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelOrPackIdAttribute::*)()>(
     &::GlobalNamespace::BeatmapLevelOrPackIdAttribute::get_allowPacks)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3625384;
+  constexpr static std::size_t addrs = 0x3650c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelOrPackIdAttribute*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelOrPackIdAttribute::*)()>(
     &::GlobalNamespace::BeatmapLevelOrPackIdAttribute::get_allowLevels)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3625390;
+  constexpr static std::size_t addrs = 0x3650c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelOrPackIdAttribute*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelOrPackIdAttribute::*)()>(
     &::GlobalNamespace::BeatmapLevelOrPackIdAttribute::get_allowEmpty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x362539c;
+  constexpr static std::size_t addrs = 0x3650c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelOrPackIdAttribute*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelOrPackIdAttribute::*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(
     &::GlobalNamespace::BeatmapLevelOrPackIdAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x36253a8;
+  constexpr static std::size_t addrs = 0x3650c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,17 +61,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::BeatmapLevelOrPackIdFilter& GlobalNamespace::BeatmapLevelOrPackIdAttribute::__cordl_internal_get__filter() {
+constexpr ::GlobalNamespace::BeatmapLevelOrPackIdFilter& GlobalNamespace::BeatmapLevelOrPackIdAttribute::__cordl_internal_get_filter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____filter;
+  return this->___filter;
 }
-constexpr ::GlobalNamespace::BeatmapLevelOrPackIdFilter const& GlobalNamespace::BeatmapLevelOrPackIdAttribute::__cordl_internal_get__filter() const {
+constexpr ::GlobalNamespace::BeatmapLevelOrPackIdFilter const& GlobalNamespace::BeatmapLevelOrPackIdAttribute::__cordl_internal_get_filter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____filter;
+  return this->___filter;
 }
-constexpr void GlobalNamespace::BeatmapLevelOrPackIdAttribute::__cordl_internal_set__filter(::GlobalNamespace::BeatmapLevelOrPackIdFilter value) {
+constexpr void GlobalNamespace::BeatmapLevelOrPackIdAttribute::__cordl_internal_set_filter(::GlobalNamespace::BeatmapLevelOrPackIdFilter value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____filter = value;
+  this->___filter = value;
 }
 inline bool GlobalNamespace::BeatmapLevelOrPackIdAttribute::get_allowPacks() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelOrPackIdAttribute*>::get(),

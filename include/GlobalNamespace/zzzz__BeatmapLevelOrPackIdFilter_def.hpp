@@ -26,6 +26,7 @@ public:
     __E_Packs = static_cast<int32_t>(0x1),
     __E_Levels = static_cast<int32_t>(0x2),
     __E_Empty = static_cast<int32_t>(0x4),
+    __E_AllNonEmpty = static_cast<int32_t>(0x3),
     __E_All = static_cast<int32_t>(0x7),
   };
 
@@ -49,6 +50,9 @@ public:
   /// @brief Field All value: I32(7)
   static ::GlobalNamespace::BeatmapLevelOrPackIdFilter const All;
 
+  /// @brief Field AllNonEmpty value: I32(3)
+  static ::GlobalNamespace::BeatmapLevelOrPackIdFilter const AllNonEmpty;
+
   /// @brief Field Empty value: I32(4)
   static ::GlobalNamespace::BeatmapLevelOrPackIdFilter const Empty;
 
@@ -59,7 +63,7 @@ public:
   static ::GlobalNamespace::BeatmapLevelOrPackIdFilter const Packs;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15150 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15160 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

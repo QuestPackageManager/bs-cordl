@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::LevelFailedText* New_ctor();
 
-  /// @brief Method OverrideText, addr 0x576fc64, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method OverrideText, addr 0x57d650c, size 0x4c, virtual false, abstract: false, final false
   inline void OverrideText(::StringW text);
 
   constexpr ::UnityW<::BGLib::Polyglot::LocalizedTextMeshPro> const& __cordl_internal_get__localizedText() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x576fcb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57d6558, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

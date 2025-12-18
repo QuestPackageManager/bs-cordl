@@ -23,7 +23,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE OcclusionCullingSettings {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x65f7914, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x665f4a0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t viewInstanceID, ::UnityEngine::Rendering::OcclusionTest occlusionTest);
 
   // Ctor Parameters []
@@ -35,7 +35,7 @@ public:
   constexpr OcclusionCullingSettings(int32_t viewInstanceID, ::UnityEngine::Rendering::OcclusionTest occlusionTest, int32_t instanceMultiplier) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17602 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

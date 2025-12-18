@@ -52,13 +52,13 @@ public:
   /// @brief Field m_RightChild, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RightChild, put = __cordl_internal_set_m_RightChild)) ::UnityEngine::Rendering::AtlasAllocator_AtlasNode* m_RightChild;
 
-  /// @brief Method Allocate, addr 0x6591dc4, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x65f9950, size 0x1e8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::AtlasAllocator_AtlasNode* Allocate(::ByRef<::UnityEngine::Rendering::ObjectPool_1<::UnityEngine::Rendering::AtlasAllocator_AtlasNode*>*> pool, int32_t width,
                                                                       int32_t height, bool powerOfTwoPadding);
 
   static inline ::UnityEngine::Rendering::AtlasAllocator_AtlasNode* New_ctor();
 
-  /// @brief Method Release, addr 0x6591fe8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x65f9b74, size 0xe0, virtual false, abstract: false, final false
   inline void Release(::ByRef<::UnityEngine::Rendering::ObjectPool_1<::UnityEngine::Rendering::AtlasAllocator_AtlasNode*>*> pool);
 
   constexpr ::UnityEngine::Rendering::AtlasAllocator_AtlasNode* const& __cordl_internal_get_m_BottomChild() const;
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RightChild(::UnityEngine::Rendering::AtlasAllocator_AtlasNode* value);
 
-  /// @brief Method .ctor, addr 0x6591d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65f98b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,7 +97,7 @@ public:
   AtlasAllocator_AtlasNode(AtlasAllocator_AtlasNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12219 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12223 };
 
   /// @brief Field m_RightChild, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::AtlasAllocator_AtlasNode* ___m_RightChild;
@@ -138,13 +138,13 @@ public:
 
   static inline ::UnityEngine::Rendering::AtlasAllocator___c* New_ctor();
 
-  /// @brief Method <.ctor>b__6_0, addr 0x6592120, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__6_0, addr 0x65f9cac, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__6_0(::UnityEngine::Rendering::AtlasAllocator_AtlasNode* _);
 
-  /// @brief Method <.ctor>b__6_1, addr 0x6592124, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__6_1, addr 0x65f9cb0, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__6_1(::UnityEngine::Rendering::AtlasAllocator_AtlasNode* _);
 
-  /// @brief Method .ctor, addr 0x659211c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65f9ca8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::AtlasAllocator___c* getStaticF___9();
@@ -174,7 +174,7 @@ public:
   AtlasAllocator___c(AtlasAllocator___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12224 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -209,12 +209,12 @@ public:
   /// @brief Field powerOfTwoPadding, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_powerOfTwoPadding, put = __cordl_internal_set_powerOfTwoPadding)) bool powerOfTwoPadding;
 
-  /// @brief Method Allocate, addr 0x6591d34, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x65f98c0, size 0x90, virtual false, abstract: false, final false
   inline bool Allocate(::ByRef<::UnityEngine::Vector4> result, int32_t width, int32_t height);
 
   static inline ::UnityEngine::Rendering::AtlasAllocator* New_ctor(int32_t width, int32_t height, bool potPadding);
 
-  /// @brief Method Reset, addr 0x6591fac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x65f9b38, size 0x3c, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_m_Height() const;
@@ -247,7 +247,7 @@ public:
 
   constexpr void __cordl_internal_set_powerOfTwoPadding(bool value);
 
-  /// @brief Method .ctor, addr 0x6591b30, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65f96bc, size 0x1fc, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, bool potPadding);
 
 protected:
@@ -265,7 +265,7 @@ public:
   AtlasAllocator(AtlasAllocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12225 };
 
   /// @brief Field m_Root, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::AtlasAllocator_AtlasNode* ___m_Root;

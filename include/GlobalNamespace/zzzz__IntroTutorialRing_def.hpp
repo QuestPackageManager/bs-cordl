@@ -89,25 +89,25 @@ public:
 
   static inline ::GlobalNamespace::IntroTutorialRing* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x5726b6c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5788be8, size 0x54, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnTriggerEnter, addr 0x5726d88, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerEnter, addr 0x5788e04, size 0x114, virtual false, abstract: false, final false
   inline void OnTriggerEnter(::UnityEngine::Collider* other);
 
-  /// @brief Method OnTriggerExit, addr 0x5726e9c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerExit, addr 0x5788f18, size 0x108, virtual false, abstract: false, final false
   inline void OnTriggerExit(::UnityEngine::Collider* other);
 
-  /// @brief Method OnTriggerStay, addr 0x5726fa4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerStay, addr 0x5789020, size 0x120, virtual false, abstract: false, final false
   inline void OnTriggerStay(::UnityEngine::Collider* other);
 
-  /// @brief Method SetProgressImagesfillAmount, addr 0x5726d24, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetProgressImagesfillAmount, addr 0x5788da0, size 0x64, virtual false, abstract: false, final false
   inline void SetProgressImagesfillAmount(float_t fillAmount);
 
-  /// @brief Method Start, addr 0x5726aec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5788b68, size 0x80, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5726bc0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5788c3c, size 0x164, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__activationDuration() const;
@@ -182,19 +182,19 @@ public:
 
   constexpr void __cordl_internal_set__sabersInsideAfterOnEnable(bool value);
 
-  /// @brief Method .ctor, addr 0x57270c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5789140, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fullyActivated, addr 0x5726ab8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_fullyActivated, addr 0x5788b34, size 0x24, virtual false, abstract: false, final false
   inline bool get_fullyActivated();
 
-  /// @brief Method get_saberType, addr 0x5726adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_saberType, addr 0x5788b58, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SaberType get_saberType();
 
-  /// @brief Method set_alpha, addr 0x5726aa0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x5788b1c, size 0x18, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
-  /// @brief Method set_saberType, addr 0x5726ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_saberType, addr 0x5788b60, size 0x8, virtual false, abstract: false, final false
   inline void set_saberType(::GlobalNamespace::SaberType value);
 
 protected:
@@ -212,7 +212,7 @@ public:
   IntroTutorialRing(IntroTutorialRing const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6868 };
 
   /// @brief Field _progressImages, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*> ____progressImages;

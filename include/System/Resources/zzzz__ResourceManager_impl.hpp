@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceManager_CultureNameResourceSetPair::*)()>(
     &::System::Resources::ResourceManager_CultureNameResourceSetPair::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x596137c;
+  constexpr static std::size_t addrs = 0x59c7cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceManager_ResourceManagerMediator::*)(::System::Resources::ResourceManager*)>(
     &::System::Resources::ResourceManager_ResourceManagerMediator::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5961380;
+  constexpr static std::size_t addrs = 0x59c7ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Resources::ResourceManager_ResourceManagerMediator::*)()>(
     &::System::Resources::ResourceManager_ResourceManagerMediator::get_ModuleDir)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x595ef50;
+  constexpr static std::size_t addrs = 0x59c589c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Resources::ResourceManager_ResourceManagerMediator::*)()>(
     &::System::Resources::ResourceManager_ResourceManagerMediator::get_LocationInfo)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x595ec70;
+  constexpr static std::size_t addrs = 0x59c55bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Resources::ResourceManager_ResourceManagerMediator::*)()>(
     &::System::Resources::ResourceManager_ResourceManagerMediator::get_UserResourceSet)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x595ef68;
+  constexpr static std::size_t addrs = 0x59c58b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Resources::ResourceManager_ResourceManagerMediator::*)()>(
     &::System::Resources::ResourceManager_ResourceManagerMediator::get_BaseNameField)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x595ec58;
+  constexpr static std::size_t addrs = 0x59c55a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureInfo* (::System::Resources::ResourceManager_ResourceManagerMediator::*)()>(
     &::System::Resources::ResourceManager_ResourceManagerMediator::get_NeutralResourcesCulture)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5960598;
+  constexpr static std::size_t addrs = 0x59c6ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Resources::ResourceManager_ResourceManagerMediator::*)(::System::Globalization::CultureInfo*)>(
     &::System::Resources::ResourceManager_ResourceManagerMediator::GetResourceFileName)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x595eb88;
+  constexpr static std::size_t addrs = 0x59c54d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Resources::ResourceManager_ResourceManagerMediator::*)()>(
     &::System::Resources::ResourceManager_ResourceManagerMediator::get_LookedForSatelliteContractVersion)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5960df4;
+  constexpr static std::size_t addrs = 0x59c7740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceManager_ResourceManagerMediator::*)(bool)>(
     &::System::Resources::ResourceManager_ResourceManagerMediator::set_LookedForSatelliteContractVersion)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5960e7c;
+  constexpr static std::size_t addrs = 0x59c77c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (::System::Resources::ResourceManager_ResourceManagerMediator::*)()>(
     &::System::Resources::ResourceManager_ResourceManagerMediator::get_SatelliteContractVersion)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5960f14;
+  constexpr static std::size_t addrs = 0x59c7860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceManager_ResourceManagerMediator::*)(::System::Version*)>(
     &::System::Resources::ResourceManager_ResourceManagerMediator::set_SatelliteContractVersion)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5960e64;
+  constexpr static std::size_t addrs = 0x59c77b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (
     ::System::Resources::ResourceManager_ResourceManagerMediator::*)(::System::Reflection::Assembly*)>(&::System::Resources::ResourceManager_ResourceManagerMediator::ObtainSatelliteContractVersion)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5960e0c;
+  constexpr static std::size_t addrs = 0x59c7758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Resources::UltimateResourceFallbackLocation (
     ::System::Resources::ResourceManager_ResourceManagerMediator::*)()>(&::System::Resources::ResourceManager_ResourceManagerMediator::get_FallbackLoc)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x595f34c;
+  constexpr static std::size_t addrs = 0x59c5c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::RuntimeAssembly* (::System::Resources::ResourceManager_ResourceManagerMediator::*)()>(
     &::System::Resources::ResourceManager_ResourceManagerMediator::get_CallingAssembly)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5960a84;
+  constexpr static std::size_t addrs = 0x59c73d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::RuntimeAssembly* (::System::Resources::ResourceManager_ResourceManagerMediator::*)()>(
     &::System::Resources::ResourceManager_ResourceManagerMediator::get_MainAssembly)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x595f364;
+  constexpr static std::size_t addrs = 0x59c5cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Resources::ResourceManager_ResourceManagerMediator::*)()>(
     &::System::Resources::ResourceManager_ResourceManagerMediator::get_BaseName)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5961190;
+  constexpr static std::size_t addrs = 0x59c7adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -425,7 +425,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceManager::*)()>(&::System::Resources::ResourceManager::Init)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x59611ac;
+  constexpr static std::size_t addrs = 0x59c7af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "Init",
@@ -438,7 +438,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceManager::*)()>(&::System::Resources::ResourceManager::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x59612cc;
+  constexpr static std::size_t addrs = 0x59c7c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), ".ctor",
@@ -452,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceManager::*)(::StringW, ::System::Reflection::Assembly*)>(
     &::System::Resources::ResourceManager::_ctor)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x59613d8;
+  constexpr static std::size_t addrs = 0x59c7d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -468,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceManager::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Resources::ResourceManager::OnDeserializing)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5961800;
+  constexpr static std::size_t addrs = 0x59c814c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -483,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceManager::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Resources::ResourceManager::OnDeserialized)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5961810;
+  constexpr static std::size_t addrs = 0x59c815c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceManager::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Resources::ResourceManager::OnSerializing)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5961a00;
+  constexpr static std::size_t addrs = 0x59c834c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -512,7 +512,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceManager::*)()>(&::System::Resources::ResourceManager::CommonAssemblyInit)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x5961694;
+  constexpr static std::size_t addrs = 0x59c7fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(),
@@ -525,7 +525,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Resources::ResourceManager::*)()>(&::System::Resources::ResourceManager::get_BaseName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5961a70;
+  constexpr static std::size_t addrs = 0x59c83bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -540,7 +540,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Resources::UltimateResourceFallbackLocation (::System::Resources::ResourceManager::*)()>(
     &::System::Resources::ResourceManager::get_FallbackLocation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5961a78;
+  constexpr static std::size_t addrs = 0x59c83c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(),
@@ -554,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Resources::ResourceManager::*)(::System::Globalization::CultureInfo*)>(
     &::System::Resources::ResourceManager::GetResourceFileName)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5961a80;
+  constexpr static std::size_t addrs = 0x59c83cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -569,7 +569,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Resources::ResourceSet* (::System::Resources::ResourceManager::*)(::System::Globalization::CultureInfo*)>(
     &::System::Resources::ResourceManager::GetFirstResourceSet)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x5961bc4;
+  constexpr static std::size_t addrs = 0x59c8510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -584,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Resources::ResourceSet* (
     ::System::Resources::ResourceManager::*)(::System::Globalization::CultureInfo*, bool, bool)>(&::System::Resources::ResourceManager::InternalGetResourceSet)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5961f70;
+  constexpr static std::size_t addrs = 0x59c88bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -600,7 +600,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Resources::ResourceSet* (::System::Resources::ResourceManager::*)(::System::Globalization::CultureInfo*, bool, bool, ::ByRef<::System::Threading::StackCrawlMark>)>(
         &::System::Resources::ResourceManager::InternalGetResourceSet)> {
   constexpr static std::size_t size = 0x7b0;
-  constexpr static std::size_t addrs = 0x5961f8c;
+  constexpr static std::size_t addrs = 0x59c88d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -617,7 +617,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>*, ::StringW,
                                                                                            ::ByRef<::System::Resources::ResourceSet*>)>(&::System::Resources::ResourceManager::AddResourceSet)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x596273c;
+  constexpr static std::size_t addrs = 0x59c9088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -634,7 +634,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (*)(::System::Reflection::Assembly*)>(
     &::System::Resources::ResourceManager::GetSatelliteContractVersion)> {
   constexpr static std::size_t size = 0x70c;
-  constexpr static std::size_t addrs = 0x5962908;
+  constexpr static std::size_t addrs = 0x59c9254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -649,7 +649,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::System::Reflection::AssemblyName*)>(
     &::System::Resources::ResourceManager::CompareNames)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x5960f2c;
+  constexpr static std::size_t addrs = 0x59c7878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -664,7 +664,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceManager::*)()>(&::System::Resources::ResourceManager::SetAppXConfiguration)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5961690;
+  constexpr static std::size_t addrs = 0x59c7fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(),
@@ -678,7 +678,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Resources::ResourceManager::*)(::StringW, ::System::Globalization::CultureInfo*)>(
     &::System::Resources::ResourceManager::GetString)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x5963014;
+  constexpr static std::size_t addrs = 0x59c9960;
 
   inline static ::MethodInfo const* methodInfo() {
 

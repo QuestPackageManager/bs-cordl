@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x35d2030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35fc874, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x35d2020, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x35fc864, size 0x10, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -56,7 +56,7 @@ public:
   NoAlphaColorSO(NoAlphaColorSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22750 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22776 };
 
   /// @brief Field _color, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::Color ____color;

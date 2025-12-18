@@ -58,13 +58,13 @@ public:
   /// @brief Field s_UssNameToCSharpName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_UssNameToCSharpName, put = setStaticF_s_UssNameToCSharpName)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_UssNameToCSharpName;
 
-  /// @brief Method IsAnimatable, addr 0x6ad826c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsAnimatable, addr 0x6b410f0, size 0x88, virtual false, abstract: false, final false
   static inline bool IsAnimatable(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method IsMatchingShorthand, addr 0x6ad807c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method IsMatchingShorthand, addr 0x6b40f00, size 0x1f0, virtual false, abstract: false, final false
   static inline bool IsMatchingShorthand(::UnityEngine::UIElements::StyleSheets::StylePropertyId shorthand, ::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method TryGetEnumIntValue, addr 0x6ad4e0c, size 0x1260, virtual false, abstract: false, final false
+  /// @brief Method TryGetEnumIntValue, addr 0x6b3dc90, size 0x1260, virtual false, abstract: false, final false
   static inline bool TryGetEnumIntValue(::UnityEngine::UIElements::StyleSheets::StyleEnumType enumType, ::StringW value, ::ByRef<int32_t> intValue);
 
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* getStaticF_s_AnimatableProperties();

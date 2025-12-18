@@ -45,7 +45,7 @@ public:
   constexpr ShaderInput_ShadowData(::UnityEngine::Matrix4x4 worldToShadowMatrix, ::UnityEngine::Vector4 shadowParams) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23130 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -84,7 +84,7 @@ public:
                                   ::UnityEngine::Vector4 occlusionProbeChannels, uint32_t layerMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23131 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };
@@ -151,7 +151,7 @@ public:
   ShaderInput(ShaderInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23132 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

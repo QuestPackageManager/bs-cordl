@@ -50,19 +50,19 @@ public:
   /// @brief Field _thirdPersonPosition, offset 0x30, size 0xc
   __declspec(property(get = __cordl_internal_get__thirdPersonPosition, put = __cordl_internal_set__thirdPersonPosition)) ::UnityEngine::Vector3 _thirdPersonPosition;
 
-  /// @brief Method Init, addr 0x57e2734, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5849018, size 0x1b4, virtual false, abstract: false, final false
   inline void Init(float_t fieldOfView, float_t positionSmooth, float_t rotationSmooth, bool thirdPersonEnabled, ::UnityEngine::Vector3 thirdPersonPosition,
                    ::UnityEngine::Vector3 thirdPersonEulerAngles);
 
-  /// @brief Method LateUpdate, addr 0x57e2920, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5849204, size 0x240, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SmoothCamera* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x57e2904, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x58491e8, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x57e28e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x58491cc, size 0x1c, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set__thirdPersonPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x57e2b60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5849444, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

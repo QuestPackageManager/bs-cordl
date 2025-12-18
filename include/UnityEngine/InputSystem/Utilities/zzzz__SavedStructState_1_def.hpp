@@ -75,7 +75,7 @@ public:
   SavedStructState_1_TypedRestore(SavedStructState_1_TypedRestore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9176 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -153,7 +153,7 @@ public:
   SavedStructState_1(SavedStructState_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9173 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9177 };
 
   /// @brief Field m_State, offset: 0x10, size: 0x8, def value: None
   T ___m_State;

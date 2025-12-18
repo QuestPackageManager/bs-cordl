@@ -26,42 +26,42 @@ public:
   /// @brief Field k_NullSection, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_NullSection, put = setStaticF_k_NullSection)) uint64_t k_NullSection;
 
-  /// @brief Method AddEventEntry, addr 0x67b6780, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddEventEntry, addr 0x681e2f8, size 0xac, virtual false, abstract: false, final false
   static inline void AddEventEntry(::StringW eventName, ::StringW eventData);
 
-  /// @brief Method AddSectionBreak, addr 0x67b670c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method AddSectionBreak, addr 0x681e284, size 0x74, virtual false, abstract: false, final false
   static inline void AddSectionBreak(uint64_t sectionHandle);
 
-  /// @brief Method AddSectionEntry, addr 0x67b6650, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method AddSectionEntry, addr 0x681e1c8, size 0xbc, virtual false, abstract: false, final false
   static inline void AddSectionEntry(uint64_t sectionHandle, ::StringW sectionEntry, ::StringW sectionBody);
 
-  /// @brief Method DumpReport, addr 0x67b6a90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DumpReport, addr 0x681e608, size 0x4, virtual false, abstract: false, final false
   static inline void DumpReport(::StringW reason);
 
-  /// @brief Method GenerateReport, addr 0x67b6a00, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GenerateReport, addr 0x681e578, size 0x90, virtual false, abstract: false, final false
   static inline ::StringW GenerateReport();
 
-  /// @brief Method GetSection, addr 0x67b65c0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetSection, addr 0x681e138, size 0x90, virtual false, abstract: false, final false
   static inline uint64_t GetSection(::StringW sectionName);
 
-  /// @brief Method Internal_DumpReport, addr 0x67b682c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_DumpReport, addr 0x681e3a4, size 0x64, virtual false, abstract: false, final false
   static inline void Internal_DumpReport();
 
-  /// @brief Method Internal_DumpReport, addr 0x67b6890, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Internal_DumpReport, addr 0x681e408, size 0x90, virtual false, abstract: false, final false
   static inline void Internal_DumpReport(::StringW reason);
 
-  /// @brief Method Internal_GenerateReport, addr 0x67b6920, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_GenerateReport, addr 0x681e498, size 0x64, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_GenerateReport();
 
-  /// @brief Method Internal_ReleaseReport, addr 0x67b6984, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_ReleaseReport, addr 0x681e4fc, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_ReleaseReport(::System::IntPtr report);
 
   static inline ::UnityEngine::XR::OpenXR::DiagnosticReport* New_ctor();
 
-  /// @brief Method StartReport, addr 0x67b655c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method StartReport, addr 0x681e0d4, size 0x64, virtual false, abstract: false, final false
   static inline void StartReport();
 
-  /// @brief Method .ctor, addr 0x67b6a94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681e60c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline uint64_t getStaticF_k_NullSection();
@@ -86,7 +86,7 @@ public:
   static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18468 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -95,40 +95,40 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6729ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6791a48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_faceInfo, addr 0x6729da8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_faceInfo, addr 0x6791920, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::FaceInfo get_faceInfo();
 
-  /// @brief Method get_hashCode, addr 0x6729d24, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_hashCode, addr 0x679189c, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method get_instanceID, addr 0x6729cfc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_instanceID, addr 0x6791874, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_instanceID();
 
-  /// @brief Method get_material, addr 0x6729dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x679193c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method get_materialHashCode, addr 0x6729dd4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_materialHashCode, addr 0x679194c, size 0xf4, virtual false, abstract: false, final false
   inline int32_t get_materialHashCode();
 
-  /// @brief Method get_version, addr 0x6729cec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x6791864, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
-  /// @brief Method set_faceInfo, addr 0x6729db8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_faceInfo, addr 0x6791930, size 0xc, virtual false, abstract: false, final false
   inline void set_faceInfo(::UnityEngine::TextCore::FaceInfo value);
 
-  /// @brief Method set_hashCode, addr 0x6729da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hashCode, addr 0x6791918, size 0x8, virtual false, abstract: false, final false
   inline void set_hashCode(int32_t value);
 
-  /// @brief Method set_material, addr 0x6729dcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_material, addr 0x6791944, size 0x8, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
 
-  /// @brief Method set_materialHashCode, addr 0x6729ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_materialHashCode, addr 0x6791a40, size 0x8, virtual false, abstract: false, final false
   inline void set_materialHashCode(int32_t value);
 
-  /// @brief Method set_version, addr 0x6729cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_version, addr 0x679186c, size 0x8, virtual false, abstract: false, final false
   inline void set_version(::StringW value);
 
 protected:
@@ -146,7 +146,7 @@ public:
   TMP_Asset(TMP_Asset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15852 };
 
   /// @brief Field m_Version, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_Version;

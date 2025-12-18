@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::InputField> (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::get_InputField)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd83f4;
+  constexpr static std::size_t addrs = 0x5d3eed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)(::UnityEngine::UI::InputField*)>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::set_InputField)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x5cd1448;
+  constexpr static std::size_t addrs = 0x5d37f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action_1<::StringW>* (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::get_OnTextChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd83fc;
+  constexpr static std::size_t addrs = 0x5d3eedc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::set_OnTextChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd8404;
+  constexpr static std::size_t addrs = 0x5d3eee4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::get_Text)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5cd840c;
+  constexpr static std::size_t addrs = 0x5d3eeec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::get_SubmitOnEnter)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5cd8498;
+  constexpr static std::size_t addrs = 0x5d3ef78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::get_IsFocused)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5cd8520;
+  constexpr static std::size_t addrs = 0x5d3f000;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::Submit)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5cd85a8;
+  constexpr static std::size_t addrs = 0x5d3f088;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)(::StringW)>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::AppendText)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cd8650;
+  constexpr static std::size_t addrs = 0x5d3f130;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::ApplyBackspace)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5cd86fc;
+  constexpr static std::size_t addrs = 0x5d3f1dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::MoveTextEnd)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5cd87e4;
+  constexpr static std::size_t addrs = 0x5d3f2c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::Start)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5cd886c;
+  constexpr static std::size_t addrs = 0x5d3f34c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)(::StringW)>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::ProxyOnValueChanged)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cd8964;
+  constexpr static std::size_t addrs = 0x5d3f444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cd89a8;
+  constexpr static std::size_t addrs = 0x5d3f488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

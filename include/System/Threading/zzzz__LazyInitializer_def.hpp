@@ -48,7 +48,7 @@ public:
   /// @brief Method EnsureInitializedCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T EnsureInitializedCore(::ByRef<T> target, ::System::Func_1<T>* valueFactory);
 
-  /// @brief Method EnsureLockInitialized, addr 0x5a9233c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method EnsureLockInitialized, addr 0x5af8c88, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* EnsureLockInitialized(::ByRef<::System::Object*> syncLock);
 
 protected:

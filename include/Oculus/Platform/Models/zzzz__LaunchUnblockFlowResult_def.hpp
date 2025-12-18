@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_DidUnblock(bool value);
 
-  /// @brief Method .ctor, addr 0x5bdb224, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c41d04, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -59,7 +59,7 @@ public:
   LaunchUnblockFlowResult(LaunchUnblockFlowResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18023 };
 
   /// @brief Field DidCancel, offset: 0x10, size: 0x1, def value: None
   bool ___DidCancel;

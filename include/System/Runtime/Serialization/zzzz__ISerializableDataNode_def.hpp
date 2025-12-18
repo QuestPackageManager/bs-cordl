@@ -47,10 +47,10 @@ public:
   __declspec(property(get = __cordl_internal_get_members,
                       put = __cordl_internal_set_members)) ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ISerializableDataMember*>* members;
 
-  /// @brief Method Clear, addr 0x5f34898, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x5f9c424, size 0x4c, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetData, addr 0x5f347a4, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetData, addr 0x5f9c330, size 0xf4, virtual true, abstract: false, final false
   inline void GetData(::System::Runtime::Serialization::ElementData* element);
 
   static inline ::System::Runtime::Serialization::ISerializableDataNode* New_ctor();
@@ -73,25 +73,25 @@ public:
 
   constexpr void __cordl_internal_set_members(::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ISerializableDataMember*>* value);
 
-  /// @brief Method .ctor, addr 0x5f345f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f9c184, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_FactoryTypeName, addr 0x5f34774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FactoryTypeName, addr 0x5f9c300, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FactoryTypeName();
 
-  /// @brief Method get_FactoryTypeNamespace, addr 0x5f34784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FactoryTypeNamespace, addr 0x5f9c310, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FactoryTypeNamespace();
 
-  /// @brief Method get_Members, addr 0x5f34794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Members, addr 0x5f9c320, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ISerializableDataMember*>* get_Members();
 
-  /// @brief Method set_FactoryTypeName, addr 0x5f3477c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FactoryTypeName, addr 0x5f9c308, size 0x8, virtual false, abstract: false, final false
   inline void set_FactoryTypeName(::StringW value);
 
-  /// @brief Method set_FactoryTypeNamespace, addr 0x5f3478c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FactoryTypeNamespace, addr 0x5f9c318, size 0x8, virtual false, abstract: false, final false
   inline void set_FactoryTypeNamespace(::StringW value);
 
-  /// @brief Method set_Members, addr 0x5f3479c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Members, addr 0x5f9c328, size 0x8, virtual false, abstract: false, final false
   inline void set_Members(::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ISerializableDataMember*>* value);
 
 protected:
@@ -109,7 +109,7 @@ public:
   ISerializableDataNode(ISerializableDataNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17008 };
 
   /// @brief Field factoryTypeName, offset: 0x50, size: 0x8, def value: None
   ::StringW ___factoryTypeName;

@@ -22,13 +22,13 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE IndirectBufferAllocInfo {
 public:
   // Declarations
-  /// @brief Method GetExtraDrawInfoSlotIndex, addr 0x660fd18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetExtraDrawInfoSlotIndex, addr 0x66778a4, size 0xc, virtual false, abstract: false, final false
   inline int32_t GetExtraDrawInfoSlotIndex();
 
-  /// @brief Method IsEmpty, addr 0x660fcd4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x6677860, size 0x10, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method IsWithinLimits, addr 0x660fce4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsWithinLimits, addr 0x6677870, size 0x34, virtual false, abstract: false, final false
   inline bool IsWithinLimits(::ByRef<::UnityEngine::Rendering::IndirectBufferLimits> limits);
 
   // Ctor Parameters []
@@ -40,7 +40,7 @@ public:
   constexpr IndirectBufferAllocInfo(int32_t drawAllocIndex, int32_t drawCount, int32_t instanceAllocIndex, int32_t instanceCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17706 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

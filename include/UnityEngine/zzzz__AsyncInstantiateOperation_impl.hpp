@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AsyncInstantiateOperation::*)(::System::IntPtr, ::System::Threading::CancellationToken)>(
     &::UnityEngine::AsyncInstantiateOperation::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x68a6154;
+  constexpr static std::size_t addrs = 0x690efd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AsyncInstantiateOperation::*)()>(
     &::UnityEngine::AsyncInstantiateOperation::IsCancellationRequested)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x68a61b0;
+  constexpr static std::size_t addrs = 0x690f034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AsyncInstantiateOperation*>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> (
     ::UnityEngine::AsyncInstantiateOperation::*)(int32_t)>(&::UnityEngine::AsyncInstantiateOperation::CreateResultArray)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68a6224;
+  constexpr static std::size_t addrs = 0x690f0a8;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -25,10 +25,10 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE MeshGenerationNode {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x6ba12e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6c0a16c, size 0x8, virtual false, abstract: false, final false
   static inline void Create(::System::Runtime::InteropServices::GCHandle handle, ::ByRef<::UnityEngine::UIElements::MeshGenerationNode> node);
 
-  /// @brief Method GetParentEntry, addr 0x6ba12f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetParentEntry, addr 0x6c0a174, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Entry* GetParentEntry();
 
   // Ctor Parameters []

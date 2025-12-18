@@ -31,21 +31,21 @@ public:
   // Declarations
   __declspec(property(get = get_TargetType)) ::System::Type* TargetType;
 
-  /// @brief Method FromString, addr 0x61ac9f8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x6214584, size 0x34, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method FromString, addr 0x61ac970, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x62144fc, size 0x88, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
   static inline ::System::ComponentModel::UInt64Converter* New_ctor();
 
-  /// @brief Method ToString, addr 0x61aca2c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x62145b8, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method .ctor, addr 0x61acac4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6214650, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TargetType, addr 0x61ac940, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x62144cc, size 0x30, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
 protected:
@@ -63,7 +63,7 @@ public:
   UInt64Converter(UInt64Converter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11278 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11282 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

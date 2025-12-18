@@ -53,22 +53,22 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple* New_ctor();
 
-  /// @brief Method OnDeselection, addr 0x65e87e8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnDeselection, addr 0x6650374, size 0x2c, virtual true, abstract: false, final false
   inline void OnDeselection();
 
-  /// @brief Method OnEnable, addr 0x65e87a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6650334, size 0x8, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnSelection, addr 0x65e87b0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x665033c, size 0x38, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetWidget, addr 0x65e8814, size 0x368, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x66503a0, size 0x368, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method Update, addr 0x65e8dbc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6650948, size 0x9c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateValueLabels, addr 0x65e8b7c, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method UpdateValueLabels, addr 0x6650708, size 0x240, virtual true, abstract: false, final false
   inline void UpdateValueLabels();
 
   constexpr ::UnityEngine::Rendering::DebugUI_ValueTuple* const& __cordl_internal_get_m_Field() const;
@@ -101,7 +101,7 @@ public:
 
   constexpr void __cordl_internal_set_valueLabel(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x65e8e58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66509e4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Color getStaticF_k_ZeroColor();
@@ -123,7 +123,7 @@ public:
   DebugUIHandlerValueTuple(DebugUIHandlerValueTuple const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12513 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12517 };
 
   /// @brief Field k_XOffset offset 0xffffffff size 0x4
   static constexpr float_t k_XOffset{ static_cast<float_t>(230.0f) };

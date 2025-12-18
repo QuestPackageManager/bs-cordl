@@ -61,16 +61,16 @@ public:
 
   static inline ::UnityEngine::UIElements::PanelRaycaster* New_ctor();
 
-  /// @brief Method OnPanelDestroyed, addr 0x6be3054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnPanelDestroyed, addr 0x6c4bed8, size 0x8, virtual false, abstract: false, final false
   inline void OnPanelDestroyed();
 
-  /// @brief Method Raycast, addr 0x6be3174, size 0x4c8, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x6c4bff8, size 0x4c8, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method RegisterCallbacks, addr 0x6be2f88, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method RegisterCallbacks, addr 0x6c4be0c, size 0xcc, virtual false, abstract: false, final false
   inline void RegisterCallbacks();
 
-  /// @brief Method UnregisterCallbacks, addr 0x6be2ebc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallbacks, addr 0x6c4bd40, size 0xcc, virtual false, abstract: false, final false
   inline void UnregisterCallbacks();
 
   constexpr ::UnityEngine::UIElements::BaseRuntimePanel* const& __cordl_internal_get_m_Panel() const;
@@ -79,28 +79,28 @@ public:
 
   constexpr void __cordl_internal_set_m_Panel(::UnityEngine::UIElements::BaseRuntimePanel* value);
 
-  /// @brief Method .ctor, addr 0x6be3644, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4c4c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_eventCamera, addr 0x6be363c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x6c4c4c0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_panel, addr 0x6be2e00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_panel, addr 0x6c4bc84, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IPanel* get_panel();
 
-  /// @brief Method get_renderOrderPriority, addr 0x6be30fc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_renderOrderPriority, addr 0x6c4bf80, size 0x78, virtual true, abstract: false, final false
   inline int32_t get_renderOrderPriority();
 
-  /// @brief Method get_selectableGameObject, addr 0x6be305c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectableGameObject, addr 0x6c4bee0, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_selectableGameObject();
 
-  /// @brief Method get_sortOrderPriority, addr 0x6be3074, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_sortOrderPriority, addr 0x6c4bef8, size 0x88, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
 
   /// @brief Convert to "::UnityEngine::UIElements::IRuntimePanelComponent"
   constexpr ::UnityEngine::UIElements::IRuntimePanelComponent* i___UnityEngine__UIElements__IRuntimePanelComponent() noexcept;
 
-  /// @brief Method set_panel, addr 0x6be2e08, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method set_panel, addr 0x6c4bc8c, size 0xb4, virtual true, abstract: false, final true
   inline void set_panel(::UnityEngine::UIElements::IPanel* value);
 
 protected:
@@ -118,7 +118,7 @@ public:
   PanelRaycaster(PanelRaycaster const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17499 };
 
   /// @brief Field m_Panel, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::UIElements::BaseRuntimePanel* ___m_Panel;

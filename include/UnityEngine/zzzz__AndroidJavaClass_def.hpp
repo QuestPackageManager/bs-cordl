@@ -26,13 +26,13 @@ public:
 
   static inline ::UnityEngine::AndroidJavaClass* New_ctor(::System::IntPtr jclass);
 
-  /// @brief Method _AndroidJavaClass, addr 0x67f9208, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method _AndroidJavaClass, addr 0x6860d80, size 0x128, virtual false, abstract: false, final false
   inline void _AndroidJavaClass(::StringW className);
 
-  /// @brief Method .ctor, addr 0x67f56f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685d270, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW className);
 
-  /// @brief Method .ctor, addr 0x67f8c04, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x686077c, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr jclass);
 
 protected:
@@ -50,7 +50,7 @@ public:
   AndroidJavaClass(AndroidJavaClass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19931 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

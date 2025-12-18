@@ -67,7 +67,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Slider_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b3c7f8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ba567c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -119,7 +119,7 @@ public:
   /// @brief Field m_ShowInputField, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ShowInputField, put = __cordl_internal_set_m_ShowInputField)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowInputField;
 
-  /// @brief Method Init, addr 0x6b3c860, size 0x304, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6ba56e4, size 0x304, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::Slider_UxmlTraits* New_ctor();
@@ -160,7 +160,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShowInputField(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6b3cb64, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ba59e8, size 0x26c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -236,10 +236,10 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x6b3c064, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x6ba4ee8, size 0x110, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, float_t startValue);
 
-  /// @brief Method ComputeValueFromKey, addr 0x6b3c544, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method ComputeValueFromKey, addr 0x6ba53c8, size 0x1d8, virtual true, abstract: false, final false
   inline void ComputeValueFromKey(::UnityEngine::UIElements::BaseSlider_1_SliderKey<float_t> sliderKey, bool isShift);
 
   static inline ::UnityEngine::UIElements::Slider* New_ctor();
@@ -248,25 +248,25 @@ public:
 
   static inline ::UnityEngine::UIElements::Slider* New_ctor(float_t start, float_t end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
-  /// @brief Method ParseStringToValue, addr 0x6b3c4bc, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ParseStringToValue, addr 0x6ba5340, size 0x88, virtual true, abstract: false, final false
   inline float_t ParseStringToValue(::StringW previousValue, ::StringW newValue);
 
-  /// @brief Method SliderLerpUnclamped, addr 0x6b3c174, size 0x2b8, virtual true, abstract: false, final false
+  /// @brief Method SliderLerpUnclamped, addr 0x6ba4ff8, size 0x2b8, virtual true, abstract: false, final false
   inline float_t SliderLerpUnclamped(float_t a, float_t b, float_t interpolant);
 
-  /// @brief Method SliderNormalizeValue, addr 0x6b3b984, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method SliderNormalizeValue, addr 0x6ba4808, size 0xa8, virtual true, abstract: false, final false
   inline float_t SliderNormalizeValue(float_t currentValue, float_t lowerValue, float_t higherValue);
 
-  /// @brief Method SliderRange, addr 0x6b3c42c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method SliderRange, addr 0x6ba52b0, size 0x90, virtual true, abstract: false, final false
   inline float_t SliderRange();
 
-  /// @brief Method .ctor, addr 0x6b3bef4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ba4d78, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6b3bf0c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ba4d90, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, float_t start, float_t end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
-  /// @brief Method .ctor, addr 0x6b3b950, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ba47d4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t start, float_t end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
   static inline ::StringW getStaticF_inputUssClassName();

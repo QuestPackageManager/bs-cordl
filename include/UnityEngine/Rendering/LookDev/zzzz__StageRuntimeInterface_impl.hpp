@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Func_2<bool, ::UnityW<::UnityEngine::GameObject>>*, ::System::Func_1<::UnityW<::UnityEngine::Camera>>*, ::System::Func_1<::UnityW<::UnityEngine::Light>>*)>(
     &::UnityEngine::Rendering::LookDev::StageRuntimeInterface::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65df4c0;
+  constexpr static std::size_t addrs = 0x664704c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::Rendering::LookDev::StageRuntimeInterface::*)(bool)>(
     &::UnityEngine::Rendering::LookDev::StageRuntimeInterface::AddGameObject)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x65df4cc;
+  constexpr static std::size_t addrs = 0x6647058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (::UnityEngine::Rendering::LookDev::StageRuntimeInterface::*)()>(
     &::UnityEngine::Rendering::LookDev::StageRuntimeInterface::get_camera)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65df4f0;
+  constexpr static std::size_t addrs = 0x664707c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LookDev::StageRuntimeInterface*>::get(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Light> (::UnityEngine::Rendering::LookDev::StageRuntimeInterface::*)()>(
     &::UnityEngine::Rendering::LookDev::StageRuntimeInterface::get_sunLight)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65df510;
+  constexpr static std::size_t addrs = 0x664709c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LookDev::StageRuntimeInterface*>::get(),

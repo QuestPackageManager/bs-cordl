@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DoubleControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DoubleControl::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x62dd1f4;
+  constexpr static std::size_t addrs = 0x6344d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DoubleControl*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::InputSystem::Controls::DoubleControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::DoubleControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x62dd278;
+  constexpr static std::size_t addrs = 0x6344e04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DoubleControl::*)(double_t, void*)>(
     &::UnityEngine::InputSystem::Controls::DoubleControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x62dd2e4;
+  constexpr static std::size_t addrs = 0x6344e70;
 
   inline static ::MethodInfo const* methodInfo() {
 

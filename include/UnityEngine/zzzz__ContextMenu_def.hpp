@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set_validate(bool value);
 
-  /// @brief Method .ctor, addr 0x68a715c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x690ffe0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName);
 
-  /// @brief Method .ctor, addr 0x68a7174, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x690fff8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction);
 
-  /// @brief Method .ctor, addr 0x68a718c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6910010, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction, int32_t priority);
 
 protected:
@@ -77,7 +77,7 @@ public:
   ContextMenu(ContextMenu const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10282 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10286 };
 
   /// @brief Field menuItem, offset: 0x10, size: 0x8, def value: None
   ::StringW ___menuItem;

@@ -13,6 +13,9 @@ namespace GlobalNamespace {
 class EnvironmentSceneSetupData;
 }
 namespace GlobalNamespace {
+class GameplayAdditionalInformationSetupData;
+}
+namespace GlobalNamespace {
 class PlayerHeightDetector;
 }
 namespace GlobalNamespace {
@@ -45,6 +48,10 @@ public:
   __declspec(property(get = __cordl_internal_get__environmentSceneSetupData,
                       put = __cordl_internal_set__environmentSceneSetupData)) ::GlobalNamespace::EnvironmentSceneSetupData* _environmentSceneSetupData;
 
+  /// @brief Field _gameplayAdditionalInformationSetupData, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameplayAdditionalInformationSetupData,
+                      put = __cordl_internal_set__gameplayAdditionalInformationSetupData)) ::GlobalNamespace::GameplayAdditionalInformationSetupData* _gameplayAdditionalInformationSetupData;
+
   /// @brief Field _playerHeightDetectorPrefab, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__playerHeightDetectorPrefab, put = __cordl_internal_set__playerHeightDetectorPrefab)) ::UnityW<::GlobalNamespace::PlayerHeightDetector>
       _playerHeightDetectorPrefab;
@@ -55,7 +62,7 @@ public:
   /// @brief Field _songBPM, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__songBPM, put = __cordl_internal_set__songBPM)) float_t _songBPM;
 
-  /// @brief Method InstallBindings, addr 0x57eaf0c, size 0x1030, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x5851878, size 0x1094, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::TutorialInstaller* New_ctor();
@@ -71,6 +78,10 @@ public:
   constexpr ::GlobalNamespace::EnvironmentSceneSetupData* const& __cordl_internal_get__environmentSceneSetupData() const;
 
   constexpr ::GlobalNamespace::EnvironmentSceneSetupData*& __cordl_internal_get__environmentSceneSetupData();
+
+  constexpr ::GlobalNamespace::GameplayAdditionalInformationSetupData* const& __cordl_internal_get__gameplayAdditionalInformationSetupData() const;
+
+  constexpr ::GlobalNamespace::GameplayAdditionalInformationSetupData*& __cordl_internal_get__gameplayAdditionalInformationSetupData();
 
   constexpr ::UnityW<::GlobalNamespace::PlayerHeightDetector> const& __cordl_internal_get__playerHeightDetectorPrefab() const;
 
@@ -90,13 +101,15 @@ public:
 
   constexpr void __cordl_internal_set__environmentSceneSetupData(::GlobalNamespace::EnvironmentSceneSetupData* value);
 
+  constexpr void __cordl_internal_set__gameplayAdditionalInformationSetupData(::GlobalNamespace::GameplayAdditionalInformationSetupData* value);
+
   constexpr void __cordl_internal_set__playerHeightDetectorPrefab(::UnityW<::GlobalNamespace::PlayerHeightDetector> value);
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::TutorialSceneSetupData* value);
 
   constexpr void __cordl_internal_set__songBPM(float_t value);
 
-  /// @brief Method .ctor, addr 0x57ebf3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x585290c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -134,6 +147,9 @@ public:
   /// @brief Field _environmentSceneSetupData, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentSceneSetupData* ____environmentSceneSetupData;
 
+  /// @brief Field _gameplayAdditionalInformationSetupData, offset: 0x58, size: 0x8, def value: None
+  ::GlobalNamespace::GameplayAdditionalInformationSetupData* ____gameplayAdditionalInformationSetupData;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -149,7 +165,9 @@ static_assert(offsetof(::GlobalNamespace::TutorialInstaller, ____sceneSetupData)
 
 static_assert(offsetof(::GlobalNamespace::TutorialInstaller, ____environmentSceneSetupData) == 0x50, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialInstaller, 0x58>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::TutorialInstaller, ____gameplayAdditionalInformationSetupData) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialInstaller, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TutorialInstaller);

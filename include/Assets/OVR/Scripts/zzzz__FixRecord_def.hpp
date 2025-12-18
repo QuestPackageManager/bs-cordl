@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_targetObject(::UnityW<::UnityEngine::Object> value);
 
-  /// @brief Method .ctor, addr 0x5c34ea4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c9b984, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate* fix, ::UnityEngine::Object* target, bool editRequired,
                     ::ArrayW<::StringW, ::Array<::StringW>*> buttons);
 
@@ -93,7 +93,7 @@ public:
   FixRecord(FixRecord const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8529 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8533 };
 
   /// @brief Field fixMethod, offset: 0x28, size: 0x8, def value: None
   ::Assets::OVR::Scripts::FixMethodDelegate* ___fixMethod;

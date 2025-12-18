@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithApplicationVersion : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ApplicationVersion*> {
 public:
   // Declarations
-  /// @brief Method GetApplicationVersion, addr 0x5bc4d90, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetApplicationVersion, addr 0x5c2b870, size 0x44, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationVersion* GetApplicationVersion();
 
-  /// @brief Method GetDataFromMessage, addr 0x5bc4dd4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x5c2b8b4, size 0x98, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationVersion* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithApplicationVersion* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x5bc2114, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c28bf4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,7 +50,7 @@ public:
   MessageWithApplicationVersion(MessageWithApplicationVersion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17835 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

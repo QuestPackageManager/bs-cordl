@@ -67,10 +67,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x611e108, size 0x440, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6185c94, size 0x440, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x611e548, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x61860d4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -92,7 +92,7 @@ public:
                                                    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11593 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -159,10 +159,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x611e5c8, size 0x490, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6186154, size 0x490, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x611ea58, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x61865e4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -183,7 +183,7 @@ public:
                                                 ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11594 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -248,16 +248,16 @@ public:
   /// @brief Field <Headers>k__BackingField, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__Headers_k__BackingField, put = __cordl_internal_set__Headers_k__BackingField)) ::System::Net::WebHeaderCollection* _Headers_k__BackingField;
 
-  /// @brief Method FinishReading, addr 0x611dfe0, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method FinishReading, addr 0x6185b6c, size 0xc8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FinishReading(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::System::Net::MonoChunkStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method ProcessReadAsync, addr 0x611ded0, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method ProcessReadAsync, addr 0x6185a5c, size 0x110, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ThrowExpectingChunkTrailer, addr 0x611e0a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ThrowExpectingChunkTrailer, addr 0x6185c34, size 0x58, virtual false, abstract: false, final false
   static inline void ThrowExpectingChunkTrailer();
 
   constexpr ::System::Net::MonoChunkParser* const& __cordl_internal_get__Decoder_k__BackingField() const;
@@ -272,13 +272,13 @@ public:
 
   constexpr void __cordl_internal_set__Headers_k__BackingField(::System::Net::WebHeaderCollection* value);
 
-  /// @brief Method <>n__0, addr 0x611e100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x6185c8c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* __n__0(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method .ctor, addr 0x611de40, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61859cc, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method get_Decoder, addr 0x611de38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Decoder, addr 0x61859c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::MonoChunkParser* get_Decoder();
 
 protected:
@@ -296,7 +296,7 @@ public:
   MonoChunkStream(MonoChunkStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11595 };
 
   /// @brief Field <Headers>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::System::Net::WebHeaderCollection* ____Headers_k__BackingField;

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Meta::XR::ImmersiveDebugger::Hierarchy::ComponentItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::ComponentItem::get_Label)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5854684;
+  constexpr static std::size_t addrs = 0x58bade8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Hierarchy::ComponentItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::ComponentItem::get_Valid)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x58546a0;
+  constexpr static std::size_t addrs = 0x58bae04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::ImmersiveDebugger::Manager::Category (::Meta::XR::ImmersiveDebugger::Hierarchy::ComponentItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::ComponentItem::get_Category)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5854704;
+  constexpr static std::size_t addrs = 0x58bae68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle (::Meta::XR::ImmersiveDebugger::Hierarchy::ComponentItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::ComponentItem::BuildHandle)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5854714;
+  constexpr static std::size_t addrs = 0x58bae78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Hierarchy::ComponentItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::ComponentItem::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5854430;
+  constexpr static std::size_t addrs = 0x58bab94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Hierarchy::ComponentItem*>::get(),

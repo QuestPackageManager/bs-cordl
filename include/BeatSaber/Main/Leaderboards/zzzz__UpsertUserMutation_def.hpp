@@ -26,7 +26,7 @@ public:
   // Declarations
   static inline ::BeatSaber::Main::Leaderboards::UpsertUserMutation* New_ctor(::BeatSaber::Settings::Settings settings);
 
-  /// @brief Method .ctor, addr 0x31a0210, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31d0090, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Settings::Settings settings);
 
 protected:
@@ -44,7 +44,7 @@ public:
   UpsertUserMutation(UpsertUserMutation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20971 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

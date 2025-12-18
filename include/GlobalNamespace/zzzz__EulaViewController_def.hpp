@@ -99,7 +99,7 @@ public:
   static ::GlobalNamespace::EulaViewController_ButtonType const DoNotAgree;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6470 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -153,21 +153,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x580f0d8, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5872db4, size 0x174, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x580f24c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5872f28, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x580f254, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5872f30, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x580f28c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5872f68, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x580f0d4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5872db0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -206,7 +206,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x580ef90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5872c6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -233,7 +233,7 @@ public:
   EulaViewController__EnableButtonsCoroutine_d__17(EulaViewController__EnableButtonsCoroutine_d__17 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6471 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -318,30 +318,30 @@ public:
   /// @brief Field _updateNoticeLocalizationKey, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__updateNoticeLocalizationKey, put = __cordl_internal_set__updateNoticeLocalizationKey)) ::StringW _updateNoticeLocalizationKey;
 
-  /// @brief Method Awake, addr 0x580ea94, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5872770, size 0x38, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DidActivate, addr 0x580eacc, size 0x388, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x58727a8, size 0x388, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x580eeb8, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5872b94, size 0xcc, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method EnableButtonsCoroutine, addr 0x580ee54, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method EnableButtonsCoroutine, addr 0x5872b30, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* EnableButtonsCoroutine(float_t delay);
 
-  /// @brief Method Init, addr 0x580ef84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5872c60, size 0xc, virtual false, abstract: false, final false
   inline void Init(bool showUpdate, bool showOnlyContinueButton);
 
   static inline ::GlobalNamespace::EulaViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__14_0, addr 0x580efe4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__14_0, addr 0x5872cc0, size 0x50, virtual false, abstract: false, final false
   inline void _DidActivate_b__14_0();
 
-  /// @brief Method <DidActivate>b__14_1, addr 0x580f034, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__14_1, addr 0x5872d10, size 0x50, virtual false, abstract: false, final false
   inline void _DidActivate_b__14_1();
 
-  /// @brief Method <DidActivate>b__14_2, addr 0x580f084, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__14_2, addr 0x5872d60, size 0x50, virtual false, abstract: false, final false
   inline void _DidActivate_b__14_2();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__agreeButton() const;
@@ -416,7 +416,7 @@ public:
 
   constexpr void __cordl_internal_set__updateNoticeLocalizationKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x580ef98, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5872c74, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -434,7 +434,7 @@ public:
   EulaViewController(EulaViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6478 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6472 };
 
   /// @brief Field _agreeButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____agreeButton;

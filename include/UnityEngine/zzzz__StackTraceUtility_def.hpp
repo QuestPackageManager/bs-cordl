@@ -28,16 +28,16 @@ public:
   /// @brief Field projectFolder, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_projectFolder, put = setStaticF_projectFolder)) ::StringW projectFolder;
 
-  /// @brief Method ExtractFormattedStackTrace, addr 0x68b2ae0, size 0x6e8, virtual false, abstract: false, final false
+  /// @brief Method ExtractFormattedStackTrace, addr 0x691b964, size 0x6e8, virtual false, abstract: false, final false
   static inline ::StringW ExtractFormattedStackTrace(::System::Diagnostics::StackTrace* stackTrace);
 
-  /// @brief Method ExtractStackTrace, addr 0x68b2980, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ExtractStackTrace, addr 0x691b804, size 0x160, virtual false, abstract: false, final false
   static inline ::StringW ExtractStackTrace();
 
-  /// @brief Method ExtractStringFromExceptionInternal, addr 0x68b31c8, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method ExtractStringFromExceptionInternal, addr 0x691c04c, size 0x374, virtual false, abstract: false, final false
   static inline void ExtractStringFromExceptionInternal(::System::Object* exceptiono, ::ByRef<::StringW> message, ::ByRef<::StringW> stackTrace);
 
-  /// @brief Method SetProjectFolder, addr 0x68b2898, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetProjectFolder, addr 0x691b71c, size 0xe8, virtual false, abstract: false, final false
   static inline void SetProjectFolder(::StringW folder);
 
   static inline ::StringW getStaticF_projectFolder();
@@ -59,7 +59,7 @@ public:
   StackTraceUtility(StackTraceUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10340 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10344 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::HybridObjectCache::*)()>(
     &::System::Runtime::Serialization::HybridObjectCache::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f3af5c;
+  constexpr static std::size_t addrs = 0x5fa2ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::HybridObjectCache*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::HybridObjectCache::*)(::StringW, ::System::Object*)>(
     &::System::Runtime::Serialization::HybridObjectCache::Add)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x5f3af60;
+  constexpr static std::size_t addrs = 0x5fa2aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::HybridObjectCache*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::HybridObjectCache::*)(::StringW)>(
     &::System::Runtime::Serialization::HybridObjectCache::Remove)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f3b10c;
+  constexpr static std::size_t addrs = 0x5fa2c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::HybridObjectCache::*)(::StringW)>(
     &::System::Runtime::Serialization::HybridObjectCache::GetObject)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5f3b17c;
+  constexpr static std::size_t addrs = 0x5fa2d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::HybridObjectCache::*)(::StringW)>(
     &::System::Runtime::Serialization::HybridObjectCache::IsObjectReferenced)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5f3b2ec;
+  constexpr static std::size_t addrs = 0x5fa2e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

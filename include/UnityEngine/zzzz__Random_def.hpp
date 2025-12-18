@@ -46,7 +46,7 @@ public:
   constexpr Random_State(int32_t s0, int32_t s1, int32_t s2, int32_t s3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10265 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10269 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -86,49 +86,49 @@ public:
   // Declarations
   using State = ::UnityEngine::Random_State;
 
-  /// @brief Method ColorHSV, addr 0x68a4d5c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ColorHSV, addr 0x690dbe0, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorHSV();
 
-  /// @brief Method ColorHSV, addr 0x68a4d80, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ColorHSV, addr 0x690dc04, size 0x180, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorHSV(float_t hueMin, float_t hueMax, float_t saturationMin, float_t saturationMax, float_t valueMin, float_t valueMax, float_t alphaMin, float_t alphaMax);
 
-  /// @brief Method InitState, addr 0x68a4a28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InitState, addr 0x690d8ac, size 0x3c, virtual false, abstract: false, final false
   static inline void InitState(int32_t seed);
 
-  /// @brief Method RandomRangeInt, addr 0x68a4be4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RandomRangeInt, addr 0x690da68, size 0x44, virtual false, abstract: false, final false
   static inline int32_t RandomRangeInt(int32_t minInclusive, int32_t maxExclusive);
 
-  /// @brief Method Range, addr 0x68a4b60, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Range, addr 0x690d9e4, size 0x40, virtual false, abstract: false, final false
   static inline float_t Range(float_t minInclusive, float_t maxInclusive);
 
-  /// @brief Method Range, addr 0x68a4ba0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Range, addr 0x690da24, size 0x44, virtual false, abstract: false, final false
   static inline int32_t Range(int32_t minInclusive, int32_t maxExclusive);
 
-  /// @brief Method get_onUnitSphere, addr 0x68a4c50, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_onUnitSphere, addr 0x690dad4, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 get_onUnitSphere();
 
-  /// @brief Method get_onUnitSphere_Injected, addr 0x68a4c9c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_onUnitSphere_Injected, addr 0x690db20, size 0x3c, virtual false, abstract: false, final false
   static inline void get_onUnitSphere_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_rotation, addr 0x68a4cd8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x690db5c, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method get_rotation_Injected, addr 0x68a4d20, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rotation_Injected, addr 0x690dba4, size 0x3c, virtual false, abstract: false, final false
   static inline void get_rotation_Injected(::ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method get_state, addr 0x68a4a64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x690d8e8, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Random_State get_state();
 
-  /// @brief Method get_state_Injected, addr 0x68a4aa8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_state_Injected, addr 0x690d92c, size 0x3c, virtual false, abstract: false, final false
   static inline void get_state_Injected(::ByRef<::UnityEngine::Random_State> ret);
 
-  /// @brief Method get_value, addr 0x68a4c28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x690daac, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_value();
 
-  /// @brief Method set_state, addr 0x68a4ae4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_state, addr 0x690d968, size 0x40, virtual false, abstract: false, final false
   static inline void set_state(::UnityEngine::Random_State value);
 
-  /// @brief Method set_state_Injected, addr 0x68a4b24, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_state_Injected, addr 0x690d9a8, size 0x3c, virtual false, abstract: false, final false
   static inline void set_state_Injected(::ByRef<::UnityEngine::Random_State> value);
 
 protected:
@@ -146,7 +146,7 @@ public:
   Random(Random const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10270 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

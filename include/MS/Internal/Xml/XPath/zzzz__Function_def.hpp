@@ -176,7 +176,7 @@ public:
   static ::MS::Internal::Xml::XPath::Function_FunctionType const FuncUserDefined;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9845 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -251,21 +251,21 @@ public:
 
   constexpr void __cordl_internal_set__prefix(::StringW value);
 
-  /// @brief Method .ctor, addr 0x605a4e0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60c206c, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::Function_FunctionType ftype, ::MS::Internal::Xml::XPath::AstNode* arg);
 
-  /// @brief Method .ctor, addr 0x605a3b4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60c1f40, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::Function_FunctionType ftype, ::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>* argumentList);
 
-  /// @brief Method .ctor, addr 0x605a440, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60c1fcc, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix, ::StringW name, ::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>* argumentList);
 
   static inline ::ArrayW<::System::Xml::XPath::XPathResultType, ::Array<::System::Xml::XPath::XPathResultType>*> getStaticF_ReturnTypes();
 
-  /// @brief Method get_ReturnType, addr 0x605a5ec, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x60c2178, size 0x84, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x605a5e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x60c2170, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
   static inline void setStaticF_ReturnTypes(::ArrayW<::System::Xml::XPath::XPathResultType, ::Array<::System::Xml::XPath::XPathResultType>*> value);
@@ -285,7 +285,7 @@ public:
   Function(Function const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9846 };
 
   /// @brief Field _functionType, offset: 0x10, size: 0x4, def value: None
   ::MS::Internal::Xml::XPath::Function_FunctionType ____functionType;

@@ -39,19 +39,19 @@ public:
   /// @brief Field res, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_res, put = __cordl_internal_set_res)) ::StringW res;
 
-  /// @brief Method Create, addr 0x60cbcb0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x613383c, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Xml::XPath::XPathException* Create(::StringW res);
 
-  /// @brief Method Create, addr 0x60cbd84, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6133910, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::Xml::XPath::XPathException* Create(::StringW res, ::StringW arg);
 
-  /// @brief Method Create, addr 0x60cbe54, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x61339e0, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Xml::XPath::XPathException* Create(::StringW res, ::StringW arg, ::StringW arg2);
 
-  /// @brief Method CreateMessage, addr 0x60cb924, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method CreateMessage, addr 0x61334b0, size 0x150, virtual false, abstract: false, final false
   static inline ::StringW CreateMessage(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args);
 
-  /// @brief Method GetObjectData, addr 0x60cba74, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x6133600, size 0x100, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Xml::XPath::XPathException* New_ctor();
@@ -82,22 +82,22 @@ public:
 
   constexpr void __cordl_internal_set_res(::StringW value);
 
-  /// @brief Method .ctor, addr 0x60cbb74, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6133700, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x60cb6c0, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x613324c, size 0x264, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x60cbb8c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6133718, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x60cbd34, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61338c0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args);
 
-  /// @brief Method .ctor, addr 0x60cbc54, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61337e0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Exception* inner);
 
-  /// @brief Method get_Message, addr 0x60cbf34, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x6133ac0, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:
@@ -115,7 +115,7 @@ public:
   XPathException(XPathException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9446 };
 
   /// @brief Field res, offset: 0x90, size: 0x8, def value: None
   ::StringW ___res;

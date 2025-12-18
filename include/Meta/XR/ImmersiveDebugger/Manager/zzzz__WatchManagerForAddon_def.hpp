@@ -35,14 +35,14 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::WatchManagerForAddon* New_ctor();
 
-  /// @brief Method RegisterSpecialisedWidget, addr 0x5851900, size 0x2c8, virtual true, abstract: false, final false
+  /// @brief Method RegisterSpecialisedWidget, addr 0x58b8064, size 0x2c8, virtual true, abstract: false, final false
   inline bool RegisterSpecialisedWidget(::Meta::XR::ImmersiveDebugger::UserInterface::IMember* member, ::System::Reflection::MemberInfo* memberInfo,
                                         ::Meta::XR::ImmersiveDebugger::DebugMember* memberAttribute, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle handle);
 
-  /// @brief Method .ctor, addr 0x5851d50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b84b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TelemetryAnnotation, addr 0x5851d0c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_TelemetryAnnotation, addr 0x58b8470, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_TelemetryAnnotation();
 
 protected:
@@ -60,7 +60,7 @@ public:
   WatchManagerForAddon(WatchManagerForAddon const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18425 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

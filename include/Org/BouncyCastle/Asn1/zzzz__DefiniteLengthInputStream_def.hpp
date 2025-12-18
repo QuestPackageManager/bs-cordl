@@ -35,16 +35,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* New_ctor(::System::IO::Stream* inStream, int32_t length, int32_t limit);
 
-  /// @brief Method Read, addr 0x356731c, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3591b60, size 0x21c, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method ReadAllIntoByteArray, addr 0x355dd4c, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method ReadAllIntoByteArray, addr 0x3588590, size 0x34c, virtual false, abstract: false, final false
   inline void ReadAllIntoByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
-  /// @brief Method ReadByte, addr 0x3567164, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x35919a8, size 0x1b8, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method ToArray, addr 0x355bcc8, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method ToArray, addr 0x358650c, size 0x358, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToArray();
 
   constexpr int32_t const& __cordl_internal_get__originalLength() const;
@@ -59,12 +59,12 @@ public:
 
   constexpr void __cordl_internal_set__remaining(int32_t value);
 
-  /// @brief Method .ctor, addr 0x355bc04, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3586448, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream, int32_t length, int32_t limit);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_EmptyBytes();
 
-  /// @brief Method get_Remaining, addr 0x356715c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x35919a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Remaining();
 
   static inline void setStaticF_EmptyBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);

@@ -63,24 +63,24 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x618eb34, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x61f66c0, size 0x90, virtual false, abstract: false, final false
   inline void Add(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Clear, addr 0x618ebc4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x61f6750, size 0x20, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x618ebe4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x61f6770, size 0xf8, virtual false, abstract: false, final false
   inline bool Contains(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method GetEnumerator, addr 0x618e9c0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x61f654c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator* GetEnumerator();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* New_ctor();
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x618e9a0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x61f652c, size 0x20, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x618ead4, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x61f6660, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__list() const;
@@ -89,19 +89,19 @@ public:
 
   constexpr void __cordl_internal_set__list(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x618e840, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f63cc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x618e89c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x61f6428, size 0x20, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x618e8bc, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x61f6448, size 0x20, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x618e8dc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x61f6468, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainElement* get_Item(int32_t index);
 
-  /// @brief Method get_SyncRoot, addr 0x618e980, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x61f650c, size 0x20, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -125,7 +125,7 @@ public:
   X509ChainElementCollection(X509ChainElementCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11173 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11177 };
 
   /// @brief Field _list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ArrayList* ____list;

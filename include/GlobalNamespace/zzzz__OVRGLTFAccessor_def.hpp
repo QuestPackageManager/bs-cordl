@@ -99,7 +99,7 @@ public:
                                          int32_t ByteOffset, int32_t Count, ::OVRSimpleJSON::JSONNode* Min, ::OVRSimpleJSON::JSONNode* Max) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7132 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -166,7 +166,7 @@ public:
   constexpr OVRGLTFAccessor_GLTFBufferView(int32_t BufferIndex, int32_t ByteOffset, int32_t ByteLength, int32_t ByteStride) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7129 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7133 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -212,7 +212,7 @@ public:
   constexpr OVRGLTFAccessor_GLTFBuffer(int32_t ByteLength) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7134 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -282,70 +282,70 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5c0f550, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5c76030, size 0x20, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetDataCount, addr 0x5c0f570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDataCount, addr 0x5c76050, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetDataCount();
 
-  /// @brief Method GetMaxValueForType, addr 0x5c0e6c0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetMaxValueForType, addr 0x5c751a0, size 0x100, virtual false, abstract: false, final false
   inline float_t GetMaxValueForType(::GlobalNamespace::OVRGLTFComponentType type);
 
-  /// @brief Method GetStrideForType, addr 0x5c0d178, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetStrideForType, addr 0x5c73c58, size 0x100, virtual false, abstract: false, final false
   inline int32_t GetStrideForType(::GlobalNamespace::OVRGLTFComponentType type);
 
   static inline ::GlobalNamespace::OVRGLTFAccessor* New_ctor(::OVRSimpleJSON::JSONNode* accessorsRoot, ::OVRSimpleJSON::JSONNode* bufferViewsRoot, ::OVRSimpleJSON::JSONNode* buffersRoot,
                                                              ::System::IO::BinaryReader* binaryChunkReader, int32_t binaryChinkStart, int32_t binaryChunkLength);
 
-  /// @brief Method ReadAsFloat, addr 0x5c0d82c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ReadAsFloat, addr 0x5c7430c, size 0x194, virtual false, abstract: false, final false
   static inline float_t ReadAsFloat(::System::IO::BinaryReader* reader, ::GlobalNamespace::OVRGLTFComponentType type);
 
-  /// @brief Method ReadAsInt, addr 0x5c0da68, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method ReadAsInt, addr 0x5c74548, size 0x19c, virtual false, abstract: false, final false
   static inline int32_t ReadAsInt(::System::IO::BinaryReader* reader, ::GlobalNamespace::OVRGLTFComponentType type);
 
-  /// @brief Method ReadBuffer, addr 0x5c0f454, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ReadBuffer, addr 0x5c75f34, size 0xfc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadBuffer(int32_t bufferViewIndex);
 
-  /// @brief Method ReadColor, addr 0x5c0e2b0, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method ReadColor, addr 0x5c74d90, size 0x410, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> ReadColor();
 
-  /// @brief Method ReadFloat, addr 0x5c0d6a8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ReadFloat, addr 0x5c74188, size 0x184, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> ReadFloat();
 
-  /// @brief Method ReadInt, addr 0x5c0d9c0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ReadInt, addr 0x5c744a0, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> ReadInt();
 
-  /// @brief Method ReadJoints, addr 0x5c0eaa8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ReadJoints, addr 0x5c75588, size 0x1b8, virtual false, abstract: false, final false
   inline void ReadJoints(::ByRef<::ArrayW<::UnityEngine::BoneWeight, ::Array<::UnityEngine::BoneWeight>*>> resultsBoneWeights);
 
-  /// @brief Method ReadMatrix4x4, addr 0x5c0efa0, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method ReadMatrix4x4, addr 0x5c75a80, size 0x4b4, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> ReadMatrix4x4(::UnityEngine::Vector3 conversionScale);
 
-  /// @brief Method ReadQuaterion, addr 0x5c0ec60, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method ReadQuaterion, addr 0x5c75740, size 0x340, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> ReadQuaterion(::UnityEngine::Vector4 gltfToUnitySpaceRotation);
 
-  /// @brief Method ReadVector2, addr 0x5c0dc04, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ReadVector2, addr 0x5c746e4, size 0x1b4, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> ReadVector2();
 
-  /// @brief Method ReadVector3, addr 0x5c0ddb8, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method ReadVector3, addr 0x5c74898, size 0x274, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ReadVector3(::UnityEngine::Vector3 conversionScale);
 
-  /// @brief Method ReadVector4, addr 0x5c0e02c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method ReadVector4, addr 0x5c74b0c, size 0x284, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ReadVector4(::UnityEngine::Vector4 conversionScale);
 
-  /// @brief Method ReadWeights, addr 0x5c0e7c0, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method ReadWeights, addr 0x5c752a0, size 0x2e8, virtual false, abstract: false, final false
   inline void ReadWeights(::ByRef<::ArrayW<::UnityEngine::BoneWeight, ::Array<::UnityEngine::BoneWeight>*>> resultsBoneWeights);
 
-  /// @brief Method Seek, addr 0x5c0d3e4, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method Seek, addr 0x5c73ec4, size 0x1e0, virtual false, abstract: false, final false
   inline void Seek(int32_t accessorIndex, bool onlyBufferView);
 
-  /// @brief Method SeekStride, addr 0x5c0d5c4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SeekStride, addr 0x5c740a4, size 0xe4, virtual false, abstract: false, final false
   inline void SeekStride(int32_t strideIndex);
 
-  /// @brief Method ToOVRType, addr 0x5c0d278, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ToOVRType, addr 0x5c73d58, size 0x16c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRGLTFType ToOVRType(::StringW type);
 
-  /// @brief Method TryCreate, addr 0x5c0bf44, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method TryCreate, addr 0x5c72a24, size 0x1a8, virtual false, abstract: false, final false
   static inline bool TryCreate(::OVRSimpleJSON::JSONNode* accessorsRoot, ::OVRSimpleJSON::JSONNode* bufferViewsRoot, ::OVRSimpleJSON::JSONNode* buffersRoot, ::System::IO::Stream* binaryChunk,
                                ::ByRef<::GlobalNamespace::OVRGLTFAccessor*> dataAccessor);
 
@@ -421,7 +421,7 @@ public:
 
   constexpr void __cordl_internal_set__requireStrideSeek(bool value);
 
-  /// @brief Method .ctor, addr 0x5c0c0ec, size 0x108c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c72bcc, size 0x108c, virtual false, abstract: false, final false
   inline void _ctor(::OVRSimpleJSON::JSONNode* accessorsRoot, ::OVRSimpleJSON::JSONNode* bufferViewsRoot, ::OVRSimpleJSON::JSONNode* buffersRoot, ::System::IO::BinaryReader* binaryChunkReader,
                     int32_t binaryChinkStart, int32_t binaryChunkLength);
 
@@ -443,7 +443,7 @@ public:
   OVRGLTFAccessor(OVRGLTFAccessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7135 };
 
   /// @brief Field _accessors, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor>* ____accessors;

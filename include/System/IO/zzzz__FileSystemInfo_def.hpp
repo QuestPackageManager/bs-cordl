@@ -74,17 +74,17 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x59f42f4, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x5a5ac40, size 0x134, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::IO::FileSystemInfo* New_ctor();
 
   static inline ::System::IO::FileSystemInfo* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ThrowNotFound, addr 0x59f3d88, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ThrowNotFound, addr 0x5a5a6d4, size 0x84, virtual false, abstract: false, final false
   static inline void ThrowNotFound(::StringW path);
 
-  /// @brief Method ToString, addr 0x59f45ac, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5a5aef8, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_FullPath() const;
@@ -111,40 +111,40 @@ public:
 
   constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x59f3ac4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5a410, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x59f415c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5aaa8, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Attributes, addr 0x59f3b30, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x5a5a47c, size 0xd0, virtual false, abstract: false, final false
   inline ::System::IO::FileAttributes get_Attributes();
 
-  /// @brief Method get_Exists, addr 0x59f4438, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_Exists, addr 0x5a5ad84, size 0x84, virtual true, abstract: false, final false
   inline bool get_Exists();
 
-  /// @brief Method get_ExistsCore, addr 0x59f3c00, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_ExistsCore, addr 0x5a5a54c, size 0x9c, virtual false, abstract: false, final false
   inline bool get_ExistsCore();
 
-  /// @brief Method get_FullName, addr 0x59f4428, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FullName, addr 0x5a5ad74, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_FullName();
 
-  /// @brief Method get_LastWriteTime, addr 0x59f44bc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_LastWriteTime, addr 0x5a5ae08, size 0x78, virtual false, abstract: false, final false
   inline ::System::DateTime get_LastWriteTime();
 
-  /// @brief Method get_LastWriteTimeCore, addr 0x59f3c9c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_LastWriteTimeCore, addr 0x5a5a5e8, size 0x74, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset get_LastWriteTimeCore();
 
-  /// @brief Method get_LastWriteTimeUtc, addr 0x59f4534, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_LastWriteTimeUtc, addr 0x5a5ae80, size 0x78, virtual false, abstract: false, final false
   inline ::System::DateTime get_LastWriteTimeUtc();
 
-  /// @brief Method get_LengthCore, addr 0x59f3d10, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_LengthCore, addr 0x5a5a65c, size 0x78, virtual false, abstract: false, final false
   inline int64_t get_LengthCore();
 
-  /// @brief Method get_Name, addr 0x59f4430, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5a5ad7c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NormalizedPath, addr 0x59f4154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NormalizedPath, addr 0x5a5aaa0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NormalizedPath();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

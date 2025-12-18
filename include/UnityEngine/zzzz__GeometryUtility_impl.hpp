@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Camera*, ::ArrayW<::UnityEngine::Plane, ::Array<::UnityEngine::Plane>*>)>(
     &::UnityEngine::GeometryUtility::CalculateFrustumPlanes)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x684b9a0;
+  constexpr static std::size_t addrs = 0x68b3518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Matrix4x4, ::ArrayW<::UnityEngine::Plane, ::Array<::UnityEngine::Plane>*>)>(
     &::UnityEngine::GeometryUtility::CalculateFrustumPlanes)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x684ba28;
+  constexpr static std::size_t addrs = 0x68b35a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::UnityEngine::Plane, ::Array<::UnityEngine::Plane>*>, ::UnityEngine::Bounds)>(
     &::UnityEngine::GeometryUtility::TestPlanesAABB)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x684bc2c;
+  constexpr static std::size_t addrs = 0x68b37a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::ArrayW<::UnityEngine::Plane, ::Array<::UnityEngine::Plane>*>>, ::UnityEngine::Matrix4x4)>(
     &::UnityEngine::GeometryUtility::Internal_ExtractPlanes)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x684bb04;
+  constexpr static std::size_t addrs = 0x68b367c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>, ::ByRef<::UnityEngine::Bounds>)>(
     &::UnityEngine::GeometryUtility::TestPlanesAABB_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x684bd04;
+  constexpr static std::size_t addrs = 0x68b387c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>, ::ByRef<::UnityEngine::Matrix4x4>)>(
     &::UnityEngine::GeometryUtility::Internal_ExtractPlanes_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x684bd48;
+  constexpr static std::size_t addrs = 0x68b38c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

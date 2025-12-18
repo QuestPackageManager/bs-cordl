@@ -48,7 +48,7 @@ public:
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyCollection_1<::StringW>*>* GetUnlockedAchievementIdsAsync();
 
   /// @brief Method GetXPlatformAccessTokenAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::StringW>* GetXPlatformAccessTokenAsync();
+  inline ::System::Threading::Tasks::Task_1<::StringW>* GetXPlatformAccessTokenAsync(bool skipCache);
 
   /// @brief Method IsAchievementUnlockedAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* IsAchievementUnlockedAsync(::StringW achievementId);
@@ -67,7 +67,7 @@ public:
   IPlatformUser(IPlatformUser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22168 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22195 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::FileSystemSecurity::*)(
     bool, ::StringW, ::System::Security::AccessControl::AccessControlSections)>(&::System::Security::AccessControl::FileSystemSecurity::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5908b8c;
+  constexpr static std::size_t addrs = 0x596f4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                               ::System::Security::AccessControl::PropagationFlags, ::System::Security::AccessControl::AccessControlType)>(
     &::System::Security::AccessControl::FileSystemSecurity::AccessRuleFactory)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5908d98;
+  constexpr static std::size_t addrs = 0x596f6e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -28,10 +28,10 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE ColorPage {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x6ba07b4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6c09638, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ColorPage Init(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method ToNativeColorPage, addr 0x6ba0850, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ToNativeColorPage, addr 0x6c096d4, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage ToNativeColorPage();
 
   // Ctor Parameters []

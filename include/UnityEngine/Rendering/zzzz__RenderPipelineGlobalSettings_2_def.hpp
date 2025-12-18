@@ -61,7 +61,7 @@ public:
   RenderPipelineGlobalSettings_2___c(RenderPipelineGlobalSettings_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12162 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -111,7 +111,7 @@ public:
   RenderPipelineGlobalSettings_2(RenderPipelineGlobalSettings_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12159 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12163 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

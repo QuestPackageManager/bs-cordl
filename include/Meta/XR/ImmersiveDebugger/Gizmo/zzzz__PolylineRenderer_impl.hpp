@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)()>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::get_Copies)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5858cf4;
+  constexpr static std::size_t addrs = 0x58bf458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer*>::get(),
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)()>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::get_BufferSize)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5858d08;
+  constexpr static std::size_t addrs = 0x58bf46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer*>::get(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)()>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::get_LineScaleFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5858d1c;
+  constexpr static std::size_t addrs = 0x58bf480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer*>::get(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(float_t)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::set_LineScaleFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5858d24;
+  constexpr static std::size_t addrs = 0x58bf488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(::UnityEngine::Material*, bool)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::_ctor)> {
   constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x585503c;
+  constexpr static std::size_t addrs = 0x58bb7a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)()>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::Cleanup)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x585551c;
+  constexpr static std::size_t addrs = 0x58bbc80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer*>::get(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*, ::UnityEngine::Color)>(&::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::SetLines)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5858d2c;
+  constexpr static std::size_t addrs = 0x58bf490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*, ::System::Collections::Generic::List_1<::UnityEngine::Color>*, int32_t)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::SetLines)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x585564c;
+  constexpr static std::size_t addrs = 0x58bbdb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(
     int32_t, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*)>(&::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::SetPositions)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x5858de0;
+  constexpr static std::size_t addrs = 0x58bf544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(
     int32_t, ::System::Collections::Generic::List_1<::UnityEngine::Color>*)>(&::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::SetColors)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5859238;
+  constexpr static std::size_t addrs = 0x58bf99c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(int32_t, ::UnityEngine::Color)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::SetColor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5859164;
+  constexpr static std::size_t addrs = 0x58bf8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(int32_t)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::SetDrawCount)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5859120;
+  constexpr static std::size_t addrs = 0x58bf884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(int32_t)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::PrepareColorBuffer)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5859358;
+  constexpr static std::size_t addrs = 0x58bfabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)()>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::RenderLines)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x58556e8;
+  constexpr static std::size_t addrs = 0x58bbe4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer*>::get(),
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::*)(::UnityEngine::Transform*)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer::SetTransform)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5859468;
+  constexpr static std::size_t addrs = 0x58bfbcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

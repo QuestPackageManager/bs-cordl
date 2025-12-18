@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::DecimalArrayHelperWithString::*)(
     ::System::Xml::XmlDictionaryReader*, ::StringW, ::StringW, ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*>, int32_t, int32_t)>(&::System::Xml::DecimalArrayHelperWithString::ReadArray)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5ee27e8;
+  constexpr static std::size_t addrs = 0x5f4a374;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::XmlDictionaryWriter*, ::StringW, ::StringW, ::StringW, ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*>, int32_t, int32_t)>(
     &::System::Xml::DecimalArrayHelperWithString::WriteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5ee2820;
+  constexpr static std::size_t addrs = 0x5f4a3ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DecimalArrayHelperWithString::*)()>(&::System::Xml::DecimalArrayHelperWithString::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5ee285c;
+  constexpr static std::size_t addrs = 0x5f4a3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DecimalArrayHelperWithString*>::get(), ".ctor",

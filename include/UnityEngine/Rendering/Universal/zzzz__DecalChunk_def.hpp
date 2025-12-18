@@ -54,12 +54,12 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6639df0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x66a197c, size 0x4, virtual true, abstract: false, final false
   inline void Dispose();
 
   static inline ::UnityEngine::Rendering::Universal::DecalChunk* New_ctor();
 
-  /// @brief Method Push, addr 0x6639de0, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Push, addr 0x66a196c, size 0x10, virtual true, abstract: false, final false
   inline void Push();
 
   /// @brief Method RemoveAtSwapBack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -71,7 +71,7 @@ public:
   /// @brief Method RemoveAtSwapBack, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void RemoveAtSwapBack(int32_t index);
 
-  /// @brief Method ResizeNativeArray, addr 0x6639df4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ResizeNativeArray, addr 0x66a1980, size 0xe0, virtual false, abstract: false, final false
   inline void ResizeNativeArray(::ByRef<::UnityEngine::Jobs::TransformAccessArray> array,
                                 ::ArrayW<::UnityEngine::Rendering::Universal::DecalProjector*, ::Array<::UnityEngine::Rendering::Universal::DecalProjector*>*> decalProjectors, int32_t capacity);
 
@@ -96,28 +96,28 @@ public:
 
   constexpr void __cordl_internal_set__currentJobHandle_k__BackingField(::Unity::Jobs::JobHandle value);
 
-  /// @brief Method .ctor, addr 0x6639ed4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66a1a60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_capacity, addr 0x6639dbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_capacity, addr 0x66a1948, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_capacity();
 
-  /// @brief Method get_count, addr 0x6639dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_count, addr 0x66a1938, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_count();
 
-  /// @brief Method get_currentJobHandle, addr 0x6639dcc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_currentJobHandle, addr 0x66a1958, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle get_currentJobHandle();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_capacity, addr 0x6639dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_capacity, addr 0x66a1950, size 0x8, virtual false, abstract: false, final false
   inline void set_capacity(int32_t value);
 
-  /// @brief Method set_count, addr 0x6639db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_count, addr 0x66a1940, size 0x8, virtual false, abstract: false, final false
   inline void set_count(int32_t value);
 
-  /// @brief Method set_currentJobHandle, addr 0x6639dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentJobHandle, addr 0x66a1964, size 0x8, virtual false, abstract: false, final false
   inline void set_currentJobHandle(::Unity::Jobs::JobHandle value);
 
 protected:
@@ -135,7 +135,7 @@ public:
   DecalChunk(DecalChunk const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12662 };
 
   /// @brief Field <count>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____count_k__BackingField;

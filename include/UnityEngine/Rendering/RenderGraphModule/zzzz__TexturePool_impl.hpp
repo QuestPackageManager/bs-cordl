@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TexturePool::*)(::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::RenderGraphModule::TexturePool::ReleaseInternalResource)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65cc95c;
+  constexpr static std::size_t addrs = 0x66344e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::TexturePool::*)(
     ::ByRef<::UnityEngine::Rendering::RTHandle*>)>(&::UnityEngine::Rendering::RenderGraphModule::TexturePool::GetResourceName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65cc974;
+  constexpr static std::size_t addrs = 0x6634500;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::Rendering::RenderGraphModule::TexturePool::*)(::ByRef<::UnityEngine::Rendering::RTHandle*>)>(
     &::UnityEngine::Rendering::RenderGraphModule::TexturePool::GetResourceSize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x65cc994;
+  constexpr static std::size_t addrs = 0x6634520;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::TexturePool::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::TexturePool::GetResourceTypeName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x65cc9b0;
+  constexpr static std::size_t addrs = 0x663453c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::TexturePool::*)(::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::RenderGraphModule::TexturePool::GetSortIndex)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65cc9f4;
+  constexpr static std::size_t addrs = 0x6634580;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::TexturePool::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::TexturePool::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x65c7084;
+  constexpr static std::size_t addrs = 0x662ec10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::TexturePool*>::get(),

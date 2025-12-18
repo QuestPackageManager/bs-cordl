@@ -54,10 +54,10 @@ namespace GlobalNamespace {
 class GameLiftConnectionManager_StartClientParams;
 }
 namespace GlobalNamespace {
-struct GameLiftConnectionManager__GameLiftConnectToServer_d__81;
+struct GameLiftConnectionManager__GameLiftConnectToServer_d__83;
 }
 namespace GlobalNamespace {
-struct GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80;
+struct GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
@@ -139,10 +139,10 @@ namespace GlobalNamespace {
 class GameLiftConnectionManager_StartClientParams;
 }
 namespace GlobalNamespace {
-struct GameLiftConnectionManager__GameLiftConnectToServer_d__81;
+struct GameLiftConnectionManager__GameLiftConnectToServer_d__83;
 }
 namespace GlobalNamespace {
-struct GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80;
+struct GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::GameLiftConnectionManager_ConnectionState);
@@ -150,8 +150,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameLiftConnectionManager);
 MARK_REF_PTR_T(::GlobalNamespace::GameLiftConnectionManager_ConnectToServerParams);
 MARK_REF_PTR_T(::GlobalNamespace::GameLiftConnectionManager_GameLiftConnectionManagerParamsBase);
 MARK_REF_PTR_T(::GlobalNamespace::GameLiftConnectionManager_StartClientParams);
-MARK_VAL_T(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81);
-MARK_VAL_T(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80);
+MARK_VAL_T(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83);
+MARK_VAL_T(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82);
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -199,7 +199,7 @@ public:
   static ::GlobalNamespace::GameLiftConnectionManager_ConnectionState const Unconnected;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18820 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -266,7 +266,7 @@ public:
 
   constexpr void __cordl_internal_set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
 
-  /// @brief Method .ctor, addr 0x31a4a70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31d6248, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>"
@@ -288,7 +288,7 @@ public:
   GameLiftConnectionManager_GameLiftConnectionManagerParamsBase(GameLiftConnectionManager_GameLiftConnectionManagerParamsBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18821 };
 
   /// @brief Field authenticationTokenProviderTask, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* ___authenticationTokenProviderTask;
@@ -343,7 +343,7 @@ public:
 
   constexpr void __cordl_internal_set_secret(::StringW value);
 
-  /// @brief Method .ctor, addr 0x31a4aac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31d6284, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -361,7 +361,7 @@ public:
   GameLiftConnectionManager_ConnectToServerParams(GameLiftConnectionManager_ConnectToServerParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18822 };
 
   /// @brief Field secret, offset: 0x60, size: 0x8, def value: None
   ::StringW ___secret;
@@ -388,7 +388,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::GameLiftConnectionManager_StartClientParams* New_ctor();
 
-  /// @brief Method .ctor, addr 0x31a4ad4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31d62ac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -406,7 +406,7 @@ public:
   GameLiftConnectionManager_StartClientParams(GameLiftConnectionManager_StartClientParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18923 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18823 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -417,17 +417,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameLiftConnect
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: GameLiftConnectionManager/<GameLiftConnectToServer>d__81
-struct CORDL_TYPE GameLiftConnectionManager__GameLiftConnectToServer_d__81 {
+// CS Name: GameLiftConnectionManager/<GameLiftConnectToServer>d__83
+struct CORDL_TYPE GameLiftConnectionManager__GameLiftConnectToServer_d__83 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x31a4afc, size 0x514, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31d62d4, size 0x514, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x31a5010, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x31d67e8, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -435,7 +435,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GameLiftConnectionManager__GameLiftConnectToServer_d__81();
+  constexpr GameLiftConnectionManager__GameLiftConnectToServer_d__83();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::GameLiftConnectionManager*", modifiers: "",
@@ -443,14 +443,14 @@ public:
   // def_value: None }, CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IAuthenticationTokenProvider*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::PlayerSessionInfo*>", modifiers: "", def_value: None }]
-  constexpr GameLiftConnectionManager__GameLiftConnectToServer_d__81(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+  constexpr GameLiftConnectionManager__GameLiftConnectToServer_d__83(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                      ::GlobalNamespace::GameLiftConnectionManager* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                                      ::StringW secret, ::StringW code,
                                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IAuthenticationTokenProvider*> __u__1,
                                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::PlayerSessionInfo*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18924 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18824 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -482,39 +482,39 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81, cancellationToken) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83, cancellationToken) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81, secret) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83, secret) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81, code) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83, code) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81, __u__1) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83, __u__1) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81, __u__2) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83, __u__2) == 0x50, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: GameLiftConnectionManager/<GetGameLiftPlayerSessionInfo>d__80
-struct CORDL_TYPE GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80 {
+// CS Name: GameLiftConnectionManager/<GetGameLiftPlayerSessionInfo>d__82
+struct CORDL_TYPE GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x31a5018, size 0x3d0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31d67f0, size 0x3d0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x31a53e8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x31d6bc0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -522,7 +522,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80();
+  constexpr GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGNet::Core::GameLift::PlayerSessionInfo*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -530,7 +530,7 @@ public:
   // modifiers: "", def_value: None }, CppParam { name: "secret", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: None },
   // CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::PlayerSessionInfo*>", modifiers: "", def_value: None }]
-  constexpr GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80(int32_t __1__state,
+  constexpr GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82(int32_t __1__state,
                                                                           ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGNet::Core::GameLift::PlayerSessionInfo*> __t__builder,
                                                                           ::GlobalNamespace::GameLiftConnectionManager* __4__this,
                                                                           ::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider, ::StringW secret, ::StringW code,
@@ -538,7 +538,7 @@ public:
                                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::PlayerSessionInfo*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18925 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18825 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -570,23 +570,23 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80, authenticationTokenProvider) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82, authenticationTokenProvider) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80, secret) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82, secret) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80, code) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82, code) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80, cancellationToken) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82, cancellationToken) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80, __u__1) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82, __u__1) == 0x48, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies BeatmapLevelSelectionMask, GameLiftConnectionManager::ConnectionState, GameplayServerConfiguration, System.Object
@@ -604,9 +604,9 @@ public:
 
   using StartClientParams = ::GlobalNamespace::GameLiftConnectionManager_StartClientParams;
 
-  using _GameLiftConnectToServer_d__81 = ::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81;
+  using _GameLiftConnectToServer_d__83 = ::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83;
 
-  using _GetGameLiftPlayerSessionInfo_d__80 = ::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80;
+  using _GetGameLiftPlayerSessionInfo_d__82 = ::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82;
 
   /// @brief Field _authenticationTokenProviderTask, offset 0x88, size 0x8
   __declspec(property(
@@ -650,6 +650,8 @@ public:
   __declspec(property(get = __cordl_internal_get__timeProvider, put = __cordl_internal_set__timeProvider)) ::BGNet::Core::ITimeProvider* _timeProvider;
 
   __declspec(property(get = get_code)) ::StringW code;
+
+  __declspec(property(get = get_compatibilityVersion)) ::StringW compatibilityVersion;
 
   __declspec(property(get = get_configuration)) ::GlobalNamespace::GameplayServerConfiguration configuration;
 
@@ -714,54 +716,54 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Disconnect, addr 0x31a4070, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Disconnect, addr 0x31d57fc, size 0x8, virtual true, abstract: false, final true
   inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method DisconnectInternal, addr 0x31a4324, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method DisconnectInternal, addr 0x31d5ac8, size 0xc, virtual false, abstract: false, final false
   inline void DisconnectInternal(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
-  /// @brief Method DisconnectInternal, addr 0x31a4078, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method DisconnectInternal, addr 0x31d5804, size 0x2c4, virtual false, abstract: false, final false
   inline void DisconnectInternal(::GlobalNamespace::DisconnectedReason disconnectedReason, ::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
-  /// @brief Method Dispose, addr 0x31a3fcc, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x31d5758, size 0xa4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeAsync, addr 0x31a3f28, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method DisposeAsync, addr 0x31d56b4, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::ValueTask DisposeAsync();
 
-  /// @brief Method GameLiftConnectToServer, addr 0x31a4580, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GameLiftConnectToServer, addr 0x31d5d24, size 0xc8, virtual false, abstract: false, final false
   inline void GameLiftConnectToServer(::StringW secret, ::StringW code, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetConnection, addr 0x31a4330, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method GetConnection, addr 0x31d5ad4, size 0xb8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IConnection* GetConnection(int32_t index);
 
-  /// @brief Method GetGameLiftPlayerSessionInfo, addr 0x31a4478, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GetGameLiftPlayerSessionInfo, addr 0x31d5c1c, size 0x108, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>* GetGameLiftPlayerSessionInfo(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider,
                                                                                                                        ::System::Threading::CancellationToken cancellationToken, ::StringW secret,
                                                                                                                        ::StringW code);
 
-  /// @brief Method GetPublicServers, addr 0x31a4a14, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetPublicServers, addr 0x31d61ec, size 0x5c, virtual false, abstract: false, final false
   inline void GetPublicServers(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>* onSuccess,
                                ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onFailure, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
                                ::GlobalNamespace::GameplayServerConfiguration configuration, int32_t offset, int32_t count);
 
-  /// @brief Method HandleConnectToServerSuccess, addr 0x31a4648, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectToServerSuccess, addr 0x31d5dec, size 0x400, virtual false, abstract: false, final false
   inline void HandleConnectToServerSuccess(::StringW playerSessionId, ::StringW hostName, int32_t port, ::StringW gameSessionId, ::StringW secret, ::StringW code,
                                            ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration);
 
-  /// @brief Method HandleConnected, addr 0x31a43e8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleConnected, addr 0x31d5b8c, size 0x30, virtual false, abstract: false, final false
   inline void HandleConnected();
 
-  /// @brief Method HandleConnectionConnected, addr 0x31a4418, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectionConnected, addr 0x31d5bbc, size 0x1c, virtual false, abstract: false, final false
   inline void HandleConnectionConnected(::GlobalNamespace::IConnection* connection);
 
-  /// @brief Method HandleConnectionDisconnected, addr 0x31a4434, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectionDisconnected, addr 0x31d5bd8, size 0x1c, virtual false, abstract: false, final false
   inline void HandleConnectionDisconnected(::GlobalNamespace::IConnection* connection, ::GlobalNamespace::DisconnectedReason reason);
 
-  /// @brief Method HandleConnectionFailed, addr 0x31a4450, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectionFailed, addr 0x31d5bf4, size 0xc, virtual false, abstract: false, final false
   inline void HandleConnectionFailed(::GlobalNamespace::ConnectionFailedReason failedReason);
 
-  /// @brief Method HandleReceivedData, addr 0x31a445c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleReceivedData, addr 0x31d5c00, size 0x1c, virtual false, abstract: false, final false
   inline void HandleReceivedData(::GlobalNamespace::IConnection* connection, ::LiteNetLib::Utils::NetDataReader* reader, ::BGNet::Core::DeliveryMethod deliveryMethod);
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -772,13 +774,13 @@ public:
   static inline ::GlobalNamespace::GameLiftConnectionManager* New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility,
                                                                        ::GlobalNamespace::IConnectionManager* connectionManager);
 
-  /// @brief Method PollUpdate, addr 0x31a3888, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method PollUpdate, addr 0x31d5014, size 0xa4, virtual true, abstract: false, final true
   inline void PollUpdate();
 
-  /// @brief Method SendToAll, addr 0x31a36f8, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method SendToAll, addr 0x31d4e84, size 0xc0, virtual true, abstract: false, final true
   inline void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
 
-  /// @brief Method SendToAll, addr 0x31a37b8, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method SendToAll, addr 0x31d4f44, size 0xd0, virtual true, abstract: false, final true
   inline void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod, ::GlobalNamespace::IConnection* excludingConnection);
 
   constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* const& __cordl_internal_get__authenticationTokenProviderTask() const;
@@ -895,70 +897,73 @@ public:
 
   constexpr void __cordl_internal_set_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
-  /// @brief Method .ctor, addr 0x31a392c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31d50b8, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x31a3a08, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31d5194, size 0x520, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IConnectionManager* connectionManager);
 
-  /// @brief Method add_onConnectedEvent, addr 0x31a297c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectedEvent, addr 0x31d4060, size 0xac, virtual true, abstract: false, final true
   inline void add_onConnectedEvent(::System::Action* value);
 
-  /// @brief Method add_onConnectionConnectedEvent, addr 0x31a2dd4, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectionConnectedEvent, addr 0x31d44b8, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
-  /// @brief Method add_onConnectionDisconnectedEvent, addr 0x31a2f54, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectionDisconnectedEvent, addr 0x31d4638, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method add_onConnectionFailedEvent, addr 0x31a2c54, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectionFailedEvent, addr 0x31d4338, size 0xc0, virtual true, abstract: false, final true
   inline void add_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method add_onDisconnectedEvent, addr 0x31a2ad4, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_onDisconnectedEvent, addr 0x31d41b8, size 0xc0, virtual true, abstract: false, final true
   inline void add_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method add_onInitializedEvent, addr 0x31a2824, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_onInitializedEvent, addr 0x31d3f08, size 0xac, virtual true, abstract: false, final true
   inline void add_onInitializedEvent(::System::Action* value);
 
-  /// @brief Method add_onReceivedDataEvent, addr 0x31a30d4, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_onReceivedDataEvent, addr 0x31d47b8, size 0xc0, virtual true, abstract: false, final true
   inline void add_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
-  /// @brief Method get_code, addr 0x31a36e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_code, addr 0x31d4e74, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_code();
 
-  /// @brief Method get_configuration, addr 0x31a36d4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_compatibilityVersion, addr 0x31d4d88, size 0xa8, virtual true, abstract: false, final true
+  inline ::StringW get_compatibilityVersion();
+
+  /// @brief Method get_configuration, addr 0x31d4e60, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
-  /// @brief Method get_connectionCount, addr 0x31a34ac, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_connectionCount, addr 0x31d4b90, size 0xa8, virtual true, abstract: false, final true
   inline int32_t get_connectionCount();
 
-  /// @brief Method get_isConnected, addr 0x31a347c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isConnected, addr 0x31d4b60, size 0x10, virtual true, abstract: false, final true
   inline bool get_isConnected();
 
-  /// @brief Method get_isConnecting, addr 0x31a348c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isConnecting, addr 0x31d4b70, size 0x10, virtual true, abstract: false, final true
   inline bool get_isConnecting();
 
-  /// @brief Method get_isConnectionOwner, addr 0x31a3554, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_isConnectionOwner, addr 0x31d4c38, size 0xa8, virtual true, abstract: false, final true
   inline bool get_isConnectionOwner();
 
-  /// @brief Method get_isDisconnecting, addr 0x31a349c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isDisconnecting, addr 0x31d4b80, size 0x10, virtual true, abstract: false, final true
   inline bool get_isDisconnecting();
 
-  /// @brief Method get_isDisposed, addr 0x31a35fc, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_isDisposed, addr 0x31d4ce0, size 0xa8, virtual true, abstract: false, final true
   inline bool get_isDisposed();
 
-  /// @brief Method get_playerSessionId, addr 0x31a36a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_playerSessionId, addr 0x31d4e30, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_playerSessionId();
 
-  /// @brief Method get_secret, addr 0x31a36f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_secret, addr 0x31d4e7c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_secret();
 
-  /// @brief Method get_selectionMask, addr 0x31a36bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectionMask, addr 0x31d4e48, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
 
-  /// @brief Method get_userId, addr 0x31a3254, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method get_userId, addr 0x31d4938, size 0x114, virtual true, abstract: false, final true
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0x31a3368, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0x31d4a4c, size 0x114, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::GlobalNamespace::IConnectionManager"
@@ -973,25 +978,25 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_onConnectedEvent, addr 0x31a2a28, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectedEvent, addr 0x31d410c, size 0xac, virtual true, abstract: false, final true
   inline void remove_onConnectedEvent(::System::Action* value);
 
-  /// @brief Method remove_onConnectionConnectedEvent, addr 0x31a2e94, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectionConnectedEvent, addr 0x31d4578, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
-  /// @brief Method remove_onConnectionDisconnectedEvent, addr 0x31a3014, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectionDisconnectedEvent, addr 0x31d46f8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method remove_onConnectionFailedEvent, addr 0x31a2d14, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectionFailedEvent, addr 0x31d43f8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method remove_onDisconnectedEvent, addr 0x31a2b94, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_onDisconnectedEvent, addr 0x31d4278, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method remove_onInitializedEvent, addr 0x31a28d0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_onInitializedEvent, addr 0x31d3fb4, size 0xac, virtual true, abstract: false, final true
   inline void remove_onInitializedEvent(::System::Action* value);
 
-  /// @brief Method remove_onReceivedDataEvent, addr 0x31a3194, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_onReceivedDataEvent, addr 0x31d4878, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
 protected:
@@ -1009,7 +1014,7 @@ public:
   GameLiftConnectionManager(GameLiftConnectionManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18826 };
 
   /// @brief Field _timeProvider, offset: 0x10, size: 0x8, def value: None
   ::BGNet::Core::ITimeProvider* ____timeProvider;
@@ -1121,5 +1126,5 @@ NEED_NO_BOX(::GlobalNamespace::GameLiftConnectionManager_GameLiftConnectionManag
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameLiftConnectionManager_GameLiftConnectionManagerParamsBase*, "", "GameLiftConnectionManager/GameLiftConnectionManagerParamsBase");
 NEED_NO_BOX(::GlobalNamespace::GameLiftConnectionManager_StartClientParams);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameLiftConnectionManager_StartClientParams*, "", "GameLiftConnectionManager/StartClientParams");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__81, "", "GameLiftConnectionManager/<GameLiftConnectToServer>d__81");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__80, "", "GameLiftConnectionManager/<GetGameLiftPlayerSessionInfo>d__80");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83, "", "GameLiftConnectionManager/<GameLiftConnectToServer>d__83");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82, "", "GameLiftConnectionManager/<GetGameLiftPlayerSessionInfo>d__82");

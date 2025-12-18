@@ -45,7 +45,7 @@ public:
   constexpr DecalEntityIndexer_DecalEntityItem(int32_t chunkIndex, int32_t arrayIndex, int32_t version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12668 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -87,27 +87,27 @@ public:
   /// @brief Field m_FreeIndices, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FreeIndices, put = __cordl_internal_set_m_FreeIndices)) ::System::Collections::Generic::Queue_1<int32_t>* m_FreeIndices;
 
-  /// @brief Method Clear, addr 0x663be84, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x66a3a10, size 0x90, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CreateDecalEntity, addr 0x663b9e4, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method CreateDecalEntity, addr 0x66a3570, size 0x1a4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DecalEntity CreateDecalEntity(int32_t arrayIndex, int32_t chunkIndex);
 
-  /// @brief Method DestroyDecalEntity, addr 0x663bb88, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method DestroyDecalEntity, addr 0x66a3714, size 0xc4, virtual false, abstract: false, final false
   inline void DestroyDecalEntity(::UnityEngine::Rendering::Universal::DecalEntity decalEntity);
 
-  /// @brief Method GetItem, addr 0x663bc4c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetItem, addr 0x66a37d8, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DecalEntityIndexer_DecalEntityItem GetItem(::UnityEngine::Rendering::Universal::DecalEntity decalEntity);
 
-  /// @brief Method IsValid, addr 0x663b948, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x66a34d4, size 0x9c, virtual false, abstract: false, final false
   inline bool IsValid(::UnityEngine::Rendering::Universal::DecalEntity decalEntity);
 
   static inline ::UnityEngine::Rendering::Universal::DecalEntityIndexer* New_ctor();
 
-  /// @brief Method RemapChunkIndices, addr 0x663bd5c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method RemapChunkIndices, addr 0x66a38e8, size 0x128, virtual false, abstract: false, final false
   inline void RemapChunkIndices(::System::Collections::Generic::List_1<int32_t>* remaper);
 
-  /// @brief Method UpdateIndex, addr 0x663bcb8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method UpdateIndex, addr 0x66a3844, size 0xa4, virtual false, abstract: false, final false
   inline void UpdateIndex(::UnityEngine::Rendering::Universal::DecalEntity decalEntity, int32_t newArrayIndex);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::DecalEntityIndexer_DecalEntityItem>* const& __cordl_internal_get_m_Entities() const;
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_m_FreeIndices(::System::Collections::Generic::Queue_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x663bf14, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66a3aa0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,7 +140,7 @@ public:
   DecalEntityIndexer(DecalEntityIndexer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12669 };
 
   /// @brief Field m_Entities, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::DecalEntityIndexer_DecalEntityItem>* ___m_Entities;

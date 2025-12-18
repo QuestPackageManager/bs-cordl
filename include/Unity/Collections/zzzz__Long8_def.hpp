@@ -30,7 +30,7 @@ public:
   constexpr Long8(int64_t f0, int64_t f1, int64_t f2, int64_t f3, int64_t f4, int64_t f5, int64_t f6, int64_t f7) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15515 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15529 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

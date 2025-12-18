@@ -59,28 +59,28 @@ public:
   /// @brief Convert operator to "::UnityEngine::ILogger"
   constexpr operator ::UnityEngine::ILogger*() noexcept;
 
-  /// @brief Method GetString, addr 0x6895fbc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x68fee40, size 0x12c, virtual false, abstract: false, final false
   static inline ::StringW GetString(::System::Object* message);
 
-  /// @brief Method IsLogTypeAllowed, addr 0x6895f88, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method IsLogTypeAllowed, addr 0x68fee0c, size 0x34, virtual true, abstract: false, final true
   inline bool IsLogTypeAllowed(::UnityEngine::LogType logType);
 
-  /// @brief Method Log, addr 0x68960e8, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method Log, addr 0x68fef6c, size 0x180, virtual true, abstract: false, final true
   inline void Log(::UnityEngine::LogType logType, ::System::Object* message);
 
-  /// @brief Method Log, addr 0x6896268, size 0x190, virtual true, abstract: false, final true
+  /// @brief Method Log, addr 0x68ff0ec, size 0x190, virtual true, abstract: false, final true
   inline void Log(::UnityEngine::LogType logType, ::System::Object* message, ::UnityEngine::Object* context);
 
-  /// @brief Method LogError, addr 0x68963f8, size 0x19c, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x68ff27c, size 0x19c, virtual true, abstract: false, final true
   inline void LogError(::StringW tag, ::System::Object* message);
 
-  /// @brief Method LogException, addr 0x6896594, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x68ff418, size 0xd8, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception, ::UnityEngine::Object* context);
 
-  /// @brief Method LogFormat, addr 0x6896774, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method LogFormat, addr 0x68ff5f8, size 0x10c, virtual true, abstract: false, final true
   inline void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method LogFormat, addr 0x689666c, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method LogFormat, addr 0x68ff4f0, size 0x108, virtual true, abstract: false, final true
   inline void LogFormat(::UnityEngine::LogType logType, ::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::UnityEngine::Logger* New_ctor(::UnityEngine::ILogHandler* logHandler);
@@ -103,16 +103,16 @@ public:
 
   constexpr void __cordl_internal_set__logHandler_k__BackingField(::UnityEngine::ILogHandler* value);
 
-  /// @brief Method .ctor, addr 0x6895f40, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68fedc4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ILogHandler* logHandler);
 
-  /// @brief Method get_filterLogType, addr 0x6895f78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_filterLogType, addr 0x68fedfc, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::LogType get_filterLogType();
 
-  /// @brief Method get_logEnabled, addr 0x6895f68, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_logEnabled, addr 0x68fedec, size 0x8, virtual true, abstract: false, final true
   inline bool get_logEnabled();
 
-  /// @brief Method get_logHandler, addr 0x6895f58, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_logHandler, addr 0x68feddc, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::ILogHandler* get_logHandler();
 
   /// @brief Convert to "::UnityEngine::ILogHandler"
@@ -121,13 +121,13 @@ public:
   /// @brief Convert to "::UnityEngine::ILogger"
   constexpr ::UnityEngine::ILogger* i___UnityEngine__ILogger() noexcept;
 
-  /// @brief Method set_filterLogType, addr 0x6895f80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_filterLogType, addr 0x68fee04, size 0x8, virtual true, abstract: false, final true
   inline void set_filterLogType(::UnityEngine::LogType value);
 
-  /// @brief Method set_logEnabled, addr 0x6895f70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_logEnabled, addr 0x68fedf4, size 0x8, virtual true, abstract: false, final true
   inline void set_logEnabled(bool value);
 
-  /// @brief Method set_logHandler, addr 0x6895f60, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_logHandler, addr 0x68fede4, size 0x8, virtual true, abstract: false, final true
   inline void set_logHandler(::UnityEngine::ILogHandler* value);
 
 protected:
@@ -145,7 +145,7 @@ public:
   Logger(Logger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10224 };
 
   /// @brief Field <logHandler>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ILogHandler* ____logHandler_k__BackingField;

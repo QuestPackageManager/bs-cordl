@@ -40,10 +40,10 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel* New_ctor(::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph* _);
 
-  /// @brief Method .ctor, addr 0x6583c08, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65eb794, size 0x2d8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph* _);
 
-  /// @brief Method get_PanelName, addr 0x658405c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_PanelName, addr 0x65ebbe8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_PanelName();
 
 protected:
@@ -61,7 +61,7 @@ public:
   DebugDisplaySettingsRenderGraph_SettingsPanel(DebugDisplaySettingsRenderGraph_SettingsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12152 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12156 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -88,13 +88,13 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel, addr 0x6583bb4, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel, addr 0x65eb740, size 0x54, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel();
 
-  /// @brief Method .ctor, addr 0x6583a34, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65eb5c0, size 0x180, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AreAnySettingsActive, addr 0x6583ee0, size 0x17c, virtual true, abstract: false, final true
+  /// @brief Method get_AreAnySettingsActive, addr 0x65eba6c, size 0x17c, virtual true, abstract: false, final true
   inline bool get_AreAnySettingsActive();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsData"
@@ -118,7 +118,7 @@ public:
   DebugDisplaySettingsRenderGraph(DebugDisplaySettingsRenderGraph const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12157 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

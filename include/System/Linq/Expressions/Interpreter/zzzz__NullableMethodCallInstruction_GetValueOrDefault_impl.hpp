@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault::*)(::System::Reflection::MethodInfo*)>(
     &::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5da2a70;
+  constexpr static std::size_t addrs = 0x5e0a5fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault::Run)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5da2bc4;
+  constexpr static std::size_t addrs = 0x5e0a750;
 
   inline static ::MethodInfo const* methodInfo() {
 

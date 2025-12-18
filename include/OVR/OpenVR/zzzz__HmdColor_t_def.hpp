@@ -28,7 +28,7 @@ public:
   constexpr HmdColor_t(float_t r, float_t g, float_t b, float_t a) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8452 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

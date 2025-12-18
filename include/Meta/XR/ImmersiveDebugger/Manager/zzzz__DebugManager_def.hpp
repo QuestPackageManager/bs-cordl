@@ -80,18 +80,18 @@ namespace Meta::XR::ImmersiveDebugger::Manager {
 class CORDL_TYPE DebugManager_ShouldRetrieveInstanceDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x584cfbc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x58b3720, size 0x1c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x584cfd8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x58b373c, size 0x24, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x584cfa8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x58b370c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::DebugManager_ShouldRetrieveInstanceDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x584cf40, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b36a4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -109,7 +109,7 @@ public:
   DebugManager_ShouldRetrieveInstanceDelegate(DebugManager_ShouldRetrieveInstanceDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18379 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18394 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -132,10 +132,10 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::DebugManager___c* New_ctor();
 
-  /// @brief Method <.ctor>b__43_0, addr 0x584d054, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__43_0, addr 0x58b37b8, size 0x98, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker __ctor_b__43_0(::GlobalNamespace::OVRTelemetryMarker marker);
 
-  /// @brief Method .ctor, addr 0x584d050, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b37b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::DebugManager___c* getStaticF___9();
@@ -161,7 +161,7 @@ public:
   DebugManager___c(DebugManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18395 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -222,45 +222,45 @@ public:
   /// @brief Field _lastRetrievedTime, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get__lastRetrievedTime, put = __cordl_internal_set__lastRetrievedTime)) float_t _lastRetrievedTime;
 
-  /// @brief Method Awake, addr 0x584c3bc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58b2b20, size 0x164, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x584bb9c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x58b2300, size 0x4c, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method InitSubManagers, addr 0x584ca44, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method InitSubManagers, addr 0x58b31a8, size 0xb8, virtual true, abstract: false, final false
   inline void InitSubManagers();
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::DebugManager* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x584c904, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x58b3068, size 0x20, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method OnDestroy, addr 0x584c940, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58b30a4, size 0xac, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x584c924, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x58b3088, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method ProcessLoadedTypeBySubManagers, addr 0x584cafc, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ProcessLoadedTypeBySubManagers, addr 0x58b3260, size 0x184, virtual false, abstract: false, final false
   inline void ProcessLoadedTypeBySubManagers(::System::Type* type);
 
   /// @brief Method RegisterManager, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TManagerType> inline void RegisterManager();
 
-  /// @brief Method RegisterTypesFromInspectedData, addr 0x584c6c8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method RegisterTypesFromInspectedData, addr 0x58b2e2c, size 0x16c, virtual false, abstract: false, final false
   inline void RegisterTypesFromInspectedData();
 
-  /// @brief Method RetrieveInstancesIfNeeded, addr 0x584c834, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RetrieveInstancesIfNeeded, addr 0x58b2f98, size 0xd0, virtual false, abstract: false, final false
   inline void RetrieveInstancesIfNeeded();
 
-  /// @brief Method Start, addr 0x584c520, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58b2c84, size 0x1a8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UnregisterInspector, addr 0x584cc80, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method UnregisterInspector, addr 0x58b33e4, size 0x128, virtual false, abstract: false, final false
   inline void UnregisterInspector(::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle handle);
 
-  /// @brief Method Update, addr 0x584c9ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58b3150, size 0x58, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::Meta::XR::ImmersiveDebugger::Manager::DebugManager_ShouldRetrieveInstanceDelegate* const& __cordl_internal_get_CustomShouldRetrieveInstanceCondition() const;
@@ -323,57 +323,57 @@ public:
 
   constexpr void __cordl_internal_set__lastRetrievedTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x584cda8, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b350c, size 0x198, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_CustomShouldRetrieveInstanceCondition, addr 0x584c254, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_CustomShouldRetrieveInstanceCondition, addr 0x58b29b8, size 0xac, virtual false, abstract: false, final false
   inline void add_CustomShouldRetrieveInstanceCondition(::Meta::XR::ImmersiveDebugger::Manager::DebugManager_ShouldRetrieveInstanceDelegate* value);
 
-  /// @brief Method add_OnDisableAction, addr 0x584bfa4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_OnDisableAction, addr 0x58b2708, size 0xac, virtual false, abstract: false, final false
   inline void add_OnDisableAction(::System::Action* value);
 
-  /// @brief Method add_OnFocusLostAction, addr 0x584be4c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_OnFocusLostAction, addr 0x58b25b0, size 0xac, virtual false, abstract: false, final false
   inline void add_OnFocusLostAction(::System::Action* value);
 
-  /// @brief Method add_OnReady, addr 0x584bc84, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method add_OnReady, addr 0x58b23e8, size 0xe4, virtual false, abstract: false, final false
   static inline void add_OnReady(::System::Action_1<::UnityW<::Meta::XR::ImmersiveDebugger::Manager::DebugManager>>* value);
 
-  /// @brief Method add_OnUpdateAction, addr 0x584c0fc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_OnUpdateAction, addr 0x58b2860, size 0xac, virtual false, abstract: false, final false
   inline void add_OnUpdateAction(::System::Action* value);
 
   static inline ::System::Action_1<::UnityW<::Meta::XR::ImmersiveDebugger::Manager::DebugManager>>* getStaticF_OnReady();
 
   static inline ::UnityW<::Meta::XR::ImmersiveDebugger::Manager::DebugManager> getStaticF__Instance_k__BackingField();
 
-  /// @brief Method get_Instance, addr 0x584bbe8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x58b234c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::Meta::XR::ImmersiveDebugger::Manager::DebugManager> get_Instance();
 
-  /// @brief Method get_UiPanel, addr 0x584c3ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UiPanel, addr 0x58b2b10, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel* get_UiPanel();
 
-  /// @brief Method remove_CustomShouldRetrieveInstanceCondition, addr 0x584c300, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_CustomShouldRetrieveInstanceCondition, addr 0x58b2a64, size 0xac, virtual false, abstract: false, final false
   inline void remove_CustomShouldRetrieveInstanceCondition(::Meta::XR::ImmersiveDebugger::Manager::DebugManager_ShouldRetrieveInstanceDelegate* value);
 
-  /// @brief Method remove_OnDisableAction, addr 0x584c050, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_OnDisableAction, addr 0x58b27b4, size 0xac, virtual false, abstract: false, final false
   inline void remove_OnDisableAction(::System::Action* value);
 
-  /// @brief Method remove_OnFocusLostAction, addr 0x584bef8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_OnFocusLostAction, addr 0x58b265c, size 0xac, virtual false, abstract: false, final false
   inline void remove_OnFocusLostAction(::System::Action* value);
 
-  /// @brief Method remove_OnReady, addr 0x584bd68, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method remove_OnReady, addr 0x58b24cc, size 0xe4, virtual false, abstract: false, final false
   static inline void remove_OnReady(::System::Action_1<::UnityW<::Meta::XR::ImmersiveDebugger::Manager::DebugManager>>* value);
 
-  /// @brief Method remove_OnUpdateAction, addr 0x584c1a8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_OnUpdateAction, addr 0x58b290c, size 0xac, virtual false, abstract: false, final false
   inline void remove_OnUpdateAction(::System::Action* value);
 
   static inline void setStaticF_OnReady(::System::Action_1<::UnityW<::Meta::XR::ImmersiveDebugger::Manager::DebugManager>>* value);
 
   static inline void setStaticF__Instance_k__BackingField(::UnityW<::Meta::XR::ImmersiveDebugger::Manager::DebugManager> value);
 
-  /// @brief Method set_Instance, addr 0x584bc34, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_Instance, addr 0x58b2398, size 0x50, virtual false, abstract: false, final false
   static inline void set_Instance(::Meta::XR::ImmersiveDebugger::Manager::DebugManager* value);
 
-  /// @brief Method set_UiPanel, addr 0x584c3b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UiPanel, addr 0x58b2b18, size 0x8, virtual false, abstract: false, final false
   inline void set_UiPanel(::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel* value);
 
 protected:
@@ -394,7 +394,7 @@ public:
   static constexpr float_t RetrievalIntervalInSec{ static_cast<float_t>(1.0f) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18396 };
 
   /// @brief Field OnFocusLostAction, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___OnFocusLostAction;

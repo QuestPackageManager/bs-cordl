@@ -75,7 +75,7 @@ public:
   static ::System::Xml::ReadContentAsBinaryHelper_State const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9267 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -130,36 +130,36 @@ public:
   /// @brief Field valueOffset, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_valueOffset, put = __cordl_internal_set_valueOffset)) int32_t valueOffset;
 
-  /// @brief Method CreateOrReset, addr 0x5f96018, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CreateOrReset, addr 0x5ffdba4, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Xml::ReadContentAsBinaryHelper* CreateOrReset(::System::Xml::ReadContentAsBinaryHelper* helper, ::System::Xml::XmlReader* reader);
 
-  /// @brief Method Finish, addr 0x5f966dc, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x5ffe268, size 0x148, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method Init, addr 0x5f96280, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5ffde0c, size 0x2c, virtual false, abstract: false, final false
   inline bool Init();
 
-  /// @brief Method InitBase64Decoder, addr 0x5f96414, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InitBase64Decoder, addr 0x5ffdfa0, size 0x70, virtual false, abstract: false, final false
   inline void InitBase64Decoder();
 
-  /// @brief Method InitBinHexDecoder, addr 0x5f9666c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InitBinHexDecoder, addr 0x5ffe1f8, size 0x70, virtual false, abstract: false, final false
   inline void InitBinHexDecoder();
 
-  /// @brief Method MoveToNextContentNode, addr 0x5f96824, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method MoveToNextContentNode, addr 0x5ffe3b0, size 0xf4, virtual false, abstract: false, final false
   inline bool MoveToNextContentNode(bool moveIfOnContentNode);
 
   static inline ::System::Xml::ReadContentAsBinaryHelper* New_ctor(::System::Xml::XmlReader* reader);
 
-  /// @brief Method ReadContentAsBase64, addr 0x5f9609c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ReadContentAsBase64, addr 0x5ffdc28, size 0x1e4, virtual false, abstract: false, final false
   inline int32_t ReadContentAsBase64(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadContentAsBinHex, addr 0x5f96484, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ReadContentAsBinHex, addr 0x5ffe010, size 0x1e8, virtual false, abstract: false, final false
   inline int32_t ReadContentAsBinHex(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadContentAsBinary, addr 0x5f962ac, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method ReadContentAsBinary, addr 0x5ffde38, size 0x168, virtual false, abstract: false, final false
   inline int32_t ReadContentAsBinary(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Reset, addr 0x5f96090, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x5ffdc1c, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Xml::Base64Decoder* const& __cordl_internal_get_base64Decoder() const;
@@ -222,7 +222,7 @@ public:
 
   constexpr void __cordl_internal_set_valueOffset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5f95f8c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ffdb18, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlReader* reader);
 
 protected:
@@ -240,7 +240,7 @@ public:
   ReadContentAsBinaryHelper(ReadContentAsBinaryHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9268 };
 
   /// @brief Field reader, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlReader* ___reader;

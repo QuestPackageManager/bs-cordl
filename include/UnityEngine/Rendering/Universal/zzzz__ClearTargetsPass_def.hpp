@@ -97,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set_depth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x66b88ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6720478, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,7 +115,7 @@ public:
   ClearTargetsPass_PassData(ClearTargetsPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12991 };
 
   /// @brief Field color, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___color;
@@ -160,10 +160,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::ClearTargetsPass___c* New_ctor();
 
-  /// @brief Method <Render>b__3_0, addr 0x66b8948, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__3_0, addr 0x67204d4, size 0x38, virtual false, abstract: false, final false
   inline void _Render_b__3_0(::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x66b8944, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67204d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::ClearTargetsPass___c* getStaticF___9();
@@ -192,7 +192,7 @@ public:
   ClearTargetsPass___c(ClearTargetsPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12988 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12992 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -216,15 +216,15 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::ClearTargetsPass* New_ctor();
 
-  /// @brief Method Render, addr 0x66b8748, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x67202d4, size 0x10c, virtual false, abstract: false, final false
   static inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorHandle,
                             ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthHandle, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method Render, addr 0x66b6754, size 0x6c0, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x671e2e0, size 0x6c0, virtual false, abstract: false, final false
   static inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorHandle,
                             ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthHandle, ::UnityEngine::Rendering::RTClearFlags clearFlags, ::UnityEngine::Color clearColor);
 
-  /// @brief Method .ctor, addr 0x66b8854, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67203e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF_s_ClearProfilingSampler();
@@ -246,7 +246,7 @@ public:
   ClearTargetsPass(ClearTargetsPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12989 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12993 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

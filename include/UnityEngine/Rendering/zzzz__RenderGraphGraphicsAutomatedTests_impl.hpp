@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c::*)()>(
     &::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x661ccac;
+  constexpr static std::size_t addrs = 0x6684838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c::*)(::StringW)>(
     &::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests___c::_get_activatedFromCommandLine_b__1_0)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x661ccb0;
+  constexpr static std::size_t addrs = 0x668483c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests::get_activatedFromCommandLine)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x661ca9c;
+  constexpr static std::size_t addrs = 0x6684628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::Rendering::RenderGraphGraphicsAutomatedTests::get_enabled)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x661cba8;
+  constexpr static std::size_t addrs = 0x6684734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

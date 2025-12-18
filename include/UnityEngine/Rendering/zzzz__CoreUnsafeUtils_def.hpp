@@ -67,22 +67,22 @@ public:
   // Declarations
   __declspec(property(get = get_Count, put = set_Count)) int32_t Count;
 
-  /// @brief Method Clear, addr 0x6538698, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x65a0224, size 0x50, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method TryPop, addr 0x6538764, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method TryPop, addr 0x65a02f0, size 0x60, virtual false, abstract: false, final false
   inline bool TryPop(::ByRef<::StringW> v);
 
-  /// @brief Method TryPush, addr 0x65386e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method TryPush, addr 0x65a0274, size 0x7c, virtual false, abstract: false, final false
   inline bool TryPush(::StringW v);
 
-  /// @brief Method .ctor, addr 0x6538640, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a01cc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(uint8_t* ptr, int32_t length);
 
-  /// @brief Method get_Count, addr 0x6538630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x65a01bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method set_Count, addr 0x6538638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Count, addr 0x65a01c4, size 0x8, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
   // Ctor Parameters []
@@ -96,7 +96,7 @@ public:
                                                    int32_t _Count_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11870 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -154,7 +154,7 @@ public:
   CoreUnsafeUtils_IKeyGetter_2(CoreUnsafeUtils_IKeyGetter_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11871 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -184,7 +184,7 @@ public:
   constexpr CoreUnsafeUtils_DefaultKeyGetter_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11872 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -205,7 +205,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<uint32_t,uint32_t>"
   constexpr operator ::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<uint32_t, uint32_t>*();
 
-  /// @brief Method Get, addr 0x65387c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Get, addr 0x65a0350, size 0x8, virtual true, abstract: false, final true
   inline uint32_t Get(::ByRef<uint32_t> v);
 
   /// @brief Convert to "::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<uint32_t,uint32_t>"
@@ -216,7 +216,7 @@ public:
   constexpr CoreUnsafeUtils_UintKeyGetter();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11873 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -242,7 +242,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<uint64_t,uint64_t>"
   constexpr operator ::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<uint64_t, uint64_t>*();
 
-  /// @brief Method Get, addr 0x65387cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Get, addr 0x65a0358, size 0x8, virtual true, abstract: false, final true
   inline uint64_t Get(::ByRef<uint64_t> v);
 
   /// @brief Convert to "::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<uint64_t,uint64_t>"
@@ -253,7 +253,7 @@ public:
   constexpr CoreUnsafeUtils_UlongKeyGetter();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11870 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11874 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -285,23 +285,23 @@ public:
 
   using UlongKeyGetter = ::UnityEngine::Rendering::CoreUnsafeUtils_UlongKeyGetter;
 
-  /// @brief Method CalculateRadixParams, addr 0x6537990, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CalculateRadixParams, addr 0x659f51c, size 0x10, virtual false, abstract: false, final false
   static inline void CalculateRadixParams(int32_t radixBits, ::ByRef<int32_t> bitStates);
 
-  /// @brief Method CalculateRadixSortSupportArrays, addr 0x65379ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CalculateRadixSortSupportArrays, addr 0x659f538, size 0x20, virtual false, abstract: false, final false
   static inline void CalculateRadixSortSupportArrays(int32_t bitStates, int32_t arrayLength, uint32_t* supportArray, ::ByRef<uint32_t*> bucketIndices, ::ByRef<uint32_t*> bucketSizes,
                                                      ::ByRef<uint32_t*> bucketPrefix, ::ByRef<uint32_t*> arrayOutput);
 
-  /// @brief Method CalculateRadixSupportSize, addr 0x65379a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CalculateRadixSupportSize, addr 0x659f52c, size 0xc, virtual false, abstract: false, final false
   static inline int32_t CalculateRadixSupportSize(int32_t bitStates, int32_t arrayLength);
 
-  /// @brief Method CombineHashes, addr 0x6538474, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CombineHashes, addr 0x65a0000, size 0x64, virtual false, abstract: false, final false
   static inline void CombineHashes(int32_t count, ::UnityEngine::Hash128* hashes, ::UnityEngine::Hash128* outHash);
 
   /// @brief Method CombineHashes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue, typename TGetter> static inline void CombineHashes(int32_t count, void* hashes, ::UnityEngine::Hash128* outHash);
 
-  /// @brief Method CompareHashes, addr 0x65383cc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CompareHashes, addr 0x659ff58, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t CompareHashes(int32_t oldHashCount, ::UnityEngine::Hash128* oldHashes, int32_t newHashCount, ::UnityEngine::Hash128* newHashes, int32_t* addIndices, int32_t* removeIndices,
                                       ::ByRef<int32_t> addCount, ::ByRef<int32_t> remCount);
 
@@ -316,37 +316,37 @@ public:
   /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void CopyTo(::System::Collections::Generic::List_1<T>* list, void* dest, int32_t count);
 
-  /// @brief Method HaveDuplicates, addr 0x65384d8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method HaveDuplicates, addr 0x65a0064, size 0x158, virtual false, abstract: false, final false
   static inline bool HaveDuplicates(::ArrayW<int32_t, ::Array<int32_t>*> arr);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOf(void* data, int32_t count, T v);
 
-  /// @brief Method InsertionSort, addr 0x6537d74, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method InsertionSort, addr 0x659f900, size 0x94, virtual false, abstract: false, final false
   static inline void InsertionSort(::ArrayW<uint32_t, ::Array<uint32_t>*> arr, int32_t sortSize);
 
-  /// @brief Method InsertionSort, addr 0x6537e08, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InsertionSort, addr 0x659f994, size 0xb0, virtual false, abstract: false, final false
   static inline void InsertionSort(::Unity::Collections::NativeArray_1<uint32_t> arr, int32_t sortSize);
 
-  /// @brief Method InsertionSort, addr 0x6537d14, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method InsertionSort, addr 0x659f8a0, size 0x60, virtual false, abstract: false, final false
   static inline void InsertionSort(uint32_t* arr, int32_t length);
 
-  /// @brief Method MergeSort, addr 0x6537b00, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method MergeSort, addr 0x659f68c, size 0x110, virtual false, abstract: false, final false
   static inline void MergeSort(::ArrayW<uint32_t, ::Array<uint32_t>*> arr, int32_t sortSize, ::ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> supportArray);
 
-  /// @brief Method MergeSort, addr 0x6537c10, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method MergeSort, addr 0x659f79c, size 0x104, virtual false, abstract: false, final false
   static inline void MergeSort(::Unity::Collections::NativeArray_1<uint32_t> arr, int32_t sortSize, ::ByRef<::Unity::Collections::NativeArray_1<uint32_t>> supportArray);
 
-  /// @brief Method MergeSort, addr 0x65379cc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method MergeSort, addr 0x659f558, size 0x134, virtual false, abstract: false, final false
   static inline void MergeSort(uint32_t* array, uint32_t* support, int32_t length);
 
   /// @brief Method Partition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue, typename TKey, typename TGetter> static inline int32_t Partition(void* data, int32_t left, int32_t right);
 
-  /// @brief Method QuickSort, addr 0x65382d4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method QuickSort, addr 0x659fe60, size 0x7c, virtual false, abstract: false, final false
   static inline void QuickSort(::ArrayW<uint32_t, ::Array<uint32_t>*> arr, int32_t left, int32_t right);
 
-  /// @brief Method QuickSort, addr 0x6538350, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method QuickSort, addr 0x659fedc, size 0x7c, virtual false, abstract: false, final false
   static inline void QuickSort(::ArrayW<uint64_t, ::Array<uint64_t>*> arr, int32_t left, int32_t right);
 
   /// @brief Method QuickSort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -358,13 +358,13 @@ public:
   /// @brief Method QuickSort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue, typename TKey, typename TGetter> static inline void QuickSort(void* data, int32_t left, int32_t right);
 
-  /// @brief Method RadixSort, addr 0x6538070, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method RadixSort, addr 0x659fbfc, size 0x13c, virtual false, abstract: false, final false
   static inline void RadixSort(::ArrayW<uint32_t, ::Array<uint32_t>*> arr, int32_t sortSize, ::ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> supportArray, int32_t radixBits);
 
-  /// @brief Method RadixSort, addr 0x65381ac, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method RadixSort, addr 0x659fd38, size 0x128, virtual false, abstract: false, final false
   static inline void RadixSort(::Unity::Collections::NativeArray_1<uint32_t> array, int32_t sortSize, ::ByRef<::Unity::Collections::NativeArray_1<uint32_t>> supportArray, int32_t radixBits);
 
-  /// @brief Method RadixSort, addr 0x6537eb8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method RadixSort, addr 0x659fa44, size 0x1b8, virtual false, abstract: false, final false
   static inline void RadixSort(uint32_t* array, uint32_t* support, int32_t radixBits, int32_t bitStates, int32_t length);
 
 protected:
@@ -382,7 +382,7 @@ public:
   CoreUnsafeUtils(CoreUnsafeUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11875 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

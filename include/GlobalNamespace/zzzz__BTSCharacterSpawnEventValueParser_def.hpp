@@ -19,16 +19,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE BTSCharacterSpawnEventValueParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAnimationId, addr 0x3187520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAnimationId, addr 0x31b734c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetAnimationId(int32_t value);
 
-  /// @brief Method GetIsAlternativeMaterial, addr 0x31879b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIsAlternativeMaterial, addr 0x31b77e0, size 0x8, virtual false, abstract: false, final false
   static inline bool GetIsAlternativeMaterial(int32_t value);
 
-  /// @brief Method GetPrefabId, addr 0x3187518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPrefabId, addr 0x31b7344, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetPrefabId(int32_t value);
 
-  /// @brief Method MergeValuesIntoOneInt, addr 0x3187b58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method MergeValuesIntoOneInt, addr 0x31b7984, size 0x18, virtual false, abstract: false, final false
   static inline int32_t MergeValuesIntoOneInt(int32_t prefabId, int32_t animationId, bool isAlternativeMaterial);
 
 protected:
@@ -46,7 +46,7 @@ public:
   BTSCharacterSpawnEventValueParser(BTSCharacterSpawnEventValueParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21468 };
 
   /// @brief Field kAlternativeMaterialMask offset 0xffffffff size 0x4
   static constexpr int32_t kAlternativeMaterialMask{ static_cast<int32_t>(0x10000) };

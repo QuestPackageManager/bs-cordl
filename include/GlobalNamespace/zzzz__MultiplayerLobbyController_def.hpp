@@ -73,10 +73,10 @@ public:
 
   __declspec(property(get = get_lobbyActivated, put = set_lobbyActivated)) bool lobbyActivated;
 
-  /// @brief Method ActivateMultiplayerLobby, addr 0x5806b1c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ActivateMultiplayerLobby, addr 0x586a7f8, size 0xc0, virtual false, abstract: false, final false
   inline void ActivateMultiplayerLobby();
 
-  /// @brief Method DeactivateMultiplayerLobby, addr 0x5806bdc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DeactivateMultiplayerLobby, addr 0x586a8b8, size 0x80, virtual false, abstract: false, final false
   inline void DeactivateMultiplayerLobby();
 
   static inline ::GlobalNamespace::MultiplayerLobbyController* New_ctor();
@@ -135,13 +135,13 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x5806c5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x586a938, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lobbyActivated, addr 0x5806b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lobbyActivated, addr 0x586a7e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_lobbyActivated();
 
-  /// @brief Method set_lobbyActivated, addr 0x5806b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lobbyActivated, addr 0x586a7f0, size 0x8, virtual false, abstract: false, final false
   inline void set_lobbyActivated(bool value);
 
 protected:
@@ -159,7 +159,7 @@ public:
   MultiplayerLobbyController(MultiplayerLobbyController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6424 };
 
   /// @brief Field _innerCircleRadius, offset: 0x20, size: 0x4, def value: None
   float_t ____innerCircleRadius;

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::Util::FeatureAttribute::*)(::Meta::XR::Util::Feature)>(
     &::Meta::XR::Util::FeatureAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c3bd9c;
+  constexpr static std::size_t addrs = 0x5ca287c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::Util::Feature (::Meta::XR::Util::FeatureAttribute::*)()>(
     &::Meta::XR::Util::FeatureAttribute::get_Feature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c3bda4;
+  constexpr static std::size_t addrs = 0x5ca2884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::Util::FeatureAttribute*>::get(), "get_Feature",

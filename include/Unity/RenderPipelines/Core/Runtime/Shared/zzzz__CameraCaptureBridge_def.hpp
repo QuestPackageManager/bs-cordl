@@ -33,7 +33,7 @@ namespace Unity::RenderPipelines::Core::Runtime::Shared {
 class CORDL_TYPE CameraCaptureBridge : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCachedCaptureActionsEnumerator, addr 0x653bfc4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetCachedCaptureActionsEnumerator, addr 0x65a3b50, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerator_1<::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>*>*
   GetCachedCaptureActionsEnumerator(::UnityEngine::Camera* camera);
 
@@ -52,7 +52,7 @@ public:
   CameraCaptureBridge(CameraCaptureBridge const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23389 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

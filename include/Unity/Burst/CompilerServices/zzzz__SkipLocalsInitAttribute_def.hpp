@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::Unity::Burst::CompilerServices::SkipLocalsInitAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6289420, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62f0fac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   SkipLocalsInitAttribute(SkipLocalsInitAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17327 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17341 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

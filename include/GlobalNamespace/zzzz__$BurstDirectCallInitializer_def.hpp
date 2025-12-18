@@ -18,7 +18,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE $BurstDirectCallInitializer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x62b2188, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6319d14, size 0x294, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:
@@ -36,7 +36,7 @@ public:
   $BurstDirectCallInitializer($BurstDirectCallInitializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15809 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

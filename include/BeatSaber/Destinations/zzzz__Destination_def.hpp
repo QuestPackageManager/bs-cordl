@@ -26,69 +26,58 @@ namespace BeatSaber::Destinations {
 class CORDL_TYPE Destination : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _arguments, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__arguments, put = __cordl_internal_set__arguments)) ::ArrayW<::StringW, ::Array<::StringW>*> _arguments;
+  /// @brief Field arguments, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_arguments, put = __cordl_internal_set_arguments)) ::ArrayW<::StringW, ::Array<::StringW>*> arguments;
 
-  /// @brief Field _levelStartParameters, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelStartParameters,
-                      put = __cordl_internal_set__levelStartParameters)) ::BeatSaber::Destinations::LevelStartDestinationParameters* _levelStartParameters;
+  /// @brief Field levelStartParameters, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_levelStartParameters,
+                      put = __cordl_internal_set_levelStartParameters)) ::BeatSaber::Destinations::LevelStartDestinationParameters* levelStartParameters;
 
-  /// @brief Field _requiresHealthWarning, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__requiresHealthWarning, put = __cordl_internal_set__requiresHealthWarning)) bool _requiresHealthWarning;
+  /// @brief Field loadMenu, offset 0x29, size 0x1
+  __declspec(property(get = __cordl_internal_get_loadMenu, put = __cordl_internal_set_loadMenu)) bool loadMenu;
 
-  /// @brief Field _stage, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__stage, put = __cordl_internal_set__stage)) ::BeatSaber::Destinations::DestinationTarget _stage;
+  /// @brief Field requiresHealthWarning, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get_requiresHealthWarning, put = __cordl_internal_set_requiresHealthWarning)) bool requiresHealthWarning;
 
-  __declspec(property(get = get_arguments)) ::ArrayW<::StringW, ::Array<::StringW>*> arguments;
-
-  __declspec(property(get = get_levelStartParameters)) ::BeatSaber::Destinations::LevelStartDestinationParameters* levelStartParameters;
-
-  __declspec(property(get = get_requiresHealthWarning)) bool requiresHealthWarning;
-
-  __declspec(property(get = get_stage)) ::BeatSaber::Destinations::DestinationTarget stage;
+  /// @brief Field stage, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_stage, put = __cordl_internal_set_stage)) ::BeatSaber::Destinations::DestinationTarget stage;
 
   static inline ::BeatSaber::Destinations::Destination* New_ctor(::BeatSaber::Destinations::DestinationTarget stage, ::BeatSaber::Destinations::LevelStartDestinationParameters* levelStartDestination,
-                                                                 ::ArrayW<::StringW, ::Array<::StringW>*> arguments, bool requiresHealthWarning);
+                                                                 ::ArrayW<::StringW, ::Array<::StringW>*> arguments, bool requiresHealthWarning, bool loadMenu);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__arguments() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_arguments() const;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__arguments();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_arguments();
 
-  constexpr ::BeatSaber::Destinations::LevelStartDestinationParameters* const& __cordl_internal_get__levelStartParameters() const;
+  constexpr ::BeatSaber::Destinations::LevelStartDestinationParameters* const& __cordl_internal_get_levelStartParameters() const;
 
-  constexpr ::BeatSaber::Destinations::LevelStartDestinationParameters*& __cordl_internal_get__levelStartParameters();
+  constexpr ::BeatSaber::Destinations::LevelStartDestinationParameters*& __cordl_internal_get_levelStartParameters();
 
-  constexpr bool const& __cordl_internal_get__requiresHealthWarning() const;
+  constexpr bool const& __cordl_internal_get_loadMenu() const;
 
-  constexpr bool& __cordl_internal_get__requiresHealthWarning();
+  constexpr bool& __cordl_internal_get_loadMenu();
 
-  constexpr ::BeatSaber::Destinations::DestinationTarget const& __cordl_internal_get__stage() const;
+  constexpr bool const& __cordl_internal_get_requiresHealthWarning() const;
 
-  constexpr ::BeatSaber::Destinations::DestinationTarget& __cordl_internal_get__stage();
+  constexpr bool& __cordl_internal_get_requiresHealthWarning();
 
-  constexpr void __cordl_internal_set__arguments(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr ::BeatSaber::Destinations::DestinationTarget const& __cordl_internal_get_stage() const;
 
-  constexpr void __cordl_internal_set__levelStartParameters(::BeatSaber::Destinations::LevelStartDestinationParameters* value);
+  constexpr ::BeatSaber::Destinations::DestinationTarget& __cordl_internal_get_stage();
 
-  constexpr void __cordl_internal_set__requiresHealthWarning(bool value);
+  constexpr void __cordl_internal_set_arguments(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr void __cordl_internal_set__stage(::BeatSaber::Destinations::DestinationTarget value);
+  constexpr void __cordl_internal_set_levelStartParameters(::BeatSaber::Destinations::LevelStartDestinationParameters* value);
 
-  /// @brief Method .ctor, addr 0x3181ac4, size 0x100, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_loadMenu(bool value);
+
+  constexpr void __cordl_internal_set_requiresHealthWarning(bool value);
+
+  constexpr void __cordl_internal_set_stage(::BeatSaber::Destinations::DestinationTarget value);
+
+  /// @brief Method .ctor, addr 0x31b17dc, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Destinations::DestinationTarget stage, ::BeatSaber::Destinations::LevelStartDestinationParameters* levelStartDestination,
-                    ::ArrayW<::StringW, ::Array<::StringW>*> arguments, bool requiresHealthWarning);
-
-  /// @brief Method get_arguments, addr 0x3181ab4, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::StringW, ::Array<::StringW>*> get_arguments();
-
-  /// @brief Method get_levelStartParameters, addr 0x3181aac, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatSaber::Destinations::LevelStartDestinationParameters* get_levelStartParameters();
-
-  /// @brief Method get_requiresHealthWarning, addr 0x3181abc, size 0x8, virtual false, abstract: false, final false
-  inline bool get_requiresHealthWarning();
-
-  /// @brief Method get_stage, addr 0x3181aa4, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatSaber::Destinations::DestinationTarget get_stage();
+                    ::ArrayW<::StringW, ::Array<::StringW>*> arguments, bool requiresHealthWarning, bool loadMenu);
 
 protected:
   // Ctor Parameters []
@@ -105,30 +94,35 @@ public:
   Destination(Destination const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22747 };
 
-  /// @brief Field _stage, offset: 0x10, size: 0x4, def value: None
-  ::BeatSaber::Destinations::DestinationTarget ____stage;
+  /// @brief Field stage, offset: 0x10, size: 0x4, def value: None
+  ::BeatSaber::Destinations::DestinationTarget ___stage;
 
-  /// @brief Field _levelStartParameters, offset: 0x18, size: 0x8, def value: None
-  ::BeatSaber::Destinations::LevelStartDestinationParameters* ____levelStartParameters;
+  /// @brief Field levelStartParameters, offset: 0x18, size: 0x8, def value: None
+  ::BeatSaber::Destinations::LevelStartDestinationParameters* ___levelStartParameters;
 
-  /// @brief Field _arguments, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ____arguments;
+  /// @brief Field arguments, offset: 0x20, size: 0x8, def value: None
+  ::ArrayW<::StringW, ::Array<::StringW>*> ___arguments;
 
-  /// @brief Field _requiresHealthWarning, offset: 0x28, size: 0x1, def value: None
-  bool ____requiresHealthWarning;
+  /// @brief Field requiresHealthWarning, offset: 0x28, size: 0x1, def value: None
+  bool ___requiresHealthWarning;
+
+  /// @brief Field loadMenu, offset: 0x29, size: 0x1, def value: None
+  bool ___loadMenu;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::BeatSaber::Destinations::Destination, ____stage) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Destinations::Destination, ___stage) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Destinations::Destination, ____levelStartParameters) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Destinations::Destination, ___levelStartParameters) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Destinations::Destination, ____arguments) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Destinations::Destination, ___arguments) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Destinations::Destination, ____requiresHealthWarning) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Destinations::Destination, ___requiresHealthWarning) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::BeatSaber::Destinations::Destination, ___loadMenu) == 0x29, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Destinations::Destination, 0x30>, "Size mismatch!");
 

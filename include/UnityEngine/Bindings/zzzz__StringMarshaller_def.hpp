@@ -22,7 +22,7 @@ namespace UnityEngine::Bindings {
 class CORDL_TYPE StringMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryMarshalEmptyOrNullString, addr 0x68cb17c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method TryMarshalEmptyOrNullString, addr 0x6934000, size 0x2c, virtual false, abstract: false, final false
   static inline bool TryMarshalEmptyOrNullString(::StringW s, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> managedSpanWrapper);
 
 protected:
@@ -40,7 +40,7 @@ public:
   StringMarshaller(StringMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10450 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10454 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

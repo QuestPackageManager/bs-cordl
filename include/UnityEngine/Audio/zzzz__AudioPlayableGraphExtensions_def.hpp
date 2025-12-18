@@ -28,10 +28,10 @@ namespace UnityEngine::Audio {
 class CORDL_TYPE AudioPlayableGraphExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InternalCreateAudioOutput, addr 0x682061c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateAudioOutput, addr 0x6888194, size 0x148, virtual false, abstract: false, final false
   static inline bool InternalCreateAudioOutput(::ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ::ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
-  /// @brief Method InternalCreateAudioOutput_Injected, addr 0x6820764, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateAudioOutput_Injected, addr 0x68882dc, size 0x54, virtual false, abstract: false, final false
   static inline bool InternalCreateAudioOutput_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> name,
                                                         ::ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
@@ -50,7 +50,7 @@ public:
   AudioPlayableGraphExtensions(AudioPlayableGraphExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20593 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

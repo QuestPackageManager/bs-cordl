@@ -47,7 +47,7 @@ public:
   static ::BeatSaber::Destinations::DestinationSource const GameInitialization;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22650 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22740 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

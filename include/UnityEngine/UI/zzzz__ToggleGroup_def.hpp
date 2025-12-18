@@ -52,13 +52,13 @@ public:
 
   static inline ::UnityEngine::UI::ToggleGroup___c* New_ctor();
 
-  /// @brief Method <ActiveToggles>b__14_0, addr 0x6bdc5e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <ActiveToggles>b__14_0, addr 0x6c45464, size 0x14, virtual false, abstract: false, final false
   inline bool _ActiveToggles_b__14_0(::UnityEngine::UI::Toggle* x);
 
-  /// @brief Method <AnyTogglesOn>b__13_0, addr 0x6bdc5cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <AnyTogglesOn>b__13_0, addr 0x6c45450, size 0x14, virtual false, abstract: false, final false
   inline bool _AnyTogglesOn_b__13_0(::UnityEngine::UI::Toggle* x);
 
-  /// @brief Method .ctor, addr 0x6bdc5c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4544c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UI::ToggleGroup___c* getStaticF___9();
@@ -88,7 +88,7 @@ public:
   ToggleGroup___c(ToggleGroup___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17470 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -113,39 +113,39 @@ public:
   /// @brief Field m_Toggles, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Toggles, put = __cordl_internal_set_m_Toggles)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Toggle>>* m_Toggles;
 
-  /// @brief Method ActiveToggles, addr 0x6bdc2e0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ActiveToggles, addr 0x6c45164, size 0x104, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UI::Toggle>>* ActiveToggles();
 
-  /// @brief Method AnyTogglesOn, addr 0x6bdbf30, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method AnyTogglesOn, addr 0x6c44db4, size 0x14c, virtual false, abstract: false, final false
   inline bool AnyTogglesOn();
 
-  /// @brief Method EnsureValidState, addr 0x6bdb584, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method EnsureValidState, addr 0x6c44408, size 0x3d8, virtual false, abstract: false, final false
   inline void EnsureValidState();
 
-  /// @brief Method GetFirstActiveToggle, addr 0x6bdc3e4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetFirstActiveToggle, addr 0x6c45268, size 0x90, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Toggle> GetFirstActiveToggle();
 
   static inline ::UnityEngine::UI::ToggleGroup* New_ctor();
 
-  /// @brief Method NotifyToggleOn, addr 0x6bdbddc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method NotifyToggleOn, addr 0x6c44c60, size 0x13c, virtual false, abstract: false, final false
   inline void NotifyToggleOn(::UnityEngine::UI::Toggle* toggle, bool sendCallback);
 
-  /// @brief Method OnEnable, addr 0x6bdc18c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6c45010, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RegisterToggle, addr 0x6bdbcf8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method RegisterToggle, addr 0x6c44b7c, size 0xe4, virtual false, abstract: false, final false
   inline void RegisterToggle(::UnityEngine::UI::Toggle* toggle);
 
-  /// @brief Method SetAllTogglesOff, addr 0x6bdc474, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SetAllTogglesOff, addr 0x6c452f8, size 0x100, virtual false, abstract: false, final false
   inline void SetAllTogglesOff(bool sendCallback);
 
-  /// @brief Method Start, addr 0x6bdc188, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x6c4500c, size 0x4, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UnregisterToggle, addr 0x6bdbc54, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method UnregisterToggle, addr 0x6c44ad8, size 0xa4, virtual false, abstract: false, final false
   inline void UnregisterToggle(::UnityEngine::UI::Toggle* toggle);
 
-  /// @brief Method ValidateToggleIsInGroup, addr 0x6bdc190, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ValidateToggleIsInGroup, addr 0x6c45014, size 0x150, virtual false, abstract: false, final false
   inline void ValidateToggleIsInGroup(::UnityEngine::UI::Toggle* toggle);
 
   constexpr bool const& __cordl_internal_get_m_AllowSwitchOff() const;
@@ -160,13 +160,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Toggles(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
-  /// @brief Method .ctor, addr 0x6bdc110, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c44f94, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowSwitchOff, addr 0x6bdc100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowSwitchOff, addr 0x6c44f84, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowSwitchOff();
 
-  /// @brief Method set_allowSwitchOff, addr 0x6bdc108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_allowSwitchOff, addr 0x6c44f8c, size 0x8, virtual false, abstract: false, final false
   inline void set_allowSwitchOff(bool value);
 
 protected:
@@ -184,7 +184,7 @@ public:
   ToggleGroup(ToggleGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17471 };
 
   /// @brief Field m_AllowSwitchOff, offset: 0x20, size: 0x1, def value: None
   bool ___m_AllowSwitchOff;

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BindablePropertyChangedEventArgs::*)(::ByRef<::UnityEngine::UIElements::BindingId>)>(
     &::UnityEngine::UIElements::BindablePropertyChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a10cec;
+  constexpr static std::size_t addrs = 0x6a79b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::BindingId (::UnityEngine::UIElements::BindablePropertyChangedEventArgs::*)()>(
     &::UnityEngine::UIElements::BindablePropertyChangedEventArgs::get_propertyName)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6a10cf4;
+  constexpr static std::size_t addrs = 0x6a79b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

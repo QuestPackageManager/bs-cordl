@@ -28,13 +28,13 @@ public:
 
   static inline ::OculusStudios::GraphQL::ClientInterface::OfflineException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x5d174a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7df84, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5d174fc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7dfdc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5d17568, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7e048, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:
@@ -52,7 +52,7 @@ public:
   OfflineException(OfflineException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22463 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

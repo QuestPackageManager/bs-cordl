@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* (
     ::Meta::XR::ImmersiveDebugger::InspectedMember::*)()>(&::Meta::XR::ImmersiveDebugger::InspectedMember::get_SupportedGizmos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x582bc6c;
+  constexpr static std::size_t addrs = 0x58923d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::InspectedMember*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::InspectedMember::*)(
     ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>*)>(&::Meta::XR::ImmersiveDebugger::InspectedMember::set_SupportedGizmos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x582bc74;
+  constexpr static std::size_t addrs = 0x58923d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberInfo* (::Meta::XR::ImmersiveDebugger::InspectedMember::*)()>(
     &::Meta::XR::ImmersiveDebugger::InspectedMember::get_MemberInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x582bc7c;
+  constexpr static std::size_t addrs = 0x58923e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::InspectedMember*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::InspectedMember::*)(::System::Reflection::MemberInfo*)>(
     &::Meta::XR::ImmersiveDebugger::InspectedMember::set_MemberInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x582bc84;
+  constexpr static std::size_t addrs = 0x58923e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::InspectedMember::*)(::System::Reflection::MemberInfo*)>(
     &::Meta::XR::ImmersiveDebugger::InspectedMember::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x582bbb0;
+  constexpr static std::size_t addrs = 0x5892314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::InspectedMember::*)()>(
     &::Meta::XR::ImmersiveDebugger::InspectedMember::Initialize)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x582b2d4;
+  constexpr static std::size_t addrs = 0x5891a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::InspectedMember*>::get(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::InspectedMember::*)(
     ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>*)>(&::Meta::XR::ImmersiveDebugger::InspectedMember::PopulateSupportedGizmos)> {
   constexpr static std::size_t size = 0x5ec;
-  constexpr static std::size_t addrs = 0x582bc8c;
+  constexpr static std::size_t addrs = 0x58923f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CubemapParameter::*)(::UnityEngine::Texture*, bool)>(
     &::UnityEngine::Rendering::CubemapParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x65af324;
+  constexpr static std::size_t addrs = 0x6616eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CubemapParameter::*)()>(
     &::UnityEngine::Rendering::CubemapParameter::GetHashCode)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x65af388;
+  constexpr static std::size_t addrs = 0x6616f14;
 
   inline static ::MethodInfo const* methodInfo() {
 

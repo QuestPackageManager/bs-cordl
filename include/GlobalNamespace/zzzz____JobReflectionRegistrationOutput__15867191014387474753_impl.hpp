@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::__JobReflectionRegistrationOutput__15867191014387474753::CreateJobReflectionData)> {
   constexpr static std::size_t size = 0x6cc;
-  constexpr static std::size_t addrs = 0x661a89c;
+  constexpr static std::size_t addrs = 0x6682428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::__JobReflectionRegistrationOutput__15867191014387474753::EarlyInit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x661af68;
+  constexpr static std::size_t addrs = 0x6682af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

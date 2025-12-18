@@ -92,25 +92,25 @@ public:
 
   constexpr void __cordl_internal_set_xmlFormatWriterMethod(::System::Reflection::MethodInfo* value);
 
-  /// @brief Method .ctor, addr 0x5f3e328, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fa5eb4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method get_XmlFormatContentWriterMethod, addr 0x5f3ee90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlFormatContentWriterMethod, addr 0x5fa6a1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_XmlFormatContentWriterMethod();
 
-  /// @brief Method get_XmlFormatReaderMethod, addr 0x5f3eea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlFormatReaderMethod, addr 0x5fa6a2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_XmlFormatReaderMethod();
 
-  /// @brief Method get_XmlFormatWriterMethod, addr 0x5f3ee80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlFormatWriterMethod, addr 0x5fa6a0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_XmlFormatWriterMethod();
 
-  /// @brief Method set_XmlFormatContentWriterMethod, addr 0x5f3ee98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlFormatContentWriterMethod, addr 0x5fa6a24, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlFormatContentWriterMethod(::System::Reflection::MethodInfo* value);
 
-  /// @brief Method set_XmlFormatReaderMethod, addr 0x5f3eea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlFormatReaderMethod, addr 0x5fa6a34, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlFormatReaderMethod(::System::Reflection::MethodInfo* value);
 
-  /// @brief Method set_XmlFormatWriterMethod, addr 0x5f3ee88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlFormatWriterMethod, addr 0x5fa6a14, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlFormatWriterMethod(::System::Reflection::MethodInfo* value);
 
 protected:
@@ -128,7 +128,7 @@ public:
   PrimitiveDataContract_PrimitiveDataContractCriticalHelper(PrimitiveDataContract_PrimitiveDataContractCriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17028 };
 
   /// @brief Field xmlFormatWriterMethod, offset: 0x48, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ___xmlFormatWriterMethod;
@@ -181,24 +181,24 @@ public:
   /// @brief Field helper, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_helper, put = __cordl_internal_set_helper)) ::System::Runtime::Serialization::PrimitiveDataContract_PrimitiveDataContractCriticalHelper* helper;
 
-  /// @brief Method Equals, addr 0x5f3ed6c, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5fa68f8, size 0x114, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other, ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*, ::System::Object*>* checkedContracts);
 
-  /// @brief Method GetPrimitiveDataContract, addr 0x5f3e440, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetPrimitiveDataContract, addr 0x5fa5fcc, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::PrimitiveDataContract* GetPrimitiveDataContract(::StringW name, ::StringW ns);
 
-  /// @brief Method GetPrimitiveDataContract, addr 0x5f3e3b8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetPrimitiveDataContract, addr 0x5fa5f44, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::PrimitiveDataContract* GetPrimitiveDataContract(::System::Type* type);
 
-  /// @brief Method HandleReadValue, addr 0x5f3ebd8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleReadValue, addr 0x5fa6764, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* HandleReadValue(::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
 
   static inline ::System::Runtime::Serialization::PrimitiveDataContract* New_ctor(::System::Type* type, ::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method TryReadNullAtTopLevel, addr 0x5f3ec18, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method TryReadNullAtTopLevel, addr 0x5fa67a4, size 0x154, virtual false, abstract: false, final false
   inline bool TryReadNullAtTopLevel(::System::Runtime::Serialization::XmlReaderDelegator* reader);
 
-  /// @brief Method WriteXmlValue, addr 0x5f3ebbc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlValue, addr 0x5fa6748, size 0x1c, virtual true, abstract: false, final false
   inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
 
   constexpr ::System::Runtime::Serialization::PrimitiveDataContract_PrimitiveDataContractCriticalHelper* const& __cordl_internal_get_helper() const;
@@ -207,34 +207,34 @@ public:
 
   constexpr void __cordl_internal_set_helper(::System::Runtime::Serialization::PrimitiveDataContract_PrimitiveDataContractCriticalHelper* value);
 
-  /// @brief Method .ctor, addr 0x5f3e260, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fa5dec, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method get_CanContainReferences, addr 0x5f3e534, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanContainReferences, addr 0x5fa60c0, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanContainReferences();
 
-  /// @brief Method get_IsBuiltInDataContract, addr 0x5f3e544, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsBuiltInDataContract, addr 0x5fa60d0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsBuiltInDataContract();
 
-  /// @brief Method get_IsPrimitive, addr 0x5f3e53c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPrimitive, addr 0x5fa60c8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPrimitive();
 
   /// @brief Method get_ReadMethodName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_ReadMethodName();
 
-  /// @brief Method get_TopLevelElementNamespace, addr 0x5f3e4d8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_TopLevelElementNamespace, addr 0x5fa6064, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_TopLevelElementNamespace();
 
   /// @brief Method get_WriteMethodName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_WriteMethodName();
 
-  /// @brief Method get_XmlFormatContentWriterMethod, addr 0x5f3e8a4, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method get_XmlFormatContentWriterMethod, addr 0x5fa6430, size 0x25c, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_XmlFormatContentWriterMethod();
 
-  /// @brief Method get_XmlFormatReaderMethod, addr 0x5f3eb00, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_XmlFormatReaderMethod, addr 0x5fa668c, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_XmlFormatReaderMethod();
 
-  /// @brief Method get_XmlFormatWriterMethod, addr 0x5f3e54c, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method get_XmlFormatWriterMethod, addr 0x5fa60d8, size 0x358, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_XmlFormatWriterMethod();
 
 protected:
@@ -252,7 +252,7 @@ public:
   PrimitiveDataContract(PrimitiveDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17029 };
 
   /// @brief Field helper, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::Serialization::PrimitiveDataContract_PrimitiveDataContractCriticalHelper* ___helper;

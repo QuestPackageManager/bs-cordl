@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalytic::*)()>(
     &::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6bf0904;
+  constexpr static std::size_t addrs = 0x6c59788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalytic* (*)()>(
     &::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalytic::CreateMetalPatchShaderComputeBufferAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6bf097c;
+  constexpr static std::size_t addrs = 0x6c59800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

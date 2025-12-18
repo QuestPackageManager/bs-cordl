@@ -79,10 +79,10 @@ public:
   /// @brief Convert operator to "::OculusStudios::GraphQL::Client::IFragment"
   constexpr operator ::OculusStudios::GraphQL::Client::IFragment*() noexcept;
 
-  /// @brief Method CovertNestedFragments, addr 0x319b940, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method CovertNestedFragments, addr 0x31cb7bc, size 0xd0, virtual true, abstract: false, final true
   inline void CovertNestedFragments(::Newtonsoft::Json::Linq::JToken* token);
 
-  /// @brief Method GetNestedFragment, addr 0x319ba10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetNestedFragment, addr 0x31cb88c, size 0x8, virtual true, abstract: false, final true
   inline ::OculusStudios::GraphQL::Client::GraphQLModel* GetNestedFragment();
 
   static inline ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_NodesModel*
@@ -94,16 +94,16 @@ public:
 
   constexpr void __cordl_internal_set__LeaderboardEntryWithRank_k__BackingField(::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel* value);
 
-  /// @brief Method .ctor, addr 0x319ba18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cb894, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LeaderboardEntryWithRank, addr 0x319b938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LeaderboardEntryWithRank, addr 0x31cb7b4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel* get_LeaderboardEntryWithRank();
 
   /// @brief Convert to "::OculusStudios::GraphQL::Client::IFragment"
   constexpr ::OculusStudios::GraphQL::Client::IFragment* i___OculusStudios__GraphQL__Client__IFragment() noexcept;
 
-  /// @brief Method set_LeaderboardEntryWithRank, addr 0x319b930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LeaderboardEntryWithRank, addr 0x31cb7ac, size 0x8, virtual false, abstract: false, final false
   inline void set_LeaderboardEntryWithRank(::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel* value);
 
 protected:
@@ -125,7 +125,7 @@ public:
       LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_NodesModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20911 };
 
   /// @brief Field <LeaderboardEntryWithRank>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel* ____LeaderboardEntryWithRank_k__BackingField;
@@ -178,15 +178,15 @@ public:
           ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_NodesModel*>*
           value);
 
-  /// @brief Method .ctor, addr 0x319b92c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cb7a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Nodes, addr 0x319b924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Nodes, addr 0x31cb7a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<
       ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_NodesModel*>*
   get_Nodes();
 
-  /// @brief Method set_Nodes, addr 0x319b91c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Nodes, addr 0x31cb798, size 0x8, virtual false, abstract: false, final false
   inline void
   set_Nodes(::System::Collections::Generic::List_1<
             ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_NodesModel*>*
@@ -211,7 +211,7 @@ public:
       BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_LeaderboardEntriesAroundPlayerPageModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20887 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20912 };
 
   /// @brief Field <Nodes>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<
@@ -259,14 +259,14 @@ public:
   constexpr void __cordl_internal_set__LeaderboardEntriesAroundPlayerPage_k__BackingField(
       ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_LeaderboardEntriesAroundPlayerPageModel* value);
 
-  /// @brief Method .ctor, addr 0x319b918, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cb794, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LeaderboardEntriesAroundPlayerPage, addr 0x319b910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LeaderboardEntriesAroundPlayerPage, addr 0x31cb78c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_LeaderboardEntriesAroundPlayerPageModel*
   get_LeaderboardEntriesAroundPlayerPage();
 
-  /// @brief Method set_LeaderboardEntriesAroundPlayerPage, addr 0x319b908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LeaderboardEntriesAroundPlayerPage, addr 0x31cb784, size 0x8, virtual false, abstract: false, final false
   inline void set_LeaderboardEntriesAroundPlayerPage(
       ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_LeaderboardEntriesAroundPlayerPageModel* value);
 
@@ -287,7 +287,7 @@ public:
       ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_BeatmapModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20888 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20913 };
 
   /// @brief Field <LeaderboardEntriesAroundPlayerPage>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Main::GraphQL::Models::BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_LeaderboardEntriesAroundPlayerPageModel*
@@ -332,13 +332,13 @@ public:
   constexpr void
   __cordl_internal_set__Beatmap_k__BackingField(::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_BeatmapModel* value);
 
-  /// @brief Method .ctor, addr 0x319b904, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cb780, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Beatmap, addr 0x319b8fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Beatmap, addr 0x31cb778, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_BeatmapModel* get_Beatmap();
 
-  /// @brief Method set_Beatmap, addr 0x319b8f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Beatmap, addr 0x31cb770, size 0x8, virtual false, abstract: false, final false
   inline void set_Beatmap(::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_BeatmapModel* value);
 
 protected:
@@ -356,7 +356,7 @@ public:
   XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_ActiveDataEnvironmentModel(XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_ActiveDataEnvironmentModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20914 };
 
   /// @brief Field <Beatmap>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Main::GraphQL::Models::ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_BeatmapModel* ____Beatmap_k__BackingField;
@@ -398,13 +398,13 @@ public:
   constexpr void
   __cordl_internal_set__ActiveDataEnvironment_k__BackingField(::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_ActiveDataEnvironmentModel* value);
 
-  /// @brief Method .ctor, addr 0x319b8f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cb76c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ActiveDataEnvironment, addr 0x319b8e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ActiveDataEnvironment, addr 0x31cb764, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_ActiveDataEnvironmentModel* get_ActiveDataEnvironment();
 
-  /// @brief Method set_ActiveDataEnvironment, addr 0x319b8e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ActiveDataEnvironment, addr 0x31cb75c, size 0x8, virtual false, abstract: false, final false
   inline void set_ActiveDataEnvironment(::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_ActiveDataEnvironmentModel* value);
 
 protected:
@@ -422,7 +422,7 @@ public:
   BSLeaderboardAroundMeModel_XocBeatGamesCurrentUserModel(BSLeaderboardAroundMeModel_XocBeatGamesCurrentUserModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20915 };
 
   /// @brief Field <ActiveDataEnvironment>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Main::GraphQL::Models::XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_ActiveDataEnvironmentModel* ____ActiveDataEnvironment_k__BackingField;
@@ -460,13 +460,13 @@ public:
 
   constexpr void __cordl_internal_set__XocBeatGamesCurrentUser_k__BackingField(::BeatSaber::Main::GraphQL::Models::BSLeaderboardAroundMeModel_XocBeatGamesCurrentUserModel* value);
 
-  /// @brief Method .ctor, addr 0x319b8dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cb758, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_XocBeatGamesCurrentUser, addr 0x319b8d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XocBeatGamesCurrentUser, addr 0x31cb750, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::BSLeaderboardAroundMeModel_XocBeatGamesCurrentUserModel* get_XocBeatGamesCurrentUser();
 
-  /// @brief Method set_XocBeatGamesCurrentUser, addr 0x319b8cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XocBeatGamesCurrentUser, addr 0x31cb748, size 0x8, virtual false, abstract: false, final false
   inline void set_XocBeatGamesCurrentUser(::BeatSaber::Main::GraphQL::Models::BSLeaderboardAroundMeModel_XocBeatGamesCurrentUserModel* value);
 
 protected:
@@ -484,7 +484,7 @@ public:
   BSLeaderboardAroundMeModel(BSLeaderboardAroundMeModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20916 };
 
   /// @brief Field <XocBeatGamesCurrentUser>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Main::GraphQL::Models::BSLeaderboardAroundMeModel_XocBeatGamesCurrentUserModel* ____XocBeatGamesCurrentUser_k__BackingField;

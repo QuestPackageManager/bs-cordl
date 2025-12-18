@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextureProcessor3DBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::GlobalNamespace::TextureProcessor3DBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0x404;
-  constexpr static std::size_t addrs = 0x5716d3c;
+  constexpr static std::size_t addrs = 0x5774b4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextureProcessor3DBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::TextureProcessor3DBehaviour::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0x7a8;
-  constexpr static std::size_t addrs = 0x5717140;
+  constexpr static std::size_t addrs = 0x5774f50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextureProcessor3DBehaviour::*)()>(&::GlobalNamespace::TextureProcessor3DBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57178e8;
+  constexpr static std::size_t addrs = 0x57756f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextureProcessor3DBehaviour*>::get(), ".ctor",

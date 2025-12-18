@@ -37,7 +37,7 @@ public:
   /// @brief Field _paramMap, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__paramMap, put = __cordl_internal_set__paramMap)) ::ArrayW<int32_t, ::Array<int32_t>*> _paramMap;
 
-  /// @brief Method GetInOutArgs, addr 0x5929388, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetInOutArgs, addr 0x598fcd4, size 0xfc, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetInOutArgs(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::System::Runtime::Remoting::Messaging::ArgInfo* New_ctor(::System::Reflection::MethodBase* method, ::System::Runtime::Remoting::Messaging::ArgInfoType type);
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__paramMap(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x59291c4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598fb10, size 0x1c4, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodBase* method, ::System::Runtime::Remoting::Messaging::ArgInfoType type);
 
 protected:

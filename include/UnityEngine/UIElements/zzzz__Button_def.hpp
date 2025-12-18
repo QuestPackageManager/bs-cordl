@@ -75,7 +75,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Button_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b04880, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b6d704, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -111,7 +111,7 @@ public:
   /// @brief Field m_IconImage, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_IconImage, put = __cordl_internal_set_m_IconImage)) ::UnityEngine::UIElements::UxmlImageAttributeDescription* m_IconImage;
 
-  /// @brief Method Init, addr 0x6b0499c, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b6d820, size 0x120, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::Button_UxmlTraits* New_ctor();
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_m_IconImage(::UnityEngine::UIElements::UxmlImageAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6b048e8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b6d76c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -203,7 +203,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method DoMeasure, addr 0x6b045e0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method DoMeasure, addr 0x6b6d464, size 0xbc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode);
 
@@ -213,13 +213,13 @@ public:
 
   static inline ::UnityEngine::UIElements::Button* New_ctor(::UnityEngine::UIElements::Background iconImage, ::System::Action* clickEvent);
 
-  /// @brief Method OnNavigationSubmit, addr 0x6b045a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationSubmit, addr 0x6b6d428, size 0x3c, virtual false, abstract: false, final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
-  /// @brief Method ResetButtonHierarchy, addr 0x6b03f1c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ResetButtonHierarchy, addr 0x6b6cda0, size 0xf0, virtual false, abstract: false, final false
   inline void ResetButtonHierarchy();
 
-  /// @brief Method UpdateButtonHierarchy, addr 0x6b0400c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method UpdateButtonHierarchy, addr 0x6b6ce90, size 0x208, virtual false, abstract: false, final false
   inline void UpdateButtonHierarchy();
 
   constexpr ::UnityEngine::UIElements::Clickable* const& __cordl_internal_get_m_Clickable() const;
@@ -252,13 +252,13 @@ public:
 
   constexpr void __cordl_internal_set_m_TextElement(::UnityEngine::UIElements::TextElement* value);
 
-  /// @brief Method .ctor, addr 0x6b04398, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b6d21c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6b0440c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b6d290, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* clickEvent);
 
-  /// @brief Method .ctor, addr 0x6b043cc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b6d250, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Background iconImage, ::System::Action* clickEvent);
 
   static inline ::StringW getStaticF_NonEmptyString();
@@ -273,13 +273,13 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_clickable, addr 0x6b03c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickable, addr 0x6b6cae0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Clickable* get_clickable();
 
-  /// @brief Method get_iconImage, addr 0x6b03cc4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_iconImage, addr 0x6b6cb48, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Background get_iconImage();
 
-  /// @brief Method get_text, addr 0x6b04214, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_text, addr 0x6b6d098, size 0x20, virtual true, abstract: false, final false
   inline ::StringW get_text();
 
   static inline void setStaticF_NonEmptyString(::StringW value);
@@ -294,13 +294,13 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_clickable, addr 0x6b03c64, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_clickable, addr 0x6b6cae8, size 0x60, virtual false, abstract: false, final false
   inline void set_clickable(::UnityEngine::UIElements::Clickable* value);
 
-  /// @brief Method set_iconImage, addr 0x6b03cd4, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method set_iconImage, addr 0x6b6cb58, size 0x248, virtual false, abstract: false, final false
   inline void set_iconImage(::UnityEngine::UIElements::Background value);
 
-  /// @brief Method set_text, addr 0x6b04234, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method set_text, addr 0x6b6d0b8, size 0x164, virtual true, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

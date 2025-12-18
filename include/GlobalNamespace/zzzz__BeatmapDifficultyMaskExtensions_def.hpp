@@ -29,31 +29,31 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDifficultyMaskExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Contains, addr 0x3162988, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x3192680, size 0x18, virtual false, abstract: false, final false
   static inline bool Contains(::GlobalNamespace::BeatmapDifficultyMask mask, ::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method Contains, addr 0x31629a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x3192698, size 0x10, virtual false, abstract: false, final false
   static inline bool Contains(::GlobalNamespace::BeatmapDifficultyMask mask, ::GlobalNamespace::BeatmapDifficultyMask other);
 
-  /// @brief Method DifferenceFrom, addr 0x31629b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DifferenceFrom, addr 0x31926a8, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t DifferenceFrom(::GlobalNamespace::BeatmapDifficultyMask mask, ::GlobalNamespace::BeatmapDifficultyMask other);
 
-  /// @brief Method FromMask, addr 0x3162728, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FromMask, addr 0x3192420, size 0x48, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapDifficulty FromMask(::GlobalNamespace::BeatmapDifficultyMask mask);
 
-  /// @brief Method FromMaskMaybe, addr 0x316267c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method FromMaskMaybe, addr 0x3192374, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty> FromMaskMaybe(::GlobalNamespace::BeatmapDifficultyMask mask);
 
-  /// @brief Method LocalizedKey, addr 0x3162770, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x3192468, size 0x10c, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::BeatmapDifficultyMask mask);
 
-  /// @brief Method ShortLocalizedKey, addr 0x316287c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ShortLocalizedKey, addr 0x3192574, size 0x10c, virtual false, abstract: false, final false
   static inline ::StringW ShortLocalizedKey(::GlobalNamespace::BeatmapDifficultyMask mask);
 
-  /// @brief Method ToHexString, addr 0x31629e0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ToHexString, addr 0x31926d8, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW ToHexString(::GlobalNamespace::BeatmapDifficultyMask mask);
 
-  /// @brief Method ToMask, addr 0x3162670, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToMask, addr 0x3192368, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapDifficultyMask ToMask(::GlobalNamespace::BeatmapDifficulty difficulty);
 
 protected:
@@ -71,7 +71,7 @@ public:
   BeatmapDifficultyMaskExtensions(BeatmapDifficultyMaskExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20960 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21039 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

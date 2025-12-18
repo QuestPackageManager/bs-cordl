@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatSaberXRFeature_SessionState (::GlobalNamespace::BeatSaberXRFeature::*)()>(
     &::GlobalNamespace::BeatSaberXRFeature::get_currentSessionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x563fd50;
+  constexpr static std::size_t addrs = 0x56a4b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatSaberXRFeature*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatSaberXRFeature::*)(::GlobalNamespace::BeatSaberXRFeature_SessionState)>(
     &::GlobalNamespace::BeatSaberXRFeature::set_currentSessionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x563fd58;
+  constexpr static std::size_t addrs = 0x56a4b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BeatSaberXRFeature::*)(::System::Action_2<::GlobalNamespace::BeatSaberXRFeature_SessionState, ::GlobalNamespace::BeatSaberXRFeature_SessionState>*)>(
         &::GlobalNamespace::BeatSaberXRFeature::add_sessionStateChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x563fd60;
+  constexpr static std::size_t addrs = 0x56a4b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BeatSaberXRFeature::*)(::System::Action_2<::GlobalNamespace::BeatSaberXRFeature_SessionState, ::GlobalNamespace::BeatSaberXRFeature_SessionState>*)>(
         &::GlobalNamespace::BeatSaberXRFeature::remove_sessionStateChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x563fe20;
+  constexpr static std::size_t addrs = 0x56a4c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatSaberXRFeature::*)(int32_t, int32_t)>(
     &::GlobalNamespace::BeatSaberXRFeature::OnSessionStateChange)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x563fee0;
+  constexpr static std::size_t addrs = 0x56a4cf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatSaberXRFeature::*)()>(&::GlobalNamespace::BeatSaberXRFeature::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x563ff00;
+  constexpr static std::size_t addrs = 0x56a4d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatSaberXRFeature*>::get(), ".ctor",

@@ -2,7 +2,6 @@
 // IWYU pragma private; include "GlobalNamespace/IConnectedPlayer.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IConnectedPlayer.get_isMe
 template <>
 
@@ -158,11 +157,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::IConnectedPlayer.get_multiplayerAvatarsData
+//  Writing Method size for method: ::GlobalNamespace::IConnectedPlayer.get_compatibilityVersion
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerAvatarsData (::GlobalNamespace::IConnectedPlayer::*)()>(
-    &::GlobalNamespace::IConnectedPlayer::get_multiplayerAvatarsData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::IConnectedPlayer::*)()>(
+    &::GlobalNamespace::IConnectedPlayer::get_compatibilityVersion)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
@@ -242,10 +241,10 @@ inline bool GlobalNamespace::IConnectedPlayer::get_isKicked() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IConnectedPlayer*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultiplayerAvatarsData GlobalNamespace::IConnectedPlayer::get_multiplayerAvatarsData() {
+inline ::StringW GlobalNamespace::IConnectedPlayer::get_compatibilityVersion() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IConnectedPlayer*>::get(), 11)));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MultiplayerAvatarsData, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::IConnectedPlayer::HasState(::StringW state) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

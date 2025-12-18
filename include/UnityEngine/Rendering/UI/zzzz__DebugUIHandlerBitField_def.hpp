@@ -59,33 +59,33 @@ public:
   /// @brief Field valueToggle, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_valueToggle, put = __cordl_internal_set_valueToggle)) ::UnityW<::UnityEngine::Rendering::UI::UIFoldout> valueToggle;
 
-  /// @brief Method GetValue, addr 0x65df9f0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x664757c, size 0xc4, virtual false, abstract: false, final false
   inline bool GetValue(int32_t index);
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerBitField* New_ctor();
 
-  /// @brief Method Next, addr 0x65e0114, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Next, addr 0x6647ca0, size 0xcc, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> Next();
 
-  /// @brief Method OnAction, addr 0x65e00f0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnAction, addr 0x6647c7c, size 0x24, virtual true, abstract: false, final false
   inline void OnAction();
 
-  /// @brief Method OnDecrement, addr 0x65e00d4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnDecrement, addr 0x6647c60, size 0x1c, virtual true, abstract: false, final false
   inline void OnDecrement(bool fast);
 
-  /// @brief Method OnDeselection, addr 0x65e008c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnDeselection, addr 0x6647c18, size 0x2c, virtual true, abstract: false, final false
   inline void OnDeselection();
 
-  /// @brief Method OnIncrement, addr 0x65e00b8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnIncrement, addr 0x6647c44, size 0x1c, virtual true, abstract: false, final false
   inline void OnIncrement(bool fast);
 
-  /// @brief Method OnSelection, addr 0x65dfdfc, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x6647988, size 0xec, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetValue, addr 0x65dfab4, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6647640, size 0x29c, virtual false, abstract: false, final false
   inline void SetValue(int32_t index, bool value);
 
-  /// @brief Method SetWidget, addr 0x65df530, size 0x3d0, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x66470bc, size 0x3d0, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
   constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer> const& __cordl_internal_get_m_Container() const;
@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set_valueToggle(::UnityW<::UnityEngine::Rendering::UI::UIFoldout> value);
 
-  /// @brief Method .ctor, addr 0x65e0384, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6647f10, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -136,7 +136,7 @@ public:
   DebugUIHandlerBitField(DebugUIHandlerBitField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12478 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12482 };
 
   /// @brief Field nameLabel, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___nameLabel;

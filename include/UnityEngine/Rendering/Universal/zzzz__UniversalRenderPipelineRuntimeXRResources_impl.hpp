@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66977a8;
+  constexpr static std::size_t addrs = 0x66ff334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66977b0;
+  constexpr static std::size_t addrs = 0x66ff33c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (
     ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::get_xrOcclusionMeshPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66977b8;
+  constexpr static std::size_t addrs = 0x66ff344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::set_xrOcclusionMeshPS)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x66977c0;
+  constexpr static std::size_t addrs = 0x66ff34c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (
     ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::get_xrMirrorViewPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6697830;
+  constexpr static std::size_t addrs = 0x66ff3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::set_xrMirrorViewPS)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6697838;
+  constexpr static std::size_t addrs = 0x66ff3c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (
     ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::get_xrMotionVector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66978a8;
+  constexpr static std::size_t addrs = 0x66ff434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::set_xrMotionVector)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x66978b0;
+  constexpr static std::size_t addrs = 0x66ff43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::get_valid)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6697920;
+  constexpr static std::size_t addrs = 0x66ff4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66979e8;
+  constexpr static std::size_t addrs = 0x66ff574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

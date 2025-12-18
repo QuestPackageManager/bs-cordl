@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NotEqualInstruction_NotEqualInt32* New_ctor();
 
-  /// @brief Method Run, addr 0x5d9bc04, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5e03790, size 0xac, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5d9b930, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e034bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   NotEqualInstruction_NotEqualInt32(NotEqualInstruction_NotEqualInt32 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16489 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

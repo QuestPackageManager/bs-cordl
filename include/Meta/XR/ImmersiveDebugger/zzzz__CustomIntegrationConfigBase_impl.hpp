@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase::*)()>(
     &::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x584324c;
+  constexpr static std::size_t addrs = 0x58a99b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase::*)()>(
     &::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5843250;
+  constexpr static std::size_t addrs = 0x58a99b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase::*)()>(
     &::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase::GetCamera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5843254;
+  constexpr static std::size_t addrs = 0x58a99b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase::*)()>(
     &::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x584325c;
+  constexpr static std::size_t addrs = 0x58a99c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

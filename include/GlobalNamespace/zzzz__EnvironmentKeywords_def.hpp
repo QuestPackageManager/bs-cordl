@@ -35,7 +35,7 @@ public:
 
   __declspec(property(get = get_environmentKeywords)) ::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords;
 
-  /// @brief Method HasKeyword, addr 0x35e0e10, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method HasKeyword, addr 0x360bc74, size 0x64, virtual false, abstract: false, final false
   inline bool HasKeyword(::StringW keyword);
 
   static inline ::GlobalNamespace::EnvironmentKeywords* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords);
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set__environmentKeywordsSet(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x35e0ce0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360bb44, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords);
 
-  /// @brief Method get_environmentKeywords, addr 0x35e0cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentKeywords, addr 0x360bb3c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
 
 protected:
@@ -73,7 +73,7 @@ public:
   EnvironmentKeywords(EnvironmentKeywords const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14811 };
 
   /// @brief Field _environmentKeywords, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::StringW>* ____environmentKeywords;

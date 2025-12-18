@@ -41,13 +41,13 @@ public:
 
   constexpr void __cordl_internal_set__sqrtRadius(float_t value);
 
-  /// @brief Method .ctor, addr 0x565e780, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56bf428, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sqrtRadius, addr 0x565e770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sqrtRadius, addr 0x56bf418, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sqrtRadius();
 
-  /// @brief Method set_sqrtRadius, addr 0x565e778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sqrtRadius, addr 0x56bf420, size 0x8, virtual false, abstract: false, final false
   inline void set_sqrtRadius(float_t value);
 
 protected:
@@ -65,7 +65,7 @@ public:
   SDFPoint(SDFPoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19750 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19776 };
 
   /// @brief Field _radius, offset: 0x20, size: 0x4, def value: None
   float_t ____radius;

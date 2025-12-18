@@ -46,13 +46,13 @@ public:
   /// @brief Field _textFadeTransitions, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__textFadeTransitions, put = __cordl_internal_set__textFadeTransitions)) ::UnityW<::GlobalNamespace::TextFadeTransitions> _textFadeTransitions;
 
-  /// @brief Method Deinit, addr 0x57dab30, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Deinit, addr 0x5841414, size 0x8c, virtual false, abstract: false, final false
   inline void Deinit();
 
-  /// @brief Method HandleGameEvent, addr 0x57dabc0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleGameEvent, addr 0x58414a4, size 0x38, virtual false, abstract: false, final false
   inline void HandleGameEvent();
 
-  /// @brief Method Init, addr 0x57daa38, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x584131c, size 0xa8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::TextFadeTransitions* textFadeTransitions);
 
   static inline ::GlobalNamespace::ShowTextOnGameEventController_EventTextBinding* New_ctor();
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__textFadeTransitions(::UnityW<::GlobalNamespace::TextFadeTransitions> value);
 
-  /// @brief Method .ctor, addr 0x57dac78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x584155c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -145,12 +145,12 @@ public:
   /// @brief Field _textFadeTransitions, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__textFadeTransitions, put = __cordl_internal_set__textFadeTransitions)) ::UnityW<::GlobalNamespace::TextFadeTransitions> _textFadeTransitions;
 
-  /// @brief Method Awake, addr 0x57da9d8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58412bc, size 0x60, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ShowTextOnGameEventController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57daae0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58413c4, size 0x50, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::ArrayW<::GlobalNamespace::ShowTextOnGameEventController_EventTextBinding*, ::Array<::GlobalNamespace::ShowTextOnGameEventController_EventTextBinding*>*> const&
@@ -168,7 +168,7 @@ public:
 
   constexpr void __cordl_internal_set__textFadeTransitions(::UnityW<::GlobalNamespace::TextFadeTransitions> value);
 
-  /// @brief Method .ctor, addr 0x57dabbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58414a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

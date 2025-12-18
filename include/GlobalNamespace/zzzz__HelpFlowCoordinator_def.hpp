@@ -49,28 +49,28 @@ namespace GlobalNamespace {
 class CORDL_TYPE HelpFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
   // Declarations
-  /// @brief Field _environmentsListModel, offset 0xc0, size 0x8
+  /// @brief Field _environmentsListModel, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentsListModel, put = __cordl_internal_set__environmentsListModel)) ::GlobalNamespace::EnvironmentsListModel* _environmentsListModel;
 
   /// @brief Field _helpMenuViewController, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__helpMenuViewController, put = __cordl_internal_set__helpMenuViewController)) ::UnityW<::GlobalNamespace::HelpMenuViewController>
       _helpMenuViewController;
 
-  /// @brief Field _helpNavigationController, offset 0xd0, size 0x8
+  /// @brief Field _helpNavigationController, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__helpNavigationController, put = __cordl_internal_set__helpNavigationController)) ::UnityW<::GlobalNamespace::HelpNavigationController>
       _helpNavigationController;
 
-  /// @brief Field _howToPlayViewController, offset 0xc8, size 0x8
+  /// @brief Field _howToPlayViewController, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__howToPlayViewController, put = __cordl_internal_set__howToPlayViewController)) ::UnityW<::GlobalNamespace::HowToPlayViewController>
       _howToPlayViewController;
 
   /// @brief Field _menuTransitionsHelper, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper)) ::UnityW<::GlobalNamespace::MenuTransitionsHelper> _menuTransitionsHelper;
 
-  /// @brief Field _playerDataModel, offset 0xe0, size 0x8
+  /// @brief Field _playerDataModel, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  /// @brief Field _playerStatisticsViewController, offset 0xd8, size 0x8
+  /// @brief Field _playerStatisticsViewController, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get__playerStatisticsViewController,
                       put = __cordl_internal_set__playerStatisticsViewController)) ::UnityW<::GlobalNamespace::PlayerStatisticsViewController>
       _playerStatisticsViewController;
@@ -78,24 +78,24 @@ public:
   /// @brief Field didFinishEvent, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* didFinishEvent;
 
-  /// @brief Method BackButtonWasPressed, addr 0x57ff358, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BackButtonWasPressed, addr 0x5862e70, size 0x20, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-  /// @brief Method DidActivate, addr 0x57fef30, size 0x204, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x58628d0, size 0x200, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x57ff134, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5862b90, size 0x110, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleDidSelectHelpSubMenu, addr 0x57ff248, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectHelpSubMenu, addr 0x5862d60, size 0x4, virtual false, abstract: false, final false
   inline void HandleDidSelectHelpSubMenu(::HMUI::ViewController* viewController);
 
-  /// @brief Method HandleHowToPlayViewControllerDidFinish, addr 0x57ff378, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HandleHowToPlayViewControllerDidFinish, addr 0x5862e90, size 0x68, virtual false, abstract: false, final false
   inline void HandleHowToPlayViewControllerDidFinish(::GlobalNamespace::HowToPlayViewController_HowToPlayOptions howToPlayOptions);
 
   static inline ::GlobalNamespace::HelpFlowCoordinator* New_ctor();
 
-  /// @brief Method ReplaceViewController, addr 0x57ff24c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ReplaceViewController, addr 0x5862d64, size 0x10c, virtual false, abstract: false, final false
   inline void ReplaceViewController(::HMUI::ViewController* viewController);
 
   constexpr ::GlobalNamespace::EnvironmentsListModel* const& __cordl_internal_get__environmentsListModel() const;
@@ -146,13 +146,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* value);
 
-  /// @brief Method .ctor, addr 0x57ff3e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5862ef8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x57fedb0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5862750, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x57fee70, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5862810, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* value);
 
 protected:
@@ -170,7 +170,7 @@ public:
   HelpFlowCoordinator(HelpFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6380 };
 
   /// @brief Field kEulaMenu offset 0xffffffff size 0x8
   static constexpr ::ConstString kEulaMenu{ u"EULA_MENU" };
@@ -193,20 +193,20 @@ public:
   /// @brief Field _menuTransitionsHelper, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuTransitionsHelper> ____menuTransitionsHelper;
 
-  /// @brief Field _environmentsListModel, offset: 0xc0, size: 0x8, def value: None
-  ::GlobalNamespace::EnvironmentsListModel* ____environmentsListModel;
-
-  /// @brief Field _howToPlayViewController, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _howToPlayViewController, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HowToPlayViewController> ____howToPlayViewController;
 
-  /// @brief Field _helpNavigationController, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field _helpNavigationController, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HelpNavigationController> ____helpNavigationController;
 
-  /// @brief Field _playerStatisticsViewController, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field _playerStatisticsViewController, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerStatisticsViewController> ____playerStatisticsViewController;
 
-  /// @brief Field _playerDataModel, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field _playerDataModel, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
+
+  /// @brief Field _environmentsListModel, offset: 0xe0, size: 0x8, def value: None
+  ::GlobalNamespace::EnvironmentsListModel* ____environmentsListModel;
 
   /// @brief Field didFinishEvent, offset: 0xe8, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* ___didFinishEvent;
@@ -218,15 +218,15 @@ static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____helpMenuViewC
 
 static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____menuTransitionsHelper) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____environmentsListModel) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____howToPlayViewController) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____howToPlayViewController) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____helpNavigationController) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____helpNavigationController) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____playerStatisticsViewController) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____playerStatisticsViewController) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____playerDataModel) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____playerDataModel) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ____environmentsListModel) == 0xe0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HelpFlowCoordinator, ___didFinishEvent) == 0xe8, "Offset mismatch!");
 

@@ -21,7 +21,7 @@ namespace UnityEngine {
 class CORDL_TYPE HashUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendHash, addr 0x6894754, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AppendHash, addr 0x68fd5d8, size 0xc, virtual false, abstract: false, final false
   static inline void AppendHash(::ByRef<::UnityEngine::Hash128> inHash, ::ByRef<::UnityEngine::Hash128> outHash);
 
 protected:
@@ -39,7 +39,7 @@ public:
   HashUtilities(HashUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10210 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10214 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

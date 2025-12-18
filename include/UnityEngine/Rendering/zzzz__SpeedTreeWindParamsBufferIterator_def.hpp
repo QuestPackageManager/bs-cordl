@@ -36,7 +36,7 @@ public:
   constexpr SpeedTreeWindParamsBufferIterator__uintParamOffsets_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22430 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -76,7 +76,7 @@ public:
                                               int32_t uintStride, int32_t elementOffset, int32_t elementsCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22431 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };

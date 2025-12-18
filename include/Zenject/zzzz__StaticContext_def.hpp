@@ -24,15 +24,15 @@ public:
   /// @brief Field _container, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__container, put = setStaticF__container)) ::Zenject::DiContainer* _container;
 
-  /// @brief Method Clear, addr 0x6c40134, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6ca8fb8, size 0x4c, virtual false, abstract: false, final false
   static inline void Clear();
 
   static inline ::Zenject::DiContainer* getStaticF__container();
 
-  /// @brief Method get_Container, addr 0x6c3bd28, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x6ca4bac, size 0x90, virtual false, abstract: false, final false
   static inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_HasContainer, addr 0x6c40180, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_HasContainer, addr 0x6ca9004, size 0x54, virtual false, abstract: false, final false
   static inline bool get_HasContainer();
 
   static inline void setStaticF__container(::Zenject::DiContainer* value);
@@ -52,7 +52,7 @@ public:
   StaticContext(StaticContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14455 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

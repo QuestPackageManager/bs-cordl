@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerResultsPyramidView)
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
 class MultiplayerOffsetPositionByLocalPlayerPosition;
@@ -89,10 +89,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerResultsPyramidView* New_ctor();
 
-  /// @brief Method PrespawnAvatars, addr 0x57d0154, size 0x3f4, virtual false, abstract: false, final false
-  inline void PrespawnAvatars(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* activePlayers);
+  /// @brief Method PrespawnAvatars, addr 0x5836a38, size 0x3f4, virtual false, abstract: false, final false
+  inline void PrespawnAvatars(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* activePlayers);
 
-  /// @brief Method SetupResults, addr 0x57cfb40, size 0x5f4, virtual false, abstract: false, final false
+  /// @brief Method SetupResults, addr 0x5836424, size 0x5f4, virtual false, abstract: false, final false
   inline void SetupResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, ::UnityEngine::Transform* badgeStartTransform,
                            ::UnityEngine::Transform* badgeMidTransform);
 
@@ -150,13 +150,13 @@ public:
 
   constexpr void __cordl_internal_set__spawnPointsParent(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x57d2718, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5838ffc, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_badgeTimelines, addr 0x57d1cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_badgeTimelines, addr 0x58385bc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> get_badgeTimelines();
 
-  /// @brief Method get_resultAvatarDirectors, addr 0x57d1cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resultAvatarDirectors, addr 0x58385b4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> get_resultAvatarDirectors();
 
 protected:

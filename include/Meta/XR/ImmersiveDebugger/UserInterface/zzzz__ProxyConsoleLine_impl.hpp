@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* (
     ::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine::get_Entry)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58375b0;
+  constexpr static std::size_t addrs = 0x589dd14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine::set_Entry)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58375b8;
+  constexpr static std::size_t addrs = 0x589dd1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine::Fill)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x58375c0;
+  constexpr static std::size_t addrs = 0x589dd24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5837610;
+  constexpr static std::size_t addrs = 0x589dd74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

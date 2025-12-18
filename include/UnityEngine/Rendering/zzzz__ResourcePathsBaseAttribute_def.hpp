@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::ResourcePathsBaseAttribute* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> paths, bool isField, ::UnityEngine::Rendering::SearchType location);
 
-  /// @brief Method .ctor, addr 0x68d7204, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6940088, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> paths, bool isField, ::UnityEngine::Rendering::SearchType location);
 
 protected:
@@ -42,7 +42,7 @@ public:
   ResourcePathsBaseAttribute(ResourcePathsBaseAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10745 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

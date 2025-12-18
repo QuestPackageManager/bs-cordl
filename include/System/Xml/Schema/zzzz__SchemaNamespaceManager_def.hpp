@@ -25,10 +25,10 @@ public:
   /// @brief Field node, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_node, put = __cordl_internal_set_node)) ::System::Xml::Schema::XmlSchemaObject* node;
 
-  /// @brief Method LookupNamespace, addr 0x5fee918, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method LookupNamespace, addr 0x60564a4, size 0x124, virtual true, abstract: false, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
-  /// @brief Method LookupPrefix, addr 0x5feea3c, size 0x3e8, virtual true, abstract: false, final false
+  /// @brief Method LookupPrefix, addr 0x60565c8, size 0x3e8, virtual true, abstract: false, final false
   inline ::StringW LookupPrefix(::StringW ns);
 
   static inline ::System::Xml::Schema::SchemaNamespaceManager* New_ctor(::System::Xml::Schema::XmlSchemaObject* node);
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_node(::System::Xml::Schema::XmlSchemaObject* value);
 
-  /// @brief Method .ctor, addr 0x5fee910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x605649c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaObject* node);
 
 protected:
@@ -57,7 +57,7 @@ public:
   SchemaNamespaceManager(SchemaNamespaceManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9694 };
 
   /// @brief Field node, offset: 0x50, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaObject* ___node;

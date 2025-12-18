@@ -36,13 +36,13 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE GPUDrivenRendererDataCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x68f7740, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x69605c4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::ByRef<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                      ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials);
 
   static inline ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x68f76c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6960544, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -60,7 +60,7 @@ public:
   GPUDrivenRendererDataCallback(GPUDrivenRendererDataCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10853 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

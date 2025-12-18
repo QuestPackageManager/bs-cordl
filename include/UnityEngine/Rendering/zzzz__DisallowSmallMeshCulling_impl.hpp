@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DisallowSmallMeshCulling::*)()>(
     &::UnityEngine::Rendering::DisallowSmallMeshCulling::get_applyToChildrenRecursively)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65ebab8;
+  constexpr static std::size_t addrs = 0x6653644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DisallowSmallMeshCulling*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DisallowSmallMeshCulling::*)(bool)>(
     &::UnityEngine::Rendering::DisallowSmallMeshCulling::set_applyToChildrenRecursively)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x65ebac0;
+  constexpr static std::size_t addrs = 0x665364c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DisallowSmallMeshCulling::*)()>(
     &::UnityEngine::Rendering::DisallowSmallMeshCulling::OnEnable)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x65ebb04;
+  constexpr static std::size_t addrs = 0x6653690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DisallowSmallMeshCulling*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DisallowSmallMeshCulling::*)()>(
     &::UnityEngine::Rendering::DisallowSmallMeshCulling::OnDisable)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x65ebadc;
+  constexpr static std::size_t addrs = 0x6653668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DisallowSmallMeshCulling*>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*, bool)>(
     &::UnityEngine::Rendering::DisallowSmallMeshCulling::AllowSmallMeshCulling)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x65ebe64;
+  constexpr static std::size_t addrs = 0x66539f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*, bool)>(
     &::UnityEngine::Rendering::DisallowSmallMeshCulling::AllowSmallMeshCullingRecursively)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x65ebb30;
+  constexpr static std::size_t addrs = 0x66536bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DisallowSmallMeshCulling::*)()>(
     &::UnityEngine::Rendering::DisallowSmallMeshCulling::OnValidate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65ebf28;
+  constexpr static std::size_t addrs = 0x6653ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DisallowSmallMeshCulling*>::get(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DisallowSmallMeshCulling::*)()>(
     &::UnityEngine::Rendering::DisallowSmallMeshCulling::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65ebf40;
+  constexpr static std::size_t addrs = 0x6653acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DisallowSmallMeshCulling*>::get(),

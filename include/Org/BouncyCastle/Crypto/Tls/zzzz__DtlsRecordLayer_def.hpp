@@ -116,70 +116,70 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCloseable*() noexcept;
 
-  /// @brief Method Close, addr 0x3323760, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x334dfa4, size 0x88, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method CloseTransport, addr 0x33237e8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method CloseTransport, addr 0x334e02c, size 0x160, virtual false, abstract: false, final false
   inline void CloseTransport();
 
-  /// @brief Method Fail, addr 0x3323968, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Fail, addr 0x334e1ac, size 0xc8, virtual true, abstract: false, final false
   inline void Fail(uint8_t alertDescription);
 
-  /// @brief Method Failed, addr 0x3323948, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Failed, addr 0x334e18c, size 0x20, virtual true, abstract: false, final false
   inline void Failed();
 
-  /// @brief Method GetMacSequenceNumber, addr 0x3323d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMacSequenceNumber, addr 0x334e5a8, size 0x8, virtual false, abstract: false, final false
   static inline int64_t GetMacSequenceNumber(int32_t epoch, int64_t sequence_number);
 
-  /// @brief Method GetReceiveLimit, addr 0x3322888, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method GetReceiveLimit, addr 0x334d0cc, size 0x170, virtual true, abstract: false, final false
   inline int32_t GetReceiveLimit();
 
-  /// @brief Method GetSendLimit, addr 0x33229f8, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method GetSendLimit, addr 0x334d23c, size 0x174, virtual true, abstract: false, final false
   inline int32_t GetSendLimit();
 
-  /// @brief Method HandshakeSuccessful, addr 0x332279c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method HandshakeSuccessful, addr 0x334cfe0, size 0xd8, virtual true, abstract: false, final false
   inline void HandshakeSuccessful(::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit* retransmit);
 
-  /// @brief Method InitPendingEpoch, addr 0x33226e4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method InitPendingEpoch, addr 0x334cf28, size 0xb8, virtual true, abstract: false, final false
   inline void InitPendingEpoch(::Org::BouncyCastle::Crypto::Tls::TlsCipher* pendingCipher);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* New_ctor(::Org::BouncyCastle::Crypto::Tls::DatagramTransport* transport, ::Org::BouncyCastle::Crypto::Tls::TlsContext* context,
                                                                             ::Org::BouncyCastle::Crypto::Tls::TlsPeer* peer, uint8_t contentType);
 
-  /// @brief Method ProcessRecord, addr 0x3322f24, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method ProcessRecord, addr 0x334d768, size 0x440, virtual false, abstract: false, final false
   inline int32_t ProcessRecord(int32_t received, ::ArrayW<uint8_t, ::Array<uint8_t>*> record, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method RaiseAlert, addr 0x3323a30, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method RaiseAlert, addr 0x334e274, size 0x134, virtual false, abstract: false, final false
   inline void RaiseAlert(uint8_t alertLevel, uint8_t alertDescription, ::StringW message, ::System::Exception* cause);
 
-  /// @brief Method Receive, addr 0x3322b6c, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method Receive, addr 0x334d3b0, size 0x1e4, virtual true, abstract: false, final false
   inline int32_t Receive(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t waitMillis);
 
-  /// @brief Method ReceiveDatagram, addr 0x3323b78, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ReceiveDatagram, addr 0x334e3bc, size 0x1b4, virtual false, abstract: false, final false
   inline int32_t ReceiveDatagram(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t waitMillis);
 
-  /// @brief Method ReceiveRecord, addr 0x3322d50, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method ReceiveRecord, addr 0x334d594, size 0x1d4, virtual false, abstract: false, final false
   inline int32_t ReceiveRecord(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t waitMillis);
 
-  /// @brief Method ResetWriteEpoch, addr 0x3322874, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ResetWriteEpoch, addr 0x334d0b8, size 0x14, virtual true, abstract: false, final false
   inline void ResetWriteEpoch();
 
-  /// @brief Method Send, addr 0x3323364, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method Send, addr 0x334dba8, size 0x180, virtual true, abstract: false, final false
   inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method SendDatagram, addr 0x33225c4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SendDatagram, addr 0x334ce08, size 0xcc, virtual false, abstract: false, final false
   static inline void SendDatagram(::Org::BouncyCastle::Crypto::Tls::DatagramTransport* sender, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method SendRecord, addr 0x33234e4, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method SendRecord, addr 0x334dd28, size 0x27c, virtual false, abstract: false, final false
   inline void SendRecord(uint8_t contentType, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method SetPlaintextLimit, addr 0x332269c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetPlaintextLimit, addr 0x334cee0, size 0xc, virtual true, abstract: false, final false
   inline void SetPlaintextLimit(int32_t plaintextLimit);
 
-  /// @brief Method SetWriteVersion, addr 0x33226d8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetWriteVersion, addr 0x334cf1c, size 0xc, virtual true, abstract: false, final false
   inline void SetWriteVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* writeVersion);
 
-  /// @brief Method Warn, addr 0x3323b64, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Warn, addr 0x334e3a8, size 0x14, virtual true, abstract: false, final false
   inline void Warn(uint8_t alertDescription, ::StringW message);
 
   constexpr bool const& __cordl_internal_get_mClosed() const;
@@ -284,17 +284,17 @@ public:
 
   constexpr void __cordl_internal_set_mWriteVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
 
-  /// @brief Method .ctor, addr 0x331dd4c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3348590, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::DatagramTransport* transport, ::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::TlsPeer* peer,
                     uint8_t contentType);
 
-  /// @brief Method get_IsClosed, addr 0x3322690, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsClosed, addr 0x334ced4, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsClosed();
 
-  /// @brief Method get_ReadEpoch, addr 0x33226a8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_ReadEpoch, addr 0x334ceec, size 0x18, virtual true, abstract: false, final false
   inline int32_t get_ReadEpoch();
 
-  /// @brief Method get_ReadVersion, addr 0x33226c0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_ReadVersion, addr 0x334cf04, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* get_ReadVersion();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::DatagramTransport"
@@ -303,7 +303,7 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCloseable* i___Org__BouncyCastle__Crypto__Tls__TlsCloseable() noexcept;
 
-  /// @brief Method set_ReadVersion, addr 0x33226cc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_ReadVersion, addr 0x334cf10, size 0xc, virtual true, abstract: false, final false
   inline void set_ReadVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
 
 protected:

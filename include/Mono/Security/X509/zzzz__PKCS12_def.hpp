@@ -95,19 +95,19 @@ public:
   /// @brief Field macDiversifier, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_macDiversifier, put = setStaticF_macDiversifier)) ::ArrayW<uint8_t, ::Array<uint8_t>*> macDiversifier;
 
-  /// @brief Method Adjust, addr 0x587d560, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Adjust, addr 0x58e3eac, size 0xb0, virtual false, abstract: false, final false
   inline void Adjust(::ArrayW<uint8_t, ::Array<uint8_t>*> a, int32_t aOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-  /// @brief Method Derive, addr 0x587d610, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method Derive, addr 0x58e3f5c, size 0x454, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Derive(::ArrayW<uint8_t, ::Array<uint8_t>*> diversifier, int32_t n);
 
-  /// @brief Method DeriveIV, addr 0x58794c8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method DeriveIV, addr 0x58dfe14, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DeriveIV(int32_t size);
 
-  /// @brief Method DeriveKey, addr 0x5879454, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method DeriveKey, addr 0x58dfda0, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DeriveKey(int32_t size);
 
-  /// @brief Method DeriveMAC, addr 0x587ab5c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method DeriveMAC, addr 0x58e14a8, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DeriveMAC(int32_t size);
 
   static inline ::Mono::Security::X509::PKCS12_DeriveBytes* New_ctor();
@@ -136,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set__salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x5879308, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58dfc54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_ivDiversifier();
@@ -151,16 +151,16 @@ public:
 
   static inline void setStaticF_macDiversifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method set_HashName, addr 0x587d550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HashName, addr 0x58e3e9c, size 0x8, virtual false, abstract: false, final false
   inline void set_HashName(::StringW value);
 
-  /// @brief Method set_IterationCount, addr 0x587d558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IterationCount, addr 0x58e3ea4, size 0x8, virtual false, abstract: false, final false
   inline void set_IterationCount(int32_t value);
 
-  /// @brief Method set_Password, addr 0x587930c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_Password, addr 0x58dfc58, size 0xac, virtual false, abstract: false, final false
   inline void set_Password(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method set_Salt, addr 0x58793b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_Salt, addr 0x58dfd04, size 0x9c, virtual false, abstract: false, final false
   inline void set_Salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:
@@ -178,7 +178,7 @@ public:
   PKCS12_DeriveBytes(PKCS12_DeriveBytes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19216 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19242 };
 
   /// @brief Field _hashName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____hashName;
@@ -261,52 +261,52 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method AddCertificate, addr 0x587c9c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddCertificate, addr 0x58e3314, size 0x8, virtual false, abstract: false, final false
   inline void AddCertificate(::Mono::Security::X509::X509Certificate* cert);
 
-  /// @brief Method AddCertificate, addr 0x587cc78, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method AddCertificate, addr 0x58e35c4, size 0x24c, virtual false, abstract: false, final false
   inline void AddCertificate(::Mono::Security::X509::X509Certificate* cert, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method AddPrivateKey, addr 0x5879e14, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method AddPrivateKey, addr 0x58e0760, size 0x26c, virtual false, abstract: false, final false
   inline void AddPrivateKey(::Mono::Security::Cryptography::PKCS8_PrivateKeyInfo* pki);
 
-  /// @brief Method CertificateSafeBag, addr 0x587a080, size 0xadc, virtual false, abstract: false, final false
+  /// @brief Method CertificateSafeBag, addr 0x58e09cc, size 0xadc, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* CertificateSafeBag(::Mono::Security::X509::X509Certificate* x509, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method Clone, addr 0x587d3d4, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x58e3d20, size 0xd0, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method Compare, addr 0x5877840, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x58de18c, size 0x70, virtual false, abstract: false, final false
   inline bool Compare(::ArrayW<uint8_t, ::Array<uint8_t>*> expected, ::ArrayW<uint8_t, ::Array<uint8_t>*> actual);
 
-  /// @brief Method Decode, addr 0x5877028, size 0x68c, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x58dd974, size 0x68c, virtual false, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Decrypt, addr 0x5878720, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Decrypt, addr 0x58df06c, size 0x198, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decrypt(::StringW algorithmOid, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> encryptedData);
 
-  /// @brief Method Decrypt, addr 0x5877f50, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Decrypt, addr 0x58de89c, size 0x90, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decrypt(::Mono::Security::PKCS7_EncryptedData* ed);
 
-  /// @brief Method Encrypt, addr 0x587953c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method Encrypt, addr 0x58dfe88, size 0x1f8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encrypt(::StringW algorithmOid, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method EncryptedContentInfo, addr 0x587c9d0, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method EncryptedContentInfo, addr 0x58e331c, size 0x2a8, virtual false, abstract: false, final false
   inline ::Mono::Security::PKCS7_ContentInfo* EncryptedContentInfo(::Mono::Security::ASN1* safeBags, ::StringW algorithmOid);
 
-  /// @brief Method Finalize, addr 0x5877fe0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x58de92c, size 0x60, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetBytes, addr 0x587abd0, size 0x1df0, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x58e151c, size 0x1df0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
-  /// @brief Method GetExistingParameters, addr 0x5879734, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method GetExistingParameters, addr 0x58e0080, size 0x254, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::DSAParameters GetExistingParameters(::ByRef<bool> found);
 
-  /// @brief Method GetSymmetricAlgorithm, addr 0x5878cf0, size 0x618, virtual false, abstract: false, final false
+  /// @brief Method GetSymmetricAlgorithm, addr 0x58df63c, size 0x618, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::SymmetricAlgorithm* GetSymmetricAlgorithm(::StringW algorithmOid, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method MAC, addr 0x58776ec, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method MAC, addr 0x58de038, size 0x154, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> MAC(::ArrayW<uint8_t, ::Array<uint8_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterations,
                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
@@ -316,13 +316,13 @@ public:
 
   static inline ::Mono::Security::X509::PKCS12* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password);
 
-  /// @brief Method ReadSafeBag, addr 0x58778b0, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method ReadSafeBag, addr 0x58de1fc, size 0x6a0, virtual false, abstract: false, final false
   inline void ReadSafeBag(::Mono::Security::ASN1* safeBag);
 
-  /// @brief Method RemoveCertificate, addr 0x587c9c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RemoveCertificate, addr 0x58e330c, size 0x8, virtual false, abstract: false, final false
   inline void RemoveCertificate(::Mono::Security::X509::X509Certificate* cert);
 
-  /// @brief Method RemoveCertificate, addr 0x587cec4, size 0x510, virtual false, abstract: false, final false
+  /// @brief Method RemoveCertificate, addr 0x58e3810, size 0x510, virtual false, abstract: false, final false
   inline void RemoveCertificate(::Mono::Security::X509::X509Certificate* cert, ::System::Collections::IDictionary* attrs);
 
   constexpr ::Mono::Security::X509::X509CertificateCollection* const& __cordl_internal_get__certs() const;
@@ -385,30 +385,30 @@ public:
 
   constexpr void __cordl_internal_set__secretBagsChanged(bool value);
 
-  /// @brief Method .ctor, addr 0x5876d4c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58dd698, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5876e18, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58dd764, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x58776b4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58de000, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password);
 
   static inline int32_t getStaticF_password_max_length();
 
-  /// @brief Method get_Certificates, addr 0x58788b8, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0x58df204, size 0x418, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* get_Certificates();
 
-  /// @brief Method get_IterationCount, addr 0x5878040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IterationCount, addr 0x58de98c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_IterationCount();
 
-  /// @brief Method get_Keys, addr 0x5878050, size 0x6d0, virtual false, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x58de99c, size 0x6d0, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_Keys();
 
-  /// @brief Method get_MaximumPasswordLength, addr 0x587d4a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_MaximumPasswordLength, addr 0x58e3df0, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_MaximumPasswordLength();
 
-  /// @brief Method get_RNG, addr 0x5878cd0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_RNG, addr 0x58df61c, size 0x20, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::RandomNumberGenerator* get_RNG();
 
   /// @brief Convert to "::System::ICloneable"
@@ -416,10 +416,10 @@ public:
 
   static inline void setStaticF_password_max_length(int32_t value);
 
-  /// @brief Method set_IterationCount, addr 0x5878048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IterationCount, addr 0x58de994, size 0x8, virtual false, abstract: false, final false
   inline void set_IterationCount(int32_t value);
 
-  /// @brief Method set_Password, addr 0x5876e4c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method set_Password, addr 0x58dd798, size 0x1dc, virtual false, abstract: false, final false
   inline void set_Password(::StringW value);
 
 protected:
@@ -437,7 +437,7 @@ public:
   PKCS12(PKCS12 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19217 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19243 };
 
   /// @brief Field _password, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ____password;

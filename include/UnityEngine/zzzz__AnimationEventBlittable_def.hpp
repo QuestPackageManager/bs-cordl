@@ -42,29 +42,29 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6801298, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6868e10, size 0x18c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeEvents, addr 0x6801238, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method DisposeEvents, addr 0x6868db0, size 0x60, virtual false, abstract: false, final false
   static inline void DisposeEvents(::System::IntPtr animationEventBlittableArray, int32_t size);
 
-  /// @brief Method FreeEventsInternal, addr 0x6801424, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FreeEventsInternal, addr 0x6868f9c, size 0x3c, virtual false, abstract: false, final false
   static inline void FreeEventsInternal(::System::IntPtr value);
 
-  /// @brief Method FromAnimationEvent, addr 0x6800a60, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method FromAnimationEvent, addr 0x68685d8, size 0x1f4, virtual false, abstract: false, final false
   static inline ::UnityEngine::AnimationEventBlittable FromAnimationEvent(::UnityEngine::AnimationEvent* animationEvent);
 
-  /// @brief Method FromAnimationEvents, addr 0x6800ca8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method FromAnimationEvents, addr 0x6868820, size 0x214, virtual false, abstract: false, final false
   static inline void FromAnimationEvents(::ArrayW<::UnityEngine::AnimationEvent*, ::Array<::UnityEngine::AnimationEvent*>*> animationEvents,
                                          ::UnityEngine::AnimationEventBlittable* animationEventBlittables);
 
-  /// @brief Method PointerToAnimationEvent, addr 0x6800ebc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method PointerToAnimationEvent, addr 0x6868a34, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AnimationEvent* PointerToAnimationEvent(::System::IntPtr animationEventBlittable);
 
-  /// @brief Method PointerToAnimationEvents, addr 0x6801174, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method PointerToAnimationEvents, addr 0x6868cec, size 0xc4, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::AnimationEvent*, ::Array<::UnityEngine::AnimationEvent*>*> PointerToAnimationEvents(::System::IntPtr animationEventBlittableArray, int32_t size);
 
-  /// @brief Method ToAnimationEvent, addr 0x6800ee8, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method ToAnimationEvent, addr 0x6868a60, size 0x28c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AnimationEvent* ToAnimationEvent(::UnityEngine::AnimationEventBlittable animationEventBlittable);
 
   static inline ::UnityEngine::GCHandlePool* getStaticF_s_handlePool();
@@ -89,7 +89,7 @@ public:
                                     ::UnityEngine::AnimatorStateInfo m_AnimatorStateInfo, ::UnityEngine::AnimatorClipInfo m_AnimatorClipInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19980 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };

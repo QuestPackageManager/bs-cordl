@@ -112,30 +112,30 @@ public:
   /// @brief Field widthStart, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_widthStart, put = __cordl_internal_set_widthStart)) float_t widthStart;
 
-  /// @brief Method Awake, addr 0x5651cd8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x56b2980, size 0x16c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateMesh, addr 0x5651f78, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method CreateMesh, addr 0x56b2c20, size 0x2d0, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> CreateMesh();
 
-  /// @brief Method InitIfNeeded, addr 0x5651e44, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x56b2aec, size 0x134, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::Parametric3SliceSpriteController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x56522f4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x56b2f9c, size 0xc8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x56522d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x56b2f80, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x56522bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x56b2f64, size 0x1c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x56523bc, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x56b3064, size 0x1f8, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Start, addr 0x5652248, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x56b2ef0, size 0x74, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__collisionLength_k__BackingField() const;
@@ -234,7 +234,7 @@ public:
 
   constexpr void __cordl_internal_set_widthStart(float_t value);
 
-  /// @brief Method .ctor, addr 0x56525b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56b325c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__alphaEndID();
@@ -255,10 +255,10 @@ public:
 
   static inline int32_t getStaticF__widthStartID();
 
-  /// @brief Method get_collisionLength, addr 0x5651cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_collisionLength, addr 0x56b2970, size 0x8, virtual false, abstract: false, final false
   inline float_t get_collisionLength();
 
-  /// @brief Method get_useCollision, addr 0x5651cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useCollision, addr 0x56b2960, size 0x8, virtual false, abstract: false, final false
   inline bool get_useCollision();
 
   static inline void setStaticF__alphaEndID(int32_t value);
@@ -279,10 +279,10 @@ public:
 
   static inline void setStaticF__widthStartID(int32_t value);
 
-  /// @brief Method set_collisionLength, addr 0x5651cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_collisionLength, addr 0x56b2978, size 0x8, virtual false, abstract: false, final false
   inline void set_collisionLength(float_t value);
 
-  /// @brief Method set_useCollision, addr 0x5651cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useCollision, addr 0x56b2968, size 0x8, virtual false, abstract: false, final false
   inline void set_useCollision(bool value);
 
 protected:
@@ -300,7 +300,7 @@ public:
   Parametric3SliceSpriteController(Parametric3SliceSpriteController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19646 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19672 };
 
   /// @brief Field kMaxLength offset 0xffffffff size 0x4
   static constexpr float_t kMaxLength{ static_cast<float_t>(2500.0f) };

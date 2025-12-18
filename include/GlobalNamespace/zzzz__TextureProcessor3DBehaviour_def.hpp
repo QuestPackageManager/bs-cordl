@@ -207,10 +207,10 @@ public:
 
   static inline ::GlobalNamespace::TextureProcessor3DBehaviour* New_ctor();
 
-  /// @brief Method OnPlayableDestroy, addr 0x5717140, size 0x7a8, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x5774f50, size 0x7a8, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x5716d3c, size 0x404, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x5774b4c, size 0x404, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr bool const& __cordl_internal_get__initialized() const;
@@ -561,7 +561,7 @@ public:
 
   constexpr void __cordl_internal_set_speedD(float_t value);
 
-  /// @brief Method .ctor, addr 0x57178e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57756f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -579,7 +579,7 @@ public:
   TextureProcessor3DBehaviour(TextureProcessor3DBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6779 };
 
   /// @brief Field computeKernelA, offset: 0x10, size: 0x4, def value: None
   float_t ___computeKernelA;

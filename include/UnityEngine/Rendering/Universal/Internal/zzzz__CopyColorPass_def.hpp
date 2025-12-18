@@ -153,7 +153,7 @@ public:
 
   constexpr void __cordl_internal_set_useProceduralBlit(bool value);
 
-  /// @brief Method .ctor, addr 0x66dae34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67429c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -171,7 +171,7 @@ public:
   CopyColorPass_PassData(CopyColorPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13043 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13047 };
 
   /// @brief Field source, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___source;
@@ -231,10 +231,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c* New_ctor();
 
-  /// @brief Method <RenderInternal>b__23_0, addr 0x66dbddc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <RenderInternal>b__23_0, addr 0x6743968, size 0x8c, virtual false, abstract: false, final false
   inline void _RenderInternal_b__23_0(::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x66dbdd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6743964, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::CopyColorPass___c* getStaticF___9();
@@ -263,7 +263,7 @@ public:
   CopyColorPass___c(CopyColorPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13044 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13048 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -308,42 +308,42 @@ public:
 
   __declspec(property(get = get_source, put = set_source)) ::UnityEngine::Rendering::RTHandle* source;
 
-  /// @brief Method ConfigureDescriptor, addr 0x66dae38, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ConfigureDescriptor, addr 0x67429c4, size 0x54, virtual false, abstract: false, final false
   static inline void ConfigureDescriptor(::UnityEngine::Rendering::Universal::Downsampling downsamplingMethod, ::ByRef<::UnityEngine::RenderTextureDescriptor> descriptor,
                                          ::ByRef<::UnityEngine::FilterMode> filterMode);
 
-  /// @brief Method Execute, addr 0x66daf40, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6742acc, size 0x200, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x66db140, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6742ccc, size 0x398, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::Internal::CopyColorPass_PassData* passData,
                                  ::UnityEngine::Rendering::RTHandle* source, bool useDrawProceduralBlit);
 
   static inline ::UnityEngine::Rendering::Universal::Internal::CopyColorPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Material* samplingMaterial,
                                                                                        ::UnityEngine::Material* copyColorMaterial, ::StringW customPassName);
 
-  /// @brief Method OnCameraSetup, addr 0x66daee4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method OnCameraSetup, addr 0x6742a70, size 0x5c, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Render, addr 0x66db4d8, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6743064, size 0x1ac, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                                                                            ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
                                                                            ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                                                                            ::UnityEngine::Rendering::Universal::Downsampling downsampling);
 
-  /// @brief Method RenderInternal, addr 0x66db684, size 0x64c, virtual false, abstract: false, final false
+  /// @brief Method RenderInternal, addr 0x6743210, size 0x64c, virtual false, abstract: false, final false
   inline void RenderInternal(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
                              ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source, bool useProceduralBlit);
 
-  /// @brief Method RenderToExistingTexture, addr 0x66dbcd0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method RenderToExistingTexture, addr 0x674385c, size 0xb4, virtual false, abstract: false, final false
   inline void RenderToExistingTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                                       ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                                       ::UnityEngine::Rendering::Universal::Downsampling downsampling);
 
-  /// @brief Method Setup, addr 0x66daed8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6742a64, size 0xc, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination, ::UnityEngine::Rendering::Universal::Downsampling downsampling);
 
-  /// @brief Method Setup, addr 0x66dae8c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6742a18, size 0x4c, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::RenderTargetIdentifier source, ::UnityEngine::Rendering::Universal::RenderTargetHandle destination,
                     ::UnityEngine::Rendering::Universal::Downsampling downsampling);
 
@@ -389,19 +389,19 @@ public:
 
   constexpr void __cordl_internal_set_m_SamplingMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x66dacdc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6742868, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Material* samplingMaterial, ::UnityEngine::Material* copyColorMaterial, ::StringW customPassName);
 
-  /// @brief Method get_destination, addr 0x66daccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_destination, addr 0x6742858, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_destination();
 
-  /// @brief Method get_source, addr 0x66dacbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_source, addr 0x6742848, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_source();
 
-  /// @brief Method set_destination, addr 0x66dacd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_destination, addr 0x6742860, size 0x8, virtual false, abstract: false, final false
   inline void set_destination(::UnityEngine::Rendering::RTHandle* value);
 
-  /// @brief Method set_source, addr 0x66dacc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_source, addr 0x6742850, size 0x8, virtual false, abstract: false, final false
   inline void set_source(::UnityEngine::Rendering::RTHandle* value);
 
 protected:
@@ -419,7 +419,7 @@ public:
   CopyColorPass(CopyColorPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13049 };
 
   /// @brief Field m_SampleOffsetShaderHandle, offset: 0xb8, size: 0x4, def value: None
   int32_t ___m_SampleOffsetShaderHandle;

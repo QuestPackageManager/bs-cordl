@@ -64,7 +64,7 @@ public:
   /// @brief Field m_Value, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_Value;
 
-  /// @brief Method Init, addr 0x6b30040, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b98ec4, size 0x1e8, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::AbstractProgressBar_UxmlTraits* New_ctor();
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6b30228, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b990ac, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -207,18 +207,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::INotifyValueChanged_1<float_t>"
   constexpr operator ::UnityEngine::UIElements::INotifyValueChanged_1<float_t>*() noexcept;
 
-  /// @brief Method CalculateProgressWidth, addr 0x6b2fbec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CalculateProgressWidth, addr 0x6b98a70, size 0x84, virtual false, abstract: false, final false
   inline float_t CalculateProgressWidth(float_t width);
 
   static inline ::UnityEngine::UIElements::AbstractProgressBar* New_ctor();
 
-  /// @brief Method OnGeometryChanged, addr 0x6b2f92c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnGeometryChanged, addr 0x6b987b0, size 0x24, virtual false, abstract: false, final false
   inline void OnGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* e);
 
-  /// @brief Method SetProgress, addr 0x6b2f424, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method SetProgress, addr 0x6b982a8, size 0x12c, virtual false, abstract: false, final false
   inline void SetProgress(float_t p);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x6b2fbc4, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method SetValueWithoutNotify, addr 0x6b98a48, size 0x28, virtual true, abstract: false, final true
   inline void SetValueWithoutNotify(float_t newValue);
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Background() const;
@@ -257,7 +257,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(float_t value);
 
-  /// @brief Method .ctor, addr 0x6b2f664, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b984e8, size 0x2c8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_backgroundUssClassName();
@@ -280,16 +280,16 @@ public:
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_valueProperty();
 
-  /// @brief Method get_highValue, addr 0x6b2f550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highValue, addr 0x6b983d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_highValue();
 
-  /// @brief Method get_lowValue, addr 0x6b2f310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lowValue, addr 0x6b98194, size 0x8, virtual false, abstract: false, final false
   inline float_t get_lowValue();
 
-  /// @brief Method get_title, addr 0x6b2f204, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_title, addr 0x6b98088, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_title();
 
-  /// @brief Method get_value, addr 0x6b2f950, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x6b987d4, size 0x8, virtual true, abstract: false, final false
   inline float_t get_value();
 
   /// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<float_t>"
@@ -315,16 +315,16 @@ public:
 
   static inline void setStaticF_valueProperty(::UnityEngine::UIElements::BindingId value);
 
-  /// @brief Method set_highValue, addr 0x6b2f558, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method set_highValue, addr 0x6b983dc, size 0x10c, virtual false, abstract: false, final false
   inline void set_highValue(float_t value);
 
-  /// @brief Method set_lowValue, addr 0x6b2f318, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method set_lowValue, addr 0x6b9819c, size 0x10c, virtual false, abstract: false, final false
   inline void set_lowValue(float_t value);
 
-  /// @brief Method set_title, addr 0x6b2f224, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method set_title, addr 0x6b980a8, size 0xec, virtual false, abstract: false, final false
   inline void set_title(::StringW value);
 
-  /// @brief Method set_value, addr 0x6b2f958, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x6b987dc, size 0x26c, virtual true, abstract: false, final false
   inline void set_value(float_t value);
 
 protected:

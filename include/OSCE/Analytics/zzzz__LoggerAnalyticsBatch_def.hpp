@@ -53,21 +53,21 @@ public:
   /// @brief Convert operator to "::OSCE::Networking::IPureCSharpPoolElement"
   constexpr operator ::OSCE::Networking::IPureCSharpPoolElement*() noexcept;
 
-  /// @brief Method AddEvent, addr 0x5d25b5c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddEvent, addr 0x5d8c63c, size 0xb4, virtual false, abstract: false, final false
   inline void AddEvent(::OSCE::Analytics::BaseAnalyticsEvent* eventToSend);
 
-  /// @brief Method ApplyOtherBatch, addr 0x5d26e84, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ApplyOtherBatch, addr 0x5d8d964, size 0x140, virtual false, abstract: false, final false
   inline void ApplyOtherBatch(::OSCE::Analytics::LoggerAnalyticsBatch* otherBatch);
 
-  /// @brief Method ConvertEvents, addr 0x5d26044, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ConvertEvents, addr 0x5d8cb24, size 0x160, virtual false, abstract: false, final false
   inline void ConvertEvents();
 
   static inline ::OSCE::Analytics::LoggerAnalyticsBatch* New_ctor();
 
-  /// @brief Method OnBatchFailed, addr 0x5d26a60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnBatchFailed, addr 0x5d8d540, size 0x10, virtual false, abstract: false, final false
   inline void OnBatchFailed();
 
-  /// @brief Method ReturnedToPool, addr 0x5d281e4, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method ReturnedToPool, addr 0x5d8ecc4, size 0x118, virtual true, abstract: false, final true
   inline void ReturnedToPool();
 
   constexpr bool const& __cordl_internal_get__CreatedByPool_k__BackingField() const;
@@ -94,22 +94,22 @@ public:
 
   constexpr void __cordl_internal_set_logs(::System::Collections::Generic::List_1<::OSCE::Analytics::LoggerAnalyticsEvent>* value);
 
-  /// @brief Method .ctor, addr 0x5d282fc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d8eddc, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x5d26d7c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x5d8d85c, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_CreatedByPool, addr 0x5d281d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CreatedByPool, addr 0x5d8ecb4, size 0x8, virtual true, abstract: false, final true
   inline bool get_CreatedByPool();
 
-  /// @brief Method get_FailedAttempts, addr 0x5d281cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FailedAttempts, addr 0x5d8ecac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FailedAttempts();
 
   /// @brief Convert to "::OSCE::Networking::IPureCSharpPoolElement"
   constexpr ::OSCE::Networking::IPureCSharpPoolElement* i___OSCE__Networking__IPureCSharpPoolElement() noexcept;
 
-  /// @brief Method set_CreatedByPool, addr 0x5d281dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_CreatedByPool, addr 0x5d8ecbc, size 0x8, virtual true, abstract: false, final true
   inline void set_CreatedByPool(bool value);
 
 protected:
@@ -130,7 +130,7 @@ public:
   static constexpr int32_t FAILED_BATCH_RETRIES{ static_cast<int32_t>(0x3) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21695 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21722 };
 
   /// @brief Field logs, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::OSCE::Analytics::LoggerAnalyticsEvent>* ___logs;

@@ -343,33 +343,33 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::ITextInputReceiver"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::ITextInputReceiver*() noexcept;
 
-  /// @brief Method FindKeyOnCurrentKeyboardLayout, addr 0x6305db8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method FindKeyOnCurrentKeyboardLayout, addr 0x636d944, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* FindKeyOnCurrentKeyboardLayout(::StringW displayName);
 
-  /// @brief Method FinishSetup, addr 0x63048bc, size 0x1390, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x636c448, size 0x1390, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x63047dc, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x636c368, size 0x50, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::Keyboard* New_ctor();
 
-  /// @brief Method OnIMECompositionChanged, addr 0x6305e98, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method OnIMECompositionChanged, addr 0x636da24, size 0xf4, virtual true, abstract: false, final true
   inline void OnIMECompositionChanged(::UnityEngine::InputSystem::LowLevel::IMECompositionString compositionString);
 
-  /// @brief Method OnRemoved, addr 0x630482c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x636c3b8, size 0x90, virtual true, abstract: false, final false
   inline void OnRemoved();
 
-  /// @brief Method OnTextInput, addr 0x6305d14, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method OnTextInput, addr 0x636d8a0, size 0xa4, virtual true, abstract: false, final true
   inline void OnTextInput(char16_t character);
 
-  /// @brief Method RefreshConfiguration, addr 0x6305c4c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method RefreshConfiguration, addr 0x636d7d8, size 0xc8, virtual true, abstract: false, final false
   inline void RefreshConfiguration();
 
-  /// @brief Method SetIMECursorPosition, addr 0x6304180, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetIMECursorPosition, addr 0x636bd0c, size 0xb0, virtual false, abstract: false, final false
   inline void SetIMECursorPosition(::UnityEngine::Vector2 position);
 
-  /// @brief Method SetIMEEnabled, addr 0x6304100, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetIMEEnabled, addr 0x636bc8c, size 0x80, virtual false, abstract: false, final false
   inline void SetIMEEnabled(bool enabled);
 
   constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__altKey_k__BackingField() const;
@@ -428,428 +428,428 @@ public:
 
   constexpr void __cordl_internal_set_m_TextInputListeners(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Action_1<char16_t>*> value);
 
-  /// @brief Method .ctor, addr 0x6305f9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x636db28, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onIMECompositionChange, addr 0x6303fb0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method add_onIMECompositionChange, addr 0x636bb3c, size 0xf4, virtual false, abstract: false, final false
   inline void add_onIMECompositionChange(::System::Action_1<::UnityEngine::InputSystem::LowLevel::IMECompositionString>* value);
 
-  /// @brief Method add_onTextInput, addr 0x6303e64, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method add_onTextInput, addr 0x636b9f0, size 0xf0, virtual false, abstract: false, final false
   inline void add_onTextInput(::System::Action_1<char16_t>* value);
 
   static inline ::UnityEngine::InputSystem::Keyboard* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_Item, addr 0x630428c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x636be18, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_Item(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method get_aKey, addr 0x6304378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_aKey, addr 0x636bf04, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_aKey();
 
-  /// @brief Method get_allKeys, addr 0x63046e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_allKeys, addr 0x636c274, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::KeyControl*> get_allKeys();
 
-  /// @brief Method get_altKey, addr 0x63046c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_altKey, addr 0x636c254, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_altKey();
 
-  /// @brief Method get_anyKey, addr 0x6304274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_anyKey, addr 0x636be00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AnyKeyControl* get_anyKey();
 
-  /// @brief Method get_bKey, addr 0x6304380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bKey, addr 0x636bf0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_bKey();
 
-  /// @brief Method get_backquoteKey, addr 0x6304320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_backquoteKey, addr 0x636beac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_backquoteKey();
 
-  /// @brief Method get_backslashKey, addr 0x6304350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_backslashKey, addr 0x636bedc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_backslashKey();
 
-  /// @brief Method get_backspaceKey, addr 0x6304538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_backspaceKey, addr 0x636c0c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_backspaceKey();
 
-  /// @brief Method get_cKey, addr 0x6304388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cKey, addr 0x636bf14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_cKey();
 
-  /// @brief Method get_capsLockKey, addr 0x6304570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_capsLockKey, addr 0x636c0fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_capsLockKey();
 
-  /// @brief Method get_commaKey, addr 0x6304338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_commaKey, addr 0x636bec4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_commaKey();
 
-  /// @brief Method get_contextMenuKey, addr 0x6304508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contextMenuKey, addr 0x636c094, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_contextMenuKey();
 
-  /// @brief Method get_ctrlKey, addr 0x63046b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ctrlKey, addr 0x636c244, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_ctrlKey();
 
-  /// @brief Method get_current, addr 0x6304740, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x636c2cc, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Keyboard* get_current();
 
-  /// @brief Method get_dKey, addr 0x6304390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dKey, addr 0x636bf1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_dKey();
 
-  /// @brief Method get_deleteKey, addr 0x6304568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deleteKey, addr 0x636c0f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_deleteKey();
 
-  /// @brief Method get_digit0Key, addr 0x6304490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_digit0Key, addr 0x636c01c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_digit0Key();
 
-  /// @brief Method get_digit1Key, addr 0x6304448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_digit1Key, addr 0x636bfd4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_digit1Key();
 
-  /// @brief Method get_digit2Key, addr 0x6304450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_digit2Key, addr 0x636bfdc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_digit2Key();
 
-  /// @brief Method get_digit3Key, addr 0x6304458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_digit3Key, addr 0x636bfe4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_digit3Key();
 
-  /// @brief Method get_digit4Key, addr 0x6304460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_digit4Key, addr 0x636bfec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_digit4Key();
 
-  /// @brief Method get_digit5Key, addr 0x6304468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_digit5Key, addr 0x636bff4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_digit5Key();
 
-  /// @brief Method get_digit6Key, addr 0x6304470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_digit6Key, addr 0x636bffc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_digit6Key();
 
-  /// @brief Method get_digit7Key, addr 0x6304478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_digit7Key, addr 0x636c004, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_digit7Key();
 
-  /// @brief Method get_digit8Key, addr 0x6304480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_digit8Key, addr 0x636c00c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_digit8Key();
 
-  /// @brief Method get_digit9Key, addr 0x6304488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_digit9Key, addr 0x636c014, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_digit9Key();
 
-  /// @brief Method get_downArrowKey, addr 0x6304530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_downArrowKey, addr 0x636c0bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_downArrowKey();
 
-  /// @brief Method get_eKey, addr 0x6304398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eKey, addr 0x636bf24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_eKey();
 
-  /// @brief Method get_endKey, addr 0x6304558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_endKey, addr 0x636c0e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_endKey();
 
-  /// @brief Method get_enterKey, addr 0x6304310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enterKey, addr 0x636be9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_enterKey();
 
-  /// @brief Method get_equalsKey, addr 0x6304370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_equalsKey, addr 0x636befc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_equalsKey();
 
-  /// @brief Method get_escapeKey, addr 0x6304510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_escapeKey, addr 0x636c09c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_escapeKey();
 
-  /// @brief Method get_f10Key, addr 0x6304668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_f10Key, addr 0x636c1f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_f10Key();
 
-  /// @brief Method get_f11Key, addr 0x6304670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_f11Key, addr 0x636c1fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_f11Key();
 
-  /// @brief Method get_f12Key, addr 0x6304678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_f12Key, addr 0x636c204, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_f12Key();
 
-  /// @brief Method get_f1Key, addr 0x6304620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_f1Key, addr 0x636c1ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_f1Key();
 
-  /// @brief Method get_f2Key, addr 0x6304628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_f2Key, addr 0x636c1b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_f2Key();
 
-  /// @brief Method get_f3Key, addr 0x6304630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_f3Key, addr 0x636c1bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_f3Key();
 
-  /// @brief Method get_f4Key, addr 0x6304638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_f4Key, addr 0x636c1c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_f4Key();
 
-  /// @brief Method get_f5Key, addr 0x6304640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_f5Key, addr 0x636c1cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_f5Key();
 
-  /// @brief Method get_f6Key, addr 0x6304648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_f6Key, addr 0x636c1d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_f6Key();
 
-  /// @brief Method get_f7Key, addr 0x6304650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_f7Key, addr 0x636c1dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_f7Key();
 
-  /// @brief Method get_f8Key, addr 0x6304658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_f8Key, addr 0x636c1e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_f8Key();
 
-  /// @brief Method get_f9Key, addr 0x6304660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_f9Key, addr 0x636c1ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_f9Key();
 
-  /// @brief Method get_fKey, addr 0x63043a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fKey, addr 0x636bf2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_fKey();
 
-  /// @brief Method get_gKey, addr 0x63043a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gKey, addr 0x636bf34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_gKey();
 
-  /// @brief Method get_hKey, addr 0x63043b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hKey, addr 0x636bf3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_hKey();
 
-  /// @brief Method get_homeKey, addr 0x6304550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_homeKey, addr 0x636c0dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_homeKey();
 
-  /// @brief Method get_iKey, addr 0x63043b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_iKey, addr 0x636bf44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_iKey();
 
-  /// @brief Method get_imeSelected, addr 0x63046d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_imeSelected, addr 0x636c264, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_imeSelected();
 
-  /// @brief Method get_insertKey, addr 0x6304560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_insertKey, addr 0x636c0ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_insertKey();
 
-  /// @brief Method get_jKey, addr 0x63043c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_jKey, addr 0x636bf4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_jKey();
 
-  /// @brief Method get_kKey, addr 0x63043c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_kKey, addr 0x636bf54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_kKey();
 
-  /// @brief Method get_keyboardLayout, addr 0x6304230, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_keyboardLayout, addr 0x636bdbc, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_keyboardLayout();
 
-  /// @brief Method get_keys, addr 0x6305f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keys, addr 0x636db18, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::InputSystem::Controls::KeyControl*, ::Array<::UnityEngine::InputSystem::Controls::KeyControl*>*> get_keys();
 
-  /// @brief Method get_lKey, addr 0x63043d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lKey, addr 0x636bf5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_lKey();
 
-  /// @brief Method get_leftAltKey, addr 0x63044a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftAltKey, addr 0x636c034, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_leftAltKey();
 
-  /// @brief Method get_leftAppleKey, addr 0x63044e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftAppleKey, addr 0x636c074, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_leftAppleKey();
 
-  /// @brief Method get_leftArrowKey, addr 0x6304518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftArrowKey, addr 0x636c0a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_leftArrowKey();
 
-  /// @brief Method get_leftBracketKey, addr 0x6304358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftBracketKey, addr 0x636bee4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_leftBracketKey();
 
-  /// @brief Method get_leftCommandKey, addr 0x63044f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftCommandKey, addr 0x636c084, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_leftCommandKey();
 
-  /// @brief Method get_leftCtrlKey, addr 0x63044b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftCtrlKey, addr 0x636c044, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_leftCtrlKey();
 
-  /// @brief Method get_leftMetaKey, addr 0x63044c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftMetaKey, addr 0x636c054, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_leftMetaKey();
 
-  /// @brief Method get_leftShiftKey, addr 0x6304498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftShiftKey, addr 0x636c024, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_leftShiftKey();
 
-  /// @brief Method get_leftWindowsKey, addr 0x63044d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftWindowsKey, addr 0x636c064, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_leftWindowsKey();
 
-  /// @brief Method get_mKey, addr 0x63043d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mKey, addr 0x636bf64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_mKey();
 
-  /// @brief Method get_minusKey, addr 0x6304368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minusKey, addr 0x636bef4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_minusKey();
 
-  /// @brief Method get_nKey, addr 0x63043e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nKey, addr 0x636bf6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_nKey();
 
-  /// @brief Method get_numLockKey, addr 0x6304580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numLockKey, addr 0x636c10c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numLockKey();
 
-  /// @brief Method get_numpad0Key, addr 0x63045d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numpad0Key, addr 0x636c15c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numpad0Key();
 
-  /// @brief Method get_numpad1Key, addr 0x63045d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numpad1Key, addr 0x636c164, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numpad1Key();
 
-  /// @brief Method get_numpad2Key, addr 0x63045e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numpad2Key, addr 0x636c16c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numpad2Key();
 
-  /// @brief Method get_numpad3Key, addr 0x63045e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numpad3Key, addr 0x636c174, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numpad3Key();
 
-  /// @brief Method get_numpad4Key, addr 0x63045f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numpad4Key, addr 0x636c17c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numpad4Key();
 
-  /// @brief Method get_numpad5Key, addr 0x63045f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numpad5Key, addr 0x636c184, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numpad5Key();
 
-  /// @brief Method get_numpad6Key, addr 0x6304600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numpad6Key, addr 0x636c18c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numpad6Key();
 
-  /// @brief Method get_numpad7Key, addr 0x6304608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numpad7Key, addr 0x636c194, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numpad7Key();
 
-  /// @brief Method get_numpad8Key, addr 0x6304610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numpad8Key, addr 0x636c19c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numpad8Key();
 
-  /// @brief Method get_numpad9Key, addr 0x6304618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numpad9Key, addr 0x636c1a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numpad9Key();
 
-  /// @brief Method get_numpadDivideKey, addr 0x63045a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numpadDivideKey, addr 0x636c12c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numpadDivideKey();
 
-  /// @brief Method get_numpadEnterKey, addr 0x6304598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numpadEnterKey, addr 0x636c124, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numpadEnterKey();
 
-  /// @brief Method get_numpadEqualsKey, addr 0x63045c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numpadEqualsKey, addr 0x636c154, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numpadEqualsKey();
 
-  /// @brief Method get_numpadMinusKey, addr 0x63045b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numpadMinusKey, addr 0x636c13c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numpadMinusKey();
 
-  /// @brief Method get_numpadMultiplyKey, addr 0x63045a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numpadMultiplyKey, addr 0x636c134, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numpadMultiplyKey();
 
-  /// @brief Method get_numpadPeriodKey, addr 0x63045c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numpadPeriodKey, addr 0x636c14c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numpadPeriodKey();
 
-  /// @brief Method get_numpadPlusKey, addr 0x63045b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numpadPlusKey, addr 0x636c144, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_numpadPlusKey();
 
-  /// @brief Method get_oKey, addr 0x63043e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_oKey, addr 0x636bf74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_oKey();
 
-  /// @brief Method get_oem1Key, addr 0x6304680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_oem1Key, addr 0x636c20c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_oem1Key();
 
-  /// @brief Method get_oem2Key, addr 0x6304688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_oem2Key, addr 0x636c214, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_oem2Key();
 
-  /// @brief Method get_oem3Key, addr 0x6304690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_oem3Key, addr 0x636c21c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_oem3Key();
 
-  /// @brief Method get_oem4Key, addr 0x6304698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_oem4Key, addr 0x636c224, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_oem4Key();
 
-  /// @brief Method get_oem5Key, addr 0x63046a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_oem5Key, addr 0x636c22c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_oem5Key();
 
-  /// @brief Method get_pKey, addr 0x63043f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pKey, addr 0x636bf7c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_pKey();
 
-  /// @brief Method get_pageDownKey, addr 0x6304540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pageDownKey, addr 0x636c0cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_pageDownKey();
 
-  /// @brief Method get_pageUpKey, addr 0x6304548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pageUpKey, addr 0x636c0d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_pageUpKey();
 
-  /// @brief Method get_pauseKey, addr 0x6304590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pauseKey, addr 0x636c11c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_pauseKey();
 
-  /// @brief Method get_periodKey, addr 0x6304340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_periodKey, addr 0x636becc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_periodKey();
 
-  /// @brief Method get_printScreenKey, addr 0x6304588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_printScreenKey, addr 0x636c114, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_printScreenKey();
 
-  /// @brief Method get_qKey, addr 0x63043f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_qKey, addr 0x636bf84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_qKey();
 
-  /// @brief Method get_quoteKey, addr 0x6304328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_quoteKey, addr 0x636beb4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_quoteKey();
 
-  /// @brief Method get_rKey, addr 0x6304400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rKey, addr 0x636bf8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_rKey();
 
-  /// @brief Method get_rightAltKey, addr 0x63044b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightAltKey, addr 0x636c03c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_rightAltKey();
 
-  /// @brief Method get_rightAppleKey, addr 0x63044f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightAppleKey, addr 0x636c07c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_rightAppleKey();
 
-  /// @brief Method get_rightArrowKey, addr 0x6304520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightArrowKey, addr 0x636c0ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_rightArrowKey();
 
-  /// @brief Method get_rightBracketKey, addr 0x6304360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightBracketKey, addr 0x636beec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_rightBracketKey();
 
-  /// @brief Method get_rightCommandKey, addr 0x6304500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightCommandKey, addr 0x636c08c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_rightCommandKey();
 
-  /// @brief Method get_rightCtrlKey, addr 0x63044c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightCtrlKey, addr 0x636c04c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_rightCtrlKey();
 
-  /// @brief Method get_rightMetaKey, addr 0x63044d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightMetaKey, addr 0x636c05c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_rightMetaKey();
 
-  /// @brief Method get_rightShiftKey, addr 0x63044a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightShiftKey, addr 0x636c02c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_rightShiftKey();
 
-  /// @brief Method get_rightWindowsKey, addr 0x63044e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightWindowsKey, addr 0x636c06c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_rightWindowsKey();
 
-  /// @brief Method get_sKey, addr 0x6304408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sKey, addr 0x636bf94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_sKey();
 
-  /// @brief Method get_scrollLockKey, addr 0x6304578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scrollLockKey, addr 0x636c104, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_scrollLockKey();
 
-  /// @brief Method get_semicolonKey, addr 0x6304330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_semicolonKey, addr 0x636bebc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_semicolonKey();
 
-  /// @brief Method get_shiftKey, addr 0x63046a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shiftKey, addr 0x636c234, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_shiftKey();
 
-  /// @brief Method get_slashKey, addr 0x6304348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_slashKey, addr 0x636bed4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_slashKey();
 
-  /// @brief Method get_spaceKey, addr 0x6304284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spaceKey, addr 0x636be10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_spaceKey();
 
-  /// @brief Method get_tKey, addr 0x6304410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tKey, addr 0x636bf9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_tKey();
 
-  /// @brief Method get_tabKey, addr 0x6304318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tabKey, addr 0x636bea4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_tabKey();
 
-  /// @brief Method get_uKey, addr 0x6304418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_uKey, addr 0x636bfa4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_uKey();
 
-  /// @brief Method get_upArrowKey, addr 0x6304528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_upArrowKey, addr 0x636c0b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_upArrowKey();
 
-  /// @brief Method get_vKey, addr 0x6304420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vKey, addr 0x636bfac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_vKey();
 
-  /// @brief Method get_wKey, addr 0x6304428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wKey, addr 0x636bfb4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_wKey();
 
-  /// @brief Method get_xKey, addr 0x6304430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xKey, addr 0x636bfbc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_xKey();
 
-  /// @brief Method get_yKey, addr 0x6304438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yKey, addr 0x636bfc4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_yKey();
 
-  /// @brief Method get_zKey, addr 0x6304440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zKey, addr 0x636bfcc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::KeyControl* get_zKey();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::ITextInputReceiver"
   constexpr ::UnityEngine::InputSystem::LowLevel::ITextInputReceiver* i___UnityEngine__InputSystem__LowLevel__ITextInputReceiver() noexcept;
 
-  /// @brief Method remove_onIMECompositionChange, addr 0x63040a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method remove_onIMECompositionChange, addr 0x636bc30, size 0x5c, virtual false, abstract: false, final false
   inline void remove_onIMECompositionChange(::System::Action_1<::UnityEngine::InputSystem::LowLevel::IMECompositionString>* value);
 
-  /// @brief Method remove_onTextInput, addr 0x6303f54, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method remove_onTextInput, addr 0x636bae0, size 0x5c, virtual false, abstract: false, final false
   inline void remove_onTextInput(::System::Action_1<char16_t>* value);
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Keyboard* value);
 
-  /// @brief Method set_altKey, addr 0x63046d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_altKey, addr 0x636c25c, size 0x8, virtual false, abstract: false, final false
   inline void set_altKey(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_anyKey, addr 0x630427c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_anyKey, addr 0x636be08, size 0x8, virtual false, abstract: false, final false
   inline void set_anyKey(::UnityEngine::InputSystem::Controls::AnyKeyControl* value);
 
-  /// @brief Method set_ctrlKey, addr 0x63046c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ctrlKey, addr 0x636c24c, size 0x8, virtual false, abstract: false, final false
   inline void set_ctrlKey(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_current, addr 0x630478c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x636c318, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Keyboard* value);
 
-  /// @brief Method set_imeSelected, addr 0x63046e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_imeSelected, addr 0x636c26c, size 0x8, virtual false, abstract: false, final false
   inline void set_imeSelected(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_keyboardLayout, addr 0x630426c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_keyboardLayout, addr 0x636bdf8, size 0x8, virtual false, abstract: false, final false
   inline void set_keyboardLayout(::StringW value);
 
-  /// @brief Method set_keys, addr 0x6305f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_keys, addr 0x636db20, size 0x8, virtual false, abstract: false, final false
   inline void set_keys(::ArrayW<::UnityEngine::InputSystem::Controls::KeyControl*, ::Array<::UnityEngine::InputSystem::Controls::KeyControl*>*> value);
 
-  /// @brief Method set_shiftKey, addr 0x63046b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shiftKey, addr 0x636c23c, size 0x8, virtual false, abstract: false, final false
   inline void set_shiftKey(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:
@@ -870,7 +870,7 @@ public:
   static constexpr int32_t KeyCount{ static_cast<int32_t>(0x6e) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8708 };
 
   /// @brief Field <anyKey>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AnyKeyControl* ____anyKey_k__BackingField;

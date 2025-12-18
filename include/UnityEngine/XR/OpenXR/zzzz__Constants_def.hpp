@@ -34,7 +34,7 @@ public:
   Constants(Constants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18467 };
 
   /// @brief Field k_SettingsKey offset 0xffffffff size 0x8
   static constexpr ::ConstString k_SettingsKey{ u"com.unity.xr.openxr.settings4" };

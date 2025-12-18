@@ -16,7 +16,7 @@ namespace GlobalNamespace {
 struct AudioManager_AudioFadeType;
 }
 namespace GlobalNamespace {
-class AudioManager__FadeMainVolume_d__46;
+class AudioManager__FadeMainVolume_d__47;
 }
 namespace GlobalNamespace {
 class GameScenesManager;
@@ -50,12 +50,12 @@ namespace GlobalNamespace {
 class AudioManager;
 }
 namespace GlobalNamespace {
-class AudioManager__FadeMainVolume_d__46;
+class AudioManager__FadeMainVolume_d__47;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::AudioManager_AudioFadeType);
 MARK_REF_PTR_T(::GlobalNamespace::AudioManager);
-MARK_REF_PTR_T(::GlobalNamespace::AudioManager__FadeMainVolume_d__46);
+MARK_REF_PTR_T(::GlobalNamespace::AudioManager__FadeMainVolume_d__47);
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -114,8 +114,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioManager_Au
 // Dependencies AudioManager::AudioFadeType, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: AudioManager/<FadeMainVolume>d__46
-class CORDL_TYPE AudioManager__FadeMainVolume_d__46 : public ::System::Object {
+// CS Name: AudioManager/<FadeMainVolume>d__47
+class CORDL_TYPE AudioManager__FadeMainVolume_d__47 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -155,21 +155,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x56a8840, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x57094f4, size 0x12c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::AudioManager__FadeMainVolume_d__46* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::AudioManager__FadeMainVolume_d__47* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x56a896c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5709620, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x56a8974, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5709628, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x56a89ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5709660, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x56a883c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x57094f0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -220,7 +220,7 @@ public:
 
   constexpr void __cordl_internal_set_fadeType(::GlobalNamespace::AudioManager_AudioFadeType value);
 
-  /// @brief Method .ctor, addr 0x56a880c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57094b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -235,16 +235,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AudioManager__FadeMainVolume_d__46();
+  constexpr AudioManager__FadeMainVolume_d__47();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioManager__FadeMainVolume_d__46", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioManager__FadeMainVolume_d__47", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AudioManager__FadeMainVolume_d__46(AudioManager__FadeMainVolume_d__46&&) = delete;
+  AudioManager__FadeMainVolume_d__47(AudioManager__FadeMainVolume_d__47&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioManager__FadeMainVolume_d__46", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioManager__FadeMainVolume_d__47", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioManager__FadeMainVolume_d__46(AudioManager__FadeMainVolume_d__46 const&) = delete;
+  AudioManager__FadeMainVolume_d__47(AudioManager__FadeMainVolume_d__47 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5554 };
@@ -276,23 +276,23 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::AudioManager__FadeMainVolume_d__46, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioManager__FadeMainVolume_d__47, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioManager__FadeMainVolume_d__46, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioManager__FadeMainVolume_d__47, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioManager__FadeMainVolume_d__46, ___fadeType) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioManager__FadeMainVolume_d__47, ___fadeType) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioManager__FadeMainVolume_d__46, _____4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioManager__FadeMainVolume_d__47, _____4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioManager__FadeMainVolume_d__46, ___duration) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioManager__FadeMainVolume_d__47, ___duration) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioManager__FadeMainVolume_d__46, ____fadeFrom_5__2) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioManager__FadeMainVolume_d__47, ____fadeFrom_5__2) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioManager__FadeMainVolume_d__46, ____fadeTo_5__3) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioManager__FadeMainVolume_d__47, ____fadeTo_5__3) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioManager__FadeMainVolume_d__46, ____timer_5__4) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioManager__FadeMainVolume_d__47, ____timer_5__4) == 0x3c, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioManager__FadeMainVolume_d__46, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioManager__FadeMainVolume_d__47, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies System.Object
@@ -304,7 +304,7 @@ public:
   // Declarations
   using AudioFadeType = ::GlobalNamespace::AudioManager_AudioFadeType;
 
-  using _FadeMainVolume_d__46 = ::GlobalNamespace::AudioManager__FadeMainVolume_d__46;
+  using _FadeMainVolume_d__47 = ::GlobalNamespace::AudioManager__FadeMainVolume_d__47;
 
   /// @brief Field _audioManagerConfig, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__audioManagerConfig, put = __cordl_internal_set__audioManagerConfig)) ::UnityW<::GlobalNamespace::AudioManagerConfigSO> _audioManagerConfig;
@@ -333,16 +333,19 @@ public:
   /// @brief Field _musicSpeed, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__musicSpeed, put = __cordl_internal_set__musicSpeed)) float_t _musicSpeed;
 
-  /// @brief Field _musicVolumeOffset, offset 0x48, size 0x4
+  /// @brief Field _musicVolume, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get__musicVolume, put = __cordl_internal_set__musicVolume)) float_t _musicVolume;
+
+  /// @brief Field _musicVolumeOffset, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get__musicVolumeOffset, put = __cordl_internal_set__musicVolumeOffset)) float_t _musicVolumeOffset;
 
-  /// @brief Field _sfxEnabled, offset 0x54, size 0x1
+  /// @brief Field _sfxEnabled, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get__sfxEnabled, put = __cordl_internal_set__sfxEnabled)) bool _sfxEnabled;
 
-  /// @brief Field _sfxVolume, offset 0x50, size 0x4
+  /// @brief Field _sfxVolume, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get__sfxVolume, put = __cordl_internal_set__sfxVolume)) float_t _sfxVolume;
 
-  /// @brief Field _sfxVolumeOffset, offset 0x4c, size 0x4
+  /// @brief Field _sfxVolumeOffset, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__sfxVolumeOffset, put = __cordl_internal_set__sfxVolumeOffset)) float_t _sfxVolumeOffset;
 
   __declspec(property(get = get_mainVolume, put = set_mainVolume)) float_t mainVolume;
@@ -361,31 +364,34 @@ public:
 
   __declspec(property(get = get_sfxVolume, put = set_sfxVolume)) float_t sfxVolume;
 
-  /// @brief Method FadeMainVolume, addr 0x56a8798, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FadeMainVolume, addr 0x5709444, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FadeMainVolume(::GlobalNamespace::AudioManager_AudioFadeType fadeType, float_t duration);
 
-  /// @brief Method Finalize, addr 0x56a8220, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5708ed0, size 0x110, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::GlobalNamespace::AudioManager* New_ctor(::GlobalNamespace::AudioManagerConfigSO* audioManagerConfig, ::GlobalNamespace::GameScenesManager* gameScenesManager,
                                                           ::GlobalNamespace::ICoroutineStarter* coroutineStarter);
 
-  /// @brief Method OnResetAudio, addr 0x56a8814, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnResetAudio, addr 0x57094c0, size 0x30, virtual false, abstract: false, final false
   inline void OnResetAudio();
 
-  /// @brief Method StartMainVolumeFade, addr 0x56a864c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method StartMainVolumeFade, addr 0x57092f8, size 0x14c, virtual false, abstract: false, final false
   inline void StartMainVolumeFade(::GlobalNamespace::AudioManager_AudioFadeType fadeType, float_t duration);
 
-  /// @brief Method UpdateMainVolume, addr 0x56a8348, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UpdateMainVolume, addr 0x5708ff8, size 0x8c, virtual false, abstract: false, final false
   inline void UpdateMainVolume();
 
-  /// @brief Method UpdateMusicPitch, addr 0x56a84d4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method UpdateMusicPitch, addr 0x5709180, size 0x114, virtual false, abstract: false, final false
   inline void UpdateMusicPitch();
 
-  /// @brief Method UpdateMusicSpeed, addr 0x56a85f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method UpdateMusicSpeed, addr 0x570929c, size 0x5c, virtual false, abstract: false, final false
   inline void UpdateMusicSpeed();
 
-  /// @brief Method UpdateSfxVolume, addr 0x56a8448, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method UpdateMusicVolume, addr 0x570908c, size 0x60, virtual false, abstract: false, final false
+  inline void UpdateMusicVolume();
+
+  /// @brief Method UpdateSfxVolume, addr 0x57090f4, size 0x74, virtual false, abstract: false, final false
   inline void UpdateSfxVolume();
 
   constexpr ::UnityW<::GlobalNamespace::AudioManagerConfigSO> const& __cordl_internal_get__audioManagerConfig() const;
@@ -424,6 +430,10 @@ public:
 
   constexpr float_t& __cordl_internal_get__musicSpeed();
 
+  constexpr float_t const& __cordl_internal_get__musicVolume() const;
+
+  constexpr float_t& __cordl_internal_get__musicVolume();
+
   constexpr float_t const& __cordl_internal_get__musicVolumeOffset() const;
 
   constexpr float_t& __cordl_internal_get__musicVolumeOffset();
@@ -458,6 +468,8 @@ public:
 
   constexpr void __cordl_internal_set__musicSpeed(float_t value);
 
+  constexpr void __cordl_internal_set__musicVolume(float_t value);
+
   constexpr void __cordl_internal_set__musicVolumeOffset(float_t value);
 
   constexpr void __cordl_internal_set__sfxEnabled(bool value);
@@ -466,40 +478,40 @@ public:
 
   constexpr void __cordl_internal_set__sfxVolumeOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x56a809c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5708d44, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::AudioManagerConfigSO* audioManagerConfig, ::GlobalNamespace::GameScenesManager* gameScenesManager, ::GlobalNamespace::ICoroutineStarter* coroutineStarter);
 
-  /// @brief Method get_mainVolume, addr 0x56a8338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainVolume, addr 0x5708fe8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_mainVolume();
 
-  /// @brief Method get_mainVolumeFade, addr 0x56a8330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainVolumeFade, addr 0x5708fe0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_mainVolumeFade();
 
-  /// @brief Method get_sfxEnabled, addr 0x56a84bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sfxEnabled, addr 0x5709168, size 0x8, virtual false, abstract: false, final false
   inline bool get_sfxEnabled();
 
-  /// @brief Method get_sfxLatency, addr 0x56a8030, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_sfxLatency, addr 0x5708cd8, size 0x6c, virtual false, abstract: false, final false
   inline float_t get_sfxLatency();
 
-  /// @brief Method get_sfxVolume, addr 0x56a8440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sfxVolume, addr 0x57090ec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sfxVolume();
 
-  /// @brief Method set_mainVolume, addr 0x56a8340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mainVolume, addr 0x5708ff0, size 0x8, virtual false, abstract: false, final false
   inline void set_mainVolume(float_t value);
 
-  /// @brief Method set_musicPitch, addr 0x56a84cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_musicPitch, addr 0x5709178, size 0x8, virtual false, abstract: false, final false
   inline void set_musicPitch(float_t value);
 
-  /// @brief Method set_musicSpeed, addr 0x56a85e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_musicSpeed, addr 0x5709294, size 0x8, virtual false, abstract: false, final false
   inline void set_musicSpeed(float_t value);
 
-  /// @brief Method set_musicVolume, addr 0x56a83d4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_musicVolume, addr 0x5709084, size 0x8, virtual false, abstract: false, final false
   inline void set_musicVolume(float_t value);
 
-  /// @brief Method set_sfxEnabled, addr 0x56a84c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sfxEnabled, addr 0x5709170, size 0x8, virtual false, abstract: false, final false
   inline void set_sfxEnabled(bool value);
 
-  /// @brief Method set_sfxVolume, addr 0x56a74bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sfxVolume, addr 0x5708164, size 0x8, virtual false, abstract: false, final false
   inline void set_sfxVolume(float_t value);
 
 protected:
@@ -576,16 +588,19 @@ public:
   /// @brief Field _musicSpeed, offset: 0x44, size: 0x4, def value: None
   float_t ____musicSpeed;
 
-  /// @brief Field _musicVolumeOffset, offset: 0x48, size: 0x4, def value: None
+  /// @brief Field _musicVolume, offset: 0x48, size: 0x4, def value: None
+  float_t ____musicVolume;
+
+  /// @brief Field _musicVolumeOffset, offset: 0x4c, size: 0x4, def value: None
   float_t ____musicVolumeOffset;
 
-  /// @brief Field _sfxVolumeOffset, offset: 0x4c, size: 0x4, def value: None
+  /// @brief Field _sfxVolumeOffset, offset: 0x50, size: 0x4, def value: None
   float_t ____sfxVolumeOffset;
 
-  /// @brief Field _sfxVolume, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field _sfxVolume, offset: 0x54, size: 0x4, def value: None
   float_t ____sfxVolume;
 
-  /// @brief Field _sfxEnabled, offset: 0x54, size: 0x1, def value: None
+  /// @brief Field _sfxEnabled, offset: 0x58, size: 0x1, def value: None
   bool ____sfxEnabled;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -609,19 +624,21 @@ static_assert(offsetof(::GlobalNamespace::AudioManager, ____musicPitch) == 0x40,
 
 static_assert(offsetof(::GlobalNamespace::AudioManager, ____musicSpeed) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioManager, ____musicVolumeOffset) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioManager, ____musicVolume) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioManager, ____sfxVolumeOffset) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioManager, ____musicVolumeOffset) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioManager, ____sfxVolume) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioManager, ____sfxVolumeOffset) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioManager, ____sfxEnabled) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioManager, ____sfxVolume) == 0x54, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioManager, 0x58>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioManager, ____sfxEnabled) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioManager, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioManager_AudioFadeType, "", "AudioManager/AudioFadeType");
 NEED_NO_BOX(::GlobalNamespace::AudioManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioManager*, "", "AudioManager");
-NEED_NO_BOX(::GlobalNamespace::AudioManager__FadeMainVolume_d__46);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioManager__FadeMainVolume_d__46*, "", "AudioManager/<FadeMainVolume>d__46");
+NEED_NO_BOX(::GlobalNamespace::AudioManager__FadeMainVolume_d__47);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioManager__FadeMainVolume_d__47*, "", "AudioManager/<FadeMainVolume>d__47");

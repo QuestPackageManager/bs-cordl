@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::Rendering::XRPass* (*)(::UnityEngine::Experimental::Rendering::XRPassCreateInfo)>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::Create)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x66c8af0;
+  constexpr static std::size_t addrs = 0x673067c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::XRPassUniversal::*)()>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::Release)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x66c8bdc;
+  constexpr static std::size_t addrs = 0x6730768;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::XRPassUniversal::*)()>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::get_isLateLatchEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66c8c50;
+  constexpr static std::size_t addrs = 0x67307dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::XRPassUniversal*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::XRPassUniversal::*)(bool)>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::set_isLateLatchEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66c8c58;
+  constexpr static std::size_t addrs = 0x67307e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::XRPassUniversal::*)()>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::get_canMarkLateLatch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66c8c60;
+  constexpr static std::size_t addrs = 0x67307ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::XRPassUniversal*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::XRPassUniversal::*)(bool)>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::set_canMarkLateLatch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66c8c68;
+  constexpr static std::size_t addrs = 0x67307f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::XRPassUniversal::*)()>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::get_hasMarkedLateLatch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66c8c70;
+  constexpr static std::size_t addrs = 0x67307fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::XRPassUniversal*>::get(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::XRPassUniversal::*)(bool)>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::set_hasMarkedLateLatch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66c8c78;
+  constexpr static std::size_t addrs = 0x6730804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::XRPassUniversal::*)()>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::get_canFoveateIntermediatePasses)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66c8c80;
+  constexpr static std::size_t addrs = 0x673080c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::XRPassUniversal::*)(bool)>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::set_canFoveateIntermediatePasses)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66c8c88;
+  constexpr static std::size_t addrs = 0x6730814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::XRPassUniversal::*)()>(
     &::UnityEngine::Rendering::Universal::XRPassUniversal::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66c8c90;
+  constexpr static std::size_t addrs = 0x673081c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::XRPassUniversal*>::get(),

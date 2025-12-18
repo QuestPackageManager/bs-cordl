@@ -30,7 +30,7 @@ public:
   constexpr InstanceCullerViewStats(::UnityEngine::Rendering::BatchCullingViewType viewType, int32_t viewInstanceID, int32_t splitIndex, int32_t visibleInstances, int32_t drawCommands) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17576 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17590 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

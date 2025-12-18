@@ -33,15 +33,15 @@ public:
   /// @brief Field m_shouldReceiveShadows, offset 0xb8, size 0x1
   __declspec(property(get = __cordl_internal_get_m_shouldReceiveShadows, put = __cordl_internal_set_m_shouldReceiveShadows)) bool m_shouldReceiveShadows;
 
-  /// @brief Method Execute, addr 0x6689028, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x66f0bb4, size 0xcc, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x66890f4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x66f0c80, size 0x90, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* rasterCommandBuffer);
 
   static inline ::UnityEngine::Rendering::Universal::TransparentSettingsPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, bool shadowReceiveSupported);
 
-  /// @brief Method Setup, addr 0x6689018, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x66f0ba4, size 0x10, virtual false, abstract: false, final false
   inline bool Setup();
 
   constexpr bool const& __cordl_internal_get_m_shouldReceiveShadows() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_m_shouldReceiveShadows(bool value);
 
-  /// @brief Method .ctor, addr 0x6688f44, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66f0ad0, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, bool shadowReceiveSupported);
 
 protected:
@@ -68,7 +68,7 @@ public:
   TransparentSettingsPass(TransparentSettingsPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12861 };
 
   /// @brief Field m_shouldReceiveShadows, offset: 0xb8, size: 0x1, def value: None
   bool ___m_shouldReceiveShadows;

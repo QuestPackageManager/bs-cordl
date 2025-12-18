@@ -174,7 +174,7 @@ namespace UnityEngine::UIElements::UIR {
 struct CORDL_TYPE MeshGenerator_BorderParams {
 public:
   // Declarations
-  /// @brief Method ToNativeParams, addr 0x6aaedec, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ToNativeParams, addr 0x6b17c70, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams ToNativeParams();
 
   // Ctor Parameters []
@@ -307,46 +307,46 @@ namespace UnityEngine::UIElements::UIR {
 struct CORDL_TYPE MeshGenerator_RectangleParams {
 public:
   // Declarations
-  /// @brief Method AdjustSpriteUVsForScaleMode, addr 0x6aaf02c, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method AdjustSpriteUVsForScaleMode, addr 0x6b17eb0, size 0x304, virtual false, abstract: false, final false
   static inline void AdjustSpriteUVsForScaleMode(::UnityEngine::Rect containerRect, ::UnityEngine::Rect srcRect, ::UnityEngine::Rect spriteGeomRect, ::UnityEngine::Sprite* sprite,
                                                  ::UnityEngine::ScaleMode scaleMode, ::ByRef<::UnityEngine::Rect> rectOut, ::ByRef<::UnityEngine::Rect> uvOut);
 
-  /// @brief Method AdjustUVsForScaleMode, addr 0x6aaee90, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method AdjustUVsForScaleMode, addr 0x6b17d14, size 0x19c, virtual false, abstract: false, final false
   static inline void AdjustUVsForScaleMode(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::Texture* texture, ::UnityEngine::ScaleMode scaleMode, ::ByRef<::UnityEngine::Rect> rectOut,
                                            ::ByRef<::UnityEngine::Rect> uvOut);
 
-  /// @brief Method ApplyPackingRotation, addr 0x6aaf498, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ApplyPackingRotation, addr 0x6b1831c, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect ApplyPackingRotation(::UnityEngine::Rect uv, ::UnityEngine::SpritePackingRotation rotation);
 
-  /// @brief Method ComputeGeomRect, addr 0x6aaf330, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ComputeGeomRect, addr 0x6b181b4, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect ComputeGeomRect(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method ComputeUVRect, addr 0x6aaf3e4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ComputeUVRect, addr 0x6b18268, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect ComputeUVRect(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method HasRadius, addr 0x6aaffb4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HasRadius, addr 0x6b18e38, size 0x74, virtual false, abstract: false, final false
   inline bool HasRadius(float_t epsilon);
 
-  /// @brief Method HasSlices, addr 0x6aae480, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HasSlices, addr 0x6b17304, size 0x4c, virtual false, abstract: false, final false
   inline bool HasSlices(float_t epsilon);
 
-  /// @brief Method MakeSprite, addr 0x6aaf5e4, size 0x944, virtual false, abstract: false, final false
+  /// @brief Method MakeSprite, addr 0x6b18468, size 0x944, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams MakeSprite(::UnityEngine::Rect containerRect, ::UnityEngine::Rect subRect, ::UnityEngine::Sprite* sprite,
                                                                                          ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::Color playModeTintColor, bool hasRadius,
                                                                                          ::ByRef<::UnityEngine::Vector4> slices, bool useForRepeat);
 
-  /// @brief Method MakeTextured, addr 0x6aaf4e8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method MakeTextured, addr 0x6b1836c, size 0xfc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams MakeTextured(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::Texture* texture,
                                                                                            ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::Color playModeTintColor);
 
-  /// @brief Method MakeVectorTextured, addr 0x6aaff28, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MakeVectorTextured, addr 0x6b18dac, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams MakeVectorTextured(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::UIElements::VectorImage* vectorImage,
                                                                                                  ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::Color playModeTintColor);
 
-  /// @brief Method RectIntersection, addr 0x6aae4cc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method RectIntersection, addr 0x6b17350, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect RectIntersection(::UnityEngine::Rect a, ::UnityEngine::Rect b);
 
-  /// @brief Method ToNativeParams, addr 0x6aaca88, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ToNativeParams, addr 0x6b1590c, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams ToNativeParams();
 
   // Ctor Parameters []
@@ -615,20 +615,20 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method DrawBorder, addr 0x6ab0198, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method DrawBorder, addr 0x6b1901c, size 0x270, virtual false, abstract: false, final false
   inline void DrawBorder(::UnityEngine::UIElements::UnsafeMeshGenerationNode node, ::ByRef<::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams> borderParams);
 
-  /// @brief Method DrawRectangle, addr 0x6ab0b54, size 0x920, virtual false, abstract: false, final false
+  /// @brief Method DrawRectangle, addr 0x6b199d8, size 0x920, virtual false, abstract: false, final false
   inline void DrawRectangle(::UnityEngine::UIElements::UnsafeMeshGenerationNode node, ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams> rectParams, ::UnityEngine::Texture* tex);
 
-  /// @brief Method DrawSprite, addr 0x6ab0808, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method DrawSprite, addr 0x6b1968c, size 0x34c, virtual false, abstract: false, final false
   inline void DrawSprite(::UnityEngine::UIElements::UnsafeMeshGenerationNode node, ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams> rectParams, ::UnityEngine::Sprite* sprite);
 
-  /// @brief Method DrawVectorImage, addr 0x6ab0408, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method DrawVectorImage, addr 0x6b1928c, size 0x400, virtual false, abstract: false, final false
   inline void DrawVectorImage(::UnityEngine::UIElements::UnsafeMeshGenerationNode node, ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams> rectParams,
                               ::UnityEngine::UIElements::VectorImage* vi);
 
-  /// @brief Method Execute, addr 0x6ab0028, size 0x170, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6b18eac, size 0x170, virtual true, abstract: false, final true
   inline void Execute(int32_t i);
 
   /// @brief Method ExtractHandle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

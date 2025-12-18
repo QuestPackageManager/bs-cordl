@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::UnityEngine::Rendering::DrawRange> (::UnityEngine::Rendering::CreateDrawBatchesJob::*)(
     ::ByRef<::UnityEngine::Rendering::RangeKey>)>(&::UnityEngine::Rendering::CreateDrawBatchesJob::EditDrawRange)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x65fe01c;
+  constexpr static std::size_t addrs = 0x6665ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::UnityEngine::Rendering::DrawBatch> (::UnityEngine::Rendering::CreateDrawBatchesJob::*)(
     ::ByRef<::UnityEngine::Rendering::DrawKey>, ::ByRef<::UnityEngine::Rendering::SubMeshDescriptor>)>(&::UnityEngine::Rendering::CreateDrawBatchesJob::EditDrawBatch)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x65fe194;
+  constexpr static std::size_t addrs = 0x6665d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CreateDrawBatchesJob::*)(int32_t)>(
     &::UnityEngine::Rendering::CreateDrawBatchesJob::ProcessRenderer)> {
   constexpr static std::size_t size = 0x69c;
-  constexpr static std::size_t addrs = 0x65fe340;
+  constexpr static std::size_t addrs = 0x6665ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CreateDrawBatchesJob::*)()>(
     &::UnityEngine::Rendering::CreateDrawBatchesJob::Execute)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x65fe9dc;
+  constexpr static std::size_t addrs = 0x6666568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CreateDrawBatchesJob>::get(), "Execute",

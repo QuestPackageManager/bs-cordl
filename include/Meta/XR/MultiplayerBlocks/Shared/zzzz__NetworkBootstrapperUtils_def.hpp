@@ -36,13 +36,13 @@ namespace Meta::XR::MultiplayerBlocks::Shared {
 class CORDL_TYPE NetworkBootstrapperUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method OnColocationFailed, addr 0x585ccec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnColocationFailed, addr 0x58c3450, size 0xac, virtual false, abstract: false, final false
   static inline void OnColocationFailed(::Meta::XR::MultiplayerBlocks::Colocation::ColocationFailedReason e);
 
-  /// @brief Method SetEntitlementIds, addr 0x585c5dc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetEntitlementIds, addr 0x58c2d40, size 0x40, virtual false, abstract: false, final false
   static inline void SetEntitlementIds(::Meta::XR::MultiplayerBlocks::Shared::PlatformInfo info, ::ByRef<::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperParams> param);
 
-  /// @brief Method SetUpAndStartAutomaticColocation, addr 0x585c61c, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method SetUpAndStartAutomaticColocation, addr 0x58c2d80, size 0x388, virtual false, abstract: false, final false
   static inline void SetUpAndStartAutomaticColocation(::ByRef<::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperParams> param, ::UnityEngine::GameObject* anchorPrefab,
                                                       ::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* networkData,
                                                       ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* networkMessenger);
@@ -62,7 +62,7 @@ public:
   NetworkBootstrapperUtils(NetworkBootstrapperUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20315 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20340 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

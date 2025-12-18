@@ -24,10 +24,10 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE ComponentUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsUniversalCamera, addr 0x661ccfc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsUniversalCamera, addr 0x6684888, size 0x94, virtual false, abstract: false, final false
   static inline bool IsUniversalCamera(::UnityEngine::Camera* camera);
 
-  /// @brief Method IsUniversalLight, addr 0x661cd90, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsUniversalLight, addr 0x668491c, size 0x94, virtual false, abstract: false, final false
   static inline bool IsUniversalLight(::UnityEngine::Light* light);
 
 protected:
@@ -45,7 +45,7 @@ public:
   ComponentUtility(ComponentUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12543 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12547 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

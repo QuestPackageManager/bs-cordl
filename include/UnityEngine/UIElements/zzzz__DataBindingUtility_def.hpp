@@ -51,19 +51,19 @@ public:
 
   static inline ::UnityEngine::UIElements::DataBindingUtility___c* New_ctor();
 
-  /// @brief Method <.cctor>b__23_0, addr 0x6a10b8c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__23_0, addr 0x6a79a10, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Internal::TypePathVisitor* __cctor_b__23_0();
 
-  /// @brief Method <.cctor>b__23_1, addr 0x6a10bd0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__23_1, addr 0x6a79a54, size 0x28, virtual false, abstract: false, final false
   inline void __cctor_b__23_1(::UnityEngine::UIElements::Internal::TypePathVisitor* v);
 
-  /// @brief Method <.cctor>b__23_2, addr 0x6a10bf8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__23_2, addr 0x6a79a7c, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* __cctor_b__23_2();
 
-  /// @brief Method <.cctor>b__23_3, addr 0x6a10c50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__23_3, addr 0x6a79ad4, size 0x18, virtual false, abstract: false, final false
   inline void __cctor_b__23_3(::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* v);
 
-  /// @brief Method .ctor, addr 0x6a10b88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a79a0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::DataBindingUtility___c* getStaticF___9();
@@ -112,7 +112,7 @@ public:
   /// @brief Field s_ReplaceIndices, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ReplaceIndices, put = setStaticF_s_ReplaceIndices)) ::System::Text::RegularExpressions::Regex* s_ReplaceIndices;
 
-  /// @brief Method TryGetBinding, addr 0x6a106a0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method TryGetBinding, addr 0x6a79524, size 0x184, virtual false, abstract: false, final false
   static inline bool TryGetBinding(::UnityEngine::UIElements::VisualElement* element, ::ByRef<::UnityEngine::UIElements::BindingId> bindingId,
                                    ::ByRef<::UnityEngine::UIElements::BindingInfo> bindingInfo);
 

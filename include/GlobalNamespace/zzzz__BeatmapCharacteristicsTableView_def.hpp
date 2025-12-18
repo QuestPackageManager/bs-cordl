@@ -71,33 +71,33 @@ public:
   /// @brief Convert operator to "::HMUI::TableView_IDataSource"
   constexpr operator ::HMUI::TableView_IDataSource*() noexcept;
 
-  /// @brief Method CellForIdx, addr 0x56e0df4, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x573dce0, size 0x1c4, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method CellSize, addr 0x56e0d30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x573dc1c, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize(int32_t idx);
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x56e10a4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x573df90, size 0xa4, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
-  /// @brief Method HandleDidSelectColumnEvent, addr 0x56e0fb8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectColumnEvent, addr 0x573dea4, size 0xec, virtual false, abstract: false, final false
   inline void HandleDidSelectColumnEvent(::HMUI::TableView* tableView, int32_t column);
 
-  /// @brief Method Init, addr 0x56e0bd4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x573da68, size 0xcc, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::BeatmapCharacteristicsTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x56e0d38, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x573dc24, size 0xbc, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method OnDestroy, addr 0x56e0ca0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x573db8c, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SelectCellWithIdx, addr 0x56d0614, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithIdx, addr 0x573e034, size 0x1c, virtual false, abstract: false, final false
   inline void SelectCellWithIdx(int32_t idx);
 
-  /// @brief Method SetData, addr 0x56d07f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x573db34, size 0x58, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& __cordl_internal_get__beatmapCharacteristicCollection() const;
@@ -148,16 +148,16 @@ public:
 
   constexpr void __cordl_internal_set_didSelectCharacteristic(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  /// @brief Method .ctor, addr 0x56e1148, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x573e050, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectCharacteristic, addr 0x56d0554, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectCharacteristic, addr 0x573d8e8, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectCharacteristic(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
   /// @brief Convert to "::HMUI::TableView_IDataSource"
   constexpr ::HMUI::TableView_IDataSource* i___HMUI__TableView_IDataSource() noexcept;
 
-  /// @brief Method remove_didSelectCharacteristic, addr 0x56d06dc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectCharacteristic, addr 0x573d9a8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectCharacteristic(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
 protected:
@@ -175,7 +175,7 @@ public:
   BeatmapCharacteristicsTableView(BeatmapCharacteristicsTableView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6552 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6545 };
 
   /// @brief Field _tableView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::TableView> ____tableView;

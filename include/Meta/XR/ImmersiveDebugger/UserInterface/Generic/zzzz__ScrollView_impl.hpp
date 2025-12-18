@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::ScrollRect> (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::get_ScrollRect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x584768c;
+  constexpr static std::size_t addrs = 0x58addf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex> (
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::get_Flex)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5847694;
+  constexpr static std::size_t addrs = 0x58addf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::get_Progress)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5845728;
+  constexpr static std::size_t addrs = 0x58abe8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::*)(float_t)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::set_Progress)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5845704;
+  constexpr static std::size_t addrs = 0x58abe68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::Setup)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x58476ac;
+  constexpr static std::size_t addrs = 0x58ade10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::RefreshLayoutPreChildren)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x58477ec;
+  constexpr static std::size_t addrs = 0x58adf50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::RefreshLayoutPostChildren)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x584781c;
+  constexpr static std::size_t addrs = 0x58adf80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5847858;
+  constexpr static std::size_t addrs = 0x58adfbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

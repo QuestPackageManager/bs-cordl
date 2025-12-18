@@ -63,46 +63,46 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>*();
 
-  /// @brief Method Equals, addr 0x6a60cac, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6ac9b30, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6a60c88, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6ac9b0c, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TimeValue other);
 
-  /// @brief Method GetHashCode, addr 0x6a60d40, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6ac9bc4, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6a60d64, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6ac9be8, size 0xf8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6a60c28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac9aac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value);
 
-  /// @brief Method .ctor, addr 0x6a60c34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac9ab8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::TimeUnit unit);
 
-  /// @brief Method get_unit, addr 0x6a60c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unit, addr 0x6ac9a9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TimeUnit get_unit();
 
-  /// @brief Method get_value, addr 0x6a60c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x6ac9a8c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>* i___System__IEquatable_1___UnityEngine__UIElements__TimeValue_();
 
-  /// @brief Method op_Equality, addr 0x6a60c48, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6ac9acc, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TimeValue lhs, ::UnityEngine::UIElements::TimeValue rhs);
 
-  /// @brief Method op_Implicit, addr 0x6a60c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6ac9ac4, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TimeValue op_Implicit___UnityEngine__UIElements__TimeValue(float_t value);
 
-  /// @brief Method op_Inequality, addr 0x6a60c68, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6ac9aec, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::TimeValue lhs, ::UnityEngine::UIElements::TimeValue rhs);
 
-  /// @brief Method set_unit, addr 0x6a60c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unit, addr 0x6ac9aa4, size 0x8, virtual false, abstract: false, final false
   inline void set_unit(::UnityEngine::UIElements::TimeUnit value);
 
-  /// @brief Method set_value, addr 0x6a60c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x6ac9a94, size 0x8, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
   // Ctor Parameters []
@@ -152,12 +152,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6a61048, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6ac9ecc, size 0x8, virtual true, abstract: false, final false
   inline float_t GetValue(::ByRef<::UnityEngine::UIElements::TimeValue> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6a61050, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6ac9ed4, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::ByRef<::UnityEngine::UIElements::TimeValue> container, float_t value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -172,13 +172,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6a60f70, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac9df4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6a61040, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6ac9ec4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6a61038, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6ac9ebc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -231,12 +231,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6a61068, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6ac9eec, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::TimeUnit GetValue(::ByRef<::UnityEngine::UIElements::TimeValue> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6a61070, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6ac9ef4, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::ByRef<::UnityEngine::UIElements::TimeValue> container, ::UnityEngine::UIElements::TimeUnit value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -251,13 +251,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6a60fd4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac9e58, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6a61060, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6ac9ee4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6a61058, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6ac9edc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -306,7 +306,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TimeValue_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a60e5c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac9ce0, size 0x114, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

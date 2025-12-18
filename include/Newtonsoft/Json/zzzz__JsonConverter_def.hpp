@@ -48,13 +48,13 @@ public:
   /// @brief Method WriteJson, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x5ac1e58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b28938, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CanRead, addr 0x5ac1e48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x5b28928, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanWrite, addr 0x5ac1e50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x5b28930, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
 protected:
@@ -72,7 +72,7 @@ public:
   JsonConverter(JsonConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13218 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13222 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

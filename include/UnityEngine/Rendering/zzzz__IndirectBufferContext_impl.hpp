@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::IndirectBufferContext::*)(::Unity::Jobs::JobHandle)>(
     &::UnityEngine::Rendering::IndirectBufferContext::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x660fd24;
+  constexpr static std::size_t addrs = 0x66778b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::IndirectBufferContext::*)(
     ::UnityEngine::Rendering::IndirectBufferContext_BufferState, int32_t, int32_t)>(&::UnityEngine::Rendering::IndirectBufferContext::Matches)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x660fd34;
+  constexpr static std::size_t addrs = 0x66778c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

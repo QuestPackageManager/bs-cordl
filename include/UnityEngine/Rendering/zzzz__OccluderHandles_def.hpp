@@ -23,13 +23,13 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE OccluderHandles {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x660f8f4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6677480, size 0x120, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method UseForOccluderUpdate, addr 0x660fb74, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method UseForOccluderUpdate, addr 0x6677700, size 0x160, virtual false, abstract: false, final false
   inline void UseForOccluderUpdate(::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* builder);
 
-  /// @brief Method UseForOcclusionTest, addr 0x660fa14, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method UseForOcclusionTest, addr 0x66775a0, size 0x160, virtual false, abstract: false, final false
   inline void UseForOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* builder);
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
   constexpr OccluderHandles(::UnityEngine::Rendering::RenderGraphModule::TextureHandle occluderDepthPyramid, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle occlusionDebugOverlay) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17702 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

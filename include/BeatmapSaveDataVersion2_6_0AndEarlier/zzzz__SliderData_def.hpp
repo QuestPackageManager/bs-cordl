@@ -176,46 +176,46 @@ public:
 
   constexpr void __cordl_internal_set__tailTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x3635cb8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x366213c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion2_6_0AndEarlier::ColorType colorType, float_t headTime, int32_t headLineIndex, ::BeatmapSaveDataCommon::NoteLineLayer headLineLayer,
                     float_t headControlPointLengthMultiplier, ::BeatmapSaveDataCommon::NoteCutDirection headCutDirection, float_t tailTime, int32_t tailLineIndex,
                     ::BeatmapSaveDataCommon::NoteLineLayer tailLineLayer, float_t tailControlPointLengthMultiplier, ::BeatmapSaveDataCommon::NoteCutDirection tailCutDirection,
                     ::BeatmapSaveDataCommon::SliderMidAnchorMode sliderMidAnchorMode);
 
-  /// @brief Method get_colorType, addr 0x3635c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x36620e4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::ColorType get_colorType();
 
-  /// @brief Method get_headControlPointLengthMultiplier, addr 0x3635c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headControlPointLengthMultiplier, addr 0x36620fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_headControlPointLengthMultiplier();
 
-  /// @brief Method get_headCutDirection, addr 0x3635c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headCutDirection, addr 0x3662104, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteCutDirection get_headCutDirection();
 
-  /// @brief Method get_headLineIndex, addr 0x3635c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headLineIndex, addr 0x36620ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_headLineIndex();
 
-  /// @brief Method get_headLineLayer, addr 0x3635c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headLineLayer, addr 0x36620f4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteLineLayer get_headLineLayer();
 
-  /// @brief Method get_sliderMidAnchorMode, addr 0x3635cb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sliderMidAnchorMode, addr 0x3662134, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::SliderMidAnchorMode get_sliderMidAnchorMode();
 
-  /// @brief Method get_tailControlPointLengthMultiplier, addr 0x3635ca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailControlPointLengthMultiplier, addr 0x3662124, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tailControlPointLengthMultiplier();
 
-  /// @brief Method get_tailCutDirection, addr 0x3635ca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailCutDirection, addr 0x366212c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteCutDirection get_tailCutDirection();
 
-  /// @brief Method get_tailLineIndex, addr 0x3635c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailLineIndex, addr 0x3662114, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_tailLineIndex();
 
-  /// @brief Method get_tailLineLayer, addr 0x3635c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailLineLayer, addr 0x366211c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteLineLayer get_tailLineLayer();
 
-  /// @brief Method get_tailTime, addr 0x3635c88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailTime, addr 0x366210c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tailTime();
 
-  /// @brief Method get_time, addr 0x3635c58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_time, addr 0x36620dc, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
 protected:
@@ -233,7 +233,7 @@ public:
   SliderData(SliderData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15359 };
 
   /// @brief Field _colorType, offset: 0x10, size: 0x4, def value: None
   ::BeatmapSaveDataVersion2_6_0AndEarlier::ColorType ____colorType;

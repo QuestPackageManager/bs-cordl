@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::TouchPressControl::*)()>(
     &::UnityEngine::InputSystem::Controls::TouchPressControl::FinishSetup)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x62def48;
+  constexpr static std::size_t addrs = 0x6346ad4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::TouchPressControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::TouchPressControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x62df048;
+  constexpr static std::size_t addrs = 0x6346bd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::TouchPressControl::*)(float_t, void*)>(
     &::UnityEngine::InputSystem::Controls::TouchPressControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x62df2e8;
+  constexpr static std::size_t addrs = 0x6346e74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::TouchPressControl::*)()>(
     &::UnityEngine::InputSystem::Controls::TouchPressControl::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62df320;
+  constexpr static std::size_t addrs = 0x6346eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::TouchPressControl*>::get(),

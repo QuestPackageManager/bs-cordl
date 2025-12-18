@@ -121,7 +121,7 @@ public:
   constexpr UnsafeRingQueue_1(T* Ptr, ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator, int32_t m_Capacity, int32_t m_Filled, int32_t m_Write, int32_t m_Read) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15783 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

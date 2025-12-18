@@ -104,7 +104,7 @@ public:
   constexpr ReadOnlyArray_1_Enumerator(::ArrayW<TValue, ::Array<TValue>*> m_Array, int32_t m_IndexStart, int32_t m_IndexEnd, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9168 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9172 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -203,7 +203,7 @@ public:
   constexpr ReadOnlyArray_1(::ArrayW<TValue, ::Array<TValue>*> m_Array, int32_t m_StartIndex, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9169 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9173 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

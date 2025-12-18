@@ -29,19 +29,19 @@ public:
 
   __declspec(property(get = get_Value, put = set_Value)) ::System::Object* Value;
 
-  /// @brief Method CanCache, addr 0x595e1d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CanCache, addr 0x59c4b1c, size 0xc, virtual false, abstract: false, final false
   static inline bool CanCache(::System::Resources::ResourceTypeCode value);
 
-  /// @brief Method .ctor, addr 0x595e1dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c4b28, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t dataPos, ::System::Object* value);
 
-  /// @brief Method get_DataPosition, addr 0x59635fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataPosition, addr 0x59c9f48, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DataPosition();
 
-  /// @brief Method get_Value, addr 0x5963604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x59c9f50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method set_Value, addr 0x596360c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x59c9f58, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::System::Object* value);
 
   // Ctor Parameters []

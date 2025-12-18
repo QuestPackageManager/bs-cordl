@@ -19,30 +19,30 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DocumentationInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetDefaultPackageLink, addr 0x65694c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultPackageLink, addr 0x65d1050, size 0xb0, virtual false, abstract: false, final false
   static inline ::StringW GetDefaultPackageLink(::StringW packageName);
 
-  /// @brief Method GetDefaultPackageLink, addr 0x6569434, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultPackageLink, addr 0x65d0fc0, size 0x90, virtual false, abstract: false, final false
   static inline ::StringW GetDefaultPackageLink(::StringW packageName, ::StringW packageVersion);
 
-  /// @brief Method GetPackageLink, addr 0x6568fc4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetPackageLink, addr 0x65d0b50, size 0x158, virtual false, abstract: false, final false
   static inline ::StringW GetPackageLink(::StringW packageName, ::StringW packageVersion, ::StringW pageName);
 
-  /// @brief Method GetPackageLink, addr 0x656911c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetPackageLink, addr 0x65d0ca8, size 0x194, virtual false, abstract: false, final false
   static inline ::StringW GetPackageLink(::StringW packageName, ::StringW packageVersion, ::StringW pageName, ::StringW pageHash);
 
-  /// @brief Method GetPageLink, addr 0x65692b0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetPageLink, addr 0x65d0e3c, size 0x184, virtual false, abstract: false, final false
   static inline ::StringW GetPageLink(::StringW packageName, ::StringW pageName);
 
-  /// @brief Method GetPageLink, addr 0x6568cd4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetPageLink, addr 0x65d0860, size 0x1b8, virtual false, abstract: false, final false
   static inline ::StringW GetPageLink(::StringW packageName, ::StringW pageName, ::StringW pageHash);
 
   static inline ::UnityEngine::Rendering::DocumentationInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6569574, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65d1100, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_version, addr 0x6568f80, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x65d0b0c, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW get_version();
 
 protected:
@@ -60,7 +60,7 @@ public:
   DocumentationInfo(DocumentationInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12045 };
 
   /// @brief Field fallbackVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString fallbackVersion{ u"13.1" };

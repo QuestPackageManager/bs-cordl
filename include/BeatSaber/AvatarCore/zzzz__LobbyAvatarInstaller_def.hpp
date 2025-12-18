@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(LobbyAvatarInstaller)
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberConnectedPlayer;
 }
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
@@ -22,20 +22,20 @@ class CORDL_TYPE LobbyAvatarInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
   /// @brief Field _connectedPlayer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* _connectedPlayer;
 
-  /// @brief Method InstallBindings, addr 0x31700b8, size 0x300, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x319fdac, size 0x300, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::BeatSaber::AvatarCore::LobbyAvatarInstaller* New_ctor();
 
-  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
-  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
-  /// @brief Method .ctor, addr 0x31703b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31a00ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,10 +53,10 @@ public:
   LobbyAvatarInstaller(LobbyAvatarInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21436 };
 
   /// @brief Field _connectedPlayer, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
+  ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

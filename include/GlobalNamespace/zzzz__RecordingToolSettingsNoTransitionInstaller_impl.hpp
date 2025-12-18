@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller__WaitForTransition_d__3::*)()>(
     &::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller__WaitForTransition_d__3::MoveNext)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x571c67c;
+  constexpr static std::size_t addrs = 0x577a528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller__WaitForTransition_d__3::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller__WaitForTransition_d__3::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x571c8e0;
+  constexpr static std::size_t addrs = 0x577a78c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x571c384;
+  constexpr static std::size_t addrs = 0x577a230;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +102,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::*)(::GlobalNamespace::RecordingToolSceneSetupData*)>(
         &::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::WaitForTransition)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x571c5b4;
+  constexpr static std::size_t addrs = 0x577a460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::*)()>(
     &::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x571c678;
+  constexpr static std::size_t addrs = 0x577a524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

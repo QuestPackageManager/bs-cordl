@@ -62,7 +62,7 @@ public:
   static ::UnityEngine::Rendering::Universal::UniversalResourceDataBase_ActiveID const Camera;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12731 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -92,27 +92,27 @@ public:
 
   __declspec(property(get = get_isAccessible, put = set_isAccessible)) bool isAccessible;
 
-  /// @brief Method CheckAndGetTextureHandle, addr 0x665534c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CheckAndGetTextureHandle, addr 0x66bced8, size 0x100, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::Array<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*>
   CheckAndGetTextureHandle(::ByRef<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::Array<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*>> handle);
 
-  /// @brief Method CheckAndGetTextureHandle, addr 0x6655560, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CheckAndGetTextureHandle, addr 0x66bd0ec, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle CheckAndGetTextureHandle(::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> handle);
 
-  /// @brief Method CheckAndSetTextureHandle, addr 0x6655458, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CheckAndSetTextureHandle, addr 0x66bcfe4, size 0xec, virtual false, abstract: false, final false
   inline void CheckAndSetTextureHandle(::ByRef<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::Array<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*>> handle,
                                        ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::Array<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*> newHandle);
 
-  /// @brief Method CheckAndSetTextureHandle, addr 0x665563c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CheckAndSetTextureHandle, addr 0x66bd1c8, size 0x2c, virtual false, abstract: false, final false
   inline void CheckAndSetTextureHandle(::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> handle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle newHandle);
 
-  /// @brief Method CheckAndWarnAboutAccessibility, addr 0x66551b8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CheckAndWarnAboutAccessibility, addr 0x66bcd44, size 0x94, virtual false, abstract: false, final false
   inline bool CheckAndWarnAboutAccessibility();
 
-  /// @brief Method EndFrame, addr 0x6656e2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EndFrame, addr 0x66be9b8, size 0x8, virtual false, abstract: false, final false
   inline void EndFrame();
 
-  /// @brief Method InitFrame, addr 0x6656e20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InitFrame, addr 0x66be9ac, size 0xc, virtual false, abstract: false, final false
   inline void InitFrame();
 
   static inline ::UnityEngine::Rendering::Universal::UniversalResourceDataBase* New_ctor();
@@ -123,13 +123,13 @@ public:
 
   constexpr void __cordl_internal_set__isAccessible_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6655ae4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66bd670, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isAccessible, addr 0x6656e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isAccessible, addr 0x66be99c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isAccessible();
 
-  /// @brief Method set_isAccessible, addr 0x6656e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isAccessible, addr 0x66be9a4, size 0x8, virtual false, abstract: false, final false
   inline void set_isAccessible(bool value);
 
 protected:
@@ -147,7 +147,7 @@ public:
   UniversalResourceDataBase(UniversalResourceDataBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12728 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12732 };
 
   /// @brief Field <isAccessible>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____isAccessible_k__BackingField;

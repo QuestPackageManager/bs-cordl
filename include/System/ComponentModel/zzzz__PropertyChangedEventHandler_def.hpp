@@ -27,12 +27,12 @@ namespace System::ComponentModel {
 class CORDL_TYPE PropertyChangedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x61acc74, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6214800, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::PropertyChangedEventArgs* e);
 
   static inline ::System::ComponentModel::PropertyChangedEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x61acb2c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62146b8, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -50,7 +50,7 @@ public:
   PropertyChangedEventHandler(PropertyChangedEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11284 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11288 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

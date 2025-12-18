@@ -29,17 +29,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing* New_ctor();
 
-  /// @brief Method ReadOptionalTrustPacket, addr 0x345d94c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ReadOptionalTrustPacket, addr 0x3488190, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::TrustPacket* ReadOptionalTrustPacket(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method ReadSignaturesAndTrust, addr 0x345d9f0, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method ReadSignaturesAndTrust, addr 0x3488234, size 0x2c8, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* ReadSignaturesAndTrust(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method ReadUserIDs, addr 0x345dcb8, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method ReadUserIDs, addr 0x34884fc, size 0x348, virtual false, abstract: false, final false
   static inline void ReadUserIDs(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput, ::ByRef<::System::Collections::IList*> ids, ::ByRef<::System::Collections::IList*> idTrusts,
                                  ::ByRef<::System::Collections::IList*> idSigs);
 
-  /// @brief Method .ctor, addr 0x345d948, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x348818c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

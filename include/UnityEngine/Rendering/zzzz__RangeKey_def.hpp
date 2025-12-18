@@ -27,10 +27,10 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RangeKey>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RangeKey>*();
 
-  /// @brief Method Equals, addr 0x65f7d2c, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x665f8b8, size 0x84, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RangeKey other);
 
-  /// @brief Method GetHashCode, addr 0x65f7db0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x665f93c, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RangeKey>"
@@ -48,7 +48,7 @@ public:
                      bool staticShadowCaster, int32_t rendererPriority, bool supportsIndirect) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17608 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

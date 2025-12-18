@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set__Status_k__BackingField(::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesHealthCheckStatusValue> value);
 
-  /// @brief Method .ctor, addr 0x319bb90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cba0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Status, addr 0x319bb88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x31cba04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesHealthCheckStatusValue> get_Status();
 
-  /// @brief Method set_Status, addr 0x319bb80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Status, addr 0x31cb9fc, size 0x8, virtual false, abstract: false, final false
   inline void set_Status(::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesHealthCheckStatusValue> value);
 
 protected:
@@ -72,7 +72,7 @@ public:
   BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel(BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20923 };
 
   /// @brief Field <Status>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesHealthCheckStatusValue> ____Status_k__BackingField;
@@ -110,13 +110,13 @@ public:
 
   constexpr void __cordl_internal_set__XocBeatGamesLeaderboardHealth_k__BackingField(::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel* value);
 
-  /// @brief Method .ctor, addr 0x319bb7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cb9f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_XocBeatGamesLeaderboardHealth, addr 0x319bb74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XocBeatGamesLeaderboardHealth, addr 0x31cb9f0, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel* get_XocBeatGamesLeaderboardHealth();
 
-  /// @brief Method set_XocBeatGamesLeaderboardHealth, addr 0x319bb6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XocBeatGamesLeaderboardHealth, addr 0x31cb9e8, size 0x8, virtual false, abstract: false, final false
   inline void set_XocBeatGamesLeaderboardHealth(::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel* value);
 
 protected:
@@ -134,7 +134,7 @@ public:
   BSLeaderboardHealthModel(BSLeaderboardHealthModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20924 };
 
   /// @brief Field <XocBeatGamesLeaderboardHealth>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel* ____XocBeatGamesLeaderboardHealth_k__BackingField;

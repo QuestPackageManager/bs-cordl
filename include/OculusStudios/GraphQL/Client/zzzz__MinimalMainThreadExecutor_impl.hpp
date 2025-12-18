@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor::*)(::System::Collections::IEnumerator*, bool)>(
     &::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor::StartOnMainThread)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d0cabc;
+  constexpr static std::size_t addrs = 0x5d7359c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor::*)(::System::Action*)>(
     &::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor::RunOnMainThread)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x5d0caf4;
+  constexpr static std::size_t addrs = 0x5d735d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor::*)()>(
     &::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor::RunPendingActions)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x5d0a4f0;
+  constexpr static std::size_t addrs = 0x5d70fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor::*)()>(
     &::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5d0b4b4;
+  constexpr static std::size_t addrs = 0x5d71f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

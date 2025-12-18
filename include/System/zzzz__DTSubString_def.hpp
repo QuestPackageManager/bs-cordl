@@ -23,7 +23,7 @@ public:
   // Declarations
   __declspec(property(get = get_Item)) char16_t Item[];
 
-  /// @brief Method get_Item, addr 0x5a29e1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x5a90768, size 0x28, virtual false, abstract: false, final false
   inline char16_t get_Item(int32_t relativeIndex);
 
   // Ctor Parameters []

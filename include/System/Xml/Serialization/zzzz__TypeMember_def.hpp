@@ -32,18 +32,18 @@ public:
   /// @brief Field type, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
-  /// @brief Method Equals, addr 0x60d278c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x613a318, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x60d280c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x613a398, size 0x80, virtual false, abstract: false, final false
   static inline bool Equals(::System::Xml::Serialization::TypeMember* tm1, ::System::Xml::Serialization::TypeMember* tm2);
 
-  /// @brief Method GetHashCode, addr 0x60d2744, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x613a2d0, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Xml::Serialization::TypeMember* New_ctor(::System::Type* type, ::StringW member);
 
-  /// @brief Method ToString, addr 0x60d288c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x613a418, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_member() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x60d273c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x613a2c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW member);
 
 protected:
@@ -76,7 +76,7 @@ public:
   TypeMember(TypeMember const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9468 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9472 };
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;

@@ -19,7 +19,7 @@ namespace Meta::XR::MultiplayerBlocks::Shared {
 struct CORDL_TYPE MatchInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x585e5e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c4d4c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW roomId, ::StringW roomPassword, ::StringW extra);
 
   // Ctor Parameters []
@@ -31,7 +31,7 @@ public:
   constexpr MatchInfo(::StringW RoomId, ::StringW RoomPassword, ::StringW Extra) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20324 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20349 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

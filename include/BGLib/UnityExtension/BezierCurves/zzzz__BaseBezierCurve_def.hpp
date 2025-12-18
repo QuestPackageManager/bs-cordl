@@ -27,7 +27,7 @@ public:
   // Declarations
   __declspec(property(get = get_isReady)) bool isReady;
 
-  /// @brief Method Evaluate, addr 0x31ff094, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x322fac0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 Evaluate(float_t current);
 
   /// @brief Method GetBezierCurveData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -38,7 +38,7 @@ public:
   /// @brief Method SetBezierCurveData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetBezierCurveData(::BGLib::UnityExtension::BezierCurves::CurveData data);
 
-  /// @brief Method .ctor, addr 0x31ff1a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322fbcc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_isReady, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -59,7 +59,7 @@ public:
   BaseBezierCurve(BaseBezierCurve const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20729 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20754 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

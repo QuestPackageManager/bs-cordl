@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::ProBuilder::KdTree::DuplicateNodeError* New_ctor();
 
-  /// @brief Method .ctor, addr 0x648b1e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64f2d74, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   DuplicateNodeError(DuplicateNodeError const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22336 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22363 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

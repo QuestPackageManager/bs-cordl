@@ -29,21 +29,21 @@ public:
 
   __declspec(property(get = get_Order)) int32_t Order;
 
-  /// @brief Method Add, addr 0x60d9898, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6141424, size 0xb4, virtual false, abstract: false, final false
   inline int32_t Add(::System::Xml::Serialization::XmlElementAttribute* attribute);
 
-  /// @brief Method AddKeyHash, addr 0x60d994c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x61414d8, size 0xe8, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlElementAttributes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x60d9cec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6141878, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x60d9798, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6141324, size 0x100, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlElementAttribute* get_Item(int32_t index);
 
-  /// @brief Method get_Order, addr 0x60d9a34, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x61415c0, size 0x2b8, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
 protected:
@@ -61,7 +61,7 @@ public:
   XmlElementAttributes(XmlElementAttributes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9486 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

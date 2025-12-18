@@ -34,7 +34,7 @@ namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class SimpleLevelStarter__StartLevel_d__16;
+class SimpleLevelStarter__StartLevel_d__15;
 }
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
@@ -63,9 +63,6 @@ class Button;
 namespace UnityEngine {
 class Component;
 }
-namespace UnityEngine {
-class TextAsset;
-}
 namespace Zenject {
 class DiContainer;
 }
@@ -74,16 +71,16 @@ namespace GlobalNamespace {
 class SimpleLevelStarter;
 }
 namespace GlobalNamespace {
-class SimpleLevelStarter__StartLevel_d__16;
+class SimpleLevelStarter__StartLevel_d__15;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SimpleLevelStarter);
-MARK_REF_PTR_T(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16);
+MARK_REF_PTR_T(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15);
 // Dependencies System.Object, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: SimpleLevelStarter/<StartLevel>d__16
-class CORDL_TYPE SimpleLevelStarter__StartLevel_d__16 : public ::System::Object {
+// CS Name: SimpleLevelStarter/<StartLevel>d__15
+class CORDL_TYPE SimpleLevelStarter__StartLevel_d__15 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -113,21 +110,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x57263a8, size 0x6b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5784350, size 0x6cc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5726a58, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5784a1c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5726a60, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5784a24, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5726a98, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5784a5c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x57263a4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x578434c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -154,7 +151,7 @@ public:
 
   constexpr void __cordl_internal_set__handle_5__2(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>> value);
 
-  /// @brief Method .ctor, addr 0x57260b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5784110, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -169,19 +166,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr SimpleLevelStarter__StartLevel_d__16();
+  constexpr SimpleLevelStarter__StartLevel_d__15();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter__StartLevel_d__16", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter__StartLevel_d__15", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  SimpleLevelStarter__StartLevel_d__16(SimpleLevelStarter__StartLevel_d__16&&) = delete;
+  SimpleLevelStarter__StartLevel_d__15(SimpleLevelStarter__StartLevel_d__15&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter__StartLevel_d__16", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter__StartLevel_d__15", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimpleLevelStarter__StartLevel_d__16(SimpleLevelStarter__StartLevel_d__16 const&) = delete;
+  SimpleLevelStarter__StartLevel_d__15(SimpleLevelStarter__StartLevel_d__15 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6864 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -198,15 +195,15 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16, ____handle_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15, ____handle_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies BeatmapDifficulty, UnityEngine.MonoBehaviour
@@ -216,7 +213,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE SimpleLevelStarter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _StartLevel_d__16 = ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16;
+  using _StartLevel_d__15 = ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15;
 
   /// @brief Field _beatmapCharacteristic, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCharacteristic, put = __cordl_internal_set__beatmapCharacteristic)) ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>
@@ -229,64 +226,61 @@ public:
   __declspec(property(get = __cordl_internal_get__beatmapLevel,
                       put = __cordl_internal_set__beatmapLevel)) ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* _beatmapLevel;
 
-  /// @brief Field _button, offset 0x50, size 0x8
+  /// @brief Field _button, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button)) ::UnityW<::UnityEngine::UI::Button> _button;
 
-  /// @brief Field _buttonBinder, offset 0x78, size 0x8
+  /// @brief Field _buttonBinder, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder)) ::HMUI::ButtonBinder* _buttonBinder;
 
-  /// @brief Field _environmentsListModel, offset 0x70, size 0x8
+  /// @brief Field _environmentsListModel, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentsListModel, put = __cordl_internal_set__environmentsListModel)) ::GlobalNamespace::EnvironmentsListModel* _environmentsListModel;
 
-  /// @brief Field _forceOverrideEnvironment, offset 0x48, size 0x1
+  /// @brief Field _forceOverrideEnvironment, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__forceOverrideEnvironment, put = __cordl_internal_set__forceOverrideEnvironment)) bool _forceOverrideEnvironment;
 
-  /// @brief Field _gameScenesManager, offset 0x60, size 0x8
+  /// @brief Field _gameScenesManager, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
-  /// @brief Field _menuTransitionsHelper, offset 0x58, size 0x8
+  /// @brief Field _menuTransitionsHelper, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper)) ::UnityW<::GlobalNamespace::MenuTransitionsHelper> _menuTransitionsHelper;
 
   /// @brief Field _overrideStrobeFilterSettingsToAllEffects, offset 0x35, size 0x1
   __declspec(property(get = __cordl_internal_get__overrideStrobeFilterSettingsToAllEffects,
                       put = __cordl_internal_set__overrideStrobeFilterSettingsToAllEffects)) bool _overrideStrobeFilterSettingsToAllEffects;
 
-  /// @brief Field _playerDataModel, offset 0x68, size 0x8
+  /// @brief Field _playerDataModel, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  /// @brief Field _prefabBindings, offset 0x40, size 0x8
+  /// @brief Field _prefabBindings, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__prefabBindings,
                       put = __cordl_internal_set__prefabBindings)) ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*>
       _prefabBindings;
 
-  /// @brief Field _recordingTextAsset, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__recordingTextAsset, put = __cordl_internal_set__recordingTextAsset)) ::UnityW<::UnityEngine::TextAsset> _recordingTextAsset;
-
   /// @brief Field _useTestNoteCutSoundEffects, offset 0x34, size 0x1
   __declspec(property(get = __cordl_internal_get__useTestNoteCutSoundEffects, put = __cordl_internal_set__useTestNoteCutSoundEffects)) bool _useTestNoteCutSoundEffects;
 
-  /// @brief Method Awake, addr 0x5725f3c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5783f9c, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ButtonPressed, addr 0x57261fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ButtonPressed, addr 0x578425c, size 0x20, virtual false, abstract: false, final false
   inline void ButtonPressed();
 
-  /// @brief Method HandleLevelDidFinish, addr 0x572621c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelDidFinish, addr 0x578427c, size 0x3c, virtual false, abstract: false, final false
   inline void HandleLevelDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method InstallEarlyBindings, addr 0x57260b8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method InstallEarlyBindings, addr 0x5784118, size 0x144, virtual false, abstract: false, final false
   inline void InstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::SimpleLevelStarter* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5726004, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5784064, size 0x58, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method StartLevel, addr 0x572605c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method StartLevel, addr 0x57840bc, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartLevel();
 
-  /// @brief Method <StartLevel>g__AfterSceneSwitchCallback|16_0, addr 0x572625c, size 0x148, virtual false, abstract: false, final false
-  inline void _StartLevel_g__AfterSceneSwitchCallback_16_0(::Zenject::DiContainer* container);
+  /// @brief Method <StartLevel>g__AfterSceneSwitchCallback|15_0, addr 0x57842bc, size 0x90, virtual false, abstract: false, final false
+  inline void _StartLevel_g__AfterSceneSwitchCallback_15_0(::Zenject::DiContainer* container);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__beatmapCharacteristic() const;
 
@@ -336,10 +330,6 @@ public:
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*>& __cordl_internal_get__prefabBindings();
 
-  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get__recordingTextAsset() const;
-
-  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get__recordingTextAsset();
-
   constexpr bool const& __cordl_internal_get__useTestNoteCutSoundEffects() const;
 
   constexpr bool& __cordl_internal_get__useTestNoteCutSoundEffects();
@@ -368,11 +358,9 @@ public:
 
   constexpr void __cordl_internal_set__prefabBindings(::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> value);
 
-  constexpr void __cordl_internal_set__recordingTextAsset(::UnityW<::UnityEngine::TextAsset> value);
-
   constexpr void __cordl_internal_set__useTestNoteCutSoundEffects(bool value);
 
-  /// @brief Method .ctor, addr 0x5726258, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57842b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -390,7 +378,7 @@ public:
   SimpleLevelStarter(SimpleLevelStarter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6870 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6865 };
 
   /// @brief Field _beatmapLevel, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* ____beatmapLevel;
@@ -407,31 +395,28 @@ public:
   /// @brief Field _overrideStrobeFilterSettingsToAllEffects, offset: 0x35, size: 0x1, def value: None
   bool ____overrideStrobeFilterSettingsToAllEffects;
 
-  /// @brief Field _recordingTextAsset, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::TextAsset> ____recordingTextAsset;
-
-  /// @brief Field _prefabBindings, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _prefabBindings, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> ____prefabBindings;
 
-  /// @brief Field _forceOverrideEnvironment, offset: 0x48, size: 0x1, def value: None
+  /// @brief Field _forceOverrideEnvironment, offset: 0x40, size: 0x1, def value: None
   bool ____forceOverrideEnvironment;
 
-  /// @brief Field _button, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _button, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____button;
 
-  /// @brief Field _menuTransitionsHelper, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _menuTransitionsHelper, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuTransitionsHelper> ____menuTransitionsHelper;
 
-  /// @brief Field _gameScenesManager, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _gameScenesManager, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
-  /// @brief Field _playerDataModel, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _playerDataModel, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
-  /// @brief Field _environmentsListModel, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _environmentsListModel, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentsListModel* ____environmentsListModel;
 
-  /// @brief Field _buttonBinder, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _buttonBinder, offset: 0x70, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -447,28 +432,26 @@ static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____useTestNoteCut
 
 static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____overrideStrobeFilterSettingsToAllEffects) == 0x35, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____recordingTextAsset) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____prefabBindings) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____prefabBindings) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____forceOverrideEnvironment) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____forceOverrideEnvironment) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____button) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____button) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____menuTransitionsHelper) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____menuTransitionsHelper) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____gameScenesManager) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____gameScenesManager) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____playerDataModel) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____playerDataModel) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____environmentsListModel) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____environmentsListModel) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____buttonBinder) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____buttonBinder) == 0x78, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleLevelStarter, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleLevelStarter, 0x78>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SimpleLevelStarter);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleLevelStarter*, "", "SimpleLevelStarter");
-NEED_NO_BOX(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*, "", "SimpleLevelStarter/<StartLevel>d__16");
+NEED_NO_BOX(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*, "", "SimpleLevelStarter/<StartLevel>d__15");

@@ -43,36 +43,36 @@ namespace Newtonsoft::Json::Converters {
 class CORDL_TYPE RegexConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x5b88650, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x5bef130, size 0x7c, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method HasFlag, addr 0x5b881d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HasFlag, addr 0x5beecb8, size 0xc, virtual false, abstract: false, final false
   inline bool HasFlag(::System::Text::RegularExpressions::RegexOptions options, ::System::Text::RegularExpressions::RegexOptions flag);
 
-  /// @brief Method IsRegex, addr 0x5b886cc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsRegex, addr 0x5bef1ac, size 0x70, virtual false, abstract: false, final false
   inline bool IsRegex(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::RegexConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x5b881e4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x5beecc4, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method ReadRegexObject, addr 0x5b88294, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method ReadRegexObject, addr 0x5beed74, size 0x274, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Regex* ReadRegexObject(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method ReadRegexString, addr 0x5b88508, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ReadRegexString, addr 0x5beefe8, size 0x148, virtual false, abstract: false, final false
   inline ::System::Object* ReadRegexString(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method WriteBson, addr 0x5b87e80, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method WriteBson, addr 0x5bee960, size 0x16c, virtual false, abstract: false, final false
   inline void WriteBson(::Newtonsoft::Json::Bson::BsonWriter* writer, ::System::Text::RegularExpressions::Regex* regex);
 
-  /// @brief Method WriteJson, addr 0x5b87fec, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x5beeacc, size 0x1ec, virtual false, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Text::RegularExpressions::Regex* regex, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x5b87d60, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x5bee840, size 0x120, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x5b8873c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bef21c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +96,7 @@ public:
   static constexpr ::ConstString PatternName{ u"Pattern" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13638 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

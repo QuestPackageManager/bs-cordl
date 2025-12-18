@@ -22,12 +22,12 @@ public:
   /// @brief Field m_inliningDepth, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_inliningDepth, put = __cordl_internal_set_m_inliningDepth)) int32_t m_inliningDepth;
 
-  /// @brief Method EndInliningScope, addr 0x5aaf21c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method EndInliningScope, addr 0x5b15b68, size 0x14, virtual false, abstract: false, final false
   inline void EndInliningScope();
 
   static inline ::System::Threading::Tasks::StackGuard* New_ctor();
 
-  /// @brief Method TryBeginInliningScope, addr 0x5aaf204, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TryBeginInliningScope, addr 0x5b15b50, size 0x18, virtual false, abstract: false, final false
   inline bool TryBeginInliningScope();
 
   constexpr int32_t const& __cordl_internal_get_m_inliningDepth() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_m_inliningDepth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5aa8144, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b0ea90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set__promoBannerInfo(::UnityW<::GlobalNamespace::PromoBannerInfoSO> value);
 
-  /// @brief Method .ctor, addr 0x3605260, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x363019c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelID, addr 0x3605250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelID, addr 0x363018c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelID();
 
-  /// @brief Method get_promoBannerInfo, addr 0x3605258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoBannerInfo, addr 0x3630194, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::PromoBannerInfoSO> get_promoBannerInfo();
 
 protected:
@@ -78,7 +78,7 @@ public:
   PackPromoInfoSO_LevelPromoInfo(PackPromoInfoSO_LevelPromoInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14987 };
 
   /// @brief Field _levelID, offset: 0x10, size: 0x8, def value: None
   ::StringW ____levelID;
@@ -133,16 +133,16 @@ public:
 
   constexpr void __cordl_internal_set__promoBannerInfo(::UnityW<::GlobalNamespace::PromoBannerInfoSO> value);
 
-  /// @brief Method .ctor, addr 0x3605248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3630184, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasLevelPromos, addr 0x3605228, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_hasLevelPromos, addr 0x3630164, size 0x20, virtual false, abstract: false, final false
   inline bool get_hasLevelPromos();
 
-  /// @brief Method get_levelPromoInfos, addr 0x3605220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPromoInfos, addr 0x363015c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo*, ::Array<::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo*>*> get_levelPromoInfos();
 
-  /// @brief Method get_promoBannerInfo, addr 0x3605218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoBannerInfo, addr 0x3630154, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::PromoBannerInfoSO> get_promoBannerInfo();
 
 protected:
@@ -160,7 +160,7 @@ public:
   PackPromoInfoSO(PackPromoInfoSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14981 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14988 };
 
   /// @brief Field _promoBannerInfo, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PromoBannerInfoSO> ____promoBannerInfo;

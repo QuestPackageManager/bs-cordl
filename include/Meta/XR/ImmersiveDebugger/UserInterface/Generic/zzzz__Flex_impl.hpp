@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::get_SizeDelta)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58458ec;
+  constexpr static std::size_t addrs = 0x58ac050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::get_SizeDeltaWithMargin)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x58458f4;
+  constexpr static std::size_t addrs = 0x58ac058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport> (
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::get_ScrollViewport)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5845974;
+  constexpr static std::size_t addrs = 0x58ac0d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::set_ScrollViewport)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x584597c;
+  constexpr static std::size_t addrs = 0x58ac0e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*, ::ByRef<::UnityEngine::Vector2>, ::UnityEngine::Vector2)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::UpdateAnchoredPosition)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5845984;
+  constexpr static std::size_t addrs = 0x58ac0e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::UpdateChildrenWidth)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x5845a34;
+  constexpr static std::size_t addrs = 0x58ac198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::*)(bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::RefreshVisibilities)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x5845d84;
+  constexpr static std::size_t addrs = 0x58ac4e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*, ::UnityEngine::Rect, ::UnityEngine::Vector2)>(
         &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::IsVerticallyInViewport)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5846054;
+  constexpr static std::size_t addrs = 0x58ac7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::RefreshLayoutPreChildren)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58460dc;
+  constexpr static std::size_t addrs = 0x58ac840;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::RefreshLayoutPostChildren)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x58460f8;
+  constexpr static std::size_t addrs = 0x58ac85c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::LateUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5846430;
+  constexpr static std::size_t addrs = 0x58acb94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::Forget)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5846438;
+  constexpr static std::size_t addrs = 0x58acb9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::Remember)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5846474;
+  constexpr static std::size_t addrs = 0x58acbd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::ForgetAll)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x58464b0;
+  constexpr static std::size_t addrs = 0x58acc14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58465d8;
+  constexpr static std::size_t addrs = 0x58acd3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

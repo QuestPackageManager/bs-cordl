@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MeshGenerationNodeManager::*)(::UnityEngine::UIElements::UIR::EntryRecorder*)>(
     &::UnityEngine::UIElements::MeshGenerationNodeManager::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6ba1918;
+  constexpr static std::size_t addrs = 0x6c0a79c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MeshGenerationNodeManager::*)(
     ::UnityEngine::UIElements::UIR::Entry*, ::ByRef<::UnityEngine::UIElements::MeshGenerationNode>)>(&::UnityEngine::UIElements::MeshGenerationNodeManager::CreateNode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6ba0c94;
+  constexpr static std::size_t addrs = 0x6c09b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MeshGenerationNodeManager::*)(
     ::UnityEngine::UIElements::UIR::Entry*, ::ByRef<::UnityEngine::UIElements::UnsafeMeshGenerationNode>)>(&::UnityEngine::UIElements::MeshGenerationNodeManager::CreateUnsafeNode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6ba0d04;
+  constexpr static std::size_t addrs = 0x6c09b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MeshGenerationNodeImpl* (
     ::UnityEngine::UIElements::MeshGenerationNodeManager::*)(::UnityEngine::UIElements::UIR::Entry*, bool)>(&::UnityEngine::UIElements::MeshGenerationNodeManager::CreateImpl)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x6ba19a0;
+  constexpr static std::size_t addrs = 0x6c0a824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MeshGenerationNodeManager::*)()>(
     &::UnityEngine::UIElements::MeshGenerationNodeManager::ResetAll)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6ba1b3c;
+  constexpr static std::size_t addrs = 0x6c0a9c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshGenerationNodeManager*>::get(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::MeshGenerationNodeManager::*)()>(
     &::UnityEngine::UIElements::MeshGenerationNodeManager::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba1bc4;
+  constexpr static std::size_t addrs = 0x6c0aa48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshGenerationNodeManager*>::get(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MeshGenerationNodeManager::*)(bool)>(
     &::UnityEngine::UIElements::MeshGenerationNodeManager::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba1bcc;
+  constexpr static std::size_t addrs = 0x6c0aa50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MeshGenerationNodeManager::*)()>(
     &::UnityEngine::UIElements::MeshGenerationNodeManager::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6ba1bd4;
+  constexpr static std::size_t addrs = 0x6c0aa58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshGenerationNodeManager*>::get(),
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MeshGenerationNodeManager::*)(bool)>(
     &::UnityEngine::UIElements::MeshGenerationNodeManager::Dispose)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6ba1c3c;
+  constexpr static std::size_t addrs = 0x6c0aac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

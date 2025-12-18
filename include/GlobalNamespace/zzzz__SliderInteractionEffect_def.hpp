@@ -36,18 +36,18 @@ public:
   /// @brief Method EndEffect, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void EndEffect();
 
-  /// @brief Method HandleAllSliderWereRemovedFromActiveSliders, addr 0x5766828, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleAllSliderWereRemovedFromActiveSliders, addr 0x57cd044, size 0xc, virtual false, abstract: false, final false
   inline void HandleAllSliderWereRemovedFromActiveSliders(::GlobalNamespace::SliderInteractionManager* sliderInteractionManager);
 
-  /// @brief Method HandleSliderWasAddedToActiveSliders, addr 0x576681c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasAddedToActiveSliders, addr 0x57cd038, size 0xc, virtual false, abstract: false, final false
   inline void HandleSliderWasAddedToActiveSliders(::GlobalNamespace::SliderInteractionManager* sliderInteractionManager, float_t saberInteractionParam);
 
   static inline ::GlobalNamespace::SliderInteractionEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57665b0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x57ccdcc, size 0xec, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x57658ac, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x57cc0c8, size 0xec, virtual true, abstract: false, final false
   inline void Start();
 
   /// @brief Method StartEffect, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -59,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set__sliderInteractionManager(::UnityW<::GlobalNamespace::SliderInteractionManager> value);
 
-  /// @brief Method .ctor, addr 0x5765b28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57cc344, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorType, addr 0x5765998, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x57cc1b4, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorType get_colorType();
 
-  /// @brief Method get_saberInteractionParam, addr 0x5765a88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_saberInteractionParam, addr 0x57cc2a4, size 0x18, virtual false, abstract: false, final false
   inline float_t get_saberInteractionParam();
 
 protected:

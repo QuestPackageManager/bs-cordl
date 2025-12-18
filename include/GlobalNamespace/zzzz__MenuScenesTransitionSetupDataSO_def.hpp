@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE MenuScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x57201b4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x577de0c, size 0xc0, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MenuScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5720274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x577decc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   MenuScenesTransitionSetupDataSO(MenuScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6832 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

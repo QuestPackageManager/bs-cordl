@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::UnityEngine::Rendering::Universal::SpaceFillingCurves::Part1By1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x669e3d8;
+  constexpr static std::size_t addrs = 0x6705f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::UnityEngine::Rendering::Universal::SpaceFillingCurves::Compact1By1)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x669e3fc;
+  constexpr static std::size_t addrs = 0x6705f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::Unity::Mathematics::uint2)>(
     &::UnityEngine::Rendering::Universal::SpaceFillingCurves::EncodeMorton2D)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x669e424;
+  constexpr static std::size_t addrs = 0x6705fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2 (*)(uint32_t)>(
     &::UnityEngine::Rendering::Universal::SpaceFillingCurves::DecodeMorton2D)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x669e498;
+  constexpr static std::size_t addrs = 0x6706024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

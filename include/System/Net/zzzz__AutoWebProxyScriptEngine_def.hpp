@@ -26,10 +26,10 @@ namespace System::Net {
 class CORDL_TYPE AutoWebProxyScriptEngine : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetProxies, addr 0x6208790, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetProxies, addr 0x627031c, size 0xc, virtual false, abstract: false, final false
   inline bool GetProxies(::System::Uri* destination, ::ByRef<::System::Collections::Generic::IList_1<::StringW>*> proxyList);
 
-  /// @brief Method GetProxies, addr 0x6208b14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetProxies, addr 0x62706a0, size 0xc, virtual false, abstract: false, final false
   inline bool GetProxies(::System::Uri* destination, ::ByRef<::System::Collections::Generic::IList_1<::StringW>*> proxyList, ::ByRef<int32_t> syncStatus);
 
 protected:
@@ -47,7 +47,7 @@ public:
   AutoWebProxyScriptEngine(AutoWebProxyScriptEngine const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11539 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

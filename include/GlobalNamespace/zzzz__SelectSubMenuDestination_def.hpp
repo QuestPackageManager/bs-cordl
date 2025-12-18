@@ -79,7 +79,7 @@ public:
   static ::GlobalNamespace::SelectSubMenuDestination_Destination const Tutorial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14794 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_menuDestination(::GlobalNamespace::SelectSubMenuDestination_Destination value);
 
-  /// @brief Method .ctor, addr 0x35e049c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360b300, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::SelectSubMenuDestination_Destination menuDestination);
 
 protected:
@@ -133,7 +133,7 @@ public:
   SelectSubMenuDestination(SelectSubMenuDestination const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14795 };
 
   /// @brief Field menuDestination, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::SelectSubMenuDestination_Destination ___menuDestination;

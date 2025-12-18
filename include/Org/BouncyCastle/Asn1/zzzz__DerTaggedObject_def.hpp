@@ -25,7 +25,7 @@ namespace Org::BouncyCastle::Asn1 {
 class CORDL_TYPE DerTaggedObject : public ::Org::BouncyCastle::Asn1::Asn1TaggedObject {
 public:
   // Declarations
-  /// @brief Method Encode, addr 0x35660dc, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x3590920, size 0xdc, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   static inline ::Org::BouncyCastle::Asn1::DerTaggedObject* New_ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
@@ -34,13 +34,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerTaggedObject* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x355ad30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3585574, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x3566064, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35908a8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo);
 
-  /// @brief Method .ctor, addr 0x35522cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357cb10, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
 protected:

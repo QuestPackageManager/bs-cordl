@@ -50,10 +50,10 @@ public:
   /// @brief Field startPosition, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_startPosition, put = __cordl_internal_set_startPosition)) int64_t startPosition;
 
-  /// @brief Method CreateContentReadStreamAsync, addr 0x5ec5820, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method CreateContentReadStreamAsync, addr 0x5f2d3ac, size 0x78, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* CreateContentReadStreamAsync();
 
-  /// @brief Method Dispose, addr 0x5ec5898, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5f2d424, size 0x5c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Net::Http::StreamContent* New_ctor(::System::IO::Stream* content);
@@ -62,10 +62,10 @@ public:
 
   static inline ::System::Net::Http::StreamContent* New_ctor(::System::IO::Stream* content, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SerializeToStreamAsync, addr 0x5ec58f4, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method SerializeToStreamAsync, addr 0x5f2d480, size 0xd4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method TryComputeLength, addr 0x5ec59c8, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method TryComputeLength, addr 0x5f2d554, size 0x68, virtual true, abstract: false, final false
   inline bool TryComputeLength(::ByRef<int64_t> length);
 
   constexpr int32_t const& __cordl_internal_get_bufferSize() const;
@@ -98,13 +98,13 @@ public:
 
   constexpr void __cordl_internal_set_startPosition(int64_t value);
 
-  /// @brief Method .ctor, addr 0x5ec5740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2d2cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* content);
 
-  /// @brief Method .ctor, addr 0x5ec5748, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2d2d4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* content, int32_t bufferSize);
 
-  /// @brief Method .ctor, addr 0x5ebe560, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f260ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* content, ::System::Threading::CancellationToken cancellationToken);
 
 protected:
@@ -122,7 +122,7 @@ public:
   StreamContent(StreamContent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20149 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20061 };
 
   /// @brief Field content, offset: 0x30, size: 0x8, def value: None
   ::System::IO::Stream* ___content;

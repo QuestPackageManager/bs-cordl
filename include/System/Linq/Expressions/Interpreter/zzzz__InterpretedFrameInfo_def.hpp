@@ -22,10 +22,10 @@ namespace System::Linq::Expressions::Interpreter {
 struct CORDL_TYPE InterpretedFrameInfo {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x5d84ec0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5deca4c, size 0x7c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x5d8216c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de9cf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW methodName, ::System::Linq::Expressions::Interpreter::DebugInfo* info);
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
   constexpr InterpretedFrameInfo(::StringW _methodName, ::System::Linq::Expressions::Interpreter::DebugInfo* _debugInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16394 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16408 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

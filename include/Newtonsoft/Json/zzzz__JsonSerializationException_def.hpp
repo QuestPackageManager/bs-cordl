@@ -50,13 +50,13 @@ public:
   /// @brief Field <Path>k__BackingField, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__Path_k__BackingField, put = __cordl_internal_set__Path_k__BackingField)) ::StringW _Path_k__BackingField;
 
-  /// @brief Method Create, addr 0x5ac9934, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5b30414, size 0x204, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonSerializationException* Create(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message, ::System::Exception* ex);
 
-  /// @brief Method Create, addr 0x5ac1338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5b27e18, size 0x8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonSerializationException* Create(::Newtonsoft::Json::JsonReader* reader, ::StringW message);
 
-  /// @brief Method Create, addr 0x5ac98a8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5b30388, size 0x8c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonSerializationException* Create(::Newtonsoft::Json::JsonReader* reader, ::StringW message, ::System::Exception* ex);
 
   static inline ::Newtonsoft::Json::JsonSerializationException* New_ctor();
@@ -87,28 +87,28 @@ public:
 
   constexpr void __cordl_internal_set__Path_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5ac985c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b3033c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5ac9868, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b30348, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5ac9860, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b30340, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5ac9864, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b30344, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x5ac986c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b3034c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW path, int32_t lineNumber, int32_t linePosition, ::System::Exception* innerException);
 
-  /// @brief Method get_LineNumber, addr 0x5ac9844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x5b30324, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x5ac984c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x5b3032c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_Path, addr 0x5ac9854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x5b30334, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
 protected:
@@ -126,7 +126,7 @@ public:
   JsonSerializationException(JsonSerializationException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13244 };
 
   /// @brief Field <LineNumber>k__BackingField, offset: 0x8c, size: 0x4, def value: None
   int32_t ____LineNumber_k__BackingField;

@@ -58,7 +58,7 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugDisplaySettingsUI___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <RegisterDebug>b__0, addr 0x653d830, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__0, addr 0x65a53bc, size 0x314, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__0(::UnityEngine::Rendering::IDebugDisplaySettingsData* data);
 
   constexpr ::UnityEngine::Rendering::DebugManager* const& __cordl_internal_get_debugManager() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_panels(::System::Collections::Generic::List_1<::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable*>* value);
 
-  /// @brief Method .ctor, addr 0x653d454, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a4fe0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,7 +91,7 @@ public:
   DebugDisplaySettingsUI___c__DisplayClass3_0(DebugDisplaySettingsUI___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11930 };
 
   /// @brief Field debugManager, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugManager* ___debugManager;
@@ -129,18 +129,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IDebugData"
   constexpr operator ::UnityEngine::Rendering::IDebugData*() noexcept;
 
-  /// @brief Method GetReset, addr 0x653d7b0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method GetReset, addr 0x65a533c, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Action* GetReset();
 
   static inline ::UnityEngine::Rendering::DebugDisplaySettingsUI* New_ctor();
 
-  /// @brief Method RegisterDebug, addr 0x653d14c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method RegisterDebug, addr 0x65a4cd8, size 0x254, virtual false, abstract: false, final false
   inline void RegisterDebug(::UnityEngine::Rendering::IDebugDisplaySettings* settings);
 
-  /// @brief Method Reset, addr 0x653cb94, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x65a4720, size 0xf4, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method UnregisterDebug, addr 0x653cc88, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method UnregisterDebug, addr 0x65a4814, size 0x4c4, virtual false, abstract: false, final false
   inline void UnregisterDebug();
 
   constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable*>* const& __cordl_internal_get_m_DisposablePanels() const;
@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Settings(::UnityEngine::Rendering::IDebugDisplaySettings* value);
 
-  /// @brief Method .ctor, addr 0x653d82c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a53b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDebugData"
@@ -176,7 +176,7 @@ public:
   DebugDisplaySettingsUI(DebugDisplaySettingsUI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11931 };
 
   /// @brief Field m_DisposablePanels, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable*>* ___m_DisposablePanels;

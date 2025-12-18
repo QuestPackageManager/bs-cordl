@@ -91,7 +91,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::IMGUIContainer_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b812a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bea124, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,7 +126,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::IMGUIContainer_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b81308, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bea18c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -345,86 +345,86 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6b811f0, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6bea074, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6b81264, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6bea0e8, size 0x18, virtual true, abstract: false, final false
   inline void Dispose(bool disposeManaged);
 
-  /// @brief Method DoIMGUIRepaint, addr 0x6b7f618, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method DoIMGUIRepaint, addr 0x6be849c, size 0x2e0, virtual false, abstract: false, final false
   inline void DoIMGUIRepaint();
 
-  /// @brief Method DoMeasure, addr 0x6b80f2c, size 0x2c4, virtual true, abstract: false, final false
+  /// @brief Method DoMeasure, addr 0x6be9db0, size 0x2c4, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode);
 
-  /// @brief Method DoOnGUI, addr 0x6b7e5bc, size 0x1030, virtual false, abstract: false, final false
+  /// @brief Method DoOnGUI, addr 0x6be7440, size 0x1030, virtual false, abstract: false, final false
   inline void DoOnGUI(::UnityEngine::Event* evt, ::UnityEngine::Matrix4x4 parentTransform, ::UnityEngine::Rect clippingRect, bool isComputingLayout, ::UnityEngine::Rect layoutSize,
                       ::System::Action* onGUIHandler, bool canAffectFocus);
 
-  /// @brief Method GetCurrentClipRect, addr 0x6b80618, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentClipRect, addr 0x6be949c, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect GetCurrentClipRect();
 
-  /// @brief Method GetCurrentTransformAndClip, addr 0x6b8071c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentTransformAndClip, addr 0x6be95a0, size 0x104, virtual false, abstract: false, final false
   static inline void GetCurrentTransformAndClip(::UnityEngine::UIElements::IMGUIContainer* container, ::UnityEngine::Event* evt, ::ByRef<::UnityEngine::Matrix4x4> transform,
                                                 ::ByRef<::UnityEngine::Rect> clipRect);
 
-  /// @brief Method HandleEventBubbleUp, addr 0x6b808e0, size 0x4cc, virtual true, abstract: false, final false
+  /// @brief Method HandleEventBubbleUp, addr 0x6be9764, size 0x4cc, virtual true, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method HandleEventBubbleUpDisabled, addr 0x6b808d4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method HandleEventBubbleUpDisabled, addr 0x6be9758, size 0xc, virtual true, abstract: false, final false
   inline void HandleEventBubbleUpDisabled(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method HandleIMGUIEvent, addr 0x6b80008, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleIMGUIEvent, addr 0x6be8e8c, size 0xc, virtual false, abstract: false, final false
   inline bool HandleIMGUIEvent(::UnityEngine::Event* e, bool canAffectFocus);
 
-  /// @brief Method HandleIMGUIEvent, addr 0x6b80650, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleIMGUIEvent, addr 0x6be94d4, size 0xcc, virtual false, abstract: false, final false
   inline bool HandleIMGUIEvent(::UnityEngine::Event* e, ::System::Action* onGUIHandler, bool canAffectFocus);
 
-  /// @brief Method HandleIMGUIEvent, addr 0x6b7f8f8, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method HandleIMGUIEvent, addr 0x6be877c, size 0x360, virtual false, abstract: false, final false
   inline bool HandleIMGUIEvent(::UnityEngine::Event* e, ::UnityEngine::Matrix4x4 worldTransform, ::UnityEngine::Rect clippingRect, ::System::Action* onGUIHandler, bool canAffectFocus);
 
-  /// @brief Method IsContainerCapturingTheMouse, addr 0x6b80014, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method IsContainerCapturingTheMouse, addr 0x6be8e98, size 0x114, virtual false, abstract: false, final false
   inline bool IsContainerCapturingTheMouse();
 
-  /// @brief Method IsDockAreaMouseUp, addr 0x6b80514, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method IsDockAreaMouseUp, addr 0x6be9398, size 0xd4, virtual false, abstract: false, final false
   static inline bool IsDockAreaMouseUp(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method IsEventInsideLocalWindow, addr 0x6b8035c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method IsEventInsideLocalWindow, addr 0x6be91e0, size 0x1b8, virtual false, abstract: false, final false
   inline bool IsEventInsideLocalWindow(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method IsLocalEvent, addr 0x6b80128, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method IsLocalEvent, addr 0x6be8fac, size 0x234, virtual false, abstract: false, final false
   inline bool IsLocalEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method MarkDirtyLayout, addr 0x6b7f5ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method MarkDirtyLayout, addr 0x6be8470, size 0x2c, virtual false, abstract: false, final false
   inline void MarkDirtyLayout();
 
   static inline ::UnityEngine::UIElements::IMGUIContainer* New_ctor();
 
   static inline ::UnityEngine::UIElements::IMGUIContainer* New_ctor(::System::Action* onGUIHandler);
 
-  /// @brief Method OnGenerateVisualContent, addr 0x6b7e07c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnGenerateVisualContent, addr 0x6be6f00, size 0x1a4, virtual false, abstract: false, final false
   inline void OnGenerateVisualContent(Il2CppObject* mgc);
 
-  /// @brief Method RestoreGlobals, addr 0x6b7e3cc, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method RestoreGlobals, addr 0x6be7250, size 0x1f0, virtual false, abstract: false, final false
   inline void RestoreGlobals();
 
-  /// @brief Method SaveGlobals, addr 0x6b7e220, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method SaveGlobals, addr 0x6be70a4, size 0x1ac, virtual false, abstract: false, final false
   inline void SaveGlobals();
 
-  /// @brief Method SendEventToIMGUI, addr 0x6b7fc58, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method SendEventToIMGUI, addr 0x6be8adc, size 0x26c, virtual false, abstract: false, final false
   inline bool SendEventToIMGUI(::UnityEngine::UIElements::EventBase* evt, bool canAffectFocus, bool verifyBounds);
 
-  /// @brief Method SendEventToIMGUIRaw, addr 0x6b7fec4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SendEventToIMGUIRaw, addr 0x6be8d48, size 0xa4, virtual false, abstract: false, final false
   inline bool SendEventToIMGUIRaw(::UnityEngine::UIElements::EventBase* evt, bool canAffectFocus, bool verifyBounds);
 
-  /// @brief Method SetFoldoutDepthClass, addr 0x6b80dac, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method SetFoldoutDepthClass, addr 0x6be9c30, size 0x180, virtual false, abstract: false, final false
   inline void SetFoldoutDepthClass();
 
-  /// @brief Method VerifyBounds, addr 0x6b7ff68, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method VerifyBounds, addr 0x6be8dec, size 0xa0, virtual false, abstract: false, final false
   inline bool VerifyBounds(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method <DoOnGUI>b__59_0, addr 0x6b8127c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DoOnGUI>b__59_0, addr 0x6bea100, size 0x24, virtual false, abstract: false, final false
   inline void _DoOnGUI_b__59_0();
 
   constexpr bool const& __cordl_internal_get__focusOnlyIfHasFocusableControls_k__BackingField() const;
@@ -535,10 +535,10 @@ public:
 
   constexpr void __cordl_internal_set_useOwnerObjectGUIState(bool value);
 
-  /// @brief Method .ctor, addr 0x6b7de1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be6ca0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6b7de24, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be6ca8, size 0x258, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* onGUIHandler);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_contextTypeProperty();
@@ -561,34 +561,34 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::StringW>* getStaticF_ussFoldoutChildDepthClassNames();
 
-  /// @brief Method get_cache, addr 0x6b7d6fc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_cache, addr 0x6be6580, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::GUILayoutUtility_LayoutCache* get_cache();
 
-  /// @brief Method get_canGrabFocus, addr 0x6b7d85c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_canGrabFocus, addr 0x6be66e0, size 0x20, virtual true, abstract: false, final false
   inline bool get_canGrabFocus();
 
-  /// @brief Method get_contextType, addr 0x6b7d7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contextType, addr 0x6be663c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ContextType get_contextType();
 
-  /// @brief Method get_cullingEnabled, addr 0x6b7d644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cullingEnabled, addr 0x6be64c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_cullingEnabled();
 
-  /// @brief Method get_focusOnlyIfHasFocusableControls, addr 0x6b7d854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_focusOnlyIfHasFocusableControls, addr 0x6be66d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_focusOnlyIfHasFocusableControls();
 
-  /// @brief Method get_guiState, addr 0x6b7d53c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method get_guiState, addr 0x6be63c0, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::ObjectGUIState* get_guiState();
 
-  /// @brief Method get_lastWorldClip, addr 0x6b7d61c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_lastWorldClip, addr 0x6be64a0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_lastWorldClip();
 
-  /// @brief Method get_layoutMeasuredHeight, addr 0x6b7d790, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_layoutMeasuredHeight, addr 0x6be6614, size 0x28, virtual false, abstract: false, final false
   inline float_t get_layoutMeasuredHeight();
 
-  /// @brief Method get_layoutMeasuredWidth, addr 0x6b7d768, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_layoutMeasuredWidth, addr 0x6be65ec, size 0x28, virtual false, abstract: false, final false
   inline float_t get_layoutMeasuredWidth();
 
-  /// @brief Method get_onGUIHandler, addr 0x6b7d4a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onGUIHandler, addr 0x6be6324, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action* get_onGUIHandler();
 
   /// @brief Convert to "::System::IDisposable"
@@ -614,16 +614,16 @@ public:
 
   static inline void setStaticF_ussFoldoutChildDepthClassNames(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method set_contextType, addr 0x6b7d7c0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_contextType, addr 0x6be6644, size 0x94, virtual false, abstract: false, final false
   inline void set_contextType(::UnityEngine::UIElements::ContextType value);
 
-  /// @brief Method set_cullingEnabled, addr 0x6b7d64c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_cullingEnabled, addr 0x6be64d0, size 0xb0, virtual false, abstract: false, final false
   inline void set_cullingEnabled(bool value);
 
-  /// @brief Method set_lastWorldClip, addr 0x6b7d630, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_lastWorldClip, addr 0x6be64b4, size 0x14, virtual false, abstract: false, final false
   inline void set_lastWorldClip(::UnityEngine::Rect value);
 
-  /// @brief Method set_onGUIHandler, addr 0x6b7d4a8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_onGUIHandler, addr 0x6be632c, size 0x94, virtual false, abstract: false, final false
   inline void set_onGUIHandler(::System::Action* value);
 
 protected:

@@ -29,7 +29,7 @@ public:
 
   static inline ::System::Runtime::Diagnostics::DictionaryTraceRecord* New_ctor(::System::Collections::IDictionary* dictionary);
 
-  /// @brief Method WriteTo, addr 0x5f706b0, size 0x420, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x5fd823c, size 0x420, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* xml);
 
   constexpr ::System::Collections::IDictionary* const& __cordl_internal_get_dictionary() const;
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set_dictionary(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x5f706a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd8230, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* dictionary);
 
 protected:
@@ -56,7 +56,7 @@ public:
   DictionaryTraceRecord(DictionaryTraceRecord const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21129 };
 
   /// @brief Field dictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IDictionary* ___dictionary;

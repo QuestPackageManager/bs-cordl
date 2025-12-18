@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SHCoefficients::*)(::UnityEngine::Rendering::SphericalHarmonicsL2)>(
     &::UnityEngine::Rendering::SHCoefficients::_ctor)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6596368;
+  constexpr static std::size_t addrs = 0x65fdef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::Rendering::SHCoefficients::*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::UnityEngine::Vector4)>(&::UnityEngine::Rendering::SHCoefficients::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6596610;
+  constexpr static std::size_t addrs = 0x65fe19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, int32_t)>(
     &::UnityEngine::Rendering::SHCoefficients::GetSHA)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x65964c0;
+  constexpr static std::size_t addrs = 0x65fe04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, int32_t)>(
     &::UnityEngine::Rendering::SHCoefficients::GetSHB)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6596568;
+  constexpr static std::size_t addrs = 0x65fe0f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Rendering::SphericalHarmonicsL2)>(
     &::UnityEngine::Rendering::SHCoefficients::GetSHC)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65965fc;
+  constexpr static std::size_t addrs = 0x65fe188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SHCoefficients::*)(::UnityEngine::Rendering::SHCoefficients)>(
     &::UnityEngine::Rendering::SHCoefficients::Equals)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x6596668;
+  constexpr static std::size_t addrs = 0x65fe1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SHCoefficients::*)(::System::Object*)>(
     &::UnityEngine::Rendering::SHCoefficients::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6596874;
+  constexpr static std::size_t addrs = 0x65fe400;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SHCoefficients::*)()>(&::UnityEngine::Rendering::SHCoefficients::GetHashCode)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6596908;
+  constexpr static std::size_t addrs = 0x65fe494;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rendering::SHCoefficients, ::UnityEngine::Rendering::SHCoefficients)>(
     &::UnityEngine::Rendering::SHCoefficients::op_Equality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6596a84;
+  constexpr static std::size_t addrs = 0x65fe610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rendering::SHCoefficients, ::UnityEngine::Rendering::SHCoefficients)>(
     &::UnityEngine::Rendering::SHCoefficients::op_Inequality)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6596ab8;
+  constexpr static std::size_t addrs = 0x65fe644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -31,18 +31,18 @@ namespace ENet {
 class CORDL_TYPE ChecksumCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x567c1dc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x56dce84, size 0x78, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr buffers, int32_t bufferCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x567c254, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x56dcefc, size 0x24, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x567c1c8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x56dce70, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(::System::IntPtr buffers, int32_t bufferCount);
 
   static inline ::ENet::ChecksumCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x567c15c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56dce04, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -60,7 +60,7 @@ public:
   ChecksumCallback(ChecksumCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21533 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

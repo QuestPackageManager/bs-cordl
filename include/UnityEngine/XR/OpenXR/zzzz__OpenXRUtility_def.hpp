@@ -28,22 +28,22 @@ namespace UnityEngine::XR::OpenXR {
 class CORDL_TYPE OpenXRUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ComputePoseToWorldSpace, addr 0x67be4d0, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method ComputePoseToWorldSpace, addr 0x6826048, size 0x218, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose ComputePoseToWorldSpace(::UnityEngine::Transform* t, ::UnityEngine::Camera* camera);
 
-  /// @brief Method Internal_GetUserPresence, addr 0x67be75c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetUserPresence, addr 0x68262d4, size 0x6c, virtual false, abstract: false, final false
   static inline bool Internal_GetUserPresence();
 
-  /// @brief Method Internal_IsSessionFocused, addr 0x67be6ec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_IsSessionFocused, addr 0x6826264, size 0x6c, virtual false, abstract: false, final false
   static inline bool Internal_IsSessionFocused();
 
-  /// @brief Method Inverse, addr 0x67be44c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Inverse, addr 0x6825fc4, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose Inverse(::UnityEngine::Pose p);
 
-  /// @brief Method get_IsSessionFocused, addr 0x67be6e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_IsSessionFocused, addr 0x6826260, size 0x4, virtual false, abstract: false, final false
   static inline bool get_IsSessionFocused();
 
-  /// @brief Method get_IsUserPresent, addr 0x67be758, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_IsUserPresent, addr 0x68262d0, size 0x4, virtual false, abstract: false, final false
   static inline bool get_IsUserPresent();
 
 protected:
@@ -64,7 +64,7 @@ public:
   static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18466 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18481 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BindingRestrictions_MergedRestriction::*)(
     ::System::Dynamic::BindingRestrictions*, ::System::Dynamic::BindingRestrictions*)>(&::GlobalNamespace::BindingRestrictions_MergedRestriction::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5da53a4;
+  constexpr static std::size_t addrs = 0x5e0cf30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::GlobalNamespace::BindingRestrictions_MergedRestriction::*)()>(
     &::GlobalNamespace::BindingRestrictions_MergedRestriction::GetExpression)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x5da5c58;
+  constexpr static std::size_t addrs = 0x5e0d7e4;
 
   inline static ::MethodInfo const* methodInfo() {
 

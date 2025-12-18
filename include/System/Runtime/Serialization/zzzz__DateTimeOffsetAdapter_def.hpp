@@ -34,22 +34,22 @@ public:
 
   __declspec(property(get = get_UtcDateTime)) ::System::DateTime UtcDateTime;
 
-  /// @brief Method GetDateTimeOffset, addr 0x5f30910, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method GetDateTimeOffset, addr 0x5f9849c, size 0x210, virtual false, abstract: false, final false
   static inline ::System::DateTimeOffset GetDateTimeOffset(::System::Runtime::Serialization::DateTimeOffsetAdapter value);
 
-  /// @brief Method GetDateTimeOffsetAdapter, addr 0x5f30bf0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetDateTimeOffsetAdapter, addr 0x5f9877c, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DateTimeOffsetAdapter GetDateTimeOffsetAdapter(::System::DateTimeOffset value);
 
-  /// @brief Method ToString, addr 0x5f30b20, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x5f986ac, size 0xd0, virtual false, abstract: false, final false
   inline ::StringW ToString(::System::IFormatProvider* provider);
 
-  /// @brief Method .ctor, addr 0x5f308f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f98480, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime dateTime, int16_t offsetMinutes);
 
-  /// @brief Method get_OffsetMinutes, addr 0x5f30908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OffsetMinutes, addr 0x5f98494, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_OffsetMinutes();
 
-  /// @brief Method get_UtcDateTime, addr 0x5f30900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UtcDateTime, addr 0x5f9848c, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_UtcDateTime();
 
   // Ctor Parameters []
@@ -60,7 +60,7 @@ public:
   constexpr DateTimeOffsetAdapter(::System::DateTime utcDateTime, int16_t offsetMinutes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16996 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

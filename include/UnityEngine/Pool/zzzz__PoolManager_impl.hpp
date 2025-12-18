@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Pool::IPool*)>(&::UnityEngine::Pool::PoolManager::Register)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x68cdc58;
+  constexpr static std::size_t addrs = 0x6936adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

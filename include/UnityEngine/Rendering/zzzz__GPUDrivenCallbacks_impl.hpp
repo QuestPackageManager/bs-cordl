@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback*, ::ByRef<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative>, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*)>(
     &::UnityEngine::Rendering::GPUDrivenCallbacks::InvokeGPUDrivenLODGroupDataNativeCallback)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68f77e8;
+  constexpr static std::size_t addrs = 0x696066c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*,
                          ::UnityEngine::Rendering::GPUDrivenRendererDataCallback*)>(&::UnityEngine::Rendering::GPUDrivenCallbacks::InvokeGPUDrivenRendererDataNativeCallback)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68f7808;
+  constexpr static std::size_t addrs = 0x696068c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

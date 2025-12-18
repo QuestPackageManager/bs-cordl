@@ -28,10 +28,10 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE SpeedTreeWindManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method UpdateWindAndWriteBufferWindParams, addr 0x69877d8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method UpdateWindAndWriteBufferWindParams, addr 0x69f065c, size 0xb8, virtual false, abstract: false, final false
   static inline void UpdateWindAndWriteBufferWindParams(::System::ReadOnlySpan_1<int32_t> renderersID, ::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator windParams, bool history);
 
-  /// @brief Method UpdateWindAndWriteBufferWindParams_Injected, addr 0x6987890, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method UpdateWindAndWriteBufferWindParams_Injected, addr 0x69f0714, size 0x54, virtual false, abstract: false, final false
   static inline void UpdateWindAndWriteBufferWindParams_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> renderersID,
                                                                  ::ByRef<::UnityEngine::Rendering::SpeedTreeWindParamsBufferIterator> windParams, bool history);
 
@@ -50,7 +50,7 @@ public:
   SpeedTreeWindManager(SpeedTreeWindManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22402 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22429 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

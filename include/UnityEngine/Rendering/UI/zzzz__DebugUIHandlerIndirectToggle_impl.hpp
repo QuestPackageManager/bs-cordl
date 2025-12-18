@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerIndirectToggle::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerIndirectToggle::Init)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x65df900;
+  constexpr static std::size_t addrs = 0x664748c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerIndirectToggle::*)(bool)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerIndirectToggle::OnToggleValueChanged)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x65e53a4;
+  constexpr static std::size_t addrs = 0x664cf30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerIndirectToggle::*)(
     bool, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*)>(&::UnityEngine::Rendering::UI::DebugUIHandlerIndirectToggle::OnSelection)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x65e53d0;
+  constexpr static std::size_t addrs = 0x664cf5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerIndirectToggle::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerIndirectToggle::OnDeselection)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x65e5428;
+  constexpr static std::size_t addrs = 0x664cfb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerIndirectToggle::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerIndirectToggle::OnAction)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x65e5478;
+  constexpr static std::size_t addrs = 0x664d004;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerIndirectToggle::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerIndirectToggle::UpdateValueLabel)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x65dfd50;
+  constexpr static std::size_t addrs = 0x66478dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerIndirectToggle::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerIndirectToggle::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65e54d4;
+  constexpr static std::size_t addrs = 0x664d060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -52,7 +52,7 @@ public:
   Factory_7(Factory_7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14348 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

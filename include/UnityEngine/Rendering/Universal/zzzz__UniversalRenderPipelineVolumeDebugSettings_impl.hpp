@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Rendering::VolumeStack* (::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::*)()>(
         &::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::get_selectedCameraVolumeStack)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6633100;
+  constexpr static std::size_t addrs = 0x669ac8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::get_selectedCameraLayerMask)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6633250;
+  constexpr static std::size_t addrs = 0x669addc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::get_selectedCameraPosition)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6633340;
+  constexpr static std::size_t addrs = 0x669aecc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::get_targetRenderPipeline)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6633440;
+  constexpr static std::size_t addrs = 0x669afcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6632800;
+  constexpr static std::size_t addrs = 0x669a38c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

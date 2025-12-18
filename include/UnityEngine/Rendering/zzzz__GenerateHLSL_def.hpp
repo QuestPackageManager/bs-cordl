@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set_sourcePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6584548, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65ec0d4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::PackingRules rules, bool needAccessors, bool needSetters, bool needParamDebug, int32_t paramDefinesStart, bool omitStructDeclaration,
                     bool containsPackedFields, bool generateCBuffer, int32_t constantRegister, ::StringW sourcePath);
 
@@ -136,7 +136,7 @@ public:
   GenerateHLSL(GenerateHLSL const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12176 };
 
   /// @brief Field packingRules, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::PackingRules ___packingRules;

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlCachedStream::*)(::System::Uri*, ::System::IO::Stream*)>(
     &::System::Xml::XmlCachedStream::_ctor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x60c5654;
+  constexpr static std::size_t addrs = 0x612d1e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

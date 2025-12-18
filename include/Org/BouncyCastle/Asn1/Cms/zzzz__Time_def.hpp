@@ -44,17 +44,17 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x323c7dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3267020, size 0x28, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Time* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x323c804, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3267048, size 0x1d0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Time* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Time* New_ctor(::System::DateTime date);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Time* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* time);
 
-  /// @brief Method ToAsn1Object, addr 0x323cf38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x326777c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Object* const& __cordl_internal_get_time() const;
@@ -63,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set_time(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method .ctor, addr 0x323cb10, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3267354, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime date);
 
-  /// @brief Method .ctor, addr 0x323c9d4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3267218, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* time);
 
-  /// @brief Method get_Date, addr 0x323cd7c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method get_Date, addr 0x32675c0, size 0x1bc, virtual false, abstract: false, final false
   inline ::System::DateTime get_Date();
 
-  /// @brief Method get_TimeString, addr 0x323ccac, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_TimeString, addr 0x32674f0, size 0xd0, virtual false, abstract: false, final false
   inline ::StringW get_TimeString();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

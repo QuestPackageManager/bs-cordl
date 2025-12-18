@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::System::Nullable_1<::UnityEngine::SceneManagement::Scene>)>(
     &::GlobalNamespace::BakedLightUtils::ValidateLoadedEnvironmentScene)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x56f3008;
+  constexpr static std::size_t addrs = 0x574f9e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::SceneManagement::Scene, bool)>(
     &::GlobalNamespace::BakedLightUtils::ValidateBakedLights)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x56f3258;
+  constexpr static std::size_t addrs = 0x574fc34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::SceneManagement::Scene)>(
     &::GlobalNamespace::BakedLightUtils::ValidateMirrors)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x56f3670;
+  constexpr static std::size_t addrs = 0x575004c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

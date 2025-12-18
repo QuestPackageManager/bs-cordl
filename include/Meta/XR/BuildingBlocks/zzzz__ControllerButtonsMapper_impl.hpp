@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction::*)(
     ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction::OnCallbackWithContext)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x581e29c;
+  constexpr static std::size_t addrs = 0x5884a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction>* (
     ::Meta::XR::BuildingBlocks::ControllerButtonsMapper::*)()>(&::Meta::XR::BuildingBlocks::ControllerButtonsMapper::get_ButtonClickActions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581dac8;
+  constexpr static std::size_t addrs = 0x588422c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::ControllerButtonsMapper*>::get(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::ControllerButtonsMapper::*)(
     ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction>*)>(&::Meta::XR::BuildingBlocks::ControllerButtonsMapper::set_ButtonClickActions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581dad0;
+  constexpr static std::size_t addrs = 0x5884234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::ControllerButtonsMapper::*)()>(
     &::Meta::XR::BuildingBlocks::ControllerButtonsMapper::OnEnable)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x581dad8;
+  constexpr static std::size_t addrs = 0x588423c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::ControllerButtonsMapper*>::get(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::ControllerButtonsMapper::*)()>(
     &::Meta::XR::BuildingBlocks::ControllerButtonsMapper::OnDisable)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x581dd30;
+  constexpr static std::size_t addrs = 0x5884494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::ControllerButtonsMapper*>::get(),
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::ControllerButtonsMapper::*)()>(
     &::Meta::XR::BuildingBlocks::ControllerButtonsMapper::Update)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x581df88;
+  constexpr static std::size_t addrs = 0x58846ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::ControllerButtonsMapper*>::get(),
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction)>(
     &::Meta::XR::BuildingBlocks::ControllerButtonsMapper::IsActionTriggered)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x581e0c0;
+  constexpr static std::size_t addrs = 0x5884824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,7 +160,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::Meta::XR::BuildingBlocks::ButtonClickAction_ControllerButtonsMapper_ButtonClickMode, ::GlobalNamespace::OVRInput_Button)>(
         &::Meta::XR::BuildingBlocks::ControllerButtonsMapper::IsLegacyInputActionTriggered)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x581e10c;
+  constexpr static std::size_t addrs = 0x5884870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction)>(
     &::Meta::XR::BuildingBlocks::ControllerButtonsMapper::IsNewInputSystemActionTriggered)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x581e204;
+  constexpr static std::size_t addrs = 0x5884968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::ControllerButtonsMapper::*)()>(
     &::Meta::XR::BuildingBlocks::ControllerButtonsMapper::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x581e298;
+  constexpr static std::size_t addrs = 0x58849fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::ControllerButtonsMapper*>::get(),

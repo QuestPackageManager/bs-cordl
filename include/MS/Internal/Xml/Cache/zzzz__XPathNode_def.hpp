@@ -62,55 +62,55 @@ public:
 
   __declspec(property(get = get_Value)) ::StringW Value;
 
-  /// @brief Method GetParent, addr 0x605ea68, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetParent, addr 0x60c65f4, size 0x20, virtual false, abstract: false, final false
   inline int32_t GetParent(::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNode);
 
-  /// @brief Method GetSibling, addr 0x605e92c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetSibling, addr 0x60c64b8, size 0x20, virtual false, abstract: false, final false
   inline int32_t GetSibling(::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNode);
 
-  /// @brief Method get_CollapsedLinePosition, addr 0x605ed74, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_CollapsedLinePosition, addr 0x60c6900, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_CollapsedLinePosition();
 
-  /// @brief Method get_Document, addr 0x605e668, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Document, addr 0x60c61f4, size 0x18, virtual false, abstract: false, final false
   inline ::System::Xml::XPath::XPathDocument* get_Document();
 
-  /// @brief Method get_HasCollapsedText, addr 0x605edf0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_HasCollapsedText, addr 0x60c697c, size 0xc, virtual false, abstract: false, final false
   inline bool get_HasCollapsedText();
 
-  /// @brief Method get_HasNamespaceDecls, addr 0x605ee64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_HasNamespaceDecls, addr 0x60c69f0, size 0xc, virtual false, abstract: false, final false
   inline bool get_HasNamespaceDecls();
 
-  /// @brief Method get_HasSibling, addr 0x605ede0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasSibling, addr 0x60c696c, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasSibling();
 
-  /// @brief Method get_IsText, addr 0x605edfc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_IsText, addr 0x60c6988, size 0x68, virtual false, abstract: false, final false
   inline bool get_IsText();
 
-  /// @brief Method get_IsXmlNamespaceNode, addr 0x605e8a4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_IsXmlNamespaceNode, addr 0x60c6430, size 0x88, virtual false, abstract: false, final false
   inline bool get_IsXmlNamespaceNode();
 
-  /// @brief Method get_LineNumber, addr 0x605ec9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x60c6828, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x605ed9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x60c6928, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_LocalName, addr 0x605e564, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x60c60f0, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceUri, addr 0x605e5b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceUri, addr 0x60c6144, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_NamespaceUri();
 
-  /// @brief Method get_NodeType, addr 0x605e51c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x60c60a8, size 0xc, virtual false, abstract: false, final false
   inline ::System::Xml::XPath::XPathNodeType get_NodeType();
 
-  /// @brief Method get_PageInfo, addr 0x605edc8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_PageInfo, addr 0x60c6954, size 0x18, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::Cache::XPathNodePageInfo* get_PageInfo();
 
-  /// @brief Method get_Prefix, addr 0x605e60c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x60c6198, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_Value, addr 0x605ee70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x60c69fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   // Ctor Parameters []
@@ -125,7 +125,7 @@ public:
                       ::StringW _value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9854 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9858 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

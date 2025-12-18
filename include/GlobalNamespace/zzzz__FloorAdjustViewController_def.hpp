@@ -55,18 +55,18 @@ public:
   /// @brief Field _yIncButton, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__yIncButton, put = __cordl_internal_set__yIncButton)) ::UnityW<::UnityEngine::UI::Button> _yIncButton;
 
-  /// @brief Method DidActivate, addr 0x580f460, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x587313c, size 0x140, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::FloorAdjustViewController* New_ctor();
 
-  /// @brief Method Update, addr 0x580f5a0, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x587327c, size 0x1fc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method <DidActivate>b__10_0, addr 0x580f7a0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_0, addr 0x587347c, size 0xc0, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_0();
 
-  /// @brief Method <DidActivate>b__10_1, addr 0x580f860, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_1, addr 0x587353c, size 0xc0, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_1();
 
   constexpr float_t const& __cordl_internal_get__playerHeight() const;
@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set__yIncButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method .ctor, addr 0x580f79c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5873478, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -129,7 +129,7 @@ public:
   FloorAdjustViewController(FloorAdjustViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6480 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6474 };
 
   /// @brief Field kMaxPlayerHeight offset 0xffffffff size 0x4
   static constexpr float_t kMaxPlayerHeight{ static_cast<float_t>(3.0f) };

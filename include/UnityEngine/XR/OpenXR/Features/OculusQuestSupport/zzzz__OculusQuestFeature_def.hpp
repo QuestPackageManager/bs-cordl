@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_targetQuest2(bool value);
 
-  /// @brief Method .ctor, addr 0x67d60b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x683dc2c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   OculusQuestFeature(OculusQuestFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23396 };
 
   /// @brief Field featureId offset 0xffffffff size 0x8
   static constexpr ::ConstString featureId{ u"com.unity.openxr.feature.oculusquest" };

@@ -59,23 +59,23 @@ public:
 
   constexpr void __cordl_internal_set__enumType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x584fbfc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b6360, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute,
                     ::System::Type* enumType);
 
-  /// @brief Method get_Member, addr 0x584fbf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Member, addr 0x58b6358, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_Member();
 
-  /// @brief Method get_Tween, addr 0x584fc24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Tween, addr 0x58b6388, size 0x8, virtual true, abstract: false, final false
   inline float_t get_Tween();
 
-  /// @brief Method get_Value, addr 0x5844850, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x58aafb4, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Tween, addr 0x584fc2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Tween, addr 0x58b6390, size 0x8, virtual true, abstract: false, final false
   inline void set_Tween(float_t value);
 
-  /// @brief Method set_Value, addr 0x5844728, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x58aae8c, size 0x54, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -93,7 +93,7 @@ public:
   TweakEnum(TweakEnum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18410 };
 
   /// @brief Field _enumType, offset: 0x40, size: 0x8, def value: None
   ::System::Type* ____enumType;

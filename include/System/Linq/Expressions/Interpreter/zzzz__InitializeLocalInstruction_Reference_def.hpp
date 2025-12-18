@@ -34,18 +34,18 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
   constexpr operator ::System::Linq::Expressions::Interpreter::IBoxableInstruction*() noexcept;
 
-  /// @brief Method BoxIfIndexMatches, addr 0x5d967e0, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method BoxIfIndexMatches, addr 0x5dfe36c, size 0x88, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(int32_t index);
 
   static inline ::GlobalNamespace::InitializeLocalInstruction_Reference* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x5d967a4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5dfe330, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5d9679c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dfe328, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_InstructionName, addr 0x5d96868, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5dfe3f4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
   /// @brief Convert to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
@@ -66,7 +66,7 @@ public:
   InitializeLocalInstruction_Reference(InitializeLocalInstruction_Reference const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

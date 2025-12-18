@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__FormatParameterName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c092dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c72160, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW formatParameterName);
 
-  /// @brief Method get_FormatParameterName, addr 0x6c092e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FormatParameterName, addr 0x6c72168, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FormatParameterName();
 
-  /// @brief Method set_FormatParameterName, addr 0x6c092ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FormatParameterName, addr 0x6c72170, size 0x8, virtual false, abstract: false, final false
   inline void set_FormatParameterName(::StringW value);
 
 protected:
@@ -56,7 +56,7 @@ public:
   StringFormatMethodAttribute(StringFormatMethodAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22271 };
 
   /// @brief Field <FormatParameterName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____FormatParameterName_k__BackingField;

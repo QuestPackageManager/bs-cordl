@@ -34,7 +34,7 @@ public:
   /// @brief Field _renderer, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer)) ::UnityW<::UnityEngine::Renderer> _renderer;
 
-  /// @brief Method ColorWasSet, addr 0x5658ac4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x56b976c, size 0x3c, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::EnableRendererWithLightId* New_ctor();
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method .ctor, addr 0x5658b00, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56b97a8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   EnableRendererWithLightId(EnableRendererWithLightId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19717 };
 
   /// @brief Field _renderer, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ____renderer;

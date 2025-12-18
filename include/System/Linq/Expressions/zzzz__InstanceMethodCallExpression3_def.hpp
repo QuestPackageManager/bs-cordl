@@ -51,14 +51,14 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
   constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method GetArgument, addr 0x5d6c2a4, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x5dd3e30, size 0xd0, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::InstanceMethodCallExpression3* New_ctor(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* instance,
                                                                                      ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1,
                                                                                      ::System::Linq::Expressions::Expression* arg2);
 
-  /// @brief Method Rewrite, addr 0x5d6c37c, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x5dd3f08, size 0x21c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::MethodCallExpression* Rewrite(::System::Linq::Expressions::Expression* instance,
                                                                     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* args);
 
@@ -80,11 +80,11 @@ public:
 
   constexpr void __cordl_internal_set__arg2(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x5d6c268, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd3df4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* instance, ::System::Linq::Expressions::Expression* arg0,
                     ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2);
 
-  /// @brief Method get_ArgumentCount, addr 0x5d6c374, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x5dd3f00, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
   /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
@@ -105,7 +105,7 @@ public:
   InstanceMethodCallExpression3(InstanceMethodCallExpression3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16170 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16184 };
 
   /// @brief Field _arg0, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ____arg0;

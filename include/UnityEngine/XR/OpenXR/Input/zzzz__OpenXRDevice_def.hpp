@@ -18,12 +18,12 @@ namespace UnityEngine::XR::OpenXR::Input {
 class CORDL_TYPE OpenXRDevice : public ::UnityEngine::InputSystem::InputDevice {
 public:
   // Declarations
-  /// @brief Method FinishSetup, addr 0x67bea78, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x68265f0, size 0xf4, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::OpenXR::Input::OpenXRDevice* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67beb6c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68266e4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   OpenXRDevice(OpenXRDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18508 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

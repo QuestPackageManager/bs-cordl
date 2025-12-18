@@ -63,7 +63,7 @@ public:
   static ::GlobalNamespace::BeatmapDataItem_BeatmapDataItemType const BeatmapObject;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21034 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -113,7 +113,7 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x31623fc, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x31920f4, size 0x48, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::BeatmapDataItem* b);
 
   /// @brief Method GetCopy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -145,34 +145,34 @@ public:
 
   constexpr void __cordl_internal_set__type_k__BackingField(::GlobalNamespace::BeatmapDataItem_BeatmapDataItemType value);
 
-  /// @brief Method .ctor, addr 0x31623ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31920e4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier, ::GlobalNamespace::BeatmapDataItem_BeatmapDataItemType type);
 
-  /// @brief Method get_executionOrder, addr 0x31623bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_executionOrder, addr 0x31920b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method get_subtypeGroupIdentifier, addr 0x31623c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeGroupIdentifier, addr 0x31920bc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeGroupIdentifier();
 
-  /// @brief Method get_subtypeIdentifier, addr 0x31623cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subtypeIdentifier, addr 0x31920c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_subtypeIdentifier();
 
-  /// @brief Method get_time, addr 0x31623ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x31920a4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_type, addr 0x31623dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x31920d4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem_BeatmapDataItemType get_type();
 
   /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>"
   constexpr ::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>* i___System__IComparable_1___GlobalNamespace__BeatmapDataItem__() noexcept;
 
-  /// @brief Method set_subtypeIdentifier, addr 0x31623d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_subtypeIdentifier, addr 0x31920cc, size 0x8, virtual false, abstract: false, final false
   inline void set_subtypeIdentifier(int32_t value);
 
-  /// @brief Method set_time, addr 0x31623b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x31920ac, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method set_type, addr 0x31623e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x31920dc, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::GlobalNamespace::BeatmapDataItem_BeatmapDataItemType value);
 
 protected:
@@ -190,7 +190,7 @@ public:
   BeatmapDataItem(BeatmapDataItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21035 };
 
   /// @brief Field <time>k__BackingField, offset: 0x10, size: 0x4, def value: None
   float_t ____time_k__BackingField;

@@ -32,13 +32,13 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerVBox* New_ctor();
 
-  /// @brief Method Next, addr 0x65e8fe8, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Next, addr 0x6650b74, size 0xbc, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> Next();
 
-  /// @brief Method OnSelection, addr 0x65e8f28, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x6650ab4, size 0xc0, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetWidget, addr 0x65e8ec4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6650a50, size 0x64, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
   constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer> const& __cordl_internal_get_m_Container() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Container(::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer> value);
 
-  /// @brief Method .ctor, addr 0x65e90a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6650c30, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   DebugUIHandlerVBox(DebugUIHandlerVBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12514 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12518 };
 
   /// @brief Field m_Container, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer> ___m_Container;

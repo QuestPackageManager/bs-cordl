@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)()>(
     &::UnityEngine::Rendering::Universal::ReflectionProbeManager::get_atlasRT)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x668bc58;
+  constexpr static std::size_t addrs = 0x66f37e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)()>(
     &::UnityEngine::Rendering::Universal::ReflectionProbeManager::get_atlasRTHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x668bc60;
+  constexpr static std::size_t addrs = 0x66f37ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::ReflectionProbeManager (*)()>(
     &::UnityEngine::Rendering::Universal::ReflectionProbeManager::Create)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x668bc68;
+  constexpr static std::size_t addrs = 0x66f37f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)()>(
     &::UnityEngine::Rendering::Universal::ReflectionProbeManager::Init)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x668bca8;
+  constexpr static std::size_t addrs = 0x66f3834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::ByRef<::UnityEngine::Rendering::CullingResults>)>(&::UnityEngine::Rendering::Universal::ReflectionProbeManager::UpdateGpuData)> {
   constexpr static std::size_t size = 0x1738;
-  constexpr static std::size_t addrs = 0x668c134;
+  constexpr static std::size_t addrs = 0x66f3cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float4 (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)(
     int32_t, int32_t, bool, bool)>(&::UnityEngine::Rendering::Universal::ReflectionProbeManager::GetScaleOffset)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x668d86c;
+  constexpr static std::size_t addrs = 0x66f53f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)()>(
     &::UnityEngine::Rendering::Universal::ReflectionProbeManager::Dispose)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x668d960;
+  constexpr static std::size_t addrs = 0x66f54ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

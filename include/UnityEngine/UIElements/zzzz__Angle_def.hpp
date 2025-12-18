@@ -139,52 +139,52 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Angle>*();
 
-  /// @brief Method Equals, addr 0x6ba5d38, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c0ebbc, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6ba5d14, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c0eb98, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Angle other);
 
-  /// @brief Method GetHashCode, addr 0x6ba5dcc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c0ec50, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method None, addr 0x6ba5c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x6c0ea8c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Angle None();
 
-  /// @brief Method ToDegrees, addr 0x6ba5c48, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToDegrees, addr 0x6c0eacc, size 0x84, virtual false, abstract: false, final false
   inline float_t ToDegrees();
 
-  /// @brief Method ToString, addr 0x6ba5df0, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6c0ec74, size 0x1f4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6ba5c3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c0eac0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::AngleUnit unit);
 
-  /// @brief Method .ctor, addr 0x6ba5c10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c0ea94, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::Angle_Unit unit);
 
-  /// @brief Method get_unit, addr 0x6ba5c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unit, addr 0x6c0eab0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::AngleUnit get_unit();
 
-  /// @brief Method get_value, addr 0x6ba5c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x6c0eaa0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Angle>* i___System__IEquatable_1___UnityEngine__UIElements__Angle_();
 
-  /// @brief Method op_Equality, addr 0x6ba5cd4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c0eb58, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Angle lhs, ::UnityEngine::UIElements::Angle rhs);
 
-  /// @brief Method op_Implicit, addr 0x6ba5ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6c0eb50, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Angle op_Implicit___UnityEngine__UIElements__Angle(float_t value);
 
-  /// @brief Method op_Inequality, addr 0x6ba5cf4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6c0eb78, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Angle lhs, ::UnityEngine::UIElements::Angle rhs);
 
-  /// @brief Method set_unit, addr 0x6ba5c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unit, addr 0x6c0eab8, size 0x8, virtual false, abstract: false, final false
   inline void set_unit(::UnityEngine::UIElements::AngleUnit value);
 
-  /// @brief Method set_value, addr 0x6ba5c24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x6c0eaa8, size 0x8, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
   // Ctor Parameters []
@@ -234,12 +234,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6ba61d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c0f054, size 0x8, virtual true, abstract: false, final false
   inline float_t GetValue(::ByRef<::UnityEngine::UIElements::Angle> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Angle_ValueProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6ba61d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c0f05c, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::ByRef<::UnityEngine::UIElements::Angle> container, float_t value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -254,13 +254,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6ba60f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c0ef7c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6ba61c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c0f04c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6ba61c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c0f044, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -313,12 +313,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6ba61f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c0f074, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::AngleUnit GetValue(::ByRef<::UnityEngine::UIElements::Angle> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Angle_UnitProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6ba61f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c0f07c, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::ByRef<::UnityEngine::UIElements::Angle> container, ::UnityEngine::UIElements::AngleUnit value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -333,13 +333,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6ba615c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c0efe0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6ba61e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c0f06c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6ba61e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c0f064, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -388,7 +388,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Angle_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6ba5fe4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c0ee68, size 0x114, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

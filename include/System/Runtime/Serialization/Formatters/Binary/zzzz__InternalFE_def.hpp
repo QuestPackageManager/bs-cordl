@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_FEtypeFormat(::System::Runtime::Serialization::Formatters::FormatterTypeStyle value);
 
-  /// @brief Method .ctor, addr 0x5954a64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59bb3b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

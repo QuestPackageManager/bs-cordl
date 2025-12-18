@@ -67,7 +67,7 @@ public:
   static ::UnityEngine::Rendering::IncludeAdditionalRPAssets_Version const Last;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12164 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12168 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -117,7 +117,7 @@ public:
 
   static inline ::UnityEngine::Rendering::IncludeAdditionalRPAssets* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x658424c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x65ebdd8, size 0x8, virtual true, abstract: false, final true
   inline int32_t UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_version();
 
   constexpr bool const& __cordl_internal_get_m_IncludeAssetsByLabel() const;
@@ -144,28 +144,28 @@ public:
 
   constexpr void __cordl_internal_set_m_version(::UnityEngine::Rendering::IncludeAdditionalRPAssets_Version value);
 
-  /// @brief Method .ctor, addr 0x65843bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65ebf48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_includeAssetsByLabel, addr 0x65842cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_includeAssetsByLabel, addr 0x65ebe58, size 0x8, virtual false, abstract: false, final false
   inline bool get_includeAssetsByLabel();
 
-  /// @brief Method get_includeReferencedInScenes, addr 0x6584254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_includeReferencedInScenes, addr 0x65ebde0, size 0x8, virtual false, abstract: false, final false
   inline bool get_includeReferencedInScenes();
 
-  /// @brief Method get_labelToInclude, addr 0x6584344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_labelToInclude, addr 0x65ebed0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_labelToInclude();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
   constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
 
-  /// @brief Method set_includeAssetsByLabel, addr 0x65842d4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_includeAssetsByLabel, addr 0x65ebe60, size 0x70, virtual false, abstract: false, final false
   inline void set_includeAssetsByLabel(bool value);
 
-  /// @brief Method set_includeReferencedInScenes, addr 0x658425c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_includeReferencedInScenes, addr 0x65ebde8, size 0x70, virtual false, abstract: false, final false
   inline void set_includeReferencedInScenes(bool value);
 
-  /// @brief Method set_labelToInclude, addr 0x658434c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_labelToInclude, addr 0x65ebed8, size 0x70, virtual false, abstract: false, final false
   inline void set_labelToInclude(::StringW value);
 
 protected:
@@ -183,7 +183,7 @@ public:
   IncludeAdditionalRPAssets(IncludeAdditionalRPAssets const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12169 };
 
   /// @brief Field m_version, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::IncludeAdditionalRPAssets_Version ___m_version;

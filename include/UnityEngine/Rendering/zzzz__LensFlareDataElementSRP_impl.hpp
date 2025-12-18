@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::_ctor)> {
   constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x6582e6c;
+  constexpr static std::size_t addrs = 0x65ea9f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareDataElementSRP*>::get(),
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::LensFlareDataElementSRP* (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::Clone)> {
   constexpr static std::size_t size = 0x51c;
-  constexpr static std::size_t addrs = 0x6583464;
+  constexpr static std::size_t addrs = 0x65eaff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareDataElementSRP*>::get(),
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::get_localIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6583980;
+  constexpr static std::size_t addrs = 0x65eb50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareDataElementSRP*>::get(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::LensFlareDataElementSRP::*)(float_t)>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::set_localIntensity)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65833b8;
+  constexpr static std::size_t addrs = 0x65eaf44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::get_count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6583988;
+  constexpr static std::size_t addrs = 0x65eb514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareDataElementSRP*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::LensFlareDataElementSRP::*)(int32_t)>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::set_count)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x65833cc;
+  constexpr static std::size_t addrs = 0x65eaf58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::get_intensityVariation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6583990;
+  constexpr static std::size_t addrs = 0x65eb51c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareDataElementSRP*>::get(),
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::LensFlareDataElementSRP::*)(float_t)>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::set_intensityVariation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65833dc;
+  constexpr static std::size_t addrs = 0x65eaf68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::get_fallOff)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6583998;
+  constexpr static std::size_t addrs = 0x65eb524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareDataElementSRP*>::get(),
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::LensFlareDataElementSRP::*)(float_t)>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::set_fallOff)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65833f0;
+  constexpr static std::size_t addrs = 0x65eaf7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::get_edgeOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65839a0;
+  constexpr static std::size_t addrs = 0x65eb52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareDataElementSRP*>::get(),
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::LensFlareDataElementSRP::*)(float_t)>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::set_edgeOffset)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6583410;
+  constexpr static std::size_t addrs = 0x65eaf9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::get_sideCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65839a8;
+  constexpr static std::size_t addrs = 0x65eb534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareDataElementSRP*>::get(),
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::LensFlareDataElementSRP::*)(int32_t)>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::set_sideCount)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6583450;
+  constexpr static std::size_t addrs = 0x65eafdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::get_sdfRoundness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65839b0;
+  constexpr static std::size_t addrs = 0x65eb53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::LensFlareDataElementSRP*>::get(),
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::LensFlareDataElementSRP::*)(float_t)>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::set_sdfRoundness)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6583430;
+  constexpr static std::size_t addrs = 0x65eafbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

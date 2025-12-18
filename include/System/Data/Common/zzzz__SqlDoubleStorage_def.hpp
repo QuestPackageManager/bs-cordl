@@ -38,48 +38,48 @@ public:
   /// @brief Field _values, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::ArrayW<::System::Data::SqlTypes::SqlDouble, ::Array<::System::Data::SqlTypes::SqlDouble>*> _values;
 
-  /// @brief Method Aggregate, addr 0x5ea14e0, size 0xc3c, virtual true, abstract: false, final false
+  /// @brief Method Aggregate, addr 0x5f0906c, size 0xc3c, virtual true, abstract: false, final false
   inline ::System::Object* Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind);
 
-  /// @brief Method Compare, addr 0x5ea211c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x5f09ca8, size 0xa8, virtual true, abstract: false, final false
   inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CompareValueTo, addr 0x5ea21c4, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x5f09d50, size 0xb4, virtual true, abstract: false, final false
   inline int32_t CompareValueTo(int32_t recordNo, ::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x5ea2800, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x5f0a38c, size 0x260, virtual true, abstract: false, final false
   inline ::StringW ConvertObjectToXml(::System::Object* value);
 
-  /// @brief Method ConvertValue, addr 0x5ea2278, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ConvertValue, addr 0x5f09e04, size 0x84, virtual true, abstract: false, final false
   inline ::System::Object* ConvertValue(::System::Object* value);
 
-  /// @brief Method ConvertXmlToObject, addr 0x5ea2550, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x5f0a0dc, size 0x2b0, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::StringW s);
 
-  /// @brief Method Copy, addr 0x5ea22fc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x5f09e88, size 0x3c, virtual true, abstract: false, final false
   inline void Copy(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CopyValue, addr 0x5ea2aac, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method CopyValue, addr 0x5f0a638, size 0x10c, virtual true, abstract: false, final false
   inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-  /// @brief Method Get, addr 0x5ea2338, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x5f09ec4, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Object* Get(int32_t record);
 
-  /// @brief Method GetEmptyStorage, addr 0x5ea2a60, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetEmptyStorage, addr 0x5f0a5ec, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Object* GetEmptyStorage(int32_t recordCount);
 
-  /// @brief Method IsNull, addr 0x5ea23c4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method IsNull, addr 0x5f09f50, size 0x8c, virtual true, abstract: false, final false
   inline bool IsNull(int32_t record);
 
   static inline ::System::Data::Common::SqlDoubleStorage* New_ctor(::System::Data::DataColumn* column);
 
-  /// @brief Method Set, addr 0x5ea2450, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x5f09fdc, size 0x48, virtual true, abstract: false, final false
   inline void Set(int32_t record, ::System::Object* value);
 
-  /// @brief Method SetCapacity, addr 0x5ea2498, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x5f0a024, size 0xb8, virtual true, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method SetStorage, addr 0x5ea2bb8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method SetStorage, addr 0x5f0a744, size 0x90, virtual true, abstract: false, final false
   inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
   constexpr ::ArrayW<::System::Data::SqlTypes::SqlDouble, ::Array<::System::Data::SqlTypes::SqlDouble>*> const& __cordl_internal_get__values() const;
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set__values(::ArrayW<::System::Data::SqlTypes::SqlDouble, ::Array<::System::Data::SqlTypes::SqlDouble>*> value);
 
-  /// @brief Method .ctor, addr 0x5ea13b0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f08f3c, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column);
 
 protected:
@@ -106,7 +106,7 @@ public:
   SqlDoubleStorage(SqlDoubleStorage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13908 };
 
   /// @brief Field _values, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::System::Data::SqlTypes::SqlDouble, ::Array<::System::Data::SqlTypes::SqlDouble>*> ____values;

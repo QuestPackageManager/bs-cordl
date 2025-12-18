@@ -31,86 +31,86 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE EventDispatchUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DefaultDispatch, addr 0x6b63d00, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DefaultDispatch, addr 0x6bccb84, size 0x34, virtual false, abstract: false, final false
   static inline void DefaultDispatch(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method Disabled, addr 0x6b66d30, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Disabled, addr 0x6bcfbb4, size 0x30, virtual false, abstract: false, final false
   static inline bool Disabled(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::VisualElement* target);
 
-  /// @brief Method DispatchToAssignedTarget, addr 0x6b67928, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DispatchToAssignedTarget, addr 0x6bd07ac, size 0x8c, virtual false, abstract: false, final false
   static inline void DispatchToAssignedTarget(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method DispatchToCachedElementUnderPointerOrPanelRoot, addr 0x6b67848, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method DispatchToCachedElementUnderPointerOrPanelRoot, addr 0x6bd06cc, size 0xe0, virtual false, abstract: false, final false
   static inline void DispatchToCachedElementUnderPointerOrPanelRoot(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel, int32_t pointerId,
                                                                     ::UnityEngine::Vector2 position);
 
-  /// @brief Method DispatchToCapturingElement, addr 0x6b67a3c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method DispatchToCapturingElement, addr 0x6bd08c0, size 0x110, virtual false, abstract: false, final false
   static inline bool DispatchToCapturingElement(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel, int32_t pointerId,
                                                 ::UnityEngine::Vector2 position);
 
-  /// @brief Method DispatchToCapturingElementOrElementUnderPointer, addr 0x6b679b4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method DispatchToCapturingElementOrElementUnderPointer, addr 0x6bd0838, size 0x88, virtual false, abstract: false, final false
   static inline void DispatchToCapturingElementOrElementUnderPointer(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel, int32_t pointerId,
                                                                      ::UnityEngine::Vector2 position);
 
-  /// @brief Method DispatchToElementUnderPointerOrPanelRoot, addr 0x6b67764, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method DispatchToElementUnderPointerOrPanelRoot, addr 0x6bd05e8, size 0xe4, virtual false, abstract: false, final false
   static inline void DispatchToElementUnderPointerOrPanelRoot(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel, int32_t pointerId,
                                                               ::UnityEngine::Vector2 position);
 
-  /// @brief Method DispatchToFocusedElementOrPanelRoot, addr 0x6b67414, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method DispatchToFocusedElementOrPanelRoot, addr 0x6bd0298, size 0x238, virtual false, abstract: false, final false
   static inline void DispatchToFocusedElementOrPanelRoot(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method DispatchToPanelRoot, addr 0x6b67b4c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DispatchToPanelRoot, addr 0x6bd09d0, size 0x54, virtual false, abstract: false, final false
   static inline void DispatchToPanelRoot(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method HandleEventAcrossPropagationPath, addr 0x6b660d8, size 0x7c4, virtual false, abstract: false, final false
+  /// @brief Method HandleEventAcrossPropagationPath, addr 0x6bcef5c, size 0x7c4, virtual false, abstract: false, final false
   static inline void HandleEventAcrossPropagationPath(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
                                                       ::UnityEngine::UIElements::VisualElement* target, bool isCapturingTarget);
 
-  /// @brief Method HandleEventAcrossPropagationPathWithCompatibilityEvent, addr 0x6b654a4, size 0xc34, virtual false, abstract: false, final false
+  /// @brief Method HandleEventAcrossPropagationPathWithCompatibilityEvent, addr 0x6bce328, size 0xc34, virtual false, abstract: false, final false
   static inline void HandleEventAcrossPropagationPathWithCompatibilityEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::EventBase* compatibilityEvt,
                                                                             ::UnityEngine::UIElements::BaseVisualElementPanel* panel, ::UnityEngine::UIElements::VisualElement* target,
                                                                             bool isCapturingTarget);
 
-  /// @brief Method HandleEventAtTargetAndDefaultPhase, addr 0x6b6689c, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method HandleEventAtTargetAndDefaultPhase, addr 0x6bcf720, size 0x494, virtual false, abstract: false, final false
   static inline void HandleEventAtTargetAndDefaultPhase(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
                                                         ::UnityEngine::UIElements::VisualElement* target);
 
-  /// @brief Method HandleEvent_BubbleUpAllDefaultActions, addr 0x6b6725c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method HandleEvent_BubbleUpAllDefaultActions, addr 0x6bd00e0, size 0x1b8, virtual false, abstract: false, final false
   static inline void HandleEvent_BubbleUpAllDefaultActions(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
                                                            ::UnityEngine::UIElements::VisualElement* element, bool disabled, bool isCapturingTarget);
 
-  /// @brief Method HandleEvent_BubbleUpCallbacks, addr 0x6b67180, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleEvent_BubbleUpCallbacks, addr 0x6bd0004, size 0x2c, virtual false, abstract: false, final false
   static inline void HandleEvent_BubbleUpCallbacks(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
                                                    ::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method HandleEvent_BubbleUpHandleEvent, addr 0x6b67204, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HandleEvent_BubbleUpHandleEvent, addr 0x6bd0088, size 0x58, virtual false, abstract: false, final false
   static inline void HandleEvent_BubbleUpHandleEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
                                                      ::UnityEngine::UIElements::VisualElement* element, bool disabled);
 
-  /// @brief Method HandleEvent_DefaultAction, addr 0x6b670c0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleEvent_DefaultAction, addr 0x6bcff44, size 0x94, virtual false, abstract: false, final false
   static inline void HandleEvent_DefaultAction(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel, ::UnityEngine::UIElements::VisualElement* element,
                                                bool disabled);
 
-  /// @brief Method HandleEvent_DefaultActionAtTarget, addr 0x6b6702c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleEvent_DefaultActionAtTarget, addr 0x6bcfeb0, size 0x94, virtual false, abstract: false, final false
   static inline void HandleEvent_DefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
                                                        ::UnityEngine::UIElements::VisualElement* element, bool disabled);
 
-  /// @brief Method HandleEvent_TrickleDownCallbacks, addr 0x6b67154, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleEvent_TrickleDownCallbacks, addr 0x6bcffd8, size 0x2c, virtual false, abstract: false, final false
   static inline void HandleEvent_TrickleDownCallbacks(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
                                                       ::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method HandleEvent_TrickleDownHandleEvent, addr 0x6b671ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HandleEvent_TrickleDownHandleEvent, addr 0x6bd0030, size 0x58, virtual false, abstract: false, final false
   static inline void HandleEvent_TrickleDownHandleEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
                                                         ::UnityEngine::UIElements::VisualElement* element, bool disabled);
 
-  /// @brief Method PropagateEvent, addr 0x6b65354, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method PropagateEvent, addr 0x6bce1d8, size 0x150, virtual false, abstract: false, final false
   static inline void PropagateEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel, ::UnityEngine::UIElements::VisualElement* target,
                                     bool isCapturingTarget);
 
-  /// @brief Method PropagateToRemainingIMGUIContainerRecursive, addr 0x6b67ba0, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method PropagateToRemainingIMGUIContainerRecursive, addr 0x6bd0a24, size 0x3b4, virtual false, abstract: false, final false
   static inline void PropagateToRemainingIMGUIContainerRecursive(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::VisualElement* root);
 
-  /// @brief Method PropagateToRemainingIMGUIContainers, addr 0x6b676fc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method PropagateToRemainingIMGUIContainers, addr 0x6bd0580, size 0x68, virtual false, abstract: false, final false
   static inline void PropagateToRemainingIMGUIContainers(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::VisualElement* root);
 
 protected:

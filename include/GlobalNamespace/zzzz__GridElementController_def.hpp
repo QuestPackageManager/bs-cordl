@@ -65,18 +65,18 @@ public:
                       put = __cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
       _materialPropertyBlockController;
 
-  /// @brief Method Awake, addr 0x5d32fdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5d9ab68, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ConvertPositionToObjectSpace, addr 0x5d33158, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ConvertPositionToObjectSpace, addr 0x5d9ace4, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ConvertPositionToObjectSpace(::UnityEngine::Vector3 worldSpacePivotPosition);
 
-  /// @brief Method Initialize, addr 0x5d32fe0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5d9ab6c, size 0x178, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::GridElementController* New_ctor();
 
-  /// @brief Method SetGridMaterial, addr 0x5d331a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetGridMaterial, addr 0x5d9ad2c, size 0x28, virtual false, abstract: false, final false
   inline void SetGridMaterial(::UnityEngine::Material* material);
 
   constexpr int32_t const& __cordl_internal_get__gridElementIndexPropertyId() const;
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  /// @brief Method .ctor, addr 0x5d331c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9ad54, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -151,7 +151,7 @@ public:
   GridElementController(GridElementController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20816 };
 
   /// @brief Field _gridPivotAnchor, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____gridPivotAnchor;

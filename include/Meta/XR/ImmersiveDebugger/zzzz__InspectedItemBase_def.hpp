@@ -52,16 +52,16 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x582b784, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5891ee8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Valid, addr 0x582b774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x5891ed8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Valid();
 
-  /// @brief Method get_Visible, addr 0x582add0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Visible, addr 0x5891534, size 0x20, virtual false, abstract: false, final false
   inline bool get_Visible();
 
-  /// @brief Method set_Valid, addr 0x582b77c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Valid, addr 0x5891ee0, size 0x8, virtual false, abstract: false, final false
   inline void set_Valid(bool value);
 
 protected:
@@ -79,7 +79,7 @@ public:
   InspectedItemBase(InspectedItemBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18281 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18296 };
 
   /// @brief Field enabled, offset: 0x10, size: 0x1, def value: None
   bool ___enabled;

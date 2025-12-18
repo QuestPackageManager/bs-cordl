@@ -31,7 +31,7 @@ public:
   __declspec(property(get = __cordl_internal_get__materials, put = __cordl_internal_set__materials)) ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>
       _materials;
 
-  /// @brief Method Awake, addr 0x578e10c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x57f49b4, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::StaticEnvironmentLights* New_ctor();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__materials(::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> value);
 
-  /// @brief Method .ctor, addr 0x578e190, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57f4a38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -92,7 +92,7 @@ public:
   constexpr Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12177 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12181 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
@@ -129,7 +129,7 @@ public:
   constexpr Hammersley_Hammersley2dSeq16(::UnityEngine::Rendering::Hammersley2dSeq16_Hammersley__hammersley2dSeq16_e__FixedBuffer hammersley2dSeq16) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12178 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12182 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
@@ -161,7 +161,7 @@ public:
   constexpr Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12179 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12183 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x200 };
@@ -198,7 +198,7 @@ public:
   constexpr Hammersley_Hammersley2dSeq32(::UnityEngine::Rendering::Hammersley2dSeq32_Hammersley__hammersley2dSeq32_e__FixedBuffer hammersley2dSeq32) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12184 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x200 };
@@ -230,7 +230,7 @@ public:
   constexpr Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12185 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x400 };
@@ -267,7 +267,7 @@ public:
   constexpr Hammersley_Hammersley2dSeq64(::UnityEngine::Rendering::Hammersley2dSeq64_Hammersley__hammersley2dSeq64_e__FixedBuffer hammersley2dSeq64) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12186 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x400 };
@@ -299,7 +299,7 @@ public:
   constexpr Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12187 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1000 };
@@ -336,7 +336,7 @@ public:
   constexpr Hammersley_Hammersley2dSeq256(::UnityEngine::Rendering::Hammersley2dSeq256_Hammersley__hammersley2dSeq256_e__FixedBuffer hammersley2dSeq256) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12188 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1000 };
@@ -391,10 +391,10 @@ public:
   /// @brief Field s_hammersley2DSeq64Id, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_hammersley2DSeq64Id, put = setStaticF_s_hammersley2DSeq64Id)) int32_t s_hammersley2DSeq64Id;
 
-  /// @brief Method BindConstants, addr 0x6584be8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method BindConstants, addr 0x65ec774, size 0x15c, virtual false, abstract: false, final false
   static inline void BindConstants(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::ComputeShader* cs);
 
-  /// @brief Method Initialize, addr 0x6584878, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x65ec404, size 0x370, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline ::ArrayW<float_t, ::Array<float_t>*> getStaticF_k_Hammersley2dSeq16();
@@ -444,7 +444,7 @@ public:
   Hammersley(Hammersley const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12185 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12189 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

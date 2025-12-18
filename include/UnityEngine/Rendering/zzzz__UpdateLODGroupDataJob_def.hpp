@@ -32,7 +32,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x661268c, size 0x2d4, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x667a218, size 0x2d4, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -53,7 +53,7 @@ public:
                                   ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32 rendererCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17713 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17727 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };

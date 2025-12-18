@@ -35,10 +35,10 @@ public:
   /// @brief Field m_Result, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Result, put = __cordl_internal_set_m_Result)) ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> m_Result;
 
-  /// @brief Method CreateResultArray, addr 0x68a6224, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CreateResultArray, addr 0x690f0a8, size 0x60, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> CreateResultArray(int32_t size);
 
-  /// @brief Method IsCancellationRequested, addr 0x68a61b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IsCancellationRequested, addr 0x690f034, size 0x74, virtual false, abstract: false, final false
   inline bool IsCancellationRequested();
 
   static inline ::UnityEngine::AsyncInstantiateOperation* New_ctor(::System::IntPtr ptr, ::System::Threading::CancellationToken cancellationToken);
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Result(::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> value);
 
-  /// @brief Method .ctor, addr 0x68a6154, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x690efd8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr, ::System::Threading::CancellationToken cancellationToken);
 
 protected:
@@ -73,7 +73,7 @@ public:
   AsyncInstantiateOperation(AsyncInstantiateOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10272 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10276 };
 
   /// @brief Field m_Result, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> ___m_Result;

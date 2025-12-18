@@ -33,34 +33,34 @@ public:
 
   static inline ::UnityEngine::Terrain* New_ctor();
 
-  /// @brief Method SetNeighbors, addr 0x6985490, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method SetNeighbors, addr 0x69ee314, size 0x128, virtual false, abstract: false, final false
   inline void SetNeighbors(::UnityEngine::Terrain* left, ::UnityEngine::Terrain* top, ::UnityEngine::Terrain* right, ::UnityEngine::Terrain* bottom);
 
-  /// @brief Method SetNeighbors_Injected, addr 0x69855b8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetNeighbors_Injected, addr 0x69ee43c, size 0x6c, virtual false, abstract: false, final false
   static inline void SetNeighbors_Injected(::System::IntPtr _unity_self, ::System::IntPtr left, ::System::IntPtr top, ::System::IntPtr right, ::System::IntPtr bottom);
 
-  /// @brief Method .ctor, addr 0x698564c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69ee4d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeTerrains, addr 0x6985624, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_activeTerrains, addr 0x69ee4a8, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Terrain>, ::Array<::UnityW<::UnityEngine::Terrain>>*> get_activeTerrains();
 
-  /// @brief Method get_allowAutoConnect, addr 0x6985318, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_allowAutoConnect, addr 0x69ee19c, size 0x80, virtual false, abstract: false, final false
   inline bool get_allowAutoConnect();
 
-  /// @brief Method get_allowAutoConnect_Injected, addr 0x6985398, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_allowAutoConnect_Injected, addr 0x69ee21c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_allowAutoConnect_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_groupingID, addr 0x69853d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_groupingID, addr 0x69ee258, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_groupingID();
 
-  /// @brief Method get_groupingID_Injected, addr 0x6985454, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_groupingID_Injected, addr 0x69ee2d8, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_groupingID_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_terrainData, addr 0x698518c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_terrainData, addr 0x69ee010, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TerrainData> get_terrainData();
 
-  /// @brief Method get_terrainData_Injected, addr 0x69852dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_terrainData_Injected, addr 0x69ee160, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_terrainData_Injected(::System::IntPtr _unity_self);
 
 protected:
@@ -78,7 +78,7 @@ public:
   Terrain(Terrain const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22389 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22416 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -47,40 +47,40 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IListDragAndDropArgs"
   constexpr operator ::UnityEngine::UIElements::IListDragAndDropArgs*();
 
-  /// @brief Method get_childIndex, addr 0x6b57334, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_childIndex, addr 0x6bc01b8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_childIndex();
 
-  /// @brief Method get_dragAndDropData, addr 0x6b57354, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_dragAndDropData, addr 0x6bc01d8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::DragAndDropData* get_dragAndDropData();
 
-  /// @brief Method get_dragAndDropPosition, addr 0x6b57344, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_dragAndDropPosition, addr 0x6bc01c8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::DragAndDropPosition get_dragAndDropPosition();
 
-  /// @brief Method get_insertAtIndex, addr 0x6b57314, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_insertAtIndex, addr 0x6bc0198, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_insertAtIndex();
 
-  /// @brief Method get_parentId, addr 0x6b57324, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_parentId, addr 0x6bc01a8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_parentId();
 
   /// @brief Convert to "::UnityEngine::UIElements::IListDragAndDropArgs"
   constexpr ::UnityEngine::UIElements::IListDragAndDropArgs* i___UnityEngine__UIElements__IListDragAndDropArgs();
 
-  /// @brief Method set_childIndex, addr 0x6b5733c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_childIndex, addr 0x6bc01c0, size 0x8, virtual false, abstract: false, final false
   inline void set_childIndex(int32_t value);
 
-  /// @brief Method set_dragAndDropData, addr 0x6b5735c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dragAndDropData, addr 0x6bc01e0, size 0x8, virtual false, abstract: false, final false
   inline void set_dragAndDropData(::UnityEngine::UIElements::DragAndDropData* value);
 
-  /// @brief Method set_dragAndDropPosition, addr 0x6b5734c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dragAndDropPosition, addr 0x6bc01d0, size 0x8, virtual false, abstract: false, final false
   inline void set_dragAndDropPosition(::UnityEngine::UIElements::DragAndDropPosition value);
 
-  /// @brief Method set_insertAtIndex, addr 0x6b5731c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_insertAtIndex, addr 0x6bc01a0, size 0x8, virtual false, abstract: false, final false
   inline void set_insertAtIndex(int32_t value);
 
-  /// @brief Method set_parentId, addr 0x6b5732c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parentId, addr 0x6bc01b0, size 0x8, virtual false, abstract: false, final false
   inline void set_parentId(int32_t value);
 
-  /// @brief Method set_target, addr 0x6b5730c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_target, addr 0x6bc0190, size 0x8, virtual false, abstract: false, final false
   inline void set_target(::System::Object* value);
 
   // Ctor Parameters []

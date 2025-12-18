@@ -31,33 +31,33 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatSaberLogger"
   constexpr operator ::GlobalNamespace::IBeatSaberLogger*() noexcept;
 
-  /// @brief Method Log, addr 0x56f6d10, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Log, addr 0x57536ec, size 0x5c, virtual true, abstract: false, final true
   inline void Log(::StringW message);
 
-  /// @brief Method Log, addr 0x56f6d6c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Log, addr 0x5753748, size 0xc0, virtual true, abstract: false, final true
   inline void Log(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogError, addr 0x56f6f48, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x5753924, size 0x5c, virtual true, abstract: false, final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogError, addr 0x56f6fa4, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x5753980, size 0xc0, virtual true, abstract: false, final true
   inline void LogError(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogException, addr 0x56f7064, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x5753a40, size 0x5c, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception);
 
-  /// @brief Method LogException, addr 0x56f70c0, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x5753a9c, size 0xc0, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception, ::System::Object* context);
 
-  /// @brief Method LogWarning, addr 0x56f6e2c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0x5753808, size 0x5c, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message);
 
-  /// @brief Method LogWarning, addr 0x56f6e88, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0x5753864, size 0xc0, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message, ::System::Object* context);
 
   static inline ::GlobalNamespace::UnityDebugLogger* New_ctor();
 
-  /// @brief Method .ctor, addr 0x56f7180, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5753b5c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IBeatSaberLogger"
@@ -78,7 +78,7 @@ public:
   UnityDebugLogger(UnityDebugLogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6646 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6641 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

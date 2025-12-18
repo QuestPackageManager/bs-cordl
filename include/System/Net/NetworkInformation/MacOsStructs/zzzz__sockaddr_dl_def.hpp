@@ -22,7 +22,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
 struct CORDL_TYPE sockaddr_dl {
 public:
   // Declarations
-  /// @brief Method Read, addr 0x613a1e8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x61a1d74, size 0x138, virtual false, abstract: false, final false
   inline void Read(::System::IntPtr ptr);
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
                         ::ArrayW<uint8_t, ::Array<uint8_t>*> sdl_data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11698 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

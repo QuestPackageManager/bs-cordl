@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__missionProgressModel(::UnityW<::GlobalNamespace::CampaignProgressModel> value);
 
-  /// @brief Method .ctor, addr 0x573caec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57a1d60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   MissionNodeGizmos(MissionNodeGizmos const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6906 };
 
   /// @brief Field _missionNode, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNode> ____missionNode;

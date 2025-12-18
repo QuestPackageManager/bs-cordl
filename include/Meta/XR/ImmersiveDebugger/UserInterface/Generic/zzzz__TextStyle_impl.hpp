@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextStyle::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextStyle::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x584af18;
+  constexpr static std::size_t addrs = 0x58b167c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

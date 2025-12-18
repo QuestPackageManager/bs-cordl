@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::StringW, ::System::Type*)>(
     &::OculusStudios::GraphQL::Client::ClientExtensions::ProcessModel)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5d09720;
+  constexpr static std::size_t addrs = 0x5d70200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::OculusStudios::GraphQL::Client::GraphQLResponse*)>(
     &::OculusStudios::GraphQL::Client::ClientExtensions::ExtractDataStringFromResponse)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x5d09844;
+  constexpr static std::size_t addrs = 0x5d70324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OculusStudios::GraphQL::Client::GraphQLRequestException* (*)(::OculusStudios::GraphQL::Client::GraphQLError*)>(
     &::OculusStudios::GraphQL::Client::ClientExtensions::CreateGraphQLRequestExceptionFromError)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5d09a14;
+  constexpr static std::size_t addrs = 0x5d704f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

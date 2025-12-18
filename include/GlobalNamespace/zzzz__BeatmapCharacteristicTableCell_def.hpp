@@ -49,18 +49,18 @@ public:
   /// @brief Field _selectionImage, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__selectionImage, put = __cordl_internal_set__selectionImage)) ::UnityW<::UnityEngine::UI::Image> _selectionImage;
 
-  /// @brief Method HighlightDidChange, addr 0x57f0370, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x5853d40, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   static inline ::GlobalNamespace::BeatmapCharacteristicTableCell* New_ctor();
 
-  /// @brief Method RefreshVisuals, addr 0x57f02ec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x5853cbc, size 0x84, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x57f02e8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x5853cb8, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method SetData, addr 0x57f0288, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x5853c58, size 0x60, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__bgHighlightColor() const;
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__selectionImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x57f0374, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5853d44, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -117,7 +117,7 @@ public:
   BeatmapCharacteristicTableCell(BeatmapCharacteristicTableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6320 };
 
   /// @brief Field _nameText, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;

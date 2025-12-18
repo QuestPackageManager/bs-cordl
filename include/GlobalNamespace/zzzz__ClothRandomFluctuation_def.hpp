@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_offset(float_t value);
 
-  /// @brief Method .ctor, addr 0x56a4508, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57051b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,15 +124,15 @@ public:
   /// @brief Field _useLocalRandomFluctuations, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__useLocalRandomFluctuations, put = __cordl_internal_set__useLocalRandomFluctuations)) bool _useLocalRandomFluctuations;
 
-  /// @brief Method FluctuateCloth, addr 0x56a4230, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method FluctuateCloth, addr 0x5704ed8, size 0x1c4, virtual false, abstract: false, final false
   inline void FluctuateCloth(::UnityEngine::Cloth* cloth);
 
-  /// @brief Method GetNoise, addr 0x56a43f4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetNoise, addr 0x570509c, size 0x110, virtual false, abstract: false, final false
   inline float_t GetNoise(float_t time, float_t offset);
 
   static inline ::GlobalNamespace::ClothRandomFluctuation* New_ctor();
 
-  /// @brief Method Update, addr 0x56a4228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5704ed0, size 0x8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Cloth> const& __cordl_internal_get__cloth() const;
@@ -183,7 +183,7 @@ public:
 
   constexpr void __cordl_internal_set__useLocalRandomFluctuations(bool value);
 
-  /// @brief Method .ctor, addr 0x56a4504, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57051ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

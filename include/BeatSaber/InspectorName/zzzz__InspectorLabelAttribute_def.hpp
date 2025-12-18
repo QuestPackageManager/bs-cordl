@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_CustomLabel(::StringW value);
 
-  /// @brief Method .ctor, addr 0x31fd6b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322e0e4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW customLabel);
 
 protected:
@@ -48,7 +48,7 @@ public:
   InspectorLabelAttribute(InspectorLabelAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20695 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20720 };
 
   /// @brief Field CustomLabel, offset: 0x18, size: 0x8, def value: None
   ::StringW ___CustomLabel;

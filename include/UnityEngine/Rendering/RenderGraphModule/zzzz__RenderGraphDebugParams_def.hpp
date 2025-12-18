@@ -111,7 +111,7 @@ public:
   RenderGraphDebugParams_Strings(RenderGraphDebugParams_Strings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12351 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12355 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -162,60 +162,60 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
   constexpr operator ::UnityEngine::Rendering::IDebugDisplaySettingsQuery*() noexcept;
 
-  /// @brief Method GetWidgetList, addr 0x65b1404, size 0x774, virtual false, abstract: false, final false
+  /// @brief Method GetWidgetList, addr 0x6618f90, size 0x774, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>* GetWidgetList(::StringW name);
 
-  /// @brief Method IsImmediateModeSupported, addr 0x65b1b78, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method IsImmediateModeSupported, addr 0x6619704, size 0xe0, virtual false, abstract: false, final false
   inline bool IsImmediateModeSupported();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams* New_ctor();
 
-  /// @brief Method RegisterDebug, addr 0x65b1c58, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method RegisterDebug, addr 0x66197e4, size 0x124, virtual false, abstract: false, final false
   inline void RegisterDebug(::StringW name, ::UnityEngine::Rendering::DebugUI_Panel* debugPanel);
 
-  /// @brief Method Reset, addr 0x65b13f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6618f84, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method UnRegisterDebug, addr 0x65b1d7c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UnRegisterDebug, addr 0x6619908, size 0x68, virtual false, abstract: false, final false
   inline void UnRegisterDebug(::StringW name);
 
-  /// @brief Method <GetWidgetList>b__11_0, addr 0x65b1e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__11_0, addr 0x66199ac, size 0x8, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__11_0();
 
-  /// @brief Method <GetWidgetList>b__11_1, addr 0x65b1e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__11_1, addr 0x66199b4, size 0x8, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__11_1(bool value);
 
-  /// @brief Method <GetWidgetList>b__11_10, addr 0x65b1e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__11_10, addr 0x6619a0c, size 0x8, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__11_10(bool value);
 
-  /// @brief Method <GetWidgetList>b__11_11, addr 0x65b1e88, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__11_11, addr 0x6619a14, size 0x88, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__11_11();
 
-  /// @brief Method <GetWidgetList>b__11_12, addr 0x65b1f10, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__11_12, addr 0x6619a9c, size 0x88, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__11_12();
 
-  /// @brief Method <GetWidgetList>b__11_2, addr 0x65b1e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__11_2, addr 0x66199bc, size 0x8, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__11_2();
 
-  /// @brief Method <GetWidgetList>b__11_3, addr 0x65b1e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__11_3, addr 0x66199c4, size 0x8, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__11_3(bool value);
 
-  /// @brief Method <GetWidgetList>b__11_4, addr 0x65b1e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__11_4, addr 0x66199cc, size 0x8, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__11_4();
 
-  /// @brief Method <GetWidgetList>b__11_5, addr 0x65b1e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__11_5, addr 0x66199d4, size 0x8, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__11_5(bool value);
 
-  /// @brief Method <GetWidgetList>b__11_6, addr 0x65b1e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__11_6, addr 0x66199dc, size 0x8, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__11_6();
 
-  /// @brief Method <GetWidgetList>b__11_7, addr 0x65b1e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__11_7, addr 0x66199e4, size 0x8, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__11_7(bool value);
 
-  /// @brief Method <GetWidgetList>b__11_8, addr 0x65b1e60, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__11_8, addr 0x66199ec, size 0x18, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__11_8();
 
-  /// @brief Method <GetWidgetList>b__11_9, addr 0x65b1e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__11_9, addr 0x6619a04, size 0x8, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__11_9();
 
   constexpr bool const& __cordl_internal_get_clearRenderTargetsAtCreation() const;
@@ -272,10 +272,10 @@ public:
 
   constexpr void __cordl_internal_set_m_DebugPanel(::UnityEngine::Rendering::DebugUI_Panel* value);
 
-  /// @brief Method .ctor, addr 0x65b1e1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66199a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AreAnySettingsActive, addr 0x65b1de4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_AreAnySettingsActive, addr 0x6619970, size 0x38, virtual true, abstract: false, final true
   inline bool get_AreAnySettingsActive();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
@@ -296,7 +296,7 @@ public:
   RenderGraphDebugParams(RenderGraphDebugParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12356 };
 
   /// @brief Field m_DebugItems, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::DebugUI_Widget*, ::Array<::UnityEngine::Rendering::DebugUI_Widget*>*> ___m_DebugItems;

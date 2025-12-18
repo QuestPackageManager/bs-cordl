@@ -30,19 +30,19 @@ public:
 
   __declspec(property(get = get_min)) ::Unity::Mathematics::float3 min;
 
-  /// @brief Method RotateExtents, addr 0x65eb464, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method RotateExtents, addr 0x6652ff0, size 0x74, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 RotateExtents(::Unity::Mathematics::float3 extents, ::Unity::Mathematics::float3 m0, ::Unity::Mathematics::float3 m1, ::Unity::Mathematics::float3 m2);
 
-  /// @brief Method ToString, addr 0x65eb38c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6652f18, size 0xd8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Transform, addr 0x65eb4d8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Transform, addr 0x6653064, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::AABB Transform(::Unity::Mathematics::float4x4 transform, ::UnityEngine::Rendering::AABB localBounds);
 
-  /// @brief Method get_max, addr 0x65eb36c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_max, addr 0x6652ef8, size 0x20, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_max();
 
-  /// @brief Method get_min, addr 0x65eb34c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_min, addr 0x6652ed8, size 0x20, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 get_min();
 
   // Ctor Parameters []
@@ -54,7 +54,7 @@ public:
   constexpr AABB(::Unity::Mathematics::float3 center, ::Unity::Mathematics::float3 extents) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17547 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17561 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

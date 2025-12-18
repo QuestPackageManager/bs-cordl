@@ -24,7 +24,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE PushNotification : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Register, addr 0x5bd5a7c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x5c3c55c, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PushNotificationResult*>* Register();
 
 protected:
@@ -42,7 +42,7 @@ public:
   PushNotification(PushNotification const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17934 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

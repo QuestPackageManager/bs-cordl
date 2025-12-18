@@ -56,16 +56,16 @@ public:
 
   constexpr void __cordl_internal_set__val(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x605a720, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60c22ac, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW val);
 
-  /// @brief Method .ctor, addr 0x605a730, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60c22bc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(double_t val);
 
-  /// @brief Method get_ReturnType, addr 0x605a76c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x60c22f8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x605a764, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x60c22f0, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
 protected:
@@ -83,7 +83,7 @@ public:
   Operand(Operand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9844 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9848 };
 
   /// @brief Field _type, offset: 0x10, size: 0x4, def value: None
   ::System::Xml::XPath::XPathResultType ____type;

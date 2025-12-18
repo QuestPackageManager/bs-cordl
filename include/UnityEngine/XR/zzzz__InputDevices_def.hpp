@@ -48,34 +48,34 @@ public:
   /// @brief Field deviceDisconnected, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_deviceDisconnected, put = setStaticF_deviceDisconnected)) ::System::Action_1<::UnityEngine::XR::InputDevice>* deviceDisconnected;
 
-  /// @brief Method GetDeviceAtXRNode, addr 0x6c00418, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceAtXRNode, addr 0x6c6929c, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::InputDevice GetDeviceAtXRNode(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetDeviceCharacteristics, addr 0x6bffe98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceCharacteristics, addr 0x6c68d1c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::InputDeviceCharacteristics GetDeviceCharacteristics(uint64_t deviceId);
 
-  /// @brief Method GetDeviceManufacturer, addr 0x6bffd70, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceManufacturer, addr 0x6c68bf4, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW GetDeviceManufacturer(uint64_t deviceId);
 
-  /// @brief Method GetDeviceManufacturer_Injected, addr 0x6c00564, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceManufacturer_Injected, addr 0x6c693e8, size 0x44, virtual false, abstract: false, final false
   static inline void GetDeviceManufacturer_Injected(uint64_t deviceId, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-  /// @brief Method GetDeviceName, addr 0x6bffc84, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceName, addr 0x6c68b08, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW GetDeviceName(uint64_t deviceId);
 
-  /// @brief Method GetDeviceName_Injected, addr 0x6c00520, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceName_Injected, addr 0x6c693a4, size 0x44, virtual false, abstract: false, final false
   static inline void GetDeviceName_Injected(uint64_t deviceId, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-  /// @brief Method InvokeConnectionEvent, addr 0x6c0045c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InvokeConnectionEvent, addr 0x6c692e0, size 0xc4, virtual false, abstract: false, final false
   static inline void InvokeConnectionEvent(uint64_t deviceId, ::UnityEngine::XR::ConnectionChangeType change);
 
-  /// @brief Method IsDeviceValid, addr 0x6bffc28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsDeviceValid, addr 0x6c68aac, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsDeviceValid(uint64_t deviceId);
 
-  /// @brief Method SendHapticImpulse, addr 0x6bfffcc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendHapticImpulse, addr 0x6c68e50, size 0x5c, virtual false, abstract: false, final false
   static inline bool SendHapticImpulse(uint64_t deviceId, uint32_t channel, float_t amplitude, float_t duration);
 
-  /// @brief Method StopHaptics, addr 0x6c00080, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method StopHaptics, addr 0x6c68f04, size 0x3c, virtual false, abstract: false, final false
   static inline void StopHaptics(uint64_t deviceId);
 
   static inline ::System::Action_1<::UnityEngine::XR::InputDevice>* getStaticF_deviceConfigChanged();
@@ -105,7 +105,7 @@ public:
   InputDevices(InputDevices const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21948 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

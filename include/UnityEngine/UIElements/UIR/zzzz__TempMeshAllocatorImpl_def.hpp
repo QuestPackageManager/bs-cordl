@@ -109,20 +109,20 @@ public:
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Unity::Collections::NativeSlice_1<T> Allocate(int32_t count, int32_t alignment);
 
-  /// @brief Method AllocateTempMesh, addr 0x6abd418, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method AllocateTempMesh, addr 0x6b2629c, size 0x298, virtual false, abstract: false, final false
   inline void AllocateTempMesh(int32_t vertexCount, int32_t indexCount, ::ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertices,
                                ::ByRef<::Unity::Collections::NativeSlice_1<uint16_t>> indices);
 
-  /// @brief Method Clear, addr 0x6abd6b8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6b2653c, size 0x230, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CreateNativeHandle, addr 0x6abd40c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateNativeHandle, addr 0x6b26290, size 0xc, virtual false, abstract: false, final false
   inline void CreateNativeHandle(::ByRef<::UnityEngine::UIElements::TempMeshAllocator> allocator);
 
-  /// @brief Method Dispose, addr 0x6abd8f8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6b2677c, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6abd960, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6b267e4, size 0xb4, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl* New_ctor();
@@ -159,16 +159,16 @@ public:
 
   constexpr void __cordl_internal_set_m_VertexPool(::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* value);
 
-  /// @brief Method .ctor, addr 0x6abd220, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b260a4, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disposed, addr 0x6abd8e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6b2676c, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x6abd8f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6b26774, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

@@ -58,7 +58,7 @@ public:
   FixedList4096BytesDebugView_1(FixedList4096BytesDebugView_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15548 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15562 };
 
   /// @brief Field m_List, offset: 0x10, size: 0x1000, def value: None
   ::Unity::Collections::FixedList4096Bytes_1<T> ___m_List;

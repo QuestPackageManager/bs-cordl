@@ -58,7 +58,7 @@ public:
   UnsafeListTDebugView_1(UnsafeListTDebugView_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15750 };
 
   /// @brief Field Data, offset: 0x10, size: 0x18, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T> ___Data;

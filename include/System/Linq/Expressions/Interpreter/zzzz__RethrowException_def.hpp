@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::RethrowException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5d84b6c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dec6f8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   RethrowException(RethrowException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16391 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16405 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogData::*)()>(
     &::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6acf6b0;
+  constexpr static std::size_t addrs = 0x6b38534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, float_t, float_t, int32_t, ::System::IntPtr, ::System::IntPtr)>(
     &::UnityEngine::UIElements::Layout::LayoutNative::CalculateLayout)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6acf588;
+  constexpr static std::size_t addrs = 0x6b3840c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::UIElements::Layout::LayoutNative_LayoutLogEventType, ::StringW)>(
     &::UnityEngine::UIElements::Layout::LayoutNative::LayoutLog_Internal)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6acf5fc;
+  constexpr static std::size_t addrs = 0x6b38480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

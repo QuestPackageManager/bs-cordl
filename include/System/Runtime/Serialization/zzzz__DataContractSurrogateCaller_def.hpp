@@ -27,14 +27,14 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE DataContractSurrogateCaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetDataContractType, addr 0x5f3b364, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetDataContractType, addr 0x5fa2ef0, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Type* GetDataContractType(::System::Runtime::Serialization::IDataContractSurrogate* surrogate, ::System::Type* type);
 
-  /// @brief Method GetDeserializedObject, addr 0x5f3b544, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetDeserializedObject, addr 0x5fa30d0, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Object* GetDeserializedObject(::System::Runtime::Serialization::IDataContractSurrogate* surrogate, ::System::Object* obj, ::System::Type* objType,
                                                         ::System::Type* memberType);
 
-  /// @brief Method GetObjectToSerialize, addr 0x5f3b450, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetObjectToSerialize, addr 0x5fa2fdc, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Object* GetObjectToSerialize(::System::Runtime::Serialization::IDataContractSurrogate* surrogate, ::System::Object* obj, ::System::Type* objType, ::System::Type* membertype);
 
 protected:
@@ -52,7 +52,7 @@ public:
   DataContractSurrogateCaller(DataContractSurrogateCaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17005 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17019 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -73,21 +73,21 @@ public:
 
   __declspec(property(get = get_settingsApplicator)) ::UnityW<::GlobalNamespace::SettingsApplicatorSO> settingsApplicator;
 
-  /// @brief Method InstallBindings, addr 0x3642d04, size 0x4cc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x366f18c, size 0x4cc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::BeatSaberInit* New_ctor();
 
-  /// @brief Method PreloadAsync, addr 0x3642c3c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x366f0c4, size 0xc8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x36428a8, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x366ed2c, size 0x11c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextSceneAsync, addr 0x3642a40, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextSceneAsync, addr 0x366eec4, size 0x40, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* TransitionToNextSceneAsync();
 
-  /// @brief Method <TransitionToNextSceneAsync>g__GetDestinationOverride|13_0, addr 0x3642a80, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method <TransitionToNextSceneAsync>g__GetDestinationOverride|13_0, addr 0x366ef04, size 0x1c0, virtual false, abstract: false, final false
   inline ::BeatSaber::Destinations::Destination* _TransitionToNextSceneAsync_g__GetDestinationOverride_13_0();
 
   constexpr ::UnityW<::BeatSaber::Destinations::InitialDestinationController> const& __cordl_internal_get__initialDestinationController() const;
@@ -132,10 +132,10 @@ public:
 
   constexpr void __cordl_internal_set_commandLineArguments(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult value);
 
-  /// @brief Method .ctor, addr 0x3644dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3671210, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_settingsApplicator, addr 0x36428a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_settingsApplicator, addr 0x366ed24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::SettingsApplicatorSO> get_settingsApplicator();
 
 protected:
@@ -153,7 +153,7 @@ public:
   BeatSaberInit(BeatSaberInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21030 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20986 };
 
   /// @brief Field kInBuildGameVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kInBuildGameVersion{ u"InBuildGameVersion" };

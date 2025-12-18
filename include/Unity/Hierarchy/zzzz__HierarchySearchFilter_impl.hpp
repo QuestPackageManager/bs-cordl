@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::Unity::Hierarchy::HierarchySearchFilter> (*)()>(&::Unity::Hierarchy::HierarchySearchFilter::get_Invalid)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x690661c;
+  constexpr static std::size_t addrs = 0x696f4a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchySearchFilter>::get(), "get_Invalid",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Hierarchy::HierarchySearchFilter::*)()>(&::Unity::Hierarchy::HierarchySearchFilter::get_IsValid)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6906678;
+  constexpr static std::size_t addrs = 0x696f4fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchySearchFilter>::get(), "get_IsValid",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Hierarchy::HierarchySearchFilter::*)()>(&::Unity::Hierarchy::HierarchySearchFilter::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69066e8;
+  constexpr static std::size_t addrs = 0x696f56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchySearchFilter>::get(), "get_Name",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Hierarchy::HierarchySearchFilter::*)()>(&::Unity::Hierarchy::HierarchySearchFilter::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69066f0;
+  constexpr static std::size_t addrs = 0x696f574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchySearchFilter>::get(), "get_Value",
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Hierarchy::HierarchySearchFilter::*)()>(&::Unity::Hierarchy::HierarchySearchFilter::get_NumValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69066f8;
+  constexpr static std::size_t addrs = 0x696f57c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchySearchFilter>::get(), "get_NumValue",
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Hierarchy::HierarchySearchFilterOperator (::Unity::Hierarchy::HierarchySearchFilter::*)()>(
     &::Unity::Hierarchy::HierarchySearchFilter::get_Op)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6906700;
+  constexpr static std::size_t addrs = 0x696f584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchySearchFilter>::get(), "get_Op",
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Unity::Hierarchy::HierarchySearchFilterOperator)>(
     &::Unity::Hierarchy::HierarchySearchFilter::ToString)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6906708;
+  constexpr static std::size_t addrs = 0x696f58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Hierarchy::HierarchySearchFilter::*)()>(&::Unity::Hierarchy::HierarchySearchFilter::ToString)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6906864;
+  constexpr static std::size_t addrs = 0x696f6e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::Unity::Hierarchy::HierarchySearchFilter::QuoteStringIfNeeded)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6906964;
+  constexpr static std::size_t addrs = 0x696f7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

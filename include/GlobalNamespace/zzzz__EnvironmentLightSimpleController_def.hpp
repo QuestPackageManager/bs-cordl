@@ -32,7 +32,7 @@ public:
   /// @brief Field _lightManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__lightManager, put = __cordl_internal_set__lightManager)) ::UnityW<::GlobalNamespace::LightWithIdManager> _lightManager;
 
-  /// @brief Method LateUpdate, addr 0x576fcf4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x57d659c, size 0x28, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::EnvironmentLightSimpleController* New_ctor();
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__lightManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
 
-  /// @brief Method .ctor, addr 0x576fd1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57d65c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

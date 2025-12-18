@@ -44,7 +44,7 @@ namespace System::Data {
 struct CORDL_TYPE ExpressionParser_ReservedWords {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x5e2656c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e8e0f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW word, ::System::Data::Tokens token, int32_t op);
 
   // Ctor Parameters []
@@ -56,7 +56,7 @@ public:
   constexpr ExpressionParser_ReservedWords(::StringW _word, ::System::Data::Tokens _token, int32_t _op) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13790 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -147,75 +147,75 @@ public:
                       put = setStaticF_s_reservedwords)) ::ArrayW<::System::Data::ExpressionParser_ReservedWords, ::Array<::System::Data::ExpressionParser_ReservedWords>*>
       s_reservedwords;
 
-  /// @brief Method BuildExpression, addr 0x5e24e6c, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method BuildExpression, addr 0x5e8c9f8, size 0x21c, virtual false, abstract: false, final false
   inline void BuildExpression(int32_t pri);
 
-  /// @brief Method CheckToken, addr 0x5e25338, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CheckToken, addr 0x5e8cec4, size 0x40, virtual false, abstract: false, final false
   inline void CheckToken(::System::Data::Tokens token);
 
-  /// @brief Method IsAlpha, addr 0x5e2622c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsAlpha, addr 0x5e8ddb8, size 0x24, virtual false, abstract: false, final false
   inline bool IsAlpha(char16_t ch);
 
-  /// @brief Method IsAlphaNumeric, addr 0x5e260d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsAlphaNumeric, addr 0x5e8dc60, size 0x44, virtual false, abstract: false, final false
   inline bool IsAlphaNumeric(char16_t ch);
 
-  /// @brief Method IsDigit, addr 0x5e25ee4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsDigit, addr 0x5e8da70, size 0x14, virtual false, abstract: false, final false
   inline bool IsDigit(char16_t ch);
 
-  /// @brief Method IsWhiteSpace, addr 0x5e262a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsWhiteSpace, addr 0x5e8de30, size 0x14, virtual false, abstract: false, final false
   inline bool IsWhiteSpace(char16_t ch);
 
-  /// @brief Method LoadExpression, addr 0x5e23570, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method LoadExpression, addr 0x5e8b0fc, size 0xd4, virtual false, abstract: false, final false
   inline void LoadExpression(::StringW data);
 
   static inline ::System::Data::ExpressionParser* New_ctor(::System::Data::DataTable* table);
 
-  /// @brief Method NodePeek, addr 0x5e25484, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method NodePeek, addr 0x5e8d010, size 0x44, virtual false, abstract: false, final false
   inline ::System::Data::ExpressionNode* NodePeek();
 
-  /// @brief Method NodePop, addr 0x5e2550c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method NodePop, addr 0x5e8d098, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Data::ExpressionNode* NodePop();
 
-  /// @brief Method NodePush, addr 0x5e253f0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method NodePush, addr 0x5e8cf7c, size 0x94, virtual false, abstract: false, final false
   inline void NodePush(::System::Data::ExpressionNode* node);
 
-  /// @brief Method Parse, addr 0x5e236bc, size 0xc48, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x5e8b248, size 0xc48, virtual false, abstract: false, final false
   inline ::System::Data::ExpressionNode* Parse();
 
-  /// @brief Method ParseAggregateArgument, addr 0x5e25548, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method ParseAggregateArgument, addr 0x5e8d0d4, size 0x2b4, virtual false, abstract: false, final false
   inline ::System::Data::ExpressionNode* ParseAggregateArgument(::System::Data::FunctionId aggregate);
 
-  /// @brief Method Scan, addr 0x5e24a0c, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method Scan, addr 0x5e8c598, size 0x3c8, virtual false, abstract: false, final false
   inline ::System::Data::Tokens Scan();
 
-  /// @brief Method ScanBinaryConstant, addr 0x5e25ee0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ScanBinaryConstant, addr 0x5e8da6c, size 0x4, virtual false, abstract: false, final false
   inline void ScanBinaryConstant();
 
-  /// @brief Method ScanDate, addr 0x5e25b40, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ScanDate, addr 0x5e8d6cc, size 0x9c, virtual false, abstract: false, final false
   inline void ScanDate();
 
-  /// @brief Method ScanName, addr 0x5e26118, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ScanName, addr 0x5e8dca4, size 0x6c, virtual false, abstract: false, final false
   inline void ScanName();
 
-  /// @brief Method ScanName, addr 0x5e25ca8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ScanName, addr 0x5e8d834, size 0x108, virtual false, abstract: false, final false
   inline void ScanName(char16_t chEnd, char16_t esc, ::StringW charsToEscape);
 
-  /// @brief Method ScanNumeric, addr 0x5e25db0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ScanNumeric, addr 0x5e8d93c, size 0x130, virtual false, abstract: false, final false
   inline void ScanNumeric();
 
-  /// @brief Method ScanReserved, addr 0x5e25ef8, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method ScanReserved, addr 0x5e8da84, size 0x1dc, virtual false, abstract: false, final false
   inline void ScanReserved();
 
-  /// @brief Method ScanString, addr 0x5e25bdc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ScanString, addr 0x5e8d768, size 0xcc, virtual false, abstract: false, final false
   inline void ScanString(char16_t escape);
 
-  /// @brief Method ScanToken, addr 0x5e25120, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ScanToken, addr 0x5e8ccac, size 0x28, virtual false, abstract: false, final false
   inline void ScanToken(::System::Data::Tokens token);
 
-  /// @brief Method ScanWhite, addr 0x5e25ae0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ScanWhite, addr 0x5e8d66c, size 0x60, virtual false, abstract: false, final false
   inline void ScanWhite();
 
-  /// @brief Method StartScan, addr 0x5e24978, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method StartScan, addr 0x5e8c504, size 0x88, virtual false, abstract: false, final false
   inline void StartScan();
 
   constexpr char16_t const& __cordl_internal_get__decimalSeparator() const;
@@ -320,7 +320,7 @@ public:
 
   constexpr void __cordl_internal_set__topOperator(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5e234d0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e8b05c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table);
 
   static inline ::ArrayW<::System::Data::ExpressionParser_ReservedWords, ::Array<::System::Data::ExpressionParser_ReservedWords>*> getStaticF_s_reservedwords();
@@ -342,7 +342,7 @@ public:
   ExpressionParser(ExpressionParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13787 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13791 };
 
   /// @brief Field _escape, offset: 0x10, size: 0x2, def value: None
   char16_t ____escape;

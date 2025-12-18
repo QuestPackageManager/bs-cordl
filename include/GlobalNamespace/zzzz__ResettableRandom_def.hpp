@@ -41,15 +41,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRandom"
   constexpr operator ::GlobalNamespace::IRandom*() noexcept;
 
-  /// @brief Method Finalize, addr 0x563ad74, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x569fb88, size 0xc4, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HandleDeterminismSet, addr 0x563acec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method HandleDeterminismSet, addr 0x569fb00, size 0x88, virtual false, abstract: false, final false
   inline void HandleDeterminismSet(bool isDeterministic);
 
   static inline ::GlobalNamespace::ResettableRandom* New_ctor(::GlobalNamespace::DeterminismConfig* determinismConfig, int32_t fixedSeed);
 
-  /// @brief Method Sample, addr 0x563ae38, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Sample, addr 0x569fc4c, size 0x1c, virtual true, abstract: false, final true
   inline double_t Sample();
 
   constexpr ::GlobalNamespace::DeterminismConfig* const& __cordl_internal_get__determinismConfig() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__random(::System::Random* value);
 
-  /// @brief Method .ctor, addr 0x563ac38, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x569fa4c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::DeterminismConfig* determinismConfig, int32_t fixedSeed);
 
   /// @brief Convert to "::GlobalNamespace::IRandom"
@@ -91,7 +91,7 @@ public:
   ResettableRandom(ResettableRandom const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20241 };
 
   /// @brief Field _determinismConfig, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::DeterminismConfig* ____determinismConfig;

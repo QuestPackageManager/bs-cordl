@@ -18,7 +18,7 @@ namespace Unity::Properties::Internal {
 class CORDL_TYPE PropertiesInitialization : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InitializeProperties, addr 0x697da24, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method InitializeProperties, addr 0x69e68a8, size 0x394, virtual false, abstract: false, final false
   static inline void InitializeProperties();
 
 protected:
@@ -36,7 +36,7 @@ public:
   PropertiesInitialization(PropertiesInitialization const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19430 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

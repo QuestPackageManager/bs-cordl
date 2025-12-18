@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::BuildingBlock::get_BlockId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581d638;
+  constexpr static std::size_t addrs = 0x5883d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::BuildingBlock*>::get(), "get_BlockId",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::BuildingBlock::get_InstanceId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581d640;
+  constexpr static std::size_t addrs = 0x5883da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::BuildingBlock*>::get(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(&::Meta::XR::BuildingBlocks::BuildingBlock::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581d648;
+  constexpr static std::size_t addrs = 0x5883dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::BuildingBlock*>::get(), "get_Version",
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint* (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::BuildingBlock::get_InstallationRoutineCheckpoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581d650;
+  constexpr static std::size_t addrs = 0x5883db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::BuildingBlock::*)(::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint*)>(
     &::Meta::XR::BuildingBlocks::BuildingBlock::set_InstallationRoutineCheckpoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x581d658;
+  constexpr static std::size_t addrs = 0x5883dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(&::Meta::XR::BuildingBlocks::BuildingBlock::Awake)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x581d660;
+  constexpr static std::size_t addrs = 0x5883dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::BuildingBlock*>::get(), "Awake",
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(&::Meta::XR::BuildingBlocks::BuildingBlock::ResetInstanceId)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x581d818;
+  constexpr static std::size_t addrs = 0x5883f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::BuildingBlock*>::get(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::BuildingBlock::HasDuplicateInstanceId)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x581d708;
+  constexpr static std::size_t addrs = 0x5883e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::BuildingBlock*>::get(),
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(&::Meta::XR::BuildingBlocks::BuildingBlock::Start)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x581d84c;
+  constexpr static std::size_t addrs = 0x5883fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::BuildingBlock*>::get(), "Start",
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(&::Meta::XR::BuildingBlocks::BuildingBlock::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x581d0d4;
+  constexpr static std::size_t addrs = 0x5883838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::BuildingBlocks::BuildingBlock*>::get(), ".ctor",

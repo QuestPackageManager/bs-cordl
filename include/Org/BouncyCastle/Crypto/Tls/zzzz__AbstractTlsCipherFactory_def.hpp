@@ -31,12 +31,12 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*() noexcept;
 
-  /// @brief Method CreateCipher, addr 0x330ee50, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method CreateCipher, addr 0x3339694, size 0x3c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* CreateCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, int32_t encryptionAlgorithm, int32_t macAlgorithm);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x330ee8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33396d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory"

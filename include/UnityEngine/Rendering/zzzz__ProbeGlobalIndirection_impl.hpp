@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection_IndexMetaData::*)(
     ::ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>>)>(&::UnityEngine::Rendering::ProbeGlobalIndirection_IndexMetaData::Pack)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x656fb00;
+  constexpr static std::size_t addrs = 0x65d768c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeGlobalIndirection::*)()>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::get_estimatedVMemCost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x656f488;
+  constexpr static std::size_t addrs = 0x65d7014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeGlobalIndirection*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(int32_t)>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::set_estimatedVMemCost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x656f490;
+  constexpr static std::size_t addrs = 0x65d701c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(
     ::ByRef<::UnityEngine::Vector3Int>, ::ByRef<::UnityEngine::Vector3Int>)>(&::UnityEngine::Rendering::ProbeGlobalIndirection::GetMinMaxEntry)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x656f498;
+  constexpr static std::size_t addrs = 0x65d7024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3Int (::UnityEngine::Rendering::ProbeGlobalIndirection::*)()>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::GetGlobalIndirectionDimension)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x656f4bc;
+  constexpr static std::size_t addrs = 0x65d7048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeGlobalIndirection*>::get(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3Int (::UnityEngine::Rendering::ProbeGlobalIndirection::*)()>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::GetGlobalIndirectionMinEntry)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x656f4cc;
+  constexpr static std::size_t addrs = 0x65d7058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeGlobalIndirection*>::get(),
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeGlobalIndirection::*)()>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::get_entrySizeInBricks)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x656f4dc;
+  constexpr static std::size_t addrs = 0x65d7068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeGlobalIndirection*>::get(),
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeGlobalIndirection::*)()>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::get_entriesPerCellDimension)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x656f4f0;
+  constexpr static std::size_t addrs = 0x65d707c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeGlobalIndirection*>::get(),
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(::UnityEngine::Vector3Int)>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::GetFlatIndex)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x656f510;
+  constexpr static std::size_t addrs = 0x65d709c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(::UnityEngine::Vector3Int, ::UnityEngine::Vector3Int, int32_t)>(&::UnityEngine::Rendering::ProbeGlobalIndirection::_ctor)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x656f528;
+  constexpr static std::size_t addrs = 0x65d70b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(::UnityEngine::Vector3Int)>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::GetFlatIdxForEntry)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x656f6f8;
+  constexpr static std::size_t addrs = 0x65d7284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(
     ::UnityEngine::Vector3Int)>(&::UnityEngine::Rendering::ProbeGlobalIndirection::GetFlatIndicesForCell)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x656f728;
+  constexpr static std::size_t addrs = 0x65d72b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(
     ::UnityEngine::Rendering::ProbeReferenceVolume_CellIndexInfo*)>(&::UnityEngine::Rendering::ProbeGlobalIndirection::UpdateCell)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x656f868;
+  constexpr static std::size_t addrs = 0x65d73f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::MarkEntriesAsUnloaded)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x656fc2c;
+  constexpr static std::size_t addrs = 0x65d77b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection::*)()>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::PushComputeData)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x656fcb0;
+  constexpr static std::size_t addrs = 0x65d783c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeGlobalIndirection*>::get(),
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection::*)(
     ::ByRef<::UnityEngine::Rendering::ProbeReferenceVolume_RuntimeResources>)>(&::UnityEngine::Rendering::ProbeGlobalIndirection::GetRuntimeResources)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x656fcdc;
+  constexpr static std::size_t addrs = 0x65d7868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeGlobalIndirection::*)()>(
     &::UnityEngine::Rendering::ProbeGlobalIndirection::Cleanup)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x656fd10;
+  constexpr static std::size_t addrs = 0x65d789c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeGlobalIndirection*>::get(),

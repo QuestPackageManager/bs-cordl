@@ -43,7 +43,7 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE DelegateHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InvokeCallbacksSafe, addr 0x62e2fdc, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallbacksSafe, addr 0x634ab68, size 0x2d0, virtual false, abstract: false, final false
   static inline void InvokeCallbacksSafe(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>> callbacks, ::Unity::Profiling::ProfilerMarker marker,
                                          ::StringW callbackName, ::System::Object* context);
 
@@ -87,7 +87,7 @@ public:
   DelegateHelpers(DelegateHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9132 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9136 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

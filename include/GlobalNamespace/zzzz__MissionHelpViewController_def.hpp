@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_missionHelp(::UnityW<::GlobalNamespace::MissionHelpSO> value);
 
-  /// @brief Method .ctor, addr 0x56d1210, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58780fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   MissionHelpViewController_MissionHelpGameObjectPair(MissionHelpViewController_MissionHelpGameObjectPair const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6499 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6493 };
 
   /// @brief Field missionHelp, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionHelpSO> ___missionHelp;
@@ -118,18 +118,18 @@ public:
   /// @brief Field didFinishEvent, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x56d113c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5878028, size 0xb0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::MissionHelpViewController* New_ctor();
 
-  /// @brief Method OkButtonPressed, addr 0x56d11ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OkButtonPressed, addr 0x58780d8, size 0x20, virtual false, abstract: false, final false
   inline void OkButtonPressed();
 
-  /// @brief Method RefreshContent, addr 0x56d1060, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method RefreshContent, addr 0x5877f4c, size 0xdc, virtual false, abstract: false, final false
   inline void RefreshContent();
 
-  /// @brief Method Setup, addr 0x56d1034, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5877f20, size 0x2c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MissionHelpSO* missionHelp);
 
   constexpr ::UnityW<::GlobalNamespace::MissionHelpSO> const& __cordl_internal_get__missionHelp() const;
@@ -159,13 +159,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x56d120c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58780f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x56d0eb4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5877da0, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x56d0f74, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5877e60, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
 protected:
@@ -183,7 +183,7 @@ public:
   MissionHelpViewController(MissionHelpViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6494 };
 
   /// @brief Field _okButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____okButton;

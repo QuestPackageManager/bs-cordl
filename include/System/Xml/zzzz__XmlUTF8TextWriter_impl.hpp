@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUTF8TextWriter::*)(::System::IO::Stream*, ::System::Text::Encoding*, bool)>(
     &::System::Xml::XmlUTF8TextWriter::SetOutput)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5f1096c;
+  constexpr static std::size_t addrs = 0x5f784f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUTF8TextWriter::*)()>(&::System::Xml::XmlUTF8TextWriter::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f10bc8;
+  constexpr static std::size_t addrs = 0x5f78754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUTF8TextWriter*>::get(), ".ctor",

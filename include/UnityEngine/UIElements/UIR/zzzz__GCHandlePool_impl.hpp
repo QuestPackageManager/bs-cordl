@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GCHandlePool::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::UIR::GCHandlePool::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6a9e4dc;
+  constexpr static std::size_t addrs = 0x6b07360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::InteropServices::GCHandle (::UnityEngine::UIElements::UIR::GCHandlePool::*)(::System::Object*)>(
     &::UnityEngine::UIElements::UIR::GCHandlePool::Get)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x6a9e568;
+  constexpr static std::size_t addrs = 0x6b073ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::UnityEngine::UIElements::UIR::GCHandlePool::*)(::System::Object*)>(
     &::UnityEngine::UIElements::UIR::GCHandlePool::GetIntPtr)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6a9e748;
+  constexpr static std::size_t addrs = 0x6b075cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GCHandlePool::*)()>(&::UnityEngine::UIElements::UIR::GCHandlePool::ReturnAll)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6a9e758;
+  constexpr static std::size_t addrs = 0x6b075dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::GCHandlePool*>::get(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::GCHandlePool::*)()>(
     &::UnityEngine::UIElements::UIR::GCHandlePool::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a9e830;
+  constexpr static std::size_t addrs = 0x6b076b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::GCHandlePool*>::get(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GCHandlePool::*)(bool)>(
     &::UnityEngine::UIElements::UIR::GCHandlePool::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a9e838;
+  constexpr static std::size_t addrs = 0x6b076bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GCHandlePool::*)()>(&::UnityEngine::UIElements::UIR::GCHandlePool::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6a9e840;
+  constexpr static std::size_t addrs = 0x6b076c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::GCHandlePool*>::get(), "Dispose",
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GCHandlePool::*)(bool)>(
     &::UnityEngine::UIElements::UIR::GCHandlePool::Dispose)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6a9e8a8;
+  constexpr static std::size_t addrs = 0x6b0772c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

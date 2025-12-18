@@ -40,13 +40,13 @@ public:
 
   static inline ::System::Xml::XmlAsyncCheckReaderWithNS* New_ctor(::System::Xml::XmlReader* reader);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.GetNamespacesInScope, addr 0x5f9832c, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.GetNamespacesInScope, addr 0x5fffeb8, size 0xb4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* System_Xml_IXmlNamespaceResolver_GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupNamespace, addr 0x5f983e0, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupNamespace, addr 0x5ffff6c, size 0xb8, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IXmlNamespaceResolver_LookupNamespace(::StringW prefix);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupPrefix, addr 0x5f98498, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupPrefix, addr 0x6000024, size 0xb8, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IXmlNamespaceResolver_LookupPrefix(::StringW namespaceName);
 
   constexpr ::System::Xml::IXmlNamespaceResolver* const& __cordl_internal_get_readerAsIXmlNamespaceResolver() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_readerAsIXmlNamespaceResolver(::System::Xml::IXmlNamespaceResolver* value);
 
-  /// @brief Method .ctor, addr 0x5f973f0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ffef7c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlReader* reader);
 
   /// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
@@ -76,7 +76,7 @@ public:
   XmlAsyncCheckReaderWithNS(XmlAsyncCheckReaderWithNS const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9277 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9281 };
 
   /// @brief Field readerAsIXmlNamespaceResolver, offset: 0x20, size: 0x8, def value: None
   ::System::Xml::IXmlNamespaceResolver* ___readerAsIXmlNamespaceResolver;

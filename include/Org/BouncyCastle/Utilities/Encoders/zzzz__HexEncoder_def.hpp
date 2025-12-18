@@ -35,25 +35,25 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
   constexpr operator ::Org::BouncyCastle::Utilities::Encoders::IEncoder*() noexcept;
 
-  /// @brief Method Decode, addr 0x35078e0, size 0x318, virtual true, abstract: false, final true
+  /// @brief Method Decode, addr 0x3532124, size 0x318, virtual true, abstract: false, final true
   inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length, ::System::IO::Stream* outStream);
 
-  /// @brief Method DecodeStrict, addr 0x35080b0, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method DecodeStrict, addr 0x35328f4, size 0x230, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeStrict(::StringW str, int32_t off, int32_t len);
 
-  /// @brief Method DecodeString, addr 0x3507cc8, size 0x2f4, virtual true, abstract: false, final true
+  /// @brief Method DecodeString, addr 0x353250c, size 0x2f4, virtual true, abstract: false, final true
   inline int32_t DecodeString(::StringW data, ::System::IO::Stream* outStream);
 
-  /// @brief Method Encode, addr 0x35075dc, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method Encode, addr 0x3531e20, size 0x110, virtual true, abstract: false, final true
   inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, ::System::IO::Stream* outStream);
 
-  /// @brief Method Encode, addr 0x35085c8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x3532e0c, size 0xe0, virtual false, abstract: false, final false
   inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBuf, int32_t outOff);
 
-  /// @brief Method Ignore, addr 0x35086a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Ignore, addr 0x3532eec, size 0x20, virtual false, abstract: false, final false
   static inline bool Ignore(char16_t c);
 
-  /// @brief Method InitialiseDecodingTable, addr 0x350846c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method InitialiseDecodingTable, addr 0x3532cb0, size 0x15c, virtual false, abstract: false, final false
   inline void InitialiseDecodingTable();
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::HexEncoder* New_ctor();
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_encodingTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x35083d8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3532c1c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"

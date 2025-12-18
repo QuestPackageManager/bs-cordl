@@ -49,20 +49,20 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept;
 
-  /// @brief Method GetInputBlockSize, addr 0x3299590, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetInputBlockSize, addr 0x32c3dd4, size 0xa8, virtual true, abstract: false, final false
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize, addr 0x3299638, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetOutputBlockSize, addr 0x32c3e7c, size 0xa8, virtual true, abstract: false, final false
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method Init, addr 0x3299310, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x32c3b54, size 0x280, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* param);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine* New_ctor(::Org::BouncyCastle::Crypto::IRsa* rsa);
 
-  /// @brief Method ProcessBlock, addr 0x32996e0, size 0x420, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x32c3f24, size 0x420, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen);
 
   constexpr ::Org::BouncyCastle::Crypto::IRsa* const& __cordl_internal_get_core() const;
@@ -83,13 +83,13 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x3299270, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32c3ab4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x32992c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32c3b08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IRsa* rsa);
 
-  /// @brief Method get_AlgorithmName, addr 0x32992cc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x32c3b10, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"

@@ -47,7 +47,7 @@ public:
 
   static inline ::System::Reflection::ExceptionHandlingClause* New_ctor();
 
-  /// @brief Method ToString, addr 0x597405c, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x59da9a8, size 0x2ec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Type* const& __cordl_internal_get_catch_type() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_try_offset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5974058, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59da9a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

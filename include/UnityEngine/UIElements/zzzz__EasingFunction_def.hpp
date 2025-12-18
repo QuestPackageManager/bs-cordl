@@ -53,34 +53,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>*();
 
-  /// @brief Method Equals, addr 0x6ba8e4c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c11cd0, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6ba8e3c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c11cc0, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::EasingFunction other);
 
-  /// @brief Method GetHashCode, addr 0x6ba7a34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c108b8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6ba8ec8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6c11d4c, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6ba8e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c11cac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EasingMode mode);
 
-  /// @brief Method get_mode, addr 0x6ba8e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mode, addr 0x6c11c9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EasingMode get_mode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>* i___System__IEquatable_1___UnityEngine__UIElements__EasingFunction_();
 
-  /// @brief Method op_Equality, addr 0x6ba8e30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c11cb4, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::EasingFunction lhs, ::UnityEngine::UIElements::EasingFunction rhs);
 
-  /// @brief Method op_Implicit, addr 0x6ba7e64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6c10ce8, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EasingFunction op_Implicit___UnityEngine__UIElements__EasingFunction(::UnityEngine::UIElements::EasingMode easingMode);
 
-  /// @brief Method set_mode, addr 0x6ba8e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mode, addr 0x6c11ca4, size 0x8, virtual false, abstract: false, final false
   inline void set_mode(::UnityEngine::UIElements::EasingMode value);
 
   // Ctor Parameters []
@@ -124,12 +124,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6ba906c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c11ef0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::EasingMode GetValue(::ByRef<::UnityEngine::UIElements::EasingFunction> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_EasingFunction_ModeProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6ba9074, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c11ef8, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::ByRef<::UnityEngine::UIElements::EasingFunction> container, ::UnityEngine::UIElements::EasingMode value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -144,13 +144,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6ba8ff8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c11e7c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6ba9064, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c11ee8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6ba905c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c11ee0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -197,7 +197,7 @@ public:
 
   static inline ::UnityEngine::UIElements::EasingFunction_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6ba8f34, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c11db8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

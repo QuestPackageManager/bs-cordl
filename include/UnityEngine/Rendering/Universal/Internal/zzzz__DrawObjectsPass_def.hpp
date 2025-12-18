@@ -212,7 +212,7 @@ public:
 
   constexpr void __cordl_internal_set_shouldTransparentsReceiveShadows(bool value);
 
-  /// @brief Method .ctor, addr 0x66e1008, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6748b94, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -230,7 +230,7 @@ public:
   DrawObjectsPass_PassData(DrawObjectsPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13059 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13063 };
 
   /// @brief Field albedoHdl, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___albedoHdl;
@@ -315,10 +315,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass___c* New_ctor();
 
-  /// @brief Method <Render>b__17_0, addr 0x66e27bc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__17_0, addr 0x674a348, size 0x13c, virtual false, abstract: false, final false
   inline void _Render_b__17_0(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x66e27b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x674a344, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass___c* getStaticF___9();
@@ -347,7 +347,7 @@ public:
   DrawObjectsPass___c(DrawObjectsPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13064 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -391,23 +391,23 @@ public:
   /// @brief Field s_DrawObjectPassDataPropID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_DrawObjectPassDataPropID, put = setStaticF_s_DrawObjectPassDataPropID)) int32_t s_DrawObjectPassDataPropID;
 
-  /// @brief Method Execute, addr 0x66e100c, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6748b98, size 0x238, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x66e15e0, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x674916c, size 0x274, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData* data,
                                  ::UnityEngine::Rendering::RendererList rendererList, ::UnityEngine::Rendering::RendererList objectsWithErrorRendererList, bool yFlip);
 
-  /// @brief Method Init, addr 0x66e0bb4, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6748740, size 0x2dc, virtual false, abstract: false, final false
   inline void Init(bool opaque, ::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask,
                    ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference,
                    ::ArrayW<::UnityEngine::Rendering::ShaderTagId, ::Array<::UnityEngine::Rendering::ShaderTagId>*> shaderTagIds);
 
-  /// @brief Method InitPassData, addr 0x66e1244, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6748dd0, size 0x40, virtual false, abstract: false, final false
   inline void InitPassData(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::ByRef<::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData*> passData,
                            uint32_t batchLayerMask, bool isActiveTargetBackBuffer);
 
-  /// @brief Method InitRendererLists, addr 0x66e1284, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method InitRendererLists, addr 0x6748e10, size 0x35c, virtual false, abstract: false, final false
   inline void InitRendererLists(::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                 ::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::ByRef<::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData*> passData,
                                 ::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, bool useRenderGraph);
@@ -427,7 +427,7 @@ public:
                                                                                          ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask,
                                                                                          ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
 
-  /// @brief Method Render, addr 0x66e1854, size 0xea0, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x67493e0, size 0xea0, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorTarget, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthTarget,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle mainShadowsTexture, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle additionalShadowsTexture,
@@ -475,15 +475,15 @@ public:
 
   constexpr void __cordl_internal_set_m_ShouldTransparentsReceiveShadows(bool value);
 
-  /// @brief Method .ctor, addr 0x66e0ed4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6748a60, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::URPProfileId profileId, bool opaque, ::UnityEngine::Rendering::Universal::RenderPassEvent evt,
                     ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask, ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
 
-  /// @brief Method .ctor, addr 0x66e0e90, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6748a1c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW profilerTag, bool opaque, ::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::RenderQueueRange renderQueueRange,
                     ::UnityEngine::LayerMask layerMask, ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
 
-  /// @brief Method .ctor, addr 0x66e0a60, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67485ec, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::StringW profilerTag, ::ArrayW<::UnityEngine::Rendering::ShaderTagId, ::Array<::UnityEngine::Rendering::ShaderTagId>*> shaderTagIds, bool opaque,
                     ::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask,
                     ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
@@ -507,7 +507,7 @@ public:
   DrawObjectsPass(DrawObjectsPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13065 };
 
   /// @brief Field m_FilteringSettings, offset: 0xb8, size: 0x20, def value: None
   ::UnityEngine::Rendering::FilteringSettings ___m_FilteringSettings;

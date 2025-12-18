@@ -47,7 +47,7 @@ public:
   constexpr ProfilerMetrics_ProfilerMetric(::Unity::Profiling::ProfilerCategory category, ::StringW name) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6699 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -108,42 +108,42 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddExposedMetrics, addr 0x5706584, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method AddExposedMetrics, addr 0x57642e4, size 0x474, virtual false, abstract: false, final false
   static inline void AddExposedMetrics(::System::Collections::Generic::List_1<::GlobalNamespace::ProfilerMetrics_ProfilerMetric>* list);
 
-  /// @brief Method CaptureFrame, addr 0x5705028, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CaptureFrame, addr 0x5762d88, size 0x104, virtual false, abstract: false, final false
   inline void CaptureFrame();
 
-  /// @brief Method Dispose, addr 0x570512c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5762e8c, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GenerateListReport, addr 0x5705aa0, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method GenerateListReport, addr 0x5763800, size 0x268, virtual false, abstract: false, final false
   inline ::StringW GenerateListReport(bool units);
 
-  /// @brief Method GenerateTableReport, addr 0x57057ec, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method GenerateTableReport, addr 0x576354c, size 0x2b4, virtual false, abstract: false, final false
   inline ::StringW GenerateTableReport(bool units);
 
   static inline ::GlobalNamespace::ProfilerMetrics* New_ctor(::ArrayW<::GlobalNamespace::ProfilerMetrics_ProfilerMetric, ::Array<::GlobalNamespace::ProfilerMetrics_ProfilerMetric>*> metrics,
                                                              ::ArrayW<::Unity::Profiling::ProfilerRecorder, ::Array<::Unity::Profiling::ProfilerRecorder>*> profilerRecorders,
                                                              int32_t initialFrameCapacity);
 
-  /// @brief Method Record, addr 0x5706108, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Record, addr 0x5763e68, size 0x2e4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ProfilerMetrics* Record(::ArrayW<::GlobalNamespace::ProfilerMetrics_ProfilerMetric, ::Array<::GlobalNamespace::ProfilerMetrics_ProfilerMetric>*> metrics,
                                                            int32_t initialFrameCapacity);
 
-  /// @brief Method RecordAllMetrics, addr 0x57069f8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method RecordAllMetrics, addr 0x5764758, size 0x1f0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ProfilerMetrics* RecordAllMetrics(int32_t initialFrameCapacity, bool listed);
 
-  /// @brief Method RecordFrameTimingMetrics, addr 0x570519c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RecordFrameTimingMetrics, addr 0x5762efc, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ProfilerMetrics* RecordFrameTimingMetrics(int32_t initialFrameCapacity);
 
-  /// @brief Method RecordListedMetrics, addr 0x57064b4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RecordListedMetrics, addr 0x5764214, size 0xd0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ProfilerMetrics* RecordListedMetrics(int32_t initialFrameCapacity);
 
-  /// @brief Method RecordMemoryMetrics, addr 0x5706450, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RecordMemoryMetrics, addr 0x57641b0, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ProfilerMetrics* RecordMemoryMetrics(int32_t initialFrameCapacity);
 
-  /// @brief Method RecordRenderingMetrics, addr 0x57063ec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RecordRenderingMetrics, addr 0x576414c, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ProfilerMetrics* RecordRenderingMetrics(int32_t initialFrameCapacity);
 
   constexpr ::ArrayW<::GlobalNamespace::ProfilerMetrics_ProfilerMetric, ::Array<::GlobalNamespace::ProfilerMetrics_ProfilerMetric>*> const& __cordl_internal_get__metrics() const;
@@ -164,7 +164,7 @@ public:
 
   constexpr void __cordl_internal_set__samples(::System::Collections::Generic::List_1<int64_t>* value);
 
-  /// @brief Method .ctor, addr 0x5706be8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5764948, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::ProfilerMetrics_ProfilerMetric, ::Array<::GlobalNamespace::ProfilerMetrics_ProfilerMetric>*> metrics,
                     ::ArrayW<::Unity::Profiling::ProfilerRecorder, ::Array<::Unity::Profiling::ProfilerRecorder>*> profilerRecorders, int32_t initialFrameCapacity);
 
@@ -198,7 +198,7 @@ public:
   ProfilerMetrics(ProfilerMetrics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6700 };
 
   /// @brief Field kExposedMetricsCap offset 0xffffffff size 0x4
   static constexpr int32_t kExposedMetricsCap{ static_cast<int32_t>(0x100) };

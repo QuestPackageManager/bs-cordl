@@ -61,16 +61,16 @@ public:
 
   constexpr void __cordl_internal_set__start(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x59a649c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a0cde8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta);
 
-  /// @brief Method get_Delta, addr 0x59a64b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Delta, addr 0x5a0ce04, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_Delta();
 
-  /// @brief Method get_End, addr 0x59a64b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_End, addr 0x5a0cdfc, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_End();
 
-  /// @brief Method get_Start, addr 0x59a64a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Start, addr 0x5a0cdf4, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_Start();
 
 protected:

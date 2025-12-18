@@ -57,24 +57,24 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CreateImpl, addr 0x6ba19a0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method CreateImpl, addr 0x6c0a824, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshGenerationNodeImpl* CreateImpl(::UnityEngine::UIElements::UIR::Entry* parentEntry, bool safe);
 
-  /// @brief Method CreateNode, addr 0x6ba0c94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CreateNode, addr 0x6c09b18, size 0x28, virtual false, abstract: false, final false
   inline void CreateNode(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::ByRef<::UnityEngine::UIElements::MeshGenerationNode> node);
 
-  /// @brief Method CreateUnsafeNode, addr 0x6ba0d04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CreateUnsafeNode, addr 0x6c09b88, size 0x28, virtual false, abstract: false, final false
   inline void CreateUnsafeNode(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::ByRef<::UnityEngine::UIElements::UnsafeMeshGenerationNode> node);
 
-  /// @brief Method Dispose, addr 0x6ba1bd4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c0aa58, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6ba1c3c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c0aac0, size 0x10c, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::MeshGenerationNodeManager* New_ctor(::UnityEngine::UIElements::UIR::EntryRecorder* entryRecorder);
 
-  /// @brief Method ResetAll, addr 0x6ba1b3c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ResetAll, addr 0x6c0a9c0, size 0x88, virtual false, abstract: false, final false
   inline void ResetAll();
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -101,16 +101,16 @@ public:
 
   constexpr void __cordl_internal_set_m_UsedCounter(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6ba1918, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c0a79c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::UIR::EntryRecorder* entryRecorder);
 
-  /// @brief Method get_disposed, addr 0x6ba1bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6c0aa48, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x6ba1bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6c0aa50, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

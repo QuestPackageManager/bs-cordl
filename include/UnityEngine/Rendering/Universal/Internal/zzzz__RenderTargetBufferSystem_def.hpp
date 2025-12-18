@@ -51,7 +51,7 @@ public:
   constexpr RenderTargetBufferSystem_SwapBuffer(::UnityEngine::Rendering::RTHandle* rtMSAA, ::UnityEngine::Rendering::RTHandle* rtResolve, ::StringW name, int32_t msaa) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13082 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -113,36 +113,36 @@ public:
   /// @brief Field m_FilterMode, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_m_FilterMode, put = __cordl_internal_set_m_FilterMode)) ::UnityEngine::FilterMode m_FilterMode;
 
-  /// @brief Method Clear, addr 0x66eab64, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x67526f0, size 0x80, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x66ea758, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x67522e4, size 0x54, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method EnableMSAA, addr 0x66eacc8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method EnableMSAA, addr 0x6752854, size 0x80, virtual false, abstract: false, final false
   inline void EnableMSAA(bool enable);
 
-  /// @brief Method GetBackBuffer, addr 0x66ea7f4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetBackBuffer, addr 0x6752380, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetBackBuffer(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method GetBufferA, addr 0x66ead48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetBufferA, addr 0x67528d4, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetBufferA();
 
-  /// @brief Method GetFrontBuffer, addr 0x66eaa74, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetFrontBuffer, addr 0x6752600, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetFrontBuffer(::UnityEngine::Rendering::CommandBuffer* cmd);
 
   static inline ::UnityEngine::Rendering::Universal::Internal::RenderTargetBufferSystem* New_ctor(::StringW name);
 
-  /// @brief Method PeekBackBuffer, addr 0x66ea7ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method PeekBackBuffer, addr 0x6752338, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* PeekBackBuffer();
 
-  /// @brief Method ReAllocate, addr 0x66ea80c, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method ReAllocate, addr 0x6752398, size 0x268, virtual false, abstract: false, final false
   inline void ReAllocate(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method SetCameraSettings, addr 0x66eabe4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetCameraSettings, addr 0x6752770, size 0xe4, virtual false, abstract: false, final false
   inline void SetCameraSettings(::UnityEngine::RenderTextureDescriptor desc, ::UnityEngine::FilterMode filterMode);
 
-  /// @brief Method Swap, addr 0x66eab00, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Swap, addr 0x675268c, size 0x64, virtual false, abstract: false, final false
   inline void Swap();
 
   constexpr ::UnityEngine::Rendering::Universal::Internal::RenderTargetBufferSystem_SwapBuffer const& __cordl_internal_get_m_A() const;
@@ -169,17 +169,17 @@ public:
 
   constexpr void __cordl_internal_set_m_FilterMode(::UnityEngine::FilterMode value);
 
-  /// @brief Method .ctor, addr 0x66ea6c0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x675224c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   static inline bool getStaticF_m_AisBackBuffer();
 
   static inline ::UnityEngine::RenderTextureDescriptor getStaticF_m_Desc();
 
-  /// @brief Method get_backBuffer, addr 0x66ea5e0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_backBuffer, addr 0x675216c, size 0x70, virtual false, abstract: false, final false
   inline ::ByRef<::UnityEngine::Rendering::Universal::Internal::RenderTargetBufferSystem_SwapBuffer> get_backBuffer();
 
-  /// @brief Method get_frontBuffer, addr 0x66ea650, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_frontBuffer, addr 0x67521dc, size 0x70, virtual false, abstract: false, final false
   inline ::ByRef<::UnityEngine::Rendering::Universal::Internal::RenderTargetBufferSystem_SwapBuffer> get_frontBuffer();
 
   static inline void setStaticF_m_AisBackBuffer(bool value);
@@ -201,7 +201,7 @@ public:
   RenderTargetBufferSystem(RenderTargetBufferSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13083 };
 
   /// @brief Field m_A, offset: 0x10, size: 0x20, def value: None
   ::UnityEngine::Rendering::Universal::Internal::RenderTargetBufferSystem_SwapBuffer ___m_A;

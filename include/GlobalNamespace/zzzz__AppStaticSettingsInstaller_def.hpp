@@ -24,7 +24,7 @@ public:
   /// @brief Field _appStaticSettings, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__appStaticSettings, put = __cordl_internal_set__appStaticSettings)) ::UnityW<::GlobalNamespace::AppStaticSettingsSO> _appStaticSettings;
 
-  /// @brief Method InstallBindings, addr 0x3642674, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x366eaf8, size 0x84, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::AppStaticSettingsInstaller* New_ctor();
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__appStaticSettings(::UnityW<::GlobalNamespace::AppStaticSettingsSO> value);
 
-  /// @brief Method .ctor, addr 0x36426f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x366eb7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   AppStaticSettingsInstaller(AppStaticSettingsInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20984 };
 
   /// @brief Field _appStaticSettings, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AppStaticSettingsSO> ____appStaticSettings;

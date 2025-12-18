@@ -24,48 +24,50 @@ namespace System::Text {
 struct CORDL_TYPE ValueStringBuilder {
 public:
   // Declarations
+  __declspec(property(get = get_Item)) char16_t Item[];
+
   __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method Append, addr 0x5ee1364, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x59370f8, size 0x90, virtual false, abstract: false, final false
   inline void Append(char16_t c);
 
-  /// @brief Method Append, addr 0x5ee02f4, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x593766c, size 0x204, virtual false, abstract: false, final false
   inline void Append(char16_t c, int32_t count);
 
-  /// @brief Method Append, addr 0x5ee147c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x5937210, size 0xa8, virtual false, abstract: false, final false
   inline void Append(::StringW s);
 
-  /// @brief Method Append, addr 0x5ee0204, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x5937870, size 0xf0, virtual false, abstract: false, final false
   inline void Append(char16_t* value, int32_t length);
 
-  /// @brief Method AppendSlow, addr 0x5ee1524, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method AppendSlow, addr 0x59372b8, size 0x138, virtual false, abstract: false, final false
   inline void AppendSlow(::StringW s);
 
-  /// @brief Method AppendSpan, addr 0x5ee165c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AppendSpan, addr 0x5937960, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Span_1<char16_t> AppendSpan(int32_t length);
 
-  /// @brief Method Dispose, addr 0x5ee1728, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5937a2c, size 0x110, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Grow, addr 0x5ee10e8, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x59373f0, size 0x27c, virtual false, abstract: false, final false
   inline void Grow(int32_t requiredAdditionalCapacity);
 
-  /// @brief Method GrowAndAppend, addr 0x5ee13f4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GrowAndAppend, addr 0x5937188, size 0x88, virtual false, abstract: false, final false
   inline void GrowAndAppend(char16_t c);
 
-  /// @brief Method Insert, addr 0x5edba78, size 0x1d0, virtual false, abstract: false, final false
-  inline void Insert(int32_t index, char16_t value, int32_t count);
-
-  /// @brief Method ToString, addr 0x5edbd3c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5936f3c, size 0xc8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryCopyTo, addr 0x5edbc48, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TryCopyTo, addr 0x5937004, size 0xf4, virtual false, abstract: false, final false
   inline bool TryCopyTo(::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method .ctor, addr 0x5edba68, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5936f04, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Span_1<char16_t> initialBuffer);
 
-  /// @brief Method get_Length, addr 0x5ee10e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x5936f1c, size 0x20, virtual false, abstract: false, final false
+  inline ::ByRef<char16_t> get_Item(int32_t index);
+
+  /// @brief Method get_Length, addr 0x5936f14, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   // Ctor Parameters []
@@ -77,7 +79,7 @@ public:
   constexpr ValueStringBuilder(::ArrayW<char16_t, ::Array<char16_t>*> _arrayToReturnToPool, ::System::Span_1<char16_t> _chars, int32_t _pos) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2887 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

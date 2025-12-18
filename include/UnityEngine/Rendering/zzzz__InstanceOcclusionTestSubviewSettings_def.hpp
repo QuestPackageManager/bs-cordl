@@ -25,7 +25,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE InstanceOcclusionTestSubviewSettings {
 public:
   // Declarations
-  /// @brief Method FromSpan, addr 0x6610f90, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method FromSpan, addr 0x6678b1c, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings FromSpan(::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest> subviewOcclusionTests);
 
   // Ctor Parameters []
@@ -38,7 +38,7 @@ public:
   constexpr InstanceOcclusionTestSubviewSettings(int32_t testCount, int32_t occluderSubviewIndices, int32_t occluderSubviewMask, int32_t cullingSplitIndices, int32_t cullingSplitMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17700 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17714 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

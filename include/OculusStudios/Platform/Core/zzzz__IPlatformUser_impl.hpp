@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::OculusStudios::Platform::Core::IPlatformUser.GetXPlatformAccessTokenAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::OculusStudios::Platform::Core::IPlatformUser::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::OculusStudios::Platform::Core::IPlatformUser::*)(bool)>(
     &::OculusStudios::Platform::Core::IPlatformUser::GetXPlatformAccessTokenAsync)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
@@ -179,10 +179,10 @@ inline ::System::Threading::Tasks::Task_1<::StringW>* OculusStudios::Platform::C
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::IPlatformUser*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::StringW>*, false>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task_1<::StringW>* OculusStudios::Platform::Core::IPlatformUser::GetXPlatformAccessTokenAsync() {
+inline ::System::Threading::Tasks::Task_1<::StringW>* OculusStudios::Platform::Core::IPlatformUser::GetXPlatformAccessTokenAsync(bool skipCache) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::IPlatformUser*>::get(), 3)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::StringW>*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::StringW>*, false>(this, ___internal_method, skipCache);
 }
 inline ::StringW OculusStudios::Platform::Core::IPlatformUser::GetLocale() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

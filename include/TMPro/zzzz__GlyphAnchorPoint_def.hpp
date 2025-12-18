@@ -23,16 +23,16 @@ public:
 
   __declspec(property(get = get_yCoordinate, put = set_yCoordinate)) float_t yCoordinate;
 
-  /// @brief Method get_xCoordinate, addr 0x67177d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xCoordinate, addr 0x677f348, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xCoordinate();
 
-  /// @brief Method get_yCoordinate, addr 0x67177e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yCoordinate, addr 0x677f358, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yCoordinate();
 
-  /// @brief Method set_xCoordinate, addr 0x67177d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_xCoordinate, addr 0x677f350, size 0x8, virtual false, abstract: false, final false
   inline void set_xCoordinate(float_t value);
 
-  /// @brief Method set_yCoordinate, addr 0x67177e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_yCoordinate, addr 0x677f360, size 0x8, virtual false, abstract: false, final false
   inline void set_yCoordinate(float_t value);
 
   // Ctor Parameters []
@@ -43,7 +43,7 @@ public:
   constexpr GlyphAnchorPoint(float_t m_XCoordinate, float_t m_YCoordinate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15818 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

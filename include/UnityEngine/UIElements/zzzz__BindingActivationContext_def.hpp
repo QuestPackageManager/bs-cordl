@@ -25,7 +25,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE BindingActivationContext {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x69fc390, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a65214, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* element, ::ByRef<::UnityEngine::UIElements::BindingId> property);
 
   // Ctor Parameters []

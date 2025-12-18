@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderQueueRange (*)()>(&::UnityEngine::Rendering::RenderQueueRange::get_all)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ed6b0;
+  constexpr static std::size_t addrs = 0x6956534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderQueueRange>::get(), "get_all",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderQueueRange (*)()>(&::UnityEngine::Rendering::RenderQueueRange::get_opaque)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68f034c;
+  constexpr static std::size_t addrs = 0x69591d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderQueueRange>::get(), "get_opaque",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderQueueRange (*)()>(&::UnityEngine::Rendering::RenderQueueRange::get_transparent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68f0354;
+  constexpr static std::size_t addrs = 0x69591d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderQueueRange>::get(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::RenderQueueRange::*)()>(
     &::UnityEngine::Rendering::RenderQueueRange::get_lowerBound)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68f0360;
+  constexpr static std::size_t addrs = 0x69591e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderQueueRange>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::RenderQueueRange::*)()>(
     &::UnityEngine::Rendering::RenderQueueRange::get_upperBound)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68f0368;
+  constexpr static std::size_t addrs = 0x69591ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderQueueRange>::get(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderQueueRange::*)(::UnityEngine::Rendering::RenderQueueRange)>(
     &::UnityEngine::Rendering::RenderQueueRange::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x68ed7c0;
+  constexpr static std::size_t addrs = 0x6956644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderQueueRange::*)(::System::Object*)>(
     &::UnityEngine::Rendering::RenderQueueRange::Equals)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x68f0370;
+  constexpr static std::size_t addrs = 0x69591f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::RenderQueueRange::*)()>(
     &::UnityEngine::Rendering::RenderQueueRange::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68ed90c;
+  constexpr static std::size_t addrs = 0x6956790;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rendering::RenderQueueRange, ::UnityEngine::Rendering::RenderQueueRange)>(
     &::UnityEngine::Rendering::RenderQueueRange::op_Equality)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x68f0430;
+  constexpr static std::size_t addrs = 0x69592b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

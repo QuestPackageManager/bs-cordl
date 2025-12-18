@@ -27,22 +27,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE PerformanceReport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateReportDescriptor, addr 0x57056b0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CreateReportDescriptor, addr 0x5763410, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW CreateReportDescriptor(::System::DateTime timestamp, ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData);
 
-  /// @brief Method CreateTimestamp, addr 0x5705634, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CreateTimestamp, addr 0x5763394, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW CreateTimestamp(::System::DateTime timestamp);
 
-  /// @brief Method ListAggregatedFps, addr 0x570531c, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method ListAggregatedFps, addr 0x576307c, size 0x318, virtual false, abstract: false, final false
   static inline ::StringW ListAggregatedFps(::ArrayW<float_t, ::Array<float_t>*> frameDurations, float_t minWindowSize);
 
-  /// @brief Method ListFrameTimes, addr 0x5705200, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ListFrameTimes, addr 0x5762f60, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW ListFrameTimes(::ArrayW<float_t, ::Array<float_t>*> frameTimes);
 
-  /// @brief Method ListStat, addr 0x5705e08, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ListStat, addr 0x5763b68, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW ListStat(::ArrayW<float_t, ::Array<float_t>*> statList);
 
-  /// @brief Method ListStat, addr 0x5705f24, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ListStat, addr 0x5763c84, size 0x104, virtual false, abstract: false, final false
   static inline ::StringW ListStat(::ArrayW<int64_t, ::Array<int64_t>*> statList);
 
 protected:
@@ -60,7 +60,7 @@ public:
   PerformanceReport(PerformanceReport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6702 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6697 };
 
   /// @brief Field kDefaultFpsWindow offset 0xffffffff size 0x4
   static constexpr float_t kDefaultFpsWindow{ static_cast<float_t>(1.0f) };

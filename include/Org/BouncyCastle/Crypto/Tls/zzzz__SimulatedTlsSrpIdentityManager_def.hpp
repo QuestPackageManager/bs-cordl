@@ -53,10 +53,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager*() noexcept;
 
-  /// @brief Method GetLoginParameters, addr 0x334a78c, size 0x4b4, virtual true, abstract: false, final false
+  /// @brief Method GetLoginParameters, addr 0x3374fd0, size 0x4b4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* GetLoginParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> identity);
 
-  /// @brief Method GetRfc5054Default, addr 0x334a614, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetRfc5054Default, addr 0x3374e58, size 0x16c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager* GetRfc5054Default(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group,
                                                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> seedKey);
 
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_mVerifierGenerator(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* value);
 
-  /// @brief Method .ctor, addr 0x334a780, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3374fc4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* verifierGenerator,
                     ::Org::BouncyCastle::Crypto::IMac* mac);
 

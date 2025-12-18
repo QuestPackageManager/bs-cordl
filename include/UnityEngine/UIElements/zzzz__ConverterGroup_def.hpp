@@ -77,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set__registry_k__BackingField(::UnityEngine::UIElements::TypeConverterRegistry value);
 
-  /// @brief Method .ctor, addr 0x69fe008, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a66e8c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, ::StringW displayName, ::StringW description);
 
-  /// @brief Method get_registry, addr 0x69fe000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_registry, addr 0x6a66e84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TypeConverterRegistry get_registry();
 
 protected:

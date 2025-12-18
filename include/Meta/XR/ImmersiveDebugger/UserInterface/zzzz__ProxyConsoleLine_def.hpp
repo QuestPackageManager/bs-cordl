@@ -30,7 +30,7 @@ public:
   __declspec(property(get = __cordl_internal_get__Entry_k__BackingField,
                       put = __cordl_internal_set__Entry_k__BackingField)) ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* _Entry_k__BackingField;
 
-  /// @brief Method Fill, addr 0x58375c0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Fill, addr 0x589dd24, size 0x50, virtual true, abstract: false, final false
   inline void Fill();
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine* New_ctor();
@@ -41,13 +41,13 @@ public:
 
   constexpr void __cordl_internal_set__Entry_k__BackingField(::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* value);
 
-  /// @brief Method .ctor, addr 0x5837610, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x589dd74, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Entry, addr 0x58375b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Entry, addr 0x589dd14, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* get_Entry();
 
-  /// @brief Method set_Entry, addr 0x58375b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Entry, addr 0x589dd1c, size 0x8, virtual false, abstract: false, final false
   inline void set_Entry(::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* value);
 
 protected:
@@ -65,7 +65,7 @@ public:
   ProxyConsoleLine(ProxyConsoleLine const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18314 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18329 };
 
   /// @brief Field <Entry>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* ____Entry_k__BackingField;

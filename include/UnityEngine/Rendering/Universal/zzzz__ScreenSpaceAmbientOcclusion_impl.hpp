@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings*> (
     ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::*)()>(&::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::get_settings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x668fa48;
+  constexpr static std::size_t addrs = 0x66f75d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::Create)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x668fa50;
+  constexpr static std::size_t addrs = 0x66f75dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData>)>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::AddRenderPasses)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x668fb00;
+  constexpr static std::size_t addrs = 0x66f768c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::*)(bool)>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x668fdd8;
+  constexpr static std::size_t addrs = 0x66f7964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::GetMaterials)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x668fce8;
+  constexpr static std::size_t addrs = 0x66f7874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x668fe48;
+  constexpr static std::size_t addrs = 0x66f79d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

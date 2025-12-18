@@ -27,7 +27,7 @@ public:
 
   static inline ::UnityEngine::BootConfigData* New_ctor(::System::IntPtr nativeHandle);
 
-  /// @brief Method WrapBootConfigData, addr 0x6834ab4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method WrapBootConfigData, addr 0x689c62c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::BootConfigData* WrapBootConfigData(::System::IntPtr nativeHandle);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6834b10, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x689c688, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr nativeHandle);
 
 protected:
@@ -54,7 +54,7 @@ public:
   BootConfigData(BootConfigData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10054 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

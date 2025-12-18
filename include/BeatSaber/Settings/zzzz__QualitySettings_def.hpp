@@ -84,7 +84,7 @@ public:
   static ::BeatSaber::Settings::QualitySettings_MainEffectOption const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21814 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21841 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -139,7 +139,7 @@ public:
   static ::BeatSaber::Settings::QualitySettings_BloomQuality const LightBaking;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21842 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -202,7 +202,7 @@ public:
   static ::BeatSaber::Settings::QualitySettings_MirrorQuality const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21816 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21843 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -261,7 +261,7 @@ public:
   static ::BeatSaber::Settings::QualitySettings_ObstacleQuality const Medium;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21844 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -304,15 +304,15 @@ public:
   // CppParam { name: "bloom", ty: "::BeatSaber::Settings::QualitySettings_BloomQuality", modifiers: "", def_value: None }, CppParam { name: "mirror", ty:
   // "::BeatSaber::Settings::QualitySettings_MirrorQuality", modifiers: "", def_value: None }, CppParam { name: "obstacles", ty: "::BeatSaber::Settings::QualitySettings_ObstacleQuality", modifiers:
   // "", def_value: None }, CppParam { name: "screenDisplacementEffects", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "smokeGraphics", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "depthTexture", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "burnMarkTrails", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "maxShockwaveParticles", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxNumberOfCutSoundEffects", ty: "int32_t", modifiers: "", def_value: None }]
+  // CppParam { name: "burnMarkTrails", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "maxShockwaveParticles", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "maxNumberOfCutSoundEffects", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr QualitySettings(float_t renderViewportScale, float_t vrResolutionScale, float_t menuVRResolutionScaleMultiplier, int32_t antiAliasingLevel, int32_t targetFramerate, int32_t vSyncCount,
                             int32_t maxQueuedFrames, ::BeatSaber::Settings::QualitySettings_MainEffectOption mainEffect, ::BeatSaber::Settings::QualitySettings_BloomQuality bloom,
                             ::BeatSaber::Settings::QualitySettings_MirrorQuality mirror, ::BeatSaber::Settings::QualitySettings_ObstacleQuality obstacles, bool screenDisplacementEffects,
-                            bool smokeGraphics, bool depthTexture, bool burnMarkTrails, int32_t maxShockwaveParticles, int32_t maxNumberOfCutSoundEffects) noexcept;
+                            bool smokeGraphics, bool burnMarkTrails, int32_t maxShockwaveParticles, int32_t maxNumberOfCutSoundEffects) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21845 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -356,10 +356,7 @@ public:
   /// @brief Field smokeGraphics, offset: 0x2d, size: 0x1, def value: None
   bool smokeGraphics;
 
-  /// @brief Field depthTexture, offset: 0x2e, size: 0x1, def value: None
-  bool depthTexture;
-
-  /// @brief Field burnMarkTrails, offset: 0x2f, size: 0x1, def value: None
+  /// @brief Field burnMarkTrails, offset: 0x2e, size: 0x1, def value: None
   bool burnMarkTrails;
 
   /// @brief Field maxShockwaveParticles, offset: 0x30, size: 0x4, def value: None
@@ -397,9 +394,7 @@ static_assert(offsetof(::BeatSaber::Settings::QualitySettings, screenDisplacemen
 
 static_assert(offsetof(::BeatSaber::Settings::QualitySettings, smokeGraphics) == 0x2d, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::QualitySettings, depthTexture) == 0x2e, "Offset mismatch!");
-
-static_assert(offsetof(::BeatSaber::Settings::QualitySettings, burnMarkTrails) == 0x2f, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::QualitySettings, burnMarkTrails) == 0x2e, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::Settings::QualitySettings, maxShockwaveParticles) == 0x30, "Offset mismatch!");
 

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Runtime::HashHelper::ComputeHash)> {
   constexpr static std::size_t size = 0x548;
-  constexpr static std::size_t addrs = 0x5f6ad9c;
+  constexpr static std::size_t addrs = 0x5fd2928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

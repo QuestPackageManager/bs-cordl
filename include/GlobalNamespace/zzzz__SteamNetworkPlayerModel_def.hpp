@@ -26,7 +26,7 @@ public:
 
   static inline ::GlobalNamespace::SteamNetworkPlayerModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5ab964c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b200e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INetworkPlayerModel"
@@ -47,7 +47,7 @@ public:
   SteamNetworkPlayerModel(SteamNetworkPlayerModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21274 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

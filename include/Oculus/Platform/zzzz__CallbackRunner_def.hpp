@@ -21,18 +21,18 @@ public:
   /// @brief Field IsPersistantBetweenSceneLoads, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_IsPersistantBetweenSceneLoads, put = __cordl_internal_set_IsPersistantBetweenSceneLoads)) bool IsPersistantBetweenSceneLoads;
 
-  /// @brief Method Awake, addr 0x5ba0c54, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5c07734, size 0x110, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Oculus::Platform::CallbackRunner* New_ctor();
 
-  /// @brief Method OnApplicationQuit, addr 0x5ba0de0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x5c078c0, size 0x50, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
-  /// @brief Method OnDestroy, addr 0x5ba0ddc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5c078bc, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x5ba0d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5c07844, size 0x8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_IsPersistantBetweenSceneLoads() const;
@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set_IsPersistantBetweenSceneLoads(bool value);
 
-  /// @brief Method .ctor, addr 0x5ba0e30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c07910, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ovr_UnityResetTestPlatform, addr 0x5ba0bf0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ovr_UnityResetTestPlatform, addr 0x5c076d0, size 0x64, virtual false, abstract: false, final false
   static inline void ovr_UnityResetTestPlatform();
 
 protected:
@@ -62,7 +62,7 @@ public:
   CallbackRunner(CallbackRunner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17782 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17796 };
 
   /// @brief Field IsPersistantBetweenSceneLoads, offset: 0x20, size: 0x1, def value: None
   bool ___IsPersistantBetweenSceneLoads;

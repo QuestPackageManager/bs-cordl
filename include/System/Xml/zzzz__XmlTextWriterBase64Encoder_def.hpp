@@ -27,7 +27,7 @@ public:
 
   static inline ::System::Xml::XmlTextWriterBase64Encoder* New_ctor(::System::Xml::XmlTextEncoder* xmlTextEncoder);
 
-  /// @brief Method WriteChars, addr 0x5f764d8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method WriteChars, addr 0x5fde064, size 0x18, virtual true, abstract: false, final false
   inline void WriteChars(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count);
 
   constexpr ::System::Xml::XmlTextEncoder* const& __cordl_internal_get_xmlTextEncoder() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_xmlTextEncoder(::System::Xml::XmlTextEncoder* value);
 
-  /// @brief Method .ctor, addr 0x5f764b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fde040, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlTextEncoder* xmlTextEncoder);
 
 protected:
@@ -54,7 +54,7 @@ public:
   XmlTextWriterBase64Encoder(XmlTextWriterBase64Encoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9219 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9223 };
 
   /// @brief Field xmlTextEncoder, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlTextEncoder* ___xmlTextEncoder;

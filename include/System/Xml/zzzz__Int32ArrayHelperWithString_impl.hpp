@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Int32ArrayHelperWithString::*)(
     ::System::Xml::XmlDictionaryReader*, ::StringW, ::StringW, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, int32_t)>(&::System::Xml::Int32ArrayHelperWithString::ReadArray)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5ee1e28;
+  constexpr static std::size_t addrs = 0x5f499b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Int32ArrayHelperWithString::*)(
     ::System::Xml::XmlDictionaryWriter*, ::StringW, ::StringW, ::StringW, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, int32_t)>(&::System::Xml::Int32ArrayHelperWithString::WriteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5ee1e60;
+  constexpr static std::size_t addrs = 0x5f499ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Int32ArrayHelperWithString::*)()>(&::System::Xml::Int32ArrayHelperWithString::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5ee1e9c;
+  constexpr static std::size_t addrs = 0x5f49a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Int32ArrayHelperWithString*>::get(), ".ctor",

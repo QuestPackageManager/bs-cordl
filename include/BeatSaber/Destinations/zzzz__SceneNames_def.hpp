@@ -32,7 +32,7 @@ public:
   __declspec(property(get = getStaticF_kScenesThatShouldDisableRootObjects,
                       put = setStaticF_kScenesThatShouldDisableRootObjects)) ::System::Collections::Generic::HashSet_1<::StringW>* kScenesThatShouldDisableRootObjects;
 
-  /// @brief Method ShouldDisableRootObjects, addr 0x318234c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ShouldDisableRootObjects, addr 0x31b2178, size 0xc8, virtual false, abstract: false, final false
   static inline bool ShouldDisableRootObjects(::StringW sceneName);
 
   static inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* getStaticF_kAllSceneNames();
@@ -58,7 +58,7 @@ public:
   SceneNames(SceneNames const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22755 };
 
   /// @brief Field kCreditsSceneName offset 0xffffffff size 0x8
   static constexpr ::ConstString kCreditsSceneName{ u"Credits" };
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field kGameCoreSceneName offset 0xffffffff size 0x8
   static constexpr ::ConstString kGameCoreSceneName{ u"GameCore" };
+
+  /// @brief Field kGameInitSceneName offset 0xffffffff size 0x8
+  static constexpr ::ConstString kGameInitSceneName{ u"GameInit" };
 
   /// @brief Field kGameLoaderSceneName offset 0xffffffff size 0x8
   static constexpr ::ConstString kGameLoaderSceneName{ u"GameLoader" };

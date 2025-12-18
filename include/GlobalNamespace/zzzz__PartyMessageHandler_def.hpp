@@ -10,16 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PartyMessageHandler)
 namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
+class BeatSaberConnectedPlayerManager;
 }
 namespace GlobalNamespace {
-class ConnectedPlayerManager;
+struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
 class IPoolablePacket;
@@ -123,7 +123,7 @@ public:
   static ::GlobalNamespace::PartyMessageHandler_MessageType const ConnectToMasterServer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19030 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18930 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -146,19 +146,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE PartyMessageHandler_ServerStatusUpdatedDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x31b2c38, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x31e38a4, size 0xc0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x31b2cf8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x31e3964, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x31b2be8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x31e3854, size 0x50, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration);
 
   static inline ::GlobalNamespace::PartyMessageHandler_ServerStatusUpdatedDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x31b2b7c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31e37e8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -176,7 +176,7 @@ public:
   PartyMessageHandler_ServerStatusUpdatedDelegate(PartyMessageHandler_ServerStatusUpdatedDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19031 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18931 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -191,18 +191,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE PartyMessageHandler_ConnectToMasterServerDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x31b2d94, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x31e3a00, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW secret, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x31b2db4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x31e3a20, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x31b2d80, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x31e39ec, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW secret);
 
   static inline ::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x31b2d04, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31e3970, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -220,7 +220,7 @@ public:
   PartyMessageHandler_ConnectToMasterServerDelegate(PartyMessageHandler_ConnectToMasterServerDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19032 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18932 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -244,18 +244,18 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x31b2de0, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x31e3a4c, size 0x28, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x31b2adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x31e3748, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerMessage* Init(::StringW secret);
 
   static inline ::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerMessage* New_ctor();
 
-  /// @brief Method Release, addr 0x31b2b24, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x31e3790, size 0x58, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0x31b2dc0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x31e3a2c, size 0x20, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::StringW const& __cordl_internal_get_secret() const;
@@ -264,10 +264,10 @@ public:
 
   constexpr void __cordl_internal_set_secret(::StringW value);
 
-  /// @brief Method .ctor, addr 0x31b2e08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31e3a74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0x31b2884, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0x31e34b8, size 0x44, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerMessage*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -291,7 +291,7 @@ public:
   PartyMessageHandler_ConnectToMasterServerMessage(PartyMessageHandler_ConnectToMasterServerMessage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18933 };
 
   /// @brief Field secret, offset: 0x10, size: 0x8, def value: None
   ::StringW ___secret;
@@ -320,12 +320,13 @@ public:
   using ServerStatusUpdatedDelegate = ::GlobalNamespace::PartyMessageHandler_ServerStatusUpdatedDelegate;
 
   /// @brief Field _connectedPlayerManager, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectedPlayerManager, put = __cordl_internal_set__connectedPlayerManager)) ::GlobalNamespace::ConnectedPlayerManager* _connectedPlayerManager;
+  __declspec(property(get = __cordl_internal_get__connectedPlayerManager,
+                      put = __cordl_internal_set__connectedPlayerManager)) ::GlobalNamespace::BeatSaberConnectedPlayerManager* _connectedPlayerManager;
 
   /// @brief Field _serializer, offset 0x10, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__serializer,
-      put = __cordl_internal_set__serializer)) ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::PartyMessageHandler_MessageType, ::GlobalNamespace::IConnectedPlayer*>* _serializer;
+  __declspec(property(get = __cordl_internal_get__serializer,
+                      put = __cordl_internal_set__serializer)) ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::PartyMessageHandler_MessageType,
+                                                                                                            ::GlobalNamespace::IBeatSaberConnectedPlayer*>* _serializer;
 
   /// @brief Field connectToMasterServerEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_connectToMasterServerEvent,
@@ -334,45 +335,47 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ConnectToMasterServer, addr 0x31b2a44, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ConnectToMasterServer, addr 0x31e36b0, size 0x98, virtual false, abstract: false, final false
   inline void ConnectToMasterServer(::StringW secret);
 
-  /// @brief Method Dispose, addr 0x31b28c8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x31e34fc, size 0x5c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleConnectToMasterServer, addr 0x31b2ae4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectToMasterServer, addr 0x31e3750, size 0x40, virtual false, abstract: false, final false
   inline void HandleConnectToMasterServer(::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerMessage* packet);
 
-  static inline ::GlobalNamespace::PartyMessageHandler* New_ctor(::GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
+  static inline ::GlobalNamespace::PartyMessageHandler* New_ctor(::GlobalNamespace::BeatSaberConnectedPlayerManager* connectedPlayerManager);
 
-  constexpr ::GlobalNamespace::ConnectedPlayerManager* const& __cordl_internal_get__connectedPlayerManager() const;
+  constexpr ::GlobalNamespace::BeatSaberConnectedPlayerManager* const& __cordl_internal_get__connectedPlayerManager() const;
 
-  constexpr ::GlobalNamespace::ConnectedPlayerManager*& __cordl_internal_get__connectedPlayerManager();
+  constexpr ::GlobalNamespace::BeatSaberConnectedPlayerManager*& __cordl_internal_get__connectedPlayerManager();
 
-  constexpr ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::PartyMessageHandler_MessageType, ::GlobalNamespace::IConnectedPlayer*>* const& __cordl_internal_get__serializer() const;
+  constexpr ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::PartyMessageHandler_MessageType, ::GlobalNamespace::IBeatSaberConnectedPlayer*>* const&
+  __cordl_internal_get__serializer() const;
 
-  constexpr ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::PartyMessageHandler_MessageType, ::GlobalNamespace::IConnectedPlayer*>*& __cordl_internal_get__serializer();
+  constexpr ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::PartyMessageHandler_MessageType, ::GlobalNamespace::IBeatSaberConnectedPlayer*>*& __cordl_internal_get__serializer();
 
   constexpr ::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerDelegate* const& __cordl_internal_get_connectToMasterServerEvent() const;
 
   constexpr ::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerDelegate*& __cordl_internal_get_connectToMasterServerEvent();
 
-  constexpr void __cordl_internal_set__connectedPlayerManager(::GlobalNamespace::ConnectedPlayerManager* value);
+  constexpr void __cordl_internal_set__connectedPlayerManager(::GlobalNamespace::BeatSaberConnectedPlayerManager* value);
 
-  constexpr void __cordl_internal_set__serializer(::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::PartyMessageHandler_MessageType, ::GlobalNamespace::IConnectedPlayer*>* value);
+  constexpr void
+  __cordl_internal_set__serializer(::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::PartyMessageHandler_MessageType, ::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
   constexpr void __cordl_internal_set_connectToMasterServerEvent(::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerDelegate* value);
 
-  /// @brief Method .ctor, addr 0x31b26ec, size 0x198, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
+  /// @brief Method .ctor, addr 0x31e3308, size 0x1b0, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::BeatSaberConnectedPlayerManager* connectedPlayerManager);
 
-  /// @brief Method add_connectToMasterServerEvent, addr 0x31b28ec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_connectToMasterServerEvent, addr 0x31e3558, size 0xac, virtual false, abstract: false, final false
   inline void add_connectToMasterServerEvent(::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerDelegate* value);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_connectToMasterServerEvent, addr 0x31b2998, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_connectToMasterServerEvent, addr 0x31e3604, size 0xac, virtual false, abstract: false, final false
   inline void remove_connectToMasterServerEvent(::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerDelegate* value);
 
 protected:
@@ -390,13 +393,13 @@ public:
   PartyMessageHandler(PartyMessageHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19034 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18934 };
 
   /// @brief Field _serializer, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::PartyMessageHandler_MessageType, ::GlobalNamespace::IConnectedPlayer*>* ____serializer;
+  ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::PartyMessageHandler_MessageType, ::GlobalNamespace::IBeatSaberConnectedPlayer*>* ____serializer;
 
   /// @brief Field _connectedPlayerManager, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::ConnectedPlayerManager* ____connectedPlayerManager;
+  ::GlobalNamespace::BeatSaberConnectedPlayerManager* ____connectedPlayerManager;
 
   /// @brief Field connectToMasterServerEvent, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerDelegate* ___connectToMasterServerEvent;

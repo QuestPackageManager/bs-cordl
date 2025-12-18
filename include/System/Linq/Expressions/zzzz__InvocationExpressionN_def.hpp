@@ -37,13 +37,13 @@ public:
   __declspec(property(get = __cordl_internal_get__arguments,
                       put = __cordl_internal_set__arguments)) ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* _arguments;
 
-  /// @brief Method GetArgument, addr 0x5d694ac, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x5dd1038, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::InvocationExpressionN*
   New_ctor(::System::Linq::Expressions::Expression* lambda, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* arguments, ::System::Type* returnType);
 
-  /// @brief Method Rewrite, addr 0x5d69604, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x5dd1190, size 0x78, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::InvocationExpression* Rewrite(::System::Linq::Expressions::Expression* lambda,
                                                                     ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> arguments);
 
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__arguments(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method .ctor, addr 0x5d69484, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd1010, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* lambda, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* arguments, ::System::Type* returnType);
 
-  /// @brief Method get_ArgumentCount, addr 0x5d69560, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x5dd10ec, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
 protected:
@@ -74,7 +74,7 @@ public:
   InvocationExpressionN(InvocationExpressionN const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16142 };
 
   /// @brief Field _arguments, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* ____arguments;

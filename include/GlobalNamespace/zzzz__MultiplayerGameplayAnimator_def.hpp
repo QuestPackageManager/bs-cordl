@@ -11,7 +11,7 @@ namespace GlobalNamespace {
 class ColorSO;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
 class LightsAnimator;
@@ -70,7 +70,7 @@ public:
   __declspec(property(get = __cordl_internal_get__multiplayerController, put = __cordl_internal_set__multiplayerController)) ::UnityW<::GlobalNamespace::MultiplayerController> _multiplayerController;
 
   /// @brief Field connectedPlayer, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_connectedPlayer, put = __cordl_internal_set_connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
+  __declspec(property(get = __cordl_internal_get_connectedPlayer, put = __cordl_internal_set_connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer;
 
   /// @brief Field tweeningManager, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_tweeningManager, put = __cordl_internal_set_tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> tweeningManager;
@@ -78,18 +78,18 @@ public:
   /// @brief Method AnimateNewLeaderSelected, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method HandleNewLeaderWasSelected, addr 0x57c6174, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method HandleNewLeaderWasSelected, addr 0x582ca58, size 0xf4, virtual false, abstract: false, final false
   inline void HandleNewLeaderWasSelected(::StringW userId);
 
-  /// @brief Method HandleStateChanged, addr 0x57c5f64, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x582c848, size 0x150, virtual true, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
   static inline ::GlobalNamespace::MultiplayerGameplayAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57c5cd4, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x582c5b8, size 0x1d0, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x57c5c04, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x582c4e8, size 0xd0, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__activeLightsColor() const;
@@ -124,9 +124,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get__multiplayerController();
 
-  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get_connectedPlayer() const;
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get_connectedPlayer() const;
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get_connectedPlayer();
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& __cordl_internal_get_connectedPlayer();
 
   constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get_tweeningManager() const;
 
@@ -148,11 +148,11 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value);
 
-  constexpr void __cordl_internal_set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set_connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
   constexpr void __cordl_internal_set_tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x57c6268, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x582cb4c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -200,7 +200,7 @@ public:
   ::UnityW<::Tweening::TimeTweeningManager> ___tweeningManager;
 
   /// @brief Field connectedPlayer, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::IConnectedPlayer* ___connectedPlayer;
+  ::GlobalNamespace::IBeatSaberConnectedPlayer* ___connectedPlayer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

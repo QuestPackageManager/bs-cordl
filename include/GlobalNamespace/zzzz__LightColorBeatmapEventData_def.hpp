@@ -89,23 +89,23 @@ public:
 
   __declspec(property(get = get_usePreviousValue, put = set_usePreviousValue)) bool usePreviousValue;
 
-  /// @brief Method CopyColorDataFrom, addr 0x3163a9c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CopyColorDataFrom, addr 0x3193794, size 0x38, virtual false, abstract: false, final false
   inline void CopyColorDataFrom(::GlobalNamespace::LightColorBeatmapEventData* lightColorBeatmapEventData);
 
-  /// @brief Method DisableStrobe, addr 0x3163ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DisableStrobe, addr 0x31937cc, size 0x8, virtual false, abstract: false, final false
   inline void DisableStrobe();
 
-  /// @brief Method GetCopy, addr 0x3163adc, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x31937d4, size 0xd0, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0x3163bac, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x31938a4, size 0x164, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::LightColorBeatmapEventData* New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousValue, ::GlobalNamespace::EaseType easeType,
                                                                         ::GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency, float_t strobeBrightness,
                                                                         bool strobeFade);
 
-  /// @brief Method SubtypeIdentifier, addr 0x3163a88, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SubtypeIdentifier, addr 0x3193780, size 0x14, virtual false, abstract: false, final false
   static inline int32_t SubtypeIdentifier(int32_t groupId, int32_t elementId);
 
   constexpr float_t const& __cordl_internal_get__brightness_k__BackingField() const;
@@ -162,72 +162,72 @@ public:
 
   constexpr void __cordl_internal_set__usePreviousValue_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3163994, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x319368c, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousValue, ::GlobalNamespace::EaseType easeType, ::GlobalNamespace::EnvironmentColorType colorType,
                     float_t brightness, int32_t strobeBeatFrequency, float_t strobeBrightness, bool strobeFade);
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightColorBeatmapEventData*>* getStaticF__defaults();
 
-  /// @brief Method get_brightness, addr 0x3163954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_brightness, addr 0x319364c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_brightness();
 
-  /// @brief Method get_colorType, addr 0x3163944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x319363c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentColorType get_colorType();
 
-  /// @brief Method get_easeType, addr 0x3163934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x319362c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
-  /// @brief Method get_elementId, addr 0x3163914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_elementId, addr 0x319360c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_elementId();
 
-  /// @brief Method get_groupId, addr 0x3163904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupId, addr 0x31935fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_groupId();
 
-  /// @brief Method get_nextSameTypeEventData, addr 0x3163888, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_nextSameTypeEventData, addr 0x3193580, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightColorBeatmapEventData* get_nextSameTypeEventData();
 
-  /// @brief Method get_previousSameTypeEventData, addr 0x316380c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_previousSameTypeEventData, addr 0x3193504, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightColorBeatmapEventData* get_previousSameTypeEventData();
 
-  /// @brief Method get_strobeBeatFrequency, addr 0x3163964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_strobeBeatFrequency, addr 0x319365c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_strobeBeatFrequency();
 
-  /// @brief Method get_strobeBrightness, addr 0x3163974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_strobeBrightness, addr 0x319366c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_strobeBrightness();
 
-  /// @brief Method get_strobeFade, addr 0x3163984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_strobeFade, addr 0x319367c, size 0x8, virtual false, abstract: false, final false
   inline bool get_strobeFade();
 
-  /// @brief Method get_usePreviousValue, addr 0x3163924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousValue, addr 0x319361c, size 0x8, virtual false, abstract: false, final false
   inline bool get_usePreviousValue();
 
   static inline void setStaticF__defaults(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightColorBeatmapEventData*>* value);
 
-  /// @brief Method set_brightness, addr 0x316395c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_brightness, addr 0x3193654, size 0x8, virtual false, abstract: false, final false
   inline void set_brightness(float_t value);
 
-  /// @brief Method set_colorType, addr 0x316394c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorType, addr 0x3193644, size 0x8, virtual false, abstract: false, final false
   inline void set_colorType(::GlobalNamespace::EnvironmentColorType value);
 
-  /// @brief Method set_easeType, addr 0x316393c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_easeType, addr 0x3193634, size 0x8, virtual false, abstract: false, final false
   inline void set_easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method set_elementId, addr 0x316391c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_elementId, addr 0x3193614, size 0x8, virtual false, abstract: false, final false
   inline void set_elementId(int32_t value);
 
-  /// @brief Method set_groupId, addr 0x316390c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_groupId, addr 0x3193604, size 0x8, virtual false, abstract: false, final false
   inline void set_groupId(int32_t value);
 
-  /// @brief Method set_strobeBeatFrequency, addr 0x316396c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_strobeBeatFrequency, addr 0x3193664, size 0x8, virtual false, abstract: false, final false
   inline void set_strobeBeatFrequency(int32_t value);
 
-  /// @brief Method set_strobeBrightness, addr 0x316397c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_strobeBrightness, addr 0x3193674, size 0x8, virtual false, abstract: false, final false
   inline void set_strobeBrightness(float_t value);
 
-  /// @brief Method set_strobeFade, addr 0x316398c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_strobeFade, addr 0x3193684, size 0x8, virtual false, abstract: false, final false
   inline void set_strobeFade(bool value);
 
-  /// @brief Method set_usePreviousValue, addr 0x316392c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_usePreviousValue, addr 0x3193624, size 0x8, virtual false, abstract: false, final false
   inline void set_usePreviousValue(bool value);
 
 protected:
@@ -245,7 +245,7 @@ public:
   LightColorBeatmapEventData(LightColorBeatmapEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21052 };
 
   /// @brief Field <groupId>k__BackingField, offset: 0x30, size: 0x4, def value: None
   int32_t ____groupId_k__BackingField;

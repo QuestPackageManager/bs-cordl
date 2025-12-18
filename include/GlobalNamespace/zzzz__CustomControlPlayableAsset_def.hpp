@@ -31,10 +31,10 @@ public:
 
   static inline ::GlobalNamespace::CustomControlPlayableAsset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5715720, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5773530, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x5715718, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x5773528, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
@@ -55,7 +55,7 @@ public:
   CustomControlPlayableAsset(CustomControlPlayableAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6773 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6768 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

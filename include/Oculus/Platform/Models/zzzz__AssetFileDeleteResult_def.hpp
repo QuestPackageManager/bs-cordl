@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_Success(bool value);
 
-  /// @brief Method .ctor, addr 0x5bd8ac0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c3f5a0, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -79,7 +79,7 @@ public:
   AssetFileDeleteResult(AssetFileDeleteResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17975 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17989 };
 
   /// @brief Field AssetFileId, offset: 0x10, size: 0x8, def value: None
   uint64_t ___AssetFileId;

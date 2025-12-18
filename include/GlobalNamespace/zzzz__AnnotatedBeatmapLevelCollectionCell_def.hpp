@@ -68,10 +68,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x57efca0, size 0x5e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5853670, size 0x5e0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x57f0280, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5853c50, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -96,7 +96,7 @@ public:
                                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6324 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6318 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -205,33 +205,33 @@ public:
 
   __declspec(property(get = get_cellIndex, put = set_cellIndex)) int32_t cellIndex;
 
-  /// @brief Method CancelAsyncOperations, addr 0x57efc4c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CancelAsyncOperations, addr 0x585361c, size 0x2c, virtual false, abstract: false, final false
   inline void CancelAsyncOperations();
 
-  /// @brief Method GetInfoText, addr 0x57ef8e0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetInfoText, addr 0x58532b0, size 0x114, virtual false, abstract: false, final false
   inline ::StringW GetInfoText(::StringW name, int32_t songs, int32_t purchased);
 
-  /// @brief Method HighlightDidChange, addr 0x57efb94, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x5853564, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method InternalToggle, addr 0x57efa40, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method InternalToggle, addr 0x5853410, size 0x54, virtual true, abstract: false, final false
   inline void InternalToggle();
 
   static inline ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell* New_ctor();
 
-  /// @brief Method RefreshAvailabilityAsync, addr 0x57efb98, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method RefreshAvailabilityAsync, addr 0x5853568, size 0xb4, virtual false, abstract: false, final false
   inline void RefreshAvailabilityAsync(::GlobalNamespace::IEntitlementModel* entitlementModel);
 
-  /// @brief Method RefreshVisuals, addr 0x57efa98, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x5853468, size 0xfc, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x57efa94, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x5853464, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method SetData, addr 0x57ef798, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x5853168, size 0x148, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, bool isPromoted, bool isUpdated, bool interactable);
 
-  /// @brief Method SetDownloadIconVisible, addr 0x57ef9f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetDownloadIconVisible, addr 0x58533c4, size 0x4c, virtual false, abstract: false, final false
   inline void SetDownloadIconVisible(bool visible);
 
   constexpr ::GlobalNamespace::BeatmapLevelPack* const& __cordl_internal_get__beatmapLevelPack() const;
@@ -318,13 +318,13 @@ public:
 
   constexpr void __cordl_internal_set__updatedBadgeObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x57efc78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5853648, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cellIndex, addr 0x57ef788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cellIndex, addr 0x5853158, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cellIndex();
 
-  /// @brief Method set_cellIndex, addr 0x57ef790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cellIndex, addr 0x5853160, size 0x8, virtual false, abstract: false, final false
   inline void set_cellIndex(int32_t value);
 
 protected:
@@ -342,7 +342,7 @@ public:
   AnnotatedBeatmapLevelCollectionCell(AnnotatedBeatmapLevelCollectionCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6319 };
 
   /// @brief Field _infoText, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____infoText;

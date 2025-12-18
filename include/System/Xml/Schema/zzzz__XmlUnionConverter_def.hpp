@@ -44,10 +44,10 @@ public:
   /// @brief Field hasListMember, offset 0x31, size 0x1
   __declspec(property(get = __cordl_internal_get_hasListMember, put = __cordl_internal_set_hasListMember)) bool hasListMember;
 
-  /// @brief Method ChangeType, addr 0x604551c, size 0x3c4, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x60ad0a8, size 0x3c4, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method Create, addr 0x60454c0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x60ad04c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::XmlUnionConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_hasListMember(bool value);
 
-  /// @brief Method .ctor, addr 0x6045270, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60acdfc, size 0x250, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
 protected:
@@ -88,7 +88,7 @@ public:
   XmlUnionConverter(XmlUnionConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9822 };
 
   /// @brief Field converters, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::System::Xml::Schema::XmlValueConverter*, ::Array<::System::Xml::Schema::XmlValueConverter*>*> ___converters;

@@ -98,22 +98,22 @@ public:
   /// @brief Field _signerInfoStore, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__signerInfoStore, put = __cordl_internal_set__signerInfoStore)) ::Org::BouncyCastle::Cms::SignerInformationStore* _signerInfoStore;
 
-  /// @brief Method GetAsn1Set, addr 0x3593dc0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetAsn1Set, addr 0x35be604, size 0xb4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Set* GetAsn1Set(::Org::BouncyCastle::Asn1::Asn1SetParser* asn1SetParser);
 
-  /// @brief Method GetAttributeCertificates, addr 0x3593c04, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeCertificates, addr 0x35be448, size 0x94, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetAttributeCertificates(::StringW type);
 
-  /// @brief Method GetCertificates, addr 0x3593c98, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetCertificates, addr 0x35be4dc, size 0x94, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCertificates(::StringW type);
 
-  /// @brief Method GetCrls, addr 0x3593d2c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetCrls, addr 0x35be570, size 0x94, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCrls(::StringW type);
 
-  /// @brief Method GetSignedContent, addr 0x3593e7c, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method GetSignedContent, addr 0x35be6c0, size 0x434, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetSignedContent();
 
-  /// @brief Method GetSignerInfos, addr 0x3593104, size 0x984, virtual false, abstract: false, final false
+  /// @brief Method GetSignerInfos, addr 0x35bd948, size 0x984, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::SignerInformationStore* GetSignerInfos();
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedDataParser* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock);
@@ -124,15 +124,15 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedDataParser* New_ctor(::Org::BouncyCastle::Cms::CmsTypedStream* signedContent, ::System::IO::Stream* sigData);
 
-  /// @brief Method PopulateCertCrlSets, addr 0x3593a88, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method PopulateCertCrlSets, addr 0x35be2cc, size 0x17c, virtual false, abstract: false, final false
   inline void PopulateCertCrlSets();
 
-  /// @brief Method ReplaceCertificatesAndCrls, addr 0x359454c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ReplaceCertificatesAndCrls, addr 0x35bed90, size 0x1bc, virtual false, abstract: false, final false
   static inline ::System::IO::Stream* ReplaceCertificatesAndCrls(::System::IO::Stream* original, ::Org::BouncyCastle::X509::Store::IX509Store* x509Certs,
                                                                  ::Org::BouncyCastle::X509::Store::IX509Store* x509Crls, ::Org::BouncyCastle::X509::Store::IX509Store* x509AttrCerts,
                                                                  ::System::IO::Stream* outStr);
 
-  /// @brief Method ReplaceSigners, addr 0x35942b0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ReplaceSigners, addr 0x35beaf4, size 0x1b8, virtual false, abstract: false, final false
   static inline ::System::IO::Stream* ReplaceSigners(::System::IO::Stream* original, ::Org::BouncyCastle::Cms::SignerInformationStore* signerInformationStore, ::System::IO::Stream* outStr);
 
   constexpr ::Org::BouncyCastle::X509::Store::IX509Store* const& __cordl_internal_get__attributeStore() const;
@@ -207,27 +207,27 @@ public:
 
   constexpr void __cordl_internal_set__signerInfoStore(::Org::BouncyCastle::Cms::SignerInformationStore* value);
 
-  /// @brief Method .ctor, addr 0x359275c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bcfa0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock);
 
-  /// @brief Method .ctor, addr 0x35927d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bd018, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* sigData);
 
-  /// @brief Method .ctor, addr 0x35927e0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bd024, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsTypedStream* signedContent, ::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock);
 
-  /// @brief Method .ctor, addr 0x359285c, size 0x79c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bd0a0, size 0x79c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsTypedStream* signedContent, ::System::IO::Stream* sigData);
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedHelper* getStaticF_Helper();
 
-  /// @brief Method get_DigestOids, addr 0x35930a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_DigestOids, addr 0x35bd8e4, size 0x64, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* get_DigestOids();
 
-  /// @brief Method get_SignedContentType, addr 0x3593e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignedContentType, addr 0x35be6b8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_SignedContentType();
 
-  /// @brief Method get_Version, addr 0x359307c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x35bd8c0, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsSignedHelper* value);

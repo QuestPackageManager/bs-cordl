@@ -60,7 +60,7 @@ public:
   static ::GlobalNamespace::ObstacleExecutionRating_Rating const OK;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15107 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -99,10 +99,10 @@ public:
 
   constexpr void __cordl_internal_set__rating_k__BackingField(::GlobalNamespace::ObstacleExecutionRating_Rating value);
 
-  /// @brief Method .ctor, addr 0x3616838, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3641788, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::ObstacleExecutionRating_Rating rating);
 
-  /// @brief Method get_rating, addr 0x3616830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rating, addr 0x3641780, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ObstacleExecutionRating_Rating get_rating();
 
 protected:
@@ -120,7 +120,7 @@ public:
   ObstacleExecutionRating(ObstacleExecutionRating const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15108 };
 
   /// @brief Field <rating>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::ObstacleExecutionRating_Rating ____rating_k__BackingField;

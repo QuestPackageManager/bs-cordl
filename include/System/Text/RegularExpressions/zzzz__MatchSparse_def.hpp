@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set__caps(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x61619fc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61c9588, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::Regex* regex, ::System::Collections::Hashtable* caps, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos);
 
-  /// @brief Method get_Groups, addr 0x6161ab0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_Groups, addr 0x61c963c, size 0x60, virtual true, abstract: false, final false
   inline ::System::Text::RegularExpressions::GroupCollection* get_Groups();
 
 protected:
@@ -64,7 +64,7 @@ public:
   MatchSparse(MatchSparse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11072 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11076 };
 
   /// @brief Field _caps, offset: 0x78, size: 0x8, def value: None
   ::System::Collections::Hashtable* ____caps;

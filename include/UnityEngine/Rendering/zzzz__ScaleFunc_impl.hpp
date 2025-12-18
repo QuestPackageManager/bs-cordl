@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ScaleFunc::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Rendering::ScaleFunc::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x658fc98;
+  constexpr static std::size_t addrs = 0x65f7824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2Int (::UnityEngine::Rendering::ScaleFunc::*)(::UnityEngine::Vector2Int)>(
     &::UnityEngine::Rendering::ScaleFunc::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x658fd04;
+  constexpr static std::size_t addrs = 0x65f7890;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::Rendering::ScaleFunc::*)(::UnityEngine::Vector2Int, ::System::AsyncCallback*, ::System::Object*)>(&::UnityEngine::Rendering::ScaleFunc::BeginInvoke)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x658fd18;
+  constexpr static std::size_t addrs = 0x65f78a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2Int (::UnityEngine::Rendering::ScaleFunc::*)(::System::IAsyncResult*)>(
     &::UnityEngine::Rendering::ScaleFunc::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x658fda0;
+  constexpr static std::size_t addrs = 0x65f792c;
 
   inline static ::MethodInfo const* methodInfo() {
 

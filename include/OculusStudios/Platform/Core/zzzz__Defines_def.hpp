@@ -37,7 +37,7 @@ public:
   static constexpr uint32_t TIMEOUT_WEBREQUEST_SECONDS{ static_cast<uint32_t>(0x14u) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22152 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22179 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

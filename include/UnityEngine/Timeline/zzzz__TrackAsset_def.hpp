@@ -198,7 +198,7 @@ public:
   static ::UnityEngine::Timeline::TrackAsset_Versions const RotationAsEuler;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19005 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -236,7 +236,7 @@ public:
   TrackAsset_TrackAssetUpgrade(TrackAsset_TrackAssetUpgrade const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19006 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -251,10 +251,10 @@ namespace UnityEngine::Timeline {
 struct CORDL_TYPE TrackAsset_TransientBuildData {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x679c8c8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6804440, size 0xf8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Create, addr 0x679ede0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6806958, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::TrackAsset_TransientBuildData Create();
 
   // Ctor Parameters []
@@ -269,7 +269,7 @@ public:
                                           ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* markerList) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19007 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -310,10 +310,10 @@ public:
 
   static inline ::UnityEngine::Timeline::TrackAsset___c* New_ctor();
 
-  /// @brief Method <SortClips>b__121_0, addr 0x679ef4c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <SortClips>b__121_0, addr 0x6806ac4, size 0x74, virtual false, abstract: false, final false
   inline int32_t _SortClips_b__121_0(::UnityEngine::Timeline::TimelineClip* clip1, ::UnityEngine::Timeline::TimelineClip* clip2);
 
-  /// @brief Method .ctor, addr 0x679ef48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6806ac0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Timeline::TrackAsset___c* getStaticF___9();
@@ -339,7 +339,7 @@ public:
   TrackAsset___c(TrackAsset___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19008 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -386,27 +386,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x679efc4, size 0x250, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6806b3c, size 0x250, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::Timeline::TrackAsset__get_outputs_d__65* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator, addr 0x679f2c0, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator, addr 0x6806e38, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>* System_Collections_Generic_IEnumerable_UnityEngine_Playables_PlayableBinding__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current, addr 0x679f214, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current, addr 0x6806d8c, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x679f358, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6806ed0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x679f224, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6806d9c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x679f25c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6806dd4, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x679efc0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6806b38, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -433,7 +433,7 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6799984, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68014fc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>"
@@ -468,7 +468,7 @@ public:
   TrackAsset__get_outputs_d__65(TrackAsset__get_outputs_d__65 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19009 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -644,228 +644,228 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::IPropertyPreview"
   constexpr operator ::UnityEngine::Timeline::IPropertyPreview*() noexcept;
 
-  /// @brief Method AddChild, addr 0x6798010, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AddChild, addr 0x67ffb88, size 0x104, virtual false, abstract: false, final false
   inline void AddChild(::UnityEngine::Timeline::TrackAsset* child);
 
-  /// @brief Method AddClip, addr 0x6793560, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method AddClip, addr 0x67fb0d8, size 0xe0, virtual false, abstract: false, final false
   inline void AddClip(::UnityEngine::Timeline::TimelineClip* newClip);
 
-  /// @brief Method AddMarker, addr 0x679b7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddMarker, addr 0x6803354, size 0x8, virtual false, abstract: false, final false
   inline void AddMarker(::UnityEngine::ScriptableObject* e);
 
-  /// @brief Method CalculateItemsHash, addr 0x678f5ac, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method CalculateItemsHash, addr 0x67f7124, size 0xa8, virtual true, abstract: false, final false
   inline int32_t CalculateItemsHash();
 
-  /// @brief Method CanCompileClips, addr 0x678c50c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CanCompileClips, addr 0x67f4084, size 0x64, virtual true, abstract: false, final false
   inline bool CanCompileClips();
 
-  /// @brief Method CanCompileNotifications, addr 0x679d300, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method CanCompileNotifications, addr 0x6804e78, size 0x34, virtual false, abstract: false, final false
   inline bool CanCompileNotifications();
 
-  /// @brief Method CanCreateMixerRecursive, addr 0x679c5d4, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method CanCreateMixerRecursive, addr 0x680414c, size 0x2f4, virtual false, abstract: false, final false
   inline bool CanCreateMixerRecursive();
 
-  /// @brief Method CanCreateTrackMixer, addr 0x679e818, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method CanCreateTrackMixer, addr 0x6806390, size 0x10, virtual true, abstract: false, final false
   inline bool CanCreateTrackMixer();
 
-  /// @brief Method ClearClipsInternal, addr 0x679da60, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ClearClipsInternal, addr 0x68055d8, size 0x78, virtual false, abstract: false, final false
   inline void ClearClipsInternal();
 
-  /// @brief Method ClearMarkers, addr 0x679b75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearMarkers, addr 0x68032d4, size 0x8, virtual false, abstract: false, final false
   inline void ClearMarkers();
 
-  /// @brief Method ClearSubTracksInternal, addr 0x679dad8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ClearSubTracksInternal, addr 0x6805650, size 0x78, virtual false, abstract: false, final false
   inline void ClearSubTracksInternal();
 
-  /// @brief Method CompileClips, addr 0x679c9c0, size 0x434, virtual true, abstract: false, final false
+  /// @brief Method CompileClips, addr 0x6804538, size 0x434, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CompileClips(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go,
                                                          ::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TimelineClip*>* timelineClips,
                                                          ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>* tree);
 
-  /// @brief Method ConfigureTrackAnimation, addr 0x679cdf4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ConfigureTrackAnimation, addr 0x680496c, size 0x15c, virtual false, abstract: false, final false
   inline void ConfigureTrackAnimation(::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>* tree, ::UnityEngine::GameObject* go, ::UnityEngine::Playables::Playable blend);
 
-  /// @brief Method CreateAndAddNewClipOfType, addr 0x679a3d0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method CreateAndAddNewClipOfType, addr 0x6801f48, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimelineClip* CreateAndAddNewClipOfType(::System::Type* requestedType);
 
   /// @brief Method CreateClip, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::UnityEngine::Timeline::TimelineClip* CreateClip();
 
-  /// @brief Method CreateClip, addr 0x679aafc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CreateClip, addr 0x6802674, size 0x110, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimelineClip* CreateClip(::System::Type* requestedType);
 
-  /// @brief Method CreateClipFromAsset, addr 0x679b054, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method CreateClipFromAsset, addr 0x6802bcc, size 0x280, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimelineClip* CreateClipFromAsset(::UnityEngine::ScriptableObject* playableAsset);
 
-  /// @brief Method CreateClipFromPlayableAsset, addr 0x679b2d4, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method CreateClipFromPlayableAsset, addr 0x6802e4c, size 0x260, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimelineClip* CreateClipFromPlayableAsset(::UnityEngine::Playables::IPlayableAsset* asset);
 
-  /// @brief Method CreateClipOfType, addr 0x679ae84, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method CreateClipOfType, addr 0x68029fc, size 0x1d0, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimelineClip* CreateClipOfType(::System::Type* requestedType);
 
-  /// @brief Method CreateCurves, addr 0x6799f88, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method CreateCurves, addr 0x6801b00, size 0xb8, virtual true, abstract: false, final true
   inline void CreateCurves(::StringW curvesClipName);
 
-  /// @brief Method CreateDefaultClip, addr 0x679a108, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultClip, addr 0x6801c80, size 0x2c8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimelineClip* CreateDefaultClip();
 
-  /// @brief Method CreateMarker, addr 0x679a524, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateMarker, addr 0x680209c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::IMarker* CreateMarker(::System::Type* type, double_t time);
 
   /// @brief Method CreateMarker, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T CreateMarker(double_t time);
 
-  /// @brief Method CreateMixerPlayableGraph, addr 0x679d334, size 0x5fc, virtual true, abstract: false, final false
+  /// @brief Method CreateMixerPlayableGraph, addr 0x6804eac, size 0x5fc, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreateMixerPlayableGraph(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go,
                                                                      ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>* tree);
 
-  /// @brief Method CreateNewClipContainerInternal, addr 0x679b534, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method CreateNewClipContainerInternal, addr 0x68030ac, size 0x220, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimelineClip* CreateNewClipContainerInternal();
 
-  /// @brief Method CreateNotificationsPlayable, addr 0x679bc74, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method CreateNotificationsPlayable, addr 0x68037ec, size 0x320, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreateNotificationsPlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable mixerPlayable, ::UnityEngine::GameObject* go,
                                                                         ::UnityEngine::Playables::Playable timelinePlayable);
 
-  /// @brief Method CreatePlayable, addr 0x679e548, size 0x2d0, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x68060c0, size 0x2d0, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* gameObject, ::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method CreatePlayable, addr 0x679a0b4, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method CreatePlayable, addr 0x6801c2c, size 0x54, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
-  /// @brief Method CreatePlayableGraph, addr 0x679c300, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method CreatePlayableGraph, addr 0x6803e78, size 0x2d4, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayableGraph(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go,
                                                                 ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>* tree,
                                                                 ::UnityEngine::Playables::Playable timelinePlayable);
 
-  /// @brief Method CreateTrackMixer, addr 0x679a040, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method CreateTrackMixer, addr 0x6801bb8, size 0x74, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, int32_t inputCount);
 
-  /// @brief Method DeleteClip, addr 0x679a400, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method DeleteClip, addr 0x6801f78, size 0x124, virtual false, abstract: false, final false
   inline bool DeleteClip(::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method DeleteMarker, addr 0x679a828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DeleteMarker, addr 0x68023a0, size 0x8, virtual false, abstract: false, final false
   inline bool DeleteMarker(::UnityEngine::Timeline::IMarker* marker);
 
-  /// @brief Method DeleteMarkerRaw, addr 0x679b8d4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method DeleteMarkerRaw, addr 0x680344c, size 0x30, virtual false, abstract: false, final false
   inline bool DeleteMarkerRaw(::UnityEngine::ScriptableObject* marker);
 
-  /// @brief Method GatherCompilableTracks, addr 0x679cf50, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method GatherCompilableTracks, addr 0x6804ac8, size 0x3b0, virtual false, abstract: false, final false
   inline void GatherCompilableTracks(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks);
 
-  /// @brief Method GatherNotifications, addr 0x679bf94, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method GatherNotifications, addr 0x6803b0c, size 0x36c, virtual false, abstract: false, final false
   inline void GatherNotifications(::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* markers);
 
-  /// @brief Method GatherProperties, addr 0x679dd78, size 0x6ac, virtual true, abstract: false, final false
+  /// @brief Method GatherProperties, addr 0x68058f0, size 0x6ac, virtual true, abstract: false, final false
   inline void GatherProperties(::UnityEngine::Playables::PlayableDirector* director, ::UnityEngine::Timeline::IPropertyCollector* driver);
 
-  /// @brief Method GetAnimationClipHash, addr 0x678f4ac, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetAnimationClipHash, addr 0x67f7024, size 0x100, virtual false, abstract: false, final false
   static inline int32_t GetAnimationClipHash(::UnityEngine::AnimationClip* clip);
 
-  /// @brief Method GetChildTracks, addr 0x6790e4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetChildTracks, addr 0x67f89c4, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* GetChildTracks();
 
-  /// @brief Method GetClips, addr 0x67925d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetClips, addr 0x67fa150, size 0x4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TimelineClip*>* GetClips();
 
-  /// @brief Method GetClipsHash, addr 0x679e424, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetClipsHash, addr 0x6805f9c, size 0x124, virtual false, abstract: false, final false
   inline int32_t GetClipsHash();
 
-  /// @brief Method GetEvaluationTime, addr 0x67919e0, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method GetEvaluationTime, addr 0x67f9558, size 0x228, virtual true, abstract: false, final false
   inline void GetEvaluationTime(::ByRef<double_t> outStart, ::ByRef<double_t> outDuration);
 
-  /// @brief Method GetGameObjectBinding, addr 0x678c7c0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetGameObjectBinding, addr 0x67f4338, size 0x184, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> GetGameObjectBinding(::UnityEngine::Playables::PlayableDirector* director);
 
-  /// @brief Method GetMarker, addr 0x679aa88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMarker, addr 0x6802600, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::IMarker* GetMarker(int32_t idx);
 
-  /// @brief Method GetMarkerCount, addr 0x679990c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMarkerCount, addr 0x6801484, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetMarkerCount();
 
-  /// @brief Method GetMarkers, addr 0x67991c8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetMarkers, addr 0x6800d40, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>* GetMarkers();
 
-  /// @brief Method GetMarkersRaw, addr 0x679b754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMarkersRaw, addr 0x68032cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ScriptableObject>>* GetMarkersRaw();
 
-  /// @brief Method GetNotificationDuration, addr 0x6791d24, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetNotificationDuration, addr 0x67f989c, size 0x178, virtual false, abstract: false, final false
   inline double_t GetNotificationDuration();
 
-  /// @brief Method GetSequenceTime, addr 0x6791d14, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetSequenceTime, addr 0x67f988c, size 0x10, virtual true, abstract: false, final false
   inline void GetSequenceTime(::ByRef<double_t> outStart, ::ByRef<double_t> outDuration);
 
-  /// @brief Method GetTimeRangeHash, addr 0x679b9d0, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method GetTimeRangeHash, addr 0x6803548, size 0x2a4, virtual false, abstract: false, final false
   inline int32_t GetTimeRangeHash();
 
-  /// @brief Method HasNotifications, addr 0x679dd5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HasNotifications, addr 0x68058d4, size 0x1c, virtual false, abstract: false, final false
   inline bool HasNotifications();
 
-  /// @brief Method Hash, addr 0x679eba8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Hash, addr 0x6806720, size 0x38, virtual true, abstract: false, final false
   inline int32_t Hash();
 
-  /// @brief Method Invalidate, addr 0x6799138, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Invalidate, addr 0x6800cb0, size 0x8c, virtual false, abstract: false, final false
   inline void Invalidate();
 
-  /// @brief Method IsCompilable, addr 0x679e828, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method IsCompilable, addr 0x68063a0, size 0x380, virtual false, abstract: false, final false
   inline bool IsCompilable();
 
-  /// @brief Method MoveLastTrackBefore, addr 0x679db50, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method MoveLastTrackBefore, addr 0x68056c8, size 0x20c, virtual false, abstract: false, final false
   inline void MoveLastTrackBefore(::UnityEngine::Timeline::TrackAsset* asset);
 
   static inline ::UnityEngine::Timeline::TrackAsset* New_ctor();
 
-  /// @brief Method OnAfterTrackDeserialize, addr 0x6798c38, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnAfterTrackDeserialize, addr 0x68007b0, size 0x4, virtual true, abstract: false, final false
   inline void OnAfterTrackDeserialize();
 
-  /// @brief Method OnBeforeTrackSerialize, addr 0x6798c34, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBeforeTrackSerialize, addr 0x68007ac, size 0x4, virtual true, abstract: false, final false
   inline void OnBeforeTrackSerialize();
 
-  /// @brief Method OnClipMove, addr 0x67931b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnClipMove, addr 0x67fad28, size 0x8, virtual false, abstract: false, final false
   inline void OnClipMove();
 
-  /// @brief Method OnCreateClip, addr 0x678c998, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnCreateClip, addr 0x67f4510, size 0x4, virtual true, abstract: false, final false
   inline void OnCreateClip(::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method OnUpgradeFromVersion, addr 0x6798c3c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnUpgradeFromVersion, addr 0x68007b4, size 0x4, virtual true, abstract: false, final false
   inline void OnUpgradeFromVersion(int32_t oldVersion);
 
-  /// @brief Method RemoveClip, addr 0x67934f4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method RemoveClip, addr 0x67fb06c, size 0x6c, virtual false, abstract: false, final false
   inline void RemoveClip(::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method RemoveSubTrack, addr 0x6796208, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RemoveSubTrack, addr 0x67fdd80, size 0x84, virtual false, abstract: false, final false
   inline bool RemoveSubTrack(::UnityEngine::Timeline::TrackAsset* child);
 
-  /// @brief Method SortClips, addr 0x679d930, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SortClips, addr 0x68054a8, size 0x130, virtual false, abstract: false, final false
   inline void SortClips();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6798db4, size 0x384, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x680092c, size 0x384, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6798c40, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x68007b8, size 0x174, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-  /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_asset, addr 0x6799c2c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_asset, addr 0x68017a4, size 0x4, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Object> UnityEngine_Timeline_ICurvesOwner_get_asset();
 
-  /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_assetOwner, addr 0x6799c30, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_assetOwner, addr 0x68017a8, size 0x4, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Object> UnityEngine_Timeline_ICurvesOwner_get_assetOwner();
 
-  /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName, addr 0x6799be8, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName, addr 0x6801760, size 0x44, virtual true, abstract: false, final true
   inline ::StringW UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
 
-  /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_targetTrack, addr 0x6799c34, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_targetTrack, addr 0x68017ac, size 0x4, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Timeline::TrackAsset> UnityEngine_Timeline_ICurvesOwner_get_targetTrack();
 
-  /// @brief Method UpdateChildTrackCache, addr 0x67999a4, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method UpdateChildTrackCache, addr 0x680151c, size 0x224, virtual false, abstract: false, final false
   inline void UpdateChildTrackCache();
 
-  /// @brief Method UpdateDuration, addr 0x6799668, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method UpdateDuration, addr 0x68011e0, size 0x114, virtual false, abstract: false, final false
   inline void UpdateDuration();
 
-  /// @brief Method UpgradeToLatestVersion, addr 0x67991c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UpgradeToLatestVersion, addr 0x6800d3c, size 0x4, virtual false, abstract: false, final false
   inline void UpgradeToLatestVersion();
 
-  /// @brief Method ValidateClipType, addr 0x679ac0c, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method ValidateClipType, addr 0x6802784, size 0x278, virtual false, abstract: false, final false
   inline bool ValidateClipType(::System::Type* clipType);
 
   constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get_m_AnimClip() const;
@@ -970,16 +970,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method __internalAwake, addr 0x6799eb8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method __internalAwake, addr 0x6801a30, size 0xd0, virtual false, abstract: false, final false
   inline void __internalAwake();
 
-  /// @brief Method .ctor, addr 0x678c9fc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67f4574, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_OnClipPlayableCreate, addr 0x67991e4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method add_OnClipPlayableCreate, addr 0x6800d5c, size 0x108, virtual false, abstract: false, final false
   static inline void add_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
-  /// @brief Method add_OnTrackAnimationPlayableCreate, addr 0x67993f4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method add_OnTrackAnimationPlayableCreate, addr 0x6800f6c, size 0x108, virtual false, abstract: false, final false
   static inline void
   add_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
@@ -993,61 +993,61 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::Timeline::TrackBindingTypeAttribute*>* getStaticF_s_TrackBindingTypeAttributeCache();
 
-  /// @brief Method get_clips, addr 0x678e94c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_clips, addr 0x67f64c4, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*> get_clips();
 
-  /// @brief Method get_curves, addr 0x6799bd8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_curves, addr 0x6801750, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::AnimationClip> get_curves();
 
-  /// @brief Method get_customPlayableTypename, addr 0x6799bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customPlayableTypename, addr 0x6801740, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_customPlayableTypename();
 
-  /// @brief Method get_duration, addr 0x679977c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method get_duration, addr 0x68012f4, size 0x64, virtual true, abstract: false, final true
   inline double_t get_duration();
 
-  /// @brief Method get_end, addr 0x6796d00, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_end, addr 0x67fe878, size 0x64, virtual false, abstract: false, final false
   inline double_t get_end();
 
-  /// @brief Method get_hasClips, addr 0x678c4b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_hasClips, addr 0x67f4028, size 0x5c, virtual false, abstract: false, final false
   inline bool get_hasClips();
 
-  /// @brief Method get_hasCurves, addr 0x679987c, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method get_hasCurves, addr 0x68013f4, size 0x90, virtual true, abstract: false, final true
   inline bool get_hasCurves();
 
-  /// @brief Method get_isEmpty, addr 0x6799808, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x6801380, size 0x74, virtual true, abstract: false, final false
   inline bool get_isEmpty();
 
-  /// @brief Method get_isSubTrack, addr 0x678f2b4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_isSubTrack, addr 0x67f6e2c, size 0x10c, virtual false, abstract: false, final false
   inline bool get_isSubTrack();
 
-  /// @brief Method get_locked, addr 0x6799c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_locked, addr 0x68017b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_locked();
 
-  /// @brief Method get_lockedInHierarchy, addr 0x6799c50, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method get_lockedInHierarchy, addr 0x68017c8, size 0x1c0, virtual false, abstract: false, final false
   inline bool get_lockedInHierarchy();
 
-  /// @brief Method get_muted, addr 0x67997e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_muted, addr 0x6801360, size 0x8, virtual false, abstract: false, final false
   inline bool get_muted();
 
-  /// @brief Method get_mutedInHierarchy, addr 0x6796908, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method get_mutedInHierarchy, addr 0x67fe480, size 0x1c0, virtual false, abstract: false, final false
   inline bool get_mutedInHierarchy();
 
-  /// @brief Method get_outputs, addr 0x6799914, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x680148c, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
-  /// @brief Method get_parent, addr 0x67997f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parent, addr 0x6801370, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Playables::PlayableAsset> get_parent();
 
-  /// @brief Method get_start, addr 0x6799604, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_start, addr 0x680117c, size 0x64, virtual false, abstract: false, final false
   inline double_t get_start();
 
-  /// @brief Method get_subTracksObjects, addr 0x6799c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subTracksObjects, addr 0x68017b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* get_subTracksObjects();
 
-  /// @brief Method get_supportsNotifications, addr 0x6799e10, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsNotifications, addr 0x6801988, size 0xa8, virtual false, abstract: false, final false
   inline bool get_supportsNotifications();
 
-  /// @brief Method get_timelineAsset, addr 0x67970b8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method get_timelineAsset, addr 0x67fec30, size 0x170, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Timeline::TimelineAsset> get_timelineAsset();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -1059,10 +1059,10 @@ public:
   /// @brief Convert to "::UnityEngine::Timeline::IPropertyPreview"
   constexpr ::UnityEngine::Timeline::IPropertyPreview* i___UnityEngine__Timeline__IPropertyPreview() noexcept;
 
-  /// @brief Method remove_OnClipPlayableCreate, addr 0x67992ec, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method remove_OnClipPlayableCreate, addr 0x6800e64, size 0x108, virtual false, abstract: false, final false
   static inline void remove_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
-  /// @brief Method remove_OnTrackAnimationPlayableCreate, addr 0x67994fc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method remove_OnTrackAnimationPlayableCreate, addr 0x6801074, size 0x108, virtual false, abstract: false, final false
   static inline void
   remove_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
@@ -1077,19 +1077,19 @@ public:
 
   static inline void setStaticF_s_TrackBindingTypeAttributeCache(::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::Timeline::TrackBindingTypeAttribute*>* value);
 
-  /// @brief Method set_curves, addr 0x6799be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_curves, addr 0x6801758, size 0x8, virtual false, abstract: false, final false
   inline void set_curves(::UnityEngine::AnimationClip* value);
 
-  /// @brief Method set_customPlayableTypename, addr 0x6799bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_customPlayableTypename, addr 0x6801748, size 0x8, virtual false, abstract: false, final false
   inline void set_customPlayableTypename(::StringW value);
 
-  /// @brief Method set_locked, addr 0x6799c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_locked, addr 0x68017c0, size 0x8, virtual false, abstract: false, final false
   inline void set_locked(bool value);
 
-  /// @brief Method set_muted, addr 0x67997f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_muted, addr 0x6801368, size 0x8, virtual false, abstract: false, final false
   inline void set_muted(bool value);
 
-  /// @brief Method set_parent, addr 0x6799800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parent, addr 0x6801378, size 0x8, virtual false, abstract: false, final false
   inline void set_parent(::UnityEngine::Playables::PlayableAsset* value);
 
 protected:
@@ -1107,7 +1107,7 @@ public:
   TrackAsset(TrackAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18823 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19010 };
 
   /// @brief Field kDefaultCurvesName offset 0xffffffff size 0x8
   static constexpr ::ConstString kDefaultCurvesName{ u"Track Parameters" };

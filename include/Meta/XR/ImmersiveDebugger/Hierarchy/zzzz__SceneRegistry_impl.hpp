@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::BuildHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58548e4;
+  constexpr static std::size_t addrs = 0x58bb048;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::*)(
     ::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::Scene)>(&::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::CompareChildren)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58548f0;
+  constexpr static std::size_t addrs = 0x58bb054;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::Unregister)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58548fc;
+  constexpr static std::size_t addrs = 0x58bb060;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::*)(::Meta::XR::ImmersiveDebugger::Hierarchy::Item*)>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::Register)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5854900;
+  constexpr static std::size_t addrs = 0x58bb064;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::get_Label)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5854904;
+  constexpr static std::size_t addrs = 0x58bb068;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::get_Valid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585490c;
+  constexpr static std::size_t addrs = 0x58bb070;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::SceneManagement::Scene, ::Array<::UnityEngine::SceneManagement::Scene>*> (
     ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::*)()>(&::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::FetchExpectedChildren)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5854914;
+  constexpr static std::size_t addrs = 0x58bb078;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5854a3c;
+  constexpr static std::size_t addrs = 0x58bb1a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry*>::get(),

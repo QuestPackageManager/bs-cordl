@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Layout::LayoutComputedData (*)()>(
     &::UnityEngine::UIElements::Layout::LayoutComputedData::get_Default)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6acadec;
+  constexpr static std::size_t addrs = 0x6b33c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutComputedData>::get(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t* (::UnityEngine::UIElements::Layout::LayoutComputedData::*)()>(
     &::UnityEngine::UIElements::Layout::LayoutComputedData::get_MarginBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ace660;
+  constexpr static std::size_t addrs = 0x6b374e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutComputedData>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t* (::UnityEngine::UIElements::Layout::LayoutComputedData::*)()>(
     &::UnityEngine::UIElements::Layout::LayoutComputedData::get_BorderBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ace668;
+  constexpr static std::size_t addrs = 0x6b374ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutComputedData>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t* (::UnityEngine::UIElements::Layout::LayoutComputedData::*)()>(
     &::UnityEngine::UIElements::Layout::LayoutComputedData::get_PaddingBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ace670;
+  constexpr static std::size_t addrs = 0x6b374f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutComputedData>::get(),

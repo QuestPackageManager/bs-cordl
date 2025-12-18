@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction::*)(::System::Object*, ::System::IntPtr)>(
     &::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x628987c;
+  constexpr static std::size_t addrs = 0x62f1408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction*>::get(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction::*)()>(
     &::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x62898e4;
+  constexpr static std::size_t addrs = 0x62f1470;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction::*)(::System::AsyncCallback*, ::System::Object*)>(&::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction::BeginInvoke)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x62898f8;
+  constexpr static std::size_t addrs = 0x62f1484;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction::*)(::System::IAsyncResult*)>(
     &::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6289914;
+  constexpr static std::size_t addrs = 0x62f14a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Jobs::EarlyInitHelpers::FlushEarlyInits)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x62894f4;
+  constexpr static std::size_t addrs = 0x62f1080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::EarlyInitHelpers*>::get(), "FlushEarlyInits",
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Unity::Jobs::EarlyInitHelpers_EarlyInitFunction*)>(
     &::Unity::Jobs::EarlyInitHelpers::AddEarlyInitFunction)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x62896a4;
+  constexpr static std::size_t addrs = 0x62f1230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*)>(&::Unity::Jobs::EarlyInitHelpers::JobReflectionDataCreationFailed)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x62897f8;
+  constexpr static std::size_t addrs = 0x62f1384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Jobs::EarlyInitHelpers::*)()>(&::Unity::Jobs::EarlyInitHelpers::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6289878;
+  constexpr static std::size_t addrs = 0x62f1404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::EarlyInitHelpers*>::get(), ".ctor",

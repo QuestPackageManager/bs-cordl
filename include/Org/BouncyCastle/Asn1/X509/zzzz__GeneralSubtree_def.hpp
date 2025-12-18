@@ -54,10 +54,10 @@ public:
   /// @brief Field minimum, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_minimum, put = __cordl_internal_set_minimum)) ::Org::BouncyCastle::Asn1::DerInteger* minimum;
 
-  /// @brief Method GetInstance, addr 0x3538550, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3562d94, size 0x80, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralSubtree* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* o, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x35385d0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3562e14, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralSubtree* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralSubtree* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* baseName);
@@ -67,7 +67,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralSubtree* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3538704, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3562f48, size 0x18c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName* const& __cordl_internal_get_baseName() const;
@@ -88,22 +88,22 @@ public:
 
   constexpr void __cordl_internal_set_minimum(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x3538500, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3562d44, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* baseName);
 
-  /// @brief Method .ctor, addr 0x353844c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3562c90, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* baseName, ::Org::BouncyCastle::Math::BigInteger* minimum, ::Org::BouncyCastle::Math::BigInteger* maximum);
 
-  /// @brief Method .ctor, addr 0x3538218, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3562a5c, size 0x234, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Base, addr 0x3538670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Base, addr 0x3562eb4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Base();
 
-  /// @brief Method get_Maximum, addr 0x35386f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Maximum, addr 0x3562f34, size 0x14, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Maximum();
 
-  /// @brief Method get_Minimum, addr 0x3538678, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Minimum, addr 0x3562ebc, size 0x78, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Minimum();
 
 protected:

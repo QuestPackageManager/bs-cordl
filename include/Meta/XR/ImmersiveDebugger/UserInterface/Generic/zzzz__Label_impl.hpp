@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Text> (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label::get_Text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58469bc;
+  constexpr static std::size_t addrs = 0x58ad120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label::*)(::UnityEngine::UI::Text*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label::set_Text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58469c4;
+  constexpr static std::size_t addrs = 0x58ad128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label::get_Content)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58442b4;
+  constexpr static std::size_t addrs = 0x58aaa18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label::*)(::StringW)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label::set_Content)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5844300;
+  constexpr static std::size_t addrs = 0x58aaa64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label::Setup)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x58469cc;
+  constexpr static std::size_t addrs = 0x58ad130;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextStyle> (
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label::get_TextStyle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5846ab4;
+  constexpr static std::size_t addrs = 0x58ad218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextStyle*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label::set_TextStyle)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x58441f0;
+  constexpr static std::size_t addrs = 0x58aa954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5846abc;
+  constexpr static std::size_t addrs = 0x58ad220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

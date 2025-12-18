@@ -20,12 +20,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE IntParameter : public ::UnityEngine::Rendering::VolumeParameter_1<int32_t> {
 public:
   // Declarations
-  /// @brief Method Interp, addr 0x65adbdc, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Interp, addr 0x6615768, size 0x34, virtual true, abstract: false, final true
   inline void Interp(int32_t from, int32_t to, float_t t);
 
   static inline ::UnityEngine::Rendering::IntParameter* New_ctor(int32_t value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x65adb78, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6615704, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t value, bool overrideState);
 
 protected:
@@ -43,7 +43,7 @@ public:
   IntParameter(IntParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12312 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

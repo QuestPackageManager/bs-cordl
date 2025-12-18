@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::BinHexEncoding::*)(int32_t)>(&::System::Text::BinHexEncoding::GetMaxByteCount)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5f160bc;
+  constexpr static std::size_t addrs = 0x5f7dc48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::BinHexEncoding::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Text::BinHexEncoding::GetByteCount)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f161d4;
+  constexpr static std::size_t addrs = 0x5f7dd60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::BinHexEncoding::*)(
     ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::System::Text::BinHexEncoding::GetBytes)> {
   constexpr static std::size_t size = 0x550;
-  constexpr static std::size_t addrs = 0x5f161e8;
+  constexpr static std::size_t addrs = 0x5f7dd74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::BinHexEncoding::*)(int32_t)>(&::System::Text::BinHexEncoding::GetMaxCharCount)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5f16738;
+  constexpr static std::size_t addrs = 0x5f7e2c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::BinHexEncoding::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Text::BinHexEncoding::GetCharCount)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f16844;
+  constexpr static std::size_t addrs = 0x5f7e3d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::BinHexEncoding::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t)>(&::System::Text::BinHexEncoding::GetChars)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x5f16858;
+  constexpr static std::size_t addrs = 0x5f7e3e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::BinHexEncoding::*)()>(&::System::Text::BinHexEncoding::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f16cb0;
+  constexpr static std::size_t addrs = 0x5f7e83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::BinHexEncoding*>::get(), ".ctor",

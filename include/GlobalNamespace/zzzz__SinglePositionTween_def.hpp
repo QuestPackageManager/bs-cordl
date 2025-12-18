@@ -52,7 +52,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x5716a78, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x5774888, size 0x1f8, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::SinglePositionTween* New_ctor();
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set_transformReference(::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>> value);
 
-  /// @brief Method .ctor, addr 0x5716c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5774a80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x5716a70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x5774880, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
@@ -93,7 +93,7 @@ public:
   SinglePositionTween(SinglePositionTween const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6782 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6777 };
 
   /// @brief Field transformReference, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>> ___transformReference;

@@ -73,7 +73,7 @@ public:
                                             float_t cosHalfAngle, float_t coneHeight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12950 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12954 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x94 };
@@ -127,7 +127,7 @@ public:
                                             float_t cosHalfAngle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12955 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
@@ -179,82 +179,82 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobFor"
   constexpr operator ::Unity::Jobs::IJobFor*();
 
-  /// @brief Method EvaluateNearConic, addr 0x66a5f38, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method EvaluateNearConic, addr 0x670dac4, size 0x1e0, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 EvaluateNearConic(float_t near, ::Unity::Mathematics::float3 o, ::Unity::Mathematics::float3 d, float_t r, ::Unity::Mathematics::float3 u,
                                                                ::Unity::Mathematics::float3 v, float_t theta);
 
-  /// @brief Method Execute, addr 0x66a2318, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6709ea4, size 0x118, virtual true, abstract: false, final true
   inline void Execute(int32_t jobIndex);
 
-  /// @brief Method ExpandOrthographic, addr 0x66a72cc, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ExpandOrthographic, addr 0x670ee58, size 0x11c, virtual false, abstract: false, final false
   inline void ExpandOrthographic(::Unity::Mathematics::float3 positionVS);
 
-  /// @brief Method ExpandRangeOrthographic, addr 0x66a74d8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ExpandRangeOrthographic, addr 0x670f064, size 0xdc, virtual false, abstract: false, final false
   inline void ExpandRangeOrthographic(::ByRef<::UnityEngine::Rendering::Universal::InclusiveRange> range, float_t xVS);
 
-  /// @brief Method ExpandY, addr 0x66a5404, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ExpandY, addr 0x670cf90, size 0x11c, virtual false, abstract: false, final false
   inline void ExpandY(::Unity::Mathematics::float3 positionVS);
 
-  /// @brief Method FindNearConicTangentTheta, addr 0x66a5cb0, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method FindNearConicTangentTheta, addr 0x670d83c, size 0x288, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float2 FindNearConicTangentTheta(::Unity::Mathematics::float2 o, ::Unity::Mathematics::float2 d, float_t r, ::Unity::Mathematics::float2 u,
                                                                        ::Unity::Mathematics::float2 v);
 
-  /// @brief Method FindNearConicYTheta, addr 0x66a6a44, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method FindNearConicYTheta, addr 0x670e5d0, size 0x478, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float2 FindNearConicYTheta(float_t near, ::Unity::Mathematics::float3 o, ::Unity::Mathematics::float3 d, float_t r, ::Unity::Mathematics::float3 u,
                                                                  ::Unity::Mathematics::float3 v, float_t y);
 
-  /// @brief Method GetCircleClipPoints, addr 0x66a5a9c, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method GetCircleClipPoints, addr 0x670d628, size 0x214, virtual false, abstract: false, final false
   static inline bool GetCircleClipPoints(::Unity::Mathematics::float3 circleCenter, ::Unity::Mathematics::float3 circleNormal, float_t circleRadius, float_t near,
                                          ::ByRef<::Unity::Mathematics::float3> p0, ::ByRef<::Unity::Mathematics::float3> p1);
 
-  /// @brief Method GetConeSideTangentPoints, addr 0x66a6238, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method GetConeSideTangentPoints, addr 0x670ddc4, size 0x4e4, virtual false, abstract: false, final false
   static inline void GetConeSideTangentPoints(::Unity::Mathematics::float3 vertex, ::Unity::Mathematics::float3 axis, float_t cosHalfAngle, float_t circleRadius, float_t coneHeight, float_t range,
                                               ::Unity::Mathematics::float3 circleU, ::Unity::Mathematics::float3 circleV, ::ByRef<::Unity::Mathematics::float3> l1,
                                               ::ByRef<::Unity::Mathematics::float3> l2);
 
-  /// @brief Method GetProjectedCircleHorizon, addr 0x66a588c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method GetProjectedCircleHorizon, addr 0x670d418, size 0x210, virtual false, abstract: false, final false
   static inline void GetProjectedCircleHorizon(::Unity::Mathematics::float2 center, float_t radius, ::Unity::Mathematics::float2 U, ::Unity::Mathematics::float2 V,
                                                ::ByRef<::Unity::Mathematics::float2> uv1, ::ByRef<::Unity::Mathematics::float2> uv2);
 
-  /// @brief Method GetSphereHorizon, addr 0x66a5528, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method GetSphereHorizon, addr 0x670d0b4, size 0x274, virtual false, abstract: false, final false
   static inline void GetSphereHorizon(::Unity::Mathematics::float2 center, float_t radius, float_t near, float_t clipRadius, ::ByRef<::Unity::Mathematics::float2> p0,
                                       ::ByRef<::Unity::Mathematics::float2> p1);
 
-  /// @brief Method GetSphereYPlaneHorizon, addr 0x66a6ebc, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method GetSphereYPlaneHorizon, addr 0x670ea48, size 0x410, virtual false, abstract: false, final false
   static inline void GetSphereYPlaneHorizon(::Unity::Mathematics::float3 center, float_t sphereRadius, float_t near, float_t clipRadius, float_t y, ::ByRef<::Unity::Mathematics::float3> left,
                                             ::ByRef<::Unity::Mathematics::float3> right);
 
-  /// @brief Method IntersectCircleYPlane, addr 0x66a67a0, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method IntersectCircleYPlane, addr 0x670e32c, size 0x2a4, virtual false, abstract: false, final false
   static inline bool IntersectCircleYPlane(float_t y, ::Unity::Mathematics::float3 circleCenter, ::Unity::Mathematics::float3 circleNormal, ::Unity::Mathematics::float3 circleU,
                                            ::Unity::Mathematics::float3 circleV, float_t circleRadius, ::ByRef<::Unity::Mathematics::float3> p1, ::ByRef<::Unity::Mathematics::float3> p2);
 
-  /// @brief Method IntersectEllipseLine, addr 0x66a7628, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method IntersectEllipseLine, addr 0x670f1b4, size 0x160, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<float_t, float_t> IntersectEllipseLine(float_t a, float_t b, ::Unity::Mathematics::float3 line);
 
-  /// @brief Method TileLight, addr 0x66a3098, size 0x1b90, virtual false, abstract: false, final false
+  /// @brief Method TileLight, addr 0x670ac24, size 0x1b90, virtual false, abstract: false, final false
   inline void TileLight(int32_t lightIndex);
 
-  /// @brief Method TileLightOrthographic, addr 0x66a2430, size 0xc68, virtual false, abstract: false, final false
+  /// @brief Method TileLightOrthographic, addr 0x6709fbc, size 0xc68, virtual false, abstract: false, final false
   inline void TileLightOrthographic(int32_t lightIndex);
 
-  /// @brief Method TileReflectionProbe, addr 0x66a4c28, size 0x7dc, virtual false, abstract: false, final false
+  /// @brief Method TileReflectionProbe, addr 0x670c7b4, size 0x7dc, virtual false, abstract: false, final false
   inline void TileReflectionProbe(int32_t index);
 
-  /// @brief Method ViewToTileSpace, addr 0x66a671c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ViewToTileSpace, addr 0x670e2a8, size 0x84, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 ViewToTileSpace(::Unity::Mathematics::float3 positionVS);
 
-  /// @brief Method ViewToTileSpaceOrthographic, addr 0x66a75b4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ViewToTileSpaceOrthographic, addr 0x670f140, size 0x74, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 ViewToTileSpaceOrthographic(::Unity::Mathematics::float3 positionVS);
 
-  /// @brief Method <TileLightOrthographic>g__SpherePointIsValid|20_0, addr 0x66a73e8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <TileLightOrthographic>g__SpherePointIsValid|20_0, addr 0x670ef74, size 0xf0, virtual false, abstract: false, final false
   static inline bool _TileLightOrthographic_g__SpherePointIsValid_20_0(::Unity::Mathematics::float3 p,
                                                                        ::ByRef<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method <TileLight>g__ConicPointIsValid|19_1, addr 0x66a6118, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method <TileLight>g__ConicPointIsValid|19_1, addr 0x670dca4, size 0x120, virtual false, abstract: false, final false
   static inline bool _TileLight_g__ConicPointIsValid_19_1(::Unity::Mathematics::float3 p,
                                                           ::ByRef<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method <TileLight>g__SpherePointIsValid|19_0, addr 0x66a579c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <TileLight>g__SpherePointIsValid|19_0, addr 0x670d328, size 0xf0, virtual false, abstract: false, final false
   static inline bool _TileLight_g__SpherePointIsValid_19_0(::Unity::Mathematics::float3 p,
                                                            ::ByRef<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0> _cordl_fixed_empty_name_whitespace);
 
@@ -269,7 +269,7 @@ public:
 
   static inline void setStaticF_k_CubePoints(::ArrayW<::Unity::Mathematics::float3, ::Array<::Unity::Mathematics::float3>*> value);
 
-  /// @brief Method square, addr 0x66a5520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method square, addr 0x670d0ac, size 0x8, virtual false, abstract: false, final false
   static inline float_t square(float_t x);
 
   // Ctor Parameters []
@@ -297,7 +297,7 @@ public:
                       ::UnityEngine::Rendering::Universal::InclusiveRange m_TileYRange, int32_t m_Offset, int32_t m_ViewIndex, ::Unity::Mathematics::float2 m_CenterOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12956 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x120 };

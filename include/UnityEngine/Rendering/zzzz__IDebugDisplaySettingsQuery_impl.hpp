@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::IDebugDisplaySettingsQuery::*)()>(
     &::UnityEngine::Rendering::IDebugDisplaySettingsQuery::get_IsPostProcessingAllowed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x654eb38;
+  constexpr static std::size_t addrs = 0x65b66c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::IDebugDisplaySettingsQuery::*)()>(
     &::UnityEngine::Rendering::IDebugDisplaySettingsQuery::get_IsLightingActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x654eb40;
+  constexpr static std::size_t addrs = 0x65b66cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::IDebugDisplaySettingsQuery::*)(::ByRef<::UnityEngine::Color>)>(
     &::UnityEngine::Rendering::IDebugDisplaySettingsQuery::TryGetScreenClearColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x654eb48;
+  constexpr static std::size_t addrs = 0x65b66d4;
 
   inline static ::MethodInfo const* methodInfo() {
 

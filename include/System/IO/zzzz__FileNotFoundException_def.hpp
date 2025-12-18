@@ -37,7 +37,7 @@ public:
   /// @brief Field <FusionLog>k__BackingField, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__FusionLog_k__BackingField, put = __cordl_internal_set__FusionLog_k__BackingField)) ::StringW _FusionLog_k__BackingField;
 
-  /// @brief Method GetObjectData, addr 0x59e0770, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x5a470bc, size 0x108, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::IO::FileNotFoundException* New_ctor();
@@ -48,10 +48,10 @@ public:
 
   static inline ::System::IO::FileNotFoundException* New_ctor(::StringW message, ::StringW fileName);
 
-  /// @brief Method SetMessageField, addr 0x59e0434, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetMessageField, addr 0x5a46d80, size 0x78, virtual false, abstract: false, final false
   inline void SetMessageField();
 
-  /// @brief Method ToString, addr 0x59e04bc, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5a46e08, size 0x1f4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__FileName_k__BackingField() const;
@@ -66,25 +66,25 @@ public:
 
   constexpr void __cordl_internal_set__FusionLog_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x59e0364, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a46cb0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x59e06b0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a46ffc, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x59e03c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a46d10, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x59e03e8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a46d34, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW fileName);
 
-  /// @brief Method get_FileName, addr 0x59e04ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x5a46df8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
-  /// @brief Method get_FusionLog, addr 0x59e04b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FusionLog, addr 0x5a46e00, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FusionLog();
 
-  /// @brief Method get_Message, addr 0x59e041c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x5a46d68, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x653c218;
+  constexpr static std::size_t addrs = 0x65a3da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x653c21c;
+  constexpr static std::size_t addrs = 0x65a3da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__1)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x653c254;
+  constexpr static std::size_t addrs = 0x65a3de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__2)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x653c28c;
+  constexpr static std::size_t addrs = 0x65a3e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__3)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x653c34c;
+  constexpr static std::size_t addrs = 0x65a3ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__4)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x653c40c;
+  constexpr static std::size_t addrs = 0x65a3f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__5)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x653c4b8;
+  constexpr static std::size_t addrs = 0x65a4044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__6)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x653c560;
+  constexpr static std::size_t addrs = 0x65a40ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__7)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x653c60c;
+  constexpr static std::size_t addrs = 0x65a4198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__8)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x653c6b8;
+  constexpr static std::size_t addrs = 0x65a4244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__9)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x653c764;
+  constexpr static std::size_t addrs = 0x65a42f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::DebugUI_Table* (*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput::CreateHDROuputDisplayTable)> {
   constexpr static std::size_t size = 0xca0;
-  constexpr static std::size_t addrs = 0x653a7d8;
+  constexpr static std::size_t addrs = 0x65a2364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplaySettingsHDROutput*>::get(),
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput::_ctor)> {
   constexpr static std::size_t size = 0xa8c;
-  constexpr static std::size_t addrs = 0x653b478;
+  constexpr static std::size_t addrs = 0x65a3004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplaySettingsHDROutput*>::get(),

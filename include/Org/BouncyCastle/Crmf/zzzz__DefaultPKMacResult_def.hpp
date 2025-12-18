@@ -31,10 +31,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockResult"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockResult*() noexcept;
 
-  /// @brief Method Collect, addr 0x35b5ae8, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0x35e032c, size 0x148, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Collect();
 
-  /// @brief Method Collect, addr 0x35b5c30, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0x35e0474, size 0x40, virtual true, abstract: false, final true
   inline int32_t Collect(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
   static inline ::Org::BouncyCastle::Crmf::DefaultPKMacResult* New_ctor(::Org::BouncyCastle::Crypto::IMac* mac);
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_mac(::Org::BouncyCastle::Crypto::IMac* value);
 
-  /// @brief Method .ctor, addr 0x35b5870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e00b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockResult"

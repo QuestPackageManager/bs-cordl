@@ -35,13 +35,13 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerObject* New_ctor();
 
-  /// @brief Method OnDeselection, addr 0x65e5bb8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnDeselection, addr 0x664d744, size 0x50, virtual true, abstract: false, final false
   inline void OnDeselection();
 
-  /// @brief Method OnSelection, addr 0x65e5b60, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x664d6ec, size 0x58, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetWidget, addr 0x65e5a88, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x664d614, size 0xd8, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_nameLabel() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_valueLabel(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x65e5c08, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x664d794, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   DebugUIHandlerObject(DebugUIHandlerObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12499 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12503 };
 
   /// @brief Field nameLabel, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___nameLabel;

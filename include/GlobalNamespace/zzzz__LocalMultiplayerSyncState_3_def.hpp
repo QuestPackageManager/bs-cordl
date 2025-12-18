@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalMultiplayerSyncState_3)
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
 template <typename T> class IPacketPool_1;
@@ -42,19 +42,19 @@ public:
   __declspec(property(get = get_Item, put = set_Item)) TState Item[];
 
   /// @brief Field _player, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__player, put = __cordl_internal_set__player)) ::GlobalNamespace::IConnectedPlayer* _player;
+  __declspec(property(get = __cordl_internal_get__player, put = __cordl_internal_set__player)) ::GlobalNamespace::IBeatSaberConnectedPlayer* _player;
 
   /// @brief Field _stateBuffer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__stateBuffer, put = __cordl_internal_set__stateBuffer)) ::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>* _stateBuffer;
 
-  __declspec(property(get = get_player)) ::GlobalNamespace::IConnectedPlayer* player;
+  __declspec(property(get = get_player)) ::GlobalNamespace::IBeatSaberConnectedPlayer* player;
 
   __declspec(property(get = get_stateBuffer)) ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* stateBuffer;
 
   /// @brief Method GetState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TState GetState(TType type);
 
-  static inline ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* New_ctor(::GlobalNamespace::IConnectedPlayer* player, int64_t fullStateUpdateFrequency,
+  static inline ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* New_ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* player, int64_t fullStateUpdateFrequency,
                                                                                                      int64_t deltaUpdateFrequency, int32_t size,
                                                                                                      ::GlobalNamespace::StateBuffer_3_InterpolationDelegate<TStateTable, TType, TState>* interpolator,
                                                                                                      ::GlobalNamespace::StateBuffer_3_SmoothingDelegate<TStateTable, TType, TState>* smoother);
@@ -74,20 +74,20 @@ public:
   /// @brief Method TryGetSerializedStateDelta, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool TryGetSerializedStateDelta(::GlobalNamespace::IPacketPool_1<T>* pool, ::ByRef<T> serializable);
 
-  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__player() const;
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get__player() const;
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__player();
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& __cordl_internal_get__player();
 
   constexpr ::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>* const& __cordl_internal_get__stateBuffer() const;
 
   constexpr ::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>*& __cordl_internal_get__stateBuffer();
 
-  constexpr void __cordl_internal_set__player(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__player(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
   constexpr void __cordl_internal_set__stateBuffer(::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IConnectedPlayer* player, int64_t fullStateUpdateFrequency, int64_t deltaUpdateFrequency, int32_t size,
+  inline void _ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* player, int64_t fullStateUpdateFrequency, int64_t deltaUpdateFrequency, int32_t size,
                     ::GlobalNamespace::StateBuffer_3_InterpolationDelegate<TStateTable, TType, TState>* interpolator,
                     ::GlobalNamespace::StateBuffer_3_SmoothingDelegate<TStateTable, TType, TState>* smoother);
 
@@ -95,7 +95,7 @@ public:
   inline TState get_Item(TType t);
 
   /// @brief Method get_player, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::IConnectedPlayer* get_player();
+  inline ::GlobalNamespace::IBeatSaberConnectedPlayer* get_player();
 
   /// @brief Method get_stateBuffer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* get_stateBuffer();
@@ -118,10 +118,10 @@ public:
   LocalMultiplayerSyncState_3(LocalMultiplayerSyncState_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21226 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21253 };
 
   /// @brief Field _player, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::IConnectedPlayer* ____player;
+  ::GlobalNamespace::IBeatSaberConnectedPlayer* ____player;
 
   /// @brief Field _stateBuffer, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>* ____stateBuffer;

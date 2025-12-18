@@ -87,7 +87,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x5c0290c, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5c693ec, size 0xf4, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -102,7 +102,7 @@ public:
   constexpr OVRTriangleMesh_GetMeshJob(uint64_t Space, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Positions, ::Unity::Collections::NativeArray_1<int32_t> Indices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7092 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7096 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -144,7 +144,7 @@ public:
   constexpr OVRTriangleMesh_Triangle(int32_t A, int32_t B, int32_t C) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7093 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7097 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -180,7 +180,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x5c02a00, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5c694e0, size 0x20, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -194,7 +194,7 @@ public:
   constexpr OVRTriangleMesh_FlipTriangleWindingJob(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRTriangleMesh_Triangle> Triangles) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7094 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7098 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -220,7 +220,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x5c02a20, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5c69500, size 0x1c, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -234,7 +234,7 @@ public:
   constexpr OVRTriangleMesh_NegateXJob(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> Positions) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7099 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -286,58 +286,58 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRTriangleMesh>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRTriangleMesh>*();
 
-  /// @brief Method Equals, addr 0x5c02354, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5c68e34, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5c02204, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5c68ce4, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRTriangleMesh other);
 
-  /// @brief Method GetHashCode, addr 0x5c023e4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5c68ec4, size 0x70, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IOVRAnchorComponent<OVRTriangleMesh>.FromAnchor, addr 0x5c01fd4, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRTriangleMesh>.FromAnchor, addr 0x5c68ab4, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRTriangleMesh IOVRAnchorComponent_OVRTriangleMesh__FromAnchor(::GlobalNamespace::OVRAnchor anchor);
 
-  /// @brief Method IOVRAnchorComponent<OVRTriangleMesh>.SetEnabledAsync, addr 0x5c021b8, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRTriangleMesh>.SetEnabledAsync, addr 0x5c68c98, size 0x4c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRTask_1<bool> IOVRAnchorComponent_OVRTriangleMesh__SetEnabledAsync(bool enabled, double_t timeout);
 
-  /// @brief Method IOVRAnchorComponent<OVRTriangleMesh>.get_Handle, addr 0x5c01f7c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRTriangleMesh>.get_Handle, addr 0x5c68a5c, size 0x58, virtual true, abstract: false, final true
   inline uint64_t IOVRAnchorComponent_OVRTriangleMesh__get_Handle();
 
-  /// @brief Method IOVRAnchorComponent<OVRTriangleMesh>.get_Type, addr 0x5c01f18, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRTriangleMesh>.get_Type, addr 0x5c689f8, size 0x58, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType IOVRAnchorComponent_OVRTriangleMesh__get_Type();
 
-  /// @brief Method ScheduleGetMeshJob, addr 0x5c02784, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ScheduleGetMeshJob, addr 0x5c69264, size 0x184, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleGetMeshJob(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> positions, ::Unity::Collections::NativeArray_1<int32_t> indices,
                                                      ::Unity::Jobs::JobHandle dependencies);
 
-  /// @brief Method ToString, addr 0x5c02454, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5c68f34, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryGetCounts, addr 0x5c0251c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method TryGetCounts, addr 0x5c68ffc, size 0xa0, virtual false, abstract: false, final false
   inline bool TryGetCounts(::ByRef<int32_t> vertexCount, ::ByRef<int32_t> triangleCount);
 
-  /// @brief Method TryGetMesh, addr 0x5c02674, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method TryGetMesh, addr 0x5c69154, size 0x110, virtual false, abstract: false, final false
   inline bool TryGetMesh(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> positions, ::Unity::Collections::NativeArray_1<int32_t> indices);
 
-  /// @brief Method TryGetMeshRawUntransformed, addr 0x5c025bc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method TryGetMeshRawUntransformed, addr 0x5c6909c, size 0xb8, virtual false, abstract: false, final false
   inline bool TryGetMeshRawUntransformed(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> positions, ::Unity::Collections::NativeArray_1<int32_t> indices);
 
-  /// @brief Method .ctor, addr 0x5c02004, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c68ae4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRAnchor anchor);
 
   static inline ::GlobalNamespace::OVRTriangleMesh getStaticF_Null();
 
-  /// @brief Method get_Handle, addr 0x5c02514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x5c68ff4, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_IsEnabled, addr 0x5c020cc, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method get_IsEnabled, addr 0x5c68bac, size 0xec, virtual true, abstract: false, final true
   inline bool get_IsEnabled();
 
-  /// @brief Method get_IsNull, addr 0x5c0206c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x5c68b4c, size 0x60, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_Type, addr 0x5c01f70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x5c68a50, size 0xc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType get_Type();
 
   /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRTriangleMesh>"
@@ -346,10 +346,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRTriangleMesh>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRTriangleMesh>* i___System__IEquatable_1___GlobalNamespace__OVRTriangleMesh_();
 
-  /// @brief Method op_Equality, addr 0x5c02270, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5c68d50, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRTriangleMesh lhs, ::GlobalNamespace::OVRTriangleMesh rhs);
 
-  /// @brief Method op_Inequality, addr 0x5c022e0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x5c68dc0, size 0x74, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRTriangleMesh lhs, ::GlobalNamespace::OVRTriangleMesh rhs);
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRTriangleMesh value);
@@ -362,7 +362,7 @@ public:
   constexpr OVRTriangleMesh(uint64_t _Handle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7100 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

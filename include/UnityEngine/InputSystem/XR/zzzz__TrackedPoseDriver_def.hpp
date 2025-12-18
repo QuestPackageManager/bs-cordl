@@ -102,7 +102,7 @@ public:
   static ::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingType const RotationOnly;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8795 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -161,7 +161,7 @@ public:
   static ::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingStates const Rotation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8796 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -220,7 +220,7 @@ public:
   static ::UnityEngine::InputSystem::XR::TrackedPoseDriver_UpdateType const UpdateAndBeforeRender;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8797 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -315,93 +315,93 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method Awake, addr 0x636ab4c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x63d26d8, size 0x28, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method BindActions, addr 0x636a78c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BindActions, addr 0x63d2318, size 0x20, virtual false, abstract: false, final false
   inline void BindActions();
 
-  /// @brief Method BindPosition, addr 0x6369bd8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method BindPosition, addr 0x63d1764, size 0x214, virtual false, abstract: false, final false
   inline void BindPosition();
 
-  /// @brief Method BindRotation, addr 0x636a0a8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method BindRotation, addr 0x63d1c34, size 0x214, virtual false, abstract: false, final false
   inline void BindRotation();
 
-  /// @brief Method BindTrackingState, addr 0x636a578, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method BindTrackingState, addr 0x63d2104, size 0x214, virtual false, abstract: false, final false
   inline void BindTrackingState();
 
-  /// @brief Method HasStereoCamera, addr 0x636ab74, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method HasStereoCamera, addr 0x63d2700, size 0x88, virtual false, abstract: false, final false
   inline bool HasStereoCamera(::ByRef<::UnityEngine::Camera*> cameraComponent);
 
   static inline ::UnityEngine::InputSystem::XR::TrackedPoseDriver* New_ctor();
 
-  /// @brief Method OnBeforeRender, addr 0x636b030, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnBeforeRender, addr 0x63d2bbc, size 0x20, virtual true, abstract: false, final false
   inline void OnBeforeRender();
 
-  /// @brief Method OnDestroy, addr 0x636ad68, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x63d28f4, size 0x28, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x636acb8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x63d2844, size 0xb0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x636abfc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x63d2788, size 0xbc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPositionCanceled, addr 0x636a860, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnPositionCanceled, addr 0x63d23ec, size 0x5c, virtual false, abstract: false, final false
   inline void OnPositionCanceled(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnPositionPerformed, addr 0x636a7fc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OnPositionPerformed, addr 0x63d2388, size 0x64, virtual false, abstract: false, final false
   inline void OnPositionPerformed(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnRotationCanceled, addr 0x636a920, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnRotationCanceled, addr 0x63d24ac, size 0x54, virtual false, abstract: false, final false
   inline void OnRotationCanceled(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnRotationPerformed, addr 0x636a8bc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OnRotationPerformed, addr 0x63d2448, size 0x64, virtual false, abstract: false, final false
   inline void OnRotationPerformed(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnTrackingStateCanceled, addr 0x636a9d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnTrackingStateCanceled, addr 0x63d2560, size 0x8, virtual false, abstract: false, final false
   inline void OnTrackingStateCanceled(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnTrackingStatePerformed, addr 0x636a974, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnTrackingStatePerformed, addr 0x63d2500, size 0x60, virtual false, abstract: false, final false
   inline void OnTrackingStatePerformed(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnUpdate, addr 0x636b014, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x63d2ba0, size 0x1c, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method PerformUpdate, addr 0x636b050, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method PerformUpdate, addr 0x63d2bdc, size 0x1c, virtual true, abstract: false, final false
   inline void PerformUpdate();
 
-  /// @brief Method ReadTrackingState, addr 0x636aec8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ReadTrackingState, addr 0x63d2a54, size 0x14c, virtual false, abstract: false, final false
   inline void ReadTrackingState();
 
-  /// @brief Method RenameAndEnable, addr 0x636a7cc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RenameAndEnable, addr 0x63d2358, size 0x30, virtual false, abstract: false, final false
   inline void RenameAndEnable(::UnityEngine::InputSystem::InputAction* action, ::StringW name);
 
-  /// @brief Method Reset, addr 0x636a9dc, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x63d2568, size 0x170, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetLocalTransform, addr 0x636b06c, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method SetLocalTransform, addr 0x63d2bf8, size 0x15c, virtual true, abstract: false, final false
   inline void SetLocalTransform(::UnityEngine::Vector3 newPosition, ::UnityEngine::Quaternion newRotation);
 
-  /// @brief Method UnbindActions, addr 0x636a7ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UnbindActions, addr 0x63d2338, size 0x20, virtual false, abstract: false, final false
   inline void UnbindActions();
 
-  /// @brief Method UnbindPosition, addr 0x6369a20, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method UnbindPosition, addr 0x63d15ac, size 0x1b8, virtual false, abstract: false, final false
   inline void UnbindPosition();
 
-  /// @brief Method UnbindRotation, addr 0x6369ef0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method UnbindRotation, addr 0x63d1a7c, size 0x1b8, virtual false, abstract: false, final false
   inline void UnbindRotation();
 
-  /// @brief Method UnbindTrackingState, addr 0x636a3c0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method UnbindTrackingState, addr 0x63d1f4c, size 0x1b8, virtual false, abstract: false, final false
   inline void UnbindTrackingState();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x636b224, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x63d2db0, size 0x48, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x636b220, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x63d2dac, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-  /// @brief Method UpdateCallback, addr 0x636ad90, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method UpdateCallback, addr 0x63d291c, size 0x138, virtual false, abstract: false, final false
   inline void UpdateCallback();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_CurrentPosition() const;
@@ -494,58 +494,58 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdateType(::UnityEngine::InputSystem::XR::TrackedPoseDriver_UpdateType value);
 
-  /// @brief Method .ctor, addr 0x636b26c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63d2df8, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ignoreTrackingState, addr 0x636990c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreTrackingState, addr 0x63d1498, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreTrackingState();
 
-  /// @brief Method get_positionAction, addr 0x636b1c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_positionAction, addr 0x63d2d54, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_positionAction();
 
-  /// @brief Method get_positionInput, addr 0x636991c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_positionInput, addr 0x63d14a8, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_positionInput();
 
-  /// @brief Method get_rotationAction, addr 0x636b1f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rotationAction, addr 0x63d2d80, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_rotationAction();
 
-  /// @brief Method get_rotationInput, addr 0x6369dec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_rotationInput, addr 0x63d1978, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_rotationInput();
 
-  /// @brief Method get_trackingStateInput, addr 0x636a2bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_trackingStateInput, addr 0x63d1e48, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_trackingStateInput();
 
-  /// @brief Method get_trackingType, addr 0x63698ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackingType, addr 0x63d1478, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingType get_trackingType();
 
-  /// @brief Method get_updateType, addr 0x63698fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updateType, addr 0x63d1488, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::TrackedPoseDriver_UpdateType get_updateType();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
-  /// @brief Method set_ignoreTrackingState, addr 0x6369914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreTrackingState, addr 0x63d14a0, size 0x8, virtual false, abstract: false, final false
   inline void set_ignoreTrackingState(bool value);
 
-  /// @brief Method set_positionAction, addr 0x636b1d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_positionAction, addr 0x63d2d60, size 0x20, virtual false, abstract: false, final false
   inline void set_positionAction(::UnityEngine::InputSystem::InputAction* value);
 
-  /// @brief Method set_positionInput, addr 0x6369930, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method set_positionInput, addr 0x63d14bc, size 0xf0, virtual false, abstract: false, final false
   inline void set_positionInput(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method set_rotationAction, addr 0x636b200, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_rotationAction, addr 0x63d2d8c, size 0x20, virtual false, abstract: false, final false
   inline void set_rotationAction(::UnityEngine::InputSystem::InputAction* value);
 
-  /// @brief Method set_rotationInput, addr 0x6369e00, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method set_rotationInput, addr 0x63d198c, size 0xf0, virtual false, abstract: false, final false
   inline void set_rotationInput(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method set_trackingStateInput, addr 0x636a2d0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method set_trackingStateInput, addr 0x63d1e5c, size 0xf0, virtual false, abstract: false, final false
   inline void set_trackingStateInput(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method set_trackingType, addr 0x63698f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackingType, addr 0x63d1480, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingType(::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingType value);
 
-  /// @brief Method set_updateType, addr 0x6369904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_updateType, addr 0x63d1490, size 0x8, virtual false, abstract: false, final false
   inline void set_updateType(::UnityEngine::InputSystem::XR::TrackedPoseDriver_UpdateType value);
 
 protected:
@@ -563,7 +563,7 @@ public:
   TrackedPoseDriver(TrackedPoseDriver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8798 };
 
   /// @brief Field m_TrackingType, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingType ___m_TrackingType;

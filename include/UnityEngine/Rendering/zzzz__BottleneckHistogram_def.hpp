@@ -28,7 +28,7 @@ public:
   constexpr BottleneckHistogram(float_t PresentLimited, float_t CPU, float_t GPU, float_t Balanced) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12012 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

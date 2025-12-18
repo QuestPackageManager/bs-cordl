@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::RuntimeClassHandle (::Mono::RuntimeRemoteClassHandle::*)()>(
     &::Mono::RuntimeRemoteClassHandle::get_ProxyClass)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58984f8;
+  constexpr static std::size_t addrs = 0x58fee44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::RuntimeRemoteClassHandle>::get(), "get_ProxyClass",

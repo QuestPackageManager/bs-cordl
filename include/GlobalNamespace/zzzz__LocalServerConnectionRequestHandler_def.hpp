@@ -31,15 +31,16 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IConnectionRequestHandler"
   constexpr operator ::GlobalNamespace::IConnectionRequestHandler*() noexcept;
 
-  /// @brief Method GetConnectionMessage, addr 0x31ab988, size 0x1b8, virtual true, abstract: false, final true
-  inline void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
+  /// @brief Method GetConnectionMessage, addr 0x323f114, size 0x208, virtual true, abstract: false, final true
+  inline void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner, ::StringW compatibilityVersion);
 
   static inline ::GlobalNamespace::LocalServerConnectionRequestHandler* New_ctor();
 
-  /// @brief Method ValidateConnectionMessage, addr 0x31abb40, size 0x1fc, virtual true, abstract: false, final true
-  inline bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ::ByRef<::StringW> userId, ::ByRef<::StringW> userName, ::ByRef<bool> isConnectionOwner);
+  /// @brief Method ValidateConnectionMessage, addr 0x323f31c, size 0x27c, virtual true, abstract: false, final true
+  inline bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ::ByRef<::StringW> userId, ::ByRef<::StringW> userName, ::ByRef<bool> isConnectionOwner,
+                                        ::ByRef<::StringW> compatibilityVersion);
 
-  /// @brief Method .ctor, addr 0x31a685c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x323f598, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IConnectionRequestHandler"
@@ -60,7 +61,7 @@ public:
   LocalServerConnectionRequestHandler(LocalServerConnectionRequestHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18182 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

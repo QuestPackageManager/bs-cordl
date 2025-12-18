@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_tokenValue(int32_t value);
 
-  /// @brief Method .ctor, addr 0x59885ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59eeef8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW tokenString, ::System::TokenType tokenType, int32_t tokenValue);
 
 protected:
@@ -408,102 +408,102 @@ public:
   /// @brief Convert operator to "::System::IFormatProvider"
   constexpr operator ::System::IFormatProvider*() noexcept;
 
-  /// @brief Method AddMonthNames, addr 0x5987688, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddMonthNames, addr 0x59edfd4, size 0xac, virtual false, abstract: false, final false
   inline void AddMonthNames(::ArrayW<::System::Globalization::DateTimeFormatInfo_TokenHashValue*, ::Array<::System::Globalization::DateTimeFormatInfo_TokenHashValue*>*> temp, ::StringW monthPostfix);
 
-  /// @brief Method ClearTokenHashTable, addr 0x5983a70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ClearTokenHashTable, addr 0x59ea3bc, size 0x10, virtual false, abstract: false, final false
   inline void ClearTokenHashTable();
 
-  /// @brief Method Clone, addr 0x5983850, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x59ea19c, size 0x108, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method CompareStringIgnoreCaseOptimized, addr 0x59885b8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CompareStringIgnoreCaseOptimized, addr 0x59eef04, size 0xf4, virtual false, abstract: false, final false
   inline bool CompareStringIgnoreCaseOptimized(::StringW string1, int32_t offset1, int32_t length1, ::StringW string2, int32_t offset2, int32_t length2);
 
-  /// @brief Method CreateTokenHashTable, addr 0x5986170, size 0x92c, virtual false, abstract: false, final false
+  /// @brief Method CreateTokenHashTable, addr 0x59ecabc, size 0x92c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Globalization::DateTimeFormatInfo_TokenHashValue*, ::Array<::System::Globalization::DateTimeFormatInfo_TokenHashValue*>*> CreateTokenHashTable();
 
-  /// @brief Method GetAbbreviatedDayName, addr 0x59849b0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetAbbreviatedDayName, addr 0x59eb2fc, size 0xfc, virtual false, abstract: false, final false
   inline ::StringW GetAbbreviatedDayName(::System::DayOfWeek dayofweek);
 
-  /// @brief Method GetAbbreviatedEraName, addr 0x5983c08, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetAbbreviatedEraName, addr 0x59ea554, size 0xe8, virtual false, abstract: false, final false
   inline ::StringW GetAbbreviatedEraName(int32_t era);
 
-  /// @brief Method GetAbbreviatedMonthName, addr 0x5985354, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetAbbreviatedMonthName, addr 0x59ebca0, size 0xf4, virtual false, abstract: false, final false
   inline ::StringW GetAbbreviatedMonthName(int32_t month);
 
-  /// @brief Method GetAllDateTimePatterns, addr 0x5984bd0, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method GetAllDateTimePatterns, addr 0x59eb51c, size 0x408, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetAllDateTimePatterns(char16_t format);
 
-  /// @brief Method GetCombinedPatterns, addr 0x5984aac, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetCombinedPatterns, addr 0x59eb3f8, size 0x124, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetCombinedPatterns(::ArrayW<::StringW, ::Array<::StringW>*> patterns1, ::ArrayW<::StringW, ::Array<::StringW>*> patterns2,
                                                                              ::StringW connectString);
 
-  /// @brief Method GetDayName, addr 0x5985258, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetDayName, addr 0x59ebba4, size 0xfc, virtual false, abstract: false, final false
   inline ::StringW GetDayName(::System::DayOfWeek dayofweek);
 
-  /// @brief Method GetEraName, addr 0x5983ad8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetEraName, addr 0x59ea424, size 0xd8, virtual false, abstract: false, final false
   inline ::StringW GetEraName(int32_t era);
 
-  /// @brief Method GetFormat, addr 0x59837d4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method GetFormat, addr 0x59ea120, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Object* GetFormat(::System::Type* formatType);
 
-  /// @brief Method GetInstance, addr 0x5983628, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x59e9f74, size 0x1ac, virtual false, abstract: false, final false
   static inline ::System::Globalization::DateTimeFormatInfo* GetInstance(::System::IFormatProvider* provider);
 
-  /// @brief Method GetJapaneseCalendarDTFI, addr 0x5985e00, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetJapaneseCalendarDTFI, addr 0x59ec74c, size 0x1b8, virtual false, abstract: false, final false
   static inline ::System::Globalization::DateTimeFormatInfo* GetJapaneseCalendarDTFI();
 
-  /// @brief Method GetMergedPatterns, addr 0x598553c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetMergedPatterns, addr 0x59ebe88, size 0x198, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetMergedPatterns(::ArrayW<::StringW, ::Array<::StringW>*> patterns, ::StringW defaultPattern);
 
-  /// @brief Method GetMonthName, addr 0x5985448, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetMonthName, addr 0x59ebd94, size 0xf4, virtual false, abstract: false, final false
   inline ::StringW GetMonthName(int32_t month);
 
-  /// @brief Method GetTaiwanCalendarDTFI, addr 0x5985fb8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetTaiwanCalendarDTFI, addr 0x59ec904, size 0x1b8, virtual false, abstract: false, final false
   static inline ::System::Globalization::DateTimeFormatInfo* GetTaiwanCalendarDTFI();
 
-  /// @brief Method InitializeFormatFlags, addr 0x5985a0c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method InitializeFormatFlags, addr 0x59ec358, size 0x13c, virtual false, abstract: false, final false
   inline ::System::Globalization::DateTimeFormatFlags InitializeFormatFlags();
 
-  /// @brief Method InitializeOverridableProperties, addr 0x598307c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method InitializeOverridableProperties, addr 0x59e99c8, size 0x124, virtual false, abstract: false, final false
   inline void InitializeOverridableProperties(::System::Globalization::CultureData* cultureData, int32_t calendarId);
 
-  /// @brief Method InsertAtCurrentHashNode, addr 0x598840c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method InsertAtCurrentHashNode, addr 0x59eed58, size 0x1a0, virtual false, abstract: false, final false
   inline void InsertAtCurrentHashNode(::ArrayW<::System::Globalization::DateTimeFormatInfo_TokenHashValue*, ::Array<::System::Globalization::DateTimeFormatInfo_TokenHashValue*>*> hashTable,
                                       ::StringW str, char16_t ch, ::System::TokenType tokenType, int32_t tokenValue, int32_t pos, int32_t hashcode, int32_t hashProbe);
 
-  /// @brief Method InsertHash, addr 0x5986a9c, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method InsertHash, addr 0x59ed3e8, size 0x2bc, virtual false, abstract: false, final false
   inline void InsertHash(::ArrayW<::System::Globalization::DateTimeFormatInfo_TokenHashValue*, ::Array<::System::Globalization::DateTimeFormatInfo_TokenHashValue*>*> hashTable, ::StringW str,
                          ::System::TokenType tokenType, int32_t tokenValue);
 
-  /// @brief Method IsAllowedJapaneseTokenFollowedByNonSpaceLetter, addr 0x5987cf8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method IsAllowedJapaneseTokenFollowedByNonSpaceLetter, addr 0x59ee644, size 0x118, virtual false, abstract: false, final false
   inline bool IsAllowedJapaneseTokenFollowedByNonSpaceLetter(::StringW tokenString, char16_t nextCh);
 
-  /// @brief Method IsHebrewChar, addr 0x5987ce4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsHebrewChar, addr 0x59ee630, size 0x14, virtual false, abstract: false, final false
   static inline bool IsHebrewChar(char16_t ch);
 
-  /// @brief Method IsJapaneseCalendar, addr 0x5987a48, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method IsJapaneseCalendar, addr 0x59ee394, size 0x138, virtual false, abstract: false, final false
   static inline bool IsJapaneseCalendar(::System::Globalization::Calendar* calendar);
 
   static inline ::System::Globalization::DateTimeFormatInfo* New_ctor();
 
   static inline ::System::Globalization::DateTimeFormatInfo* New_ctor(::System::Globalization::CultureData* cultureData, ::System::Globalization::Calendar* cal);
 
-  /// @brief Method PopulateSpecialTokenHashTable, addr 0x5986d58, size 0x930, virtual false, abstract: false, final false
+  /// @brief Method PopulateSpecialTokenHashTable, addr 0x59ed6a4, size 0x930, virtual false, abstract: false, final false
   inline void PopulateSpecialTokenHashTable(::ArrayW<::System::Globalization::DateTimeFormatInfo_TokenHashValue*, ::Array<::System::Globalization::DateTimeFormatInfo_TokenHashValue*>*> temp,
                                             ::ByRef<bool> useDateSepAsIgnorableSymbol);
 
-  /// @brief Method Tokenize, addr 0x5987e10, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method Tokenize, addr 0x59ee75c, size 0x5fc, virtual false, abstract: false, final false
   inline bool Tokenize(::System::TokenType TokenMask, ::ByRef<::System::TokenType> tokenType, ::ByRef<int32_t> tokenValue, ::ByRef<::System::__DTString> str);
 
-  /// @brief Method TryParseHebrewNumber, addr 0x5987b80, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method TryParseHebrewNumber, addr 0x59ee4cc, size 0x164, virtual false, abstract: false, final false
   static inline bool TryParseHebrewNumber(::ByRef<::System::__DTString> str, ::ByRef<bool> badFormat, ::ByRef<int32_t> number);
 
-  /// @brief Method ValidateStyles, addr 0x598593c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ValidateStyles, addr 0x59ec288, size 0xd0, virtual false, abstract: false, final false
   static inline void ValidateStyles(::System::Globalization::DateTimeStyles style, ::StringW parameterName);
 
-  /// @brief Method YearMonthAdjustment, addr 0x5985ccc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method YearMonthAdjustment, addr 0x59ec618, size 0x134, virtual false, abstract: false, final false
   inline bool YearMonthAdjustment(::ByRef<int32_t> year, ::ByRef<int32_t> month, bool parsedMonthName);
 
   constexpr ::System::Globalization::CompareInfo* const& __cordl_internal_get__compareInfo() const;
@@ -772,10 +772,10 @@ public:
 
   constexpr void __cordl_internal_set_yearMonthPattern(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5982fa8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e98f4, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x59831a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e9aec, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureData* cultureData, ::System::Globalization::Calendar* cal);
 
   static inline ::System::Globalization::DateTimeFormatInfo* getStaticF_s_invariantInfo();
@@ -786,157 +786,157 @@ public:
 
   static inline ::System::Globalization::DateTimeFormatInfo* getStaticF_s_zhtwDTFI();
 
-  /// @brief Method get_AMDesignator, addr 0x5983958, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_AMDesignator, addr 0x59ea2a4, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_AMDesignator();
 
-  /// @brief Method get_AbbreviatedDayNames, addr 0x59844ec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_AbbreviatedDayNames, addr 0x59eae38, size 0x84, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_AbbreviatedDayNames();
 
-  /// @brief Method get_AbbreviatedEnglishEraNames, addr 0x5983cf0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_AbbreviatedEnglishEraNames, addr 0x59ea63c, size 0x58, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_AbbreviatedEnglishEraNames();
 
-  /// @brief Method get_AbbreviatedEraNames, addr 0x5983bb0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_AbbreviatedEraNames, addr 0x59ea4fc, size 0x58, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_AbbreviatedEraNames();
 
-  /// @brief Method get_AbbreviatedMonthNames, addr 0x59845f4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_AbbreviatedMonthNames, addr 0x59eaf40, size 0x84, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_AbbreviatedMonthNames();
 
-  /// @brief Method get_AllLongDatePatterns, addr 0x5985050, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_AllLongDatePatterns, addr 0x59eb99c, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_AllLongDatePatterns();
 
-  /// @brief Method get_AllLongTimePatterns, addr 0x5985154, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_AllLongTimePatterns, addr 0x59ebaa0, size 0x8c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_AllLongTimePatterns();
 
-  /// @brief Method get_AllShortDatePatterns, addr 0x5984fd8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_AllShortDatePatterns, addr 0x59eb924, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_AllShortDatePatterns();
 
-  /// @brief Method get_AllShortTimePatterns, addr 0x59850c8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_AllShortTimePatterns, addr 0x59eba14, size 0x8c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_AllShortTimePatterns();
 
-  /// @brief Method get_AllYearMonthPatterns, addr 0x59851e0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_AllYearMonthPatterns, addr 0x59ebb2c, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_AllYearMonthPatterns();
 
-  /// @brief Method get_Calendar, addr 0x5983980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Calendar, addr 0x59ea2cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Globalization::Calendar* get_Calendar();
 
-  /// @brief Method get_CompareInfo, addr 0x5985898, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_CompareInfo, addr 0x59ec1e4, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Globalization::CompareInfo* get_CompareInfo();
 
-  /// @brief Method get_Culture, addr 0x5982d68, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_Culture, addr 0x59e96b4, size 0x88, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_Culture();
 
-  /// @brief Method get_CultureName, addr 0x5982d40, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_CultureName, addr 0x59e968c, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_CultureName();
 
-  /// @brief Method get_CurrentInfo, addr 0x598352c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentInfo, addr 0x59e9e78, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Globalization::DateTimeFormatInfo* get_CurrentInfo();
 
-  /// @brief Method get_DateSeparator, addr 0x5983d48, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DateSeparator, addr 0x59ea694, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DateSeparator();
 
-  /// @brief Method get_DateTimeOffsetPattern, addr 0x598422c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method get_DateTimeOffsetPattern, addr 0x59eab78, size 0x1c0, virtual false, abstract: false, final false
   inline ::StringW get_DateTimeOffsetPattern();
 
-  /// @brief Method get_DayNames, addr 0x5984570, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_DayNames, addr 0x59eaebc, size 0x84, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_DayNames();
 
-  /// @brief Method get_EraNames, addr 0x5983a80, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_EraNames, addr 0x59ea3cc, size 0x58, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_EraNames();
 
-  /// @brief Method get_FormatFlags, addr 0x5984724, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_FormatFlags, addr 0x59eb070, size 0x18, virtual false, abstract: false, final false
   inline ::System::Globalization::DateTimeFormatFlags get_FormatFlags();
 
-  /// @brief Method get_FullDateTimePattern, addr 0x5983d9c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_FullDateTimePattern, addr 0x59ea6e8, size 0x78, virtual false, abstract: false, final false
   inline ::StringW get_FullDateTimePattern();
 
-  /// @brief Method get_FullTimeSpanNegativePattern, addr 0x598582c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_FullTimeSpanNegativePattern, addr 0x59ec178, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW get_FullTimeSpanNegativePattern();
 
-  /// @brief Method get_FullTimeSpanPositivePattern, addr 0x5985754, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_FullTimeSpanPositivePattern, addr 0x59ec0a0, size 0xd8, virtual false, abstract: false, final false
   inline ::StringW get_FullTimeSpanPositivePattern();
 
-  /// @brief Method get_GeneralLongTimePattern, addr 0x59841b4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_GeneralLongTimePattern, addr 0x59eab00, size 0x78, virtual false, abstract: false, final false
   inline ::StringW get_GeneralLongTimePattern();
 
-  /// @brief Method get_GeneralShortTimePattern, addr 0x598413c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_GeneralShortTimePattern, addr 0x59eaa88, size 0x78, virtual false, abstract: false, final false
   inline ::StringW get_GeneralShortTimePattern();
 
-  /// @brief Method get_HasForceTwoDigitYears, addr 0x5985c70, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_HasForceTwoDigitYears, addr 0x59ec5bc, size 0x34, virtual false, abstract: false, final false
   inline bool get_HasForceTwoDigitYears();
 
-  /// @brief Method get_HasSpacesInDayNames, addr 0x598473c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_HasSpacesInDayNames, addr 0x59eb088, size 0x28, virtual false, abstract: false, final false
   inline bool get_HasSpacesInDayNames();
 
-  /// @brief Method get_HasSpacesInMonthNames, addr 0x59846fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_HasSpacesInMonthNames, addr 0x59eb048, size 0x28, virtual false, abstract: false, final false
   inline bool get_HasSpacesInMonthNames();
 
-  /// @brief Method get_HasYearMonthAdjustment, addr 0x5985ca4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_HasYearMonthAdjustment, addr 0x59ec5f0, size 0x28, virtual false, abstract: false, final false
   inline bool get_HasYearMonthAdjustment();
 
-  /// @brief Method get_InvariantInfo, addr 0x598345c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_InvariantInfo, addr 0x59e9da8, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::Globalization::DateTimeFormatInfo* get_InvariantInfo();
 
-  /// @brief Method get_IsReadOnly, addr 0x5983988, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x59ea2d4, size 0xb8, virtual false, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_LanguageName, addr 0x5982df0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_LanguageName, addr 0x59e973c, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_LanguageName();
 
-  /// @brief Method get_LongDatePattern, addr 0x5983e14, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_LongDatePattern, addr 0x59ea760, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_LongDatePattern();
 
-  /// @brief Method get_LongTimePattern, addr 0x5983e50, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_LongTimePattern, addr 0x59ea79c, size 0x50, virtual false, abstract: false, final false
   inline ::StringW get_LongTimePattern();
 
-  /// @brief Method get_MonthDayPattern, addr 0x5983f24, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_MonthDayPattern, addr 0x59ea870, size 0x58, virtual false, abstract: false, final false
   inline ::StringW get_MonthDayPattern();
 
-  /// @brief Method get_MonthGenitiveNames, addr 0x59856d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_MonthGenitiveNames, addr 0x59ec020, size 0x80, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_MonthGenitiveNames();
 
-  /// @brief Method get_MonthNames, addr 0x5984678, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_MonthNames, addr 0x59eafc4, size 0x84, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_MonthNames();
 
-  /// @brief Method get_OptionalCalendars, addr 0x5983a40, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_OptionalCalendars, addr 0x59ea38c, size 0x30, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Globalization::CalendarId, ::Array<::System::Globalization::CalendarId>*> get_OptionalCalendars();
 
-  /// @brief Method get_PMDesignator, addr 0x5983f7c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_PMDesignator, addr 0x59ea8c8, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_PMDesignator();
 
-  /// @brief Method get_RFC1123Pattern, addr 0x5983fa4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_RFC1123Pattern, addr 0x59ea8f0, size 0x44, virtual false, abstract: false, final false
   inline ::StringW get_RFC1123Pattern();
 
-  /// @brief Method get_ShortDatePattern, addr 0x5983fe8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ShortDatePattern, addr 0x59ea934, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_ShortDatePattern();
 
-  /// @brief Method get_ShortTimePattern, addr 0x598407c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_ShortTimePattern, addr 0x59ea9c8, size 0x50, virtual false, abstract: false, final false
   inline ::StringW get_ShortTimePattern();
 
-  /// @brief Method get_SortableDateTimePattern, addr 0x59840f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_SortableDateTimePattern, addr 0x59eaa44, size 0x44, virtual false, abstract: false, final false
   inline ::StringW get_SortableDateTimePattern();
 
-  /// @brief Method get_TimeSeparator, addr 0x59843ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_TimeSeparator, addr 0x59ead38, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_TimeSeparator();
 
-  /// @brief Method get_UnclonedLongDatePatterns, addr 0x5983ea0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_UnclonedLongDatePatterns, addr 0x59ea7ec, size 0x58, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_UnclonedLongDatePatterns();
 
-  /// @brief Method get_UnclonedLongTimePatterns, addr 0x5983ef8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_UnclonedLongTimePatterns, addr 0x59ea844, size 0x2c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_UnclonedLongTimePatterns();
 
-  /// @brief Method get_UnclonedShortDatePatterns, addr 0x5984024, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_UnclonedShortDatePatterns, addr 0x59ea970, size 0x58, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_UnclonedShortDatePatterns();
 
-  /// @brief Method get_UnclonedShortTimePatterns, addr 0x59840cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_UnclonedShortTimePatterns, addr 0x59eaa18, size 0x2c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_UnclonedShortTimePatterns();
 
-  /// @brief Method get_UnclonedYearMonthPatterns, addr 0x5984494, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_UnclonedYearMonthPatterns, addr 0x59eade0, size 0x58, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_UnclonedYearMonthPatterns();
 
-  /// @brief Method get_UniversalSortableDateTimePattern, addr 0x5984414, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_UniversalSortableDateTimePattern, addr 0x59ead60, size 0x44, virtual false, abstract: false, final false
   inline ::StringW get_UniversalSortableDateTimePattern();
 
-  /// @brief Method get_YearMonthPattern, addr 0x5984458, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_YearMonthPattern, addr 0x59eada4, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_YearMonthPattern();
 
   /// @brief Convert to "::System::ICloneable"
@@ -945,37 +945,37 @@ public:
   /// @brief Convert to "::System::IFormatProvider"
   constexpr ::System::IFormatProvider* i___System__IFormatProvider() noexcept;
 
-  /// @brief Method internalGetAbbreviatedDayOfWeekNames, addr 0x5982e18, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method internalGetAbbreviatedDayOfWeekNames, addr 0x59e9764, size 0x14, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> internalGetAbbreviatedDayOfWeekNames();
 
-  /// @brief Method internalGetAbbreviatedDayOfWeekNamesCore, addr 0x5982e2c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method internalGetAbbreviatedDayOfWeekNamesCore, addr 0x59e9778, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> internalGetAbbreviatedDayOfWeekNamesCore();
 
-  /// @brief Method internalGetAbbreviatedMonthNames, addr 0x5982ee0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method internalGetAbbreviatedMonthNames, addr 0x59e982c, size 0x14, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> internalGetAbbreviatedMonthNames();
 
-  /// @brief Method internalGetAbbreviatedMonthNamesCore, addr 0x5982ef4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method internalGetAbbreviatedMonthNamesCore, addr 0x59e9840, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> internalGetAbbreviatedMonthNamesCore();
 
-  /// @brief Method internalGetDayOfWeekNames, addr 0x5982e7c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method internalGetDayOfWeekNames, addr 0x59e97c8, size 0x14, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> internalGetDayOfWeekNames();
 
-  /// @brief Method internalGetDayOfWeekNamesCore, addr 0x5982e90, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method internalGetDayOfWeekNamesCore, addr 0x59e97dc, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> internalGetDayOfWeekNamesCore();
 
-  /// @brief Method internalGetGenitiveMonthNames, addr 0x59848bc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method internalGetGenitiveMonthNames, addr 0x59eb208, size 0x9c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> internalGetGenitiveMonthNames(bool abbreviated);
 
-  /// @brief Method internalGetLeapYearMonthNames, addr 0x5984958, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method internalGetLeapYearMonthNames, addr 0x59eb2a4, size 0x58, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> internalGetLeapYearMonthNames();
 
-  /// @brief Method internalGetMonthName, addr 0x5984764, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method internalGetMonthName, addr 0x59eb0b0, size 0x158, virtual false, abstract: false, final false
   inline ::StringW internalGetMonthName(int32_t month, ::System::Globalization::MonthNameStyles style, bool abbreviated);
 
-  /// @brief Method internalGetMonthNames, addr 0x5982f44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method internalGetMonthNames, addr 0x59e9890, size 0x14, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> internalGetMonthNames();
 
-  /// @brief Method internalGetMonthNamesCore, addr 0x5982f58, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method internalGetMonthNamesCore, addr 0x59e98a4, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> internalGetMonthNamesCore();
 
   static inline void setStaticF_s_invariantInfo(::System::Globalization::DateTimeFormatInfo* value);
@@ -986,7 +986,7 @@ public:
 
   static inline void setStaticF_s_zhtwDTFI(::System::Globalization::DateTimeFormatInfo* value);
 
-  /// @brief Method set_Calendar, addr 0x59831c0, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method set_Calendar, addr 0x59e9b0c, size 0x29c, virtual false, abstract: false, final false
   inline void set_Calendar(::System::Globalization::Calendar* value);
 
 protected:

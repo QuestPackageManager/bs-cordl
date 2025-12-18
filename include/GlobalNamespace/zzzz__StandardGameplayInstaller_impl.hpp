@@ -2,14 +2,15 @@
 // IWYU pragma private; include "GlobalNamespace/StandardGameplayInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardGameplayInstaller_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayAdditionalInformationSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__StandardGameplaySceneSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::StandardGameplayInstaller.InstallBindings
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardGameplayInstaller::*)()>(
     &::GlobalNamespace::StandardGameplayInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x57ea990;
+  constexpr static std::size_t size = 0x3f8;
+  constexpr static std::size_t addrs = 0x58512e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardGameplayInstaller::*)()>(&::GlobalNamespace::StandardGameplayInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57ead6c;
+  constexpr static std::size_t addrs = 0x58516d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardGameplayInstaller*>::get(), ".ctor",
@@ -42,6 +43,18 @@ constexpr ::GlobalNamespace::StandardGameplaySceneSetupData* const& GlobalNamesp
 constexpr void GlobalNamespace::StandardGameplayInstaller::__cordl_internal_set__standardSceneSetupData(::GlobalNamespace::StandardGameplaySceneSetupData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____standardSceneSetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::GameplayAdditionalInformationSetupData*& GlobalNamespace::StandardGameplayInstaller::__cordl_internal_get__gameplayAdditionalInformation() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gameplayAdditionalInformation;
+}
+constexpr ::GlobalNamespace::GameplayAdditionalInformationSetupData* const& GlobalNamespace::StandardGameplayInstaller::__cordl_internal_get__gameplayAdditionalInformation() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gameplayAdditionalInformation;
+}
+constexpr void GlobalNamespace::StandardGameplayInstaller::__cordl_internal_set__gameplayAdditionalInformation(::GlobalNamespace::GameplayAdditionalInformationSetupData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayAdditionalInformation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::StandardGameplayInstaller::InstallBindings() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

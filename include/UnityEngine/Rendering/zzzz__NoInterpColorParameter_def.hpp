@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_showEyeDropper(bool value);
 
-  /// @brief Method .ctor, addr 0x65ae648, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66161d4, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color value, bool hdr, bool showAlpha, bool showEyeDropper, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x65ae5bc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6616148, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color value, bool overrideState);
 
 protected:
@@ -74,7 +74,7 @@ public:
   NoInterpColorParameter(NoInterpColorParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12327 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12331 };
 
   /// @brief Field hdr, offset: 0x24, size: 0x1, def value: None
   bool ___hdr;

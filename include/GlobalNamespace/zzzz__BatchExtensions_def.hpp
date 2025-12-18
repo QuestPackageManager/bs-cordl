@@ -202,7 +202,7 @@ public:
   BatchExtensions__Batch_d__0_1(BatchExtensions__Batch_d__0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18070 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18084 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -260,7 +260,7 @@ public:
   BatchExtensions(BatchExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18085 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

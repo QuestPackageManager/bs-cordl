@@ -22,7 +22,7 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE ValidationUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ArgumentNotNull, addr 0x5b1ef30, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ArgumentNotNull, addr 0x5b85a10, size 0x4c, virtual false, abstract: false, final false
   static inline void ArgumentNotNull(::System::Object* value, ::StringW parameterName);
 
 protected:
@@ -40,7 +40,7 @@ public:
   ValidationUtils(ValidationUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13441 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

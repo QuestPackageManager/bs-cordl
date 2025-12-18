@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::LiteNetLib::Utils::ParseException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x569803c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56f8ce4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -39,7 +39,7 @@ public:
   ParseException(ParseException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19850 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19877 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

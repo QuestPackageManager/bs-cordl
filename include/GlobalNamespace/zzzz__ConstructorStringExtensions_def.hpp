@@ -34,13 +34,13 @@ public:
   /// @brief Method ToConstructorString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW ToConstructorString(::System::Collections::Generic::List_1<T>* list);
 
-  /// @brief Method ToConstructorString, addr 0x31fa250, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ToConstructorString, addr 0x322ac7c, size 0x118, virtual false, abstract: false, final false
   static inline ::StringW ToConstructorString(::UnityEngine::Pose pose);
 
-  /// @brief Method ToConstructorString, addr 0x31fa0ac, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method ToConstructorString, addr 0x322aad8, size 0x1a4, virtual false, abstract: false, final false
   static inline ::StringW ToConstructorString(::UnityEngine::Quaternion quaternion);
 
-  /// @brief Method ToConstructorString, addr 0x31f9fd0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ToConstructorString, addr 0x322a9fc, size 0xdc, virtual false, abstract: false, final false
   static inline ::StringW ToConstructorString(::UnityEngine::Vector3 vector);
 
 protected:
@@ -58,7 +58,7 @@ public:
   ConstructorStringExtensions(ConstructorStringExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20679 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

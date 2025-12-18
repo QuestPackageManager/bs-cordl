@@ -37,7 +37,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x59ce41c, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x5a34d68, size 0xe0, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
   static inline ::System::Collections::CaseInsensitiveComparer* New_ctor();
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo* value);
 
-  /// @brief Method .ctor, addr 0x59ce334, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a34c80, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x59ce3a8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a34cf4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture);
 
   /// @brief Convert to "::System::Collections::IComparer"

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InternalPlatformInstaller::*)(
     ::GlobalNamespace::AppInitSetupData*, ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*)>(&::GlobalNamespace::InternalPlatformInstaller::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x364b828;
+  constexpr static std::size_t addrs = 0x367863c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InternalPlatformInstaller::*)()>(
     &::GlobalNamespace::InternalPlatformInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x364b894;
+  constexpr static std::size_t addrs = 0x36786a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InternalPlatformInstaller::*)()>(
     &::GlobalNamespace::InternalPlatformInstaller::BindAnalyticsModel)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x364b8b4;
+  constexpr static std::size_t addrs = 0x36786c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InternalPlatformInstaller*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InternalPlatformInstaller::*)()>(
     &::GlobalNamespace::InternalPlatformInstaller::BindBeatmapDataAssetFileModel)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x364ba14;
+  constexpr static std::size_t addrs = 0x3678828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InternalPlatformInstaller*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InternalPlatformInstaller::*)()>(
     &::GlobalNamespace::InternalPlatformInstaller::BindAdditionalContentModel)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x364b988;
+  constexpr static std::size_t addrs = 0x367879c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InternalPlatformInstaller*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InternalPlatformInstaller::*)()>(
     &::GlobalNamespace::InternalPlatformInstaller::BindMockPlatformAdditionalContentModel)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x364bab4;
+  constexpr static std::size_t addrs = 0x36788c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

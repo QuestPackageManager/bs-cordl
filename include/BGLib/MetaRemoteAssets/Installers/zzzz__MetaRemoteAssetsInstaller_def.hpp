@@ -25,13 +25,13 @@ public:
   /// @brief Field _appInitSetupData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__appInitSetupData, put = __cordl_internal_set__appInitSetupData)) ::GlobalNamespace::AppInitSetupData* _appInitSetupData;
 
-  /// @brief Method GetPlatform, addr 0x31f2b74, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetPlatform, addr 0x32235a0, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW GetPlatform();
 
-  /// @brief Method InstallBindings, addr 0x31f29b8, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x32233e4, size 0x1bc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method InstallRemoteCatalogLoader, addr 0x31f2bb8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InstallRemoteCatalogLoader, addr 0x32235e4, size 0xac, virtual false, abstract: false, final false
   inline void InstallRemoteCatalogLoader();
 
   static inline ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller* New_ctor();
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__appInitSetupData(::GlobalNamespace::AppInitSetupData* value);
 
-  /// @brief Method .ctor, addr 0x31f2c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3223690, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,7 +60,7 @@ public:
   MetaRemoteAssetsInstaller(MetaRemoteAssetsInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22203 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22230 };
 
   /// @brief Field _appInitSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::AppInitSetupData* ____appInitSetupData;

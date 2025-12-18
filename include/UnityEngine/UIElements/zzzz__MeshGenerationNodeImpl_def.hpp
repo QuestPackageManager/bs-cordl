@@ -64,35 +64,35 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6ba186c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c0a6f0, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6ba18d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c0a758, size 0x44, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DrawGradients, addr 0x6ba15d0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method DrawGradients, addr 0x6c0a454, size 0x10c, virtual false, abstract: false, final false
   inline void DrawGradients(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices,
                             ::UnityEngine::UIElements::VectorImage* gradientsOwner);
 
-  /// @brief Method DrawMesh, addr 0x6ba144c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method DrawMesh, addr 0x6c0a2d0, size 0xcc, virtual false, abstract: false, final false
   inline void DrawMesh(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Texture* texture,
                        bool skipAtlas);
 
-  /// @brief Method GetNode, addr 0x6ba183c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetNode, addr 0x6c0a6c0, size 0xc, virtual false, abstract: false, final false
   inline void GetNode(::ByRef<::UnityEngine::UIElements::MeshGenerationNode> node);
 
-  /// @brief Method GetParentEntry, addr 0x6ba1854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetParentEntry, addr 0x6c0a6d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Entry* GetParentEntry();
 
-  /// @brief Method GetUnsafeNode, addr 0x6ba1848, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetUnsafeNode, addr 0x6c0a6cc, size 0xc, virtual false, abstract: false, final false
   inline void GetUnsafeNode(::ByRef<::UnityEngine::UIElements::UnsafeMeshGenerationNode> node);
 
-  /// @brief Method Init, addr 0x6ba171c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6c0a5a0, size 0x9c, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::UnityEngine::UIElements::UIR::EntryRecorder* entryRecorder, bool safe);
 
   static inline ::UnityEngine::UIElements::MeshGenerationNodeImpl* New_ctor();
 
-  /// @brief Method Reset, addr 0x6ba17b8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6c0a63c, size 0x84, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -119,16 +119,16 @@ public:
 
   constexpr void __cordl_internal_set_m_SelfHandle(::System::Runtime::InteropServices::GCHandle value);
 
-  /// @brief Method .ctor, addr 0x6ba16fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c0a580, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disposed, addr 0x6ba185c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6c0a6e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x6ba1864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6c0a6e8, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

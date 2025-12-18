@@ -60,18 +60,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::ProBuilder::Poly2Tri::Triangulatable"
   constexpr operator ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*() noexcept;
 
-  /// @brief Method AddTriangle, addr 0x6492e28, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method AddTriangle, addr 0x64fa9b4, size 0xb8, virtual true, abstract: false, final true
   inline void AddTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
 
-  /// @brief Method AddTriangles, addr 0x6492ee0, size 0x334, virtual true, abstract: false, final true
+  /// @brief Method AddTriangles, addr 0x64faa6c, size 0x334, virtual true, abstract: false, final true
   inline void AddTriangles(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* list);
 
-  /// @brief Method ClearTriangles, addr 0x6493214, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method ClearTriangles, addr 0x64fada0, size 0xa8, virtual true, abstract: false, final true
   inline void ClearTriangles();
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PointSet* New_ctor(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* points);
 
-  /// @brief Method Prepare, addr 0x6492c38, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method Prepare, addr 0x64fa7c4, size 0x1c8, virtual true, abstract: false, final false
   inline void Prepare(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
 
   constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* const& __cordl_internal_get__Points_k__BackingField() const;
@@ -86,25 +86,25 @@ public:
 
   constexpr void __cordl_internal_set__Triangles_k__BackingField(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* value);
 
-  /// @brief Method .ctor, addr 0x6492a04, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64fa590, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* points);
 
-  /// @brief Method get_Points, addr 0x6492e00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Points, addr 0x64fa98c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* get_Points();
 
-  /// @brief Method get_Triangles, addr 0x6492e10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Triangles, addr 0x64fa99c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* get_Triangles();
 
-  /// @brief Method get_TriangulationMode, addr 0x6492e20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TriangulationMode, addr 0x64fa9ac, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();
 
   /// @brief Convert to "::UnityEngine::ProBuilder::Poly2Tri::Triangulatable"
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* i___UnityEngine__ProBuilder__Poly2Tri__Triangulatable() noexcept;
 
-  /// @brief Method set_Points, addr 0x6492e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Points, addr 0x64fa994, size 0x8, virtual false, abstract: false, final false
   inline void set_Points(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* value);
 
-  /// @brief Method set_Triangles, addr 0x6492e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Triangles, addr 0x64fa9a4, size 0x8, virtual false, abstract: false, final false
   inline void set_Triangles(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* value);
 
 protected:
@@ -122,7 +122,7 @@ public:
   PointSet(PointSet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21558 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21585 };
 
   /// @brief Field <Points>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* ____Points_k__BackingField;

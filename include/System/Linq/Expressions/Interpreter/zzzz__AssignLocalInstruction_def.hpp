@@ -38,24 +38,24 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
   constexpr operator ::System::Linq::Expressions::Interpreter::IBoxableInstruction*() noexcept;
 
-  /// @brief Method BoxIfIndexMatches, addr 0x5d9603c, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method BoxIfIndexMatches, addr 0x5dfdbc8, size 0x88, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(int32_t index);
 
   static inline ::System::Linq::Expressions::Interpreter::AssignLocalInstruction* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x5d95fc4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5dfdb50, size 0x78, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5d95f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dfdaf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_ConsumedStack, addr 0x5d95f70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5dfdafc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5d95f80, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5dfdb0c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5d95f78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5dfdb04, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   /// @brief Convert to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
@@ -76,7 +76,7 @@ public:
   AssignLocalInstruction(AssignLocalInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16428 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

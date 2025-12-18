@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::Rendering::Universal::StpHistory::*)(::UnityEngine::Rendering::BufferedRTHandleSystem*, uint32_t)>(&::UnityEngine::Rendering::Universal::StpHistory::OnCreate)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6658c4c;
+  constexpr static std::size_t addrs = 0x66c07d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::StpHistory::*)()>(
     &::UnityEngine::Rendering::Universal::StpHistory::Reset)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6658d00;
+  constexpr static std::size_t addrs = 0x66c088c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::STP_HistoryContext* (::UnityEngine::Rendering::Universal::StpHistory::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::StpHistory::GetHistoryContext)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6658d60;
+  constexpr static std::size_t addrs = 0x66c08ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::StpHistory::*)(::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
     &::UnityEngine::Rendering::Universal::StpHistory::Update)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6658d90;
+  constexpr static std::size_t addrs = 0x66c091c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::StpHistory::*)()>(
     &::UnityEngine::Rendering::Universal::StpHistory::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6658e5c;
+  constexpr static std::size_t addrs = 0x66c09e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::StpHistory*>::get(), ".ctor",

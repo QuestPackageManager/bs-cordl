@@ -66,7 +66,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NoteDebris_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x56c8828, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5729504, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -151,17 +151,17 @@ public:
 
   __declspec(property(get = get_didFinishEvent)) ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* didFinishEvent;
 
-  /// @brief Method Awake, addr 0x56c7db4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5728a90, size 0x9c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x56c80b4, size 0x5b8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5728d90, size 0x5b8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::ColorType colorType, ::UnityEngine::Vector3 notePos, ::UnityEngine::Quaternion noteRot, ::UnityEngine::Vector3 noteMoveVec, ::UnityEngine::Vector3 noteScale,
                    ::UnityEngine::Vector3 positionOffset, ::UnityEngine::Quaternion rotationOffset, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, ::UnityEngine::Vector3 force,
                    ::UnityEngine::Vector3 torque, float_t lifeTime, ::UnityEngine::Vector3 cutoutOffset, bool forceOnlySimplePhysics);
 
   static inline ::GlobalNamespace::NoteDebris* New_ctor();
 
-  /// @brief Method Update, addr 0x56c7e50, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5728b2c, size 0x264, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__centroidComputationMesh() const;
@@ -224,7 +224,7 @@ public:
 
   constexpr void __cordl_internal_set__physics(::UnityW<::GlobalNamespace::NoteDebrisPhysics> value);
 
-  /// @brief Method .ctor, addr 0x56c866c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5729348, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorID();
@@ -237,7 +237,7 @@ public:
 
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> getStaticF__meshVertices();
 
-  /// @brief Method get_didFinishEvent, addr 0x56c7dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x5728a88, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* get_didFinishEvent();
 
   static inline void setStaticF__colorID(int32_t value);

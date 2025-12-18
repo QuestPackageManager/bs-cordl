@@ -24,7 +24,7 @@ public:
   /// @brief Field _missionNodesManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__missionNodesManager, put = __cordl_internal_set__missionNodesManager)) ::UnityW<::GlobalNamespace::MissionNodesManager> _missionNodesManager;
 
-  /// @brief Method InstallBindings, addr 0x57e93b4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x584fd04, size 0x98, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MainMenuMissionInstaller* New_ctor();
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__missionNodesManager(::UnityW<::GlobalNamespace::MissionNodesManager> value);
 
-  /// @brief Method .ctor, addr 0x57e944c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x584fd9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

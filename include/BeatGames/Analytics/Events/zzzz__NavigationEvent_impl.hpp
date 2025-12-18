@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::Events::NavigationEvent::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
     &::BeatGames::Analytics::Events::NavigationEvent::SetEventData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3161474;
+  constexpr static std::size_t addrs = 0x319116c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::Events::NavigationEvent::*)()>(
     &::BeatGames::Analytics::Events::NavigationEvent::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3161e58;
+  constexpr static std::size_t addrs = 0x3191b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::NavigationEvent*>::get(), ".ctor",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::Events::NavigationEvent::*)()>(
     &::BeatGames::Analytics::Events::NavigationEvent::ReturnedToPool)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3161ee0;
+  constexpr static std::size_t addrs = 0x3191bd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::Events::NavigationEvent::*)()>(
     &::BeatGames::Analytics::Events::NavigationEvent::ReturnEventToPool)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3161f30;
+  constexpr static std::size_t addrs = 0x3191c28;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set_k(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3635e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36622f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW keyword, ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* eventTypes);
 
-  /// @brief Method get_eventTypes, addr 0x3635e68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventTypes, addr 0x36622ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* get_eventTypes();
 
-  /// @brief Method get_keyword, addr 0x3635e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyword, addr 0x36622e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_keyword();
 
 protected:
@@ -81,7 +81,7 @@ public:
   BasicEventTypesWithKeywords_BasicEventTypesForKeyword(BasicEventTypesWithKeywords_BasicEventTypesForKeyword const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15367 };
 
   /// @brief Field k, offset: 0x10, size: 0x8, def value: None
   ::StringW ___k;
@@ -123,10 +123,10 @@ public:
 
   constexpr void __cordl_internal_set_d(::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BasicEventTypesWithKeywords_BasicEventTypesForKeyword*>* value);
 
-  /// @brief Method .ctor, addr 0x3634688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3660b0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BasicEventTypesWithKeywords_BasicEventTypesForKeyword*>* data);
 
-  /// @brief Method get_data, addr 0x3635e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_data, addr 0x36622dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BasicEventTypesWithKeywords_BasicEventTypesForKeyword*>* get_data();
 
 protected:
@@ -144,7 +144,7 @@ public:
   BasicEventTypesWithKeywords(BasicEventTypesWithKeywords const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15368 };
 
   /// @brief Field d, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BasicEventTypesWithKeywords_BasicEventTypesForKeyword*>* ___d;

@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set_Data(::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray value);
 
-  /// @brief Method .ctor, addr 0x62b093c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63184c8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray data);
 
-  /// @brief Method get_Bits, addr 0x62b0950, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_Bits, addr 0x63184dc, size 0xa0, virtual false, abstract: false, final false
   inline ::ArrayW<bool, ::Array<bool>*> get_Bits();
 
 protected:
@@ -56,7 +56,7 @@ public:
   UnsafeBitArrayDebugView(UnsafeBitArrayDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15731 };
 
   /// @brief Field Data, offset: 0x10, size: 0x18, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray ___Data;

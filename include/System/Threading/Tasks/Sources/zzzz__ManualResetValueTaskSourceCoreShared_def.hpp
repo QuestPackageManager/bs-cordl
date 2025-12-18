@@ -27,10 +27,10 @@ public:
   /// @brief Field s_sentinel, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_sentinel, put = setStaticF_s_sentinel)) ::System::Action_1<::System::Object*>* s_sentinel;
 
-  /// @brief Method CompletionSentinel, addr 0x5ab1ea0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method CompletionSentinel, addr 0x5b187ec, size 0x48, virtual false, abstract: false, final false
   static inline void CompletionSentinel(::System::Object* _);
 
-  /// @brief Method ThrowInvalidOperationException, addr 0x5ab1e68, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidOperationException, addr 0x5b187b4, size 0x38, virtual false, abstract: false, final false
   static inline void ThrowInvalidOperationException();
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_sentinel();

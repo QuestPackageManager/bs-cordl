@@ -33,13 +33,13 @@ public:
 
   static inline ::BeatGames::Analytics::Events::NavigationEvent* New_ctor();
 
-  /// @brief Method ReturnEventToPool, addr 0x3161f30, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ReturnEventToPool, addr 0x3191c28, size 0x74, virtual true, abstract: false, final false
   inline void ReturnEventToPool();
 
-  /// @brief Method ReturnedToPool, addr 0x3161ee0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method ReturnedToPool, addr 0x3191bd8, size 0x50, virtual true, abstract: false, final false
   inline void ReturnedToPool();
 
-  /// @brief Method SetEventData, addr 0x3161474, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetEventData, addr 0x319116c, size 0xc, virtual false, abstract: false, final false
   inline void SetEventData(::StringW buttonID, ::StringW screenID, ::StringW contentID, ::StringW eventType);
 
   constexpr ::StringW const& __cordl_internal_get_button_id() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_screen_id(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3161e58, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3191b50, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   NavigationEvent(NavigationEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22982 };
 
   /// @brief Field button_id, offset: 0x78, size: 0x8, def value: None
   ::StringW ___button_id;

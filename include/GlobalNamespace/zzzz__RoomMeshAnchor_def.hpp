@@ -122,7 +122,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x581c090, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x58827f4, size 0x9c, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -137,7 +137,7 @@ public:
   constexpr RoomMeshAnchor_GetTriangleMeshCountsJob(::GlobalNamespace::OVRSpace Space, ::Unity::Collections::NativeArray_1<int32_t> Results) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21120 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21147 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -168,7 +168,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x581c12c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5882890, size 0x80, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -185,7 +185,7 @@ public:
                                               ::Unity::Collections::NativeArray_1<int32_t> Triangles) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21148 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -221,7 +221,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x581c1ac, size 0x240, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5882910, size 0x240, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -237,7 +237,7 @@ public:
                                                ::UnityEngine::Mesh_MeshData MeshData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21122 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21149 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -273,7 +273,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x581c3ec, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5882b50, size 0x6c, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -287,7 +287,7 @@ public:
   constexpr RoomMeshAnchor_BakeMeshJob(int32_t MeshID, bool Convex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21150 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -341,7 +341,7 @@ public:
                                                     ::UnityW<::GlobalNamespace::RoomMeshAnchor> __4__this, T _component_5__2, ::GlobalNamespace::OVRTask_1_Awaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21151 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -409,21 +409,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x581c474, size 0x61c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5882bd8, size 0x61c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::RoomMeshAnchor__GenerateRoomMesh_d__15* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x581cae4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5883248, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x581caec, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5883250, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x581cb24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5883288, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x581c458, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5882bbc, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -474,10 +474,10 @@ public:
 
   constexpr void __cordl_internal_set__meshDataArray_5__2(::UnityEngine::Mesh_MeshDataArray value);
 
-  /// @brief Method <>m__Finally1, addr 0x581ca90, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x58831f4, size 0x54, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x581bce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x588244c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -504,7 +504,7 @@ public:
   RoomMeshAnchor__GenerateRoomMesh_d__15(RoomMeshAnchor__GenerateRoomMesh_d__15 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21152 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -562,10 +562,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x581cb2c, size 0x59c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5883290, size 0x59c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x581d0c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x588382c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -585,7 +585,7 @@ public:
                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OVRTriangleMesh> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21153 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -672,30 +672,30 @@ public:
   /// @brief Field _triangleMeshComponent, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__triangleMeshComponent, put = __cordl_internal_set__triangleMeshComponent)) ::GlobalNamespace::OVRTriangleMesh _triangleMeshComponent;
 
-  /// @brief Method Awake, addr 0x581bad4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5882238, size 0xfc, virtual false, abstract: false, final false
   inline void Awake();
 
   /// @brief Method EnableComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::System::Threading::Tasks::Task_1<T>* EnableComponent();
 
-  /// @brief Method GenerateRoomMesh, addr 0x581bc94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GenerateRoomMesh, addr 0x58823f8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GenerateRoomMesh();
 
-  /// @brief Method Initialize, addr 0x581bbd0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5882334, size 0xc4, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::OVRAnchor anchor);
 
   /// @brief Method IsComponentEnabled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool IsComponentEnabled();
 
-  /// @brief Method IsJobDone, addr 0x581bfa0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsJobDone, addr 0x5882704, size 0x84, virtual false, abstract: false, final false
   static inline bool IsJobDone(::Unity::Jobs::JobHandle job);
 
   static inline ::GlobalNamespace::RoomMeshAnchor* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x581bf40, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58826a4, size 0x60, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method TryUpdateTransform, addr 0x581bcf0, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method TryUpdateTransform, addr 0x5882454, size 0x250, virtual false, abstract: false, final false
   inline bool TryUpdateTransform();
 
   constexpr bool const& __cordl_internal_get__IsCompleted_k__BackingField() const;
@@ -734,20 +734,20 @@ public:
 
   constexpr void __cordl_internal_set__triangleMeshComponent(::GlobalNamespace::OVRTriangleMesh value);
 
-  /// @brief Method .ctor, addr 0x581c024, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5882788, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Quaternion getStaticF_RotateY180();
 
-  /// @brief Method get_IsCompleted, addr 0x581ba64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x58821c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method get_Valid, addr 0x581ba74, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x58821d8, size 0x60, virtual false, abstract: false, final false
   inline bool get_Valid();
 
   static inline void setStaticF_RotateY180(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_IsCompleted, addr 0x581ba6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsCompleted, addr 0x58821d0, size 0x8, virtual false, abstract: false, final false
   inline void set_IsCompleted(bool value);
 
 protected:
@@ -765,7 +765,7 @@ public:
   RoomMeshAnchor(RoomMeshAnchor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21127 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21154 };
 
   /// @brief Field <IsCompleted>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsCompleted_k__BackingField;

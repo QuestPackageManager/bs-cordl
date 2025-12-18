@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::ByRef<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>, ::ByRef<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>)>(&::UnityEngine::Rendering::ProbeVolumePositioning::OBBIntersect)> {
   constexpr static std::size_t size = 0x6dc;
-  constexpr static std::size_t addrs = 0x6578254;
+  constexpr static std::size_t addrs = 0x65dfde0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::ProbeVolumePositioning::OBBContains)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6578a18;
+  constexpr static std::size_t addrs = 0x65e05a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>, ::ByRef<::UnityEngine::Bounds>,
                                                                                            ::ByRef<::UnityEngine::Bounds>)>(&::UnityEngine::Rendering::ProbeVolumePositioning::OBBAABBIntersect)> {
   constexpr static std::size_t size = 0x544;
-  constexpr static std::size_t addrs = 0x6578af0;
+  constexpr static std::size_t addrs = 0x65e067c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::ByRef<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::ProbeVolumePositioning::ProjectOBB)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6578930;
+  constexpr static std::size_t addrs = 0x65e04bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>,
                                                                                                              ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::ProbeVolumePositioning::ProjectAABB)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6579034;
+  constexpr static std::size_t addrs = 0x65e0bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -30,12 +30,12 @@ namespace UnityEngineInternal::Input {
 class CORDL_TYPE NativeUpdateCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x692f6d8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x699855c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ::UnityEngineInternal::Input::NativeInputEventBuffer* buffer);
 
   static inline ::UnityEngineInternal::Input::NativeUpdateCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x692f66c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69984f0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -53,7 +53,7 @@ public:
   NativeUpdateCallback(NativeUpdateCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22922 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

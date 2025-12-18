@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::DataContractPairKey::*)(::System::Object*, ::System::Object*)>(
     &::System::Runtime::Serialization::DataContractPairKey::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f2b48c;
+  constexpr static std::size_t addrs = 0x5f93018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContractPairKey*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContractPairKey::*)(::System::Object*)>(
     &::System::Runtime::Serialization::DataContractPairKey::Equals)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5f2ecdc;
+  constexpr static std::size_t addrs = 0x5f96868;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Serialization::DataContractPairKey::*)()>(
     &::System::Runtime::Serialization::DataContractPairKey::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5f2eda8;
+  constexpr static std::size_t addrs = 0x5f96934;
 
   inline static ::MethodInfo const* methodInfo() {
 

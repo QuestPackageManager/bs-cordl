@@ -65,32 +65,32 @@ public:
   /// @brief Field _version, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
-  /// @brief Method Decode, addr 0x588cea4, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x58f37f0, size 0x264, virtual false, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method DecodeDSA, addr 0x588d8a4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method DecodeDSA, addr 0x58f41f0, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::DSA* DecodeDSA(::ArrayW<uint8_t, ::Array<uint8_t>*> privateKey, ::System::Security::Cryptography::DSAParameters dsaParameters);
 
-  /// @brief Method DecodeRSA, addr 0x588d2d4, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method DecodeRSA, addr 0x58f3c20, size 0x3dc, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* DecodeRSA(::ArrayW<uint8_t, ::Array<uint8_t>*> keypair);
 
-  /// @brief Method Encode, addr 0x588da0c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x58f4358, size 0x12c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::System::Security::Cryptography::AsymmetricAlgorithm* aa);
 
-  /// @brief Method Encode, addr 0x588d9c0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x58f430c, size 0x4c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::System::Security::Cryptography::DSA* dsa);
 
-  /// @brief Method Encode, addr 0x588d6b0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x58f3ffc, size 0x1f4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::System::Security::Cryptography::RSA* rsa);
 
   static inline ::Mono::Security::Cryptography::PKCS8_PrivateKeyInfo* New_ctor();
 
   static inline ::Mono::Security::Cryptography::PKCS8_PrivateKeyInfo* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Normalize, addr 0x588d224, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Normalize, addr 0x58f3b70, size 0xb0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Normalize(::ArrayW<uint8_t, ::Array<uint8_t>*> bigInt, int32_t length);
 
-  /// @brief Method RemoveLeadingZero, addr 0x588d184, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method RemoveLeadingZero, addr 0x58f3ad0, size 0xa0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> RemoveLeadingZero(::ArrayW<uint8_t, ::Array<uint8_t>*> bigInt);
 
   constexpr ::StringW const& __cordl_internal_get__algorithm() const;
@@ -117,16 +117,16 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x588ce1c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f3768, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x588ce7c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f37c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_Algorithm, addr 0x588d108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x58f3a54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_PrivateKey, addr 0x588d110, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateKey, addr 0x58f3a5c, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_PrivateKey();
 
 protected:
@@ -144,7 +144,7 @@ public:
   PKCS8_PrivateKeyInfo(PKCS8_PrivateKeyInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19265 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19291 };
 
   /// @brief Field _version, offset: 0x10, size: 0x4, def value: None
   int32_t ____version;
@@ -199,7 +199,7 @@ public:
   /// @brief Field _salt, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__salt, put = __cordl_internal_set__salt)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _salt;
 
-  /// @brief Method Decode, addr 0x588db40, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x58f448c, size 0x2a0, virtual false, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Mono::Security::Cryptography::PKCS8_EncryptedPrivateKeyInfo* New_ctor();
@@ -230,22 +230,22 @@ public:
 
   constexpr void __cordl_internal_set__salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x588db38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f4484, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x588db3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f4488, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_Algorithm, addr 0x588dde0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x58f472c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_EncryptedData, addr 0x588dde8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptedData, addr 0x58f4734, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_EncryptedData();
 
-  /// @brief Method get_IterationCount, addr 0x588df10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IterationCount, addr 0x58f485c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_IterationCount();
 
-  /// @brief Method get_Salt, addr 0x588de5c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_Salt, addr 0x58f47a8, size 0xb4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Salt();
 
 protected:
@@ -263,7 +263,7 @@ public:
   PKCS8_EncryptedPrivateKeyInfo(PKCS8_EncryptedPrivateKeyInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19292 };
 
   /// @brief Field _algorithm, offset: 0x10, size: 0x8, def value: None
   ::StringW ____algorithm;
@@ -317,7 +317,7 @@ public:
   PKCS8(PKCS8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19267 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19293 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

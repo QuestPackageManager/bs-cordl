@@ -58,31 +58,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::VisibleLight>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::VisibleLight>*();
 
-  /// @brief Method Equals, addr 0x68f59b8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x695e83c, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x68f56cc, size 0x2ec, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x695e550, size 0x2ec, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::VisibleLight other);
 
-  /// @brief Method GetHashCode, addr 0x68f5a4c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x695e8d0, size 0xf8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_finalColor, addr 0x68f5694, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_finalColor, addr 0x695e518, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_finalColor();
 
-  /// @brief Method get_light, addr 0x68f55f8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_light, addr 0x695e47c, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Light> get_light();
 
-  /// @brief Method get_lightType, addr 0x68f568c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightType, addr 0x695e510, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LightType get_lightType();
 
-  /// @brief Method get_localToWorldMatrix, addr 0x68f56a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_localToWorldMatrix, addr 0x695e524, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_localToWorldMatrix();
 
-  /// @brief Method get_range, addr 0x68f56bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_range, addr 0x695e540, size 0x8, virtual false, abstract: false, final false
   inline float_t get_range();
 
-  /// @brief Method get_spotAngle, addr 0x68f56c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spotAngle, addr 0x695e548, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spotAngle();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::VisibleLight>"
@@ -100,7 +100,7 @@ public:
                          float_t m_SpotAngle, int32_t m_InstanceId, ::UnityEngine::Rendering::VisibleLightFlags m_Flags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10821 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x74 };

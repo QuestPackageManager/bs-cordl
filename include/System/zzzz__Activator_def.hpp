@@ -33,29 +33,29 @@ namespace System {
 class CORDL_TYPE Activator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateInstance, addr 0x5a5bfa0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x5ac28ec, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type);
 
-  /// @brief Method CreateInstance, addr 0x5a5bf70, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x5ac28bc, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method CreateInstance, addr 0x5a5bf88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x5ac28d4, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args,
                                                  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes);
 
-  /// @brief Method CreateInstance, addr 0x5a5b3a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x5ac1cf0, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder,
                                                  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method CreateInstance, addr 0x5a5b3ac, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x5ac1cf8, size 0x1d8, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder,
                                                  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::Globalization::CultureInfo* culture,
                                                  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes);
 
-  /// @brief Method CreateInstance, addr 0x5a5bfac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x5ac28f8, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, bool nonPublic);
 
-  /// @brief Method CreateInstance, addr 0x5a5bfb4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x5ac2900, size 0x174, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, bool nonPublic, bool wrapExceptions);
 
   /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

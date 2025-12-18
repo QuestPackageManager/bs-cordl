@@ -38,18 +38,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Destroy, addr 0x5641344, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x56a6308, size 0x4, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Dispose, addr 0x564143c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x56a6400, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::DefaultUnityXRHapticsHandler* New_ctor(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method StopHaptics, addr 0x56413c0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method StopHaptics, addr 0x56a6384, size 0x7c, virtual true, abstract: false, final true
   inline void StopHaptics();
 
-  /// @brief Method TriggerHapticPulse, addr 0x5641348, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method TriggerHapticPulse, addr 0x56a630c, size 0x78, virtual true, abstract: false, final true
   inline void TriggerHapticPulse(float_t strength, float_t duration);
 
   constexpr ::UnityEngine::XR::XRNode const& __cordl_internal_get__node() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__node(::UnityEngine::XR::XRNode value);
 
-  /// @brief Method .ctor, addr 0x564133c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56a6300, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::XRNode node);
 
   /// @brief Convert to "::GlobalNamespace::IUnityXRHapticsHandler"
@@ -82,7 +82,7 @@ public:
   DefaultUnityXRHapticsHandler(DefaultUnityXRHapticsHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20306 };
 
   /// @brief Field _node, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::XR::XRNode ____node;

@@ -29,13 +29,13 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem* New_ctor();
 
-  /// @brief Method OnPointerClick, addr 0x58458b8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x58ac01c, size 0x28, virtual true, abstract: false, final false
   inline void OnPointerClick();
 
-  /// @brief Method RegisterDropdownSourceMenu, addr 0x58458b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RegisterDropdownSourceMenu, addr 0x58ac014, size 0x8, virtual false, abstract: false, final false
   inline void RegisterDropdownSourceMenu(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown* dropdown);
 
-  /// @brief Method Setup, addr 0x5845788, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x58abeec, size 0x128, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown> const& __cordl_internal_get__dropdown() const;
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__dropdown(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown> value);
 
-  /// @brief Method .ctor, addr 0x58458e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ac044, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -62,7 +62,7 @@ public:
   DropdownMenuItem(DropdownMenuItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18363 };
 
   /// @brief Field _dropdown, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown> ____dropdown;

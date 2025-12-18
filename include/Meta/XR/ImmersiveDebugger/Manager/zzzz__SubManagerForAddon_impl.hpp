@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel*, ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache*)>(&::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5850b68;
+  constexpr static std::size_t addrs = 0x58b72cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::*)(::System::Type*)>(
     &::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::ProcessType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5850b70;
+  constexpr static std::size_t addrs = 0x58b72d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Type*, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle, ::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::DebugMember*)>(
     &::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::ProcessTypeFromInspector)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x5850ba8;
+  constexpr static std::size_t addrs = 0x58b730c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::*)(
     ::Meta::XR::ImmersiveDebugger::Hierarchy::Item*, ::System::Reflection::MemberInfo*)>(&::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::ProcessTypeFromHierarchy)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x5850ec8;
+  constexpr static std::size_t addrs = 0x58b762c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::*)(::System::Type*)>(
     &::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::GetCountPerType)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5851218;
+  constexpr static std::size_t addrs = 0x58b797c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::*)()>(
     &::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x58512b0;
+  constexpr static std::size_t addrs = 0x58b7a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

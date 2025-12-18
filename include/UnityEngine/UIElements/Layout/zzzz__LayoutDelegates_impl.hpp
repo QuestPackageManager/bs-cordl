@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::UIElements::Layout::LayoutNode>, float_t, ::UnityEngine::UIElements::Layout::LayoutMeasureMode, float_t, ::UnityEngine::UIElements::Layout::LayoutMeasureMode,
     ::ByRef<::System::IntPtr>, ::ByRef<::UnityEngine::UIElements::Layout::LayoutSize>)>(&::UnityEngine::UIElements::Layout::LayoutDelegates::InvokeMeasureFunction)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x6acdf60;
+  constexpr static std::size_t addrs = 0x6b36de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::ByRef<::UnityEngine::UIElements::Layout::LayoutNode>, float_t, float_t)>(
     &::UnityEngine::UIElements::Layout::LayoutDelegates::InvokeBaselineFunction)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6ace1f4;
+  constexpr static std::size_t addrs = 0x6b37078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -57,13 +57,13 @@ public:
 
   static inline ::GlobalNamespace::SetApplicationVersionText* New_ctor();
 
-  /// @brief Method SetText, addr 0x5798aa8, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x57ff350, size 0x300, virtual false, abstract: false, final false
   inline void SetText(::BeatSaber::Init::GameVersion* gameVersion);
 
-  /// @brief Method Start, addr 0x5798994, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x57ff23c, size 0x114, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToggleVersionColor, addr 0x5798da8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ToggleVersionColor, addr 0x57ff650, size 0x94, virtual false, abstract: false, final false
   inline void ToggleVersionColor();
 
   constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__buildIdText() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__versionText(::UnityW<::TMPro::TextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x5798e3c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57ff6e4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

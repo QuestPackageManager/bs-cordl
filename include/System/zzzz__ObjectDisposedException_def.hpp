@@ -32,7 +32,7 @@ public:
   /// @brief Field _objectName, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__objectName, put = __cordl_internal_set__objectName)) ::StringW _objectName;
 
-  /// @brief Method GetObjectData, addr 0x5a40f80, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x5aa78cc, size 0xc8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::ObjectDisposedException* New_ctor();
@@ -49,22 +49,22 @@ public:
 
   constexpr void __cordl_internal_set__objectName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5a40df0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa773c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5a40ef0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa783c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5a40e84, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa77d0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectName);
 
-  /// @brief Method .ctor, addr 0x5a40e50, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa779c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectName, ::StringW message);
 
-  /// @brief Method get_Message, addr 0x5a410a4, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x5aa79f0, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_ObjectName, addr 0x5a41048, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectName, addr 0x5aa7994, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_ObjectName();
 
 protected:

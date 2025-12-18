@@ -25,25 +25,25 @@ public:
   // Declarations
   __declspec(property(get = get_value, put = set_value)) int32_t value;
 
-  /// @brief Method GetMask, addr 0x68b077c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetMask, addr 0x6919600, size 0xcc, virtual false, abstract: false, final false
   static inline int32_t GetMask(::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
 
-  /// @brief Method NameToLayer, addr 0x68b0614, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method NameToLayer, addr 0x6919498, size 0x12c, virtual false, abstract: false, final false
   static inline int32_t NameToLayer(::StringW layerName);
 
-  /// @brief Method NameToLayer_Injected, addr 0x68b0740, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method NameToLayer_Injected, addr 0x69195c4, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t NameToLayer_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> layerName);
 
-  /// @brief Method get_value, addr 0x68b0604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x6919488, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
-  /// @brief Method op_Implicit, addr 0x68b0600, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6919484, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask op_Implicit___UnityEngine__LayerMask(int32_t intVal);
 
-  /// @brief Method op_Implicit, addr 0x68b05fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6919480, size 0x4, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::LayerMask mask);
 
-  /// @brief Method set_value, addr 0x68b060c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x6919490, size 0x8, virtual false, abstract: false, final false
   inline void set_value(int32_t value);
 
   // Ctor Parameters []
@@ -54,7 +54,7 @@ public:
   constexpr LayerMask(int32_t m_Mask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10330 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

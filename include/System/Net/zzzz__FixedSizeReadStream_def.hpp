@@ -49,10 +49,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x6213858, size 0x360, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x627b3e4, size 0x360, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x6213bb8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x627b744, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -73,7 +73,7 @@ public:
                                                        ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11561 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11565 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -143,7 +143,7 @@ public:
 
   static inline ::System::Net::FixedSizeReadStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, int64_t contentLength);
 
-  /// @brief Method ProcessReadAsync, addr 0x6213744, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ProcessReadAsync, addr 0x627b2d0, size 0x114, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
@@ -159,10 +159,10 @@ public:
 
   constexpr void __cordl_internal_set_position(int64_t value);
 
-  /// @brief Method .ctor, addr 0x621371c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x627b2a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, int64_t contentLength);
 
-  /// @brief Method get_ContentLength, addr 0x6213714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentLength, addr 0x627b2a0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ContentLength();
 
 protected:
@@ -180,7 +180,7 @@ public:
   FixedSizeReadStream(FixedSizeReadStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11562 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11566 };
 
   /// @brief Field <ContentLength>k__BackingField, offset: 0x40, size: 0x8, def value: None
   int64_t ____ContentLength_k__BackingField;

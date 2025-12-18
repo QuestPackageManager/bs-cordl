@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method .ctor, addr 0x57decdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58455c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_saberType, addr 0x57decd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_saberType, addr 0x58455b8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SaberType get_saberType();
 
 protected:

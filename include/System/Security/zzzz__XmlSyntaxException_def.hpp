@@ -34,16 +34,16 @@ public:
 
   static inline ::System::Security::XmlSyntaxException* New_ctor(int32_t lineNumber, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x58d7908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593e254, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x58d7920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593e26c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x58d7910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593e25c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNumber);
 
-  /// @brief Method .ctor, addr 0x58d7918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593e264, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNumber, ::StringW message);
 
 protected:

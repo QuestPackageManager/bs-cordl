@@ -22,7 +22,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE Notifications : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MarkAsRead, addr 0x5bd5754, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method MarkAsRead, addr 0x5c3c234, size 0x154, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* MarkAsRead(uint64_t notificationID);
 
 protected:
@@ -40,7 +40,7 @@ public:
   Notifications(Notifications const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17932 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

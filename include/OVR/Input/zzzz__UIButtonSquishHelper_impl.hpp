@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::Input::UIButtonSquishHelper::*)()>(&::OVR::Input::UIButtonSquishHelper::Start)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5c34954;
+  constexpr static std::size_t addrs = 0x5c9b434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::Input::UIButtonSquishHelper*>::get(), "Start",
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::Input::UIButtonSquishHelper::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::OVR::Input::UIButtonSquishHelper::OnPointerEnter)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5c349cc;
+  constexpr static std::size_t addrs = 0x5c9b4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::Input::UIButtonSquishHelper::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::OVR::Input::UIButtonSquishHelper::OnPointerDown)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5c34a90;
+  constexpr static std::size_t addrs = 0x5c9b570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::Input::UIButtonSquishHelper::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::OVR::Input::UIButtonSquishHelper::OnPointerExit)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5c34b54;
+  constexpr static std::size_t addrs = 0x5c9b634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::Input::UIButtonSquishHelper::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::OVR::Input::UIButtonSquishHelper::OnPointerUp)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5c34bf8;
+  constexpr static std::size_t addrs = 0x5c9b6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::Input::UIButtonSquishHelper::*)()>(&::OVR::Input::UIButtonSquishHelper::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c34c9c;
+  constexpr static std::size_t addrs = 0x5c9b77c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::Input::UIButtonSquishHelper*>::get(), ".ctor",

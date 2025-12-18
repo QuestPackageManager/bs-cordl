@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalPostProcessingData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalPostProcessingData::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6656d28;
+  constexpr static std::size_t addrs = 0x66be8b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalPostProcessingData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalPostProcessingData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6656d38;
+  constexpr static std::size_t addrs = 0x66be8c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

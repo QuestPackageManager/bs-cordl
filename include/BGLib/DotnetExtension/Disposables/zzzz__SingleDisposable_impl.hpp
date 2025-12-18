@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IDisposable* (::BGLib::DotnetExtension::Disposables::SingleDisposable::*)()>(
     &::BGLib::DotnetExtension::Disposables::SingleDisposable::get_disposable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31e8c70;
+  constexpr static std::size_t addrs = 0x321964c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::Disposables::SingleDisposable*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::DotnetExtension::Disposables::SingleDisposable::*)(::System::IDisposable*)>(
     &::BGLib::DotnetExtension::Disposables::SingleDisposable::set_disposable)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x31e8c78;
+  constexpr static std::size_t addrs = 0x3219654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::DotnetExtension::Disposables::SingleDisposable::*)()>(
     &::BGLib::DotnetExtension::Disposables::SingleDisposable::Dispose)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x31e8d2c;
+  constexpr static std::size_t addrs = 0x3219708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::Disposables::SingleDisposable*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::DotnetExtension::Disposables::SingleDisposable::*)()>(
     &::BGLib::DotnetExtension::Disposables::SingleDisposable::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x31e8dd8;
+  constexpr static std::size_t addrs = 0x32197b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::Disposables::SingleDisposable*>::get(),

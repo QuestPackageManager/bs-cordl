@@ -118,42 +118,42 @@ public:
 
   __declspec(property(get = get_useScaling, put = set_useScaling)) bool useScaling;
 
-  /// @brief Method ClearCustomHandleProperties, addr 0x658c360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearCustomHandleProperties, addr 0x65f3eec, size 0x8, virtual false, abstract: false, final false
   inline void ClearCustomHandleProperties();
 
-  /// @brief Method CopyToFastMemory, addr 0x658cc58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyToFastMemory, addr 0x65f47e4, size 0x8, virtual false, abstract: false, final false
   inline void CopyToFastMemory(::UnityEngine::Rendering::CommandBuffer* cmd, float_t residencyFraction, ::UnityEngine::Rendering::FastMemoryFlags flags);
 
-  /// @brief Method GetInstanceID, addr 0x658c570, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceID, addr 0x65f40fc, size 0xcc, virtual false, abstract: false, final false
   inline int32_t GetInstanceID();
 
-  /// @brief Method GetScaledSize, addr 0x658c9d0, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method GetScaledSize, addr 0x65f455c, size 0x200, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int GetScaledSize();
 
-  /// @brief Method GetScaledSize, addr 0x658c7d0, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method GetScaledSize, addr 0x65f435c, size 0x200, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int GetScaledSize(::UnityEngine::Vector2Int refSize);
 
   static inline ::UnityEngine::Rendering::RTHandle* New_ctor(::UnityEngine::Rendering::RTHandleSystem* owner);
 
-  /// @brief Method Release, addr 0x658c63c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x65f41c8, size 0xa4, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method SetCustomHandleProperties, addr 0x658c340, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetCustomHandleProperties, addr 0x65f3ecc, size 0x20, virtual false, abstract: false, final false
   inline void SetCustomHandleProperties(::ByRef<::UnityEngine::Rendering::RTHandleProperties> properties);
 
-  /// @brief Method SetRenderTexture, addr 0x658c4dc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTexture, addr 0x65f4068, size 0x4c, virtual false, abstract: false, final false
   inline void SetRenderTexture(::UnityEngine::RenderTexture* rt, bool transferOwnership);
 
-  /// @brief Method SetTexture, addr 0x658c2f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetTexture, addr 0x65f3e80, size 0x1c, virtual false, abstract: false, final false
   inline void SetTexture(::UnityEngine::Rendering::RenderTargetIdentifier tex);
 
-  /// @brief Method SetTexture, addr 0x658c528, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetTexture, addr 0x65f40b4, size 0x48, virtual false, abstract: false, final false
   inline void SetTexture(::UnityEngine::Texture* tex);
 
-  /// @brief Method SwitchOutFastMemory, addr 0x658cc60, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SwitchOutFastMemory, addr 0x65f47ec, size 0x5c, virtual false, abstract: false, final false
   inline void SwitchOutFastMemory(::UnityEngine::Rendering::CommandBuffer* cmd, bool copyContents);
 
-  /// @brief Method SwitchToFastMemory, addr 0x658cbd0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SwitchToFastMemory, addr 0x65f475c, size 0x88, virtual false, abstract: false, final false
   inline void SwitchToFastMemory(::UnityEngine::Rendering::CommandBuffer* cmd, float_t residencyFraction, ::UnityEngine::Rendering::FastMemoryFlags flags, bool copyContents);
 
   constexpr ::UnityEngine::Vector2Int const& __cordl_internal_get__referenceSize_k__BackingField() const;
@@ -246,52 +246,52 @@ public:
 
   constexpr void __cordl_internal_set_scaleFunc(::UnityEngine::Rendering::ScaleFunc* value);
 
-  /// @brief Method .ctor, addr 0x658c40c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65f3f98, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RTHandleSystem* owner);
 
-  /// @brief Method get_externalTexture, addr 0x658c3dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_externalTexture, addr 0x65f3f68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_externalTexture();
 
-  /// @brief Method get_isMSAAEnabled, addr 0x658c404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isMSAAEnabled, addr 0x65f3f90, size 0x8, virtual false, abstract: false, final false
   inline bool get_isMSAAEnabled();
 
-  /// @brief Method get_name, addr 0x658c3fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x65f3f88, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_nameID, addr 0x658c3e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_nameID, addr 0x65f3f70, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier get_nameID();
 
-  /// @brief Method get_referenceSize, addr 0x658c388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_referenceSize, addr 0x65f3f14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int get_referenceSize();
 
-  /// @brief Method get_rt, addr 0x658c3d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rt, addr 0x65f3f60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_rt();
 
-  /// @brief Method get_rtHandleProperties, addr 0x658c398, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rtHandleProperties, addr 0x65f3f24, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandleProperties get_rtHandleProperties();
 
-  /// @brief Method get_scaleFactor, addr 0x658c368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scaleFactor, addr 0x65f3ef4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_scaleFactor();
 
-  /// @brief Method get_useScaling, addr 0x658c378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useScaling, addr 0x65f3f04, size 0x8, virtual false, abstract: false, final false
   inline bool get_useScaling();
 
-  /// @brief Method op_Implicit, addr 0x658c41c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x65f3fa8, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(::UnityEngine::Rendering::RTHandle* handle);
 
-  /// @brief Method op_Implicit, addr 0x658c4d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x65f405c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> op_Implicit___UnityW___UnityEngine__RenderTexture_(::UnityEngine::Rendering::RTHandle* handle);
 
-  /// @brief Method op_Implicit, addr 0x658c448, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x65f3fd4, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture> op_Implicit___UnityW___UnityEngine__Texture_(::UnityEngine::Rendering::RTHandle* handle);
 
-  /// @brief Method set_referenceSize, addr 0x658c390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_referenceSize, addr 0x65f3f1c, size 0x8, virtual false, abstract: false, final false
   inline void set_referenceSize(::UnityEngine::Vector2Int value);
 
-  /// @brief Method set_scaleFactor, addr 0x658c370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scaleFactor, addr 0x65f3efc, size 0x8, virtual false, abstract: false, final false
   inline void set_scaleFactor(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_useScaling, addr 0x658c380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useScaling, addr 0x65f3f0c, size 0x8, virtual false, abstract: false, final false
   inline void set_useScaling(bool value);
 
 protected:
@@ -309,7 +309,7 @@ public:
   RTHandle(RTHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12212 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12216 };
 
   /// @brief Field m_Owner, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::RTHandleSystem* ___m_Owner;

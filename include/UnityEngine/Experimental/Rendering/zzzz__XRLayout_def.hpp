@@ -34,24 +34,24 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ActivePasses, put = __cordl_internal_set_m_ActivePasses)) ::System::Collections::Generic::List_1<
       ::System::ValueTuple_2<::UnityW<::UnityEngine::Camera>, ::UnityEngine::Experimental::Rendering::XRPass*>>* m_ActivePasses;
 
-  /// @brief Method AddCamera, addr 0x65274cc, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method AddCamera, addr 0x658f058, size 0x1b8, virtual false, abstract: false, final false
   inline void AddCamera(::UnityEngine::Camera* camera, bool enableXR);
 
-  /// @brief Method AddPass, addr 0x6527cb4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method AddPass, addr 0x658f840, size 0xe0, virtual false, abstract: false, final false
   inline void AddPass(::UnityEngine::Camera* camera, ::UnityEngine::Experimental::Rendering::XRPass* xrPass);
 
-  /// @brief Method Clear, addr 0x65280f0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x658fc7c, size 0x144, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetActivePasses, addr 0x65280e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetActivePasses, addr 0x658fc74, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Camera>, ::UnityEngine::Experimental::Rendering::XRPass*>>* GetActivePasses();
 
-  /// @brief Method LogDebugInfo, addr 0x6528234, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method LogDebugInfo, addr 0x658fdc0, size 0x44c, virtual false, abstract: false, final false
   inline void LogDebugInfo();
 
   static inline ::UnityEngine::Experimental::Rendering::XRLayout* New_ctor();
 
-  /// @brief Method ReconfigurePass, addr 0x6527d94, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ReconfigurePass, addr 0x658f920, size 0x9c, virtual false, abstract: false, final false
   inline void ReconfigurePass(::UnityEngine::Experimental::Rendering::XRPass* xrPass, ::UnityEngine::Camera* camera);
 
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Camera>, ::UnityEngine::Experimental::Rendering::XRPass*>>* const&
@@ -62,7 +62,7 @@ public:
   constexpr void
   __cordl_internal_set_m_ActivePasses(::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Camera>, ::UnityEngine::Experimental::Rendering::XRPass*>>* value);
 
-  /// @brief Method .ctor, addr 0x65287c4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6590350, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,7 +80,7 @@ public:
   XRLayout(XRLayout const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11824 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11828 };
 
   /// @brief Field m_ActivePasses, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Camera>, ::UnityEngine::Experimental::Rendering::XRPass*>>* ___m_ActivePasses;

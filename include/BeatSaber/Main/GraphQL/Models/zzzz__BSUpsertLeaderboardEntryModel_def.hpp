@@ -39,13 +39,13 @@ public:
 
   constexpr void __cordl_internal_set__ClientMutationId_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x319bd08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cbb84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ClientMutationId, addr 0x319bd00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClientMutationId, addr 0x31cbb7c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ClientMutationId();
 
-  /// @brief Method set_ClientMutationId, addr 0x319bcf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ClientMutationId, addr 0x31cbb74, size 0x8, virtual false, abstract: false, final false
   inline void set_ClientMutationId(::StringW value);
 
 protected:
@@ -63,7 +63,7 @@ public:
   BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel(BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20906 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20931 };
 
   /// @brief Field <ClientMutationId>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____ClientMutationId_k__BackingField;
@@ -105,13 +105,13 @@ public:
   constexpr void __cordl_internal_set__XocBeatGamesBeatmapLeaderboardEntryUpsert_k__BackingField(
       ::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel* value);
 
-  /// @brief Method .ctor, addr 0x319bcf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cbb70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_XocBeatGamesBeatmapLeaderboardEntryUpsert, addr 0x319bcec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XocBeatGamesBeatmapLeaderboardEntryUpsert, addr 0x31cbb68, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel* get_XocBeatGamesBeatmapLeaderboardEntryUpsert();
 
-  /// @brief Method set_XocBeatGamesBeatmapLeaderboardEntryUpsert, addr 0x319bce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XocBeatGamesBeatmapLeaderboardEntryUpsert, addr 0x31cbb60, size 0x8, virtual false, abstract: false, final false
   inline void set_XocBeatGamesBeatmapLeaderboardEntryUpsert(::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel* value);
 
 protected:
@@ -129,7 +129,7 @@ public:
   BSUpsertLeaderboardEntryModel(BSUpsertLeaderboardEntryModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20932 };
 
   /// @brief Field <XocBeatGamesBeatmapLeaderboardEntryUpsert>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel_XocBeatGamesBeatmapLeaderboardEntryUpsertModel* ____XocBeatGamesBeatmapLeaderboardEntryUpsert_k__BackingField;

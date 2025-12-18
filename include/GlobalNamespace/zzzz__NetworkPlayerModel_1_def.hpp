@@ -28,7 +28,7 @@ namespace GlobalNamespace {
 class IAuthenticationTokenProvider;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
 template <typename T> class IConnectionInitParams_1;
@@ -156,7 +156,7 @@ class CORDL_TYPE NetworkPlayerModel_1_NetworkPlayer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _connectedPlayer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* _connectedPlayer;
 
   /// @brief Field _playerModel, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__playerModel, put = __cordl_internal_set__playerModel)) ::UnityW<T> _playerModel;
@@ -175,7 +175,7 @@ public:
 
   __declspec(property(get = get_configuration)) ::GlobalNamespace::GameplayServerConfiguration configuration;
 
-  __declspec(property(get = get_connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
+  __declspec(property(get = get_connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer;
 
   __declspec(property(get = get_currentPartySize)) int32_t currentPartySize;
 
@@ -218,7 +218,8 @@ public:
   /// @brief Method Leave, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Leave();
 
-  static inline ::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* New_ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+  static inline ::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* New_ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel,
+                                                                                   ::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
 
   /// @brief Method SendInviteResponse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SendInviteResponse(bool accept);
@@ -229,20 +230,20 @@ public:
   /// @brief Method Unblock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Unblock();
 
-  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
   constexpr ::UnityW<T> const& __cordl_internal_get__playerModel() const;
 
   constexpr ::UnityW<T>& __cordl_internal_get__playerModel();
 
-  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
   constexpr void __cordl_internal_set__playerModel(::UnityW<T> value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+  inline void _ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel, ::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
 
   /// @brief Method get_canBlock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_canBlock();
@@ -266,7 +267,7 @@ public:
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
   /// @brief Method get_connectedPlayer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::IConnectedPlayer* get_connectedPlayer();
+  inline ::GlobalNamespace::IBeatSaberConnectedPlayer* get_connectedPlayer();
 
   /// @brief Method get_currentPartySize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_currentPartySize();
@@ -316,13 +317,13 @@ public:
   NetworkPlayerModel_1_NetworkPlayer(NetworkPlayerModel_1_NetworkPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21231 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21258 };
 
   /// @brief Field _playerModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<T> ____playerModel;
 
   /// @brief Field _connectedPlayer, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
+  ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -381,7 +382,7 @@ public:
   NetworkPlayerModel_1_JoinMatchmakingPartyConfig(NetworkPlayerModel_1_JoinMatchmakingPartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21259 };
 
   /// @brief Field secret, offset: 0x58, size: 0x8, def value: None
   ::StringW ___secret;
@@ -428,7 +429,7 @@ public:
   NetworkPlayerModel_1_StartClientPartyConfig(NetworkPlayerModel_1_StartClientPartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21260 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -481,7 +482,7 @@ public:
 
   __declspec(property(get = get_configuration)) ::GlobalNamespace::GameplayServerConfiguration configuration;
 
-  __declspec(property(get = get_connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
+  __declspec(property(get = get_connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer;
 
   __declspec(property(get = get_currentPartySize)) int32_t currentPartySize;
 
@@ -609,7 +610,7 @@ public:
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
   /// @brief Method get_connectedPlayer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::IConnectedPlayer* get_connectedPlayer();
+  inline ::GlobalNamespace::IBeatSaberConnectedPlayer* get_connectedPlayer();
 
   /// @brief Method get_currentPartySize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_currentPartySize();
@@ -656,7 +657,7 @@ public:
   NetworkPlayerModel_1_NetworkServer(NetworkPlayerModel_1_NetworkServer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21261 };
 
   /// @brief Field _playerModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<T> ____playerModel;
@@ -726,7 +727,7 @@ public:
   NetworkPlayerModel_1___c(NetworkPlayerModel_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21235 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21262 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -803,7 +804,7 @@ public:
   NetworkPlayerModel_1___c__DisplayClass62_0(NetworkPlayerModel_1___c__DisplayClass62_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21236 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21263 };
 
   /// @brief Field clearCurrentList, offset: 0x10, size: 0x1, def value: None
   bool ___clearCurrentList;
@@ -955,7 +956,7 @@ public:
   NetworkPlayerModel_1__GetOtherPlayers_d__61(NetworkPlayerModel_1__GetOtherPlayers_d__61 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21237 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21264 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1105,7 +1106,7 @@ public:
   NetworkPlayerModel_1__GetPartyPlayers_d__60(NetworkPlayerModel_1__GetPartyPlayers_d__60 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21238 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21265 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1273,16 +1274,16 @@ public:
   static inline ::GlobalNamespace::NetworkPlayerModel_1<T>* New_ctor();
 
   /// @brief Method PlayerConnected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void PlayerConnected(::GlobalNamespace::IConnectedPlayer* player);
+  inline void PlayerConnected(::GlobalNamespace::IBeatSaberConnectedPlayer* player);
 
   /// @brief Method PlayerDisconnected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void PlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
+  inline void PlayerDisconnected(::GlobalNamespace::IBeatSaberConnectedPlayer* player);
 
   /// @brief Method PlayerOrderChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void PlayerOrderChanged(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+  inline void PlayerOrderChanged(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
 
   /// @brief Method PlayerStateChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void PlayerStateChanged(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+  inline void PlayerStateChanged(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
 
   /// @brief Method Refresh, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Refresh();
@@ -1475,7 +1476,7 @@ public:
   NetworkPlayerModel_1(NetworkPlayerModel_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21266 };
 
   /// @brief Field kMockedPlatformKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kMockedPlatformKey{ u"mock" };

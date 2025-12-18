@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout>, ::ByRef<::UnityEngine::Rendering::CullingResults>)>(
     &::UnityEngine::Rendering::Universal::ShadowCulling::CullShadowCasters)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x669b190;
+  constexpr static std::size_t addrs = 0x6702d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::ShadowCastersCullingInfos>, ::ByRef<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::URPLightShadowCullingInfos>>)>(
     &::UnityEngine::Rendering::Universal::ShadowCulling::ComputeShadowCasterCullingInfos)> {
   constexpr static std::size_t size = 0x84c;
-  constexpr static std::size_t addrs = 0x669b274;
+  constexpr static std::size_t addrs = 0x6702e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::BatchCullingProjectionType (*)(::UnityEngine::LightType)>(
     &::UnityEngine::Rendering::Universal::ShadowCulling::GetCullingProjectionType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x669befc;
+  constexpr static std::size_t addrs = 0x6703a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

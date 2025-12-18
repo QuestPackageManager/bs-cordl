@@ -41,16 +41,16 @@ public:
   /// @brief Field _weightMultiplier, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__weightMultiplier, put = __cordl_internal_set__weightMultiplier)) float_t _weightMultiplier;
 
-  /// @brief Method CalculateBadgeData, addr 0x360ab8c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method CalculateBadgeData, addr 0x3635adc, size 0x14, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                           ::GlobalNamespace::PlayerDataModel* playerDataModel, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                           float_t randomMultiplier);
 
-  /// @brief Method CalculateMax, addr 0x360aba0, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method CalculateMax, addr 0x3635af0, size 0x560, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateMax(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                     float_t randomMultiplier);
 
-  /// @brief Method CalculateMin, addr 0x360b100, size 0x56c, virtual false, abstract: false, final false
+  /// @brief Method CalculateMin, addr 0x3636050, size 0x56c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateMin(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                     float_t randomMultiplier);
 
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__weightMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x360ab7c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3635acc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +89,7 @@ public:
   MultiplayerBadgeDataMinMaxFloatSO(MultiplayerBadgeDataMinMaxFloatSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15057 };
 
   /// @brief Field _minMax, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerBadgeMinMax ____minMax;

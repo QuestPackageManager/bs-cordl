@@ -57,7 +57,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method WithButton, addr 0x6390018, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WithButton, addr 0x63f7ba4, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::PenState WithButton(::UnityEngine::InputSystem::PenButton button, bool state);
 
   constexpr uint16_t const& __cordl_internal_get_buttons() const;
@@ -102,10 +102,10 @@ public:
 
   constexpr void __cordl_internal_set_twist(float_t value);
 
-  /// @brief Method get_Format, addr 0x639000c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x63f7b98, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_format, addr 0x639004c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x63f7bd8, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -226,7 +226,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8978 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };

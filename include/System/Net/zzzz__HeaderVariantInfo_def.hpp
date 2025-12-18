@@ -27,13 +27,13 @@ public:
 
   __declspec(property(get = get_Variant)) ::System::Net::CookieVariant Variant;
 
-  /// @brief Method .ctor, addr 0x61ffbe0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x626776c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::CookieVariant variant);
 
-  /// @brief Method get_Name, addr 0x61ffbec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6267778, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Variant, addr 0x61ffbf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Variant, addr 0x6267780, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::CookieVariant get_Variant();
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
   constexpr HeaderVariantInfo(::StringW m_name, ::System::Net::CookieVariant m_variant) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11524 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11528 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

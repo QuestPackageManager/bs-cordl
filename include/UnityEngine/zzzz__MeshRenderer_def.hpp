@@ -31,42 +31,42 @@ public:
 
   __declspec(property(get = get_subMeshStartIndex)) int32_t subMeshStartIndex;
 
-  /// @brief Method DontStripMeshRenderer, addr 0x6873e0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DontStripMeshRenderer, addr 0x68db984, size 0x4, virtual false, abstract: false, final false
   inline void DontStripMeshRenderer();
 
   static inline ::UnityEngine::MeshRenderer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x68743ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68dbf64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_additionalVertexStreams, addr 0x6873e10, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_additionalVertexStreams, addr 0x68db988, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_additionalVertexStreams();
 
-  /// @brief Method get_additionalVertexStreams_Injected, addr 0x6873f60, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_additionalVertexStreams_Injected, addr 0x68dbad8, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_additionalVertexStreams_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_enlightenVertexStream, addr 0x68740a0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_enlightenVertexStream, addr 0x68dbc18, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_enlightenVertexStream();
 
-  /// @brief Method get_enlightenVertexStream_Injected, addr 0x68741f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enlightenVertexStream_Injected, addr 0x68dbd68, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_enlightenVertexStream_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_subMeshStartIndex, addr 0x6874330, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_subMeshStartIndex, addr 0x68dbea8, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_subMeshStartIndex();
 
-  /// @brief Method get_subMeshStartIndex_Injected, addr 0x68743b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_subMeshStartIndex_Injected, addr 0x68dbf28, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_subMeshStartIndex_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_additionalVertexStreams, addr 0x6873f9c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_additionalVertexStreams, addr 0x68dbb14, size 0xc0, virtual false, abstract: false, final false
   inline void set_additionalVertexStreams(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_additionalVertexStreams_Injected, addr 0x687405c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_additionalVertexStreams_Injected, addr 0x68dbbd4, size 0x44, virtual false, abstract: false, final false
   static inline void set_additionalVertexStreams_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
-  /// @brief Method set_enlightenVertexStream, addr 0x687422c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_enlightenVertexStream, addr 0x68dbda4, size 0xc0, virtual false, abstract: false, final false
   inline void set_enlightenVertexStream(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_enlightenVertexStream_Injected, addr 0x68742ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enlightenVertexStream_Injected, addr 0x68dbe64, size 0x44, virtual false, abstract: false, final false
   static inline void set_enlightenVertexStream_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
 protected:
@@ -84,7 +84,7 @@ public:
   MeshRenderer(MeshRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10191 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -111,7 +111,7 @@ public:
   static ::Unity::Properties::PropertyCollection_1_EnumeratorType<TContainer> const List;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19385 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -199,7 +199,7 @@ public:
                                             ::Unity::Properties::IProperty_1<TContainer>* _Current_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19386 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -291,7 +291,7 @@ public:
                                  ::Unity::Properties::IndexedCollectionPropertyBagEnumerable_1<TContainer> m_IndexedCollectionPropertyBag) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19387 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

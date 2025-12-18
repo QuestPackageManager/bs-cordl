@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::BaseElementBuilder::*)(Il2CppObject*)>(
     &::UnityEngine::UIElements::UIR::BaseElementBuilder::Build)> {
   constexpr static std::size_t size = 0x6bc;
-  constexpr static std::size_t addrs = 0x6aa1660;
+  constexpr static std::size_t addrs = 0x6b0a4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::BaseElementBuilder::*)(Il2CppObject*)>(
     &::UnityEngine::UIElements::UIR::BaseElementBuilder::PushVisualElementClipping)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x6aa1d1c;
+  constexpr static std::size_t addrs = 0x6b0aba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Il2CppObject*)>(&::UnityEngine::UIElements::UIR::BaseElementBuilder::PopVisualElementClipping)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6aa2070;
+  constexpr static std::size_t addrs = 0x6b0aef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Il2CppObject*)>(&::UnityEngine::UIElements::UIR::BaseElementBuilder::InvokeGenerateVisualContent)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6aa1f6c;
+  constexpr static std::size_t addrs = 0x6b0adf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::BaseElementBuilder::*)()>(
     &::UnityEngine::UIElements::UIR::BaseElementBuilder::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6aa2214;
+  constexpr static std::size_t addrs = 0x6b0b098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BaseElementBuilder*>::get(),

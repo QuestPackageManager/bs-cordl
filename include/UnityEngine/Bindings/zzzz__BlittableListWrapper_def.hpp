@@ -29,7 +29,7 @@ public:
   /// @brief Method Unmarshal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Unmarshal(::System::Collections::Generic::List_1<T>* list);
 
-  /// @brief Method .ctor, addr 0x68cb0ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6933f70, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Bindings::BlittableArrayWrapper arrayWrapper, int32_t listSize);
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
   constexpr BlittableListWrapper(::UnityEngine::Bindings::BlittableArrayWrapper arrayWrapper, int32_t listSize) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10447 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10451 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

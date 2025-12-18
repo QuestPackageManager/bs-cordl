@@ -31,10 +31,10 @@ namespace Org::BouncyCastle::Math::EC {
 class CORDL_TYPE ECPointBase : public ::Org::BouncyCastle::Math::EC::ECPoint {
 public:
   // Declarations
-  /// @brief Method GetEncoded, addr 0x3383d48, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x33ae58c, size 0x1cc, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded(bool compressed);
 
-  /// @brief Method Multiply, addr 0x3383f14, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Multiply, addr 0x33ae758, size 0xdc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Multiply(::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::ECPointBase* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
@@ -45,10 +45,10 @@ public:
                                                                      ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
                                                                      bool withCompression);
 
-  /// @brief Method .ctor, addr 0x3383c2c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33ae470, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor, addr 0x3383cb4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33ae4f8, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 

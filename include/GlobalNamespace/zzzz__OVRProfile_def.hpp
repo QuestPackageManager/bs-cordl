@@ -69,7 +69,7 @@ public:
   static ::GlobalNamespace::OVRProfile_State const READY;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7629 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -112,31 +112,31 @@ public:
 
   static inline ::GlobalNamespace::OVRProfile* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5caa364, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d10e44, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_eyeDepth, addr 0x5caa2ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_eyeDepth, addr 0x5d10dcc, size 0x54, virtual false, abstract: false, final false
   inline float_t get_eyeDepth();
 
-  /// @brief Method get_eyeHeight, addr 0x5caa298, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_eyeHeight, addr 0x5d10d78, size 0x54, virtual false, abstract: false, final false
   inline float_t get_eyeHeight();
 
-  /// @brief Method get_id, addr 0x5caa0d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x5d10bb4, size 0x44, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_ipd, addr 0x5caa1a0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_ipd, addr 0x5d10c80, size 0xf8, virtual false, abstract: false, final false
   inline float_t get_ipd();
 
-  /// @brief Method get_locale, addr 0x5caa15c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_locale, addr 0x5d10c3c, size 0x44, virtual false, abstract: false, final false
   inline ::StringW get_locale();
 
-  /// @brief Method get_neckHeight, addr 0x5caa340, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_neckHeight, addr 0x5d10e20, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_neckHeight();
 
-  /// @brief Method get_state, addr 0x5caa35c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x5d10e3c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRProfile_State get_state();
 
-  /// @brief Method get_userName, addr 0x5caa118, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_userName, addr 0x5d10bf8, size 0x44, virtual false, abstract: false, final false
   inline ::StringW get_userName();
 
 protected:
@@ -154,7 +154,7 @@ public:
   OVRProfile(OVRProfile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7630 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,22 +26,22 @@ namespace Mono::Security {
 class CORDL_TYPE ASN1Convert : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FromInt32, addr 0x5874868, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method FromInt32, addr 0x58db1b4, size 0x168, virtual false, abstract: false, final false
   static inline ::Mono::Security::ASN1* FromInt32(int32_t value);
 
-  /// @brief Method FromOid, addr 0x58749e8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method FromOid, addr 0x58db334, size 0xe4, virtual false, abstract: false, final false
   static inline ::Mono::Security::ASN1* FromOid(::StringW oid);
 
-  /// @brief Method FromUnsignedBigInteger, addr 0x5874acc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method FromUnsignedBigInteger, addr 0x58db418, size 0x100, virtual false, abstract: false, final false
   static inline ::Mono::Security::ASN1* FromUnsignedBigInteger(::ArrayW<uint8_t, ::Array<uint8_t>*> big);
 
-  /// @brief Method ToDateTime, addr 0x5874f28, size 0x5b4, virtual false, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x58db874, size 0x5b4, virtual false, abstract: false, final false
   static inline ::System::DateTime ToDateTime(::Mono::Security::ASN1* time);
 
-  /// @brief Method ToInt32, addr 0x5874bcc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x58db518, size 0x104, virtual false, abstract: false, final false
   static inline int32_t ToInt32(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method ToOid, addr 0x5874cd0, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ToOid, addr 0x58db61c, size 0x258, virtual false, abstract: false, final false
   static inline ::StringW ToOid(::Mono::Security::ASN1* asn1);
 
 protected:
@@ -59,7 +59,7 @@ public:
   ASN1Convert(ASN1Convert const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19234 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

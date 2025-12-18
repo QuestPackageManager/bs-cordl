@@ -50,22 +50,22 @@ public:
 
   static inline ::GlobalNamespace::OVRHandTrackingWideMotionModeSample* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5c41b04, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5ca85e4, size 0xe8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5c41a1c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5ca84fc, size 0xe8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnFusionToggleChanged, addr 0x5c41fe8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnFusionToggleChanged, addr 0x5ca8ac8, size 0xb0, virtual false, abstract: false, final false
   inline void OnFusionToggleChanged(bool newValue);
 
-  /// @brief Method Update, addr 0x5c41bec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5ca86cc, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateLineRenderer, addr 0x5c41bf0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method UpdateLineRenderer, addr 0x5ca86d0, size 0x50, virtual false, abstract: false, final false
   inline void UpdateLineRenderer();
 
-  /// @brief Method UpdateLineRendererForHand, addr 0x5c41c40, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method UpdateLineRendererForHand, addr 0x5ca8720, size 0x3a8, virtual false, abstract: false, final false
   inline void UpdateLineRendererForHand(bool isLeft);
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get_fusionToggle() const;
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_rightLinePointer(::UnityW<::UnityEngine::LineRenderer> value);
 
-  /// @brief Method .ctor, addr 0x5c42098, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca8b78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,7 +122,7 @@ public:
   OVRHandTrackingWideMotionModeSample(OVRHandTrackingWideMotionModeSample const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7154 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7158 };
 
   /// @brief Field fusionToggle, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ___fusionToggle;

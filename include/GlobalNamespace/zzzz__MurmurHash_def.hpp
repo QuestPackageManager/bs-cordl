@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE MurmurHash : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MurmurHash2, addr 0x3650f20, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method MurmurHash2, addr 0x367dd34, size 0x184, virtual false, abstract: false, final false
   static inline uint32_t MurmurHash2(::StringW key);
 
 protected:
@@ -38,7 +38,7 @@ public:
   MurmurHash(MurmurHash const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20866 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

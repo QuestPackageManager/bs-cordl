@@ -26,22 +26,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE GameplayModifierMaskExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Contains, addr 0x364f244, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x367c058, size 0x10, virtual false, abstract: false, final false
   static inline bool Contains(::GlobalNamespace::GameplayModifierMask mask, ::GlobalNamespace::GameplayModifierMask other);
 
-  /// @brief Method DifferenceFrom, addr 0x364f254, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DifferenceFrom, addr 0x367c068, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t DifferenceFrom(::GlobalNamespace::GameplayModifierMask mask, ::GlobalNamespace::GameplayModifierMask other);
 
-  /// @brief Method ToGameplayModifierMask, addr 0x364f2d8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ToGameplayModifierMask, addr 0x367c0ec, size 0xb4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayModifierMask ToGameplayModifierMask(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method ToHexString, addr 0x364f270, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToHexString, addr 0x367c084, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW ToHexString(::GlobalNamespace::GameplayModifierMask mask);
 
-  /// @brief Method ToMask, addr 0x364f2d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToMask, addr 0x367c0e8, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayModifierMask ToMask(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method ToModifiers, addr 0x364f38c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ToModifiers, addr 0x367c1a0, size 0xec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayModifiers* ToModifiers(::GlobalNamespace::GameplayModifierMask gameplayModifierMask);
 
 protected:
@@ -59,7 +59,7 @@ public:
   GameplayModifierMaskExtensions(GameplayModifierMaskExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20842 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

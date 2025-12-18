@@ -26,49 +26,49 @@ namespace System::Globalization {
 class CORDL_TYPE CharUnicodeInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetUnicodeCategory, addr 0x597d910, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetUnicodeCategory, addr 0x59e425c, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Globalization::UnicodeCategory GetUnicodeCategory(char16_t ch);
 
-  /// @brief Method GetUnicodeCategory, addr 0x597d92c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetUnicodeCategory, addr 0x59e4278, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Globalization::UnicodeCategory GetUnicodeCategory(int32_t codePoint);
 
-  /// @brief Method GetUnicodeCategory, addr 0x597d944, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetUnicodeCategory, addr 0x59e4290, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::Globalization::UnicodeCategory GetUnicodeCategory(::StringW s, int32_t index);
 
-  /// @brief Method InternalConvertToUtf32, addr 0x597d7d8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method InternalConvertToUtf32, addr 0x59e4124, size 0x94, virtual false, abstract: false, final false
   static inline int32_t InternalConvertToUtf32(::StringW s, int32_t index);
 
-  /// @brief Method InternalConvertToUtf32, addr 0x597d86c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method InternalConvertToUtf32, addr 0x59e41b8, size 0xa4, virtual false, abstract: false, final false
   static inline int32_t InternalConvertToUtf32(::StringW s, int32_t index, ::ByRef<int32_t> charLength);
 
-  /// @brief Method InternalGetCategoryValue, addr 0x597da08, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InternalGetCategoryValue, addr 0x59e4354, size 0xac, virtual false, abstract: false, final false
   static inline uint8_t InternalGetCategoryValue(int32_t ch, int32_t offset);
 
-  /// @brief Method InternalGetUnicodeCategory, addr 0x597dc24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InternalGetUnicodeCategory, addr 0x59e4570, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::StringW str, int32_t index, ::ByRef<int32_t> charLength);
 
-  /// @brief Method InternalGetUnicodeCategory, addr 0x597d9ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InternalGetUnicodeCategory, addr 0x59e4338, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Globalization::UnicodeCategory InternalGetUnicodeCategory(::StringW value, int32_t index);
 
-  /// @brief Method IsCombiningCategory, addr 0x597dc40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsCombiningCategory, addr 0x59e458c, size 0x10, virtual false, abstract: false, final false
   static inline bool IsCombiningCategory(::System::Globalization::UnicodeCategory uc);
 
-  /// @brief Method IsWhiteSpace, addr 0x597dc6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsWhiteSpace, addr 0x59e45b8, size 0x28, virtual false, abstract: false, final false
   static inline bool IsWhiteSpace(char16_t c);
 
-  /// @brief Method IsWhiteSpace, addr 0x597dc50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsWhiteSpace, addr 0x59e459c, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsWhiteSpace(::StringW s, int32_t index);
 
-  /// @brief Method get_CategoriesValue, addr 0x597dbc8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_CategoriesValue, addr 0x59e4514, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<uint8_t> get_CategoriesValue();
 
-  /// @brief Method get_CategoryLevel1Index, addr 0x597dab4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_CategoryLevel1Index, addr 0x59e4400, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<uint8_t> get_CategoryLevel1Index();
 
-  /// @brief Method get_CategoryLevel2Index, addr 0x597db10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_CategoryLevel2Index, addr 0x59e445c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<uint8_t> get_CategoryLevel2Index();
 
-  /// @brief Method get_CategoryLevel3Index, addr 0x597db6c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_CategoryLevel3Index, addr 0x59e44b8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<uint8_t> get_CategoryLevel3Index();
 
 protected:

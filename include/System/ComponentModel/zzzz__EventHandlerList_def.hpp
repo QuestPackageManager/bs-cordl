@@ -76,7 +76,7 @@ public:
   EventHandlerList_ListEntry(EventHandlerList_ListEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11202 };
 
   /// @brief Field _next, offset: 0x10, size: 0x8, def value: None
   ::System::ComponentModel::EventHandlerList_ListEntry* ____next;
@@ -116,7 +116,7 @@ public:
   /// @brief Field _parent, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent)) ::System::ComponentModel::Component* _parent;
 
-  /// @brief Method Find, addr 0x619755c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x61ff0e8, size 0x18, virtual false, abstract: false, final false
   inline ::System::ComponentModel::EventHandlerList_ListEntry* Find(::System::Object* key);
 
   constexpr ::System::ComponentModel::EventHandlerList_ListEntry* const& __cordl_internal_get__head() const;
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set__parent(::System::ComponentModel::Component* value);
 
-  /// @brief Method get_Item, addr 0x6197500, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x61ff08c, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Delegate* get_Item(::System::Object* key);
 
 protected:
@@ -149,7 +149,7 @@ public:
   EventHandlerList(EventHandlerList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11203 };
 
   /// @brief Field _head, offset: 0x10, size: 0x8, def value: None
   ::System::ComponentModel::EventHandlerList_ListEntry* ____head;

@@ -36,25 +36,25 @@ public:
   // Declarations
   __declspec(property(get = get_PreserveWhitespace)) bool PreserveWhitespace;
 
-  /// @brief Method CompleteValidation, addr 0x60fc3a8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CompleteValidation, addr 0x6163f34, size 0x4, virtual true, abstract: false, final false
   inline void CompleteValidation();
 
-  /// @brief Method DetectValidationType, addr 0x60fc074, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method DetectValidationType, addr 0x6163c00, size 0x334, virtual false, abstract: false, final false
   inline ::System::Xml::ValidationType DetectValidationType();
 
-  /// @brief Method FindId, addr 0x60fc3ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method FindId, addr 0x6163f38, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* FindId(::StringW name);
 
   static inline ::System::Xml::Schema::AutoValidator* New_ctor(::System::Xml::XmlValidatingReaderImpl* reader, ::System::Xml::Schema::XmlSchemaCollection* schemaCollection,
                                                                ::System::Xml::IValidationEventHandling* eventHandling);
 
-  /// @brief Method Validate, addr 0x60fbf84, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Validate, addr 0x6163b10, size 0xf0, virtual true, abstract: false, final false
   inline void Validate();
 
-  /// @brief Method .ctor, addr 0x60fbe2c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61639b8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlValidatingReaderImpl* reader, ::System::Xml::Schema::XmlSchemaCollection* schemaCollection, ::System::Xml::IValidationEventHandling* eventHandling);
 
-  /// @brief Method get_PreserveWhitespace, addr 0x60fbf7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PreserveWhitespace, addr 0x6163b08, size 0x8, virtual true, abstract: false, final false
   inline bool get_PreserveWhitespace();
 
 protected:
@@ -72,7 +72,7 @@ public:
   AutoValidator(AutoValidator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9549 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

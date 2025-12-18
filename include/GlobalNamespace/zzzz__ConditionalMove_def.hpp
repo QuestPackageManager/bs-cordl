@@ -31,7 +31,7 @@ public:
   /// @brief Field _value, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::UnityW<::GlobalNamespace::BoolSO> _value;
 
-  /// @brief Method Awake, addr 0x570f06c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x576ce54, size 0xb8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ConditionalMove* New_ctor();
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x570f124, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x576cf0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   ConditionalMove(ConditionalMove const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6736 };
 
   /// @brief Field _offset, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____offset;

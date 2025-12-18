@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RendererListLegacyResource::*)(::ByRef<bool>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListLegacyResource::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x65caf8c;
+  constexpr static std::size_t addrs = 0x6632b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -45,10 +45,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::IBcpgKey"
   constexpr operator ::Org::BouncyCastle::Bcpg::IBcpgKey*() noexcept;
 
-  /// @brief Method Encode, addr 0x3577494, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x35a1cd8, size 0x24, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncoded, addr 0x357740c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x35a1c50, size 0x88, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -61,16 +61,16 @@ public:
 
   constexpr void __cordl_internal_set_x(::Org::BouncyCastle::Bcpg::MPInteger* value);
 
-  /// @brief Method .ctor, addr 0x35772f8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a1b3c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x3577360, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a1ba4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method get_Format, addr 0x35773c8, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_Format, addr 0x35a1c0c, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_Format();
 
-  /// @brief Method get_X, addr 0x35774b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_X, addr 0x35a1cfc, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_X();
 
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::IBcpgKey"

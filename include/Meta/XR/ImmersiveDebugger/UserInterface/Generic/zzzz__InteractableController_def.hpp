@@ -37,25 +37,25 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5847670, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x58addd4, size 0x1c, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnHoverChanged, addr 0x5843874, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnHoverChanged, addr 0x58a9fd8, size 0x4, virtual true, abstract: false, final false
   inline void OnHoverChanged();
 
-  /// @brief Method OnPointerClick, addr 0x5848ea0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x58af604, size 0x4, virtual true, abstract: false, final false
   inline void OnPointerClick();
 
-  /// @brief Method OnPointerEnter, addr 0x5848e64, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnPointerEnter, addr 0x58af5c8, size 0x20, virtual false, abstract: false, final false
   inline void OnPointerEnter();
 
-  /// @brief Method OnPointerExit, addr 0x5848e84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnPointerExit, addr 0x58af5e8, size 0x1c, virtual false, abstract: false, final false
   inline void OnPointerExit();
 
-  /// @brief Method PlayHaptics, addr 0x5843878, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method PlayHaptics, addr 0x58a9fdc, size 0x134, virtual false, abstract: false, final false
   inline void PlayHaptics(::GlobalNamespace::OVRHapticsClip* hapticsClip);
 
-  /// @brief Method Setup, addr 0x5843c90, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x58aa3f4, size 0x80, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::PointerHandler> const& __cordl_internal_get__handler() const;
@@ -70,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set__hover(bool value);
 
-  /// @brief Method .ctor, addr 0x58439b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58aa11c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Hover, addr 0x5848e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Hover, addr 0x58af59c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Hover();
 
-  /// @brief Method set_Hover, addr 0x5848e40, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_Hover, addr 0x58af5a4, size 0x24, virtual false, abstract: false, final false
   inline void set_Hover(bool value);
 
 protected:
@@ -94,7 +94,7 @@ public:
   InteractableController(InteractableController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18377 };
 
   /// @brief Field _handler, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::PointerHandler> ____handler;

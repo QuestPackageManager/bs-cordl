@@ -36,13 +36,13 @@ public:
                       put = __cordl_internal_set_m_handles)) ::ArrayW<::System::Runtime::InteropServices::GCHandle, ::Array<::System::Runtime::InteropServices::GCHandle>*>
       m_handles;
 
-  /// @brief Method Alloc, addr 0x6802fb8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x686ab30, size 0x70, virtual false, abstract: false, final false
   inline ::System::Runtime::InteropServices::GCHandle Alloc(::System::Object* o);
 
-  /// @brief Method AllocHandleIfNotNull, addr 0x6803028, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AllocHandleIfNotNull, addr 0x686aba0, size 0x10, virtual false, abstract: false, final false
   inline ::System::IntPtr AllocHandleIfNotNull(::System::Object* o);
 
-  /// @brief Method Free, addr 0x68014bc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x6869034, size 0xe8, virtual false, abstract: false, final false
   inline void Free(::System::Runtime::InteropServices::GCHandle h);
 
   static inline ::UnityEngine::GCHandlePool* New_ctor();
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_m_handles(::ArrayW<::System::Runtime::InteropServices::GCHandle, ::Array<::System::Runtime::InteropServices::GCHandle>*> value);
 
-  /// @brief Method .ctor, addr 0x6800c54, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68687cc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,7 +77,7 @@ public:
   GCHandlePool(GCHandlePool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19983 };
 
   /// @brief Field m_handles, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Runtime::InteropServices::GCHandle, ::Array<::System::Runtime::InteropServices::GCHandle>*> ___m_handles;

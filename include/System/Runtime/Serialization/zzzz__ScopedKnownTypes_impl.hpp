@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ScopedKnownTypes::*)(
     ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*)>(&::System::Runtime::Serialization::ScopedKnownTypes::Push)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5f4412c;
+  constexpr static std::size_t addrs = 0x5fabcb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ScopedKnownTypes::*)()>(
     &::System::Runtime::Serialization::ScopedKnownTypes::Pop)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f44238;
+  constexpr static std::size_t addrs = 0x5fabdc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ScopedKnownTypes>::get(), "Pop",
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::DataContract* (
     ::System::Runtime::Serialization::ScopedKnownTypes::*)(::System::Xml::XmlQualifiedName*)>(&::System::Runtime::Serialization::ScopedKnownTypes::GetDataContract)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5f44248;
+  constexpr static std::size_t addrs = 0x5fabdd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

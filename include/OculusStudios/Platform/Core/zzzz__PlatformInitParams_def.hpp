@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set_productDefinitions(::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::IProductDefinition*>* value);
 
-  /// @brief Method .ctor, addr 0x5d19db4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d80894, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -123,7 +123,7 @@ public:
   PlatformInitParams(PlatformInitParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22192 };
 
   /// @brief Field appId, offset: 0x10, size: 0x8, def value: None
   uint64_t ___appId;

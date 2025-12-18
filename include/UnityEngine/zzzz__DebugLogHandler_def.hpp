@@ -46,31 +46,31 @@ public:
   /// @brief Convert operator to "::UnityEngine::ILogHandler"
   constexpr operator ::UnityEngine::ILogHandler*() noexcept;
 
-  /// @brief Method Internal_Log, addr 0x6845d60, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Log, addr 0x68ad8d8, size 0x17c, virtual false, abstract: false, final false
   static inline void Internal_Log(::UnityEngine::LogType level, ::UnityEngine::LogOption options, ::StringW msg, ::UnityEngine::Object* obj);
 
-  /// @brief Method Internal_LogException, addr 0x6845f38, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Internal_LogException, addr 0x68adab0, size 0x90, virtual false, abstract: false, final false
   static inline void Internal_LogException(::System::Exception* ex, ::UnityEngine::Object* obj);
 
-  /// @brief Method Internal_LogException_Injected, addr 0x6845fc8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_LogException_Injected, addr 0x68adb40, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_LogException_Injected(::System::Exception* ex, ::System::IntPtr obj);
 
-  /// @brief Method Internal_Log_Injected, addr 0x6845edc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Log_Injected, addr 0x68ada54, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_Log_Injected(::UnityEngine::LogType level, ::UnityEngine::LogOption options, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> msg, ::System::IntPtr obj);
 
-  /// @brief Method LogException, addr 0x6846088, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x68adc00, size 0x5c, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception, ::UnityEngine::Object* context);
 
-  /// @brief Method LogFormat, addr 0x684600c, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method LogFormat, addr 0x68adb84, size 0x3c, virtual true, abstract: false, final true
   inline void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method LogFormat, addr 0x6846048, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method LogFormat, addr 0x68adbc0, size 0x40, virtual false, abstract: false, final false
   inline void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::LogOption logOptions, ::UnityEngine::Object* context, ::StringW format,
                         ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::UnityEngine::DebugLogHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x68460e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68adc5c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ILogHandler"
@@ -91,7 +91,7 @@ public:
   DebugLogHandler(DebugLogHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10076 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10080 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

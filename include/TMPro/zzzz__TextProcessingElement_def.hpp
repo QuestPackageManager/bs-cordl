@@ -45,49 +45,49 @@ public:
 
   __declspec(property(get = get_StartIndex, put = set_StartIndex)) int32_t StartIndex;
 
-  /// @brief Method DebuggerDisplay, addr 0x6786d48, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method DebuggerDisplay, addr 0x67ee8c0, size 0x13c, virtual false, abstract: false, final false
   inline ::StringW DebuggerDisplay();
 
-  /// @brief Method .ctor, addr 0x6786ce0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ee858, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::CharacterElement characterElement, int32_t startIndex, int32_t length);
 
-  /// @brief Method .ctor, addr 0x6786ca4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ee81c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TextProcessingElementType elementType, int32_t startIndex, int32_t length);
 
-  /// @brief Method .ctor, addr 0x6786cf8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ee870, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::MarkupElement markupElement);
 
-  /// @brief Method .ctor, addr 0x6786cb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ee830, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TMP_TextElement* textElement, int32_t startIndex, int32_t length);
 
-  /// @brief Method get_CharacterElement, addr 0x6786c88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_CharacterElement, addr 0x67ee800, size 0xc, virtual false, abstract: false, final false
   inline ::TMPro::CharacterElement get_CharacterElement();
 
-  /// @brief Method get_ElementType, addr 0x6786c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ElementType, addr 0x67ee7d0, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::TextProcessingElementType get_ElementType();
 
-  /// @brief Method get_Length, addr 0x6786c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x67ee7f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_MarkupElement, addr 0x6786c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MarkupElement, addr 0x67ee80c, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::MarkupElement get_MarkupElement();
 
-  /// @brief Method get_StartIndex, addr 0x6786c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StartIndex, addr 0x67ee7e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_StartIndex();
 
-  /// @brief Method get_Undefined, addr 0x6786d38, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Undefined, addr 0x67ee8b0, size 0x10, virtual false, abstract: false, final false
   static inline ::TMPro::TextProcessingElement get_Undefined();
 
-  /// @brief Method set_ElementType, addr 0x6786c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ElementType, addr 0x67ee7d8, size 0x8, virtual false, abstract: false, final false
   inline void set_ElementType(::TMPro::TextProcessingElementType value);
 
-  /// @brief Method set_Length, addr 0x6786c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Length, addr 0x67ee7f8, size 0x8, virtual false, abstract: false, final false
   inline void set_Length(int32_t value);
 
-  /// @brief Method set_MarkupElement, addr 0x6786c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MarkupElement, addr 0x67ee814, size 0x8, virtual false, abstract: false, final false
   inline void set_MarkupElement(::TMPro::MarkupElement value);
 
-  /// @brief Method set_StartIndex, addr 0x6786c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StartIndex, addr 0x67ee7e8, size 0x8, virtual false, abstract: false, final false
   inline void set_StartIndex(int32_t value);
 
   // Ctor Parameters []
@@ -101,7 +101,7 @@ public:
                                   ::TMPro::MarkupElement m_MarkupElement) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15987 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

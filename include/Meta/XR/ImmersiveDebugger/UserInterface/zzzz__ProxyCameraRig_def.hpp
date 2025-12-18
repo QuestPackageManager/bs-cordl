@@ -43,10 +43,10 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig* New_ctor();
 
-  /// @brief Method Refresh, addr 0x5841344, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x58a7aa8, size 0xb8, virtual false, abstract: false, final false
   inline bool Refresh();
 
-  /// @brief Method SearchForCamera, addr 0x58413fc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SearchForCamera, addr 0x58a7b60, size 0x160, virtual false, abstract: false, final false
   inline void SearchForCamera();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__CameraTransform_k__BackingField() const;
@@ -67,19 +67,19 @@ public:
 
   constexpr void __cordl_internal_set__cameraRig(::UnityW<::GlobalNamespace::OVRCameraRig> value);
 
-  /// @brief Method .ctor, addr 0x584155c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58a7cc0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Camera, addr 0x5841324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Camera, addr 0x58a7a88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_Camera();
 
-  /// @brief Method get_CameraTransform, addr 0x5841334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CameraTransform, addr 0x58a7a98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_CameraTransform();
 
-  /// @brief Method set_Camera, addr 0x584132c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Camera, addr 0x58a7a90, size 0x8, virtual false, abstract: false, final false
   inline void set_Camera(::UnityEngine::Camera* value);
 
-  /// @brief Method set_CameraTransform, addr 0x584133c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CameraTransform, addr 0x58a7aa0, size 0x8, virtual false, abstract: false, final false
   inline void set_CameraTransform(::UnityEngine::Transform* value);
 
 protected:
@@ -97,7 +97,7 @@ public:
   ProxyCameraRig(ProxyCameraRig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18334 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18349 };
 
   /// @brief Field <Camera>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____Camera_k__BackingField;

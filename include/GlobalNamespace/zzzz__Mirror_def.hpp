@@ -70,18 +70,18 @@ public:
 
   __declspec(property(get = get_reflectionPlaneTransform)) ::UnityW<::UnityEngine::Transform> reflectionPlaneTransform;
 
-  /// @brief Method ChangeMirrorEnabledState, addr 0x5d2ea14, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ChangeMirrorEnabledState, addr 0x5d96534, size 0x3c, virtual false, abstract: false, final false
   inline void ChangeMirrorEnabledState(bool newIsEnabled);
 
   static inline ::GlobalNamespace::Mirror* New_ctor();
 
-  /// @brief Method OnWillRenderObject, addr 0x5d2e744, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnWillRenderObject, addr 0x5d96264, size 0x1c, virtual false, abstract: false, final false
   inline void OnWillRenderObject();
 
-  /// @brief Method RenderMirror, addr 0x5d2e760, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method RenderMirror, addr 0x5d96280, size 0x2b4, virtual false, abstract: false, final false
   inline void RenderMirror(::UnityEngine::Camera* currentCamera);
 
-  /// @brief Method Update, addr 0x5d2e5e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5d96104, size 0x14, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__isEnabled_k__BackingField() const;
@@ -126,32 +126,32 @@ public:
 
   constexpr void __cordl_internal_set_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x5d2f2e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d96e00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_mirrorDidChangeEnabledStateEvent, addr 0x5d2e464, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_mirrorDidChangeEnabledStateEvent, addr 0x5d95f84, size 0xc0, virtual false, abstract: false, final false
   inline void add_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
   static inline int32_t getStaticF__texturePropertyID();
 
-  /// @brief Method get_isEnabled, addr 0x5d2e454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEnabled, addr 0x5d95f74, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEnabled();
 
-  /// @brief Method get_mirrorMaterial, addr 0x5d2e43c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirrorMaterial, addr 0x5d95f5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_mirrorMaterial();
 
-  /// @brief Method get_noMirrorMaterial, addr 0x5d2e444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noMirrorMaterial, addr 0x5d95f64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_noMirrorMaterial();
 
-  /// @brief Method get_reflectionPlaneTransform, addr 0x5d2e44c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionPlaneTransform, addr 0x5d95f6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_reflectionPlaneTransform();
 
-  /// @brief Method remove_mirrorDidChangeEnabledStateEvent, addr 0x5d2e524, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_mirrorDidChangeEnabledStateEvent, addr 0x5d96044, size 0xc0, virtual false, abstract: false, final false
   inline void remove_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
   static inline void setStaticF__texturePropertyID(int32_t value);
 
-  /// @brief Method set_isEnabled, addr 0x5d2e45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isEnabled, addr 0x5d95f7c, size 0x8, virtual false, abstract: false, final false
   inline void set_isEnabled(bool value);
 
 protected:
@@ -169,7 +169,7 @@ public:
   Mirror(Mirror const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20791 };
 
   /// @brief Field _mirrorRenderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirrorRendererSO> ____mirrorRenderer;

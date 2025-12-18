@@ -66,22 +66,22 @@ public:
 
   constexpr void __cordl_internal_set_isTrustedHost(bool value);
 
-  /// @brief Method .ctor, addr 0x61f04ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6258038, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AddressList, addr 0x61f049c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AddressList, addr 0x6258028, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> get_AddressList();
 
-  /// @brief Method get_HostName, addr 0x61f0484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HostName, addr 0x6258010, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_HostName();
 
-  /// @brief Method set_AddressList, addr 0x61f04a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AddressList, addr 0x6258030, size 0x8, virtual false, abstract: false, final false
   inline void set_AddressList(::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> value);
 
-  /// @brief Method set_Aliases, addr 0x61f0494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Aliases, addr 0x6258020, size 0x8, virtual false, abstract: false, final false
   inline void set_Aliases(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_HostName, addr 0x61f048c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HostName, addr 0x6258018, size 0x8, virtual false, abstract: false, final false
   inline void set_HostName(::StringW value);
 
 protected:
@@ -99,7 +99,7 @@ public:
   IPHostEntry(IPHostEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11466 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11470 };
 
   /// @brief Field hostName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___hostName;

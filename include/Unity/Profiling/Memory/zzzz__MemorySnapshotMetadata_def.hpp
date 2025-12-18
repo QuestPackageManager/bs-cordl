@@ -44,16 +44,16 @@ public:
 
   constexpr void __cordl_internal_set__Description_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6829fc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6891b38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Data, addr 0x6829fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x6891b30, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Data();
 
-  /// @brief Method get_Description, addr 0x6829fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Description, addr 0x6891b20, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Description();
 
-  /// @brief Method set_Description, addr 0x6829fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Description, addr 0x6891b28, size 0x8, virtual false, abstract: false, final false
   inline void set_Description(::StringW value);
 
 protected:
@@ -71,7 +71,7 @@ public:
   MemorySnapshotMetadata(MemorySnapshotMetadata const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9940 };
 
   /// @brief Field <Description>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Description_k__BackingField;

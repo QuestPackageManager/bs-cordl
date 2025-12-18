@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::IntegerControl::*)()>(
     &::UnityEngine::InputSystem::Controls::IntegerControl::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x62ddb28;
+  constexpr static std::size_t addrs = 0x63456b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::IntegerControl*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Controls::IntegerControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::IntegerControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x62ddbac;
+  constexpr static std::size_t addrs = 0x6345738;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::IntegerControl::*)(int32_t, void*)>(
     &::UnityEngine::InputSystem::Controls::IntegerControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x62ddc58;
+  constexpr static std::size_t addrs = 0x63457e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::Controls::IntegerControl::*)()>(
     &::UnityEngine::InputSystem::Controls::IntegerControl::CalculateOptimizedControlDataType)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x62ddd0c;
+  constexpr static std::size_t addrs = 0x6345898;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -71,7 +71,7 @@ public:
                                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::GameObject>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21401 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -125,7 +125,7 @@ public:
   AddressablesLoader(AddressablesLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21375 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21402 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

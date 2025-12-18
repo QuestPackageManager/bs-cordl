@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::CodeAnalysis::DisallowNullAttribute::*)()>(
     &::System::Diagnostics::CodeAnalysis::DisallowNullAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59cc648;
+  constexpr static std::size_t addrs = 0x5a32f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::DynamicScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method SetScenes, addr 0x31e1880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetScenes, addr 0x321225c, size 0x8, virtual false, abstract: false, final false
   inline void SetScenes(::ArrayW<::StringW, ::Array<::StringW>*> scenes, ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> sceneSetupData);
 
-  /// @brief Method .ctor, addr 0x31e1890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x321226c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   DynamicScenesTransitionSetupDataSO(DynamicScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21370 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,30 +31,30 @@ public:
   /// @brief Field m_TextureCreationIndex, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_m_TextureCreationIndex, put = setStaticF_m_TextureCreationIndex)) int32_t m_TextureCreationIndex;
 
-  /// @brief Method CreateGraphicsResource, addr 0x65cc280, size 0x410, virtual true, abstract: false, final false
+  /// @brief Method CreateGraphicsResource, addr 0x6633e0c, size 0x410, virtual true, abstract: false, final false
   inline void CreateGraphicsResource();
 
-  /// @brief Method GetDescHashCode, addr 0x65cc278, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDescHashCode, addr 0x6633e04, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetDescHashCode();
 
-  /// @brief Method GetName, addr 0x65cc204, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetName, addr 0x6633d90, size 0x74, virtual true, abstract: false, final false
   inline ::StringW GetName();
 
-  /// @brief Method LogCreation, addr 0x65cc708, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method LogCreation, addr 0x6634294, size 0x134, virtual true, abstract: false, final false
   inline void LogCreation(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* logger);
 
-  /// @brief Method LogRelease, addr 0x65cc83c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method LogRelease, addr 0x66343c8, size 0xe4, virtual true, abstract: false, final false
   inline void LogRelease(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* logger);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::TextureResource* New_ctor();
 
-  /// @brief Method ReleaseGraphicsResource, addr 0x65cc6b4, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method ReleaseGraphicsResource, addr 0x6634240, size 0x54, virtual true, abstract: false, final false
   inline void ReleaseGraphicsResource();
 
-  /// @brief Method UpdateGraphicsResource, addr 0x65cc690, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method UpdateGraphicsResource, addr 0x663421c, size 0x24, virtual true, abstract: false, final false
   inline void UpdateGraphicsResource();
 
-  /// @brief Method .ctor, addr 0x65cc920, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66344ac, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_m_TextureCreationIndex();
@@ -76,7 +76,7 @@ public:
   TextureResource(TextureResource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12441 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

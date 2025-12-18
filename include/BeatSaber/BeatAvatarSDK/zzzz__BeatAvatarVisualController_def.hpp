@@ -67,18 +67,18 @@ namespace BeatSaber::BeatAvatarSDK {
 class CORDL_TYPE BeatAvatarVisualController_HighlighterDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x317ead0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x31ae7c4, size 0x78, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(bool highlighted, int32_t uvSegmentNumber, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x317eb48, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x31ae83c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x317eabc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x31ae7b0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(bool highlighted, int32_t uvSegmentNumber);
 
   static inline ::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController_HighlighterDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x317dfb4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31adca8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -96,7 +96,7 @@ public:
   BeatAvatarVisualController_HighlighterDelegate(BeatAvatarVisualController_HighlighterDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22077 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -189,27 +189,27 @@ public:
                       put = __cordl_internal_set__skinPropertyBlockColorSetter)) ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter>
       _skinPropertyBlockColorSetter;
 
-  /// @brief Method Awake, addr 0x317dc4c, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x31ad940, size 0x368, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DisableEditedPartHighlight, addr 0x317ea28, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DisableEditedPartHighlight, addr 0x31ae71c, size 0x34, virtual false, abstract: false, final false
   inline void DisableEditedPartHighlight();
 
-  /// @brief Method HighlightEditedPart, addr 0x317e984, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HighlightEditedPart, addr 0x31ae678, size 0xa4, virtual false, abstract: false, final false
   inline void HighlightEditedPart(::BeatSaber::BeatAvatarSDK::AvatarPart editPart, int32_t uvSegment);
 
   static inline ::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController* New_ctor();
 
-  /// @brief Method SetHandsHighlight, addr 0x317ea5c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetHandsHighlight, addr 0x31ae750, size 0x48, virtual false, abstract: false, final false
   inline void SetHandsHighlight(bool highlighted, int32_t uvSegment);
 
-  /// @brief Method SetLightColor, addr 0x317e770, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetLightColor, addr 0x31ae464, size 0xc, virtual false, abstract: false, final false
   inline void SetLightColor(::UnityEngine::Color color);
 
-  /// @brief Method UpdateAvatarColors, addr 0x317e4e0, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method UpdateAvatarColors, addr 0x31ae1d4, size 0x290, virtual false, abstract: false, final false
   inline void UpdateAvatarColors();
 
-  /// @brief Method UpdateAvatarVisual, addr 0x317e020, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method UpdateAvatarVisual, addr 0x31add14, size 0x4c0, virtual false, abstract: false, final false
   inline void UpdateAvatarVisual(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData);
 
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarData* const& __cordl_internal_get__avatarData() const;
@@ -335,7 +335,7 @@ public:
 
   constexpr void __cordl_internal_set__skinPropertyBlockColorSetter(::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter> value);
 
-  /// @brief Method .ctor, addr 0x317eab0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ae7a4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -353,7 +353,7 @@ public:
   BeatAvatarVisualController(BeatAvatarVisualController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22078 };
 
   /// @brief Field _headTopMeshFilter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____headTopMeshFilter;

@@ -83,10 +83,10 @@ public:
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater___c* New_ctor();
 
-  /// @brief Method <HandleGameSceneChanged>b__9_0, addr 0x31ef074, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <HandleGameSceneChanged>b__9_0, addr 0x321fa50, size 0x4c, virtual false, abstract: false, final false
   inline bool _HandleGameSceneChanged_b__9_0(::StringW sceneName);
 
-  /// @brief Method .ctor, addr 0x31ef070, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x321fa4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater___c* getStaticF___9();
@@ -112,7 +112,7 @@ public:
   MetaRemoteAssetsCatalogUpdater___c(MetaRemoteAssetsCatalogUpdater___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22214 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -131,10 +131,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x31ef0c0, size 0x540, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x321fa9c, size 0x540, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x31ef7a0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x322017c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -156,7 +156,7 @@ public:
                                                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22215 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -227,17 +227,17 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method CheckForCatalogUpdateWithInterval, addr 0x31eed58, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CheckForCatalogUpdateWithInterval, addr 0x321f734, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CheckForCatalogUpdateWithInterval(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose, addr 0x31eee18, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x321f7f4, size 0x28, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleGameSceneChanged, addr 0x31eee40, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method HandleGameSceneChanged, addr 0x321f81c, size 0x1dc, virtual false, abstract: false, final false
   inline void HandleGameSceneChanged(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO* transitionSetupDataSo,
                                      ::Zenject::DiContainer* container);
 
-  /// @brief Method Initialize, addr 0x31eec2c, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x321f608, size 0x12c, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater* New_ctor(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* remoteAssetsManager,
@@ -267,7 +267,7 @@ public:
 
   constexpr void __cordl_internal_set__scenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  /// @brief Method .ctor, addr 0x31eebb0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x321f58c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* remoteAssetsManager, ::GlobalNamespace::GameScenesManager* scenesManager);
 
   /// @brief Convert to "::System::IDisposable"
@@ -291,7 +291,7 @@ public:
   MetaRemoteAssetsCatalogUpdater(MetaRemoteAssetsCatalogUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22189 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22216 };
 
   /// @brief Field kGameplaySceneName offset 0xffffffff size 0x8
   static constexpr ::ConstString kGameplaySceneName{ u"GameCore" };

@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::RenderGraphUtils_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::RenderGraphUtils_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66b86e8;
+  constexpr static std::size_t addrs = 0x6720274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::RenderGraphUtils___c::*)()>(
     &::UnityEngine::Rendering::Universal::RenderGraphUtils___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66b8740;
+  constexpr static std::size_t addrs = 0x67202cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::RenderGraphUtils_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::RenderGraphUtils___c::_SetGlobalTexture_b__6_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66b8744;
+  constexpr static std::size_t addrs = 0x67202d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,7 +142,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder*, ::UnityEngine::Rendering::Universal::UniversalResourceData*)>(
         &::UnityEngine::Rendering::Universal::RenderGraphUtils::UseDBufferIfValid)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x66b845c;
+  constexpr static std::size_t addrs = 0x671ffe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,7 +159,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, int32_t, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::StringW, ::StringW, int32_t)>(
         &::UnityEngine::Rendering::Universal::RenderGraphUtils::SetGlobalTexture)> {
   constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x66b7bcc;
+  constexpr static std::size_t addrs = 0x671f758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

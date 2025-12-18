@@ -32,31 +32,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>*();
 
-  /// @brief Method Equals, addr 0x698c5b4, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x69f5438, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x698c53c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x69f53c0, size 0x18, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord other);
 
-  /// @brief Method GetHashCode, addr 0x698c634, size 0x738, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x69f54b8, size 0x738, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_componentGlyphIDs, addr 0x698c51c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_componentGlyphIDs, addr 0x69f53a0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t, ::Array<uint32_t>*> get_componentGlyphIDs();
 
-  /// @brief Method get_ligatureGlyphID, addr 0x698c52c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ligatureGlyphID, addr 0x69f53b0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_ligatureGlyphID();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>"
   constexpr ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>* i___System__IEquatable_1___UnityEngine__TextCore__LowLevel__LigatureSubstitutionRecord_();
 
-  /// @brief Method op_Equality, addr 0x698c554, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x69f53d8, size 0x60, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord lhs, ::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord rhs);
 
-  /// @brief Method set_componentGlyphIDs, addr 0x698c524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_componentGlyphIDs, addr 0x69f53a8, size 0x8, virtual false, abstract: false, final false
   inline void set_componentGlyphIDs(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method set_ligatureGlyphID, addr 0x698c534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ligatureGlyphID, addr 0x69f53b8, size 0x8, virtual false, abstract: false, final false
   inline void set_ligatureGlyphID(uint32_t value);
 
   // Ctor Parameters []
@@ -68,7 +68,7 @@ public:
   constexpr LigatureSubstitutionRecord(::ArrayW<uint32_t, ::Array<uint32_t>*> m_ComponentGlyphIDs, uint32_t m_LigatureGlyphID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21686 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

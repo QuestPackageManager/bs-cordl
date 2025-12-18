@@ -22,10 +22,10 @@ namespace UnityEngine {
 class CORDL_TYPE HashUnsafeUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ComputeHash128, addr 0x6894760, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash128, addr 0x68fd5e4, size 0x3c, virtual false, abstract: false, final false
   static inline void ComputeHash128(void* data, uint64_t dataSize, ::UnityEngine::Hash128* hash);
 
-  /// @brief Method ComputeHash128, addr 0x689479c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash128, addr 0x68fd620, size 0x80, virtual false, abstract: false, final false
   static inline void ComputeHash128(void* data, uint64_t dataSize, uint64_t* hash1, uint64_t* hash2);
 
 protected:
@@ -43,7 +43,7 @@ public:
   HashUnsafeUtilities(HashUnsafeUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10211 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10215 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

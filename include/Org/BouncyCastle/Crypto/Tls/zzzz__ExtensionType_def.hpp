@@ -27,7 +27,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ExtensionType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x334508c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336f8d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_DRAFT_token_binding();

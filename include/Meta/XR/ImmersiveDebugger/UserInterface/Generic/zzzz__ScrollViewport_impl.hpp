@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex> (
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport::get_Flex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5847864;
+  constexpr static std::size_t addrs = 0x58adfc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport::Setup)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x584786c;
+  constexpr static std::size_t addrs = 0x58adfd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5847a24;
+  constexpr static std::size_t addrs = 0x58ae188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

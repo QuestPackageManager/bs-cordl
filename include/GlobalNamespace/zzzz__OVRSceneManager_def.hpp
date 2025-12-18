@@ -236,10 +236,10 @@ public:
 
   static inline ::System::Collections::Generic::HashSet_1<::StringW>* getStaticF__Set_k__BackingField();
 
-  /// @brief Method get_List, addr 0x5cb12a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_List, addr 0x5d17d84, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_List();
 
-  /// @brief Method get_Set, addr 0x5cb1300, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Set, addr 0x5d17de0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::StringW>* get_Set();
 
   static inline void setStaticF__List_k__BackingField(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value);
@@ -312,7 +312,7 @@ public:
   static constexpr ::ConstString WindowFrame{ u"WINDOW_FRAME" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7641 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -356,7 +356,7 @@ public:
 
   constexpr void __cordl_internal_set_Walls(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRScenePlane>>* value);
 
-  /// @brief Method .ctor, addr 0x5cb0410, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d16ef0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -374,7 +374,7 @@ public:
   OVRSceneManager_RoomLayoutInformation(OVRSceneManager_RoomLayoutInformation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7642 };
 
   /// @brief Field Floor, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRScenePlane> ___Floor;
@@ -405,13 +405,13 @@ namespace GlobalNamespace {
 struct CORDL_TYPE OVRSceneManager_LogForwarder {
 public:
   // Declarations
-  /// @brief Method Log, addr 0x5cb1154, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x5d17c34, size 0xc0, virtual false, abstract: false, final false
   inline void Log(::StringW context, ::StringW message, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method LogError, addr 0x5cad7c8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x5d142a8, size 0xc0, virtual false, abstract: false, final false
   inline void LogError(::StringW context, ::StringW message, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method LogWarning, addr 0x5cb0b00, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x5d175e0, size 0xc0, virtual false, abstract: false, final false
   inline void LogWarning(::StringW context, ::StringW message, ::UnityEngine::GameObject* gameObject);
 
   // Ctor Parameters []
@@ -419,7 +419,7 @@ public:
   constexpr OVRSceneManager_LogForwarder();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7643 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -441,13 +441,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRSceneManager_Development : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Log, addr 0x5cb1748, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x5d18228, size 0xc0, virtual false, abstract: false, final false
   static inline void Log(::StringW context, ::StringW message, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method LogError, addr 0x5cb18c8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x5d183a8, size 0xc0, virtual false, abstract: false, final false
   static inline void LogError(::StringW context, ::StringW message, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method LogWarning, addr 0x5cb1808, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x5d182e8, size 0xc0, virtual false, abstract: false, final false
   static inline void LogWarning(::StringW context, ::StringW message, ::UnityEngine::GameObject* gameObject);
 
 protected:
@@ -465,7 +465,7 @@ public:
   OVRSceneManager_Development(OVRSceneManager_Development const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7640 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7644 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -520,7 +520,7 @@ public:
   static ::GlobalNamespace::OVRSceneManager_LoadSceneModelResult const Success;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7641 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7645 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -543,7 +543,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE OVRSceneManager_Metrics {
 public:
   // Declarations
-  /// @brief Method op_Addition, addr 0x5cb1988, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x5d18468, size 0x24, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRSceneManager_Metrics op_Addition(::GlobalNamespace::OVRSceneManager_Metrics lhs, ::GlobalNamespace::OVRSceneManager_Metrics rhs);
 
   // Ctor Parameters []
@@ -556,7 +556,7 @@ public:
   constexpr OVRSceneManager_Metrics(int32_t TotalRoomCount, int32_t CandidateRoomCount, int32_t Loaded, int32_t Failed, int32_t SkippedUserNotInRoom, int32_t SkippedAlreadyInstantiated) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7646 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -613,7 +613,7 @@ public:
   constexpr OVRSceneManager_RoomLayoutUuids(::System::Guid Floor, ::System::Guid Ceiling, ::ArrayW<::System::Guid, ::Array<::System::Guid>*> Walls) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7647 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -649,10 +649,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cb19ac, size 0x21c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d1848c, size 0x21c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cb1bc8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d186a8, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -673,7 +673,7 @@ public:
                                                                  ::GlobalNamespace::OVRTask_1_Awaiter<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7644 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7648 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -725,7 +725,7 @@ public:
 
   static inline ::GlobalNamespace::OVRSceneManager___c__DisplayClass45_0* New_ctor();
 
-  /// @brief Method <LoadSceneModelAsync>b__0, addr 0x5cb1bd4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method <LoadSceneModelAsync>b__0, addr 0x5d186b4, size 0xd8, virtual false, abstract: false, final false
   inline void _LoadSceneModelAsync_b__0(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* rooms, int32_t startingIndex);
 
   constexpr ::UnityW<::GlobalNamespace::OVRSceneManager> const& __cordl_internal_get___4__this() const;
@@ -740,7 +740,7 @@ public:
 
   constexpr void __cordl_internal_set_tasks(::System::Collections::Generic::List_1<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRSceneManager_Metrics>>* value);
 
-  /// @brief Method .ctor, addr 0x5cb1bd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d186b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -758,7 +758,7 @@ public:
   OVRSceneManager___c__DisplayClass45_0(OVRSceneManager___c__DisplayClass45_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7649 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRSceneManager> _____4__this;
@@ -792,7 +792,7 @@ public:
 
   static inline ::GlobalNamespace::OVRSceneManager___c__DisplayClass51_0* New_ctor();
 
-  /// @brief Method <DoesRoomSetupExist>b__0, addr 0x5cb1cac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <DoesRoomSetupExist>b__0, addr 0x5d1878c, size 0x18, virtual false, abstract: false, final false
   inline void _DoesRoomSetupExist_b__0(bool result, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors);
 
   constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>* const& __cordl_internal_get_requestedAnchorClassifications() const;
@@ -807,7 +807,7 @@ public:
 
   constexpr void __cordl_internal_set_task(::GlobalNamespace::OVRTask_1<bool> value);
 
-  /// @brief Method .ctor, addr 0x5caef80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d15a60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -825,7 +825,7 @@ public:
   OVRSceneManager___c__DisplayClass51_0(OVRSceneManager___c__DisplayClass51_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7646 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7650 };
 
   /// @brief Field requestedAnchorClassifications, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::StringW>* ___requestedAnchorClassifications;
@@ -862,7 +862,7 @@ public:
 
   static inline ::GlobalNamespace::OVRSceneManager___c__DisplayClass54_0* New_ctor();
 
-  /// @brief Method <CheckClassificationsInRooms>b__0, addr 0x5cb1cc4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <CheckClassificationsInRooms>b__0, addr 0x5d187a4, size 0x14, virtual false, abstract: false, final false
   inline void _CheckClassificationsInRooms_b__0(bool result);
 
   constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>* const& __cordl_internal_get_requestedAnchorClassifications() const;
@@ -883,7 +883,7 @@ public:
 
   constexpr void __cordl_internal_set_task(::GlobalNamespace::OVRTask_1<bool> value);
 
-  /// @brief Method .ctor, addr 0x5caf584, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d16064, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -901,7 +901,7 @@ public:
   OVRSceneManager___c__DisplayClass54_0(OVRSceneManager___c__DisplayClass54_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7647 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7651 };
 
   /// @brief Field requestedAnchorClassifications, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::StringW>* ___requestedAnchorClassifications;
@@ -962,7 +962,7 @@ public:
           __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7652 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -996,10 +996,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cb1cd8, size 0x2f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d187b8, size 0x2f8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cb1fd0, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d18ab0, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1021,7 +1021,7 @@ public:
           __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7653 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -1068,10 +1068,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cb200c, size 0x1360, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d18aec, size 0x1360, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cb336c, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d19e4c, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1102,7 +1102,7 @@ public:
       ::GlobalNamespace::OVRObjectPool_ListScope_1<::GlobalNamespace::OVRTask_1<bool>> __7__wrap7, ::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<bool>*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7650 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7654 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
@@ -1188,10 +1188,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cb33a8, size 0x95c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d19e88, size 0x95c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cb3d04, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d1a7e4, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1220,7 +1220,7 @@ public:
                                                        ::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSceneManager_Metrics>*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7655 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -1296,10 +1296,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cb3d40, size 0x65c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d1a820, size 0x65c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cb439c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d1ae7c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1321,7 +1321,7 @@ public:
                                                       ::GlobalNamespace::OVRTask_1_Awaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7656 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -1378,10 +1378,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cb43a4, size 0x1084, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d1ae84, size 0x1084, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cb551c, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d1bffc, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1418,7 +1418,7 @@ public:
                                                 ::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<bool>*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7653 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7657 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb0 };
@@ -1514,10 +1514,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cb5558, size 0x5f4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d1c038, size 0x5f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5cb5b5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d1c63c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1538,7 +1538,7 @@ public:
                                                                     ::GlobalNamespace::OVRTask_1_Awaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7658 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -1677,27 +1677,27 @@ public:
   /// @brief Field _sceneCaptureRequestId, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneCaptureRequestId, put = __cordl_internal_set__sceneCaptureRequestId)) uint64_t _sceneCaptureRequestId;
 
-  /// @brief Method Awake, addr 0x5cad690, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5d14170, size 0x138, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CheckClassificationsInRooms, addr 0x5caf0cc, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method CheckClassificationsInRooms, addr 0x5d15bac, size 0x4b8, virtual false, abstract: false, final false
   static inline void CheckClassificationsInRooms(bool success, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* rooms,
                                                  ::System::Collections::Generic::IEnumerable_1<::StringW>* requestedAnchorClassifications, ::GlobalNamespace::OVRTask_1<bool> task);
 
-  /// @brief Method CheckIfAnchorsContainClassifications, addr 0x5caf588, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method CheckIfAnchorsContainClassifications, addr 0x5d16068, size 0x4ac, virtual false, abstract: false, final false
   static inline void CheckIfAnchorsContainClassifications(bool success, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* roomAnchors,
                                                           ::System::Collections::Generic::IEnumerable_1<::StringW>* requestedAnchorClassifications, ::GlobalNamespace::OVRTask_1<bool> task);
 
-  /// @brief Method CheckIfClassificationsAreValid, addr 0x5cae8e0, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method CheckIfClassificationsAreValid, addr 0x5d153c0, size 0x42c, virtual false, abstract: false, final false
   static inline void CheckIfClassificationsAreValid(::System::Collections::Generic::IEnumerable_1<::StringW>* requestedAnchorClassifications);
 
-  /// @brief Method CollectLabelsFromAnchors, addr 0x5cafa34, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method CollectLabelsFromAnchors, addr 0x5d16514, size 0x19c, virtual false, abstract: false, final false
   static inline void CollectLabelsFromAnchors(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors, ::System::Collections::Generic::List_1<::StringW>* labels);
 
-  /// @brief Method DestroyExistingAnchors, addr 0x5cade64, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method DestroyExistingAnchors, addr 0x5d14944, size 0x244, virtual false, abstract: false, final false
   inline void DestroyExistingAnchors();
 
-  /// @brief Method DoesRoomSetupExist, addr 0x5caed0c, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method DoesRoomSetupExist, addr 0x5d157ec, size 0x274, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> DoesRoomSetupExist(::System::Collections::Generic::IEnumerable_1<::StringW>* requestedAnchorClassifications);
 
   /// @brief Method FetchAnchorsAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1705,96 +1705,96 @@ public:
   static inline ::GlobalNamespace::OVRTask_1<bool> FetchAnchorsAsync(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors,
                                                                      ::System::Action_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, int32_t>* incrementalResultsCallback);
 
-  /// @brief Method FetchAnchorsAsync, addr 0x5cadb38, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method FetchAnchorsAsync, addr 0x5d14618, size 0xc8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> FetchAnchorsAsync(::System::Collections::Generic::IEnumerable_1<::System::Guid>* uuids,
                                                                      ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors);
 
-  /// @brief Method FilterByActiveRoom, addr 0x5cae358, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method FilterByActiveRoom, addr 0x5d14e38, size 0xcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<::System::ValueTuple_2<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult, int32_t>>
   FilterByActiveRoom(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* rooms,
                      ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRAnchor, ::GlobalNamespace::OVRSceneManager_RoomLayoutUuids>* layouts);
 
-  /// @brief Method GetRoomLayoutInformation, addr 0x5cb023c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method GetRoomLayoutInformation, addr 0x5d16d1c, size 0x1d4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSceneManager_RoomLayoutInformation* GetRoomLayoutInformation();
 
-  /// @brief Method GetUuidsToQuery, addr 0x5caef84, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetUuidsToQuery, addr 0x5d15a64, size 0x148, virtual false, abstract: false, final false
   static inline void GetUuidsToQuery(::GlobalNamespace::OVRAnchor anchor, ::System::Collections::Generic::HashSet_1<::System::Guid>* uuidsToQuery);
 
-  /// @brief Method InstantiateSceneAnchor, addr 0x5cb0bc0, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method InstantiateSceneAnchor, addr 0x5d176a0, size 0x58c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRSceneAnchor> InstantiateSceneAnchor(::GlobalNamespace::OVRAnchor anchor, ::GlobalNamespace::OVRSceneAnchor* prefab);
 
-  /// @brief Method IsUserInRoom, addr 0x5cae424, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method IsUserInRoom, addr 0x5d14f04, size 0x2d8, virtual false, abstract: false, final false
   static inline bool IsUserInRoom(::UnityEngine::Vector3 userPosition, ::GlobalNamespace::OVRAnchor floor, ::GlobalNamespace::OVRAnchor ceiling);
 
-  /// @brief Method LoadSceneModel, addr 0x5cadd58, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneModel, addr 0x5d14838, size 0x10c, virtual false, abstract: false, final false
   inline bool LoadSceneModel();
 
-  /// @brief Method LoadSceneModelAsync, addr 0x5cae0a8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneModelAsync, addr 0x5d14b88, size 0xc0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult> LoadSceneModelAsync();
 
-  /// @brief Method Log, addr 0x5cad684, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x5d14164, size 0x4, virtual false, abstract: false, final false
   static inline void Log(::StringW message, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method LogError, addr 0x5cad68c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x5d1416c, size 0x4, virtual false, abstract: false, final false
   static inline void LogError(::StringW message, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method LogResult, addr 0x5cadae0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LogResult, addr 0x5d145c0, size 0x58, virtual false, abstract: false, final false
   static inline void LogResult(::GlobalNamespace::OVRAnchor_FetchResult value);
 
-  /// @brief Method LogWarning, addr 0x5cad688, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x5d14168, size 0x4, virtual false, abstract: false, final false
   static inline void LogWarning(::StringW message, ::UnityEngine::GameObject* gameObject);
 
   static inline ::GlobalNamespace::OVRSceneManager* New_ctor();
 
-  /// @brief Method OVRManager_SceneCaptureComplete, addr 0x5cb0994, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method OVRManager_SceneCaptureComplete, addr 0x5d17474, size 0x16c, virtual false, abstract: false, final false
   inline void OVRManager_SceneCaptureComplete(uint64_t requestId, bool result);
 
-  /// @brief Method OnApplicationPause, addr 0x5cadc00, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x5d146e0, size 0xbc, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool isPaused);
 
-  /// @brief Method OnDisable, addr 0x5cb073c, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5d1721c, size 0x258, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5cb0484, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5d16f64, size 0x2b8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnTrackingSpaceChanged, addr 0x5cafbd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnTrackingSpaceChanged, addr 0x5d166b0, size 0x4, virtual false, abstract: false, final false
   static inline void OnTrackingSpaceChanged(::UnityEngine::Transform* trackingSpace);
 
-  /// @brief Method PointInPolygon2D, addr 0x5cae6fc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method PointInPolygon2D, addr 0x5d151dc, size 0xa4, virtual false, abstract: false, final false
   static inline bool PointInPolygon2D(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> boundaryVertices, ::UnityEngine::Vector2 target);
 
-  /// @brief Method ProcessBatch, addr 0x5cae280, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ProcessBatch, addr 0x5d14d60, size 0xd8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRSceneManager_Metrics> ProcessBatch(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* rooms, int32_t startingIndex);
 
-  /// @brief Method QueryForExistingAnchorsTransform, addr 0x5cadcbc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method QueryForExistingAnchorsTransform, addr 0x5d1479c, size 0x9c, virtual false, abstract: false, final false
   inline void QueryForExistingAnchorsTransform();
 
-  /// @brief Method RequestSceneCapture, addr 0x5cae7a0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method RequestSceneCapture, addr 0x5d15280, size 0x4c, virtual false, abstract: false, final false
   inline bool RequestSceneCapture();
 
-  /// @brief Method RequestSceneCapture, addr 0x5cae7ec, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method RequestSceneCapture, addr 0x5d152cc, size 0x94, virtual false, abstract: false, final false
   inline bool RequestSceneCapture(::StringW requestString);
 
-  /// @brief Method RequestSceneCapture, addr 0x5cae880, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RequestSceneCapture, addr 0x5d15360, size 0x60, virtual false, abstract: false, final false
   inline bool RequestSceneCapture(::System::Collections::Generic::IEnumerable_1<::StringW>* requestedAnchorClassifications);
 
-  /// @brief Method Start, addr 0x5cad888, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5d14368, size 0x258, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5cafdf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5d168d4, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateAllSceneAnchors, addr 0x5cafbd4, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method UpdateAllSceneAnchors, addr 0x5d166b4, size 0x220, virtual false, abstract: false, final false
   static inline void UpdateAllSceneAnchors();
 
-  /// @brief Method UpdateSomeSceneAnchors, addr 0x5cafdf8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method UpdateSomeSceneAnchors, addr 0x5d168d8, size 0x140, virtual false, abstract: false, final false
   inline void UpdateSomeSceneAnchors();
 
-  /// @brief Method <LoadSceneModel>g__AwaitTask|40_0, addr 0x5cae168, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <LoadSceneModel>g__AwaitTask|40_0, addr 0x5d14c48, size 0xb8, virtual false, abstract: false, final false
   inline void _LoadSceneModel_g__AwaitTask_40_0(::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRSceneManager_LoadSceneModelResult> task);
 
-  /// @brief Method <LoadSceneModel>g__InterpretResult|40_1, addr 0x5cae220, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <LoadSceneModel>g__InterpretResult|40_1, addr 0x5d14d00, size 0x60, virtual false, abstract: false, final false
   inline bool _LoadSceneModel_g__InterpretResult_40_1(::GlobalNamespace::OVRSceneManager_LoadSceneModelResult result);
 
   constexpr bool const& __cordl_internal_get_ActiveRoomsOnly() const;
@@ -1905,22 +1905,22 @@ public:
 
   constexpr void __cordl_internal_set__sceneCaptureRequestId(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x5cb1214, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d17cf4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_LoadSceneModelFailedPermissionNotGranted, addr 0x5cad4e8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_LoadSceneModelFailedPermissionNotGranted, addr 0x5d13fc8, size 0xac, virtual false, abstract: false, final false
   inline void add_LoadSceneModelFailedPermissionNotGranted(::System::Action* value);
 
-  /// @brief Method get_InitialAnchorParent, addr 0x5cad4d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InitialAnchorParent, addr 0x5d13fb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_InitialAnchorParent();
 
-  /// @brief Method get_Verbose, addr 0x5cad640, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_Verbose, addr 0x5d14120, size 0x44, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::GlobalNamespace::OVRSceneManager_LogForwarder> get_Verbose();
 
-  /// @brief Method remove_LoadSceneModelFailedPermissionNotGranted, addr 0x5cad594, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_LoadSceneModelFailedPermissionNotGranted, addr 0x5d14074, size 0xac, virtual false, abstract: false, final false
   inline void remove_LoadSceneModelFailedPermissionNotGranted(::System::Action* value);
 
-  /// @brief Method set_InitialAnchorParent, addr 0x5cad4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InitialAnchorParent, addr 0x5d13fc0, size 0x8, virtual false, abstract: false, final false
   inline void set_InitialAnchorParent(::UnityEngine::Transform* value);
 
 protected:
@@ -1943,7 +1943,7 @@ public:
   };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7659 };
 
   /// @brief Field PlanePrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRSceneAnchor> ___PlanePrefab;

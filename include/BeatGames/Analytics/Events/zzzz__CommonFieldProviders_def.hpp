@@ -25,13 +25,13 @@ public:
 
   static inline int32_t getStaticF__cachedVROSVersion();
 
-  /// @brief Method get_DeviceType, addr 0x3161ab0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_DeviceType, addr 0x31917a8, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW get_DeviceType();
 
-  /// @brief Method get_RuntimePlatform, addr 0x31616f8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_RuntimePlatform, addr 0x31913f0, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW get_RuntimePlatform();
 
-  /// @brief Method get_VROSMajorVersion, addr 0x31617c8, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method get_VROSMajorVersion, addr 0x31914c0, size 0x2e8, virtual false, abstract: false, final false
   static inline int32_t get_VROSMajorVersion();
 
   static inline void setStaticF__cachedVROSVersion(int32_t value);
@@ -51,7 +51,7 @@ public:
   CommonFieldProviders(CommonFieldProviders const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22978 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

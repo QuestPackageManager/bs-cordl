@@ -47,18 +47,18 @@ public:
   __declspec(property(get = __cordl_internal_get__prepareLevelCompletionResults, put = __cordl_internal_set__prepareLevelCompletionResults)) ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>
       _prepareLevelCompletionResults;
 
-  /// @brief Method HandleLevelFinished, addr 0x57a1308, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFinished, addr 0x5807bb0, size 0x4, virtual false, abstract: false, final false
   inline void HandleLevelFinished();
 
   static inline ::GlobalNamespace::MissionLevelFinishedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57a11d0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5807a78, size 0x138, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x57a10dc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5807984, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartLevelFinished, addr 0x57a130c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method StartLevelFinished, addr 0x5807bb4, size 0xb4, virtual false, abstract: false, final false
   inline void StartLevelFinished();
 
   constexpr ::GlobalNamespace::ILevelEndActions* const& __cordl_internal_get__gameplayManager() const;
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
 
-  /// @brief Method .ctor, addr 0x57a13c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5807c68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

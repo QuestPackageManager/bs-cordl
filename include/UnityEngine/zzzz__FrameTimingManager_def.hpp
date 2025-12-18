@@ -25,13 +25,13 @@ namespace UnityEngine {
 class CORDL_TYPE FrameTimingManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CaptureFrameTimings, addr 0x6854c68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CaptureFrameTimings, addr 0x68bc7e0, size 0x28, virtual false, abstract: false, final false
   static inline void CaptureFrameTimings();
 
-  /// @brief Method GetLatestTimings, addr 0x6854c90, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetLatestTimings, addr 0x68bc808, size 0xd4, virtual false, abstract: false, final false
   static inline uint32_t GetLatestTimings(uint32_t numFrames, ::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> timings);
 
-  /// @brief Method GetLatestTimings_Injected, addr 0x6854d64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLatestTimings_Injected, addr 0x68bc8dc, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t GetLatestTimings_Injected(uint32_t numFrames, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> timings);
 
 protected:
@@ -49,7 +49,7 @@ public:
   FrameTimingManager(FrameTimingManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10117 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10121 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

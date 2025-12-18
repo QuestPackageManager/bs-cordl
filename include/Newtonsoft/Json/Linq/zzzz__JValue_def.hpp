@@ -119,13 +119,13 @@ public:
   // Declarations
   static inline ::Newtonsoft::Json::Linq::JValue_JValueDynamicProxy* New_ctor();
 
-  /// @brief Method TryBinaryOperation, addr 0x5b777b8, size 0x330, virtual true, abstract: false, final false
+  /// @brief Method TryBinaryOperation, addr 0x5bde298, size 0x330, virtual true, abstract: false, final false
   inline bool TryBinaryOperation(::Newtonsoft::Json::Linq::JValue* instance, ::System::Dynamic::BinaryOperationBinder* binder, ::System::Object* arg, ::ByRef<::System::Object*> result);
 
-  /// @brief Method TryConvert, addr 0x5b77600, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method TryConvert, addr 0x5bde0e0, size 0x1b8, virtual true, abstract: false, final false
   inline bool TryConvert(::Newtonsoft::Json::Linq::JValue* instance, ::System::Dynamic::ConvertBinder* binder, ::ByRef<::System::Object*> result);
 
-  /// @brief Method .ctor, addr 0x5b76f04, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bdd9e4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -143,7 +143,7 @@ public:
   JValue_JValueDynamicProxy(JValue_JValueDynamicProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13591 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -187,55 +187,55 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*() noexcept;
 
-  /// @brief Method CloneToken, addr 0x5b7601c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CloneToken, addr 0x5bdcafc, size 0x6c, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* CloneToken(::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
-  /// @brief Method Compare, addr 0x5b74be0, size 0xaec, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x5bdb6c0, size 0xaec, virtual false, abstract: false, final false
   static inline int32_t Compare(::Newtonsoft::Json::Linq::JTokenType valueType, ::System::Object* objA, ::System::Object* objB);
 
-  /// @brief Method CompareBigInteger, addr 0x5b748ec, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method CompareBigInteger, addr 0x5bdb3cc, size 0x2f4, virtual false, abstract: false, final false
   static inline int32_t CompareBigInteger(::System::Numerics::BigInteger i1, ::System::Object* i2);
 
-  /// @brief Method CompareFloat, addr 0x5b756cc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CompareFloat, addr 0x5bdc1ac, size 0x138, virtual false, abstract: false, final false
   static inline int32_t CompareFloat(::System::Object* objA, ::System::Object* objB);
 
-  /// @brief Method CompareTo, addr 0x5b77000, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x5bddae0, size 0x30, virtual true, abstract: false, final true
   inline int32_t CompareTo(::Newtonsoft::Json::Linq::JValue* obj);
 
-  /// @brief Method CreateComment, addr 0x5b726e0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateComment, addr 0x5bd91c0, size 0x60, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JValue* CreateComment(::StringW value);
 
-  /// @brief Method CreateNull, addr 0x5b72460, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateNull, addr 0x5bd8f40, size 0x5c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JValue* CreateNull();
 
-  /// @brief Method CreateString, addr 0x5b76088, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x5bdcb68, size 0x60, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JValue* CreateString(::StringW value);
 
-  /// @brief Method CreateUndefined, addr 0x5b725e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateUndefined, addr 0x5bd90c0, size 0x5c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JValue* CreateUndefined();
 
-  /// @brief Method DeepEquals, addr 0x5b747dc, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method DeepEquals, addr 0x5bdb2bc, size 0xac, virtual true, abstract: false, final false
   inline bool DeepEquals(::Newtonsoft::Json::Linq::JToken* node);
 
-  /// @brief Method Equals, addr 0x5b76bc4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5bdd6a4, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5b76bb4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5bdd694, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::Newtonsoft::Json::Linq::JValue* other);
 
-  /// @brief Method GetDeepHashCode, addr 0x5b76b88, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetDeepHashCode, addr 0x5bdd668, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetDeepHashCode();
 
-  /// @brief Method GetHashCode, addr 0x5b76c60, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5bdd740, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetMetaObject, addr 0x5b76e2c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetMetaObject, addr 0x5bdd90c, size 0xd8, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* GetMetaObject(::System::Linq::Expressions::Expression* parameter);
 
-  /// @brief Method GetStringValueType, addr 0x5b760e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetStringValueType, addr 0x5bdcbc8, size 0x8c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JTokenType GetStringValueType(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType> current);
 
-  /// @brief Method GetValueType, addr 0x5b74478, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method GetValueType, addr 0x5bdaf58, size 0x364, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JTokenType GetValueType(::System::Nullable_1<::Newtonsoft::Json::Linq::JTokenType> current, ::System::Object* value);
 
   static inline ::Newtonsoft::Json::Linq::JValue* New_ctor(::Newtonsoft::Json::Linq::JValue* other);
@@ -272,79 +272,79 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::JValue* New_ctor(uint64_t value);
 
-  /// @brief Method Operation, addr 0x5b75804, size 0x818, virtual false, abstract: false, final false
+  /// @brief Method Operation, addr 0x5bdc2e4, size 0x818, virtual false, abstract: false, final false
   static inline bool Operation(::System::Linq::Expressions::ExpressionType operation, ::System::Object* objA, ::System::Object* objB, ::ByRef<::System::Object*> result);
 
-  /// @brief Method System.IComparable.CompareTo, addr 0x5b76f40, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method System.IComparable.CompareTo, addr 0x5bdda20, size 0xc0, virtual true, abstract: false, final true
   inline int32_t System_IComparable_CompareTo(::System::Object* obj);
 
-  /// @brief Method System.IConvertible.GetTypeCode, addr 0x5b77030, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.GetTypeCode, addr 0x5bddb10, size 0xc0, virtual true, abstract: false, final true
   inline ::System::TypeCode System_IConvertible_GetTypeCode();
 
-  /// @brief Method System.IConvertible.ToBoolean, addr 0x5b770f0, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToBoolean, addr 0x5bddbd0, size 0x5c, virtual true, abstract: false, final true
   inline bool System_IConvertible_ToBoolean(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToByte, addr 0x5b77204, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToByte, addr 0x5bddce4, size 0x5c, virtual true, abstract: false, final true
   inline uint8_t System_IConvertible_ToByte(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToChar, addr 0x5b7714c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToChar, addr 0x5bddc2c, size 0x5c, virtual true, abstract: false, final true
   inline char16_t System_IConvertible_ToChar(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDateTime, addr 0x5b7759c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDateTime, addr 0x5bde07c, size 0x5c, virtual true, abstract: false, final true
   inline ::System::DateTime System_IConvertible_ToDateTime(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDecimal, addr 0x5b77540, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDecimal, addr 0x5bde020, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Decimal System_IConvertible_ToDecimal(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDouble, addr 0x5b774e4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDouble, addr 0x5bddfc4, size 0x5c, virtual true, abstract: false, final true
   inline double_t System_IConvertible_ToDouble(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt16, addr 0x5b77260, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt16, addr 0x5bddd40, size 0x5c, virtual true, abstract: false, final true
   inline int16_t System_IConvertible_ToInt16(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt32, addr 0x5b77318, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt32, addr 0x5bdddf8, size 0x5c, virtual true, abstract: false, final true
   inline int32_t System_IConvertible_ToInt32(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt64, addr 0x5b773d0, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt64, addr 0x5bddeb0, size 0x5c, virtual true, abstract: false, final true
   inline int64_t System_IConvertible_ToInt64(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToSByte, addr 0x5b771a8, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToSByte, addr 0x5bddc88, size 0x5c, virtual true, abstract: false, final true
   inline int8_t System_IConvertible_ToSByte(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToSingle, addr 0x5b77488, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToSingle, addr 0x5bddf68, size 0x5c, virtual true, abstract: false, final true
   inline float_t System_IConvertible_ToSingle(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToType, addr 0x5b775f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToType, addr 0x5bde0d8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_IConvertible_ToType(::System::Type* conversionType, ::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt16, addr 0x5b772bc, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt16, addr 0x5bddd9c, size 0x5c, virtual true, abstract: false, final true
   inline uint16_t System_IConvertible_ToUInt16(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt32, addr 0x5b77374, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt32, addr 0x5bdde54, size 0x5c, virtual true, abstract: false, final true
   inline uint32_t System_IConvertible_ToUInt32(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt64, addr 0x5b7742c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt64, addr 0x5bddf0c, size 0x5c, virtual true, abstract: false, final true
   inline uint64_t System_IConvertible_ToUInt64(::System::IFormatProvider* provider);
 
-  /// @brief Method ToString, addr 0x5b76c78, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5bdd758, size 0x28, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x5b76ca0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x5bdd780, size 0x74, virtual false, abstract: false, final false
   inline ::StringW ToString(::StringW format);
 
-  /// @brief Method ToString, addr 0x5b76d14, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x5bdd7f4, size 0x10c, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method ToString, addr 0x5b76e20, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x5bdd900, size 0xc, virtual true, abstract: false, final true
   inline ::StringW ToString(::System::IFormatProvider* formatProvider);
 
-  /// @brief Method ValuesEquals, addr 0x5b74888, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ValuesEquals, addr 0x5bdb368, size 0x5c, virtual false, abstract: false, final false
   static inline bool ValuesEquals(::Newtonsoft::Json::Linq::JValue* v1, ::Newtonsoft::Json::Linq::JValue* v2);
 
-  /// @brief Method WriteTo, addr 0x5b76244, size 0x944, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x5bdcd24, size 0x944, virtual true, abstract: false, final false
   inline void WriteTo(::Newtonsoft::Json::JsonWriter* writer, ::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*> converters);
 
-  /// @brief Method WriteToAsync, addr 0x5b73928, size 0x98c, virtual true, abstract: false, final false
+  /// @brief Method WriteToAsync, addr 0x5bda408, size 0x98c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteToAsync(::Newtonsoft::Json::JsonWriter* writer, ::System::Threading::CancellationToken cancellationToken,
                                                         ::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*> converters);
 
@@ -360,64 +360,64 @@ public:
 
   constexpr void __cordl_internal_set__valueType(::Newtonsoft::Json::Linq::JTokenType value);
 
-  /// @brief Method .ctor, addr 0x5b74384, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bdae64, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JValue* other);
 
-  /// @brief Method .ctor, addr 0x5b742b4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bdad94, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JValue* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
-  /// @brief Method .ctor, addr 0x5b727d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bd92b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b731a4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bd9c84, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x5b732a4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bd9d84, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTimeOffset value);
 
-  /// @brief Method .ctor, addr 0x5b73054, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bd9b34, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Decimal value);
 
-  /// @brief Method .ctor, addr 0x5b73528, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bda008, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x5b74448, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bdaf28, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5b72368, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bd8e48, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, ::Newtonsoft::Json::Linq::JTokenType type);
 
-  /// @brief Method .ctor, addr 0x5b73428, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bd9f08, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::TimeSpan value);
 
-  /// @brief Method .ctor, addr 0x5b7361c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bda0fc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* value);
 
-  /// @brief Method .ctor, addr 0x5b72ce4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bd97c4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(bool value);
 
-  /// @brief Method .ctor, addr 0x5b74410, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bdaef0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(char16_t value);
 
-  /// @brief Method .ctor, addr 0x5b72be0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bd96c0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(double_t value);
 
-  /// @brief Method .ctor, addr 0x5b72b1c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bd95fc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t value);
 
-  /// @brief Method .ctor, addr 0x5b7291c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bd93fc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(int64_t value);
 
-  /// @brief Method .ctor, addr 0x5b72a3c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bd951c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(uint64_t value);
 
-  /// @brief Method get_HasValues, addr 0x5b748e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasValues, addr 0x5bdb3c4, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasValues();
 
-  /// @brief Method get_Type, addr 0x5b76174, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x5bdcc54, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JTokenType get_Type();
 
-  /// @brief Method get_Value, addr 0x5b7617c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5bdcc5c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
   /// @brief Convert to "::System::IComparable"
@@ -435,7 +435,7 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable() noexcept;
 
-  /// @brief Method set_Value, addr 0x5b76184, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x5bdcc64, size 0xc0, virtual false, abstract: false, final false
   inline void set_Value(::System::Object* value);
 
 protected:
@@ -453,7 +453,7 @@ public:
   JValue(JValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13592 };
 
   /// @brief Field _valueType, offset: 0x30, size: 0x4, def value: None
   ::Newtonsoft::Json::Linq::JTokenType ____valueType;

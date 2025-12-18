@@ -28,34 +28,34 @@ namespace Meta::XR::ImmersiveDebugger::Utils {
 class CORDL_TYPE MemberInfoExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BuildSignatureForDebugInspector, addr 0x5832708, size 0x5ac, virtual false, abstract: false, final false
+  /// @brief Method BuildSignatureForDebugInspector, addr 0x5898e6c, size 0x5ac, virtual false, abstract: false, final false
   static inline ::StringW BuildSignatureForDebugInspector(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method CanBeChanged, addr 0x5832e1c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CanBeChanged, addr 0x5899580, size 0x2c, virtual false, abstract: false, final false
   static inline bool CanBeChanged(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method GetDataType, addr 0x58321b0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetDataType, addr 0x5898914, size 0x150, virtual false, abstract: false, final false
   static inline ::System::Type* GetDataType(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method GetValue, addr 0x5831e20, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x5898584, size 0x1c8, virtual false, abstract: false, final false
   static inline ::System::Object* GetValue(::System::Reflection::MemberInfo* memberInfo, ::System::Object* instance);
 
-  /// @brief Method IsBaseTypeEqual, addr 0x5832cb4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method IsBaseTypeEqual, addr 0x5899418, size 0x168, virtual false, abstract: false, final false
   static inline bool IsBaseTypeEqual(::System::Reflection::MemberInfo* member, ::System::Type* type);
 
-  /// @brief Method IsCompatibleWithDebugInspector, addr 0x582b994, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method IsCompatibleWithDebugInspector, addr 0x58920f8, size 0x21c, virtual false, abstract: false, final false
   static inline bool IsCompatibleWithDebugInspector(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method IsPublic, addr 0x5832524, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method IsPublic, addr 0x5898c88, size 0x1e4, virtual false, abstract: false, final false
   static inline bool IsPublic(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method IsStatic, addr 0x5832300, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method IsStatic, addr 0x5898a64, size 0x224, virtual false, abstract: false, final false
   static inline bool IsStatic(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method IsTypeEqual, addr 0x582c278, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method IsTypeEqual, addr 0x58929dc, size 0x13c, virtual false, abstract: false, final false
   static inline bool IsTypeEqual(::System::Reflection::MemberInfo* member, ::System::Type* type);
 
-  /// @brief Method SetValue, addr 0x5831fe8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x589874c, size 0x1c8, virtual false, abstract: false, final false
   static inline void SetValue(::System::Reflection::MemberInfo* memberInfo, ::System::Object* instance, ::System::Object* value);
 
 protected:
@@ -73,7 +73,7 @@ public:
   MemberInfoExtensions(MemberInfoExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18303 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18318 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

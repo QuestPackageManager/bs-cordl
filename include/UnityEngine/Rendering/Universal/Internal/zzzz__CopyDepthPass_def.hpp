@@ -124,7 +124,7 @@ public:
   CopyDepthPass_ShaderConstants(CopyDepthPass_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13050 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -204,7 +204,7 @@ public:
 
   constexpr void __cordl_internal_set_source(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x66dc0a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6743c34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -222,7 +222,7 @@ public:
   CopyDepthPass_PassData(CopyDepthPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13051 };
 
   /// @brief Field source, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___source;
@@ -282,10 +282,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c* New_ctor();
 
-  /// @brief Method <Render>b__38_0, addr 0x66dd518, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__38_0, addr 0x67450a4, size 0x88, virtual false, abstract: false, final false
   inline void _Render_b__38_0(::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x66dd514, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67450a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c* getStaticF___9();
@@ -314,7 +314,7 @@ public:
   CopyDepthPass___c(CopyDepthPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13052 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -378,36 +378,36 @@ public:
 
   __declspec(property(get = get_source, put = set_source)) ::UnityEngine::Rendering::RTHandle* source;
 
-  /// @brief Method Dispose, addr 0x66dc0bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6743c48, size 0x60, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Execute, addr 0x66dc154, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6743ce0, size 0x1e0, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x66dc334, size 0x618, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6743ec0, size 0x618, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData* passData,
                                  ::UnityEngine::Rendering::RTHandle* source);
 
   static inline ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* copyDepthShader,
                                                                                        bool shouldClear, bool copyToDepth, bool copyResolvedDepth, ::StringW customPassName);
 
-  /// @brief Method OnCameraCleanup, addr 0x66dc94c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method OnCameraCleanup, addr 0x67444d8, size 0xbc, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method OnCameraSetup, addr 0x66dc11c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method OnCameraSetup, addr 0x6743ca8, size 0x38, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Render, addr 0x66dcb00, size 0x8e8, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x674468c, size 0x8e8, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                      ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, bool bindAsCameraDepth, ::StringW passName);
 
-  /// @brief Method Render, addr 0x66dca08, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6744594, size 0xf8, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle source, bool bindAsCameraDepth,
                      ::StringW passName);
 
-  /// @brief Method Setup, addr 0x66dc0ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6743c38, size 0x10, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination);
 
   constexpr bool const& __cordl_internal_get__CopyToBackbuffer_k__BackingField() const;
@@ -470,44 +470,44 @@ public:
 
   constexpr void __cordl_internal_set_m_ShouldClear(bool value);
 
-  /// @brief Method .ctor, addr 0x66dbec8, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6743a54, size 0x1e0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* copyDepthShader, bool shouldClear, bool copyToDepth, bool copyResolvedDepth,
                     ::StringW customPassName);
 
-  /// @brief Method get_CopyToBackbuffer, addr 0x66dbeb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CopyToBackbuffer, addr 0x6743a44, size 0x8, virtual false, abstract: false, final false
   inline bool get_CopyToBackbuffer();
 
-  /// @brief Method get_CopyToDepth, addr 0x66dbe98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CopyToDepth, addr 0x6743a24, size 0x8, virtual false, abstract: false, final false
   inline bool get_CopyToDepth();
 
-  /// @brief Method get_CopyToDepthXR, addr 0x66dbea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CopyToDepthXR, addr 0x6743a34, size 0x8, virtual false, abstract: false, final false
   inline bool get_CopyToDepthXR();
 
-  /// @brief Method get_MssaSamples, addr 0x66dbe88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MssaSamples, addr 0x6743a14, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MssaSamples();
 
-  /// @brief Method get_destination, addr 0x66dbe78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_destination, addr 0x6743a04, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_destination();
 
-  /// @brief Method get_source, addr 0x66dbe68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_source, addr 0x67439f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_source();
 
-  /// @brief Method set_CopyToBackbuffer, addr 0x66dbec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CopyToBackbuffer, addr 0x6743a4c, size 0x8, virtual false, abstract: false, final false
   inline void set_CopyToBackbuffer(bool value);
 
-  /// @brief Method set_CopyToDepth, addr 0x66dbea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CopyToDepth, addr 0x6743a2c, size 0x8, virtual false, abstract: false, final false
   inline void set_CopyToDepth(bool value);
 
-  /// @brief Method set_CopyToDepthXR, addr 0x66dbeb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CopyToDepthXR, addr 0x6743a3c, size 0x8, virtual false, abstract: false, final false
   inline void set_CopyToDepthXR(bool value);
 
-  /// @brief Method set_MssaSamples, addr 0x66dbe90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MssaSamples, addr 0x6743a1c, size 0x8, virtual false, abstract: false, final false
   inline void set_MssaSamples(int32_t value);
 
-  /// @brief Method set_destination, addr 0x66dbe80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_destination, addr 0x6743a0c, size 0x8, virtual false, abstract: false, final false
   inline void set_destination(::UnityEngine::Rendering::RTHandle* value);
 
-  /// @brief Method set_source, addr 0x66dbe70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_source, addr 0x67439fc, size 0x8, virtual false, abstract: false, final false
   inline void set_source(::UnityEngine::Rendering::RTHandle* value);
 
 protected:
@@ -525,7 +525,7 @@ public:
   CopyDepthPass(CopyDepthPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13053 };
 
   /// @brief Field <source>k__BackingField, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::Rendering::RTHandle* ____source_k__BackingField;

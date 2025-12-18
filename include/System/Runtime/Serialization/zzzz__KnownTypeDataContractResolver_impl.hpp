@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::KnownTypeDataContractResolver::*)(
     ::System::Runtime::Serialization::XmlObjectSerializerContext*)>(&::System::Runtime::Serialization::KnownTypeDataContractResolver::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3b790;
+  constexpr static std::size_t addrs = 0x5fa331c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Type*, ::System::Type*, ::System::Runtime::Serialization::DataContractResolver*, ::ByRef<::System::Xml::XmlDictionaryString*>, ::ByRef<::System::Xml::XmlDictionaryString*>)>(
     &::System::Runtime::Serialization::KnownTypeDataContractResolver::TryResolveType)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5f3b798;
+  constexpr static std::size_t addrs = 0x5fa3324;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Type* (::System::Runtime::Serialization::KnownTypeDataContractResolver::*)(::StringW, ::StringW, ::System::Type*, ::System::Runtime::Serialization::DataContractResolver*)>(
         &::System::Runtime::Serialization::KnownTypeDataContractResolver::ResolveName)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5f3b91c;
+  constexpr static std::size_t addrs = 0x5fa34a8;
 
   inline static ::MethodInfo const* methodInfo() {
 

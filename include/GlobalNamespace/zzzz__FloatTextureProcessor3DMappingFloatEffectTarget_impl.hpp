@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMappingFloatEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DMappingFloatEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x577b050;
+  constexpr static std::size_t addrs = 0x57e18f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMappingFloatEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DMappingFloatEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x577b25c;
+  constexpr static std::size_t addrs = 0x57e1b04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMappingFloatEffectTarget::*)(float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DMappingFloatEffectTarget::SetFloat)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x577b054;
+  constexpr static std::size_t addrs = 0x57e18fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMappingFloatEffectTarget::*)()>(
     &::GlobalNamespace::FloatTextureProcessor3DMappingFloatEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x577b260;
+  constexpr static std::size_t addrs = 0x57e1b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

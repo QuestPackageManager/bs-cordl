@@ -89,7 +89,7 @@ public:
   constexpr PerformanceConfigurationChecks_Mismatch(::StringW message, int32_t frames) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6684 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -128,7 +128,7 @@ public:
                                                      ::UnityEngine::ThreadPriority backgroundLoadingPriority) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6685 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -182,7 +182,7 @@ public:
                                                     bool useOcclusionMesh) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6686 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -278,7 +278,7 @@ public:
                                                         ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6687 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };
@@ -404,7 +404,7 @@ public:
   constexpr PerformanceConfigurationChecks_LevelConfig(::GlobalNamespace::GameplayModifierMask modifiers) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6688 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
@@ -457,22 +457,22 @@ public:
   /// @brief Field xrConfig, offset 0x20, size 0x30
   __declspec(property(get = __cordl_internal_get_xrConfig, put = __cordl_internal_set_xrConfig)) ::GlobalNamespace::PerformanceConfigurationChecks_XRConfig xrConfig;
 
-  /// @brief Method CreateErrorLog, addr 0x56ffc24, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method CreateErrorLog, addr 0x575d874, size 0x244, virtual false, abstract: false, final false
   inline ::StringW CreateErrorLog();
 
-  /// @brief Method IsValid, addr 0x56ffbc8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x575d818, size 0x5c, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::GlobalNamespace::PerformanceConfigurationChecks* New_ctor();
 
-  /// @brief Method SetExpected, addr 0x56ffe68, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method SetExpected, addr 0x575dab8, size 0x378, virtual false, abstract: false, final false
   inline bool SetExpected(::ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers,
                           ::GlobalNamespace::RecPlayBehaviour_State* recPlayState);
 
   /// @brief Method VerifyEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void VerifyEntry(::StringW name, T expected, T actual);
 
-  /// @brief Method VerifyExpected, addr 0x57001e0, size 0x1590, virtual false, abstract: false, final false
+  /// @brief Method VerifyExpected, addr 0x575de30, size 0x1560, virtual false, abstract: false, final false
   inline bool VerifyExpected(::ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers,
                              ::GlobalNamespace::RecPlayBehaviour_State* recPlayState);
 
@@ -512,7 +512,7 @@ public:
 
   constexpr void __cordl_internal_set_xrConfig(::GlobalNamespace::PerformanceConfigurationChecks_XRConfig value);
 
-  /// @brief Method .ctor, addr 0x5701770, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x575f390, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -530,7 +530,7 @@ public:
   PerformanceConfigurationChecks(PerformanceConfigurationChecks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6689 };
 
   /// @brief Field appConfig, offset: 0x10, size: 0x10, def value: None
   ::GlobalNamespace::PerformanceConfigurationChecks_AppConfig ___appConfig;

@@ -43,36 +43,36 @@ public:
 
   __declspec(property(get = get_numberOfClearedMissions)) int32_t numberOfClearedMissions;
 
-  /// @brief Method Awake, addr 0x3608340, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3633290, size 0x74, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method IsMissionCleared, addr 0x3608494, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsMissionCleared, addr 0x36333e4, size 0x2c, virtual false, abstract: false, final false
   inline bool IsMissionCleared(::StringW missionId);
 
-  /// @brief Method IsMissionFinal, addr 0x360867c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsMissionFinal, addr 0x36335cc, size 0x8, virtual false, abstract: false, final false
   inline bool IsMissionFinal(::StringW missionId);
 
-  /// @brief Method IsMissionRegistered, addr 0x36083b4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsMissionRegistered, addr 0x3633304, size 0x64, virtual false, abstract: false, final false
   inline bool IsMissionRegistered(::StringW missionId);
 
   static inline ::GlobalNamespace::CampaignProgressModel* New_ctor();
 
-  /// @brief Method RegisterMissionId, addr 0x3608418, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RegisterMissionId, addr 0x3633368, size 0x7c, virtual false, abstract: false, final false
   inline void RegisterMissionId(::StringW missionId);
 
-  /// @brief Method SetFinalMissionId, addr 0x3608684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetFinalMissionId, addr 0x36335d4, size 0x8, virtual false, abstract: false, final false
   inline void SetFinalMissionId(::StringW missionId);
 
-  /// @brief Method SetMissionCleared, addr 0x36086d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMissionCleared, addr 0x3633620, size 0x8, virtual false, abstract: false, final false
   inline void SetMissionCleared(::StringW missionId);
 
-  /// @brief Method UpdateNumberOfClearedMissions, addr 0x36081f8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method UpdateNumberOfClearedMissions, addr 0x3633148, size 0x148, virtual false, abstract: false, final false
   inline int32_t UpdateNumberOfClearedMissions();
 
-  /// @brief Method WillFinishGameAfterThisMission, addr 0x360868c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method WillFinishGameAfterThisMission, addr 0x36335dc, size 0x44, virtual false, abstract: false, final false
   inline bool WillFinishGameAfterThisMission(::StringW missionId);
 
-  /// @brief Method __SetMissionCleared, addr 0x36086d8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method __SetMissionCleared, addr 0x3633628, size 0x48, virtual false, abstract: false, final false
   inline void __SetMissionCleared(::StringW missionId, bool cleared);
 
   constexpr ::StringW const& __cordl_internal_get__finalMissionId() const;
@@ -105,10 +105,10 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x3608720, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3633670, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_numberOfClearedMissions, addr 0x36081d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfClearedMissions, addr 0x3633120, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_numberOfClearedMissions();
 
 protected:
@@ -126,7 +126,7 @@ public:
   CampaignProgressModel(CampaignProgressModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15027 };
 
   /// @brief Field _playerDataModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;

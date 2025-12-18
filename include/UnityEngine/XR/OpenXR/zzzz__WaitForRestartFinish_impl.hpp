@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::OpenXR::WaitForRestartFinish::*)(float_t)>(
     &::UnityEngine::XR::OpenXR::WaitForRestartFinish::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x67bcb58;
+  constexpr static std::size_t addrs = 0x68246d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::OpenXR::WaitForRestartFinish::*)()>(
     &::UnityEngine::XR::OpenXR::WaitForRestartFinish::get_keepWaiting)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x67be7c8;
+  constexpr static std::size_t addrs = 0x6826340;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -37,16 +37,16 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::RuntimeTypeHandle value);
 
-  /// @brief Method .ctor, addr 0x5f2b67c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f93208, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5f2c2a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f93e30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::RuntimeTypeHandle value);
 
-  /// @brief Method get_Value, addr 0x5f2ee2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5f969b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::RuntimeTypeHandle get_Value();
 
-  /// @brief Method set_Value, addr 0x5f2ee34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x5f969c0, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::System::RuntimeTypeHandle value);
 
 protected:
@@ -64,7 +64,7 @@ public:
   TypeHandleRef(TypeHandleRef const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16988 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   ::System::RuntimeTypeHandle ___value;

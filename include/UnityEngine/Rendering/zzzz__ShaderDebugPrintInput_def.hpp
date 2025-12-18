@@ -31,31 +31,31 @@ public:
 
   __declspec(property(get = get_rightDown, put = set_rightDown)) bool rightDown;
 
-  /// @brief Method String, addr 0x6550ddc, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method String, addr 0x65b8968, size 0x1e4, virtual false, abstract: false, final false
   inline ::StringW String();
 
-  /// @brief Method get_leftDown, addr 0x6550dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftDown, addr 0x65b8938, size 0x8, virtual false, abstract: false, final false
   inline bool get_leftDown();
 
-  /// @brief Method get_middleDown, addr 0x6550dcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_middleDown, addr 0x65b8958, size 0x8, virtual false, abstract: false, final false
   inline bool get_middleDown();
 
-  /// @brief Method get_pos, addr 0x6550d9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pos, addr 0x65b8928, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_pos();
 
-  /// @brief Method get_rightDown, addr 0x6550dbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightDown, addr 0x65b8948, size 0x8, virtual false, abstract: false, final false
   inline bool get_rightDown();
 
-  /// @brief Method set_leftDown, addr 0x6550db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftDown, addr 0x65b8940, size 0x8, virtual false, abstract: false, final false
   inline void set_leftDown(bool value);
 
-  /// @brief Method set_middleDown, addr 0x6550dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_middleDown, addr 0x65b8960, size 0x8, virtual false, abstract: false, final false
   inline void set_middleDown(bool value);
 
-  /// @brief Method set_pos, addr 0x6550da4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pos, addr 0x65b8930, size 0x8, virtual false, abstract: false, final false
   inline void set_pos(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_rightDown, addr 0x6550dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightDown, addr 0x65b8950, size 0x8, virtual false, abstract: false, final false
   inline void set_rightDown(bool value);
 
   // Ctor Parameters []
@@ -68,7 +68,7 @@ public:
   constexpr ShaderDebugPrintInput(::UnityEngine::Vector2 _pos_k__BackingField, bool _leftDown_k__BackingField, bool _rightDown_k__BackingField, bool _middleDown_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12032 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

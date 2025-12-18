@@ -41,25 +41,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>*();
 
-  /// @brief Method Equals, addr 0x68ed9c4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6956848, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x68eb9a0, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6954824, size 0xd0, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LODParameters other);
 
-  /// @brief Method GetHashCode, addr 0x68ebddc, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6954c60, size 0x9c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_cameraPosition, addr 0x68ed9a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_cameraPosition, addr 0x695682c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_cameraPosition();
 
-  /// @brief Method get_fieldOfView, addr 0x68ed9b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fieldOfView, addr 0x6956838, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fieldOfView();
 
-  /// @brief Method get_isOrthographic, addr 0x68ed948, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_isOrthographic, addr 0x69567cc, size 0x60, virtual false, abstract: false, final false
   inline bool get_isOrthographic();
 
-  /// @brief Method get_orthoSize, addr 0x68ed9bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_orthoSize, addr 0x6956840, size 0x8, virtual false, abstract: false, final false
   inline float_t get_orthoSize();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>"
@@ -75,7 +75,7 @@ public:
   constexpr LODParameters(int32_t m_IsOrthographic, ::UnityEngine::Vector3 m_CameraPosition, float_t m_FieldOfView, float_t m_OrthoSize, int32_t m_CameraPixelHeight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10788 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

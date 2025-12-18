@@ -25,10 +25,10 @@ namespace UnityEngine::UIElements::StyleSheets {
 class CORDL_TYPE StyleSheetExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsVarFunction, addr 0x6ae2100, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsVarFunction, addr 0x6b4af84, size 0x14, virtual false, abstract: false, final false
   static inline bool IsVarFunction(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadAsString, addr 0x6adeb78, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x6b479fc, size 0x344, virtual false, abstract: false, final false
   static inline ::StringW ReadAsString(::UnityEngine::UIElements::StyleSheet* sheet, ::UnityEngine::UIElements::StyleValueHandle handle);
 
 protected:

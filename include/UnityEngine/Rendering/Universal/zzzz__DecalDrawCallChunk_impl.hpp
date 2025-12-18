@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DecalDrawCallChunk::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::DecalDrawCallChunk::set_subCallCount)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6639ee4;
+  constexpr static std::size_t addrs = 0x66a1a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::Universal::DecalDrawCallChunk::*)()>(
     &::UnityEngine::Rendering::Universal::DecalDrawCallChunk::get_subCallCount)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6639ef0;
+  constexpr static std::size_t addrs = 0x66a1a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DecalDrawCallChunk*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DecalDrawCallChunk::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::DecalDrawCallChunk::RemoveAtSwapBack)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6639efc;
+  constexpr static std::size_t addrs = 0x66a1a88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DecalDrawCallChunk::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::DecalDrawCallChunk::SetCapacity)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6639ff0;
+  constexpr static std::size_t addrs = 0x66a1b7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DecalDrawCallChunk::*)()>(
     &::UnityEngine::Rendering::Universal::DecalDrawCallChunk::Dispose)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x663a0b4;
+  constexpr static std::size_t addrs = 0x66a1c40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DecalDrawCallChunk::*)()>(
     &::UnityEngine::Rendering::Universal::DecalDrawCallChunk::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x663a188;
+  constexpr static std::size_t addrs = 0x66a1d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DecalDrawCallChunk*>::get(),

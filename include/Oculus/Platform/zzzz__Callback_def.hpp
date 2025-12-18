@@ -54,7 +54,7 @@ public:
   /// @brief Field messageCallback, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_messageCallback, put = __cordl_internal_set_messageCallback)) ::Oculus::Platform::Message_Callback* messageCallback;
 
-  /// @brief Method HandleMessage, addr 0x5ba0bd4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method HandleMessage, addr 0x5c076b4, size 0x1c, virtual true, abstract: false, final false
   inline void HandleMessage(::Oculus::Platform::Message* msg);
 
   static inline ::Oculus::Platform::Callback_RequestCallback* New_ctor();
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set_messageCallback(::Oculus::Platform::Message_Callback* value);
 
-  /// @brief Method .ctor, addr 0x5ba0bd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c076b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5ba0440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c06f20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Oculus::Platform::Message_Callback* callback);
 
 protected:
@@ -88,7 +88,7 @@ public:
   Callback_RequestCallback(Callback_RequestCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17779 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17793 };
 
   /// @brief Field messageCallback, offset: 0x10, size: 0x8, def value: None
   ::Oculus::Platform::Message_Callback* ___messageCallback;
@@ -142,7 +142,7 @@ public:
   Callback_RequestCallback_1(Callback_RequestCallback_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17794 };
 
   /// @brief Field callback, offset: 0x18, size: 0x8, def value: None
   ::Oculus::Platform::Message_1_Callback<T>* ___callback;
@@ -177,28 +177,28 @@ public:
   __declspec(property(get = getStaticF_requestIDsToRequests,
                       put = setStaticF_requestIDsToRequests)) ::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Request*>* requestIDsToRequests;
 
-  /// @brief Method AddRequest, addr 0x5ba0448, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method AddRequest, addr 0x5c06f28, size 0xfc, virtual false, abstract: false, final false
   static inline void AddRequest(::Oculus::Platform::Request* request);
 
-  /// @brief Method FlushJoinIntentNotificationQueue, addr 0x5ba0a00, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method FlushJoinIntentNotificationQueue, addr 0x5c074e0, size 0xa4, virtual false, abstract: false, final false
   static inline void FlushJoinIntentNotificationQueue();
 
-  /// @brief Method HandleMessage, addr 0x5ba0698, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method HandleMessage, addr 0x5c07178, size 0x22c, virtual false, abstract: false, final false
   static inline void HandleMessage(::Oculus::Platform::Message* msg);
 
-  /// @brief Method OnApplicationQuit, addr 0x5ba0950, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x5c07430, size 0xb0, virtual false, abstract: false, final false
   static inline void OnApplicationQuit();
 
-  /// @brief Method RunCallbacks, addr 0x5ba0544, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method RunCallbacks, addr 0x5c07024, size 0x70, virtual false, abstract: false, final false
   static inline void RunCallbacks();
 
-  /// @brief Method RunLimitedCallbacks, addr 0x5ba08c4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method RunLimitedCallbacks, addr 0x5c073a4, size 0x8c, virtual false, abstract: false, final false
   static inline void RunLimitedCallbacks(uint32_t limit);
 
   /// @brief Method SetNotificationCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void SetNotificationCallback(::Oculus::Platform::Message_MessageType type, ::Oculus::Platform::Message_1_Callback<T>* callback);
 
-  /// @brief Method SetNotificationCallback, addr 0x5ba0324, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method SetNotificationCallback, addr 0x5c06e04, size 0x11c, virtual false, abstract: false, final false
   static inline void SetNotificationCallback(::Oculus::Platform::Message_MessageType type, ::Oculus::Platform::Message_Callback* callback);
 
   static inline bool getStaticF_hasRegisteredJoinIntentNotificationHandler();
@@ -232,7 +232,7 @@ public:
   Callback(Callback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17781 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17795 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

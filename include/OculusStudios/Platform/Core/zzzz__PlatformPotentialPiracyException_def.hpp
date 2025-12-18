@@ -28,13 +28,13 @@ public:
 
   static inline ::OculusStudios::Platform::Core::PlatformPotentialPiracyException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x5d1973c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d8021c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5d19794, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d80274, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5d19800, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d802e0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:
@@ -52,7 +52,7 @@ public:
   PlatformPotentialPiracyException(PlatformPotentialPiracyException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22155 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22182 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

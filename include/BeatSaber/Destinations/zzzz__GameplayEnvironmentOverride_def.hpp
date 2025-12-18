@@ -19,62 +19,52 @@ namespace BeatSaber::Destinations {
 class CORDL_TYPE GameplayEnvironmentOverride : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _colorScheme, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorScheme, put = __cordl_internal_set__colorScheme)) ::StringW _colorScheme;
+  /// @brief Field colorScheme, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_colorScheme, put = __cordl_internal_set_colorScheme)) ::StringW colorScheme;
 
-  /// @brief Field _environment, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__environment, put = __cordl_internal_set__environment)) ::StringW _environment;
-
-  /// @brief Field _overrideLightshowColors, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__overrideLightshowColors, put = __cordl_internal_set__overrideLightshowColors)) bool _overrideLightshowColors;
-
-  __declspec(property(get = get_colorScheme)) ::StringW colorScheme;
-
-  __declspec(property(get = get_environment)) ::StringW environment;
+  /// @brief Field environment, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_environment, put = __cordl_internal_set_environment)) ::StringW environment;
 
   __declspec(property(get = get_overrideColorScheme)) bool overrideColorScheme;
 
   __declspec(property(get = get_overrideEnvironment)) bool overrideEnvironment;
 
-  __declspec(property(get = get_overrideLightshowColors)) bool overrideLightshowColors;
+  /// @brief Field overrideLightshowColors, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get_overrideLightshowColors, put = __cordl_internal_set_overrideLightshowColors)) bool overrideLightshowColors;
 
   static inline ::BeatSaber::Destinations::GameplayEnvironmentOverride* New_ctor();
 
-  constexpr ::StringW const& __cordl_internal_get__colorScheme() const;
+  static inline ::BeatSaber::Destinations::GameplayEnvironmentOverride* New_ctor(::StringW environment, ::StringW colorScheme, bool overrideLightshowColors);
 
-  constexpr ::StringW& __cordl_internal_get__colorScheme();
+  constexpr ::StringW const& __cordl_internal_get_colorScheme() const;
 
-  constexpr ::StringW const& __cordl_internal_get__environment() const;
+  constexpr ::StringW& __cordl_internal_get_colorScheme();
 
-  constexpr ::StringW& __cordl_internal_get__environment();
+  constexpr ::StringW const& __cordl_internal_get_environment() const;
 
-  constexpr bool const& __cordl_internal_get__overrideLightshowColors() const;
+  constexpr ::StringW& __cordl_internal_get_environment();
 
-  constexpr bool& __cordl_internal_get__overrideLightshowColors();
+  constexpr bool const& __cordl_internal_get_overrideLightshowColors() const;
 
-  constexpr void __cordl_internal_set__colorScheme(::StringW value);
+  constexpr bool& __cordl_internal_get_overrideLightshowColors();
 
-  constexpr void __cordl_internal_set__environment(::StringW value);
+  constexpr void __cordl_internal_set_colorScheme(::StringW value);
 
-  constexpr void __cordl_internal_set__overrideLightshowColors(bool value);
+  constexpr void __cordl_internal_set_environment(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3181814, size 0x18, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_overrideLightshowColors(bool value);
+
+  /// @brief Method .ctor, addr 0x31b1670, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorScheme, addr 0x3181804, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_colorScheme();
+  /// @brief Method .ctor, addr 0x31b168c, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::StringW environment, ::StringW colorScheme, bool overrideLightshowColors);
 
-  /// @brief Method get_environment, addr 0x31817dc, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_environment();
-
-  /// @brief Method get_overrideColorScheme, addr 0x31817e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_overrideColorScheme, addr 0x31b1650, size 0x20, virtual false, abstract: false, final false
   inline bool get_overrideColorScheme();
 
-  /// @brief Method get_overrideEnvironment, addr 0x31817bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_overrideEnvironment, addr 0x31b1630, size 0x20, virtual false, abstract: false, final false
   inline bool get_overrideEnvironment();
-
-  /// @brief Method get_overrideLightshowColors, addr 0x318180c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_overrideLightshowColors();
 
 protected:
   // Ctor Parameters []
@@ -91,25 +81,25 @@ public:
   GameplayEnvironmentOverride(GameplayEnvironmentOverride const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22745 };
 
-  /// @brief Field _environment, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____environment;
+  /// @brief Field environment, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___environment;
 
-  /// @brief Field _colorScheme, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____colorScheme;
+  /// @brief Field colorScheme, offset: 0x18, size: 0x8, def value: None
+  ::StringW ___colorScheme;
 
-  /// @brief Field _overrideLightshowColors, offset: 0x20, size: 0x1, def value: None
-  bool ____overrideLightshowColors;
+  /// @brief Field overrideLightshowColors, offset: 0x20, size: 0x1, def value: None
+  bool ___overrideLightshowColors;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::BeatSaber::Destinations::GameplayEnvironmentOverride, ____environment) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Destinations::GameplayEnvironmentOverride, ___environment) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Destinations::GameplayEnvironmentOverride, ____colorScheme) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Destinations::GameplayEnvironmentOverride, ___colorScheme) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Destinations::GameplayEnvironmentOverride, ____overrideLightshowColors) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Destinations::GameplayEnvironmentOverride, ___overrideLightshowColors) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Destinations::GameplayEnvironmentOverride, 0x28>, "Size mismatch!");
 

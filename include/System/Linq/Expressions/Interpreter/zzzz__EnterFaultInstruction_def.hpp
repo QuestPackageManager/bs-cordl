@@ -32,23 +32,23 @@ public:
                       put = setStaticF_s_cache)) ::ArrayW<::System::Linq::Expressions::Interpreter::EnterFaultInstruction*, ::Array<::System::Linq::Expressions::Interpreter::EnterFaultInstruction*>*>
       s_cache;
 
-  /// @brief Method Create, addr 0x5d744d4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5ddc060, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::EnterFaultInstruction* Create(int32_t labelIndex);
 
   static inline ::System::Linq::Expressions::Interpreter::EnterFaultInstruction* New_ctor(int32_t labelIndex);
 
-  /// @brief Method Run, addr 0x5d745cc, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5ddc158, size 0x50, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5d74480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ddc00c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t labelIndex);
 
   static inline ::ArrayW<::System::Linq::Expressions::Interpreter::EnterFaultInstruction*, ::Array<::System::Linq::Expressions::Interpreter::EnterFaultInstruction*>*> getStaticF_s_cache();
 
-  /// @brief Method get_InstructionName, addr 0x5d74488, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5ddc014, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5d744cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5ddc058, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_cache(::ArrayW<::System::Linq::Expressions::Interpreter::EnterFaultInstruction*, ::Array<::System::Linq::Expressions::Interpreter::EnterFaultInstruction*>*> value);
@@ -68,7 +68,7 @@ public:
   EnterFaultInstruction(EnterFaultInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16253 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

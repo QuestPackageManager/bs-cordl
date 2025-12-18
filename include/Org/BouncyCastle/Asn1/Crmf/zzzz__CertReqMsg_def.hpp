@@ -52,13 +52,13 @@ public:
   /// @brief Field regInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_regInfo, put = __cordl_internal_set_regInfo)) ::Org::BouncyCastle::Asn1::Asn1Sequence* regInfo;
 
-  /// @brief Method GetInstance, addr 0x323f218, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3269a5c, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x323ee00, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3269644, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetRegInfo, addr 0x323f308, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetRegInfo, addr 0x3269b4c, size 0x100, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*>*> GetRegInfo();
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*
@@ -67,7 +67,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x323f408, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3269c4c, size 0x180, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Crmf::CertRequest* const& __cordl_internal_get_certReq() const;
@@ -88,17 +88,17 @@ public:
 
   constexpr void __cordl_internal_set_regInfo(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x323f22c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3269a70, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::CertRequest* certReq, ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* popo,
                     ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue*>*> regInfo);
 
-  /// @brief Method .ctor, addr 0x323eea8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32696ec, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertReq, addr 0x323f2f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertReq, addr 0x3269b3c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertRequest* get_CertReq();
 
-  /// @brief Method get_Popo, addr 0x323f300, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Popo, addr 0x3269b44, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* get_Popo();
 
 protected:

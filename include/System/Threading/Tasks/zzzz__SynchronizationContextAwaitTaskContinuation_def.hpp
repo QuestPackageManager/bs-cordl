@@ -49,10 +49,10 @@ public:
 
   static inline ::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation___c* New_ctor();
 
-  /// @brief Method <.cctor>b__7_0, addr 0x5aafc20, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__7_0, addr 0x5b1656c, size 0x70, virtual false, abstract: false, final false
   inline void __cctor_b__7_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x5aafc1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b16568, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation___c* getStaticF___9();
@@ -100,16 +100,16 @@ public:
   /// @brief Field s_postCallback, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_postCallback, put = setStaticF_s_postCallback)) ::System::Threading::SendOrPostCallback* s_postCallback;
 
-  /// @brief Method GetPostActionCallback, addr 0x5aafa30, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetPostActionCallback, addr 0x5b1637c, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Threading::ContextCallback* GetPostActionCallback();
 
   static inline ::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation* New_ctor(::System::Threading::SynchronizationContext* context, ::System::Action* action,
                                                                                                   bool flowExecutionContext);
 
-  /// @brief Method PostAction, addr 0x5aaf998, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method PostAction, addr 0x5b162e4, size 0x98, virtual false, abstract: false, final false
   static inline void PostAction(::System::Object* state);
 
-  /// @brief Method Run, addr 0x5aaf668, size 0x1a8, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x5b15fb4, size 0x1a8, virtual true, abstract: false, final true
   inline void Run(::System::Threading::Tasks::Task* ignored, bool canInlineContinuationTask);
 
   constexpr ::System::Threading::SynchronizationContext* const& __cordl_internal_get_m_syncContext() const;
@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set_m_syncContext(::System::Threading::SynchronizationContext* value);
 
-  /// @brief Method .ctor, addr 0x5aaa884, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b111d0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::SynchronizationContext* context, ::System::Action* action, bool flowExecutionContext);
 
   static inline ::System::Threading::ContextCallback* getStaticF_s_postActionCallback();

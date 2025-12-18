@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Shared::PlatformInfo, ::ByRef<::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperParams>)>(
         &::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperUtils::SetEntitlementIds)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x585c5dc;
+  constexpr static std::size_t addrs = 0x58c2d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ByRef<::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperParams>, ::UnityEngine::GameObject*, ::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*,
                          ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*)>(&::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperUtils::SetUpAndStartAutomaticColocation)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x585c61c;
+  constexpr static std::size_t addrs = 0x58c2d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::ColocationFailedReason)>(
     &::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperUtils::OnColocationFailed)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585ccec;
+  constexpr static std::size_t addrs = 0x58c3450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

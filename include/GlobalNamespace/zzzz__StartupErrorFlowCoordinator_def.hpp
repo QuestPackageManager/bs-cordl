@@ -32,7 +32,7 @@ public:
   __declspec(property(get = __cordl_internal_get__startupErrorViewController, put = __cordl_internal_set__startupErrorViewController)) ::UnityW<::GlobalNamespace::StartupErrorViewController>
       _startupErrorViewController;
 
-  /// @brief Method DidActivate, addr 0x5801288, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5864f64, size 0x80, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::StartupErrorFlowCoordinator* New_ctor();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__startupErrorViewController(::UnityW<::GlobalNamespace::StartupErrorViewController> value);
 
-  /// @brief Method .ctor, addr 0x5801308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5864fe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   StartupErrorFlowCoordinator(StartupErrorFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6393 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6387 };
 
   /// @brief Field _startupErrorViewController, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StartupErrorViewController> ____startupErrorViewController;

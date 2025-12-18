@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/StandardLevelNoTransitionInstaller.hpp"
+#include "GlobalNamespace/zzzz__PlaymodeOptions_impl.hpp"
 #include "Zenject/zzzz__NoTransitionInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelNoTransitionInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> (
     ::GlobalNamespace::StandardLevelNoTransitionInstaller::*)()>(&::GlobalNamespace::StandardLevelNoTransitionInstaller::get_standardLevelNoTransitionInstallerData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x571c94c;
+  constexpr static std::size_t addrs = 0x577a7f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelNoTransitionInstaller::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::StandardLevelNoTransitionInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x571c954;
+  constexpr static std::size_t size = 0x328;
+  constexpr static std::size_t addrs = 0x577a800;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelNoTransitionInstaller::*)()>(
     &::GlobalNamespace::StandardLevelNoTransitionInstaller::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x571d194;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x577b0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelNoTransitionInstaller*>::get(),
@@ -77,6 +78,30 @@ GlobalNamespace::StandardLevelNoTransitionInstaller::__cordl_internal_set__stand
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____standardLevelNoTransitionInstallerData)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::StringW& GlobalNamespace::StandardLevelNoTransitionInstaller::__cordl_internal_get_recordingRelativePath() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___recordingRelativePath;
+}
+constexpr ::StringW const& GlobalNamespace::StandardLevelNoTransitionInstaller::__cordl_internal_get_recordingRelativePath() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___recordingRelativePath;
+}
+constexpr void GlobalNamespace::StandardLevelNoTransitionInstaller::__cordl_internal_set_recordingRelativePath(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___recordingRelativePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::PlaymodeOptions& GlobalNamespace::StandardLevelNoTransitionInstaller::__cordl_internal_get_playmodeOptions() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___playmodeOptions;
+}
+constexpr ::GlobalNamespace::PlaymodeOptions const& GlobalNamespace::StandardLevelNoTransitionInstaller::__cordl_internal_get_playmodeOptions() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___playmodeOptions;
+}
+constexpr void GlobalNamespace::StandardLevelNoTransitionInstaller::__cordl_internal_set_playmodeOptions(::GlobalNamespace::PlaymodeOptions value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___playmodeOptions = value;
 }
 constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::StandardLevelNoTransitionInstaller::__cordl_internal_get__settingsManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

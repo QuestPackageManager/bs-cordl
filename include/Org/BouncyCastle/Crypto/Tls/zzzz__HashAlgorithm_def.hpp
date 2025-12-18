@@ -20,21 +20,21 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE HashAlgorithm : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetName, addr 0x33450a8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x336f8ec, size 0xf8, virtual false, abstract: false, final false
   static inline ::StringW GetName(uint8_t hashAlgorithm);
 
-  /// @brief Method GetText, addr 0x33451a0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetText, addr 0x336f9e4, size 0x174, virtual false, abstract: false, final false
   static inline ::StringW GetText(uint8_t hashAlgorithm);
 
-  /// @brief Method IsPrivate, addr 0x3345314, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsPrivate, addr 0x336fb58, size 0x10, virtual false, abstract: false, final false
   static inline bool IsPrivate(uint8_t hashAlgorithm);
 
-  /// @brief Method IsRecognized, addr 0x3345324, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsRecognized, addr 0x336fb68, size 0x14, virtual false, abstract: false, final false
   static inline bool IsRecognized(uint8_t hashAlgorithm);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::HashAlgorithm* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3345338, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336fb7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

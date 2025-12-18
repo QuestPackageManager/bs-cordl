@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, int32_t, int32_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6298c84;
+  constexpr static std::size_t addrs = 0x6300810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, int32_t, int32_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6298ddc;
+  constexpr static std::size_t addrs = 0x6300968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, int32_t, int32_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6298f50;
+  constexpr static std::size_t addrs = 0x6300adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, float_t, int32_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x62990c0;
+  constexpr static std::size_t addrs = 0x6300c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, float_t, int32_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6299234;
+  constexpr static std::size_t addrs = 0x6300dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, float_t, int32_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x62993ac;
+  constexpr static std::size_t addrs = 0x6300f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, ::StringW, int32_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6299538;
+  constexpr static std::size_t addrs = 0x63010c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, ::StringW, int32_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x62996a8;
+  constexpr static std::size_t addrs = 0x6301234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, ::StringW, int32_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6299834;
+  constexpr static std::size_t addrs = 0x63013c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, int32_t, float_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x62999a4;
+  constexpr static std::size_t addrs = 0x6301530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, int32_t, float_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6299b18;
+  constexpr static std::size_t addrs = 0x63016a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, int32_t, float_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6299c90;
+  constexpr static std::size_t addrs = 0x630181c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, float_t, float_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6299e1c;
+  constexpr static std::size_t addrs = 0x63019a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, float_t, float_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6299f94;
+  constexpr static std::size_t addrs = 0x6301b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, float_t, float_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x629a110;
+  constexpr static std::size_t addrs = 0x6301c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, ::StringW, float_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629a2a0;
+  constexpr static std::size_t addrs = 0x6301e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, ::StringW, float_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x629a42c;
+  constexpr static std::size_t addrs = 0x6301fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, ::StringW, float_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629a5bc;
+  constexpr static std::size_t addrs = 0x6302148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, int32_t, ::StringW, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x629a748;
+  constexpr static std::size_t addrs = 0x63022d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, int32_t, ::StringW, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629a8b8;
+  constexpr static std::size_t addrs = 0x6302444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, int32_t, ::StringW, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x629aa44;
+  constexpr static std::size_t addrs = 0x63025d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, float_t, ::StringW, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629abb4;
+  constexpr static std::size_t addrs = 0x6302740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -384,7 +384,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, float_t, ::StringW, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x629ad40;
+  constexpr static std::size_t addrs = 0x63028cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -401,7 +401,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, float_t, ::StringW, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629aed0;
+  constexpr static std::size_t addrs = 0x6302a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -418,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, ::StringW, ::StringW, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x629b05c;
+  constexpr static std::size_t addrs = 0x6302be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, ::StringW, ::StringW, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629b1cc;
+  constexpr static std::size_t addrs = 0x6302d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -452,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, ::StringW, ::StringW, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x629b358;
+  constexpr static std::size_t addrs = 0x6302ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -469,7 +469,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, int32_t, int32_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x629b4c8;
+  constexpr static std::size_t addrs = 0x6303054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -486,7 +486,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, int32_t, int32_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x629b63c;
+  constexpr static std::size_t addrs = 0x63031c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -503,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, int32_t, int32_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629b7b4;
+  constexpr static std::size_t addrs = 0x6303340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -520,7 +520,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, float_t, int32_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x629b940;
+  constexpr static std::size_t addrs = 0x63034cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, float_t, int32_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x629bab8;
+  constexpr static std::size_t addrs = 0x6303644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -554,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, float_t, int32_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x629bc34;
+  constexpr static std::size_t addrs = 0x63037c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -571,7 +571,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, ::StringW, int32_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629bdc4;
+  constexpr static std::size_t addrs = 0x6303950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -588,7 +588,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, ::StringW, int32_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x629bf50;
+  constexpr static std::size_t addrs = 0x6303adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -605,7 +605,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, ::StringW, int32_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629c0e0;
+  constexpr static std::size_t addrs = 0x6303c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -622,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, int32_t, float_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x629c26c;
+  constexpr static std::size_t addrs = 0x6303df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -639,7 +639,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, int32_t, float_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x629c3e4;
+  constexpr static std::size_t addrs = 0x6303f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -656,7 +656,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, int32_t, float_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x629c560;
+  constexpr static std::size_t addrs = 0x63040ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -673,7 +673,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, float_t, float_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x629c6f0;
+  constexpr static std::size_t addrs = 0x630427c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -690,7 +690,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, float_t, float_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x629c86c;
+  constexpr static std::size_t addrs = 0x63043f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -707,7 +707,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, float_t, float_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x629c9d4;
+  constexpr static std::size_t addrs = 0x6304560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -724,7 +724,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, ::StringW, float_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x629cb50;
+  constexpr static std::size_t addrs = 0x63046dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -741,7 +741,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, ::StringW, float_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x629cce0;
+  constexpr static std::size_t addrs = 0x630486c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -758,7 +758,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, ::StringW, float_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x629ce5c;
+  constexpr static std::size_t addrs = 0x63049e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -775,7 +775,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, int32_t, ::StringW, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629cfd4;
+  constexpr static std::size_t addrs = 0x6304b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -792,7 +792,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, int32_t, ::StringW, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x629d160;
+  constexpr static std::size_t addrs = 0x6304cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -809,7 +809,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, int32_t, ::StringW, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629d2f0;
+  constexpr static std::size_t addrs = 0x6304e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -826,7 +826,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, float_t, ::StringW, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x629d47c;
+  constexpr static std::size_t addrs = 0x6305008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -843,7 +843,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, float_t, ::StringW, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x629d60c;
+  constexpr static std::size_t addrs = 0x6305198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -860,7 +860,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, float_t, ::StringW, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x629d788;
+  constexpr static std::size_t addrs = 0x6305314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -877,7 +877,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, ::StringW, ::StringW, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629d900;
+  constexpr static std::size_t addrs = 0x630548c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -894,7 +894,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, ::StringW, ::StringW, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x629da8c;
+  constexpr static std::size_t addrs = 0x6305618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -911,7 +911,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, ::StringW, ::StringW, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x629dc04;
+  constexpr static std::size_t addrs = 0x6305790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -928,7 +928,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, int32_t, int32_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x629dd78;
+  constexpr static std::size_t addrs = 0x6305904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -945,7 +945,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, int32_t, int32_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629dee8;
+  constexpr static std::size_t addrs = 0x6305a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -962,7 +962,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, int32_t, int32_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x629e074;
+  constexpr static std::size_t addrs = 0x6305c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -979,7 +979,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, float_t, int32_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629e1e4;
+  constexpr static std::size_t addrs = 0x6305d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -996,7 +996,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, float_t, int32_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x629e370;
+  constexpr static std::size_t addrs = 0x6305efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1013,7 +1013,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, float_t, int32_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629e500;
+  constexpr static std::size_t addrs = 0x630608c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1030,7 +1030,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, ::StringW, int32_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x629e68c;
+  constexpr static std::size_t addrs = 0x6306218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1047,7 +1047,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, ::StringW, int32_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629e7fc;
+  constexpr static std::size_t addrs = 0x6306388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1064,7 +1064,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, ::StringW, int32_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x629e988;
+  constexpr static std::size_t addrs = 0x6306514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1081,7 +1081,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, int32_t, float_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629eaf8;
+  constexpr static std::size_t addrs = 0x6306684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1098,7 +1098,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, int32_t, float_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x629ec84;
+  constexpr static std::size_t addrs = 0x6306810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1115,7 +1115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, int32_t, float_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629ee14;
+  constexpr static std::size_t addrs = 0x63069a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1132,7 +1132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, float_t, float_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x629efa0;
+  constexpr static std::size_t addrs = 0x6306b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1149,7 +1149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, float_t, float_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x629f130;
+  constexpr static std::size_t addrs = 0x6306cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1166,7 +1166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, float_t, float_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x629f2ac;
+  constexpr static std::size_t addrs = 0x6306e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1183,7 +1183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, ::StringW, float_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629f424;
+  constexpr static std::size_t addrs = 0x6306fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1200,7 +1200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, ::StringW, float_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x629f5b0;
+  constexpr static std::size_t addrs = 0x630713c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1217,7 +1217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, ::StringW, float_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x629f728;
+  constexpr static std::size_t addrs = 0x63072b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1234,7 +1234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, int32_t, ::StringW, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x629f89c;
+  constexpr static std::size_t addrs = 0x6307428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1251,7 +1251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, int32_t, ::StringW, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629fa0c;
+  constexpr static std::size_t addrs = 0x6307598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1268,7 +1268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, int32_t, ::StringW, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x629fb98;
+  constexpr static std::size_t addrs = 0x6307724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1285,7 +1285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, float_t, ::StringW, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x629fd08;
+  constexpr static std::size_t addrs = 0x6307894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1302,7 +1302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, float_t, ::StringW, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x629fe94;
+  constexpr static std::size_t addrs = 0x6307a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1319,7 +1319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, float_t, ::StringW, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x62a000c;
+  constexpr static std::size_t addrs = 0x6307b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1336,7 +1336,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, int32_t, ::StringW, ::StringW, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x62a0180;
+  constexpr static std::size_t addrs = 0x6307d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1353,7 +1353,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, float_t, ::StringW, ::StringW, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x62a02f0;
+  constexpr static std::size_t addrs = 0x6307e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1370,7 +1370,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString512Bytes (*)(::Unity::Collections::FixedString512Bytes, ::StringW, ::StringW, ::StringW, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x62a0464;
+  constexpr static std::size_t addrs = 0x6307ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1387,7 +1387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, int32_t, int32_t, int32_t)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x62a05bc;
+  constexpr static std::size_t addrs = 0x6308148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1404,7 +1404,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, float_t, int32_t, int32_t)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x62a06ec;
+  constexpr static std::size_t addrs = 0x6308278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1421,7 +1421,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, ::StringW, int32_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x62a0840;
+  constexpr static std::size_t addrs = 0x63083cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1438,7 +1438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, int32_t, float_t, int32_t)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x62a0988;
+  constexpr static std::size_t addrs = 0x6308514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1455,7 +1455,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, float_t, float_t, int32_t)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x62a0adc;
+  constexpr static std::size_t addrs = 0x6308668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1472,7 +1472,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, ::StringW, float_t, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x62a0c2c;
+  constexpr static std::size_t addrs = 0x63087b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1489,7 +1489,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, int32_t, ::StringW, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x62a0d98;
+  constexpr static std::size_t addrs = 0x6308924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1506,7 +1506,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, float_t, ::StringW, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x62a0ee0;
+  constexpr static std::size_t addrs = 0x6308a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1523,7 +1523,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, ::StringW, ::StringW, int32_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x62a104c;
+  constexpr static std::size_t addrs = 0x6308bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1540,7 +1540,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, int32_t, int32_t, float_t)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x62a1194;
+  constexpr static std::size_t addrs = 0x6308d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1557,7 +1557,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, float_t, int32_t, float_t)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x62a12e8;
+  constexpr static std::size_t addrs = 0x6308e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1574,7 +1574,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, ::StringW, int32_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x62a1438;
+  constexpr static std::size_t addrs = 0x6308fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1591,7 +1591,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, int32_t, float_t, float_t)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x62a15a4;
+  constexpr static std::size_t addrs = 0x6309130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1608,7 +1608,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, float_t, float_t, float_t)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x62a16f4;
+  constexpr static std::size_t addrs = 0x6309280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1625,7 +1625,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, ::StringW, float_t, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x62a1838;
+  constexpr static std::size_t addrs = 0x63093c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1642,7 +1642,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, int32_t, ::StringW, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x62a1988;
+  constexpr static std::size_t addrs = 0x6309514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1659,7 +1659,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, float_t, ::StringW, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x62a1af4;
+  constexpr static std::size_t addrs = 0x6309680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1676,7 +1676,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, ::StringW, ::StringW, float_t)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x62a1c44;
+  constexpr static std::size_t addrs = 0x63097d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1693,7 +1693,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, int32_t, int32_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x62a1d98;
+  constexpr static std::size_t addrs = 0x6309924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1710,7 +1710,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, float_t, int32_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x62a1ee0;
+  constexpr static std::size_t addrs = 0x6309a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1727,7 +1727,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, ::StringW, int32_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x62a204c;
+  constexpr static std::size_t addrs = 0x6309bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1744,7 +1744,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, int32_t, float_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x62a2194;
+  constexpr static std::size_t addrs = 0x6309d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1761,7 +1761,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, float_t, float_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x62a2300;
+  constexpr static std::size_t addrs = 0x6309e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1778,7 +1778,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, ::StringW, float_t, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x62a2450;
+  constexpr static std::size_t addrs = 0x6309fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1795,7 +1795,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, int32_t, ::StringW, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x62a25a4;
+  constexpr static std::size_t addrs = 0x630a130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1812,7 +1812,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, float_t, ::StringW, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x62a26ec;
+  constexpr static std::size_t addrs = 0x630a278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1829,7 +1829,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, ::StringW, ::StringW, ::StringW)>(&::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x62a2840;
+  constexpr static std::size_t addrs = 0x630a3cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1846,7 +1846,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, int32_t, int32_t)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x62a2970;
+  constexpr static std::size_t addrs = 0x630a4fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1862,7 +1862,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, float_t, int32_t)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x62a2a80;
+  constexpr static std::size_t addrs = 0x630a60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1878,7 +1878,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, ::StringW, int32_t)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x62a2bac;
+  constexpr static std::size_t addrs = 0x630a738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1894,7 +1894,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, int32_t, float_t)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x62a2cd4;
+  constexpr static std::size_t addrs = 0x630a860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1910,7 +1910,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, float_t, float_t)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x62a2e00;
+  constexpr static std::size_t addrs = 0x630a98c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1926,7 +1926,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, ::StringW, float_t)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x62a2f18;
+  constexpr static std::size_t addrs = 0x630aaa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1942,7 +1942,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, int32_t, ::StringW)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x62a3044;
+  constexpr static std::size_t addrs = 0x630abd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1958,7 +1958,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, float_t, ::StringW)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x62a316c;
+  constexpr static std::size_t addrs = 0x630acf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1974,7 +1974,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, ::StringW, ::StringW)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x62a3298;
+  constexpr static std::size_t addrs = 0x630ae24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1990,7 +1990,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, int32_t)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x62a33a8;
+  constexpr static std::size_t addrs = 0x630af34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2006,7 +2006,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, float_t)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x62a3490;
+  constexpr static std::size_t addrs = 0x630b01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2022,7 +2022,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::FixedString128Bytes (*)(::Unity::Collections::FixedString128Bytes, ::StringW)>(
     &::Unity::Collections::FixedString::Format)> {
   constexpr static std::size_t size = 0x5ac;
-  constexpr static std::size_t addrs = 0x62a357c;
+  constexpr static std::size_t addrs = 0x630b108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

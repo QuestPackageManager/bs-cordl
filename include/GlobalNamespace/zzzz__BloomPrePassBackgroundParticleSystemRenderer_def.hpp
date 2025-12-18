@@ -32,7 +32,7 @@ public:
 
   __declspec(property(get = get_renderer)) ::UnityW<::UnityEngine::Renderer> renderer;
 
-  /// @brief Method Awake, addr 0x564f408, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x56b0050, size 0x6c, virtual true, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer* New_ctor();
@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method .ctor, addr 0x564f474, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56b00bc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_renderer, addr 0x564f400, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x56b0048, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
 protected:
@@ -70,7 +70,7 @@ public:
   BloomPrePassBackgroundParticleSystemRenderer(BloomPrePassBackgroundParticleSystemRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19653 };
 
   /// @brief Field _particleSystem, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;

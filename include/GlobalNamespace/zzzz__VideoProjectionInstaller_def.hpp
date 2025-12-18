@@ -24,7 +24,7 @@ public:
   /// @brief Field _sceneSetupData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData)) ::GlobalNamespace::EnvironmentSceneSetupData* _sceneSetupData;
 
-  /// @brief Method InstallBindings, addr 0x578a394, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x57f0c3c, size 0xd0, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::VideoProjectionInstaller* New_ctor();
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::EnvironmentSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x578a464, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57f0d0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

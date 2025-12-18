@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__DoesNotContributeToSize_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x698220c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69eb090, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_DoesNotContributeToSize, addr 0x6982204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DoesNotContributeToSize, addr 0x69eb088, size 0x8, virtual false, abstract: false, final false
   inline void set_DoesNotContributeToSize(bool value);
 
 protected:
@@ -53,7 +53,7 @@ public:
   IgnoreAttribute(IgnoreAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22712 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22710 };
 
   /// @brief Field <DoesNotContributeToSize>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____DoesNotContributeToSize_k__BackingField;

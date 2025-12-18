@@ -74,7 +74,7 @@ public:
   constexpr CullingJob_CrossFadeType(int32_t value__) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17600 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17614 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -117,16 +117,16 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method CalculateLODVisibility, addr 0x65f8040, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method CalculateLODVisibility, addr 0x665fbcc, size 0x4b8, virtual false, abstract: false, final false
   inline float_t CalculateLODVisibility(int32_t instanceIndex, int32_t sharedInstanceIndex, ::UnityEngine::Rendering::InstanceFlags instanceFlags);
 
-  /// @brief Method CalculateVisibilityMask, addr 0x65f84f8, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method CalculateVisibilityMask, addr 0x6660084, size 0x1fc, virtual false, abstract: false, final false
   inline uint32_t CalculateVisibilityMask(int32_t instanceIndex, int32_t sharedInstanceIndex, ::UnityEngine::Rendering::InstanceFlags instanceFlags);
 
-  /// @brief Method Execute, addr 0x65f86f4, size 0x1cc, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6660280, size 0x1cc, virtual true, abstract: false, final true
   inline void Execute(int32_t instanceIndex);
 
-  /// @brief Method PackFloatToUint8, addr 0x65f7fe0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method PackFloatToUint8, addr 0x665fb6c, size 0x60, virtual false, abstract: false, final false
   static inline uint32_t PackFloatToUint8(float_t percent);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -161,7 +161,7 @@ public:
                        ::Unity::Collections::NativeArray_1<uint8_t> rendererVisibilityMasks, ::Unity::Collections::NativeArray_1<uint8_t> rendererCrossFadeValues) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17615 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x248 };

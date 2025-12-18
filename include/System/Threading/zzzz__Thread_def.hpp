@@ -143,67 +143,67 @@ public:
   __declspec(property(get = getStaticF_s_asyncLocalCurrentUICulture,
                       put = setStaticF_s_asyncLocalCurrentUICulture)) ::System::Threading::AsyncLocal_1<::System::Globalization::CultureInfo*>* s_asyncLocalCurrentUICulture;
 
-  /// @brief Method AsyncLocalSetCurrentCulture, addr 0x5a9c11c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method AsyncLocalSetCurrentCulture, addr 0x5b02a68, size 0x9c, virtual false, abstract: false, final false
   static inline void AsyncLocalSetCurrentCulture(::System::Threading::AsyncLocalValueChangedArgs_1<::System::Globalization::CultureInfo*> args);
 
-  /// @brief Method AsyncLocalSetCurrentUICulture, addr 0x5a9c1b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method AsyncLocalSetCurrentUICulture, addr 0x5b02b04, size 0x9c, virtual false, abstract: false, final false
   static inline void AsyncLocalSetCurrentUICulture(::System::Threading::AsyncLocalValueChangedArgs_1<::System::Globalization::CultureInfo*> args);
 
-  /// @brief Method BeginCriticalRegion, addr 0x5a98b28, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method BeginCriticalRegion, addr 0x5aff474, size 0x44, virtual false, abstract: false, final false
   static inline void BeginCriticalRegion();
 
-  /// @brief Method ClrState, addr 0x5a9d33c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ClrState, addr 0x5b03c88, size 0x44, virtual false, abstract: false, final false
   static inline void ClrState(::System::Threading::InternalThread* thread, ::System::Threading::ThreadState clr);
 
-  /// @brief Method ConstructInternalThread, addr 0x5a9d110, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConstructInternalThread, addr 0x5b03a5c, size 0x4, virtual false, abstract: false, final false
   inline void ConstructInternalThread();
 
-  /// @brief Method EndCriticalRegion, addr 0x5a9908c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EndCriticalRegion, addr 0x5aff9d8, size 0x44, virtual false, abstract: false, final false
   static inline void EndCriticalRegion();
 
-  /// @brief Method Finalize, addr 0x5a9d1d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5b03b1c, size 0x4, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetCurrentCultureNoAppX, addr 0x5a9cda4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentCultureNoAppX, addr 0x5b036f0, size 0x104, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* GetCurrentCultureNoAppX();
 
-  /// @brief Method GetCurrentThread, addr 0x5a9d184, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentThread, addr 0x5b03ad0, size 0x10, virtual false, abstract: false, final false
   static inline ::System::Threading::Thread* GetCurrentThread();
 
-  /// @brief Method GetCurrentThread_icall, addr 0x5a9d15c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentThread_icall, addr 0x5b03aa8, size 0x28, virtual false, abstract: false, final false
   static inline void GetCurrentThread_icall(::ByRef<::System::Threading::Thread*> thread);
 
-  /// @brief Method GetCurrentUICultureNoAppX, addr 0x5a9c8e8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentUICultureNoAppX, addr 0x5b03234, size 0x104, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* GetCurrentUICultureNoAppX();
 
-  /// @brief Method GetDomainID, addr 0x5a9d1b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetDomainID, addr 0x5b03b04, size 0x14, virtual false, abstract: false, final false
   static inline int32_t GetDomainID();
 
-  /// @brief Method GetExecutionContextReader, addr 0x5a99b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetExecutionContextReader, addr 0x5b004d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::ExecutionContext_Reader GetExecutionContextReader();
 
-  /// @brief Method GetHashCode, addr 0x5a9d3f4, size 0x288, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5b03d40, size 0x288, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetMutableExecutionContext, addr 0x5a9a35c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetMutableExecutionContext, addr 0x5b00ca8, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Threading::ExecutionContext* GetMutableExecutionContext();
 
-  /// @brief Method GetPriorityNative, addr 0x5a9c738, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetPriorityNative, addr 0x5b03084, size 0x2c, virtual false, abstract: false, final false
   inline int32_t GetPriorityNative();
 
-  /// @brief Method GetProcessDefaultStackSize, addr 0x5a9c7dc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetProcessDefaultStackSize, addr 0x5b03128, size 0x94, virtual false, abstract: false, final false
   static inline int32_t GetProcessDefaultStackSize(int32_t maxStackSize);
 
-  /// @brief Method GetState, addr 0x5a9d238, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetState, addr 0x5b03b84, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Threading::ThreadState GetState(::System::Threading::InternalThread* thread);
 
-  /// @brief Method Join, addr 0x5a9c7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x5b03104, size 0x8, virtual false, abstract: false, final false
   inline void Join();
 
-  /// @brief Method JoinInternal, addr 0x5a9c7b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method JoinInternal, addr 0x5b03100, size 0x4, virtual false, abstract: false, final false
   inline bool JoinInternal(int32_t millisecondsTimeout);
 
-  /// @brief Method MemoryBarrier, addr 0x5a9d108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MemoryBarrier, addr 0x5b03a54, size 0x8, virtual false, abstract: false, final false
   static inline void MemoryBarrier();
 
   static inline ::System::Threading::Thread* New_ctor(::System::Threading::ParameterizedThreadStart* start);
@@ -212,67 +212,67 @@ public:
 
   static inline ::System::Threading::Thread* New_ctor(::System::Threading::ThreadStart* start);
 
-  /// @brief Method SetExecutionContext, addr 0x5a9aaa8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetExecutionContext, addr 0x5b013f4, size 0x10, virtual false, abstract: false, final false
   inline void SetExecutionContext(::System::Threading::ExecutionContext* value, bool belongsToCurrentScope);
 
-  /// @brief Method SetExecutionContext, addr 0x5a99b90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetExecutionContext, addr 0x5b004dc, size 0x10, virtual false, abstract: false, final false
   inline void SetExecutionContext(::System::Threading::ExecutionContext_Reader value, bool belongsToCurrentScope);
 
-  /// @brief Method SetName_icall, addr 0x5a9d380, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetName_icall, addr 0x5b03ccc, size 0x4, virtual false, abstract: false, final false
   static inline void SetName_icall(::System::Threading::InternalThread* thread, char16_t* name, int32_t nameLength);
 
-  /// @brief Method SetName_internal, addr 0x5a9d384, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetName_internal, addr 0x5b03cd0, size 0x18, virtual false, abstract: false, final false
   static inline void SetName_internal(::System::Threading::InternalThread* thread, ::StringW name);
 
-  /// @brief Method SetPriorityNative, addr 0x5a9c78c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetPriorityNative, addr 0x5b030d8, size 0x28, virtual false, abstract: false, final false
   inline void SetPriorityNative(int32_t priority);
 
-  /// @brief Method SetStart, addr 0x5a9c870, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetStart, addr 0x5b031bc, size 0x3c, virtual false, abstract: false, final false
   inline void SetStart(::System::MulticastDelegate* start, int32_t maxStackSize);
 
-  /// @brief Method SetStartHelper, addr 0x5a9c2ac, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SetStartHelper, addr 0x5b02bf8, size 0x160, virtual false, abstract: false, final false
   inline void SetStartHelper(::System::Delegate* start, int32_t maxStackSize);
 
-  /// @brief Method SetState, addr 0x5a9d338, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetState, addr 0x5b03c84, size 0x4, virtual false, abstract: false, final false
   static inline void SetState(::System::Threading::InternalThread* thread, ::System::Threading::ThreadState set);
 
-  /// @brief Method Sleep, addr 0x5a992f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Sleep, addr 0x5affc40, size 0x70, virtual false, abstract: false, final false
   static inline void Sleep(int32_t millisecondsTimeout);
 
-  /// @brief Method SleepInternal, addr 0x5a9c7c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SleepInternal, addr 0x5b0310c, size 0x4, virtual false, abstract: false, final false
   static inline void SleepInternal(int32_t millisecondsTimeout);
 
-  /// @brief Method SpinWait, addr 0x5a992f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SpinWait, addr 0x5affc3c, size 0x4, virtual false, abstract: false, final false
   static inline void SpinWait(int32_t iterations);
 
-  /// @brief Method SpinWait_nop, addr 0x5a9d3e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SpinWait_nop, addr 0x5b03d34, size 0x4, virtual false, abstract: false, final false
   static inline void SpinWait_nop();
 
-  /// @brief Method Start, addr 0x5a9c524, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5b02e70, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Start, addr 0x5a9c5ec, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5b02f38, size 0xb8, virtual false, abstract: false, final false
   inline void Start(::System::Object* parameter);
 
-  /// @brief Method Start, addr 0x5a9c528, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5b02e74, size 0xc4, virtual false, abstract: false, final false
   inline void Start(::ByRef<::System::Threading::StackCrawlMark> stackMark);
 
-  /// @brief Method StartInternal, addr 0x5a9c6a4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method StartInternal, addr 0x5b02ff0, size 0x68, virtual false, abstract: false, final false
   inline void StartInternal(::System::Object* principal, ::ByRef<::System::Threading::StackCrawlMark> stackMark);
 
-  /// @brief Method SystemMaxStackStize, addr 0x5a9d3ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SystemMaxStackStize, addr 0x5b03d38, size 0x8, virtual false, abstract: false, final false
   static inline int32_t SystemMaxStackStize();
 
-  /// @brief Method Thread_internal, addr 0x5a9d1cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Thread_internal, addr 0x5b03b18, size 0x4, virtual false, abstract: false, final false
   inline bool Thread_internal(::System::MulticastDelegate* start);
 
-  /// @brief Method ValidateThreadState, addr 0x5a9d2c8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ValidateThreadState, addr 0x5b03c14, size 0x70, virtual false, abstract: false, final false
   inline ::System::Threading::ThreadState ValidateThreadState();
 
-  /// @brief Method Yield, addr 0x5a99364, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Yield, addr 0x5affcb0, size 0x18, virtual false, abstract: false, final false
   static inline bool Yield();
 
-  /// @brief Method YieldInternal, addr 0x5a9c7c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method YieldInternal, addr 0x5b03110, size 0x18, virtual false, abstract: false, final false
   static inline bool YieldInternal();
 
   constexpr ::System::Threading::InternalThread* const& __cordl_internal_get_internal_thread() const;
@@ -323,13 +323,13 @@ public:
 
   constexpr void __cordl_internal_set_principal_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5a9c40c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b02d58, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ParameterizedThreadStart* start);
 
-  /// @brief Method .ctor, addr 0x5a9c464, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b02db0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ParameterizedThreadStart* start, int32_t maxStackSize);
 
-  /// @brief Method .ctor, addr 0x5a9c254, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b02ba0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ThreadStart* start);
 
   static inline ::System::Threading::Thread* getStaticF_current_thread();
@@ -346,43 +346,43 @@ public:
 
   static inline ::System::Threading::AsyncLocal_1<::System::Globalization::CultureInfo*>* getStaticF_s_asyncLocalCurrentUICulture();
 
-  /// @brief Method get_CurrentContext, addr 0x5a9d138, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentContext, addr 0x5b03a84, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Contexts::Context* get_CurrentContext();
 
-  /// @brief Method get_CurrentCulture, addr 0x5a9cd68, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentCulture, addr 0x5b036b4, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_CurrentCulture();
 
-  /// @brief Method get_CurrentThread, addr 0x5a9937c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentThread, addr 0x5affcc8, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Threading::Thread* get_CurrentThread();
 
-  /// @brief Method get_CurrentThreadId, addr 0x5a9d194, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentThreadId, addr 0x5b03ae0, size 0x24, virtual false, abstract: false, final false
   static inline int32_t get_CurrentThreadId();
 
-  /// @brief Method get_CurrentUICulture, addr 0x5a9c8ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentUICulture, addr 0x5b031f8, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_CurrentUICulture();
 
-  /// @brief Method get_ExecutionContextBelongsToCurrentScope, addr 0x5a9aa5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_ExecutionContextBelongsToCurrentScope, addr 0x5b013a8, size 0x10, virtual false, abstract: false, final false
   inline bool get_ExecutionContextBelongsToCurrentScope();
 
-  /// @brief Method get_Internal, addr 0x5a9d114, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Internal, addr 0x5b03a60, size 0x24, virtual false, abstract: false, final false
   inline ::System::Threading::InternalThread* get_Internal();
 
-  /// @brief Method get_IsAlive, addr 0x5a9d204, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_IsAlive, addr 0x5b03b50, size 0x34, virtual false, abstract: false, final false
   inline bool get_IsAlive();
 
-  /// @brief Method get_IsThreadPoolThread, addr 0x5a9d1d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_IsThreadPoolThread, addr 0x5b03b20, size 0x4, virtual false, abstract: false, final false
   inline bool get_IsThreadPoolThread();
 
-  /// @brief Method get_IsThreadPoolThreadInternal, addr 0x5a9d1d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_IsThreadPoolThreadInternal, addr 0x5b03b24, size 0x2c, virtual false, abstract: false, final false
   inline bool get_IsThreadPoolThreadInternal();
 
-  /// @brief Method get_ManagedThreadId, addr 0x5a99408, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_ManagedThreadId, addr 0x5affd54, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_ManagedThreadId();
 
-  /// @brief Method get_Priority, addr 0x5a9c70c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Priority, addr 0x5b03058, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Threading::ThreadPriority get_Priority();
 
-  /// @brief Method nativeInitCultureAccessors, addr 0x5a9cc70, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method nativeInitCultureAccessors, addr 0x5b035bc, size 0xf8, virtual false, abstract: false, final false
   static inline void nativeInitCultureAccessors();
 
   static inline void setStaticF_current_thread(::System::Threading::Thread* value);
@@ -399,22 +399,22 @@ public:
 
   static inline void setStaticF_s_asyncLocalCurrentUICulture(::System::Threading::AsyncLocal_1<::System::Globalization::CultureInfo*>* value);
 
-  /// @brief Method set_CurrentCulture, addr 0x5a9cea8, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentCulture, addr 0x5b037f4, size 0x260, virtual false, abstract: false, final false
   inline void set_CurrentCulture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method set_CurrentUICulture, addr 0x5a9c9ec, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentUICulture, addr 0x5b03338, size 0x284, virtual false, abstract: false, final false
   inline void set_CurrentUICulture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method set_ExecutionContextBelongsToCurrentScope, addr 0x5a9aa6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ExecutionContextBelongsToCurrentScope, addr 0x5b013b8, size 0xc, virtual false, abstract: false, final false
   inline void set_ExecutionContextBelongsToCurrentScope(bool value);
 
-  /// @brief Method set_IsBackground, addr 0x5a9d23c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method set_IsBackground, addr 0x5b03b88, size 0x8c, virtual false, abstract: false, final false
   inline void set_IsBackground(bool value);
 
-  /// @brief Method set_Name, addr 0x5a9d39c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x5b03ce8, size 0x4c, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Priority, addr 0x5a9c764, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Priority, addr 0x5b030b0, size 0x28, virtual false, abstract: false, final false
   inline void set_Priority(::System::Threading::ThreadPriority value);
 
 protected:

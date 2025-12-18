@@ -37,7 +37,7 @@ public:
                                        uint32_t m_nNumDroppedFramesTimedOut, uint32_t m_nNumReprojectedFramesTimedOut) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8504 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };

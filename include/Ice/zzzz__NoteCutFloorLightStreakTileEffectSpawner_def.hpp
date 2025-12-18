@@ -52,15 +52,15 @@ public:
 
   __declspec(property(get = get_spawnColor, put = set_spawnColor)) ::UnityEngine::Color spawnColor;
 
-  /// @brief Method HandleNoteWasCut, addr 0x318d394, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x31bd210, size 0x64, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::Ice::NoteCutFloorLightStreakTileEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x318d2fc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x31bd178, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x318d26c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x31bd0e8, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -87,13 +87,13 @@ public:
 
   constexpr void __cordl_internal_set__spawnColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x318d3f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31bd274, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_spawnColor, addr 0x318d260, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_spawnColor, addr 0x31bd0dc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_spawnColor();
 
-  /// @brief Method set_spawnColor, addr 0x318d254, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_spawnColor, addr 0x31bd0d0, size 0xc, virtual false, abstract: false, final false
   inline void set_spawnColor(::UnityEngine::Color value);
 
 protected:
@@ -111,7 +111,7 @@ public:
   NoteCutFloorLightStreakTileEffectSpawner(NoteCutFloorLightStreakTileEffectSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22857 };
 
   /// @brief Field _floorLightStreakTileEffect, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Ice::FloorLightStreakTileEffect> ____floorLightStreakTileEffect;

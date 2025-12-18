@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Xml::XmlUTF8TextWriter* New_ctor();
 
-  /// @brief Method SetOutput, addr 0x5f1096c, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method SetOutput, addr 0x5f784f8, size 0x160, virtual true, abstract: false, final true
   inline void SetOutput(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool ownsStream);
 
   constexpr ::System::Xml::XmlUTF8NodeWriter* const& __cordl_internal_get_writer() const;
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_writer(::System::Xml::XmlUTF8NodeWriter* value);
 
-  /// @brief Method .ctor, addr 0x5f10bc8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f78754, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,7 +59,7 @@ public:
   XmlUTF8TextWriter(XmlUTF8TextWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16948 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16962 };
 
   /// @brief Field writer, offset: 0x98, size: 0x8, def value: None
   ::System::Xml::XmlUTF8NodeWriter* ___writer;

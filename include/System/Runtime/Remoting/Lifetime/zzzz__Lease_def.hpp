@@ -59,18 +59,18 @@ namespace System::Runtime::Remoting::Lifetime {
 class CORDL_TYPE Lease_RenewalDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x591ed94, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x59856e0, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Runtime::Remoting::Lifetime::ILease* lease, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x591efa4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x59858f0, size 0x24, virtual true, abstract: false, final false
   inline ::System::TimeSpan EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x591efc8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5985914, size 0x14, virtual true, abstract: false, final false
   inline ::System::TimeSpan Invoke(::System::Runtime::Remoting::Lifetime::ILease* lease);
 
   static inline ::System::Runtime::Remoting::Lifetime::Lease_RenewalDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x591ec50, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598559c, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -138,24 +138,24 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Lifetime::ILease"
   constexpr operator ::System::Runtime::Remoting::Lifetime::ILease*() noexcept;
 
-  /// @brief Method Activate, addr 0x591e67c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x5984fc8, size 0xc, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method CheckNextSponsor, addr 0x591e9f0, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method CheckNextSponsor, addr 0x598533c, size 0x260, virtual false, abstract: false, final false
   inline void CheckNextSponsor();
 
   static inline ::System::Runtime::Remoting::Lifetime::Lease* New_ctor();
 
-  /// @brief Method ProcessSponsorResponse, addr 0x591edb4, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ProcessSponsorResponse, addr 0x5985700, size 0x1f0, virtual false, abstract: false, final false
   inline void ProcessSponsorResponse(::System::Object* state, bool timedOut);
 
-  /// @brief Method Renew, addr 0x591e690, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Renew, addr 0x5984fdc, size 0x90, virtual true, abstract: false, final true
   inline ::System::TimeSpan Renew(::System::TimeSpan renewalTime);
 
-  /// @brief Method Unregister, addr 0x591e720, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method Unregister, addr 0x598506c, size 0x140, virtual true, abstract: false, final true
   inline void Unregister(::System::Runtime::Remoting::Lifetime::ISponsor* obj);
 
-  /// @brief Method UpdateState, addr 0x591e860, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method UpdateState, addr 0x59851ac, size 0x190, virtual false, abstract: false, final false
   inline void UpdateState();
 
   constexpr ::System::Runtime::Remoting::Lifetime::LeaseState const& __cordl_internal_get__currentState() const;
@@ -206,16 +206,16 @@ public:
 
   constexpr void __cordl_internal_set__sponsorshipTimeout(::System::TimeSpan value);
 
-  /// @brief Method .ctor, addr 0x5917a40, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597e38c, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CurrentLeaseTime, addr 0x591e608, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_CurrentLeaseTime, addr 0x5984f54, size 0x6c, virtual true, abstract: false, final true
   inline ::System::TimeSpan get_CurrentLeaseTime();
 
-  /// @brief Method get_CurrentState, addr 0x591e674, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CurrentState, addr 0x5984fc0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState();
 
-  /// @brief Method get_RenewOnCallTime, addr 0x591e688, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_RenewOnCallTime, addr 0x5984fd4, size 0x8, virtual true, abstract: false, final true
   inline ::System::TimeSpan get_RenewOnCallTime();
 
   /// @brief Convert to "::System::Runtime::Remoting::Lifetime::ILease"

@@ -57,21 +57,21 @@ public:
   /// @brief Field _timeHelper, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__timeHelper, put = __cordl_internal_set__timeHelper)) ::UnityW<::GlobalNamespace::TimeHelper> _timeHelper;
 
-  /// @brief Method FixedUpdate, addr 0x578bc24, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x57f24cc, size 0x54, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x578bb84, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x57f242c, size 0xa0, virtual false, abstract: false, final false
   inline void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::BeatmapObjectData* data);
 
-  /// @brief Method LateUpdate, addr 0x578bc78, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x57f2520, size 0x90, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::RotateBySpawnRotation* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x578bb68, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x57f2410, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x578ba18, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x57f22c0, size 0x150, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__aheadTime() const;
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value);
 
-  /// @brief Method .ctor, addr 0x578bd08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57f25b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

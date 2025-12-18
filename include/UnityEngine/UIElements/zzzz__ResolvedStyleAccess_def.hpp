@@ -287,247 +287,247 @@ public:
 
   constexpr void __cordl_internal_set__ve_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x6a37bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aa0a48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method get_alignContent, addr 0x6a369ac, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_alignContent, addr 0x6a9f830, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Align get_alignContent();
 
-  /// @brief Method get_alignItems, addr 0x6a369d0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_alignItems, addr 0x6a9f854, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Align get_alignItems();
 
-  /// @brief Method get_alignSelf, addr 0x6a369ec, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_alignSelf, addr 0x6a9f870, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Align get_alignSelf();
 
-  /// @brief Method get_backgroundColor, addr 0x6a36a08, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_backgroundColor, addr 0x6a9f88c, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_backgroundColor();
 
-  /// @brief Method get_backgroundImage, addr 0x6a36a24, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method get_backgroundImage, addr 0x6a9f8a8, size 0x3c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Background get_backgroundImage();
 
-  /// @brief Method get_backgroundPositionX, addr 0x6a36a60, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_backgroundPositionX, addr 0x6a9f8e4, size 0x28, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::BackgroundPosition get_backgroundPositionX();
 
-  /// @brief Method get_backgroundPositionY, addr 0x6a36a88, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_backgroundPositionY, addr 0x6a9f90c, size 0x28, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::BackgroundPosition get_backgroundPositionY();
 
-  /// @brief Method get_backgroundRepeat, addr 0x6a36ab0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_backgroundRepeat, addr 0x6a9f934, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::BackgroundRepeat get_backgroundRepeat();
 
-  /// @brief Method get_backgroundSize, addr 0x6a36acc, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_backgroundSize, addr 0x6a9f950, size 0x44, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::BackgroundSize get_backgroundSize();
 
-  /// @brief Method get_borderBottomColor, addr 0x6a36b10, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_borderBottomColor, addr 0x6a9f994, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_borderBottomColor();
 
-  /// @brief Method get_borderBottomLeftRadius, addr 0x6a36b2c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_borderBottomLeftRadius, addr 0x6a9f9b0, size 0x28, virtual true, abstract: false, final true
   inline float_t get_borderBottomLeftRadius();
 
-  /// @brief Method get_borderBottomRightRadius, addr 0x6a36b54, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_borderBottomRightRadius, addr 0x6a9f9d8, size 0x28, virtual true, abstract: false, final true
   inline float_t get_borderBottomRightRadius();
 
-  /// @brief Method get_borderBottomWidth, addr 0x6a36b7c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_borderBottomWidth, addr 0x6a9fa00, size 0x24, virtual true, abstract: false, final true
   inline float_t get_borderBottomWidth();
 
-  /// @brief Method get_borderLeftColor, addr 0x6a36ba8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_borderLeftColor, addr 0x6a9fa2c, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_borderLeftColor();
 
-  /// @brief Method get_borderLeftWidth, addr 0x6a36bc4, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_borderLeftWidth, addr 0x6a9fa48, size 0x50, virtual true, abstract: false, final true
   inline float_t get_borderLeftWidth();
 
-  /// @brief Method get_borderRightColor, addr 0x6a36c14, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_borderRightColor, addr 0x6a9fa98, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_borderRightColor();
 
-  /// @brief Method get_borderRightWidth, addr 0x6a36c30, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_borderRightWidth, addr 0x6a9fab4, size 0x50, virtual true, abstract: false, final true
   inline float_t get_borderRightWidth();
 
-  /// @brief Method get_borderTopColor, addr 0x6a36c80, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_borderTopColor, addr 0x6a9fb04, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_borderTopColor();
 
-  /// @brief Method get_borderTopLeftRadius, addr 0x6a36c9c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_borderTopLeftRadius, addr 0x6a9fb20, size 0x28, virtual true, abstract: false, final true
   inline float_t get_borderTopLeftRadius();
 
-  /// @brief Method get_borderTopRightRadius, addr 0x6a36cc4, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_borderTopRightRadius, addr 0x6a9fb48, size 0x28, virtual true, abstract: false, final true
   inline float_t get_borderTopRightRadius();
 
-  /// @brief Method get_borderTopWidth, addr 0x6a36cec, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_borderTopWidth, addr 0x6a9fb70, size 0x24, virtual true, abstract: false, final true
   inline float_t get_borderTopWidth();
 
-  /// @brief Method get_bottom, addr 0x6a36d10, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_bottom, addr 0x6a9fb94, size 0x24, virtual true, abstract: false, final true
   inline float_t get_bottom();
 
-  /// @brief Method get_color, addr 0x6a36d34, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_color, addr 0x6a9fbb8, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_display, addr 0x6a36d50, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_display, addr 0x6a9fbd4, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::DisplayStyle get_display();
 
-  /// @brief Method get_flexBasis, addr 0x6a36d6c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_flexBasis, addr 0x6a9fbf0, size 0x24, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFloat get_flexBasis();
 
-  /// @brief Method get_flexDirection, addr 0x6a36d90, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_flexDirection, addr 0x6a9fc14, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::FlexDirection get_flexDirection();
 
-  /// @brief Method get_flexGrow, addr 0x6a36dac, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_flexGrow, addr 0x6a9fc30, size 0x1c, virtual true, abstract: false, final true
   inline float_t get_flexGrow();
 
-  /// @brief Method get_flexShrink, addr 0x6a36dc8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_flexShrink, addr 0x6a9fc4c, size 0x1c, virtual true, abstract: false, final true
   inline float_t get_flexShrink();
 
-  /// @brief Method get_flexWrap, addr 0x6a36de4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_flexWrap, addr 0x6a9fc68, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Wrap get_flexWrap();
 
-  /// @brief Method get_fontSize, addr 0x6a36e00, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_fontSize, addr 0x6a9fc84, size 0x28, virtual true, abstract: false, final true
   inline float_t get_fontSize();
 
-  /// @brief Method get_height, addr 0x6a36e28, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_height, addr 0x6a9fcac, size 0x24, virtual true, abstract: false, final true
   inline float_t get_height();
 
-  /// @brief Method get_justifyContent, addr 0x6a36e4c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_justifyContent, addr 0x6a9fcd0, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Justify get_justifyContent();
 
-  /// @brief Method get_left, addr 0x6a36e68, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_left, addr 0x6a9fcec, size 0x24, virtual true, abstract: false, final true
   inline float_t get_left();
 
-  /// @brief Method get_letterSpacing, addr 0x6a36e8c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_letterSpacing, addr 0x6a9fd10, size 0x28, virtual true, abstract: false, final true
   inline float_t get_letterSpacing();
 
-  /// @brief Method get_marginBottom, addr 0x6a36eb4, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_marginBottom, addr 0x6a9fd38, size 0x24, virtual true, abstract: false, final true
   inline float_t get_marginBottom();
 
-  /// @brief Method get_marginLeft, addr 0x6a36ed8, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_marginLeft, addr 0x6a9fd5c, size 0x50, virtual true, abstract: false, final true
   inline float_t get_marginLeft();
 
-  /// @brief Method get_marginRight, addr 0x6a36f28, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_marginRight, addr 0x6a9fdac, size 0x50, virtual true, abstract: false, final true
   inline float_t get_marginRight();
 
-  /// @brief Method get_marginTop, addr 0x6a36f78, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_marginTop, addr 0x6a9fdfc, size 0x24, virtual true, abstract: false, final true
   inline float_t get_marginTop();
 
-  /// @brief Method get_maxHeight, addr 0x6a36f9c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_maxHeight, addr 0x6a9fe20, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFloat get_maxHeight();
 
-  /// @brief Method get_maxWidth, addr 0x6a3714c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_maxWidth, addr 0x6a9ffd0, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFloat get_maxWidth();
 
-  /// @brief Method get_minHeight, addr 0x6a3717c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_minHeight, addr 0x6aa0000, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFloat get_minHeight();
 
-  /// @brief Method get_minWidth, addr 0x6a371ac, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_minWidth, addr 0x6aa0030, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFloat get_minWidth();
 
-  /// @brief Method get_opacity, addr 0x6a371dc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_opacity, addr 0x6aa0060, size 0x1c, virtual true, abstract: false, final true
   inline float_t get_opacity();
 
-  /// @brief Method get_paddingBottom, addr 0x6a371f8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_paddingBottom, addr 0x6aa007c, size 0x24, virtual true, abstract: false, final true
   inline float_t get_paddingBottom();
 
-  /// @brief Method get_paddingLeft, addr 0x6a3721c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_paddingLeft, addr 0x6aa00a0, size 0x50, virtual true, abstract: false, final true
   inline float_t get_paddingLeft();
 
-  /// @brief Method get_paddingRight, addr 0x6a3726c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_paddingRight, addr 0x6aa00f0, size 0x50, virtual true, abstract: false, final true
   inline float_t get_paddingRight();
 
-  /// @brief Method get_paddingTop, addr 0x6a372bc, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_paddingTop, addr 0x6aa0140, size 0x24, virtual true, abstract: false, final true
   inline float_t get_paddingTop();
 
-  /// @brief Method get_position, addr 0x6a372e0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_position, addr 0x6aa0164, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Position get_position();
 
-  /// @brief Method get_right, addr 0x6a372fc, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_right, addr 0x6aa0180, size 0x24, virtual true, abstract: false, final true
   inline float_t get_right();
 
-  /// @brief Method get_rotate, addr 0x6a37320, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_rotate, addr 0x6aa01a4, size 0x44, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Rotate get_rotate();
 
-  /// @brief Method get_scale, addr 0x6a37364, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_scale, addr 0x6aa01e8, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Scale get_scale();
 
-  /// @brief Method get_textOverflow, addr 0x6a37380, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_textOverflow, addr 0x6aa0204, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TextOverflow get_textOverflow();
 
-  /// @brief Method get_top, addr 0x6a3739c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_top, addr 0x6aa0220, size 0x24, virtual true, abstract: false, final true
   inline float_t get_top();
 
-  /// @brief Method get_transformOrigin, addr 0x6a373c0, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_transformOrigin, addr 0x6aa0244, size 0x14, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_transformOrigin();
 
-  /// @brief Method get_transitionDelay, addr 0x6a376dc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_transitionDelay, addr 0x6aa0560, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TimeValue>* get_transitionDelay();
 
-  /// @brief Method get_transitionDuration, addr 0x6a376f8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_transitionDuration, addr 0x6aa057c, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TimeValue>* get_transitionDuration();
 
-  /// @brief Method get_transitionProperty, addr 0x6a37714, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_transitionProperty, addr 0x6aa0598, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StylePropertyName>* get_transitionProperty();
 
-  /// @brief Method get_transitionTimingFunction, addr 0x6a37730, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_transitionTimingFunction, addr 0x6aa05b4, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::EasingFunction>* get_transitionTimingFunction();
 
-  /// @brief Method get_translate, addr 0x6a3774c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_translate, addr 0x6aa05d0, size 0x14, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_translate();
 
-  /// @brief Method get_unityBackgroundImageTintColor, addr 0x6a3796c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_unityBackgroundImageTintColor, addr 0x6aa07f0, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_unityBackgroundImageTintColor();
 
-  /// @brief Method get_unityEditorTextRenderingMode, addr 0x6a37988, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_unityEditorTextRenderingMode, addr 0x6aa080c, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::EditorTextRenderingMode get_unityEditorTextRenderingMode();
 
-  /// @brief Method get_unityFont, addr 0x6a379a4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_unityFont, addr 0x6aa0828, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Font> get_unityFont();
 
-  /// @brief Method get_unityFontDefinition, addr 0x6a379c0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_unityFontDefinition, addr 0x6aa0844, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::FontDefinition get_unityFontDefinition();
 
-  /// @brief Method get_unityFontStyleAndWeight, addr 0x6a379dc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_unityFontStyleAndWeight, addr 0x6aa0860, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::FontStyle get_unityFontStyleAndWeight();
 
-  /// @brief Method get_unityParagraphSpacing, addr 0x6a379f8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_unityParagraphSpacing, addr 0x6aa087c, size 0x28, virtual true, abstract: false, final true
   inline float_t get_unityParagraphSpacing();
 
-  /// @brief Method get_unitySliceBottom, addr 0x6a37a20, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_unitySliceBottom, addr 0x6aa08a4, size 0x1c, virtual true, abstract: false, final true
   inline int32_t get_unitySliceBottom();
 
-  /// @brief Method get_unitySliceLeft, addr 0x6a37a3c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_unitySliceLeft, addr 0x6aa08c0, size 0x1c, virtual true, abstract: false, final true
   inline int32_t get_unitySliceLeft();
 
-  /// @brief Method get_unitySliceRight, addr 0x6a37a58, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_unitySliceRight, addr 0x6aa08dc, size 0x1c, virtual true, abstract: false, final true
   inline int32_t get_unitySliceRight();
 
-  /// @brief Method get_unitySliceScale, addr 0x6a37a74, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_unitySliceScale, addr 0x6aa08f8, size 0x1c, virtual true, abstract: false, final true
   inline float_t get_unitySliceScale();
 
-  /// @brief Method get_unitySliceTop, addr 0x6a37a90, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_unitySliceTop, addr 0x6aa0914, size 0x1c, virtual true, abstract: false, final true
   inline int32_t get_unitySliceTop();
 
-  /// @brief Method get_unityTextAlign, addr 0x6a37aac, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_unityTextAlign, addr 0x6aa0930, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::TextAnchor get_unityTextAlign();
 
-  /// @brief Method get_unityTextGenerator, addr 0x6a37ac8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_unityTextGenerator, addr 0x6aa094c, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::TextGeneratorType get_unityTextGenerator();
 
-  /// @brief Method get_unityTextOutlineColor, addr 0x6a37ae4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_unityTextOutlineColor, addr 0x6aa0968, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_unityTextOutlineColor();
 
-  /// @brief Method get_unityTextOutlineWidth, addr 0x6a37b00, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_unityTextOutlineWidth, addr 0x6aa0984, size 0x1c, virtual true, abstract: false, final true
   inline float_t get_unityTextOutlineWidth();
 
-  /// @brief Method get_unityTextOverflowPosition, addr 0x6a37b1c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_unityTextOverflowPosition, addr 0x6aa09a0, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TextOverflowPosition get_unityTextOverflowPosition();
 
-  /// @brief Method get_ve, addr 0x6a37bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ve, addr 0x6aa0a40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_ve();
 
-  /// @brief Method get_visibility, addr 0x6a37b38, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_visibility, addr 0x6aa09bc, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Visibility get_visibility();
 
-  /// @brief Method get_whiteSpace, addr 0x6a37b54, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_whiteSpace, addr 0x6aa09d8, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::WhiteSpace get_whiteSpace();
 
-  /// @brief Method get_width, addr 0x6a37b70, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_width, addr 0x6aa09f4, size 0x24, virtual true, abstract: false, final true
   inline float_t get_width();
 
-  /// @brief Method get_wordSpacing, addr 0x6a37b94, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_wordSpacing, addr 0x6aa0a18, size 0x28, virtual true, abstract: false, final true
   inline float_t get_wordSpacing();
 
   /// @brief Convert to "::UnityEngine::UIElements::IResolvedStyle"

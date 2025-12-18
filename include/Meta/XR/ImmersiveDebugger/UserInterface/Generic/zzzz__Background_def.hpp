@@ -44,7 +44,7 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background* New_ctor();
 
-  /// @brief Method Setup, addr 0x5843580, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x58a9ce4, size 0xa0, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__image() const;
@@ -53,19 +53,19 @@ public:
 
   constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x5843620, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58a9d84, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_Color, addr 0x5843508, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_Color, addr 0x58a9c6c, size 0x20, virtual false, abstract: false, final false
   inline void set_Color(::UnityEngine::Color value);
 
-  /// @brief Method set_PixelDensityMultiplier, addr 0x5843528, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_PixelDensityMultiplier, addr 0x58a9c8c, size 0x34, virtual false, abstract: false, final false
   inline void set_PixelDensityMultiplier(float_t value);
 
-  /// @brief Method set_RaycastTarget, addr 0x584355c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_RaycastTarget, addr 0x58a9cc0, size 0x24, virtual false, abstract: false, final false
   inline void set_RaycastTarget(bool value);
 
-  /// @brief Method set_Sprite, addr 0x58434f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_Sprite, addr 0x58a9c54, size 0x18, virtual false, abstract: false, final false
   inline void set_Sprite(::UnityEngine::Sprite* value);
 
 protected:
@@ -83,7 +83,7 @@ public:
   Background(Background const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18357 };
 
   /// @brief Field _image, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____image;

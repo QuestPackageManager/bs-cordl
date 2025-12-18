@@ -61,10 +61,10 @@ public:
 
   static inline ::GlobalNamespace::SaberSound* New_ctor();
 
-  /// @brief Method Start, addr 0x57dea80, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5845364, size 0x2c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x57deaac, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5845390, size 0x218, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set__upSmooth(float_t value);
 
-  /// @brief Method .ctor, addr 0x57decc4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58455a8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

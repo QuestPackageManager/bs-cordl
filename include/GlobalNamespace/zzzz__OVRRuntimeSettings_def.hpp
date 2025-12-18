@@ -75,10 +75,10 @@ public:
   /// @brief Field telemetryProjectGuid, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_telemetryProjectGuid, put = __cordl_internal_set_telemetryProjectGuid)) ::StringW telemetryProjectGuid;
 
-  /// @brief Method GetRuntimeSettings, addr 0x5caa7bc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeSettings, addr 0x5d1129c, size 0x174, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> GetRuntimeSettings();
 
-  /// @brief Method HandleSettingsCreated, addr 0x5caaa2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleSettingsCreated, addr 0x5d1150c, size 0x4, virtual false, abstract: false, final false
   static inline void HandleSettingsCreated(::GlobalNamespace::OVRRuntimeSettings* settings);
 
   static inline ::GlobalNamespace::OVRRuntimeSettings* New_ctor();
@@ -131,57 +131,57 @@ public:
 
   constexpr void __cordl_internal_set_telemetryProjectGuid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5caaa30, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d11510, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRHandSkeletonVersion getStaticF_NewProjectDefaultSkeletonVersion();
 
   static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> getStaticF__instance();
 
-  /// @brief Method get_BodyTrackingFidelity, addr 0x5caaa0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BodyTrackingFidelity, addr 0x5d114ec, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 get_BodyTrackingFidelity();
 
-  /// @brief Method get_BodyTrackingJointSet, addr 0x5caaa1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BodyTrackingJointSet, addr 0x5d114fc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_BodyJointSet get_BodyTrackingJointSet();
 
-  /// @brief Method get_EnableFaceTrackingVisemesOutput, addr 0x5caa950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnableFaceTrackingVisemesOutput, addr 0x5d11430, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnableFaceTrackingVisemesOutput();
 
-  /// @brief Method get_HandSkeletonVersion, addr 0x5caa708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HandSkeletonVersion, addr 0x5d111e8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRHandSkeletonVersion get_HandSkeletonVersion();
 
-  /// @brief Method get_Instance, addr 0x5caa718, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x5d111f8, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> get_Instance();
 
-  /// @brief Method get_RequestsAudioFaceTracking, addr 0x5caa940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestsAudioFaceTracking, addr 0x5d11420, size 0x8, virtual false, abstract: false, final false
   inline bool get_RequestsAudioFaceTracking();
 
-  /// @brief Method get_RequestsVisualFaceTracking, addr 0x5caa930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestsVisualFaceTracking, addr 0x5d11410, size 0x8, virtual false, abstract: false, final false
   inline bool get_RequestsVisualFaceTracking();
 
-  /// @brief Method get_TelemetryProjectGuid, addr 0x5caa9c8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_TelemetryProjectGuid, addr 0x5d114a8, size 0x44, virtual false, abstract: false, final false
   inline ::StringW get_TelemetryProjectGuid();
 
   static inline void setStaticF_NewProjectDefaultSkeletonVersion(::GlobalNamespace::OVRHandSkeletonVersion value);
 
   static inline void setStaticF__instance(::UnityW<::GlobalNamespace::OVRRuntimeSettings> value);
 
-  /// @brief Method set_BodyTrackingFidelity, addr 0x5caaa14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BodyTrackingFidelity, addr 0x5d114f4, size 0x8, virtual false, abstract: false, final false
   inline void set_BodyTrackingFidelity(::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 value);
 
-  /// @brief Method set_BodyTrackingJointSet, addr 0x5caaa24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BodyTrackingJointSet, addr 0x5d11504, size 0x8, virtual false, abstract: false, final false
   inline void set_BodyTrackingJointSet(::GlobalNamespace::OVRPlugin_BodyJointSet value);
 
-  /// @brief Method set_EnableFaceTrackingVisemesOutput, addr 0x5caa958, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_EnableFaceTrackingVisemesOutput, addr 0x5d11438, size 0x70, virtual false, abstract: false, final false
   inline void set_EnableFaceTrackingVisemesOutput(bool value);
 
-  /// @brief Method set_HandSkeletonVersion, addr 0x5caa710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HandSkeletonVersion, addr 0x5d111f0, size 0x8, virtual false, abstract: false, final false
   inline void set_HandSkeletonVersion(::GlobalNamespace::OVRHandSkeletonVersion value);
 
-  /// @brief Method set_RequestsAudioFaceTracking, addr 0x5caa948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RequestsAudioFaceTracking, addr 0x5d11428, size 0x8, virtual false, abstract: false, final false
   inline void set_RequestsAudioFaceTracking(bool value);
 
-  /// @brief Method set_RequestsVisualFaceTracking, addr 0x5caa938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RequestsVisualFaceTracking, addr 0x5d11418, size 0x8, virtual false, abstract: false, final false
   inline void set_RequestsVisualFaceTracking(bool value);
 
 protected:
@@ -199,7 +199,7 @@ public:
   OVRRuntimeSettings(OVRRuntimeSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7630 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7634 };
 
   /// @brief Field _assetName offset 0xffffffff size 0x8
   static constexpr ::ConstString _assetName{ u"OculusRuntimeSettings" };

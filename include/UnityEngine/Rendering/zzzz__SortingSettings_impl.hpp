@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SortingSettings::*)(::UnityEngine::Camera*)>(
     &::UnityEngine::Rendering::SortingSettings::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x68f498c;
+  constexpr static std::size_t addrs = 0x695d810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::SortingCriteria (::UnityEngine::Rendering::SortingSettings::*)()>(
     &::UnityEngine::Rendering::SortingSettings::get_criteria)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68f49f4;
+  constexpr static std::size_t addrs = 0x695d878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SortingSettings>::get(), "get_criteria",
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SortingSettings::*)(::UnityEngine::Rendering::SortingCriteria)>(
     &::UnityEngine::Rendering::SortingSettings::set_criteria)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68f49fc;
+  constexpr static std::size_t addrs = 0x695d880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SortingSettings::*)(::UnityEngine::Rendering::SortingSettings)>(
     &::UnityEngine::Rendering::SortingSettings::Equals)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x68ed074;
+  constexpr static std::size_t addrs = 0x6955ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SortingSettings::*)(::System::Object*)>(
     &::UnityEngine::Rendering::SortingSettings::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x68f4a04;
+  constexpr static std::size_t addrs = 0x695d888;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SortingSettings::*)()>(&::UnityEngine::Rendering::SortingSettings::GetHashCode)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x68ed3e4;
+  constexpr static std::size_t addrs = 0x6956268;
 
   inline static ::MethodInfo const* methodInfo() {
 

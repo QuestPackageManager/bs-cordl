@@ -23,16 +23,16 @@ namespace UnityEngine {
 struct CORDL_TYPE AssemblyVersion {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x68a93d4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6912258, size 0xac, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode, addr 0x68a9480, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6912304, size 0x98, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x68a9234, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69120b8, size 0x1a0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method op_Equality, addr 0x68a9228, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x69120ac, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::AssemblyVersion lhs, ::UnityEngine::AssemblyVersion rhs);
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
   constexpr AssemblyVersion(uint16_t major, uint16_t minor, uint16_t build, uint16_t revision) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10306 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10310 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

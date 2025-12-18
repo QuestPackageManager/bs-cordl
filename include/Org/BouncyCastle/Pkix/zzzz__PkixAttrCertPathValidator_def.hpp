@@ -29,10 +29,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Pkix::PkixAttrCertPathValidator* New_ctor();
 
-  /// @brief Method Validate, addr 0x34996d0, size 0x3d8, virtual true, abstract: false, final false
+  /// @brief Method Validate, addr 0x34c3f14, size 0x3d8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult* Validate(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
 
-  /// @brief Method .ctor, addr 0x3498d7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34c35c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

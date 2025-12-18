@@ -37,21 +37,21 @@ public:
   /// @brief Field _pool, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__pool, put = __cordl_internal_set__pool)) ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> _pool;
 
-  /// @brief Method GetPacket, addr 0x568aafc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetPacket, addr 0x56eb7a4, size 0x174, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPacket* GetPacket(int32_t size);
 
-  /// @brief Method GetWithData, addr 0x568e698, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetWithData, addr 0x56ef340, size 0xc0, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPacket* GetWithData(::LiteNetLib::PacketProperty property, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length);
 
-  /// @brief Method GetWithProperty, addr 0x568ce6c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetWithProperty, addr 0x56edb14, size 0x8c, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty property);
 
-  /// @brief Method GetWithProperty, addr 0x568c310, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetWithProperty, addr 0x56ecfb8, size 0x90, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty property, int32_t size);
 
   static inline ::LiteNetLib::NetPacketPool* New_ctor();
 
-  /// @brief Method Recycle, addr 0x5689654, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Recycle, addr 0x56ea2fc, size 0x128, virtual false, abstract: false, final false
   inline void Recycle(::LiteNetLib::NetPacket* packet);
 
   constexpr int32_t const& __cordl_internal_get__count() const;
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__pool(::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> value);
 
-  /// @brief Method .ctor, addr 0x568a3a8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56eb050, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,7 +90,7 @@ public:
   NetPacketPool(NetPacketPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19814 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19840 };
 
   /// @brief Field _pool, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> ____pool;

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::BaseCommandBuffer::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*, bool)>(&::UnityEngine::Rendering::BaseCommandBuffer::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x652f7d0;
+  constexpr static std::size_t addrs = 0x659735c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::BaseCommandBuffer::*)()>(
     &::UnityEngine::Rendering::BaseCommandBuffer::get_name)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x652f7f8;
+  constexpr static std::size_t addrs = 0x6597384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::BaseCommandBuffer*>::get(), "get_name",
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::BaseCommandBuffer::*)()>(
     &::UnityEngine::Rendering::BaseCommandBuffer::get_sizeInBytes)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x652f810;
+  constexpr static std::size_t addrs = 0x659739c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::BaseCommandBuffer*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::BaseCommandBuffer::*)()>(
     &::UnityEngine::Rendering::BaseCommandBuffer::ThrowIfGlobalStateNotAllowed)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x652f828;
+  constexpr static std::size_t addrs = 0x65973b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::BaseCommandBuffer*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::BaseCommandBuffer::*)()>(
     &::UnityEngine::Rendering::BaseCommandBuffer::ThrowIfRasterNotAllowed)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x652f8a0;
+  constexpr static std::size_t addrs = 0x659742c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::BaseCommandBuffer*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::BaseCommandBuffer::*)(::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(
     &::UnityEngine::Rendering::BaseCommandBuffer::ValidateTextureHandle)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x652f934;
+  constexpr static std::size_t addrs = 0x65974c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::BaseCommandBuffer::*)(::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(
     &::UnityEngine::Rendering::BaseCommandBuffer::ValidateTextureHandleRead)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x652fb14;
+  constexpr static std::size_t addrs = 0x65976a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::BaseCommandBuffer::*)(::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(
     &::UnityEngine::Rendering::BaseCommandBuffer::ValidateTextureHandleWrite)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x652fca0;
+  constexpr static std::size_t addrs = 0x659782c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

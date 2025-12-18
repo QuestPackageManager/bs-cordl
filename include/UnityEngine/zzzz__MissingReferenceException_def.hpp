@@ -31,13 +31,13 @@ public:
 
   static inline ::UnityEngine::MissingReferenceException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x68b36b0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x691c534, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x68b3738, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x691c5bc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x68b0cdc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6919b60, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -55,7 +55,7 @@ public:
   MissingReferenceException(MissingReferenceException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10346 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

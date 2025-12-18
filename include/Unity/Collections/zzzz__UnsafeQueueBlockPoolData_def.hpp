@@ -23,10 +23,10 @@ namespace Unity::Collections {
 struct CORDL_TYPE UnsafeQueueBlockPoolData {
 public:
   // Declarations
-  /// @brief Method AllocateBlock, addr 0x62aaf00, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AllocateBlock, addr 0x6312a8c, size 0xac, virtual false, abstract: false, final false
   inline ::Unity::Collections::UnsafeQueueBlockHeader* AllocateBlock();
 
-  /// @brief Method FreeBlock, addr 0x62aafac, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method FreeBlock, addr 0x6312b38, size 0xd4, virtual false, abstract: false, final false
   inline void FreeBlock(::Unity::Collections::UnsafeQueueBlockHeader* block);
 
   // Ctor Parameters []
@@ -38,7 +38,7 @@ public:
   constexpr UnsafeQueueBlockPoolData(::System::IntPtr m_FirstBlock, int32_t m_NumBlocks, int32_t m_MaxBlocks, int32_t m_AllocLock) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15700 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

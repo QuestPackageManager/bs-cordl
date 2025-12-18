@@ -52,17 +52,17 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x56ae374, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x570f028, size 0x12c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleTransitionDidFinish, addr 0x56ae4d4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleTransitionDidFinish, addr 0x570f188, size 0x30, virtual false, abstract: false, final false
   inline void HandleTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType transitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO* transitionSetupDataSo,
                                         ::Zenject::DiContainer* diContainer);
 
-  /// @brief Method HandleTransitionDidStart, addr 0x56ae4a0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleTransitionDidStart, addr 0x570f154, size 0x34, virtual false, abstract: false, final false
   inline void HandleTransitionDidStart(::GlobalNamespace::GameScenesManager_SceneTransitionType transitionType, float_t duration);
 
-  /// @brief Method Initialize, addr 0x56ae248, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x570eefc, size 0x12c, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::SceneTransitionAudioFadeController* New_ctor();
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  /// @brief Method .ctor, addr 0x56ae504, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x570f1b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"

@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_m_endOfPacket(bool value);
 
-  /// @brief Method .ctor, addr 0x614da0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b5598, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   SendPacketsElement(SendPacketsElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11746 };
 
   /// @brief Field m_FilePath, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_FilePath;

@@ -35,18 +35,18 @@ public:
   /// @brief Field _valueBounds, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__valueBounds, put = __cordl_internal_set__valueBounds)) ::UnityEngine::Vector2 _valueBounds;
 
-  /// @brief Method Awake, addr 0x577ade0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x57e1688, size 0x68, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Move, addr 0x577ae4c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x57e16f4, size 0x94, virtual false, abstract: false, final false
   inline void Move(float_t value);
 
   static inline ::GlobalNamespace::FloatLocalScaleEffect* New_ctor();
 
-  /// @brief Method SetValue, addr 0x577ae48, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x57e16f0, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x577aee0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x57e1788, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__startScale() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x577aee4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57e178c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

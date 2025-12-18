@@ -203,7 +203,7 @@ public:
 
   constexpr void __cordl_internal_set_Validity(::System::Xml::Schema::XmlSchemaValidity value);
 
-  /// @brief Method .ctor, addr 0x6002a40, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x606a5cc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -221,7 +221,7 @@ public:
   ValidationState(ValidationState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9701 };
 
   /// @brief Field IsNill, offset: 0x10, size: 0x1, def value: None
   bool ___IsNill;

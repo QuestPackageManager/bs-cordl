@@ -67,7 +67,7 @@ public:
   static ::BGLib::Polyglot::CsvReader_ParsingMode const OutQuote;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21991 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -94,10 +94,10 @@ public:
 
   static inline ::BGLib::Polyglot::CsvReader* New_ctor();
 
-  /// @brief Method Parse, addr 0x31f4c04, size 0x820, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3225630, size 0x820, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
 
-  /// @brief Method .ctor, addr 0x31f857c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3228fa8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,7 +115,7 @@ public:
   CsvReader(CsvReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21965 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21992 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

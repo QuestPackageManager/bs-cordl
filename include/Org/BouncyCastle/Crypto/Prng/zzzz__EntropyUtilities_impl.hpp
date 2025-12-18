@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::Org::BouncyCastle::Crypto::IEntropySource*, int32_t)>(
     &::Org::BouncyCastle::Crypto::Prng::EntropyUtilities::GenerateSeed)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x32f815c;
+  constexpr static std::size_t addrs = 0x33229a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::EntropyUtilities::*)()>(
     &::Org::BouncyCastle::Crypto::Prng::EntropyUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32f82c0;
+  constexpr static std::size_t addrs = 0x3322b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::EntropyUtilities*>::get(),

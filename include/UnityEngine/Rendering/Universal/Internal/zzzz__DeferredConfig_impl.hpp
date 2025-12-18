@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Universal::Internal::DeferredConfig::get_IsOpenGL)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x66c9178;
+  constexpr static std::size_t addrs = 0x6730d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::UnityEngine::Rendering::Universal::Internal::DeferredConfig::set_IsOpenGL)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x66c91c4;
+  constexpr static std::size_t addrs = 0x6730d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Universal::Internal::DeferredConfig::get_IsDX10)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x66c9218;
+  constexpr static std::size_t addrs = 0x6730da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::UnityEngine::Rendering::Universal::Internal::DeferredConfig::set_IsDX10)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x66c9264;
+  constexpr static std::size_t addrs = 0x6730df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

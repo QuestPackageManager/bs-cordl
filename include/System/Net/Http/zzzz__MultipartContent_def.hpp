@@ -66,10 +66,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5ec4518, size 0xd58, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f2c0a4, size 0xd58, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5ec5270, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f2cdfc, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -91,7 +91,7 @@ public:
                                                           ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20058 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -168,29 +168,29 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x5ec3a78, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x5f2b604, size 0x150, virtual true, abstract: false, final false
   inline void Add(::System::Net::Http::HttpContent* content);
 
-  /// @brief Method Dispose, addr 0x5ec3bc8, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5f2b754, size 0x15c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetEnumerator, addr 0x5ec4408, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x5f2bf94, size 0x88, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Net::Http::HttpContent*>* GetEnumerator();
 
-  /// @brief Method IsValidRFC2049, addr 0x5ec391c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method IsValidRFC2049, addr 0x5f2b4a8, size 0xa8, virtual false, abstract: false, final false
   static inline bool IsValidRFC2049(::StringW s);
 
   static inline ::System::Net::Http::MultipartContent* New_ctor(::StringW subtype);
 
   static inline ::System::Net::Http::MultipartContent* New_ctor(::StringW subtype, ::StringW boundary);
 
-  /// @brief Method SerializeToStreamAsync, addr 0x5ec3d24, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method SerializeToStreamAsync, addr 0x5f2b8b0, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5ec4490, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5f2c01c, size 0x88, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method TryComputeLength, addr 0x5ec3df0, size 0x618, virtual true, abstract: false, final false
+  /// @brief Method TryComputeLength, addr 0x5f2b97c, size 0x618, virtual true, abstract: false, final false
   inline bool TryComputeLength(::ByRef<int64_t> length);
 
   constexpr ::StringW const& __cordl_internal_get_boundary() const;
@@ -205,10 +205,10 @@ public:
 
   constexpr void __cordl_internal_set_nested_content(::System::Collections::Generic::List_1<::System::Net::Http::HttpContent*>* value);
 
-  /// @brief Method .ctor, addr 0x5ec3554, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2b0e0, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::StringW subtype);
 
-  /// @brief Method .ctor, addr 0x5ec360c, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2b198, size 0x310, virtual false, abstract: false, final false
   inline void _ctor(::StringW subtype, ::StringW boundary);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Net::Http::HttpContent*>"
@@ -232,7 +232,7 @@ public:
   MultipartContent(MultipartContent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20059 };
 
   /// @brief Field nested_content, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Net::Http::HttpContent*>* ___nested_content;

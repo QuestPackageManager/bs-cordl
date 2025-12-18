@@ -19,7 +19,7 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 struct CORDL_TYPE RendererListLegacyResource {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x65caf8c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6632b18, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<bool> active);
 
   // Ctor Parameters []
@@ -31,7 +31,7 @@ public:
   constexpr RendererListLegacyResource(::UnityEngine::Rendering::RendererList rendererList, bool isActive) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12427 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12431 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

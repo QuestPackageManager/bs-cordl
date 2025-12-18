@@ -41,7 +41,7 @@ public:
 
   static inline ::GlobalNamespace::SignalOnPointerClick* New_ctor();
 
-  /// @brief Method OnPointerClick, addr 0x563f4d4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerClick, addr 0x56a42e8, size 0x1c, virtual true, abstract: false, final true
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__inputFieldClickedSignal() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__inputFieldClickedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x563f4f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56a4304, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -74,7 +74,7 @@ public:
   SignalOnPointerClick(SignalOnPointerClick const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20070 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20286 };
 
   /// @brief Field _inputFieldClickedSignal, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____inputFieldClickedSignal;

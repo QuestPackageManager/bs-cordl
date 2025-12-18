@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x617a654, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61e21e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* switchLevelType);
 
-  /// @brief Method set_SwitchLevelType, addr 0x617a658, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_SwitchLevelType, addr 0x61e21e4, size 0x84, virtual false, abstract: false, final false
   inline void set_SwitchLevelType(::System::Type* value);
 
 protected:
@@ -55,7 +55,7 @@ public:
   SwitchLevelAttribute(SwitchLevelAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11108 };
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;

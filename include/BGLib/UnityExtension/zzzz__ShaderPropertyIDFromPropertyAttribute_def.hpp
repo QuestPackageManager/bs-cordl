@@ -25,7 +25,7 @@ public:
   /// @brief Field nestedPropertyName, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_nestedPropertyName, put = __cordl_internal_set_nestedPropertyName)) ::StringW nestedPropertyName;
 
-  /// @brief Method GetTargetName, addr 0x31fe708, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method GetTargetName, addr 0x322f134, size 0xe0, virtual true, abstract: false, final false
   inline ::StringW GetTargetName();
 
   static inline ::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute* New_ctor(::StringW propertyName, ::StringW nestedPropertyName, ::StringW nameFilter,
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set_nestedPropertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x31fe6d8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322f104, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::StringW nestedPropertyName, ::StringW nameFilter, ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType filterPropType);
 
 protected:
@@ -55,7 +55,7 @@ public:
   ShaderPropertyIDFromPropertyAttribute(ShaderPropertyIDFromPropertyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20724 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20749 };
 
   /// @brief Field nestedPropertyName, offset: 0x28, size: 0x8, def value: None
   ::StringW ___nestedPropertyName;

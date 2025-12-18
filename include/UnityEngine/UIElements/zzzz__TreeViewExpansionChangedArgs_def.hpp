@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set__isExpanded_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6af8218, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b6109c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_id, addr 0x6af8200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_id, addr 0x6b61084, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
 
-  /// @brief Method set_isAppliedToAllChildren, addr 0x6af8210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isAppliedToAllChildren, addr 0x6b61094, size 0x8, virtual false, abstract: false, final false
   inline void set_isAppliedToAllChildren(bool value);
 
-  /// @brief Method set_isExpanded, addr 0x6af8208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isExpanded, addr 0x6b6108c, size 0x8, virtual false, abstract: false, final false
   inline void set_isExpanded(bool value);
 
 protected:

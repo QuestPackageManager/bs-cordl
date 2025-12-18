@@ -35,10 +35,10 @@ public:
 
   static inline ::System::Reflection::Missing* New_ctor();
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x5969838, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x59d0184, size 0x38, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5969834, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d0180, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Reflection::Missing* getStaticF_Value();

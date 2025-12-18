@@ -36,10 +36,10 @@ public:
 
   static inline ::GlobalNamespace::LightRotationGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x577fe14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57e66bc, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_transformGroupType, addr 0x577fe0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_transformGroupType, addr 0x57e66b4, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::LightTransformGroupType get_transformGroupType();
 
 protected:

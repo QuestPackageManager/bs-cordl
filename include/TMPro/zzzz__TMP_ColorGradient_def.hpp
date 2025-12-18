@@ -77,13 +77,13 @@ public:
 
   constexpr void __cordl_internal_set_topRight(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x672a5dc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6792154, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x672a67c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67921f4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
-  /// @brief Method .ctor, addr 0x672a6e8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6792260, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
 
   static inline ::UnityEngine::Color getStaticF_k_DefaultColor();
@@ -105,7 +105,7 @@ public:
   TMP_ColorGradient(TMP_ColorGradient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15859 };
 
   /// @brief Field k_DefaultColorMode value: I32(3)
   static ::TMPro::ColorMode const k_DefaultColorMode;

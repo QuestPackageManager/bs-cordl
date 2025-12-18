@@ -49,7 +49,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x32212b8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x324bafc, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* New_ctor(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* certificate);
@@ -58,7 +58,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method ToAsn1Object, addr 0x3221920, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x324c164, size 0xcc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* const& __cordl_internal_get_certificate() const;
@@ -73,19 +73,19 @@ public:
 
   constexpr void __cordl_internal_set_encryptedCert(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* value);
 
-  /// @brief Method .ctor, addr 0x3221860, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x324c0a4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* certificate);
 
-  /// @brief Method .ctor, addr 0x32218b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x324c0fc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* encryptedCert);
 
-  /// @brief Method .ctor, addr 0x3221770, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x324bfb4, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method get_Certificate, addr 0x3221910, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x324c154, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* get_Certificate();
 
-  /// @brief Method get_EncryptedCert, addr 0x3221918, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EncryptedCert, addr 0x324c15c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* get_EncryptedCert();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

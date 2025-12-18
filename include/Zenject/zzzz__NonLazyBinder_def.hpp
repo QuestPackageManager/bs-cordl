@@ -24,15 +24,15 @@ namespace Zenject {
 class CORDL_TYPE NonLazyBinder : public ::Zenject::IfNotBoundBinder {
 public:
   // Declarations
-  /// @brief Method Lazy, addr 0x6c27dfc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Lazy, addr 0x6c90c80, size 0x18, virtual false, abstract: false, final false
   inline ::Zenject::IfNotBoundBinder* Lazy();
 
   static inline ::Zenject::NonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method NonLazy, addr 0x6c27de0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NonLazy, addr 0x6c90c64, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::IfNotBoundBinder* NonLazy();
 
-  /// @brief Method .ctor, addr 0x6c27dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c90c5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -50,7 +50,7 @@ public:
   NonLazyBinder(NonLazyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14248 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14252 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

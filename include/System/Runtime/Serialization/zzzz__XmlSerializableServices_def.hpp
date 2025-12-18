@@ -34,10 +34,10 @@ public:
   /// @brief Field WriteNodesMethodName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_WriteNodesMethodName, put = setStaticF_WriteNodesMethodName)) ::StringW WriteNodesMethodName;
 
-  /// @brief Method IsValidAttribute, addr 0x5f5c044, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsValidAttribute, addr 0x5fc3bd0, size 0xf8, virtual false, abstract: false, final false
   static inline bool IsValidAttribute(::System::Xml::XmlReader* xmlReader);
 
-  /// @brief Method ReadNodes, addr 0x5f5bcc0, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method ReadNodes, addr 0x5fc384c, size 0x324, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> ReadNodes(::System::Xml::XmlReader* xmlReader);
 
   static inline ::StringW getStaticF_AddDefaultSchemaMethodName();
@@ -67,7 +67,7 @@ public:
   XmlSerializableServices(XmlSerializableServices const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17101 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17115 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

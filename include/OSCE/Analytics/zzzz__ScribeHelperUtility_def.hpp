@@ -88,7 +88,7 @@ public:
   static constexpr ::ConstString STRING_VECTOR_SCRIBE_KEY{ u"normvector" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21723 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

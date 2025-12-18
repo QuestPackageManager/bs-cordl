@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set_hasTypeForwardedFrom(bool value);
 
-  /// @brief Method .ctor, addr 0x5f3d190, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fa4d1c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom);
 
-  /// @brief Method get_AssemblyString, addr 0x5f45364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyString, addr 0x5facef0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyString();
 
-  /// @brief Method get_FullTypeName, addr 0x5f4535c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FullTypeName, addr 0x5facee8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FullTypeName();
 
 protected:
@@ -76,7 +76,7 @@ public:
   TypeInformation(TypeInformation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17085 };
 
   /// @brief Field fullTypeName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___fullTypeName;

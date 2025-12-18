@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseCaptureOutEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6b61c58, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6bcaadc, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseCaptureOutEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6b61c54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bcaad8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseCaptureOutEvent___c* getStaticF___9();
@@ -78,10 +78,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseCaptureOutEvent* New_ctor();
 
-  /// @brief Method PreDispatch, addr 0x6b61b5c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x6bca9e0, size 0x4c, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x6b61ba8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bcaa2c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -146,7 +146,7 @@ public:
   static ::UnityEngine::Rendering::DebugManager_UIMode const RuntimeMode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11950 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11954 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -191,13 +191,13 @@ public:
 
   constexpr void __cordl_internal_set_mode(::UnityEngine::Rendering::DebugManager_UIMode value);
 
-  /// @brief Method .ctor, addr 0x65464d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65ae060, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_open, addr 0x6548b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_open, addr 0x65b0698, size 0x8, virtual false, abstract: false, final false
   inline bool get_open();
 
-  /// @brief Method set_open, addr 0x6548504, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method set_open, addr 0x65b0090, size 0xa4, virtual false, abstract: false, final false
   inline void set_open(bool value);
 
 protected:
@@ -215,7 +215,7 @@ public:
   DebugManager_UIState(DebugManager_UIState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11955 };
 
   /// @brief Field mode, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::DebugManager_UIMode ___mode;
@@ -254,19 +254,19 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugManager___c* New_ctor();
 
-  /// @brief Method <TogglePersistent>b__60_0, addr 0x6548b74, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <TogglePersistent>b__60_0, addr 0x65b0700, size 0x80, virtual false, abstract: false, final false
   inline int32_t _TogglePersistent_b__60_0(::UnityEngine::Rendering::DebugUI_Widget* w);
 
-  /// @brief Method <.cctor>b__95_0, addr 0x6548bf4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__95_0, addr 0x65b0780, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugManager* __cctor_b__95_0();
 
-  /// @brief Method <.ctor>b__49_0, addr 0x6548b6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__49_0, addr 0x65b06f8, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__49_0(bool _p0_);
 
-  /// @brief Method <.ctor>b__49_1, addr 0x6548b70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__49_1, addr 0x65b06fc, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__49_1();
 
-  /// @brief Method .ctor, addr 0x6548b68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65b06f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::DebugManager___c* getStaticF___9();
@@ -300,7 +300,7 @@ public:
   DebugManager___c(DebugManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11956 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -320,7 +320,7 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugManager___c__DisplayClass67_0* New_ctor();
 
-  /// @brief Method <FindPanelIndex>b__0, addr 0x6548c48, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <FindPanelIndex>b__0, addr 0x65b07d4, size 0x1c, virtual false, abstract: false, final false
   inline bool _FindPanelIndex_b__0(::UnityEngine::Rendering::DebugUI_Panel* p);
 
   constexpr ::StringW const& __cordl_internal_get_displayName() const;
@@ -329,7 +329,7 @@ public:
 
   constexpr void __cordl_internal_set_displayName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6547554, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65af0e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -347,7 +347,7 @@ public:
   DebugManager___c__DisplayClass67_0(DebugManager___c__DisplayClass67_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11957 };
 
   /// @brief Field displayName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___displayName;
@@ -450,115 +450,115 @@ public:
   /// @brief Field windowStateChanged, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_windowStateChanged, put = setStaticF_windowStateChanged)) ::System::Action_2<::UnityEngine::Rendering::DebugManager_UIMode, bool>* windowStateChanged;
 
-  /// @brief Method AddAction, addr 0x654467c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method AddAction, addr 0x65ac208, size 0xe0, virtual false, abstract: false, final false
   inline void AddAction(::UnityEngine::Rendering::DebugAction action, ::UnityEngine::Rendering::DebugActionDesc* desc);
 
-  /// @brief Method ChangeSelection, addr 0x654666c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ChangeSelection, addr 0x65ae1f8, size 0x1c, virtual false, abstract: false, final false
   inline void ChangeSelection(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* widget, bool fromNext);
 
-  /// @brief Method EnableInputActions, addr 0x654475c, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method EnableInputActions, addr 0x65ac2e8, size 0x240, virtual false, abstract: false, final false
   inline void EnableInputActions();
 
-  /// @brief Method EnsurePersistentCanvas, addr 0x6546724, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method EnsurePersistentCanvas, addr 0x65ae2b0, size 0x20c, virtual false, abstract: false, final false
   inline void EnsurePersistentCanvas();
 
-  /// @brief Method FindPanelIndex, addr 0x6547474, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method FindPanelIndex, addr 0x65af000, size 0xe0, virtual false, abstract: false, final false
   inline int32_t FindPanelIndex(::StringW displayName);
 
-  /// @brief Method GetAction, addr 0x6544df8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetAction, addr 0x65ac984, size 0x38, virtual false, abstract: false, final false
   inline float_t GetAction(::UnityEngine::Rendering::DebugAction action);
 
-  /// @brief Method GetActionReleaseScrollTarget, addr 0x6545064, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetActionReleaseScrollTarget, addr 0x65acbf0, size 0x180, virtual false, abstract: false, final false
   inline bool GetActionReleaseScrollTarget();
 
-  /// @brief Method GetActionToggleDebugMenuWithTouch, addr 0x6544e30, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method GetActionToggleDebugMenuWithTouch, addr 0x65ac9bc, size 0x234, virtual false, abstract: false, final false
   inline bool GetActionToggleDebugMenuWithTouch();
 
-  /// @brief Method GetItem, addr 0x6547e74, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetItem, addr 0x65afa00, size 0x114, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Widget* GetItem(::StringW queryPath);
 
-  /// @brief Method GetItem, addr 0x6547f88, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method GetItem, addr 0x65afb14, size 0x33c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Widget* GetItem(::StringW queryPath, ::UnityEngine::Rendering::DebugUI_IContainer* container);
 
-  /// @brief Method GetItems, addr 0x65476dc, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method GetItems, addr 0x65af268, size 0x270, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::DebugUI_Widget*, ::Array<::UnityEngine::Rendering::DebugUI_Widget*>*> GetItems(::UnityEngine::Rendering::DebugUI_Flags flags);
 
-  /// @brief Method GetItemsFromContainer, addr 0x654794c, size 0x528, virtual false, abstract: false, final false
+  /// @brief Method GetItemsFromContainer, addr 0x65af4d8, size 0x528, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::DebugUI_Widget*, ::Array<::UnityEngine::Rendering::DebugUI_Widget*>*> GetItemsFromContainer(::UnityEngine::Rendering::DebugUI_Flags flags,
                                                                                                                                         ::UnityEngine::Rendering::DebugUI_IContainer* container);
 
-  /// @brief Method GetPanel, addr 0x653d510, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetPanel, addr 0x65a509c, size 0x1e8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Panel* GetPanel(::StringW displayName, bool createIfNull, int32_t groupIndex, bool overrideIfExist);
 
-  /// @brief Method GetRequestedEditorWindowPanelIndex, addr 0x6547074, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetRequestedEditorWindowPanelIndex, addr 0x65aec00, size 0x10, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> GetRequestedEditorWindowPanelIndex();
 
-  /// @brief Method GetState, addr 0x654651c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetState, addr 0x65ae0a8, size 0x11c, virtual false, abstract: false, final false
   inline int32_t GetState();
 
   static inline ::UnityEngine::Rendering::DebugManager* New_ctor();
 
-  /// @brief Method OnPanelDirty, addr 0x6546e7c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnPanelDirty, addr 0x65aea08, size 0x20, virtual false, abstract: false, final false
   inline void OnPanelDirty(::UnityEngine::Rendering::DebugUI_Panel* panel);
 
-  /// @brief Method PanelDiplayName, addr 0x6546f70, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method PanelDiplayName, addr 0x65aeafc, size 0xac, virtual false, abstract: false, final false
   inline ::StringW PanelDiplayName(int32_t panelIndex);
 
-  /// @brief Method PanelIndex, addr 0x6546e9c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method PanelIndex, addr 0x65aea28, size 0xd4, virtual false, abstract: false, final false
   inline int32_t PanelIndex(::StringW displayName);
 
-  /// @brief Method ReDrawOnScreenDebug, addr 0x6541870, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ReDrawOnScreenDebug, addr 0x65a93fc, size 0x28, virtual false, abstract: false, final false
   inline void ReDrawOnScreenDebug();
 
-  /// @brief Method RefreshEditor, addr 0x653d448, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RefreshEditor, addr 0x65a4fd4, size 0xc, virtual false, abstract: false, final false
   inline void RefreshEditor();
 
-  /// @brief Method RegisterActions, addr 0x654428c, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method RegisterActions, addr 0x65abe18, size 0x3ec, virtual false, abstract: false, final false
   inline void RegisterActions();
 
-  /// @brief Method RegisterData, addr 0x653d458, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method RegisterData, addr 0x65a4fe4, size 0xb8, virtual false, abstract: false, final false
   inline void RegisterData(::UnityEngine::Rendering::IDebugData* data);
 
-  /// @brief Method RegisterInputs, addr 0x65451e4, size 0xa70, virtual false, abstract: false, final false
+  /// @brief Method RegisterInputs, addr 0x65acd70, size 0xa70, virtual false, abstract: false, final false
   inline void RegisterInputs();
 
-  /// @brief Method RegisterRootCanvas, addr 0x6546638, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method RegisterRootCanvas, addr 0x65ae1c4, size 0x34, virtual false, abstract: false, final false
   inline void RegisterRootCanvas(::UnityEngine::Rendering::UI::DebugUIHandlerCanvas* root);
 
-  /// @brief Method RemovePanel, addr 0x6547558, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method RemovePanel, addr 0x65af0e4, size 0x184, virtual false, abstract: false, final false
   inline void RemovePanel(::StringW displayName);
 
-  /// @brief Method RemovePanel, addr 0x6547144, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RemovePanel, addr 0x65aecd0, size 0x80, virtual false, abstract: false, final false
   inline void RemovePanel(::UnityEngine::Rendering::DebugUI_Panel* panel);
 
-  /// @brief Method RequestEditorWindowPanelIndex, addr 0x654701c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RequestEditorWindowPanelIndex, addr 0x65aeba8, size 0x58, virtual false, abstract: false, final false
   inline void RequestEditorWindowPanelIndex(int32_t index);
 
-  /// @brief Method Reset, addr 0x65464d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x65ae064, size 0x44, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SampleAction, addr 0x65449a0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SampleAction, addr 0x65ac52c, size 0x14c, virtual false, abstract: false, final false
   inline void SampleAction(int32_t actionIndex);
 
-  /// @brief Method SetScrollTarget, addr 0x6546688, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetScrollTarget, addr 0x65ae214, size 0x9c, virtual false, abstract: false, final false
   inline void SetScrollTarget(::UnityEngine::Rendering::UI::DebugUIHandlerWidget* widget);
 
-  /// @brief Method ToggleEditorUI, addr 0x65489cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ToggleEditorUI, addr 0x65b0558, size 0x18, virtual false, abstract: false, final false
   inline void ToggleEditorUI(bool open);
 
-  /// @brief Method TogglePersistent, addr 0x6546930, size 0x54c, virtual false, abstract: false, final false
+  /// @brief Method TogglePersistent, addr 0x65ae4bc, size 0x54c, virtual false, abstract: false, final false
   inline void TogglePersistent(::UnityEngine::Rendering::DebugUI_Widget* widget, ::System::Nullable_1<int32_t> forceTupleIndex);
 
-  /// @brief Method UnregisterData, addr 0x653d6f8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method UnregisterData, addr 0x65a5284, size 0xb8, virtual false, abstract: false, final false
   inline void UnregisterData(::UnityEngine::Rendering::IDebugData* data);
 
-  /// @brief Method UpdateAction, addr 0x6544b68, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UpdateAction, addr 0x65ac6f4, size 0x64, virtual false, abstract: false, final false
   inline void UpdateAction(int32_t actionIndex);
 
-  /// @brief Method UpdateActions, addr 0x6544da0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method UpdateActions, addr 0x65ac92c, size 0x58, virtual false, abstract: false, final false
   inline void UpdateActions();
 
-  /// @brief Method UpdateReadOnlyCollection, addr 0x6545c54, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method UpdateReadOnlyCollection, addr 0x65ad7e0, size 0x9c, virtual false, abstract: false, final false
   inline void UpdateReadOnlyCollection();
 
   constexpr ::UnityEngine::InputSystem::InputActionMap* const& __cordl_internal_get_debugActionMap() const;
@@ -663,72 +663,72 @@ public:
 
   constexpr void __cordl_internal_set_runtimeUIState(::UnityEngine::Rendering::DebugManager_UIState* value);
 
-  /// @brief Method .ctor, addr 0x6546284, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65ade10, size 0x250, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onDisplayRuntimeUIChanged, addr 0x6545d14, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_onDisplayRuntimeUIChanged, addr 0x65ad8a0, size 0xc0, virtual false, abstract: false, final false
   inline void add_onDisplayRuntimeUIChanged(::System::Action_1<bool>* value);
 
-  /// @brief Method add_onSetDirty, addr 0x6545e94, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_onSetDirty, addr 0x65ada20, size 0xac, virtual false, abstract: false, final false
   inline void add_onSetDirty(::System::Action* value);
 
-  /// @brief Method add_resetData, addr 0x6545fec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_resetData, addr 0x65adb78, size 0xac, virtual false, abstract: false, final false
   inline void add_resetData(::System::Action* value);
 
-  /// @brief Method add_windowStateChanged, addr 0x65482c4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method add_windowStateChanged, addr 0x65afe50, size 0x108, virtual false, abstract: false, final false
   static inline void add_windowStateChanged(::System::Action_2<::UnityEngine::Rendering::DebugManager_UIMode, bool>* value);
 
   static inline ::System::Lazy_1<::UnityEngine::Rendering::DebugManager*>* getStaticF_s_Instance();
 
   static inline ::System::Action_2<::UnityEngine::Rendering::DebugManager_UIMode, bool>* getStaticF_windowStateChanged();
 
-  /// @brief Method get_displayEditorUI, addr 0x65484d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_displayEditorUI, addr 0x65b0060, size 0x18, virtual false, abstract: false, final false
   inline bool get_displayEditorUI();
 
-  /// @brief Method get_displayPersistentRuntimeUI, addr 0x65461f8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_displayPersistentRuntimeUI, addr 0x65add84, size 0x8c, virtual false, abstract: false, final false
   inline bool get_displayPersistentRuntimeUI();
 
-  /// @brief Method get_displayRuntimeUI, addr 0x654616c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_displayRuntimeUI, addr 0x65adcf8, size 0x8c, virtual false, abstract: false, final false
   inline bool get_displayRuntimeUI();
 
-  /// @brief Method get_enableRuntimeUI, addr 0x65485a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableRuntimeUI, addr 0x65b0134, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableRuntimeUI();
 
-  /// @brief Method get_instance, addr 0x653d3a0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x65a4f2c, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugManager* get_instance();
 
-  /// @brief Method get_isAnyDebugUIActive, addr 0x6546144, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isAnyDebugUIActive, addr 0x65adcd0, size 0x28, virtual false, abstract: false, final false
   inline bool get_isAnyDebugUIActive();
 
-  /// @brief Method get_panels, addr 0x6545cf0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_panels, addr 0x65ad87c, size 0x24, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::DebugUI_Panel*>* get_panels();
 
-  /// @brief Method remove_onDisplayRuntimeUIChanged, addr 0x6545dd4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_onDisplayRuntimeUIChanged, addr 0x65ad960, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onDisplayRuntimeUIChanged(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_onSetDirty, addr 0x6545f40, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_onSetDirty, addr 0x65adacc, size 0xac, virtual false, abstract: false, final false
   inline void remove_onSetDirty(::System::Action* value);
 
-  /// @brief Method remove_resetData, addr 0x6546098, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_resetData, addr 0x65adc24, size 0xac, virtual false, abstract: false, final false
   inline void remove_resetData(::System::Action* value);
 
-  /// @brief Method remove_windowStateChanged, addr 0x65483cc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method remove_windowStateChanged, addr 0x65aff58, size 0x108, virtual false, abstract: false, final false
   static inline void remove_windowStateChanged(::System::Action_2<::UnityEngine::Rendering::DebugManager_UIMode, bool>* value);
 
   static inline void setStaticF_s_Instance(::System::Lazy_1<::UnityEngine::Rendering::DebugManager*>* value);
 
   static inline void setStaticF_windowStateChanged(::System::Action_2<::UnityEngine::Rendering::DebugManager_UIMode, bool>* value);
 
-  /// @brief Method set_displayEditorUI, addr 0x65484ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_displayEditorUI, addr 0x65b0078, size 0x18, virtual false, abstract: false, final false
   inline void set_displayEditorUI(bool value);
 
-  /// @brief Method set_displayPersistentRuntimeUI, addr 0x6548940, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method set_displayPersistentRuntimeUI, addr 0x65b04cc, size 0x8c, virtual false, abstract: false, final false
   inline void set_displayPersistentRuntimeUI(bool value);
 
-  /// @brief Method set_displayRuntimeUI, addr 0x65485e0, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method set_displayRuntimeUI, addr 0x65b016c, size 0x2a0, virtual false, abstract: false, final false
   inline void set_displayRuntimeUI(bool value);
 
-  /// @brief Method set_enableRuntimeUI, addr 0x65485b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_enableRuntimeUI, addr 0x65b013c, size 0x24, virtual false, abstract: false, final false
   inline void set_enableRuntimeUI(bool value);
 
 protected:
@@ -746,7 +746,7 @@ public:
   DebugManager(DebugManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11958 };
 
   /// @brief Field kDPadHorizontal offset 0xffffffff size 0x8
   static constexpr ::ConstString kDPadHorizontal{ u"Debug Horizontal" };

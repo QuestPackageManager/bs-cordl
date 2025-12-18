@@ -48,25 +48,25 @@ public:
 
   __declspec(property(get = get_flags)) ::UnityEngine::Rendering::RenderTargetFlags flags;
 
-  /// @brief Method get_colorLoadActions, addr 0x68d5c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorLoadActions, addr 0x693eaa4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderBufferLoadAction, ::Array<::UnityEngine::Rendering::RenderBufferLoadAction>*> get_colorLoadActions();
 
-  /// @brief Method get_colorRenderTargets, addr 0x68d5c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorRenderTargets, addr 0x693ea84, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier, ::Array<::UnityEngine::Rendering::RenderTargetIdentifier>*> get_colorRenderTargets();
 
-  /// @brief Method get_colorStoreActions, addr 0x68d5c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorStoreActions, addr 0x693eaac, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction, ::Array<::UnityEngine::Rendering::RenderBufferStoreAction>*> get_colorStoreActions();
 
-  /// @brief Method get_depthLoadAction, addr 0x68d5c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthLoadAction, addr 0x693eab4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderBufferLoadAction get_depthLoadAction();
 
-  /// @brief Method get_depthRenderTarget, addr 0x68d5c08, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_depthRenderTarget, addr 0x693ea8c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier get_depthRenderTarget();
 
-  /// @brief Method get_depthStoreAction, addr 0x68d5c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthStoreAction, addr 0x693eabc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderBufferStoreAction get_depthStoreAction();
 
-  /// @brief Method get_flags, addr 0x68d5c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flags, addr 0x693eac4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetFlags get_flags();
 
   // Ctor Parameters []
@@ -88,7 +88,7 @@ public:
                                 ::UnityEngine::Rendering::RenderTargetFlags m_Flags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10709 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10713 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };

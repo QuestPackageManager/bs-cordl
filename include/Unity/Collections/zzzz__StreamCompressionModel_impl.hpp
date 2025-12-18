@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::StreamCompressionModel (*)()>(&::Unity::Collections::StreamCompressionModel::get_Default)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x62a9ac4;
+  constexpr static std::size_t addrs = 0x6311650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::StreamCompressionModel>::get(),
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Collections::StreamCompressionModel::Initialize)> {
   constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x62a9c24;
+  constexpr static std::size_t addrs = 0x63117b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::StreamCompressionModel>::get(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Unity::Collections::NativeArray_1<uint8_t>, int32_t, ::Unity::Collections::NativeArray_1<uint8_t>, int32_t,
                                                                                            int32_t, int32_t)>(&::Unity::Collections::StreamCompressionModel::GenerateHuffmanCodes)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x62aa09c;
+  constexpr static std::size_t addrs = 0x6311c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, int32_t)>(&::Unity::Collections::StreamCompressionModel::ReverseBits)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62aa29c;
+  constexpr static std::size_t addrs = 0x6311e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +94,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::Unity::Collections::NativeArray_1<uint16_t>, int32_t, ::Unity::Collections::NativeArray_1<uint8_t>, ::Unity::Collections::NativeArray_1<uint8_t>, int32_t, int32_t)>(
         &::Unity::Collections::StreamCompressionModel::GenerateHuffmanDecodeTable)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x62aa244;
+  constexpr static std::size_t addrs = 0x6311dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Collections::StreamCompressionModel::*)(uint32_t)>(
     &::Unity::Collections::StreamCompressionModel::CalculateBucket)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x62aa2ac;
+  constexpr static std::size_t addrs = 0x6311e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Collections::StreamCompressionModel::*)(uint32_t)>(
     &::Unity::Collections::StreamCompressionModel::GetCompressedSizeInBits)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x62aa38c;
+  constexpr static std::size_t addrs = 0x6311f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::Unity::Collections::StreamCompressionModel::CheckAlphabetSize)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x62aa40c;
+  constexpr static std::size_t addrs = 0x6311f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Unity::Collections::NativeArray_1<uint8_t>, int32_t, int32_t, int32_t)>(
     &::Unity::Collections::StreamCompressionModel::CheckSymbolLength)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x62aa48c;
+  constexpr static std::size_t addrs = 0x6312018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t)>(&::Unity::Collections::StreamCompressionModel::CheckAlphabetAndMaxCodeLength)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x62aa4ec;
+  constexpr static std::size_t addrs = 0x6312078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t)>(&::Unity::Collections::StreamCompressionModel::CheckExceedMaxCodeLength)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x62aa54c;
+  constexpr static std::size_t addrs = 0x63120d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

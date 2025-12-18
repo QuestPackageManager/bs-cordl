@@ -85,7 +85,7 @@ public:
   static ::GlobalNamespace::CubemapCapture_ImageType const TGA;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6591 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -137,21 +137,21 @@ public:
   /// @brief Field _triggerKey, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__triggerKey, put = __cordl_internal_set__triggerKey)) ::UnityEngine::InputSystem::Key _triggerKey;
 
-  /// @brief Method GenerateAndSaveCubemapTexture, addr 0x56eaa60, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GenerateAndSaveCubemapTexture, addr 0x57474b0, size 0xb4, virtual false, abstract: false, final false
   inline void GenerateAndSaveCubemapTexture();
 
   static inline ::GlobalNamespace::CubemapCapture* New_ctor();
 
-  /// @brief Method RenderCubemapTexture, addr 0x56eab14, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method RenderCubemapTexture, addr 0x5747564, size 0x4c0, virtual false, abstract: false, final false
   inline void RenderCubemapTexture(::UnityEngine::Cubemap* cubemap);
 
-  /// @brief Method SaveCubemapTexture, addr 0x56eafd4, size 0x7dc, virtual false, abstract: false, final false
+  /// @brief Method SaveCubemapTexture, addr 0x5747a24, size 0x7dc, virtual false, abstract: false, final false
   inline void SaveCubemapTexture(::UnityEngine::Cubemap* cubemap, ::StringW path);
 
-  /// @brief Method SerializeTextureToByteArray, addr 0x56eb7b0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SerializeTextureToByteArray, addr 0x5748200, size 0xe0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SerializeTextureToByteArray(::UnityEngine::Texture2D* texture);
 
-  /// @brief Method Update, addr 0x56ea9dc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x574742c, size 0x84, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -208,7 +208,7 @@ public:
 
   constexpr void __cordl_internal_set__triggerKey(::UnityEngine::InputSystem::Key value);
 
-  /// @brief Method .ctor, addr 0x56eb890, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57482e0, size 0x154, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -226,7 +226,7 @@ public:
   CubemapCapture(CubemapCapture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6592 };
 
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;

@@ -137,7 +137,7 @@ public:
 
   constexpr void __cordl_internal_set__widthMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x56b3720, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57143fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

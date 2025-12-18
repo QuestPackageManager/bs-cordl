@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>)>(
         &::UnityEngine::Rendering::SphericalHarmonicsL2Utils::GetL1)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x657aba8;
+  constexpr static std::size_t addrs = 0x65e2734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>,
                          ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>)>(&::UnityEngine::Rendering::SphericalHarmonicsL2Utils::GetL2)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x657abdc;
+  constexpr static std::size_t addrs = 0x65e2768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x657ac44;
+  constexpr static std::size_t addrs = 0x65e27d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1R)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x657ac54;
+  constexpr static std::size_t addrs = 0x65e27e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1G)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x657ac60;
+  constexpr static std::size_t addrs = 0x65e27ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1B)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x657ac6c;
+  constexpr static std::size_t addrs = 0x65e27f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>, ::UnityEngine::Vector3, ::UnityEngine::Vector3,
                                                                                            ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetL1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x657ac78;
+  constexpr static std::size_t addrs = 0x65e2804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>, int32_t, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2Utils::SetCoefficient)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x657ac9c;
+  constexpr static std::size_t addrs = 0x65e2828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, int32_t)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2Utils::GetCoefficient)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x657ad04;
+  constexpr static std::size_t addrs = 0x65e2890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SphericalHarmonicsL2Utils::*)()>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2Utils::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x657ad74;
+  constexpr static std::size_t addrs = 0x65e2900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2Utils*>::get(),

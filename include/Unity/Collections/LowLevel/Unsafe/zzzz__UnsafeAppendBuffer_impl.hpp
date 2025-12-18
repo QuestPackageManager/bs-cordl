@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::*)(
     ::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x62af848;
+  constexpr static std::size_t addrs = 0x63173d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::*)(void*, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x62af8e8;
+  constexpr static std::size_t addrs = 0x6317474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::get_EndOfBuffer)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62af8f4;
+  constexpr static std::size_t addrs = 0x6317480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::*)(int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::ReadNext)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x62af904;
+  constexpr static std::size_t addrs = 0x6317490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::*)(int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader::CheckBounds)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x62af920;
+  constexpr static std::size_t addrs = 0x63174ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::*)(
     int32_t, int32_t, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x62af3fc;
+  constexpr static std::size_t addrs = 0x6316f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::*)(void*, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x62af50c;
+  constexpr static std::size_t addrs = 0x6317098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::get_IsEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62af58c;
+  constexpr static std::size_t addrs = 0x6317118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::get_IsCreated)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62af59c;
+  constexpr static std::size_t addrs = 0x6317128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::Dispose)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x62af5ac;
+  constexpr static std::size_t addrs = 0x6317138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::*)(::Unity::Jobs::JobHandle)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::Dispose)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x62af648;
+  constexpr static std::size_t addrs = 0x63171d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62af714;
+  constexpr static std::size_t addrs = 0x63172a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::*)(int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::SetCapacity)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x62af410;
+  constexpr static std::size_t addrs = 0x6316f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::*)(int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::ResizeUninitialized)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x62af71c;
+  constexpr static std::size_t addrs = 0x63172a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::*)(void*, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::Add)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x62af740;
+  constexpr static std::size_t addrs = 0x63172cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::*)(void*, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::Pop)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x62af7c0;
+  constexpr static std::size_t addrs = 0x631734c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader (
     ::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::*)()>(&::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::AsReader)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62af838;
+  constexpr static std::size_t addrs = 0x63173c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer::CheckAlignment)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x62af85c;
+  constexpr static std::size_t addrs = 0x63173e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

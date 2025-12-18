@@ -25,7 +25,7 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method Finalize, addr 0x5bd6e64, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5c3d944, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::RichPresenceOptions* New_ctor();
@@ -36,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x5bd6e08, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c3d8e8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x5bd5fcc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x5c3caac, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::RichPresenceOptions* options);
 
 protected:
@@ -57,7 +57,7 @@ public:
   RichPresenceOptions(RichPresenceOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17949 };
 
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___Handle;

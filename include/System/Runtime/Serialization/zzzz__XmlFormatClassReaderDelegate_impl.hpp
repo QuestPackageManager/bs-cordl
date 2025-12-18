@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::XmlFormatClassReaderDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Runtime::Serialization::XmlFormatClassReaderDelegate::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5f47098;
+  constexpr static std::size_t addrs = 0x5faec24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                        ::ArrayW<::System::Xml::XmlDictionaryString*, ::Array<::System::Xml::XmlDictionaryString*>*>)>(
     &::System::Runtime::Serialization::XmlFormatClassReaderDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f471e0;
+  constexpr static std::size_t addrs = 0x5faed6c;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -81,22 +81,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::MirrorRendererSO_CameraTransformData>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::MirrorRendererSO_CameraTransformData>*();
 
-  /// @brief Method Equals, addr 0x5d2febc, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5d979dc, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5d2fdd8, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5d978f8, size 0xe4, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::MirrorRendererSO_CameraTransformData other);
 
-  /// @brief Method GetHashCode, addr 0x5d2ff58, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5d97a78, size 0x158, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::MirrorRendererSO_CameraTransformData>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::MirrorRendererSO_CameraTransformData>* i___System__IEquatable_1___GlobalNamespace__MirrorRendererSO_CameraTransformData_();
 
-  /// @brief Method op_Equality, addr 0x5d300b0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5d97bd0, size 0x38, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::MirrorRendererSO_CameraTransformData left, ::GlobalNamespace::MirrorRendererSO_CameraTransformData right);
 
-  /// @brief Method op_Inequality, addr 0x5d300e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x5d97c08, size 0x3c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::MirrorRendererSO_CameraTransformData left, ::GlobalNamespace::MirrorRendererSO_CameraTransformData right);
 
   // Ctor Parameters []
@@ -109,7 +109,7 @@ public:
   constexpr MirrorRendererSO_CameraTransformData(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t fov, bool stereoEnabled, ::UnityEngine::Plane reflectionPlane) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20793 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x34 };
@@ -210,44 +210,44 @@ public:
   /// @brief Field kRightRect, offset 0x80, size 0x10
   __declspec(property(get = __cordl_internal_get_kRightRect, put = __cordl_internal_set_kRightRect)) ::UnityEngine::Rect kRightRect;
 
-  /// @brief Method Awake, addr 0x5d2f3f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5d96f14, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CalculateReflectionMatrix, addr 0x5d2f6d8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CalculateReflectionMatrix, addr 0x5d971f8, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 CalculateReflectionMatrix(::UnityEngine::Vector4 plane);
 
-  /// @brief Method CameraSpacePlane, addr 0x5d2f9e0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CameraSpacePlane, addr 0x5d97500, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 CameraSpacePlane(::UnityEngine::Matrix4x4 worldToCameraMatrix, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
 
-  /// @brief Method CreateOrUpdateMirrorCamera, addr 0x5d2f40c, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method CreateOrUpdateMirrorCamera, addr 0x5d96f2c, size 0x2a0, virtual false, abstract: false, final false
   inline void CreateOrUpdateMirrorCamera(::UnityEngine::Camera* currentCamera, ::UnityEngine::RenderTexture* renderTexture);
 
-  /// @brief Method Init, addr 0x5d2f3f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5d96f18, size 0x14, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::LayerMask reflectLayers, int32_t stereoTextureWidth, int32_t stereoTextureHeight, int32_t monoTextureWidth, int32_t monoTextureHeight, int32_t maxAntiAliasing,
                    bool enableBloomPrePass);
 
   static inline ::GlobalNamespace::MirrorRendererSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5d2fb1c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5d9763c, size 0x1ec, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnValidate, addr 0x5d2f358, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5d96e78, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Plane, addr 0x5d2f6ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Plane, addr 0x5d971cc, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 Plane(::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
 
-  /// @brief Method PrepareForNextFrame, addr 0x5d2e5f8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method PrepareForNextFrame, addr 0x5d96118, size 0x14c, virtual false, abstract: false, final false
   inline void PrepareForNextFrame();
 
-  /// @brief Method RenderMirror, addr 0x5d2f7cc, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method RenderMirror, addr 0x5d972ec, size 0x214, virtual false, abstract: false, final false
   inline void RenderMirror(::UnityEngine::Vector3 camPosition, ::UnityEngine::Quaternion camRotation, ::UnityEngine::Matrix4x4 camProjectionMatrix, ::UnityEngine::Rect screenRect,
                            ::UnityEngine::Vector3 reclectionPlanePos, ::UnityEngine::Vector3 reflectionPlaneNormal);
 
-  /// @brief Method RenderMirrorTexture, addr 0x5d2ea50, size 0x890, virtual false, abstract: false, final false
+  /// @brief Method RenderMirrorTexture, addr 0x5d96570, size 0x890, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> RenderMirrorTexture(::UnityEngine::Camera* currentCamera, ::UnityEngine::Vector3 reflectionPlanePos, ::UnityEngine::Vector3 reflectionPlaneNormal);
 
-  /// @brief Method ValidateParams, addr 0x5d2f35c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ValidateParams, addr 0x5d96e7c, size 0x98, virtual false, abstract: false, final false
   inline void ValidateParams();
 
   constexpr int32_t const& __cordl_internal_get__antialiasing() const;
@@ -360,7 +360,7 @@ public:
 
   constexpr void __cordl_internal_set_kRightRect(::UnityEngine::Rect value);
 
-  /// @brief Method .ctor, addr 0x5d2fd08, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d97828, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -378,7 +378,7 @@ public:
   MirrorRendererSO(MirrorRendererSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20794 };
 
   /// @brief Field kWaterLayer offset 0xffffffff size 0x4
   static constexpr int32_t kWaterLayer{ static_cast<int32_t>(0x4) };

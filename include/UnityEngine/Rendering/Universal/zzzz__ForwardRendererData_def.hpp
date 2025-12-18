@@ -162,7 +162,7 @@ public:
 
   constexpr void __cordl_internal_set_stencilDeferredPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6655078, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66bcc04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -180,7 +180,7 @@ public:
   ForwardRendererData_ShaderResources(ForwardRendererData_ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12724 };
 
   /// @brief Field blitPS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___blitPS;
@@ -306,7 +306,7 @@ public:
   /// @brief Field xrSystemData, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_xrSystemData, put = __cordl_internal_set_xrSystemData)) ::UnityW<::UnityEngine::Rendering::Universal::XRSystemData> xrSystemData;
 
-  /// @brief Method Create, addr 0x6654c28, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x66bc7b4, size 0xbc, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* Create();
 
   static inline ::UnityEngine::Rendering::Universal::ForwardRendererData* New_ctor();
@@ -383,43 +383,43 @@ public:
 
   constexpr void __cordl_internal_set_xrSystemData(::UnityW<::UnityEngine::Rendering::Universal::XRSystemData> value);
 
-  /// @brief Method .ctor, addr 0x6655074, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66bcc00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_accurateGbufferNormals, addr 0x6654fdc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_accurateGbufferNormals, addr 0x66bcb68, size 0x4c, virtual false, abstract: false, final false
   inline bool get_accurateGbufferNormals();
 
-  /// @brief Method get_defaultStencilState, addr 0x6654e14, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_defaultStencilState, addr 0x66bc9a0, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::StencilStateData* get_defaultStencilState();
 
-  /// @brief Method get_opaqueLayerMask, addr 0x6654ce4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_opaqueLayerMask, addr 0x66bc870, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_opaqueLayerMask();
 
-  /// @brief Method get_renderingMode, addr 0x6654f44, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_renderingMode, addr 0x66bcad0, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::RenderingMode get_renderingMode();
 
-  /// @brief Method get_shadowTransparentReceive, addr 0x6654eac, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_shadowTransparentReceive, addr 0x66bca38, size 0x4c, virtual false, abstract: false, final false
   inline bool get_shadowTransparentReceive();
 
-  /// @brief Method get_transparentLayerMask, addr 0x6654d7c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_transparentLayerMask, addr 0x66bc908, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_transparentLayerMask();
 
-  /// @brief Method set_accurateGbufferNormals, addr 0x6655028, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_accurateGbufferNormals, addr 0x66bcbb4, size 0x4c, virtual false, abstract: false, final false
   inline void set_accurateGbufferNormals(bool value);
 
-  /// @brief Method set_defaultStencilState, addr 0x6654e60, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_defaultStencilState, addr 0x66bc9ec, size 0x4c, virtual false, abstract: false, final false
   inline void set_defaultStencilState(::UnityEngine::Rendering::Universal::StencilStateData* value);
 
-  /// @brief Method set_opaqueLayerMask, addr 0x6654d30, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_opaqueLayerMask, addr 0x66bc8bc, size 0x4c, virtual false, abstract: false, final false
   inline void set_opaqueLayerMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_renderingMode, addr 0x6654f90, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_renderingMode, addr 0x66bcb1c, size 0x4c, virtual false, abstract: false, final false
   inline void set_renderingMode(::UnityEngine::Rendering::Universal::RenderingMode value);
 
-  /// @brief Method set_shadowTransparentReceive, addr 0x6654ef8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_shadowTransparentReceive, addr 0x66bca84, size 0x4c, virtual false, abstract: false, final false
   inline void set_shadowTransparentReceive(bool value);
 
-  /// @brief Method set_transparentLayerMask, addr 0x6654dc8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_transparentLayerMask, addr 0x66bc954, size 0x4c, virtual false, abstract: false, final false
   inline void set_transparentLayerMask(::UnityEngine::LayerMask value);
 
 protected:
@@ -437,7 +437,7 @@ public:
   ForwardRendererData(ForwardRendererData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12725 };
 
   /// @brief Field k_ErrorMessage offset 0xffffffff size 0x8
   static constexpr ::ConstString k_ErrorMessage{ u"ForwardRendererData has been deprecated. Use UniversalRendererData instead" };

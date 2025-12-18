@@ -74,7 +74,7 @@ public:
   static ::UnityEngine::Rendering::IndirectBufferContext_BufferState const Zeroed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17707 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -99,10 +99,10 @@ public:
   // Declarations
   using BufferState = ::UnityEngine::Rendering::IndirectBufferContext_BufferState;
 
-  /// @brief Method Matches, addr 0x660fd34, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Matches, addr 0x66778c0, size 0x30, virtual false, abstract: false, final false
   inline bool Matches(::UnityEngine::Rendering::IndirectBufferContext_BufferState bufferState, int32_t occluderVersion, int32_t subviewMask);
 
-  /// @brief Method .ctor, addr 0x660fd24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66778b0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Jobs::JobHandle cullingJobHandle);
 
   // Ctor Parameters []
@@ -116,7 +116,7 @@ public:
                                   int32_t subviewMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17708 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

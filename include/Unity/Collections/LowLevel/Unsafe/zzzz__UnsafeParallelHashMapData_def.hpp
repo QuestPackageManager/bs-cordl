@@ -63,19 +63,19 @@ public:
   template <typename TKey, typename TValue>
   static inline int32_t CalculateDataSize(int32_t length, int32_t bucketLength, ::ByRef<int32_t> keyOffset, ::ByRef<int32_t> nextOffset, ::ByRef<int32_t> bucketOffset);
 
-  /// @brief Method CheckHashMapReallocateDoesNotShrink, addr 0x62b0ce4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CheckHashMapReallocateDoesNotShrink, addr 0x6318870, size 0x68, virtual false, abstract: false, final false
   static inline void CheckHashMapReallocateDoesNotShrink(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, int32_t newCapacity);
 
-  /// @brief Method DeallocateHashMap, addr 0x62b0a88, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DeallocateHashMap, addr 0x6318614, size 0x8c, virtual false, abstract: false, final false
   static inline void DeallocateHashMap(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method GetBucketData, addr 0x62b0ccc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetBucketData, addr 0x6318858, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapBucketData GetBucketData();
 
-  /// @brief Method GetBucketSize, addr 0x62b0a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBucketSize, addr 0x63185fc, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetBucketSize(int32_t capacity);
 
-  /// @brief Method GetCount, addr 0x62b0b70, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetCount, addr 0x63186fc, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t GetCount(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data);
 
   /// @brief Method GetKeyArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -88,16 +88,16 @@ public:
   /// @brief Method GetValueArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline void GetValueArray(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, ::Unity::Collections::NativeArray_1<TValue> result);
 
-  /// @brief Method GrowCapacity, addr 0x62b0a78, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GrowCapacity, addr 0x6318604, size 0x10, virtual false, abstract: false, final false
   static inline int32_t GrowCapacity(int32_t capacity);
 
-  /// @brief Method IsEmpty, addr 0x62b0b14, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x63186a0, size 0x5c, virtual false, abstract: false, final false
   static inline bool IsEmpty(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data);
 
-  /// @brief Method MoveNext, addr 0x62b0c94, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x6318820, size 0x38, virtual false, abstract: false, final false
   static inline bool MoveNext(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, ::ByRef<int32_t> bucketIndex, ::ByRef<int32_t> nextIndex, ::ByRef<int32_t> index);
 
-  /// @brief Method MoveNextSearch, addr 0x62b0c20, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method MoveNextSearch, addr 0x63187ac, size 0x74, virtual false, abstract: false, final false
   static inline bool MoveNextSearch(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data, ::ByRef<int32_t> bucketIndex, ::ByRef<int32_t> nextIndex, ::ByRef<int32_t> index);
 
   /// @brief Method ReallocateHashMap, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -147,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set_values(uint8_t* value);
 
-  /// @brief Method get_firstFreeTLS, addr 0x62b0a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstFreeTLS, addr 0x63185f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t* get_firstFreeTLS();
 
   // Ctor Parameters []
@@ -268,7 +268,7 @@ public:
   static constexpr int32_t IntsPerCacheLine{ static_cast<int32_t>(0x10) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15758 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

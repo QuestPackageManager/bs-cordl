@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_startBpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x5768e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57cf658, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t startBpm);
 
 protected:
@@ -112,10 +112,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5768e08, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x57cf624, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleBpmChangeBeatmapEvent, addr 0x5768e24, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleBpmChangeBeatmapEvent, addr 0x57cf640, size 0x18, virtual false, abstract: false, final false
   inline void HandleBpmChangeBeatmapEvent(::GlobalNamespace::BPMChangeBeatmapEventData* bpmChangeBeatmapEventData);
 
   static inline ::GlobalNamespace::BpmController* New_ctor(::GlobalNamespace::BpmController_InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
@@ -138,13 +138,13 @@ public:
 
   constexpr void __cordl_internal_set__currentBpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x5768d3c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57cf558, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BpmController_InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method get_currentBpm, addr 0x5768d14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_currentBpm, addr 0x57cf530, size 0x8, virtual true, abstract: false, final true
   inline float_t get_currentBpm();
 
-  /// @brief Method get_oneBeatDuration, addr 0x5768d1c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_oneBeatDuration, addr 0x57cf538, size 0x20, virtual true, abstract: false, final true
   inline float_t get_oneBeatDuration();
 
   /// @brief Convert to "::GlobalNamespace::IBpmController"

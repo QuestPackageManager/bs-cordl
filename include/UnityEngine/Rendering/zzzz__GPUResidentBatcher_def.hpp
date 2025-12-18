@@ -123,22 +123,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method DestroyDrawInstances, addr 0x65f26a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DestroyDrawInstances, addr 0x665a234, size 0x18, virtual false, abstract: false, final false
   inline void DestroyDrawInstances(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method DestroyMaterials, addr 0x65f2690, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DestroyMaterials, addr 0x665a21c, size 0x18, virtual false, abstract: false, final false
   inline void DestroyMaterials(::Unity::Collections::NativeArray_1<int32_t> destroyedMaterials);
 
-  /// @brief Method DestroyMeshes, addr 0x65f26c0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DestroyMeshes, addr 0x665a24c, size 0x18, virtual false, abstract: false, final false
   inline void DestroyMeshes(::Unity::Collections::NativeArray_1<int32_t> destroyedMeshes);
 
-  /// @brief Method Dispose, addr 0x65f2528, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x665a0b4, size 0x80, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method FreeRendererGroupInstances, addr 0x65f26d8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method FreeRendererGroupInstances, addr 0x665a264, size 0x158, virtual false, abstract: false, final false
   inline void FreeRendererGroupInstances(::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs);
 
-  /// @brief Method InstanceOcclusionTest, addr 0x65f2830, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InstanceOcclusionTest, addr 0x665a3bc, size 0x3c, virtual false, abstract: false, final false
   inline void InstanceOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::ByRef<::UnityEngine::Rendering::OcclusionCullingSettings> settings,
                                     ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest> subviewOcclusionTests);
 
@@ -146,54 +146,54 @@ public:
                                                                        ::UnityEngine::Rendering::InstanceCullingBatcherDesc instanceCullerBatcherDesc,
                                                                        ::UnityEngine::Rendering::GPUDrivenProcessor* gpuDrivenProcessor);
 
-  /// @brief Method OnBeginCameraRendering, addr 0x65f2618, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnBeginCameraRendering, addr 0x665a1a4, size 0x24, virtual false, abstract: false, final false
   inline void OnBeginCameraRendering(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnBeginContextRendering, addr 0x65f25a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnBeginContextRendering, addr 0x665a134, size 0x5c, virtual false, abstract: false, final false
   inline void OnBeginContextRendering();
 
-  /// @brief Method OnEndCameraRendering, addr 0x65f263c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnEndCameraRendering, addr 0x665a1c8, size 0x24, virtual false, abstract: false, final false
   inline void OnEndCameraRendering(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnEndContextRendering, addr 0x65f2604, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnEndContextRendering, addr 0x665a190, size 0x14, virtual false, abstract: false, final false
   inline void OnEndContextRendering();
 
-  /// @brief Method OnFinishedCulling, addr 0x65f3248, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnFinishedCulling, addr 0x665add4, size 0x34, virtual false, abstract: false, final false
   inline void OnFinishedCulling(::System::IntPtr customCullingResult);
 
-  /// @brief Method OnSetupAmbientProbe, addr 0x65f2e8c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnSetupAmbientProbe, addr 0x665aa18, size 0x1c, virtual false, abstract: false, final false
   inline void OnSetupAmbientProbe();
 
-  /// @brief Method PostCullBeginCameraRendering, addr 0x65f2e78, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method PostCullBeginCameraRendering, addr 0x665aa04, size 0x14, virtual false, abstract: false, final false
   inline void PostCullBeginCameraRendering(::UnityEngine::Rendering::RenderRequestBatcherContext context);
 
-  /// @brief Method ProcessTrees, addr 0x65f327c, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method ProcessTrees, addr 0x665ae08, size 0x3b0, virtual false, abstract: false, final false
   inline void ProcessTrees();
 
-  /// @brief Method SchedulePackedMaterialCacheUpdate, addr 0x65f2e60, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SchedulePackedMaterialCacheUpdate, addr 0x665a9ec, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle SchedulePackedMaterialCacheUpdate(::Unity::Collections::NativeArray_1<int32_t> materialIDs,
                                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialDatas);
 
-  /// @brief Method UpdateFrame, addr 0x65f2660, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method UpdateFrame, addr 0x665a1ec, size 0x30, virtual false, abstract: false, final false
   inline void UpdateFrame();
 
-  /// @brief Method UpdateInstanceOccluders, addr 0x65f2d40, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceOccluders, addr 0x665a8cc, size 0x3c, virtual false, abstract: false, final false
   inline void UpdateInstanceOccluders(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::ByRef<::UnityEngine::Rendering::OccluderParameters> occluderParams,
                                       ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate> occluderSubviewUpdates);
 
-  /// @brief Method UpdateRendererBatches, addr 0x65f3100, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method UpdateRendererBatches, addr 0x665ac8c, size 0x148, virtual false, abstract: false, final false
   inline void UpdateRendererBatches(::ByRef<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                     ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials);
 
-  /// @brief Method UpdateRendererInstancesAndBatches, addr 0x65f2ea8, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method UpdateRendererInstancesAndBatches, addr 0x665aa34, size 0x258, virtual false, abstract: false, final false
   inline void UpdateRendererInstancesAndBatches(::ByRef<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
                                                 ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                 ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials);
 
-  /// @brief Method UpdateRenderers, addr 0x65f2d7c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method UpdateRenderers, addr 0x665a908, size 0xe4, virtual false, abstract: false, final false
   inline void UpdateRenderers(::Unity::Collections::NativeArray_1<int32_t> renderersID, bool materialUpdateOnly);
 
-  /// @brief Method UpdateSpeedTreeWindAndUploadWindParamsToGPU, addr 0x65f362c, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method UpdateSpeedTreeWindAndUploadWindParamsToGPU, addr 0x665b1b8, size 0x2cc, virtual false, abstract: false, final false
   inline void UpdateSpeedTreeWindAndUploadWindParamsToGPU(::Unity::Collections::NativeArray_1<int32_t> treeRendererIDs,
                                                           ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> treeInstances, bool history);
 
@@ -233,17 +233,17 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdateRendererInstancesAndBatchesCallback(::UnityEngine::Rendering::GPUDrivenRendererDataCallback* value);
 
-  /// @brief Method .ctor, addr 0x65f23cc, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6659f58, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderersBatchersContext* batcherContext, ::UnityEngine::Rendering::InstanceCullingBatcherDesc instanceCullerBatcherDesc,
                     ::UnityEngine::Rendering::GPUDrivenProcessor* gpuDrivenProcessor);
 
-  /// @brief Method get_batchersContext, addr 0x65f23a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_batchersContext, addr 0x6659f30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderersBatchersContext* get_batchersContext();
 
-  /// @brief Method get_instanceCullingBatcher, addr 0x65f23c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_instanceCullingBatcher, addr 0x6659f50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::InstanceCullingBatcher* get_instanceCullingBatcher();
 
-  /// @brief Method get_occlusionCullingCommon, addr 0x65f23ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_occlusionCullingCommon, addr 0x6659f38, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::OcclusionCullingCommon* get_occlusionCullingCommon();
 
   /// @brief Convert to "::System::IDisposable"
@@ -264,7 +264,7 @@ public:
   GPUResidentBatcher(GPUResidentBatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17583 };
 
   /// @brief Field m_BatchersContext, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::RenderersBatchersContext* ___m_BatchersContext;

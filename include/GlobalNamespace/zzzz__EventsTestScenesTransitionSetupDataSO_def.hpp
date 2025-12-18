@@ -21,12 +21,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE EventsTestScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x571edf8, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x577ca40, size 0x1d8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::EnvironmentsListModel* environmentsListModel);
 
   static inline ::GlobalNamespace::EventsTestScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x571efd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x577cc18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,7 +44,7 @@ public:
   EventsTestScenesTransitionSetupDataSO(EventsTestScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6827 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

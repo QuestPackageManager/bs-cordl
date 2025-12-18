@@ -28,16 +28,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::SortingLayerRange>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::SortingLayerRange>*();
 
-  /// @brief Method Equals, addr 0x68f48fc, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x695d780, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x68f48d8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x695d75c, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::SortingLayerRange other);
 
-  /// @brief Method GetHashCode, addr 0x68f4984, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x695d808, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_all, addr 0x68ed6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_all, addr 0x695653c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SortingLayerRange get_all();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::SortingLayerRange>"
@@ -51,7 +51,7 @@ public:
   constexpr SortingLayerRange(int16_t m_LowerBound, int16_t m_UpperBound) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10813 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

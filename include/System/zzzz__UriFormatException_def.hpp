@@ -42,20 +42,20 @@ public:
 
   static inline ::System::UriFormatException* New_ctor(::StringW textString, ::System::Exception* e);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x615a138, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x61c1cc4, size 0x8, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x615a104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61c1c90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x615a130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61c1cbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x6158298, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61bfe24, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW textString);
 
-  /// @brief Method .ctor, addr 0x615a10c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61c1c98, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW textString, ::System::Exception* e);
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -76,7 +76,7 @@ public:
   UriFormatException(UriFormatException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11044 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::get_assetGUID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x657a230;
+  constexpr static std::size_t addrs = 0x65e1dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>::get(),
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextAsset> (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::get_asset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x657a238;
+  constexpr static std::size_t addrs = 0x65e1dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>::get(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::get_elementSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x657a240;
+  constexpr static std::size_t addrs = 0x65e1dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>::get(),
@@ -63,7 +63,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeVolumeStreamableAsset_StreamableCellDesc>* (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::get_streamableCellDescs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x657a248;
+  constexpr static std::size_t addrs = 0x65e1dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>::get(),
@@ -78,7 +78,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeVolumeStreamableAsset_StreamableCellDesc>*, int32_t, ::StringW, ::StringW)>(
     &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x657a250;
+  constexpr static std::size_t addrs = 0x65e1ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::RefreshAssetPath)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x657a39c;
+  constexpr static std::size_t addrs = 0x65e1f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>::get(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::GetAssetPath)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x657a440;
+  constexpr static std::size_t addrs = 0x65e1fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>::get(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::FileExists)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x65736b0;
+  constexpr static std::size_t addrs = 0x65db23c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>::get(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::GetFileSize)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x657a46c;
+  constexpr static std::size_t addrs = 0x65e1ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>::get(),
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::IsOpen)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x657a4fc;
+  constexpr static std::size_t addrs = 0x65e2088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>::get(),
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::IO::LowLevel::Unsafe::FileHandle (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::OpenFile)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x657a538;
+  constexpr static std::size_t addrs = 0x65e20c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>::get(),
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::CloseFile)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x657a5ac;
+  constexpr static std::size_t addrs = 0x65e2138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>::get(),
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::IsValid)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6573834;
+  constexpr static std::size_t addrs = 0x65db3c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>::get(),
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeStreamableAsset::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeStreamableAsset::Dispose)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6574b04;
+  constexpr static std::size_t addrs = 0x65dc690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeVolumeStreamableAsset*>::get(),

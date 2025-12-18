@@ -58,38 +58,38 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCipher*() noexcept;
 
-  /// @brief Method CalculateNonce, addr 0x3316034, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method CalculateNonce, addr 0x3340878, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateNonce(int64_t seqNo, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method CalculateRecordMac, addr 0x331629c, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method CalculateRecordMac, addr 0x3340ae0, size 0x1b4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateRecordMac(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* macKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> additionalData,
                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method DecodeCiphertext, addr 0x3315d14, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method DecodeCiphertext, addr 0x3340558, size 0x1ec, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> ciphertext, int32_t offset, int32_t len);
 
-  /// @brief Method EncodePlaintext, addr 0x3315bd4, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method EncodePlaintext, addr 0x3340418, size 0x140, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method GenerateRecordMacKey, addr 0x3316128, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method GenerateRecordMacKey, addr 0x334096c, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* GenerateRecordMacKey(::Org::BouncyCastle::Crypto::IStreamCipher* cipher);
 
-  /// @brief Method GetAdditionalData, addr 0x33166bc, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method GetAdditionalData, addr 0x3340f00, size 0x170, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetAdditionalData(int64_t seqNo, uint8_t type, int32_t len);
 
-  /// @brief Method GetPlaintextLimit, addr 0x3315bcc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPlaintextLimit, addr 0x3340410, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
-  /// @brief Method InitRecord, addr 0x3315f00, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method InitRecord, addr 0x3340744, size 0x134, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* InitRecord(::Org::BouncyCastle::Crypto::IStreamCipher* cipher, bool forEncryption, int64_t seqNo,
                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  /// @brief Method UpdateRecordMacLength, addr 0x3316450, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method UpdateRecordMacLength, addr 0x3340c94, size 0xd4, virtual true, abstract: false, final false
   inline void UpdateRecordMacLength(::Org::BouncyCastle::Crypto::IMac* mac, int32_t len);
 
-  /// @brief Method UpdateRecordMacText, addr 0x3316524, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method UpdateRecordMacText, addr 0x3340d68, size 0x198, virtual true, abstract: false, final false
   inline void UpdateRecordMacText(::Org::BouncyCastle::Crypto::IMac* mac, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext* const& __cordl_internal_get_context() const;
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_encryptIV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x33158bc, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3340100, size 0x310, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_Zeroes();

@@ -31,19 +31,19 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE LocalizationLanguageExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLanguageDirection, addr 0x31f6d08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetLanguageDirection, addr 0x3227734, size 0x10, virtual false, abstract: false, final false
   static inline ::BGLib::Polyglot::LanguageDirection GetLanguageDirection(::BGLib::Polyglot::LocalizationLanguage language);
 
-  /// @brief Method ToCultureInfoName, addr 0x31f56e4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ToCultureInfoName, addr 0x3226110, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW ToCultureInfoName(::BGLib::Polyglot::LocalizationLanguage language);
 
-  /// @brief Method ToLocalizationLanguage, addr 0x31f57cc, size 0x1458, virtual false, abstract: false, final false
+  /// @brief Method ToLocalizationLanguage, addr 0x32261f8, size 0x1458, virtual false, abstract: false, final false
   static inline ::BGLib::Polyglot::LocalizationLanguage ToLocalizationLanguage(::StringW serializedName);
 
-  /// @brief Method ToLocalizationLanguage, addr 0x31f6c64, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ToLocalizationLanguage, addr 0x3227690, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<bool, ::BGLib::Polyglot::LocalizationLanguage> ToLocalizationLanguage(::UnityEngine::SystemLanguage systemLanguage);
 
-  /// @brief Method ToSerializedName, addr 0x31f5424, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method ToSerializedName, addr 0x3225e50, size 0x2c0, virtual false, abstract: false, final false
   static inline ::StringW ToSerializedName(::BGLib::Polyglot::LocalizationLanguage language);
 
 protected:
@@ -61,7 +61,7 @@ public:
   LocalizationLanguageExtensions(LocalizationLanguageExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21989 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

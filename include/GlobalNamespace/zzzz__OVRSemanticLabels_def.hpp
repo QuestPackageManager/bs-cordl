@@ -143,7 +143,7 @@ public:
   static ::GlobalNamespace::OVRSemanticLabels_Classification const WindowFrame;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7088 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7092 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -194,72 +194,72 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRSemanticLabels>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRSemanticLabels>*();
 
-  /// @brief Method Equals, addr 0x5bff048, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5c65b28, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5bfeef8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5c659d8, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRSemanticLabels other);
 
-  /// @brief Method FromApiLabel, addr 0x5bff798, size 0x8d8, virtual false, abstract: false, final false
+  /// @brief Method FromApiLabel, addr 0x5c66278, size 0x8d8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRSemanticLabels_Classification FromApiLabel(::System::ReadOnlySpan_1<char16_t> singleLabel);
 
-  /// @brief Method FromApiString, addr 0x5bff604, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method FromApiString, addr 0x5c660e4, size 0x194, virtual false, abstract: false, final false
   static inline void FromApiString(::System::ReadOnlySpan_1<char16_t> apiLabels, ::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSemanticLabels_Classification>* classifications);
 
-  /// @brief Method GetClassifications, addr 0x5bff2fc, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method GetClassifications, addr 0x5c65ddc, size 0x308, virtual false, abstract: false, final false
   inline void GetClassifications(::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSemanticLabels_Classification>* classifications);
 
-  /// @brief Method GetHashCode, addr 0x5bff0d8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5c65bb8, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IOVRAnchorComponent<OVRSemanticLabels>.FromAnchor, addr 0x5bfeccc, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRSemanticLabels>.FromAnchor, addr 0x5c657ac, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRSemanticLabels IOVRAnchorComponent_OVRSemanticLabels__FromAnchor(::GlobalNamespace::OVRAnchor anchor);
 
-  /// @brief Method IOVRAnchorComponent<OVRSemanticLabels>.SetEnabledAsync, addr 0x5bfeeac, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRSemanticLabels>.SetEnabledAsync, addr 0x5c6598c, size 0x4c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRTask_1<bool> IOVRAnchorComponent_OVRSemanticLabels__SetEnabledAsync(bool enabled, double_t timeout);
 
-  /// @brief Method IOVRAnchorComponent<OVRSemanticLabels>.get_Handle, addr 0x5bfec74, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRSemanticLabels>.get_Handle, addr 0x5c65754, size 0x58, virtual true, abstract: false, final true
   inline uint64_t IOVRAnchorComponent_OVRSemanticLabels__get_Handle();
 
-  /// @brief Method IOVRAnchorComponent<OVRSemanticLabels>.get_Type, addr 0x5bfec18, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRSemanticLabels>.get_Type, addr 0x5c656f8, size 0x54, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType IOVRAnchorComponent_OVRSemanticLabels__get_Type();
 
-  /// @brief Method ToApiLabel, addr 0x5c00318, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ToApiLabel, addr 0x5c66df8, size 0x190, virtual false, abstract: false, final false
   static inline ::StringW ToApiLabel(::GlobalNamespace::OVRSemanticLabels_Classification classification);
 
-  /// @brief Method ToApiString, addr 0x5c004a8, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method ToApiString, addr 0x5c66f88, size 0x480, virtual false, abstract: false, final false
   static inline ::StringW ToApiString(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OVRSemanticLabels_Classification>* classifications);
 
-  /// @brief Method ToString, addr 0x5bff144, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5c65c24, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method <FromApiString>g__AddLabel|30_0, addr 0x5c00070, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method <FromApiString>g__AddLabel|30_0, addr 0x5c66b50, size 0x1fc, virtual false, abstract: false, final false
   static inline void _FromApiString_g__AddLabel_30_0(::System::ReadOnlySpan_1<char16_t> label,
                                                      ::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSemanticLabels_Classification>* labels);
 
-  /// @brief Method <FromApiString>g__IndexOf|30_1, addr 0x5c0026c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <FromApiString>g__IndexOf|30_1, addr 0x5c66d4c, size 0xac, virtual false, abstract: false, final false
   static inline int32_t _FromApiString_g__IndexOf_30_1(::System::ReadOnlySpan_1<char16_t> s, char16_t c, int32_t start);
 
-  /// @brief Method .ctor, addr 0x5bfecfc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c657dc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRAnchor anchor);
 
   static inline ::GlobalNamespace::OVRSemanticLabels getStaticF_Null();
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF__semanticLabelsBuffer();
 
-  /// @brief Method get_Handle, addr 0x5bff204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x5c65ce4, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_IsEnabled, addr 0x5bfedc4, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method get_IsEnabled, addr 0x5c658a4, size 0xe8, virtual true, abstract: false, final true
   inline bool get_IsEnabled();
 
-  /// @brief Method get_IsNull, addr 0x5bfed64, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x5c65844, size 0x60, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_Labels, addr 0x5bff20c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_Labels, addr 0x5c65cec, size 0xf0, virtual false, abstract: false, final false
   inline ::StringW get_Labels();
 
-  /// @brief Method get_Type, addr 0x5bfec6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x5c6574c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType get_Type();
 
   /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRSemanticLabels>"
@@ -268,10 +268,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRSemanticLabels>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRSemanticLabels>* i___System__IEquatable_1___GlobalNamespace__OVRSemanticLabels_();
 
-  /// @brief Method op_Equality, addr 0x5bfef64, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5c65a44, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRSemanticLabels lhs, ::GlobalNamespace::OVRSemanticLabels rhs);
 
-  /// @brief Method op_Inequality, addr 0x5bfefd4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x5c65ab4, size 0x74, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRSemanticLabels lhs, ::GlobalNamespace::OVRSemanticLabels rhs);
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRSemanticLabels value);
@@ -289,7 +289,7 @@ public:
   static constexpr ::ConstString DeprecationMessage{ u"String-based labels are deprecated (v65). Please use the equivalent enum-based methods." };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7093 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

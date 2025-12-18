@@ -19,12 +19,12 @@ namespace UnityEngine::AddressableAssets::Utility {
 class CORDL_TYPE AssetReferenceUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FormatName, addr 0x6246dbc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method FormatName, addr 0x62ae948, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW FormatName(::StringW name);
 
   static inline ::UnityEngine::AddressableAssets::Utility::AssetReferenceUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6246e58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62ae9e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   AssetReferenceUtilities(AssetReferenceUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19527 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19553 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -91,7 +91,7 @@ public:
   static ::GlobalNamespace::BeatSaberXRFeature_SessionState const Visible;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20299 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -129,7 +129,7 @@ public:
 
   static inline ::GlobalNamespace::BeatSaberXRFeature* New_ctor();
 
-  /// @brief Method OnSessionStateChange, addr 0x563fee0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnSessionStateChange, addr 0x56a4cf4, size 0x20, virtual true, abstract: false, final false
   inline void OnSessionStateChange(int32_t oldState, int32_t newState);
 
   constexpr ::GlobalNamespace::BeatSaberXRFeature_SessionState const& __cordl_internal_get__currentSessionState_k__BackingField() const;
@@ -144,19 +144,19 @@ public:
 
   constexpr void __cordl_internal_set_sessionStateChangedEvent(::System::Action_2<::GlobalNamespace::BeatSaberXRFeature_SessionState, ::GlobalNamespace::BeatSaberXRFeature_SessionState>* value);
 
-  /// @brief Method .ctor, addr 0x563ff00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56a4d14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_sessionStateChangedEvent, addr 0x563fd60, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_sessionStateChangedEvent, addr 0x56a4b74, size 0xc0, virtual false, abstract: false, final false
   inline void add_sessionStateChangedEvent(::System::Action_2<::GlobalNamespace::BeatSaberXRFeature_SessionState, ::GlobalNamespace::BeatSaberXRFeature_SessionState>* value);
 
-  /// @brief Method get_currentSessionState, addr 0x563fd50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentSessionState, addr 0x56a4b64, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatSaberXRFeature_SessionState get_currentSessionState();
 
-  /// @brief Method remove_sessionStateChangedEvent, addr 0x563fe20, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_sessionStateChangedEvent, addr 0x56a4c34, size 0xc0, virtual false, abstract: false, final false
   inline void remove_sessionStateChangedEvent(::System::Action_2<::GlobalNamespace::BeatSaberXRFeature_SessionState, ::GlobalNamespace::BeatSaberXRFeature_SessionState>* value);
 
-  /// @brief Method set_currentSessionState, addr 0x563fd58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentSessionState, addr 0x56a4b6c, size 0x8, virtual false, abstract: false, final false
   inline void set_currentSessionState(::GlobalNamespace::BeatSaberXRFeature_SessionState value);
 
 protected:
@@ -174,7 +174,7 @@ public:
   BeatSaberXRFeature(BeatSaberXRFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20300 };
 
   /// @brief Field featureId offset 0xffffffff size 0x8
   static constexpr ::ConstString featureId{ u"com.beatgames.beatsaber.feature.beatsaberxr" };

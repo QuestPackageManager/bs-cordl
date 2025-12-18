@@ -219,186 +219,186 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutElement"
   constexpr operator ::UnityEngine::UI::ILayoutElement*() noexcept;
 
-  /// @brief Method Awake, addr 0x671ae8c, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x6782a04, size 0x2cc, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x671ae84, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x67829fc, size 0x4, virtual true, abstract: false, final true
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x671ae88, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method CalculateLayoutInputVertical, addr 0x6782a00, size 0x4, virtual true, abstract: false, final true
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method ClearMesh, addr 0x671a894, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ClearMesh, addr 0x678240c, size 0xcc, virtual true, abstract: false, final false
   inline void ClearMesh(bool updateMesh);
 
-  /// @brief Method ComputeMarginSize, addr 0x671f1ac, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method ComputeMarginSize, addr 0x6786d24, size 0xe4, virtual true, abstract: false, final false
   inline void ComputeMarginSize();
 
-  /// @brief Method CreateMaterialInstance, addr 0x671bf4c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CreateMaterialInstance, addr 0x6783ac4, size 0xbc, virtual false, abstract: false, final false
   inline void CreateMaterialInstance();
 
-  /// @brief Method DestroySubMeshObjects, addr 0x671fb44, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method DestroySubMeshObjects, addr 0x67876bc, size 0xe0, virtual true, abstract: false, final false
   inline void DestroySubMeshObjects();
 
-  /// @brief Method DisableMasking, addr 0x671be54, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method DisableMasking, addr 0x67839cc, size 0xf8, virtual false, abstract: false, final false
   inline void DisableMasking();
 
-  /// @brief Method EnableMasking, addr 0x671bcd4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method EnableMasking, addr 0x678384c, size 0xfc, virtual false, abstract: false, final false
   inline void EnableMasking();
 
-  /// @brief Method ForceMeshUpdate, addr 0x671a818, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ForceMeshUpdate, addr 0x6782390, size 0x10, virtual true, abstract: false, final false
   inline void ForceMeshUpdate(bool ignoreActiveState, bool forceTextReparsing);
 
-  /// @brief Method GenerateTextMesh, addr 0x6708a94, size 0x73b0, virtual true, abstract: false, final false
+  /// @brief Method GenerateTextMesh, addr 0x677060c, size 0x73b0, virtual true, abstract: false, final false
   inline void GenerateTextMesh();
 
-  /// @brief Method GetCompoundBounds, addr 0x671fc24, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method GetCompoundBounds, addr 0x678779c, size 0x194, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds GetCompoundBounds();
 
-  /// @brief Method GetMaterial, addr 0x671c008, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method GetMaterial, addr 0x6783b80, size 0x114, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetMaterial(::UnityEngine::Material* mat);
 
-  /// @brief Method GetMaterials, addr 0x671c11c, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method GetMaterials, addr 0x6783c94, size 0x1b0, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> GetMaterials(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> mats);
 
-  /// @brief Method GetSharedMaterials, addr 0x671c308, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method GetSharedMaterials, addr 0x6783e80, size 0x18c, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> GetSharedMaterials();
 
-  /// @brief Method GetTextContainerLocalCorners, addr 0x671f790, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetTextContainerLocalCorners, addr 0x6787308, size 0x9c, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetTextContainerLocalCorners();
 
-  /// @brief Method GetTextInfo, addr 0x671a828, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetTextInfo, addr 0x67823a0, size 0x6c, virtual true, abstract: false, final false
   inline ::TMPro::TMP_TextInfo* GetTextInfo(::StringW text);
 
-  /// @brief Method InternalUpdate, addr 0x671f434, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method InternalUpdate, addr 0x6786fac, size 0xa8, virtual true, abstract: false, final false
   inline void InternalUpdate();
 
-  /// @brief Method LoadFontAsset, addr 0x671b3d4, size 0x5ac, virtual true, abstract: false, final false
+  /// @brief Method LoadFontAsset, addr 0x6782f4c, size 0x5ac, virtual true, abstract: false, final false
   inline void LoadFontAsset();
 
   static inline ::TMPro::TextMeshPro* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x671b308, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x6782e80, size 0xcc, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x671f290, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x6786e08, size 0x1c, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnDisable, addr 0x671b258, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6782dd0, size 0xb0, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x671b158, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6782cd0, size 0x100, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPreRenderObject, addr 0x671a394, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method OnPreRenderObject, addr 0x6781f0c, size 0x254, virtual false, abstract: false, final false
   inline void OnPreRenderObject();
 
-  /// @brief Method OnRectTransformDimensionsChange, addr 0x671f2dc, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x6786e54, size 0x158, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method OnTransformParentChanged, addr 0x671f2ac, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method OnTransformParentChanged, addr 0x6786e24, size 0x30, virtual true, abstract: false, final false
   inline void OnTransformParentChanged();
 
-  /// @brief Method Rebuild, addr 0x671a2a8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x6781e20, size 0xec, virtual true, abstract: false, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate update);
 
-  /// @brief Method SetActiveSubMeshes, addr 0x671fa24, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method SetActiveSubMeshes, addr 0x678759c, size 0x120, virtual true, abstract: false, final false
   inline void SetActiveSubMeshes(bool state);
 
-  /// @brief Method SetActiveSubTextObjectRenderers, addr 0x671f650, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method SetActiveSubTextObjectRenderers, addr 0x67871c8, size 0x140, virtual false, abstract: false, final false
   inline void SetActiveSubTextObjectRenderers(bool state);
 
-  /// @brief Method SetAllDirty, addr 0x671a264, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method SetAllDirty, addr 0x6781ddc, size 0x44, virtual true, abstract: false, final false
   inline void SetAllDirty();
 
-  /// @brief Method SetArraySizes, addr 0x671cf30, size 0x227c, virtual true, abstract: false, final false
+  /// @brief Method SetArraySizes, addr 0x6784aa8, size 0x227c, virtual true, abstract: false, final false
   inline int32_t SetArraySizes(::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*> textProcessingArray);
 
-  /// @brief Method SetCulling, addr 0x671cbb4, size 0x2f0, virtual true, abstract: false, final false
+  /// @brief Method SetCulling, addr 0x678472c, size 0x2f0, virtual true, abstract: false, final false
   inline void SetCulling();
 
-  /// @brief Method SetFaceColor, addr 0x671c944, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method SetFaceColor, addr 0x67844bc, size 0x124, virtual true, abstract: false, final false
   inline void SetFaceColor(::UnityEngine::Color32 color);
 
-  /// @brief Method SetLayoutDirty, addr 0x671a17c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutDirty, addr 0x6781cf4, size 0xd8, virtual true, abstract: false, final false
   inline void SetLayoutDirty();
 
-  /// @brief Method SetMask, addr 0x6719d30, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetMask, addr 0x67818a8, size 0x164, virtual false, abstract: false, final false
   inline void SetMask(::TMPro::MaskingTypes maskType);
 
-  /// @brief Method SetMask, addr 0x6719e94, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetMask, addr 0x6781a0c, size 0x48, virtual false, abstract: false, final false
   inline void SetMask(::TMPro::MaskingTypes type, ::UnityEngine::Vector4 maskCoords);
 
-  /// @brief Method SetMask, addr 0x6719f7c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetMask, addr 0x6781af4, size 0x60, virtual false, abstract: false, final false
   inline void SetMask(::TMPro::MaskingTypes type, ::UnityEngine::Vector4 maskCoords, float_t softnessX, float_t softnessY);
 
-  /// @brief Method SetMaskCoordinates, addr 0x6719edc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetMaskCoordinates, addr 0x6781a54, size 0xa0, virtual false, abstract: false, final false
   inline void SetMaskCoordinates(::UnityEngine::Vector4 coords);
 
-  /// @brief Method SetMaskCoordinates, addr 0x6719fdc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetMaskCoordinates, addr 0x6781b54, size 0xe8, virtual false, abstract: false, final false
   inline void SetMaskCoordinates(::UnityEngine::Vector4 coords, float_t softX, float_t softY);
 
-  /// @brief Method SetMaterialDirty, addr 0x671a254, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method SetMaterialDirty, addr 0x6781dcc, size 0x10, virtual true, abstract: false, final false
   inline void SetMaterialDirty();
 
-  /// @brief Method SetMeshFilters, addr 0x671f82c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method SetMeshFilters, addr 0x67873a4, size 0x1f8, virtual false, abstract: false, final false
   inline void SetMeshFilters(bool state);
 
-  /// @brief Method SetOutlineColor, addr 0x671ca68, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method SetOutlineColor, addr 0x67845e0, size 0x124, virtual true, abstract: false, final false
   inline void SetOutlineColor(::UnityEngine::Color32 color);
 
-  /// @brief Method SetOutlineThickness, addr 0x671c81c, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method SetOutlineThickness, addr 0x6784394, size 0x128, virtual true, abstract: false, final false
   inline void SetOutlineThickness(float_t thickness);
 
-  /// @brief Method SetPerspectiveCorrection, addr 0x671cea4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetPerspectiveCorrection, addr 0x6784a1c, size 0x8c, virtual false, abstract: false, final false
   inline void SetPerspectiveCorrection();
 
-  /// @brief Method SetShaderDepth, addr 0x671cb8c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetShaderDepth, addr 0x6784704, size 0x28, virtual true, abstract: false, final false
   inline void SetShaderDepth();
 
-  /// @brief Method SetSharedMaterial, addr 0x671c2cc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method SetSharedMaterial, addr 0x6783e44, size 0x3c, virtual true, abstract: false, final false
   inline void SetSharedMaterial(::UnityEngine::Material* mat);
 
-  /// @brief Method SetSharedMaterials, addr 0x671c494, size 0x388, virtual true, abstract: false, final false
+  /// @brief Method SetSharedMaterials, addr 0x678400c, size 0x388, virtual true, abstract: false, final false
   inline void SetSharedMaterials(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> materials);
 
-  /// @brief Method SetVerticesDirty, addr 0x671a0c4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetVerticesDirty, addr 0x6781c3c, size 0xb8, virtual true, abstract: false, final false
   inline void SetVerticesDirty();
 
-  /// @brief Method UpdateEnvMapMatrix, addr 0x671bab0, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method UpdateEnvMapMatrix, addr 0x6783628, size 0x224, virtual false, abstract: false, final false
   inline void UpdateEnvMapMatrix();
 
-  /// @brief Method UpdateFontAsset, addr 0x671ae74, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UpdateFontAsset, addr 0x67829ec, size 0x10, virtual false, abstract: false, final false
   inline void UpdateFontAsset();
 
-  /// @brief Method UpdateGeometry, addr 0x671aae0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method UpdateGeometry, addr 0x6782658, size 0x18, virtual true, abstract: false, final false
   inline void UpdateGeometry(::UnityEngine::Mesh* mesh, int32_t index);
 
-  /// @brief Method UpdateMask, addr 0x671bdd0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method UpdateMask, addr 0x6783948, size 0x84, virtual false, abstract: false, final false
   inline void UpdateMask();
 
-  /// @brief Method UpdateMaterial, addr 0x671a5e8, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method UpdateMaterial, addr 0x6782160, size 0x12c, virtual true, abstract: false, final false
   inline void UpdateMaterial();
 
-  /// @brief Method UpdateMeshPadding, addr 0x671a714, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method UpdateMeshPadding, addr 0x678228c, size 0x104, virtual true, abstract: false, final false
   inline void UpdateMeshPadding();
 
-  /// @brief Method UpdateSDFScale, addr 0x671f4dc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method UpdateSDFScale, addr 0x6787054, size 0x174, virtual false, abstract: false, final false
   inline void UpdateSDFScale(float_t scaleDelta);
 
-  /// @brief Method UpdateSubMeshSortingLayerID, addr 0x671969c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method UpdateSubMeshSortingLayerID, addr 0x6781214, size 0x110, virtual false, abstract: false, final false
   inline void UpdateSubMeshSortingLayerID(int32_t id);
 
-  /// @brief Method UpdateSubMeshSortingOrder, addr 0x67198fc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method UpdateSubMeshSortingOrder, addr 0x6781474, size 0x110, virtual false, abstract: false, final false
   inline void UpdateSubMeshSortingOrder(int32_t order);
 
-  /// @brief Method UpdateVertexData, addr 0x671ac9c, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method UpdateVertexData, addr 0x6782814, size 0x1d8, virtual true, abstract: false, final false
   inline void UpdateVertexData();
 
-  /// @brief Method UpdateVertexData, addr 0x671aaf8, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method UpdateVertexData, addr 0x6782670, size 0x1a4, virtual true, abstract: false, final false
   inline void UpdateVertexData(::TMPro::TMP_VertexDataUpdateFlags flags);
 
-  /// @brief Method ValidateEnvMapProperty, addr 0x671b980, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ValidateEnvMapProperty, addr 0x67834f8, size 0x130, virtual false, abstract: false, final false
   inline void ValidateEnvMapProperty();
 
   constexpr ::System::Action_1<::TMPro::TMP_TextInfo*>* const& __cordl_internal_get_OnPreRenderText() const;
@@ -503,10 +503,10 @@ public:
 
   constexpr void __cordl_internal_set_materialIndexPairs(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x671fdb8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6787930, size 0x138, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_OnPreRenderText, addr 0x671a960, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method add_OnPreRenderText, addr 0x67824d8, size 0xc0, virtual true, abstract: false, final false
   inline void add_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value);
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_CalculateVerticesPositionMarker();
@@ -551,37 +551,37 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_SetArraySizesMarker();
 
-  /// @brief Method get_autoSizeTextContainer, addr 0x6719a0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_autoSizeTextContainer, addr 0x6781584, size 0x8, virtual true, abstract: false, final false
   inline bool get_autoSizeTextContainer();
 
-  /// @brief Method get_maskType, addr 0x6719d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maskType, addr 0x6781898, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::MaskingTypes get_maskType();
 
-  /// @brief Method get_mesh, addr 0x6719b5c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x67816d4, size 0xb8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method get_meshFilter, addr 0x6719c14, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_meshFilter, addr 0x678178c, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshFilter> get_meshFilter();
 
-  /// @brief Method get_renderer, addr 0x6719548, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x67810c0, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
-  /// @brief Method get_sortingLayerID, addr 0x67194b0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_sortingLayerID, addr 0x6781028, size 0x98, virtual false, abstract: false, final false
   inline int32_t get_sortingLayerID();
 
-  /// @brief Method get_sortingOrder, addr 0x67197ac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_sortingOrder, addr 0x6781324, size 0x98, virtual false, abstract: false, final false
   inline int32_t get_sortingOrder();
 
-  /// @brief Method get_textContainer, addr 0x6719ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textContainer, addr 0x6781630, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TextContainer> get_textContainer();
 
-  /// @brief Method get_transform, addr 0x6719ac0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_transform, addr 0x6781638, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_transform();
 
   /// @brief Convert to "::UnityEngine::UI::ILayoutElement"
   constexpr ::UnityEngine::UI::ILayoutElement* i___UnityEngine__UI__ILayoutElement() noexcept;
 
-  /// @brief Method remove_OnPreRenderText, addr 0x671aa20, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method remove_OnPreRenderText, addr 0x6782598, size 0xc0, virtual true, abstract: false, final false
   inline void remove_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value);
 
   static inline void setStaticF_k_CalculateVerticesPositionMarker(::Unity::Profiling::ProfilerMarker value);
@@ -626,16 +626,16 @@ public:
 
   static inline void setStaticF_k_SetArraySizesMarker(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_autoSizeTextContainer, addr 0x6719a14, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method set_autoSizeTextContainer, addr 0x678158c, size 0xa4, virtual true, abstract: false, final false
   inline void set_autoSizeTextContainer(bool value);
 
-  /// @brief Method set_maskType, addr 0x6719d28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maskType, addr 0x67818a0, size 0x8, virtual false, abstract: false, final false
   inline void set_maskType(::TMPro::MaskingTypes value);
 
-  /// @brief Method set_sortingLayerID, addr 0x67195e4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_sortingLayerID, addr 0x678115c, size 0xb8, virtual false, abstract: false, final false
   inline void set_sortingLayerID(int32_t value);
 
-  /// @brief Method set_sortingOrder, addr 0x6719844, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_sortingOrder, addr 0x67813bc, size 0xb8, virtual false, abstract: false, final false
   inline void set_sortingOrder(int32_t value);
 
 protected:
@@ -653,7 +653,7 @@ public:
   TextMeshPro(TextMeshPro const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15832 };
 
   /// @brief Field _SortingLayer, offset: 0x6e0, size: 0x4, def value: None
   int32_t ____SortingLayer;

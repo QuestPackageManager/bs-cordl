@@ -65,24 +65,24 @@ public:
   /// @brief Field _zAnimationCurve, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__zAnimationCurve, put = __cordl_internal_set__zAnimationCurve)) ::UnityEngine::AnimationCurve* _zAnimationCurve;
 
-  /// @brief Method CalculateDisplacementVector, addr 0x577d894, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CalculateDisplacementVector, addr 0x57e413c, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 CalculateDisplacementVector(float_t value);
 
   static inline ::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x577d7cc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x57e4074, size 0xc8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x577d918, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x57e41c0, size 0x24, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetValue, addr 0x577d93c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x57e41e4, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method SetValue, addr 0x577d940, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x57e41e8, size 0xd0, virtual false, abstract: false, final false
   inline void SetValue(float_t value);
 
-  /// @brief Method TriggerValue, addr 0x577da10, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x57e42b8, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityEngine::Bounds const& __cordl_internal_get__bounds() const;
@@ -139,7 +139,7 @@ public:
 
   constexpr void __cordl_internal_set__zAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method .ctor, addr 0x577da14, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57e42bc, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__vertexDisplacementRangeVectorPropertyID();

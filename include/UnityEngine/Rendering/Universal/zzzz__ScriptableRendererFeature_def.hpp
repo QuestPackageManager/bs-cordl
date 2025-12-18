@@ -50,34 +50,34 @@ public:
   /// @brief Method Create, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Create();
 
-  /// @brief Method Dispose, addr 0x669a15c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6701ce8, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x669a1cc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6701d58, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::Rendering::Universal::ScriptableRendererFeature* New_ctor();
 
-  /// @brief Method OnCameraPreCull, addr 0x6699f64, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnCameraPreCull, addr 0x6701af0, size 0x4, virtual true, abstract: false, final false
   inline void OnCameraPreCull(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::ByRef<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-  /// @brief Method OnEnable, addr 0x6699f6c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6701af8, size 0xe8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x669a054, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6701be0, size 0xe8, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RequireRenderingLayers, addr 0x669a144, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method RequireRenderingLayers, addr 0x6701cd0, size 0x10, virtual true, abstract: false, final false
   inline bool RequireRenderingLayers(bool isDeferred, bool needsGBufferAccurateNormals, ::ByRef<::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event> atEvent,
                                      ::ByRef<::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize> maskSize);
 
-  /// @brief Method SetActive, addr 0x669a154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x6701ce0, size 0x8, virtual false, abstract: false, final false
   inline void SetActive(bool active);
 
-  /// @brief Method SetupRenderPasses, addr 0x6699f68, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetupRenderPasses, addr 0x6701af4, size 0x4, virtual true, abstract: false, final false
   inline void SetupRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method SupportsNativeRenderPass, addr 0x669a13c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SupportsNativeRenderPass, addr 0x6701cc8, size 0x8, virtual true, abstract: false, final false
   inline bool SupportsNativeRenderPass();
 
   constexpr bool const& __cordl_internal_get_m_Active() const;
@@ -86,10 +86,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Active(bool value);
 
-  /// @brief Method .ctor, addr 0x669a1d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6701d5c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isActive, addr 0x6699f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x6701ae8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
   /// @brief Convert to "::System::IDisposable"
@@ -110,7 +110,7 @@ public:
   ScriptableRendererFeature(ScriptableRendererFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12917 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12921 };
 
   /// @brief Field m_Active, offset: 0x18, size: 0x1, def value: None
   bool ___m_Active;

@@ -74,16 +74,16 @@ public:
 
   __declspec(property(get = get_part, put = set_part)) int32_t part;
 
-  /// @brief Method get_control, addr 0x62ef220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_control, addr 0x6356dac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_control();
 
-  /// @brief Method get_part, addr 0x62ef210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_part, addr 0x6356d9c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_part();
 
-  /// @brief Method set_control, addr 0x62ef228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_control, addr 0x6356db4, size 0x8, virtual false, abstract: false, final false
   inline void set_control(::UnityEngine::InputSystem::InputControl* value);
 
-  /// @brief Method set_part, addr 0x62ef218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_part, addr 0x6356da4, size 0x8, virtual false, abstract: false, final false
   inline void set_part(int32_t value);
 
   // Ctor Parameters []
@@ -95,7 +95,7 @@ public:
   constexpr InputBindingCompositeContext_PartBinding(int32_t _part_k__BackingField, ::UnityEngine::InputSystem::InputControl* _control_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8650 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8654 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -140,7 +140,7 @@ public:
   constexpr InputBindingCompositeContext_DefaultComparer_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8655 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -165,10 +165,10 @@ public:
 
   __declspec(property(get = get_controls)) ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBindingCompositeContext_PartBinding>* controls;
 
-  /// @brief Method EvaluateMagnitude, addr 0x62ef0f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x6356c7c, size 0x24, virtual false, abstract: false, final false
   inline float_t EvaluateMagnitude(int32_t partNumber);
 
-  /// @brief Method GetPressTime, addr 0x62ef1ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetPressTime, addr 0x6356d78, size 0x24, virtual false, abstract: false, final false
   inline double_t GetPressTime(int32_t partNumber);
 
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -183,16 +183,16 @@ public:
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue, typename TComparer> inline TValue ReadValue(int32_t partNumber, ::ByRef<::UnityEngine::InputSystem::InputControl*> sourceControl, TComparer comparer);
 
-  /// @brief Method ReadValue, addr 0x62ef19c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x6356d28, size 0x2c, virtual false, abstract: false, final false
   inline void ReadValue(int32_t partNumber, void* buffer, int32_t bufferSize);
 
-  /// @brief Method ReadValueAsButton, addr 0x62ef114, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ReadValueAsButton, addr 0x6356ca0, size 0x88, virtual false, abstract: false, final false
   inline bool ReadValueAsButton(int32_t partNumber);
 
-  /// @brief Method ReadValueAsObject, addr 0x62ef1c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadValueAsObject, addr 0x6356d54, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* ReadValueAsObject(int32_t partNumber);
 
-  /// @brief Method get_controls, addr 0x62ef060, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_controls, addr 0x6356bec, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBindingCompositeContext_PartBinding>* get_controls();
 
   // Ctor Parameters []
@@ -204,7 +204,7 @@ public:
   constexpr InputBindingCompositeContext(::UnityEngine::InputSystem::InputActionState* m_State, int32_t m_BindingIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8653 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8657 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -284,30 +284,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x62ef234, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6356dc0, size 0x100, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::InputSystem::InputBindingCompositeContext__get_controls_d__2* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputBindingCompositeContext.PartBinding>.GetEnumerator, addr 0x62ef3d8, size 0x98, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputBindingCompositeContext.PartBinding>.GetEnumerator, addr 0x6356f64, size 0x98, virtual true, abstract: false,
   /// final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBindingCompositeContext_PartBinding>*
   System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputBindingCompositeContext_PartBinding__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputBindingCompositeContext.PartBinding>.get_Current, addr 0x62ef334, size 0xc, virtual true, abstract: false, final
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputBindingCompositeContext.PartBinding>.get_Current, addr 0x6356ec0, size 0xc, virtual true, abstract: false, final
   /// true
   inline ::UnityEngine::InputSystem::InputBindingCompositeContext_PartBinding System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputBindingCompositeContext_PartBinding__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x62ef470, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6356ffc, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x62ef340, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6356ecc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x62ef378, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6356f04, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x62ef230, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6356dbc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -370,7 +370,7 @@ public:
 
   constexpr void __cordl_internal_set__totalBindingCount_5__2(int32_t value);
 
-  /// @brief Method .ctor, addr 0x62ef0d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6356c5c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBindingCompositeContext_PartBinding>"
@@ -405,7 +405,7 @@ public:
   InputBindingCompositeContext__get_controls_d__2(InputBindingCompositeContext__get_controls_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8656 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;

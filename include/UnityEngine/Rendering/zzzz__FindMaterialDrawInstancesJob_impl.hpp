@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::FindMaterialDrawInstancesJob::*)(int32_t, int32_t)>(
     &::UnityEngine::Rendering::FindMaterialDrawInstancesJob::Execute)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x65fd778;
+  constexpr static std::size_t addrs = 0x6665304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

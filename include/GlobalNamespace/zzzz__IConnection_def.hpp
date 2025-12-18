@@ -24,6 +24,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE IConnection {
 public:
   // Declarations
+  __declspec(property(get = get_compatibilityVersion)) ::StringW compatibilityVersion;
+
   __declspec(property(get = get_isConnectionOwner)) bool isConnectionOwner;
 
   __declspec(property(get = get_userId)) ::StringW userId;
@@ -35,6 +37,9 @@ public:
 
   /// @brief Method Send, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Send(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
+
+  /// @brief Method get_compatibilityVersion, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW get_compatibilityVersion();
 
   /// @brief Method get_isConnectionOwner, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_isConnectionOwner();
@@ -50,7 +55,7 @@ public:
   IConnection(IConnection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18137 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

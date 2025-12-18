@@ -25,37 +25,37 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE SphericalHarmonicsL2Utils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCoefficient, addr 0x657ad04, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetCoefficient, addr 0x65e2890, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetCoefficient(::UnityEngine::Rendering::SphericalHarmonicsL2 sh, int32_t index);
 
-  /// @brief Method GetL1, addr 0x657aba8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetL1, addr 0x65e2734, size 0x34, virtual false, abstract: false, final false
   static inline void GetL1(::UnityEngine::Rendering::SphericalHarmonicsL2 sh, ::ByRef<::UnityEngine::Vector3> L1_R, ::ByRef<::UnityEngine::Vector3> L1_G, ::ByRef<::UnityEngine::Vector3> L1_B);
 
-  /// @brief Method GetL2, addr 0x657abdc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetL2, addr 0x65e2768, size 0x68, virtual false, abstract: false, final false
   static inline void GetL2(::UnityEngine::Rendering::SphericalHarmonicsL2 sh, ::ByRef<::UnityEngine::Vector3> L2_0, ::ByRef<::UnityEngine::Vector3> L2_1, ::ByRef<::UnityEngine::Vector3> L2_2,
                            ::ByRef<::UnityEngine::Vector3> L2_3, ::ByRef<::UnityEngine::Vector3> L2_4);
 
   static inline ::UnityEngine::Rendering::SphericalHarmonicsL2Utils* New_ctor();
 
-  /// @brief Method SetCoefficient, addr 0x657ac9c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetCoefficient, addr 0x65e2828, size 0x68, virtual false, abstract: false, final false
   static inline void SetCoefficient(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, int32_t index, ::UnityEngine::Vector3 coefficient);
 
-  /// @brief Method SetL0, addr 0x657ac44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetL0, addr 0x65e27d0, size 0x10, virtual false, abstract: false, final false
   static inline void SetL0(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, ::UnityEngine::Vector3 L0);
 
-  /// @brief Method SetL1, addr 0x657ac78, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetL1, addr 0x65e2804, size 0x24, virtual false, abstract: false, final false
   static inline void SetL1(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, ::UnityEngine::Vector3 L1_R, ::UnityEngine::Vector3 L1_G, ::UnityEngine::Vector3 L1_B);
 
-  /// @brief Method SetL1B, addr 0x657ac6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetL1B, addr 0x65e27f8, size 0xc, virtual false, abstract: false, final false
   static inline void SetL1B(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, ::UnityEngine::Vector3 L1_B);
 
-  /// @brief Method SetL1G, addr 0x657ac60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetL1G, addr 0x65e27ec, size 0xc, virtual false, abstract: false, final false
   static inline void SetL1G(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, ::UnityEngine::Vector3 L1_G);
 
-  /// @brief Method SetL1R, addr 0x657ac54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetL1R, addr 0x65e27e0, size 0xc, virtual false, abstract: false, final false
   static inline void SetL1R(::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, ::UnityEngine::Vector3 L1_R);
 
-  /// @brief Method .ctor, addr 0x657ad74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65e2900, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,7 +73,7 @@ public:
   SphericalHarmonicsL2Utils(SphericalHarmonicsL2Utils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12137 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

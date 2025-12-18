@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::BatchFilterSettings::*)(uint8_t)>(
     &::UnityEngine::Rendering::BatchFilterSettings::set_batchLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68f6720;
+  constexpr static std::size_t addrs = 0x695f5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::BatchFilterSettings::*)(::UnityEngine::MotionVectorGenerationMode)>(
     &::UnityEngine::Rendering::BatchFilterSettings::set_motionMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68f6728;
+  constexpr static std::size_t addrs = 0x695f5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::BatchFilterSettings::*)(::UnityEngine::Rendering::ShadowCastingMode)>(
     &::UnityEngine::Rendering::BatchFilterSettings::set_shadowCastingMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68f6730;
+  constexpr static std::size_t addrs = 0x695f5b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::BatchFilterSettings::*)(bool)>(
     &::UnityEngine::Rendering::BatchFilterSettings::set_receiveShadows)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68f6738;
+  constexpr static std::size_t addrs = 0x695f5bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::BatchFilterSettings::*)(bool)>(
     &::UnityEngine::Rendering::BatchFilterSettings::set_staticShadowCaster)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68f6740;
+  constexpr static std::size_t addrs = 0x695f5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::BatchFilterSettings::*)(bool)>(
     &::UnityEngine::Rendering::BatchFilterSettings::set_allDepthSorted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68f6748;
+  constexpr static std::size_t addrs = 0x695f5cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

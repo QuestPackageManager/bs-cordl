@@ -146,53 +146,53 @@ public:
   /// @brief Field stateBlendShader, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_stateBlendShader, put = setStaticF_stateBlendShader)) ::UnityW<::UnityEngine::ComputeShader> stateBlendShader;
 
-  /// @brief Method Allocate, addr 0x656ef5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x65d6ae8, size 0x58, virtual false, abstract: false, final false
   inline bool Allocate(int32_t numberOfBrickChunks, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* outAllocations);
 
-  /// @brief Method AllocateResourcesIfNeeded, addr 0x656dec4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method AllocateResourcesIfNeeded, addr 0x65d5a50, size 0x148, virtual false, abstract: false, final false
   inline void AllocateResourcesIfNeeded();
 
-  /// @brief Method BlendChunks, addr 0x656ee20, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method BlendChunks, addr 0x65d69ac, size 0x12c, virtual false, abstract: false, final false
   inline void BlendChunks(::UnityEngine::Rendering::ProbeReferenceVolume_Cell* cell, ::UnityEngine::Rendering::ProbeBrickPool* dstPool);
 
-  /// @brief Method Cleanup, addr 0x656f05c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x65d6be8, size 0x38, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Clear, addr 0x656ef4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x65d6ad8, size 0x10, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Deallocate, addr 0x656efb4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Deallocate, addr 0x65d6b40, size 0x78, virtual false, abstract: false, final false
   inline void Deallocate(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* allocations);
 
-  /// @brief Method EnsureTextureValidity, addr 0x656f02c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method EnsureTextureValidity, addr 0x65d6bb8, size 0x30, virtual false, abstract: false, final false
   inline void EnsureTextureValidity();
 
-  /// @brief Method GetPoolDepth, addr 0x656dea0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetPoolDepth, addr 0x65d5a2c, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetPoolDepth();
 
-  /// @brief Method GetPoolHeight, addr 0x656de88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetPoolHeight, addr 0x65d5a14, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetPoolHeight();
 
-  /// @brief Method GetPoolWidth, addr 0x656de70, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetPoolWidth, addr 0x65d59fc, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetPoolWidth();
 
-  /// @brief Method Initialize, addr 0x656dbbc, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x65d5748, size 0x18c, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline ::UnityEngine::Rendering::ProbeBrickBlendingPool* New_ctor(::UnityEngine::Rendering::ProbeVolumeBlendingTextureMemoryBudget memoryBudget,
                                                                            ::UnityEngine::Rendering::ProbeVolumeSHBands shBands, bool probeOcclusion);
 
-  /// @brief Method PerformBlending, addr 0x656e160, size 0xcc0, virtual false, abstract: false, final false
+  /// @brief Method PerformBlending, addr 0x65d5cec, size 0xcc0, virtual false, abstract: false, final false
   inline void PerformBlending(::UnityEngine::Rendering::CommandBuffer* cmd, float_t factor, ::UnityEngine::Rendering::ProbeBrickPool* dstPool);
 
-  /// @brief Method Update, addr 0x656e084, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x65d5c10, size 0xdc, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer* dataBuffer,
                      ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout layout,
                      ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* dstLocations, ::UnityEngine::Rendering::ProbeVolumeSHBands bands, int32_t state,
                      ::UnityEngine::Texture* validityTexture, bool skyOcclusion, ::UnityEngine::Texture* skyOcclusionTexture, bool skyShadingDirections,
                      ::UnityEngine::Texture* skyShadingDirectionsTexture, bool probeOcclusion);
 
-  /// @brief Method Update, addr 0x656e00c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x65d5b98, size 0x78, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Rendering::ProbeBrickPool_DataLocation source, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* srcLocations,
                      ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* dstLocations, int32_t destStartIndex,
                      ::UnityEngine::Rendering::ProbeVolumeSHBands bands, int32_t state);
@@ -239,7 +239,7 @@ public:
 
   constexpr void __cordl_internal_set_m_State1(::UnityEngine::Rendering::ProbeBrickPool* value);
 
-  /// @brief Method .ctor, addr 0x656deb8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65d5a44, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ProbeVolumeBlendingTextureMemoryBudget memoryBudget, ::UnityEngine::Rendering::ProbeVolumeSHBands shBands, bool probeOcclusion);
 
   static inline int32_t getStaticF__ChunkList();
@@ -282,10 +282,10 @@ public:
 
   static inline ::UnityW<::UnityEngine::ComputeShader> getStaticF_stateBlendShader();
 
-  /// @brief Method get_estimatedVMemCost, addr 0x656dd58, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method get_estimatedVMemCost, addr 0x65d58e4, size 0x118, virtual false, abstract: false, final false
   inline int32_t get_estimatedVMemCost();
 
-  /// @brief Method get_isAllocated, addr 0x656dd48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isAllocated, addr 0x65d58d4, size 0x10, virtual false, abstract: false, final false
   inline bool get_isAllocated();
 
   static inline void setStaticF__ChunkList(int32_t value);
@@ -343,7 +343,7 @@ public:
   ProbeBrickBlendingPool(ProbeBrickBlendingPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12056 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12060 };
 
   /// @brief Field m_ChunkList, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ___m_ChunkList;

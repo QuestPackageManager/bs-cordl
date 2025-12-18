@@ -29,13 +29,13 @@ namespace System {
 class CORDL_TYPE MemoryExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AsSpan, addr 0x5a34340, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method AsSpan, addr 0x5a9ac8c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> AsSpan(::StringW text);
 
-  /// @brief Method AsSpan, addr 0x5a34398, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AsSpan, addr 0x5a9ace4, size 0x80, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> AsSpan(::StringW text, int32_t start);
 
-  /// @brief Method AsSpan, addr 0x5a34418, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AsSpan, addr 0x5a9ad64, size 0x94, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> AsSpan(::StringW text, int32_t start, int32_t length);
 
   /// @brief Method AsSpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -47,7 +47,7 @@ public:
   /// @brief Method AsSpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Span_1<T> AsSpan(::ArrayW<T, ::Array<T>*> array, int32_t start, int32_t length);
 
-  /// @brief Method Contains, addr 0x5a33df4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x5a9a740, size 0xa4, virtual false, abstract: false, final false
   static inline bool Contains(::System::ReadOnlySpan_1<char16_t> source, char16_t value);
 
   /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -56,13 +56,13 @@ public:
   /// @brief Method EndsWith, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool EndsWith(::System::ReadOnlySpan_1<T> span, ::System::ReadOnlySpan_1<T> value);
 
-  /// @brief Method EndsWith, addr 0x5a34030, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x5a9a97c, size 0x310, virtual false, abstract: false, final false
   static inline bool EndsWith(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value, ::System::StringComparison comparisonType);
 
-  /// @brief Method EqualsOrdinal, addr 0x5a33c3c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method EqualsOrdinal, addr 0x5a9a588, size 0xf8, virtual false, abstract: false, final false
   static inline bool EqualsOrdinal(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value);
 
-  /// @brief Method EqualsOrdinalIgnoreCase, addr 0x5a33d34, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method EqualsOrdinalIgnoreCase, addr 0x5a9a680, size 0xc0, virtual false, abstract: false, final false
   static inline bool EqualsOrdinalIgnoreCase(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -86,16 +86,16 @@ public:
   /// @brief Method StartsWith, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool StartsWith(::System::ReadOnlySpan_1<T> span, ::System::ReadOnlySpan_1<T> value);
 
-  /// @brief Method ToUpperInvariant, addr 0x5a33e98, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ToUpperInvariant, addr 0x5a9a7e4, size 0x198, virtual false, abstract: false, final false
   static inline int32_t ToUpperInvariant(::System::ReadOnlySpan_1<char16_t> source, ::System::Span_1<char16_t> destination);
 
-  /// @brief Method Trim, addr 0x5a2aadc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Trim, addr 0x5a91428, size 0x10, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> Trim(::System::ReadOnlySpan_1<char16_t> span);
 
-  /// @brief Method TrimEnd, addr 0x5a3459c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method TrimEnd, addr 0x5a9aee8, size 0x104, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> TrimEnd(::System::ReadOnlySpan_1<char16_t> span);
 
-  /// @brief Method TrimStart, addr 0x5a344ac, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method TrimStart, addr 0x5a9adf8, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> TrimStart(::System::ReadOnlySpan_1<char16_t> span);
 
 protected:

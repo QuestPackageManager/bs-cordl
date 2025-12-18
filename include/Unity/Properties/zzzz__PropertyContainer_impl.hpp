@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::GetPropertyVisitor_PropertyContainer___c::*)()>(
     &::Unity::Properties::GetPropertyVisitor_PropertyContainer___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x696a110;
+  constexpr static std::size_t addrs = 0x69d2f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Properties::PropertyContainer_GetPropertyVisitor* (
     ::Unity::Properties::GetPropertyVisitor_PropertyContainer___c::*)()>(&::Unity::Properties::GetPropertyVisitor_PropertyContainer___c::__cctor_b__5_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x696a114;
+  constexpr static std::size_t addrs = 0x69d2f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::GetPropertyVisitor_PropertyContainer___c::*)(
     ::Unity::Properties::PropertyContainer_GetPropertyVisitor*)>(&::Unity::Properties::GetPropertyVisitor_PropertyContainer___c::__cctor_b__5_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x696a158;
+  constexpr static std::size_t addrs = 0x69d2fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::PropertyContainer_GetPropertyVisitor::*)()>(
     &::Unity::Properties::PropertyContainer_GetPropertyVisitor::Reset)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6969ec4;
+  constexpr static std::size_t addrs = 0x69d2d48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::PropertyContainer_GetPropertyVisitor::*)()>(
     &::Unity::Properties::PropertyContainer_GetPropertyVisitor::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6969f24;
+  constexpr static std::size_t addrs = 0x69d2da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleSheets::HierarchyTraversal::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::StyleSheets::HierarchyTraversal::Traverse)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6acf9b0;
+  constexpr static std::size_t addrs = 0x6b38834;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleSheets::HierarchyTraversal::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t)>(&::UnityEngine::UIElements::StyleSheets::HierarchyTraversal::Recurse)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6acf9c0;
+  constexpr static std::size_t addrs = 0x6b38844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleSheets::HierarchyTraversal::*)()>(
     &::UnityEngine::UIElements::StyleSheets::HierarchyTraversal::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6acfa80;
+  constexpr static std::size_t addrs = 0x6b38904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

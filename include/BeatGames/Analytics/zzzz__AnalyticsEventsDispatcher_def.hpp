@@ -75,16 +75,16 @@ public:
 
   constexpr void __cordl_internal_set__telemetryEventSender(::BeatGames::Analytics::Events::TelemetryEventSender* value);
 
-  /// @brief Method .ctor, addr 0x3161190, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3190e88, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager, ::StringW oculusAuthToken);
 
-  /// @brief Method get_Navigation, addr 0x3161178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Navigation, addr 0x3190e70, size 0x8, virtual false, abstract: false, final false
   inline ::BeatGames::Analytics::NavigationEventSender* get_Navigation();
 
-  /// @brief Method get_Session, addr 0x3161180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Session, addr 0x3190e78, size 0x8, virtual false, abstract: false, final false
   inline ::BeatGames::Analytics::Events::SessionEventSender* get_Session();
 
-  /// @brief Method get_Telemetry, addr 0x3161188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Telemetry, addr 0x3190e80, size 0x8, virtual false, abstract: false, final false
   inline ::BeatGames::Analytics::Events::TelemetryEventSender* get_Telemetry();
 
 protected:
@@ -102,7 +102,7 @@ public:
   AnalyticsEventsDispatcher(AnalyticsEventsDispatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22949 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22975 };
 
   /// @brief Field _navigationEventSender, offset: 0x10, size: 0x8, def value: None
   ::BeatGames::Analytics::NavigationEventSender* ____navigationEventSender;

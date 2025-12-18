@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerDuelScoreManager)
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 struct MultiplayerController_State;
@@ -45,7 +45,7 @@ public:
 
   /// @brief Field _multiplayerSessionManager, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _opponentPlayer, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__opponentPlayer, put = __cordl_internal_set__opponentPlayer)) ::GlobalNamespace::IConnectedPlayer* _opponentPlayer;
@@ -59,27 +59,27 @@ public:
   /// @brief Field _timeSinceLastScoreUpdate, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__timeSinceLastScoreUpdate, put = __cordl_internal_set__timeSinceLastScoreUpdate)) float_t _timeSinceLastScoreUpdate;
 
-  /// @brief Method EnsureOpponentAssigned, addr 0x57c5004, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method EnsureOpponentAssigned, addr 0x582b8e8, size 0x30, virtual false, abstract: false, final false
   inline bool EnsureOpponentAssigned();
 
-  /// @brief Method GetOpponentPlayer, addr 0x57c5034, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method GetOpponentPlayer, addr 0x582b918, size 0x3b4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IConnectedPlayer* GetOpponentPlayer();
 
-  /// @brief Method HandleStateChanged, addr 0x57c53e8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x582bccc, size 0xf8, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State newState);
 
   static inline ::GlobalNamespace::MultiplayerDuelScoreManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57c4e6c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x582b750, size 0x110, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x57c4bd8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x582b4bc, size 0xd4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x57c4f7c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x582b860, size 0x88, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateScoreAndName, addr 0x57c4cac, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method UpdateScoreAndName, addr 0x582b590, size 0x1c0, virtual false, abstract: false, final false
   inline void UpdateScoreAndName();
 
   constexpr float_t const& __cordl_internal_get__delayBetweenScoreUpdates() const;
@@ -90,9 +90,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get__multiplayerController();
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
   constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__opponentPlayer() const;
 
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value);
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
 
   constexpr void __cordl_internal_set__opponentPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set__timeSinceLastScoreUpdate(float_t value);
 
-  /// @brief Method .ctor, addr 0x57c54e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x582bdc4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -157,7 +157,7 @@ public:
   ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> ____scoreProvider;
 
   /// @brief Field _multiplayerSessionManager, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
+  ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
   /// @brief Field _opponentPlayer, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____opponentPlayer;

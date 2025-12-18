@@ -30,18 +30,18 @@ public:
   /// @brief Field _textComponent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__textComponent, put = __cordl_internal_set__textComponent)) ::UnityW<::TMPro::TMP_Text> _textComponent;
 
-  /// @brief Method HandleTextChanged, addr 0x5799adc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandleTextChanged, addr 0x5800384, size 0x8c, virtual false, abstract: false, final false
   inline void HandleTextChanged(::UnityEngine::Object* obj);
 
   static inline ::GlobalNamespace::SyncText* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5799a04, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x58002ac, size 0xd8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5799730, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x57fffd8, size 0xe0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method UpdateText, addr 0x5799810, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method UpdateText, addr 0x58000b8, size 0x1f4, virtual false, abstract: false, final false
   inline void UpdateText();
 
   constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get__otherTextComponent() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__textComponent(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x5799b68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5800410, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

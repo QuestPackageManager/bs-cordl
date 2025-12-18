@@ -57,13 +57,13 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::PointerHandler* New_ctor();
 
-  /// @brief Method OnPointerClick, addr 0x584ab98, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method OnPointerClick, addr 0x58b12fc, size 0xc4, virtual true, abstract: false, final true
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerEnter, addr 0x584ac5c, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x58b13c0, size 0xd4, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x584ad30, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x58b1494, size 0xd0, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController> const& __cordl_internal_get__Controller_k__BackingField() const;
@@ -72,10 +72,10 @@ public:
 
   constexpr void __cordl_internal_set__Controller_k__BackingField(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController> value);
 
-  /// @brief Method .ctor, addr 0x584ae00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b1564, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Controller, addr 0x584ab88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Controller, addr 0x58b12ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController> get_Controller();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -90,7 +90,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
-  /// @brief Method set_Controller, addr 0x584ab90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Controller, addr 0x58b12f4, size 0x8, virtual false, abstract: false, final false
   inline void set_Controller(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController* value);
 
 protected:
@@ -108,7 +108,7 @@ public:
   PointerHandler(PointerHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18383 };
 
   /// @brief Field <Controller>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController> ____Controller_k__BackingField;

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::OccluderHandles::*)()>(&::UnityEngine::Rendering::OccluderHandles::IsValid)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x660f8f4;
+  constexpr static std::size_t addrs = 0x6677480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::OccluderHandles>::get(), "IsValid",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::OccluderHandles::*)(
     ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*)>(&::UnityEngine::Rendering::OccluderHandles::UseForOcclusionTest)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x660fa14;
+  constexpr static std::size_t addrs = 0x66775a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::OccluderHandles::*)(
     ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*)>(&::UnityEngine::Rendering::OccluderHandles::UseForOccluderUpdate)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x660fb74;
+  constexpr static std::size_t addrs = 0x6677700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

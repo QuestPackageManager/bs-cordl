@@ -22,10 +22,10 @@ namespace OculusStudios::GraphQL::ClientInterface {
 class CORDL_TYPE GraphErrorCodeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetGraphQLErrorCode, addr 0x5d1768c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetGraphQLErrorCode, addr 0x5d7e16c, size 0xbc, virtual false, abstract: false, final false
   static inline ::OculusStudios::GraphQL::ClientInterface::GraphErrorCode GetGraphQLErrorCode(int32_t code);
 
-  /// @brief Method IsGraphQLErrorCode, addr 0x5d175dc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IsGraphQLErrorCode, addr 0x5d7e0bc, size 0xb0, virtual false, abstract: false, final false
   static inline bool IsGraphQLErrorCode(int32_t code);
 
 protected:
@@ -43,7 +43,7 @@ public:
   GraphErrorCodeExtensions(GraphErrorCodeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22466 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

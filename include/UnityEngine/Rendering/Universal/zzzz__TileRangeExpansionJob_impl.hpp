@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::TileRangeExpansionJob::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::TileRangeExpansionJob::Execute)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x66a20e4;
+  constexpr static std::size_t addrs = 0x6709c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

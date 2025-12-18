@@ -44,18 +44,18 @@ public:
   /// @brief Field started, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_started, put = __cordl_internal_set_started)) ::System::DateTime started;
 
-  /// @brief Method FinishAttempt, addr 0x5d17950, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method FinishAttempt, addr 0x5d7e430, size 0x6c, virtual false, abstract: false, final false
   inline void FinishAttempt();
 
-  /// @brief Method IsFinished, addr 0x5d179bc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsFinished, addr 0x5d7e49c, size 0x6c, virtual false, abstract: false, final false
   inline bool IsFinished();
 
   static inline ::OculusStudios::GraphQL::ClientInterface::AttemptData* New_ctor();
 
-  /// @brief Method RegisterException, addr 0x5d17a84, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method RegisterException, addr 0x5d7e564, size 0x5c, virtual false, abstract: false, final false
   inline void RegisterException(::System::Exception* e);
 
-  /// @brief Method RegisterRawResponseData, addr 0x5d17a28, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method RegisterRawResponseData, addr 0x5d7e508, size 0x5c, virtual false, abstract: false, final false
   inline void RegisterRawResponseData(::StringW json);
 
   constexpr ::System::DateTime const& __cordl_internal_get__ended() const;
@@ -82,16 +82,16 @@ public:
 
   constexpr void __cordl_internal_set_started(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x5d178e0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7e3c0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ended, addr 0x5d178c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ended, addr 0x5d7e3a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_ended();
 
-  /// @brief Method get_exception, addr 0x5d178d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_exception, addr 0x5d7e3b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_exception();
 
-  /// @brief Method get_rawResponseData, addr 0x5d178d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rawResponseData, addr 0x5d7e3b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_rawResponseData();
 
 protected:
@@ -109,7 +109,7 @@ public:
   AttemptData(AttemptData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22447 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22474 };
 
   /// @brief Field started, offset: 0x10, size: 0x8, def value: None
   ::System::DateTime ___started;

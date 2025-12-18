@@ -170,27 +170,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6a1d854, size 0x670, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6a866d8, size 0x670, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::UIElements::BaseTreeViewController__GetAllItemIds_d__23* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x6a1dfdc, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x6a86e60, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x6a1df78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x6a86dfc, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEnumerator_System_Int32__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6a1e07c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6a86f00, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6a1df80, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6a86e04, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6a1dfb8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6a86e3c, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x6a1d828, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6a866ac, size 0x2c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -271,10 +271,10 @@ public:
 
   constexpr void __cordl_internal_set_rootIds(::System::Collections::Generic::IEnumerable_1<int32_t>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x6a1dec4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x6a86d48, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x6a1a100, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a82f84, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<int32_t>"
@@ -436,27 +436,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6a1e084, size 0x27c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6a86f08, size 0x27c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::UIElements::BaseTreeViewController__GetChildrenIds_d__25* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x6a1e364, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x6a871e8, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x6a1e300, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x6a87184, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEnumerator_System_Int32__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6a1e404, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6a87288, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6a1e308, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6a8718c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6a1e340, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6a871c4, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x6a1e080, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6a86f04, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -519,7 +519,7 @@ public:
 
   constexpr void __cordl_internal_set_id(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6a1a404, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a83288, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<int32_t>"
@@ -663,27 +663,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6a1e40c, size 0x210, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6a87290, size 0x210, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::UIElements::BaseTreeViewController__GetChildrenIdsByIndex_d__41* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x6a1e680, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x6a87504, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x6a1e61c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x6a874a0, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEnumerator_System_Int32__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6a1e720, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6a875a4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6a1e624, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6a874a8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6a1e65c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6a874e0, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x6a1e408, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6a8728c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -740,7 +740,7 @@ public:
 
   constexpr void __cordl_internal_set_index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6a1c3f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a85274, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<int32_t>"
@@ -871,141 +871,141 @@ public:
   /// @brief Field m_TreeViewDataProperty, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TreeViewDataProperty, put = __cordl_internal_set_m_TreeViewDataProperty)) ::Unity::Hierarchy::IHierarchyProperty_1<int32_t>* m_TreeViewDataProperty;
 
-  /// @brief Method CanChangeExpandedState, addr 0x6a1c4cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanChangeExpandedState, addr 0x6a85350, size 0x8, virtual true, abstract: false, final false
   inline bool CanChangeExpandedState(int32_t id);
 
-  /// @brief Method ClearIdToNodeDictionary, addr 0x6a1d5f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ClearIdToNodeDictionary, addr 0x6a86474, size 0x54, virtual false, abstract: false, final false
   inline void ClearIdToNodeDictionary();
 
-  /// @brief Method CollapseItem, addr 0x6a1d06c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CollapseItem, addr 0x6a85ef0, size 0xd0, virtual false, abstract: false, final false
   inline void CollapseItem(int32_t id, bool collapseAllChildren, bool refresh);
 
-  /// @brief Method CollapseItemByIndex, addr 0x6a1be6c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CollapseItemByIndex, addr 0x6a84cf0, size 0x6c, virtual false, abstract: false, final false
   inline void CollapseItemByIndex(int32_t index, bool collapseAllChildren, bool refresh);
 
-  /// @brief Method CollapseItemByNode, addr 0x6a1cc00, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method CollapseItemByNode, addr 0x6a85a84, size 0x46c, virtual false, abstract: false, final false
   inline void CollapseItemByNode(::ByRef<::Unity::Hierarchy::HierarchyNode> node, bool collapseAllChildren, bool refresh);
 
-  /// @brief Method CreateNode, addr 0x6a1d3f4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CreateNode, addr 0x6a86278, size 0xb0, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyNode CreateNode(::ByRef<::Unity::Hierarchy::HierarchyNode> parent);
 
-  /// @brief Method DisposeHierarchy, addr 0x6a19fc8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DisposeHierarchy, addr 0x6a82e4c, size 0x64, virtual false, abstract: false, final false
   inline void DisposeHierarchy();
 
-  /// @brief Method Exists, addr 0x6a1c374, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Exists, addr 0x6a851f8, size 0x7c, virtual false, abstract: false, final false
   inline bool Exists(int32_t id);
 
-  /// @brief Method ExpandItem, addr 0x6a1cb30, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ExpandItem, addr 0x6a859b4, size 0xd0, virtual false, abstract: false, final false
   inline void ExpandItem(int32_t id, bool expandAllChildren, bool refresh);
 
-  /// @brief Method ExpandItemByIndex, addr 0x6a1bed8, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ExpandItemByIndex, addr 0x6a84d5c, size 0x198, virtual false, abstract: false, final false
   inline void ExpandItemByIndex(int32_t index, bool expandAllChildren, bool refresh);
 
-  /// @brief Method ExpandItemByNode, addr 0x6a1c5dc, size 0x554, virtual false, abstract: false, final false
+  /// @brief Method ExpandItemByNode, addr 0x6a85460, size 0x554, virtual false, abstract: false, final false
   inline void ExpandItemByNode(::ByRef<::Unity::Hierarchy::HierarchyNode> node, bool expandAllChildren, bool refresh);
 
-  /// @brief Method Finalize, addr 0x6a19f84, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6a82e08, size 0x44, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetAllItemIds, addr 0x6a1a088, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetAllItemIds, addr 0x6a82f0c, size 0x78, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GetAllItemIds(::System::Collections::Generic::IEnumerable_1<int32_t>* rootIds);
 
-  /// @brief Method GetChildIndexForId, addr 0x6a1a70c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method GetChildIndexForId, addr 0x6a83590, size 0x200, virtual false, abstract: false, final false
   inline int32_t GetChildIndexForId(int32_t id);
 
-  /// @brief Method GetChildrenIds, addr 0x6a1a388, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetChildrenIds, addr 0x6a8320c, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GetChildrenIds(int32_t id);
 
-  /// @brief Method GetChildrenIdsByIndex, addr 0x6a1baf4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetChildrenIdsByIndex, addr 0x6a84978, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GetChildrenIdsByIndex(int32_t index);
 
-  /// @brief Method GetExpandedItemIds, addr 0x6a1d13c, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method GetExpandedItemIds, addr 0x6a85fc0, size 0x2a8, virtual false, abstract: false, final false
   inline void GetExpandedItemIds(::System::Collections::Generic::List_1<int32_t>* list);
 
-  /// @brief Method GetHierarchyNodeById, addr 0x6a1a2d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetHierarchyNodeById, addr 0x6a8315c, size 0xb0, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyNode GetHierarchyNodeById(int32_t id);
 
-  /// @brief Method GetHierarchyNodeByIndex, addr 0x6a1bb70, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetHierarchyNodeByIndex, addr 0x6a849f4, size 0x74, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyNode GetHierarchyNodeByIndex(int32_t index);
 
-  /// @brief Method GetIdForIndex, addr 0x6a1c130, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method GetIdForIndex, addr 0x6a84fb4, size 0x180, virtual true, abstract: false, final false
   inline int32_t GetIdForIndex(int32_t index);
 
-  /// @brief Method GetIndentationDepth, addr 0x6a1c410, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetIndentationDepth, addr 0x6a85294, size 0xbc, virtual false, abstract: false, final false
   inline int32_t GetIndentationDepth(int32_t id);
 
-  /// @brief Method GetIndentationDepthByIndex, addr 0x6a1ae18, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetIndentationDepthByIndex, addr 0x6a83c9c, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetIndentationDepthByIndex(int32_t index);
 
-  /// @brief Method GetIndexForId, addr 0x6a1c070, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method GetIndexForId, addr 0x6a84ef4, size 0xc0, virtual true, abstract: false, final false
   inline int32_t GetIndexForId(int32_t id);
 
-  /// @brief Method GetParentId, addr 0x6a1a120, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method GetParentId, addr 0x6a82fa4, size 0x1b8, virtual true, abstract: false, final false
   inline int32_t GetParentId(int32_t id);
 
-  /// @brief Method HasChildren, addr 0x6a1c2dc, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method HasChildren, addr 0x6a85160, size 0x98, virtual true, abstract: false, final false
   inline bool HasChildren(int32_t id);
 
-  /// @brief Method HasChildrenByIndex, addr 0x6a1aec0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HasChildrenByIndex, addr 0x6a83d44, size 0x54, virtual false, abstract: false, final false
   inline bool HasChildrenByIndex(int32_t index);
 
-  /// @brief Method InvokeBindItem, addr 0x6a1ad04, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method InvokeBindItem, addr 0x6a83b88, size 0x114, virtual true, abstract: false, final false
   inline void InvokeBindItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem, int32_t index);
 
-  /// @brief Method InvokeDestroyItem, addr 0x6a1af2c, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method InvokeDestroyItem, addr 0x6a83db0, size 0x148, virtual true, abstract: false, final false
   inline void InvokeDestroyItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem);
 
-  /// @brief Method InvokeMakeItem, addr 0x6a1ab58, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method InvokeMakeItem, addr 0x6a839dc, size 0xc0, virtual true, abstract: false, final false
   inline void InvokeMakeItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem);
 
-  /// @brief Method IsChildOf, addr 0x6a1a5c4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method IsChildOf, addr 0x6a83448, size 0x148, virtual false, abstract: false, final false
   inline bool IsChildOf(int32_t childId, int32_t id);
 
-  /// @brief Method IsExpanded, addr 0x6a1c4d4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method IsExpanded, addr 0x6a85358, size 0x108, virtual false, abstract: false, final false
   inline bool IsExpanded(int32_t id);
 
-  /// @brief Method IsExpandedByIndex, addr 0x6a1ae50, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsExpandedByIndex, addr 0x6a83cd4, size 0x50, virtual false, abstract: false, final false
   inline bool IsExpandedByIndex(int32_t index);
 
-  /// @brief Method IsIndexValid, addr 0x6a1c2b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsIndexValid, addr 0x6a85134, size 0x2c, virtual false, abstract: false, final false
   inline bool IsIndexValid(int32_t index);
 
-  /// @brief Method IsViewDataKeyEnabled, addr 0x6a1baa8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsViewDataKeyEnabled, addr 0x6a8492c, size 0x4c, virtual false, abstract: false, final false
   inline bool IsViewDataKeyEnabled();
 
-  /// @brief Method Move, addr 0x6a1a424, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method Move, addr 0x6a832a8, size 0x1a0, virtual true, abstract: false, final false
   inline void Move(int32_t id, int32_t newParentId, int32_t childIndex, bool rebuildTree);
 
   static inline ::UnityEngine::UIElements::BaseTreeViewController* New_ctor();
 
-  /// @brief Method OnItemPointerUp, addr 0x6a1b394, size 0x714, virtual false, abstract: false, final false
+  /// @brief Method OnItemPointerUp, addr 0x6a84218, size 0x714, virtual false, abstract: false, final false
   inline void OnItemPointerUp(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method OnToggleValueChanged, addr 0x6a1bd18, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method OnToggleValueChanged, addr 0x6a84b9c, size 0x154, virtual false, abstract: false, final false
   inline void OnToggleValueChanged(::UnityEngine::UIElements::ChangeEvent_1<bool>* evt);
 
-  /// @brief Method OnViewDataReadyUpdateNodes, addr 0x6a1d644, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method OnViewDataReadyUpdateNodes, addr 0x6a864c8, size 0x168, virtual false, abstract: false, final false
   inline void OnViewDataReadyUpdateNodes();
 
-  /// @brief Method PostInitRegistration, addr 0x6a1ac18, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method PostInitRegistration, addr 0x6a83a9c, size 0xec, virtual false, abstract: false, final false
   inline void PostInitRegistration(::UnityEngine::UIElements::ReusableTreeViewItem* treeItem);
 
-  /// @brief Method PreRefresh, addr 0x6a1d3e4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method PreRefresh, addr 0x6a86268, size 0x10, virtual true, abstract: false, final false
   inline void PreRefresh();
 
-  /// @brief Method RaiseItemExpandedChanged, addr 0x6a1bc68, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method RaiseItemExpandedChanged, addr 0x6a84aec, size 0xb0, virtual false, abstract: false, final false
   inline void RaiseItemExpandedChanged(int32_t id, bool isExpanded, bool isAppliedToAllChildren);
 
-  /// @brief Method RaiseItemParentChanged, addr 0x6a1ab3c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RaiseItemParentChanged, addr 0x6a839c0, size 0x1c, virtual false, abstract: false, final false
   inline void RaiseItemParentChanged(int32_t id, int32_t newParentId);
 
-  /// @brief Method UpdateHierarchy, addr 0x6a1bbe4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method UpdateHierarchy, addr 0x6a84a68, size 0x84, virtual false, abstract: false, final false
   inline void UpdateHierarchy();
 
-  /// @brief Method UpdateIdToNodeDictionary, addr 0x6a1d4a4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method UpdateIdToNodeDictionary, addr 0x6a86328, size 0x14c, virtual false, abstract: false, final false
   inline void UpdateIdToNodeDictionary(int32_t id, ::ByRef<::Unity::Hierarchy::HierarchyNode> node, bool isAdd);
 
-  /// @brief Method UpdateSortOrder, addr 0x6a1a90c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method UpdateSortOrder, addr 0x6a83790, size 0x230, virtual false, abstract: false, final false
   inline void UpdateSortOrder(::ByRef<::Unity::Hierarchy::HierarchyNode> newParent, ::ByRef<::Unity::Hierarchy::HierarchyNode> insertedNode, int32_t insertedIndex);
 
   constexpr ::System::Action_1<::UnityEngine::UIElements::TreeViewExpansionChangedArgs*>* const& __cordl_internal_get_itemExpandedChanged() const;
@@ -1050,32 +1050,32 @@ public:
 
   constexpr void __cordl_internal_set_m_TreeViewDataProperty(::Unity::Hierarchy::IHierarchyProperty_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x6a19d74, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a82bf8, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_itemExpandedChanged, addr 0x6a19bf4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_itemExpandedChanged, addr 0x6a82a78, size 0xc0, virtual false, abstract: false, final false
   inline void add_itemExpandedChanged(::System::Action_1<::UnityEngine::UIElements::TreeViewExpansionChangedArgs*>* value);
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_K_ExpandItemByIndex();
 
-  /// @brief Method get_baseTreeView, addr 0x6a19b74, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_baseTreeView, addr 0x6a829f8, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseTreeView* get_baseTreeView();
 
-  /// @brief Method get_hierarchy, addr 0x6a1a02c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hierarchy, addr 0x6a82eb0, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::Hierarchy* get_hierarchy();
 
-  /// @brief Method get_itemsSource, addr 0x6a1a034, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_itemsSource, addr 0x6a82eb8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_itemsSource();
 
-  /// @brief Method remove_itemExpandedChanged, addr 0x6a19cb4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_itemExpandedChanged, addr 0x6a82b38, size 0xc0, virtual false, abstract: false, final false
   inline void remove_itemExpandedChanged(::System::Action_1<::UnityEngine::UIElements::TreeViewExpansionChangedArgs*>* value);
 
   static inline void setStaticF_K_ExpandItemByIndex(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_hierarchy, addr 0x6a19e40, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method set_hierarchy, addr 0x6a82cc4, size 0x144, virtual false, abstract: false, final false
   inline void set_hierarchy(::Unity::Hierarchy::Hierarchy* value);
 
-  /// @brief Method set_itemsSource, addr 0x6a1a03c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method set_itemsSource, addr 0x6a82ec0, size 0x4c, virtual true, abstract: false, final false
   inline void set_itemsSource(::System::Collections::IList* value);
 
 protected:

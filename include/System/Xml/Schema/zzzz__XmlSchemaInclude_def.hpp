@@ -24,7 +24,7 @@ public:
   /// @brief Field annotation, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_annotation, put = __cordl_internal_set_annotation)) ::System::Xml::Schema::XmlSchemaAnnotation* annotation;
 
-  /// @brief Method AddAnnotation, addr 0x6015420, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x607cfac, size 0x8, virtual true, abstract: false, final false
   inline void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
 
   static inline ::System::Xml::Schema::XmlSchemaInclude* New_ctor();
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_annotation(::System::Xml::Schema::XmlSchemaAnnotation* value);
 
-  /// @brief Method .ctor, addr 0x6015414, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x607cfa0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   XmlSchemaInclude(XmlSchemaInclude const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9767 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9771 };
 
   /// @brief Field annotation, offset: 0x68, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaAnnotation* ___annotation;

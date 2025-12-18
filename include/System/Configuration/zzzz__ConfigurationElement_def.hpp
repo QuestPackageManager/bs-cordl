@@ -23,16 +23,16 @@ public:
   // Declarations
   __declspec(property(get = get_Properties)) ::System::Configuration::ConfigurationPropertyCollection* Properties;
 
-  /// @brief Method IsModified, addr 0x5d3b160, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method IsModified, addr 0x5da2cec, size 0x3c, virtual true, abstract: false, final false
   inline bool IsModified();
 
-  /// @brief Method Reset, addr 0x5d3b19c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x5da2d28, size 0x3c, virtual true, abstract: false, final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentElement);
 
-  /// @brief Method ResetModified, addr 0x5d3b1d8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method ResetModified, addr 0x5da2d64, size 0x3c, virtual true, abstract: false, final false
   inline void ResetModified();
 
-  /// @brief Method get_Properties, addr 0x5d3b124, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x5da2cb0, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -50,7 +50,7 @@ public:
   ConfigurationElement(ConfigurationElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23408 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,10 +24,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKPose {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x56a2448, size 0x278, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x57030f0, size 0x278, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x569c0f0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x56fcd98, size 0x64, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKPose get_empty();
 
   // Ctor Parameters []
@@ -43,7 +43,7 @@ public:
                     float_t nearClipPlane, float_t farClipPlane, int32_t unused0, int32_t unused1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21292 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21319 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };

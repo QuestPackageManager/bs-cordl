@@ -34,13 +34,13 @@ public:
 
   static inline ::UnityEngine::Audio::AudioMixerGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x681fe5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68879d4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioMixer, addr 0x681feb4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_audioMixer, addr 0x6887a2c, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioMixer> get_audioMixer();
 
-  /// @brief Method get_audioMixer_Injected, addr 0x6820004, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioMixer_Injected, addr 0x6887b7c, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_audioMixer_Injected(::System::IntPtr _unity_self);
 
   /// @brief Convert to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
@@ -61,7 +61,7 @@ public:
   AudioMixerGroup(AudioMixerGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20564 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20589 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

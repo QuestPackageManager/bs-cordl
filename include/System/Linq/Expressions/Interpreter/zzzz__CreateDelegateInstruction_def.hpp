@@ -37,7 +37,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::CreateDelegateInstruction* New_ctor(::System::Linq::Expressions::Interpreter::LightDelegateCreator* delegateCreator);
 
-  /// @brief Method Run, addr 0x5da21c4, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5e09d50, size 0x178, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Linq::Expressions::Interpreter::LightDelegateCreator* const& __cordl_internal_get__creator() const;
@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set__creator(::System::Linq::Expressions::Interpreter::LightDelegateCreator* value);
 
-  /// @brief Method .ctor, addr 0x5da214c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e09cd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::LightDelegateCreator* delegateCreator);
 
-  /// @brief Method get_ConsumedStack, addr 0x5da2154, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5e09ce0, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5da2180, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5e09d0c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5da2178, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5e09d04, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -73,7 +73,7 @@ public:
   CreateDelegateInstruction(CreateDelegateInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16551 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16565 };
 
   /// @brief Field _creator, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Interpreter::LightDelegateCreator* ____creator;

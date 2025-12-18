@@ -63,10 +63,10 @@ public:
 
   constexpr void __cordl_internal_set_memberInfo(::System::Reflection::MemberInfo* value);
 
-  /// @brief Method <.ctor>b__0, addr 0x5850af0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0, addr 0x58b7254, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> __ctor_b__0();
 
-  /// @brief Method .ctor, addr 0x5850a38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b719c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   WatchTexture___c__DisplayClass0_0(WatchTexture___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18402 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18417 };
 
   /// @brief Field memberInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::MemberInfo* ___memberInfo;
@@ -131,19 +131,19 @@ public:
 
   constexpr void __cordl_internal_set__getter(::System::Func_1<::UnityW<::UnityEngine::Texture2D>>* value);
 
-  /// @brief Method .ctor, addr 0x5850918, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b707c, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute);
 
-  /// @brief Method get_NumberOfValues, addr 0x5850ae8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NumberOfValues, addr 0x58b724c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_NumberOfValues();
 
-  /// @brief Method get_Texture, addr 0x584689c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Texture, addr 0x58ad000, size 0x20, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_Texture();
 
-  /// @brief Method get_Value, addr 0x5850a3c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x58b71a0, size 0x14, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method get_Values, addr 0x5850a50, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method get_Values, addr 0x58b71b4, size 0x98, virtual true, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Values();
 
 protected:
@@ -161,7 +161,7 @@ public:
   WatchTexture(WatchTexture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18418 };
 
   /// @brief Field _getter, offset: 0x40, size: 0x8, def value: None
   ::System::Func_1<::UnityW<::UnityEngine::Texture2D>>* ____getter;

@@ -38,13 +38,13 @@ public:
 
   static inline ::System::ComponentModel::WeakHashtable_WeakKeyComparer* New_ctor();
 
-  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x61cda2c, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x62355b8, size 0x160, virtual true, abstract: false, final true
   inline bool System_Collections_IEqualityComparer_Equals(::System::Object* x, ::System::Object* y);
 
-  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x61cdb8c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x6235718, size 0x20, virtual true, abstract: false, final true
   inline int32_t System_Collections_IEqualityComparer_GetHashCode(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x61cda28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62355b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IEqualityComparer"
@@ -65,7 +65,7 @@ public:
   WeakHashtable_WeakKeyComparer(WeakHashtable_WeakKeyComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11316 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11320 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -85,15 +85,15 @@ public:
   /// @brief Field _comparer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__comparer, put = setStaticF__comparer)) ::System::Collections::IEqualityComparer* _comparer;
 
-  /// @brief Method Clear, addr 0x61cd9ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x6235538, size 0x8, virtual true, abstract: false, final false
   inline void Clear();
 
   static inline ::System::ComponentModel::WeakHashtable* New_ctor();
 
-  /// @brief Method Remove, addr 0x61cd9b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x6235540, size 0x8, virtual true, abstract: false, final false
   inline void Remove(::System::Object* key);
 
-  /// @brief Method .ctor, addr 0x61cd938, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62354c4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IEqualityComparer* getStaticF__comparer();
@@ -115,7 +115,7 @@ public:
   WeakHashtable(WeakHashtable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11317 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11321 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

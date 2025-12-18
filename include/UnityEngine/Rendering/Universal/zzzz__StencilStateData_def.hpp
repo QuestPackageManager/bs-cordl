@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set_zFailOperation(::UnityEngine::Rendering::StencilOp value);
 
-  /// @brief Method .ctor, addr 0x661ce34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66849c0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +95,7 @@ public:
   StencilStateData(StencilStateData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12547 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12551 };
 
   /// @brief Field overrideStencilState, offset: 0x10, size: 0x1, def value: None
   bool ___overrideStencilState;

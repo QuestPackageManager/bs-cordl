@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set_max(float_t value);
 
-  /// @brief Method .ctor, addr 0x65ae130, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6615cbc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(float_t value, float_t max, bool overrideState);
 
-  /// @brief Method get_value, addr 0x65ae114, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x6615ca0, size 0x8, virtual true, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method set_value, addr 0x65ae11c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x6615ca8, size 0x14, virtual true, abstract: false, final false
   inline void set_value(float_t value);
 
 protected:
@@ -56,7 +56,7 @@ public:
   NoInterpMaxFloatParameter(NoInterpMaxFloatParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12321 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12325 };
 
   /// @brief Field max, offset: 0x18, size: 0x4, def value: None
   float_t ___max;

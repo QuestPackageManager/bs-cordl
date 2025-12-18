@@ -38,46 +38,46 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>*();
 
-  /// @brief Method Equals, addr 0x64a4100, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x650bc8c, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* b);
 
-  /// @brief Method Equals, addr 0x64a3f94, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x650bb20, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ProBuilder::IntVec2 p);
 
-  /// @brief Method Equals, addr 0x64a4094, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x650bc20, size 0x6c, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::Vector2 p);
 
-  /// @brief Method GetHashCode, addr 0x64a41c0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x650bd4c, size 0x80, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x64a3ebc, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x650ba48, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x64a3eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x650ba40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 vector);
 
-  /// @brief Method get_x, addr 0x64a3ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x650ba30, size 0x8, virtual false, abstract: false, final false
   inline float_t get_x();
 
-  /// @brief Method get_y, addr 0x64a3eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x650ba38, size 0x8, virtual false, abstract: false, final false
   inline float_t get_y();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>"
   constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>* i___System__IEquatable_1___UnityEngine__ProBuilder__IntVec2_();
 
-  /// @brief Method op_Equality, addr 0x64a3f70, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x650bafc, size 0x24, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::IntVec2 a, ::UnityEngine::ProBuilder::IntVec2 b);
 
-  /// @brief Method op_Implicit, addr 0x64a4244, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x650bdd0, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::IntVec2 op_Implicit___UnityEngine__ProBuilder__IntVec2(::UnityEngine::Vector2 p);
 
-  /// @brief Method op_Implicit, addr 0x64a4240, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x650bdcc, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::ProBuilder::IntVec2 p);
 
-  /// @brief Method op_Inequality, addr 0x64a4000, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x650bb8c, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::IntVec2 a, ::UnityEngine::ProBuilder::IntVec2 b);
 
-  /// @brief Method round, addr 0x64a4028, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method round, addr 0x650bbb4, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t round(float_t v);
 
   // Ctor Parameters []
@@ -88,7 +88,7 @@ public:
   constexpr IntVec2(::UnityEngine::Vector2 value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16711 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

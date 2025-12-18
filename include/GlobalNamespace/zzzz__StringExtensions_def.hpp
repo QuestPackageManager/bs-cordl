@@ -23,13 +23,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE StringExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AnyContains, addr 0x31e5cb8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method AnyContains, addr 0x3216694, size 0x88, virtual false, abstract: false, final false
   static inline bool AnyContains(::ArrayW<::StringW, ::Array<::StringW>*> stringArray, ::StringW value, ::System::StringComparison stringComparison);
 
-  /// @brief Method Contains, addr 0x31e5c90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x321666c, size 0x28, virtual false, abstract: false, final false
   static inline bool Contains(::StringW source, ::StringW substring, ::System::StringComparison comp);
 
-  /// @brief Method Truncate, addr 0x31e5bd4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Truncate, addr 0x32165b0, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW Truncate(::StringW s, int32_t length, bool appendEllipsis);
 
 protected:
@@ -47,7 +47,7 @@ public:
   StringExtensions(StringExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20513 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

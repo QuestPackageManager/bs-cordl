@@ -85,21 +85,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x31cf040, size 0x568, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31ff9dc, size 0x568, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::Screen__TransitionCoroutine_d__5* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x31cf644, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x31fffe0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x31cf64c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x31fffe8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x31cf684, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3200020, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x31cf03c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x31ff9d8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -150,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set_newRootViewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x31cf024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ff9c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -177,7 +177,7 @@ public:
   Screen__TransitionCoroutine_d__5(Screen__TransitionCoroutine_d__5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20453 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -244,13 +244,13 @@ public:
 
   static inline ::HMUI::Screen* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x31cf02c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x31ff9c8, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetRootViewController, addr 0x31cbf18, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetRootViewController, addr 0x31fc8b4, size 0xd4, virtual false, abstract: false, final false
   inline void SetRootViewController(::HMUI::ViewController* newRootViewController, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method TransitionCoroutine, addr 0x31cefbc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TransitionCoroutine, addr 0x31ff958, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* TransitionCoroutine(::HMUI::ViewController* newRootViewController, ::HMUI::ViewController_AnimationType animationType);
 
   constexpr bool const& __cordl_internal_get__isBeingDestroyed() const;
@@ -265,10 +265,10 @@ public:
 
   constexpr void __cordl_internal_set__rootViewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x31cf038, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ff9d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isBeingDestroyed, addr 0x31cefb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isBeingDestroyed, addr 0x31ff950, size 0x8, virtual false, abstract: false, final false
   inline bool get_isBeingDestroyed();
 
 protected:
@@ -286,7 +286,7 @@ public:
   Screen(Screen const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20454 };
 
   /// @brief Field _rootViewController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::ViewController> ____rootViewController;

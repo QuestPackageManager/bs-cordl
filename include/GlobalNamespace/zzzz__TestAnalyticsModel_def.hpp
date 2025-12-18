@@ -50,10 +50,10 @@ public:
 
   static inline ::GlobalNamespace::TestAnalyticsModel___c* New_ctor();
 
-  /// @brief Method <LogEvent>b__3_0, addr 0x31608b4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <LogEvent>b__3_0, addr 0x319046c, size 0xa4, virtual false, abstract: false, final false
   inline ::StringW _LogEvent_b__3_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> kvp);
 
-  /// @brief Method .ctor, addr 0x31608b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3190468, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::TestAnalyticsModel___c* getStaticF___9();
@@ -79,7 +79,7 @@ public:
   TestAnalyticsModel___c(TestAnalyticsModel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23065 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -101,33 +101,33 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAnalyticsModel"
   constexpr operator ::GlobalNamespace::IAnalyticsModel*() noexcept;
 
-  /// @brief Method LogClick, addr 0x3160534, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method LogClick, addr 0x31900ec, size 0x10c, virtual true, abstract: false, final true
   inline void LogClick(::StringW clickType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
 
-  /// @brief Method LogEditAvatarEvent, addr 0x3160114, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method LogEditAvatarEvent, addr 0x318fccc, size 0x10c, virtual true, abstract: false, final true
   inline void LogEditAvatarEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* avatarEventData);
 
-  /// @brief Method LogEvent, addr 0x315ff74, size 0x1a0, virtual true, abstract: false, final true
+  /// @brief Method LogEvent, addr 0x318fb2c, size 0x1a0, virtual true, abstract: false, final true
   inline void LogEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogExposure, addr 0x316074c, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method LogExposure, addr 0x3190304, size 0x10c, virtual true, abstract: false, final true
   inline void LogExposure(::StringW exposureType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* exposureData);
 
-  /// @brief Method LogImpression, addr 0x3160640, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method LogImpression, addr 0x31901f8, size 0x10c, virtual true, abstract: false, final true
   inline void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* impressionData);
 
-  /// @brief Method LogSessionEvent, addr 0x3160220, size 0x314, virtual true, abstract: false, final true
+  /// @brief Method LogSessionEvent, addr 0x318fdd8, size 0x314, virtual true, abstract: false, final true
   inline void LogSessionEvent(::GlobalNamespace::BeatSaberSessionEventType eventType, int32_t _);
 
   static inline ::GlobalNamespace::TestAnalyticsModel* New_ctor();
 
-  /// @brief Method OpenDataPrivacyPage, addr 0x315ff70, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OpenDataPrivacyPage, addr 0x318fb28, size 0x4, virtual true, abstract: false, final true
   inline void OpenDataPrivacyPage();
 
-  /// @brief Method .ctor, addr 0x3160858, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3190410, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0x315ff68, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0x318fb20, size 0x8, virtual true, abstract: false, final true
   inline bool get_supportsOpenDataPrivacyPage();
 
   /// @brief Convert to "::GlobalNamespace::IAnalyticsModel"
@@ -148,7 +148,7 @@ public:
   TestAnalyticsModel(TestAnalyticsModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23066 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

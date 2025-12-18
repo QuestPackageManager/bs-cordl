@@ -33,10 +33,10 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel* New_ctor();
 
-  /// @brief Method OnStateChanged, addr 0x5848c80, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnStateChanged, addr 0x58af3e4, size 0x38, virtual false, abstract: false, final false
   inline void OnStateChanged();
 
-  /// @brief Method UpdateBackground, addr 0x5848cc8, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method UpdateBackground, addr 0x58af42c, size 0x164, virtual true, abstract: false, final false
   inline void UpdateBackground();
 
   constexpr ::System::Action_1<bool>* const& __cordl_internal_get__StateChanged_k__BackingField() const;
@@ -51,19 +51,19 @@ public:
 
   constexpr void __cordl_internal_set__state(bool value);
 
-  /// @brief Method .ctor, addr 0x5848e2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58af590, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_State, addr 0x5848c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_State, addr 0x58af3c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_State();
 
-  /// @brief Method get_StateChanged, addr 0x5848cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StateChanged, addr 0x58af41c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<bool>* get_StateChanged();
 
-  /// @brief Method set_State, addr 0x5848c64, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_State, addr 0x58af3c8, size 0x1c, virtual false, abstract: false, final false
   inline void set_State(bool value);
 
-  /// @brief Method set_StateChanged, addr 0x5848cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StateChanged, addr 0x58af424, size 0x8, virtual false, abstract: false, final false
   inline void set_StateChanged(::System::Action_1<bool>* value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   ToggleWithLabel(ToggleWithLabel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18376 };
 
   /// @brief Field _state, offset: 0xa0, size: 0x1, def value: None
   bool ____state;

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::*)(uint64_t, uint64_t, ::System::Guid)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x58658b0;
+  constexpr static std::size_t addrs = 0x58cc014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::*)(
     uint64_t, uint64_t, ::System::Guid, bool)>(&::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5868264;
+  constexpr static std::size_t addrs = 0x58ce9c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::ToString)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x5868274;
+  constexpr static std::size_t addrs = 0x58ce9d8;
 
   inline static ::MethodInfo const* methodInfo() {
 

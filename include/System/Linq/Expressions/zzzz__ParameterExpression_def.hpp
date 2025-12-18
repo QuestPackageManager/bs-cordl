@@ -42,13 +42,13 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method Accept, addr 0x5d6ce0c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x5dd4998, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method GetIsByRef, addr 0x5d6ce04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIsByRef, addr 0x5dd4990, size 0x8, virtual true, abstract: false, final false
   inline bool GetIsByRef();
 
-  /// @brief Method Make, addr 0x5d6c810, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x5dd439c, size 0x564, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ParameterExpression* Make(::System::Type* type, ::StringW name, bool isByRef);
 
   static inline ::System::Linq::Expressions::ParameterExpression* New_ctor(::StringW name);
@@ -59,19 +59,19 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5d6c7ac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd4338, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_IsByRef, addr 0x5d66100, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsByRef, addr 0x5dcdc8c, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsByRef();
 
-  /// @brief Method get_Name, addr 0x5d6cdfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5dd4988, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x5d6cdf4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x5dd4980, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x5d6cdc4, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x5dd4950, size 0x30, virtual true, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:
@@ -89,7 +89,7 @@ public:
   ParameterExpression(ParameterExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16189 };
 
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;

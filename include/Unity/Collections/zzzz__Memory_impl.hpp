@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::Unmanaged_Memory_Array::IsCustom)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x62a40b4;
+  constexpr static std::size_t addrs = 0x630bc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(void*, int64_t, int64_t, ::Unity::Collections::AllocatorManager_AllocatorHandle, int64_t, int32_t)>(
     &::Unity::Collections::Unmanaged_Memory_Array::CustomResize)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x62a40c0;
+  constexpr static std::size_t addrs = 0x630bc4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(void*, int64_t, int64_t, ::Unity::Collections::AllocatorManager_AllocatorHandle, int64_t, int32_t)>(
     &::Unity::Collections::Unmanaged_Memory_Array::Resize)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x62a3f48;
+  constexpr static std::size_t addrs = 0x630bad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(int64_t, int32_t, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::Memory_Unmanaged::Allocate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x62a3f2c;
+  constexpr static std::size_t addrs = 0x630bab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::Memory_Unmanaged::Free)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x62a4094;
+  constexpr static std::size_t addrs = 0x630bc20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t)>(&::Unity::Collections::Memory::CheckByteCountIsReasonable)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x62a3e6c;
+  constexpr static std::size_t addrs = 0x630b9f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

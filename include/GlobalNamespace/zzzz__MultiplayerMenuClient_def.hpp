@@ -31,7 +31,7 @@ public:
   __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
                       put = __cordl_internal_set__nodePoseSyncStateManager)) ::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
 
-  /// @brief Method LateUpdate, addr 0x5806c6c, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x586a948, size 0x340, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MultiplayerMenuClient* New_ctor();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
 
-  /// @brief Method .ctor, addr 0x5806fac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x586ac88, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   MultiplayerMenuClient(MultiplayerMenuClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6425 };
 
   /// @brief Field _menuPlayerController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuPlayerController> ____menuPlayerController;

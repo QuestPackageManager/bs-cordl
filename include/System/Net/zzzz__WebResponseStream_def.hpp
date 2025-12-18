@@ -121,10 +121,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x6132ec8, size 0xa34, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x619aa54, size 0xa34, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x61338fc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x619b488, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -149,7 +149,7 @@ public:
                                                ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11638 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -241,13 +241,13 @@ public:
 
   static inline ::System::Net::WebResponseStream___c__DisplayClass41_0* New_ctor();
 
-  /// @brief Method <ProcessRead>b__0, addr 0x613397c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <ProcessRead>b__0, addr 0x619b508, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* _ProcessRead_b__0(::System::Threading::CancellationToken ct);
 
-  /// @brief Method <ProcessRead>b__1, addr 0x61339b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <ProcessRead>b__1, addr 0x619b544, size 0x44, virtual false, abstract: false, final false
   inline void _ProcessRead_b__1();
 
-  /// @brief Method <ProcessRead>b__2, addr 0x61339fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <ProcessRead>b__2, addr 0x619b588, size 0x20, virtual false, abstract: false, final false
   inline bool _ProcessRead_b__2();
 
   constexpr ::System::Net::WebResponseStream* const& __cordl_internal_get___4__this() const;
@@ -274,7 +274,7 @@ public:
 
   constexpr void __cordl_internal_set_size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6131ac4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6199650, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -292,7 +292,7 @@ public:
   WebResponseStream___c__DisplayClass41_0(WebResponseStream___c__DisplayClass41_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11639 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::System::Net::WebResponseStream* _____4__this;
@@ -331,10 +331,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x6133a1c, size 0x628, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x619b5a8, size 0x628, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x6134044, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x619bbd0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -356,7 +356,7 @@ public:
                                                        ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11640 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -417,10 +417,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x61340c4, size 0xb8c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x619bc50, size 0xb8c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x6134c50, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x619c7dc, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -444,7 +444,7 @@ public:
                                                   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::ArrayW<uint8_t, ::Array<uint8_t>*>> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11641 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -516,10 +516,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x6134cbc, size 0x7d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x619c848, size 0x7d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x6135490, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x619d01c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -540,7 +540,7 @@ public:
                                                    int32_t _position_5__4, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11642 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -671,39 +671,39 @@ public:
   /// @brief Field read_eof, offset 0x7c, size 0x1
   __declspec(property(get = __cordl_internal_get_read_eof, put = __cordl_internal_set_read_eof)) bool read_eof;
 
-  /// @brief Method Close_internal, addr 0x6132424, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Close_internal, addr 0x6199fb0, size 0x8c, virtual true, abstract: false, final false
   inline void Close_internal(::ByRef<bool> disposed);
 
-  /// @brief Method GetReadException, addr 0x61324b0, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method GetReadException, addr 0x619a03c, size 0x318, virtual false, abstract: false, final false
   inline ::System::Net::WebException* GetReadException(::System::Net::WebExceptionStatus status, ::System::Exception* error, ::StringW where);
 
-  /// @brief Method GetResponse, addr 0x61327c8, size 0x700, virtual false, abstract: false, final false
+  /// @brief Method GetResponse, addr 0x619a354, size 0x700, virtual false, abstract: false, final false
   inline bool GetResponse(::System::Net::BufferOffsetSize* buffer, ::ByRef<int32_t> pos, ::ByRef<::System::Net::ReadState> state);
 
-  /// @brief Method InitReadAsync, addr 0x612c9d0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InitReadAsync, addr 0x619455c, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitReadAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Initialize, addr 0x6131c24, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x61997b0, size 0x58c, virtual false, abstract: false, final false
   inline void Initialize(::System::Net::BufferOffsetSize* buffer);
 
   static inline ::System::Net::WebResponseStream* New_ctor(::System::Net::WebRequestStream* request);
 
-  /// @brief Method ProcessRead, addr 0x6131750, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method ProcessRead, addr 0x61992dc, size 0x374, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAllAsync, addr 0x61322a4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ReadAllAsync, addr 0x6199e30, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReadAllAsync(bool resending, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAllAsyncInner, addr 0x61321b0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ReadAllAsyncInner, addr 0x6199d3c, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* ReadAllAsyncInner(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsync, addr 0x613163c, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x61991c8, size 0x114, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method TryReadFromBufferedContent, addr 0x6131ac8, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method TryReadFromBufferedContent, addr 0x6199654, size 0xd0, virtual true, abstract: false, final false
   inline bool TryReadFromBufferedContent(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::ByRef<int32_t> result);
 
-  /// @brief Method WriteAsync, addr 0x6132378, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x6199f04, size 0xac, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
   constexpr bool const& __cordl_internal_get__ChunkedRead_k__BackingField() const;
@@ -790,55 +790,55 @@ public:
 
   constexpr void __cordl_internal_set_read_eof(bool value);
 
-  /// @brief Method .ctor, addr 0x612c95c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61944e8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebRequestStream* request);
 
-  /// @brief Method get_CanRead, addr 0x613161c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x61991a8, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanWrite, addr 0x6131624, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x61991b0, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_ChunkedRead, addr 0x613162c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChunkedRead, addr 0x61991b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ChunkedRead();
 
-  /// @brief Method get_ExpectContent, addr 0x6131b98, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_ExpectContent, addr 0x6199724, size 0x8c, virtual false, abstract: false, final false
   inline bool get_ExpectContent();
 
-  /// @brief Method get_Headers, addr 0x61315cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x6199158, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_KeepAlive, addr 0x613160c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeepAlive, addr 0x6199198, size 0x8, virtual false, abstract: false, final false
   inline bool get_KeepAlive();
 
-  /// @brief Method get_RequestStream, addr 0x61315c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestStream, addr 0x6199150, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebRequestStream* get_RequestStream();
 
-  /// @brief Method get_StatusCode, addr 0x61315dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusCode, addr 0x6199168, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpStatusCode get_StatusCode();
 
-  /// @brief Method get_StatusDescription, addr 0x61315ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusDescription, addr 0x6199178, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_StatusDescription();
 
-  /// @brief Method get_Version, addr 0x61315fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x6199188, size 0x8, virtual false, abstract: false, final false
   inline ::System::Version* get_Version();
 
-  /// @brief Method set_ChunkedRead, addr 0x6131634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ChunkedRead, addr 0x61991c0, size 0x8, virtual false, abstract: false, final false
   inline void set_ChunkedRead(bool value);
 
-  /// @brief Method set_Headers, addr 0x61315d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Headers, addr 0x6199160, size 0x8, virtual false, abstract: false, final false
   inline void set_Headers(::System::Net::WebHeaderCollection* value);
 
-  /// @brief Method set_KeepAlive, addr 0x6131614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeepAlive, addr 0x61991a0, size 0x8, virtual false, abstract: false, final false
   inline void set_KeepAlive(bool value);
 
-  /// @brief Method set_StatusCode, addr 0x61315e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusCode, addr 0x6199170, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusCode(::System::Net::HttpStatusCode value);
 
-  /// @brief Method set_StatusDescription, addr 0x61315f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusDescription, addr 0x6199180, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusDescription(::StringW value);
 
-  /// @brief Method set_Version, addr 0x6131604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Version, addr 0x6199190, size 0x8, virtual false, abstract: false, final false
   inline void set_Version(::System::Version* value);
 
 protected:
@@ -856,7 +856,7 @@ public:
   WebResponseStream(WebResponseStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11643 };
 
   /// @brief Field innerStream, offset: 0x58, size: 0x8, def value: None
   ::System::Net::WebReadStream* ___innerStream;

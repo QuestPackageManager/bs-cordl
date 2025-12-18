@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::PackedMatrix (*)(::ByRef<::UnityEngine::Matrix4x4>)>(
     &::UnityEngine::Rendering::PackedMatrix::FromMatrix4x4)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6608f78;
+  constexpr static std::size_t addrs = 0x6670b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::PackedMatrix (*)(::ByRef<::Unity::Mathematics::float4x4>)>(
     &::UnityEngine::Rendering::PackedMatrix::FromFloat4x4)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6608fb8;
+  constexpr static std::size_t addrs = 0x6670b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

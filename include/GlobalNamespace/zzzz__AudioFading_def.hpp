@@ -34,18 +34,18 @@ public:
   /// @brief Field _targetVolume, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__targetVolume, put = __cordl_internal_set__targetVolume)) float_t _targetVolume;
 
-  /// @brief Method FadeIn, addr 0x56a7de4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x5708a8c, size 0x24, virtual false, abstract: false, final false
   inline void FadeIn();
 
-  /// @brief Method FadeOut, addr 0x56a7ef4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x5708b9c, size 0x20, virtual false, abstract: false, final false
   inline void FadeOut();
 
   static inline ::GlobalNamespace::AudioFading* New_ctor();
 
-  /// @brief Method Start, addr 0x56a7d88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5708a30, size 0x5c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x56a7e08, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5708ab0, size 0xec, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__targetVolume(float_t value);
 
-  /// @brief Method .ctor, addr 0x56a7f14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5708bbc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

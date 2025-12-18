@@ -58,7 +58,7 @@ public:
   static ::UnityEngine::Rendering::Universal::RenderGraphSettings_Version const Initial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12922 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -100,7 +100,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::RenderGraphSettings* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x669a1e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6701d74, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
   constexpr bool const& __cordl_internal_get_m_EnableRenderCompatibilityMode() const;
@@ -115,19 +115,19 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(::UnityEngine::Rendering::Universal::RenderGraphSettings_Version value);
 
-  /// @brief Method .ctor, addr 0x669a310, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6701e9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enableRenderCompatibilityMode, addr 0x669a1f0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_enableRenderCompatibilityMode, addr 0x6701d7c, size 0xb0, virtual false, abstract: false, final false
   inline bool get_enableRenderCompatibilityMode();
 
-  /// @brief Method get_version, addr 0x669a1e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6701d6c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
   constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
 
-  /// @brief Method set_enableRenderCompatibilityMode, addr 0x669a2a0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_enableRenderCompatibilityMode, addr 0x6701e2c, size 0x70, virtual false, abstract: false, final false
   inline void set_enableRenderCompatibilityMode(bool value);
 
 protected:
@@ -145,7 +145,7 @@ public:
   RenderGraphSettings(RenderGraphSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12923 };
 
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::RenderGraphSettings_Version ___m_Version;

@@ -25,13 +25,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Create, addr 0x58e6374, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x594ccc0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RandomNumberGenerator* Create();
 
-  /// @brief Method Dispose, addr 0x58e63cc, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x594cd18, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x58e643c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x594cd88, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   /// @brief Method GetBytes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -39,7 +39,7 @@ public:
 
   static inline ::System::Security::Cryptography::RandomNumberGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58e6370, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x594ccbc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"

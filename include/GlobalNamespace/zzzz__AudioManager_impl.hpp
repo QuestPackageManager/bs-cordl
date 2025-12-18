@@ -20,260 +20,260 @@ constexpr ::GlobalNamespace::AudioManager_AudioFadeType::AudioManager_AudioFadeT
 constexpr ::GlobalNamespace::AudioManager_AudioFadeType::AudioManager_AudioFadeType() {}
 constexpr ::GlobalNamespace::AudioManager_AudioFadeType GlobalNamespace::AudioManager_AudioFadeType::FadeIn{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::AudioManager_AudioFadeType GlobalNamespace::AudioManager_AudioFadeType::FadeOut{ static_cast<int32_t>(0x1) };
-//  Writing Method size for method: ::GlobalNamespace::AudioManager__FadeMainVolume_d__46._ctor
+//  Writing Method size for method: ::GlobalNamespace::AudioManager__FadeMainVolume_d__47._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager__FadeMainVolume_d__46::*)(int32_t)>(
-    &::GlobalNamespace::AudioManager__FadeMainVolume_d__46::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager__FadeMainVolume_d__47::*)(int32_t)>(
+    &::GlobalNamespace::AudioManager__FadeMainVolume_d__47::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x56a880c;
+  constexpr static std::size_t addrs = 0x57094b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__46*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__47*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AudioManager__FadeMainVolume_d__46.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::AudioManager__FadeMainVolume_d__47.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager__FadeMainVolume_d__46::*)()>(
-    &::GlobalNamespace::AudioManager__FadeMainVolume_d__46::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager__FadeMainVolume_d__47::*)()>(
+    &::GlobalNamespace::AudioManager__FadeMainVolume_d__47::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x56a883c;
+  constexpr static std::size_t addrs = 0x57094f0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__46*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__47*>::get(),
                                                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AudioManager__FadeMainVolume_d__46.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::AudioManager__FadeMainVolume_d__47.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AudioManager__FadeMainVolume_d__46::*)()>(
-    &::GlobalNamespace::AudioManager__FadeMainVolume_d__46::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AudioManager__FadeMainVolume_d__47::*)()>(
+    &::GlobalNamespace::AudioManager__FadeMainVolume_d__47::MoveNext)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x56a8840;
+  constexpr static std::size_t addrs = 0x57094f4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__46*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__47*>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AudioManager__FadeMainVolume_d__46.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::AudioManager__FadeMainVolume_d__47.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::AudioManager__FadeMainVolume_d__46::*)()>(
-    &::GlobalNamespace::AudioManager__FadeMainVolume_d__46::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::AudioManager__FadeMainVolume_d__47::*)()>(
+    &::GlobalNamespace::AudioManager__FadeMainVolume_d__47::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x56a896c;
+  constexpr static std::size_t addrs = 0x5709620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__46*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__47*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AudioManager__FadeMainVolume_d__46.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::AudioManager__FadeMainVolume_d__47.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager__FadeMainVolume_d__46::*)()>(
-    &::GlobalNamespace::AudioManager__FadeMainVolume_d__46::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager__FadeMainVolume_d__47::*)()>(
+    &::GlobalNamespace::AudioManager__FadeMainVolume_d__47::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x56a8974;
+  constexpr static std::size_t addrs = 0x5709628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__46*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__47*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AudioManager__FadeMainVolume_d__46.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::AudioManager__FadeMainVolume_d__47.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::AudioManager__FadeMainVolume_d__46::*)()>(
-    &::GlobalNamespace::AudioManager__FadeMainVolume_d__46::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::AudioManager__FadeMainVolume_d__47::*)()>(
+    &::GlobalNamespace::AudioManager__FadeMainVolume_d__47::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x56a89ac;
+  constexpr static std::size_t addrs = 0x5709660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__46*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__47*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::AudioManager_AudioFadeType& GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_get_fadeType() {
+constexpr ::GlobalNamespace::AudioManager_AudioFadeType& GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_get_fadeType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fadeType;
 }
-constexpr ::GlobalNamespace::AudioManager_AudioFadeType const& GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_get_fadeType() const {
+constexpr ::GlobalNamespace::AudioManager_AudioFadeType const& GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_get_fadeType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___fadeType;
 }
-constexpr void GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_set_fadeType(::GlobalNamespace::AudioManager_AudioFadeType value) {
+constexpr void GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_set_fadeType(::GlobalNamespace::AudioManager_AudioFadeType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fadeType = value;
 }
-constexpr ::GlobalNamespace::AudioManager*& GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_get___4__this() {
+constexpr ::GlobalNamespace::AudioManager*& GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::GlobalNamespace::AudioManager* const& GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_get___4__this() const {
+constexpr ::GlobalNamespace::AudioManager* const& GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_set___4__this(::GlobalNamespace::AudioManager* value) {
+constexpr void GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_set___4__this(::GlobalNamespace::AudioManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_get_duration() {
+constexpr float_t& GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_get_duration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___duration;
 }
-constexpr float_t const& GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_get_duration() const {
+constexpr float_t const& GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_get_duration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___duration;
 }
-constexpr void GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_set_duration(float_t value) {
+constexpr void GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_set_duration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___duration = value;
 }
-constexpr float_t& GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_get__fadeFrom_5__2() {
+constexpr float_t& GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_get__fadeFrom_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeFrom_5__2;
 }
-constexpr float_t const& GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_get__fadeFrom_5__2() const {
+constexpr float_t const& GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_get__fadeFrom_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeFrom_5__2;
 }
-constexpr void GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_set__fadeFrom_5__2(float_t value) {
+constexpr void GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_set__fadeFrom_5__2(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fadeFrom_5__2 = value;
 }
-constexpr float_t& GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_get__fadeTo_5__3() {
+constexpr float_t& GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_get__fadeTo_5__3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeTo_5__3;
 }
-constexpr float_t const& GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_get__fadeTo_5__3() const {
+constexpr float_t const& GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_get__fadeTo_5__3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeTo_5__3;
 }
-constexpr void GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_set__fadeTo_5__3(float_t value) {
+constexpr void GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_set__fadeTo_5__3(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fadeTo_5__3 = value;
 }
-constexpr float_t& GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_get__timer_5__4() {
+constexpr float_t& GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_get__timer_5__4() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timer_5__4;
 }
-constexpr float_t const& GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_get__timer_5__4() const {
+constexpr float_t const& GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_get__timer_5__4() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timer_5__4;
 }
-constexpr void GlobalNamespace::AudioManager__FadeMainVolume_d__46::__cordl_internal_set__timer_5__4(float_t value) {
+constexpr void GlobalNamespace::AudioManager__FadeMainVolume_d__47::__cordl_internal_set__timer_5__4(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timer_5__4 = value;
 }
-inline void GlobalNamespace::AudioManager__FadeMainVolume_d__46::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::AudioManager__FadeMainVolume_d__47::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__46*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__47*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::AudioManager__FadeMainVolume_d__46::System_IDisposable_Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__46*>::get(),
+inline void GlobalNamespace::AudioManager__FadeMainVolume_d__47::System_IDisposable_Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__47*>::get(),
                                                                              "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::AudioManager__FadeMainVolume_d__46::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__46*>::get(),
+inline bool GlobalNamespace::AudioManager__FadeMainVolume_d__47::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__47*>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::AudioManager__FadeMainVolume_d__46::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::AudioManager__FadeMainVolume_d__47::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__46*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__47*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::AudioManager__FadeMainVolume_d__46::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::AudioManager__FadeMainVolume_d__47::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__46*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__47*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::AudioManager__FadeMainVolume_d__46::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::AudioManager__FadeMainVolume_d__47::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__46*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager__FadeMainVolume_d__47*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::AudioManager__FadeMainVolume_d__46* GlobalNamespace::AudioManager__FadeMainVolume_d__46::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AudioManager__FadeMainVolume_d__46*>(__1__state));
+inline ::GlobalNamespace::AudioManager__FadeMainVolume_d__47* GlobalNamespace::AudioManager__FadeMainVolume_d__47::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AudioManager__FadeMainVolume_d__47*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::AudioManager__FadeMainVolume_d__46::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::AudioManager__FadeMainVolume_d__47::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::AudioManager__FadeMainVolume_d__46::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::AudioManager__FadeMainVolume_d__47::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::AudioManager__FadeMainVolume_d__46::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::AudioManager__FadeMainVolume_d__47::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::AudioManager__FadeMainVolume_d__46::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::AudioManager__FadeMainVolume_d__47::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::AudioManager__FadeMainVolume_d__46::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::AudioManager__FadeMainVolume_d__47::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::AudioManager__FadeMainVolume_d__46::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::AudioManager__FadeMainVolume_d__47::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::AudioManager__FadeMainVolume_d__46::AudioManager__FadeMainVolume_d__46() {}
+constexpr ::GlobalNamespace::AudioManager__FadeMainVolume_d__47::AudioManager__FadeMainVolume_d__47() {}
 //  Writing Method size for method: ::GlobalNamespace::AudioManager.get_sfxLatency
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::get_sfxLatency)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x56a8030;
+  constexpr static std::size_t addrs = 0x5708cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager*>::get(), "get_sfxLatency",
@@ -286,8 +286,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager::*)(
     ::GlobalNamespace::AudioManagerConfigSO*, ::GlobalNamespace::GameScenesManager*, ::GlobalNamespace::ICoroutineStarter*)>(&::GlobalNamespace::AudioManager::_ctor)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x56a809c;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x5708d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::Finalize)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x56a8220;
+  constexpr static std::size_t addrs = 0x5708ed0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::get_mainVolumeFade)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x56a8330;
+  constexpr static std::size_t addrs = 0x5708fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager*>::get(), "get_mainVolumeFade",
@@ -330,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::get_mainVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x56a8338;
+  constexpr static std::size_t addrs = 0x5708fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager*>::get(), "get_mainVolume",
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager::*)(float_t)>(&::GlobalNamespace::AudioManager::set_mainVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x56a8340;
+  constexpr static std::size_t addrs = 0x5708ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -356,8 +356,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager::*)(float_t)>(&::GlobalNamespace::AudioManager::set_musicVolume)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x56a83d4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5709084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -371,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::get_sfxVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x56a8440;
+  constexpr static std::size_t addrs = 0x57090ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager*>::get(), "get_sfxVolume",
@@ -384,7 +384,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager::*)(float_t)>(&::GlobalNamespace::AudioManager::set_sfxVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x56a74bc;
+  constexpr static std::size_t addrs = 0x5708164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::get_sfxEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x56a84bc;
+  constexpr static std::size_t addrs = 0x5709168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager*>::get(), "get_sfxEnabled",
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager::*)(bool)>(&::GlobalNamespace::AudioManager::set_sfxEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x56a84c4;
+  constexpr static std::size_t addrs = 0x5709170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -425,7 +425,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager::*)(float_t)>(&::GlobalNamespace::AudioManager::set_musicPitch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x56a84cc;
+  constexpr static std::size_t addrs = 0x5709178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -439,7 +439,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager::*)(float_t)>(&::GlobalNamespace::AudioManager::set_musicSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x56a85e8;
+  constexpr static std::size_t addrs = 0x5709294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -454,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager::*)(::GlobalNamespace::AudioManager_AudioFadeType, float_t)>(
     &::GlobalNamespace::AudioManager::StartMainVolumeFade)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x56a864c;
+  constexpr static std::size_t addrs = 0x57092f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::AudioManager::*)(::GlobalNamespace::AudioManager_AudioFadeType, float_t)>(&::GlobalNamespace::AudioManager::FadeMainVolume)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x56a8798;
+  constexpr static std::size_t addrs = 0x5709444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -485,10 +485,23 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::UpdateMusicPitch)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x56a84d4;
+  constexpr static std::size_t addrs = 0x5709180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager*>::get(), "UpdateMusicPitch",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::AudioManager.UpdateMusicVolume
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::UpdateMusicVolume)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x570908c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager*>::get(), "UpdateMusicVolume",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -498,7 +511,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::UpdateMainVolume)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x56a8348;
+  constexpr static std::size_t addrs = 0x5708ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager*>::get(), "UpdateMainVolume",
@@ -511,7 +524,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::UpdateSfxVolume)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x56a8448;
+  constexpr static std::size_t addrs = 0x57090f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager*>::get(), "UpdateSfxVolume",
@@ -524,7 +537,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::UpdateMusicSpeed)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x56a85f0;
+  constexpr static std::size_t addrs = 0x570929c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager*>::get(), "UpdateMusicSpeed",
@@ -536,8 +549,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManager::*)()>(&::GlobalNamespace::AudioManager::OnResetAudio)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x56a8814;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x57094c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager*>::get(), "OnResetAudio",
@@ -652,6 +665,18 @@ constexpr float_t const& GlobalNamespace::AudioManager::__cordl_internal_get__mu
 constexpr void GlobalNamespace::AudioManager::__cordl_internal_set__musicSpeed(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____musicSpeed = value;
+}
+constexpr float_t& GlobalNamespace::AudioManager::__cordl_internal_get__musicVolume() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____musicVolume;
+}
+constexpr float_t const& GlobalNamespace::AudioManager::__cordl_internal_get__musicVolume() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____musicVolume;
+}
+constexpr void GlobalNamespace::AudioManager::__cordl_internal_set__musicVolume(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____musicVolume = value;
 }
 constexpr float_t& GlobalNamespace::AudioManager::__cordl_internal_get__musicVolumeOffset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -792,6 +817,11 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::AudioManager::FadeMa
 }
 inline void GlobalNamespace::AudioManager::UpdateMusicPitch() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager*>::get(), "UpdateMusicPitch",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::AudioManager::UpdateMusicVolume() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManager*>::get(), "UpdateMusicVolume",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }

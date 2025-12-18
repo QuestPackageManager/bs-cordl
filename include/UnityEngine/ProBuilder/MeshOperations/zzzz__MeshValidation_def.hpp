@@ -114,7 +114,7 @@ public:
   static ::UnityEngine::ProBuilder::MeshOperations::MeshValidation_AttributeValidationStrategy const Resize;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16853 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -151,16 +151,16 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshValidation___c* New_ctor();
 
-  /// @brief Method <EnsureFacesAreComposedOfContiguousTriangles>b__4_0, addr 0x6519c04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <EnsureFacesAreComposedOfContiguousTriangles>b__4_0, addr 0x6581790, size 0x28, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _EnsureFacesAreComposedOfContiguousTriangles_b__4_0(::UnityEngine::ProBuilder::Triangle x);
 
-  /// @brief Method <EnsureFacesAreComposedOfContiguousTriangles>b__4_1, addr 0x6519c2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <EnsureFacesAreComposedOfContiguousTriangles>b__4_1, addr 0x65817b8, size 0x28, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _EnsureFacesAreComposedOfContiguousTriangles_b__4_1(::UnityEngine::ProBuilder::Triangle x);
 
-  /// @brief Method <RemoveUnusedVertices>b__7_0, addr 0x6519c54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RemoveUnusedVertices>b__7_0, addr 0x65817e0, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _RemoveUnusedVertices_b__7_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method .ctor, addr 0x6519c00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x658178c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshValidation___c* getStaticF___9();
@@ -194,7 +194,7 @@ public:
   MeshValidation___c(MeshValidation___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16854 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -214,7 +214,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshValidation___c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <RebuildSelectionIndexes>b__0, addr 0x6519c6c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <RebuildSelectionIndexes>b__0, addr 0x65817f8, size 0x68, virtual false, abstract: false, final false
   inline bool _RebuildSelectionIndexes_b__0(::UnityEngine::ProBuilder::Face* x);
 
   constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> const& __cordl_internal_get_mesh() const;
@@ -223,7 +223,7 @@ public:
 
   constexpr void __cordl_internal_set_mesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value);
 
-  /// @brief Method .ctor, addr 0x65192b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6580e40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -241,7 +241,7 @@ public:
   MeshValidation___c__DisplayClass10_0(MeshValidation___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16855 };
 
   /// @brief Field mesh, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> ___mesh;
@@ -269,7 +269,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshValidation___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <CollectFaceGroups>b__0, addr 0x6519cd4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <CollectFaceGroups>b__0, addr 0x6581860, size 0x38, virtual false, abstract: false, final false
   inline bool _CollectFaceGroups_b__0(::UnityEngine::ProBuilder::Triangle x);
 
   constexpr ::System::Func_2<::UnityEngine::ProBuilder::Triangle, bool>* const& __cordl_internal_get___9__0() const;
@@ -284,7 +284,7 @@ public:
 
   constexpr void __cordl_internal_set_triangle(::UnityEngine::ProBuilder::Triangle value);
 
-  /// @brief Method .ctor, addr 0x6517ddc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x657f968, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -302,7 +302,7 @@ public:
   MeshValidation___c__DisplayClass5_0(MeshValidation___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16856 };
 
   /// @brief Field triangle, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::ProBuilder::Triangle ___triangle;
@@ -335,20 +335,20 @@ public:
 
   using __c__DisplayClass5_0 = ::UnityEngine::ProBuilder::MeshOperations::MeshValidation___c__DisplayClass5_0;
 
-  /// @brief Method CollectFaceGroups, addr 0x65179e0, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method CollectFaceGroups, addr 0x657f56c, size 0x3fc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Triangle>*>* CollectFaceGroups(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                                                                         ::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method ContainsDegenerateTriangles, addr 0x6516c74, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ContainsDegenerateTriangles, addr 0x657e800, size 0x14, virtual false, abstract: false, final false
   static inline bool ContainsDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method ContainsDegenerateTriangles, addr 0x6517088, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ContainsDegenerateTriangles, addr 0x657ec14, size 0x14c, virtual false, abstract: false, final false
   static inline bool ContainsDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method ContainsDegenerateTriangles, addr 0x6516c88, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method ContainsDegenerateTriangles, addr 0x657e814, size 0x400, virtual false, abstract: false, final false
   static inline bool ContainsDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method ContainsNonContiguousTriangles, addr 0x65171d4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ContainsNonContiguousTriangles, addr 0x657ed60, size 0x134, virtual false, abstract: false, final false
   static inline bool ContainsNonContiguousTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
   /// @brief Method EnsureArraySize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -356,7 +356,7 @@ public:
   static inline void EnsureArraySize(::ByRef<::ArrayW<T, ::Array<T>*>> attribute, int32_t expectedVertexCount,
                                      ::UnityEngine::ProBuilder::MeshOperations::MeshValidation_AttributeValidationStrategy strategy, T fill);
 
-  /// @brief Method EnsureFacesAreComposedOfContiguousTriangles, addr 0x6517308, size 0x6d8, virtual false, abstract: false, final false
+  /// @brief Method EnsureFacesAreComposedOfContiguousTriangles, addr 0x657ee94, size 0x6d8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*
   EnsureFacesAreComposedOfContiguousTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
@@ -365,38 +365,38 @@ public:
   static inline void EnsureListSize(::ByRef<::System::Collections::Generic::List_1<T>*> attribute, int32_t expectedVertexCount,
                                     ::UnityEngine::ProBuilder::MeshOperations::MeshValidation_AttributeValidationStrategy strategy, T fill);
 
-  /// @brief Method EnsureMeshIsValid, addr 0x65192b8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method EnsureMeshIsValid, addr 0x6580e44, size 0x140, virtual false, abstract: false, final false
   static inline bool EnsureMeshIsValid(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ByRef<int32_t> removedVertices);
 
-  /// @brief Method EnsureRealNumbers, addr 0x6519610, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method EnsureRealNumbers, addr 0x658119c, size 0x1cc, virtual false, abstract: false, final false
   static inline void EnsureRealNumbers(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* attribute);
 
-  /// @brief Method EnsureRealNumbers, addr 0x65197dc, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method EnsureRealNumbers, addr 0x6581368, size 0x1ec, virtual false, abstract: false, final false
   static inline void EnsureRealNumbers(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* attribute);
 
-  /// @brief Method EnsureRealNumbers, addr 0x65199c8, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method EnsureRealNumbers, addr 0x6581554, size 0x1e4, virtual false, abstract: false, final false
   static inline void EnsureRealNumbers(::System::Collections::Generic::IList_1<::UnityEngine::Vector4>* attribute);
 
-  /// @brief Method EnsureValidAttributes, addr 0x65193f8, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method EnsureValidAttributes, addr 0x6580f84, size 0x218, virtual false, abstract: false, final false
   static inline void EnsureValidAttributes(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method RebuildEdges, addr 0x6518c48, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method RebuildEdges, addr 0x65807d4, size 0x464, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* RebuildEdges(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges,
                                                                                                       ::System::Collections::Generic::List_1<int32_t>* removed);
 
-  /// @brief Method RebuildIndexes, addr 0x6518838, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method RebuildIndexes, addr 0x65803c4, size 0x410, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<int32_t>* RebuildIndexes(::System::Collections::Generic::IEnumerable_1<int32_t>* indices,
                                                                                 ::System::Collections::Generic::List_1<int32_t>* removed);
 
-  /// @brief Method RebuildSelectionIndexes, addr 0x65190ac, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method RebuildSelectionIndexes, addr 0x6580c38, size 0x208, virtual false, abstract: false, final false
   static inline void RebuildSelectionIndexes(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ByRef<::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>> faces,
                                              ::ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>> edges, ::ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> indices,
                                              ::System::Collections::Generic::IEnumerable_1<int32_t>* removed);
 
-  /// @brief Method RemoveDegenerateTriangles, addr 0x6517de0, size 0xa58, virtual false, abstract: false, final false
+  /// @brief Method RemoveDegenerateTriangles, addr 0x657f96c, size 0xa58, virtual false, abstract: false, final false
   static inline bool RemoveDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<int32_t>* removed);
 
-  /// @brief Method RemoveUnusedVertices, addr 0x6514b94, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method RemoveUnusedVertices, addr 0x657c720, size 0x380, virtual false, abstract: false, final false
   static inline bool RemoveUnusedVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<int32_t>* removed);
 
 protected:
@@ -414,7 +414,7 @@ public:
   MeshValidation(MeshValidation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16843 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16857 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

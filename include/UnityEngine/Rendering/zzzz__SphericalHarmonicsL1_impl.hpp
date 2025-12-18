@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::SphericalHarmonicsL1 (*)(
     ::UnityEngine::Rendering::SphericalHarmonicsL1, ::UnityEngine::Rendering::SphericalHarmonicsL1)>(&::UnityEngine::Rendering::SphericalHarmonicsL1::op_Addition)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x657a740;
+  constexpr static std::size_t addrs = 0x65e22cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::SphericalHarmonicsL1 (*)(
     ::UnityEngine::Rendering::SphericalHarmonicsL1, ::UnityEngine::Rendering::SphericalHarmonicsL1)>(&::UnityEngine::Rendering::SphericalHarmonicsL1::op_Subtraction)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x657a768;
+  constexpr static std::size_t addrs = 0x65e22f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::SphericalHarmonicsL1 (*)(::UnityEngine::Rendering::SphericalHarmonicsL1, float_t)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL1::op_Multiply)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x657a790;
+  constexpr static std::size_t addrs = 0x65e231c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::SphericalHarmonicsL1 (*)(::UnityEngine::Rendering::SphericalHarmonicsL1, float_t)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL1::op_Division)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x657a7b0;
+  constexpr static std::size_t addrs = 0x65e233c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rendering::SphericalHarmonicsL1, ::UnityEngine::Rendering::SphericalHarmonicsL1)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL1::op_Equality)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x657a7d4;
+  constexpr static std::size_t addrs = 0x65e2360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rendering::SphericalHarmonicsL1, ::UnityEngine::Rendering::SphericalHarmonicsL1)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL1::op_Inequality)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x657a884;
+  constexpr static std::size_t addrs = 0x65e2410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SphericalHarmonicsL1::*)(::System::Object*)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL1::Equals)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x657a920;
+  constexpr static std::size_t addrs = 0x65e24ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SphericalHarmonicsL1::*)()>(
     &::UnityEngine::Rendering::SphericalHarmonicsL1::GetHashCode)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x657a9f8;
+  constexpr static std::size_t addrs = 0x65e2584;
 
   inline static ::MethodInfo const* methodInfo() {
 

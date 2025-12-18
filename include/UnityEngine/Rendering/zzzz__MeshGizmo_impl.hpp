@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::MeshGizmo::*)(int32_t)>(&::UnityEngine::Rendering::MeshGizmo::_ctor)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x65a8a44;
+  constexpr static std::size_t addrs = 0x66105d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::MeshGizmo::*)()>(&::UnityEngine::Rendering::MeshGizmo::Clear)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x65a8bb8;
+  constexpr static std::size_t addrs = 0x6610744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MeshGizmo*>::get(), "Clear",
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::MeshGizmo::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Color)>(
     &::UnityEngine::Rendering::MeshGizmo::AddWireCube)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x65a8c60;
+  constexpr static std::size_t addrs = 0x66107ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::MeshGizmo::*)(
     ::UnityEngine::Matrix4x4, ::UnityEngine::Material*, ::UnityEngine::MeshTopology, ::UnityEngine::Rendering::CompareFunction, ::StringW)>(&::UnityEngine::Rendering::MeshGizmo::DrawMesh)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x65a91a4;
+  constexpr static std::size_t addrs = 0x6610d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::Rendering::MeshGizmo::*)(::UnityEngine::Matrix4x4, ::UnityEngine::Rendering::CompareFunction, ::StringW)>(&::UnityEngine::Rendering::MeshGizmo::RenderWireframe)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x65a9360;
+  constexpr static std::size_t addrs = 0x6610eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::MeshGizmo::*)()>(&::UnityEngine::Rendering::MeshGizmo::Dispose)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x65a939c;
+  constexpr static std::size_t addrs = 0x6610f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::MeshGizmo*>::get(), "Dispose",
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::MeshGizmo::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::ByRef<::UnityEngine::Rendering::MeshGizmo___c__DisplayClass10_0>)>(&::UnityEngine::Rendering::MeshGizmo::_AddWireCube_g__AddEdge_10_0)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x65a8e80;
+  constexpr static std::size_t addrs = 0x6610a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

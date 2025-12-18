@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NegateInstruction_NegateInt64* New_ctor();
 
-  /// @brief Method Run, addr 0x5d9a400, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5e01f8c, size 0x8c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5d9a30c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e01e98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   NegateInstruction_NegateInt64(NegateInstruction_NegateInt64 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16475 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

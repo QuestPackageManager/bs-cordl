@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GCHandlePool::*)()>(&::UnityEngine::GCHandlePool::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6800c54;
+  constexpr static std::size_t addrs = 0x68687cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GCHandlePool*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::InteropServices::GCHandle (::UnityEngine::GCHandlePool::*)(::System::Object*)>(
     &::UnityEngine::GCHandlePool::Alloc)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6802fb8;
+  constexpr static std::size_t addrs = 0x686ab30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::UnityEngine::GCHandlePool::*)(::System::Object*)>(
     &::UnityEngine::GCHandlePool::AllocHandleIfNotNull)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6803028;
+  constexpr static std::size_t addrs = 0x686aba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GCHandlePool::*)(::System::Runtime::InteropServices::GCHandle)>(
     &::UnityEngine::GCHandlePool::Free)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x68014bc;
+  constexpr static std::size_t addrs = 0x6869034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

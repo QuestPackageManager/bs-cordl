@@ -33,6 +33,7 @@ public:
     __E_ClientConnectionClosed = static_cast<int32_t>(0x8),
     __E_NetworkDisconnected = static_cast<int32_t>(0x9),
     __E_ServerTerminated = static_cast<int32_t>(0xa),
+    __E_IncompatibleServerAPI = static_cast<int32_t>(0xb),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -54,6 +55,9 @@ public:
 
   /// @brief Field ClientConnectionClosed value: I32(8)
   static ::GlobalNamespace::DisconnectedReason const ClientConnectionClosed;
+
+  /// @brief Field IncompatibleServerAPI value: I32(11)
+  static ::GlobalNamespace::DisconnectedReason const IncompatibleServerAPI;
 
   /// @brief Field Kicked value: I32(4)
   static ::GlobalNamespace::DisconnectedReason const Kicked;
@@ -83,7 +87,7 @@ public:
   static ::GlobalNamespace::DisconnectedReason const UserInitiated;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18115 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

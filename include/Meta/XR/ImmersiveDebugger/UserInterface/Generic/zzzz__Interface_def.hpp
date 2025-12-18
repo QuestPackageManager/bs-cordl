@@ -58,24 +58,24 @@ public:
   /// @brief Field _proxyInputModule, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__proxyInputModule, put = __cordl_internal_set__proxyInputModule)) ::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule* _proxyInputModule;
 
-  /// @brief Method Awake, addr 0x5848ed4, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x58af638, size 0x130, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x5849260, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x58af9c4, size 0x58, virtual true, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface* New_ctor();
 
-  /// @brief Method RefreshLayoutPreChildren, addr 0x58492b8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method RefreshLayoutPreChildren, addr 0x58afa1c, size 0x4, virtual true, abstract: false, final false
   inline void RefreshLayoutPreChildren();
 
-  /// @brief Method SetBits, addr 0x584923c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetBits, addr 0x58af9a0, size 0x24, virtual false, abstract: false, final false
   static inline int32_t SetBits(int32_t cullingMask, int32_t bitPosition1, int32_t bitPosition2, bool state);
 
-  /// @brief Method UpdateCulling, addr 0x5849168, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UpdateCulling, addr 0x58af8cc, size 0xd4, virtual false, abstract: false, final false
   inline void UpdateCulling();
 
-  /// @brief Method UpdateTransform, addr 0x5849004, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransform, addr 0x58af768, size 0x164, virtual false, abstract: false, final false
   inline void UpdateTransform();
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor> const& __cordl_internal_get__Cursor_k__BackingField() const;
@@ -114,28 +114,28 @@ public:
 
   constexpr void __cordl_internal_set__proxyInputModule(::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule* value);
 
-  /// @brief Method .ctor, addr 0x58492bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58afa20, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Camera, addr 0x584746c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Camera, addr 0x58adbd0, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_Camera();
 
-  /// @brief Method get_Cursor, addr 0x5848ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cursor, addr 0x58af608, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor> get_Cursor();
 
-  /// @brief Method get_FollowOverride, addr 0x5848eb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FollowOverride, addr 0x58af618, size 0x8, virtual true, abstract: false, final false
   inline bool get_FollowOverride();
 
-  /// @brief Method get_RotateOverride, addr 0x5848ec4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RotateOverride, addr 0x58af628, size 0x8, virtual true, abstract: false, final false
   inline bool get_RotateOverride();
 
-  /// @brief Method set_Cursor, addr 0x5848eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Cursor, addr 0x58af610, size 0x8, virtual false, abstract: false, final false
   inline void set_Cursor(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor* value);
 
-  /// @brief Method set_FollowOverride, addr 0x5848ebc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_FollowOverride, addr 0x58af620, size 0x8, virtual true, abstract: false, final false
   inline void set_FollowOverride(bool value);
 
-  /// @brief Method set_RotateOverride, addr 0x5848ecc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_RotateOverride, addr 0x58af630, size 0x8, virtual true, abstract: false, final false
   inline void set_RotateOverride(bool value);
 
 protected:
@@ -153,7 +153,7 @@ public:
   Interface(Interface const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18378 };
 
   /// @brief Field _proxyInputModule, offset: 0x70, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::UserInterface::ProxyInputModule* ____proxyInputModule;

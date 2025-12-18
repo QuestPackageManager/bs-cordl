@@ -76,24 +76,24 @@ public:
   /// @brief Field m_goodThresholdPropertyId, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_m_goodThresholdPropertyId, put = __cordl_internal_set_m_goodThresholdPropertyId)) int32_t m_goodThresholdPropertyId;
 
-  /// @brief Method InitializeShader, addr 0x62203c4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method InitializeShader, addr 0x6287f50, size 0x194, virtual false, abstract: false, final false
   inline void InitializeShader();
 
   static inline ::Tayx::Graphy::G_GraphShader* New_ctor();
 
-  /// @brief Method UpdateArray, addr 0x6220558, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UpdateArray, addr 0x62880e4, size 0x64, virtual false, abstract: false, final false
   inline void UpdateArray();
 
-  /// @brief Method UpdateAverage, addr 0x62205bc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UpdateAverage, addr 0x6288148, size 0x38, virtual false, abstract: false, final false
   inline void UpdateAverage();
 
-  /// @brief Method UpdateColors, addr 0x6220654, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method UpdateColors, addr 0x62881e0, size 0x94, virtual false, abstract: false, final false
   inline void UpdateColors();
 
-  /// @brief Method UpdatePoints, addr 0x62206e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdatePoints, addr 0x6288274, size 0x3c, virtual false, abstract: false, final false
   inline void UpdatePoints();
 
-  /// @brief Method UpdateThresholds, addr 0x62205f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method UpdateThresholds, addr 0x6288180, size 0x60, virtual false, abstract: false, final false
   inline void UpdateThresholds();
 
   constexpr int32_t const& __cordl_internal_get_ArrayMaxSize() const;
@@ -198,7 +198,7 @@ public:
 
   constexpr void __cordl_internal_set_m_goodThresholdPropertyId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6220724, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62882b0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -222,7 +222,7 @@ public:
   static constexpr int32_t ArrayMaxSizeLight{ static_cast<int32_t>(0x80) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21214 };
 
   /// @brief Field ArrayMaxSize, offset: 0x10, size: 0x4, def value: None
   int32_t ___ArrayMaxSize;

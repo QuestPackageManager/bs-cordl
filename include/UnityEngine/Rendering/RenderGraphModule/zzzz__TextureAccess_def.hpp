@@ -27,7 +27,7 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 struct CORDL_TYPE TextureAccess {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x65c4198, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x662bd24, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureHandle handle, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags, int32_t mipLevel, int32_t depthSlice);
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
                           ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12436 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

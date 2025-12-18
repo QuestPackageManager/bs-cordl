@@ -26,10 +26,10 @@ public:
 
   static inline ::BeatGames::Analytics::Events::SessionEventSender* New_ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager);
 
-  /// @brief Method SendSessionFinish, addr 0x3161bf4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SendSessionFinish, addr 0x31918ec, size 0xc8, virtual false, abstract: false, final false
   inline void SendSessionFinish();
 
-  /// @brief Method SendSessionStart, addr 0x3161b2c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SendSessionStart, addr 0x3191824, size 0xc8, virtual false, abstract: false, final false
   inline void SendSessionStart();
 
   constexpr ::UnityW<::OSCE::Analytics::AnalyticsManager> const& __cordl_internal_get__analyticsManager() const;
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set__analyticsManager(::UnityW<::OSCE::Analytics::AnalyticsManager> value);
 
-  /// @brief Method .ctor, addr 0x3161310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3191008, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager);
 
 protected:
@@ -56,7 +56,7 @@ public:
   SessionEventSender(SessionEventSender const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22979 };
 
   /// @brief Field _analyticsManager, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::OSCE::Analytics::AnalyticsManager> ____analyticsManager;

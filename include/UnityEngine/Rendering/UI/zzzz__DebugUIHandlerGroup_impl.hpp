@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerGroup::*)(::UnityEngine::Rendering::DebugUI_Widget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerGroup::SetWidget)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x65e4c78;
+  constexpr static std::size_t addrs = 0x664c804;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerGroup::*)(
     bool, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*)>(&::UnityEngine::Rendering::UI::DebugUIHandlerGroup::OnSelection)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x65e4d6c;
+  constexpr static std::size_t addrs = 0x664c8f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> (::UnityEngine::Rendering::UI::DebugUIHandlerGroup::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerGroup::Next)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x65e4e2c;
+  constexpr static std::size_t addrs = 0x664c9b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerGroup::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerGroup::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65e4ee8;
+  constexpr static std::size_t addrs = 0x664ca74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::UI::DebugUIHandlerGroup*>::get(),

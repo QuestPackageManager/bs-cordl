@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::OccluderContext>, ::ByRef<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings>, bool, bool)>(
     &::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables::_ctor)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x66144f4;
+  constexpr static std::size_t addrs = 0x667c080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -133,25 +133,25 @@ public:
   /// @brief Field kBufferNames, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_kBufferNames, put = __cordl_internal_set_kBufferNames)) ::ArrayW<::StringW, ::Array<::StringW>*> kBufferNames;
 
-  /// @brief Method GetBurnMarkPos, addr 0x57725cc, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method GetBurnMarkPos, addr 0x57d8e74, size 0x32c, virtual false, abstract: false, final false
   static inline bool GetBurnMarkPos(::UnityEngine::Transform* transform, ::ByRef<::UnityEngine::Bounds> bounds, ::ByRef<::UnityEngine::Plane> plane, ::UnityEngine::Vector3 bladeBottomPos,
                                     ::UnityEngine::Vector3 bladeTopPos, ::ByRef<::UnityEngine::Vector3> burnMarkPos);
 
-  /// @brief Method Initialize, addr 0x57711a0, size 0x78c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x57d7a48, size 0x78c, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::SaberManager* saberManager, ::GlobalNamespace::ColorManager* colorManager);
 
-  /// @brief Method LateUpdate, addr 0x5771d04, size 0x8c8, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x57d85ac, size 0x8c8, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberBurnMarkArea* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x577192c, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x57d81d4, size 0x220, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x5771c28, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x57d84d0, size 0xdc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5771b4c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x57d83f4, size 0xdc, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr float_t const& __cordl_internal_get__blackMarkLineRandomOffset() const;
@@ -274,7 +274,7 @@ public:
 
   constexpr void __cordl_internal_set_kBufferNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x57728f8, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57d91a0, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__fadeOutStrengthShaderPropertyID();

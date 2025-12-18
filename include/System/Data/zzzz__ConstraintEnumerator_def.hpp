@@ -38,13 +38,13 @@ public:
   /// @brief Field _tables, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__tables, put = __cordl_internal_set__tables)) ::System::Collections::IEnumerator* _tables;
 
-  /// @brief Method GetConstraint, addr 0x5e03c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetConstraint, addr 0x5e6b80c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::Constraint* GetConstraint();
 
-  /// @brief Method GetNext, addr 0x5e03994, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method GetNext, addr 0x5e6b520, size 0x2ec, virtual false, abstract: false, final false
   inline bool GetNext();
 
-  /// @brief Method IsValidCandidate, addr 0x5e03c88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsValidCandidate, addr 0x5e6b814, size 0x8, virtual true, abstract: false, final false
   inline bool IsValidCandidate(::System::Data::Constraint* constraint);
 
   static inline ::System::Data::ConstraintEnumerator* New_ctor(::System::Data::DataSet* dataSet);
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set__tables(::System::Collections::IEnumerator* value);
 
-  /// @brief Method .ctor, addr 0x5e03954, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e6b4e0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* dataSet);
 
-  /// @brief Method get_CurrentObject, addr 0x5e03c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentObject, addr 0x5e6b81c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::Constraint* get_CurrentObject();
 
 protected:
@@ -88,7 +88,7 @@ public:
   ConstraintEnumerator(ConstraintEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13730 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13734 };
 
   /// @brief Field _tables, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IEnumerator* ____tables;

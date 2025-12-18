@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Net::NetworkInformation::MacOsNetworkInterface*, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*)>(
     &::System::Net::NetworkInformation::MacOsIPInterfaceProperties::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x613974c;
+  constexpr static std::size_t addrs = 0x61a12d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::ArrayW<::StringW, ::Array<::StringW>*>>)>(
     &::System::Net::NetworkInformation::MacOsIPInterfaceProperties::ParseRouteInfo_icall)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x61397b4;
+  constexpr static std::size_t addrs = 0x61a1340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (
     ::System::Net::NetworkInformation::MacOsIPInterfaceProperties::*)()>(&::System::Net::NetworkInformation::MacOsIPInterfaceProperties::get_GatewayAddresses)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x61397b4;
+  constexpr static std::size_t addrs = 0x61a1340;
 
   inline static ::MethodInfo const* methodInfo() {
 

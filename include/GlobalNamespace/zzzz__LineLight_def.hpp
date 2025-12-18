@@ -49,13 +49,13 @@ public:
 
   static inline ::GlobalNamespace::LineLight* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x565c694, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x56bd33c, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDrawGizmos, addr 0x565c71c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmos, addr 0x56bd3c4, size 0x88, virtual false, abstract: false, final false
   inline void OnDrawGizmos();
 
-  /// @brief Method OnEnable, addr 0x565c5c0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x56bd268, size 0xd4, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -76,21 +76,21 @@ public:
 
   constexpr void __cordl_internal_set__p1(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x565c7a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56bd44c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* getStaticF__lineLights();
 
-  /// @brief Method get_color, addr 0x565c558, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x56bd200, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_lineLights, addr 0x565c564, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_lineLights, addr 0x56bd20c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* get_lineLights();
 
-  /// @brief Method get_p0, addr 0x565c540, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_p0, addr 0x56bd1e8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_p0();
 
-  /// @brief Method get_p1, addr 0x565c54c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_p1, addr 0x56bd1f4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_p1();
 
   static inline void setStaticF__lineLights(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* value);
@@ -110,7 +110,7 @@ public:
   LineLight(LineLight const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19753 };
 
   /// @brief Field _p0, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____p0;

@@ -47,7 +47,7 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::DebugPanel* New_ctor();
 
-  /// @brief Method Setup, addr 0x58344f0, size 0x34c, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x589ac54, size 0x34c, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__Icon_k__BackingField() const;
@@ -68,19 +68,19 @@ public:
 
   constexpr void __cordl_internal_set__title(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label> value);
 
-  /// @brief Method .ctor, addr 0x5836974, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x589d0d8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Icon, addr 0x58394cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Icon, addr 0x589fc30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_Icon();
 
-  /// @brief Method get_Title, addr 0x58394dc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Title, addr 0x589fc40, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Title();
 
-  /// @brief Method set_Icon, addr 0x58394d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Icon, addr 0x589fc38, size 0x8, virtual false, abstract: false, final false
   inline void set_Icon(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_Title, addr 0x5838f90, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_Title, addr 0x589f6f4, size 0x2c, virtual false, abstract: false, final false
   inline void set_Title(::StringW value);
 
 protected:
@@ -101,7 +101,7 @@ public:
   static constexpr float_t DynamicPixelsPerUnit{ static_cast<float_t>(10.0f) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18317 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18332 };
 
   /// @brief Field _title, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label> ____title;

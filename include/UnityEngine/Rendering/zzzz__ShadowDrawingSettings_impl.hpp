@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ShadowDrawingSettings::*)(bool)>(
     &::UnityEngine::Rendering::ShadowDrawingSettings::set_useRenderingLayerMaskTest)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68f3fc4;
+  constexpr static std::size_t addrs = 0x695ce48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ShadowDrawingSettings::*)(::UnityEngine::Rendering::CullingResults, int32_t)>(
     &::UnityEngine::Rendering::ShadowDrawingSettings::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x68f3fd0;
+  constexpr static std::size_t addrs = 0x695ce54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ShadowDrawingSettings::*)(::UnityEngine::Rendering::ShadowDrawingSettings)>(
     &::UnityEngine::Rendering::ShadowDrawingSettings::Equals)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x68f414c;
+  constexpr static std::size_t addrs = 0x695cfd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ShadowDrawingSettings::*)(::System::Object*)>(
     &::UnityEngine::Rendering::ShadowDrawingSettings::Equals)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x68f4434;
+  constexpr static std::size_t addrs = 0x695d2b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ShadowDrawingSettings::*)()>(
     &::UnityEngine::Rendering::ShadowDrawingSettings::GetHashCode)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x68f44f0;
+  constexpr static std::size_t addrs = 0x695d374;
 
   inline static ::MethodInfo const* methodInfo() {
 

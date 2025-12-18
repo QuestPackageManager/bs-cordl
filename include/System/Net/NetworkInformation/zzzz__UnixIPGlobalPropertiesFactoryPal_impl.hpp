@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Net::NetworkInformation::UnixIPGlobalPropertiesFactoryPal::get_PlatformNeedsLibCWorkaround)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x613a9ac;
+  constexpr static std::size_t addrs = 0x61a2538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::IPGlobalProperties* (*)()>(
     &::System::Net::NetworkInformation::UnixIPGlobalPropertiesFactoryPal::Create)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6137e64;
+  constexpr static std::size_t addrs = 0x619f9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

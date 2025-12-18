@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6697624;
+  constexpr static std::size_t addrs = 0x66ff1b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x669762c;
+  constexpr static std::size_t addrs = 0x66ff1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (
     ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::get_blueNoise64LTex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6697634;
+  constexpr static std::size_t addrs = 0x66ff1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)(::UnityEngine::Texture2D*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::set_blueNoise64LTex)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x669763c;
+  constexpr static std::size_t addrs = 0x66ff1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (
     ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::get_bayerMatrixTex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66976ac;
+  constexpr static std::size_t addrs = 0x66ff238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)(::UnityEngine::Texture2D*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::set_bayerMatrixTex)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x66976b4;
+  constexpr static std::size_t addrs = 0x66ff240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (
     ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::get_debugFontTexture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6697724;
+  constexpr static std::size_t addrs = 0x66ff2b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)(::UnityEngine::Texture2D*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::set_debugFontTexture)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x669772c;
+  constexpr static std::size_t addrs = 0x66ff2b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x669779c;
+  constexpr static std::size_t addrs = 0x66ff328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

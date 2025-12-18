@@ -33,13 +33,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method Equals, addr 0x32e7488, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3311ccc, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x32e7520, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x3311d64, size 0x20, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* other);
 
-  /// @brief Method GetHashCode, addr 0x32e7540, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3311d84, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* New_ctor(bool privateKey);
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set_privateKey(bool value);
 
-  /// @brief Method .ctor, addr 0x32e7478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3311cbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool privateKey);
 
-  /// @brief Method get_IsPrivate, addr 0x32e7480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsPrivate, addr 0x3311cc4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsPrivate();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

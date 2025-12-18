@@ -50,22 +50,22 @@ public:
   /// @brief Field _wasStarted, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__wasStarted, put = __cordl_internal_set__wasStarted)) bool _wasStarted;
 
-  /// @brief Method HandleTransitionDidFinish, addr 0x56adc18, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleTransitionDidFinish, addr 0x570e8cc, size 0xb4, virtual false, abstract: false, final false
   inline void HandleTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType transitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO* transitionSetupDataSo,
                                         ::Zenject::DiContainer* diContainer);
 
   static inline ::GlobalNamespace::PersistentAudioNoiseController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x56ada6c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x570e720, size 0x1ac, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnResetAudioEvent, addr 0x56ada48, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnResetAudioEvent, addr 0x570e6fc, size 0x24, virtual false, abstract: false, final false
   inline void OnResetAudioEvent();
 
-  /// @brief Method OnValidate, addr 0x56adccc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x570e980, size 0xe8, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Start, addr 0x56ad91c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x570e5d0, size 0x12c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set__wasStarted(bool value);
 
-  /// @brief Method .ctor, addr 0x56addb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x570ea68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

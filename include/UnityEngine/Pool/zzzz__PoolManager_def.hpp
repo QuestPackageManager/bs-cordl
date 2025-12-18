@@ -31,7 +31,7 @@ public:
   __declspec(property(get = getStaticF_s_WeakPoolReferences,
                       put = setStaticF_s_WeakPoolReferences)) ::System::Collections::Generic::List_1<::System::WeakReference_1<::UnityEngine::Pool::IPool*>*>* s_WeakPoolReferences;
 
-  /// @brief Method Register, addr 0x68cdc58, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x6936adc, size 0x128, virtual false, abstract: false, final false
   static inline void Register(::UnityEngine::Pool::IPool* pool);
 
   static inline ::System::Collections::Generic::List_1<::System::WeakReference_1<::UnityEngine::Pool::IPool*>*>* getStaticF_s_WeakPoolReferences();
@@ -53,7 +53,7 @@ public:
   PoolManager(PoolManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10624 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,21 +24,21 @@ namespace GlobalNamespace {
 class CORDL_TYPE InputFieldSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::InputFieldView>> {
 public:
   // Declarations
-  /// @brief Method HandleInputFieldSelectionStateDidChange, addr 0x62283c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFieldSelectionStateDidChange, addr 0x628ff50, size 0x8, virtual false, abstract: false, final false
   inline void HandleInputFieldSelectionStateDidChange(::HMUI::InputFieldView_SelectionState state);
 
   static inline ::GlobalNamespace::InputFieldSelectableStateController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x6228334, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x628fec0, size 0x90, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6228208, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x628fd94, size 0xa8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResolveSelectionState, addr 0x62282b0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ResolveSelectionState, addr 0x628fe3c, size 0x84, virtual false, abstract: false, final false
   inline void ResolveSelectionState(::HMUI::InputFieldView_SelectionState state, bool animated);
 
-  /// @brief Method .ctor, addr 0x62283cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x628ff58, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,7 +56,7 @@ public:
   InputFieldSelectableStateController(InputFieldSelectableStateController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22122 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -94,13 +94,13 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5b4f6b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bb6194, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method get_Schema, addr 0x5b4fecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Schema, addr 0x5bb69ac, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* get_Schema();
 
-  /// @brief Method get_Type, addr 0x5b4fec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x5bb69a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:
@@ -118,7 +118,7 @@ public:
   JsonSchemaGenerator_TypeSchema(JsonSchemaGenerator_TypeSchema const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13516 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13520 };
 
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;
@@ -148,7 +148,7 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaGenerator___c__DisplayClass23_0* New_ctor();
 
-  /// @brief Method <GenerateInternal>b__0, addr 0x5b4fed4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <GenerateInternal>b__0, addr 0x5bb69b4, size 0x44, virtual false, abstract: false, final false
   inline bool _GenerateInternal_b__0(::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema* tc);
 
   constexpr ::System::Type* const& __cordl_internal_get_type() const;
@@ -157,7 +157,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5b4f614, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bb60f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -175,7 +175,7 @@ public:
   JsonSchemaGenerator___c__DisplayClass23_0(JsonSchemaGenerator___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13521 };
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
@@ -222,54 +222,54 @@ public:
   __declspec(property(get = __cordl_internal_get__stack,
                       put = __cordl_internal_set__stack)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema*>* _stack;
 
-  /// @brief Method AddNullType, addr 0x5b4f744, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AddNullType, addr 0x5bb6224, size 0x10, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaType AddNullType(::Newtonsoft::Json::Schema::JsonSchemaType type, ::Newtonsoft::Json::Required valueRequired);
 
-  /// @brief Method Generate, addr 0x5b4e694, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x5bb5174, size 0x70, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* Generate(::System::Type* type);
 
-  /// @brief Method Generate, addr 0x5b4e7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x5bb5298, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* Generate(::System::Type* type, ::Newtonsoft::Json::Schema::JsonSchemaResolver* resolver);
 
-  /// @brief Method Generate, addr 0x5b4e704, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x5bb51e4, size 0xb4, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* Generate(::System::Type* type, ::Newtonsoft::Json::Schema::JsonSchemaResolver* resolver, bool rootSchemaNullable);
 
-  /// @brief Method Generate, addr 0x5b4e7c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x5bb52a0, size 0x74, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* Generate(::System::Type* type, bool rootSchemaNullable);
 
-  /// @brief Method GenerateISerializableContract, addr 0x5b4fe28, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GenerateISerializableContract, addr 0x5bb6908, size 0x1c, virtual false, abstract: false, final false
   inline void GenerateISerializableContract(::System::Type* type, ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract);
 
-  /// @brief Method GenerateInternal, addr 0x5b4e834, size 0xb54, virtual false, abstract: false, final false
+  /// @brief Method GenerateInternal, addr 0x5bb5314, size 0xb54, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* GenerateInternal(::System::Type* type, ::Newtonsoft::Json::Required valueRequired, bool required);
 
-  /// @brief Method GenerateObjectSchema, addr 0x5b4f754, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method GenerateObjectSchema, addr 0x5bb6234, size 0x50c, virtual false, abstract: false, final false
   inline void GenerateObjectSchema(::System::Type* type, ::Newtonsoft::Json::Serialization::JsonObjectContract* contract);
 
-  /// @brief Method GetDescription, addr 0x5b4f418, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetDescription, addr 0x5bb5ef8, size 0xf0, virtual false, abstract: false, final false
   inline ::StringW GetDescription(::System::Type* type);
 
-  /// @brief Method GetJsonSchemaType, addr 0x5b4fc60, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method GetJsonSchemaType, addr 0x5bb6740, size 0x1c8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaType GetJsonSchemaType(::System::Type* type, ::Newtonsoft::Json::Required valueRequired);
 
-  /// @brief Method GetTitle, addr 0x5b4f388, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetTitle, addr 0x5bb5e68, size 0x90, virtual false, abstract: false, final false
   inline ::StringW GetTitle(::System::Type* type);
 
-  /// @brief Method GetTypeId, addr 0x5b4f508, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetTypeId, addr 0x5bb5fe8, size 0x10c, virtual false, abstract: false, final false
   inline ::StringW GetTypeId(::System::Type* type, bool explicitOnly);
 
-  /// @brief Method HasFlag, addr 0x5b4fe44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HasFlag, addr 0x5bb6924, size 0xc, virtual false, abstract: false, final false
   inline bool HasFlag(::Newtonsoft::Json::DefaultValueHandling value, ::Newtonsoft::Json::DefaultValueHandling flag);
 
-  /// @brief Method HasFlag, addr 0x5b4f618, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HasFlag, addr 0x5bb60f8, size 0x9c, virtual false, abstract: false, final false
   static inline bool HasFlag(::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType> value, ::Newtonsoft::Json::Schema::JsonSchemaType flag);
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaGenerator* New_ctor();
 
-  /// @brief Method Pop, addr 0x5b4e468, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x5bb4f48, size 0x22c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema* Pop();
 
-  /// @brief Method Push, addr 0x5b4e318, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x5bb4df8, size 0x150, virtual false, abstract: false, final false
   inline void Push(::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema* typeSchema);
 
   constexpr ::Newtonsoft::Json::Schema::UndefinedSchemaIdHandling const& __cordl_internal_get__UndefinedSchemaIdHandling_k__BackingField() const;
@@ -302,22 +302,22 @@ public:
 
   constexpr void __cordl_internal_set__stack(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaGenerator_TypeSchema*>* value);
 
-  /// @brief Method .ctor, addr 0x5b4fe50, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bb6930, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ContractResolver, addr 0x5b4e268, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_ContractResolver, addr 0x5bb4d48, size 0xa0, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::IContractResolver* get_ContractResolver();
 
-  /// @brief Method get_CurrentSchema, addr 0x5b4e310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentSchema, addr 0x5bb4df0, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* get_CurrentSchema();
 
-  /// @brief Method get_UndefinedSchemaIdHandling, addr 0x5b4e258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UndefinedSchemaIdHandling, addr 0x5bb4d38, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::UndefinedSchemaIdHandling get_UndefinedSchemaIdHandling();
 
-  /// @brief Method set_ContractResolver, addr 0x5b4e308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ContractResolver, addr 0x5bb4de8, size 0x8, virtual false, abstract: false, final false
   inline void set_ContractResolver(::Newtonsoft::Json::Serialization::IContractResolver* value);
 
-  /// @brief Method set_UndefinedSchemaIdHandling, addr 0x5b4e260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UndefinedSchemaIdHandling, addr 0x5bb4d40, size 0x8, virtual false, abstract: false, final false
   inline void set_UndefinedSchemaIdHandling(::Newtonsoft::Json::Schema::UndefinedSchemaIdHandling value);
 
 protected:
@@ -335,7 +335,7 @@ public:
   JsonSchemaGenerator(JsonSchemaGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13518 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13522 };
 
   /// @brief Field <UndefinedSchemaIdHandling>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::Newtonsoft::Json::Schema::UndefinedSchemaIdHandling ____UndefinedSchemaIdHandling_k__BackingField;

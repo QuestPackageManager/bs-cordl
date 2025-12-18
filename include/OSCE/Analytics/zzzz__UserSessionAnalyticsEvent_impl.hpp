@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IDType (::OSCE::Analytics::UserSessionAnalyticsEvent::*)()>(
     &::OSCE::Analytics::UserSessionAnalyticsEvent::GetIDType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d2478c;
+  constexpr static std::size_t addrs = 0x5d8b26c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OSCE::Analytics::UserSessionAnalyticsEvent::*)()>(
     &::OSCE::Analytics::UserSessionAnalyticsEvent::EventRequiresAnalyticsID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d24794;
+  constexpr static std::size_t addrs = 0x5d8b274;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OSCE::Analytics::UserSessionAnalyticsEvent::*)()>(
     &::OSCE::Analytics::UserSessionAnalyticsEvent::ReturnEventToPool)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5d2479c;
+  constexpr static std::size_t addrs = 0x5d8b27c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OSCE::Analytics::UserSessionAnalyticsEvent::*)()>(
     &::OSCE::Analytics::UserSessionAnalyticsEvent::ReturnedToPool)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5d24700;
+  constexpr static std::size_t addrs = 0x5d8b1e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OSCE::Analytics::UserSessionAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::OSCE::Analytics::UserSessionAnalyticsEvent::ApplyTime)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5d2480c;
+  constexpr static std::size_t addrs = 0x5d8b2ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OSCE::Analytics::UserSessionAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::OSCE::Analytics::UserSessionAnalyticsEvent::ApplyBasicFields)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d245c8;
+  constexpr static std::size_t addrs = 0x5d8b0a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::OSCE::Analytics::UserSessionAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::OSCE::Analytics::UserSessionAnalyticsEvent::GetIDForEvent)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5d24880;
+  constexpr static std::size_t addrs = 0x5d8b360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OSCE::Analytics::UserSessionAnalyticsEvent::*)()>(&::OSCE::Analytics::UserSessionAnalyticsEvent::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d24788;
+  constexpr static std::size_t addrs = 0x5d8b268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::UserSessionAnalyticsEvent*>::get(), ".ctor",

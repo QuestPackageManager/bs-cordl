@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::GenerateHLSL::*)(
     ::UnityEngine::Rendering::PackingRules, bool, bool, bool, int32_t, bool, bool, bool, int32_t, ::StringW)>(&::UnityEngine::Rendering::GenerateHLSL::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6584548;
+  constexpr static std::size_t addrs = 0x65ec0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

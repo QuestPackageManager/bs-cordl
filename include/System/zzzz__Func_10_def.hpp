@@ -49,7 +49,7 @@ public:
   Func_10(Func_10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16003 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16017 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

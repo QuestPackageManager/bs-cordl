@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x577b3b4;
+  constexpr static std::size_t addrs = 0x57e1c5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x577b73c;
+  constexpr static std::size_t addrs = 0x57e1fe4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget::*)(float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget::SetFloat)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x577b3b8;
+  constexpr static std::size_t addrs = 0x57e1c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget::*)()>(
     &::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x577b740;
+  constexpr static std::size_t addrs = 0x57e1fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

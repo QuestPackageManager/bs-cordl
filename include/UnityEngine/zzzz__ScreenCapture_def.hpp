@@ -71,7 +71,7 @@ public:
   static ::UnityEngine::ScreenCapture_StereoScreenCaptureMode const RightEye;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23023 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23049 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -96,13 +96,13 @@ public:
   // Declarations
   using StereoScreenCaptureMode = ::UnityEngine::ScreenCapture_StereoScreenCaptureMode;
 
-  /// @brief Method CaptureScreenshot, addr 0x6981948, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CaptureScreenshot, addr 0x69ea7cc, size 0xc, virtual false, abstract: false, final false
   static inline void CaptureScreenshot(::StringW filename);
 
-  /// @brief Method CaptureScreenshot, addr 0x6981954, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CaptureScreenshot, addr 0x69ea7d8, size 0x13c, virtual false, abstract: false, final false
   static inline void CaptureScreenshot(::StringW filename, int32_t superSize, ::UnityEngine::ScreenCapture_StereoScreenCaptureMode CaptureMode);
 
-  /// @brief Method CaptureScreenshot_Injected, addr 0x6981a90, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CaptureScreenshot_Injected, addr 0x69ea914, size 0x54, virtual false, abstract: false, final false
   static inline void CaptureScreenshot_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> filename, int32_t superSize, ::UnityEngine::ScreenCapture_StereoScreenCaptureMode CaptureMode);
 
 protected:
@@ -120,7 +120,7 @@ public:
   ScreenCapture(ScreenCapture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23024 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23050 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

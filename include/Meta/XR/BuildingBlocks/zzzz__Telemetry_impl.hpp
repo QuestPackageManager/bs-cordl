@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::OVRTelemetryMarker (*)(::GlobalNamespace::OVRTelemetryMarker, ::Meta::XR::BuildingBlocks::BuildingBlock*)>(&::Meta::XR::BuildingBlocks::Telemetry::AddBlockInfo)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x581d93c;
+  constexpr static std::size_t addrs = 0x58840a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (*)(
     ::GlobalNamespace::OVRTelemetryMarker, ::Meta::XR::BuildingBlocks::BuildingBlock*)>(&::Meta::XR::BuildingBlocks::Telemetry::AddBlockVariantInfo)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5825f94;
+  constexpr static std::size_t addrs = 0x588c6f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (*)(
     ::GlobalNamespace::OVRTelemetryMarker, ::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint*)>(&::Meta::XR::BuildingBlocks::Telemetry::AddInstallationRoutineInfo)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x5826054;
+  constexpr static std::size_t addrs = 0x588c7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::OVRTelemetryMarker (*)(::GlobalNamespace::OVRTelemetryMarker, ::UnityEngine::SceneManagement::Scene)>(&::Meta::XR::BuildingBlocks::Telemetry::AddSceneInfo)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5826380;
+  constexpr static std::size_t addrs = 0x588cae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

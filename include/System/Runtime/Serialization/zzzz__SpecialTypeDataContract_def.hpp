@@ -34,7 +34,7 @@ public:
   static inline ::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper* New_ctor(::System::Type* type, ::System::Xml::XmlDictionaryString* name,
                                                                                                                           ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method .ctor, addr 0x5f443b8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fabf44, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
 
 protected:
@@ -52,7 +52,7 @@ public:
   SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper(SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17081 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -82,10 +82,10 @@ public:
 
   constexpr void __cordl_internal_set_helper(::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper* value);
 
-  /// @brief Method .ctor, addr 0x5f442f0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fabe7c, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method get_IsBuiltInDataContract, addr 0x5f44448, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsBuiltInDataContract, addr 0x5fabfd4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsBuiltInDataContract();
 
 protected:
@@ -103,7 +103,7 @@ public:
   SpecialTypeDataContract(SpecialTypeDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17082 };
 
   /// @brief Field helper, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::Serialization::SpecialTypeDataContract_SpecialTypeDataContractCriticalHelper* ___helper;

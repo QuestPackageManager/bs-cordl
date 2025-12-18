@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__AssemblyFullName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5959f4c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c0898, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyFullName);
 
-  /// @brief Method get_AssemblyFullName, addr 0x5959fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyFullName, addr 0x59c08f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyFullName();
 
 protected:

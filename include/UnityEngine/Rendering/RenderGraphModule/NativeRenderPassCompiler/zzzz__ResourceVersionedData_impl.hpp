@@ -9,7 +9,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     Il2CppObject*, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle, int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData::SetWritingPass)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x65de2b4;
+  constexpr static std::size_t addrs = 0x6645e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     Il2CppObject*, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle, int32_t, int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData::RegisterReadingPass)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x65de2c4;
+  constexpr static std::size_t addrs = 0x6645e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     Il2CppObject*, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle, int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData::RemoveReadingPass)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x65de458;
+  constexpr static std::size_t addrs = 0x6645fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

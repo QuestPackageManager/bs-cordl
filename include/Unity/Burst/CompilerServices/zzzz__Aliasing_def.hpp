@@ -27,7 +27,7 @@ public:
   /// @brief Method ExpectAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename B> static inline void ExpectAliased(void* a, ::ByRef<B> b);
 
-  /// @brief Method ExpectAliased, addr 0x62893f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ExpectAliased, addr 0x62f0f7c, size 0x4, virtual false, abstract: false, final false
   static inline void ExpectAliased(void* a, void* b);
 
   /// @brief Method ExpectNotAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -39,7 +39,7 @@ public:
   /// @brief Method ExpectNotAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename B> static inline void ExpectNotAliased(void* a, ::ByRef<B> b);
 
-  /// @brief Method ExpectNotAliased, addr 0x62893f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ExpectNotAliased, addr 0x62f0f80, size 0x4, virtual false, abstract: false, final false
   static inline void ExpectNotAliased(void* a, void* b);
 
 protected:
@@ -57,7 +57,7 @@ public:
   Aliasing(Aliasing const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17336 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

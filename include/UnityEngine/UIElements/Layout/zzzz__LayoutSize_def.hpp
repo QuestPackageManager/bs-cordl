@@ -19,7 +19,7 @@ namespace UnityEngine::UIElements::Layout {
 struct CORDL_TYPE LayoutSize {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6acf400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b38284, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t width, float_t height);
 
   // Ctor Parameters []

@@ -39,7 +39,7 @@ public:
   /// @brief Field _installerMethod, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__installerMethod, put = __cordl_internal_set__installerMethod)) ::System::Action_1<::Zenject::DiContainer*>* _installerMethod;
 
-  /// @brief Method AddInstallers, addr 0x6c55d44, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method AddInstallers, addr 0x6cbebc8, size 0xd4, virtual true, abstract: false, final false
   inline void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorByNewGameObjectMethod* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__installerMethod(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  /// @brief Method .ctor, addr 0x6c55d38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbebbc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Action_1<::Zenject::DiContainer*>* installerMethod);
 
 protected:
@@ -69,7 +69,7 @@ public:
   SubContainerCreatorByNewGameObjectMethod(SubContainerCreatorByNewGameObjectMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14585 };
 
   /// @brief Field _installerMethod, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::Zenject::DiContainer*>* ____installerMethod;

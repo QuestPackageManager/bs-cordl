@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseCaptureEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6b61e4c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6bcacd0, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseCaptureEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6b61e48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bcaccc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseCaptureEvent___c* getStaticF___9();
@@ -75,7 +75,7 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseCaptureEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b61d9c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bcac20, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -23,10 +23,10 @@ public:
 
   static inline ::UnityEngine::Rendering::CoreRPHelpURLAttribute* New_ctor(::StringW pageName, ::StringW pageHash, ::StringW packageName);
 
-  /// @brief Method .ctor, addr 0x6568c34, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65d07c0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW pageName, ::StringW packageName);
 
-  /// @brief Method .ctor, addr 0x6568e8c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65d0a18, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW pageName, ::StringW pageHash, ::StringW packageName);
 
 protected:
@@ -44,7 +44,7 @@ public:
   CoreRPHelpURLAttribute(CoreRPHelpURLAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12043 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

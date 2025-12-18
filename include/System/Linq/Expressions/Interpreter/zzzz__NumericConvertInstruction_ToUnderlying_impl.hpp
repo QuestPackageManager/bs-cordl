@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::NumericConvertInstruction_ToUnderlying::*)()>(
     &::GlobalNamespace::NumericConvertInstruction_ToUnderlying::get_InstructionName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5d9ee1c;
+  constexpr static std::size_t addrs = 0x5e069a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NumericConvertInstruction_ToUnderlying::*)(::System::TypeCode, bool)>(
     &::GlobalNamespace::NumericConvertInstruction_ToUnderlying::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d9ee60;
+  constexpr static std::size_t addrs = 0x5e069ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::NumericConvertInstruction_ToUnderlying::*)(::System::Object*)>(
     &::GlobalNamespace::NumericConvertInstruction_ToUnderlying::Convert)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x5d9ee6c;
+  constexpr static std::size_t addrs = 0x5e069f8;
 
   inline static ::MethodInfo const* methodInfo() {
 

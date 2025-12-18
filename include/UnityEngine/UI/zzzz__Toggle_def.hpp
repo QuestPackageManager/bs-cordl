@@ -97,7 +97,7 @@ public:
   static ::UnityEngine::UI::Toggle_ToggleTransition const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17467 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -122,7 +122,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UI::Toggle_ToggleEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6bdb4a8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4432c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,7 +140,7 @@ public:
   Toggle_ToggleEvent(Toggle_ToggleEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17468 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -190,54 +190,54 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
 
-  /// @brief Method GraphicUpdateComplete, addr 0x6bdb4fc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GraphicUpdateComplete, addr 0x6c44380, size 0x4, virtual true, abstract: false, final false
   inline void GraphicUpdateComplete();
 
-  /// @brief Method InternalToggle, addr 0x6bdc084, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InternalToggle, addr 0x6c44f08, size 0x54, virtual false, abstract: false, final false
   inline void InternalToggle();
 
-  /// @brief Method LayoutComplete, addr 0x6bdb4f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method LayoutComplete, addr 0x6c4437c, size 0x4, virtual true, abstract: false, final false
   inline void LayoutComplete();
 
   static inline ::UnityEngine::UI::Toggle* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x6bdb500, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x6c44384, size 0x84, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x6bdb9a8, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x6c4482c, size 0x12c, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnDisable, addr 0x6bdb988, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6c4480c, size 0x20, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6bdb95c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6c447e0, size 0x2c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPointerClick, addr 0x6bdc0d8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x6c44f5c, size 0x1c, virtual true, abstract: false, final false
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSubmit, addr 0x6bdc0f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSubmit, addr 0x6c44f78, size 0x4, virtual true, abstract: false, final false
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method PlayEffect, addr 0x6bdb354, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method PlayEffect, addr 0x6c441d8, size 0xc8, virtual false, abstract: false, final false
   inline void PlayEffect(bool instant);
 
-  /// @brief Method Rebuild, addr 0x6bdb4f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x6c44378, size 0x4, virtual true, abstract: false, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
 
-  /// @brief Method Set, addr 0x6bdbad4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x6c44958, size 0x180, virtual false, abstract: false, final false
   inline void Set(bool value, bool sendCallback);
 
-  /// @brief Method SetIsOnWithoutNotify, addr 0x6bdbf28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetIsOnWithoutNotify, addr 0x6c44dac, size 0x8, virtual false, abstract: false, final false
   inline void SetIsOnWithoutNotify(bool value);
 
-  /// @brief Method SetToggleGroup, addr 0x6bdb214, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method SetToggleGroup, addr 0x6c44098, size 0x140, virtual false, abstract: false, final false
   inline void SetToggleGroup(::UnityEngine::UI::ToggleGroup* newGroup, bool setMemberValue);
 
-  /// @brief Method Start, addr 0x6bdc07c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x6c44f00, size 0x8, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x6bdc0f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x6c44f7c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> UnityEngine_UI_ICanvasElement_get_transform();
 
   constexpr ::UnityW<::UnityEngine::UI::Graphic> const& __cordl_internal_get_graphic() const;
@@ -270,13 +270,13 @@ public:
 
   constexpr void __cordl_internal_set_toggleTransition(::UnityEngine::UI::Toggle_ToggleTransition value);
 
-  /// @brief Method .ctor, addr 0x6bdb41c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c442a0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_group, addr 0x6bdb1ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_group, addr 0x6c44070, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::ToggleGroup> get_group();
 
-  /// @brief Method get_isOn, addr 0x6bdbf18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isOn, addr 0x6c44d9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isOn();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -291,10 +291,10 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
   constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
-  /// @brief Method set_group, addr 0x6bdb1f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_group, addr 0x6c44078, size 0x20, virtual false, abstract: false, final false
   inline void set_group(::UnityEngine::UI::ToggleGroup* value);
 
-  /// @brief Method set_isOn, addr 0x6bdbf20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isOn, addr 0x6c44da4, size 0x8, virtual false, abstract: false, final false
   inline void set_isOn(bool value);
 
 protected:
@@ -312,7 +312,7 @@ public:
   Toggle(Toggle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17469 };
 
   /// @brief Field toggleTransition, offset: 0x100, size: 0x4, def value: None
   ::UnityEngine::UI::Toggle_ToggleTransition ___toggleTransition;

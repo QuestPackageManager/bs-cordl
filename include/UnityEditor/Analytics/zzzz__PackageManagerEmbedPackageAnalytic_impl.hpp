@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEditor::Analytics::PackageManagerEmbedPackageAnalytic::*)()>(
     &::UnityEditor::Analytics::PackageManagerEmbedPackageAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6bf103c;
+  constexpr static std::size_t addrs = 0x6c59ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEditor::Analytics::PackageManagerEmbedPackageAnalytic* (*)()>(
     &::UnityEditor::Analytics::PackageManagerEmbedPackageAnalytic::CreatePackageManagerEmbedPackageAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6bf10d0;
+  constexpr static std::size_t addrs = 0x6c59f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

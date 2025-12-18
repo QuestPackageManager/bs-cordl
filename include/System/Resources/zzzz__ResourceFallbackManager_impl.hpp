@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::*)(int32_t)>(
     &::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x595c934;
+  constexpr static std::size_t addrs = 0x59c3280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::*)()>(
     &::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x595c93c;
+  constexpr static std::size_t addrs = 0x59c3288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::*)()>(
     &::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x595c940;
+  constexpr static std::size_t addrs = 0x59c328c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureInfo* (::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::*)()>(
     &::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::System_Collections_Generic_IEnumerator_System_Globalization_CultureInfo__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x595cafc;
+  constexpr static std::size_t addrs = 0x59c3448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::*)()>(
     &::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x595cb04;
+  constexpr static std::size_t addrs = 0x59c3450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::*)()>(
     &::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x595cb3c;
+  constexpr static std::size_t addrs = 0x59c3488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceFallbackManager::*)(
     ::System::Globalization::CultureInfo*, ::System::Globalization::CultureInfo*, bool)>(&::System::Resources::ResourceFallbackManager::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x595c850;
+  constexpr static std::size_t addrs = 0x59c319c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Resources::ResourceFallbackManager::*)()>(
     &::System::Resources::ResourceFallbackManager::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x595c8dc;
+  constexpr static std::size_t addrs = 0x59c3228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Globalization::CultureInfo*>* (
     ::System::Resources::ResourceFallbackManager::*)()>(&::System::Resources::ResourceFallbackManager::GetEnumerator)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x595c8e0;
+  constexpr static std::size_t addrs = 0x59c322c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceFallbackManager*>::get(),

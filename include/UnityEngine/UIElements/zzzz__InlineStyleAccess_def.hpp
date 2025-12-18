@@ -535,633 +535,633 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyle"
   constexpr operator ::UnityEngine::UIElements::IStyle*() noexcept;
 
-  /// @brief Method ApplyFromComputedStyle, addr 0x6bb184c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method ApplyFromComputedStyle, addr 0x6c1a6d0, size 0x1d8, virtual false, abstract: false, final false
   inline void ApplyFromComputedStyle(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::ByRef<::UnityEngine::UIElements::ComputedStyle> newStyle);
 
-  /// @brief Method ApplyInlineStyles, addr 0x6bae9ec, size 0x9bc, virtual false, abstract: false, final false
+  /// @brief Method ApplyInlineStyles, addr 0x6c17870, size 0x9bc, virtual false, abstract: false, final false
   inline void ApplyInlineStyles(::ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method ApplyStyleBackgroundSize, addr 0x6bb15dc, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method ApplyStyleBackgroundSize, addr 0x6c1a460, size 0x1c4, virtual false, abstract: false, final false
   inline void ApplyStyleBackgroundSize(::UnityEngine::UIElements::StyleBackgroundSize backgroundSize);
 
-  /// @brief Method ApplyStyleCursor, addr 0x6bb0b58, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ApplyStyleCursor, addr 0x6c199dc, size 0x1bc, virtual false, abstract: false, final false
   inline void ApplyStyleCursor(::UnityEngine::UIElements::StyleCursor cursor);
 
-  /// @brief Method ApplyStyleRotate, addr 0x6bb13ec, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ApplyStyleRotate, addr 0x6c1a270, size 0x1f0, virtual false, abstract: false, final false
   inline void ApplyStyleRotate(::UnityEngine::UIElements::StyleRotate rotate);
 
-  /// @brief Method ApplyStyleScale, addr 0x6bb1234, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ApplyStyleScale, addr 0x6c1a0b8, size 0x1b8, virtual false, abstract: false, final false
   inline void ApplyStyleScale(::UnityEngine::UIElements::StyleScale scale);
 
-  /// @brief Method ApplyStyleTextShadow, addr 0x6bb0d14, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method ApplyStyleTextShadow, addr 0x6c19b98, size 0x1c0, virtual false, abstract: false, final false
   inline void ApplyStyleTextShadow(::UnityEngine::UIElements::StyleTextShadow textShadow);
 
-  /// @brief Method ApplyStyleTransformOrigin, addr 0x6bb0ed4, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ApplyStyleTransformOrigin, addr 0x6c19d58, size 0x1b0, virtual false, abstract: false, final false
   inline void ApplyStyleTransformOrigin(::UnityEngine::UIElements::StyleTransformOrigin transformOrigin);
 
-  /// @brief Method ApplyStyleTranslate, addr 0x6bb1084, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ApplyStyleTranslate, addr 0x6c19f08, size 0x1b0, virtual false, abstract: false, final false
   inline void ApplyStyleTranslate(::UnityEngine::UIElements::StyleTranslate translate);
 
-  /// @brief Method ApplyStyleValue, addr 0x6bb08d8, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method ApplyStyleValue, addr 0x6c1975c, size 0x280, virtual false, abstract: false, final false
   inline void ApplyStyleValue(::UnityEngine::UIElements::StyleSheets::StyleValue value);
 
-  /// @brief Method ApplyStyleValue, addr 0x6bb17a0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ApplyStyleValue, addr 0x6c1a624, size 0xac, virtual false, abstract: false, final false
   inline void ApplyStyleValue(::UnityEngine::UIElements::StyleSheets::StyleValueManaged value);
 
-  /// @brief Method Finalize, addr 0x6bae844, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6c176c8, size 0x11c, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// @brief Method GetStyleList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::UnityEngine::UIElements::StyleList_1<T> GetStyleList(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method IsValueSet, addr 0x6baf3a8, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method IsValueSet, addr 0x6c1822c, size 0x2d0, virtual false, abstract: false, final false
   inline bool IsValueSet(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
   static inline ::UnityEngine::UIElements::InlineStyleAccess* New_ctor(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method RemoveInlineStyle, addr 0x6bb07e4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RemoveInlineStyle, addr 0x6c19668, size 0xf4, virtual false, abstract: false, final false
   inline bool RemoveInlineStyle(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method SetInlineBackgroundSize, addr 0x6bafb50, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SetInlineBackgroundSize, addr 0x6c189d4, size 0x110, virtual false, abstract: false, final false
   inline bool SetInlineBackgroundSize(::UnityEngine::UIElements::StyleBackgroundSize inlineValue);
 
-  /// @brief Method SetInlineCursor, addr 0x6baf740, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetInlineCursor, addr 0x6c185c4, size 0x13c, virtual false, abstract: false, final false
   inline bool SetInlineCursor(::UnityEngine::UIElements::StyleCursor inlineValue);
 
-  /// @brief Method SetInlineRotate, addr 0x6bb0488, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SetInlineRotate, addr 0x6c1930c, size 0x158, virtual false, abstract: false, final false
   inline bool SetInlineRotate(::UnityEngine::UIElements::StyleRotate inlineValue);
 
-  /// @brief Method SetInlineRule, addr 0x6bae960, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetInlineRule, addr 0x6c177e4, size 0x8c, virtual false, abstract: false, final false
   inline void SetInlineRule(::UnityEngine::UIElements::StyleSheet* sheet, ::UnityEngine::UIElements::StyleRule* rule);
 
-  /// @brief Method SetInlineScale, addr 0x6bb06a0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetInlineScale, addr 0x6c19524, size 0x144, virtual false, abstract: false, final false
   inline bool SetInlineScale(::UnityEngine::UIElements::StyleScale inlineValue);
 
-  /// @brief Method SetInlineTextShadow, addr 0x6baf948, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetInlineTextShadow, addr 0x6c187cc, size 0x13c, virtual false, abstract: false, final false
   inline bool SetInlineTextShadow(::UnityEngine::UIElements::StyleTextShadow inlineValue);
 
-  /// @brief Method SetInlineTransformOrigin, addr 0x6bb0040, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetInlineTransformOrigin, addr 0x6c18ec4, size 0x13c, virtual false, abstract: false, final false
   inline bool SetInlineTransformOrigin(::UnityEngine::UIElements::StyleTransformOrigin inlineValue);
 
-  /// @brief Method SetInlineTranslate, addr 0x6bb0258, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method SetInlineTranslate, addr 0x6c190dc, size 0x154, virtual false, abstract: false, final false
   inline bool SetInlineTranslate(::UnityEngine::UIElements::StyleTranslate inlineValue);
 
-  /// @brief Method SetStyleValue, addr 0x6ba9fc0, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValue, addr 0x6c12e44, size 0x4bc, virtual false, abstract: false, final false
   inline bool SetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleBackground inlineValue);
 
-  /// @brief Method SetStyleValue, addr 0x6baa534, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValue, addr 0x6c133b8, size 0x17c, virtual false, abstract: false, final false
   inline bool SetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleBackgroundPosition inlineValue);
 
-  /// @brief Method SetStyleValue, addr 0x6baa824, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValue, addr 0x6c136a8, size 0x120, virtual false, abstract: false, final false
   inline bool SetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleBackgroundRepeat inlineValue);
 
-  /// @brief Method SetStyleValue, addr 0x6ba9db8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValue, addr 0x6c12c3c, size 0x15c, virtual false, abstract: false, final false
   inline bool SetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleColor inlineValue);
 
   /// @brief Method SetStyleValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool SetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleEnum_1<T> inlineValue);
 
-  /// @brief Method SetStyleValue, addr 0x6baad88, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValue, addr 0x6c13c0c, size 0x130, virtual false, abstract: false, final false
   inline bool SetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleFloat inlineValue);
 
-  /// @brief Method SetStyleValue, addr 0x6bad484, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValue, addr 0x6c16308, size 0x208, virtual false, abstract: false, final false
   inline bool SetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleFont inlineValue);
 
-  /// @brief Method SetStyleValue, addr 0x6bad734, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValue, addr 0x6c165b8, size 0x328, virtual false, abstract: false, final false
   inline bool SetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleFontDefinition inlineValue);
 
-  /// @brief Method SetStyleValue, addr 0x6badd34, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValue, addr 0x6c16bb8, size 0x12c, virtual false, abstract: false, final false
   inline bool SetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleInt inlineValue);
 
-  /// @brief Method SetStyleValue, addr 0x6baaa9c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValue, addr 0x6c13920, size 0x194, virtual false, abstract: false, final false
   inline bool SetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleLength inlineValue);
 
   /// @brief Method SetStyleValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool SetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleList_1<T> inlineValue);
 
-  /// @brief Method SetStyleValueManaged, addr 0x6bafc60, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValueManaged, addr 0x6c18ae4, size 0x1fc, virtual false, abstract: false, final false
   inline void SetStyleValueManaged(::UnityEngine::UIElements::StyleSheets::StyleValueManaged value);
 
-  /// @brief Method TryGetInlineBackgroundSize, addr 0x6bafac8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method TryGetInlineBackgroundSize, addr 0x6c1894c, size 0x24, virtual false, abstract: false, final false
   inline bool TryGetInlineBackgroundSize(::ByRef<::UnityEngine::UIElements::StyleBackgroundSize> value);
 
-  /// @brief Method TryGetInlineCursor, addr 0x6baf6c8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method TryGetInlineCursor, addr 0x6c1854c, size 0x1c, virtual false, abstract: false, final false
   inline bool TryGetInlineCursor(::ByRef<::UnityEngine::UIElements::StyleCursor> value);
 
-  /// @brief Method TryGetInlineRotate, addr 0x6bb03f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method TryGetInlineRotate, addr 0x6c1927c, size 0x2c, virtual false, abstract: false, final false
   inline bool TryGetInlineRotate(::ByRef<::UnityEngine::UIElements::StyleRotate> value);
 
-  /// @brief Method TryGetInlineScale, addr 0x6bb0618, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method TryGetInlineScale, addr 0x6c1949c, size 0x24, virtual false, abstract: false, final false
   inline bool TryGetInlineScale(::ByRef<::UnityEngine::UIElements::StyleScale> value);
 
-  /// @brief Method TryGetInlineTextShadow, addr 0x6baf8cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TryGetInlineTextShadow, addr 0x6c18750, size 0x20, virtual false, abstract: false, final false
   inline bool TryGetInlineTextShadow(::ByRef<::UnityEngine::UIElements::StyleTextShadow> value);
 
-  /// @brief Method TryGetInlineTransformOrigin, addr 0x6baffb8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method TryGetInlineTransformOrigin, addr 0x6c18e3c, size 0x24, virtual false, abstract: false, final false
   inline bool TryGetInlineTransformOrigin(::ByRef<::UnityEngine::UIElements::StyleTransformOrigin> value);
 
-  /// @brief Method TryGetInlineTranslate, addr 0x6bb01c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method TryGetInlineTranslate, addr 0x6c1904c, size 0x2c, virtual false, abstract: false, final false
   inline bool TryGetInlineTranslate(::ByRef<::UnityEngine::UIElements::StyleTranslate> value);
 
-  /// @brief Method TryGetStyleValueManaged, addr 0x6bafe5c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method TryGetStyleValueManaged, addr 0x6c18ce0, size 0x118, virtual false, abstract: false, final false
   inline bool TryGetStyleValueManaged(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::ByRef<::UnityEngine::UIElements::StyleSheets::StyleValueManaged> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_alignContent, addr 0x6ba9964, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_alignContent, addr 0x6c127e8, size 0x60, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> UnityEngine_UIElements_IStyle_get_alignContent();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_alignItems, addr 0x6ba9a88, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_alignItems, addr 0x6c1290c, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> UnityEngine_UIElements_IStyle_get_alignItems();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_alignSelf, addr 0x6ba9bb4, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_alignSelf, addr 0x6c12a38, size 0x60, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> UnityEngine_UIElements_IStyle_get_alignSelf();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_backgroundColor, addr 0x6ba9cd8, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_backgroundColor, addr 0x6c12b5c, size 0x78, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleColor UnityEngine_UIElements_IStyle_get_backgroundColor();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_backgroundImage, addr 0x6ba9f14, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_backgroundImage, addr 0x6c12d98, size 0x40, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleBackground UnityEngine_UIElements_IStyle_get_backgroundImage();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_backgroundPositionX, addr 0x6baa47c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_backgroundPositionX, addr 0x6c13300, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleBackgroundPosition UnityEngine_UIElements_IStyle_get_backgroundPositionX();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_backgroundPositionY, addr 0x6baa6b0, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_backgroundPositionY, addr 0x6c13534, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleBackgroundPosition UnityEngine_UIElements_IStyle_get_backgroundPositionY();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_backgroundRepeat, addr 0x6baa768, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_backgroundRepeat, addr 0x6c135ec, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleBackgroundRepeat UnityEngine_UIElements_IStyle_get_backgroundRepeat();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_backgroundSize, addr 0x6bafa84, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_backgroundSize, addr 0x6c18908, size 0x44, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleBackgroundSize UnityEngine_UIElements_IStyle_get_backgroundSize();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_borderBottomColor, addr 0x6baa944, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_borderBottomColor, addr 0x6c137c8, size 0x7c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleColor UnityEngine_UIElements_IStyle_get_borderBottomColor();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_borderBottomLeftRadius, addr 0x6baaa2c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_borderBottomLeftRadius, addr 0x6c138b0, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_borderBottomLeftRadius();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_borderBottomRightRadius, addr 0x6baac30, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_borderBottomRightRadius, addr 0x6c13ab4, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_borderBottomRightRadius();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_borderBottomWidth, addr 0x6baaca8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_borderBottomWidth, addr 0x6c13b2c, size 0x60, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFloat UnityEngine_UIElements_IStyle_get_borderBottomWidth();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_borderLeftColor, addr 0x6baaeb8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_borderLeftColor, addr 0x6c13d3c, size 0x7c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleColor UnityEngine_UIElements_IStyle_get_borderLeftColor();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_borderLeftWidth, addr 0x6baafa0, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_borderLeftWidth, addr 0x6c13e24, size 0x60, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFloat UnityEngine_UIElements_IStyle_get_borderLeftWidth();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_borderRightColor, addr 0x6bab080, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_borderRightColor, addr 0x6c13f04, size 0x7c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleColor UnityEngine_UIElements_IStyle_get_borderRightColor();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_borderRightWidth, addr 0x6bab168, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_borderRightWidth, addr 0x6c13fec, size 0x60, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFloat UnityEngine_UIElements_IStyle_get_borderRightWidth();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_borderTopColor, addr 0x6bab248, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_borderTopColor, addr 0x6c140cc, size 0x7c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleColor UnityEngine_UIElements_IStyle_get_borderTopColor();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_borderTopLeftRadius, addr 0x6bab330, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_borderTopLeftRadius, addr 0x6c141b4, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_borderTopLeftRadius();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_borderTopRightRadius, addr 0x6bab3a8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_borderTopRightRadius, addr 0x6c1422c, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_borderTopRightRadius();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_borderTopWidth, addr 0x6bab420, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_borderTopWidth, addr 0x6c142a4, size 0x60, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFloat UnityEngine_UIElements_IStyle_get_borderTopWidth();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_bottom, addr 0x6bab500, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_bottom, addr 0x6c14384, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_bottom();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_color, addr 0x6bab5b4, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_color, addr 0x6c14438, size 0x78, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleColor UnityEngine_UIElements_IStyle_get_color();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_cursor, addr 0x6baf678, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_cursor, addr 0x6c184fc, size 0x50, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleCursor UnityEngine_UIElements_IStyle_get_cursor();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_display, addr 0x6bab694, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_display, addr 0x6c14518, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::DisplayStyle> UnityEngine_UIElements_IStyle_get_display();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_flexBasis, addr 0x6bab7c0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_flexBasis, addr 0x6c14644, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_flexBasis();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_flexDirection, addr 0x6bab884, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_flexDirection, addr 0x6c14708, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::FlexDirection> UnityEngine_UIElements_IStyle_get_flexDirection();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_flexGrow, addr 0x6bab9b0, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_flexGrow, addr 0x6c14834, size 0x60, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFloat UnityEngine_UIElements_IStyle_get_flexGrow();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_flexShrink, addr 0x6baba90, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_flexShrink, addr 0x6c14914, size 0x60, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFloat UnityEngine_UIElements_IStyle_get_flexShrink();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_flexWrap, addr 0x6babb70, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_flexWrap, addr 0x6c149f4, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Wrap> UnityEngine_UIElements_IStyle_get_flexWrap();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_fontSize, addr 0x6babc9c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_fontSize, addr 0x6c14b20, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_fontSize();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_height, addr 0x6babd0c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_height, addr 0x6c14b90, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_height();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_justifyContent, addr 0x6babdc0, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_justifyContent, addr 0x6c14c44, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Justify> UnityEngine_UIElements_IStyle_get_justifyContent();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_left, addr 0x6babeec, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_left, addr 0x6c14d70, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_left();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_letterSpacing, addr 0x6babfa0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_letterSpacing, addr 0x6c14e24, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_letterSpacing();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_marginBottom, addr 0x6bac018, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_marginBottom, addr 0x6c14e9c, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_marginBottom();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_marginLeft, addr 0x6bac0cc, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_marginLeft, addr 0x6c14f50, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_marginLeft();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_marginRight, addr 0x6bac180, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_marginRight, addr 0x6c15004, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_marginRight();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_marginTop, addr 0x6bac234, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_marginTop, addr 0x6c150b8, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_marginTop();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_maxHeight, addr 0x6bac2e8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_maxHeight, addr 0x6c1516c, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_maxHeight();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_maxWidth, addr 0x6bac39c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_maxWidth, addr 0x6c15220, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_maxWidth();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_minHeight, addr 0x6bac450, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_minHeight, addr 0x6c152d4, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_minHeight();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_minWidth, addr 0x6bac504, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_minWidth, addr 0x6c15388, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_minWidth();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_opacity, addr 0x6bac5b8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_opacity, addr 0x6c1543c, size 0x60, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFloat UnityEngine_UIElements_IStyle_get_opacity();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_overflow, addr 0x6bac668, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_overflow, addr 0x6c154ec, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Overflow> UnityEngine_UIElements_IStyle_get_overflow();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_paddingBottom, addr 0x6bac7e4, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_paddingBottom, addr 0x6c15668, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_paddingBottom();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_paddingLeft, addr 0x6bac898, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_paddingLeft, addr 0x6c1571c, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_paddingLeft();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_paddingRight, addr 0x6bac94c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_paddingRight, addr 0x6c157d0, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_paddingRight();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_paddingTop, addr 0x6baca00, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_paddingTop, addr 0x6c15884, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_paddingTop();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_position, addr 0x6bacab4, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_position, addr 0x6c15938, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Position> UnityEngine_UIElements_IStyle_get_position();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_right, addr 0x6bacbe0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_right, addr 0x6c15a64, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_right();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_rotate, addr 0x6bb03ac, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_rotate, addr 0x6c19230, size 0x4c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleRotate UnityEngine_UIElements_IStyle_get_rotate();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_scale, addr 0x6bb05e0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_scale, addr 0x6c19464, size 0x38, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleScale UnityEngine_UIElements_IStyle_get_scale();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_textOverflow, addr 0x6bacc94, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_textOverflow, addr 0x6c15b18, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::TextOverflow> UnityEngine_UIElements_IStyle_get_textOverflow();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_textShadow, addr 0x6baf87c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_textShadow, addr 0x6c18700, size 0x50, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleTextShadow UnityEngine_UIElements_IStyle_get_textShadow();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_top, addr 0x6bacd98, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_top, addr 0x6c15c1c, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_top();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_transformOrigin, addr 0x6baff74, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_transformOrigin, addr 0x6c18df8, size 0x44, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleTransformOrigin UnityEngine_UIElements_IStyle_get_transformOrigin();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_transitionDelay, addr 0x6bace4c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_transitionDelay, addr 0x6c15cd0, size 0x50, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::TimeValue> UnityEngine_UIElements_IStyle_get_transitionDelay();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_transitionDuration, addr 0x6bacf40, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_transitionDuration, addr 0x6c15dc4, size 0x54, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::TimeValue> UnityEngine_UIElements_IStyle_get_transitionDuration();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_transitionProperty, addr 0x6bad03c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_transitionProperty, addr 0x6c15ec0, size 0x54, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::StylePropertyName> UnityEngine_UIElements_IStyle_get_transitionProperty();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_transitionTimingFunction, addr 0x6bad138, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_transitionTimingFunction, addr 0x6c15fbc, size 0x54, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::EasingFunction> UnityEngine_UIElements_IStyle_get_transitionTimingFunction();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_translate, addr 0x6bb017c, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_translate, addr 0x6c19000, size 0x4c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleTranslate UnityEngine_UIElements_IStyle_get_translate();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_unityBackgroundImageTintColor, addr 0x6bad234, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_unityBackgroundImageTintColor, addr 0x6c160b8, size 0x7c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleColor UnityEngine_UIElements_IStyle_get_unityBackgroundImageTintColor();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_unityEditorTextRenderingMode, addr 0x6bad31c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_unityEditorTextRenderingMode, addr 0x6c161a0, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::EditorTextRenderingMode> UnityEngine_UIElements_IStyle_get_unityEditorTextRenderingMode();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_unityFont, addr 0x6bad420, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_unityFont, addr 0x6c162a4, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFont UnityEngine_UIElements_IStyle_get_unityFont();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_unityFontDefinition, addr 0x6bad68c, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_unityFontDefinition, addr 0x6c16510, size 0x3c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFontDefinition UnityEngine_UIElements_IStyle_get_unityFontDefinition();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_unityFontStyleAndWeight, addr 0x6bada5c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_unityFontStyleAndWeight, addr 0x6c168e0, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::FontStyle> UnityEngine_UIElements_IStyle_get_unityFontStyleAndWeight();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_unityOverflowClipBox, addr 0x6badb60, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_unityOverflowClipBox, addr 0x6c169e4, size 0x60, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::OverflowClipBox> UnityEngine_UIElements_IStyle_get_unityOverflowClipBox();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_unityParagraphSpacing, addr 0x6badc5c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_unityParagraphSpacing, addr 0x6c16ae0, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_unityParagraphSpacing();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_unitySliceBottom, addr 0x6badcd4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_unitySliceBottom, addr 0x6c16b58, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleInt UnityEngine_UIElements_IStyle_get_unitySliceBottom();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_unitySliceLeft, addr 0x6bade60, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_unitySliceLeft, addr 0x6c16ce4, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleInt UnityEngine_UIElements_IStyle_get_unitySliceLeft();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_unitySliceRight, addr 0x6badec0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_unitySliceRight, addr 0x6c16d44, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleInt UnityEngine_UIElements_IStyle_get_unitySliceRight();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_unitySliceScale, addr 0x6badf20, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_unitySliceScale, addr 0x6c16da4, size 0x60, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFloat UnityEngine_UIElements_IStyle_get_unitySliceScale();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_unitySliceTop, addr 0x6badfd0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_unitySliceTop, addr 0x6c16e54, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleInt UnityEngine_UIElements_IStyle_get_unitySliceTop();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_unityTextAlign, addr 0x6bae030, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_unityTextAlign, addr 0x6c16eb4, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextAnchor> UnityEngine_UIElements_IStyle_get_unityTextAlign();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_unityTextGenerator, addr 0x6bae134, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_unityTextGenerator, addr 0x6c16fb8, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextGeneratorType> UnityEngine_UIElements_IStyle_get_unityTextGenerator();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_unityTextOutlineColor, addr 0x6bae238, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_unityTextOutlineColor, addr 0x6c170bc, size 0x7c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleColor UnityEngine_UIElements_IStyle_get_unityTextOutlineColor();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_unityTextOutlineWidth, addr 0x6bae320, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_unityTextOutlineWidth, addr 0x6c171a4, size 0x60, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleFloat UnityEngine_UIElements_IStyle_get_unityTextOutlineWidth();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_unityTextOverflowPosition, addr 0x6bae3d0, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_unityTextOverflowPosition, addr 0x6c17254, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::TextOverflowPosition> UnityEngine_UIElements_IStyle_get_unityTextOverflowPosition();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_visibility, addr 0x6bae4d4, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_visibility, addr 0x6c17358, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Visibility> UnityEngine_UIElements_IStyle_get_visibility();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_whiteSpace, addr 0x6bae5dc, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_whiteSpace, addr 0x6c17460, size 0x64, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::WhiteSpace> UnityEngine_UIElements_IStyle_get_whiteSpace();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_width, addr 0x6bae6e0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_width, addr 0x6c17564, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_width();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.get_wordSpacing, addr 0x6bae794, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.get_wordSpacing, addr 0x6c17618, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleLength UnityEngine_UIElements_IStyle_get_wordSpacing();
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_alignContent, addr 0x6ba99c4, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_alignContent, addr 0x6c12848, size 0xc4, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_alignContent(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_alignItems, addr 0x6ba9aec, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_alignItems, addr 0x6c12970, size 0xc8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_alignItems(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_alignSelf, addr 0x6ba9c14, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_alignSelf, addr 0x6c12a98, size 0xc4, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_alignSelf(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Align> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_backgroundColor, addr 0x6ba9d50, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_backgroundColor, addr 0x6c12bd4, size 0x68, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_backgroundColor(::UnityEngine::UIElements::StyleColor value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_backgroundImage, addr 0x6ba9f54, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_backgroundImage, addr 0x6c12dd8, size 0x6c, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_backgroundImage(::UnityEngine::UIElements::StyleBackground value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_backgroundPositionX, addr 0x6baa4e0, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_backgroundPositionX, addr 0x6c13364, size 0x54, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_backgroundPositionX(::UnityEngine::UIElements::StyleBackgroundPosition value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_backgroundPositionY, addr 0x6baa714, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_backgroundPositionY, addr 0x6c13598, size 0x54, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_backgroundPositionY(::UnityEngine::UIElements::StyleBackgroundPosition value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_backgroundRepeat, addr 0x6baa7cc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_backgroundRepeat, addr 0x6c13650, size 0x58, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_backgroundRepeat(::UnityEngine::UIElements::StyleBackgroundRepeat value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_backgroundSize, addr 0x6bafaec, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_backgroundSize, addr 0x6c18970, size 0x64, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_backgroundSize(::UnityEngine::UIElements::StyleBackgroundSize value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_borderBottomColor, addr 0x6baa9c0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_borderBottomColor, addr 0x6c13844, size 0x6c, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_borderBottomColor(::UnityEngine::UIElements::StyleColor value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_borderBottomLeftRadius, addr 0x6baaa48, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_borderBottomLeftRadius, addr 0x6c138cc, size 0x54, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_borderBottomLeftRadius(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_borderBottomRightRadius, addr 0x6baac50, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_borderBottomRightRadius, addr 0x6c13ad4, size 0x58, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_borderBottomRightRadius(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_borderBottomWidth, addr 0x6baad08, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_borderBottomWidth, addr 0x6c13b8c, size 0x80, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_borderBottomWidth(::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_borderLeftColor, addr 0x6baaf34, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_borderLeftColor, addr 0x6c13db8, size 0x6c, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_borderLeftColor(::UnityEngine::UIElements::StyleColor value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_borderLeftWidth, addr 0x6bab000, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_borderLeftWidth, addr 0x6c13e84, size 0x80, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_borderLeftWidth(::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_borderRightColor, addr 0x6bab0fc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_borderRightColor, addr 0x6c13f80, size 0x6c, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_borderRightColor(::UnityEngine::UIElements::StyleColor value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_borderRightWidth, addr 0x6bab1c8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_borderRightWidth, addr 0x6c1404c, size 0x80, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_borderRightWidth(::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_borderTopColor, addr 0x6bab2c4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_borderTopColor, addr 0x6c14148, size 0x6c, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_borderTopColor(::UnityEngine::UIElements::StyleColor value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_borderTopLeftRadius, addr 0x6bab350, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_borderTopLeftRadius, addr 0x6c141d4, size 0x58, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_borderTopLeftRadius(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_borderTopRightRadius, addr 0x6bab3c8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_borderTopRightRadius, addr 0x6c1424c, size 0x58, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_borderTopRightRadius(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_borderTopWidth, addr 0x6bab480, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_borderTopWidth, addr 0x6c14304, size 0x80, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_borderTopWidth(::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_bottom, addr 0x6bab520, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_bottom, addr 0x6c143a4, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_bottom(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_color, addr 0x6bab62c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_color, addr 0x6c144b0, size 0x68, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_color(::UnityEngine::UIElements::StyleColor value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_cursor, addr 0x6baf6e4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_cursor, addr 0x6c18568, size 0x5c, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_cursor(::UnityEngine::UIElements::StyleCursor value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_display, addr 0x6bab6f8, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_display, addr 0x6c1457c, size 0xc8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_display(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::DisplayStyle> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_flexBasis, addr 0x6bab7e0, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_flexBasis, addr 0x6c14664, size 0xa4, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_flexBasis(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_flexDirection, addr 0x6bab8e8, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_flexDirection, addr 0x6c1476c, size 0xc8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_flexDirection(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::FlexDirection> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_flexGrow, addr 0x6baba10, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_flexGrow, addr 0x6c14894, size 0x80, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_flexGrow(::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_flexShrink, addr 0x6babaf0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_flexShrink, addr 0x6c14974, size 0x80, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_flexShrink(::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_flexWrap, addr 0x6babbd4, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_flexWrap, addr 0x6c14a58, size 0xc8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_flexWrap(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Wrap> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_fontSize, addr 0x6babcb8, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_fontSize, addr 0x6c14b3c, size 0x54, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_fontSize(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_height, addr 0x6babd2c, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_height, addr 0x6c14bb0, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_height(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_justifyContent, addr 0x6babe24, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_justifyContent, addr 0x6c14ca8, size 0xc8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_justifyContent(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Justify> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_left, addr 0x6babf0c, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_left, addr 0x6c14d90, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_left(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_letterSpacing, addr 0x6babfc0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_letterSpacing, addr 0x6c14e44, size 0x58, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_letterSpacing(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_marginBottom, addr 0x6bac038, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_marginBottom, addr 0x6c14ebc, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_marginBottom(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_marginLeft, addr 0x6bac0ec, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_marginLeft, addr 0x6c14f70, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_marginLeft(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_marginRight, addr 0x6bac1a0, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_marginRight, addr 0x6c15024, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_marginRight(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_marginTop, addr 0x6bac254, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_marginTop, addr 0x6c150d8, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_marginTop(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_maxHeight, addr 0x6bac308, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_maxHeight, addr 0x6c1518c, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_maxHeight(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_maxWidth, addr 0x6bac3bc, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_maxWidth, addr 0x6c15240, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_maxWidth(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_minHeight, addr 0x6bac470, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_minHeight, addr 0x6c152f4, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_minHeight(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_minWidth, addr 0x6bac524, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_minWidth, addr 0x6c153a8, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_minWidth(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_opacity, addr 0x6bac618, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_opacity, addr 0x6c1549c, size 0x50, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_opacity(::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_overflow, addr 0x6bac6cc, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_overflow, addr 0x6c15550, size 0x118, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_overflow(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Overflow> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_paddingBottom, addr 0x6bac804, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_paddingBottom, addr 0x6c15688, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_paddingBottom(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_paddingLeft, addr 0x6bac8b8, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_paddingLeft, addr 0x6c1573c, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_paddingLeft(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_paddingRight, addr 0x6bac96c, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_paddingRight, addr 0x6c157f0, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_paddingRight(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_paddingTop, addr 0x6baca20, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_paddingTop, addr 0x6c158a4, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_paddingTop(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_position, addr 0x6bacb18, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_position, addr 0x6c1599c, size 0xc8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_position(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Position> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_right, addr 0x6bacc00, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_right, addr 0x6c15a84, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_right(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_rotate, addr 0x6bb0424, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_rotate, addr 0x6c192a8, size 0x64, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_rotate(::UnityEngine::UIElements::StyleRotate value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_scale, addr 0x6bb063c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_scale, addr 0x6c194c0, size 0x64, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_scale(::UnityEngine::UIElements::StyleScale value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_textOverflow, addr 0x6baccf8, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_textOverflow, addr 0x6c15b7c, size 0xa0, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_textOverflow(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::TextOverflow> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_textShadow, addr 0x6baf8ec, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_textShadow, addr 0x6c18770, size 0x5c, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_textShadow(::UnityEngine::UIElements::StyleTextShadow value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_top, addr 0x6bacdb8, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_top, addr 0x6c15c3c, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_top(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_transformOrigin, addr 0x6baffdc, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_transformOrigin, addr 0x6c18e60, size 0x64, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_transformOrigin(::UnityEngine::UIElements::StyleTransformOrigin value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_transitionDelay, addr 0x6bace9c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_transitionDelay, addr 0x6c15d20, size 0xa4, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_transitionDelay(::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::TimeValue> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_transitionDuration, addr 0x6bacf94, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_transitionDuration, addr 0x6c15e18, size 0xa8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_transitionDuration(::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::TimeValue> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_transitionProperty, addr 0x6bad090, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_transitionProperty, addr 0x6c15f14, size 0xa8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_transitionProperty(::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::StylePropertyName> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_transitionTimingFunction, addr 0x6bad18c, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_transitionTimingFunction, addr 0x6c16010, size 0xa8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_transitionTimingFunction(::UnityEngine::UIElements::StyleList_1<::UnityEngine::UIElements::EasingFunction> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_translate, addr 0x6bb01f4, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_translate, addr 0x6c19078, size 0x64, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_translate(::UnityEngine::UIElements::StyleTranslate value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_unityBackgroundImageTintColor, addr 0x6bad2b0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_unityBackgroundImageTintColor, addr 0x6c16134, size 0x6c, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_unityBackgroundImageTintColor(::UnityEngine::UIElements::StyleColor value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_unityEditorTextRenderingMode, addr 0x6bad380, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_unityEditorTextRenderingMode, addr 0x6c16204, size 0xa0, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_unityEditorTextRenderingMode(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::EditorTextRenderingMode> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_unityFont, addr 0x6bad430, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_unityFont, addr 0x6c162b4, size 0x54, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_unityFont(::UnityEngine::UIElements::StyleFont value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_unityFontDefinition, addr 0x6bad6c8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_unityFontDefinition, addr 0x6c1654c, size 0x6c, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_unityFontDefinition(::UnityEngine::UIElements::StyleFontDefinition value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_unityFontStyleAndWeight, addr 0x6badac0, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_unityFontStyleAndWeight, addr 0x6c16944, size 0xa0, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_unityFontStyleAndWeight(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::FontStyle> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_unityOverflowClipBox, addr 0x6badbc0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_unityOverflowClipBox, addr 0x6c16a44, size 0x9c, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_unityOverflowClipBox(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::OverflowClipBox> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_unityParagraphSpacing, addr 0x6badc7c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_unityParagraphSpacing, addr 0x6c16b00, size 0x58, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_unityParagraphSpacing(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_unitySliceBottom, addr 0x6badce4, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_unitySliceBottom, addr 0x6c16b68, size 0x50, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_unitySliceBottom(::UnityEngine::UIElements::StyleInt value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_unitySliceLeft, addr 0x6bade70, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_unitySliceLeft, addr 0x6c16cf4, size 0x50, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_unitySliceLeft(::UnityEngine::UIElements::StyleInt value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_unitySliceRight, addr 0x6baded0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_unitySliceRight, addr 0x6c16d54, size 0x50, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_unitySliceRight(::UnityEngine::UIElements::StyleInt value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_unitySliceScale, addr 0x6badf80, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_unitySliceScale, addr 0x6c16e04, size 0x50, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_unitySliceScale(::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_unitySliceTop, addr 0x6badfe0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_unitySliceTop, addr 0x6c16e64, size 0x50, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_unitySliceTop(::UnityEngine::UIElements::StyleInt value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_unityTextAlign, addr 0x6bae094, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_unityTextAlign, addr 0x6c16f18, size 0xa0, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_unityTextAlign(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextAnchor> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_unityTextGenerator, addr 0x6bae198, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_unityTextGenerator, addr 0x6c1701c, size 0xa0, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_unityTextGenerator(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::TextGeneratorType> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_unityTextOutlineColor, addr 0x6bae2b4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_unityTextOutlineColor, addr 0x6c17138, size 0x6c, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_unityTextOutlineColor(::UnityEngine::UIElements::StyleColor value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_unityTextOutlineWidth, addr 0x6bae380, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_unityTextOutlineWidth, addr 0x6c17204, size 0x50, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_unityTextOutlineWidth(::UnityEngine::UIElements::StyleFloat value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_unityTextOverflowPosition, addr 0x6bae434, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_unityTextOverflowPosition, addr 0x6c172b8, size 0xa0, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_unityTextOverflowPosition(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::TextOverflowPosition> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_visibility, addr 0x6bae538, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_visibility, addr 0x6c173bc, size 0xa4, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_visibility(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Visibility> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_whiteSpace, addr 0x6bae640, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_whiteSpace, addr 0x6c174c4, size 0xa0, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_whiteSpace(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::WhiteSpace> value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_width, addr 0x6bae700, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_width, addr 0x6c17584, size 0x94, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_width(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method UnityEngine.UIElements.IStyle.set_wordSpacing, addr 0x6bae7b4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IStyle.set_wordSpacing, addr 0x6c17638, size 0x58, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IStyle_set_wordSpacing(::UnityEngine::UIElements::StyleLength value);
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get__ve_k__BackingField() const;
@@ -1266,12 +1266,12 @@ public:
 
   constexpr void __cordl_internal_set_m_ValuesManaged(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValueManaged>* value);
 
-  /// @brief Method .ctor, addr 0x6bae81c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c176a0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* ve);
 
   static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyReader* getStaticF_s_StylePropertyReader();
 
-  /// @brief Method get_ve, addr 0x6bae80c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ve, addr 0x6c17690, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_ve();
 
   /// @brief Convert to "::UnityEngine::UIElements::IStyle"
@@ -1279,7 +1279,7 @@ public:
 
   static inline void setStaticF_s_StylePropertyReader(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* value);
 
-  /// @brief Method set_ve, addr 0x6bae814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ve, addr 0x6c17698, size 0x8, virtual false, abstract: false, final false
   inline void set_ve(::UnityEngine::UIElements::VisualElement* value);
 
 protected:

@@ -17,3 +17,4 @@ constexpr ::GlobalNamespace::DisconnectedReason GlobalNamespace::DisconnectedRea
 constexpr ::GlobalNamespace::DisconnectedReason GlobalNamespace::DisconnectedReason::ClientConnectionClosed{ static_cast<int32_t>(0x8) };
 constexpr ::GlobalNamespace::DisconnectedReason GlobalNamespace::DisconnectedReason::NetworkDisconnected{ static_cast<int32_t>(0x9) };
 constexpr ::GlobalNamespace::DisconnectedReason GlobalNamespace::DisconnectedReason::ServerTerminated{ static_cast<int32_t>(0xa) };
+constexpr ::GlobalNamespace::DisconnectedReason GlobalNamespace::DisconnectedReason::IncompatibleServerAPI{ static_cast<int32_t>(0xb) };

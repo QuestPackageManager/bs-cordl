@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(INetworkPlayerModel)
 namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
+class BeatSaberConnectedPlayerManager;
 }
 namespace GlobalNamespace {
-class ConnectedPlayerManager;
+struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
@@ -41,7 +41,7 @@ public:
   // Declarations
   __declspec(property(get = get_configuration)) ::GlobalNamespace::GameplayServerConfiguration configuration;
 
-  __declspec(property(get = get_connectedPlayerManager)) ::GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager;
+  __declspec(property(get = get_connectedPlayerManager)) ::GlobalNamespace::BeatSaberConnectedPlayerManager* connectedPlayerManager;
 
   __declspec(property(get = get_currentPartySize)) int32_t currentPartySize;
 
@@ -85,7 +85,7 @@ public:
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
   /// @brief Method get_connectedPlayerManager, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::ConnectedPlayerManager* get_connectedPlayerManager();
+  inline ::GlobalNamespace::BeatSaberConnectedPlayerManager* get_connectedPlayerManager();
 
   /// @brief Method get_currentPartySize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_currentPartySize();
@@ -134,7 +134,7 @@ public:
   INetworkPlayerModel(INetworkPlayerModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18868 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

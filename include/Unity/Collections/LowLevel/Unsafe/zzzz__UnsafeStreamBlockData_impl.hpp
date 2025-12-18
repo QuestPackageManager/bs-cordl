@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlockData::*)(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlockData::Allocate)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x62b0f04;
+  constexpr static std::size_t addrs = 0x6318a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlockData::*)(
     ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock*)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlockData::Free)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x62b0f70;
+  constexpr static std::size_t addrs = 0x6318afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

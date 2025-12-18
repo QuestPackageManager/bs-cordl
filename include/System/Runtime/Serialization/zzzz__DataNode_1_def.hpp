@@ -216,7 +216,7 @@ public:
   DataNode_1(DataNode_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16990 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17004 };
 
   /// @brief Field dataType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___dataType;

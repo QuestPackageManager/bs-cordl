@@ -22,33 +22,33 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapLevelOrPackIdAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
-  /// @brief Field _filter, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__filter, put = __cordl_internal_set__filter)) ::GlobalNamespace::BeatmapLevelOrPackIdFilter _filter;
-
   __declspec(property(get = get_allowEmpty)) bool allowEmpty;
 
   __declspec(property(get = get_allowLevels)) bool allowLevels;
 
   __declspec(property(get = get_allowPacks)) bool allowPacks;
 
+  /// @brief Field filter, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_filter, put = __cordl_internal_set_filter)) ::GlobalNamespace::BeatmapLevelOrPackIdFilter filter;
+
   static inline ::GlobalNamespace::BeatmapLevelOrPackIdAttribute* New_ctor(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter);
 
-  constexpr ::GlobalNamespace::BeatmapLevelOrPackIdFilter const& __cordl_internal_get__filter() const;
+  constexpr ::GlobalNamespace::BeatmapLevelOrPackIdFilter const& __cordl_internal_get_filter() const;
 
-  constexpr ::GlobalNamespace::BeatmapLevelOrPackIdFilter& __cordl_internal_get__filter();
+  constexpr ::GlobalNamespace::BeatmapLevelOrPackIdFilter& __cordl_internal_get_filter();
 
-  constexpr void __cordl_internal_set__filter(::GlobalNamespace::BeatmapLevelOrPackIdFilter value);
+  constexpr void __cordl_internal_set_filter(::GlobalNamespace::BeatmapLevelOrPackIdFilter value);
 
-  /// @brief Method .ctor, addr 0x36253a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3650c50, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter);
 
-  /// @brief Method get_allowEmpty, addr 0x362539c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowEmpty, addr 0x3650c3c, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowEmpty();
 
-  /// @brief Method get_allowLevels, addr 0x3625390, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowLevels, addr 0x3650c28, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowLevels();
 
-  /// @brief Method get_allowPacks, addr 0x3625384, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowPacks, addr 0x3650c14, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowPacks();
 
 protected:
@@ -66,15 +66,15 @@ public:
   BeatmapLevelOrPackIdAttribute(BeatmapLevelOrPackIdAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15151 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15161 };
 
-  /// @brief Field _filter, offset: 0x18, size: 0x4, def value: None
-  ::GlobalNamespace::BeatmapLevelOrPackIdFilter ____filter;
+  /// @brief Field filter, offset: 0x18, size: 0x4, def value: None
+  ::GlobalNamespace::BeatmapLevelOrPackIdFilter ___filter;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::BeatmapLevelOrPackIdAttribute, ____filter) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapLevelOrPackIdAttribute, ___filter) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelOrPackIdAttribute, 0x20>, "Size mismatch!");
 

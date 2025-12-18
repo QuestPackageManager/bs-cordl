@@ -146,7 +146,7 @@ public:
   StablePriorityQueue_1__GetEnumerator_d__22(StablePriorityQueue_1__GetEnumerator_d__22 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20534 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -306,7 +306,7 @@ public:
   StablePriorityQueue_1(StablePriorityQueue_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20535 };
 
   /// @brief Field _numNodes, offset: 0x10, size: 0x4, def value: None
   int32_t ____numNodes;

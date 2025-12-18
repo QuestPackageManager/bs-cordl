@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(bool, int32_t, ::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event, ::ByRef<::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event>)>(
         &::UnityEngine::Rendering::Universal::RenderingLayerUtils::CombineRendererEvents)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6691c74;
+  constexpr static std::size_t addrs = 0x66f9800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          int32_t, ::ByRef<::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event>, ::ByRef<::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize>)>(
         &::UnityEngine::Rendering::Universal::RenderingLayerUtils::RequireRenderingLayers)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6691ca8;
+  constexpr static std::size_t addrs = 0x66f9834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          int32_t, ::ByRef<::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event>, ::ByRef<::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize>)>(
         &::UnityEngine::Rendering::Universal::RenderingLayerUtils::RequireRenderingLayers)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x6691d18;
+  constexpr static std::size_t addrs = 0x66f98a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize)>(&::UnityEngine::Rendering::Universal::RenderingLayerUtils::SetupProperties)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6692010;
+  constexpr static std::size_t addrs = 0x66f9b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize)>(&::UnityEngine::Rendering::Universal::RenderingLayerUtils::SetupProperties)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6692080;
+  constexpr static std::size_t addrs = 0x66f9c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(
     ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize)>(&::UnityEngine::Rendering::Universal::RenderingLayerUtils::GetFormat)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6692198;
+  constexpr static std::size_t addrs = 0x66f9d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::UnityEngine::Rendering::Universal::RenderingLayerUtils::ToValidRenderingLayers)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x669223c;
+  constexpr static std::size_t addrs = 0x66f9dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize (*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::RenderingLayerUtils::GetMaskSize)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6691fdc;
+  constexpr static std::size_t addrs = 0x66f9b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize)>(
     &::UnityEngine::Rendering::Universal::RenderingLayerUtils::GetBits)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x669214c;
+  constexpr static std::size_t addrs = 0x66f9cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -188,7 +188,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event, ::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event)>(
     &::UnityEngine::Rendering::Universal::RenderingLayerUtils::Combine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6691c9c;
+  constexpr static std::size_t addrs = 0x66f9828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -205,7 +205,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize, ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize)>(
     &::UnityEngine::Rendering::Universal::RenderingLayerUtils::Combine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6691fd0;
+  constexpr static std::size_t addrs = 0x66f9b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

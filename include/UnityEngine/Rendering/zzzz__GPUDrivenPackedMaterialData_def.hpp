@@ -25,19 +25,19 @@ public:
 
   __declspec(property(get = get_isTransparent)) bool isTransparent;
 
-  /// @brief Method Equals, addr 0x68f8b84, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6961a08, size 0x14, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::Rendering::GPUDrivenPackedMaterialData other);
 
-  /// @brief Method .ctor, addr 0x68f8b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6961a00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isIndirectSupported, addr 0x68f8b70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isIndirectSupported, addr 0x69619f4, size 0xc, virtual false, abstract: false, final false
   inline bool get_isIndirectSupported();
 
-  /// @brief Method get_isMotionVectorsPassEnabled, addr 0x68f8b64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isMotionVectorsPassEnabled, addr 0x69619e8, size 0xc, virtual false, abstract: false, final false
   inline bool get_isMotionVectorsPassEnabled();
 
-  /// @brief Method get_isTransparent, addr 0x68f8b58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isTransparent, addr 0x69619dc, size 0xc, virtual false, abstract: false, final false
   inline bool get_isTransparent();
 
   // Ctor Parameters []
@@ -48,7 +48,7 @@ public:
   constexpr GPUDrivenPackedMaterialData(uint32_t data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10863 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

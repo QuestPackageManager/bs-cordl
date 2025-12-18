@@ -42,7 +42,7 @@ public:
   static inline ::System::Linq::Expressions::Interpreter::StringSwitchInstruction* New_ctor(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* cases,
                                                                                             ::System::Runtime::CompilerServices::StrongBox_1<int32_t>* nullCase);
 
-  /// @brief Method Run, addr 0x5d74e30, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5ddc9bc, size 0xc0, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* const& __cordl_internal_get__cases() const;
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__nullCase(::System::Runtime::CompilerServices::StrongBox_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x5d74ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ddc968, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* cases, ::System::Runtime::CompilerServices::StrongBox_1<int32_t>* nullCase);
 
-  /// @brief Method get_ConsumedStack, addr 0x5d74e28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5ddc9b4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5d74de4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5ddc970, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:
@@ -81,7 +81,7 @@ public:
   StringSwitchInstruction(StringSwitchInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16261 };
 
   /// @brief Field _cases, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* ____cases;

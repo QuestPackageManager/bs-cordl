@@ -71,18 +71,18 @@ public:
   /// @brief Field vros_major_version, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_vros_major_version, put = __cordl_internal_set_vros_major_version)) int32_t vros_major_version;
 
-  /// @brief Method ApplyBasicFields, addr 0x3162244, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ApplyBasicFields, addr 0x3191f3c, size 0xf0, virtual true, abstract: false, final false
   inline void ApplyBasicFields(::OSCE::Analytics::AnalyticsManager* manager);
 
-  /// @brief Method ApplyTime, addr 0x31621d8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ApplyTime, addr 0x3191ed0, size 0x6c, virtual true, abstract: false, final false
   inline void ApplyTime(::OSCE::Analytics::AnalyticsManager* manager);
 
-  /// @brief Method GetIDType, addr 0x31621d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIDType, addr 0x3191ec8, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IDType GetIDType();
 
   static inline ::BeatGames::Analytics::Events::TelemetryEvent* New_ctor();
 
-  /// @brief Method ReturnEventToPool, addr 0x3162334, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ReturnEventToPool, addr 0x319202c, size 0x74, virtual true, abstract: false, final false
   inline void ReturnEventToPool();
 
   constexpr ::StringW const& __cordl_internal_get_client_version() const;
@@ -175,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set_vros_major_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x31623a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31920a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -193,7 +193,7 @@ public:
   TelemetryEvent(TelemetryEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22959 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22985 };
 
   /// @brief Field event, offset: 0x28, size: 0x8, def value: None
   ::StringW ___event;

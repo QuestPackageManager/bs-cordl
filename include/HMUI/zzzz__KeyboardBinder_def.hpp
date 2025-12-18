@@ -81,7 +81,7 @@ public:
   static ::HMUI::KeyboardBinder_KeyBindingType const KeyUp;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19094 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19120 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -122,19 +122,19 @@ public:
 
   __declspec(property(get = get_enabled, put = set_enabled)) bool enabled;
 
-  /// @brief Method AddBinding, addr 0x5662380, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x56c3028, size 0x130, virtual false, abstract: false, final false
   inline void AddBinding(::UnityEngine::KeyCode keyCode, ::HMUI::KeyboardBinder_KeyBindingType keyBindingType, ::System::Action_1<bool>* action);
 
-  /// @brief Method AddBindings, addr 0x5662558, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AddBindings, addr 0x56c3200, size 0x154, virtual false, abstract: false, final false
   inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_3<::UnityEngine::KeyCode, ::HMUI::KeyboardBinder_KeyBindingType, ::System::Action_1<bool>*>*>* bindingData);
 
-  /// @brief Method ClearBindings, addr 0x56626ac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x56c3354, size 0x78, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method Init, addr 0x56622b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x56c2f5c, size 0xc, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method ManualUpdate, addr 0x5662724, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x56c33cc, size 0x158, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::HMUI::KeyboardBinder* New_ctor();
@@ -174,19 +174,19 @@ public:
 
   constexpr void __cordl_internal_set__shouldClearBindings(bool value);
 
-  /// @brief Method .ctor, addr 0x5662218, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56c2ec0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x56624b0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56c3158, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::Tuple_3<::UnityEngine::KeyCode, ::HMUI::KeyboardBinder_KeyBindingType, ::System::Action_1<bool>*>*>* bindingData);
 
-  /// @brief Method .ctor, addr 0x56622c0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56c2f68, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::KeyCode keycode, ::HMUI::KeyboardBinder_KeyBindingType keyBindingType, ::System::Action_1<bool>* action);
 
-  /// @brief Method get_enabled, addr 0x5662208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x56c2eb0, size 0x8, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method set_enabled, addr 0x5662210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x56c2eb8, size 0x8, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
 protected:
@@ -204,7 +204,7 @@ public:
   KeyboardBinder(KeyboardBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19121 };
 
   /// @brief Field <enabled>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____enabled_k__BackingField;

@@ -60,7 +60,7 @@ public:
   constexpr DataStreamReader_Context(int32_t m_ReadByteIndex, int32_t m_BitIndex, uint64_t m_BitBuffer, int32_t m_FailedReads) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15534 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -106,185 +106,185 @@ public:
 
   __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method ByteSwap, addr 0x628e7a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ByteSwap, addr 0x62f6330, size 0xc, virtual false, abstract: false, final false
   static inline int16_t ByteSwap(int16_t val);
 
-  /// @brief Method ByteSwap, addr 0x628e7b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ByteSwap, addr 0x62f633c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ByteSwap(int32_t val);
 
-  /// @brief Method CheckBits, addr 0x628f7ac, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CheckBits, addr 0x62f7338, size 0x84, virtual false, abstract: false, final false
   static inline void CheckBits(int32_t numBits);
 
-  /// @brief Method CheckRead, addr 0x628f7a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckRead, addr 0x62f7334, size 0x4, virtual false, abstract: false, final false
   inline void CheckRead();
 
-  /// @brief Method FillBitBuffer, addr 0x628ec68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FillBitBuffer, addr 0x62f67f4, size 0x68, virtual false, abstract: false, final false
   inline void FillBitBuffer();
 
-  /// @brief Method Flush, addr 0x628e8d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x62f6464, size 0x14, virtual false, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method GetBitsRead, addr 0x628e9bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetBitsRead, addr 0x62f6548, size 0x10, virtual false, abstract: false, final false
   inline int32_t GetBitsRead();
 
-  /// @brief Method GetBytesRead, addr 0x628e8cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetBytesRead, addr 0x62f6458, size 0xc, virtual false, abstract: false, final false
   inline int32_t GetBytesRead();
 
-  /// @brief Method Initialize, addr 0x628e738, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x62f62c4, size 0x5c, virtual false, abstract: false, final false
   static inline void Initialize(::ByRef<::Unity::Collections::DataStreamReader> self, ::Unity::Collections::NativeArray_1<uint8_t> array);
 
-  /// @brief Method ReadByte, addr 0x628e9f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x62f6580, size 0x20, virtual false, abstract: false, final false
   inline uint8_t ReadByte();
 
-  /// @brief Method ReadBytes, addr 0x628e8ec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadBytes, addr 0x62f6478, size 0x5c, virtual false, abstract: false, final false
   inline void ReadBytes(::Unity::Collections::NativeArray_1<uint8_t> array);
 
-  /// @brief Method ReadBytes, addr 0x628e948, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ReadBytes, addr 0x62f64d4, size 0x74, virtual false, abstract: false, final false
   inline void ReadBytes(::System::Span_1<uint8_t> span);
 
-  /// @brief Method ReadBytesInternal, addr 0x628e7e0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ReadBytesInternal, addr 0x62f636c, size 0xec, virtual false, abstract: false, final false
   inline void ReadBytesInternal(uint8_t* data, int32_t length);
 
-  /// @brief Method ReadDouble, addr 0x628eb84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadDouble, addr 0x62f6710, size 0x1c, virtual false, abstract: false, final false
   inline double_t ReadDouble();
 
-  /// @brief Method ReadFixedString, addr 0x628f2c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadFixedString, addr 0x62f6e54, size 0x5c, virtual false, abstract: false, final false
   inline uint16_t ReadFixedString(::Unity::Collections::NativeArray_1<uint8_t> array);
 
-  /// @brief Method ReadFixedString128, addr 0x628f140, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadFixedString128, addr 0x62f6ccc, size 0x78, virtual false, abstract: false, final false
   inline ::Unity::Collections::FixedString128Bytes ReadFixedString128();
 
-  /// @brief Method ReadFixedString32, addr 0x628f010, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ReadFixedString32, addr 0x62f6b9c, size 0x64, virtual false, abstract: false, final false
   inline ::Unity::Collections::FixedString32Bytes ReadFixedString32();
 
-  /// @brief Method ReadFixedString4096, addr 0x628f23c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ReadFixedString4096, addr 0x62f6dc8, size 0x8c, virtual false, abstract: false, final false
   inline ::Unity::Collections::FixedString4096Bytes ReadFixedString4096();
 
-  /// @brief Method ReadFixedString512, addr 0x628f1b8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadFixedString512, addr 0x62f6d44, size 0x84, virtual false, abstract: false, final false
   inline ::Unity::Collections::FixedString512Bytes ReadFixedString512();
 
-  /// @brief Method ReadFixedString64, addr 0x628f0d0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ReadFixedString64, addr 0x62f6c5c, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Collections::FixedString64Bytes ReadFixedString64();
 
-  /// @brief Method ReadFixedStringInternal, addr 0x628f074, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadFixedStringInternal, addr 0x62f6c00, size 0x5c, virtual false, abstract: false, final false
   inline uint16_t ReadFixedStringInternal(uint8_t* data, int32_t maxLength);
 
-  /// @brief Method ReadFloat, addr 0x628eb64, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadFloat, addr 0x62f66f0, size 0x20, virtual false, abstract: false, final false
   inline float_t ReadFloat();
 
-  /// @brief Method ReadInt, addr 0x628ea54, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadInt, addr 0x62f65e0, size 0x20, virtual false, abstract: false, final false
   inline int32_t ReadInt();
 
-  /// @brief Method ReadIntNetworkByteOrder, addr 0x628eb1c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadIntNetworkByteOrder, addr 0x62f66a8, size 0x24, virtual false, abstract: false, final false
   inline int32_t ReadIntNetworkByteOrder();
 
-  /// @brief Method ReadLong, addr 0x628ea94, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadLong, addr 0x62f6620, size 0x1c, virtual false, abstract: false, final false
   inline int64_t ReadLong();
 
-  /// @brief Method ReadPackedDouble, addr 0x628ee88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedDouble, addr 0x62f6a14, size 0x8, virtual false, abstract: false, final false
   inline double_t ReadPackedDouble(::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedDoubleDelta, addr 0x628ee90, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedDoubleDelta, addr 0x62f6a1c, size 0xe0, virtual false, abstract: false, final false
   inline double_t ReadPackedDoubleDelta(double_t baseline, ::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedFixedString128Delta, addr 0x628f558, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedFixedString128Delta, addr 0x62f70e4, size 0x84, virtual false, abstract: false, final false
   inline ::Unity::Collections::FixedString128Bytes ReadPackedFixedString128Delta(::Unity::Collections::FixedString128Bytes baseline, ::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedFixedString32Delta, addr 0x628f324, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedFixedString32Delta, addr 0x62f6eb0, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Collections::FixedString32Bytes ReadPackedFixedString32Delta(::Unity::Collections::FixedString32Bytes baseline, ::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedFixedString4096Delta, addr 0x628f67c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedFixedString4096Delta, addr 0x62f7208, size 0xa8, virtual false, abstract: false, final false
   inline ::Unity::Collections::FixedString4096Bytes ReadPackedFixedString4096Delta(::Unity::Collections::FixedString4096Bytes baseline, ::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedFixedString512Delta, addr 0x628f5dc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedFixedString512Delta, addr 0x62f7168, size 0xa0, virtual false, abstract: false, final false
   inline ::Unity::Collections::FixedString512Bytes ReadPackedFixedString512Delta(::Unity::Collections::FixedString512Bytes baseline, ::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedFixedString64Delta, addr 0x628f4dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedFixedString64Delta, addr 0x62f7068, size 0x7c, virtual false, abstract: false, final false
   inline ::Unity::Collections::FixedString64Bytes ReadPackedFixedString64Delta(::Unity::Collections::FixedString64Bytes baseline, ::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedFixedStringDelta, addr 0x628f724, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedFixedStringDelta, addr 0x62f72b0, size 0x84, virtual false, abstract: false, final false
   inline uint16_t ReadPackedFixedStringDelta(::Unity::Collections::NativeArray_1<uint8_t> data, ::Unity::Collections::NativeArray_1<uint8_t> baseData,
                                              ::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedFixedStringDeltaInternal, addr 0x628f394, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedFixedStringDeltaInternal, addr 0x62f6f20, size 0x148, virtual false, abstract: false, final false
   inline uint16_t ReadPackedFixedStringDeltaInternal(uint8_t* data, int32_t maxLength, uint8_t* baseData, uint16_t baseLength, ::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedFloat, addr 0x628ee00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedFloat, addr 0x62f698c, size 0x8, virtual false, abstract: false, final false
   inline float_t ReadPackedFloat(::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedFloatDelta, addr 0x628ee08, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedFloatDelta, addr 0x62f6994, size 0x80, virtual false, abstract: false, final false
   inline float_t ReadPackedFloatDelta(float_t baseline, ::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedInt, addr 0x628edc0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedInt, addr 0x62f694c, size 0x24, virtual false, abstract: false, final false
   inline int32_t ReadPackedInt(::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedIntDelta, addr 0x628ef70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedIntDelta, addr 0x62f6afc, size 0x28, virtual false, abstract: false, final false
   inline int32_t ReadPackedIntDelta(int32_t baseline, ::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedLong, addr 0x628ede4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedLong, addr 0x62f6970, size 0x1c, virtual false, abstract: false, final false
   inline int64_t ReadPackedLong(::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedLongDelta, addr 0x628efc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedLongDelta, addr 0x62f6b4c, size 0x28, virtual false, abstract: false, final false
   inline int64_t ReadPackedLongDelta(int64_t baseline, ::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedUInt, addr 0x628eba0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedUInt, addr 0x62f672c, size 0xc, virtual false, abstract: false, final false
   inline uint32_t ReadPackedUInt(::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedUIntDelta, addr 0x628ef98, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedUIntDelta, addr 0x62f6b24, size 0x28, virtual false, abstract: false, final false
   inline uint32_t ReadPackedUIntDelta(uint32_t baseline, ::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedUIntInternal, addr 0x628ebac, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedUIntInternal, addr 0x62f6738, size 0xbc, virtual false, abstract: false, final false
   inline uint32_t ReadPackedUIntInternal(int32_t maxSymbolLength, ::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedULong, addr 0x628ed70, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedULong, addr 0x62f68fc, size 0x50, virtual false, abstract: false, final false
   inline uint64_t ReadPackedULong(::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadPackedULongDelta, addr 0x628efe8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ReadPackedULongDelta, addr 0x62f6b74, size 0x28, virtual false, abstract: false, final false
   inline uint64_t ReadPackedULongDelta(uint64_t baseline, ::ByRef<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method ReadRawBits, addr 0x628ed14, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadRawBits, addr 0x62f68a0, size 0x5c, virtual false, abstract: false, final false
   inline uint32_t ReadRawBits(int32_t numbits);
 
-  /// @brief Method ReadRawBitsInternal, addr 0x628ecd0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ReadRawBitsInternal, addr 0x62f685c, size 0x44, virtual false, abstract: false, final false
   inline uint32_t ReadRawBitsInternal(int32_t numbits);
 
-  /// @brief Method ReadShort, addr 0x628ea14, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadShort, addr 0x62f65a0, size 0x20, virtual false, abstract: false, final false
   inline int16_t ReadShort();
 
-  /// @brief Method ReadShortNetworkByteOrder, addr 0x628eacc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ReadShortNetworkByteOrder, addr 0x62f6658, size 0x28, virtual false, abstract: false, final false
   inline int16_t ReadShortNetworkByteOrder();
 
-  /// @brief Method ReadUInt, addr 0x628ea74, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadUInt, addr 0x62f6600, size 0x20, virtual false, abstract: false, final false
   inline uint32_t ReadUInt();
 
-  /// @brief Method ReadUIntNetworkByteOrder, addr 0x628eb40, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadUIntNetworkByteOrder, addr 0x62f66cc, size 0x24, virtual false, abstract: false, final false
   inline uint32_t ReadUIntNetworkByteOrder();
 
-  /// @brief Method ReadULong, addr 0x628eab0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadULong, addr 0x62f663c, size 0x1c, virtual false, abstract: false, final false
   inline uint64_t ReadULong();
 
-  /// @brief Method ReadUShort, addr 0x628ea34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadUShort, addr 0x62f65c0, size 0x20, virtual false, abstract: false, final false
   inline uint16_t ReadUShort();
 
-  /// @brief Method ReadUShortNetworkByteOrder, addr 0x628eaf4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ReadUShortNetworkByteOrder, addr 0x62f6680, size 0x28, virtual false, abstract: false, final false
   inline uint16_t ReadUShortNetworkByteOrder();
 
-  /// @brief Method SeekSet, addr 0x628e9cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SeekSet, addr 0x62f6558, size 0x28, virtual false, abstract: false, final false
   inline void SeekSet(int32_t pos);
 
-  /// @brief Method .ctor, addr 0x628e6dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62f6268, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<uint8_t> array);
 
-  /// @brief Method get_HasFailedReads, addr 0x628e7b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasFailedReads, addr 0x62f6344, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasFailedReads();
 
-  /// @brief Method get_IsCreated, addr 0x628e7d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCreated, addr 0x62f635c, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
-  /// @brief Method get_IsLittleEndian, addr 0x628e794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsLittleEndian, addr 0x62f6320, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsLittleEndian();
 
-  /// @brief Method get_Length, addr 0x628e7c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x62f6354, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   // Ctor Parameters []
@@ -296,7 +296,7 @@ public:
   constexpr DataStreamReader(uint8_t* m_BufferPtr, ::Unity::Collections::DataStreamReader_Context m_Context, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15521 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15535 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

@@ -29,19 +29,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>*();
 
-  /// @brief Method Equals, addr 0x68f9914, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6962798, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x68f9990, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6962814, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LocalKeywordSpace rhs);
 
-  /// @brief Method GetHashCode, addr 0x68f990c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6962790, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>* i___System__IEquatable_1___UnityEngine__Rendering__LocalKeywordSpace_();
 
-  /// @brief Method op_Equality, addr 0x68f98f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6962774, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::LocalKeywordSpace lhs, ::UnityEngine::Rendering::LocalKeywordSpace rhs);
 
   // Ctor Parameters []
@@ -52,7 +52,7 @@ public:
   constexpr LocalKeywordSpace(::System::IntPtr m_KeywordSpace) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10864 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10868 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -31,7 +31,7 @@ public:
   /// @brief Field version, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::StringW version;
 
-  /// @brief Method CreateSubsystemsAnalyticInfo, addr 0x6bf02dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateSubsystemsAnalyticInfo, addr 0x6c59160, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Analytics::SubsystemsAnalyticInfo* CreateSubsystemsAnalyticInfo();
 
   static inline ::UnityEngine::Analytics::SubsystemsAnalyticInfo* New_ctor();
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bf0248, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c590cc, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,7 +78,7 @@ public:
   SubsystemsAnalyticInfo(SubsystemsAnalyticInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22547 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22574 };
 
   /// @brief Field id, offset: 0x38, size: 0x8, def value: None
   ::StringW ___id;

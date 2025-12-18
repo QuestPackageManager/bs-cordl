@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_texture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x66b86e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6720274, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,7 +94,7 @@ public:
   RenderGraphUtils_PassData(RenderGraphUtils_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12984 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12988 };
 
   /// @brief Field texture, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___texture;
@@ -129,10 +129,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::RenderGraphUtils___c* New_ctor();
 
-  /// @brief Method <SetGlobalTexture>b__6_0, addr 0x66b8744, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <SetGlobalTexture>b__6_0, addr 0x67202d0, size 0x4, virtual false, abstract: false, final false
   inline void _SetGlobalTexture_b__6_0(::UnityEngine::Rendering::Universal::RenderGraphUtils_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x66b8740, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67202cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::RenderGraphUtils___c* getStaticF___9();
@@ -161,7 +161,7 @@ public:
   RenderGraphUtils___c(RenderGraphUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12985 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12989 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -184,11 +184,11 @@ public:
   __declspec(property(get = getStaticF_s_SetGlobalTextureProfilingSampler,
                       put = setStaticF_s_SetGlobalTextureProfilingSampler)) ::UnityEngine::Rendering::ProfilingSampler* s_SetGlobalTextureProfilingSampler;
 
-  /// @brief Method SetGlobalTexture, addr 0x66b7bcc, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalTexture, addr 0x671f758, size 0x4e4, virtual false, abstract: false, final false
   static inline void SetGlobalTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, int32_t nameId, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle handle,
                                       ::StringW passName, ::StringW file, int32_t line);
 
-  /// @brief Method UseDBufferIfValid, addr 0x66b845c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method UseDBufferIfValid, addr 0x671ffe8, size 0x1f8, virtual false, abstract: false, final false
   static inline void UseDBufferIfValid(::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder* builder, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData);
 
   static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF_s_SetGlobalTextureProfilingSampler();
@@ -219,7 +219,7 @@ public:
   static constexpr int32_t LightTextureSize{ static_cast<int32_t>(0x4) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12990 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

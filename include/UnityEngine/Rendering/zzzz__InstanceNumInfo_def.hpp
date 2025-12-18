@@ -38,7 +38,7 @@ public:
   constexpr InstanceNumInfo__InstanceNums_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17698 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -67,22 +67,22 @@ public:
   // Declarations
   using _InstanceNums_e__FixedBuffer = ::UnityEngine::Rendering::InstanceNumInfo__InstanceNums_e__FixedBuffer;
 
-  /// @brief Method GetInstanceNum, addr 0x660f470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceNum, addr 0x6676ffc, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetInstanceNum(::UnityEngine::Rendering::InstanceType type);
 
-  /// @brief Method GetInstanceNumIncludingChildren, addr 0x660f478, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceNumIncludingChildren, addr 0x6677004, size 0x140, virtual false, abstract: false, final false
   inline int32_t GetInstanceNumIncludingChildren(::UnityEngine::Rendering::InstanceType type);
 
-  /// @brief Method GetTotalInstanceNum, addr 0x660f5b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetTotalInstanceNum, addr 0x6677144, size 0xc, virtual false, abstract: false, final false
   inline int32_t GetTotalInstanceNum();
 
-  /// @brief Method InitDefault, addr 0x660f454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitDefault, addr 0x6676fe0, size 0x8, virtual false, abstract: false, final false
   inline void InitDefault();
 
-  /// @brief Method .ctor, addr 0x660f468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6676ff4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t meshRendererNum, int32_t speedTreeNum);
 
-  /// @brief Method .ctor, addr 0x660f45c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6676fe8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::InstanceType type, int32_t instanceNum);
 
   // Ctor Parameters []
@@ -93,7 +93,7 @@ public:
   constexpr InstanceNumInfo(::UnityEngine::Rendering::InstanceNumInfo__InstanceNums_e__FixedBuffer InstanceNums) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17699 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

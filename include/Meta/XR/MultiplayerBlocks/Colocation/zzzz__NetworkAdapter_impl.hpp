@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* (*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::get_NetworkData)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x58677d4;
+  constexpr static std::size_t addrs = 0x58cdf38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::set_NetworkData)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5867820;
+  constexpr static std::size_t addrs = 0x58cdf84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* (*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::get_NetworkMessenger)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5867870;
+  constexpr static std::size_t addrs = 0x58cdfd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::set_NetworkMessenger)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x58678bc;
+  constexpr static std::size_t addrs = 0x58ce020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*, ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*)>(&::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::SetConfig)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x585c9a4;
+  constexpr static std::size_t addrs = 0x58c3108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

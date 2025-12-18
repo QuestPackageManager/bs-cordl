@@ -97,26 +97,26 @@ public:
 
   constexpr void __cordl_internal_set_r(float_t value);
 
-  /// @brief Method .ctor, addr 0x3635530, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36619b4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventRotationValue, ::BeatmapSaveDataCommon::EaseType easeType, int32_t loopsCount, float_t rotation,
                     ::BeatmapSaveDataCommon::RotationDirection rotationDirection);
 
-  /// @brief Method get_beat, addr 0x36354f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x366197c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_easeType, addr 0x3635510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x3661994, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_easeType();
 
-  /// @brief Method get_loopsCount, addr 0x3635518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_loopsCount, addr 0x366199c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_loopsCount();
 
-  /// @brief Method get_rotation, addr 0x3635520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x36619a4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
-  /// @brief Method get_rotationDirection, addr 0x3635528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDirection, addr 0x36619ac, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::RotationDirection get_rotationDirection();
 
-  /// @brief Method get_usePreviousEventRotationValue, addr 0x3635500, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventRotationValue, addr 0x3661984, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventRotationValue();
 
 protected:
@@ -134,7 +134,7 @@ public:
   LightRotationBaseData(LightRotationBaseData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15321 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15335 };
 
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;

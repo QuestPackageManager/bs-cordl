@@ -18,12 +18,12 @@ namespace UnityEditor::Analytics {
 class CORDL_TYPE PackageManagerRemovePackageAnalytic : public ::UnityEditor::Analytics::PackageManagerBaseAnalytic {
 public:
   // Declarations
-  /// @brief Method CreatePackageManagerRemovePackageAnalytic, addr 0x6bf0f00, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreatePackageManagerRemovePackageAnalytic, addr 0x6c59d84, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic* CreatePackageManagerRemovePackageAnalytic();
 
   static inline ::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6bf0e6c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c59cf0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   PackageManagerRemovePackageAnalytic(PackageManagerRemovePackageAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22565 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22592 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

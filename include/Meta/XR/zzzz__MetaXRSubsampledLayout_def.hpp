@@ -20,15 +20,15 @@ namespace Meta::XR {
 class CORDL_TYPE MetaXRSubsampledLayout : public ::UnityEngine::XR::OpenXR::Features::OpenXRFeature {
 public:
   // Declarations
-  /// @brief Method MetaSetSubsampledLayout, addr 0x5c3b8d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MetaSetSubsampledLayout, addr 0x5ca23b0, size 0x7c, virtual false, abstract: false, final false
   static inline void MetaSetSubsampledLayout(bool enabled);
 
   static inline ::Meta::XR::MetaXRSubsampledLayout* New_ctor();
 
-  /// @brief Method OnInstanceCreate, addr 0x5c3b8b0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x5ca2390, size 0x20, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t xrInstance);
 
-  /// @brief Method .ctor, addr 0x5c3b94c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca242c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   MetaXRSubsampledLayout(MetaXRSubsampledLayout const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8542 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8546 };
 
   /// @brief Field extensionName offset 0xffffffff size 0x8
   static constexpr ::ConstString extensionName{ u"XR_META_vulkan_swapchain_create_info" };

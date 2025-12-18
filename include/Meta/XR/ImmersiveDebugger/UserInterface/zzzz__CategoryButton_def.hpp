@@ -53,7 +53,7 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::CategoryButton* New_ctor();
 
-  /// @brief Method Setup, addr 0x583315c, size 0x2d8, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x58998c0, size 0x2d8, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
   constexpr ::Meta::XR::ImmersiveDebugger::Manager::Category const& __cordl_internal_get__category() const;
@@ -86,19 +86,19 @@ public:
 
   constexpr void __cordl_internal_set__subLabel(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label> value);
 
-  /// @brief Method .ctor, addr 0x5833510, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5899c74, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Category, addr 0x5832f68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Category, addr 0x58996cc, size 0xc, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Manager::Category get_Category();
 
-  /// @brief Method get_Counter, addr 0x583300c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Counter, addr 0x5899770, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Counter();
 
-  /// @brief Method set_Category, addr 0x5832f74, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_Category, addr 0x58996d8, size 0x98, virtual false, abstract: false, final false
   inline void set_Category(::Meta::XR::ImmersiveDebugger::Manager::Category value);
 
-  /// @brief Method set_Counter, addr 0x5833014, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method set_Counter, addr 0x5899778, size 0x148, virtual false, abstract: false, final false
   inline void set_Counter(int32_t value);
 
 protected:
@@ -116,7 +116,7 @@ public:
   CategoryButton(CategoryButton const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18325 };
 
   /// @brief Field _category, offset: 0xb8, size: 0x10, def value: None
   ::Meta::XR::ImmersiveDebugger::Manager::Category ____category;

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Meta::XR::ImmersiveDebugger::SceneSetup::OnLoad)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x582cee8;
+  constexpr static std::size_t addrs = 0x589364c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::SceneSetup*>::get(), "OnLoad",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Meta::XR::ImmersiveDebugger::SceneSetup::SetupImmersiveDebugger)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x582cf44;
+  constexpr static std::size_t addrs = 0x58936a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::ImmersiveDebugger::SceneSetup*>::get(),

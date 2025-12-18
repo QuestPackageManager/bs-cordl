@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::Rendering::ProbeBrickBlendingPool::Initialize)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x656dbbc;
+  constexpr static std::size_t addrs = 0x65d5748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeBrickBlendingPool*>::get(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeBrickBlendingPool::*)()>(
     &::UnityEngine::Rendering::ProbeBrickBlendingPool::get_isAllocated)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x656dd48;
+  constexpr static std::size_t addrs = 0x65d58d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeBrickBlendingPool*>::get(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeBrickBlendingPool::*)()>(
     &::UnityEngine::Rendering::ProbeBrickBlendingPool::get_estimatedVMemCost)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x656dd58;
+  constexpr static std::size_t addrs = 0x65d58e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeBrickBlendingPool*>::get(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeBrickBlendingPool::*)()>(
     &::UnityEngine::Rendering::ProbeBrickBlendingPool::GetPoolWidth)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x656de70;
+  constexpr static std::size_t addrs = 0x65d59fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeBrickBlendingPool*>::get(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeBrickBlendingPool::*)()>(
     &::UnityEngine::Rendering::ProbeBrickBlendingPool::GetPoolHeight)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x656de88;
+  constexpr static std::size_t addrs = 0x65d5a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeBrickBlendingPool*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ProbeBrickBlendingPool::*)()>(
     &::UnityEngine::Rendering::ProbeBrickBlendingPool::GetPoolDepth)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x656dea0;
+  constexpr static std::size_t addrs = 0x65d5a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeBrickBlendingPool*>::get(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeBrickBlendingPool::*)(
     ::UnityEngine::Rendering::ProbeVolumeBlendingTextureMemoryBudget, ::UnityEngine::Rendering::ProbeVolumeSHBands, bool)>(&::UnityEngine::Rendering::ProbeBrickBlendingPool::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x656deb8;
+  constexpr static std::size_t addrs = 0x65d5a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeBrickBlendingPool::*)()>(
     &::UnityEngine::Rendering::ProbeBrickBlendingPool::AllocateResourcesIfNeeded)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x656dec4;
+  constexpr static std::size_t addrs = 0x65d5a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeBrickBlendingPool*>::get(),
@@ -135,7 +135,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>*, int32_t, ::UnityEngine::Rendering::ProbeVolumeSHBands, int32_t)>(
     &::UnityEngine::Rendering::ProbeBrickBlendingPool::Update)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x656e00c;
+  constexpr static std::size_t addrs = 0x65d5b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +158,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::ProbeVolumeSHBands, int32_t, ::UnityEngine::Texture*, bool, ::UnityEngine::Texture*, bool, ::UnityEngine::Texture*, bool)>(
     &::UnityEngine::Rendering::ProbeBrickBlendingPool::Update)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x656e084;
+  constexpr static std::size_t addrs = 0x65d5c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeBrickBlendingPool::*)(
     ::UnityEngine::Rendering::CommandBuffer*, float_t, ::UnityEngine::Rendering::ProbeBrickPool*)>(&::UnityEngine::Rendering::ProbeBrickBlendingPool::PerformBlending)> {
   constexpr static std::size_t size = 0xcc0;
-  constexpr static std::size_t addrs = 0x656e160;
+  constexpr static std::size_t addrs = 0x65d5cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeBrickBlendingPool::*)(
     ::UnityEngine::Rendering::ProbeReferenceVolume_Cell*, ::UnityEngine::Rendering::ProbeBrickPool*)>(&::UnityEngine::Rendering::ProbeBrickBlendingPool::BlendChunks)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x656ee20;
+  constexpr static std::size_t addrs = 0x65d69ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeBrickBlendingPool::*)()>(
     &::UnityEngine::Rendering::ProbeBrickBlendingPool::Clear)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x656ef4c;
+  constexpr static std::size_t addrs = 0x65d6ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeBrickBlendingPool*>::get(),
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ProbeBrickBlendingPool::*)(
     int32_t, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>*)>(&::UnityEngine::Rendering::ProbeBrickBlendingPool::Allocate)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x656ef5c;
+  constexpr static std::size_t addrs = 0x65d6ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeBrickBlendingPool::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>*)>(&::UnityEngine::Rendering::ProbeBrickBlendingPool::Deallocate)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x656efb4;
+  constexpr static std::size_t addrs = 0x65d6b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeBrickBlendingPool::*)()>(
     &::UnityEngine::Rendering::ProbeBrickBlendingPool::EnsureTextureValidity)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x656f02c;
+  constexpr static std::size_t addrs = 0x65d6bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeBrickBlendingPool*>::get(),
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeBrickBlendingPool::*)()>(
     &::UnityEngine::Rendering::ProbeBrickBlendingPool::Cleanup)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x656f05c;
+  constexpr static std::size_t addrs = 0x65d6be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProbeBrickBlendingPool*>::get(),

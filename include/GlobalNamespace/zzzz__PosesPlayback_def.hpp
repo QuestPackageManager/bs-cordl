@@ -52,22 +52,22 @@ public:
   __declspec(property(get = __cordl_internal_get__transforms, put = __cordl_internal_set__transforms)) ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>
       _transforms;
 
-  /// @brief Method Init, addr 0x56f80d8, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5754ab4, size 0x268, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> poseObjects, ::GlobalNamespace::PosesRecordingData* data,
                    ::GlobalNamespace::IBeatSaberLogger* logger);
 
   static inline ::GlobalNamespace::PosesPlayback* New_ctor();
 
-  /// @brief Method PlaybackTick, addr 0x56fa068, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method PlaybackTick, addr 0x5756a44, size 0x3a8, virtual false, abstract: false, final false
   inline void PlaybackTick(float_t time);
 
-  /// @brief Method StartPlayback, addr 0x56f87f8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method StartPlayback, addr 0x57551d4, size 0xf0, virtual false, abstract: false, final false
   inline void StartPlayback();
 
-  /// @brief Method StopPlayback, addr 0x56f876c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StopPlayback, addr 0x5755148, size 0xc, virtual false, abstract: false, final false
   inline void StopPlayback();
 
-  /// @brief Method Update, addr 0x56fa050, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5756a2c, size 0x18, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method .ctor, addr 0x56fa410, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5756dec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,7 +118,7 @@ public:
   PosesPlayback(PosesPlayback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6659 };
 
   /// @brief Field _audioTimeSyncController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;

@@ -70,75 +70,75 @@ public:
   /// @brief Convert operator to "::Mono::Xml::SmallXmlParser_IContentHandler"
   constexpr operator ::Mono::Xml::SmallXmlParser_IContentHandler*() noexcept;
 
-  /// @brief Method CheckPath, addr 0x590e650, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CheckPath, addr 0x5974f9c, size 0xe4, virtual false, abstract: false, final false
   inline bool CheckPath(::StringW path);
 
-  /// @brief Method ExtractAssembly, addr 0x5911630, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ExtractAssembly, addr 0x5977f7c, size 0xd0, virtual false, abstract: false, final false
   inline ::StringW ExtractAssembly(::ByRef<::StringW> type);
 
-  /// @brief Method GetNotNull, addr 0x59114f0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetNotNull, addr 0x5977e3c, size 0x140, virtual false, abstract: false, final false
   inline ::StringW GetNotNull(::Mono::Xml::SmallXmlParser_IAttrList* attrs, ::StringW name);
 
   static inline ::System::Runtime::Remoting::ConfigHandler* New_ctor(bool onlyDelayedChannels);
 
-  /// @brief Method OnChars, addr 0x5911700, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnChars, addr 0x597804c, size 0x4, virtual true, abstract: false, final true
   inline void OnChars(::StringW ch);
 
-  /// @brief Method OnEndElement, addr 0x5911098, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method OnEndElement, addr 0x59779e4, size 0x80, virtual true, abstract: false, final true
   inline void OnEndElement(::StringW name);
 
-  /// @brief Method OnEndParsing, addr 0x5911704, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method OnEndParsing, addr 0x5978050, size 0x100, virtual true, abstract: false, final true
   inline void OnEndParsing(::Mono::Xml::SmallXmlParser* parser);
 
-  /// @brief Method OnIgnorableWhitespace, addr 0x590e73c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnIgnorableWhitespace, addr 0x5975088, size 0x4, virtual true, abstract: false, final true
   inline void OnIgnorableWhitespace(::StringW s);
 
-  /// @brief Method OnProcessingInstruction, addr 0x590e738, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnProcessingInstruction, addr 0x5975084, size 0x4, virtual true, abstract: false, final true
   inline void OnProcessingInstruction(::StringW name, ::StringW text);
 
-  /// @brief Method OnStartElement, addr 0x590e740, size 0x1c0, virtual true, abstract: false, final true
+  /// @brief Method OnStartElement, addr 0x597508c, size 0x1c0, virtual true, abstract: false, final true
   inline void OnStartElement(::StringW name, ::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method OnStartParsing, addr 0x590e734, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnStartParsing, addr 0x5975080, size 0x4, virtual true, abstract: false, final true
   inline void OnStartParsing(::Mono::Xml::SmallXmlParser* parser);
 
-  /// @brief Method ParseElement, addr 0x590e900, size 0xdb4, virtual false, abstract: false, final false
+  /// @brief Method ParseElement, addr 0x597524c, size 0xdb4, virtual false, abstract: false, final false
   inline void ParseElement(::StringW name, ::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method ParseTime, addr 0x5911118, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method ParseTime, addr 0x5977a64, size 0x3d8, virtual false, abstract: false, final false
   inline ::System::TimeSpan ParseTime(::StringW s);
 
-  /// @brief Method ReadChannel, addr 0x590ff9c, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method ReadChannel, addr 0x59768e8, size 0x3cc, virtual false, abstract: false, final false
   inline void ReadChannel(::Mono::Xml::SmallXmlParser_IAttrList* attrs, bool isTemplate);
 
-  /// @brief Method ReadClientActivated, addr 0x5910a5c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ReadClientActivated, addr 0x59773a8, size 0x148, virtual false, abstract: false, final false
   inline void ReadClientActivated(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method ReadClientWellKnown, addr 0x5910774, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ReadClientWellKnown, addr 0x59770c0, size 0xfc, virtual false, abstract: false, final false
   inline void ReadClientWellKnown(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method ReadCustomProviderData, addr 0x590f6b4, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method ReadCustomProviderData, addr 0x5976000, size 0x370, virtual false, abstract: false, final false
   inline void ReadCustomProviderData(::StringW name, ::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method ReadInteropXml, addr 0x5910c68, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ReadInteropXml, addr 0x59775b4, size 0x1ac, virtual false, abstract: false, final false
   inline void ReadInteropXml(::Mono::Xml::SmallXmlParser_IAttrList* attrs, bool isElement);
 
-  /// @brief Method ReadLifetine, addr 0x590fa24, size 0x578, virtual false, abstract: false, final false
+  /// @brief Method ReadLifetine, addr 0x5976370, size 0x578, virtual false, abstract: false, final false
   inline void ReadLifetine(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method ReadPreload, addr 0x5910e14, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method ReadPreload, addr 0x5977760, size 0x284, virtual false, abstract: false, final false
   inline void ReadPreload(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method ReadProvider, addr 0x5910368, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method ReadProvider, addr 0x5976cb4, size 0x40c, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::ProviderData* ReadProvider(::StringW name, ::Mono::Xml::SmallXmlParser_IAttrList* attrs, bool isTemplate);
 
-  /// @brief Method ReadServiceActivated, addr 0x5910ba4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ReadServiceActivated, addr 0x59774f0, size 0xc4, virtual false, abstract: false, final false
   inline void ReadServiceActivated(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method ReadServiceWellKnown, addr 0x5910870, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method ReadServiceWellKnown, addr 0x59771bc, size 0x1ec, virtual false, abstract: false, final false
   inline void ReadServiceWellKnown(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method ValidatePath, addr 0x590e570, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ValidatePath, addr 0x5974ebc, size 0xe0, virtual false, abstract: false, final false
   inline void ValidatePath(::StringW element, ::ArrayW<::StringW, ::Array<::StringW>*> paths);
 
   constexpr ::StringW const& __cordl_internal_get_appName() const;
@@ -189,7 +189,7 @@ public:
 
   constexpr void __cordl_internal_set_typeEntries(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x590c1b0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5972afc, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(bool onlyDelayedChannels);
 
   /// @brief Convert to "::Mono::Xml::SmallXmlParser_IContentHandler"

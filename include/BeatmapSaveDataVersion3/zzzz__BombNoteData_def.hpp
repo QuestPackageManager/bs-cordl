@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x36356b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3661b3c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer);
 
-  /// @brief Method get_layer, addr 0x36356b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x3661b34, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x36356a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x3661b2c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
 protected:
@@ -68,7 +68,7 @@ public:
   BombNoteData(BombNoteData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15329 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15343 };
 
   /// @brief Field x, offset: 0x14, size: 0x4, def value: None
   int32_t ___x;

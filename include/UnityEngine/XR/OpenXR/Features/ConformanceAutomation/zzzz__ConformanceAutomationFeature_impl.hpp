@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::OnInstanceCreate)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x67d3b2c;
+  constexpr static std::size_t addrs = 0x683b6a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::OnInstanceDestroy)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x67d3c94;
+  constexpr static std::size_t addrs = 0x683b80c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::OnSessionCreate)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x67d3ce0;
+  constexpr static std::size_t addrs = 0x683b858;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::OnSessionDestroy)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x67d3d30;
+  constexpr static std::size_t addrs = 0x683b8a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, bool)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::ConformanceAutomationSetActive)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x67d3d7c;
+  constexpr static std::size_t addrs = 0x683b8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, bool)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::ConformanceAutomationSetBool)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x67d3ecc;
+  constexpr static std::size_t addrs = 0x683ba44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, float_t)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::ConformanceAutomationSetFloat)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x67d401c;
+  constexpr static std::size_t addrs = 0x683bb94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::UnityEngine::Vector2)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::ConformanceAutomationSetVec2)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x67d417c;
+  constexpr static std::size_t addrs = 0x683bcf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::ConformanceAutomationSetPose)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x67d42ec;
+  constexpr static std::size_t addrs = 0x683be64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, bool, ::UnityEngine::Vector3, bool, ::UnityEngine::Vector3)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::ConformanceAutomationSetVelocity)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x67d44d4;
+  constexpr static std::size_t addrs = 0x683c04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::initialize)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x67d3c10;
+  constexpr static std::size_t addrs = 0x683b788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, uint64_t, uint64_t, bool)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::xrSetInputDeviceActiveEXT)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x67d3e28;
+  constexpr static std::size_t addrs = 0x683b9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, uint64_t, uint64_t, bool)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::xrSetInputDeviceStateBoolEXT)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x67d3f78;
+  constexpr static std::size_t addrs = 0x683baf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, uint64_t, uint64_t, float_t)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::xrSetInputDeviceStateFloatEXT)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x67d40d0;
+  constexpr static std::size_t addrs = 0x683bc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, uint64_t, uint64_t, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector2f)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::xrSetInputDeviceStateVector2fEXT)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x67d4238;
+  constexpr static std::size_t addrs = 0x683bdb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, uint64_t, uint64_t, uint64_t, ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef)>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::xrSetInputDeviceLocationEXT)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x67d4410;
+  constexpr static std::size_t addrs = 0x683bf88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -288,7 +288,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(uint64_t, uint64_t, uint64_t, bool, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f, bool, ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f)>(
         &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::xrSetInputDeviceVelocityUNITY)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x67d45d8;
+  constexpr static std::size_t addrs = 0x683c150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::*)()>(
     &::UnityEngine::XR::OpenXR::Features::ConformanceAutomation::ConformanceAutomationFeature::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67d46d4;
+  constexpr static std::size_t addrs = 0x683c24c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

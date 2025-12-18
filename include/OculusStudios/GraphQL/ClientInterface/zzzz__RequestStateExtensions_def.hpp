@@ -22,7 +22,7 @@ namespace OculusStudios::GraphQL::ClientInterface {
 class CORDL_TYPE RequestStateExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToVerboseLogFormat, addr 0x5d18764, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToVerboseLogFormat, addr 0x5d7f244, size 0x104, virtual false, abstract: false, final false
   static inline ::StringW ToVerboseLogFormat(::OculusStudios::GraphQL::ClientInterface::RequestState state);
 
 protected:
@@ -40,7 +40,7 @@ public:
   RequestStateExtensions(RequestStateExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22480 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::UIElements::KeyUpEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6b69f0c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6bd2d90, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::KeyUpEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6b69f08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bd2d8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::KeyUpEvent___c* getStaticF___9();
@@ -75,7 +75,7 @@ public:
 
   static inline ::UnityEngine::UIElements::KeyUpEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b69e68, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bd2cec, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommon_OcclusionTestOverlaySetupPassData::*)()>(
     &::UnityEngine::Rendering::OcclusionCullingCommon_OcclusionTestOverlaySetupPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6617918;
+  constexpr static std::size_t addrs = 0x667f4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommon_OcclusionTestOverlayPassData::*)()>(
     &::UnityEngine::Rendering::OcclusionCullingCommon_OcclusionTestOverlayPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x661791c;
+  constexpr static std::size_t addrs = 0x667f4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommon_OccluderOverlayPassData::*)()>(
     &::UnityEngine::Rendering::OcclusionCullingCommon_OccluderOverlayPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6617920;
+  constexpr static std::size_t addrs = 0x667f4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommon_UpdateOccludersPassData::*)()>(
     &::UnityEngine::Rendering::OcclusionCullingCommon_UpdateOccludersPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6617924;
+  constexpr static std::size_t addrs = 0x667f4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommon___c::*)()>(
     &::UnityEngine::Rendering::OcclusionCullingCommon___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x661797c;
+  constexpr static std::size_t addrs = 0x667f508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::OcclusionCullingCommon___c*>::get(),
@@ -342,7 +342,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::OcclusionCullingCommon_OcclusionTestOverlaySetupPassData*, ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*)>(
     &::UnityEngine::Rendering::OcclusionCullingCommon___c::_RenderDebugOcclusionTestOverlay_b__29_0)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6617980;
+  constexpr static std::size_t addrs = 0x667f50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -360,7 +360,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::OcclusionCullingCommon_OccluderOverlayPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::OcclusionCullingCommon___c::_RenderDebugOccluderOverlay_b__32_0)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x6617abc;
+  constexpr static std::size_t addrs = 0x667f648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -378,7 +378,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::OcclusionCullingCommon_UpdateOccludersPassData*, ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*)>(
     &::UnityEngine::Rendering::OcclusionCullingCommon___c::_UpdateInstanceOccluders_b__37_0)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x6617c5c;
+  constexpr static std::size_t addrs = 0x667f7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -489,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommon::*)(::UnityEngine::Rendering::GPUResidentDrawerResources*)>(
     &::UnityEngine::Rendering::OcclusionCullingCommon::Init)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x6613f68;
+  constexpr static std::size_t addrs = 0x667baf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -504,7 +504,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::UnityEngine::Rendering::OccluderContext>)>(
     &::UnityEngine::Rendering::OcclusionCullingCommon::UseOcclusionDebug)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6614318;
+  constexpr static std::size_t addrs = 0x667bea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -521,7 +521,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings>, ::ByRef<::UnityEngine::Rendering::OcclusionTestComputeShader>, bool)>(
     &::UnityEngine::Rendering::OcclusionCullingCommon::PrepareCulling)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x6614328;
+  constexpr static std::size_t addrs = 0x667beb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -542,7 +542,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Rendering::ComputeCommandBuffer*, ::ByRef<::UnityEngine::Rendering::OcclusionTestComputeShader>, int32_t, ::ByRef<::UnityEngine::Rendering::OccluderHandles>)>(
         &::UnityEngine::Rendering::OcclusionCullingCommon::SetDepthPyramid)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6614b08;
+  constexpr static std::size_t addrs = 0x667c694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -561,7 +561,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Rendering::ComputeCommandBuffer*, ::ByRef<::UnityEngine::Rendering::OcclusionTestComputeShader>, int32_t, ::ByRef<::UnityEngine::Rendering::OccluderHandles>)>(
         &::UnityEngine::Rendering::OcclusionCullingCommon::SetDebugPyramid)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6614ba4;
+  constexpr static std::size_t addrs = 0x667c730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -580,7 +580,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*, int32_t, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(
     &::UnityEngine::Rendering::OcclusionCullingCommon::RenderDebugOcclusionTestOverlay)> {
   constexpr static std::size_t size = 0x880;
-  constexpr static std::size_t addrs = 0x6614c88;
+  constexpr static std::size_t addrs = 0x667c814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -599,7 +599,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*, ::UnityEngine::Vector2, float_t,
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(&::UnityEngine::Rendering::OcclusionCullingCommon::RenderDebugOccluderOverlay)> {
   constexpr static std::size_t size = 0x574;
-  constexpr static std::size_t addrs = 0x661567c;
+  constexpr static std::size_t addrs = 0x667d208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -617,7 +617,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommon::*)(::UnityEngine::Rendering::ComputeCommandBuffer*, int32_t)>(
     &::UnityEngine::Rendering::OcclusionCullingCommon::DispatchDebugClear)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x661481c;
+  constexpr static std::size_t addrs = 0x667c3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -633,7 +633,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::OccluderHandles (::UnityEngine::Rendering::OcclusionCullingCommon::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::ByRef<::UnityEngine::Rendering::OccluderParameters>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::PrepareOccluders)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x6615bf0;
+  constexpr static std::size_t addrs = 0x667d77c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -650,7 +650,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::ComputeCommandBuffer*, ::ByRef<::UnityEngine::Rendering::OccluderParameters>, ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>,
     ::ByRef<::UnityEngine::Rendering::OccluderHandles>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::CreateFarDepthPyramid)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x66162dc;
+  constexpr static std::size_t addrs = 0x667de68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -669,7 +669,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::ByRef<::UnityEngine::Rendering::OccluderParameters>, ::System::ReadOnlySpan_1<::UnityEngine::Rendering::OccluderSubviewUpdate>)>(
     &::UnityEngine::Rendering::OcclusionCullingCommon::UpdateInstanceOccluders)> {
   constexpr static std::size_t size = 0x79c;
-  constexpr static std::size_t addrs = 0x6616500;
+  constexpr static std::size_t addrs = 0x667e08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -686,7 +686,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommon::*)(
     int32_t, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::UpdateSilhouettePlanes)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6616c9c;
+  constexpr static std::size_t addrs = 0x667e828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -702,7 +702,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::OcclusionCullingDebugOutput (::UnityEngine::Rendering::OcclusionCullingCommon::*)(int32_t)>(
     &::UnityEngine::Rendering::OcclusionCullingCommon::GetOcclusionTestDebugOutput)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6615508;
+  constexpr static std::size_t addrs = 0x667d094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -717,7 +717,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommon::*)(::UnityEngine::Rendering::DebugRendererBatcherStats*)>(
     &::UnityEngine::Rendering::OcclusionCullingCommon::UpdateOccluderStats)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x6616ca8;
+  constexpr static std::size_t addrs = 0x667e834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -732,7 +732,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::OcclusionCullingCommon::*)(int32_t)>(
     &::UnityEngine::Rendering::OcclusionCullingCommon::HasOccluderContext)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6617028;
+  constexpr static std::size_t addrs = 0x667ebb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -747,7 +747,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::OcclusionCullingCommon::*)(
     int32_t, ::ByRef<::UnityEngine::Rendering::OccluderContext>)>(&::UnityEngine::Rendering::OcclusionCullingCommon::GetOccluderContext)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6617084;
+  constexpr static std::size_t addrs = 0x667ec10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -763,7 +763,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommon::*)()>(
     &::UnityEngine::Rendering::OcclusionCullingCommon::UpdateFrame)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x66171ac;
+  constexpr static std::size_t addrs = 0x667ed38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::OcclusionCullingCommon*>::get(),
@@ -777,7 +777,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::OcclusionCullingCommon::*)(int32_t)>(
     &::UnityEngine::Rendering::OcclusionCullingCommon::NewContext)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x6615e40;
+  constexpr static std::size_t addrs = 0x667d9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -792,7 +792,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommon::*)(int32_t)>(
     &::UnityEngine::Rendering::OcclusionCullingCommon::DeleteContext)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x6616130;
+  constexpr static std::size_t addrs = 0x667dcbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -807,7 +807,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommon::*)()>(
     &::UnityEngine::Rendering::OcclusionCullingCommon::Dispose)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x6617428;
+  constexpr static std::size_t addrs = 0x667efb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::OcclusionCullingCommon*>::get(),
@@ -821,7 +821,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::OcclusionCullingCommon::*)()>(
     &::UnityEngine::Rendering::OcclusionCullingCommon::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66176a4;
+  constexpr static std::size_t addrs = 0x667f230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::OcclusionCullingCommon*>::get(),
@@ -836,7 +836,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::OcclusionCullingCommon_OcclusionTestOverlayPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::OcclusionCullingCommon::_RenderDebugOcclusionTestOverlay_b__29_1)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x66176f8;
+  constexpr static std::size_t addrs = 0x667f284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

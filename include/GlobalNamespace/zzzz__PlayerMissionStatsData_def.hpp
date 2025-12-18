@@ -43,16 +43,16 @@ public:
 
   constexpr void __cordl_internal_set__missionId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3623184, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x364e84c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW missionId, bool cleared);
 
-  /// @brief Method get_cleared, addr 0x3624f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cleared, addr 0x36507c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_cleared();
 
-  /// @brief Method get_missionId, addr 0x3624f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionId, addr 0x36507c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionId();
 
-  /// @brief Method set_cleared, addr 0x3624f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cleared, addr 0x36507d0, size 0x8, virtual false, abstract: false, final false
   inline void set_cleared(bool value);
 
 protected:
@@ -70,7 +70,7 @@ public:
   PlayerMissionStatsData(PlayerMissionStatsData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15156 };
 
   /// @brief Field _missionId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____missionId;

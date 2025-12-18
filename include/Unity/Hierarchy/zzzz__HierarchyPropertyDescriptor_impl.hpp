@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Hierarchy::HierarchyPropertyDescriptor::*)(int32_t)>(
     &::Unity::Hierarchy::HierarchyPropertyDescriptor::set_Size)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69063f4;
+  constexpr static std::size_t addrs = 0x696f278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Hierarchy::HierarchyPropertyDescriptor::*)(::Unity::Hierarchy::HierarchyPropertyStorageType)>(
     &::Unity::Hierarchy::HierarchyPropertyDescriptor::set_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69063fc;
+  constexpr static std::size_t addrs = 0x696f280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

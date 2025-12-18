@@ -33,7 +33,7 @@ public:
   /// @brief Field nextDataIndex, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_nextDataIndex, put = __cordl_internal_set_nextDataIndex)) int32_t nextDataIndex;
 
-  /// @brief Method AddSample, addr 0x56a7730, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddSample, addr 0x57083d8, size 0x44, virtual false, abstract: false, final false
   inline void AddSample(float_t data);
 
   static inline ::GlobalNamespace::MomentaryLoudnessBuffer* New_ctor(int32_t numChannels, int32_t sampleFrequency, float_t momentaryWindowDuration, int32_t readingsPerBuffer);
@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set_nextDataIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x56a767c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5708324, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(int32_t numChannels, int32_t sampleFrequency, float_t momentaryWindowDuration, int32_t readingsPerBuffer);
 
-  /// @brief Method get_buffer, addr 0x56abf2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buffer, addr 0x570cbe0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_buffer();
 
-  /// @brief Method get_isNextReadingIntervalReady, addr 0x56a7774, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_isNextReadingIntervalReady, addr 0x570841c, size 0x1c, virtual false, abstract: false, final false
   inline bool get_isNextReadingIntervalReady();
 
 protected:

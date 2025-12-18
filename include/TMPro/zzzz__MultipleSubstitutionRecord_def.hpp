@@ -23,16 +23,16 @@ public:
 
   __declspec(property(get = get_targetGlyphID, put = set_targetGlyphID)) uint32_t targetGlyphID;
 
-  /// @brief Method get_substituteGlyphIDs, addr 0x67178a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_substituteGlyphIDs, addr 0x677f420, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t, ::Array<uint32_t>*> get_substituteGlyphIDs();
 
-  /// @brief Method get_targetGlyphID, addr 0x6717898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetGlyphID, addr 0x677f410, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_targetGlyphID();
 
-  /// @brief Method set_substituteGlyphIDs, addr 0x67178b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_substituteGlyphIDs, addr 0x677f428, size 0x8, virtual false, abstract: false, final false
   inline void set_substituteGlyphIDs(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method set_targetGlyphID, addr 0x67178a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_targetGlyphID, addr 0x677f418, size 0x8, virtual false, abstract: false, final false
   inline void set_targetGlyphID(uint32_t value);
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
   constexpr MultipleSubstitutionRecord(uint32_t m_TargetGlyphID, ::ArrayW<uint32_t, ::Array<uint32_t>*> m_SubstituteGlyphIDs) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15823 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

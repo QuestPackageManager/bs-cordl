@@ -41,7 +41,7 @@ public:
 
   static inline ::GlobalNamespace::StandardLevelReturnToMenuController* New_ctor();
 
-  /// @brief Method ReturnToMenu, addr 0x57a2b88, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method ReturnToMenu, addr 0x5809430, size 0x54, virtual true, abstract: false, final true
   inline void ReturnToMenu();
 
   constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> const& __cordl_internal_get__prepareLevelCompletionResults() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelSceneSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x57a2bdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5809484, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IReturnToMenuController"

@@ -246,130 +246,130 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IRenderGraphRecorder"
   constexpr operator ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphRecorder*() noexcept;
 
-  /// @brief Method Blit, addr 0x6644824, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Blit, addr 0x66ac3b0, size 0x8c, virtual false, abstract: false, final false
   inline void Blit(::UnityEngine::Rendering::CommandBuffer* cmd, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> data, ::UnityEngine::Material* material, int32_t passIndex);
 
-  /// @brief Method Blit, addr 0x664493c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Blit, addr 0x66ac4c8, size 0x5c, virtual false, abstract: false, final false
   inline void Blit(::UnityEngine::Rendering::CommandBuffer* cmd, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> data, ::UnityEngine::Rendering::RTHandle* source,
                    ::UnityEngine::Material* material, int32_t passIndex);
 
-  /// @brief Method Blit, addr 0x66446f8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Blit, addr 0x66ac284, size 0x12c, virtual false, abstract: false, final false
   inline void Blit(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination, ::UnityEngine::Material* material,
                    int32_t passIndex);
 
-  /// @brief Method Blit, addr 0x66446ac, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Blit, addr 0x66ac238, size 0x4c, virtual false, abstract: false, final false
   inline void Blit(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier source, ::UnityEngine::Rendering::RenderTargetIdentifier destination,
                    ::UnityEngine::Material* material, int32_t passIndex);
 
-  /// @brief Method Configure, addr 0x6644528, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Configure, addr 0x66ac0b4, size 0x4, virtual true, abstract: false, final false
   inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
 
-  /// @brief Method ConfigureClear, addr 0x6644514, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ConfigureClear, addr 0x66ac0a0, size 0x10, virtual false, abstract: false, final false
   inline void ConfigureClear(::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor);
 
-  /// @brief Method ConfigureColorStoreAction, addr 0x6643f40, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ConfigureColorStoreAction, addr 0x66abacc, size 0x54, virtual false, abstract: false, final false
   inline void ConfigureColorStoreAction(::UnityEngine::Rendering::RenderBufferStoreAction storeAction, uint32_t attachmentIndex);
 
-  /// @brief Method ConfigureColorStoreActions, addr 0x6643f94, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ConfigureColorStoreActions, addr 0x66abb20, size 0xf0, virtual false, abstract: false, final false
   inline void ConfigureColorStoreActions(::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction, ::Array<::UnityEngine::Rendering::RenderBufferStoreAction>*> storeActions);
 
-  /// @brief Method ConfigureDepthStoreAction, addr 0x6644084, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ConfigureDepthStoreAction, addr 0x66abc10, size 0x10, virtual false, abstract: false, final false
   inline void ConfigureDepthStoreAction(::UnityEngine::Rendering::RenderBufferStoreAction storeAction);
 
-  /// @brief Method ConfigureInput, addr 0x6643f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ConfigureInput, addr 0x66abac4, size 0x8, virtual false, abstract: false, final false
   inline void ConfigureInput(::UnityEngine::Rendering::Universal::ScriptableRenderPassInput passInput);
 
-  /// @brief Method ConfigureInputAttachments, addr 0x6644094, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ConfigureInputAttachments, addr 0x66abc20, size 0x80, virtual false, abstract: false, final false
   inline void ConfigureInputAttachments(::UnityEngine::Rendering::RTHandle* input, bool isTransient);
 
-  /// @brief Method ConfigureInputAttachments, addr 0x6644114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ConfigureInputAttachments, addr 0x66abca0, size 0x8, virtual false, abstract: false, final false
   inline void ConfigureInputAttachments(::ArrayW<::UnityEngine::Rendering::RTHandle*, ::Array<::UnityEngine::Rendering::RTHandle*>*> inputs);
 
-  /// @brief Method ConfigureInputAttachments, addr 0x6641460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ConfigureInputAttachments, addr 0x66a8fec, size 0x8, virtual false, abstract: false, final false
   inline void ConfigureInputAttachments(::ArrayW<::UnityEngine::Rendering::RTHandle*, ::Array<::UnityEngine::Rendering::RTHandle*>*> inputs, ::ArrayW<bool, ::Array<bool>*> isTransient);
 
-  /// @brief Method ConfigureTarget, addr 0x66443e0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ConfigureTarget, addr 0x66abf6c, size 0x74, virtual false, abstract: false, final false
   inline void ConfigureTarget(::UnityEngine::Rendering::RTHandle* colorAttachment);
 
-  /// @brief Method ConfigureTarget, addr 0x6644230, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ConfigureTarget, addr 0x66abdbc, size 0x9c, virtual false, abstract: false, final false
   inline void ConfigureTarget(::UnityEngine::Rendering::RTHandle* colorAttachment, ::UnityEngine::Rendering::RTHandle* depthAttachment);
 
-  /// @brief Method ConfigureTarget, addr 0x6644394, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ConfigureTarget, addr 0x66abf20, size 0x4c, virtual false, abstract: false, final false
   inline void ConfigureTarget(::UnityEngine::Rendering::RenderTargetIdentifier colorAttachment);
 
-  /// @brief Method ConfigureTarget, addr 0x66441e4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ConfigureTarget, addr 0x66abd70, size 0x4c, virtual false, abstract: false, final false
   inline void ConfigureTarget(::UnityEngine::Rendering::RenderTargetIdentifier colorAttachment, ::UnityEngine::Rendering::RenderTargetIdentifier depthAttachment);
 
-  /// @brief Method ConfigureTarget, addr 0x66444a0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ConfigureTarget, addr 0x66ac02c, size 0x74, virtual false, abstract: false, final false
   inline void ConfigureTarget(::ArrayW<::UnityEngine::Rendering::RTHandle*, ::Array<::UnityEngine::Rendering::RTHandle*>*> colorAttachments);
 
-  /// @brief Method ConfigureTarget, addr 0x66343f4, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method ConfigureTarget, addr 0x669bf80, size 0x2ec, virtual false, abstract: false, final false
   inline void ConfigureTarget(::ArrayW<::UnityEngine::Rendering::RTHandle*, ::Array<::UnityEngine::Rendering::RTHandle*>*> colorAttachments, ::UnityEngine::Rendering::RTHandle* depthAttachment);
 
-  /// @brief Method ConfigureTarget, addr 0x6644318, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ConfigureTarget, addr 0x66abea4, size 0x7c, virtual false, abstract: false, final false
   inline void ConfigureTarget(::ArrayW<::UnityEngine::Rendering::RTHandle*, ::Array<::UnityEngine::Rendering::RTHandle*>*> colorAttachments, ::UnityEngine::Rendering::RTHandle* depthAttachment,
                               ::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::Array<::UnityEngine::Experimental::Rendering::GraphicsFormat>*> formats);
 
-  /// @brief Method ConfigureTarget, addr 0x6644454, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ConfigureTarget, addr 0x66abfe0, size 0x4c, virtual false, abstract: false, final false
   inline void ConfigureTarget(::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier, ::Array<::UnityEngine::Rendering::RenderTargetIdentifier>*> colorAttachments);
 
-  /// @brief Method ConfigureTarget, addr 0x66442cc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ConfigureTarget, addr 0x66abe58, size 0x4c, virtual false, abstract: false, final false
   inline void ConfigureTarget(::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier, ::Array<::UnityEngine::Rendering::RenderTargetIdentifier>*> colorAttachments,
                               ::UnityEngine::Rendering::RenderTargetIdentifier depthAttachment);
 
-  /// @brief Method CreateDrawingSettings, addr 0x6644998, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CreateDrawingSettings, addr 0x66ac524, size 0x168, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DrawingSettings CreateDrawingSettings(::UnityEngine::Rendering::ShaderTagId shaderTagId, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData,
                                                                          ::UnityEngine::Rendering::SortingCriteria sortingCriteria);
 
-  /// @brief Method CreateDrawingSettings, addr 0x6644b00, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CreateDrawingSettings, addr 0x66ac68c, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DrawingSettings CreateDrawingSettings(::UnityEngine::Rendering::ShaderTagId shaderTagId, ::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData,
                                                                          ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                          ::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::UnityEngine::Rendering::SortingCriteria sortingCriteria);
 
-  /// @brief Method CreateDrawingSettings, addr 0x6644be0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CreateDrawingSettings, addr 0x66ac76c, size 0x168, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DrawingSettings CreateDrawingSettings(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* shaderTagIdList,
                                                                          ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData,
                                                                          ::UnityEngine::Rendering::SortingCriteria sortingCriteria);
 
-  /// @brief Method CreateDrawingSettings, addr 0x6644d48, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CreateDrawingSettings, addr 0x66ac8d4, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DrawingSettings CreateDrawingSettings(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* shaderTagIdList,
                                                                          ::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData,
                                                                          ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                          ::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::UnityEngine::Rendering::SortingCriteria sortingCriteria);
 
-  /// @brief Method Execute, addr 0x6644534, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x66ac0c0, size 0xbc, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method FrameCleanup, addr 0x6643cfc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method FrameCleanup, addr 0x66ab888, size 0xc, virtual true, abstract: false, final false
   inline void FrameCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method GetActiveDebugHandler, addr 0x6643ee8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetActiveDebugHandler, addr 0x66aba74, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::DebugHandler* GetActiveDebugHandler(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method GetRenderPassEventRange, addr 0x6644e78, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetRenderPassEventRange, addr 0x66aca04, size 0x178, virtual false, abstract: false, final false
   static inline int32_t GetRenderPassEventRange(::UnityEngine::Rendering::Universal::RenderPassEvent renderPassEvent);
 
-  /// @brief Method IsInputAttachmentTransient, addr 0x6644150, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsInputAttachmentTransient, addr 0x66abcdc, size 0x30, virtual false, abstract: false, final false
   inline bool IsInputAttachmentTransient(int32_t idx);
 
   static inline ::UnityEngine::Rendering::Universal::ScriptableRenderPass* New_ctor();
 
-  /// @brief Method OnCameraCleanup, addr 0x664452c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnCameraCleanup, addr 0x66ac0b8, size 0x4, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method OnCameraSetup, addr 0x6644524, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnCameraSetup, addr 0x66ac0b0, size 0x4, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method OnFinishCameraStackRendering, addr 0x6644530, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnFinishCameraStackRendering, addr 0x66ac0bc, size 0x4, virtual true, abstract: false, final false
   inline void OnFinishCameraStackRendering(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method RecordRenderGraph, addr 0x66445f0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x66ac17c, size 0xbc, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method ResetTarget, addr 0x6644180, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ResetTarget, addr 0x66abd0c, size 0x64, virtual false, abstract: false, final false
   inline void ResetTarget();
 
-  /// @brief Method SetInputAttachmentTransient, addr 0x664411c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetInputAttachmentTransient, addr 0x66abca8, size 0x34, virtual false, abstract: false, final false
   inline void SetInputAttachmentTransient(int32_t idx, bool isTransient);
 
   constexpr bool const& __cordl_internal_get__breakGBufferAndDeferredRenderPass_k__BackingField() const;
@@ -519,116 +519,116 @@ public:
 
   constexpr void __cordl_internal_set_m_RenderGraphSettings(::UnityEngine::Rendering::Universal::RenderGraphSettings* value);
 
-  /// @brief Method .ctor, addr 0x6633c34, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x669b7c0, size 0x278, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::RTHandle* getStaticF_k_CameraTarget();
 
-  /// @brief Method get_breakGBufferAndDeferredRenderPass, addr 0x6643eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_breakGBufferAndDeferredRenderPass, addr 0x66aba44, size 0x8, virtual false, abstract: false, final false
   inline bool get_breakGBufferAndDeferredRenderPass();
 
-  /// @brief Method get_clearColor, addr 0x6643e64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_clearColor, addr 0x66ab9f0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_clearColor();
 
-  /// @brief Method get_clearFlag, addr 0x6643e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clearFlag, addr 0x66ab9e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ClearFlag get_clearFlag();
 
-  /// @brief Method get_colorAttachment, addr 0x6643d64, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_colorAttachment, addr 0x66ab8f0, size 0x4c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier, ::Array<::UnityEngine::Rendering::RenderTargetIdentifier>*> get_colorAttachment();
 
-  /// @brief Method get_colorAttachmentHandle, addr 0x6643e04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_colorAttachmentHandle, addr 0x66ab990, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_colorAttachmentHandle();
 
-  /// @brief Method get_colorAttachmentHandles, addr 0x6643dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorAttachmentHandles, addr 0x66ab988, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RTHandle*, ::Array<::UnityEngine::Rendering::RTHandle*>*> get_colorAttachmentHandles();
 
-  /// @brief Method get_colorAttachments, addr 0x6643d18, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_colorAttachments, addr 0x66ab8a4, size 0x4c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier, ::Array<::UnityEngine::Rendering::RenderTargetIdentifier>*> get_colorAttachments();
 
-  /// @brief Method get_colorStoreActions, addr 0x6643e34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorStoreActions, addr 0x66ab9c0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction, ::Array<::UnityEngine::Rendering::RenderBufferStoreAction>*> get_colorStoreActions();
 
-  /// @brief Method get_depthAttachment, addr 0x6643db0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_depthAttachment, addr 0x66ab93c, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier get_depthAttachment();
 
-  /// @brief Method get_depthAttachmentHandle, addr 0x6643e2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthAttachmentHandle, addr 0x66ab9b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_depthAttachmentHandle();
 
-  /// @brief Method get_depthStoreAction, addr 0x6643e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthStoreAction, addr 0x66ab9c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderBufferStoreAction get_depthStoreAction();
 
-  /// @brief Method get_input, addr 0x6643e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_input, addr 0x66ab9e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRenderPassInput get_input();
 
-  /// @brief Method get_isBlitRenderPass, addr 0x6643e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isBlitRenderPass, addr 0x66aba24, size 0x8, virtual false, abstract: false, final false
   inline bool get_isBlitRenderPass();
 
-  /// @brief Method get_overriddenColorStoreActions, addr 0x6643e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overriddenColorStoreActions, addr 0x66ab9d0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<bool, ::Array<bool>*> get_overriddenColorStoreActions();
 
-  /// @brief Method get_overriddenDepthStoreAction, addr 0x6643e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overriddenDepthStoreAction, addr 0x66ab9d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_overriddenDepthStoreAction();
 
-  /// @brief Method get_overrideCameraTarget, addr 0x6643e88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideCameraTarget, addr 0x66aba14, size 0x8, virtual false, abstract: false, final false
   inline bool get_overrideCameraTarget();
 
-  /// @brief Method get_passName, addr 0x6643e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_passName, addr 0x66aba0c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_passName();
 
-  /// @brief Method get_profilingSampler, addr 0x6634b04, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_profilingSampler, addr 0x669c690, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProfilingSampler* get_profilingSampler();
 
-  /// @brief Method get_renderPassEvent, addr 0x6643d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderPassEvent, addr 0x66ab894, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::RenderPassEvent get_renderPassEvent();
 
-  /// @brief Method get_renderPassQueueIndex, addr 0x6643ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderPassQueueIndex, addr 0x66aba54, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_renderPassQueueIndex();
 
-  /// @brief Method get_renderTargetFormat, addr 0x6643ed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderTargetFormat, addr 0x66aba64, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::Array<::UnityEngine::Experimental::Rendering::GraphicsFormat>*> get_renderTargetFormat();
 
-  /// @brief Method get_requiresIntermediateTexture, addr 0x6643e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requiresIntermediateTexture, addr 0x66ab9fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_requiresIntermediateTexture();
 
-  /// @brief Method get_useNativeRenderPass, addr 0x6643ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useNativeRenderPass, addr 0x66aba34, size 0x8, virtual false, abstract: false, final false
   inline bool get_useNativeRenderPass();
 
   /// @brief Convert to "::UnityEngine::Rendering::RenderGraphModule::IRenderGraphRecorder"
   constexpr ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphRecorder* i___UnityEngine__Rendering__RenderGraphModule__IRenderGraphRecorder() noexcept;
 
-  /// @brief Method op_GreaterThan, addr 0x6644e50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x66ac9dc, size 0x28, virtual false, abstract: false, final false
   static inline bool op_GreaterThan(::UnityEngine::Rendering::Universal::ScriptableRenderPass* lhs, ::UnityEngine::Rendering::Universal::ScriptableRenderPass* rhs);
 
-  /// @brief Method op_LessThan, addr 0x6644e28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x66ac9b4, size 0x28, virtual false, abstract: false, final false
   static inline bool op_LessThan(::UnityEngine::Rendering::Universal::ScriptableRenderPass* lhs, ::UnityEngine::Rendering::Universal::ScriptableRenderPass* rhs);
 
   static inline void setStaticF_k_CameraTarget(::UnityEngine::Rendering::RTHandle* value);
 
-  /// @brief Method set_breakGBufferAndDeferredRenderPass, addr 0x6643ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_breakGBufferAndDeferredRenderPass, addr 0x66aba4c, size 0x8, virtual false, abstract: false, final false
   inline void set_breakGBufferAndDeferredRenderPass(bool value);
 
-  /// @brief Method set_isBlitRenderPass, addr 0x6643ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isBlitRenderPass, addr 0x66aba2c, size 0x8, virtual false, abstract: false, final false
   inline void set_isBlitRenderPass(bool value);
 
-  /// @brief Method set_overrideCameraTarget, addr 0x6643e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideCameraTarget, addr 0x66aba1c, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideCameraTarget(bool value);
 
-  /// @brief Method set_profilingSampler, addr 0x6633eac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_profilingSampler, addr 0x669ba38, size 0x44, virtual false, abstract: false, final false
   inline void set_profilingSampler(::UnityEngine::Rendering::ProfilingSampler* value);
 
-  /// @brief Method set_renderPassEvent, addr 0x6643d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderPassEvent, addr 0x66ab89c, size 0x8, virtual false, abstract: false, final false
   inline void set_renderPassEvent(::UnityEngine::Rendering::Universal::RenderPassEvent value);
 
-  /// @brief Method set_renderPassQueueIndex, addr 0x6643ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderPassQueueIndex, addr 0x66aba5c, size 0x8, virtual false, abstract: false, final false
   inline void set_renderPassQueueIndex(int32_t value);
 
-  /// @brief Method set_renderTargetFormat, addr 0x6643ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderTargetFormat, addr 0x66aba6c, size 0x8, virtual false, abstract: false, final false
   inline void set_renderTargetFormat(::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::Array<::UnityEngine::Experimental::Rendering::GraphicsFormat>*> value);
 
-  /// @brief Method set_requiresIntermediateTexture, addr 0x6643e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_requiresIntermediateTexture, addr 0x66aba04, size 0x8, virtual false, abstract: false, final false
   inline void set_requiresIntermediateTexture(bool value);
 
-  /// @brief Method set_useNativeRenderPass, addr 0x6643eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useNativeRenderPass, addr 0x66aba3c, size 0x8, virtual false, abstract: false, final false
   inline void set_useNativeRenderPass(bool value);
 
 protected:
@@ -646,7 +646,7 @@ public:
   ScriptableRenderPass(ScriptableRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12690 };
 
   /// @brief Field <renderPassEvent>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::RenderPassEvent ____renderPassEvent_k__BackingField;

@@ -56,7 +56,7 @@ public:
   constexpr CurvedTextMeshPro_CurvedMeshInfo(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20481 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -102,24 +102,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IComponentRefresher"
   constexpr operator ::GlobalNamespace::IComponentRefresher*() noexcept;
 
-  /// @brief Method FillColors, addr 0x31d31cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FillColors, addr 0x3203b68, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> FillColors(int32_t meshIndex, ::UnityEngine::Color32 color32);
 
-  /// @brief Method FillUV3s, addr 0x31d30f4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method FillUV3s, addr 0x3203a90, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> FillUV3s(int32_t meshIndex, int32_t vertexCount, ::UnityEngine::Vector2 curve);
 
-  /// @brief Method GenerateTextMesh, addr 0x31d2d4c, size 0x2e8, virtual true, abstract: false, final false
+  /// @brief Method GenerateTextMesh, addr 0x32036e8, size 0x2e8, virtual true, abstract: false, final false
   inline void GenerateTextMesh();
 
   static inline ::HMUI::CurvedTextMeshPro* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x31d2d18, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x32036b4, size 0x34, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method UpdateMesh, addr 0x31d3034, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method UpdateMesh, addr 0x32039d0, size 0xb0, virtual false, abstract: false, final false
   inline void UpdateMesh(::UnityEngine::Mesh* mesh, int32_t meshIndex, ::UnityEngine::Vector2 curveUV, ::UnityEngine::Color32 color32);
 
-  /// @brief Method __Refresh, addr 0x31d30e4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method __Refresh, addr 0x3203a80, size 0x10, virtual true, abstract: false, final true
   inline void __Refresh();
 
   constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__colorSo() const;
@@ -146,22 +146,22 @@ public:
 
   constexpr void __cordl_internal_set__useScriptableObjectColors(bool value);
 
-  /// @brief Method .ctor, addr 0x31d3240, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3203bdc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x31d2c78, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x3203614, size 0x98, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_useScriptableObjectColors, addr 0x31d2c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useScriptableObjectColors, addr 0x3203604, size 0x8, virtual false, abstract: false, final false
   inline bool get_useScriptableObjectColors();
 
   /// @brief Convert to "::GlobalNamespace::IComponentRefresher"
   constexpr ::GlobalNamespace::IComponentRefresher* i___GlobalNamespace__IComponentRefresher() noexcept;
 
-  /// @brief Method set_color, addr 0x31d2d10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_color, addr 0x32036ac, size 0x8, virtual true, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_useScriptableObjectColors, addr 0x31d2c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useScriptableObjectColors, addr 0x320360c, size 0x8, virtual false, abstract: false, final false
   inline void set_useScriptableObjectColors(bool value);
 
 protected:
@@ -179,7 +179,7 @@ public:
   CurvedTextMeshPro(CurvedTextMeshPro const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20482 };
 
   /// @brief Field _useScriptableObjectColors, offset: 0x7c0, size: 0x1, def value: None
   bool ____useScriptableObjectColors;

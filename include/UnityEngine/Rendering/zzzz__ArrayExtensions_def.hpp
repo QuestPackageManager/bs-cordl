@@ -34,7 +34,7 @@ public:
   /// @brief Method ResizeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ResizeArray(::ByRef<::Unity::Collections::NativeArray_1<T>> array, int32_t capacity);
 
-  /// @brief Method ResizeArray, addr 0x65962b4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ResizeArray, addr 0x65fde40, size 0xb4, virtual false, abstract: false, final false
   static inline void ResizeArray(::ByRef<::UnityEngine::Jobs::TransformAccessArray> array, int32_t capacity);
 
 protected:
@@ -52,7 +52,7 @@ public:
   ArrayExtensions(ArrayExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12225 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12229 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

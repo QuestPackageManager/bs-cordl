@@ -35,15 +35,15 @@ public:
 
   static inline ::System::Xml::GuidArrayHelperWithString* New_ctor();
 
-  /// @brief Method ReadArray, addr 0x5ee2cc8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x5f4a854, size 0x38, virtual true, abstract: false, final false
   inline int32_t ReadArray(::System::Xml::XmlDictionaryReader* reader, ::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::Guid, ::Array<::System::Guid>*> array, int32_t offset,
                            int32_t count);
 
-  /// @brief Method WriteArray, addr 0x5ee2d00, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x5f4a88c, size 0x3c, virtual true, abstract: false, final false
   inline void WriteArray(::System::Xml::XmlDictionaryWriter* writer, ::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::Guid, ::Array<::System::Guid>*> array,
                          int32_t offset, int32_t count);
 
-  /// @brief Method .ctor, addr 0x5ee2d3c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f4a8c8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::GuidArrayHelperWithString* getStaticF_Instance();
@@ -65,7 +65,7 @@ public:
   GuidArrayHelperWithString(GuidArrayHelperWithString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16895 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

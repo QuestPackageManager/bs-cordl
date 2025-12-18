@@ -182,7 +182,7 @@ public:
   Blitter_BlitShaderIDs(Blitter_BlitShaderIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12236 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12240 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -313,7 +313,7 @@ public:
   static ::UnityEngine::Rendering::Blitter_BlitShaderPassNames const NearestQuadPaddingRepeat;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12237 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12241 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -368,7 +368,7 @@ public:
   static ::UnityEngine::Rendering::Blitter_BlitColorAndDepthPassNames const ColorOnly;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12238 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12242 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -431,171 +431,171 @@ public:
   /// @brief Field s_TriangleMesh, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_TriangleMesh, put = setStaticF_s_TriangleMesh)) ::UnityW<::UnityEngine::Mesh> s_TriangleMesh;
 
-  /// @brief Method BlitCameraTexture, addr 0x659c7c0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method BlitCameraTexture, addr 0x660434c, size 0x1a4, virtual false, abstract: false, final false
   static inline void BlitCameraTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination,
                                        ::UnityEngine::Rect destViewport, float_t mipLevel, bool bilinear);
 
-  /// @brief Method BlitCameraTexture, addr 0x659c424, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method BlitCameraTexture, addr 0x6603fb0, size 0x18c, virtual false, abstract: false, final false
   static inline void BlitCameraTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination,
                                        ::UnityEngine::Rendering::RenderBufferLoadAction loadAction, ::UnityEngine::Rendering::RenderBufferStoreAction storeAction, ::UnityEngine::Material* material,
                                        int32_t pass);
 
-  /// @brief Method BlitCameraTexture, addr 0x659c2c8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method BlitCameraTexture, addr 0x6603e54, size 0x15c, virtual false, abstract: false, final false
   static inline void BlitCameraTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination,
                                        ::UnityEngine::Material* material, int32_t pass);
 
-  /// @brief Method BlitCameraTexture, addr 0x659bf58, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method BlitCameraTexture, addr 0x6603ae4, size 0x164, virtual false, abstract: false, final false
   static inline void BlitCameraTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination, float_t mipLevel,
                                        bool bilinear);
 
-  /// @brief Method BlitCameraTexture, addr 0x659c6c0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method BlitCameraTexture, addr 0x660424c, size 0x100, virtual false, abstract: false, final false
   static inline void BlitCameraTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination,
                                        ::UnityEngine::Vector4 scaleBias, float_t mipLevel, bool bilinear);
 
-  /// @brief Method BlitCameraTexture2D, addr 0x659c164, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method BlitCameraTexture2D, addr 0x6603cf0, size 0x164, virtual false, abstract: false, final false
   static inline void BlitCameraTexture2D(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination, float_t mipLevel,
                                          bool bilinear);
 
-  /// @brief Method BlitColorAndDepth, addr 0x659b554, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method BlitColorAndDepth, addr 0x66030e0, size 0x1f8, virtual false, abstract: false, final false
   static inline void BlitColorAndDepth(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Texture* sourceColor, ::UnityEngine::RenderTexture* sourceDepth, ::UnityEngine::Vector4 scaleBias,
                                        float_t mipLevel, bool blitDepth);
 
-  /// @brief Method BlitColorAndDepth, addr 0x659b488, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method BlitColorAndDepth, addr 0x6603014, size 0xcc, virtual false, abstract: false, final false
   static inline void BlitColorAndDepth(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Texture* sourceColor, ::UnityEngine::RenderTexture* sourceDepth,
                                        ::UnityEngine::Vector4 scaleBias, float_t mipLevel, bool blitDepth);
 
-  /// @brief Method BlitCubeToOctahedral2DQuad, addr 0x659317c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method BlitCubeToOctahedral2DQuad, addr 0x65fad08, size 0x1b0, virtual false, abstract: false, final false
   static inline void BlitCubeToOctahedral2DQuad(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Texture* source, ::UnityEngine::Vector4 scaleBiasRT, int32_t mipLevelTex);
 
-  /// @brief Method BlitCubeToOctahedral2DQuadSingleChannel, addr 0x6593630, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method BlitCubeToOctahedral2DQuadSingleChannel, addr 0x65fb1bc, size 0x2e4, virtual false, abstract: false, final false
   static inline void BlitCubeToOctahedral2DQuadSingleChannel(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Texture* source, ::UnityEngine::Vector4 scaleBiasRT, int32_t mipLevelTex);
 
-  /// @brief Method BlitCubeToOctahedral2DQuadWithPadding, addr 0x659d30c, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method BlitCubeToOctahedral2DQuadWithPadding, addr 0x6604e98, size 0x364, virtual false, abstract: false, final false
   static inline void BlitCubeToOctahedral2DQuadWithPadding(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Texture* source, ::UnityEngine::Vector2 textureSize,
                                                            ::UnityEngine::Vector4 scaleBiasRT, int32_t mipLevelTex, bool bilinear, int32_t paddingInPixels,
                                                            ::System::Nullable_1<::UnityEngine::Vector4> decodeInstructions);
 
-  /// @brief Method BlitOctahedralWithPadding, addr 0x659cebc, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method BlitOctahedralWithPadding, addr 0x6604a48, size 0x228, virtual false, abstract: false, final false
   static inline void BlitOctahedralWithPadding(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Texture* source, ::UnityEngine::Vector2 textureSize, ::UnityEngine::Vector4 scaleBiasTex,
                                                ::UnityEngine::Vector4 scaleBiasRT, int32_t mipLevelTex, bool bilinear, int32_t paddingInPixels);
 
-  /// @brief Method BlitOctahedralWithPaddingMultiply, addr 0x659d0e4, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method BlitOctahedralWithPaddingMultiply, addr 0x6604c70, size 0x228, virtual false, abstract: false, final false
   static inline void BlitOctahedralWithPaddingMultiply(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Texture* source, ::UnityEngine::Vector2 textureSize,
                                                        ::UnityEngine::Vector4 scaleBiasTex, ::UnityEngine::Vector4 scaleBiasRT, int32_t mipLevelTex, bool bilinear, int32_t paddingInPixels);
 
-  /// @brief Method BlitQuad, addr 0x65927cc, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method BlitQuad, addr 0x65fa358, size 0x1f8, virtual false, abstract: false, final false
   static inline void BlitQuad(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Texture* source, ::UnityEngine::Vector4 scaleBiasTex, ::UnityEngine::Vector4 scaleBiasRT,
                               int32_t mipLevelTex, bool bilinear);
 
-  /// @brief Method BlitQuadSingleChannel, addr 0x659332c, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method BlitQuadSingleChannel, addr 0x65faeb8, size 0x304, virtual false, abstract: false, final false
   static inline void BlitQuadSingleChannel(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Texture* source, ::UnityEngine::Vector4 scaleBiasTex, ::UnityEngine::Vector4 scaleBiasRT,
                                            int32_t mipLevelTex);
 
-  /// @brief Method BlitQuadWithPadding, addr 0x659c964, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method BlitQuadWithPadding, addr 0x66044f0, size 0x2ac, virtual false, abstract: false, final false
   static inline void BlitQuadWithPadding(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Texture* source, ::UnityEngine::Vector2 textureSize, ::UnityEngine::Vector4 scaleBiasTex,
                                          ::UnityEngine::Vector4 scaleBiasRT, int32_t mipLevelTex, bool bilinear, int32_t paddingInPixels);
 
-  /// @brief Method BlitQuadWithPaddingMultiply, addr 0x659cc10, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method BlitQuadWithPaddingMultiply, addr 0x660479c, size 0x2ac, virtual false, abstract: false, final false
   static inline void BlitQuadWithPaddingMultiply(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Texture* source, ::UnityEngine::Vector2 textureSize, ::UnityEngine::Vector4 scaleBiasTex,
                                                  ::UnityEngine::Vector4 scaleBiasRT, int32_t mipLevelTex, bool bilinear, int32_t paddingInPixels);
 
-  /// @brief Method BlitTexture, addr 0x659bd70, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method BlitTexture, addr 0x66038fc, size 0xf4, virtual false, abstract: false, final false
   static inline void BlitTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Vector4 scaleBias, ::UnityEngine::Material* material, int32_t pass);
 
-  /// @brief Method BlitTexture, addr 0x659aef4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method BlitTexture, addr 0x6602a80, size 0x134, virtual false, abstract: false, final false
   static inline void BlitTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Vector4 scaleBias, ::UnityEngine::Material* material,
                                  int32_t pass);
 
-  /// @brief Method BlitTexture, addr 0x659adb0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method BlitTexture, addr 0x660293c, size 0x144, virtual false, abstract: false, final false
   static inline void BlitTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Vector4 scaleBias, ::UnityEngine::Material* material,
                                  int32_t pass, float_t sourceMipLevel, int32_t sourceDepthSlice);
 
-  /// @brief Method BlitTexture, addr 0x659b0e4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method BlitTexture, addr 0x6602c70, size 0x188, virtual false, abstract: false, final false
   static inline void BlitTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Vector4 scaleBias, float_t mipLevel, bool bilinear);
 
-  /// @brief Method BlitTexture, addr 0x659ac98, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method BlitTexture, addr 0x6602824, size 0x118, virtual false, abstract: false, final false
   static inline void BlitTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Vector4 scaleBias, float_t sourceMipLevel,
                                  int32_t sourceDepthSlice, bool bilinear);
 
-  /// @brief Method BlitTexture, addr 0x659bbc8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method BlitTexture, addr 0x6603754, size 0x1a8, virtual false, abstract: false, final false
   static inline void BlitTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier source, ::UnityEngine::Rendering::RenderTargetIdentifier destination,
                                  ::UnityEngine::Rendering::RenderBufferLoadAction loadAction, ::UnityEngine::Rendering::RenderBufferStoreAction storeAction, ::UnityEngine::Material* material,
                                  int32_t pass);
 
-  /// @brief Method BlitTexture, addr 0x659ba30, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method BlitTexture, addr 0x66035bc, size 0x198, virtual false, abstract: false, final false
   static inline void BlitTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier source, ::UnityEngine::Rendering::RenderTargetIdentifier destination,
                                  ::UnityEngine::Material* material, int32_t pass);
 
-  /// @brief Method BlitTexture, addr 0x659b8e0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method BlitTexture, addr 0x660346c, size 0x150, virtual false, abstract: false, final false
   static inline void BlitTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier source, ::UnityEngine::Vector4 scaleBias,
                                  ::UnityEngine::Material* material, int32_t pass);
 
-  /// @brief Method BlitTexture, addr 0x659be64, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method BlitTexture, addr 0x66039f0, size 0xf4, virtual false, abstract: false, final false
   static inline void BlitTexture(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Vector4 scaleBias, ::UnityEngine::Material* material, int32_t pass);
 
-  /// @brief Method BlitTexture, addr 0x659b74c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method BlitTexture, addr 0x66032d8, size 0xbc, virtual false, abstract: false, final false
   static inline void BlitTexture(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Vector4 scaleBias, ::UnityEngine::Material* material,
                                  int32_t pass);
 
-  /// @brief Method BlitTexture, addr 0x659b028, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method BlitTexture, addr 0x6602bb4, size 0xbc, virtual false, abstract: false, final false
   static inline void BlitTexture(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Vector4 scaleBias, float_t mipLevel, bool bilinear);
 
-  /// @brief Method BlitTexture, addr 0x659b808, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method BlitTexture, addr 0x6603394, size 0xd8, virtual false, abstract: false, final false
   static inline void BlitTexture(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier source, ::UnityEngine::Vector4 scaleBias,
                                  ::UnityEngine::Material* material, int32_t pass);
 
-  /// @brief Method BlitTexture2D, addr 0x659b328, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method BlitTexture2D, addr 0x6602eb4, size 0x160, virtual false, abstract: false, final false
   static inline void BlitTexture2D(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Vector4 scaleBias, float_t mipLevel, bool bilinear);
 
-  /// @brief Method BlitTexture2D, addr 0x659b26c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method BlitTexture2D, addr 0x6602df8, size 0xbc, virtual false, abstract: false, final false
   static inline void BlitTexture2D(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Vector4 scaleBias, float_t mipLevel, bool bilinear);
 
-  /// @brief Method CanCopyMSAA, addr 0x659ab94, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CanCopyMSAA, addr 0x6602720, size 0x74, virtual false, abstract: false, final false
   static inline bool CanCopyMSAA();
 
-  /// @brief Method Cleanup, addr 0x659a36c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6601ef8, size 0x11c, virtual false, abstract: false, final false
   static inline void Cleanup();
 
-  /// @brief Method CopyTexture, addr 0x659ac08, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CopyTexture, addr 0x6602794, size 0x90, virtual false, abstract: false, final false
   static inline void CopyTexture(::UnityEngine::Rendering::RasterCommandBuffer* cmd, bool isMSAA);
 
-  /// @brief Method DrawQuad, addr 0x659ab18, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method DrawQuad, addr 0x66026a4, size 0x7c, virtual false, abstract: false, final false
   static inline void DrawQuad(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Material* material, int32_t shaderPass);
 
-  /// @brief Method DrawQuad, addr 0x659a988, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method DrawQuad, addr 0x6602514, size 0x190, virtual false, abstract: false, final false
   static inline void DrawQuad(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MaterialPropertyBlock* propertyBlock);
 
-  /// @brief Method DrawQuad, addr 0x659a8fc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DrawQuad, addr 0x6602488, size 0x8c, virtual false, abstract: false, final false
   static inline void DrawQuad(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MaterialPropertyBlock* propertyBlock);
 
-  /// @brief Method DrawQuadMesh, addr 0x659a808, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method DrawQuadMesh, addr 0x6602394, size 0xf4, virtual false, abstract: false, final false
   static inline void DrawQuadMesh(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MaterialPropertyBlock* propertyBlock);
 
-  /// @brief Method DrawTriangle, addr 0x659a5fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method DrawTriangle, addr 0x6602188, size 0x7c, virtual false, abstract: false, final false
   static inline void DrawTriangle(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Material* material, int32_t shaderPass);
 
-  /// @brief Method DrawTriangle, addr 0x659a678, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method DrawTriangle, addr 0x6602204, size 0x190, virtual false, abstract: false, final false
   static inline void DrawTriangle(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Material* material, int32_t shaderPass, ::UnityEngine::MaterialPropertyBlock* propertyBlock);
 
-  /// @brief Method DrawTriangle, addr 0x659a580, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method DrawTriangle, addr 0x660210c, size 0x7c, virtual false, abstract: false, final false
   static inline void DrawTriangle(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Material* material, int32_t shaderPass);
 
-  /// @brief Method GetBlitMaterial, addr 0x659a488, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetBlitMaterial, addr 0x6602014, size 0xf8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetBlitMaterial(::UnityEngine::Rendering::TextureDimension dimension, bool singleSlice);
 
-  /// @brief Method Initialize, addr 0x6599764, size 0x7c8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x66012f0, size 0x7c8, virtual false, abstract: false, final false
   static inline void Initialize(::UnityEngine::Shader* blitPS, ::UnityEngine::Shader* blitColorAndDepthPS);
 
-  /// @brief Method <Initialize>g__GetFullScreenTriangleTexCoord|14_1, addr 0x659a0e8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>g__GetFullScreenTriangleTexCoord|14_1, addr 0x6601c74, size 0xfc, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> _Initialize_g__GetFullScreenTriangleTexCoord_14_1();
 
-  /// @brief Method <Initialize>g__GetFullScreenTriangleVertexPosition|14_0, addr 0x659a034, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>g__GetFullScreenTriangleVertexPosition|14_0, addr 0x6601bc0, size 0xb4, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _Initialize_g__GetFullScreenTriangleVertexPosition_14_0(float_t z);
 
-  /// @brief Method <Initialize>g__GetQuadTexCoord|14_3, addr 0x659a28c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>g__GetQuadTexCoord|14_3, addr 0x6601e18, size 0xe0, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> _Initialize_g__GetQuadTexCoord_14_3();
 
-  /// @brief Method <Initialize>g__GetQuadVertexPosition|14_2, addr 0x659a1e4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>g__GetQuadVertexPosition|14_2, addr 0x6601d70, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _Initialize_g__GetQuadVertexPosition_14_2(float_t z);
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF_s_Blit();
@@ -657,7 +657,7 @@ public:
   Blitter(Blitter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12243 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

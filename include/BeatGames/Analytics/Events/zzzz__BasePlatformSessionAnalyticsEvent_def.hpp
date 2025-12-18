@@ -48,21 +48,21 @@ public:
   /// @brief Field vros_major_version, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_vros_major_version, put = __cordl_internal_set_vros_major_version)) int32_t vros_major_version;
 
-  /// @brief Method ApplyBasicFields, addr 0x3161640, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ApplyBasicFields, addr 0x3191338, size 0xb8, virtual true, abstract: false, final false
   inline void ApplyBasicFields(::OSCE::Analytics::AnalyticsManager* manager);
 
-  /// @brief Method ApplyTime, addr 0x3161604, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method ApplyTime, addr 0x31912fc, size 0x3c, virtual true, abstract: false, final false
   inline void ApplyTime(::OSCE::Analytics::AnalyticsManager* manager);
 
-  /// @brief Method EventRequiresAnalyticsID, addr 0x31615e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method EventRequiresAnalyticsID, addr 0x31912d8, size 0x8, virtual true, abstract: false, final false
   inline bool EventRequiresAnalyticsID();
 
-  /// @brief Method GetIDType, addr 0x31615d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIDType, addr 0x31912d0, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IDType GetIDType();
 
   static inline ::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent* New_ctor();
 
-  /// @brief Method ReturnedToPool, addr 0x31615e8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ReturnedToPool, addr 0x31912e0, size 0x1c, virtual true, abstract: false, final false
   inline void ReturnedToPool();
 
   constexpr ::StringW const& __cordl_internal_get_client_version() const;
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set_vros_major_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3161b28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3191820, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -125,7 +125,7 @@ public:
   BasePlatformSessionAnalyticsEvent(BasePlatformSessionAnalyticsEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22977 };
 
   /// @brief Field event_time, offset: 0x44, size: 0x4, def value: None
   float_t ___event_time;

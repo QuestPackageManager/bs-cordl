@@ -99,7 +99,7 @@ public:
   SubContainerCreatorByNewGameObjectMethod_4___c__DisplayClass2_0(SubContainerCreatorByNewGameObjectMethod_4___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14592 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::SubContainerCreatorByNewGameObjectMethod_4<TParam1, TParam2, TParam3, TParam4>* _____4__this;
@@ -158,7 +158,7 @@ public:
   SubContainerCreatorByNewGameObjectMethod_4(SubContainerCreatorByNewGameObjectMethod_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14593 };
 
   /// @brief Field _installerMethod, offset: 0x20, size: 0x8, def value: None
   ::System::Action_5<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4>* ____installerMethod;

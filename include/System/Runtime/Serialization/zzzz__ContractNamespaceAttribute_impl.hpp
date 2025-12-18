@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::ContractNamespaceAttribute::*)()>(
     &::System::Runtime::Serialization::ContractNamespaceAttribute::get_ClrNamespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f22b38;
+  constexpr static std::size_t addrs = 0x5f8a6c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::ContractNamespaceAttribute::*)()>(
     &::System::Runtime::Serialization::ContractNamespaceAttribute::get_ContractNamespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f22b40;
+  constexpr static std::size_t addrs = 0x5f8a6cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

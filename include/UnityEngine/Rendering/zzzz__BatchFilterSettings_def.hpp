@@ -37,22 +37,22 @@ public:
 
   __declspec(property(put = set_staticShadowCaster)) bool staticShadowCaster;
 
-  /// @brief Method set_allDepthSorted, addr 0x68f6748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_allDepthSorted, addr 0x695f5cc, size 0x8, virtual false, abstract: false, final false
   inline void set_allDepthSorted(bool value);
 
-  /// @brief Method set_batchLayer, addr 0x68f6720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_batchLayer, addr 0x695f5a4, size 0x8, virtual false, abstract: false, final false
   inline void set_batchLayer(uint8_t value);
 
-  /// @brief Method set_motionMode, addr 0x68f6728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_motionMode, addr 0x695f5ac, size 0x8, virtual false, abstract: false, final false
   inline void set_motionMode(::UnityEngine::MotionVectorGenerationMode value);
 
-  /// @brief Method set_receiveShadows, addr 0x68f6738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_receiveShadows, addr 0x695f5bc, size 0x8, virtual false, abstract: false, final false
   inline void set_receiveShadows(bool value);
 
-  /// @brief Method set_shadowCastingMode, addr 0x68f6730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shadowCastingMode, addr 0x695f5b4, size 0x8, virtual false, abstract: false, final false
   inline void set_shadowCastingMode(::UnityEngine::Rendering::ShadowCastingMode value);
 
-  /// @brief Method set_staticShadowCaster, addr 0x68f6740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_staticShadowCaster, addr 0x695f5c4, size 0x8, virtual false, abstract: false, final false
   inline void set_staticShadowCaster(bool value);
 
   // Ctor Parameters []
@@ -69,7 +69,7 @@ public:
                                 uint8_t m_receiveShadows, uint8_t m_staticShadowCaster, uint8_t m_allDepthSorted, uint8_t m_isSceneCullingMaskSet) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10838 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

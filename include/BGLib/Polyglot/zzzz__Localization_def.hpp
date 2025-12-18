@@ -52,21 +52,21 @@ public:
   __declspec(property(get = __cordl_internal_get_supportedLanguages,
                       put = __cordl_internal_set_supportedLanguages)) ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationLanguage>* supportedLanguages;
 
-  /// @brief Method Get, addr 0x31f3c7c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x32246a8, size 0x18, virtual false, abstract: false, final false
   static inline ::StringW Get(::StringW key);
 
-  /// @brief Method HasNoSupportedLanguage, addr 0x31f3dcc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HasNoSupportedLanguage, addr 0x32247f8, size 0x58, virtual false, abstract: false, final false
   inline bool HasNoSupportedLanguage();
 
-  /// @brief Method IsLanguageSupported, addr 0x31f3e24, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsLanguageSupported, addr 0x3224850, size 0x84, virtual false, abstract: false, final false
   inline bool IsLanguageSupported(::BGLib::Polyglot::LocalizationLanguage language);
 
   static inline ::BGLib::Polyglot::Localization* New_ctor();
 
-  /// @brief Method NoDomainReloadInit, addr 0x31f3c30, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x322465c, size 0x4c, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
-  /// @brief Method SetSingletonInstance, addr 0x31f3c94, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetSingletonInstance, addr 0x32246c0, size 0x9c, virtual false, abstract: false, final false
   static inline void SetSingletonInstance(::BGLib::Polyglot::LocalizationModel* model);
 
   constexpr ::BGLib::Polyglot::LocalizationLanguage const& __cordl_internal_get_fallbackLanguage() const;
@@ -87,21 +87,21 @@ public:
 
   constexpr void __cordl_internal_set_supportedLanguages(::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationLanguage>* value);
 
-  /// @brief Method .ctor, addr 0x31f3ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32248d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::Polyglot::LocalizationModel* getStaticF__instance();
 
-  /// @brief Method get_FallbackLanguage, addr 0x31f3d38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FallbackLanguage, addr 0x3224764, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::LocalizationLanguage get_FallbackLanguage();
 
-  /// @brief Method get_Instance, addr 0x31f3120, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x3223b4c, size 0x98, virtual false, abstract: false, final false
   static inline ::BGLib::Polyglot::LocalizationModel* get_Instance();
 
-  /// @brief Method get_SupportedLanguages, addr 0x31f3d30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SupportedLanguages, addr 0x322475c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BGLib::Polyglot::LocalizationLanguage>* get_SupportedLanguages();
 
-  /// @brief Method get_selectedLanguageIndex, addr 0x31f3d40, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedLanguageIndex, addr 0x322476c, size 0x8c, virtual false, abstract: false, final false
   inline int32_t get_selectedLanguageIndex();
 
   static inline void setStaticF__instance(::BGLib::Polyglot::LocalizationModel* value);
@@ -121,7 +121,7 @@ public:
   Localization(Localization const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21983 };
 
   /// @brief Field supportedLanguages, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationLanguage>* ___supportedLanguages;

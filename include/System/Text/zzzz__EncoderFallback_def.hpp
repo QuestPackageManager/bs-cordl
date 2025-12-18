@@ -35,20 +35,20 @@ public:
 
   static inline ::System::Text::EncoderFallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58bccf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5923644, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Text::EncoderFallback* getStaticF_s_exceptionFallback();
 
   static inline ::System::Text::EncoderFallback* getStaticF_s_replacementFallback();
 
-  /// @brief Method get_ExceptionFallback, addr 0x58bd940, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_ExceptionFallback, addr 0x592428c, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Text::EncoderFallback* get_ExceptionFallback();
 
   /// @brief Method get_MaxCharCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
-  /// @brief Method get_ReplacementFallback, addr 0x58bc2ec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_ReplacementFallback, addr 0x5922c38, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Text::EncoderFallback* get_ReplacementFallback();
 
   static inline void setStaticF_s_exceptionFallback(::System::Text::EncoderFallback* value);

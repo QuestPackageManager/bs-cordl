@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger::*)(::StringW)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger::Initialize)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x65c18b4;
+  constexpr static std::size_t addrs = 0x6629440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger::*)(int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger::IncrementIndentation)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x65c175c;
+  constexpr static std::size_t addrs = 0x66292e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger::*)(int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger::DecrementIndentation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x65c183c;
+  constexpr static std::size_t addrs = 0x66293c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger::*)(
     ::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger::LogLine)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x65c19b4;
+  constexpr static std::size_t addrs = 0x6629540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger::*)(::StringW)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger::GetLog)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x65c1a44;
+  constexpr static std::size_t addrs = 0x66295d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger::GetAllLogs)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x65c1af4;
+  constexpr static std::size_t addrs = 0x6629680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x65c1ca8;
+  constexpr static std::size_t addrs = 0x6629834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

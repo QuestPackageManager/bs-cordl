@@ -34,7 +34,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoteBasicCutInfoHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetBasicCutInfo, addr 0x36510a4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetBasicCutInfo, addr 0x367deb8, size 0x18c, virtual false, abstract: false, final false
   static inline void GetBasicCutInfo(::UnityEngine::Transform* noteTransform, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteCutDirection cutDirection,
                                      ::GlobalNamespace::SaberType saberType, float_t saberBladeSpeed, ::UnityEngine::Vector3 cutDirVec, float_t cutAngleTolerance, ::ByRef<bool> directionOK,
                                      ::ByRef<bool> speedOK, ::ByRef<bool> saberTypeOK, ::ByRef<float_t> cutDirDeviation, ::ByRef<float_t> cutDirAngle);
@@ -54,7 +54,7 @@ public:
   NoteBasicCutInfoHelper(NoteBasicCutInfoHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20867 };
 
   /// @brief Field kMinBladeSpeedForCut offset 0xffffffff size 0x4
   static constexpr float_t kMinBladeSpeedForCut{ static_cast<float_t>(2.0f) };

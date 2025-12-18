@@ -45,7 +45,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method Contains, addr 0x68eee34, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x6957cb8, size 0x90, virtual false, abstract: false, final false
   inline bool Contains(::System::Type* type);
 
   /// @brief Method GetSettingsImplementingInterface, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -53,16 +53,16 @@ public:
 
   static inline ::UnityEngine::Rendering::RenderPipelineGlobalSettings* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x68eeec8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnAfterDeserialize, addr 0x6957d4c, size 0x4, virtual true, abstract: false, final false
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x68eeec4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBeforeSerialize, addr 0x6957d48, size 0x4, virtual true, abstract: false, final false
   inline void OnBeforeSerialize();
 
-  /// @brief Method RecreateSettingsMap, addr 0x68eec00, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method RecreateSettingsMap, addr 0x6957a84, size 0x150, virtual false, abstract: false, final false
   inline void RecreateSettingsMap();
 
-  /// @brief Method TryGet, addr 0x68eed50, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method TryGet, addr 0x6957bd4, size 0xe4, virtual false, abstract: false, final false
   inline bool TryGet(::System::Type* type, ::ByRef<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*> settings);
 
   /// @brief Method TryGetFirstSettingsImplementingInterface, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -74,13 +74,13 @@ public:
 
   constexpr void __cordl_internal_set__settingsMap_k__BackingField(::System::Collections::Generic::Dictionary_2<::System::Type*, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x68eeecc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6957d50, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_settingsList, addr 0x68ee9ac, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method get_settingsList, addr 0x6957830, size 0x24c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>* get_settingsList();
 
-  /// @brief Method get_settingsMap, addr 0x68eebf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_settingsMap, addr 0x6957a7c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Type*, int32_t>* get_settingsMap();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -101,7 +101,7 @@ public:
   RenderPipelineGlobalSettings(RenderPipelineGlobalSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10797 };
 
   /// @brief Field <settingsMap>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Type*, int32_t>* ____settingsMap_k__BackingField;

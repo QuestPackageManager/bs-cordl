@@ -75,7 +75,7 @@ public:
   static ::UnityEngine::ProBuilder::Clipping_OutCode const Top;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16688 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -100,10 +100,10 @@ public:
   // Declarations
   using OutCode = ::UnityEngine::ProBuilder::Clipping_OutCode;
 
-  /// @brief Method ComputeOutCode, addr 0x6499898, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ComputeOutCode, addr 0x6501424, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Clipping_OutCode ComputeOutCode(::UnityEngine::Rect rect, float_t x, float_t y);
 
-  /// @brief Method RectContainsLineSegment, addr 0x64998d4, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method RectContainsLineSegment, addr 0x6501460, size 0x210, virtual false, abstract: false, final false
   static inline bool RectContainsLineSegment(::UnityEngine::Rect rect, float_t x0, float_t y0, float_t x1, float_t y1);
 
 protected:
@@ -121,7 +121,7 @@ public:
   Clipping(Clipping const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16675 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16689 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

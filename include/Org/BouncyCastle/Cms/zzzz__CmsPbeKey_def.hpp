@@ -51,16 +51,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method Finalize, addr 0x3589ec4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x35b4708, size 0x5c, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetEncoded, addr 0x358a01c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x35b4860, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   /// @brief Method GetEncoded, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* GetEncoded(::StringW algorithmOid);
 
-  /// @brief Method GetSalt, addr 0x3589f88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetSalt, addr 0x35b47cc, size 0x4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSalt();
 
   static inline ::Org::BouncyCastle::Cms::CmsPbeKey* New_ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
@@ -89,31 +89,31 @@ public:
 
   constexpr void __cordl_internal_set_salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3589cb0, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b44f4, size 0x214, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
-  /// @brief Method .ctor, addr 0x3589b88, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b43cc, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method .ctor, addr 0x3589c74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b44b8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
-  /// @brief Method .ctor, addr 0x3589b44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b4388, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method get_Algorithm, addr 0x3589f94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x35b47d8, size 0x44, virtual false, abstract: false, final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_Format, addr 0x3589fd8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x35b481c, size 0x44, virtual false, abstract: false, final false
   inline ::StringW get_Format();
 
-  /// @brief Method get_IterationCount, addr 0x3589f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IterationCount, addr 0x35b47d0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_IterationCount();
 
-  /// @brief Method get_Password, addr 0x3589f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Password, addr 0x35b4764, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Password();
 
-  /// @brief Method get_Salt, addr 0x3589f28, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Salt, addr 0x35b476c, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Salt();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

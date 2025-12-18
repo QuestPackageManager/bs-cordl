@@ -108,54 +108,54 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IVRInputModule"
   constexpr operator ::GlobalNamespace::IVRInputModule*() noexcept;
 
-  /// @brief Method ClearSelection, addr 0x6c04e50, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method ClearSelection, addr 0x6c6dcd4, size 0x1d4, virtual false, abstract: false, final false
   inline void ClearSelection();
 
-  /// @brief Method DeselectIfSelectionChanged, addr 0x6c06594, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method DeselectIfSelectionChanged, addr 0x6c6f418, size 0xfc, virtual false, abstract: false, final false
   inline void DeselectIfSelectionChanged(::UnityEngine::GameObject* currentOverGo, ::UnityEngine::EventSystems::BaseEventData* pointerEvent);
 
-  /// @brief Method GetLastPointerEventData, addr 0x6c05428, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetLastPointerEventData, addr 0x6c6e2ac, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::PointerEventData* GetLastPointerEventData(int32_t id);
 
-  /// @brief Method GetMousePointerEventData, addr 0x6c05130, size 0x2f8, virtual true, abstract: false, final false
+  /// @brief Method GetMousePointerEventData, addr 0x6c6dfb4, size 0x2f8, virtual true, abstract: false, final false
   inline ::VRUIControls::MouseState* GetMousePointerEventData(int32_t id);
 
-  /// @brief Method GetPointerData, addr 0x6c05024, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetPointerData, addr 0x6c6dea8, size 0x10c, virtual false, abstract: false, final false
   inline bool GetPointerData(int32_t id, ::ByRef<::UnityEngine::EventSystems::PointerEventData*> data, bool create);
 
-  /// @brief Method HandlePointerExitAndEnter, addr 0x6c055d0, size 0x998, virtual false, abstract: false, final false
+  /// @brief Method HandlePointerExitAndEnter, addr 0x6c6e454, size 0x998, virtual false, abstract: false, final false
   inline void HandlePointerExitAndEnter(::UnityEngine::EventSystems::PointerEventData* currentPointerData, ::UnityEngine::GameObject* newEnterTarget);
 
-  /// @brief Method IsPointerOverGameObject, addr 0x6c06278, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method IsPointerOverGameObject, addr 0x6c6f0fc, size 0xa4, virtual true, abstract: false, final false
   inline bool IsPointerOverGameObject(int32_t pointerId);
 
   static inline ::VRUIControls::VRInputModule* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x6c04e2c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6c6dcb0, size 0x24, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Process, addr 0x6c06690, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x6c6f514, size 0x228, virtual true, abstract: false, final false
   inline void Process();
 
-  /// @brief Method ProcessDrag, addr 0x6c05f68, size 0x310, virtual true, abstract: false, final false
+  /// @brief Method ProcessDrag, addr 0x6c6edec, size 0x310, virtual true, abstract: false, final false
   inline void ProcessDrag(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
 
-  /// @brief Method ProcessMousePress, addr 0x6c068b8, size 0x7c0, virtual false, abstract: false, final false
+  /// @brief Method ProcessMousePress, addr 0x6c6f73c, size 0x7c0, virtual false, abstract: false, final false
   inline void ProcessMousePress(::VRUIControls::MouseButtonEventData* data);
 
-  /// @brief Method ProcessMove, addr 0x6c05474, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method ProcessMove, addr 0x6c6e2f8, size 0x15c, virtual true, abstract: false, final false
   inline void ProcessMove(::UnityEngine::EventSystems::PointerEventData* pointerEvent);
 
-  /// @brief Method RaycastComparer, addr 0x6c072a0, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method RaycastComparer, addr 0x6c70124, size 0x450, virtual false, abstract: false, final false
   static inline int32_t RaycastComparer(::UnityEngine::EventSystems::RaycastResult lhs, ::UnityEngine::EventSystems::RaycastResult rhs);
 
-  /// @brief Method SendUpdateEventToSelectedObject, addr 0x6c07144, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method SendUpdateEventToSelectedObject, addr 0x6c6ffc8, size 0x15c, virtual false, abstract: false, final false
   inline bool SendUpdateEventToSelectedObject();
 
-  /// @brief Method ShouldStartDrag, addr 0x6c05444, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ShouldStartDrag, addr 0x6c6e2c8, size 0x30, virtual false, abstract: false, final false
   inline bool ShouldStartDrag(::UnityEngine::Vector2 pressPos, ::UnityEngine::Vector2 currentPos, float_t threshold, bool useDragThreshold);
 
-  /// @brief Method ToString, addr 0x6c0631c, size 0x278, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6c6f1a0, size 0x278, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* const& __cordl_internal_get__componentList() const;
@@ -212,32 +212,32 @@ public:
 
   constexpr void __cordl_internal_set_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method .ctor, addr 0x6c076f0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c70574, size 0x118, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onProcessMousePressEvent, addr 0x6c04b2c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_onProcessMousePressEvent, addr 0x6c6d9b0, size 0xc0, virtual true, abstract: false, final true
   inline void add_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method add_pointerDidClickEvent, addr 0x6c04cac, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_pointerDidClickEvent, addr 0x6c6db30, size 0xc0, virtual true, abstract: false, final true
   inline void add_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
   static inline ::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* getStaticF__raycastComparer();
 
-  /// @brief Method get_useMouseForPressInput, addr 0x6c04b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useMouseForPressInput, addr 0x6c6d9a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_useMouseForPressInput();
 
   /// @brief Convert to "::GlobalNamespace::IVRInputModule"
   constexpr ::GlobalNamespace::IVRInputModule* i___GlobalNamespace__IVRInputModule() noexcept;
 
-  /// @brief Method remove_onProcessMousePressEvent, addr 0x6c04bec, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_onProcessMousePressEvent, addr 0x6c6da70, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method remove_pointerDidClickEvent, addr 0x6c04d6c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_pointerDidClickEvent, addr 0x6c6dbf0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
   static inline void setStaticF__raycastComparer(::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* value);
 
-  /// @brief Method set_useMouseForPressInput, addr 0x6c04b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useMouseForPressInput, addr 0x6c6d9a8, size 0x8, virtual false, abstract: false, final false
   inline void set_useMouseForPressInput(bool value);
 
 protected:
@@ -255,7 +255,7 @@ public:
   VRInputModule(VRInputModule const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22101 };
 
   /// @brief Field kMinPressValue offset 0xffffffff size 0x4
   static constexpr float_t kMinPressValue{ static_cast<float_t>(0.9f) };

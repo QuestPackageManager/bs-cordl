@@ -21,7 +21,7 @@ namespace BeatSaber::Destinations {
 class CORDL_TYPE GameStageExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method RequiresShaderWarmup, addr 0x3181bc4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method RequiresShaderWarmup, addr 0x31b18f0, size 0x34, virtual false, abstract: false, final false
   static inline bool RequiresShaderWarmup(::BeatSaber::Destinations::DestinationTarget stage);
 
 protected:
@@ -39,7 +39,7 @@ public:
   GameStageExtensions(GameStageExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22748 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

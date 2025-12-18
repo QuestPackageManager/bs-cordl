@@ -100,12 +100,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x595e2ec, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x59c4c38, size 0x48, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Resources::ResourceReader_ResourceEnumerator* New_ctor(::System::Resources::ResourceReader* reader);
 
-  /// @brief Method Reset, addr 0x5966728, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x59cd074, size 0x7c, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr bool const& __cordl_internal_get__currentIsValid() const;
@@ -132,22 +132,22 @@ public:
 
   constexpr void __cordl_internal_set__reader(::System::Resources::ResourceReader* value);
 
-  /// @brief Method .ctor, addr 0x5963a9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ca3e8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::Resources::ResourceReader* reader);
 
-  /// @brief Method get_Current, addr 0x5966324, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x59ccc70, size 0x68, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_DataPosition, addr 0x5966680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataPosition, addr 0x59ccfcc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DataPosition();
 
-  /// @brief Method get_Entry, addr 0x596638c, size 0x2f4, virtual true, abstract: false, final true
+  /// @brief Method get_Entry, addr 0x59cccd8, size 0x2f4, virtual true, abstract: false, final true
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key, addr 0x595e244, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_Key, addr 0x59c4b90, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value, addr 0x5966688, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method get_Value, addr 0x59ccfd4, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Object* get_Value();
 
   /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
@@ -260,81 +260,81 @@ public:
   /// @brief Convert operator to "::System::Resources::IResourceReader"
   constexpr operator ::System::Resources::IResourceReader*() noexcept;
 
-  /// @brief Method AllocateStringForNameIndex, addr 0x5963ca4, size 0x7bc, virtual false, abstract: false, final false
+  /// @brief Method AllocateStringForNameIndex, addr 0x59ca5f0, size 0x7bc, virtual false, abstract: false, final false
   inline ::StringW AllocateStringForNameIndex(int32_t index, ::ByRef<int32_t> dataOffset);
 
-  /// @brief Method Close, addr 0x595cfd8, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Close, addr 0x59c3924, size 0x3c, virtual true, abstract: false, final true
   inline void Close();
 
-  /// @brief Method CompareStringEqualsName, addr 0x5963ab0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method CompareStringEqualsName, addr 0x59ca3fc, size 0x1f4, virtual false, abstract: false, final false
   inline bool CompareStringEqualsName(::StringW name);
 
-  /// @brief Method DeserializeObject, addr 0x59653a8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method DeserializeObject, addr 0x59cbcf4, size 0x18c, virtual false, abstract: false, final false
   inline ::System::Object* DeserializeObject(int32_t typeIndex);
 
-  /// @brief Method Dispose, addr 0x59637a8, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x59ca0f4, size 0x3c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x5963768, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x59ca0b4, size 0x40, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method FindPosForResource, addr 0x595db40, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method FindPosForResource, addr 0x59c448c, size 0x3d8, virtual false, abstract: false, final false
   inline int32_t FindPosForResource(::StringW name);
 
-  /// @brief Method FindType, addr 0x59648ec, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method FindType, addr 0x59cb238, size 0x3a4, virtual false, abstract: false, final false
   inline ::System::RuntimeType* FindType(int32_t typeIndex);
 
-  /// @brief Method GetEnumerator, addr 0x59639f0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x59ca33c, size 0xac, virtual true, abstract: false, final true
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method GetEnumeratorInternal, addr 0x595e1e8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumeratorInternal, addr 0x59c4b34, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Resources::ResourceReader_ResourceEnumerator* GetEnumeratorInternal();
 
-  /// @brief Method GetNameHash, addr 0x5963894, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetNameHash, addr 0x59ca1e0, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetNameHash(int32_t index);
 
-  /// @brief Method GetNamePosition, addr 0x59638d8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetNamePosition, addr 0x59ca224, size 0x114, virtual false, abstract: false, final false
   inline int32_t GetNamePosition(int32_t index);
 
-  /// @brief Method GetValueForNameIndex, addr 0x5964460, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method GetValueForNameIndex, addr 0x59cadac, size 0x29c, virtual false, abstract: false, final false
   inline ::System::Object* GetValueForNameIndex(int32_t index);
 
-  /// @brief Method LoadObject, addr 0x5964c90, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LoadObject, addr 0x59cb5dc, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* LoadObject(int32_t pos);
 
-  /// @brief Method LoadObject, addr 0x595e184, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method LoadObject, addr 0x59c4ad0, size 0x4c, virtual false, abstract: false, final false
   inline ::System::Object* LoadObject(int32_t pos, ::ByRef<::System::Resources::ResourceTypeCode> typeCode);
 
-  /// @brief Method LoadObjectV1, addr 0x59646fc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LoadObjectV1, addr 0x59cb048, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Object* LoadObjectV1(int32_t pos);
 
-  /// @brief Method LoadObjectV2, addr 0x59647f4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LoadObjectV2, addr 0x59cb140, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Object* LoadObjectV2(int32_t pos, ::ByRef<::System::Resources::ResourceTypeCode> typeCode);
 
-  /// @brief Method LoadString, addr 0x595df18, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method LoadString, addr 0x59c4864, size 0x26c, virtual false, abstract: false, final false
   inline ::StringW LoadString(int32_t pos);
 
   static inline ::System::Resources::ResourceReader* New_ctor(::System::IO::Stream* stream, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* resCache);
 
-  /// @brief Method ReadResources, addr 0x5963614, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ReadResources, addr 0x59c9f60, size 0x154, virtual false, abstract: false, final false
   inline void ReadResources();
 
-  /// @brief Method ReadUnalignedI4, addr 0x59637e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadUnalignedI4, addr 0x59ca130, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ReadUnalignedI4(int32_t* p);
 
-  /// @brief Method SkipString, addr 0x59637ec, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SkipString, addr 0x59ca138, size 0xa8, virtual false, abstract: false, final false
   inline void SkipString();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x59639ec, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x59ca338, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method _LoadObjectV1, addr 0x5964cb4, size 0x6f4, virtual false, abstract: false, final false
+  /// @brief Method _LoadObjectV1, addr 0x59cb600, size 0x6f4, virtual false, abstract: false, final false
   inline ::System::Object* _LoadObjectV1(int32_t pos);
 
-  /// @brief Method _LoadObjectV2, addr 0x5965534, size 0x744, virtual false, abstract: false, final false
+  /// @brief Method _LoadObjectV2, addr 0x59cbe80, size 0x744, virtual false, abstract: false, final false
   inline ::System::Object* _LoadObjectV2(int32_t pos, ::ByRef<::System::Resources::ResourceTypeCode> typeCode);
 
-  /// @brief Method _ReadResources, addr 0x5965c78, size 0x6ac, virtual false, abstract: false, final false
+  /// @brief Method _ReadResources, addr 0x59cc5c4, size 0x6ac, virtual false, abstract: false, final false
   inline void _ReadResources();
 
   constexpr int64_t const& __cordl_internal_get__dataSectionOffset() const;
@@ -421,7 +421,7 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x595ccac, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c35f8, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* resCache);
 
   /// @brief Convert to "::System::Collections::IEnumerable"

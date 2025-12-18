@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_pos(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x57dd320, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5843c04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -130,12 +130,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x57dd324, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x5843c08, size 0x12c, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* p0, ::System::Object* p1);
 
   static inline ::GlobalNamespace::NoteCutter_CuttableBySaberSortParamsComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x57dd31c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5843c00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IComparer"
@@ -188,7 +188,7 @@ public:
       put = __cordl_internal_set__cuttableBySaberSortParams)) ::ArrayW<::GlobalNamespace::NoteCutter_CuttableBySaberSortParams*, ::Array<::GlobalNamespace::NoteCutter_CuttableBySaberSortParams*>*>
       _cuttableBySaberSortParams;
 
-  /// @brief Method Cut, addr 0x57dcb70, size 0x584, virtual false, abstract: false, final false
+  /// @brief Method Cut, addr 0x5843454, size 0x584, virtual false, abstract: false, final false
   inline void Cut(::GlobalNamespace::Saber* saber);
 
   static inline ::GlobalNamespace::NoteCutter* New_ctor();
@@ -213,7 +213,7 @@ public:
   constexpr void
   __cordl_internal_set__cuttableBySaberSortParams(::ArrayW<::GlobalNamespace::NoteCutter_CuttableBySaberSortParams*, ::Array<::GlobalNamespace::NoteCutter_CuttableBySaberSortParams*>*> value);
 
-  /// @brief Method .ctor, addr 0x57dd1f0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5843ad4, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

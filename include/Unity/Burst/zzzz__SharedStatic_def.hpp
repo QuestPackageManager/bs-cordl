@@ -29,7 +29,7 @@ public:
   // Declarations
   static inline ::Unity::Burst::SharedStatic_PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x625a3b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62c1f40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,7 +47,7 @@ public:
   SharedStatic_PreserveAttribute(SharedStatic_PreserveAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17288 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17302 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -64,13 +64,13 @@ public:
   // Declarations
   using PreserveAttribute = ::Unity::Burst::SharedStatic_PreserveAttribute;
 
-  /// @brief Method CheckResult, addr 0x625a308, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CheckResult, addr 0x62c1e94, size 0x54, virtual false, abstract: false, final false
   static inline void CheckResult(void* result);
 
-  /// @brief Method CheckSizeOf, addr 0x625a29c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CheckSizeOf, addr 0x62c1e28, size 0x6c, virtual false, abstract: false, final false
   static inline void CheckSizeOf(uint32_t sizeOf);
 
-  /// @brief Method GetOrCreateSharedStaticInternal, addr 0x625a35c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateSharedStaticInternal, addr 0x62c1ee8, size 0x58, virtual false, abstract: false, final false
   static inline void* GetOrCreateSharedStaticInternal(int64_t getHashCode64, int64_t getSubHashCode64, uint32_t sizeOf, uint32_t alignment);
 
 protected:
@@ -88,7 +88,7 @@ public:
   SharedStatic(SharedStatic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17289 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17303 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

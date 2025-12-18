@@ -148,73 +148,73 @@ public:
 
   constexpr void __cordl_internal_set_updateBeforeRenderInternal(::System::Nullable_1<bool> value);
 
-  /// @brief Method .ctor, addr 0x63aa19c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6411d28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_canRunInBackground, addr 0x63a9ffc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_canRunInBackground, addr 0x6411b88, size 0x54, virtual false, abstract: false, final false
   inline bool get_canRunInBackground();
 
-  /// @brief Method get_commonUsages, addr 0x63a9fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_commonUsages, addr 0x6411b58, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_commonUsages();
 
-  /// @brief Method get_description, addr 0x63aa17c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_description, addr 0x6411d08, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_description();
 
-  /// @brief Method get_displayName, addr 0x63aa16c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x6411cf8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_hideInUI, addr 0x63aa18c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hideInUI, addr 0x6411d18, size 0x8, virtual false, abstract: false, final false
   inline bool get_hideInUI();
 
-  /// @brief Method get_isGenericTypeOfDevice, addr 0x63aa15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isGenericTypeOfDevice, addr 0x6411ce8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isGenericTypeOfDevice();
 
-  /// @brief Method get_isNoisy, addr 0x63a9fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isNoisy, addr 0x6411b78, size 0x8, virtual false, abstract: false, final false
   inline bool get_isNoisy();
 
-  /// @brief Method get_stateFormat, addr 0x63a9fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stateFormat, addr 0x6411b48, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_stateFormat();
 
-  /// @brief Method get_stateType, addr 0x63a9fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stateType, addr 0x6411b38, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_stateType();
 
-  /// @brief Method get_updateBeforeRender, addr 0x63aa0ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_updateBeforeRender, addr 0x6411c38, size 0x54, virtual false, abstract: false, final false
   inline bool get_updateBeforeRender();
 
-  /// @brief Method get_variants, addr 0x63a9fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_variants, addr 0x6411b68, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_variants();
 
-  /// @brief Method set_canRunInBackground, addr 0x63aa050, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_canRunInBackground, addr 0x6411bdc, size 0x5c, virtual false, abstract: false, final false
   inline void set_canRunInBackground(bool value);
 
-  /// @brief Method set_commonUsages, addr 0x63a9fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_commonUsages, addr 0x6411b60, size 0x8, virtual false, abstract: false, final false
   inline void set_commonUsages(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_description, addr 0x63aa184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_description, addr 0x6411d10, size 0x8, virtual false, abstract: false, final false
   inline void set_description(::StringW value);
 
-  /// @brief Method set_displayName, addr 0x63aa174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x6411d00, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
-  /// @brief Method set_hideInUI, addr 0x63aa194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hideInUI, addr 0x6411d20, size 0x8, virtual false, abstract: false, final false
   inline void set_hideInUI(bool value);
 
-  /// @brief Method set_isGenericTypeOfDevice, addr 0x63aa164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isGenericTypeOfDevice, addr 0x6411cf0, size 0x8, virtual false, abstract: false, final false
   inline void set_isGenericTypeOfDevice(bool value);
 
-  /// @brief Method set_isNoisy, addr 0x63a9ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isNoisy, addr 0x6411b80, size 0x8, virtual false, abstract: false, final false
   inline void set_isNoisy(bool value);
 
-  /// @brief Method set_stateFormat, addr 0x63a9fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stateFormat, addr 0x6411b50, size 0x8, virtual false, abstract: false, final false
   inline void set_stateFormat(::StringW value);
 
-  /// @brief Method set_stateType, addr 0x63a9fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stateType, addr 0x6411b40, size 0x8, virtual false, abstract: false, final false
   inline void set_stateType(::System::Type* value);
 
-  /// @brief Method set_updateBeforeRender, addr 0x63aa100, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_updateBeforeRender, addr 0x6411c8c, size 0x5c, virtual false, abstract: false, final false
   inline void set_updateBeforeRender(bool value);
 
-  /// @brief Method set_variants, addr 0x63a9fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_variants, addr 0x6411b70, size 0x8, virtual false, abstract: false, final false
   inline void set_variants(::StringW value);
 
 protected:
@@ -232,7 +232,7 @@ public:
   InputControlLayoutAttribute(InputControlLayoutAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9088 };
 
   /// @brief Field <stateType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____stateType_k__BackingField;

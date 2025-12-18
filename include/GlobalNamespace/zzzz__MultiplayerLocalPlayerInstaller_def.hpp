@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLocalPlayerInstaller)
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IBeatSaberMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelSceneSetupData;
@@ -30,12 +30,12 @@ public:
 
   /// @brief Field _multiplayerSessionManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _startState, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__startState, put = __cordl_internal_set__startState)) ::GlobalNamespace::MultiplayerPlayerStartState _startState;
 
-  /// @brief Method InstallBindings, addr 0x57ea43c, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x5850d8c, size 0x284, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerLocalPlayerInstaller* New_ctor();
@@ -44,9 +44,9 @@ public:
 
   constexpr ::GlobalNamespace::MultiplayerLevelSceneSetupData*& __cordl_internal_get__levelSceneSetupData();
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
   constexpr ::GlobalNamespace::MultiplayerPlayerStartState const& __cordl_internal_get__startState() const;
 
@@ -54,11 +54,11 @@ public:
 
   constexpr void __cordl_internal_set__levelSceneSetupData(::GlobalNamespace::MultiplayerLevelSceneSetupData* value);
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
 
   constexpr void __cordl_internal_set__startState(::GlobalNamespace::MultiplayerPlayerStartState value);
 
-  /// @brief Method .ctor, addr 0x57ea6c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5851010, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,7 +82,7 @@ public:
   ::GlobalNamespace::MultiplayerLevelSceneSetupData* ____levelSceneSetupData;
 
   /// @brief Field _multiplayerSessionManager, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
+  ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
   /// @brief Field _startState, offset: 0x38, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerPlayerStartState ____startState;

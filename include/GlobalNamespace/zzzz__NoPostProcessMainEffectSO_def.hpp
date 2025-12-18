@@ -45,21 +45,21 @@ public:
 
   __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
 
-  /// @brief Method DrawFadeQuad, addr 0x5d2dc34, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method DrawFadeQuad, addr 0x5d95754, size 0x1c4, virtual false, abstract: false, final false
   inline void DrawFadeQuad(float_t alpha);
 
   static inline ::GlobalNamespace::NoPostProcessMainEffectSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5d2db9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5d956bc, size 0x24, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5d2dacc, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5d955ec, size 0xd0, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PostRender, addr 0x5d2dc28, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method PostRender, addr 0x5d95748, size 0xc, virtual true, abstract: false, final false
   inline void PostRender(float_t fade);
 
-  /// @brief Method PreRender, addr 0x5d2dbc0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x5d956e0, size 0x68, virtual true, abstract: false, final false
   inline void PreRender();
 
   constexpr float_t const& __cordl_internal_get__baseColorBoost() const;
@@ -98,10 +98,10 @@ public:
 
   constexpr void __cordl_internal_set__setAlphaShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x5d2ddf8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d95918, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x5d2dac4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x5d955e4, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
 protected:
@@ -119,7 +119,7 @@ public:
   NoPostProcessMainEffectSO(NoPostProcessMainEffectSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20789 };
 
   /// @brief Field _fadeShader, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____fadeShader;

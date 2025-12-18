@@ -32,13 +32,13 @@ public:
   /// @brief Field _scalingVector3, offset 0xffffffff, size 0xc
   __declspec(property(get = getStaticF__scalingVector3, put = setStaticF__scalingVector3)) ::UnityEngine::Vector3 _scalingVector3;
 
-  /// @brief Method CalculateDepthCameraMatrices, addr 0x58291c4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method CalculateDepthCameraMatrices, addr 0x588f928, size 0x1b8, virtual false, abstract: false, final false
   static inline void CalculateDepthCameraMatrices(::Meta::XR::EnvironmentDepth::DepthFrameDesc frameDesc, ::ByRef<::UnityEngine::Matrix4x4> projMatrix, ::ByRef<::UnityEngine::Matrix4x4> viewMatrix);
 
-  /// @brief Method CalculateReprojection, addr 0x5827e40, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method CalculateReprojection, addr 0x588e5a4, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 CalculateReprojection(::Meta::XR::EnvironmentDepth::DepthFrameDesc frameDesc);
 
-  /// @brief Method ComputeNdcToLinearDepthParameters, addr 0x5827de4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ComputeNdcToLinearDepthParameters, addr 0x588e548, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 ComputeNdcToLinearDepthParameters(float_t near, float_t far);
 
   static inline ::UnityEngine::Vector3 getStaticF__scalingVector3();
@@ -60,7 +60,7 @@ public:
   EnvironmentDepthUtils(EnvironmentDepthUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22628 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

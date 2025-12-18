@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEditor::Analytics::AssetImportStatusAnalytic::*)()>(
     &::UnityEditor::Analytics::AssetImportStatusAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6bf13dc;
+  constexpr static std::size_t addrs = 0x6c5a260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEditor::Analytics::AssetImportStatusAnalytic*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEditor::Analytics::AssetImportStatusAnalytic* (*)()>(
     &::UnityEditor::Analytics::AssetImportStatusAnalytic::CreateAssetImportStatusAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6bf1458;
+  constexpr static std::size_t addrs = 0x6c5a2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -18,13 +18,13 @@ namespace GlobalNamespace {
 class BeatmapLevelsModel;
 }
 namespace GlobalNamespace {
+class IBeatSaberMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
 class IBeatmapLevelData;
 }
 namespace GlobalNamespace {
 class ILevelGameplaySetupData;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 struct LoadBeatmapLevelDataResult;
@@ -110,7 +110,7 @@ public:
   static ::GlobalNamespace::MultiplayerLevelLoader_MultiplayerBeatmapLoaderState const WaitingForCountdown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6427 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6421 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -136,10 +136,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x58065b4, size 0x4d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x586a290, size 0x4d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5806a8c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x586a768, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -161,7 +161,7 @@ public:
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6422 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -239,7 +239,7 @@ public:
 
   /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _startTime, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__startTime, put = __cordl_internal_set__startTime)) int64_t _startTime;
@@ -258,21 +258,21 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method ClearLoading, addr 0x58062f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ClearLoading, addr 0x5869fd4, size 0x48, virtual false, abstract: false, final false
   inline void ClearLoading();
 
-  /// @brief Method LoadBeatmapLevelDataAsync, addr 0x5806204, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelDataAsync, addr 0x5869ee0, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>* LoadBeatmapLevelDataAsync(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData);
 
-  /// @brief Method LoadLevel, addr 0x5806168, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method LoadLevel, addr 0x5869e44, size 0x9c, virtual false, abstract: false, final false
   inline void LoadLevel(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData, int64_t initialStartTime);
 
   static inline ::GlobalNamespace::MultiplayerLevelLoader* New_ctor();
 
-  /// @brief Method SetNewStartTime, addr 0x58062f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetNewStartTime, addr 0x5869fcc, size 0x8, virtual false, abstract: false, final false
   inline void SetNewStartTime(int64_t newStartTime);
 
-  /// @brief Method Tick, addr 0x5806340, size 0x270, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x586a01c, size 0x270, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::GlobalNamespace::IBeatmapLevelData* const& __cordl_internal_get__beatmapLevelData() const;
@@ -303,9 +303,9 @@ public:
 
   constexpr ::GlobalNamespace::MultiplayerLevelLoader_MultiplayerBeatmapLoaderState& __cordl_internal_get__loaderState();
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
   constexpr int64_t const& __cordl_internal_get__startTime() const;
 
@@ -337,7 +337,7 @@ public:
 
   constexpr void __cordl_internal_set__loaderState(::GlobalNamespace::MultiplayerLevelLoader_MultiplayerBeatmapLoaderState value);
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
 
   constexpr void __cordl_internal_set__startTime(int64_t value);
 
@@ -347,22 +347,22 @@ public:
 
   constexpr void __cordl_internal_set_stillDownloadingSongEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x58065b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x586a28c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_countdownFinishedEvent, addr 0x5805fe8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_countdownFinishedEvent, addr 0x5869cc4, size 0xc0, virtual false, abstract: false, final false
   inline void add_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
 
-  /// @brief Method add_stillDownloadingSongEvent, addr 0x5805e90, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_stillDownloadingSongEvent, addr 0x5869b6c, size 0xac, virtual false, abstract: false, final false
   inline void add_stillDownloadingSongEvent(::System::Action* value);
 
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_countdownFinishedEvent, addr 0x58060a8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_countdownFinishedEvent, addr 0x5869d84, size 0xc0, virtual false, abstract: false, final false
   inline void remove_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
 
-  /// @brief Method remove_stillDownloadingSongEvent, addr 0x5805f3c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_stillDownloadingSongEvent, addr 0x5869c18, size 0xac, virtual false, abstract: false, final false
   inline void remove_stillDownloadingSongEvent(::System::Action* value);
 
 protected:
@@ -380,10 +380,10 @@ public:
   MultiplayerLevelLoader(MultiplayerLevelLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6423 };
 
   /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
+  ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
   /// @brief Field _beatmapLevelsModel, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;

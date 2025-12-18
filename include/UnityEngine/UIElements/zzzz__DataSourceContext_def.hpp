@@ -29,13 +29,13 @@ public:
 
   __declspec(property(get = get_dataSourcePath)) ::Unity::Properties::PropertyPath dataSourcePath;
 
-  /// @brief Method .ctor, addr 0x6a10c80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a79b04, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* dataSource, ::ByRef<::Unity::Properties::PropertyPath> dataSourcePath);
 
-  /// @brief Method get_dataSource, addr 0x6a10c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataSource, addr 0x6a79aec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_dataSource();
 
-  /// @brief Method get_dataSourcePath, addr 0x6a10c70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_dataSourcePath, addr 0x6a79af4, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Properties::PropertyPath get_dataSourcePath();
 
   // Ctor Parameters []

@@ -46,45 +46,45 @@ public:
   /// @brief Field oids, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_oids, put = setStaticF_oids)) ::System::Collections::IDictionary* oids;
 
-  /// @brief Method GetDefaultX509Parameters, addr 0x34f638c, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultX509Parameters, addr 0x3520bd0, size 0x2a8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetDefaultX509Parameters(::StringW algorithm);
 
-  /// @brief Method GetDefaultX509Parameters, addr 0x34f6328, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultX509Parameters, addr 0x3520b6c, size 0x64, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetDefaultX509Parameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
 
-  /// @brief Method GetEncodingName, addr 0x34f79a4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingName, addr 0x35221e8, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetEncodingName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetObjectIdentifier, addr 0x34f6004, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method GetObjectIdentifier, addr 0x3520848, size 0x250, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetObjectIdentifier(::StringW mechanism);
 
-  /// @brief Method GetPssX509Parameters, addr 0x34f6634, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GetPssX509Parameters, addr 0x3520e78, size 0x21c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetPssX509Parameters(::StringW digestName);
 
-  /// @brief Method GetSigner, addr 0x34f68b4, size 0x10f0, virtual false, abstract: false, final false
+  /// @brief Method GetSigner, addr 0x35210f8, size 0x10f0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ISigner* GetSigner(::StringW algorithm);
 
-  /// @brief Method GetSigner, addr 0x34f6850, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetSigner, addr 0x3521094, size 0x64, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ISigner* GetSigner(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
 
-  /// @brief Method InitSigner, addr 0x34f7b30, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method InitSigner, addr 0x3522374, size 0x144, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ISigner* InitSigner(::StringW algorithm, bool forSigning, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                                                                  ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method InitSigner, addr 0x34f7aa4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method InitSigner, addr 0x35222e8, size 0x8c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ISigner* InitSigner(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid, bool forSigning,
                                                                  ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Security::SignerUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x34eab74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35153b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_algorithms();
 
   static inline ::System::Collections::IDictionary* getStaticF_oids();
 
-  /// @brief Method get_Algorithms, addr 0x34f6254, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithms, addr 0x3520a98, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* get_Algorithms();
 
   static inline void setStaticF_algorithms(::System::Collections::IDictionary* value);

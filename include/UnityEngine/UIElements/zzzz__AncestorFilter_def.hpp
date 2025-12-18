@@ -35,18 +35,18 @@ public:
   /// @brief Field m_HashStack, offset 0x4010, size 0x8
   __declspec(property(get = __cordl_internal_get_m_HashStack, put = __cordl_internal_set_m_HashStack)) ::System::Collections::Generic::Stack_1<int32_t>* m_HashStack;
 
-  /// @brief Method AddHash, addr 0x6b4e0c0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method AddHash, addr 0x6bb6f44, size 0xa0, virtual false, abstract: false, final false
   inline void AddHash(int32_t hash);
 
-  /// @brief Method IsCandidate, addr 0x6b4e160, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsCandidate, addr 0x6bb6fe4, size 0x58, virtual false, abstract: false, final false
   inline bool IsCandidate(::UnityEngine::UIElements::StyleComplexSelector* complexSel);
 
   static inline ::UnityEngine::UIElements::AncestorFilter* New_ctor();
 
-  /// @brief Method PopElement, addr 0x6b4e324, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method PopElement, addr 0x6bb71a8, size 0xf8, virtual false, abstract: false, final false
   inline void PopElement();
 
-  /// @brief Method PushElement, addr 0x6b4e1b8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method PushElement, addr 0x6bb703c, size 0x16c, virtual false, abstract: false, final false
   inline void PushElement(::UnityEngine::UIElements::VisualElement* element);
 
   constexpr ::UnityEngine::UIElements::CountingBloomFilter const& __cordl_internal_get_m_CountingBloomFilter() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_m_HashStack(::System::Collections::Generic::Stack_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x6b4e048, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb6ecc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

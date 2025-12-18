@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::OculusStudios::Platform::Oculus::OculusPlatformResponseException::*)()>(
     &::OculusStudios::Platform::Oculus::OculusPlatformResponseException::get_message)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d1f79c;
+  constexpr static std::size_t addrs = 0x5d8627c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::Platform::Oculus::OculusPlatformResponseException::*)(::Oculus::Platform::Models::Error*)>(
     &::OculusStudios::Platform::Oculus::OculusPlatformResponseException::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5d1f7b4;
+  constexpr static std::size_t addrs = 0x5d86294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::Platform::Oculus::OculusPlatformResponseException::*)(
     ::StringW, ::Oculus::Platform::Models::Error*)>(&::OculusStudios::Platform::Oculus::OculusPlatformResponseException::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5d1d198;
+  constexpr static std::size_t addrs = 0x5d83c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::StringW (*)(::StringW, ::Oculus::Platform::Models::Error*, ::ByRef<::OculusStudios::Platform::Oculus::OculusPlatformResponseErrorCode>, ::ByRef<::System::Net::HttpStatusCode>)>(
         &::OculusStudios::Platform::Oculus::OculusPlatformResponseException::ParseMessage)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x5d1f84c;
+  constexpr static std::size_t addrs = 0x5d8632c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

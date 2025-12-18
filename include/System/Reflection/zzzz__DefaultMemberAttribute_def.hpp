@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__MemberName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5967328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59cdc74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW memberName);
 
-  /// @brief Method get_MemberName, addr 0x5967330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberName, addr 0x59cdc7c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
 protected:

@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_m_EnumValueAsString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x653a744, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a22d0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* enumType);
 
-  /// @brief Method get_value, addr 0x653a5fc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x65a2188, size 0x118, virtual false, abstract: false, final false
   inline ::System::Enum* get_value();
 
-  /// @brief Method set_value, addr 0x653a714, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x65a22a0, size 0x30, virtual false, abstract: false, final false
   inline void set_value(::System::Enum* value);
 
 protected:
@@ -71,7 +71,7 @@ public:
   SerializableEnum(SerializableEnum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11911 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11915 };
 
   /// @brief Field m_EnumValueAsString, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_EnumValueAsString;

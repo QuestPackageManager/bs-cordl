@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OculusStudios::Platform::Core::IRichPresenceDefinition* (
     ::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::*)()>(&::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::get_definition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d1947c;
+  constexpr static std::size_t addrs = 0x5d7ff5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::*)()>(
     &::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::get_state)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d19484;
+  constexpr static std::size_t addrs = 0x5d7ff64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::OculusStudios::Platform::Core::PartyInfo> (
     ::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::*)()>(&::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::get_partyInfo)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d1948c;
+  constexpr static std::size_t addrs = 0x5d7ff6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::OculusStudios::Platform::Core::RichPresenceTimestamp> (
     ::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::*)()>(&::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::get_timestamp)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5d19498;
+  constexpr static std::size_t addrs = 0x5d7ff78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW, ::System::Nullable_1<::OculusStudios::Platform::Core::PartyInfo>,
     ::System::Nullable_1<::OculusStudios::Platform::Core::RichPresenceTimestamp>)>(&::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d194ac;
+  constexpr static std::size_t addrs = 0x5d7ff8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

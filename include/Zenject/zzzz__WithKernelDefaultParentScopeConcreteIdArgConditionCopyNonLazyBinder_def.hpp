@@ -29,13 +29,13 @@ public:
   // Declarations
   static inline ::Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithKernel, addr 0x6c2aedc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithKernel, addr 0x6c93d60, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
 
   /// @brief Method WithKernel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKernel> inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
 
-  /// @brief Method .ctor, addr 0x6c282f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c91174, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -53,7 +53,7 @@ public:
   WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder(WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14267 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

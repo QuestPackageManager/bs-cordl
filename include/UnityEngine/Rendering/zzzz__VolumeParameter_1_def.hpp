@@ -116,7 +116,7 @@ public:
   VolumeParameter_1(VolumeParameter_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12306 };
 
   /// @brief Field m_Value, offset: 0x18, size: 0x8, def value: None
   T ___m_Value;

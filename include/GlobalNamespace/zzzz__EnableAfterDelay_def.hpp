@@ -64,21 +64,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x563c5c0, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x56a13d4, size 0xa4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::EnableAfterDelay__Start_d__1* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x563c664, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x56a1478, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x563c66c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x56a1480, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x563c6a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x56a14b8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x563c5bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x56a13d0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::EnableAfterDelay> value);
 
-  /// @brief Method .ctor, addr 0x563c5b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56a13c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -126,7 +126,7 @@ public:
   EnableAfterDelay__Start_d__1(EnableAfterDelay__Start_d__1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20256 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -163,7 +163,7 @@ public:
 
   static inline ::GlobalNamespace::EnableAfterDelay* New_ctor();
 
-  /// @brief Method Start, addr 0x563c55c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x56a1370, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   constexpr ::UnityW<::UnityEngine::MonoBehaviour> const& __cordl_internal_get__component() const;
@@ -172,7 +172,7 @@ public:
 
   constexpr void __cordl_internal_set__component(::UnityW<::UnityEngine::MonoBehaviour> value);
 
-  /// @brief Method .ctor, addr 0x563c5b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56a13cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -190,7 +190,7 @@ public:
   EnableAfterDelay(EnableAfterDelay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20257 };
 
   /// @brief Field _component, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MonoBehaviour> ____component;

@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set_rpnTokens(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x6849dbc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b1934, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW expression);
 
 protected:
@@ -114,7 +114,7 @@ public:
   ExpressionEvaluator_Expression(ExpressionEvaluator_Expression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10084 };
 
   /// @brief Field rpnTokens, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___rpnTokens;
@@ -139,19 +139,19 @@ namespace UnityEngine {
 struct CORDL_TYPE ExpressionEvaluator_PcgRandom {
 public:
   // Declarations
-  /// @brief Method GetUInt, addr 0x6849748, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetUInt, addr 0x68b12c0, size 0x38, virtual false, abstract: false, final false
   inline uint32_t GetUInt();
 
-  /// @brief Method RotateRight, addr 0x6849e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RotateRight, addr 0x68b19e8, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t RotateRight(uint32_t v, int32_t rot);
 
-  /// @brief Method Step, addr 0x6849e38, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Step, addr 0x68b19b0, size 0x20, virtual false, abstract: false, final false
   inline void Step();
 
-  /// @brief Method XshRr, addr 0x6849e58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method XshRr, addr 0x68b19d0, size 0x18, virtual false, abstract: false, final false
   static inline uint32_t XshRr(uint64_t s);
 
-  /// @brief Method .ctor, addr 0x6849d88, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b1900, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(uint64_t state, uint64_t sequence);
 
   // Ctor Parameters []
@@ -162,7 +162,7 @@ public:
   constexpr ExpressionEvaluator_PcgRandom(uint64_t increment, uint64_t state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10081 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10085 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -278,7 +278,7 @@ public:
   static ::UnityEngine::ExpressionEvaluator_Op const Tan;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10086 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -333,7 +333,7 @@ public:
   static ::UnityEngine::ExpressionEvaluator_Associativity const Right;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10087 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -395,7 +395,7 @@ public:
 
   constexpr void __cordl_internal_set_precedence(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6849db0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b1928, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ExpressionEvaluator_Op op, int32_t precedence, int32_t inputs, ::UnityEngine::ExpressionEvaluator_Associativity associativity);
 
 protected:
@@ -413,7 +413,7 @@ public:
   ExpressionEvaluator_Operator(ExpressionEvaluator_Operator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10088 };
 
   /// @brief Field op, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::ExpressionEvaluator_Op ___op;
@@ -456,10 +456,10 @@ public:
 
   static inline ::UnityEngine::ExpressionEvaluator___c* New_ctor();
 
-  /// @brief Method <ExpressionToTokens>b__14_0, addr 0x6849ed0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <ExpressionToTokens>b__14_0, addr 0x68b1a48, size 0x84, virtual false, abstract: false, final false
   inline bool _ExpressionToTokens_b__14_0(::StringW f);
 
-  /// @brief Method .ctor, addr 0x6849ecc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b1a44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ExpressionEvaluator___c* getStaticF___9();
@@ -485,7 +485,7 @@ public:
   ExpressionEvaluator___c(ExpressionEvaluator___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10089 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -521,43 +521,43 @@ public:
   /// @brief Method Evaluate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool Evaluate(::StringW expression, ::ByRef<T> value, ::ByRef<::UnityEngine::ExpressionEvaluator_Expression*> delayed);
 
-  /// @brief Method EvaluateDouble, addr 0x6847f88, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method EvaluateDouble, addr 0x68afb00, size 0x530, virtual false, abstract: false, final false
   static inline bool EvaluateDouble(::ArrayW<::StringW, ::Array<::StringW>*> tokens, ::ByRef<double_t> value, int32_t index, int32_t count);
 
-  /// @brief Method EvaluateOp, addr 0x684869c, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method EvaluateOp, addr 0x68b0214, size 0x338, virtual false, abstract: false, final false
   static inline double_t EvaluateOp(::ArrayW<double_t, ::Array<double_t>*> values, ::UnityEngine::ExpressionEvaluator_Op op, int32_t index, int32_t count);
 
   /// @brief Method EvaluateTokens, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool EvaluateTokens(::ArrayW<::StringW, ::Array<::StringW>*> tokens, ::ByRef<T> value, int32_t index, int32_t count);
 
-  /// @brief Method ExpressionToTokens, addr 0x6848fc8, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method ExpressionToTokens, addr 0x68b0b40, size 0x44c, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> ExpressionToTokens(::StringW expression, ::ByRef<bool> hasVariables);
 
-  /// @brief Method FixUnaryOperators, addr 0x68495dc, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method FixUnaryOperators, addr 0x68b1154, size 0x16c, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> FixUnaryOperators(::ArrayW<::StringW, ::Array<::StringW>*> tokens);
 
-  /// @brief Method InfixToRPN, addr 0x6848a20, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method InfixToRPN, addr 0x68b0598, size 0x434, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> InfixToRPN(::ArrayW<::StringW, ::Array<::StringW>*> tokens);
 
-  /// @brief Method IsCommand, addr 0x6848600, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method IsCommand, addr 0x68b0178, size 0x9c, virtual false, abstract: false, final false
   static inline bool IsCommand(::StringW token);
 
-  /// @brief Method IsDelayedFunction, addr 0x6848e54, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsDelayedFunction, addr 0x68b09cc, size 0x70, virtual false, abstract: false, final false
   static inline bool IsDelayedFunction(::StringW token);
 
-  /// @brief Method IsOperator, addr 0x68484b8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IsOperator, addr 0x68b0030, size 0xa0, virtual false, abstract: false, final false
   static inline bool IsOperator(::StringW token);
 
-  /// @brief Method IsVariable, addr 0x68489d4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsVariable, addr 0x68b054c, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsVariable(::StringW token);
 
-  /// @brief Method NeedToPop, addr 0x6848ec4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method NeedToPop, addr 0x68b0a3c, size 0x104, virtual false, abstract: false, final false
   static inline bool NeedToPop(::System::Collections::Generic::Stack_1<::StringW>* operatorStack, ::UnityEngine::ExpressionEvaluator_Operator* newOperator);
 
-  /// @brief Method PreFormatExpression, addr 0x6849414, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method PreFormatExpression, addr 0x68b0f8c, size 0x1c8, virtual false, abstract: false, final false
   static inline ::StringW PreFormatExpression(::StringW expression);
 
-  /// @brief Method TokenToOperator, addr 0x6848558, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method TokenToOperator, addr 0x68b00d0, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ExpressionEvaluator_Operator* TokenToOperator(::StringW token);
 
   /// @brief Method TryParse, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -586,7 +586,7 @@ public:
   ExpressionEvaluator(ExpressionEvaluator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10090 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

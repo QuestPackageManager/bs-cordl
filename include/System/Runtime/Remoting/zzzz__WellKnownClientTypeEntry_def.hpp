@@ -39,7 +39,7 @@ public:
 
   static inline ::System::Runtime::Remoting::WellKnownClientTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl);
 
-  /// @brief Method ToString, addr 0x591a680, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5980fcc, size 0x24, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_app_url() const;
@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_obj_url(::StringW value);
 
-  /// @brief Method .ctor, addr 0x591a580, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5980ecc, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl);
 
-  /// @brief Method get_ApplicationUrl, addr 0x591a668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ApplicationUrl, addr 0x5980fb4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ApplicationUrl();
 
-  /// @brief Method get_ObjectType, addr 0x591a670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x5980fbc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method get_ObjectUrl, addr 0x591a678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectUrl, addr 0x5980fc4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ObjectUrl();
 
 protected:

@@ -85,11 +85,11 @@ public:
 
   constexpr void __cordl_internal_set_oldValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0x60a2d80, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x610a90c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue, ::StringW newValue,
                     ::System::Xml::XmlNodeChangedAction action);
 
-  /// @brief Method get_Action, addr 0x60abfbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Action, addr 0x6113b48, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNodeChangedAction get_Action();
 
 protected:
@@ -107,7 +107,7 @@ public:
   XmlNodeChangedEventArgs(XmlNodeChangedEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9375 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9379 };
 
   /// @brief Field action, offset: 0x10, size: 0x4, def value: None
   ::System::Xml::XmlNodeChangedAction ___action;

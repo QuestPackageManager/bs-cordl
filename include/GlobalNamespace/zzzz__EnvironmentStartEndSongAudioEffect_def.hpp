@@ -86,27 +86,27 @@ public:
                       put = __cordl_internal_set__songStartAudioClips)) ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*>
       _songStartAudioClips;
 
-  /// @brief Method HandleGamePauseDidPause, addr 0x56abc88, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseDidPause, addr 0x570c93c, size 0x24, virtual false, abstract: false, final false
   inline void HandleGamePauseDidPause();
 
-  /// @brief Method HandleGamePauseDidResume, addr 0x56abc64, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseDidResume, addr 0x570c918, size 0x24, virtual false, abstract: false, final false
   inline void HandleGamePauseDidResume();
 
-  /// @brief Method HandleLevelFailed, addr 0x56abba8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFailed, addr 0x570c85c, size 0xbc, virtual false, abstract: false, final false
   inline void HandleLevelFailed();
 
-  /// @brief Method LevelWillFinishWithinAheadTime, addr 0x56abb24, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LevelWillFinishWithinAheadTime, addr 0x570c7d8, size 0x84, virtual false, abstract: false, final false
   inline void LevelWillFinishWithinAheadTime();
 
   static inline ::GlobalNamespace::EnvironmentStartEndSongAudioEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x56ab58c, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x570c240, size 0x2c8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x56ab0a0, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x570bd54, size 0x4ec, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x56ab854, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x570c508, size 0x2d0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::EnvironmentAudioEffectsPlayer> const& __cordl_internal_get__audioEffectsPlayer() const;
@@ -199,7 +199,7 @@ public:
 
   constexpr void __cordl_internal_set__songStartAudioClips(::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> value);
 
-  /// @brief Method .ctor, addr 0x56abcac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x570c960, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

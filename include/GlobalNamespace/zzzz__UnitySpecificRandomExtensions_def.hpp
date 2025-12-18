@@ -24,10 +24,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE UnitySpecificRandomExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InsideUnitSphere, addr 0x31fd05c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method InsideUnitSphere, addr 0x322da88, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 InsideUnitSphere(::GlobalNamespace::IRandom* random);
 
-  /// @brief Method OnUnitSphere, addr 0x31fd0f0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method OnUnitSphere, addr 0x322db1c, size 0x15c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 OnUnitSphere(::GlobalNamespace::IRandom* random);
 
 protected:
@@ -45,7 +45,7 @@ public:
   UnitySpecificRandomExtensions(UnitySpecificRandomExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20707 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

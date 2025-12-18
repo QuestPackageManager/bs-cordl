@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::HierarchyIcons::HierarchyIconAttribute::*)(
     ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(&::OculusStudios::HierarchyIcons::HierarchyIconAttribute::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5d18bb0;
+  constexpr static std::size_t addrs = 0x5d7f690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::HierarchyIcons::HierarchyIconAttribute::*)(
     ::StringW, ::OculusStudios::HierarchyIcons::Icon, ::StringW, ::StringW, ::OculusStudios::HierarchyIcons::Icon, ::StringW)>(&::OculusStudios::HierarchyIcons::HierarchyIconAttribute::_ctor)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5d18c84;
+  constexpr static std::size_t addrs = 0x5d7f764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

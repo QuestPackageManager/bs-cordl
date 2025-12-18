@@ -76,7 +76,7 @@ public:
   /// @brief Field VariantsWarmupTimeTotal, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get_VariantsWarmupTimeTotal, put = __cordl_internal_set_VariantsWarmupTimeTotal)) int32_t VariantsWarmupTimeTotal;
 
-  /// @brief Method CreateShaderRuntimeInfoAnalytic, addr 0x68d3b78, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateShaderRuntimeInfoAnalytic, addr 0x693c9fc, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Analytics::ShaderRuntimeInfoAnalytic* CreateShaderRuntimeInfoAnalytic();
 
   static inline ::UnityEngine::Analytics::ShaderRuntimeInfoAnalytic* New_ctor();
@@ -195,7 +195,7 @@ public:
 
   constexpr void __cordl_internal_set_VariantsWarmupTimeTotal(int32_t value);
 
-  /// @brief Method .ctor, addr 0x68d3ae4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x693c968, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -213,7 +213,7 @@ public:
   ShaderRuntimeInfoAnalytic(ShaderRuntimeInfoAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10674 };
 
   /// @brief Field VariantsRequested, offset: 0x30, size: 0x8, def value: None
   int64_t ___VariantsRequested;

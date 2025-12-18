@@ -52,7 +52,7 @@ public:
   /// @brief Field order, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_order, put = __cordl_internal_set_order)) int32_t order;
 
-  /// @brief Method AddKeyHash, addr 0x60d6190, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x613dd1c, size 0x138, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   constexpr ::StringW const& __cordl_internal_get_elementName() const;
@@ -85,19 +85,19 @@ public:
 
   constexpr void __cordl_internal_set_order(int32_t value);
 
-  /// @brief Method get_ElementName, addr 0x60d6150, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_ElementName, addr 0x613dcdc, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_ElementName();
 
-  /// @brief Method get_Form, addr 0x60d6170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Form, addr 0x613dcfc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaForm get_Form();
 
-  /// @brief Method get_IsNullable, addr 0x60d6178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x613dd04, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_Namespace, addr 0x60d6180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x613dd0c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_Order, addr 0x60d6188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x613dd14, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
 protected:
@@ -115,7 +115,7 @@ public:
   XmlArrayAttribute(XmlArrayAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9473 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9477 };
 
   /// @brief Field elementName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___elementName;

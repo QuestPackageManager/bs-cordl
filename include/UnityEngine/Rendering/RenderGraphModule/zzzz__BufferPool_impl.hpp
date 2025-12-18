@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::BufferPool::*)(::UnityEngine::GraphicsBuffer*)>(
     &::UnityEngine::Rendering::RenderGraphModule::BufferPool::ReleaseInternalResource)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65c5de0;
+  constexpr static std::size_t addrs = 0x662d96c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::BufferPool::*)(::ByRef<::UnityEngine::GraphicsBuffer*>)>(
     &::UnityEngine::Rendering::RenderGraphModule::BufferPool::GetResourceName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x65c5df4;
+  constexpr static std::size_t addrs = 0x662d980;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::Rendering::RenderGraphModule::BufferPool::*)(::ByRef<::UnityEngine::GraphicsBuffer*>)>(
     &::UnityEngine::Rendering::RenderGraphModule::BufferPool::GetResourceSize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x65c5e38;
+  constexpr static std::size_t addrs = 0x662d9c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::BufferPool::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::BufferPool::GetResourceTypeName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x65c5e7c;
+  constexpr static std::size_t addrs = 0x662da08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::BufferPool::*)(::UnityEngine::GraphicsBuffer*)>(
     &::UnityEngine::Rendering::RenderGraphModule::BufferPool::GetSortIndex)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65c5ec0;
+  constexpr static std::size_t addrs = 0x662da4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::BufferPool::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::BufferPool::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x65c5ee0;
+  constexpr static std::size_t addrs = 0x662da6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::BufferPool*>::get(),

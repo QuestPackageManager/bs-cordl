@@ -89,19 +89,19 @@ public:
 
   constexpr void __cordl_internal_set__ownershipRequirement(::OculusStudios::Platform::Core::OwnershipRequirement value);
 
-  /// @brief Method .ctor, addr 0x5d193d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7feb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_children, addr 0x5d193c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_children, addr 0x5d7fea4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::OculusStudios::Platform::Core::IProductDefinition*>* get_children();
 
-  /// @brief Method get_id, addr 0x5d193b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x5d7fe94, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_id();
 
-  /// @brief Method get_idForVendor, addr 0x5d193bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_idForVendor, addr 0x5d7fe9c, size 0x8, virtual true, abstract: false, final true
   inline ::AYellowpaper::SerializedCollections::SerializedDictionary_2<::OculusStudios::Platform::Core::Vendor, ::StringW>* get_idForVendor();
 
-  /// @brief Method get_ownershipRequirement, addr 0x5d193cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ownershipRequirement, addr 0x5d7feac, size 0x8, virtual true, abstract: false, final true
   inline ::OculusStudios::Platform::Core::OwnershipRequirement get_ownershipRequirement();
 
   /// @brief Convert to "::OculusStudios::Platform::Core::IProductDefinition"
@@ -122,7 +122,7 @@ public:
   ProductDefinitionSO(ProductDefinitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22170 };
 
   /// @brief Field _id, offset: 0x18, size: 0x8, def value: None
   ::StringW ____id;

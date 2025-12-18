@@ -38,18 +38,18 @@ public:
   /// @brief Field mStatusType, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_mStatusType, put = __cordl_internal_set_mStatusType)) uint8_t mStatusType;
 
-  /// @brief Method Encode, addr 0x3314d74, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x333f5b8, size 0x120, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method GetOcspStatusRequest, addr 0x3314ca0, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetOcspStatusRequest, addr 0x333f4e4, size 0xd4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* GetOcspStatusRequest();
 
-  /// @brief Method IsCorrectType, addr 0x3314ba0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method IsCorrectType, addr 0x333f3e4, size 0xf0, virtual false, abstract: false, final false
   static inline bool IsCorrectType(uint8_t statusType, ::System::Object* request);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest* New_ctor(uint8_t statusType, ::System::Object* request);
 
-  /// @brief Method Parse, addr 0x3314e94, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x333f6d8, size 0xec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest* Parse(::System::IO::Stream* input);
 
   constexpr ::System::Object* const& __cordl_internal_get_mRequest() const;
@@ -64,13 +64,13 @@ public:
 
   constexpr void __cordl_internal_set_mStatusType(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x3314b0c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x333f350, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(uint8_t statusType, ::System::Object* request);
 
-  /// @brief Method get_Request, addr 0x3314c98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Request, addr 0x333f4dc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Request();
 
-  /// @brief Method get_StatusType, addr 0x3314c90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StatusType, addr 0x333f4d4, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_StatusType();
 
 protected:

@@ -58,7 +58,7 @@ public:
   UnsafeRingQueueDebugView_1(UnsafeRingQueueDebugView_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15770 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15784 };
 
   /// @brief Field Data, offset: 0x10, size: 0x20, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeRingQueue_1<T> ___Data;

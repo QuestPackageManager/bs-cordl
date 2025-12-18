@@ -60,14 +60,14 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE GPUInstanceDataBuffer_ReadOnly {
 public:
   // Declarations
-  /// @brief Method CPUInstanceArrayToGPUInstanceArray, addr 0x6602074, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CPUInstanceArrayToGPUInstanceArray, addr 0x6669c00, size 0xc8, virtual false, abstract: false, final false
   inline void CPUInstanceArrayToGPUInstanceArray(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                                  ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> gpuInstanceIndices);
 
-  /// @brief Method CPUInstanceToGPUInstance, addr 0x660206c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CPUInstanceToGPUInstance, addr 0x6669bf8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::GPUInstanceIndex CPUInstanceToGPUInstance(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method .ctor, addr 0x6602050, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6669bdc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::GPUInstanceDataBuffer* buffer);
 
   // Ctor Parameters []
@@ -78,7 +78,7 @@ public:
   constexpr GPUInstanceDataBuffer_ReadOnly(::Unity::Collections::NativeArray_1<int32_t> instancesNumPrefixSum) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17632 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17646 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -104,7 +104,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x660213c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6669cc8, size 0x30, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -122,7 +122,7 @@ public:
                                                                        ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> gpuInstanceIndices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17647 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -224,38 +224,38 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AsReadOnly, addr 0x6602038, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method AsReadOnly, addr 0x6669bc4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::GPUInstanceDataBuffer_ReadOnly AsReadOnly();
 
-  /// @brief Method CPUInstanceArrayToGPUInstanceArray, addr 0x6601dbc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CPUInstanceArrayToGPUInstanceArray, addr 0x6669948, size 0xc8, virtual false, abstract: false, final false
   inline void CPUInstanceArrayToGPUInstanceArray(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                                  ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> gpuInstanceIndices);
 
-  /// @brief Method CPUInstanceToGPUInstance, addr 0x6601c60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CPUInstanceToGPUInstance, addr 0x66697ec, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::GPUInstanceIndex CPUInstanceToGPUInstance(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method CPUInstanceToGPUInstance, addr 0x6601968, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CPUInstanceToGPUInstance, addr 0x66694f4, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUInstanceIndex CPUInstanceToGPUInstance(::ByRef<::Unity::Collections::NativeArray_1<int32_t>> instancesNumPrefixSum,
                                                                                     ::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method Dispose, addr 0x6601e84, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6669a10, size 0x1b4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GPUInstanceToCPUInstance, addr 0x6601c6c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GPUInstanceToCPUInstance, addr 0x66697f8, size 0xec, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::InstanceHandle GPUInstanceToCPUInstance(::UnityEngine::Rendering::GPUInstanceIndex gpuInstanceIndex);
 
-  /// @brief Method GetGpuAddress, addr 0x6601c38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetGpuAddress, addr 0x66697c4, size 0x28, virtual false, abstract: false, final false
   inline int32_t GetGpuAddress(int32_t propertyID, bool assertOnFail);
 
-  /// @brief Method GetGpuAddress, addr 0x6601bfc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetGpuAddress, addr 0x6669788, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetGpuAddress(::StringW strName, bool assertOnFail);
 
-  /// @brief Method GetPropertyIndex, addr 0x6601b88, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyIndex, addr 0x6669714, size 0x74, virtual false, abstract: false, final false
   inline int32_t GetPropertyIndex(int32_t propertyID, bool assertOnFail);
 
   static inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* New_ctor();
 
-  /// @brief Method NextVersion, addr 0x66018c8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method NextVersion, addr 0x6669454, size 0x54, virtual false, abstract: false, final false
   static inline int32_t NextVersion();
 
   constexpr int32_t const& __cordl_internal_get_byteSize() const;
@@ -354,12 +354,12 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6602068, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6669bf4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_s_NextLayoutVersion();
 
-  /// @brief Method get_valid, addr 0x660191c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x66694a8, size 0x4c, virtual false, abstract: false, final false
   inline bool get_valid();
 
   /// @brief Convert to "::System::IDisposable"
@@ -382,7 +382,7 @@ public:
   GPUInstanceDataBuffer(GPUInstanceDataBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17648 };
 
   /// @brief Field instanceNumInfo, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::InstanceNumInfo ___instanceNumInfo;

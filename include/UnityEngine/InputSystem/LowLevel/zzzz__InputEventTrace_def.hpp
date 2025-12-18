@@ -140,18 +140,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6395d38, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x63fd8c4, size 0xc, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x6395d44, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x63fd8d0, size 0xc4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace_Enumerator* New_ctor(::UnityEngine::InputSystem::LowLevel::InputEventTrace* trace);
 
-  /// @brief Method Reset, addr 0x6395e08, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x63fd994, size 0x20, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6395e30, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x63fd9bc, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr int32_t const& __cordl_internal_get_m_ChangeCounter() const;
@@ -172,10 +172,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Trace(::UnityEngine::InputSystem::LowLevel::InputEventTrace* value);
 
-  /// @brief Method .ctor, addr 0x6395570, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63fd0fc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::LowLevel::InputEventTrace* trace);
 
-  /// @brief Method get_Current, addr 0x6395e28, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x63fd9b4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
@@ -203,7 +203,7 @@ public:
   InputEventTrace_Enumerator(InputEventTrace_Enumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9006 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9010 };
 
   /// @brief Field m_Trace, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::LowLevel::InputEventTrace* ___m_Trace;
@@ -261,7 +261,7 @@ public:
   static ::UnityEngine::InputSystem::LowLevel::InputEventTrace_FileFlags const FixedUpdate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9007 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9011 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -292,10 +292,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::LowLevel::ReplayController_InputEventTrace___c* New_ctor();
 
-  /// @brief Method <PlayAllEventsAccordingToTimestamps>b__38_0, addr 0x6397550, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <PlayAllEventsAccordingToTimestamps>b__38_0, addr 0x63ff0dc, size 0x108, virtual false, abstract: false, final false
   inline int32_t _PlayAllEventsAccordingToTimestamps_b__38_0(::UnityEngine::InputSystem::LowLevel::InputEventPtr a, ::UnityEngine::InputSystem::LowLevel::InputEventPtr b);
 
-  /// @brief Method .ctor, addr 0x639754c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63ff0d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::LowLevel::ReplayController_InputEventTrace___c* getStaticF___9();
@@ -321,7 +321,7 @@ public:
   ReplayController_InputEventTrace___c(ReplayController_InputEventTrace___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9012 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -341,7 +341,7 @@ public:
 
   static inline ::UnityEngine::InputSystem::LowLevel::ReplayController_InputEventTrace___c__DisplayClass43_0* New_ctor();
 
-  /// @brief Method <ApplyDeviceMapping>b__0, addr 0x6397658, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <ApplyDeviceMapping>b__0, addr 0x63ff1e4, size 0x14, virtual false, abstract: false, final false
   inline bool _ApplyDeviceMapping_b__0(::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo x);
 
   constexpr int32_t const& __cordl_internal_get_originalDeviceId() const;
@@ -350,7 +350,7 @@ public:
 
   constexpr void __cordl_internal_set_originalDeviceId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x63974f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63ff080, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -368,7 +368,7 @@ public:
   ReplayController_InputEventTrace___c__DisplayClass43_0(ReplayController_InputEventTrace___c__DisplayClass43_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9013 };
 
   /// @brief Field originalDeviceId, offset: 0x10, size: 0x4, def value: None
   int32_t ___originalDeviceId;
@@ -452,55 +452,55 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ApplyDeviceMapping, addr 0x6397108, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method ApplyDeviceMapping, addr 0x63fec94, size 0x3ec, virtual false, abstract: false, final false
   inline int32_t ApplyDeviceMapping(int32_t originalDeviceId);
 
-  /// @brief Method Dispose, addr 0x6395f30, size 0x2f4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x63fdabc, size 0x2f4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finished, addr 0x6397034, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Finished, addr 0x63febc0, size 0xd4, virtual false, abstract: false, final false
   inline void Finished();
 
-  /// @brief Method MoveNext, addr 0x63964ac, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x63fe038, size 0x31c, virtual false, abstract: false, final false
   inline bool MoveNext(bool skipFrameEvents, ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr);
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* New_ctor(::UnityEngine::InputSystem::LowLevel::InputEventTrace* trace);
 
-  /// @brief Method OnBeginFrame, addr 0x6396e5c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method OnBeginFrame, addr 0x63fe9e8, size 0x1d8, virtual false, abstract: false, final false
   inline void OnBeginFrame();
 
-  /// @brief Method OnEvent, addr 0x6396420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnEvent, addr 0x63fdfac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* OnEvent(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* action);
 
-  /// @brief Method OnFinished, addr 0x6396418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnFinished, addr 0x63fdfa4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* OnFinished(::System::Action* action);
 
-  /// @brief Method PlayAllEvents, addr 0x6396ad8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method PlayAllEvents, addr 0x63fe664, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* PlayAllEvents();
 
-  /// @brief Method PlayAllEventsAccordingToTimestamps, addr 0x6396b7c, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method PlayAllEventsAccordingToTimestamps, addr 0x63fe708, size 0x2e0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* PlayAllEventsAccordingToTimestamps();
 
-  /// @brief Method PlayAllFramesOneByOne, addr 0x6396a24, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method PlayAllFramesOneByOne, addr 0x63fe5b0, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* PlayAllFramesOneByOne();
 
-  /// @brief Method PlayOneEvent, addr 0x6396428, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method PlayOneEvent, addr 0x63fdfb4, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* PlayOneEvent();
 
-  /// @brief Method QueueEvent, addr 0x63967c8, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method QueueEvent, addr 0x63fe354, size 0x244, virtual false, abstract: false, final false
   inline void QueueEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method Rewind, addr 0x6396a0c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Rewind, addr 0x63fe598, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* Rewind();
 
-  /// @brief Method WithAllDevicesMappedToNewInstances, addr 0x639640c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WithAllDevicesMappedToNewInstances, addr 0x63fdf98, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* WithAllDevicesMappedToNewInstances();
 
-  /// @brief Method WithDeviceMappedFromTo, addr 0x6396224, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method WithDeviceMappedFromTo, addr 0x63fddb0, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* WithDeviceMappedFromTo(::UnityEngine::InputSystem::InputDevice* recordedDevice,
                                                                                                         ::UnityEngine::InputSystem::InputDevice* playbackDevice);
 
-  /// @brief Method WithDeviceMappedFromTo, addr 0x63962a8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method WithDeviceMappedFromTo, addr 0x63fde34, size 0x164, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* WithDeviceMappedFromTo(int32_t recordedDeviceId, int32_t playbackDeviceId);
 
   constexpr bool const& __cordl_internal_get__finished_k__BackingField() const;
@@ -587,34 +587,34 @@ public:
 
   constexpr void __cordl_internal_set_m_StartTimeAsPerRuntime(double_t value);
 
-  /// @brief Method .ctor, addr 0x6394fbc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63fcb48, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::LowLevel::InputEventTrace* trace);
 
-  /// @brief Method get_createdDevices, addr 0x6395ec8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_createdDevices, addr 0x63fda54, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputDevice*>* get_createdDevices();
 
-  /// @brief Method get_finished, addr 0x6395e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_finished, addr 0x63fda24, size 0x8, virtual false, abstract: false, final false
   inline bool get_finished();
 
-  /// @brief Method get_paused, addr 0x6395ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_paused, addr 0x63fda34, size 0x8, virtual false, abstract: false, final false
   inline bool get_paused();
 
-  /// @brief Method get_position, addr 0x6395eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x63fda44, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_position();
 
-  /// @brief Method get_trace, addr 0x6395e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trace, addr 0x63fda1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace* get_trace();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_finished, addr 0x6395ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_finished, addr 0x63fda2c, size 0x8, virtual false, abstract: false, final false
   inline void set_finished(bool value);
 
-  /// @brief Method set_paused, addr 0x6395eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_paused, addr 0x63fda3c, size 0x8, virtual false, abstract: false, final false
   inline void set_paused(bool value);
 
-  /// @brief Method set_position, addr 0x6395ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x63fda4c, size 0x8, virtual false, abstract: false, final false
   inline void set_position(int32_t value);
 
 protected:
@@ -632,7 +632,7 @@ public:
   InputEventTrace_ReplayController(InputEventTrace_ReplayController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9010 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9014 };
 
   /// @brief Field <finished>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____finished_k__BackingField;
@@ -725,28 +725,28 @@ public:
 
   __declspec(property(get = get_stateSizeInBytes, put = set_stateSizeInBytes)) int32_t stateSizeInBytes;
 
-  /// @brief Method get_deviceId, addr 0x639766c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceId, addr 0x63ff1f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_deviceId();
 
-  /// @brief Method get_layout, addr 0x639767c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layout, addr 0x63ff208, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_layout();
 
-  /// @brief Method get_stateFormat, addr 0x639768c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stateFormat, addr 0x63ff218, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_stateFormat();
 
-  /// @brief Method get_stateSizeInBytes, addr 0x639769c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stateSizeInBytes, addr 0x63ff228, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_stateSizeInBytes();
 
-  /// @brief Method set_deviceId, addr 0x6397674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceId, addr 0x63ff200, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceId(int32_t value);
 
-  /// @brief Method set_layout, addr 0x6397684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_layout, addr 0x63ff210, size 0x8, virtual false, abstract: false, final false
   inline void set_layout(::StringW value);
 
-  /// @brief Method set_stateFormat, addr 0x6397694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stateFormat, addr 0x63ff220, size 0x8, virtual false, abstract: false, final false
   inline void set_stateFormat(::UnityEngine::InputSystem::Utilities::FourCC value);
 
-  /// @brief Method set_stateSizeInBytes, addr 0x63976a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stateSizeInBytes, addr 0x63ff230, size 0x8, virtual false, abstract: false, final false
   inline void set_stateSizeInBytes(int32_t value);
 
   // Ctor Parameters []
@@ -760,7 +760,7 @@ public:
                                        ::StringW m_FullLayoutJson) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9011 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9015 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -906,31 +906,31 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Allocate, addr 0x6395518, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x63fd0a4, size 0x50, virtual false, abstract: false, final false
   inline void Allocate();
 
-  /// @brief Method Clear, addr 0x6395324, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x63fceb0, size 0x1c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Disable, addr 0x6394e48, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x63fc9d4, size 0x174, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method Dispose, addr 0x6395590, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x63fd11c, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Enable, addr 0x6395340, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x63fcecc, size 0x1d8, virtual false, abstract: false, final false
   inline void Enable();
 
-  /// @brief Method GetEnumerator, addr 0x639421c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x63fbda8, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* GetEnumerator();
 
-  /// @brief Method GetNextEvent, addr 0x63952ac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetNextEvent, addr 0x63fce38, size 0x78, virtual false, abstract: false, final false
   inline bool GetNextEvent(::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr> current);
 
-  /// @brief Method LoadFrom, addr 0x6394b24, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method LoadFrom, addr 0x63fc6b0, size 0x1b0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace* LoadFrom(::StringW filePath);
 
-  /// @brief Method LoadFrom, addr 0x6394cd4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method LoadFrom, addr 0x63fc860, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace* LoadFrom(::System::IO::Stream* stream);
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace* New_ctor(int64_t bufferSizeInBytes, bool growBuffer, int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes);
@@ -938,34 +938,34 @@ public:
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace* New_ctor(::UnityEngine::InputSystem::InputDevice* device, int64_t bufferSizeInBytes, bool growBuffer,
                                                                                 int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes);
 
-  /// @brief Method OnBeforeUpdate, addr 0x6395610, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method OnBeforeUpdate, addr 0x63fd19c, size 0x178, virtual false, abstract: false, final false
   inline void OnBeforeUpdate();
 
-  /// @brief Method OnInputEvent, addr 0x6395788, size 0x52c, virtual false, abstract: false, final false
+  /// @brief Method OnInputEvent, addr 0x63fd314, size 0x52c, virtual false, abstract: false, final false
   inline void OnInputEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr inputEvent, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method ReadFrom, addr 0x639427c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ReadFrom, addr 0x63fbe08, size 0x180, virtual false, abstract: false, final false
   inline void ReadFrom(::StringW filePath);
 
-  /// @brief Method ReadFrom, addr 0x63943fc, size 0x710, virtual false, abstract: false, final false
+  /// @brief Method ReadFrom, addr 0x63fbf88, size 0x710, virtual false, abstract: false, final false
   inline void ReadFrom(::System::IO::Stream* stream);
 
-  /// @brief Method Release, addr 0x63955a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x63fd134, size 0x68, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method Replay, addr 0x6394de4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Replay, addr 0x63fc970, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* Replay();
 
-  /// @brief Method Resize, addr 0x6395014, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x63fcba0, size 0x290, virtual false, abstract: false, final false
   inline bool Resize(int64_t newBufferSize, int64_t newMaxBufferSize);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x639558c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x63fd118, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method WriteTo, addr 0x63939b4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x63fb540, size 0x180, virtual false, abstract: false, final false
   inline void WriteTo(::StringW filePath);
 
-  /// @brief Method WriteTo, addr 0x6393b34, size 0x6dc, virtual false, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x63fb6c0, size 0x6dc, virtual false, abstract: false, final false
   inline void WriteTo(::System::IO::Stream* stream);
 
   constexpr int32_t const& __cordl_internal_get_m_ChangeCounter() const;
@@ -1067,59 +1067,59 @@ public:
 
   constexpr void __cordl_internal_set_m_RecordFrameMarkers(bool value);
 
-  /// @brief Method .ctor, addr 0x6393978, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63fb504, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int64_t bufferSizeInBytes, bool growBuffer, int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes);
 
-  /// @brief Method .ctor, addr 0x63938e0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63fb46c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputDevice* device, int64_t bufferSizeInBytes, bool growBuffer, int64_t maxBufferSizeInBytes, int64_t growIncrementSizeInBytes);
 
-  /// @brief Method add_onEvent, addr 0x6393828, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method add_onEvent, addr 0x63fb3b4, size 0x5c, virtual false, abstract: false, final false
   inline void add_onEvent(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
   static inline int32_t getStaticF_kFileVersion();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_InputEvenTraceMarker();
 
-  /// @brief Method get_FrameMarkerEvent, addr 0x639362c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_FrameMarkerEvent, addr 0x63fb1b8, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_FrameMarkerEvent();
 
-  /// @brief Method get_allocatedSizeInBytes, addr 0x63937a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_allocatedSizeInBytes, addr 0x63fb330, size 0x18, virtual false, abstract: false, final false
   inline int64_t get_allocatedSizeInBytes();
 
-  /// @brief Method get_deviceId, addr 0x6393638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceId, addr 0x63fb1c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_deviceId();
 
-  /// @brief Method get_deviceInfos, addr 0x63937cc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_deviceInfos, addr 0x63fb358, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo> get_deviceInfos();
 
-  /// @brief Method get_enabled, addr 0x6393648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x63fb1d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method get_eventCount, addr 0x6393794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventCount, addr 0x63fb320, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_eventCount();
 
-  /// @brief Method get_kFileFormat, addr 0x6394210, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_kFileFormat, addr 0x63fbd9c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFileFormat();
 
-  /// @brief Method get_m_EventBuffer, addr 0x63937bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_m_EventBuffer, addr 0x63fb348, size 0x8, virtual false, abstract: false, final false
   inline uint8_t* get_m_EventBuffer();
 
-  /// @brief Method get_m_EventBufferHead, addr 0x63952a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_m_EventBufferHead, addr 0x63fce30, size 0x8, virtual false, abstract: false, final false
   inline uint8_t* get_m_EventBufferHead();
 
-  /// @brief Method get_m_EventBufferTail, addr 0x6395568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_m_EventBufferTail, addr 0x63fd0f4, size 0x8, virtual false, abstract: false, final false
   inline uint8_t* get_m_EventBufferTail();
 
-  /// @brief Method get_maxSizeInBytes, addr 0x63937c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxSizeInBytes, addr 0x63fb350, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_maxSizeInBytes();
 
-  /// @brief Method get_onFilterEvent, addr 0x6393818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onFilterEvent, addr 0x63fb3a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*, bool>* get_onFilterEvent();
 
-  /// @brief Method get_recordFrameMarkers, addr 0x6393650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_recordFrameMarkers, addr 0x63fb1dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_recordFrameMarkers();
 
-  /// @brief Method get_totalEventSizeInBytes, addr 0x639379c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalEventSizeInBytes, addr 0x63fb328, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_totalEventSizeInBytes();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
@@ -1132,29 +1132,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_onEvent, addr 0x6393884, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method remove_onEvent, addr 0x63fb410, size 0x5c, virtual false, abstract: false, final false
   inline void remove_onEvent(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
   static inline void setStaticF_kFileVersion(int32_t value);
 
   static inline void setStaticF_k_InputEvenTraceMarker(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_deviceId, addr 0x6393640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceId, addr 0x63fb1cc, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceId(int32_t value);
 
-  /// @brief Method set_m_EventBuffer, addr 0x6394b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_m_EventBuffer, addr 0x63fc698, size 0x8, virtual false, abstract: false, final false
   inline void set_m_EventBuffer(uint8_t* value);
 
-  /// @brief Method set_m_EventBufferHead, addr 0x6394b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_m_EventBufferHead, addr 0x63fc6a0, size 0x8, virtual false, abstract: false, final false
   inline void set_m_EventBufferHead(uint8_t* value);
 
-  /// @brief Method set_m_EventBufferTail, addr 0x6394b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_m_EventBufferTail, addr 0x63fc6a8, size 0x8, virtual false, abstract: false, final false
   inline void set_m_EventBufferTail(uint8_t* value);
 
-  /// @brief Method set_onFilterEvent, addr 0x6393820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_onFilterEvent, addr 0x63fb3ac, size 0x8, virtual false, abstract: false, final false
   inline void set_onFilterEvent(::System::Func_3<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*, bool>* value);
 
-  /// @brief Method set_recordFrameMarkers, addr 0x6393658, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method set_recordFrameMarkers, addr 0x63fb1e4, size 0x13c, virtual false, abstract: false, final false
   inline void set_recordFrameMarkers(bool value);
 
 protected:
@@ -1172,7 +1172,7 @@ public:
   InputEventTrace(InputEventTrace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9012 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9016 };
 
   /// @brief Field kDefaultBufferSize offset 0xffffffff size 0x4
   static constexpr int32_t kDefaultBufferSize{ static_cast<int32_t>(0x100000) };

@@ -24,12 +24,12 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 class CORDL_TYPE FixedPointCombMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
   // Declarations
-  /// @brief Method MultiplyPositive, addr 0x33e71b0, size 0x2ac, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x34119f4, size 0x2ac, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33e75bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3411e00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

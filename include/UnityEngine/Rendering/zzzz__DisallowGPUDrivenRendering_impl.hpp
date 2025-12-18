@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::DisallowGPUDrivenRendering::*)()>(
     &::UnityEngine::Rendering::DisallowGPUDrivenRendering::get_applyToChildrenRecursively)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65eb62c;
+  constexpr static std::size_t addrs = 0x66531b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DisallowGPUDrivenRendering*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DisallowGPUDrivenRendering::*)(bool)>(
     &::UnityEngine::Rendering::DisallowGPUDrivenRendering::set_applyToChildrenRecursively)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x65eb634;
+  constexpr static std::size_t addrs = 0x66531c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DisallowGPUDrivenRendering::*)()>(
     &::UnityEngine::Rendering::DisallowGPUDrivenRendering::OnEnable)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x65eb678;
+  constexpr static std::size_t addrs = 0x6653204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DisallowGPUDrivenRendering*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DisallowGPUDrivenRendering::*)()>(
     &::UnityEngine::Rendering::DisallowGPUDrivenRendering::OnDisable)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x65eb650;
+  constexpr static std::size_t addrs = 0x66531dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DisallowGPUDrivenRendering*>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*, bool)>(
     &::UnityEngine::Rendering::DisallowGPUDrivenRendering::AllowGPUDrivenRendering)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x65eb9d8;
+  constexpr static std::size_t addrs = 0x6653564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*, bool)>(
     &::UnityEngine::Rendering::DisallowGPUDrivenRendering::AllowGPUDrivenRenderingRecursively)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x65eb6a4;
+  constexpr static std::size_t addrs = 0x6653230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DisallowGPUDrivenRendering::*)()>(
     &::UnityEngine::Rendering::DisallowGPUDrivenRendering::OnValidate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65eba9c;
+  constexpr static std::size_t addrs = 0x6653628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DisallowGPUDrivenRendering*>::get(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DisallowGPUDrivenRendering::*)()>(
     &::UnityEngine::Rendering::DisallowGPUDrivenRendering::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65ebab4;
+  constexpr static std::size_t addrs = 0x6653640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DisallowGPUDrivenRendering*>::get(),

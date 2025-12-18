@@ -24,10 +24,10 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE AABBExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToAABB, addr 0x65eb5ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ToAABB, addr 0x6653138, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::AABB ToAABB(::UnityEngine::Bounds bounds);
 
-  /// @brief Method ToBounds, addr 0x65eb5c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToBounds, addr 0x665314c, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Bounds ToBounds(::UnityEngine::Rendering::AABB aabb);
 
 protected:
@@ -45,7 +45,7 @@ public:
   AABBExtensions(AABBExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17548 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17562 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

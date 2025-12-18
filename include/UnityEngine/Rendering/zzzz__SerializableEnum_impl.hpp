@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Enum* (::UnityEngine::Rendering::SerializableEnum::*)()>(
     &::UnityEngine::Rendering::SerializableEnum::get_value)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x653a5fc;
+  constexpr static std::size_t addrs = 0x65a2188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SerializableEnum*>::get(), "get_value",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SerializableEnum::*)(::System::Enum*)>(
     &::UnityEngine::Rendering::SerializableEnum::set_value)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x653a714;
+  constexpr static std::size_t addrs = 0x65a22a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SerializableEnum::*)(::System::Type*)>(
     &::UnityEngine::Rendering::SerializableEnum::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x653a744;
+  constexpr static std::size_t addrs = 0x65a22d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -36,20 +36,20 @@ public:
 
   static inline ::System::Data::SqlTypes::SqlTypeException* New_ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method SqlTypeExceptionSerialization, addr 0x5e7eed0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SqlTypeExceptionSerialization, addr 0x5ee6a5c, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::SerializationInfo* SqlTypeExceptionSerialization(::System::Runtime::Serialization::SerializationInfo* si,
                                                                                                    ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method .ctor, addr 0x5e7edf8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ee6984, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5e6ac60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ed27ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5e7ee5c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ee69e8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x5e7ee80, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ee6a0c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
 protected:
@@ -67,7 +67,7 @@ public:
   SqlTypeException(SqlTypeException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13877 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

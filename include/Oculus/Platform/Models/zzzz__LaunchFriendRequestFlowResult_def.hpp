@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_DidSendRequest(bool value);
 
-  /// @brief Method .ctor, addr 0x5bdb074, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c41b54, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -59,7 +59,7 @@ public:
   LaunchFriendRequestFlowResult(LaunchFriendRequestFlowResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18006 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18020 };
 
   /// @brief Field DidCancel, offset: 0x10, size: 0x1, def value: None
   bool ___DidCancel;

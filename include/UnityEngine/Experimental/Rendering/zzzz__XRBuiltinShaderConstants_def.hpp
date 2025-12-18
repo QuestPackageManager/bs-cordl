@@ -88,16 +88,16 @@ public:
   /// @brief Field unity_StereoWorldSpaceCameraPos, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_unity_StereoWorldSpaceCameraPos, put = setStaticF_unity_StereoWorldSpaceCameraPos)) int32_t unity_StereoWorldSpaceCameraPos;
 
-  /// @brief Method SetBuiltinShaderConstants, addr 0x6526774, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method SetBuiltinShaderConstants, addr 0x658e300, size 0x154, virtual false, abstract: false, final false
   static inline void SetBuiltinShaderConstants(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method SetBuiltinShaderConstants, addr 0x65268c8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetBuiltinShaderConstants, addr 0x658e454, size 0x64, virtual false, abstract: false, final false
   static inline void SetBuiltinShaderConstants(::UnityEngine::Rendering::RasterCommandBuffer* cmd);
 
-  /// @brief Method Update, addr 0x652692c, size 0x704, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x658e4b8, size 0x704, virtual false, abstract: false, final false
   static inline void Update(::UnityEngine::Experimental::Rendering::XRPass* xrPass, ::UnityEngine::Rendering::CommandBuffer* cmd, bool renderIntoTexture);
 
-  /// @brief Method UpdateBuiltinShaderConstants, addr 0x652636c, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method UpdateBuiltinShaderConstants, addr 0x658def8, size 0x408, virtual false, abstract: false, final false
   static inline void UpdateBuiltinShaderConstants(::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projMatrix, bool renderIntoTexture, int32_t viewIndex);
 
   static inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> getStaticF_s_cameraProjMatrix();
@@ -187,7 +187,7 @@ public:
   XRBuiltinShaderConstants(XRBuiltinShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11823 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11827 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

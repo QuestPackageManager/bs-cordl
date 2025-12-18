@@ -33,7 +33,7 @@ public:
   constexpr RangePositionInfo(::System::Xml::Schema::BitSet* curpos, ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> rangeCounters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9582 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

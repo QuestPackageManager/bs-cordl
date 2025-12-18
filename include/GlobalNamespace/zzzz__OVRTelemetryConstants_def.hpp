@@ -295,7 +295,7 @@ public:
   static constexpr int32_t Init{ static_cast<int32_t>(0x9b83dd9) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7712 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7716 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -340,7 +340,7 @@ public:
   static constexpr ::ConstString ProjectName{ u"ProjectName" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7713 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7717 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -391,7 +391,7 @@ public:
   static ::GlobalNamespace::OVRManager_OVRTelemetryConstants_ConsentOrigins const Settings;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7718 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -449,7 +449,7 @@ public:
   OVRTelemetryConstants_OVRManager(OVRTelemetryConstants_OVRManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7715 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7719 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -491,7 +491,7 @@ public:
   static constexpr int32_t Start{ static_cast<int32_t>(0x9b83563) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7720 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -533,7 +533,7 @@ public:
   static constexpr ::ConstString UsesProSkin{ u"UsesProSkin" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7721 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -580,7 +580,7 @@ public:
   static ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant const Required;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7722 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -624,7 +624,7 @@ public:
   OVRTelemetryConstants_Editor(OVRTelemetryConstants_Editor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7719 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7723 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -684,7 +684,7 @@ public:
   static constexpr int32_t VariantsWindowOpen{ static_cast<int32_t>(0x9b83a3c) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7724 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -744,7 +744,7 @@ public:
   static constexpr ::ConstString Version{ u"Version" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7725 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -774,7 +774,7 @@ public:
   BB_OVRTelemetryConstants_Origins(BB_OVRTelemetryConstants_Origins const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7726 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -810,7 +810,7 @@ public:
   OVRTelemetryConstants_BB(OVRTelemetryConstants_BB const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7723 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7727 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -843,7 +843,7 @@ public:
   static constexpr int32_t SetAppIdFromGuidedSetup{ static_cast<int32_t>(0x9b81f2c) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7724 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7728 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -879,7 +879,7 @@ public:
   static constexpr ::ConstString HasNewVersionAvailable{ u"new_version_available" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7729 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -913,7 +913,7 @@ public:
   OVRTelemetryConstants_GuidedSetup(OVRTelemetryConstants_GuidedSetup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7726 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7730 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -952,7 +952,7 @@ public:
   static constexpr int32_t ToggleState{ static_cast<int32_t>(0x9b815dd) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7731 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -994,7 +994,7 @@ public:
   static constexpr ::ConstString XRSimEnabled{ u"xrsimenabled" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7728 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7732 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1028,7 +1028,7 @@ public:
   OVRTelemetryConstants_XRSim(OVRTelemetryConstants_XRSim const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7729 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7733 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1070,7 +1070,7 @@ public:
   static constexpr int32_t UseOVRSceneManager{ static_cast<int32_t>(0x9b81ff1) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7730 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7734 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1124,7 +1124,7 @@ public:
   static constexpr ::ConstString UsingPrefabOverrides{ u"prefab_overrides" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7735 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1158,7 +1158,7 @@ public:
   OVRTelemetryConstants_Scene(OVRTelemetryConstants_Scene const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7736 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1191,7 +1191,7 @@ public:
   static constexpr int32_t SubmitFeedback{ static_cast<int32_t>(0x9b8190a) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7733 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7737 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1224,7 +1224,7 @@ public:
   static constexpr ::ConstString ToolName{ u"ToolName" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7738 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1258,7 +1258,7 @@ public:
   OVRTelemetryConstants_Feedback(OVRTelemetryConstants_Feedback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7739 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1291,7 +1291,7 @@ public:
   static constexpr int32_t DownloadContent{ static_cast<int32_t>(0x9b83591) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7740 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1330,7 +1330,7 @@ public:
   static constexpr ::ConstString StatusCode{ u"status_code" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7741 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1364,7 +1364,7 @@ public:
   OVRTelemetryConstants_Utils(OVRTelemetryConstants_Utils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7742 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1403,7 +1403,7 @@ public:
   static constexpr int32_t XrPluginType{ static_cast<int32_t>(0x9b83cb3) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7743 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1442,7 +1442,7 @@ public:
   static constexpr ::ConstString XrPluginType{ u"xr_plugin_type" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7744 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1493,7 +1493,7 @@ public:
   static ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_FoveatedRenderingMode const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7745 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1552,7 +1552,7 @@ public:
   static ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_FoveatedRenderingAPI const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7746 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1615,7 +1615,7 @@ public:
   static ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_DepthSubmissionMode const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7743 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7747 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1678,7 +1678,7 @@ public:
   static ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_RenderThreadingMode const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7748 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1741,7 +1741,7 @@ public:
   static ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_RenderingPath const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7749 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1800,7 +1800,7 @@ public:
   static ::GlobalNamespace::ProjectSettings_OVRTelemetryConstants_XrPlugin const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7750 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1854,7 +1854,7 @@ public:
   OVRTelemetryConstants_ProjectSettings(OVRTelemetryConstants_ProjectSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7751 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1902,7 +1902,7 @@ public:
   OVRTelemetryConstants(OVRTelemetryConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7752 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

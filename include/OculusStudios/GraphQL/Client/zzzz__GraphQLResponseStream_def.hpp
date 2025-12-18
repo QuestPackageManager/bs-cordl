@@ -52,10 +52,10 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c* New_ctor();
 
-  /// @brief Method <.ctor>b__21_0, addr 0x5d17164, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__21_0, addr 0x5d7dc44, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__21_0();
 
-  /// @brief Method .ctor, addr 0x5d17160, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7dc40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::OculusStudios::GraphQL::Client::GraphQLResponseStream___c* getStaticF___9();
@@ -81,7 +81,7 @@ public:
   GraphQLResponseStream___c(GraphQLResponseStream___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20301 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20213 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -121,27 +121,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Cancel, addr 0x5d17060, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Cancel, addr 0x5d7db40, size 0x1c, virtual false, abstract: false, final false
   inline void Cancel();
 
-  /// @brief Method Dispose, addr 0x5d17030, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5d7db10, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x5d17040, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5d7db20, size 0x20, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::OculusStudios::GraphQL::Client::GraphQLResponseStream* New_ctor();
 
-  /// @brief Method NoteConnectionClosed, addr 0x5d170ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method NoteConnectionClosed, addr 0x5d7dbcc, size 0x20, virtual false, abstract: false, final false
   inline void NoteConnectionClosed();
 
-  /// @brief Method PostResponse, addr 0x5d0fb9c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method PostResponse, addr 0x5d7667c, size 0xbc, virtual false, abstract: false, final false
   inline void PostResponse(::OculusStudios::GraphQL::Client::GraphQLResponse* response);
 
-  /// @brief Method SetResponseCallback, addr 0x5d1708c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetResponseCallback, addr 0x5d7db6c, size 0x30, virtual false, abstract: false, final false
   inline void SetResponseCallback(::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>* callback);
 
-  /// @brief Method SetResponseCallback, addr 0x5d170bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetResponseCallback, addr 0x5d7db9c, size 0x30, virtual false, abstract: false, final false
   inline void SetResponseCallback(::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*, ::System::Threading::Tasks::Task*>* callback);
 
   constexpr ::System::Action* const& __cordl_internal_get_OnCancelled() const;
@@ -174,28 +174,28 @@ public:
 
   constexpr void __cordl_internal_set__responseCallbackSync(::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>* value);
 
-  /// @brief Method .ctor, addr 0x5d0ffdc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d76abc, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_OnCancelled, addr 0x5d11d7c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_OnCancelled, addr 0x5d7885c, size 0xac, virtual false, abstract: false, final false
   inline void add_OnCancelled(::System::Action* value);
 
-  /// @brief Method add_OnConnectionClosed, addr 0x5d16ed8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_OnConnectionClosed, addr 0x5d7d9b8, size 0xac, virtual false, abstract: false, final false
   inline void add_OnConnectionClosed(::System::Action* value);
 
-  /// @brief Method get_InitialResponse, addr 0x5d1707c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InitialResponse, addr 0x5d7db5c, size 0x8, virtual false, abstract: false, final false
   inline ::OculusStudios::GraphQL::Client::GraphQLResponse* get_InitialResponse();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_OnCancelled, addr 0x5d16e2c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_OnCancelled, addr 0x5d7d90c, size 0xac, virtual false, abstract: false, final false
   inline void remove_OnCancelled(::System::Action* value);
 
-  /// @brief Method remove_OnConnectionClosed, addr 0x5d16f84, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_OnConnectionClosed, addr 0x5d7da64, size 0xac, virtual false, abstract: false, final false
   inline void remove_OnConnectionClosed(::System::Action* value);
 
-  /// @brief Method set_InitialResponse, addr 0x5d17084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InitialResponse, addr 0x5d7db64, size 0x8, virtual false, abstract: false, final false
   inline void set_InitialResponse(::OculusStudios::GraphQL::Client::GraphQLResponse* value);
 
 protected:
@@ -219,7 +219,7 @@ public:
   static constexpr ::ConstString UPDATED{ u"Updated" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20214 };
 
   /// @brief Field OnCancelled, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___OnCancelled;

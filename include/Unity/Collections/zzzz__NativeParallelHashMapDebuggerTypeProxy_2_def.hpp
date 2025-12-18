@@ -72,7 +72,7 @@ public:
   NativeParallelHashMapDebuggerTypeProxy_2(NativeParallelHashMapDebuggerTypeProxy_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15616 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15630 };
 
   /// @brief Field m_Target, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<TKey, TValue> ___m_Target;

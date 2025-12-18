@@ -144,7 +144,7 @@ public:
   /// @brief Field _normalPreset, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__normalPreset, put = __cordl_internal_set__normalPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _normalPreset;
 
-  /// @brief Method HitNote, addr 0x57708f0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HitNote, addr 0x57d7198, size 0xb8, virtual false, abstract: false, final false
   inline void HitNote(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::NoteCutHapticEffect_Type type);
 
   static inline ::GlobalNamespace::NoteCutHapticEffect* New_ctor();
@@ -203,7 +203,7 @@ public:
 
   constexpr void __cordl_internal_set__normalPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
 
-  /// @brief Method .ctor, addr 0x57709a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57d7250, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

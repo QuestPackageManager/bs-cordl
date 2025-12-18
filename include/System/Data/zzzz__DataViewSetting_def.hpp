@@ -57,10 +57,10 @@ public:
 
   static inline ::System::Data::DataViewSetting* New_ctor();
 
-  /// @brief Method SetDataTable, addr 0x5e19420, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetDataTable, addr 0x5e80fac, size 0x14, virtual false, abstract: false, final false
   inline void SetDataTable(::System::Data::DataTable* table);
 
-  /// @brief Method SetDataViewManager, addr 0x5e1940c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetDataViewManager, addr 0x5e80f98, size 0x14, virtual false, abstract: false, final false
   inline void SetDataViewManager(::System::Data::DataViewManager* dataViewManager);
 
   constexpr bool const& __cordl_internal_get__applyDefaultSort() const;
@@ -99,19 +99,19 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x5e193e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e80f70, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ApplyDefaultSort, addr 0x5e19404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ApplyDefaultSort, addr 0x5e80f90, size 0x8, virtual false, abstract: false, final false
   inline bool get_ApplyDefaultSort();
 
-  /// @brief Method get_RowFilter, addr 0x5e19434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RowFilter, addr 0x5e80fc0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_RowFilter();
 
-  /// @brief Method get_RowStateFilter, addr 0x5e1943c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RowStateFilter, addr 0x5e80fc8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataViewRowState get_RowStateFilter();
 
-  /// @brief Method get_Sort, addr 0x5e19444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Sort, addr 0x5e80fd0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Sort();
 
 protected:
@@ -129,7 +129,7 @@ public:
   DataViewSetting(DataViewSetting const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13773 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13777 };
 
   /// @brief Field _dataViewManager, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataViewManager* ____dataViewManager;

@@ -67,7 +67,7 @@ public:
   constexpr SortJobDefer_2_SegmentSort(::Unity::Collections::NativeList_1<T> DataRO, ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>* Data, U Comp, int32_t SegmentWidth) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15665 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -115,7 +115,7 @@ public:
   constexpr SortJobDefer_2_SegmentSortMerge(::Unity::Collections::NativeList_1<T> Data, U Comp, int32_t SegmentWidth) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15666 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -157,7 +157,7 @@ public:
   constexpr SortJobDefer_2(::Unity::Collections::NativeList_1<T> Data, U Comp) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15653 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15667 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

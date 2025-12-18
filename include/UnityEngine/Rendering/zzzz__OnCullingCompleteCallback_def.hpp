@@ -39,19 +39,19 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE OnCullingCompleteCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x65fcfe4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6664b70, size 0xf0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::Unity::Jobs::JobHandle jobHandle, ::ByRef<::UnityEngine::Rendering::BatchCullingContext> cullingContext,
                                              ::ByRef<::UnityEngine::Rendering::BatchCullingOutput> cullingOutput, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x65fd0d4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6664c60, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::UnityEngine::Rendering::BatchCullingContext> cullingContext, ::ByRef<::UnityEngine::Rendering::BatchCullingOutput> cullingOutput, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x65fcfd0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6664b5c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Unity::Jobs::JobHandle jobHandle, ::ByRef<::UnityEngine::Rendering::BatchCullingContext> cullingContext, ::ByRef<::UnityEngine::Rendering::BatchCullingOutput> cullingOutput);
 
   static inline ::UnityEngine::Rendering::OnCullingCompleteCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x65fcf64, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6664af0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -69,7 +69,7 @@ public:
   OnCullingCompleteCallback(OnCullingCompleteCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17631 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

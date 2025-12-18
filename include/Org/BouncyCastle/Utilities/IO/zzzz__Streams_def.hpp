@@ -25,39 +25,39 @@ namespace Org::BouncyCastle::Utilities::IO {
 class CORDL_TYPE Streams : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Drain, addr 0x3509948, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Drain, addr 0x353418c, size 0x88, virtual false, abstract: false, final false
   static inline void Drain(::System::IO::Stream* inStr);
 
   static inline ::Org::BouncyCastle::Utilities::IO::Streams* New_ctor();
 
-  /// @brief Method PipeAll, addr 0x3509a4c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method PipeAll, addr 0x3534290, size 0xe4, virtual false, abstract: false, final false
   static inline void PipeAll(::System::IO::Stream* inStr, ::System::IO::Stream* outStr);
 
-  /// @brief Method PipeAllLimited, addr 0x3509bbc, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method PipeAllLimited, addr 0x3534400, size 0x148, virtual false, abstract: false, final false
   static inline int64_t PipeAllLimited(::System::IO::Stream* inStr, int64_t limit, ::System::IO::Stream* outStr);
 
-  /// @brief Method ReadAll, addr 0x35099d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ReadAll, addr 0x3534214, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAll(::System::IO::Stream* inStr);
 
-  /// @brief Method ReadAllLimited, addr 0x3509b30, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ReadAllLimited, addr 0x3534374, size 0x8c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAllLimited(::System::IO::Stream* inStr, int32_t limit);
 
-  /// @brief Method ReadFully, addr 0x3509d04, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ReadFully, addr 0x3534548, size 0x18, virtual false, abstract: false, final false
   static inline int32_t ReadFully(::System::IO::Stream* inStr, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
-  /// @brief Method ReadFully, addr 0x3509d1c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ReadFully, addr 0x3534560, size 0x80, virtual false, abstract: false, final false
   static inline int32_t ReadFully(::System::IO::Stream* inStr, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method WriteBufTo, addr 0x3509db8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method WriteBufTo, addr 0x35345fc, size 0xb4, virtual false, abstract: false, final false
   static inline int32_t WriteBufTo(::System::IO::MemoryStream* buf, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t offset);
 
-  /// @brief Method WriteBufTo, addr 0x3509d9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WriteBufTo, addr 0x35345e0, size 0x1c, virtual false, abstract: false, final false
   static inline void WriteBufTo(::System::IO::MemoryStream* buf, ::System::IO::Stream* output);
 
-  /// @brief Method WriteZeroes, addr 0x3509e6c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method WriteZeroes, addr 0x35346b0, size 0xc8, virtual false, abstract: false, final false
   static inline void WriteZeroes(::System::IO::Stream* outStr, int64_t count);
 
-  /// @brief Method .ctor, addr 0x3509944, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3534188, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

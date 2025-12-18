@@ -71,39 +71,39 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method Awake, addr 0x5b9dc50, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5c04730, size 0x70, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Oculus::Haptics::HapticSource* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x5b9de6c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x5c0494c, size 0x10, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x5b9de68, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x5c04948, size 0x4, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method OnDestroy, addr 0x5b9de7c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5c0495c, size 0x14, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x5b9dd50, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x5c04830, size 0x14, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Play, addr 0x5b9dd18, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x5c047f8, size 0x1c, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method Play, addr 0x5b9dd34, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x5c04814, size 0x1c, virtual false, abstract: false, final false
   inline void Play(::Oculus::Haptics::Controller controller);
 
-  /// @brief Method Resume, addr 0x5b9dd64, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x5c04844, size 0x14, virtual false, abstract: false, final false
   inline void Resume();
 
-  /// @brief Method Seek, addr 0x5b9dd8c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Seek, addr 0x5c0486c, size 0x14, virtual false, abstract: false, final false
   inline void Seek(float_t time);
 
-  /// @brief Method Stop, addr 0x5b9dd78, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x5c04858, size 0x14, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method SyncSerializedFieldsToPlayer, addr 0x5b9dcc0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SyncSerializedFieldsToPlayer, addr 0x5c047a0, size 0x58, virtual false, abstract: false, final false
   inline void SyncSerializedFieldsToPlayer();
 
   constexpr float_t const& __cordl_internal_get__amplitude() const;
@@ -148,43 +148,43 @@ public:
 
   constexpr void __cordl_internal_set__priority(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x5b9de90, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c04970, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_amplitude, addr 0x5b9ddfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_amplitude, addr 0x5c048dc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_amplitude();
 
-  /// @brief Method get_clipDuration, addr 0x5b9ddb8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_clipDuration, addr 0x5c04898, size 0x14, virtual false, abstract: false, final false
   inline float_t get_clipDuration();
 
-  /// @brief Method get_frequencyShift, addr 0x5b9de20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frequencyShift, addr 0x5c04900, size 0x8, virtual false, abstract: false, final false
   inline float_t get_frequencyShift();
 
-  /// @brief Method get_loop, addr 0x5b9ddd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_loop, addr 0x5c048b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_loop();
 
-  /// @brief Method get_priority, addr 0x5b9de44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_priority, addr 0x5c04924, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_priority();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
-  /// @brief Method set_amplitude, addr 0x5b9de04, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_amplitude, addr 0x5c048e4, size 0x1c, virtual false, abstract: false, final false
   inline void set_amplitude(float_t value);
 
-  /// @brief Method set_clip, addr 0x5b9dda0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_clip, addr 0x5c04880, size 0x18, virtual false, abstract: false, final false
   inline void set_clip(::Oculus::Haptics::HapticClip* value);
 
-  /// @brief Method set_controller, addr 0x5b9ddcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_controller, addr 0x5c048ac, size 0x8, virtual false, abstract: false, final false
   inline void set_controller(::Oculus::Haptics::Controller value);
 
-  /// @brief Method set_frequencyShift, addr 0x5b9de28, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_frequencyShift, addr 0x5c04908, size 0x1c, virtual false, abstract: false, final false
   inline void set_frequencyShift(float_t value);
 
-  /// @brief Method set_loop, addr 0x5b9dddc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_loop, addr 0x5c048bc, size 0x20, virtual false, abstract: false, final false
   inline void set_loop(bool value);
 
-  /// @brief Method set_priority, addr 0x5b9de4c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_priority, addr 0x5c0492c, size 0x1c, virtual false, abstract: false, final false
   inline void set_priority(uint32_t value);
 
 protected:
@@ -202,7 +202,7 @@ public:
   HapticSource(HapticSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22441 };
 
   /// @brief Field _player, offset: 0x20, size: 0x8, def value: None
   ::Oculus::Haptics::HapticClipPlayer* ____player;

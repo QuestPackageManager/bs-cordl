@@ -48,10 +48,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3181fb4, size 0x2cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31b1de0, size 0x2cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3182280, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x31b20ac, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -70,7 +70,7 @@ public:
                                                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22750 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -110,49 +110,45 @@ public:
   // Declarations
   using _InitializeInternalAsync_d__12 = ::BeatSaber::Destinations::InitialDestinationController__InitializeInternalAsync_d__12;
 
-  /// @brief Field _defaultInitialDestination, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultInitialDestination, put = __cordl_internal_set__defaultInitialDestination)) ::BeatSaber::Destinations::Destination* _defaultInitialDestination;
-
-  /// @brief Field _initialDestinationOverride, offset 0x28, size 0x8
+  /// @brief Field _initialDestinationOverride, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__initialDestinationOverride,
                       put = __cordl_internal_set__initialDestinationOverride)) ::BeatSaber::Destinations::Destination* _initialDestinationOverride;
 
-  /// @brief Field _initialDestinationOverrideSource, offset 0x30, size 0x4
+  /// @brief Field _initialDestinationOverrideSource, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__initialDestinationOverrideSource,
                       put = __cordl_internal_set__initialDestinationOverrideSource)) ::BeatSaber::Destinations::DestinationSource _initialDestinationOverrideSource;
 
-  /// @brief Field _initialDestinationResolver, offset 0x38, size 0x8
+  /// @brief Field _initialDestinationResolver, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__initialDestinationResolver,
                       put = __cordl_internal_set__initialDestinationResolver)) ::BeatSaber::Destinations::IInitialDestinationResolver* _initialDestinationResolver;
 
-  /// @brief Field _initializationTask, offset 0x40, size 0x8
+  /// @brief Field _initializationTask, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__initializationTask, put = __cordl_internal_set__initializationTask)) ::System::Threading::Tasks::Task* _initializationTask;
 
   __declspec(property(get = get_initialDestination)) ::BeatSaber::Destinations::Destination* initialDestination;
 
-  /// @brief Method GetDestinationSourcePriority, addr 0x3181c10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Field kDefaultInitialDestination, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_kDefaultInitialDestination, put = setStaticF_kDefaultInitialDestination)) ::BeatSaber::Destinations::Destination* kDefaultInitialDestination;
+
+  /// @brief Method GetDestinationSourcePriority, addr 0x31b198c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetDestinationSourcePriority(::BeatSaber::Destinations::DestinationSource destinationSource);
 
-  /// @brief Method InitializeInternalAsync, addr 0x3181e94, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InitializeInternalAsync, addr 0x31b1c38, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeInternalAsync();
 
-  /// @brief Method InitializeScenesAsync, addr 0x3181e2c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InitializeScenesAsync, addr 0x31b1bd0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeScenesAsync();
 
   static inline ::BeatSaber::Destinations::InitialDestinationController* New_ctor();
 
-  /// @brief Method OverrideDestination, addr 0x3181c14, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method OverrideDestination, addr 0x31b1990, size 0x240, virtual false, abstract: false, final false
   inline void OverrideDestination(::BeatSaber::Destinations::DestinationSource destinationSource, ::BeatSaber::Destinations::Destination* destination);
 
-  /// @brief Method Reset, addr 0x3181fa0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x31b1d44, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetDestinationResolver, addr 0x3181f44, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetDestinationResolver, addr 0x31b1ce8, size 0x5c, virtual false, abstract: false, final false
   inline void SetDestinationResolver(::BeatSaber::Destinations::IInitialDestinationResolver* initialDestinationResolver);
-
-  constexpr ::BeatSaber::Destinations::Destination* const& __cordl_internal_get__defaultInitialDestination() const;
-
-  constexpr ::BeatSaber::Destinations::Destination*& __cordl_internal_get__defaultInitialDestination();
 
   constexpr ::BeatSaber::Destinations::Destination* const& __cordl_internal_get__initialDestinationOverride() const;
 
@@ -170,8 +166,6 @@ public:
 
   constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get__initializationTask();
 
-  constexpr void __cordl_internal_set__defaultInitialDestination(::BeatSaber::Destinations::Destination* value);
-
   constexpr void __cordl_internal_set__initialDestinationOverride(::BeatSaber::Destinations::Destination* value);
 
   constexpr void __cordl_internal_set__initialDestinationOverrideSource(::BeatSaber::Destinations::DestinationSource value);
@@ -180,11 +174,15 @@ public:
 
   constexpr void __cordl_internal_set__initializationTask(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0x3181fb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b1d54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_initialDestination, addr 0x3181bf8, size 0x18, virtual false, abstract: false, final false
+  static inline ::BeatSaber::Destinations::Destination* getStaticF_kDefaultInitialDestination();
+
+  /// @brief Method get_initialDestination, addr 0x31b1924, size 0x68, virtual false, abstract: false, final false
   inline ::BeatSaber::Destinations::Destination* get_initialDestination();
+
+  static inline void setStaticF_kDefaultInitialDestination(::BeatSaber::Destinations::Destination* value);
 
 protected:
   // Ctor Parameters []
@@ -201,37 +199,32 @@ public:
   InitialDestinationController(InitialDestinationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22751 };
 
-  /// @brief Field _defaultInitialDestination, offset: 0x20, size: 0x8, def value: None
-  ::BeatSaber::Destinations::Destination* ____defaultInitialDestination;
-
-  /// @brief Field _initialDestinationOverride, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _initialDestinationOverride, offset: 0x20, size: 0x8, def value: None
   ::BeatSaber::Destinations::Destination* ____initialDestinationOverride;
 
-  /// @brief Field _initialDestinationOverrideSource, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _initialDestinationOverrideSource, offset: 0x28, size: 0x4, def value: None
   ::BeatSaber::Destinations::DestinationSource ____initialDestinationOverrideSource;
 
-  /// @brief Field _initialDestinationResolver, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _initialDestinationResolver, offset: 0x30, size: 0x8, def value: None
   ::BeatSaber::Destinations::IInitialDestinationResolver* ____initialDestinationResolver;
 
-  /// @brief Field _initializationTask, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _initializationTask, offset: 0x38, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* ____initializationTask;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::BeatSaber::Destinations::InitialDestinationController, ____defaultInitialDestination) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Destinations::InitialDestinationController, ____initialDestinationOverride) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Destinations::InitialDestinationController, ____initialDestinationOverride) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Destinations::InitialDestinationController, ____initialDestinationOverrideSource) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Destinations::InitialDestinationController, ____initialDestinationOverrideSource) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Destinations::InitialDestinationController, ____initialDestinationResolver) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Destinations::InitialDestinationController, ____initialDestinationResolver) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Destinations::InitialDestinationController, ____initializationTask) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Destinations::InitialDestinationController, ____initializationTask) == 0x40, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Destinations::InitialDestinationController, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Destinations::InitialDestinationController, 0x40>, "Size mismatch!");
 
 } // namespace BeatSaber::Destinations
 NEED_NO_BOX(::BeatSaber::Destinations::InitialDestinationController);

@@ -40,10 +40,10 @@ public:
   /// @brief Convert operator to "::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry"
   constexpr operator ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*() noexcept;
 
-  /// @brief Method AddMonoInstaller, addr 0x31e1dbc, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method AddMonoInstaller, addr 0x3212798, size 0xb4, virtual true, abstract: false, final true
   inline void AddMonoInstaller(::Zenject::MonoInstaller* newMonoInstaller);
 
-  /// @brief Method AddScriptableObjectInstaller, addr 0x31e1e70, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method AddScriptableObjectInstaller, addr 0x321284c, size 0xb4, virtual true, abstract: false, final true
   inline void AddScriptableObjectInstaller(::Zenject::ScriptableObjectInstaller* newScriptableObjectInstaller);
 
   static inline ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* New_ctor();
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_scriptableObjectInstallers(::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
 
-  /// @brief Method .ctor, addr 0x31e1f24, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3212900, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry"
@@ -81,7 +81,7 @@ public:
   AsyncInstallerRegistry(AsyncInstallerRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21379 };
 
   /// @brief Field monoInstallers, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* ___monoInstallers;

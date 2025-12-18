@@ -36,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set__colors(::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x317f010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31aed04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colors, addr 0x317f008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colors, addr 0x31aecfc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> get_colors();
 
 protected:
@@ -57,7 +57,7 @@ public:
   SkinColorSetSO(SkinColorSetSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22057 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22084 };
 
   /// @brief Field _colors, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> ____colors;

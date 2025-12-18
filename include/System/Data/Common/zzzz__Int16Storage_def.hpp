@@ -35,45 +35,45 @@ public:
   /// @brief Field _values, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::ArrayW<int16_t, ::Array<int16_t>*> _values;
 
-  /// @brief Method Aggregate, addr 0x5e90bb4, size 0x820, virtual true, abstract: false, final false
+  /// @brief Method Aggregate, addr 0x5ef8740, size 0x820, virtual true, abstract: false, final false
   inline ::System::Object* Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind);
 
-  /// @brief Method Compare, addr 0x5e913d4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x5ef8f60, size 0x60, virtual true, abstract: false, final false
   inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CompareValueTo, addr 0x5e91434, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x5ef8fc0, size 0x98, virtual true, abstract: false, final false
   inline int32_t CompareValueTo(int32_t recordNo, ::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x5e91990, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x5ef951c, size 0xac, virtual true, abstract: false, final false
   inline ::StringW ConvertObjectToXml(::System::Object* value);
 
-  /// @brief Method ConvertValue, addr 0x5e914cc, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ConvertValue, addr 0x5ef9058, size 0x144, virtual true, abstract: false, final false
   inline ::System::Object* ConvertValue(::System::Object* value);
 
-  /// @brief Method ConvertXmlToObject, addr 0x5e91900, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x5ef948c, size 0x90, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::StringW s);
 
-  /// @brief Method Copy, addr 0x5e91610, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x5ef919c, size 0x54, virtual true, abstract: false, final false
   inline void Copy(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CopyValue, addr 0x5e91a88, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method CopyValue, addr 0x5ef9614, size 0x100, virtual true, abstract: false, final false
   inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-  /// @brief Method Get, addr 0x5e91664, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x5ef91f0, size 0x50, virtual true, abstract: false, final false
   inline ::System::Object* Get(int32_t record);
 
-  /// @brief Method GetEmptyStorage, addr 0x5e91a3c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetEmptyStorage, addr 0x5ef95c8, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Object* GetEmptyStorage(int32_t recordCount);
 
   static inline ::System::Data::Common::Int16Storage* New_ctor(::System::Data::DataColumn* column);
 
-  /// @brief Method Set, addr 0x5e916b4, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x5ef9240, size 0x18c, virtual true, abstract: false, final false
   inline void Set(int32_t record, ::System::Object* value);
 
-  /// @brief Method SetCapacity, addr 0x5e91840, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x5ef93cc, size 0xc0, virtual true, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method SetStorage, addr 0x5e91b88, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SetStorage, addr 0x5ef9714, size 0x98, virtual true, abstract: false, final false
   inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
   constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __cordl_internal_get__values() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set__values(::ArrayW<int16_t, ::Array<int16_t>*> value);
 
-  /// @brief Method .ctor, addr 0x5e89c9c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ef1828, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column);
 
 protected:
@@ -100,7 +100,7 @@ public:
   Int16Storage(Int16Storage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13897 };
 
   /// @brief Field _values, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<int16_t, ::Array<int16_t>*> ____values;

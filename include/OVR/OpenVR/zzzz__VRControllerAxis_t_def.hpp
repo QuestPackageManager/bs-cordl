@@ -27,7 +27,7 @@ public:
   constexpr VRControllerAxis_t(float_t x, float_t y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8490 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8494 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -51,27 +51,27 @@ public:
 
   __declspec(property(get = get_fadeValue)) float_t fadeValue;
 
-  /// @brief Method ImageEffectControllerCallback, addr 0x5d2d810, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ImageEffectControllerCallback, addr 0x5d95330, size 0x80, virtual false, abstract: false, final false
   inline void ImageEffectControllerCallback(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
-  /// @brief Method LazySetupImageEffectController, addr 0x5d2d5b4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method LazySetupImageEffectController, addr 0x5d950d4, size 0x160, virtual false, abstract: false, final false
   inline void LazySetupImageEffectController();
 
   static inline ::GlobalNamespace::MainEffectController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5d2d714, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5d95234, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5d2d58c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5d950ac, size 0x28, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPostRender, addr 0x5d2d9bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnPostRender, addr 0x5d954dc, size 0x30, virtual false, abstract: false, final false
   inline void OnPostRender();
 
-  /// @brief Method OnPreRender, addr 0x5d2d890, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnPreRender, addr 0x5d953b0, size 0xd0, virtual false, abstract: false, final false
   inline void OnPreRender();
 
-  /// @brief Method OnValidate, addr 0x5d2d7a0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5d952c0, size 0x70, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__fadeValue() const;
@@ -98,19 +98,19 @@ public:
 
   constexpr void __cordl_internal_set_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
-  /// @brief Method .ctor, addr 0x5d2d9ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9550c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_afterImageEffectEvent, addr 0x5d2d3b4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_afterImageEffectEvent, addr 0x5d94ed4, size 0xc0, virtual false, abstract: false, final false
   inline void add_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
-  /// @brief Method get_container, addr 0x5d2d584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_container, addr 0x5d950a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MainEffectContainerSO> get_container();
 
-  /// @brief Method get_fadeValue, addr 0x5d2d534, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_fadeValue, addr 0x5d95054, size 0x50, virtual false, abstract: false, final false
   inline float_t get_fadeValue();
 
-  /// @brief Method remove_afterImageEffectEvent, addr 0x5d2d474, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_afterImageEffectEvent, addr 0x5d94f94, size 0xc0, virtual false, abstract: false, final false
   inline void remove_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
 protected:
@@ -128,7 +128,7 @@ public:
   MainEffectController(MainEffectController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20760 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20785 };
 
   /// @brief Field _mainEffectContainer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectContainerSO> ____mainEffectContainer;

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::ImmersiveDebugger::Manager::ActionHook* (
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction::get_Action)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5842018;
+  constexpr static std::size_t addrs = 0x58a877c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction::*)(
     ::Meta::XR::ImmersiveDebugger::Manager::ActionHook*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction::set_Action)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x583ebc0;
+  constexpr static std::size_t addrs = 0x58a5324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5842020;
+  constexpr static std::size_t addrs = 0x58a8784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

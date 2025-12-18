@@ -40,31 +40,31 @@ public:
   /// @brief Field PlatformUninitializedError, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_PlatformUninitializedError, put = setStaticF_PlatformUninitializedError)) ::StringW PlatformUninitializedError;
 
-  /// @brief Method AsyncInitialize, addr 0x5bc992c, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method AsyncInitialize, addr 0x5c3040c, size 0x2d4, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>*
   AsyncInitialize(::StringW accessToken, ::System::Collections::Generic::Dictionary_2<::Oculus::Platform::InitConfigOptions, bool>* initConfigOptions, ::StringW appId);
 
-  /// @brief Method AsyncInitialize, addr 0x5bc9380, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method AsyncInitialize, addr 0x5c2fe60, size 0x32c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
 
-  /// @brief Method ForceInitialized, addr 0x5bc90b8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ForceInitialized, addr 0x5c2fb98, size 0x60, virtual false, abstract: false, final false
   static inline void ForceInitialized();
 
-  /// @brief Method GetAppIDFromConfig, addr 0x5bc92d0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetAppIDFromConfig, addr 0x5c2fdb0, size 0xb0, virtual false, abstract: false, final false
   static inline ::StringW GetAppIDFromConfig();
 
-  /// @brief Method Initialize, addr 0x5bc9cf8, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5c307d8, size 0x348, virtual false, abstract: false, final false
   static inline void Initialize(::StringW appId);
 
-  /// @brief Method IsInitialized, addr 0x5bc905c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsInitialized, addr 0x5c2fb3c, size 0x5c, virtual false, abstract: false, final false
   static inline bool IsInitialized();
 
   static inline ::Oculus::Platform::Core* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5bca1ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c30ccc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method getAppID, addr 0x5bc9118, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method getAppID, addr 0x5c2fbf8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::StringW getAppID(::StringW appId);
 
   static inline bool getStaticF_IsPlatformInitialized();
@@ -94,7 +94,7 @@ public:
   Core(Core const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17912 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -33,7 +33,7 @@ public:
   /// @brief Field s_InvalidSampler, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_InvalidSampler, put = setStaticF_s_InvalidSampler)) ::UnityEngine::Profiling::Sampler* s_InvalidSampler;
 
-  /// @brief Method GetRecorder, addr 0x68c7c34, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetRecorder, addr 0x6930ab8, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::Profiling::Recorder* GetRecorder();
 
   static inline ::UnityEngine::Profiling::Sampler* New_ctor();
@@ -46,15 +46,15 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x68c7c18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6930a9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x68c7c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6930aa0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
   static inline ::UnityEngine::Profiling::Sampler* getStaticF_s_InvalidSampler();
 
-  /// @brief Method get_isValid, addr 0x68c7c24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x6930aa8, size 0x10, virtual false, abstract: false, final false
   inline bool get_isValid();
 
   static inline void setStaticF_s_InvalidSampler(::UnityEngine::Profiling::Sampler* value);
@@ -74,7 +74,7 @@ public:
   Sampler(Sampler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10407 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

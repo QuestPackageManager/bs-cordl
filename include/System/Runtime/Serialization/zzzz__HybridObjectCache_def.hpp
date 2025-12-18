@@ -33,18 +33,18 @@ public:
   __declspec(property(get = __cordl_internal_get_referencedObjectDictionary,
                       put = __cordl_internal_set_referencedObjectDictionary)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* referencedObjectDictionary;
 
-  /// @brief Method Add, addr 0x5f3af60, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x5fa2aec, size 0x1a4, virtual false, abstract: false, final false
   inline void Add(::StringW id, ::System::Object* obj);
 
-  /// @brief Method GetObject, addr 0x5f3b17c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetObject, addr 0x5fa2d08, size 0x170, virtual false, abstract: false, final false
   inline ::System::Object* GetObject(::StringW id);
 
-  /// @brief Method IsObjectReferenced, addr 0x5f3b2ec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsObjectReferenced, addr 0x5fa2e78, size 0x78, virtual false, abstract: false, final false
   inline bool IsObjectReferenced(::StringW id);
 
   static inline ::System::Runtime::Serialization::HybridObjectCache* New_ctor();
 
-  /// @brief Method Remove, addr 0x5f3b10c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x5fa2c98, size 0x70, virtual false, abstract: false, final false
   inline void Remove(::StringW id);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* const& __cordl_internal_get_objectDictionary() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_referencedObjectDictionary(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x5f3af5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fa2ae8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,7 +77,7 @@ public:
   HybridObjectCache(HybridObjectCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17003 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17017 };
 
   /// @brief Field objectDictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* ___objectDictionary;

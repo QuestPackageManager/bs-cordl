@@ -143,7 +143,7 @@ public:
   GetterProvider_2(GetterProvider_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14516 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14520 };
 
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

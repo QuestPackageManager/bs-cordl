@@ -37,18 +37,18 @@ public:
   __declspec(property(get = __cordl_internal_get_selectionStateDidChangeEvent,
                       put = __cordl_internal_set_selectionStateDidChangeEvent)) ::System::Action_1<::HMUI::UISelectionState>* selectionStateDidChangeEvent;
 
-  /// @brief Method DoStateTransition, addr 0x5672464, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method DoStateTransition, addr 0x56d310c, size 0x64, virtual true, abstract: false, final false
   inline void DoStateTransition(::UnityEngine::UI::Selectable_SelectionState state, bool instant);
 
   static inline ::HMUI::NoTransitionsToggle* New_ctor();
 
-  /// @brief Method SetSelectionState, addr 0x56724c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetSelectionState, addr 0x56d3170, size 0x20, virtual false, abstract: false, final false
   inline void SetSelectionState(::HMUI::UISelectionState state);
 
-  /// @brief Method Start, addr 0x56723b0, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x56d3058, size 0xb4, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <Start>b__6_0, addr 0x56724f0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__6_0, addr 0x56d3198, size 0x64, virtual false, abstract: false, final false
   inline void _Start_b__6_0(bool isOn);
 
   constexpr ::HMUI::UISelectionState const& __cordl_internal_get__selectionState() const;
@@ -63,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState>* value);
 
-  /// @brief Method .ctor, addr 0x56724e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56d3190, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_selectionStateDidChangeEvent, addr 0x5672230, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_selectionStateDidChangeEvent, addr 0x56d2ed8, size 0xc0, virtual false, abstract: false, final false
   inline void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState>* value);
 
-  /// @brief Method get_selectionState, addr 0x5672228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectionState, addr 0x56d2ed0, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::UISelectionState get_selectionState();
 
-  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x56722f0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x56d2f98, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::UISelectionState>* value);
 
 protected:
@@ -90,7 +90,7 @@ public:
   NoTransitionsToggle(NoTransitionsToggle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19159 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19185 };
 
   /// @brief Field selectionStateDidChangeEvent, offset: 0x128, size: 0x8, def value: None
   ::System::Action_1<::HMUI::UISelectionState>* ___selectionStateDidChangeEvent;

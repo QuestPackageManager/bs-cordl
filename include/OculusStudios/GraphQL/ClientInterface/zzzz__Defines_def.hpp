@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::OculusStudios::GraphQL::ClientInterface::Defines* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5d1722c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7dd0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +51,7 @@ public:
   static constexpr int32_t MaxRequestTries{ static_cast<int32_t>(0x3) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22459 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

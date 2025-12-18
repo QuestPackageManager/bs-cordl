@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_xrMotionVector(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x66893d4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66f0f60, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,7 +133,7 @@ public:
   XRDepthMotionPass_PassData(XRDepthMotionPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12862 };
 
   /// @brief Field objMotionRendererList, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle ___objMotionRendererList;
@@ -173,7 +173,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass17_0* New_ctor();
 
-  /// @brief Method <Render>b__0, addr 0x668a6ec, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__0, addr 0x66f2278, size 0x150, virtual false, abstract: false, final false
   inline void _Render_b__0(::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
   constexpr ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* const& __cordl_internal_get_passData() const;
@@ -182,7 +182,7 @@ public:
 
   constexpr void __cordl_internal_set_passData(::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* value);
 
-  /// @brief Method .ctor, addr 0x668a274, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66f1e00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -200,7 +200,7 @@ public:
   XRDepthMotionPass___c__DisplayClass17_0(XRDepthMotionPass___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12863 };
 
   /// @brief Field passData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData* ___passData;
@@ -256,31 +256,31 @@ public:
   /// @brief Field xrMotionVectorDepth, offset 0xe0, size 0x10
   __declspec(property(get = __cordl_internal_get_xrMotionVectorDepth, put = __cordl_internal_set_xrMotionVectorDepth)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle xrMotionVectorDepth;
 
-  /// @brief Method Dispose, addr 0x668a5fc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x66f2188, size 0x80, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetObjectMotionDrawingSettings, addr 0x668952c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetObjectMotionDrawingSettings, addr 0x66f10b8, size 0x178, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DrawingSettings GetObjectMotionDrawingSettings(::UnityEngine::Camera* camera);
 
-  /// @brief Method ImportXRMotionColorAndDepth, addr 0x66898d8, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method ImportXRMotionColorAndDepth, addr 0x66f1464, size 0x2a4, virtual false, abstract: false, final false
   inline void ImportXRMotionColorAndDepth(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method InitObjectMotionRendererLists, addr 0x66896a4, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method InitObjectMotionRendererLists, addr 0x66f1230, size 0x1f4, virtual false, abstract: false, final false
   inline void InitObjectMotionRendererLists(::ByRef<::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*> passData, ::ByRef<::UnityEngine::Rendering::CullingResults> cullResults,
                                             ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Camera* camera);
 
-  /// @brief Method InitPassData, addr 0x6689898, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x66f1424, size 0x40, virtual false, abstract: false, final false
   inline void InitPassData(::ByRef<::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*> passData, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
   static inline ::UnityEngine::Rendering::Universal::XRDepthMotionPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* xrMotionVector);
 
-  /// @brief Method Render, addr 0x6689b7c, size 0x6f8, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x66f1708, size 0x6f8, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method ResetMotionData, addr 0x668943c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ResetMotionData, addr 0x66f0fc8, size 0xf0, virtual false, abstract: false, final false
   inline void ResetMotionData();
 
-  /// @brief Method Update, addr 0x668a278, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x66f1e04, size 0x384, virtual false, abstract: false, final false
   inline void Update(::ByRef<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData);
 
   constexpr int32_t const& __cordl_internal_get_m_LastFrameIndex() const;
@@ -337,7 +337,7 @@ public:
 
   constexpr void __cordl_internal_set_xrMotionVectorDepth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x6689184, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66f0d10, size 0x250, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* xrMotionVector);
 
   static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_k_MotionOnlyShaderTagId();
@@ -359,7 +359,7 @@ public:
   XRDepthMotionPass(XRDepthMotionPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12860 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12864 };
 
   /// @brief Field k_XRViewCount offset 0xffffffff size 0x4
   static constexpr int32_t k_XRViewCount{ static_cast<int32_t>(0x2) };

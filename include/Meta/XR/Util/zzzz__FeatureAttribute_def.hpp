@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set__Feature_k__BackingField(::Meta::XR::Util::Feature value);
 
-  /// @brief Method .ctor, addr 0x5c3bd9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca287c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Meta::XR::Util::Feature feature);
 
-  /// @brief Method get_Feature, addr 0x5c3bda4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Feature, addr 0x5ca2884, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::Util::Feature get_Feature();
 
 protected:
@@ -56,7 +56,7 @@ public:
   FeatureAttribute(FeatureAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8549 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8553 };
 
   /// @brief Field <Feature>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::Meta::XR::Util::Feature ____Feature_k__BackingField;

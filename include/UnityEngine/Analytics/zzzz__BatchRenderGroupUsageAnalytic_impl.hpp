@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Analytics::BatchRenderGroupUsageAnalytic::*)()>(
     &::UnityEngine::Analytics::BatchRenderGroupUsageAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x68d394c;
+  constexpr static std::size_t addrs = 0x693c7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Analytics::BatchRenderGroupUsageAnalytic*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Analytics::BatchRenderGroupUsageAnalytic* (*)()>(
     &::UnityEngine::Analytics::BatchRenderGroupUsageAnalytic::CreateBatchRenderGroupUsageAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68d39c4;
+  constexpr static std::size_t addrs = 0x693c848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

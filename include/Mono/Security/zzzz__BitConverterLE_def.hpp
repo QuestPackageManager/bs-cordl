@@ -19,31 +19,31 @@ namespace Mono::Security {
 class CORDL_TYPE BitConverterLE : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetBytes, addr 0x58749d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x58db31c, size 0x18, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(int32_t value);
 
-  /// @brief Method GetBytes, addr 0x5875654, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x58dbfa0, size 0x14, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(int64_t value);
 
-  /// @brief Method GetUIntBytes, addr 0x58754dc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetUIntBytes, addr 0x58dbe28, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetUIntBytes(uint8_t* bytes);
 
-  /// @brief Method GetULongBytes, addr 0x5875578, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetULongBytes, addr 0x58dbec4, size 0xdc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetULongBytes(uint8_t* bytes);
 
-  /// @brief Method ToInt32, addr 0x5875738, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x58dc084, size 0x24, virtual false, abstract: false, final false
   static inline int32_t ToInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
 
-  /// @brief Method ToUInt16, addr 0x587575c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x58dc0a8, size 0x24, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
 
-  /// @brief Method ToUInt32, addr 0x5875780, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x58dc0cc, size 0x24, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
 
-  /// @brief Method UIntFromBytes, addr 0x58756b4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method UIntFromBytes, addr 0x58dc000, size 0x84, virtual false, abstract: false, final false
   static inline void UIntFromBytes(uint8_t* dst, ::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t startIndex);
 
-  /// @brief Method UShortFromBytes, addr 0x5875668, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method UShortFromBytes, addr 0x58dbfb4, size 0x4c, virtual false, abstract: false, final false
   static inline void UShortFromBytes(uint8_t* dst, ::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t startIndex);
 
 protected:
@@ -61,7 +61,7 @@ public:
   BitConverterLE(BitConverterLE const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19209 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19235 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

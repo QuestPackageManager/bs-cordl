@@ -109,31 +109,31 @@ public:
 
   static inline ::Zenject::TickableManager___c* New_ctor();
 
-  /// @brief Method <InitFixedTickables>b__17_0, addr 0x6c65410, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <InitFixedTickables>b__17_0, addr 0x6cce294, size 0x14, virtual false, abstract: false, final false
   inline ::System::Type* _InitFixedTickables_b__17_0(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method <InitFixedTickables>b__17_2, addr 0x6c65424, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <InitFixedTickables>b__17_2, addr 0x6cce2a8, size 0x14, virtual false, abstract: false, final false
   inline int32_t _InitFixedTickables_b__17_2(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method <InitLateTickables>b__19_0, addr 0x6c65460, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <InitLateTickables>b__19_0, addr 0x6cce2e4, size 0x14, virtual false, abstract: false, final false
   inline ::System::Type* _InitLateTickables_b__19_0(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method <InitLateTickables>b__19_2, addr 0x6c65474, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <InitLateTickables>b__19_2, addr 0x6cce2f8, size 0x14, virtual false, abstract: false, final false
   inline int32_t _InitLateTickables_b__19_2(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method <InitTickables>b__18_0, addr 0x6c65438, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <InitTickables>b__18_0, addr 0x6cce2bc, size 0x14, virtual false, abstract: false, final false
   inline ::System::Type* _InitTickables_b__18_0(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method <InitTickables>b__18_2, addr 0x6c6544c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <InitTickables>b__18_2, addr 0x6cce2d0, size 0x14, virtual false, abstract: false, final false
   inline int32_t _InitTickables_b__18_2(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method __zenCreate, addr 0x6c65488, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6cce30c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c654cc, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6cce350, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6c6540c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cce290, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::TickableManager___c* getStaticF___9();
@@ -179,7 +179,7 @@ public:
   TickableManager___c(TickableManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14668 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -199,7 +199,7 @@ public:
 
   static inline ::Zenject::TickableManager___c__DisplayClass17_0* New_ctor();
 
-  /// @brief Method <InitFixedTickables>b__1, addr 0x6c65660, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <InitFixedTickables>b__1, addr 0x6cce4e4, size 0x90, virtual false, abstract: false, final false
   inline bool _InitFixedTickables_b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
   constexpr ::Zenject::IFixedTickable* const& __cordl_internal_get_tickable() const;
@@ -208,13 +208,13 @@ public:
 
   constexpr void __cordl_internal_set_tickable(::Zenject::IFixedTickable* value);
 
-  /// @brief Method __zenCreate, addr 0x6c656f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6cce574, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c65734, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6cce5b8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6c6412c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cccfb0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -232,7 +232,7 @@ public:
   TickableManager___c__DisplayClass17_0(TickableManager___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14669 };
 
   /// @brief Field tickable, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IFixedTickable* ___tickable;
@@ -257,7 +257,7 @@ public:
 
   static inline ::Zenject::TickableManager___c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method <InitTickables>b__1, addr 0x6c658c8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <InitTickables>b__1, addr 0x6cce74c, size 0x90, virtual false, abstract: false, final false
   inline bool _InitTickables_b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
   constexpr ::Zenject::ITickable* const& __cordl_internal_get_tickable() const;
@@ -266,13 +266,13 @@ public:
 
   constexpr void __cordl_internal_set_tickable(::Zenject::ITickable* value);
 
-  /// @brief Method __zenCreate, addr 0x6c65958, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6cce7dc, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c6599c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6cce820, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6c64130, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cccfb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -290,7 +290,7 @@ public:
   TickableManager___c__DisplayClass18_0(TickableManager___c__DisplayClass18_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14670 };
 
   /// @brief Field tickable, offset: 0x10, size: 0x8, def value: None
   ::Zenject::ITickable* ___tickable;
@@ -315,7 +315,7 @@ public:
 
   static inline ::Zenject::TickableManager___c__DisplayClass19_0* New_ctor();
 
-  /// @brief Method <InitLateTickables>b__1, addr 0x6c65b30, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <InitLateTickables>b__1, addr 0x6cce9b4, size 0x90, virtual false, abstract: false, final false
   inline bool _InitLateTickables_b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
   constexpr ::Zenject::ILateTickable* const& __cordl_internal_get_tickable() const;
@@ -324,13 +324,13 @@ public:
 
   constexpr void __cordl_internal_set_tickable(::Zenject::ILateTickable* value);
 
-  /// @brief Method __zenCreate, addr 0x6c65bc0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6ccea44, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c65c04, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6ccea88, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6c64134, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cccfb8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -348,7 +348,7 @@ public:
   TickableManager___c__DisplayClass19_0(TickableManager___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14667 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14671 };
 
   /// @brief Field tickable, offset: 0x10, size: 0x8, def value: None
   ::Zenject::ILateTickable* ___tickable;
@@ -413,54 +413,54 @@ public:
   /// @brief Field _updater, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__updater, put = __cordl_internal_set__updater)) ::Zenject::TickablesTaskUpdater* _updater;
 
-  /// @brief Method Add, addr 0x6c641b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6ccd034, size 0x8, virtual false, abstract: false, final false
   inline void Add(::Zenject::ITickable* tickable);
 
-  /// @brief Method Add, addr 0x6c64138, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6cccfbc, size 0x78, virtual false, abstract: false, final false
   inline void Add(::Zenject::ITickable* tickable, int32_t priority);
 
-  /// @brief Method AddFixed, addr 0x6c642b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method AddFixed, addr 0x6ccd134, size 0x74, virtual false, abstract: false, final false
   inline void AddFixed(::Zenject::IFixedTickable* tickable);
 
-  /// @brief Method AddFixed, addr 0x6c64238, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method AddFixed, addr 0x6ccd0bc, size 0x78, virtual false, abstract: false, final false
   inline void AddFixed(::Zenject::IFixedTickable* tickable, int32_t priority);
 
-  /// @brief Method AddLate, addr 0x6c64230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddLate, addr 0x6ccd0b4, size 0x8, virtual false, abstract: false, final false
   inline void AddLate(::Zenject::ILateTickable* tickable);
 
-  /// @brief Method AddLate, addr 0x6c641b8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method AddLate, addr 0x6ccd03c, size 0x78, virtual false, abstract: false, final false
   inline void AddLate(::Zenject::ILateTickable* tickable, int32_t priority);
 
-  /// @brief Method FixedUpdate, addr 0x6c5e2a4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x6cc7128, size 0xb0, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method InitFixedTickables, addr 0x6c631ec, size 0x7a0, virtual false, abstract: false, final false
+  /// @brief Method InitFixedTickables, addr 0x6ccc070, size 0x7a0, virtual false, abstract: false, final false
   inline void InitFixedTickables();
 
-  /// @brief Method InitLateTickables, addr 0x6c6398c, size 0x7a0, virtual false, abstract: false, final false
+  /// @brief Method InitLateTickables, addr 0x6ccc810, size 0x7a0, virtual false, abstract: false, final false
   inline void InitLateTickables();
 
-  /// @brief Method InitTickables, addr 0x6c62a4c, size 0x7a0, virtual false, abstract: false, final false
+  /// @brief Method InitTickables, addr 0x6ccb8d0, size 0x7a0, virtual false, abstract: false, final false
   inline void InitTickables();
 
-  /// @brief Method Initialize, addr 0x6c62a2c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6ccb8b0, size 0x20, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method LateUpdate, addr 0x6c5e1e0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x6cc7064, size 0xb0, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::Zenject::TickableManager* New_ctor();
 
-  /// @brief Method Remove, addr 0x6c64324, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x6ccd1a8, size 0x64, virtual false, abstract: false, final false
   inline void Remove(::Zenject::ITickable* tickable);
 
-  /// @brief Method RemoveFixed, addr 0x6c643ec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RemoveFixed, addr 0x6ccd270, size 0x64, virtual false, abstract: false, final false
   inline void RemoveFixed(::Zenject::IFixedTickable* tickable);
 
-  /// @brief Method RemoveLate, addr 0x6c64388, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RemoveLate, addr 0x6ccd20c, size 0x64, virtual false, abstract: false, final false
   inline void RemoveLate(::Zenject::ILateTickable* tickable);
 
-  /// @brief Method Update, addr 0x6c5e11c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6cc6fa0, size 0xb0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* const& __cordl_internal_get__fixedPriorities() const;
@@ -523,43 +523,43 @@ public:
 
   constexpr void __cordl_internal_set__updater(::Zenject::TickablesTaskUpdater* value);
 
-  /// @brief Method __zenCreate, addr 0x6c64450, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6ccd2d4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c64c00, size 0x7b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6ccda84, size 0x7b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenFieldSetter0, addr 0x6c644a4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter0, addr 0x6ccd328, size 0x124, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter1, addr 0x6c645c8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter1, addr 0x6ccd44c, size 0x124, virtual false, abstract: false, final false
   static inline void __zenFieldSetter1(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter2, addr 0x6c646ec, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter2, addr 0x6ccd570, size 0x124, virtual false, abstract: false, final false
   static inline void __zenFieldSetter2(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter3, addr 0x6c64810, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter3, addr 0x6ccd694, size 0x124, virtual false, abstract: false, final false
   static inline void __zenFieldSetter3(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter4, addr 0x6c64934, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter4, addr 0x6ccd7b8, size 0x124, virtual false, abstract: false, final false
   static inline void __zenFieldSetter4(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter5, addr 0x6c64a58, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter5, addr 0x6ccd8dc, size 0x124, virtual false, abstract: false, final false
   static inline void __zenFieldSetter5(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenInjectMethod0, addr 0x6c64b7c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x6ccda00, size 0x84, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method .ctor, addr 0x6c62964, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccb7e8, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsPaused, addr 0x6c62a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsPaused, addr 0x6ccb8a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsPaused();
 
-  /// @brief Method get_Tickables, addr 0x6c62a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tickables, addr 0x6ccb898, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::ITickable*>* get_Tickables();
 
-  /// @brief Method set_IsPaused, addr 0x6c62a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsPaused, addr 0x6ccb8a8, size 0x8, virtual false, abstract: false, final false
   inline void set_IsPaused(bool value);
 
 protected:
@@ -577,7 +577,7 @@ public:
   TickableManager(TickableManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14668 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14672 };
 
   /// @brief Field _tickables, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::ITickable*>* ____tickables;

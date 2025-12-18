@@ -59,165 +59,165 @@ public:
 
   __declspec(property(get = get_massScale, put = set_massScale)) float_t massScale;
 
-  /// @brief Method GetCurrentForces, addr 0x695e2d0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentForces, addr 0x69c7154, size 0x98, virtual false, abstract: false, final false
   inline void GetCurrentForces(::ByRef<::UnityEngine::Vector3> linearForce, ::ByRef<::UnityEngine::Vector3> angularForce);
 
-  /// @brief Method GetCurrentForces_Injected, addr 0x695e368, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentForces_Injected, addr 0x69c71ec, size 0x54, virtual false, abstract: false, final false
   static inline void GetCurrentForces_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> linearForce, ::ByRef<::UnityEngine::Vector3> angularForce);
 
   static inline ::UnityEngine::Joint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x694a1b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69b3038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_anchor, addr 0x695d440, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_anchor, addr 0x69c62c4, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_anchor();
 
-  /// @brief Method get_anchor_Injected, addr 0x695d4e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_anchor_Injected, addr 0x69c6364, size 0x44, virtual false, abstract: false, final false
   static inline void get_anchor_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_autoConfigureConnectedAnchor, addr 0x695d7c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_autoConfigureConnectedAnchor, addr 0x69c6644, size 0x80, virtual false, abstract: false, final false
   inline bool get_autoConfigureConnectedAnchor();
 
-  /// @brief Method get_autoConfigureConnectedAnchor_Injected, addr 0x695d840, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_autoConfigureConnectedAnchor_Injected, addr 0x69c66c4, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_autoConfigureConnectedAnchor_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_axis, addr 0x695d280, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_axis, addr 0x69c6104, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_axis();
 
-  /// @brief Method get_axis_Injected, addr 0x695d320, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_axis_Injected, addr 0x69c61a4, size 0x44, virtual false, abstract: false, final false
   static inline void get_axis_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_breakForce, addr 0x695d950, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_breakForce, addr 0x69c67d4, size 0x80, virtual false, abstract: false, final false
   inline float_t get_breakForce();
 
-  /// @brief Method get_breakForce_Injected, addr 0x695d9d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_breakForce_Injected, addr 0x69c6854, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_breakForce_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_breakTorque, addr 0x695dae8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_breakTorque, addr 0x69c696c, size 0x80, virtual false, abstract: false, final false
   inline float_t get_breakTorque();
 
-  /// @brief Method get_breakTorque_Injected, addr 0x695db68, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_breakTorque_Injected, addr 0x69c69ec, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_breakTorque_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_connectedAnchor, addr 0x695d600, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_connectedAnchor, addr 0x69c6484, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_connectedAnchor();
 
-  /// @brief Method get_connectedAnchor_Injected, addr 0x695d6a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_connectedAnchor_Injected, addr 0x69c6524, size 0x44, virtual false, abstract: false, final false
   static inline void get_connectedAnchor_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_connectedArticulationBody, addr 0x695cff0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_connectedArticulationBody, addr 0x69c5e74, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ArticulationBody> get_connectedArticulationBody();
 
-  /// @brief Method get_connectedArticulationBody_Injected, addr 0x695d140, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_connectedArticulationBody_Injected, addr 0x69c5fc4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_connectedArticulationBody_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_connectedBody, addr 0x695cd60, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_connectedBody, addr 0x69c5be4, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rigidbody> get_connectedBody();
 
-  /// @brief Method get_connectedBody_Injected, addr 0x695ceb0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_connectedBody_Injected, addr 0x69c5d34, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_connectedBody_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_connectedMassScale, addr 0x695e138, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_connectedMassScale, addr 0x69c6fbc, size 0x80, virtual false, abstract: false, final false
   inline float_t get_connectedMassScale();
 
-  /// @brief Method get_connectedMassScale_Injected, addr 0x695e1b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_connectedMassScale_Injected, addr 0x69c703c, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_connectedMassScale_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_currentForce, addr 0x695e3bc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_currentForce, addr 0x69c7240, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_currentForce();
 
-  /// @brief Method get_currentTorque, addr 0x695e450, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_currentTorque, addr 0x69c72d4, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_currentTorque();
 
-  /// @brief Method get_enableCollision, addr 0x695dc80, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_enableCollision, addr 0x69c6b04, size 0x80, virtual false, abstract: false, final false
   inline bool get_enableCollision();
 
-  /// @brief Method get_enableCollision_Injected, addr 0x695dd00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enableCollision_Injected, addr 0x69c6b84, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_enableCollision_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_enablePreprocessing, addr 0x695de10, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_enablePreprocessing, addr 0x69c6c94, size 0x80, virtual false, abstract: false, final false
   inline bool get_enablePreprocessing();
 
-  /// @brief Method get_enablePreprocessing_Injected, addr 0x695de90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enablePreprocessing_Injected, addr 0x69c6d14, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_enablePreprocessing_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_massScale, addr 0x695dfa0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_massScale, addr 0x69c6e24, size 0x80, virtual false, abstract: false, final false
   inline float_t get_massScale();
 
-  /// @brief Method get_massScale_Injected, addr 0x695e020, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_massScale_Injected, addr 0x69c6ea4, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_massScale_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_anchor, addr 0x695d524, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_anchor, addr 0x69c63a8, size 0x98, virtual false, abstract: false, final false
   inline void set_anchor(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_anchor_Injected, addr 0x695d5bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_anchor_Injected, addr 0x69c6440, size 0x44, virtual false, abstract: false, final false
   static inline void set_anchor_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_autoConfigureConnectedAnchor, addr 0x695d87c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_autoConfigureConnectedAnchor, addr 0x69c6700, size 0x90, virtual false, abstract: false, final false
   inline void set_autoConfigureConnectedAnchor(bool value);
 
-  /// @brief Method set_autoConfigureConnectedAnchor_Injected, addr 0x695d90c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_autoConfigureConnectedAnchor_Injected, addr 0x69c6790, size 0x44, virtual false, abstract: false, final false
   static inline void set_autoConfigureConnectedAnchor_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_axis, addr 0x695d364, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_axis, addr 0x69c61e8, size 0x98, virtual false, abstract: false, final false
   inline void set_axis(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_axis_Injected, addr 0x695d3fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_axis_Injected, addr 0x69c6280, size 0x44, virtual false, abstract: false, final false
   static inline void set_axis_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_breakForce, addr 0x695da0c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_breakForce, addr 0x69c6890, size 0x90, virtual false, abstract: false, final false
   inline void set_breakForce(float_t value);
 
-  /// @brief Method set_breakForce_Injected, addr 0x695da9c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_breakForce_Injected, addr 0x69c6920, size 0x4c, virtual false, abstract: false, final false
   static inline void set_breakForce_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_breakTorque, addr 0x695dba4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_breakTorque, addr 0x69c6a28, size 0x90, virtual false, abstract: false, final false
   inline void set_breakTorque(float_t value);
 
-  /// @brief Method set_breakTorque_Injected, addr 0x695dc34, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_breakTorque_Injected, addr 0x69c6ab8, size 0x4c, virtual false, abstract: false, final false
   static inline void set_breakTorque_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_connectedAnchor, addr 0x695d6e4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_connectedAnchor, addr 0x69c6568, size 0x98, virtual false, abstract: false, final false
   inline void set_connectedAnchor(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_connectedAnchor_Injected, addr 0x695d77c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_connectedAnchor_Injected, addr 0x69c6600, size 0x44, virtual false, abstract: false, final false
   static inline void set_connectedAnchor_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_connectedArticulationBody, addr 0x695d17c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_connectedArticulationBody, addr 0x69c6000, size 0xc0, virtual false, abstract: false, final false
   inline void set_connectedArticulationBody(::UnityEngine::ArticulationBody* value);
 
-  /// @brief Method set_connectedArticulationBody_Injected, addr 0x695d23c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_connectedArticulationBody_Injected, addr 0x69c60c0, size 0x44, virtual false, abstract: false, final false
   static inline void set_connectedArticulationBody_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
-  /// @brief Method set_connectedBody, addr 0x695ceec, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_connectedBody, addr 0x69c5d70, size 0xc0, virtual false, abstract: false, final false
   inline void set_connectedBody(::UnityEngine::Rigidbody* value);
 
-  /// @brief Method set_connectedBody_Injected, addr 0x695cfac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_connectedBody_Injected, addr 0x69c5e30, size 0x44, virtual false, abstract: false, final false
   static inline void set_connectedBody_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
-  /// @brief Method set_connectedMassScale, addr 0x695e1f4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_connectedMassScale, addr 0x69c7078, size 0x90, virtual false, abstract: false, final false
   inline void set_connectedMassScale(float_t value);
 
-  /// @brief Method set_connectedMassScale_Injected, addr 0x695e284, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_connectedMassScale_Injected, addr 0x69c7108, size 0x4c, virtual false, abstract: false, final false
   static inline void set_connectedMassScale_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_enableCollision, addr 0x695dd3c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_enableCollision, addr 0x69c6bc0, size 0x90, virtual false, abstract: false, final false
   inline void set_enableCollision(bool value);
 
-  /// @brief Method set_enableCollision_Injected, addr 0x695ddcc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enableCollision_Injected, addr 0x69c6c50, size 0x44, virtual false, abstract: false, final false
   static inline void set_enableCollision_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_enablePreprocessing, addr 0x695decc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_enablePreprocessing, addr 0x69c6d50, size 0x90, virtual false, abstract: false, final false
   inline void set_enablePreprocessing(bool value);
 
-  /// @brief Method set_enablePreprocessing_Injected, addr 0x695df5c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enablePreprocessing_Injected, addr 0x69c6de0, size 0x44, virtual false, abstract: false, final false
   static inline void set_enablePreprocessing_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_massScale, addr 0x695e05c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_massScale, addr 0x69c6ee0, size 0x90, virtual false, abstract: false, final false
   inline void set_massScale(float_t value);
 
-  /// @brief Method set_massScale_Injected, addr 0x695e0ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_massScale_Injected, addr 0x69c6f70, size 0x4c, virtual false, abstract: false, final false
   static inline void set_massScale_Injected(::System::IntPtr _unity_self, float_t value);
 
 protected:
@@ -235,7 +235,7 @@ public:
   Joint(Joint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18618 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

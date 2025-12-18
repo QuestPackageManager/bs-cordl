@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_Q(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
-  /// @brief Method .ctor, addr 0x6492020, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64f9bac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,7 +59,7 @@ public:
   TriangulationConstraint(TriangulationConstraint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21587 };
 
   /// @brief Field P, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ___P;

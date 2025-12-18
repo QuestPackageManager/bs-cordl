@@ -49,15 +49,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey>*() noexcept;
 
-  /// @brief Method Equals, addr 0x69fe57c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6a67400, size 0x68, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey x, ::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey y);
 
-  /// @brief Method GetHashCode, addr 0x69fe5e4, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x6a67468, size 0x80, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey obj);
 
   static inline ::UnityEngine::UIElements::TypeConverterRegistry_ConverterKeyComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x69fe578, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a673fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey>"
@@ -94,7 +94,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE TypeConverterRegistry_ConverterKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x69fe234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a670b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* source, ::System::Type* destination);
 
   // Ctor Parameters []
@@ -144,28 +144,28 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::TypeConverterRegistry>*();
 
-  /// @brief Method Apply, addr 0x69fe23c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x6a670c0, size 0x188, virtual false, abstract: false, final false
   inline void Apply(::UnityEngine::UIElements::TypeConverterRegistry registry);
 
-  /// @brief Method Create, addr 0x69fe088, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6a66f0c, size 0xcc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TypeConverterRegistry Create();
 
-  /// @brief Method Equals, addr 0x69fe4e0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6a67364, size 0xc, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TypeConverterRegistry x, ::UnityEngine::UIElements::TypeConverterRegistry y);
 
-  /// @brief Method GetConverter, addr 0x69fe3c4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetConverter, addr 0x6a67248, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Delegate* GetConverter(::System::Type* source, ::System::Type* destination);
 
-  /// @brief Method GetHashCode, addr 0x69fe4ec, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x6a67370, size 0x20, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::UnityEngine::UIElements::TypeConverterRegistry obj);
 
-  /// @brief Method Register, addr 0x69fe15c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x6a66fe0, size 0xd8, virtual false, abstract: false, final false
   inline void Register(::System::Type* source, ::System::Type* destination, ::System::Delegate* converter);
 
-  /// @brief Method TryGetConverter, addr 0x69fe450, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetConverter, addr 0x6a672d4, size 0x90, virtual false, abstract: false, final false
   inline bool TryGetConverter(::System::Type* source, ::System::Type* destination, ::ByRef<::System::Delegate*> converter);
 
-  /// @brief Method .ctor, addr 0x69fe154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a66fd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::TypeConverterRegistry_ConverterKey, ::System::Delegate*>* storage);
 
   static inline ::UnityEngine::UIElements::TypeConverterRegistry_ConverterKeyComparer* getStaticF_k_Comparer();

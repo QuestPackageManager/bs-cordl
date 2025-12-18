@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)(
     ::System::Runtime::Serialization::XmlObjectSerializerReadContext*)>(&::System::Runtime::Serialization::ExtensionDataReader::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5f34b6c;
+  constexpr static std::size_t addrs = 0x5f9c6f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)(::System::Object*)>(
     &::System::Runtime::Serialization::ExtensionDataReader::SetDeserializedValue)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5f34c0c;
+  constexpr static std::size_t addrs = 0x5f9c798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::IDataNode* (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::GetCurrentNode)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f34d84;
+  constexpr static std::size_t addrs = 0x5f9c910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ExtensionDataReader*>::get(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)(
     ::System::Runtime::Serialization::IDataNode*, ::StringW, ::StringW)>(&::System::Runtime::Serialization::ExtensionDataReader::SetDataNode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5f34db4;
+  constexpr static std::size_t addrs = 0x5f9c940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::Reset)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5f35010;
+  constexpr static std::size_t addrs = 0x5f9cb9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ExtensionDataReader*>::get(),
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_IsXmlDataNode)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f35034;
+  constexpr static std::size_t addrs = 0x5f9cbc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ExtensionDataReader*>::get(),
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_NodeType)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f35044;
+  constexpr static std::size_t addrs = 0x5f9cbd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_LocalName)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f35074;
+  constexpr static std::size_t addrs = 0x5f9cc00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_NamespaceURI)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f350a4;
+  constexpr static std::size_t addrs = 0x5f9cc30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_Prefix)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f350d4;
+  constexpr static std::size_t addrs = 0x5f9cc60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_Value)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f35104;
+  constexpr static std::size_t addrs = 0x5f9cc90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_Depth)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f35134;
+  constexpr static std::size_t addrs = 0x5f9ccc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_AttributeCount)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5f35164;
+  constexpr static std::size_t addrs = 0x5f9ccf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_EOF)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f35198;
+  constexpr static std::size_t addrs = 0x5f9cd24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::ReadState (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_ReadState)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5f351d4;
+  constexpr static std::size_t addrs = 0x5f9cd60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_IsEmptyElement)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5f35208;
+  constexpr static std::size_t addrs = 0x5f9cd94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_IsDefault)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5f3523c;
+  constexpr static std::size_t addrs = 0x5f9cdc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_QuoteChar)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5f35270;
+  constexpr static std::size_t addrs = 0x5f9cdfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlSpace (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_XmlSpace)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5f352a4;
+  constexpr static std::size_t addrs = 0x5f9ce30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_XmlLang)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5f352d8;
+  constexpr static std::size_t addrs = 0x5f9ce64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::MoveToFirstAttribute)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5f35318;
+  constexpr static std::size_t addrs = 0x5f9cea4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::MoveToNextAttribute)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5f35378;
+  constexpr static std::size_t addrs = 0x5f9cf04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)(int32_t)>(
     &::System::Runtime::Serialization::ExtensionDataReader::MoveToAttribute)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5f353dc;
+  constexpr static std::size_t addrs = 0x5f9cf68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::ExtensionDataReader::*)(::StringW, ::StringW)>(
     &::System::Runtime::Serialization::ExtensionDataReader::GetAttribute)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5f354c8;
+  constexpr static std::size_t addrs = 0x5f9d054;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::ExtensionDataReader::*)(::StringW, ::StringW)>(
     &::System::Runtime::Serialization::ExtensionDataReader::MoveToAttribute)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5f355a0;
+  constexpr static std::size_t addrs = 0x5f9d12c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -437,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::MoveToElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5f35690;
+  constexpr static std::size_t addrs = 0x5f9d21c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::SetElement)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5f34fc8;
+  constexpr static std::size_t addrs = 0x5f9cb54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ExtensionDataReader*>::get(),
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::ExtensionDataReader::*)(::StringW)>(
     &::System::Runtime::Serialization::ExtensionDataReader::LookupNamespace)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5f356e4;
+  constexpr static std::size_t addrs = 0x5f9d270;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -483,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::Skip)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5f357c4;
+  constexpr static std::size_t addrs = 0x5f9d350;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -499,7 +499,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::ExtensionDataReader::*)(
     ::System::Runtime::Serialization::ExtensionDataReader_ExtensionDataNodeType)>(&::System::Runtime::Serialization::ExtensionDataReader::IsElementNode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f3591c;
+  constexpr static std::size_t addrs = 0x5f9d4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -514,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::Close)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f35934;
+  constexpr static std::size_t addrs = 0x5f9d4c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -530,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::Read)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5f3598c;
+  constexpr static std::size_t addrs = 0x5f9d518;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -546,7 +546,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_Name)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f35ff8;
+  constexpr static std::size_t addrs = 0x5f9db84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -562,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_BaseURI)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5f36034;
+  constexpr static std::size_t addrs = 0x5f9dbc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -578,7 +578,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::get_NameTable)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5f36074;
+  constexpr static std::size_t addrs = 0x5f9dc00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -594,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::ExtensionDataReader::*)(::StringW)>(
     &::System::Runtime::Serialization::ExtensionDataReader::GetAttribute)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5f360a8;
+  constexpr static std::size_t addrs = 0x5f9dc34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -610,7 +610,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::ExtensionDataReader::*)(int32_t)>(
     &::System::Runtime::Serialization::ExtensionDataReader::GetAttribute)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5f360dc;
+  constexpr static std::size_t addrs = 0x5f9dc68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -626,7 +626,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::ExtensionDataReader::*)(::StringW)>(
     &::System::Runtime::Serialization::ExtensionDataReader::MoveToAttribute)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5f36110;
+  constexpr static std::size_t addrs = 0x5f9dc9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -642,7 +642,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::ResolveEntity)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f36144;
+  constexpr static std::size_t addrs = 0x5f9dcd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -658,7 +658,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::ReadAttributeValue)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5f36174;
+  constexpr static std::size_t addrs = 0x5f9dd00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -674,7 +674,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)(::System::Runtime::Serialization::IDataNode*)>(
     &::System::Runtime::Serialization::ExtensionDataReader::MoveNext)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x5f35b50;
+  constexpr static std::size_t addrs = 0x5f9d6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -689,7 +689,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)(
     ::System::Runtime::Serialization::IDataNode*, ::StringW, ::StringW, ::StringW)>(&::System::Runtime::Serialization::ExtensionDataReader::SetNextElement)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5f34dd8;
+  constexpr static std::size_t addrs = 0x5f9c964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -706,7 +706,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)(::System::Runtime::Serialization::IDataNode*)>(
     &::System::Runtime::Serialization::ExtensionDataReader::AddDeserializedDataNode)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x5f37084;
+  constexpr static std::size_t addrs = 0x5f9ec10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -721,7 +721,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::ExtensionDataReader::*)(::System::Runtime::Serialization::IDataNode*)>(
     &::System::Runtime::Serialization::ExtensionDataReader::CheckIfNodeHandled)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x5f36dcc;
+  constexpr static std::size_t addrs = 0x5f9e958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -736,7 +736,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)(::System::Runtime::Serialization::ClassDataNode*)>(
     &::System::Runtime::Serialization::ExtensionDataReader::MoveNextInClass)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x5f361a8;
+  constexpr static std::size_t addrs = 0x5f9dd34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -751,7 +751,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)(
     ::System::Runtime::Serialization::CollectionDataNode*)>(&::System::Runtime::Serialization::ExtensionDataReader::MoveNextInCollection)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x5f36404;
+  constexpr static std::size_t addrs = 0x5f9df90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -766,7 +766,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)(
     ::System::Runtime::Serialization::ISerializableDataNode*)>(&::System::Runtime::Serialization::ExtensionDataReader::MoveNextInISerializable)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x5f3665c;
+  constexpr static std::size_t addrs = 0x5f9e1e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -781,7 +781,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)(::System::Runtime::Serialization::XmlDataNode*)>(
     &::System::Runtime::Serialization::ExtensionDataReader::MoveNextInXml)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5f36884;
+  constexpr static std::size_t addrs = 0x5f9e410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -796,7 +796,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)(::System::Runtime::Serialization::IDataNode*)>(
     &::System::Runtime::Serialization::ExtensionDataReader::MoveToDeserializedObject)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x5f36a64;
+  constexpr static std::size_t addrs = 0x5f9e5f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -811,7 +811,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::ExtensionDataReader::*)(
     ::System::Type*, ::System::Runtime::Serialization::IDataNode*, bool)>(&::System::Runtime::Serialization::ExtensionDataReader::MoveToText)> {
   constexpr static std::size_t size = 0x1748;
-  constexpr static std::size_t addrs = 0x5f37558;
+  constexpr static std::size_t addrs = 0x5f9f0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -828,7 +828,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::PushElement)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5f35f04;
+  constexpr static std::size_t addrs = 0x5f9da90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ExtensionDataReader*>::get(),
@@ -842,7 +842,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::PopElement)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f35f9c;
+  constexpr static std::size_t addrs = 0x5f9db28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ExtensionDataReader*>::get(),
@@ -856,7 +856,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::GrowElementsIfNeeded)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5f39090;
+  constexpr static std::size_t addrs = 0x5fa0c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ExtensionDataReader*>::get(),
@@ -870,7 +870,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::ElementData* (::System::Runtime::Serialization::ExtensionDataReader::*)()>(
     &::System::Runtime::Serialization::ExtensionDataReader::GetNextElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5f36d48;
+  constexpr static std::size_t addrs = 0x5f9e8d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ExtensionDataReader*>::get(),
@@ -883,7 +883,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Runtime::Serialization::ExtensionDataReader::GetPrefix)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x5f372c8;
+  constexpr static std::size_t addrs = 0x5f9ee54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -897,7 +897,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&::System::Runtime::Serialization::ExtensionDataReader::AddPrefix)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5f34a94;
+  constexpr static std::size_t addrs = 0x5f9c620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

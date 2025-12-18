@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OSCE::Analytics::AnalyticsScribeConverter___c__DisplayClass4_0::*)()>(
     &::OSCE::Analytics::AnalyticsScribeConverter___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d280b0;
+  constexpr static std::size_t addrs = 0x5d8eb90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OSCE::Analytics::AnalyticsScribeConverter___c__DisplayClass4_0::*)(::System::Reflection::PropertyInfo*)>(
     &::OSCE::Analytics::AnalyticsScribeConverter___c__DisplayClass4_0::_CacheAndWriteTypePropertiesForType_b__0)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5d2816c;
+  constexpr static std::size_t addrs = 0x5d8ec4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OSCE::Analytics::AnalyticsScribeConverter::*)(::System::Type*)>(
     &::OSCE::Analytics::AnalyticsScribeConverter::CanConvert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d277c0;
+  constexpr static std::size_t addrs = 0x5d8e2a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::OSCE::Analytics::AnalyticsScribeConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
         &::OSCE::Analytics::AnalyticsScribeConverter::ReadJson)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d277c8;
+  constexpr static std::size_t addrs = 0x5d8e2a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OSCE::Analytics::AnalyticsScribeConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::OSCE::Analytics::AnalyticsScribeConverter::WriteJson)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x5d27800;
+  constexpr static std::size_t addrs = 0x5d8e2e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,7 +125,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OSCE::Analytics::BaseAnalyticsEvent*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>, ::StringW, ::Newtonsoft::Json::JsonWriter*, ::Newtonsoft::Json::JsonSerializer*)>(
     &::OSCE::Analytics::AnalyticsScribeConverter::CacheAndWriteTypePropertiesForType)> {
   constexpr static std::size_t size = 0x638;
-  constexpr static std::size_t addrs = 0x5d27a78;
+  constexpr static std::size_t addrs = 0x5d8e558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OSCE::Analytics::AnalyticsScribeConverter::*)()>(&::OSCE::Analytics::AnalyticsScribeConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d280b4;
+  constexpr static std::size_t addrs = 0x5d8eb94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OSCE::Analytics::AnalyticsScribeConverter*>::get(), ".ctor",

@@ -25,13 +25,13 @@ public:
   /// @brief Method AsRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ByRef<T> AsRef(::ByRef<T> value);
 
-  /// @brief Method CheckIndexRange, addr 0x62b1b84, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CheckIndexRange, addr 0x6319710, size 0xcc, virtual false, abstract: false, final false
   static inline void CheckIndexRange(int32_t index, int32_t capacity);
 
-  /// @brief Method CheckMemSwapOverlap, addr 0x62b1b1c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CheckMemSwapOverlap, addr 0x63196a8, size 0x68, virtual false, abstract: false, final false
   static inline void CheckMemSwapOverlap(uint8_t* dst, uint8_t* src, int64_t size);
 
-  /// @brief Method MemSwap, addr 0x62b1a04, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method MemSwap, addr 0x6319590, size 0x118, virtual false, abstract: false, final false
   static inline void MemSwap(void* ptr, void* otherPtr, int64_t size);
 
   /// @brief Method ReadArrayElementBoundsChecked, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -55,7 +55,7 @@ public:
   UnsafeUtilityExtensions(UnsafeUtilityExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15798 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

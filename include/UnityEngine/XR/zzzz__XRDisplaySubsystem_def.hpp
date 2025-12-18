@@ -98,7 +98,7 @@ public:
   static ::UnityEngine::XR::XRDisplaySubsystem_LateLatchNode const RightHand;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21949 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -157,7 +157,7 @@ public:
   static ::UnityEngine::XR::XRDisplaySubsystem_TextureLayout const Texture2DArray;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21923 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21950 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -192,7 +192,7 @@ public:
                                                  int32_t textureArraySlice, ::UnityEngine::Matrix4x4 previousView, bool isPreviousViewValid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21924 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21951 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe0 };
@@ -245,13 +245,13 @@ namespace UnityEngine::XR {
 struct CORDL_TYPE XRDisplaySubsystem_XRRenderPass {
 public:
   // Declarations
-  /// @brief Method GetRenderParameter, addr 0x6c0168c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetRenderParameter, addr 0x6c6a510, size 0xa8, virtual false, abstract: false, final false
   inline void GetRenderParameter(::UnityEngine::Camera* camera, int32_t renderParameterIndex, ::ByRef<::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter> renderParameter);
 
-  /// @brief Method GetRenderParameterCount, addr 0x6c01790, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetRenderParameterCount, addr 0x6c6a614, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetRenderParameterCount();
 
-  /// @brief Method GetRenderParameter_Injected, addr 0x6c01734, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetRenderParameter_Injected, addr 0x6c6a5b8, size 0x5c, virtual false, abstract: false, final false
   static inline void GetRenderParameter_Injected(::ByRef<::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass> _unity_self, ::System::IntPtr camera, int32_t renderParameterIndex,
                                                  ::ByRef<::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter> renderParameter);
 
@@ -271,7 +271,7 @@ public:
                                             bool shouldFillOutDepth, int32_t cullingPassIndex, ::System::IntPtr foveatedRenderingInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21925 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21952 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe0 };
@@ -351,7 +351,7 @@ public:
                                             ::System::IntPtr foveatedRenderingInfo, bool srcHdrEncoded, ::UnityEngine::ColorGamut srcHdrColorGamut, int32_t srcHdrMaxLuminance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21953 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -409,7 +409,7 @@ namespace UnityEngine::XR {
 struct CORDL_TYPE XRDisplaySubsystem_XRMirrorViewBlitDesc {
 public:
   // Declarations
-  /// @brief Method GetBlitParameter, addr 0x6c017cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetBlitParameter, addr 0x6c6a650, size 0x54, virtual false, abstract: false, final false
   inline void GetBlitParameter(int32_t blitParameterIndex, ::ByRef<::UnityEngine::XR::XRDisplaySubsystem_XRBlitParams> blitParameter);
 
   // Ctor Parameters []
@@ -421,7 +421,7 @@ public:
   constexpr XRDisplaySubsystem_XRMirrorViewBlitDesc(::System::IntPtr displaySubsystemInstance, bool nativeBlitAvailable, bool nativeBlitInvalidStates, int32_t blitParamsCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21954 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -459,7 +459,7 @@ namespace UnityEngine::XR {
 class CORDL_TYPE XRDisplaySubsystem_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6c01820, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6c6a6a4, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(Il2CppObject* xrDisplaySubsystem);
 
 protected:
@@ -477,7 +477,7 @@ public:
   XRDisplaySubsystem_BindingsMarshaller(XRDisplaySubsystem_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21955 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

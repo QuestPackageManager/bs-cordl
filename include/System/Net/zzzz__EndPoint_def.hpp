@@ -26,18 +26,18 @@ public:
   // Declarations
   __declspec(property(get = get_AddressFamily)) ::System::Net::Sockets::AddressFamily AddressFamily;
 
-  /// @brief Method Create, addr 0x61ee57c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x6256108, size 0x24, virtual true, abstract: false, final false
   inline ::System::Net::EndPoint* Create(::System::Net::SocketAddress* socketAddress);
 
   static inline ::System::Net::EndPoint* New_ctor();
 
-  /// @brief Method Serialize, addr 0x61ee4d4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x6256060, size 0x24, virtual true, abstract: false, final false
   inline ::System::Net::SocketAddress* Serialize();
 
-  /// @brief Method .ctor, addr 0x61ee5a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x625612c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AddressFamily, addr 0x61ee42c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_AddressFamily, addr 0x6255fb8, size 0x24, virtual true, abstract: false, final false
   inline ::System::Net::Sockets::AddressFamily get_AddressFamily();
 
 protected:
@@ -55,7 +55,7 @@ public:
   EndPoint(EndPoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11460 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::XmlDataContractInterpreter::*)(
     ::System::Runtime::Serialization::XmlDataContract*)>(&::System::Runtime::Serialization::XmlDataContractInterpreter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f6094c;
+  constexpr static std::size_t addrs = 0x5fc84d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::IXmlSerializable* (::System::Runtime::Serialization::XmlDataContractInterpreter::*)()>(
     &::System::Runtime::Serialization::XmlDataContractInterpreter::CreateXmlSerializable)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5f60954;
+  constexpr static std::size_t addrs = 0x5fc84e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::ConstructorInfo* (::System::Runtime::Serialization::XmlDataContractInterpreter::*)()>(
     &::System::Runtime::Serialization::XmlDataContractInterpreter::GetConstructor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5f60a8c;
+  constexpr static std::size_t addrs = 0x5fc8618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

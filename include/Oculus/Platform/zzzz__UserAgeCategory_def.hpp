@@ -30,10 +30,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE UserAgeCategory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x5bd61c8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x5c3cca8, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserAccountAgeCategory*>* Get();
 
-  /// @brief Method Report, addr 0x5bd6320, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Report, addr 0x5c3ce00, size 0x154, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Report(::Oculus::Platform::AppAgeCategory age_category);
 
 protected:
@@ -51,7 +51,7 @@ public:
   UserAgeCategory(UserAgeCategory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17936 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

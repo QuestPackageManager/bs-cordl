@@ -32,7 +32,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::LimitedInputStream* New_ctor(::System::IO::Stream* inStream, int32_t limit);
 
-  /// @brief Method SetParentEofDetect, addr 0x35670bc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method SetParentEofDetect, addr 0x3591900, size 0xa0, virtual true, abstract: false, final false
   inline void SetParentEofDetect(bool on);
 
   constexpr ::System::IO::Stream* const& __cordl_internal_get__in() const;
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set__limit(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3567088, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35918cc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream, int32_t limit);
 
-  /// @brief Method get_Limit, addr 0x35670b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Limit, addr 0x35918f8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Limit();
 
 protected:

@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__Title_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5967098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59cd9e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW title);
 
 protected:

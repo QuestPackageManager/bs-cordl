@@ -82,16 +82,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x65aa15c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6611ce8, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Evaluate, addr 0x65aa4b0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x661203c, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Color Evaluate(float_t time);
 
-  /// @brief Method GetTexture, addr 0x65aa21c, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x6611da8, size 0x294, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> GetTexture();
 
-  /// @brief Method GetTextureFormat, addr 0x65aa214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTextureFormat, addr 0x6611da0, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetTextureFormat();
 
   static inline ::UnityEngine::Rendering::TextureGradient* New_ctor(::UnityEngine::Gradient* baseCurve);
@@ -100,18 +100,18 @@ public:
                                                                     ::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> alphaKeys, ::UnityEngine::GradientMode mode,
                                                                     ::UnityEngine::ColorSpace colorSpace, int32_t requestedTextureSize, bool precise);
 
-  /// @brief Method Rebuild, addr 0x65a9d80, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x661190c, size 0x3dc, virtual false, abstract: false, final false
   inline void Rebuild(::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> colorKeys,
                       ::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> alphaKeys, ::UnityEngine::GradientMode mode, ::UnityEngine::ColorSpace colorSpace,
                       int32_t requestedTextureSize, bool precise);
 
-  /// @brief Method Release, addr 0x65aa160, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x6611cec, size 0xa8, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method SetDirty, addr 0x65aa208, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetDirty, addr 0x6611d94, size 0xc, virtual false, abstract: false, final false
   inline void SetDirty();
 
-  /// @brief Method SetKeys, addr 0x65aa4e8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetKeys, addr 0x6612074, size 0x88, virtual false, abstract: false, final false
   inline void SetKeys(::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> colorKeys,
                       ::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> alphaKeys, ::UnityEngine::GradientMode mode, ::UnityEngine::ColorSpace colorSpace);
 
@@ -163,27 +163,27 @@ public:
 
   constexpr void __cordl_internal_set_mode(::UnityEngine::GradientMode value);
 
-  /// @brief Method .ctor, addr 0x65a9c90, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x661181c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Gradient* baseCurve);
 
-  /// @brief Method .ctor, addr 0x65a9d68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66118f4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> colorKeys,
                     ::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> alphaKeys, ::UnityEngine::GradientMode mode, ::UnityEngine::ColorSpace colorSpace,
                     int32_t requestedTextureSize, bool precise);
 
-  /// @brief Method get_alphaKeys, addr 0x65a9c7c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_alphaKeys, addr 0x6611808, size 0x14, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> get_alphaKeys();
 
-  /// @brief Method get_colorKeys, addr 0x65a9c68, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_colorKeys, addr 0x66117f4, size 0x14, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> get_colorKeys();
 
-  /// @brief Method get_textureSize, addr 0x65a9c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textureSize, addr 0x66117e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_textureSize();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_textureSize, addr 0x65a9c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_textureSize, addr 0x66117ec, size 0x8, virtual false, abstract: false, final false
   inline void set_textureSize(int32_t value);
 
 protected:
@@ -201,7 +201,7 @@ public:
   TextureGradient(TextureGradient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12287 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12291 };
 
   /// @brief Field <textureSize>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____textureSize_k__BackingField;

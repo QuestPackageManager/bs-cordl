@@ -142,7 +142,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x5bd9578, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c40058, size 0x1c4, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -160,7 +160,7 @@ public:
   Challenge(Challenge const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17984 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17998 };
 
   /// @brief Field CreationType, offset: 0x10, size: 0x4, def value: None
   ::Oculus::Platform::ChallengeCreationType ___CreationType;

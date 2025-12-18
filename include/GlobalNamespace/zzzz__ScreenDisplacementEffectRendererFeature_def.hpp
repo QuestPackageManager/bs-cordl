@@ -47,16 +47,16 @@ public:
   /// @brief Field enabled, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_enabled, put = setStaticF_enabled)) bool enabled;
 
-  /// @brief Method AddRenderPasses, addr 0x5d313d8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x5d98f58, size 0xa0, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x5d3104c, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x5d98b6c, size 0x1a4, virtual true, abstract: false, final false
   inline void Create();
 
-  /// @brief Method DestroySafe, addr 0x5d3146c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DestroySafe, addr 0x5d98ff8, size 0x8c, virtual false, abstract: false, final false
   static inline void DestroySafe(::UnityEngine::Object* obj);
 
-  /// @brief Method Dispose, addr 0x5d3139c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5d98f1c, size 0x30, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::GlobalNamespace::ScreenDisplacementEffectRendererFeature* New_ctor();
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_effectLayerMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method .ctor, addr 0x5d314f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d99084, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF_enabled();
@@ -101,7 +101,7 @@ public:
   ScreenDisplacementEffectRendererFeature(ScreenDisplacementEffectRendererFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20805 };
 
   /// @brief Field kGrabTextureName offset 0xffffffff size 0x8
   static constexpr ::ConstString kGrabTextureName{ u"_ScreenDisplacementGrabTexture" };

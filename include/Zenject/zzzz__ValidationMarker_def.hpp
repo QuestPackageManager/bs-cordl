@@ -47,22 +47,22 @@ public:
 
   constexpr void __cordl_internal_set__MarkedType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6c50080, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb8f04, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType);
 
-  /// @brief Method .ctor, addr 0x6c6a4a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd332c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType, bool instantiateFailed);
 
-  /// @brief Method get_InstantiateFailed, addr 0x6c6a4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstantiateFailed, addr 0x6cd3338, size 0x8, virtual false, abstract: false, final false
   inline bool get_InstantiateFailed();
 
-  /// @brief Method get_MarkedType, addr 0x6c6a4c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MarkedType, addr 0x6cd3348, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MarkedType();
 
-  /// @brief Method set_InstantiateFailed, addr 0x6c6a4bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InstantiateFailed, addr 0x6cd3340, size 0x8, virtual false, abstract: false, final false
   inline void set_InstantiateFailed(bool value);
 
-  /// @brief Method set_MarkedType, addr 0x6c6a4cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MarkedType, addr 0x6cd3350, size 0x8, virtual false, abstract: false, final false
   inline void set_MarkedType(::System::Type* value);
 
 protected:
@@ -80,7 +80,7 @@ public:
   ValidationMarker(ValidationMarker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14693 };
 
   /// @brief Field <InstantiateFailed>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____InstantiateFailed_k__BackingField;

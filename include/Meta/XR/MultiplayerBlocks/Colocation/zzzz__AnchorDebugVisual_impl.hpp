@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::add__debugVisibilityChanged)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x586bc50;
+  constexpr static std::size_t addrs = 0x58d23b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::remove__debugVisibilityChanged)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x586bd40;
+  constexpr static std::size_t addrs = 0x58d24a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::get_DebugVisualsVisible)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x586be30;
+  constexpr static std::size_t addrs = 0x58d2594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::set_DebugVisualsVisible)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x586be8c;
+  constexpr static std::size_t addrs = 0x58d25f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::Awake)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x586bf34;
+  constexpr static std::size_t addrs = 0x58d2698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::OnDebugVisibilityChanged)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x586bfe0;
+  constexpr static std::size_t addrs = 0x58d2744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x586c064;
+  constexpr static std::size_t addrs = 0x58d27c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

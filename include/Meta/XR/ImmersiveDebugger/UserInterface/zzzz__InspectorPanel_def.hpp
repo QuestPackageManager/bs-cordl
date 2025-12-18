@@ -107,7 +107,7 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::InspectorPanel___c__DisplayClass40_0* New_ctor();
 
-  /// @brief Method <GetCategoryButton>b__0, addr 0x583e048, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <GetCategoryButton>b__0, addr 0x58a47ac, size 0x1c, virtual false, abstract: false, final false
   inline void _GetCategoryButton_b__0();
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::InspectorPanel> const& __cordl_internal_get___4__this() const;
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_button(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::CategoryButton> value);
 
-  /// @brief Method .ctor, addr 0x583d2e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58a3a44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,7 +140,7 @@ public:
   InspectorPanel___c__DisplayClass40_0(InspectorPanel___c__DisplayClass40_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18338 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::InspectorPanel> _____4__this;
@@ -173,10 +173,10 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::InspectorPanel___c__DisplayClass42_0* New_ctor();
 
-  /// @brief Method <GetHierarchyItemButton>b__0, addr 0x583e064, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <GetHierarchyItemButton>b__0, addr 0x58a47c8, size 0x1c, virtual false, abstract: false, final false
   inline void _GetHierarchyItemButton_b__0();
 
-  /// @brief Method <GetHierarchyItemButton>b__1, addr 0x583e080, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetHierarchyItemButton>b__1, addr 0x58a47e4, size 0x18, virtual false, abstract: false, final false
   inline void _GetHierarchyItemButton_b__1();
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::InspectorPanel> const& __cordl_internal_get___4__this() const;
@@ -191,7 +191,7 @@ public:
 
   constexpr void __cordl_internal_set_button(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton> value);
 
-  /// @brief Method .ctor, addr 0x583d6b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58a3e1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -209,7 +209,7 @@ public:
   InspectorPanel___c__DisplayClass42_0(InspectorPanel___c__DisplayClass42_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18324 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18339 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::InspectorPanel> _____4__this;
@@ -325,80 +325,80 @@ public:
   /// @brief Convert operator to "::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel"
   constexpr operator ::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel*() noexcept;
 
-  /// @brief Method ComputeIdealPreviousItem, addr 0x583d454, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method ComputeIdealPreviousItem, addr 0x58a3bb8, size 0x264, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller> ComputeIdealPreviousItem(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* item);
 
-  /// @brief Method FoldItem, addr 0x583dd00, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method FoldItem, addr 0x58a4464, size 0x30, virtual false, abstract: false, final false
   inline void FoldItem(::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton* button);
 
-  /// @brief Method GetCategoryButton, addr 0x583c844, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method GetCategoryButton, addr 0x58a2fa8, size 0x27c, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::CategoryButton> GetCategoryButton(::Meta::XR::ImmersiveDebugger::Manager::Category category, bool create);
 
-  /// @brief Method GetHierarchyItemButton, addr 0x583c1f0, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method GetHierarchyItemButton, addr 0x58a2954, size 0x3c0, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton> GetHierarchyItemButton(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* item, bool create);
 
-  /// @brief Method GetInspector, addr 0x583d2ac, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method GetInspector, addr 0x58a3a10, size 0x34, virtual true, abstract: false, final true
   inline ::Meta::XR::ImmersiveDebugger::UserInterface::IInspector* GetInspector(::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle,
                                                                                 ::Meta::XR::ImmersiveDebugger::Manager::Category category);
 
-  /// @brief Method GetInspectorInternal, addr 0x583c5b0, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method GetInspectorInternal, addr 0x58a2d14, size 0x294, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Inspector> GetInspectorInternal(
       ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle, ::Meta::XR::ImmersiveDebugger::Manager::Category category, bool createRegistries,
       ::ByRef<::System::Collections::Generic::Dictionary_2<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle, ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Inspector>>*> registry);
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::InspectorPanel* New_ctor();
 
-  /// @brief Method OnTransparencyChanged, addr 0x583bd90, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnTransparencyChanged, addr 0x58a24f4, size 0x84, virtual true, abstract: false, final false
   inline void OnTransparencyChanged();
 
-  /// @brief Method RegisterControl, addr 0x583b9cc, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method RegisterControl, addr 0x58a2130, size 0x224, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle> RegisterControl(::StringW buttonName, ::UnityEngine::Texture2D* icon,
                                                                                                  ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* style, ::System::Action* callback);
 
-  /// @brief Method RegisterInspector, addr 0x583be14, size 0x3dc, virtual true, abstract: false, final true
+  /// @brief Method RegisterInspector, addr 0x58a2578, size 0x3dc, virtual true, abstract: false, final true
   inline ::Meta::XR::ImmersiveDebugger::UserInterface::IInspector* RegisterInspector(::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle,
                                                                                      ::Meta::XR::ImmersiveDebugger::Manager::Category category);
 
-  /// @brief Method RemoveInspector, addr 0x583cef4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method RemoveInspector, addr 0x58a3658, size 0x15c, virtual false, abstract: false, final false
   inline void RemoveInspector(::Meta::XR::ImmersiveDebugger::Manager::Category category, ::Meta::XR::ImmersiveDebugger::UserInterface::Inspector* inspector);
 
-  /// @brief Method SelectCategory, addr 0x583d86c, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method SelectCategory, addr 0x58a3fd0, size 0x3f4, virtual false, abstract: false, final false
   inline void SelectCategory(::Meta::XR::ImmersiveDebugger::Manager::Category category);
 
-  /// @brief Method SelectCategoryButton, addr 0x583d2e4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method SelectCategoryButton, addr 0x58a3a48, size 0x170, virtual false, abstract: false, final false
   inline void SelectCategoryButton(::Meta::XR::ImmersiveDebugger::UserInterface::CategoryButton* categoryButton);
 
-  /// @brief Method SelectCategoryMode, addr 0x583bbf0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SelectCategoryMode, addr 0x58a2354, size 0xd0, virtual false, abstract: false, final false
   inline void SelectCategoryMode();
 
-  /// @brief Method SelectHierarchyItemButton, addr 0x583d6bc, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method SelectHierarchyItemButton, addr 0x58a3e20, size 0x1b0, virtual false, abstract: false, final false
   inline void SelectHierarchyItemButton(::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton* button);
 
-  /// @brief Method SelectHierarchyMode, addr 0x583bcc0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SelectHierarchyMode, addr 0x58a2424, size 0xd0, virtual false, abstract: false, final false
   inline void SelectHierarchyMode();
 
-  /// @brief Method SelectItem, addr 0x583dd64, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SelectItem, addr 0x58a44c8, size 0x58, virtual false, abstract: false, final false
   inline void SelectItem(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* item);
 
-  /// @brief Method SetPanelPosition, addr 0x5838fbc, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetPanelPosition, addr 0x589f720, size 0x144, virtual false, abstract: false, final false
   inline void SetPanelPosition(::Meta::XR::ImmersiveDebugger::RuntimeSettings_DistanceOption distanceOption, bool skipAnimation);
 
-  /// @brief Method Setup, addr 0x583b258, size 0x774, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x58a19bc, size 0x774, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
-  /// @brief Method ToggleFoldItem, addr 0x583dc60, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ToggleFoldItem, addr 0x58a43c4, size 0xa0, virtual false, abstract: false, final false
   inline void ToggleFoldItem(::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton* button);
 
-  /// @brief Method TryRemoveHierarchyItemButton, addr 0x583d050, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method TryRemoveHierarchyItemButton, addr 0x58a37b4, size 0x108, virtual false, abstract: false, final false
   inline void TryRemoveHierarchyItemButton(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* item);
 
-  /// @brief Method UnfoldItem, addr 0x583dd30, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method UnfoldItem, addr 0x58a4494, size 0x34, virtual false, abstract: false, final false
   inline void UnfoldItem(::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton* button);
 
-  /// @brief Method UnregisterInspector, addr 0x583cac0, size 0x434, virtual true, abstract: false, final true
+  /// @brief Method UnregisterInspector, addr 0x58a3224, size 0x434, virtual true, abstract: false, final true
   inline void UnregisterInspector(::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle, ::Meta::XR::ImmersiveDebugger::Manager::Category category, bool allCategories);
 
-  /// @brief Method Update, addr 0x583ddbc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58a4520, size 0xf4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex> const& __cordl_internal_get__buttonsAnchor() const;
@@ -539,25 +539,25 @@ public:
 
   constexpr void __cordl_internal_set__targetPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x583deb0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58a4614, size 0x198, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CategoryFlex, addr 0x583b174, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_CategoryFlex, addr 0x58a18d8, size 0x24, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex> get_CategoryFlex();
 
-  /// @brief Method get_Flex, addr 0x583b148, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Flex, addr 0x58a18ac, size 0x24, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex> get_Flex();
 
-  /// @brief Method get_HierarchyFlex, addr 0x583b198, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_HierarchyFlex, addr 0x58a18fc, size 0x24, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex> get_HierarchyFlex();
 
-  /// @brief Method get_ScrollView, addr 0x583b16c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ScrollView, addr 0x58a18d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView> get_ScrollView();
 
   /// @brief Convert to "::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel"
   constexpr ::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel* i___Meta__XR__ImmersiveDebugger__UserInterface__IDebugUIPanel() noexcept;
 
-  /// @brief Method set_CategoryBackgroundStyle, addr 0x583b1bc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_CategoryBackgroundStyle, addr 0x58a1920, size 0x9c, virtual false, abstract: false, final false
   inline void set_CategoryBackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
 
 protected:
@@ -575,7 +575,7 @@ public:
   InspectorPanel(InspectorPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18340 };
 
   /// @brief Field _scrollView, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView> ____scrollView;

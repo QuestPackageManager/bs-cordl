@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::get_AnchorPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58203e0;
+  constexpr static std::size_t addrs = 0x5886b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::*)(::UnityEngine::GameObject*)>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::set_AnchorPrefab)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x58203e8;
+  constexpr static std::size_t addrs = 0x5886b4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::get_FollowHand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x582063c;
+  constexpr static std::size_t addrs = 0x5886da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::*)(bool)>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::set_FollowHand)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x58204ec;
+  constexpr static std::size_t addrs = 0x5886c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::Awake)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5820644;
+  constexpr static std::size_t addrs = 0x5886da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::SpawnSpatialAnchor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58206dc;
+  constexpr static std::size_t addrs = 0x5886e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::SpawnSpatialAnchor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5820870;
+  constexpr static std::size_t addrs = 0x5886fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::SpatialAnchorSpawnerBuildingBlock::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5820938;
+  constexpr static std::size_t addrs = 0x588709c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

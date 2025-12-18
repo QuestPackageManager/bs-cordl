@@ -26,10 +26,10 @@ public:
   // Declarations
   __declspec(property(get = get_material)) ::UnityW<::UnityEngine::Material> material;
 
-  /// @brief Method get_material, addr 0x68722dc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x68d9e54, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method get_material_Injected, addr 0x687242c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_material_Injected, addr 0x68d9fa4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_material_Injected(::System::IntPtr _unity_self);
 
 protected:
@@ -47,7 +47,7 @@ public:
   Skybox(Skybox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10147 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

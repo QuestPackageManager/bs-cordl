@@ -42,7 +42,7 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE DiagnosticUtility_DiagnosticTrace : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TraceEvent, addr 0x5f5fbb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceEvent, addr 0x5fc7740, size 0x4, virtual false, abstract: false, final false
   static inline void TraceEvent(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
 protected:
@@ -60,7 +60,7 @@ public:
   DiagnosticUtility_DiagnosticTrace(DiagnosticUtility_DiagnosticTrace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17105 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17119 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -75,19 +75,19 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE DiagnosticUtility_ExceptionUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ThrowHelper, addr 0x5f5fbb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ThrowHelper, addr 0x5fc7744, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Exception* ThrowHelper(::System::Exception* e, ::System::Diagnostics::TraceEventType type);
 
-  /// @brief Method ThrowHelperArgumentNull, addr 0x5f5bfe4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ThrowHelperArgumentNull, addr 0x5fc3b70, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Exception* ThrowHelperArgumentNull(::StringW arg);
 
-  /// @brief Method ThrowHelperCallback, addr 0x5f5fbbc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ThrowHelperCallback, addr 0x5fc7748, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Exception* ThrowHelperCallback(::System::Exception* e);
 
-  /// @brief Method ThrowHelperError, addr 0x5f56988, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ThrowHelperError, addr 0x5fbe514, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Exception* ThrowHelperError(::System::Exception* e);
 
-  /// @brief Method ThrowHelperFatal, addr 0x5f5fc38, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ThrowHelperFatal, addr 0x5fc77c4, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Exception* ThrowHelperFatal(::StringW msg, ::System::Exception* e);
 
 protected:
@@ -105,7 +105,7 @@ public:
   DiagnosticUtility_ExceptionUtility(DiagnosticUtility_ExceptionUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17120 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -167,7 +167,7 @@ public:
   DiagnosticUtility(DiagnosticUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17107 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17121 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

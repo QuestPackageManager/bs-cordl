@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)()>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x697adb4;
+  constexpr static std::size_t addrs = 0x69e3c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Guid (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_Register_b__0_0)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x697adb8;
+  constexpr static std::size_t addrs = 0x69e3c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697ade4;
+  constexpr static std::size_t addrs = 0x69e3c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_1)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697adec;
+  constexpr static std::size_t addrs = 0x69e3c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697adfc;
+  constexpr static std::size_t addrs = 0x69e3c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697ae04;
+  constexpr static std::size_t addrs = 0x69e3c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697ae0c;
+  constexpr static std::size_t addrs = 0x69e3c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697ae14;
+  constexpr static std::size_t addrs = 0x69e3c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697ae1c;
+  constexpr static std::size_t addrs = 0x69e3ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697ae24;
+  constexpr static std::size_t addrs = 0x69e3ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697ae2c;
+  constexpr static std::size_t addrs = 0x69e3cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697ae34;
+  constexpr static std::size_t addrs = 0x69e3cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697ae40;
+  constexpr static std::size_t addrs = 0x69e3cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x697ae4c;
+  constexpr static std::size_t addrs = 0x69e3cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697ae70;
+  constexpr static std::size_t addrs = 0x69e3cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697ae78;
+  constexpr static std::size_t addrs = 0x69e3cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697ae80;
+  constexpr static std::size_t addrs = 0x69e3d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697ae90;
+  constexpr static std::size_t addrs = 0x69e3d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697ae98;
+  constexpr static std::size_t addrs = 0x69e3d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697aea0;
+  constexpr static std::size_t addrs = 0x69e3d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697aea8;
+  constexpr static std::size_t addrs = 0x69e3d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697aeb0;
+  constexpr static std::size_t addrs = 0x69e3d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697aeb8;
+  constexpr static std::size_t addrs = 0x69e3d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697aec0;
+  constexpr static std::size_t addrs = 0x69e3d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697aecc;
+  constexpr static std::size_t addrs = 0x69e3d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x697aed8;
+  constexpr static std::size_t addrs = 0x69e3d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -404,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697aefc;
+  constexpr static std::size_t addrs = 0x69e3d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -419,7 +419,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697af04;
+  constexpr static std::size_t addrs = 0x69e3d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -434,7 +434,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697af0c;
+  constexpr static std::size_t addrs = 0x69e3d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -449,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697af1c;
+  constexpr static std::size_t addrs = 0x69e3da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -464,7 +464,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697af24;
+  constexpr static std::size_t addrs = 0x69e3da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -479,7 +479,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697af2c;
+  constexpr static std::size_t addrs = 0x69e3db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -494,7 +494,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697af34;
+  constexpr static std::size_t addrs = 0x69e3db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697af3c;
+  constexpr static std::size_t addrs = 0x69e3dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -524,7 +524,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697af44;
+  constexpr static std::size_t addrs = 0x69e3dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -539,7 +539,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697af4c;
+  constexpr static std::size_t addrs = 0x69e3dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -554,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697af58;
+  constexpr static std::size_t addrs = 0x69e3ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -569,7 +569,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x697af64;
+  constexpr static std::size_t addrs = 0x69e3de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -584,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697af88;
+  constexpr static std::size_t addrs = 0x69e3e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -599,7 +599,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697af90;
+  constexpr static std::size_t addrs = 0x69e3e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -614,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697af98;
+  constexpr static std::size_t addrs = 0x69e3e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -629,7 +629,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697afa8;
+  constexpr static std::size_t addrs = 0x69e3e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -644,7 +644,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697afb0;
+  constexpr static std::size_t addrs = 0x69e3e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -659,7 +659,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697afb8;
+  constexpr static std::size_t addrs = 0x69e3e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -674,7 +674,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697afc0;
+  constexpr static std::size_t addrs = 0x69e3e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -689,7 +689,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697afc8;
+  constexpr static std::size_t addrs = 0x69e3e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -704,7 +704,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697afd0;
+  constexpr static std::size_t addrs = 0x69e3e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -719,7 +719,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697afd8;
+  constexpr static std::size_t addrs = 0x69e3e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -734,7 +734,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697afe4;
+  constexpr static std::size_t addrs = 0x69e3e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -749,7 +749,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_11)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x697aff0;
+  constexpr static std::size_t addrs = 0x69e3e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -764,7 +764,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b010;
+  constexpr static std::size_t addrs = 0x69e3e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -779,7 +779,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b018;
+  constexpr static std::size_t addrs = 0x69e3e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -794,7 +794,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697b020;
+  constexpr static std::size_t addrs = 0x69e3ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -809,7 +809,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b030;
+  constexpr static std::size_t addrs = 0x69e3eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -824,7 +824,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b038;
+  constexpr static std::size_t addrs = 0x69e3ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -839,7 +839,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b040;
+  constexpr static std::size_t addrs = 0x69e3ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -854,7 +854,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b048;
+  constexpr static std::size_t addrs = 0x69e3ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -869,7 +869,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b050;
+  constexpr static std::size_t addrs = 0x69e3ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -884,7 +884,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b058;
+  constexpr static std::size_t addrs = 0x69e3edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -899,7 +899,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697b060;
+  constexpr static std::size_t addrs = 0x69e3ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -914,7 +914,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697b06c;
+  constexpr static std::size_t addrs = 0x69e3ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -929,7 +929,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x697b078;
+  constexpr static std::size_t addrs = 0x69e3efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -944,7 +944,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b09c;
+  constexpr static std::size_t addrs = 0x69e3f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -959,7 +959,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b0a4;
+  constexpr static std::size_t addrs = 0x69e3f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -974,7 +974,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697b0ac;
+  constexpr static std::size_t addrs = 0x69e3f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -989,7 +989,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b0bc;
+  constexpr static std::size_t addrs = 0x69e3f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1004,7 +1004,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b0c4;
+  constexpr static std::size_t addrs = 0x69e3f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1019,7 +1019,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b0cc;
+  constexpr static std::size_t addrs = 0x69e3f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1034,7 +1034,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b0d4;
+  constexpr static std::size_t addrs = 0x69e3f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1049,7 +1049,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b0dc;
+  constexpr static std::size_t addrs = 0x69e3f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1064,7 +1064,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b0e4;
+  constexpr static std::size_t addrs = 0x69e3f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1079,7 +1079,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697b0ec;
+  constexpr static std::size_t addrs = 0x69e3f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1094,7 +1094,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697b0f8;
+  constexpr static std::size_t addrs = 0x69e3f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1109,7 +1109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x697b104;
+  constexpr static std::size_t addrs = 0x69e3f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1124,7 +1124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b128;
+  constexpr static std::size_t addrs = 0x69e3fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1139,7 +1139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b130;
+  constexpr static std::size_t addrs = 0x69e3fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1154,7 +1154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697b138;
+  constexpr static std::size_t addrs = 0x69e3fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1169,7 +1169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b148;
+  constexpr static std::size_t addrs = 0x69e3fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1184,7 +1184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b150;
+  constexpr static std::size_t addrs = 0x69e3fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1199,7 +1199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b158;
+  constexpr static std::size_t addrs = 0x69e3fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1214,7 +1214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b160;
+  constexpr static std::size_t addrs = 0x69e3fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1229,7 +1229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b168;
+  constexpr static std::size_t addrs = 0x69e3fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1244,7 +1244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b170;
+  constexpr static std::size_t addrs = 0x69e3ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1259,7 +1259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697b178;
+  constexpr static std::size_t addrs = 0x69e3ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1274,7 +1274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697b184;
+  constexpr static std::size_t addrs = 0x69e4008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1289,7 +1289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x697b190;
+  constexpr static std::size_t addrs = 0x69e4014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1304,7 +1304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b1b4;
+  constexpr static std::size_t addrs = 0x69e4038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1319,7 +1319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b1bc;
+  constexpr static std::size_t addrs = 0x69e4040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1334,7 +1334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697b1c4;
+  constexpr static std::size_t addrs = 0x69e4048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1349,7 +1349,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b1d4;
+  constexpr static std::size_t addrs = 0x69e4058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1364,7 +1364,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b1dc;
+  constexpr static std::size_t addrs = 0x69e4060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1379,7 +1379,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b1e4;
+  constexpr static std::size_t addrs = 0x69e4068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1394,7 +1394,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b1ec;
+  constexpr static std::size_t addrs = 0x69e4070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1409,7 +1409,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b1f4;
+  constexpr static std::size_t addrs = 0x69e4078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1424,7 +1424,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b1fc;
+  constexpr static std::size_t addrs = 0x69e4080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1439,7 +1439,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_9)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697b204;
+  constexpr static std::size_t addrs = 0x69e4088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1454,7 +1454,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697b214;
+  constexpr static std::size_t addrs = 0x69e4098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1469,7 +1469,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_11)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x697b220;
+  constexpr static std::size_t addrs = 0x69e40a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1484,7 +1484,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x697b240;
+  constexpr static std::size_t addrs = 0x69e40c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1499,7 +1499,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x697b25c;
+  constexpr static std::size_t addrs = 0x69e40e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1514,7 +1514,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_2)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x697b270;
+  constexpr static std::size_t addrs = 0x69e40f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1529,7 +1529,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_3)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x697b2e4;
+  constexpr static std::size_t addrs = 0x69e4168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1544,7 +1544,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_4)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x697b300;
+  constexpr static std::size_t addrs = 0x69e4184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1559,7 +1559,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_5)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x697b320;
+  constexpr static std::size_t addrs = 0x69e41a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1574,7 +1574,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_6)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x697b340;
+  constexpr static std::size_t addrs = 0x69e41c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1589,7 +1589,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_7)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x697b354;
+  constexpr static std::size_t addrs = 0x69e41d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1604,7 +1604,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_8)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x697b368;
+  constexpr static std::size_t addrs = 0x69e41ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1619,7 +1619,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_9)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x697b380;
+  constexpr static std::size_t addrs = 0x69e4204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1634,7 +1634,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697b398;
+  constexpr static std::size_t addrs = 0x69e421c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1649,7 +1649,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x697b3a4;
+  constexpr static std::size_t addrs = 0x69e4228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1664,7 +1664,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x697b3c8;
+  constexpr static std::size_t addrs = 0x69e424c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1679,7 +1679,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x697b3e4;
+  constexpr static std::size_t addrs = 0x69e4268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1694,7 +1694,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_2)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x697b3f8;
+  constexpr static std::size_t addrs = 0x69e427c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1709,7 +1709,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_3)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x697b46c;
+  constexpr static std::size_t addrs = 0x69e42f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1724,7 +1724,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_4)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x697b488;
+  constexpr static std::size_t addrs = 0x69e430c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1739,7 +1739,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_5)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x697b4a8;
+  constexpr static std::size_t addrs = 0x69e432c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1754,7 +1754,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_6)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x697b4c8;
+  constexpr static std::size_t addrs = 0x69e434c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1769,7 +1769,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_7)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x697b4dc;
+  constexpr static std::size_t addrs = 0x69e4360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1784,7 +1784,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_8)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x697b4f0;
+  constexpr static std::size_t addrs = 0x69e4374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1799,7 +1799,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_9)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x697b508;
+  constexpr static std::size_t addrs = 0x69e438c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1814,7 +1814,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697b520;
+  constexpr static std::size_t addrs = 0x69e43a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1829,7 +1829,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x697b52c;
+  constexpr static std::size_t addrs = 0x69e43b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1844,7 +1844,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697b550;
+  constexpr static std::size_t addrs = 0x69e43d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1859,7 +1859,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_1)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697b560;
+  constexpr static std::size_t addrs = 0x69e43e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1874,7 +1874,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697b570;
+  constexpr static std::size_t addrs = 0x69e43f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1889,7 +1889,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_3)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697b580;
+  constexpr static std::size_t addrs = 0x69e4404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1904,7 +1904,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_4)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697b590;
+  constexpr static std::size_t addrs = 0x69e4414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1919,7 +1919,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_5)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697b5a0;
+  constexpr static std::size_t addrs = 0x69e4424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1934,7 +1934,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_6)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697b5b0;
+  constexpr static std::size_t addrs = 0x69e4434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1949,7 +1949,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_7)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697b5c0;
+  constexpr static std::size_t addrs = 0x69e4444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1964,7 +1964,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_8)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697b5d0;
+  constexpr static std::size_t addrs = 0x69e4454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1979,7 +1979,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_9)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x697b5e0;
+  constexpr static std::size_t addrs = 0x69e4464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1994,7 +1994,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_10)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x697b5f8;
+  constexpr static std::size_t addrs = 0x69e447c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2009,7 +2009,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_11)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x697b610;
+  constexpr static std::size_t addrs = 0x69e4494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2024,7 +2024,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x697b63c;
+  constexpr static std::size_t addrs = 0x69e44c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2039,7 +2039,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_1)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x697b6ac;
+  constexpr static std::size_t addrs = 0x69e4530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2054,7 +2054,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b6bc;
+  constexpr static std::size_t addrs = 0x69e4540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2069,7 +2069,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b6c4;
+  constexpr static std::size_t addrs = 0x69e4548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2084,7 +2084,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b6cc;
+  constexpr static std::size_t addrs = 0x69e4550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2099,7 +2099,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b6d4;
+  constexpr static std::size_t addrs = 0x69e4558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2114,7 +2114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b6dc;
+  constexpr static std::size_t addrs = 0x69e4560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2129,7 +2129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b6e4;
+  constexpr static std::size_t addrs = 0x69e4568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2144,7 +2144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b6ec;
+  constexpr static std::size_t addrs = 0x69e4570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2159,7 +2159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_9)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x697b6f4;
+  constexpr static std::size_t addrs = 0x69e4578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2174,7 +2174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697b6fc;
+  constexpr static std::size_t addrs = 0x69e4580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2189,7 +2189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_11)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697b708;
+  constexpr static std::size_t addrs = 0x69e458c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2204,7 +2204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_12)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x697b714;
+  constexpr static std::size_t addrs = 0x69e4598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2219,7 +2219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_13)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x697b738;
+  constexpr static std::size_t addrs = 0x69e45bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2234,7 +2234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_0)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x697b764;
+  constexpr static std::size_t addrs = 0x69e45e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2249,7 +2249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_1)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x697b798;
+  constexpr static std::size_t addrs = 0x69e461c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2264,7 +2264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_2)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x697b7c4;
+  constexpr static std::size_t addrs = 0x69e4648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2279,7 +2279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_3)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x697b8a8;
+  constexpr static std::size_t addrs = 0x69e472c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2294,7 +2294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_4)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x697b8d4;
+  constexpr static std::size_t addrs = 0x69e4758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2309,7 +2309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_5)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697b994;
+  constexpr static std::size_t addrs = 0x69e4818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2324,7 +2324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_6)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x697b9a0;
+  constexpr static std::size_t addrs = 0x69e4824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2339,7 +2339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_7)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697ba60;
+  constexpr static std::size_t addrs = 0x69e48e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2354,7 +2354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_8)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x697ba6c;
+  constexpr static std::size_t addrs = 0x69e48f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2369,7 +2369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697bb2c;
+  constexpr static std::size_t addrs = 0x69e49b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2384,7 +2384,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_10)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x697bb38;
+  constexpr static std::size_t addrs = 0x69e49bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2399,7 +2399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_11)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697bbf4;
+  constexpr static std::size_t addrs = 0x69e4a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2414,7 +2414,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_12)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x697bc00;
+  constexpr static std::size_t addrs = 0x69e4a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2429,7 +2429,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_13)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697bcc0;
+  constexpr static std::size_t addrs = 0x69e4b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2444,7 +2444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_14)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x697bccc;
+  constexpr static std::size_t addrs = 0x69e4b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2459,7 +2459,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_15)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697bd8c;
+  constexpr static std::size_t addrs = 0x69e4c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2474,7 +2474,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_16)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x697bd98;
+  constexpr static std::size_t addrs = 0x69e4c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2489,7 +2489,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_17)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697be58;
+  constexpr static std::size_t addrs = 0x69e4cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2504,7 +2504,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_18)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x697be64;
+  constexpr static std::size_t addrs = 0x69e4ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2519,7 +2519,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_19)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x697bf20;
+  constexpr static std::size_t addrs = 0x69e4da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2534,7 +2534,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_20)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x697bf2c;
+  constexpr static std::size_t addrs = 0x69e4db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2549,7 +2549,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_21)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x697bfe8;
+  constexpr static std::size_t addrs = 0x69e4e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2564,7 +2564,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_22)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x697c050;
+  constexpr static std::size_t addrs = 0x69e4ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2579,7 +2579,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_23)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x697c070;
+  constexpr static std::size_t addrs = 0x69e4ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2594,7 +2594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_0)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x697c0d8;
+  constexpr static std::size_t addrs = 0x69e4f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2609,7 +2609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_1)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x697c104;
+  constexpr static std::size_t addrs = 0x69e4f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2624,7 +2624,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_2)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x697c138;
+  constexpr static std::size_t addrs = 0x69e4fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2639,7 +2639,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_3)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x697c164;
+  constexpr static std::size_t addrs = 0x69e4fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2654,7 +2654,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_4)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x697c190;
+  constexpr static std::size_t addrs = 0x69e5014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2669,7 +2669,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_5)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x697c1bc;
+  constexpr static std::size_t addrs = 0x69e5040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2684,7 +2684,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_6)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x697c1e8;
+  constexpr static std::size_t addrs = 0x69e506c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2699,7 +2699,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_7)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x697c214;
+  constexpr static std::size_t addrs = 0x69e5098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2714,7 +2714,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_8)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x697c240;
+  constexpr static std::size_t addrs = 0x69e50c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2729,7 +2729,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_9)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x697c26c;
+  constexpr static std::size_t addrs = 0x69e50f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2744,7 +2744,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_10)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x697c298;
+  constexpr static std::size_t addrs = 0x69e511c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2759,7 +2759,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::ByRef<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_11)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x697c2c4;
+  constexpr static std::size_t addrs = 0x69e5148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -5538,7 +5538,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::Register)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x696e1f4;
+  constexpr static std::size_t addrs = 0x69d7078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::TypeConversion_PrimitiveConverters*>::get(),
@@ -5551,7 +5551,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterInt8Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x696e414;
+  constexpr static std::size_t addrs = 0x69d7298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::TypeConversion_PrimitiveConverters*>::get(),
@@ -5564,7 +5564,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterInt16Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x696f160;
+  constexpr static std::size_t addrs = 0x69d7fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::TypeConversion_PrimitiveConverters*>::get(),
@@ -5577,7 +5577,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterInt32Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x696feac;
+  constexpr static std::size_t addrs = 0x69d8d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::TypeConversion_PrimitiveConverters*>::get(),
@@ -5590,7 +5590,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterInt64Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6970bf8;
+  constexpr static std::size_t addrs = 0x69d9a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::TypeConversion_PrimitiveConverters*>::get(),
@@ -5603,7 +5603,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterUInt8Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6971944;
+  constexpr static std::size_t addrs = 0x69da7c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::TypeConversion_PrimitiveConverters*>::get(),
@@ -5616,7 +5616,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterUInt16Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6972690;
+  constexpr static std::size_t addrs = 0x69db514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::TypeConversion_PrimitiveConverters*>::get(),
@@ -5629,7 +5629,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterUInt32Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x69733dc;
+  constexpr static std::size_t addrs = 0x69dc260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::TypeConversion_PrimitiveConverters*>::get(),
@@ -5642,7 +5642,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterUInt64Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6974128;
+  constexpr static std::size_t addrs = 0x69dcfac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::TypeConversion_PrimitiveConverters*>::get(),
@@ -5655,7 +5655,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterFloat32Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6974e74;
+  constexpr static std::size_t addrs = 0x69ddcf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::TypeConversion_PrimitiveConverters*>::get(),
@@ -5668,7 +5668,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterFloat64Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6975bc0;
+  constexpr static std::size_t addrs = 0x69dea44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::TypeConversion_PrimitiveConverters*>::get(),
@@ -5681,7 +5681,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterBooleanConverters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x697690c;
+  constexpr static std::size_t addrs = 0x69df790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::TypeConversion_PrimitiveConverters*>::get(),
@@ -5694,7 +5694,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterCharConverters)> {
   constexpr static std::size_t size = 0xf74;
-  constexpr static std::size_t addrs = 0x6977658;
+  constexpr static std::size_t addrs = 0x69e04dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::TypeConversion_PrimitiveConverters*>::get(),
@@ -5707,7 +5707,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterStringConverters)> {
   constexpr static std::size_t size = 0x1a48;
-  constexpr static std::size_t addrs = 0x69785cc;
+  constexpr static std::size_t addrs = 0x69e1450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::TypeConversion_PrimitiveConverters*>::get(),
@@ -5720,7 +5720,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterObjectConverters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x697a014;
+  constexpr static std::size_t addrs = 0x69e2e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::TypeConversion_PrimitiveConverters*>::get(),
@@ -5810,7 +5810,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Unity::Properties::TypeConversion::IsNumericType)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x696e3d4;
+  constexpr static std::size_t addrs = 0x69d7258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

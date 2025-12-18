@@ -12,8 +12,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::EnvironmentKeywords* (*)(::GlobalNamespace::IEnvironmentInfo*, ::GlobalNamespace::BeatmapLevelDataVersion)>(
         &::GlobalNamespace::BeatmapDataLoaderUtils::GetEnvironmentKeywords)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x35eaac0;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x36159f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IEnvironmentLightGroups* (*)(::GlobalNamespace::IEnvironmentInfo*)>(
     &::GlobalNamespace::BeatmapDataLoaderUtils::GetEnvironmentLightGroups)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x35eac2c;
+  constexpr static std::size_t addrs = 0x3615b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

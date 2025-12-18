@@ -61,6 +61,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE IConnectionManager {
 public:
   // Declarations
+  __declspec(property(get = get_compatibilityVersion)) ::StringW compatibilityVersion;
+
   __declspec(property(get = get_connectionCount)) int32_t connectionCount;
 
   __declspec(property(get = get_isConnected)) bool isConnected;
@@ -122,6 +124,9 @@ public:
   /// @brief Method add_onReceivedDataEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void add_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
+  /// @brief Method get_compatibilityVersion, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW get_compatibilityVersion();
+
   /// @brief Method get_connectionCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_connectionCount();
 
@@ -181,7 +186,7 @@ public:
   IConnectionManager(IConnectionManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18136 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

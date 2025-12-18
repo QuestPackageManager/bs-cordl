@@ -31,10 +31,10 @@ public:
   /// @brief Field ShouldTraceVerbose, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_ShouldTraceVerbose, put = setStaticF_ShouldTraceVerbose)) bool ShouldTraceVerbose;
 
-  /// @brief Method IsEventEnabled, addr 0x5f5fcb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsEventEnabled, addr 0x5fc783c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsEventEnabled(int32_t index);
 
-  /// @brief Method UpdateEventDefinitions, addr 0x5f5fcb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UpdateEventDefinitions, addr 0x5fc7844, size 0x4, virtual false, abstract: false, final false
   static inline void UpdateEventDefinitions(::ArrayW<::System::Runtime::Diagnostics::EventDescriptor, ::Array<::System::Runtime::Diagnostics::EventDescriptor>*> ed,
                                             ::ArrayW<uint16_t, ::Array<uint16_t>*> events);
 
@@ -42,7 +42,7 @@ public:
 
   static inline bool getStaticF_ShouldTraceVerbose();
 
-  /// @brief Method get_Trace, addr 0x5f5fca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Trace, addr 0x5fc7834, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Runtime::Diagnostics::EtwDiagnosticTrace* get_Trace();
 
   static inline void setStaticF_ShouldTraceError(bool value);
@@ -64,7 +64,7 @@ public:
   FxTrace(FxTrace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17122 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

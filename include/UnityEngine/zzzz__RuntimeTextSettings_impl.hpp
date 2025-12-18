@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RuntimeTextSettings> (*)()>(&::UnityEngine::RuntimeTextSettings::get_defaultTextSettings)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x691d6b0;
+  constexpr static std::size_t addrs = 0x6986534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RuntimeTextSettings*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::RuntimeTextSettings::*)()>(
     &::UnityEngine::RuntimeTextSettings::GetFontShader)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x691d770;
+  constexpr static std::size_t addrs = 0x69865f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* (
     ::UnityEngine::RuntimeTextSettings::*)()>(&::UnityEngine::RuntimeTextSettings::GetStaticFallbackOSFontAsset)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x691d7c4;
+  constexpr static std::size_t addrs = 0x6986648;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::RuntimeTextSettings::*)(
     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*)>(&::UnityEngine::RuntimeTextSettings::SetStaticFallbackOSFontAsset)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x691d810;
+  constexpr static std::size_t addrs = 0x6986694;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::RuntimeTextSettings::*)()>(&::UnityEngine::RuntimeTextSettings::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x691d860;
+  constexpr static std::size_t addrs = 0x69866e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RuntimeTextSettings*>::get(), ".ctor",

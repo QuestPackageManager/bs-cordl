@@ -87,31 +87,31 @@ public:
 
   constexpr void __cordl_internal_set_ns(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5f2ee44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f969d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsNameSetExplicitly, addr 0x5f2ee90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNameSetExplicitly, addr 0x5f96a1c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNameSetExplicitly();
 
-  /// @brief Method get_IsNamespaceSetExplicitly, addr 0x5f2ee70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNamespaceSetExplicitly, addr 0x5f969fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNamespaceSetExplicitly();
 
-  /// @brief Method get_IsReference, addr 0x5f2ee48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReference, addr 0x5f969d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReference();
 
-  /// @brief Method get_IsReferenceSetExplicitly, addr 0x5f2ee50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReferenceSetExplicitly, addr 0x5f969dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReferenceSetExplicitly();
 
-  /// @brief Method get_Name, addr 0x5f2ee78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5f96a04, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Namespace, addr 0x5f2ee58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x5f969e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method set_Name, addr 0x5f2ee80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x5f96a0c, size 0x10, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Namespace, addr 0x5f2ee60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_Namespace, addr 0x5f969ec, size 0x10, virtual false, abstract: false, final false
   inline void set_Namespace(::StringW value);
 
 protected:
@@ -129,7 +129,7 @@ public:
   DataContractAttribute(DataContractAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16976 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16990 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;

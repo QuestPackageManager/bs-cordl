@@ -41,27 +41,27 @@ public:
   /// @brief Field valueDidChangeEvent, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_valueDidChangeEvent, put = __cordl_internal_set_valueDidChangeEvent)) ::System::Action_1<int32_t>* valueDidChangeEvent;
 
-  /// @brief Method ApplyValue, addr 0x580aa20, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x586e6fc, size 0x20, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x580a97c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x586e658, size 0xa4, virtual true, abstract: false, final false
   inline bool GetInitValues(::ByRef<int32_t> idx, ::ByRef<int32_t> numberOfElements);
 
-  /// @brief Method GetValue, addr 0x580a87c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x586e558, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetValue();
 
   static inline ::GlobalNamespace::PresetsSettingsController* New_ctor();
 
-  /// @brief Method SetInteractable, addr 0x580a94c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetInteractable, addr 0x586e628, size 0x30, virtual false, abstract: false, final false
   inline void SetInteractable(bool interactable);
 
-  /// @brief Method SetNumberOfElementsLimit, addr 0x580a904, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetNumberOfElementsLimit, addr 0x586e5e0, size 0x48, virtual false, abstract: false, final false
   inline void SetNumberOfElementsLimit(int32_t numberOfElementsLimit);
 
-  /// @brief Method SetValue, addr 0x580a884, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x586e560, size 0x80, virtual false, abstract: false, final false
   inline void SetValue(int32_t index);
 
-  /// @brief Method TextForValue, addr 0x580aa40, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x586e71c, size 0x50, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr int32_t const& __cordl_internal_get__customIndex() const;
@@ -94,13 +94,13 @@ public:
 
   constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x580aa90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x586e76c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueDidChangeEvent, addr 0x580a6fc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_valueDidChangeEvent, addr 0x586e3d8, size 0xc0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_valueDidChangeEvent, addr 0x580a7bc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_valueDidChangeEvent, addr 0x586e498, size 0xc0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
 protected:
@@ -118,7 +118,7 @@ public:
   PresetsSettingsController(PresetsSettingsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6439 };
 
   /// @brief Field _presets, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NamedPresetsSO> ____presets;

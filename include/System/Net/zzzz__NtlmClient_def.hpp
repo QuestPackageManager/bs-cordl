@@ -39,12 +39,12 @@ public:
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
 
-  /// @brief Method Authenticate, addr 0x611eb14, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method Authenticate, addr 0x61866a0, size 0xe0, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
   static inline ::System::Net::NtlmClient* New_ctor();
 
-  /// @brief Method PreAuthenticate, addr 0x611ebf4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method PreAuthenticate, addr 0x6186780, size 0x8, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
   constexpr ::System::Net::IAuthenticationModule* const& __cordl_internal_get_authObject() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_authObject(::System::Net::IAuthenticationModule* value);
 
-  /// @brief Method .ctor, addr 0x611eac4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6186650, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AuthenticationType, addr 0x611ebfc, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x6186788, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
   /// @brief Convert to "::System::Net::IAuthenticationModule"
@@ -77,7 +77,7 @@ public:
   NtlmClient(NtlmClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11596 };
 
   /// @brief Field authObject, offset: 0x10, size: 0x8, def value: None
   ::System::Net::IAuthenticationModule* ___authObject;

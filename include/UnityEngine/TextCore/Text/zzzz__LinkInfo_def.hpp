@@ -23,13 +23,13 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE LinkInfo {
 public:
   // Declarations
-  /// @brief Method GetLinkId, addr 0x6992f38, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetLinkId, addr 0x69fbdbc, size 0x34, virtual false, abstract: false, final false
   inline ::StringW GetLinkId();
 
-  /// @brief Method GetLinkText, addr 0x6992e60, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetLinkText, addr 0x69fbce4, size 0xd8, virtual false, abstract: false, final false
   inline ::StringW GetLinkText(::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method SetLinkId, addr 0x6992d70, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetLinkId, addr 0x69fbbf4, size 0xf0, virtual false, abstract: false, final false
   inline void SetLinkId(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
                      ::ArrayW<char16_t, ::Array<char16_t>*> linkId, ::StringW m_LinkIdString, ::StringW m_LinkTextString) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17167 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17181 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

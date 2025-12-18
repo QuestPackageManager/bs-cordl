@@ -31,13 +31,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x65bd410, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6624f9c, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x65bd414, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6624fa0, size 0x4, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method .ctor, addr 0x65bd40c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6624f98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ProfilingSampler* sampler);
 
   /// @brief Convert to "::System::IDisposable"
@@ -48,7 +48,7 @@ public:
   constexpr RenderGraphProfilingScope();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12388 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12392 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

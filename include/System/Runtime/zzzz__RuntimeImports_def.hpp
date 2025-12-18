@@ -22,16 +22,16 @@ namespace System::Runtime {
 class CORDL_TYPE RuntimeImports : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Memmove, addr 0x590a38c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Memmove, addr 0x5970cd8, size 0x8, virtual false, abstract: false, final false
   static inline void Memmove(uint8_t* dest, uint8_t* src, uint32_t len);
 
-  /// @brief Method Memmove_wbarrier, addr 0x590a394, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Memmove_wbarrier, addr 0x5970ce0, size 0x4, virtual false, abstract: false, final false
   static inline void Memmove_wbarrier(uint8_t* dest, uint8_t* src, uint32_t len, ::System::IntPtr type_handle);
 
-  /// @brief Method RhZeroMemory, addr 0x590a374, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RhZeroMemory, addr 0x5970cc0, size 0xc, virtual false, abstract: false, final false
   static inline void RhZeroMemory(::ByRef<uint8_t> b, uint64_t byteLength);
 
-  /// @brief Method ZeroMemory, addr 0x590a380, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ZeroMemory, addr 0x5970ccc, size 0xc, virtual false, abstract: false, final false
   static inline void ZeroMemory(void* p, uint32_t byteLength);
 
 protected:

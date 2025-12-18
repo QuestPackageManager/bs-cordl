@@ -30,7 +30,7 @@ public:
   constexpr RenderTargetInfo(int32_t width, int32_t height, int32_t volumeDepth, int32_t msaaSamples, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, bool bindMS) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12422 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

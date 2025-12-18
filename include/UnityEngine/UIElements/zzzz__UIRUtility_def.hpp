@@ -43,34 +43,34 @@ public:
   /// @brief Field s_ThreadIndex, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ThreadIndex, put = setStaticF_s_ThreadIndex)) ::System::Nullable_1<int32_t> s_ThreadIndex;
 
-  /// @brief Method ComputeTransformMatrix, addr 0x6ba474c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ComputeTransformMatrix, addr 0x6c0d5d0, size 0x12c, virtual false, abstract: false, final false
   static inline void ComputeTransformMatrix(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElement* ancestor, ::ByRef<::UnityEngine::Matrix4x4> result);
 
-  /// @brief Method Destroy, addr 0x6ba4b0c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6c0d990, size 0xf8, virtual false, abstract: false, final false
   static inline void Destroy(::UnityEngine::Object* obj);
 
-  /// @brief Method GetNextPow2, addr 0x6ba4c3c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetNextPow2, addr 0x6c0dac0, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t GetNextPow2(int32_t n);
 
-  /// @brief Method GetNextPow2Exp, addr 0x6ba4c58, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetNextPow2Exp, addr 0x6c0dadc, size 0x30, virtual false, abstract: false, final false
   static inline int32_t GetNextPow2Exp(int32_t n);
 
-  /// @brief Method GetPrevPow2, addr 0x6ba4c04, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetPrevPow2, addr 0x6c0da88, size 0x38, virtual false, abstract: false, final false
   static inline int32_t GetPrevPow2(int32_t n);
 
-  /// @brief Method GetThreadIndex, addr 0x6ba4c88, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetThreadIndex, addr 0x6c0db0c, size 0x144, virtual false, abstract: false, final false
   static inline int32_t GetThreadIndex();
 
-  /// @brief Method GetVerticesTransformInfo, addr 0x6ba45c0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetVerticesTransformInfo, addr 0x6c0d444, size 0x18c, virtual false, abstract: false, final false
   static inline void GetVerticesTransformInfo(::UnityEngine::UIElements::VisualElement* ve, ::ByRef<::UnityEngine::Matrix4x4> transform);
 
-  /// @brief Method IsRoundRect, addr 0x6ba4878, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method IsRoundRect, addr 0x6c0d6fc, size 0x208, virtual false, abstract: false, final false
   static inline bool IsRoundRect(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsVectorImageBackground, addr 0x6ba4a80, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsVectorImageBackground, addr 0x6c0d904, size 0x84, virtual false, abstract: false, final false
   static inline bool IsVectorImageBackground(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method ShapeWindingIsClockwise, addr 0x6ba4540, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ShapeWindingIsClockwise, addr 0x6c0d3c4, size 0x80, virtual false, abstract: false, final false
   static inline bool ShapeWindingIsClockwise(int32_t maskDepth, int32_t stencilRef);
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_ComputeTransformMatrixMarker();

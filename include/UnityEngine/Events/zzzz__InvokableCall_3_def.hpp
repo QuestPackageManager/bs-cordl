@@ -67,7 +67,7 @@ public:
   InvokableCall_3(InvokableCall_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10424 };
 
   /// @brief Field Delegate, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Events::UnityAction_3<T1, T2, T3>* ___Delegate;

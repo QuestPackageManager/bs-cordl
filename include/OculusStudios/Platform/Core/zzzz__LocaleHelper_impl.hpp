@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::OculusStudios::Platform::Core::LocaleHelper::GetSystemLocale)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5d199ac;
+  constexpr static std::size_t addrs = 0x5d8048c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::Platform::Core::LocaleHelper*>::get(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::SystemLanguage)>(&::OculusStudios::Platform::Core::LocaleHelper::ToLocale)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x5d19a1c;
+  constexpr static std::size_t addrs = 0x5d804fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

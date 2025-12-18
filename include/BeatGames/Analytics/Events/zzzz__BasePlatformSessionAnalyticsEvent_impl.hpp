@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IDType (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)()>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::GetIDType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31615d8;
+  constexpr static std::size_t addrs = 0x31912d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)()>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::EventRequiresAnalyticsID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31615e0;
+  constexpr static std::size_t addrs = 0x31912d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)()>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::ReturnedToPool)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x31615e8;
+  constexpr static std::size_t addrs = 0x31912e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::ApplyTime)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3161604;
+  constexpr static std::size_t addrs = 0x31912fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::ApplyBasicFields)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3161640;
+  constexpr static std::size_t addrs = 0x3191338;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)()>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3161b28;
+  constexpr static std::size_t addrs = 0x3191820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

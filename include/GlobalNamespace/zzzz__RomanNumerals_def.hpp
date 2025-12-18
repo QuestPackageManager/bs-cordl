@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE RomanNumerals : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToRomanNumeralString, addr 0x570ee20, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ToRomanNumeralString, addr 0x576cc08, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW ToRomanNumeralString(int32_t input);
 
 protected:
@@ -38,7 +38,7 @@ public:
   RomanNumerals(RomanNumerals const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6732 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

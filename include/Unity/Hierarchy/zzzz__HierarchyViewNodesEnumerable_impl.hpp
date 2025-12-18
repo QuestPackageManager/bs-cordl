@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate::*)(::System::Object*, ::System::IntPtr)>(
     &::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6903fcc;
+  constexpr static std::size_t addrs = 0x696ce50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate::*)(
     ::ByRef<::Unity::Hierarchy::HierarchyNode>, ::Unity::Hierarchy::HierarchyNodeFlags)>(&::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x690404c;
+  constexpr static std::size_t addrs = 0x696ced0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Hierarchy::HierarchyViewNodesEnumerable_Enumerator::*)(
     ::Unity::Hierarchy::HierarchyViewNodesEnumerable)>(&::Unity::Hierarchy::HierarchyViewNodesEnumerable_Enumerator::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6903f84;
+  constexpr static std::size_t addrs = 0x696ce08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::Unity::Hierarchy::HierarchyNode> (::Unity::Hierarchy::HierarchyViewNodesEnumerable_Enumerator::*)()>(
     &::Unity::Hierarchy::HierarchyViewNodesEnumerable_Enumerator::get_Current)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6904068;
+  constexpr static std::size_t addrs = 0x696ceec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Hierarchy::HierarchyViewNodesEnumerable_Enumerator::*)()>(
     &::Unity::Hierarchy::HierarchyViewNodesEnumerable_Enumerator::MoveNext)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x69040ec;
+  constexpr static std::size_t addrs = 0x696cf70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Hierarchy::HierarchyViewNodesEnumerable_Enumerator::*)()>(
     &::Unity::Hierarchy::HierarchyViewNodesEnumerable_Enumerator::ThrowIfVersionChanged)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69041c0;
+  constexpr static std::size_t addrs = 0x696d044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Unity::Hierarchy::HierarchyViewModel*, ::Unity::Hierarchy::HierarchyNodeFlags, ::Unity::Hierarchy::HierarchyViewNodesEnumerable_Predicate*)>(
     &::Unity::Hierarchy::HierarchyViewNodesEnumerable::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6903ec0;
+  constexpr static std::size_t addrs = 0x696cd44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Hierarchy::HierarchyViewNodesEnumerable_Enumerator (::Unity::Hierarchy::HierarchyViewNodesEnumerable::*)()>(
     &::Unity::Hierarchy::HierarchyViewNodesEnumerable::GetEnumerator)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6903f48;
+  constexpr static std::size_t addrs = 0x696cdcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Hierarchy::HierarchyViewNodesEnumerable>::get(),

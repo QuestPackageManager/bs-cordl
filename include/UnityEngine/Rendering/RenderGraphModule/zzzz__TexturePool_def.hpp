@@ -23,24 +23,24 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class CORDL_TYPE TexturePool : public ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<::UnityEngine::Rendering::RTHandle*> {
 public:
   // Declarations
-  /// @brief Method GetResourceName, addr 0x65cc974, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetResourceName, addr 0x6634500, size 0x20, virtual true, abstract: false, final false
   inline ::StringW GetResourceName(::ByRef<::UnityEngine::Rendering::RTHandle*> res);
 
-  /// @brief Method GetResourceSize, addr 0x65cc994, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetResourceSize, addr 0x6634520, size 0x1c, virtual true, abstract: false, final false
   inline int64_t GetResourceSize(::ByRef<::UnityEngine::Rendering::RTHandle*> res);
 
-  /// @brief Method GetResourceTypeName, addr 0x65cc9b0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetResourceTypeName, addr 0x663453c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetResourceTypeName();
 
-  /// @brief Method GetSortIndex, addr 0x65cc9f4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetSortIndex, addr 0x6634580, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetSortIndex(::UnityEngine::Rendering::RTHandle* res);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::TexturePool* New_ctor();
 
-  /// @brief Method ReleaseInternalResource, addr 0x65cc95c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method ReleaseInternalResource, addr 0x66344e8, size 0x18, virtual true, abstract: false, final false
   inline void ReleaseInternalResource(::UnityEngine::Rendering::RTHandle* res);
 
-  /// @brief Method .ctor, addr 0x65c7084, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x662ec10, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   TexturePool(TexturePool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12442 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

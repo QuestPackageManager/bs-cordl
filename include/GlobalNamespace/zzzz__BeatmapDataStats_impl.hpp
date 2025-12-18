@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Span_1<int32_t> (*)(::ArrayW<::GlobalNamespace::BeatmapDataItem*, ::Array<::GlobalNamespace::BeatmapDataItem*>*>)>(&::GlobalNamespace::BeatmapDataStats::CountItems)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x56fc534;
+  constexpr static std::size_t addrs = 0x5758f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (*)(::ArrayW<::GlobalNamespace::BeatmapDataItem*, ::Array<::GlobalNamespace::BeatmapDataItem*>*>, ::System::Span_1<int32_t>, ::System::Span_1<int32_t>)>(
         &::GlobalNamespace::BeatmapDataStats::CountItems)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x56fc70c;
+  constexpr static std::size_t addrs = 0x57590e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Span_1<int32_t>)>(&::GlobalNamespace::BeatmapDataStats::SumCounts)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x56fcafc;
+  constexpr static std::size_t addrs = 0x57594d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Span_1<int32_t>)>(&::GlobalNamespace::BeatmapDataStats::GenerateReport)> {
   constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x56fcb70;
+  constexpr static std::size_t addrs = 0x575954c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

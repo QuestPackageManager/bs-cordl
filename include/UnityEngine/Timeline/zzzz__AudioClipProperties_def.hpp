@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_volume(float_t value);
 
-  /// @brief Method .ctor, addr 0x679f380, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6806ef8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,7 +48,7 @@ public:
   AudioClipProperties(AudioClipProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19013 };
 
   /// @brief Field volume, offset: 0x10, size: 0x4, def value: None
   float_t ___volume;

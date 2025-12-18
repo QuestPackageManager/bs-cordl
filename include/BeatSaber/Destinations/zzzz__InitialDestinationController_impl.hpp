@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Destinations::InitialDestinationController__InitializeInternalAsync_d__12::*)()>(
     &::BeatSaber::Destinations::InitialDestinationController__InitializeInternalAsync_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x3181fb4;
+  constexpr static std::size_t addrs = 0x31b1de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Destinations::InitialDestinationController__InitializeInternalAsync_d__12::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::Destinations::InitialDestinationController__InitializeInternalAsync_d__12::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3182280;
+  constexpr static std::size_t addrs = 0x31b20ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Destinations::Destination* (::BeatSaber::Destinations::InitialDestinationController::*)()>(
     &::BeatSaber::Destinations::InitialDestinationController::get_initialDestination)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3181bf8;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x31b1924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Destinations::InitialDestinationController*>::get(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::BeatSaber::Destinations::DestinationSource)>(
     &::BeatSaber::Destinations::InitialDestinationController::GetDestinationSourcePriority)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3181c10;
+  constexpr static std::size_t addrs = 0x31b198c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,8 +112,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Destinations::InitialDestinationController::*)(
     ::BeatSaber::Destinations::DestinationSource, ::BeatSaber::Destinations::Destination*)>(&::BeatSaber::Destinations::InitialDestinationController::OverrideDestination)> {
-  constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x3181c14;
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x31b1990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::Destinations::InitialDestinationController::*)()>(
     &::BeatSaber::Destinations::InitialDestinationController::InitializeScenesAsync)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3181e2c;
+  constexpr static std::size_t addrs = 0x31b1bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Destinations::InitialDestinationController*>::get(),
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Destinations::InitialDestinationController::*)(
     ::BeatSaber::Destinations::IInitialDestinationResolver*)>(&::BeatSaber::Destinations::InitialDestinationController::SetDestinationResolver)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3181f44;
+  constexpr static std::size_t addrs = 0x31b1ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Destinations::InitialDestinationController::*)()>(
     &::BeatSaber::Destinations::InitialDestinationController::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3181fa0;
+  constexpr static std::size_t addrs = 0x31b1d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Destinations::InitialDestinationController*>::get(),
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::Destinations::InitialDestinationController::*)()>(
     &::BeatSaber::Destinations::InitialDestinationController::InitializeInternalAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3181e94;
+  constexpr static std::size_t addrs = 0x31b1c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Destinations::InitialDestinationController*>::get(),
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Destinations::InitialDestinationController::*)()>(
     &::BeatSaber::Destinations::InitialDestinationController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3181fb0;
+  constexpr static std::size_t addrs = 0x31b1d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Destinations::InitialDestinationController*>::get(),
@@ -194,18 +194,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::BeatSaber::Destinations::Destination*& BeatSaber::Destinations::InitialDestinationController::__cordl_internal_get__defaultInitialDestination() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____defaultInitialDestination;
-}
-constexpr ::BeatSaber::Destinations::Destination* const& BeatSaber::Destinations::InitialDestinationController::__cordl_internal_get__defaultInitialDestination() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____defaultInitialDestination;
-}
-constexpr void BeatSaber::Destinations::InitialDestinationController::__cordl_internal_set__defaultInitialDestination(::BeatSaber::Destinations::Destination* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultInitialDestination)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::BeatSaber::Destinations::Destination*& BeatSaber::Destinations::InitialDestinationController::__cordl_internal_get__initialDestinationOverride() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialDestinationOverride;
@@ -253,6 +241,15 @@ constexpr ::System::Threading::Tasks::Task* const& BeatSaber::Destinations::Init
 constexpr void BeatSaber::Destinations::InitialDestinationController::__cordl_internal_set__initializationTask(::System::Threading::Tasks::Task* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initializationTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void BeatSaber::Destinations::InitialDestinationController::setStaticF_kDefaultInitialDestination(::BeatSaber::Destinations::Destination* value) {
+  ::cordl_internals::setStaticField<::BeatSaber::Destinations::Destination*, "kDefaultInitialDestination",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Destinations::InitialDestinationController*>::get>(
+      std::forward<::BeatSaber::Destinations::Destination*>(value));
+}
+inline ::BeatSaber::Destinations::Destination* BeatSaber::Destinations::InitialDestinationController::getStaticF_kDefaultInitialDestination() {
+  return ::cordl_internals::getStaticField<::BeatSaber::Destinations::Destination*, "kDefaultInitialDestination",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Destinations::InitialDestinationController*>::get>();
 }
 inline ::BeatSaber::Destinations::Destination* BeatSaber::Destinations::InitialDestinationController::get_initialDestination() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Destinations::InitialDestinationController*>::get(),

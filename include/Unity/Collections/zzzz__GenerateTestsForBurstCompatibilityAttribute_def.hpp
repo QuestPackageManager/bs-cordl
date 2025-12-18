@@ -67,7 +67,7 @@ public:
   static ::Unity::Collections::GenerateTestsForBurstCompatibilityAttribute_BurstCompatibleCompileTarget const PlayerAndEditor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15592 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -126,13 +126,13 @@ public:
 
   constexpr void __cordl_internal_set__GenericTypeArguments_k__BackingField(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method .ctor, addr 0x62a3e50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x630b9dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_GenericTypeArguments, addr 0x62a3e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GenericTypeArguments, addr 0x630b9cc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> get_GenericTypeArguments();
 
-  /// @brief Method set_GenericTypeArguments, addr 0x62a3e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GenericTypeArguments, addr 0x630b9d4, size 0x8, virtual false, abstract: false, final false
   inline void set_GenericTypeArguments(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
 protected:
@@ -150,7 +150,7 @@ public:
   GenerateTestsForBurstCompatibilityAttribute(GenerateTestsForBurstCompatibilityAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15579 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15593 };
 
   /// @brief Field <GenericTypeArguments>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Type*, ::Array<::System::Type*>*> ____GenericTypeArguments_k__BackingField;

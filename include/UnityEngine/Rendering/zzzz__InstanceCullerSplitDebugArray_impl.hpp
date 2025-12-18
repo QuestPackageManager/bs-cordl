@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<int32_t> (::UnityEngine::Rendering::InstanceCullerSplitDebugArray::*)()>(
     &::UnityEngine::Rendering::InstanceCullerSplitDebugArray::get_Counters)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65f9c64;
+  constexpr static std::size_t addrs = 0x66617f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::InstanceCullerSplitDebugArray>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::InstanceCullerSplitDebugArray::*)()>(
     &::UnityEngine::Rendering::InstanceCullerSplitDebugArray::Init)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x65f9c70;
+  constexpr static std::size_t addrs = 0x66617fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::InstanceCullerSplitDebugArray>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::InstanceCullerSplitDebugArray::*)()>(
     &::UnityEngine::Rendering::InstanceCullerSplitDebugArray::Dispose)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x65f9d48;
+  constexpr static std::size_t addrs = 0x66618d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::InstanceCullerSplitDebugArray>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::InstanceCullerSplitDebugArray::*)(
     ::UnityEngine::Rendering::BatchCullingViewType, int32_t, int32_t)>(&::UnityEngine::Rendering::InstanceCullerSplitDebugArray::TryAddSplits)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x65f9ddc;
+  constexpr static std::size_t addrs = 0x6661968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::InstanceCullerSplitDebugArray::*)(int32_t, ::Unity::Jobs::JobHandle)>(
     &::UnityEngine::Rendering::InstanceCullerSplitDebugArray::AddSync)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x65f9ec4;
+  constexpr static std::size_t addrs = 0x6661a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::InstanceCullerSplitDebugArray::*)(
     ::UnityEngine::Rendering::DebugRendererBatcherStats*)>(&::UnityEngine::Rendering::InstanceCullerSplitDebugArray::MoveToDebugStatsAndClear)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x65f9f50;
+  constexpr static std::size_t addrs = 0x6661adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -33,16 +33,16 @@ public:
   /// @brief Field s_projMatrix, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_projMatrix, put = setStaticF_s_projMatrix)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> s_projMatrix;
 
-  /// @brief Method BeginLateLatching, addr 0x66c8c98, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method BeginLateLatching, addr 0x6730824, size 0xdc, virtual false, abstract: false, final false
   static inline void BeginLateLatching(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::XRPassUniversal* xrPass);
 
-  /// @brief Method EndLateLatching, addr 0x66c8d74, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method EndLateLatching, addr 0x6730900, size 0xc8, virtual false, abstract: false, final false
   static inline void EndLateLatching(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::XRPassUniversal* xrPass);
 
-  /// @brief Method MarkShaderProperties, addr 0x66c8ec8, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method MarkShaderProperties, addr 0x6730a54, size 0x240, virtual false, abstract: false, final false
   static inline void MarkShaderProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::XRPassUniversal* xrPass, bool renderIntoTexture);
 
-  /// @brief Method UnmarkShaderProperties, addr 0x66c8e3c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UnmarkShaderProperties, addr 0x67309c8, size 0x8c, virtual false, abstract: false, final false
   static inline void UnmarkShaderProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::XRPassUniversal* xrPass);
 
   static inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> getStaticF_s_projMatrix();
@@ -64,7 +64,7 @@ public:
   XRSystemUniversal(XRSystemUniversal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13024 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

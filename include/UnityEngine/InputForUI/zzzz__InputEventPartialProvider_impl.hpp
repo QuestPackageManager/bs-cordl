@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputForUI::InputEventPartialProvider::*)()>(
     &::UnityEngine::InputForUI::InputEventPartialProvider::Initialize)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x69280a8;
+  constexpr static std::size_t addrs = 0x6990f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputForUI::InputEventPartialProvider*>::get(),
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputForUI::InputEventPartialProvider::*)()>(
     &::UnityEngine::InputForUI::InputEventPartialProvider::Shutdown)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6928258;
+  constexpr static std::size_t addrs = 0x69910dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputForUI::InputEventPartialProvider*>::get(),
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputForUI::InputEventPartialProvider::*)()>(
     &::UnityEngine::InputForUI::InputEventPartialProvider::Update)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x692825c;
+  constexpr static std::size_t addrs = 0x69910e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputForUI::InputEventPartialProvider*>::get(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputForUI::InputEventPartialProvider::*)(bool)>(
     &::UnityEngine::InputForUI::InputEventPartialProvider::OnFocusChanged)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6928d28;
+  constexpr static std::size_t addrs = 0x6991bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputForUI::InputEventPartialProvider::*)(::UnityEngine::InputForUI::Event_Type)>(
     &::UnityEngine::InputForUI::InputEventPartialProvider::RequestCurrentState)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6928ea0;
+  constexpr static std::size_t addrs = 0x6991d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::IntegerTime::DiscreteTime (::UnityEngine::InputForUI::InputEventPartialProvider::*)(
     ::ByRef<::UnityEngine::Event*>)>(&::UnityEngine::InputForUI::InputEventPartialProvider::GetTimestamp)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6928fe8;
+  constexpr static std::size_t addrs = 0x6991e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputForUI::InputEventPartialProvider::*)(::ByRef<::UnityEngine::Event*>)>(
     &::UnityEngine::InputForUI::InputEventPartialProvider::UpdateEventModifiers)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x692853c;
+  constexpr static std::size_t addrs = 0x69913c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputForUI::KeyEvent (::UnityEngine::InputForUI::InputEventPartialProvider::*)(
     ::ByRef<::UnityEngine::Event*>)>(&::UnityEngine::InputForUI::InputEventPartialProvider::ToKeyEvent)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x692882c;
+  constexpr static std::size_t addrs = 0x69916b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputForUI::TextInputEvent (::UnityEngine::InputForUI::InputEventPartialProvider::*)(
     ::ByRef<::UnityEngine::Event*>)>(&::UnityEngine::InputForUI::InputEventPartialProvider::ToTextInputEvent)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6928b04;
+  constexpr static std::size_t addrs = 0x6991988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputForUI::InputEventPartialProvider::*)(::ByRef<::UnityEngine::Event*>)>(
     &::UnityEngine::InputForUI::InputEventPartialProvider::SendNextOrPreviousNavigationEventOnTabKeyDownEvent)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x692899c;
+  constexpr static std::size_t addrs = 0x6991820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputForUI::CommandEvent (::UnityEngine::InputForUI::InputEventPartialProvider::*)(
     ::ByRef<::UnityEngine::Event*>)>(&::UnityEngine::InputForUI::InputEventPartialProvider::ToCommandEvent)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x6928b6c;
+  constexpr static std::size_t addrs = 0x69919f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputForUI::InputEventPartialProvider::*)()>(
     &::UnityEngine::InputForUI::InputEventPartialProvider::_ctor)> {
   constexpr static std::size_t size = 0x674;
-  constexpr static std::size_t addrs = 0x6929000;
+  constexpr static std::size_t addrs = 0x6991e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputForUI::InputEventPartialProvider*>::get(),

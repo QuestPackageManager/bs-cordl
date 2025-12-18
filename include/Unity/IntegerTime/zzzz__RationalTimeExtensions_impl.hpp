@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::IntegerTime::RationalTime (*)(
     ::Unity::IntegerTime::RationalTime, ::Unity::IntegerTime::RationalTime_TicksPerSecond)>(&::Unity::IntegerTime::RationalTimeExtensions::Convert)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6828484;
+  constexpr static std::size_t addrs = 0x688fffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ByRef<::Unity::IntegerTime::RationalTime>, ::ByRef<::Unity::IntegerTime::RationalTime_TicksPerSecond>, ::ByRef<::Unity::IntegerTime::RationalTime>)>(
         &::Unity::IntegerTime::RationalTimeExtensions::Convert_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6828990;
+  constexpr static std::size_t addrs = 0x6890508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

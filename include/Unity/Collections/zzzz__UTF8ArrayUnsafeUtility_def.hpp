@@ -39,7 +39,7 @@ namespace Unity::Collections {
 struct CORDL_TYPE UTF8ArrayUnsafeUtility_Comparison {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x62ab7c4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6313350, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::Unicode_Rune runeA, ::Unity::Collections::ConversionError errorA, ::Unity::Collections::Unicode_Rune runeB, ::Unity::Collections::ConversionError errorB);
 
   // Ctor Parameters []
@@ -50,7 +50,7 @@ public:
   constexpr UTF8ArrayUnsafeUtility_Comparison(bool terminates, int32_t result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15695 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15709 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -80,52 +80,52 @@ public:
   // Declarations
   using Comparison = ::Unity::Collections::UTF8ArrayUnsafeUtility_Comparison;
 
-  /// @brief Method Append, addr 0x62ab6e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6313274, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Collections::CopyError Append(char16_t* dest, ::ByRef<uint16_t> destLength, uint16_t destUCS2MaxLengthInChars, uint8_t* src, uint16_t srcLength);
 
-  /// @brief Method Append, addr 0x62ab694, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6313220, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Collections::CopyError Append(uint8_t* dest, ::ByRef<uint16_t> destLength, uint16_t destUTF8MaxLengthInBytes, char16_t* src, int32_t srcLength);
 
-  /// @brief Method Append, addr 0x62ab640, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x63131cc, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Collections::CopyError Append(uint8_t* dest, ::ByRef<uint16_t> destLength, uint16_t destUTF8MaxLengthInBytes, uint8_t* src, uint16_t srcLength);
 
-  /// @brief Method AppendUTF8Bytes, addr 0x62ab5b0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AppendUTF8Bytes, addr 0x631313c, size 0x90, virtual false, abstract: false, final false
   static inline ::Unity::Collections::FormatError AppendUTF8Bytes(uint8_t* dest, ::ByRef<int32_t> destLength, int32_t destCapacity, uint8_t* src, int32_t srcLength);
 
-  /// @brief Method Copy, addr 0x62ab54c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x63130d8, size 0x20, virtual false, abstract: false, final false
   static inline ::Unity::Collections::CopyError Copy(char16_t* dest, ::ByRef<int32_t> destLength, int32_t destUCS2MaxLengthInChars, uint8_t* src, int32_t srcLength);
 
-  /// @brief Method Copy, addr 0x62ab56c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x63130f8, size 0x44, virtual false, abstract: false, final false
   static inline ::Unity::Collections::CopyError Copy(char16_t* dest, ::ByRef<uint16_t> destLength, uint16_t destUCS2MaxLengthInChars, uint8_t* src, uint16_t srcLength);
 
-  /// @brief Method Copy, addr 0x62a5c50, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x630d7dc, size 0x20, virtual false, abstract: false, final false
   static inline ::Unity::Collections::CopyError Copy(uint8_t* dest, ::ByRef<int32_t> destLength, int32_t destUTF8MaxLengthInBytes, char16_t* src, int32_t srcLength);
 
-  /// @brief Method Copy, addr 0x62ab4c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x6313050, size 0x44, virtual false, abstract: false, final false
   static inline ::Unity::Collections::CopyError Copy(uint8_t* dest, ::ByRef<int32_t> destLength, int32_t destUTF8MaxLengthInBytes, uint8_t* src, int32_t srcLength);
 
-  /// @brief Method Copy, addr 0x62ab47c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x6313008, size 0x48, virtual false, abstract: false, final false
   static inline ::Unity::Collections::CopyError Copy(uint8_t* dest, ::ByRef<uint16_t> destLength, uint16_t destUTF8MaxLengthInBytes, char16_t* src, int32_t srcLength);
 
-  /// @brief Method Copy, addr 0x62ab508, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x6313094, size 0x44, virtual false, abstract: false, final false
   static inline ::Unity::Collections::CopyError Copy(uint8_t* dest, ::ByRef<uint16_t> destLength, uint16_t destUTF8MaxLengthInBytes, uint8_t* src, uint16_t srcLength);
 
-  /// @brief Method EqualsUTF8Bytes, addr 0x62a6e84, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method EqualsUTF8Bytes, addr 0x630ea10, size 0x2c, virtual false, abstract: false, final false
   static inline bool EqualsUTF8Bytes(uint8_t* aBytes, int32_t aLength, uint8_t* bBytes, int32_t bLength);
 
-  /// @brief Method StrCmp, addr 0x62ab988, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method StrCmp, addr 0x6313514, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t StrCmp(char16_t* utf16Buffer, int32_t utf16LengthInChars, uint8_t* utf8Buffer, int32_t utf8LengthInBytes);
 
-  /// @brief Method StrCmp, addr 0x62ab878, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method StrCmp, addr 0x6313404, size 0x88, virtual false, abstract: false, final false
   static inline int32_t StrCmp(char16_t* utf16BufferA, int32_t utf16LengthInCharsA, char16_t* utf16BufferB, int32_t utf16LengthInCharsB);
 
-  /// @brief Method StrCmp, addr 0x62ab900, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method StrCmp, addr 0x631348c, size 0x88, virtual false, abstract: false, final false
   static inline int32_t StrCmp(uint8_t* utf8Buffer, int32_t utf8LengthInBytes, char16_t* utf16Buffer, int32_t utf16LengthInChars);
 
-  /// @brief Method StrCmp, addr 0x62ab7f0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method StrCmp, addr 0x631337c, size 0x88, virtual false, abstract: false, final false
   static inline int32_t StrCmp(uint8_t* utf8BufferA, int32_t utf8LengthInBytesA, ::Unity::Collections::Unicode_Rune* runeBufferB, int32_t lengthInRunesB);
 
-  /// @brief Method StrCmp, addr 0x62ab73c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method StrCmp, addr 0x63132c8, size 0x88, virtual false, abstract: false, final false
   static inline int32_t StrCmp(uint8_t* utf8BufferA, int32_t utf8LengthInBytesA, uint8_t* utf8BufferB, int32_t utf8LengthInBytesB);
 
 protected:
@@ -143,7 +143,7 @@ public:
   UTF8ArrayUnsafeUtility(UTF8ArrayUnsafeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15710 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

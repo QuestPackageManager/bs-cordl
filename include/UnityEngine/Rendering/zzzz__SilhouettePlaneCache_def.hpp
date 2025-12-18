@@ -38,7 +38,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE SilhouettePlaneCache_Slot {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6613c98, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x667b824, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t viewInstanceID, int32_t planeCount, int32_t frameIndex);
 
   // Ctor Parameters []
@@ -50,7 +50,7 @@ public:
   constexpr SilhouettePlaneCache_Slot(bool isActive, int32_t viewInstanceID, int32_t planeCount, int32_t lastUsedFrameIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17726 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17740 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -93,19 +93,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6613794, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x667b320, size 0xb8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method FreeUnusedSlots, addr 0x6613cac, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method FreeUnusedSlots, addr 0x667b838, size 0x1a0, virtual false, abstract: false, final false
   inline void FreeUnusedSlots(int32_t frameIndex, int32_t maximumAge);
 
-  /// @brief Method GetSubArray, addr 0x6613e4c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetSubArray, addr 0x667b9d8, size 0x11c, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> GetSubArray(int32_t viewInstanceID);
 
-  /// @brief Method Init, addr 0x6613680, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x667b20c, size 0x114, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method Update, addr 0x661384c, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x667b3d8, size 0x44c, virtual false, abstract: false, final false
   inline void Update(int32_t viewInstanceID, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> planes, int32_t frameIndex);
 
   /// @brief Convert to "::System::IDisposable"
@@ -124,7 +124,7 @@ public:
                                  ::Unity::Collections::NativeList_1<::UnityEngine::Plane> m_PlaneStorage) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17741 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

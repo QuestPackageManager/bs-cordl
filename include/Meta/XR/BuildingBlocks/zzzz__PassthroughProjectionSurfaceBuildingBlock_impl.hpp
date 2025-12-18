@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::PassthroughProjectionSurfaceBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::PassthroughProjectionSurfaceBuildingBlock::Start)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x581e314;
+  constexpr static std::size_t addrs = 0x5884a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::BuildingBlocks::PassthroughProjectionSurfaceBuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::PassthroughProjectionSurfaceBuildingBlock::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x581e508;
+  constexpr static std::size_t addrs = 0x5884c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

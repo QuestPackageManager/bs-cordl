@@ -45,10 +45,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlLongAttributeDescription___c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x6a8b0f0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x6af3f74, size 0x40, virtual false, abstract: false, final false
   inline int64_t _GetValueFromBag_b__3_0(::StringW s, int64_t l);
 
-  /// @brief Method .ctor, addr 0x6a8b0ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6af3f70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UxmlLongAttributeDescription___c* getStaticF___9();
@@ -91,15 +91,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::UxmlLongAttributeDescription___c;
 
-  /// @brief Method ConvertValueToLong, addr 0x6a8b05c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToLong, addr 0x6af3ee0, size 0x3c, virtual false, abstract: false, final false
   static inline int64_t ConvertValueToLong(::StringW v, int64_t defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x6a8aec4, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x6af3d48, size 0x198, virtual true, abstract: false, final false
   inline int64_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlLongAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a8ae28, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6af3cac, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute::*)()>(
     &::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute::get_pageName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6568ef4;
+  constexpr static std::size_t addrs = 0x65d0a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute::*)()>(
     &::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute::get_pageHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6568efc;
+  constexpr static std::size_t addrs = 0x65d0a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute::*)(::StringW, ::StringW)>(
     &::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6568f04;
+  constexpr static std::size_t addrs = 0x65d0a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute::*)()>(
     &::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute::get_URL)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6568f6c;
+  constexpr static std::size_t addrs = 0x65d0af8;
 
   inline static ::MethodInfo const* methodInfo() {
 

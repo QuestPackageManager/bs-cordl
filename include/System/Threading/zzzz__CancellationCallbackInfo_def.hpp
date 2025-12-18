@@ -53,10 +53,10 @@ public:
   /// @brief Field s_executionContextCallback, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_executionContextCallback, put = setStaticF_s_executionContextCallback)) ::System::Threading::ContextCallback* s_executionContextCallback;
 
-  /// @brief Method ExecuteCallback, addr 0x5a960d0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCallback, addr 0x5afca1c, size 0x104, virtual false, abstract: false, final false
   inline void ExecuteCallback();
 
-  /// @brief Method ExecutionContextCallback, addr 0x5a96b84, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ExecutionContextCallback, addr 0x5afd4d0, size 0x90, virtual false, abstract: false, final false
   static inline void ExecutionContextCallback(::System::Object* obj);
 
   static inline ::System::Threading::CancellationCallbackInfo* New_ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback,
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_TargetExecutionContext(::System::Threading::ExecutionContext* value);
 
-  /// @brief Method .ctor, addr 0x5a95ab4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5afc400, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback, ::System::Threading::ExecutionContext* targetExecutionContext,
                     ::System::Threading::CancellationTokenSource* cancellationTokenSource);
 

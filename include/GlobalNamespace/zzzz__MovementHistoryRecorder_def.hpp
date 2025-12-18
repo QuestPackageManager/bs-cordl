@@ -36,10 +36,10 @@ public:
 
   __declspec(property(get = get_averagingValueRecorer)) ::GlobalNamespace::AveragingValueRecorder* averagingValueRecorer;
 
-  /// @brief Method AddMovement, addr 0x57dd18c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AddMovement, addr 0x5843a70, size 0x28, virtual false, abstract: false, final false
   inline void AddMovement(float_t distance);
 
-  /// @brief Method ManualUpdate, addr 0x57dd1b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x5843a98, size 0x3c, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t deltaTime);
 
   static inline ::GlobalNamespace::MovementHistoryRecorder* New_ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed);
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__increaseSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x57dd100, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58439e4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed);
 
-  /// @brief Method get_averagingValueRecorer, addr 0x57dd0f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_averagingValueRecorer, addr 0x58439dc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AveragingValueRecorder* get_averagingValueRecorer();
 
 protected:

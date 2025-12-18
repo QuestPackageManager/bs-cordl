@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RangeKey::*)(::UnityEngine::Rendering::RangeKey)>(
     &::UnityEngine::Rendering::RangeKey::Equals)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x65f7d2c;
+  constexpr static std::size_t addrs = 0x665f8b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::RangeKey::*)()>(&::UnityEngine::Rendering::RangeKey::GetHashCode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x65f7db0;
+  constexpr static std::size_t addrs = 0x665f93c;
 
   inline static ::MethodInfo const* methodInfo() {
 

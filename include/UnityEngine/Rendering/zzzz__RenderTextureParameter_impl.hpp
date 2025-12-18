@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderTextureParameter::*)(::UnityEngine::RenderTexture*, bool)>(
     &::UnityEngine::Rendering::RenderTextureParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x65af04c;
+  constexpr static std::size_t addrs = 0x6616bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::RenderTextureParameter::*)()>(
     &::UnityEngine::Rendering::RenderTextureParameter::GetHashCode)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x65af0b0;
+  constexpr static std::size_t addrs = 0x6616c3c;
 
   inline static ::MethodInfo const* methodInfo() {
 

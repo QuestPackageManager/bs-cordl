@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Meta::XR::ImmersiveDebugger::UserInterface::IMember*, ::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::DebugMember*, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle)>(
     &::Meta::XR::ImmersiveDebugger::Manager::ActionManagerForAddon::RegisterSpecialisedWidget)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x5851650;
+  constexpr static std::size_t addrs = 0x58b7db4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Meta::XR::ImmersiveDebugger::Manager::ActionManagerForAddon::*)()>(
     &::Meta::XR::ImmersiveDebugger::Manager::ActionManagerForAddon::get_TelemetryAnnotation)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x58518b8;
+  constexpr static std::size_t addrs = 0x58b801c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::ActionManagerForAddon::*)()>(
     &::Meta::XR::ImmersiveDebugger::Manager::ActionManagerForAddon::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58518fc;
+  constexpr static std::size_t addrs = 0x58b8060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -33,16 +33,16 @@ public:
 
   constexpr void __cordl_internal_set__Required_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6c09364, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c721e8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6c09370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c721f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool required);
 
-  /// @brief Method get_Required, addr 0x6c09378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Required, addr 0x6c721fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_Required();
 
-  /// @brief Method set_Required, addr 0x6c09380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Required, addr 0x6c72204, size 0x8, virtual false, abstract: false, final false
   inline void set_Required(bool value);
 
 protected:
@@ -60,7 +60,7 @@ public:
   LocalizationRequiredAttribute(LocalizationRequiredAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22249 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22276 };
 
   /// @brief Field <Required>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Required_k__BackingField;

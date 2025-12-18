@@ -28,12 +28,12 @@ namespace UnityEngine::UIElements::Layout {
 class CORDL_TYPE InvokeBaselineFunctionDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6acdf4c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6b36dd0, size 0x14, virtual true, abstract: false, final false
   inline float_t Invoke(::ByRef<::UnityEngine::UIElements::Layout::LayoutNode> node, float_t width, float_t height);
 
   static inline ::UnityEngine::UIElements::Layout::InvokeBaselineFunctionDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6acdecc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b36d50, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

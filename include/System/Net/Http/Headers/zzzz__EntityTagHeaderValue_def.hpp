@@ -51,27 +51,27 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x5eca2f8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5f31e84, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x5eca3ac, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5f31f38, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::EntityTagHeaderValue* New_ctor();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x5eca2f4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x5f31e80, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x5eca7e8, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5f32374, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x5eca734, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x5f322c0, size 0xb4, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::EntityTagHeaderValue*>*> result);
 
-  /// @brief Method TryParse, addr 0x5eca3f8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x5f31f84, size 0xf4, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue);
 
-  /// @brief Method TryParseElement, addr 0x5eca4ec, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x5f32078, size 0x1f0, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue,
                                      ::ByRef<::System::Net::Http::Headers::Token> t);
 
@@ -87,15 +87,15 @@ public:
 
   constexpr void __cordl_internal_set__Tag_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5eca2d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f31e5c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::Headers::EntityTagHeaderValue* getStaticF_any();
 
-  /// @brief Method get_IsWeak, addr 0x5eca2d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsWeak, addr 0x5f31e60, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsWeak();
 
-  /// @brief Method get_Tag, addr 0x5eca2e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x5f31e70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Tag();
 
   /// @brief Convert to "::System::ICloneable"
@@ -103,10 +103,10 @@ public:
 
   static inline void setStaticF_any(::System::Net::Http::Headers::EntityTagHeaderValue* value);
 
-  /// @brief Method set_IsWeak, addr 0x5eca2dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsWeak, addr 0x5f31e68, size 0x8, virtual false, abstract: false, final false
   inline void set_IsWeak(bool value);
 
-  /// @brief Method set_Tag, addr 0x5eca2ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Tag, addr 0x5f31e78, size 0x8, virtual false, abstract: false, final false
   inline void set_Tag(::StringW value);
 
 protected:
@@ -124,7 +124,7 @@ public:
   EntityTagHeaderValue(EntityTagHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20070 };
 
   /// @brief Field <IsWeak>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____IsWeak_k__BackingField;

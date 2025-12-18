@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_displayName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x68a4680, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x690d504, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName);
 
 protected:
@@ -48,7 +48,7 @@ public:
   InspectorNameAttribute(InspectorNameAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10253 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10257 };
 
   /// @brief Field displayName, offset: 0x18, size: 0x8, def value: None
   ::StringW ___displayName;

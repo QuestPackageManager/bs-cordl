@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::OculusStudios::GraphQL::ClientInterface::RequestState)>(
     &::OculusStudios::GraphQL::ClientInterface::RequestStateExtensions::ToVerboseLogFormat)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5d18764;
+  constexpr static std::size_t addrs = 0x5d7f244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

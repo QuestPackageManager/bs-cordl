@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t, uint8_t)>(&::UnityEngine::Rendering::BitArrayUtilities::Get8)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6597210;
+  constexpr static std::size_t addrs = 0x65fed9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t, uint16_t)>(&::UnityEngine::Rendering::BitArrayUtilities::Get16)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x659777c;
+  constexpr static std::size_t addrs = 0x65ff308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t, uint32_t)>(&::UnityEngine::Rendering::BitArrayUtilities::Get32)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6597d58;
+  constexpr static std::size_t addrs = 0x65ff8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t, uint64_t)>(&::UnityEngine::Rendering::BitArrayUtilities::Get64)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65982b8;
+  constexpr static std::size_t addrs = 0x65ffe44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t, uint64_t, uint64_t)>(&::UnityEngine::Rendering::BitArrayUtilities::Get128)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6599714;
+  constexpr static std::size_t addrs = 0x66012a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t, uint64_t, uint64_t, uint64_t, uint64_t)>(&::UnityEngine::Rendering::BitArrayUtilities::Get256)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6599164;
+  constexpr static std::size_t addrs = 0x6600cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t, ::ByRef<uint8_t>, bool)>(&::UnityEngine::Rendering::BitArrayUtilities::Set8)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6597244;
+  constexpr static std::size_t addrs = 0x65fedd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t, ::ByRef<uint16_t>, bool)>(&::UnityEngine::Rendering::BitArrayUtilities::Set16)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x65977b0;
+  constexpr static std::size_t addrs = 0x65ff33c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t, ::ByRef<uint32_t>, bool)>(&::UnityEngine::Rendering::BitArrayUtilities::Set32)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6597d88;
+  constexpr static std::size_t addrs = 0x65ff914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t, ::ByRef<uint64_t>, bool)>(&::UnityEngine::Rendering::BitArrayUtilities::Set64)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x65982e8;
+  constexpr static std::size_t addrs = 0x65ffe74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t, ::ByRef<uint64_t>, ::ByRef<uint64_t>, bool)>(
     &::UnityEngine::Rendering::BitArrayUtilities::Set128)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6599728;
+  constexpr static std::size_t addrs = 0x66012b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t, ::ByRef<uint64_t>, ::ByRef<uint64_t>, ::ByRef<uint64_t>, ::ByRef<uint64_t>, bool)>(
     &::UnityEngine::Rendering::BitArrayUtilities::Set256)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x65991c0;
+  constexpr static std::size_t addrs = 0x6600d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

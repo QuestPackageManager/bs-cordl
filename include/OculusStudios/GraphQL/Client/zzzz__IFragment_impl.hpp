@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OculusStudios::GraphQL::Client::GraphQLModel* (::OculusStudios::GraphQL::Client::IFragment::*)()>(
     &::OculusStudios::GraphQL::Client::IFragment::GetNestedFragment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d0da34;
+  constexpr static std::size_t addrs = 0x5d74514;
 
   inline static ::MethodInfo const* methodInfo() {
 

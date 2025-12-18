@@ -68,22 +68,22 @@ public:
   /// @brief Method CopyWithPrivateKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* CopyWithPrivateKey(::System::Security::Cryptography::RSA* privateKey);
 
-  /// @brief Method Dispose, addr 0x58fadec, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5961738, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x58fc52c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5962e78, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Equals, addr 0x58fc3b8, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5962d04, size 0x174, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Finalize, addr 0x58fc530, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5962e7c, size 0x54, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// @brief Method GetDSAPrivateKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::DSA* GetDSAPrivateKey();
 
-  /// @brief Method GetHashCode, addr 0x58fc340, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x5962c8c, size 0x78, virtual true, abstract: false, final true
   inline int32_t GetHashCode();
 
   /// @brief Method GetRSAPrivateKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -91,10 +91,10 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* New_ctor();
 
-  /// @brief Method ThrowIfContextInvalid, addr 0x58fc280, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfContextInvalid, addr 0x5962bcc, size 0x3c, virtual false, abstract: false, final false
   inline void ThrowIfContextInvalid();
 
-  /// @brief Method .ctor, addr 0x58fc584, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5962ed0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_HasPrivateKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

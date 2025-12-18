@@ -42,7 +42,7 @@ public:
 
   static inline ::BeatSaber::RecPlay::PlayerPoseSampler* New_ctor();
 
-  /// @brief Method Sample, addr 0x31bfbd0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Sample, addr 0x31f05c8, size 0x110, virtual false, abstract: false, final false
   inline void Sample(float_t time, ::ByRef<::BeatSaber::RecPlay::PlayerPose> player);
 
   constexpr int32_t const& __cordl_internal_get__headNearestFrame() const;
@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_offsets(::BeatSaber::RecPlay::PoseOffsets value);
 
-  /// @brief Method .ctor, addr 0x31bfee8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31f08e0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,7 +93,7 @@ public:
   PlayerPoseSampler(PlayerPoseSampler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22871 };
 
   /// @brief Field offsets, offset: 0x10, size: 0x54, def value: None
   ::BeatSaber::RecPlay::PoseOffsets ___offsets;

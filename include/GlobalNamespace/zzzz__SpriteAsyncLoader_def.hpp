@@ -67,10 +67,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5816a74, size 0x2a8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x587d1d8, size 0x2a8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5816d1c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x587d480, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -89,7 +89,7 @@ public:
                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22489 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22516 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -135,10 +135,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5816d24, size 0x458, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x587d488, size 0x458, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x581717c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x587d8e0, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -158,7 +158,7 @@ public:
                                                  ::GlobalNamespace::SpriteAsyncLoader* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22490 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22517 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -226,29 +226,29 @@ public:
                       put = __cordl_internal_set__referenceCountingCache)) ::GlobalNamespace::ReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*
       _referenceCountingCache;
 
-  /// @brief Method ClearCache, addr 0x58165bc, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method ClearCache, addr 0x587cd20, size 0x348, virtual false, abstract: false, final false
   inline void ClearCache();
 
-  /// @brief Method DestroySprite, addr 0x58169c0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method DestroySprite, addr 0x587d124, size 0xb4, virtual false, abstract: false, final false
   static inline void DestroySprite(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method DestroySpriteTask, addr 0x5816904, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method DestroySpriteTask, addr 0x587d068, size 0xac, virtual false, abstract: false, final false
   inline void DestroySpriteTask(::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* spriteTask);
 
-  /// @brief Method HandleItemWillBeRemovedFromCache, addr 0x58169b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleItemWillBeRemovedFromCache, addr 0x587d114, size 0x10, virtual false, abstract: false, final false
   inline void HandleItemWillBeRemovedFromCache(::StringW path, ::StringW _);
 
-  /// @brief Method LoadSpriteAsync, addr 0x5816380, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method LoadSpriteAsync, addr 0x587cae4, size 0x174, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* LoadSpriteAsync(::StringW path);
 
   static inline ::GlobalNamespace::SpriteAsyncLoader*
   New_ctor(::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* loadFunc,
            ::System::Action_1<::UnityW<::UnityEngine::Sprite>>* destroyFunc, int32_t cacheSize);
 
-  /// @brief Method UnloadSprite, addr 0x5816504, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method UnloadSprite, addr 0x587cc68, size 0xb8, virtual false, abstract: false, final false
   inline void UnloadSprite(::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* cache, ::StringW path);
 
-  /// @brief Method UnloadSprite, addr 0x58164f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UnloadSprite, addr 0x587cc58, size 0x10, virtual false, abstract: false, final false
   inline void UnloadSprite(::StringW path);
 
   constexpr ::System::Action_1<::UnityW<::UnityEngine::Sprite>>* const& __cordl_internal_get__destroyFunc() const;
@@ -275,7 +275,7 @@ public:
 
   constexpr void __cordl_internal_set__referenceCountingCache(::GlobalNamespace::ReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* value);
 
-  /// @brief Method .ctor, addr 0x5816228, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x587c98c, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* loadFunc,
                     ::System::Action_1<::UnityW<::UnityEngine::Sprite>>* destroyFunc, int32_t cacheSize);
 
@@ -294,7 +294,7 @@ public:
   SpriteAsyncLoader(SpriteAsyncLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22518 };
 
   /// @brief Field _lruCache, offset: 0x10, size: 0x8, def value: None
   ::BGLib::DotnetExtension::Collections::LRUCache_2<::StringW, ::StringW>* ____lruCache;

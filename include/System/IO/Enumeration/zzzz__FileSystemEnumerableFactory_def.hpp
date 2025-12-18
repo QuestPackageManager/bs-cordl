@@ -70,7 +70,7 @@ public:
 
   static inline ::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <UserFiles>b__1, addr 0x5a0dc78, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <UserFiles>b__1, addr 0x5a745c4, size 0xa4, virtual false, abstract: false, final false
   inline bool _UserFiles_b__1(::ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
   constexpr ::StringW const& __cordl_internal_get_expression() const;
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_options(::System::IO::EnumerationOptions* value);
 
-  /// @brief Method .ctor, addr 0x5a0d82c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a74178, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -142,16 +142,16 @@ public:
 
   static inline ::System::IO::Enumeration::FileSystemEnumerableFactory___c* New_ctor();
 
-  /// @brief Method <UserDirectories>b__4_0, addr 0x5a0dd7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <UserDirectories>b__4_0, addr 0x5a746c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _UserDirectories_b__4_0(::ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
-  /// @brief Method <UserEntries>b__5_0, addr 0x5a0dd84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <UserEntries>b__5_0, addr 0x5a746d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _UserEntries_b__5_0(::ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
-  /// @brief Method <UserFiles>b__3_0, addr 0x5a0dd74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <UserFiles>b__3_0, addr 0x5a746c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _UserFiles_b__3_0(::ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
-  /// @brief Method .ctor, addr 0x5a0dd70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a746bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::IO::Enumeration::FileSystemEnumerableFactory___c* getStaticF___9();
@@ -208,7 +208,7 @@ public:
 
   static inline ::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <UserDirectories>b__1, addr 0x5a0dd8c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <UserDirectories>b__1, addr 0x5a746d8, size 0xa4, virtual false, abstract: false, final false
   inline bool _UserDirectories_b__1(::ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
   constexpr ::StringW const& __cordl_internal_get_expression() const;
@@ -223,7 +223,7 @@ public:
 
   constexpr void __cordl_internal_set_options(::System::IO::EnumerationOptions* value);
 
-  /// @brief Method .ctor, addr 0x5a0da04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a74350, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -274,7 +274,7 @@ public:
 
   static inline ::System::IO::Enumeration::FileSystemEnumerableFactory___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <UserEntries>b__1, addr 0x5a0de30, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <UserEntries>b__1, addr 0x5a7477c, size 0x88, virtual false, abstract: false, final false
   inline bool _UserEntries_b__1(::ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
   constexpr ::StringW const& __cordl_internal_get_expression() const;
@@ -289,7 +289,7 @@ public:
 
   constexpr void __cordl_internal_set_options(::System::IO::EnumerationOptions* value);
 
-  /// @brief Method .ctor, addr 0x5a0dbdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a74528, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -343,19 +343,19 @@ public:
   /// @brief Field s_unixEscapeChars, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_unixEscapeChars, put = setStaticF_s_unixEscapeChars)) ::ArrayW<char16_t, ::Array<char16_t>*> s_unixEscapeChars;
 
-  /// @brief Method MatchesPattern, addr 0x5a0d314, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method MatchesPattern, addr 0x5a73c60, size 0x22c, virtual false, abstract: false, final false
   static inline bool MatchesPattern(::StringW expression, ::System::ReadOnlySpan_1<char16_t> name, ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method NormalizeInputs, addr 0x5a0cad0, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method NormalizeInputs, addr 0x5a7341c, size 0x494, virtual false, abstract: false, final false
   static inline void NormalizeInputs(::ByRef<::StringW> directory, ::ByRef<::StringW> expression, ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method UserDirectories, addr 0x5a0d830, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method UserDirectories, addr 0x5a7417c, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* UserDirectories(::StringW directory, ::StringW expression, ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method UserEntries, addr 0x5a0da08, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method UserEntries, addr 0x5a74354, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* UserEntries(::StringW directory, ::StringW expression, ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method UserFiles, addr 0x5a0d658, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method UserFiles, addr 0x5a73fa4, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* UserFiles(::StringW directory, ::StringW expression, ::System::IO::EnumerationOptions* options);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_s_unixEscapeChars();

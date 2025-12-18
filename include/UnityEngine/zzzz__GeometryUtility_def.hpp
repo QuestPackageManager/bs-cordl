@@ -36,22 +36,22 @@ namespace UnityEngine {
 class CORDL_TYPE GeometryUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CalculateFrustumPlanes, addr 0x684b9a0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CalculateFrustumPlanes, addr 0x68b3518, size 0x88, virtual false, abstract: false, final false
   static inline void CalculateFrustumPlanes(::UnityEngine::Camera* camera, ::ArrayW<::UnityEngine::Plane, ::Array<::UnityEngine::Plane>*> planes);
 
-  /// @brief Method CalculateFrustumPlanes, addr 0x684ba28, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CalculateFrustumPlanes, addr 0x68b35a0, size 0xdc, virtual false, abstract: false, final false
   static inline void CalculateFrustumPlanes(::UnityEngine::Matrix4x4 worldToProjectionMatrix, ::ArrayW<::UnityEngine::Plane, ::Array<::UnityEngine::Plane>*> planes);
 
-  /// @brief Method Internal_ExtractPlanes, addr 0x684bb04, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Internal_ExtractPlanes, addr 0x68b367c, size 0x128, virtual false, abstract: false, final false
   static inline void Internal_ExtractPlanes(::ByRef<::ArrayW<::UnityEngine::Plane, ::Array<::UnityEngine::Plane>*>> planes, ::UnityEngine::Matrix4x4 worldToProjectionMatrix);
 
-  /// @brief Method Internal_ExtractPlanes_Injected, addr 0x684bd48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_ExtractPlanes_Injected, addr 0x68b38c0, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_ExtractPlanes_Injected(::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper> planes, ::ByRef<::UnityEngine::Matrix4x4> worldToProjectionMatrix);
 
-  /// @brief Method TestPlanesAABB, addr 0x684bc2c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method TestPlanesAABB, addr 0x68b37a4, size 0xd8, virtual false, abstract: false, final false
   static inline bool TestPlanesAABB(::ArrayW<::UnityEngine::Plane, ::Array<::UnityEngine::Plane>*> planes, ::UnityEngine::Bounds bounds);
 
-  /// @brief Method TestPlanesAABB_Injected, addr 0x684bd04, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TestPlanesAABB_Injected, addr 0x68b387c, size 0x44, virtual false, abstract: false, final false
   static inline bool TestPlanesAABB_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> planes, ::ByRef<::UnityEngine::Bounds> bounds);
 
 protected:
@@ -69,7 +69,7 @@ public:
   GeometryUtility(GeometryUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10094 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

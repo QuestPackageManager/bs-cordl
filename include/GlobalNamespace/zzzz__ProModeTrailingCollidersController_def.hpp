@@ -43,15 +43,15 @@ public:
   /// @brief Field _transform, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method HandleNoteDidMoveInJumpPhase, addr 0x56cc11c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidMoveInJumpPhase, addr 0x572cdf8, size 0x15c, virtual false, abstract: false, final false
   inline void HandleNoteDidMoveInJumpPhase();
 
   static inline ::GlobalNamespace::ProModeTrailingCollidersController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x56cc010, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x572ccec, size 0x10c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x56cbf70, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x572cc4c, size 0xa0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::BoxCuttableBySaber> const& __cordl_internal_get__mainSmallCuttableBySaber() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x56cc278, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x572cf54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, void*, int64_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeUtilityExtensions::MemSwap)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x62b1a04;
+  constexpr static std::size_t addrs = 0x6319590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint8_t*, uint8_t*, int64_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeUtilityExtensions::CheckMemSwapOverlap)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x62b1b1c;
+  constexpr static std::size_t addrs = 0x63196a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeUtilityExtensions::CheckIndexRange)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x62b1b84;
+  constexpr static std::size_t addrs = 0x6319710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

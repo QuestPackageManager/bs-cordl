@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::HableCurve_Segment::*)(float_t)>(
     &::UnityEngine::Rendering::HableCurve_Segment::Eval)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x65a5fc8;
+  constexpr static std::size_t addrs = 0x660db54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::HableCurve_Segment::*)()>(&::UnityEngine::Rendering::HableCurve_Segment::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65a5f0c;
+  constexpr static std::size_t addrs = 0x660da98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::HableCurve_Segment*>::get(), ".ctor",
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::HableCurve_Uniforms::*)(::UnityEngine::Rendering::HableCurve*)>(
     &::UnityEngine::Rendering::HableCurve_Uniforms::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a5f10;
+  constexpr static std::size_t addrs = 0x660da9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::HableCurve_Uniforms::*)()>(
     &::UnityEngine::Rendering::HableCurve_Uniforms::get_curve)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65a64d8;
+  constexpr static std::size_t addrs = 0x660e064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::HableCurve_Uniforms*>::get(),
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::HableCurve_Uniforms::*)()>(
     &::UnityEngine::Rendering::HableCurve_Uniforms::get_toeSegmentA)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x65a64f8;
+  constexpr static std::size_t addrs = 0x660e084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::HableCurve_Uniforms*>::get(),
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::HableCurve_Uniforms::*)()>(
     &::UnityEngine::Rendering::HableCurve_Uniforms::get_toeSegmentB)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x65a6534;
+  constexpr static std::size_t addrs = 0x660e0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::HableCurve_Uniforms*>::get(),
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::HableCurve_Uniforms::*)()>(
     &::UnityEngine::Rendering::HableCurve_Uniforms::get_midSegmentA)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x65a6574;
+  constexpr static std::size_t addrs = 0x660e100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::HableCurve_Uniforms*>::get(),
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::HableCurve_Uniforms::*)()>(
     &::UnityEngine::Rendering::HableCurve_Uniforms::get_midSegmentB)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x65a65b4;
+  constexpr static std::size_t addrs = 0x660e140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::HableCurve_Uniforms*>::get(),
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::HableCurve_Uniforms::*)()>(
     &::UnityEngine::Rendering::HableCurve_Uniforms::get_shoSegmentA)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x65a65f8;
+  constexpr static std::size_t addrs = 0x660e184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::HableCurve_Uniforms*>::get(),
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::HableCurve_Uniforms::*)()>(
     &::UnityEngine::Rendering::HableCurve_Uniforms::get_shoSegmentB)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x65a6638;
+  constexpr static std::size_t addrs = 0x660e1c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::HableCurve_Uniforms*>::get(),
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::HableCurve::*)()>(&::UnityEngine::Rendering::HableCurve::get_whitePoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a5db8;
+  constexpr static std::size_t addrs = 0x660d944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::HableCurve*>::get(), "get_whitePoint",
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::HableCurve::*)(float_t)>(&::UnityEngine::Rendering::HableCurve::set_whitePoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a5dc0;
+  constexpr static std::size_t addrs = 0x660d94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::HableCurve::*)()>(&::UnityEngine::Rendering::HableCurve::get_inverseWhitePoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a5dc8;
+  constexpr static std::size_t addrs = 0x660d954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::HableCurve*>::get(),
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::HableCurve::*)(float_t)>(
     &::UnityEngine::Rendering::HableCurve::set_inverseWhitePoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a5dd0;
+  constexpr static std::size_t addrs = 0x660d95c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -368,7 +368,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::HableCurve::*)()>(&::UnityEngine::Rendering::HableCurve::get_x0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a5dd8;
+  constexpr static std::size_t addrs = 0x660d964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::HableCurve*>::get(), "get_x0",
@@ -381,7 +381,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::HableCurve::*)(float_t)>(&::UnityEngine::Rendering::HableCurve::set_x0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a5de0;
+  constexpr static std::size_t addrs = 0x660d96c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -395,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::HableCurve::*)()>(&::UnityEngine::Rendering::HableCurve::get_x1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a5de8;
+  constexpr static std::size_t addrs = 0x660d974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::HableCurve*>::get(), "get_x1",
@@ -408,7 +408,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::HableCurve::*)(float_t)>(&::UnityEngine::Rendering::HableCurve::set_x1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a5df0;
+  constexpr static std::size_t addrs = 0x660d97c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -422,7 +422,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::HableCurve::*)()>(&::UnityEngine::Rendering::HableCurve::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x65a5df8;
+  constexpr static std::size_t addrs = 0x660d984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::HableCurve*>::get(), ".ctor",
@@ -435,7 +435,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::HableCurve::*)(float_t)>(&::UnityEngine::Rendering::HableCurve::Eval)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x65a5f18;
+  constexpr static std::size_t addrs = 0x660daa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -450,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::HableCurve::*)(float_t, float_t, float_t, float_t, float_t, float_t)>(
     &::UnityEngine::Rendering::HableCurve::Init)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x65a6028;
+  constexpr static std::size_t addrs = 0x660dbb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::HableCurve::*)(::UnityEngine::Rendering::HableCurve_DirectParams)>(
     &::UnityEngine::Rendering::HableCurve::InitSegments)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x65a6164;
+  constexpr static std::size_t addrs = 0x660dcf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -482,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::HableCurve::*)(::ByRef<float_t>, ::ByRef<float_t>, float_t, float_t, float_t)>(
     &::UnityEngine::Rendering::HableCurve::SolveAB)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x65a6488;
+  constexpr static std::size_t addrs = 0x660e014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -499,7 +499,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::Rendering::HableCurve::*)(::ByRef<float_t>, ::ByRef<float_t>, float_t, float_t, float_t, float_t)>(&::UnityEngine::Rendering::HableCurve::AsSlopeIntercept)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x65a6420;
+  constexpr static std::size_t addrs = 0x660dfac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::HableCurve::*)(float_t, float_t, float_t, float_t)>(
     &::UnityEngine::Rendering::HableCurve::EvalDerivativeLinearGamma)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x65a644c;
+  constexpr static std::size_t addrs = 0x660dfd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

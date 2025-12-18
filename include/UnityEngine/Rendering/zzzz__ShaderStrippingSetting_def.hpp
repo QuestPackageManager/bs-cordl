@@ -62,7 +62,7 @@ public:
   static ::UnityEngine::Rendering::ShaderStrippingSetting_Version const Initial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12167 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12171 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -114,7 +114,7 @@ public:
 
   static inline ::UnityEngine::Rendering::ShaderStrippingSetting* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x65843c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x65ebf54, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
   constexpr bool const& __cordl_internal_get_m_ExportShaderVariants() const;
@@ -141,31 +141,31 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(::UnityEngine::Rendering::ShaderStrippingSetting_Version value);
 
-  /// @brief Method .ctor, addr 0x6584538, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65ec0c4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_exportShaderVariants, addr 0x65843d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_exportShaderVariants, addr 0x65ebf5c, size 0x8, virtual false, abstract: false, final false
   inline bool get_exportShaderVariants();
 
-  /// @brief Method get_shaderVariantLogLevel, addr 0x6584448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shaderVariantLogLevel, addr 0x65ebfd4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ShaderVariantLogLevel get_shaderVariantLogLevel();
 
-  /// @brief Method get_stripRuntimeDebugShaders, addr 0x65844c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stripRuntimeDebugShaders, addr 0x65ec04c, size 0x8, virtual false, abstract: false, final false
   inline bool get_stripRuntimeDebugShaders();
 
-  /// @brief Method get_version, addr 0x65843c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x65ebf4c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
   constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
 
-  /// @brief Method set_exportShaderVariants, addr 0x65843d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_exportShaderVariants, addr 0x65ebf64, size 0x70, virtual false, abstract: false, final false
   inline void set_exportShaderVariants(bool value);
 
-  /// @brief Method set_shaderVariantLogLevel, addr 0x6584450, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_shaderVariantLogLevel, addr 0x65ebfdc, size 0x70, virtual false, abstract: false, final false
   inline void set_shaderVariantLogLevel(::UnityEngine::Rendering::ShaderVariantLogLevel value);
 
-  /// @brief Method set_stripRuntimeDebugShaders, addr 0x65844c8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_stripRuntimeDebugShaders, addr 0x65ec054, size 0x70, virtual false, abstract: false, final false
   inline void set_stripRuntimeDebugShaders(bool value);
 
 protected:
@@ -183,7 +183,7 @@ public:
   ShaderStrippingSetting(ShaderStrippingSetting const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12168 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12172 };
 
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::ShaderStrippingSetting_Version ___m_Version;

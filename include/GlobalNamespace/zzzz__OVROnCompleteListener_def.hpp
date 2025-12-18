@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::OVROnCompleteListener* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5c5e9d8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc54b8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method onFailure, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -44,7 +44,7 @@ public:
   OVROnCompleteListener(OVROnCompleteListener const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7238 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

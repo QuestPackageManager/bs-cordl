@@ -75,50 +75,50 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg*() noexcept;
 
-  /// @brief Method AddOneTo, addr 0x32f3560, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AddOneTo, addr 0x331dda4, size 0x54, virtual false, abstract: false, final false
   inline void AddOneTo(::ArrayW<uint8_t, ::Array<uint8_t>*> longer);
 
-  /// @brief Method BCC, addr 0x32f3760, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method BCC, addr 0x331dfa4, size 0x314, virtual false, abstract: false, final false
   inline void BCC(::ArrayW<uint8_t, ::Array<uint8_t>*> bccOut, ::ArrayW<uint8_t, ::Array<uint8_t>*> k, ::ArrayW<uint8_t, ::Array<uint8_t>*> iV, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Block_Cipher_df, addr 0x32f2c80, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method Block_Cipher_df, addr 0x331d4c4, size 0x4e4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Block_Cipher_df(::ArrayW<uint8_t, ::Array<uint8_t>*> inputString, int32_t bitLength);
 
-  /// @brief Method CTR_DRBG_Instantiate_algorithm, addr 0x32f2aa8, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method CTR_DRBG_Instantiate_algorithm, addr 0x331d2ec, size 0x1d8, virtual false, abstract: false, final false
   inline void CTR_DRBG_Instantiate_algorithm(::ArrayW<uint8_t, ::Array<uint8_t>*> entropy, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, ::ArrayW<uint8_t, ::Array<uint8_t>*> personalisationString);
 
-  /// @brief Method CTR_DRBG_Reseed_algorithm, addr 0x32f3638, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CTR_DRBG_Reseed_algorithm, addr 0x331de7c, size 0xa8, virtual false, abstract: false, final false
   inline void CTR_DRBG_Reseed_algorithm(::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput);
 
-  /// @brief Method CTR_DRBG_Update, addr 0x32f3164, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method CTR_DRBG_Update, addr 0x331d9a8, size 0x350, virtual false, abstract: false, final false
   inline void CTR_DRBG_Update(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> v);
 
-  /// @brief Method ExpandKey, addr 0x32f34b4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ExpandKey, addr 0x331dcf8, size 0xac, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ExpandKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method Generate, addr 0x32f3a90, size 0x4c0, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x331e2d4, size 0x4c0, virtual true, abstract: false, final true
   inline int32_t Generate(::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput, bool predictionResistant);
 
-  /// @brief Method GetEntropy, addr 0x32f2990, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetEntropy, addr 0x331d1d4, size 0x118, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEntropy();
 
-  /// @brief Method GetMaxSecurityStrength, addr 0x32f2738, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSecurityStrength, addr 0x331cf7c, size 0xfc, virtual false, abstract: false, final false
   inline int32_t GetMaxSecurityStrength(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t keySizeInBits);
 
-  /// @brief Method IsTdea, addr 0x32f2834, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method IsTdea, addr 0x331d078, size 0x15c, virtual false, abstract: false, final false
   inline bool IsTdea(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::Drbg::CtrSP800Drbg* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine, int32_t keySizeInBits, int32_t securityStrength,
                                                                                 ::Org::BouncyCastle::Crypto::IEntropySource* entropySource, ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString,
                                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method PadKey, addr 0x32f3f68, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method PadKey, addr 0x331e7ac, size 0x298, virtual false, abstract: false, final false
   inline void PadKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyMaster, int32_t keyOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> tmp, int32_t tmpOff);
 
-  /// @brief Method Reseed, addr 0x32f3f64, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Reseed, addr 0x331e7a8, size 0x4, virtual true, abstract: false, final true
   inline void Reseed(::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput);
 
-  /// @brief Method XOR, addr 0x32f35b4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method XOR, addr 0x331ddf8, size 0x84, virtual false, abstract: false, final false
   inline void XOR(::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t bOff);
 
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* const& __cordl_internal_get_mEngine() const;
@@ -175,11 +175,11 @@ public:
 
   constexpr void __cordl_internal_set_mV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x32f24f8, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x331cd3c, size 0x240, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine, int32_t keySizeInBits, int32_t securityStrength, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method copyIntToByteArray, addr 0x32f36e0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method copyIntToByteArray, addr 0x331df24, size 0x80, virtual false, abstract: false, final false
   inline void copyIntToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t value, int32_t offSet);
 
   static inline int32_t getStaticF_AES_MAX_BITS_REQUEST();
@@ -192,7 +192,7 @@ public:
 
   static inline int64_t getStaticF_TDEA_RESEED_MAX();
 
-  /// @brief Method get_BlockSize, addr 0x32f3a74, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_BlockSize, addr 0x331e2b8, size 0x1c, virtual true, abstract: false, final true
   inline int32_t get_BlockSize();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"

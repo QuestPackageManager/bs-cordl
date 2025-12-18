@@ -39,10 +39,10 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::IAttributeProvider"
   constexpr operator ::Newtonsoft::Json::Serialization::IAttributeProvider*() noexcept;
 
-  /// @brief Method GetAttributes, addr 0x5b450fc, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method GetAttributes, addr 0x5babbdc, size 0x78, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::System::Attribute*>* GetAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetAttributes, addr 0x5b45088, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method GetAttributes, addr 0x5babb68, size 0x74, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::System::Attribute*>* GetAttributes(bool inherit);
 
   static inline ::Newtonsoft::Json::Serialization::ReflectionAttributeProvider* New_ctor(::System::Object* attributeProvider);
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__attributeProvider(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5b45024, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5babb04, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* attributeProvider);
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::IAttributeProvider"
@@ -74,7 +74,7 @@ public:
   ReflectionAttributeProvider(ReflectionAttributeProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13502 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13506 };
 
   /// @brief Field _attributeProvider, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____attributeProvider;

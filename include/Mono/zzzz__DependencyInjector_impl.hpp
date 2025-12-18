@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::ISystemDependencyProvider* (*)()>(&::Mono::DependencyInjector::get_SystemProvider)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x5897e50;
+  constexpr static std::size_t addrs = 0x58fe79c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::DependencyInjector*>::get(), "get_SystemProvider",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Mono::ISystemDependencyProvider*)>(&::Mono::DependencyInjector::Register)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5898174;
+  constexpr static std::size_t addrs = 0x58feac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::ISystemDependencyProvider* (*)()>(&::Mono::DependencyInjector::ReflectionLoad)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x589805c;
+  constexpr static std::size_t addrs = 0x58fe9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::DependencyInjector*>::get(), "ReflectionLoad",

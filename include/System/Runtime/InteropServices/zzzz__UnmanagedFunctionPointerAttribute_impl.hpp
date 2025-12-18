@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::*)(
     ::System::Runtime::InteropServices::CallingConvention)>(&::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5955b4c;
+  constexpr static std::size_t addrs = 0x59bc498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::InteropServices::CallingConvention (
     ::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::*)()>(&::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::get_CallingConvention)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5955b54;
+  constexpr static std::size_t addrs = 0x59bc4a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

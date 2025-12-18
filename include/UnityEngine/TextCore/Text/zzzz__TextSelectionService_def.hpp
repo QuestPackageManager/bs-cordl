@@ -36,79 +36,79 @@ namespace UnityEngine::TextCore::Text {
 class CORDL_TYPE TextSelectionService : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCharacterHeightFromIndex, addr 0x69d8ee0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterHeightFromIndex, addr 0x6a41d64, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetCharacterHeightFromIndex(::System::IntPtr textGenerationInfo, int32_t index);
 
-  /// @brief Method GetCursorLogicalIndexFromPosition, addr 0x69d8b98, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetCursorLogicalIndexFromPosition, addr 0x6a41a1c, size 0x48, virtual false, abstract: false, final false
   static inline int32_t GetCursorLogicalIndexFromPosition(::System::IntPtr textGenerationInfo, ::UnityEngine::Vector2 position);
 
-  /// @brief Method GetCursorLogicalIndexFromPosition_Injected, addr 0x69d8be0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetCursorLogicalIndexFromPosition_Injected, addr 0x6a41a64, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetCursorLogicalIndexFromPosition_Injected(::System::IntPtr textGenerationInfo, ::ByRef<::UnityEngine::Vector2> position);
 
-  /// @brief Method GetCursorPositionFromLogicalIndex, addr 0x69d8c24, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetCursorPositionFromLogicalIndex, addr 0x6a41aa8, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetCursorPositionFromLogicalIndex(::System::IntPtr textGenerationInfo, int32_t logicalIndex);
 
-  /// @brief Method GetCursorPositionFromLogicalIndex_Injected, addr 0x69d8c80, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetCursorPositionFromLogicalIndex_Injected, addr 0x6a41b04, size 0x54, virtual false, abstract: false, final false
   static inline void GetCursorPositionFromLogicalIndex_Injected(::System::IntPtr textGenerationInfo, int32_t logicalIndex, ::ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method GetEndOfPreviousWord, addr 0x69d8f68, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetEndOfPreviousWord, addr 0x6a41dec, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetEndOfPreviousWord(::System::IntPtr textGenerationInfo, int32_t currentIndex);
 
-  /// @brief Method GetFirstCharacterIndexOnLine, addr 0x69d8fac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetFirstCharacterIndexOnLine, addr 0x6a41e30, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetFirstCharacterIndexOnLine(::System::IntPtr textGenerationInfo, int32_t currentIndex);
 
-  /// @brief Method GetHighlightRectangles, addr 0x69d8d5c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetHighlightRectangles, addr 0x6a41be0, size 0x128, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Rect, ::Array<::UnityEngine::Rect>*> GetHighlightRectangles(::System::IntPtr textGenerationInfo, int32_t cursorIndex, int32_t selectIndex);
 
-  /// @brief Method GetHighlightRectangles_Injected, addr 0x69d8e84, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetHighlightRectangles_Injected, addr 0x6a41d08, size 0x5c, virtual false, abstract: false, final false
   static inline void GetHighlightRectangles_Injected(::System::IntPtr textGenerationInfo, int32_t cursorIndex, int32_t selectIndex, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
-  /// @brief Method GetLastCharacterIndexOnLine, addr 0x69d8ff0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLastCharacterIndexOnLine, addr 0x6a41e74, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetLastCharacterIndexOnLine(::System::IntPtr textGenerationInfo, int32_t currentIndex);
 
-  /// @brief Method GetLineHeight, addr 0x69d9034, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLineHeight, addr 0x6a41eb8, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetLineHeight(::System::IntPtr textGenerationInfo, int32_t lineIndex);
 
-  /// @brief Method GetLineNumber, addr 0x69d9078, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLineNumber, addr 0x6a41efc, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetLineNumber(::System::IntPtr textGenerationInfo, int32_t logicalIndex);
 
-  /// @brief Method GetStartOfNextWord, addr 0x69d8f24, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetStartOfNextWord, addr 0x6a41da8, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetStartOfNextWord(::System::IntPtr textGenerationInfo, int32_t currentIndex);
 
-  /// @brief Method LineDownCharacterPosition, addr 0x69d8d18, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LineDownCharacterPosition, addr 0x6a41b9c, size 0x44, virtual false, abstract: false, final false
   static inline int32_t LineDownCharacterPosition(::System::IntPtr textGenerationInfo, int32_t originalPos);
 
-  /// @brief Method LineUpCharacterPosition, addr 0x69d8cd4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LineUpCharacterPosition, addr 0x6a41b58, size 0x44, virtual false, abstract: false, final false
   static inline int32_t LineUpCharacterPosition(::System::IntPtr textGenerationInfo, int32_t originalPos);
 
-  /// @brief Method NextCodePointIndex, addr 0x69d8b54, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method NextCodePointIndex, addr 0x6a419d8, size 0x44, virtual false, abstract: false, final false
   static inline int32_t NextCodePointIndex(::System::IntPtr textGenerationInfo, int32_t currentIndex);
 
-  /// @brief Method PreviousCodePointIndex, addr 0x69d8b10, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PreviousCodePointIndex, addr 0x6a41994, size 0x44, virtual false, abstract: false, final false
   static inline int32_t PreviousCodePointIndex(::System::IntPtr textGenerationInfo, int32_t currentIndex);
 
-  /// @brief Method SelectCurrentParagraph, addr 0x69d91cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SelectCurrentParagraph, addr 0x6a42050, size 0x54, virtual false, abstract: false, final false
   static inline void SelectCurrentParagraph(::System::IntPtr textGenerationInfo, ::ByRef<int32_t> cursorIndex, ::ByRef<int32_t> selectIndex);
 
-  /// @brief Method SelectCurrentWord, addr 0x69d8ab4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SelectCurrentWord, addr 0x6a41938, size 0x5c, virtual false, abstract: false, final false
   static inline void SelectCurrentWord(::System::IntPtr textGenerationInfo, int32_t currentIndex, ::ByRef<int32_t> startIndex, ::ByRef<int32_t> endIndex);
 
-  /// @brief Method SelectToEndOfParagraph, addr 0x69d9144, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SelectToEndOfParagraph, addr 0x6a41fc8, size 0x44, virtual false, abstract: false, final false
   static inline void SelectToEndOfParagraph(::System::IntPtr textGenerationInfo, ::ByRef<int32_t> cursorIndex);
 
-  /// @brief Method SelectToNextParagraph, addr 0x69d9188, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SelectToNextParagraph, addr 0x6a4200c, size 0x44, virtual false, abstract: false, final false
   static inline void SelectToNextParagraph(::System::IntPtr textGenerationInfo, ::ByRef<int32_t> cursorIndex);
 
-  /// @brief Method SelectToPreviousParagraph, addr 0x69d90bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SelectToPreviousParagraph, addr 0x6a41f40, size 0x44, virtual false, abstract: false, final false
   static inline void SelectToPreviousParagraph(::System::IntPtr textGenerationInfo, ::ByRef<int32_t> cursorIndex);
 
-  /// @brief Method SelectToStartOfParagraph, addr 0x69d9100, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SelectToStartOfParagraph, addr 0x6a41f84, size 0x44, virtual false, abstract: false, final false
   static inline void SelectToStartOfParagraph(::System::IntPtr textGenerationInfo, ::ByRef<int32_t> cursorIndex);
 
-  /// @brief Method Substring, addr 0x69d8978, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Substring, addr 0x6a417fc, size 0xe0, virtual false, abstract: false, final false
   static inline ::StringW Substring(::System::IntPtr textGenerationInfo, int32_t startIndex, int32_t endIndex);
 
-  /// @brief Method Substring_Injected, addr 0x69d8a58, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Substring_Injected, addr 0x6a418dc, size 0x5c, virtual false, abstract: false, final false
   static inline void Substring_Injected(::System::IntPtr textGenerationInfo, int32_t startIndex, int32_t endIndex, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
 protected:
@@ -126,7 +126,7 @@ public:
   TextSelectionService(TextSelectionService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17225 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17239 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

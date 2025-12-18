@@ -92,7 +92,7 @@ public:
 
   static inline ::UnityEngine::UIElements::BindingUpdater_CastDataSourceVisitor* New_ctor();
 
-  /// @brief Method Reset, addr 0x69fde70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6a66cf4, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
   /// @brief Method VisitContainer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -116,25 +116,25 @@ public:
 
   constexpr void __cordl_internal_set__result_k__BackingField(::UnityEngine::UIElements::BindingResult value);
 
-  /// @brief Method .ctor, addr 0x69fdf1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a66da0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Binding, addr 0x69fdf24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Binding, addr 0x6a66da8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DataBinding* get_Binding();
 
-  /// @brief Method get_bindingContext, addr 0x69fdf34, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_bindingContext, addr 0x6a66db8, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingContext get_bindingContext();
 
-  /// @brief Method get_result, addr 0x69fdf50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_result, addr 0x6a66dd4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingResult get_result();
 
-  /// @brief Method set_Binding, addr 0x69fdf2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Binding, addr 0x6a66db0, size 0x8, virtual false, abstract: false, final false
   inline void set_Binding(::UnityEngine::UIElements::DataBinding* value);
 
-  /// @brief Method set_bindingContext, addr 0x69fdf44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_bindingContext, addr 0x6a66dc8, size 0xc, virtual false, abstract: false, final false
   inline void set_bindingContext(::UnityEngine::UIElements::BindingContext value);
 
-  /// @brief Method set_result, addr 0x69fdf5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_result, addr 0x6a66de0, size 0x8, virtual false, abstract: false, final false
   inline void set_result(::UnityEngine::UIElements::BindingResult value);
 
 protected:
@@ -206,7 +206,7 @@ public:
 
   static inline ::UnityEngine::UIElements::BindingUpdater_UIPathVisitor* New_ctor();
 
-  /// @brief Method Reset, addr 0x69fdfbc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6a66e40, size 0x44, virtual true, abstract: false, final false
   inline void Reset();
 
   /// @brief Method VisitPath, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -236,31 +236,31 @@ public:
 
   constexpr void __cordl_internal_set__result_k__BackingField(::UnityEngine::UIElements::BindingResult value);
 
-  /// @brief Method .ctor, addr 0x69fdf20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a66da4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_binding, addr 0x69fdf64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_binding, addr 0x6a66de8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DataBinding* get_binding();
 
-  /// @brief Method get_bindingContext, addr 0x69fdf84, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_bindingContext, addr 0x6a66e08, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingContext get_bindingContext();
 
-  /// @brief Method get_direction, addr 0x69fdf74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x6a66df8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingUpdateStage get_direction();
 
-  /// @brief Method get_result, addr 0x69fdfa0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_result, addr 0x6a66e24, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingResult get_result();
 
-  /// @brief Method set_binding, addr 0x69fdf6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_binding, addr 0x6a66df0, size 0x8, virtual false, abstract: false, final false
   inline void set_binding(::UnityEngine::UIElements::DataBinding* value);
 
-  /// @brief Method set_bindingContext, addr 0x69fdf94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_bindingContext, addr 0x6a66e18, size 0xc, virtual false, abstract: false, final false
   inline void set_bindingContext(::UnityEngine::UIElements::BindingContext value);
 
-  /// @brief Method set_direction, addr 0x69fdf7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x6a66e00, size 0x8, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::BindingUpdateStage value);
 
-  /// @brief Method set_result, addr 0x69fdfb0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_result, addr 0x6a66e34, size 0xc, virtual false, abstract: false, final false
   inline void set_result(::UnityEngine::UIElements::BindingResult value);
 
 protected:
@@ -325,46 +325,46 @@ public:
   __declspec(property(get = getStaticF_s_VisitDataSourceAtPathVisitor,
                       put = setStaticF_s_VisitDataSourceAtPathVisitor)) ::UnityEngine::UIElements::BindingUpdater_UIPathVisitor* s_VisitDataSourceAtPathVisitor;
 
-  /// @brief Method GetExtractValueErrorString, addr 0x69fdb58, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method GetExtractValueErrorString, addr 0x6a669dc, size 0x224, virtual false, abstract: false, final false
   static inline ::StringW GetExtractValueErrorString(::Unity::Properties::VisitReturnCode returnCode, ::System::Object* target, ::ByRef<::Unity::Properties::PropertyPath> path);
 
-  /// @brief Method GetRootDataSourceError, addr 0x69fdd7c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetRootDataSourceError, addr 0x6a66c00, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW GetRootDataSourceError(::System::Object* target);
 
-  /// @brief Method GetVisitationErrorString, addr 0x69fd938, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method GetVisitationErrorString, addr 0x6a667bc, size 0x220, virtual false, abstract: false, final false
   static inline ::StringW GetVisitationErrorString(::Unity::Properties::VisitReturnCode returnCode, ::ByRef<::UnityEngine::UIElements::BindingContext> context);
 
   static inline ::UnityEngine::UIElements::BindingUpdater* New_ctor();
 
-  /// @brief Method ShouldProcessBindingAtStage, addr 0x69fc440, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method ShouldProcessBindingAtStage, addr 0x6a652c4, size 0x1cc, virtual false, abstract: false, final false
   inline bool ShouldProcessBindingAtStage(::UnityEngine::UIElements::Binding* bindingObject, ::UnityEngine::UIElements::BindingUpdateStage stage, bool versionChanged, bool dirty);
 
-  /// @brief Method ShouldProcessBindingAtStage, addr 0x69fc6f4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ShouldProcessBindingAtStage, addr 0x6a65578, size 0xc8, virtual false, abstract: false, final false
   inline bool ShouldProcessBindingAtStage(::UnityEngine::UIElements::CustomBinding* customBinding, ::UnityEngine::UIElements::BindingUpdateStage stage, bool versionChanged, bool dirty);
 
-  /// @brief Method ShouldProcessBindingAtStage, addr 0x69fc60c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ShouldProcessBindingAtStage, addr 0x6a65490, size 0xe8, virtual false, abstract: false, final false
   static inline bool ShouldProcessBindingAtStage(::UnityEngine::UIElements::DataBinding* dataBinding, ::UnityEngine::UIElements::BindingUpdateStage stage, bool versionChanged, bool dirty);
 
-  /// @brief Method TryUpdateUIWithNonContainer, addr 0x69fcfe0, size 0x824, virtual false, abstract: false, final false
+  /// @brief Method TryUpdateUIWithNonContainer, addr 0x6a65e64, size 0x824, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BindingResult TryUpdateUIWithNonContainer(::ByRef<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::DataBinding* binding,
                                                                                      ::System::Object* value);
 
-  /// @brief Method UpdateDataSource, addr 0x69fcfd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UpdateDataSource, addr 0x6a65e58, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingResult UpdateDataSource(::ByRef<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::CustomBinding* customBinding);
 
-  /// @brief Method UpdateDataSource, addr 0x69fcd64, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method UpdateDataSource, addr 0x6a65be8, size 0x270, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingResult UpdateDataSource(::ByRef<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::DataBinding* dataBinding);
 
-  /// @brief Method UpdateSource, addr 0x69fcbe4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method UpdateSource, addr 0x6a65a68, size 0x180, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingResult UpdateSource(::ByRef<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::Binding* bindingObject);
 
-  /// @brief Method UpdateUI, addr 0x69fc7bc, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method UpdateUI, addr 0x6a65640, size 0x184, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingResult UpdateUI(::ByRef<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::Binding* bindingObject);
 
-  /// @brief Method UpdateUI, addr 0x69fcbc4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UpdateUI, addr 0x6a65a48, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingResult UpdateUI(::ByRef<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::CustomBinding* customBinding);
 
-  /// @brief Method UpdateUI, addr 0x69fc940, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method UpdateUI, addr 0x6a657c4, size 0x284, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingResult UpdateUI(::ByRef<::UnityEngine::UIElements::BindingContext> context, ::UnityEngine::UIElements::DataBinding* dataBinding);
 
   /// @brief Method VisitAtPath, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -373,11 +373,11 @@ public:
   VisitAtPath(::UnityEngine::UIElements::DataBinding* dataBinding, ::UnityEngine::UIElements::BindingUpdateStage direction, ::ByRef<TContainer> container,
               ::ByRef<::Unity::Properties::PropertyPath> path, ::ByRef<::UnityEngine::UIElements::BindingContext> context);
 
-  /// @brief Method VisitRoot, addr 0x69fd804, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method VisitRoot, addr 0x6a66688, size 0x134, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_3<bool, ::Unity::Properties::VisitReturnCode, ::UnityEngine::UIElements::BindingResult>
   VisitRoot(::UnityEngine::UIElements::DataBinding* dataBinding, ::ByRef<::System::Object*> container, ::ByRef<::UnityEngine::UIElements::BindingContext> context);
 
-  /// @brief Method .ctor, addr 0x69fde80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a66d04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::BindingUpdater_CastDataSourceVisitor* getStaticF_s_VisitDataSourceAsRootVisitor();

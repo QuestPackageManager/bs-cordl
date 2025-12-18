@@ -143,7 +143,7 @@ public:
   DebugDisplayStats_1_AccumulatedTiming(DebugDisplayStats_1_AccumulatedTiming const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11944 };
 
   /// @brief Field accumulatedValue, offset: 0x10, size: 0x4, def value: None
   float_t ___accumulatedValue;
@@ -200,7 +200,7 @@ public:
   static ::UnityEngine::Rendering::DebugDisplayStats_1_DebugProfilingType<TProfileId> const InlineCPU;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11945 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -280,7 +280,7 @@ public:
   DebugDisplayStats_1___c__DisplayClass19_0(DebugDisplayStats_1___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11946 };
 
   /// @brief Field samplerId, offset: 0x10, size: 0x8, def value: None
   TProfileId ___samplerId;
@@ -348,7 +348,7 @@ public:
   DebugDisplayStats_1___c__DisplayClass19_1(DebugDisplayStats_1___c__DisplayClass19_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11947 };
 
   /// @brief Field samplerId, offset: 0x10, size: 0x8, def value: None
   TProfileId ___samplerId;
@@ -411,7 +411,7 @@ public:
   DebugDisplayStats_1___c__DisplayClass19_2(DebugDisplayStats_1___c__DisplayClass19_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11944 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11948 };
 
   /// @brief Field sampler, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProfilingSampler* ___sampler;
@@ -473,7 +473,7 @@ public:
   DebugDisplayStats_1___c__DisplayClass6_0(DebugDisplayStats_1___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11949 };
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
@@ -631,7 +631,7 @@ public:
   DebugDisplayStats_1(DebugDisplayStats_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11950 };
 
   /// @brief Field k_AccumulationTimeInSeconds offset 0xffffffff size 0x4
   static constexpr float_t k_AccumulationTimeInSeconds{ static_cast<float_t>(1.0f) };

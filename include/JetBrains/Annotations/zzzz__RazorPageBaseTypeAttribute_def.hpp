@@ -45,22 +45,22 @@ public:
 
   constexpr void __cordl_internal_set__PageName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c09730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c725b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType);
 
-  /// @brief Method .ctor, addr 0x6c09738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c725bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType, ::StringW pageName);
 
-  /// @brief Method get_BaseType, addr 0x6c09740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x6c725c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BaseType();
 
-  /// @brief Method get_PageName, addr 0x6c09750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageName, addr 0x6c725d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PageName();
 
-  /// @brief Method set_BaseType, addr 0x6c09748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x6c725cc, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::StringW value);
 
-  /// @brief Method set_PageName, addr 0x6c09758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PageName, addr 0x6c725dc, size 0x8, virtual false, abstract: false, final false
   inline void set_PageName(::StringW value);
 
 protected:
@@ -78,7 +78,7 @@ public:
   RazorPageBaseTypeAttribute(RazorPageBaseTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22335 };
 
   /// @brief Field <BaseType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____BaseType_k__BackingField;

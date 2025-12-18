@@ -23,24 +23,24 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class CORDL_TYPE BufferPool : public ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<::UnityEngine::GraphicsBuffer*> {
 public:
   // Declarations
-  /// @brief Method GetResourceName, addr 0x65c5df4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetResourceName, addr 0x662d980, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetResourceName(::ByRef<::UnityEngine::GraphicsBuffer*> res);
 
-  /// @brief Method GetResourceSize, addr 0x65c5e38, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetResourceSize, addr 0x662d9c4, size 0x44, virtual true, abstract: false, final false
   inline int64_t GetResourceSize(::ByRef<::UnityEngine::GraphicsBuffer*> res);
 
-  /// @brief Method GetResourceTypeName, addr 0x65c5e7c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetResourceTypeName, addr 0x662da08, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetResourceTypeName();
 
-  /// @brief Method GetSortIndex, addr 0x65c5ec0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetSortIndex, addr 0x662da4c, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetSortIndex(::UnityEngine::GraphicsBuffer* res);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BufferPool* New_ctor();
 
-  /// @brief Method ReleaseInternalResource, addr 0x65c5de0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ReleaseInternalResource, addr 0x662d96c, size 0x14, virtual true, abstract: false, final false
   inline void ReleaseInternalResource(::UnityEngine::GraphicsBuffer* res);
 
-  /// @brief Method .ctor, addr 0x65c5ee0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x662da6c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   BufferPool(BufferPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12413 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12417 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

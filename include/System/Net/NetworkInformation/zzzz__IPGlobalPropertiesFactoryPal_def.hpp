@@ -21,7 +21,7 @@ namespace System::Net::NetworkInformation {
 class CORDL_TYPE IPGlobalPropertiesFactoryPal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x6135bb8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x619d744, size 0x48, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* Create();
 
 protected:
@@ -39,7 +39,7 @@ public:
   IPGlobalPropertiesFactoryPal(IPGlobalPropertiesFactoryPal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11665 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

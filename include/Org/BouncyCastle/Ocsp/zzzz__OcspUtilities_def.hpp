@@ -43,18 +43,18 @@ public:
   /// @brief Field oids, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_oids, put = setStaticF_oids)) ::System::Collections::IDictionary* oids;
 
-  /// @brief Method GetAlgorithmName, addr 0x344bec4, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmName, addr 0x3476708, size 0x190, virtual false, abstract: false, final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetAlgorithmOid, addr 0x345166c, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmOid, addr 0x347beb0, size 0x21c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetAlgorithmOid(::StringW algorithmName);
 
-  /// @brief Method GetSigAlgID, addr 0x344e400, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetSigAlgID, addr 0x3478c44, size 0x150, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetSigAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOid);
 
   static inline ::Org::BouncyCastle::Ocsp::OcspUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x34546a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x347eee4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_algorithms();
@@ -63,7 +63,7 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_oids();
 
-  /// @brief Method get_AlgNames, addr 0x344e6e8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method get_AlgNames, addr 0x3478f2c, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_AlgNames();
 
   static inline void setStaticF_algorithms(::System::Collections::IDictionary* value);

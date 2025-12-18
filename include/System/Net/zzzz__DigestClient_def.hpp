@@ -43,26 +43,26 @@ public:
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
 
-  /// @brief Method Authenticate, addr 0x620e44c, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method Authenticate, addr 0x6275fd8, size 0x2b0, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method CheckExpired, addr 0x620dc5c, size 0x7f0, virtual false, abstract: false, final false
+  /// @brief Method CheckExpired, addr 0x62757e8, size 0x7f0, virtual false, abstract: false, final false
   static inline void CheckExpired(int32_t count);
 
   static inline ::System::Net::DigestClient* New_ctor();
 
-  /// @brief Method PreAuthenticate, addr 0x620e6fc, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method PreAuthenticate, addr 0x6276288, size 0x180, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method .ctor, addr 0x6209e74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6271a00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Hashtable* getStaticF_cache();
 
-  /// @brief Method get_AuthenticationType, addr 0x620e87c, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x6276408, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
-  /// @brief Method get_Cache, addr 0x620daf8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x6275684, size 0x164, virtual false, abstract: false, final false
   static inline ::System::Collections::Hashtable* get_Cache();
 
   /// @brief Convert to "::System::Net::IAuthenticationModule"
@@ -85,7 +85,7 @@ public:
   DigestClient(DigestClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11556 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11560 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

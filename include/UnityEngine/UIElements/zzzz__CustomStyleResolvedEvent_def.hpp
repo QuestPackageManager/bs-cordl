@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::CustomStyleResolvedEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6b71d68, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6bdabec, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::CustomStyleResolvedEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6b71d64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bdabe8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::CustomStyleResolvedEvent___c* getStaticF___9();
@@ -80,10 +80,10 @@ public:
 
   static inline ::UnityEngine::UIElements::CustomStyleResolvedEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b71c9c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bdab20, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_customStyle, addr 0x6b71c88, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_customStyle, addr 0x6bdab0c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ICustomStyle* get_customStyle();
 
 protected:

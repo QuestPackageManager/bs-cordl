@@ -39,16 +39,16 @@ public:
 
   static inline ::Mono::Math::Prime::Generator::PrimeGeneratorBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58b1898, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58fcc44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Confidence, addr 0x58b1814, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Confidence, addr 0x58fcbc0, size 0x8, virtual true, abstract: false, final false
   inline ::Mono::Math::Prime::ConfidenceFactor get_Confidence();
 
-  /// @brief Method get_PrimalityTest, addr 0x58b181c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_PrimalityTest, addr 0x58fcbc8, size 0x74, virtual true, abstract: false, final false
   inline ::Mono::Math::Prime::PrimalityTest* get_PrimalityTest();
 
-  /// @brief Method get_TrialDivisionBounds, addr 0x58b1890, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TrialDivisionBounds, addr 0x58fcc3c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_TrialDivisionBounds();
 
 protected:
@@ -66,7 +66,7 @@ public:
   PrimeGeneratorBase(PrimeGeneratorBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2294 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19307 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

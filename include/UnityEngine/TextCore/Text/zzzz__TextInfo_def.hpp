@@ -126,75 +126,75 @@ public:
   __declspec(property(get = __cordl_internal_get_wordInfo, put = __cordl_internal_set_wordInfo)) ::ArrayW<::UnityEngine::TextCore::Text::WordInfo, ::Array<::UnityEngine::TextCore::Text::WordInfo>*>
       wordInfo;
 
-  /// @brief Method Clear, addr 0x69dd2b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6a46138, size 0x58, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearLineInfo, addr 0x69dd3cc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ClearLineInfo, addr 0x6a46250, size 0x17c, virtual false, abstract: false, final false
   inline void ClearLineInfo();
 
-  /// @brief Method ClearMeshInfo, addr 0x69dd30c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ClearMeshInfo, addr 0x6a46190, size 0xc0, virtual false, abstract: false, final false
   inline void ClearMeshInfo(bool updateMesh);
 
-  /// @brief Method ClearPageInfo, addr 0x69dd548, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ClearPageInfo, addr 0x6a463cc, size 0x9c, virtual false, abstract: false, final false
   inline void ClearPageInfo();
 
-  /// @brief Method DistanceToLine, addr 0x69dddf8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DistanceToLine, addr 0x6a46c7c, size 0xc8, virtual false, abstract: false, final false
   static inline float_t DistanceToLine(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 point);
 
-  /// @brief Method FindIntersectingLink, addr 0x69ddec0, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method FindIntersectingLink, addr 0x6a46d44, size 0x278, virtual false, abstract: false, final false
   inline int32_t FindIntersectingLink(::UnityEngine::Vector3 position, ::UnityEngine::Rect screenRect, bool inverseYAxis);
 
-  /// @brief Method FindNearestCharacterOnLine, addr 0x69dd864, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method FindNearestCharacterOnLine, addr 0x6a466e8, size 0x270, virtual false, abstract: false, final false
   inline int32_t FindNearestCharacterOnLine(::UnityEngine::Vector2 position, int32_t line, bool visibleOnly);
 
-  /// @brief Method FindNearestLine, addr 0x69dd7c8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method FindNearestLine, addr 0x6a4664c, size 0x9c, virtual false, abstract: false, final false
   inline int32_t FindNearestLine(::UnityEngine::Vector2 position);
 
-  /// @brief Method GetCharacterHeightFromIndex, addr 0x69de2b4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterHeightFromIndex, addr 0x6a47138, size 0x54, virtual false, abstract: false, final false
   inline float_t GetCharacterHeightFromIndex(int32_t index);
 
-  /// @brief Method GetCorrespondingStringIndex, addr 0x69de138, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetCorrespondingStringIndex, addr 0x6a46fbc, size 0x4c, virtual false, abstract: false, final false
   inline int32_t GetCorrespondingStringIndex(int32_t index);
 
-  /// @brief Method GetCursorIndexFromPosition, addr 0x69dd714, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetCursorIndexFromPosition, addr 0x6a46598, size 0xb4, virtual false, abstract: false, final false
   inline int32_t GetCursorIndexFromPosition(::UnityEngine::Vector2 position, ::UnityEngine::Rect screenRect, bool inverseYAxis);
 
-  /// @brief Method GetCursorPositionFromStringIndexUsingCharacterHeight, addr 0x69dd5e4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetCursorPositionFromStringIndexUsingCharacterHeight, addr 0x6a46468, size 0x84, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 GetCursorPositionFromStringIndexUsingCharacterHeight(int32_t index, ::UnityEngine::Rect screenRect, float_t lineHeight, bool inverseYAxis);
 
-  /// @brief Method GetCursorPositionFromStringIndexUsingLineHeight, addr 0x69dd668, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetCursorPositionFromStringIndexUsingLineHeight, addr 0x6a464ec, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetCursorPositionFromStringIndexUsingLineHeight(int32_t index, ::UnityEngine::Rect screenRect, float_t lineHeight, bool useXAdvance, bool inverseYAxis);
 
-  /// @brief Method GetLineHeight, addr 0x69de21c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetLineHeight, addr 0x6a470a0, size 0x4c, virtual false, abstract: false, final false
   inline float_t GetLineHeight(int32_t lineNumber);
 
-  /// @brief Method GetLineHeightFromCharacterIndex, addr 0x69de268, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetLineHeightFromCharacterIndex, addr 0x6a470ec, size 0x4c, virtual false, abstract: false, final false
   inline float_t GetLineHeightFromCharacterIndex(int32_t index);
 
-  /// @brief Method GetLineInfoFromCharacterIndex, addr 0x69de184, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetLineInfoFromCharacterIndex, addr 0x6a47008, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::LineInfo GetLineInfoFromCharacterIndex(int32_t index);
 
-  /// @brief Method GetLineNumber, addr 0x69de1d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetLineNumber, addr 0x6a47054, size 0x4c, virtual false, abstract: false, final false
   inline int32_t GetLineNumber(int32_t index);
 
-  /// @brief Method IndexOf, addr 0x69de474, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x6a472f8, size 0xa8, virtual false, abstract: false, final false
   inline int32_t IndexOf(char16_t value, int32_t startIndex);
 
-  /// @brief Method LastIndexOf, addr 0x69de51c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x6a473a0, size 0x9c, virtual false, abstract: false, final false
   inline int32_t LastIndexOf(char16_t value, int32_t startIndex);
 
-  /// @brief Method LineDownCharacterPosition, addr 0x69ddad4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method LineDownCharacterPosition, addr 0x6a46958, size 0x12c, virtual false, abstract: false, final false
   inline int32_t LineDownCharacterPosition(int32_t originalPos);
 
-  /// @brief Method LineUpCharacterPosition, addr 0x69ddc00, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method LineUpCharacterPosition, addr 0x6a46a84, size 0x138, virtual false, abstract: false, final false
   inline int32_t LineUpCharacterPosition(int32_t originalPos);
 
   static inline ::UnityEngine::TextCore::Text::TextInfo* New_ctor(::UnityEngine::TextCore::Text::VertexDataLayout vertexDataLayout);
 
-  /// @brief Method PointIntersectRectangle, addr 0x69ddd38, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method PointIntersectRectangle, addr 0x6a46bbc, size 0xc0, virtual false, abstract: false, final false
   static inline bool PointIntersectRectangle(::UnityEngine::Vector3 m, ::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 c, ::UnityEngine::Vector3 d);
 
-  /// @brief Method RemoveFromCache, addr 0x69dc7d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromCache, addr 0x6a4565c, size 0x2c, virtual false, abstract: false, final false
   inline void RemoveFromCache();
 
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -203,7 +203,7 @@ public:
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Resize(::ByRef<::ArrayW<T, ::Array<T>*>> array, int32_t size, bool isBlockAllocated);
 
-  /// @brief Method Substring, addr 0x69de308, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Substring, addr 0x6a4718c, size 0x16c, virtual false, abstract: false, final false
   inline ::StringW Substring(int32_t startIndex, int32_t length);
 
   constexpr ::UnityEngine::TextCore::Text::VertexDataLayout const& __cordl_internal_get__vertexDataLayout_k__BackingField() const;
@@ -314,21 +314,21 @@ public:
 
   constexpr void __cordl_internal_set_wordInfo(::ArrayW<::UnityEngine::TextCore::Text::WordInfo, ::Array<::UnityEngine::TextCore::Text::WordInfo>*> value);
 
-  /// @brief Method .ctor, addr 0x69dc034, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a44eb8, size 0x1d8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::Text::VertexDataLayout vertexDataLayout);
 
   static inline ::UnityEngine::Vector2 getStaticF_s_InfinityVectorNegative();
 
   static inline ::UnityEngine::Vector2 getStaticF_s_InfinityVectorPositive();
 
-  /// @brief Method get_vertexDataLayout, addr 0x69dd2a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vertexDataLayout, addr 0x6a46128, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::VertexDataLayout get_vertexDataLayout();
 
   static inline void setStaticF_s_InfinityVectorNegative(::UnityEngine::Vector2 value);
 
   static inline void setStaticF_s_InfinityVectorPositive(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_vertexDataLayout, addr 0x69dd2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_vertexDataLayout, addr 0x6a46130, size 0x8, virtual false, abstract: false, final false
   inline void set_vertexDataLayout(::UnityEngine::TextCore::Text::VertexDataLayout value);
 
 protected:
@@ -346,7 +346,7 @@ public:
   TextInfo(TextInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17246 };
 
   /// @brief Field characterCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___characterCount;

@@ -24,13 +24,13 @@ public:
   // Declarations
   __declspec(property(get = get_Unicode, put = set_Unicode)) uint32_t Unicode;
 
-  /// @brief Method .ctor, addr 0x67869c8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ee540, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TMP_TextElement* textElement);
 
-  /// @brief Method get_Unicode, addr 0x67869b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Unicode, addr 0x67ee530, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_Unicode();
 
-  /// @brief Method set_Unicode, addr 0x67869c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Unicode, addr 0x67ee538, size 0x8, virtual false, abstract: false, final false
   inline void set_Unicode(uint32_t value);
 
   // Ctor Parameters []
@@ -42,7 +42,7 @@ public:
   constexpr CharacterElement(uint32_t m_Unicode, ::TMPro::TMP_TextElement* m_TextElement) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15984 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

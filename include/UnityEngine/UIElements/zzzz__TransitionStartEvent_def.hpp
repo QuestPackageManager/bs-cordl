@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::UIElements::TransitionStartEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6b726b0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6bdb534, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TransitionStartEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6b726ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bdb530, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::TransitionStartEvent___c* getStaticF___9();
@@ -75,7 +75,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TransitionStartEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b7260c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bdb490, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator::*)(::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator::Run)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x32fa628;
+  constexpr static std::size_t addrs = 0x3324e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator::*)(
     int32_t, bool)>(&::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator::GenerateSeed)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x32fa500;
+  constexpr static std::size_t addrs = 0x3324d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator::*)(
     int32_t, bool)>(&::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator::DoGenerateSeed)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x32fa654;
+  constexpr static std::size_t addrs = 0x3324e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator_SeedGenerator::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x32fa4ec;
+  constexpr static std::size_t addrs = 0x3324d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator::*)(int32_t, bool)>(
     &::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator::GenerateSeed)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x32fa47c;
+  constexpr static std::size_t addrs = 0x3324cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32fa624;
+  constexpr static std::size_t addrs = 0x3324e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator*>::get(),

@@ -229,7 +229,7 @@ public:
   SerializableHashSet_1(SerializableHashSet_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20743 };
 
   /// @brief Field m_hashSet, offset: 0x10, size: 0x8, def value: None
   ::BGLib::UnityExtension::SerializableHashSetBase_HashSet_1<T>* ___m_hashSet;

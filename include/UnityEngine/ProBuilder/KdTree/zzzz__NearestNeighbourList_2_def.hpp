@@ -110,7 +110,7 @@ public:
   NearestNeighbourList_2(NearestNeighbourList_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22370 };
 
   /// @brief Field queue, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>* ___queue;

@@ -68,7 +68,7 @@ public:
   static ::GlobalNamespace::OVRSpace_StorageLocation const Local;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7680 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7684 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -100,43 +100,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRSpace>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRSpace>*();
 
-  /// @brief Method Equals, addr 0x5cbc88c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5d2336c, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5cbc87c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5d2335c, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRSpace other);
 
-  /// @brief Method GetHashCode, addr 0x5cbc908, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5d233e8, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x5cbc7e4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5d232c4, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryGetUuid, addr 0x5cbc76c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryGetUuid, addr 0x5d2324c, size 0x70, virtual false, abstract: false, final false
   inline bool TryGetUuid(::ByRef<::System::Guid> uuid);
 
-  /// @brief Method .ctor, addr 0x5cbc7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d232bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t handle);
 
-  /// @brief Method get_Handle, addr 0x5cbc764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x5d23244, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_Valid, addr 0x5cb5b4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x5d1c62c, size 0x10, virtual false, abstract: false, final false
   inline bool get_Valid();
 
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRSpace>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRSpace>* i___System__IEquatable_1___GlobalNamespace__OVRSpace_();
 
-  /// @brief Method op_Equality, addr 0x5cbc914, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5d233f4, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRSpace lhs, ::GlobalNamespace::OVRSpace rhs);
 
-  /// @brief Method op_Implicit, addr 0x5cb114c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x5d17c2c, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRSpace op_Implicit___GlobalNamespace__OVRSpace(uint64_t handle);
 
-  /// @brief Method op_Implicit, addr 0x5cb1150, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x5d17c30, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t op_Implicit_uint64_t(::GlobalNamespace::OVRSpace space);
 
-  /// @brief Method op_Inequality, addr 0x5cbc920, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x5d23400, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRSpace lhs, ::GlobalNamespace::OVRSpace rhs);
 
   // Ctor Parameters []
@@ -147,7 +147,7 @@ public:
   constexpr OVRSpace(uint64_t _Handle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7681 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7685 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BindingRestrictions_InstanceRestriction::*)(
     ::System::Linq::Expressions::Expression*, ::System::Object*)>(&::GlobalNamespace::BindingRestrictions_InstanceRestriction::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5da574c;
+  constexpr static std::size_t addrs = 0x5e0d2d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BindingRestrictions_InstanceRestriction::*)(::System::Object*)>(
     &::GlobalNamespace::BindingRestrictions_InstanceRestriction::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5da6000;
+  constexpr static std::size_t addrs = 0x5e0db8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BindingRestrictions_InstanceRestriction::*)()>(
     &::GlobalNamespace::BindingRestrictions_InstanceRestriction::GetHashCode)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5da6098;
+  constexpr static std::size_t addrs = 0x5e0dc24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::GlobalNamespace::BindingRestrictions_InstanceRestriction::*)()>(
     &::GlobalNamespace::BindingRestrictions_InstanceRestriction::GetExpression)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x5da60e4;
+  constexpr static std::size_t addrs = 0x5e0dc70;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -55,13 +55,13 @@ public:
 
   __declspec(property(get = get_useGraphicAlpha, put = set_useGraphicAlpha)) bool useGraphicAlpha;
 
-  /// @brief Method ApplyShadow, addr 0x6bdfdf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ApplyShadow, addr 0x6c48c74, size 0x8, virtual false, abstract: false, final false
   inline void ApplyShadow(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts, ::UnityEngine::Color32 color, int32_t start, int32_t end, float_t x, float_t y);
 
-  /// @brief Method ApplyShadowZeroAlloc, addr 0x6bdfafc, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method ApplyShadowZeroAlloc, addr 0x6c48980, size 0x2f4, virtual false, abstract: false, final false
   inline void ApplyShadowZeroAlloc(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts, ::UnityEngine::Color32 color, int32_t start, int32_t end, float_t x, float_t y);
 
-  /// @brief Method ModifyMesh, addr 0x6bdfdf8, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x6c48c7c, size 0x140, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
 
   static inline ::UnityEngine::UI::Shadow* New_ctor();
@@ -84,25 +84,25 @@ public:
 
   constexpr void __cordl_internal_set_m_UseGraphicAlpha(bool value);
 
-  /// @brief Method .ctor, addr 0x6bdf824, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c486a8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_effectColor, addr 0x6bdf848, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_effectColor, addr 0x6c486cc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_effectColor();
 
-  /// @brief Method get_effectDistance, addr 0x6bdf92c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_effectDistance, addr 0x6c487b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_effectDistance();
 
-  /// @brief Method get_useGraphicAlpha, addr 0x6bdfa38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useGraphicAlpha, addr 0x6c488bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_useGraphicAlpha();
 
-  /// @brief Method set_effectColor, addr 0x6bdf854, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method set_effectColor, addr 0x6c486d8, size 0xd8, virtual false, abstract: false, final false
   inline void set_effectColor(::UnityEngine::Color value);
 
-  /// @brief Method set_effectDistance, addr 0x6bdf934, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_effectDistance, addr 0x6c487b8, size 0x104, virtual false, abstract: false, final false
   inline void set_effectDistance(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_useGraphicAlpha, addr 0x6bdfa40, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_useGraphicAlpha, addr 0x6c488c4, size 0xbc, virtual false, abstract: false, final false
   inline void set_useGraphicAlpha(bool value);
 
 protected:
@@ -120,7 +120,7 @@ public:
   Shadow(Shadow const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17486 };
 
   /// @brief Field kMaxEffectDistance offset 0xffffffff size 0x4
   static constexpr float_t kMaxEffectDistance{ static_cast<float_t>(600.0f) };

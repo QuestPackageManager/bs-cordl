@@ -10,7 +10,7 @@ namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerBeatmapObjectEventManager;
@@ -44,7 +44,7 @@ class CORDL_TYPE MultiplayerConnectedPlayerInstaller : public ::Zenject::MonoIns
 public:
   // Declarations
   /// @brief Field _connectedPlayer, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* _connectedPlayer;
 
   /// @brief Field _connectedPlayerAudioTimeSyncControllerPrefab, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__connectedPlayerAudioTimeSyncControllerPrefab,
@@ -91,14 +91,14 @@ public:
   /// @brief Field _sceneSetupData, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData)) ::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  /// @brief Method InstallBindings, addr 0x57a9d30, size 0xb60, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x58105d8, size 0xb60, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerInstaller* New_ctor();
 
-  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController> const& __cordl_internal_get__connectedPlayerAudioTimeSyncControllerPrefab() const;
 
@@ -140,7 +140,7 @@ public:
 
   constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
-  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
   constexpr void __cordl_internal_set__connectedPlayerAudioTimeSyncControllerPrefab(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController> value);
 
@@ -162,7 +162,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x57aa89c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5811144, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -204,7 +204,7 @@ public:
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController> ____multiplayerObstacleControllerPrefab;
 
   /// @brief Field _connectedPlayer, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
+  ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 
   /// @brief Field _localPlayerStartState, offset: 0x68, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerPlayerStartState ____localPlayerStartState;

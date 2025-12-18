@@ -39,21 +39,21 @@ public:
   /// @brief Field quitAppOnNotEntitled, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_quitAppOnNotEntitled, put = __cordl_internal_set_quitAppOnNotEntitled)) bool quitAppOnNotEntitled;
 
-  /// @brief Method EntitlementCheckCallback, addr 0x5bde608, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method EntitlementCheckCallback, addr 0x5c450e8, size 0xec, virtual false, abstract: false, final false
   inline void EntitlementCheckCallback(::Oculus::Platform::Message* msg);
 
   static inline ::Oculus::Platform::BuildingBlocks::EntitlementCheck* New_ctor();
 
-  /// @brief Method PerformUserEntitlementCheck, addr 0x5bde12c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method PerformUserEntitlementCheck, addr 0x5c44c0c, size 0x22c, virtual false, abstract: false, final false
   inline void PerformUserEntitlementCheck();
 
-  /// @brief Method PlatformInitializeCallback, addr 0x5bde358, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method PlatformInitializeCallback, addr 0x5c44e38, size 0x2b0, virtual false, abstract: false, final false
   inline void PlatformInitializeCallback(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>* msg);
 
-  /// @brief Method QuitAppOnFailure, addr 0x5bde6f4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method QuitAppOnFailure, addr 0x5c451d4, size 0xa0, virtual false, abstract: false, final false
   inline void QuitAppOnFailure();
 
-  /// @brief Method Start, addr 0x5bde068, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5c44b48, size 0xc4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::System::Action* const& __cordl_internal_get_UserFailedEntitlementCheck() const;
@@ -74,19 +74,19 @@ public:
 
   constexpr void __cordl_internal_set_quitAppOnNotEntitled(bool value);
 
-  /// @brief Method .ctor, addr 0x5bde794, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c45274, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_UserFailedEntitlementCheck, addr 0x5bdddb8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_UserFailedEntitlementCheck, addr 0x5c44898, size 0xac, virtual false, abstract: false, final false
   inline void add_UserFailedEntitlementCheck(::System::Action* value);
 
-  /// @brief Method add_UserPassedEntitlementCheck, addr 0x5bddf10, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_UserPassedEntitlementCheck, addr 0x5c449f0, size 0xac, virtual false, abstract: false, final false
   inline void add_UserPassedEntitlementCheck(::System::Action* value);
 
-  /// @brief Method remove_UserFailedEntitlementCheck, addr 0x5bdde64, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_UserFailedEntitlementCheck, addr 0x5c44944, size 0xac, virtual false, abstract: false, final false
   inline void remove_UserFailedEntitlementCheck(::System::Action* value);
 
-  /// @brief Method remove_UserPassedEntitlementCheck, addr 0x5bddfbc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_UserPassedEntitlementCheck, addr 0x5c44a9c, size 0xac, virtual false, abstract: false, final false
   inline void remove_UserPassedEntitlementCheck(::System::Action* value);
 
 protected:
@@ -104,7 +104,7 @@ public:
   EntitlementCheck(EntitlementCheck const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18075 };
 
   /// @brief Field quitAppOnNotEntitled, offset: 0x20, size: 0x1, def value: None
   bool ___quitAppOnNotEntitled;

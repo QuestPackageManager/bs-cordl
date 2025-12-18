@@ -46,7 +46,7 @@ public:
   constexpr ProbeVolumeStreamableAsset_StreamableCellDesc(int32_t offset, int32_t elementCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12130 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -107,35 +107,35 @@ public:
   __declspec(property(
       get = get_streamableCellDescs)) ::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeVolumeStreamableAsset_StreamableCellDesc>* streamableCellDescs;
 
-  /// @brief Method CloseFile, addr 0x657a5ac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CloseFile, addr 0x65e2138, size 0xa4, virtual false, abstract: false, final false
   inline void CloseFile();
 
-  /// @brief Method Dispose, addr 0x6574b04, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x65dc690, size 0x94, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method FileExists, addr 0x65736b0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method FileExists, addr 0x65db23c, size 0xf0, virtual false, abstract: false, final false
   inline bool FileExists();
 
-  /// @brief Method GetAssetPath, addr 0x657a440, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetAssetPath, addr 0x65e1fcc, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW GetAssetPath();
 
-  /// @brief Method GetFileSize, addr 0x657a46c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetFileSize, addr 0x65e1ff8, size 0x90, virtual false, abstract: false, final false
   inline int64_t GetFileSize();
 
-  /// @brief Method IsOpen, addr 0x657a4fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsOpen, addr 0x65e2088, size 0x3c, virtual false, abstract: false, final false
   inline bool IsOpen();
 
-  /// @brief Method IsValid, addr 0x6573834, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x65db3c0, size 0x20, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::UnityEngine::Rendering::ProbeVolumeStreamableAsset*
   New_ctor(::StringW apvStreamingAssetsPath, ::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeVolumeStreamableAsset_StreamableCellDesc>* cellDescs,
            int32_t elementSize, ::StringW bakingSetGUID, ::StringW assetGUID);
 
-  /// @brief Method OpenFile, addr 0x657a538, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OpenFile, addr 0x65e20c4, size 0x74, virtual false, abstract: false, final false
   inline ::Unity::IO::LowLevel::Unsafe::FileHandle OpenFile();
 
-  /// @brief Method RefreshAssetPath, addr 0x657a39c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RefreshAssetPath, addr 0x65e1f28, size 0xa4, virtual false, abstract: false, final false
   inline void RefreshAssetPath();
 
   constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_m_Asset() const;
@@ -181,20 +181,20 @@ public:
 
   constexpr void __cordl_internal_set_m_StreamableCellDescs(::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeVolumeStreamableAsset_StreamableCellDesc>* value);
 
-  /// @brief Method .ctor, addr 0x657a250, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65e1ddc, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::StringW apvStreamingAssetsPath, ::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeVolumeStreamableAsset_StreamableCellDesc>* cellDescs,
                     int32_t elementSize, ::StringW bakingSetGUID, ::StringW assetGUID);
 
-  /// @brief Method get_asset, addr 0x657a238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_asset, addr 0x65e1dc4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_asset();
 
-  /// @brief Method get_assetGUID, addr 0x657a230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_assetGUID, addr 0x65e1dbc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_assetGUID();
 
-  /// @brief Method get_elementSize, addr 0x657a240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_elementSize, addr 0x65e1dcc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_elementSize();
 
-  /// @brief Method get_streamableCellDescs, addr 0x657a248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_streamableCellDescs, addr 0x65e1dd4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SerializedDictionary_2<int32_t, ::UnityEngine::Rendering::ProbeVolumeStreamableAsset_StreamableCellDesc>* get_streamableCellDescs();
 
 protected:
@@ -212,7 +212,7 @@ public:
   ProbeVolumeStreamableAsset(ProbeVolumeStreamableAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12127 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12131 };
 
   /// @brief Field m_AssetGUID, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_AssetGUID;

@@ -57,22 +57,22 @@ public:
   /// @brief Field k_DefaultTangent, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_k_DefaultTangent, put = setStaticF_k_DefaultTangent)) ::UnityEngine::Vector4 k_DefaultTangent;
 
-  /// @brief Method Clear, addr 0x6994cd4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x69fdb58, size 0x6c, virtual false, abstract: false, final false
   inline void Clear(bool uploadChanges);
 
-  /// @brief Method ClearUnusedVertices, addr 0x6994d40, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x69fdbc4, size 0x84, virtual false, abstract: false, final false
   inline void ClearUnusedVertices();
 
-  /// @brief Method ResizeMeshInfo, addr 0x6994a90, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x69fd914, size 0x244, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size, bool isIMGUI);
 
-  /// @brief Method SortGeometry, addr 0x6994dc4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x69fdc48, size 0xb8, virtual false, abstract: false, final false
   inline void SortGeometry(::UnityEngine::TextCore::Text::VertexSortingOrder order);
 
-  /// @brief Method SwapVertexData, addr 0x6994e7c, size 0x72c, virtual false, abstract: false, final false
+  /// @brief Method SwapVertexData, addr 0x69fdd00, size 0x72c, virtual false, abstract: false, final false
   inline void SwapVertexData(int32_t src, int32_t dst);
 
-  /// @brief Method .ctor, addr 0x69945e4, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69fd468, size 0x4ac, virtual false, abstract: false, final false
   inline void _ctor(int32_t size, ::UnityEngine::TextCore::Text::VertexDataLayout layout, bool isIMGUI);
 
   static inline ::UnityEngine::Color32 getStaticF_k_DefaultColor();
@@ -109,7 +109,7 @@ public:
                      ::UnityEngine::TextCore::Text::VertexDataLayout vertexDataLayout, bool applySDF, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode glyphRenderMode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17188 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };

@@ -30,10 +30,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE StandaloneMonobehaviorExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Dispatch, addr 0x3210d28, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x323a86c, size 0xb0, virtual false, abstract: false, final false
   static inline void Dispatch(::GlobalNamespace::IStandaloneMonobehavior* standaloneMonoBehavior, ::System::Action* action);
 
-  /// @brief Method DispatchAsync, addr 0x3210dd8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method DispatchAsync, addr 0x323a91c, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* DispatchAsync(::GlobalNamespace::IStandaloneMonobehavior* standaloneMonoBehavior, ::System::Func_1<::System::Threading::Tasks::Task*>* action);
 
 protected:
@@ -51,7 +51,7 @@ public:
   StandaloneMonobehaviorExtensions(StandaloneMonobehaviorExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18154 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18167 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

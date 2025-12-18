@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set_m_List(::System::Collections::Generic::List_1<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>* value);
 
-  /// @brief Method .ctor, addr 0x68d7518, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x694039c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_settingsList, addr 0x68d7510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_settingsList, addr 0x6940394, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>* get_settingsList();
 
 protected:
@@ -58,7 +58,7 @@ public:
   RenderPipelineGraphicsSettingsCollection(RenderPipelineGraphicsSettingsCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10751 };
 
   /// @brief Field m_List, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>* ___m_List;

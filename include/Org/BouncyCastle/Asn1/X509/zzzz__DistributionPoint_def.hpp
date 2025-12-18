@@ -58,10 +58,10 @@ public:
   /// @brief Field reasons, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_reasons, put = __cordl_internal_set_reasons)) ::Org::BouncyCastle::Asn1::X509::ReasonFlags* reasons;
 
-  /// @brief Method GetInstance, addr 0x3534b5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x355f3a0, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x3533bc4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x355e408, size 0x170, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* New_ctor(::Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPointName,
@@ -69,10 +69,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3534dd0, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x355f614, size 0xd8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString, addr 0x3534ea8, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x355f6ec, size 0x1c0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames* const& __cordl_internal_get_cRLIssuer() const;
@@ -93,23 +93,23 @@ public:
 
   constexpr void __cordl_internal_set_reasons(::Org::BouncyCastle::Asn1::X509::ReasonFlags* value);
 
-  /// @brief Method .ctor, addr 0x3534dac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x355f5f0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPointName, ::Org::BouncyCastle::Asn1::X509::ReasonFlags* reasons,
                     ::Org::BouncyCastle::Asn1::X509::GeneralNames* crlIssuer);
 
-  /// @brief Method .ctor, addr 0x3534b70, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x355f3b4, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method appendObject, addr 0x3535068, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method appendObject, addr 0x355f8ac, size 0xe4, virtual false, abstract: false, final false
   inline void appendObject(::System::Text::StringBuilder* buf, ::StringW sep, ::StringW name, ::StringW val);
 
-  /// @brief Method get_CrlIssuer, addr 0x3534dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrlIssuer, addr 0x355f60c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* get_CrlIssuer();
 
-  /// @brief Method get_DistributionPointName, addr 0x3534db8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DistributionPointName, addr 0x355f5fc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* get_DistributionPointName();
 
-  /// @brief Method get_Reasons, addr 0x3534dc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reasons, addr 0x355f604, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* get_Reasons();
 
 protected:

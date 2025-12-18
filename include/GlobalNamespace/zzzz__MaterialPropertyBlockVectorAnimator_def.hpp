@@ -24,7 +24,7 @@ public:
 
   static inline ::GlobalNamespace::MaterialPropertyBlockVectorAnimator* New_ctor();
 
-  /// @brief Method SetProperty, addr 0x565dc20, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x56be8c8, size 0x30, virtual true, abstract: false, final false
   inline void SetProperty();
 
   constexpr ::UnityEngine::Vector4 const& __cordl_internal_get__vector() const;
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__vector(::UnityEngine::Vector4 value);
 
-  /// @brief Method .ctor, addr 0x565dc50, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56be8f8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +51,7 @@ public:
   MaterialPropertyBlockVectorAnimator(MaterialPropertyBlockVectorAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19767 };
 
   /// @brief Field _vector, offset: 0x38, size: 0x10, def value: None
   ::UnityEngine::Vector4 ____vector;

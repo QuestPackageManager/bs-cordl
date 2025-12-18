@@ -35,26 +35,26 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE CmsEnvelopedDataGenerator : public ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator {
 public:
   // Declarations
-  /// @brief Method Generate, addr 0x35849a0, size 0xc98, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x35af1e4, size 0xc98, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* cipherBuilder);
 
-  /// @brief Method Generate, addr 0x35847f0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x35af034, size 0x1b0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid);
 
-  /// @brief Method Generate, addr 0x3583bf8, size 0xbf8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x35ae43c, size 0xbf8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator* keyGen);
 
-  /// @brief Method Generate, addr 0x3585638, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x35afe7c, size 0x1ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid, int32_t keySize);
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* New_ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor, addr 0x3583b38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ae37c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3583b90, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ae3d4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
 protected:

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::Rendering::InstanceTypeInfo::InitParentTypes)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x660ec08;
+  constexpr static std::size_t addrs = 0x6676794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::InstanceTypeInfo*>::get(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::Rendering::InstanceTypeInfo::InitChildTypes)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x660ecc0;
+  constexpr static std::size_t addrs = 0x667684c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::InstanceTypeInfo*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::InstanceType (*)(::UnityEngine::Rendering::InstanceType)>(
     &::UnityEngine::Rendering::InstanceTypeInfo::GetMaxChildTypeRecursively)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x660f050;
+  constexpr static std::size_t addrs = 0x6676bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::Rendering::InstanceType, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceType>)>(&::UnityEngine::Rendering::InstanceTypeInfo::FlattenChildInstanceTypes)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x660f1c0;
+  constexpr static std::size_t addrs = 0x6676d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::Rendering::InstanceTypeInfo::ValidateTypeRelationsAreCorrectlySorted)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x660ef10;
+  constexpr static std::size_t addrs = 0x6676a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::InstanceType (*)(::UnityEngine::Rendering::InstanceType)>(
     &::UnityEngine::Rendering::InstanceTypeInfo::GetParentType)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x660f354;
+  constexpr static std::size_t addrs = 0x6676ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Collections::Generic::List_1<::UnityEngine::Rendering::InstanceType>* (*)(::UnityEngine::Rendering::InstanceType)>(&::UnityEngine::Rendering::InstanceTypeInfo::GetChildTypes)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x660f3d4;
+  constexpr static std::size_t addrs = 0x6676f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

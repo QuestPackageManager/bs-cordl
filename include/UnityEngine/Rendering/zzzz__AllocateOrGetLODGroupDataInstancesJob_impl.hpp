@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::AllocateOrGetLODGroupDataInstancesJob::*)()>(
     &::UnityEngine::Rendering::AllocateOrGetLODGroupDataInstancesJob::Execute)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x66123c0;
+  constexpr static std::size_t addrs = 0x6679f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

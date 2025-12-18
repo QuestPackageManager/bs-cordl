@@ -58,7 +58,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE CreationContext_AttributeOverrideRange {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6a88270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6af10f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualTreeAsset* sourceAsset, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* attributeOverrides);
 
   // Ctor Parameters []
@@ -99,7 +99,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE CreationContext_SerializedDataOverrideRange {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6a88278, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6af10fc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualTreeAsset* sourceAsset,
                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>* attributeOverrides, int32_t templateId);
 
@@ -176,62 +176,62 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>*();
 
-  /// @brief Method Equals, addr 0x6a94860, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6afd6e4, size 0xd0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6a94930, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6afd7b4, size 0x168, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::CreationContext other);
 
-  /// @brief Method GetHashCode, addr 0x6a94a98, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6afd91c, size 0x138, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6a94748, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afd5cc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* slotInsertionPoints,
                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* attributeOverrides);
 
-  /// @brief Method .ctor, addr 0x6a88288, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6af110c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* slotInsertionPoints,
                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* attributeOverrides,
                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* serializedDataOverrides,
                     ::UnityEngine::UIElements::VisualTreeAsset* vta, ::UnityEngine::UIElements::VisualElement* target, ::System::Collections::Generic::List_1<int32_t>* veaIdsPath,
                     ::System::Collections::Generic::List_1<::StringW>* namesPath);
 
-  /// @brief Method .ctor, addr 0x6a947c0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afd644, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* slotInsertionPoints,
                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* attributeOverrides, ::UnityEngine::UIElements::VisualTreeAsset* vta,
                     ::UnityEngine::UIElements::VisualElement* target);
 
-  /// @brief Method .ctor, addr 0x6a946c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afd548, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* slotInsertionPoints, ::UnityEngine::UIElements::VisualTreeAsset* vta,
                     ::UnityEngine::UIElements::VisualElement* target);
 
-  /// @brief Method .ctor, addr 0x6a91518, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afa39c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualTreeAsset* vta);
 
   static inline ::UnityEngine::UIElements::CreationContext getStaticF_Default();
 
-  /// @brief Method get_attributeOverrides, addr 0x6a94694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_attributeOverrides, addr 0x6afd518, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* get_attributeOverrides();
 
-  /// @brief Method get_hasOverrides, addr 0x6a8d478, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_hasOverrides, addr 0x6af62fc, size 0xc4, virtual false, abstract: false, final false
   inline bool get_hasOverrides();
 
-  /// @brief Method get_namesPath, addr 0x6a946b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_namesPath, addr 0x6afd538, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_namesPath();
 
-  /// @brief Method get_serializedDataOverrides, addr 0x6a946a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serializedDataOverrides, addr 0x6afd528, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* get_serializedDataOverrides();
 
-  /// @brief Method get_slotInsertionPoints, addr 0x6a94684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_slotInsertionPoints, addr 0x6afd508, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* get_slotInsertionPoints();
 
-  /// @brief Method get_target, addr 0x6a94654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_target, addr 0x6afd4d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_target();
 
-  /// @brief Method get_veaIdsPath, addr 0x6a94664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_veaIdsPath, addr 0x6afd4e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<int32_t>* get_veaIdsPath();
 
-  /// @brief Method get_visualTreeAsset, addr 0x6a94674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visualTreeAsset, addr 0x6afd4f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> get_visualTreeAsset();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>"
@@ -239,25 +239,25 @@ public:
 
   static inline void setStaticF_Default(::UnityEngine::UIElements::CreationContext value);
 
-  /// @brief Method set_attributeOverrides, addr 0x6a9469c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_attributeOverrides, addr 0x6afd520, size 0x8, virtual false, abstract: false, final false
   inline void set_attributeOverrides(::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* value);
 
-  /// @brief Method set_namesPath, addr 0x6a946bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_namesPath, addr 0x6afd540, size 0x8, virtual false, abstract: false, final false
   inline void set_namesPath(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method set_serializedDataOverrides, addr 0x6a946ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_serializedDataOverrides, addr 0x6afd530, size 0x8, virtual false, abstract: false, final false
   inline void set_serializedDataOverrides(::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* value);
 
-  /// @brief Method set_slotInsertionPoints, addr 0x6a9468c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_slotInsertionPoints, addr 0x6afd510, size 0x8, virtual false, abstract: false, final false
   inline void set_slotInsertionPoints(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method set_target, addr 0x6a9465c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_target, addr 0x6afd4e0, size 0x8, virtual false, abstract: false, final false
   inline void set_target(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method set_veaIdsPath, addr 0x6a9466c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_veaIdsPath, addr 0x6afd4f0, size 0x8, virtual false, abstract: false, final false
   inline void set_veaIdsPath(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method set_visualTreeAsset, addr 0x6a9467c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_visualTreeAsset, addr 0x6afd500, size 0x8, virtual false, abstract: false, final false
   inline void set_visualTreeAsset(::UnityEngine::UIElements::VisualTreeAsset* value);
 
   // Ctor Parameters []

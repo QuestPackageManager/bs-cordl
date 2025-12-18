@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Mono::Interop::MonoPInvokeCallbackAttribute* New_ctor(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x589b014, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5901960, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
 protected:

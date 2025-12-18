@@ -125,46 +125,46 @@ public:
   /// @brief Field m_profilerEmitter, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_profilerEmitter, put = setStaticF_m_profilerEmitter)) ::UnityEngine::ResourceManagement::Profiling::IProfilerEmitter* m_profilerEmitter;
 
-  /// @brief Method AddAssetOperation, addr 0x66fec80, size 0x6e0, virtual false, abstract: false, final false
+  /// @brief Method AddAssetOperation, addr 0x676680c, size 0x6e0, virtual false, abstract: false, final false
   static inline void AddAssetOperation(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle handle, ::UnityEngine::ResourceManagement::Profiling::ContentStatus status);
 
-  /// @brief Method AddBundleOperation, addr 0x66f9de4, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method AddBundleOperation, addr 0x6761970, size 0x32c, virtual false, abstract: false, final false
   static inline void AddBundleOperation(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle handle,
                                         ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions* requestOptions,
                                         ::UnityEngine::ResourceManagement::Profiling::ContentStatus status, ::UnityEngine::ResourceManagement::Util::BundleSource source);
 
-  /// @brief Method AddCatalog, addr 0x6704a74, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method AddCatalog, addr 0x676c5ec, size 0xe0, virtual false, abstract: false, final false
   static inline void AddCatalog(::UnityEngine::Hash128 buildHash);
 
-  /// @brief Method AddSceneOperation, addr 0x6701da0, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method AddSceneOperation, addr 0x6769918, size 0x260, virtual false, abstract: false, final false
   static inline void AddSceneOperation(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> handle,
                                        ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::Profiling::ContentStatus status);
 
-  /// @brief Method BundleReleased, addr 0x66f9b00, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method BundleReleased, addr 0x676168c, size 0x2e4, virtual false, abstract: false, final false
   static inline void BundleReleased(::StringW bundleName);
 
-  /// @brief Method GetContainingBundleNameForLocation, addr 0x6704b54, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method GetContainingBundleNameForLocation, addr 0x676c6cc, size 0x37c, virtual false, abstract: false, final false
   static inline ::StringW GetContainingBundleNameForLocation(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method GetSceneLoadCounterValue, addr 0x6704ed0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetSceneLoadCounterValue, addr 0x676ca48, size 0x68, virtual false, abstract: false, final false
   static inline int32_t GetSceneLoadCounterValue();
 
-  /// @brief Method Initialise, addr 0x66ebe58, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method Initialise, addr 0x67539e4, size 0x23c, virtual false, abstract: false, final false
   static inline void Initialise();
 
-  /// @brief Method InstanceOnOnLateUpdateDelegate, addr 0x6704634, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method InstanceOnOnLateUpdateDelegate, addr 0x676c1ac, size 0x50, virtual false, abstract: false, final false
   static inline void InstanceOnOnLateUpdateDelegate(float_t deltaTime);
 
-  /// @brief Method PushToProfilerStream, addr 0x6704684, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method PushToProfilerStream, addr 0x676c1fc, size 0x3f0, virtual false, abstract: false, final false
   static inline void PushToProfilerStream();
 
-  /// @brief Method RefreshChangedReferenceCounts, addr 0x6704f38, size 0xa48, virtual false, abstract: false, final false
+  /// @brief Method RefreshChangedReferenceCounts, addr 0x676cab0, size 0xa48, virtual false, abstract: false, final false
   static inline void RefreshChangedReferenceCounts();
 
-  /// @brief Method SceneReleased, addr 0x67027f4, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method SceneReleased, addr 0x676a36c, size 0x290, virtual false, abstract: false, final false
   static inline void SceneReleased(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> handle);
 
-  /// @brief Method ShouldUpdateFrameDataWithOperationData, addr 0x6705980, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method ShouldUpdateFrameDataWithOperationData, addr 0x676d4f8, size 0x2f4, virtual false, abstract: false, final false
   static inline bool ShouldUpdateFrameDataWithOperationData(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* activeOperation, int32_t frameReferenceCount,
                                                             float_t framePercentComplete, ::ByRef<::System::ValueTuple_2<int32_t, float_t>> newDataOut);
 
@@ -248,7 +248,7 @@ public:
   ProfilerRuntime(ProfilerRuntime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18777 };
 
   /// @brief Field kAssetDataTag offset 0xffffffff size 0x4
   static constexpr int32_t kAssetDataTag{ static_cast<int32_t>(0x2) };

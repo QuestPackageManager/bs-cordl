@@ -186,7 +186,7 @@ public:
 
   constexpr void __cordl_internal_set_uberPostPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x661ce2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66849b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -204,7 +204,7 @@ public:
   PostProcessData_ShaderResources(PostProcessData_ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12544 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12548 };
 
   /// @brief Field stopNanPS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___stopNanPS;
@@ -340,7 +340,7 @@ public:
 
   constexpr void __cordl_internal_set_smaaSearchTex(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x661ce30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66849bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -358,7 +358,7 @@ public:
   PostProcessData_TextureResources(PostProcessData_TextureResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12549 };
 
   /// @brief Field blueNoise16LTex, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Texture2D>, ::Array<::UnityW<::UnityEngine::Texture2D>>*> ___blueNoise16LTex;
@@ -417,7 +417,7 @@ public:
 
   constexpr void __cordl_internal_set_textures(::UnityEngine::Rendering::Universal::PostProcessData_TextureResources* value);
 
-  /// @brief Method .ctor, addr 0x661ce24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66849b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -435,7 +435,7 @@ public:
   PostProcessData(PostProcessData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12550 };
 
   /// @brief Field shaders, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::PostProcessData_ShaderResources* ___shaders;

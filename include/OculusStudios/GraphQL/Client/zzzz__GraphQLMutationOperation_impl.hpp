@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLMutationOperation::*)(::System::Object*)>(
     &::OculusStudios::GraphQL::Client::GraphQLMutationOperation::SetData)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5d0cc44;
+  constexpr static std::size_t addrs = 0x5d73724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLMutationOperation::*)()>(
     &::OculusStudios::GraphQL::Client::GraphQLMutationOperation::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d0ccc4;
+  constexpr static std::size_t addrs = 0x5d737a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

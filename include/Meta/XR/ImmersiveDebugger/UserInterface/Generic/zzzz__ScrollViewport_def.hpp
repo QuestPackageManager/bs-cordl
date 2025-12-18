@@ -43,7 +43,7 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport* New_ctor();
 
-  /// @brief Method Setup, addr 0x584786c, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x58adfd0, size 0x1b8, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex> const& __cordl_internal_get__flex() const;
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set__mask(::UnityW<::UnityEngine::UI::Mask> value);
 
-  /// @brief Method .ctor, addr 0x5847a24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ae188, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Flex, addr 0x5847864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flex, addr 0x58adfc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex> get_Flex();
 
 protected:
@@ -85,7 +85,7 @@ public:
   ScrollViewport(ScrollViewport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18371 };
 
   /// @brief Field _image, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::RawImage> ____image;

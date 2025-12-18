@@ -25,15 +25,15 @@ public:
   /// @brief Field _scoreController, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController)) ::GlobalNamespace::IScoreController* _scoreController;
 
-  /// @brief Method HandleScoreDidChange, addr 0x57a5368, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreDidChange, addr 0x580bc10, size 0x48, virtual false, abstract: false, final false
   inline void HandleScoreDidChange(int32_t multipliedScore, int32_t modifiedScore);
 
-  /// @brief Method Init, addr 0x57a53b0, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x580bc58, size 0x20c, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::ScoreMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57a522c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x580bad4, size 0x13c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::IScoreController* const& __cordl_internal_get__scoreController() const;
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  /// @brief Method .ctor, addr 0x57a55bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x580be64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

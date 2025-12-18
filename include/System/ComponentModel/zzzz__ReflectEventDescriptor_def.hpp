@@ -48,16 +48,16 @@ public:
   /// @brief Field _type, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::System::Type* _type;
 
-  /// @brief Method FillAttributes, addr 0x61aa510, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method FillAttributes, addr 0x621209c, size 0x58, virtual true, abstract: false, final false
   inline void FillAttributes(::System::Collections::IList* attributes);
 
-  /// @brief Method FillEventInfoAttribute, addr 0x61aa938, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method FillEventInfoAttribute, addr 0x62124c4, size 0x2f0, virtual false, abstract: false, final false
   inline void FillEventInfoAttribute(::System::Reflection::EventInfo* realEventInfo, ::System::Collections::IList* attributes);
 
-  /// @brief Method FillMethods, addr 0x61aa568, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method FillMethods, addr 0x62120f4, size 0x3d0, virtual false, abstract: false, final false
   inline void FillMethods();
 
-  /// @brief Method FillSingleMethodAttribute, addr 0x61aac28, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method FillSingleMethodAttribute, addr 0x62127b4, size 0x30c, virtual false, abstract: false, final false
   inline void FillSingleMethodAttribute(::System::Reflection::MethodInfo* realMethodInfo, ::System::Collections::IList* attributes);
 
   static inline ::System::ComponentModel::ReflectEventDescriptor* New_ctor(::System::Type* componentClass, ::System::Reflection::EventInfo* eventInfo);
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x61aa3b0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6211f3c, size 0x160, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentClass, ::System::Reflection::EventInfo* eventInfo);
 
 protected:
@@ -116,7 +116,7 @@ public:
   ReflectEventDescriptor(ReflectEventDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11267 };
 
   /// @brief Field _type, offset: 0x60, size: 0x8, def value: None
   ::System::Type* ____type;

@@ -48,18 +48,18 @@ public:
 
   __declspec(property(get = get_z, put = set_z)) ::UnityEngine::InputSystem::Controls::AxisControl* z;
 
-  /// @brief Method CalculateOptimizedControlDataType, addr 0x62de408, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method CalculateOptimizedControlDataType, addr 0x6345f94, size 0x234, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC CalculateOptimizedControlDataType();
 
-  /// @brief Method FinishSetup, addr 0x62de07c, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6345c08, size 0x118, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::QuaternionControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x62de194, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x6345d20, size 0x138, virtual true, abstract: false, final false
   inline ::UnityEngine::Quaternion ReadUnprocessedValueFromState(void* statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x62de2cc, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x6345e58, size 0x13c, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::Quaternion value, void* statePtr);
 
   constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__w_k__BackingField() const;
@@ -86,31 +86,31 @@ public:
 
   constexpr void __cordl_internal_set__z_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method .ctor, addr 0x62ddff0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6345b7c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_w, addr 0x62ddfe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_w, addr 0x6345b6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_w();
 
-  /// @brief Method get_x, addr 0x62ddfb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x6345b3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_x();
 
-  /// @brief Method get_y, addr 0x62ddfc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x6345b4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_y();
 
-  /// @brief Method get_z, addr 0x62ddfd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_z, addr 0x6345b5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_z();
 
-  /// @brief Method set_w, addr 0x62ddfe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_w, addr 0x6345b74, size 0x8, virtual false, abstract: false, final false
   inline void set_w(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_x, addr 0x62ddfb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x6345b44, size 0x8, virtual false, abstract: false, final false
   inline void set_x(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_y, addr 0x62ddfc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x6345b54, size 0x8, virtual false, abstract: false, final false
   inline void set_y(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_z, addr 0x62ddfd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_z, addr 0x6345b64, size 0x8, virtual false, abstract: false, final false
   inline void set_z(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
 protected:
@@ -128,7 +128,7 @@ public:
   QuaternionControl(QuaternionControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9107 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9111 };
 
   /// @brief Field <x>k__BackingField, offset: 0x120, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____x_k__BackingField;

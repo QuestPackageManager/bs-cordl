@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::_ctor)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x665f3c4;
+  constexpr static std::size_t addrs = 0x66c6f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::IsActive)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x665f7b4;
+  constexpr static std::size_t addrs = 0x66c7340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::IsStreaksActive)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x665f7e4;
+  constexpr static std::size_t addrs = 0x66c7370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x665f814;
+  constexpr static std::size_t addrs = 0x66c73a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

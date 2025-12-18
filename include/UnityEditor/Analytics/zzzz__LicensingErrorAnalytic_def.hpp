@@ -34,7 +34,7 @@ public:
   /// @brief Field sessionId, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_sessionId, put = __cordl_internal_set_sessionId)) ::StringW sessionId;
 
-  /// @brief Method CreateLicensingErrorAnalytic, addr 0x6bf07e4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateLicensingErrorAnalytic, addr 0x6c59668, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::LicensingErrorAnalytic* CreateLicensingErrorAnalytic();
 
   static inline ::UnityEditor::Analytics::LicensingErrorAnalytic* New_ctor();
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_sessionId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bf076c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c595f0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   LicensingErrorAnalytic(LicensingErrorAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22556 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22583 };
 
   /// @brief Field licensingErrorType, offset: 0x30, size: 0x8, def value: None
   ::StringW ___licensingErrorType;

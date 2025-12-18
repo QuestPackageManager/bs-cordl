@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Runtime::Remoting::Metadata::SoapParameterAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5927bf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598e544, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

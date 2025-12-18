@@ -24,25 +24,25 @@ namespace Unity::Profiling {
 class CORDL_TYPE ProfilerMarkerExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Begin, addr 0x65245f0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x658c17c, size 0xb0, virtual false, abstract: false, final false
   static inline void Begin(::Unity::Profiling::ProfilerMarker marker, ::StringW metadata);
 
-  /// @brief Method Begin, addr 0x652452c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x658c0b8, size 0xc4, virtual false, abstract: false, final false
   static inline void Begin(::Unity::Profiling::ProfilerMarker marker, double_t metadata);
 
-  /// @brief Method Begin, addr 0x6524468, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x658bff4, size 0xc4, virtual false, abstract: false, final false
   static inline void Begin(::Unity::Profiling::ProfilerMarker marker, float_t metadata);
 
-  /// @brief Method Begin, addr 0x6524158, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x658bce4, size 0xc4, virtual false, abstract: false, final false
   static inline void Begin(::Unity::Profiling::ProfilerMarker marker, int32_t metadata);
 
-  /// @brief Method Begin, addr 0x65242e0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x658be6c, size 0xc4, virtual false, abstract: false, final false
   static inline void Begin(::Unity::Profiling::ProfilerMarker marker, int64_t metadata);
 
-  /// @brief Method Begin, addr 0x652421c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x658bda8, size 0xc4, virtual false, abstract: false, final false
   static inline void Begin(::Unity::Profiling::ProfilerMarker marker, uint32_t metadata);
 
-  /// @brief Method Begin, addr 0x65243a4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x658bf30, size 0xc4, virtual false, abstract: false, final false
   static inline void Begin(::Unity::Profiling::ProfilerMarker marker, uint64_t metadata);
 
 protected:
@@ -60,7 +60,7 @@ public:
   ProfilerMarkerExtension(ProfilerMarkerExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23094 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

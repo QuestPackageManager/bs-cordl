@@ -22,10 +22,10 @@ namespace Org::BouncyCastle::Bcpg::Sig {
 class CORDL_TYPE PreferredAlgorithms : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method GetPreferences, addr 0x356efec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetPreferences, addr 0x3599830, size 0xa0, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetPreferences();
 
-  /// @brief Method IntToByteArray, addr 0x356eefc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IntToByteArray, addr 0x3599740, size 0xa4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> IntToByteArray(::ArrayW<int32_t, ::Array<int32_t>*> v);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms* New_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength,
@@ -33,10 +33,10 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms* New_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, ::ArrayW<int32_t, ::Array<int32_t>*> preferences);
 
-  /// @brief Method .ctor, addr 0x356efa0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35997e4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x356efb4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35997f8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, ::ArrayW<int32_t, ::Array<int32_t>*> preferences);
 
 protected:

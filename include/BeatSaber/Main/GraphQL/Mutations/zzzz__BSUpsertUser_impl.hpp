@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::BeatSaber::Main::GraphQL::Mutations::BSUpsertUser::*)()>(
     &::BeatSaber::Main::GraphQL::Mutations::BSUpsertUser::GetVariableNames)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x319b688;
+  constexpr static std::size_t addrs = 0x31cb504;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Main::GraphQL::Mutations::BSUpsertUser::*)(
     ::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData*)>(&::BeatSaber::Main::GraphQL::Mutations::BSUpsertUser::set_Data)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x319b784;
+  constexpr static std::size_t addrs = 0x31cb600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData* (
     ::BeatSaber::Main::GraphQL::Mutations::BSUpsertUser::*)()>(&::BeatSaber::Main::GraphQL::Mutations::BSUpsertUser::get_Data)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x319b804;
+  constexpr static std::size_t addrs = 0x31cb680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Main::GraphQL::Mutations::BSUpsertUser*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::BeatSaber::Main::GraphQL::Mutations::BSUpsertUser::*)()>(
     &::BeatSaber::Main::GraphQL::Mutations::BSUpsertUser::GetPersistedQueryID)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x319b8b4;
+  constexpr static std::size_t addrs = 0x31cb730;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Main::GraphQL::Mutations::BSUpsertUser::*)()>(
     &::BeatSaber::Main::GraphQL::Mutations::BSUpsertUser::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x319b8c8;
+  constexpr static std::size_t addrs = 0x31cb744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Main::GraphQL::Mutations::BSUpsertUser*>::get(),

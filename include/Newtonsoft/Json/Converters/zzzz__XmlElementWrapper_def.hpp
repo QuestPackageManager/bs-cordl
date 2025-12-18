@@ -39,12 +39,12 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-  /// @brief Method GetPrefixOfNamespace, addr 0x5b8a58c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method GetPrefixOfNamespace, addr 0x5bf106c, size 0x20, virtual true, abstract: false, final true
   inline ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
 
   static inline ::Newtonsoft::Json::Converters::XmlElementWrapper* New_ctor(::System::Xml::XmlElement* element);
 
-  /// @brief Method SetAttributeNode, addr 0x5b8a494, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method SetAttributeNode, addr 0x5bf0f74, size 0xf8, virtual true, abstract: false, final true
   inline void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
 
   constexpr ::System::Xml::XmlElement* const& __cordl_internal_get__element() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__element(::System::Xml::XmlElement* value);
 
-  /// @brief Method .ctor, addr 0x5b8a210, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf0cf0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlElement* element);
 
-  /// @brief Method get_IsEmpty, addr 0x5b8a5ac, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_IsEmpty, addr 0x5bf108c, size 0x20, virtual true, abstract: false, final true
   inline bool get_IsEmpty();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlElement"
@@ -80,7 +80,7 @@ public:
   XmlElementWrapper(XmlElementWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13643 };
 
   /// @brief Field _element, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlElement* ____element;

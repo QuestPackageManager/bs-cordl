@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method .ctor, addr 0x31f3eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32248e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextAsset* textAsset);
 
-  /// @brief Method get_TextAsset, addr 0x31f3eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TextAsset, addr 0x32248dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
 
 protected:
@@ -55,7 +55,7 @@ public:
   LocalizationAsset(LocalizationAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21957 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21984 };
 
   /// @brief Field textAsset, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___textAsset;

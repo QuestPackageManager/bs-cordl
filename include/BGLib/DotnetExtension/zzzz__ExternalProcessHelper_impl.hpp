@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::Process* (*)(::StringW, ::StringW)>(
     &::BGLib::DotnetExtension::ExternalProcessHelper::StartBackgroundProcess)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x31e7414;
+  constexpr static std::size_t addrs = 0x3217df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (*)(::StringW, ::StringW)>(
     &::BGLib::DotnetExtension::ExternalProcessHelper::GetProcessOutputLines)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x31e7488;
+  constexpr static std::size_t addrs = 0x3217e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -99,7 +99,7 @@ public:
   /// @brief Field imageData, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_imageData, put = __cordl_internal_set_imageData)) ::ArrayW<uint8_t, ::Array<uint8_t>*> imageData;
 
-  /// @brief Method GetImageData, addr 0x356defc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetImageData, addr 0x3598740, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetImageData();
 
   static inline ::Org::BouncyCastle::Bcpg::Attr::ImageAttrib* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
@@ -108,7 +108,7 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::Attr::ImageAttrib* New_ctor(::Org::BouncyCastle::Bcpg::Attr::ImageAttrib_Format imageType, ::ArrayW<uint8_t, ::Array<uint8_t>*> imageData);
 
-  /// @brief Method ToByteArray, addr 0x356dd98, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ToByteArray, addr 0x35985dc, size 0x154, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToByteArray(::Org::BouncyCastle::Bcpg::Attr::ImageAttrib_Format imageType, ::ArrayW<uint8_t, ::Array<uint8_t>*> imageData);
 
   constexpr int32_t const& __cordl_internal_get__encoding() const;
@@ -135,21 +135,21 @@ public:
 
   constexpr void __cordl_internal_set_imageData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x356dc3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3598480, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x356dc48, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x359848c, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(bool forceLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x356dd1c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3598560, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::Attr::ImageAttrib_Format imageType, ::ArrayW<uint8_t, ::Array<uint8_t>*> imageData);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_Zeroes();
 
-  /// @brief Method get_Encoding, addr 0x356def4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x3598738, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Encoding();
 
-  /// @brief Method get_Version, addr 0x356deec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Version, addr 0x3598730, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Version();
 
   static inline void setStaticF_Zeroes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);

@@ -24,10 +24,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE UnityPlayerLoopManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InitializePlayerLoop, addr 0x5637f08, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method InitializePlayerLoop, addr 0x569cd1c, size 0x1bc, virtual false, abstract: false, final false
   static inline void InitializePlayerLoop();
 
-  /// @brief Method RemoveDisabledSubsystems, addr 0x56380c4, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method RemoveDisabledSubsystems, addr 0x569ced8, size 0x250, virtual false, abstract: false, final false
   static inline bool RemoveDisabledSubsystems(::ByRef<::UnityEngine::LowLevel::PlayerLoopSystem> loop, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> typesToRemove);
 
 protected:
@@ -45,7 +45,7 @@ public:
   UnityPlayerLoopManager(UnityPlayerLoopManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22778 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22804 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

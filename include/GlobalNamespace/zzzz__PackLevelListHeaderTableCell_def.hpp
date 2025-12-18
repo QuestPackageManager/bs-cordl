@@ -52,15 +52,15 @@ public:
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-  /// @brief Method HighlightDidChange, addr 0x57f4340, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x5857d10, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   static inline ::GlobalNamespace::PackLevelListHeaderTableCell* New_ctor();
 
-  /// @brief Method RefreshVisuals, addr 0x57f42b8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x5857c88, size 0x88, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x57f42b4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x5857c84, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__arrowImage() const;
@@ -99,13 +99,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x57f4344, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5857d14, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x57f4294, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x5857c64, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x57f4274, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x5857c44, size 0x20, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -123,7 +123,7 @@ public:
   PackLevelListHeaderTableCell(PackLevelListHeaderTableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6337 };
 
   /// @brief Field _selectedHighlightElementsColor, offset: 0x78, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedHighlightElementsColor;

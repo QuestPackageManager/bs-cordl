@@ -40,30 +40,30 @@ public:
 
   __declspec(property(get = get_Valid)) bool Valid;
 
-  /// @brief Method BuildHandle, addr 0x58548e4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method BuildHandle, addr 0x58bb048, size 0xc, virtual true, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle BuildHandle();
 
-  /// @brief Method CompareChildren, addr 0x58548f0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CompareChildren, addr 0x58bb054, size 0xc, virtual true, abstract: false, final false
   inline bool CompareChildren(::UnityEngine::SceneManagement::Scene lhs, ::UnityEngine::SceneManagement::Scene rhs);
 
-  /// @brief Method FetchExpectedChildren, addr 0x5854914, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method FetchExpectedChildren, addr 0x58bb078, size 0x128, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::SceneManagement::Scene, ::Array<::UnityEngine::SceneManagement::Scene>*> FetchExpectedChildren();
 
   static inline ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry* New_ctor();
 
-  /// @brief Method Register, addr 0x5854900, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Register, addr 0x58bb064, size 0x4, virtual true, abstract: false, final false
   inline void Register(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* parent);
 
-  /// @brief Method Unregister, addr 0x58548fc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Unregister, addr 0x58bb060, size 0x4, virtual true, abstract: false, final false
   inline void Unregister();
 
-  /// @brief Method .ctor, addr 0x5854a3c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bb1a0, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Label, addr 0x5854904, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Label, addr 0x58bb068, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Label();
 
-  /// @brief Method get_Valid, addr 0x585490c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x58bb070, size 0x8, virtual true, abstract: false, final false
   inline bool get_Valid();
 
 protected:
@@ -81,7 +81,7 @@ public:
   SceneRegistry(SceneRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18438 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::StyledUITemplates::OverridableFloat* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5d2a41c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d90efc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   OverridableFloat(OverridableFloat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23274 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23308 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

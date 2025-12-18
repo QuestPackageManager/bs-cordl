@@ -34,25 +34,25 @@ public:
 
   static inline ::UnityEngine::TextMesh* New_ctor();
 
-  /// @brief Method .ctor, addr 0x69e25f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a4b47c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alignment, addr 0x69e2468, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_alignment, addr 0x6a4b2ec, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::TextAlignment get_alignment();
 
-  /// @brief Method get_alignment_Injected, addr 0x69e24e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_alignment_Injected, addr 0x6a4b36c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextAlignment get_alignment_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_alignment, addr 0x69e2524, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_alignment, addr 0x6a4b3a8, size 0x90, virtual false, abstract: false, final false
   inline void set_alignment(::UnityEngine::TextAlignment value);
 
-  /// @brief Method set_alignment_Injected, addr 0x69e25b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_alignment_Injected, addr 0x6a4b438, size 0x44, virtual false, abstract: false, final false
   static inline void set_alignment_Injected(::System::IntPtr _unity_self, ::UnityEngine::TextAlignment value);
 
-  /// @brief Method set_text, addr 0x69e22bc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x6a4b140, size 0x168, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_text_Injected, addr 0x69e2424, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_text_Injected, addr 0x6a4b2a8, size 0x44, virtual false, abstract: false, final false
   static inline void set_text_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> value);
 
 protected:
@@ -70,7 +70,7 @@ public:
   TextMesh(TextMesh const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22153 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

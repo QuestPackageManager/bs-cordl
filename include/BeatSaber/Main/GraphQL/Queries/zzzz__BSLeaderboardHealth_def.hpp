@@ -23,15 +23,15 @@ namespace BeatSaber::Main::GraphQL::Queries {
 class CORDL_TYPE BSLeaderboardHealth : public ::OculusStudios::GraphQL::Client::GraphQLQueryOperation {
 public:
   // Declarations
-  /// @brief Method GetPersistedQueryID, addr 0x319a8c8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetPersistedQueryID, addr 0x31ca744, size 0x14, virtual true, abstract: false, final false
   inline uint64_t GetPersistedQueryID();
 
-  /// @brief Method GetVariableNames, addr 0x319a858, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetVariableNames, addr 0x31ca6d4, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* GetVariableNames();
 
   static inline ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth* New_ctor();
 
-  /// @brief Method .ctor, addr 0x319a8dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ca758, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +49,7 @@ public:
   BSLeaderboardHealth(BSLeaderboardHealth const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20907 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

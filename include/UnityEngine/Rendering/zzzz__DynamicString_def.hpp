@@ -20,10 +20,10 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DynamicString : public ::UnityEngine::Rendering::DynamicArray_1<char16_t> {
 public:
   // Declarations
-  /// @brief Method Append, addr 0x653a3d4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x65a1f60, size 0x10c, virtual false, abstract: false, final false
   inline void Append(::StringW s);
 
-  /// @brief Method Append, addr 0x653a4e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x65a206c, size 0x5c, virtual false, abstract: false, final false
   inline void Append(::UnityEngine::Rendering::DynamicString* s);
 
   static inline ::UnityEngine::Rendering::DynamicString* New_ctor();
@@ -32,16 +32,16 @@ public:
 
   static inline ::UnityEngine::Rendering::DynamicString* New_ctor(::StringW s);
 
-  /// @brief Method ToString, addr 0x653a53c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x65a20c8, size 0x4c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x653a278, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a1e04, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x653a374, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a1f00, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x653a2c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a1e50, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:
@@ -59,7 +59,7 @@ public:
   DynamicString(DynamicString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11888 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

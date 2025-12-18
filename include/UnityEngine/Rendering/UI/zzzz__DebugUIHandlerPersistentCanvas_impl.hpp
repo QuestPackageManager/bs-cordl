@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass3_0::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65e6718;
+  constexpr static std::size_t addrs = 0x664e2a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass3_0::*)(
     ::UnityEngine::Rendering::UI::DebugUIHandlerValue*)>(&::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass3_0::_Toggle_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65e6d54;
+  constexpr static std::size_t addrs = 0x664e8e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass5_0::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65e6aa0;
+  constexpr static std::size_t addrs = 0x664e62c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass5_0::*)(
     ::UnityEngine::Rendering::DebugUI_ValueTuple*)>(&::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass5_0::_Toggle_b__0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x65e6d74;
+  constexpr static std::size_t addrs = 0x664e900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::*)(
     ::UnityEngine::Rendering::DebugUI_Value*, ::StringW)>(&::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::Toggle)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x65e6430;
+  constexpr static std::size_t addrs = 0x664dfbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::*)(
     ::UnityEngine::Rendering::DebugUI_ValueTuple*, ::System::Nullable_1<int32_t>)>(&::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::Toggle)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x65e671c;
+  constexpr static std::size_t addrs = 0x664e2a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::IsEmpty)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x65e6aa4;
+  constexpr static std::size_t addrs = 0x664e630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::Clear)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x65e6afc;
+  constexpr static std::size_t addrs = 0x664e688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x65e6c94;
+  constexpr static std::size_t addrs = 0x664e820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -130,28 +130,28 @@ public:
 
   constexpr void __cordl_internal_set__types_k__BackingField(::System::Collections::Generic::HashSet_1<::System::Type*>* value);
 
-  /// @brief Method .ctor, addr 0x6aec0b4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b54f38, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_current, addr 0x6aec140, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x6b54fc4, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Properties::PropertyPath get_current();
 
-  /// @brief Method get_currentDepth, addr 0x6aec15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentDepth, addr 0x6b54fe0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentDepth();
 
-  /// @brief Method get_propertyPathInfos, addr 0x6aec128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_propertyPathInfos, addr 0x6b54fac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::PropertyPathInfo>* get_propertyPathInfos();
 
-  /// @brief Method get_types, addr 0x6aec138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_types, addr 0x6b54fbc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::System::Type*>* get_types();
 
-  /// @brief Method set_current, addr 0x6aec150, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x6b54fd4, size 0xc, virtual false, abstract: false, final false
   inline void set_current(::Unity::Properties::PropertyPath value);
 
-  /// @brief Method set_currentDepth, addr 0x6aec164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentDepth, addr 0x6b54fe8, size 0x8, virtual false, abstract: false, final false
   inline void set_currentDepth(int32_t value);
 
-  /// @brief Method set_propertyPathInfos, addr 0x6aec130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_propertyPathInfos, addr 0x6b54fb4, size 0x8, virtual false, abstract: false, final false
   inline void set_propertyPathInfos(::System::Collections::Generic::List_1<::UnityEngine::UIElements::PropertyPathInfo>* value);
 
 protected:
@@ -248,13 +248,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6aec358, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6b551dc, size 0x7c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x6aebec4, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b54d48, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext* context, int32_t index, ::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x6aec16c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b54ff0, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext* context, ::Unity::Properties::IProperty* property);
 
   /// @brief Convert to "::System::IDisposable"
@@ -317,12 +317,12 @@ public:
   /// @brief Convert operator to "::Unity::Properties::ITypeVisitor"
   constexpr operator ::Unity::Properties::ITypeVisitor*() noexcept;
 
-  /// @brief Method HasReachedEnd, addr 0x6aeb998, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HasReachedEnd, addr 0x6b5481c, size 0x90, virtual false, abstract: false, final false
   inline bool HasReachedEnd(::System::Type* containerType);
 
   static inline ::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* New_ctor();
 
-  /// @brief Method Reset, addr 0x6aeba28, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6b548ac, size 0x88, virtual false, abstract: false, final false
   inline void Reset();
 
   /// @brief Method Unity.Properties.IListPropertyVisitor.Visit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -338,7 +338,7 @@ public:
   /// @brief Method Unity.Properties.ITypeVisitor.Visit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename TContainer> inline void Unity_Properties_ITypeVisitor_Visit();
 
-  /// @brief Method VisitPropertyType, addr 0x6aebab0, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method VisitPropertyType, addr 0x6b54934, size 0x414, virtual false, abstract: false, final false
   inline void VisitPropertyType(::System::Type* type);
 
   constexpr int32_t const& __cordl_internal_get__maxDepth_k__BackingField() const;
@@ -353,10 +353,10 @@ public:
 
   constexpr void __cordl_internal_set_m_VisitContext(::UnityEngine::UIElements::Internal::AutoCompletePathVisitor_VisitContext* value);
 
-  /// @brief Method .ctor, addr 0x6aec05c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b54ee0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maxDepth, addr 0x6aeb990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxDepth, addr 0x6b54814, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxDepth();
 
   /// @brief Convert to "::Unity::Properties::IListPropertyVisitor"

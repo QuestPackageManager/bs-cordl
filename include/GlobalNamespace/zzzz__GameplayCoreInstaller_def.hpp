@@ -24,6 +24,9 @@ namespace GlobalNamespace {
 class EffectPoolsManualInstaller;
 }
 namespace GlobalNamespace {
+class GameplayAdditionalInformationSetupData;
+}
+namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
@@ -83,6 +86,10 @@ public:
   __declspec(property(get = __cordl_internal_get__effectPoolsManualInstaller, put = __cordl_internal_set__effectPoolsManualInstaller)) ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller>
       _effectPoolsManualInstaller;
 
+  /// @brief Field _gameplayAdditionalInformationSetupData, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameplayAdditionalInformationSetupData,
+                      put = __cordl_internal_set__gameplayAdditionalInformationSetupData)) ::GlobalNamespace::GameplayAdditionalInformationSetupData* _gameplayAdditionalInformationSetupData;
+
   /// @brief Field _missedNoteEffectSpawnerPrefab, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__missedNoteEffectSpawnerPrefab, put = __cordl_internal_set__missedNoteEffectSpawnerPrefab)) ::UnityW<::GlobalNamespace::MissedNoteEffectSpawner>
       _missedNoteEffectSpawnerPrefab;
@@ -95,7 +102,7 @@ public:
   __declspec(property(get = __cordl_internal_get__perceivedLoudnessPerLevelModel,
                       put = __cordl_internal_set__perceivedLoudnessPerLevelModel)) ::GlobalNamespace::PerceivedLoudnessPerLevelModel* _perceivedLoudnessPerLevelModel;
 
-  /// @brief Field _performanceToolConfig, offset 0xa8, size 0x3
+  /// @brief Field _performanceToolConfig, offset 0xb0, size 0x3
   __declspec(property(get = __cordl_internal_get__performanceToolConfig,
                       put = __cordl_internal_set__performanceToolConfig)) ::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>
       _performanceToolConfig;
@@ -117,7 +124,7 @@ public:
   /// @brief Field _songTimeTweeningManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__songTimeTweeningManager, put = __cordl_internal_set__songTimeTweeningManager)) ::UnityW<::Tweening::SongTimeTweeningManager> _songTimeTweeningManager;
 
-  /// @brief Method InstallBindings, addr 0x57e73a8, size 0x1b9c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x584dc8c, size 0x1c08, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::GameplayCoreInstaller* New_ctor();
@@ -145,6 +152,10 @@ public:
   constexpr ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> const& __cordl_internal_get__effectPoolsManualInstaller() const;
 
   constexpr ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller>& __cordl_internal_get__effectPoolsManualInstaller();
+
+  constexpr ::GlobalNamespace::GameplayAdditionalInformationSetupData* const& __cordl_internal_get__gameplayAdditionalInformationSetupData() const;
+
+  constexpr ::GlobalNamespace::GameplayAdditionalInformationSetupData*& __cordl_internal_get__gameplayAdditionalInformationSetupData();
 
   constexpr ::UnityW<::GlobalNamespace::MissedNoteEffectSpawner> const& __cordl_internal_get__missedNoteEffectSpawnerPrefab() const;
 
@@ -194,6 +205,8 @@ public:
 
   constexpr void __cordl_internal_set__effectPoolsManualInstaller(::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> value);
 
+  constexpr void __cordl_internal_set__gameplayAdditionalInformationSetupData(::GlobalNamespace::GameplayAdditionalInformationSetupData* value);
+
   constexpr void __cordl_internal_set__missedNoteEffectSpawnerPrefab(::UnityW<::GlobalNamespace::MissedNoteEffectSpawner> value);
 
   constexpr void __cordl_internal_set__noteCutScoreSpawnerPrefab(::UnityW<::GlobalNamespace::NoteCutScoreSpawner> value);
@@ -212,7 +225,7 @@ public:
 
   constexpr void __cordl_internal_set__songTimeTweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x57e8f44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x584f894, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -274,7 +287,10 @@ public:
   /// @brief Field _settingsManager, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
-  /// @brief Field _performanceToolConfig, offset: 0xa8, size: 0x3, def value: None
+  /// @brief Field _gameplayAdditionalInformationSetupData, offset: 0xa8, size: 0x8, def value: None
+  ::GlobalNamespace::GameplayAdditionalInformationSetupData* ____gameplayAdditionalInformationSetupData;
+
+  /// @brief Field _performanceToolConfig, offset: 0xb0, size: 0x3, def value: None
   ::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig> ____performanceToolConfig;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -308,9 +324,11 @@ static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____commandLine
 
 static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____settingsManager) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____performanceToolConfig) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____gameplayAdditionalInformationSetupData) == 0xa8, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayCoreInstaller, 0xb0>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____performanceToolConfig) == 0xb0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayCoreInstaller, 0xb8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameplayCoreInstaller);

@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__SampleName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5c3b954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca2434, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW sampleName);
 
-  /// @brief Method get_SampleName, addr 0x5c3b95c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SampleName, addr 0x5ca243c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SampleName();
 
-  /// @brief Method set_SampleName, addr 0x5c3b964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SampleName, addr 0x5ca2444, size 0x8, virtual false, abstract: false, final false
   inline void set_SampleName(::StringW value);
 
 protected:
@@ -56,7 +56,7 @@ public:
   MetaCodeSampleAttribute(MetaCodeSampleAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8543 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8547 };
 
   /// @brief Field <SampleName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____SampleName_k__BackingField;

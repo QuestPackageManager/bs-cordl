@@ -82,13 +82,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c* New_ctor();
 
-  /// @brief Method <GetWindingOrder>b__3_0, addr 0x651c558, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetWindingOrder>b__3_0, addr 0x65840e4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 _GetWindingOrder_b__3_0(::UnityEngine::ProBuilder::Vertex* x);
 
-  /// @brief Method <ToTriangles>b__0_0, addr 0x651c544, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <ToTriangles>b__0_0, addr 0x65840d0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* _ToTriangles_b__0_0(::UnityEngine::ProBuilder::FaceRebuildData* x);
 
-  /// @brief Method .ctor, addr 0x651c540, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65840cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c* getStaticF___9();
@@ -118,7 +118,7 @@ public:
   SurfaceTopology___c(SurfaceTopology___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16860 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -135,41 +135,41 @@ public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c;
 
-  /// @brief Method BreakFaceIntoTris, addr 0x651ac40, size 0x604, virtual false, abstract: false, final false
+  /// @brief Method BreakFaceIntoTris, addr 0x65827cc, size 0x604, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::FaceRebuildData*>*
   BreakFaceIntoTris(::UnityEngine::ProBuilder::Face* face, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
                     ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup);
 
-  /// @brief Method ConformNormals, addr 0x651ba08, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method ConformNormals, addr 0x6583594, size 0x59c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* ConformNormals(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                         ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method ConformOppositeNormal, addr 0x651c1fc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ConformOppositeNormal, addr 0x6583d88, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* ConformOppositeNormal(::UnityEngine::ProBuilder::WingedEdge* source);
 
-  /// @brief Method FlipEdge, addr 0x651b6cc, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method FlipEdge, addr 0x6583258, size 0x33c, virtual false, abstract: false, final false
   static inline bool FlipEdge(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method GetCommonEdgeInWindingOrder, addr 0x651c0b4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetCommonEdgeInWindingOrder, addr 0x6583c40, size 0x148, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge GetCommonEdgeInWindingOrder(::UnityEngine::ProBuilder::WingedEdge* wing);
 
-  /// @brief Method GetWindingFlags, addr 0x651bfa4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetWindingFlags, addr 0x6583b30, size 0x110, virtual false, abstract: false, final false
   static inline void GetWindingFlags(::UnityEngine::ProBuilder::WingedEdge* edge, bool flag, ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, bool>* flags);
 
-  /// @brief Method GetWindingOrder, addr 0x651b244, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetWindingOrder, addr 0x6582dd0, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::WindingOrder GetWindingOrder(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method GetWindingOrder, addr 0x651b294, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method GetWindingOrder, addr 0x6582e20, size 0x288, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::WindingOrder GetWindingOrder(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points);
 
-  /// @brief Method GetWindingOrder, addr 0x651b51c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetWindingOrder, addr 0x65830a8, size 0x1b0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::WindingOrder GetWindingOrder(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
                                                                         ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-  /// @brief Method MatchNormal, addr 0x651c304, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method MatchNormal, addr 0x6583e90, size 0x1e8, virtual false, abstract: false, final false
   static inline void MatchNormal(::UnityEngine::ProBuilder::Face* source, ::UnityEngine::ProBuilder::Face* target, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup);
 
-  /// @brief Method ToTriangles, addr 0x651a69c, size 0x5a4, virtual false, abstract: false, final false
+  /// @brief Method ToTriangles, addr 0x6582228, size 0x5a4, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> ToTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                                    ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces);
 
@@ -188,7 +188,7 @@ public:
   SurfaceTopology(SurfaceTopology const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16861 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

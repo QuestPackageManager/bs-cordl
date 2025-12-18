@@ -109,48 +109,48 @@ public:
 
   __declspec(property(get = get_textComponent)) ::UnityW<::TMPro::TMP_Text> textComponent;
 
-  /// @brief Method AddSubTextObject, addr 0x6783158, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method AddSubTextObject, addr 0x67eacd0, size 0x304, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_SubMesh> AddSubTextObject(::TMPro::TextMeshPro* textComponent, ::TMPro::MaterialReference materialReference);
 
-  /// @brief Method CreateMaterialInstance, addr 0x6783820, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CreateMaterialInstance, addr 0x67eb398, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> CreateMaterialInstance(::UnityEngine::Material* source);
 
-  /// @brief Method DestroySelf, addr 0x67837ac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method DestroySelf, addr 0x67eb324, size 0x74, virtual false, abstract: false, final false
   inline void DestroySelf();
 
-  /// @brief Method GetMaterial, addr 0x6782a80, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetMaterial, addr 0x67ea5f8, size 0x128, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetMaterial(::UnityEngine::Material* mat);
 
-  /// @brief Method GetPaddingForMaterial, addr 0x6782c14, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetPaddingForMaterial, addr 0x67ea78c, size 0x78, virtual false, abstract: false, final false
   inline float_t GetPaddingForMaterial();
 
-  /// @brief Method GetSharedMaterial, addr 0x67838d8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetSharedMaterial, addr 0x67eb450, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetSharedMaterial();
 
   static inline ::TMPro::TMP_SubMesh* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x6783648, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x67eb1c0, size 0x164, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x678358c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x67eb104, size 0xbc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x678345c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x67eafd4, size 0x130, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetMaterialDirty, addr 0x6782c90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetMaterialDirty, addr 0x67ea808, size 0x4, virtual false, abstract: false, final false
   inline void SetMaterialDirty();
 
-  /// @brief Method SetSharedMaterial, addr 0x6782cbc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetSharedMaterial, addr 0x67ea834, size 0x20, virtual false, abstract: false, final false
   inline void SetSharedMaterial(::UnityEngine::Material* mat);
 
-  /// @brief Method SetVerticesDirty, addr 0x6782c8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetVerticesDirty, addr 0x67ea804, size 0x4, virtual false, abstract: false, final false
   inline void SetVerticesDirty();
 
-  /// @brief Method UpdateMaterial, addr 0x67839f4, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method UpdateMaterial, addr 0x67eb56c, size 0x1ec, virtual false, abstract: false, final false
   inline void UpdateMaterial();
 
-  /// @brief Method UpdateMeshPadding, addr 0x678397c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method UpdateMeshPadding, addr 0x67eb4f4, size 0x78, virtual false, abstract: false, final false
   inline void UpdateMeshPadding(bool isExtraPadding, bool isUsingBold);
 
   constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get_m_TextComponent() const;
@@ -231,70 +231,70 @@ public:
 
   constexpr void __cordl_internal_set_m_spriteAsset(::UnityW<::TMPro::TMP_SpriteAsset> value);
 
-  /// @brief Method .ctor, addr 0x6783be0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67eb758, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fallbackMaterial, addr 0x6782cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fallbackMaterial, addr 0x67ea854, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_fallbackMaterial();
 
-  /// @brief Method get_fallbackSourceMaterial, addr 0x6782e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fallbackSourceMaterial, addr 0x67ea99c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_fallbackSourceMaterial();
 
-  /// @brief Method get_fontAsset, addr 0x6782a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fontAsset, addr 0x67ea5d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_FontAsset> get_fontAsset();
 
-  /// @brief Method get_isDefaultMaterial, addr 0x6782e34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDefaultMaterial, addr 0x67ea9ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDefaultMaterial();
 
-  /// @brief Method get_material, addr 0x6782a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x67ea5f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method get_mesh, addr 0x6782ffc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x67eab74, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method get_meshFilter, addr 0x6782ef0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_meshFilter, addr 0x67eaa68, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshFilter> get_meshFilter();
 
-  /// @brief Method get_padding, addr 0x6782e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_padding, addr 0x67ea9bc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_padding();
 
-  /// @brief Method get_renderer, addr 0x6782e54, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x67ea9cc, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
-  /// @brief Method get_sharedMaterial, addr 0x6782c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sharedMaterial, addr 0x67ea80c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_sharedMaterial();
 
-  /// @brief Method get_spriteAsset, addr 0x6782a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spriteAsset, addr 0x67ea5e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_SpriteAsset> get_spriteAsset();
 
-  /// @brief Method get_textComponent, addr 0x67830bc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_textComponent, addr 0x67eac34, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_Text> get_textComponent();
 
-  /// @brief Method set_fallbackMaterial, addr 0x6782ce4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method set_fallbackMaterial, addr 0x67ea85c, size 0x140, virtual false, abstract: false, final false
   inline void set_fallbackMaterial(::UnityEngine::Material* value);
 
-  /// @brief Method set_fallbackSourceMaterial, addr 0x6782e2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fallbackSourceMaterial, addr 0x67ea9a4, size 0x8, virtual false, abstract: false, final false
   inline void set_fallbackSourceMaterial(::UnityEngine::Material* value);
 
-  /// @brief Method set_fontAsset, addr 0x6782a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fontAsset, addr 0x67ea5d8, size 0x8, virtual false, abstract: false, final false
   inline void set_fontAsset(::TMPro::TMP_FontAsset* value);
 
-  /// @brief Method set_isDefaultMaterial, addr 0x6782e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isDefaultMaterial, addr 0x67ea9b4, size 0x8, virtual false, abstract: false, final false
   inline void set_isDefaultMaterial(bool value);
 
-  /// @brief Method set_material, addr 0x6782ba8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_material, addr 0x67ea720, size 0x6c, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
 
-  /// @brief Method set_mesh, addr 0x67830b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x67eac2c, size 0x8, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_padding, addr 0x6782e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_padding, addr 0x67ea9c4, size 0x8, virtual false, abstract: false, final false
   inline void set_padding(float_t value);
 
-  /// @brief Method set_sharedMaterial, addr 0x6782c9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_sharedMaterial, addr 0x67ea814, size 0x20, virtual false, abstract: false, final false
   inline void set_sharedMaterial(::UnityEngine::Material* value);
 
-  /// @brief Method set_spriteAsset, addr 0x6782a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_spriteAsset, addr 0x67ea5e8, size 0x8, virtual false, abstract: false, final false
   inline void set_spriteAsset(::TMPro::TMP_SpriteAsset* value);
 
 protected:
@@ -312,7 +312,7 @@ public:
   TMP_SubMesh(TMP_SubMesh const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15955 };
 
   /// @brief Field m_fontAsset, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_FontAsset> ___m_fontAsset;

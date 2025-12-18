@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set_lastResourceSet(::System::Resources::ResourceSet* value);
 
-  /// @brief Method .ctor, addr 0x596137c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c7cc8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -162,12 +162,12 @@ public:
   /// @brief Field _rm, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__rm, put = __cordl_internal_set__rm)) ::System::Resources::ResourceManager* _rm;
 
-  /// @brief Method GetResourceFileName, addr 0x595eb88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetResourceFileName, addr 0x59c54d4, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW GetResourceFileName(::System::Globalization::CultureInfo* culture);
 
   static inline ::System::Resources::ResourceManager_ResourceManagerMediator* New_ctor(::System::Resources::ResourceManager* rm);
 
-  /// @brief Method ObtainSatelliteContractVersion, addr 0x5960e0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ObtainSatelliteContractVersion, addr 0x59c7758, size 0x58, virtual false, abstract: false, final false
   inline ::System::Version* ObtainSatelliteContractVersion(::System::Reflection::Assembly* a);
 
   constexpr ::System::Resources::ResourceManager* const& __cordl_internal_get__rm() const;
@@ -176,46 +176,46 @@ public:
 
   constexpr void __cordl_internal_set__rm(::System::Resources::ResourceManager* value);
 
-  /// @brief Method .ctor, addr 0x5961380, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c7ccc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Resources::ResourceManager* rm);
 
-  /// @brief Method get_BaseName, addr 0x5961190, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_BaseName, addr 0x59c7adc, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_BaseName();
 
-  /// @brief Method get_BaseNameField, addr 0x595ec58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_BaseNameField, addr 0x59c55a4, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_BaseNameField();
 
-  /// @brief Method get_CallingAssembly, addr 0x5960a84, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_CallingAssembly, addr 0x59c73d0, size 0x18, virtual false, abstract: false, final false
   inline ::System::Reflection::RuntimeAssembly* get_CallingAssembly();
 
-  /// @brief Method get_FallbackLoc, addr 0x595f34c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_FallbackLoc, addr 0x59c5c98, size 0x18, virtual false, abstract: false, final false
   inline ::System::Resources::UltimateResourceFallbackLocation get_FallbackLoc();
 
-  /// @brief Method get_LocationInfo, addr 0x595ec70, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_LocationInfo, addr 0x59c55bc, size 0x18, virtual false, abstract: false, final false
   inline ::System::Type* get_LocationInfo();
 
-  /// @brief Method get_LookedForSatelliteContractVersion, addr 0x5960df4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_LookedForSatelliteContractVersion, addr 0x59c7740, size 0x18, virtual false, abstract: false, final false
   inline bool get_LookedForSatelliteContractVersion();
 
-  /// @brief Method get_MainAssembly, addr 0x595f364, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_MainAssembly, addr 0x59c5cb0, size 0x88, virtual false, abstract: false, final false
   inline ::System::Reflection::RuntimeAssembly* get_MainAssembly();
 
-  /// @brief Method get_ModuleDir, addr 0x595ef50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ModuleDir, addr 0x59c589c, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_ModuleDir();
 
-  /// @brief Method get_NeutralResourcesCulture, addr 0x5960598, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_NeutralResourcesCulture, addr 0x59c6ee4, size 0x18, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_NeutralResourcesCulture();
 
-  /// @brief Method get_SatelliteContractVersion, addr 0x5960f14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_SatelliteContractVersion, addr 0x59c7860, size 0x18, virtual false, abstract: false, final false
   inline ::System::Version* get_SatelliteContractVersion();
 
-  /// @brief Method get_UserResourceSet, addr 0x595ef68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_UserResourceSet, addr 0x59c58b4, size 0x18, virtual false, abstract: false, final false
   inline ::System::Type* get_UserResourceSet();
 
-  /// @brief Method set_LookedForSatelliteContractVersion, addr 0x5960e7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_LookedForSatelliteContractVersion, addr 0x59c77c8, size 0x1c, virtual false, abstract: false, final false
   inline void set_LookedForSatelliteContractVersion(bool value);
 
-  /// @brief Method set_SatelliteContractVersion, addr 0x5960e64, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_SatelliteContractVersion, addr 0x59c77b0, size 0x18, virtual false, abstract: false, final false
   inline void set_SatelliteContractVersion(::System::Version* value);
 
 protected:
@@ -338,35 +338,35 @@ public:
   /// @brief Field resourceGroveler, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_resourceGroveler, put = __cordl_internal_set_resourceGroveler)) ::System::Resources::IResourceGroveler* resourceGroveler;
 
-  /// @brief Method AddResourceSet, addr 0x596273c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method AddResourceSet, addr 0x59c9088, size 0x1bc, virtual false, abstract: false, final false
   static inline void AddResourceSet(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>* localResourceSets, ::StringW cultureName,
                                     ::ByRef<::System::Resources::ResourceSet*> rs);
 
-  /// @brief Method CommonAssemblyInit, addr 0x5961694, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method CommonAssemblyInit, addr 0x59c7fe0, size 0x16c, virtual false, abstract: false, final false
   inline void CommonAssemblyInit();
 
-  /// @brief Method CompareNames, addr 0x5960f2c, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method CompareNames, addr 0x59c7878, size 0x264, virtual false, abstract: false, final false
   static inline bool CompareNames(::StringW asmTypeName1, ::StringW typeName2, ::System::Reflection::AssemblyName* asmName2);
 
-  /// @brief Method GetFirstResourceSet, addr 0x5961bc4, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method GetFirstResourceSet, addr 0x59c8510, size 0x3ac, virtual false, abstract: false, final false
   inline ::System::Resources::ResourceSet* GetFirstResourceSet(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method GetResourceFileName, addr 0x5961a80, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method GetResourceFileName, addr 0x59c83cc, size 0x144, virtual true, abstract: false, final false
   inline ::StringW GetResourceFileName(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method GetSatelliteContractVersion, addr 0x5962908, size 0x70c, virtual false, abstract: false, final false
+  /// @brief Method GetSatelliteContractVersion, addr 0x59c9254, size 0x70c, virtual false, abstract: false, final false
   static inline ::System::Version* GetSatelliteContractVersion(::System::Reflection::Assembly* a);
 
-  /// @brief Method GetString, addr 0x5963014, size 0x474, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x59c9960, size 0x474, virtual true, abstract: false, final false
   inline ::StringW GetString(::StringW name, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method Init, addr 0x59611ac, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x59c7af8, size 0x120, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method InternalGetResourceSet, addr 0x5961f70, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method InternalGetResourceSet, addr 0x59c88bc, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Resources::ResourceSet* InternalGetResourceSet(::System::Globalization::CultureInfo* culture, bool createIfNotExists, bool tryParents);
 
-  /// @brief Method InternalGetResourceSet, addr 0x5961f8c, size 0x7b0, virtual false, abstract: false, final false
+  /// @brief Method InternalGetResourceSet, addr 0x59c88d8, size 0x7b0, virtual false, abstract: false, final false
   inline ::System::Resources::ResourceSet* InternalGetResourceSet(::System::Globalization::CultureInfo* requestedCulture, bool createIfNotExists, bool tryParents,
                                                                   ::ByRef<::System::Threading::StackCrawlMark> stackMark);
 
@@ -374,16 +374,16 @@ public:
 
   static inline ::System::Resources::ResourceManager* New_ctor(::StringW baseName, ::System::Reflection::Assembly* assembly);
 
-  /// @brief Method OnDeserialized, addr 0x5961810, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x59c815c, size 0x1f0, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnDeserializing, addr 0x5961800, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnDeserializing, addr 0x59c814c, size 0x10, virtual false, abstract: false, final false
   inline void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnSerializing, addr 0x5961a00, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnSerializing, addr 0x59c834c, size 0x70, virtual false, abstract: false, final false
   inline void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method SetAppXConfiguration, addr 0x5961690, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetAppXConfiguration, addr 0x59c7fdc, size 0x4, virtual false, abstract: false, final false
   inline void SetAppXConfiguration();
 
   constexpr ::StringW const& __cordl_internal_get_BaseNameField() const;
@@ -494,10 +494,10 @@ public:
 
   constexpr void __cordl_internal_set_resourceGroveler(::System::Resources::IResourceGroveler* value);
 
-  /// @brief Method .ctor, addr 0x59612cc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c7c18, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x59613d8, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c7d24, size 0x2b8, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseName, ::System::Reflection::Assembly* assembly);
 
   static inline int32_t getStaticF_DEBUG();
@@ -514,10 +514,10 @@ public:
 
   static inline ::System::Type* getStaticF__minResourceSet();
 
-  /// @brief Method get_BaseName, addr 0x5961a70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BaseName, addr 0x59c83bc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_BaseName();
 
-  /// @brief Method get_FallbackLocation, addr 0x5961a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FallbackLocation, addr 0x59c83c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Resources::UltimateResourceFallbackLocation get_FallbackLocation();
 
   static inline void setStaticF_DEBUG(int32_t value);

@@ -47,21 +47,21 @@ public:
 
   __declspec(property(put = set_color)) ::UnityEngine::Color color;
 
-  /// @brief Method Awake, addr 0x5785150, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x57eb9f8, size 0x88, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method IsEmitting, addr 0x577813c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsEmitting, addr 0x57de9e4, size 0x3c, virtual false, abstract: false, final false
   inline bool IsEmitting();
 
   static inline ::GlobalNamespace::ObstacleSaberSparkleEffect* New_ctor();
 
-  /// @brief Method SetPositionAndRotation, addr 0x5778494, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x57ded3c, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
 
-  /// @brief Method StartEmission, addr 0x577850c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StartEmission, addr 0x57dedb4, size 0xa0, virtual false, abstract: false, final false
   inline void StartEmission();
 
-  /// @brief Method StopEmission, addr 0x57785ac, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method StopEmission, addr 0x57dee54, size 0xc4, virtual false, abstract: false, final false
   inline void StopEmission();
 
   constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__burnParticleSystem() const;
@@ -88,10 +88,10 @@ public:
 
   constexpr void __cordl_internal_set__sparkleParticleSystemEmissionModule(::UnityEngine::ParticleSystem_EmissionModule value);
 
-  /// @brief Method .ctor, addr 0x57851d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57eba80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_color, addr 0x5777e1c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x57de6c4, size 0xa8, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:

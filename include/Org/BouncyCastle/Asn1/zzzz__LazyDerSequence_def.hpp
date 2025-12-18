@@ -35,15 +35,15 @@ public:
   /// @brief Field encoded, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_encoded, put = __cordl_internal_set_encoded)) ::ArrayW<uint8_t, ::Array<uint8_t>*> encoded;
 
-  /// @brief Method Encode, addr 0x356d560, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x3597da4, size 0xb8, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method GetEnumerator, addr 0x356d518, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3597d5c, size 0x24, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::Org::BouncyCastle::Asn1::LazyDerSequence* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
-  /// @brief Method Parse, addr 0x356d384, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3597bc8, size 0x16c, virtual false, abstract: false, final false
   inline void Parse();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_encoded() const;
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set_encoded(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x356d238, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3597a7c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
-  /// @brief Method get_Count, addr 0x356d53c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3597d80, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x356d4f0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3597d34, size 0x28, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(int32_t index);
 
 protected:

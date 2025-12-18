@@ -20,27 +20,27 @@ namespace Meta::XR {
 class CORDL_TYPE MetaXRSpaceWarp : public ::UnityEngine::XR::OpenXR::Features::OpenXRFeature {
 public:
   // Declarations
-  /// @brief Method MetaSetAppSpacePosition, addr 0x5c3b77c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method MetaSetAppSpacePosition, addr 0x5ca225c, size 0x90, virtual false, abstract: false, final false
   static inline void MetaSetAppSpacePosition(float_t x, float_t y, float_t z);
 
-  /// @brief Method MetaSetAppSpaceRotation, addr 0x5c3b810, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method MetaSetAppSpaceRotation, addr 0x5ca22f0, size 0x98, virtual false, abstract: false, final false
   static inline void MetaSetAppSpaceRotation(float_t x, float_t y, float_t z, float_t w);
 
-  /// @brief Method MetaSetSpaceWarp, addr 0x5c3b6fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MetaSetSpaceWarp, addr 0x5ca21dc, size 0x7c, virtual false, abstract: false, final false
   static inline void MetaSetSpaceWarp(bool enabled);
 
   static inline ::Meta::XR::MetaXRSpaceWarp* New_ctor();
 
-  /// @brief Method SetAppSpacePosition, addr 0x5c3b778, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetAppSpacePosition, addr 0x5ca2258, size 0x4, virtual false, abstract: false, final false
   static inline void SetAppSpacePosition(float_t x, float_t y, float_t z);
 
-  /// @brief Method SetAppSpaceRotation, addr 0x5c3b80c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetAppSpaceRotation, addr 0x5ca22ec, size 0x4, virtual false, abstract: false, final false
   static inline void SetAppSpaceRotation(float_t x, float_t y, float_t z, float_t w);
 
-  /// @brief Method SetSpaceWarp, addr 0x5c3b6f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetSpaceWarp, addr 0x5ca21d8, size 0x4, virtual false, abstract: false, final false
   static inline void SetSpaceWarp(bool enabled);
 
-  /// @brief Method .ctor, addr 0x5c3b8a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca2388, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   MetaXRSpaceWarp(MetaXRSpaceWarp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8545 };
 
   /// @brief Field extensionList offset 0xffffffff size 0x8
   static constexpr ::ConstString extensionList{ u"XR_FB_space_warp" };

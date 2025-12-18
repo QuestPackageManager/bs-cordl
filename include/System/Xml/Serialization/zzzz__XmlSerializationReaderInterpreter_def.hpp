@@ -75,7 +75,7 @@ public:
   /// @brief Field _sri, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__sri, put = __cordl_internal_set__sri)) ::System::Xml::Serialization::XmlSerializationReaderInterpreter* _sri;
 
-  /// @brief Method FixupMembers, addr 0x60ea804, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method FixupMembers, addr 0x6152390, size 0x24, virtual false, abstract: false, final false
   inline void FixupMembers(::System::Object* fixup);
 
   static inline ::System::Xml::Serialization::XmlSerializationReaderInterpreter_FixupCallbackInfo* New_ctor(::System::Xml::Serialization::XmlSerializationReaderInterpreter* sri,
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__sri(::System::Xml::Serialization::XmlSerializationReaderInterpreter* value);
 
-  /// @brief Method .ctor, addr 0x60e9714, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61512a0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Serialization::XmlSerializationReaderInterpreter* sri, ::System::Xml::Serialization::ClassMap* map, bool isValueList);
 
 protected:
@@ -117,7 +117,7 @@ public:
   XmlSerializationReaderInterpreter_FixupCallbackInfo(XmlSerializationReaderInterpreter_FixupCallbackInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9510 };
 
   /// @brief Field _sri, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Serialization::XmlSerializationReaderInterpreter* ____sri;
@@ -156,7 +156,7 @@ public:
   static inline ::System::Xml::Serialization::XmlSerializationReaderInterpreter_ReaderCallbackInfo* New_ctor(::System::Xml::Serialization::XmlSerializationReaderInterpreter* sri,
                                                                                                              ::System::Xml::Serialization::XmlTypeMapping* typeMap);
 
-  /// @brief Method ReadObject, addr 0x60ea828, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ReadObject, addr 0x61523b4, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Object* ReadObject();
 
   constexpr ::System::Xml::Serialization::XmlSerializationReaderInterpreter* const& __cordl_internal_get__sri() const;
@@ -171,7 +171,7 @@ public:
 
   constexpr void __cordl_internal_set__typeMap(::System::Xml::Serialization::XmlTypeMapping* value);
 
-  /// @brief Method .ctor, addr 0x60e56ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x614d238, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Serialization::XmlSerializationReaderInterpreter* sri, ::System::Xml::Serialization::XmlTypeMapping* typeMap);
 
 protected:
@@ -189,7 +189,7 @@ public:
   XmlSerializationReaderInterpreter_ReaderCallbackInfo(XmlSerializationReaderInterpreter_ReaderCallbackInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9507 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9511 };
 
   /// @brief Field _sri, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Serialization::XmlSerializationReaderInterpreter* ____sri;
@@ -230,117 +230,117 @@ public:
   /// @brief Field empty_array, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_empty_array, put = setStaticF_empty_array)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> empty_array;
 
-  /// @brief Method AddListValue, addr 0x60e91d4, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method AddListValue, addr 0x6150d60, size 0x2fc, virtual false, abstract: false, final false
   inline void AddListValue(::System::Xml::Serialization::TypeData* listType, ::ByRef<::System::Object*> list, int32_t index, ::System::Object* value, bool canCreateInstance);
 
-  /// @brief Method CopyEnumerableList, addr 0x60ea2d8, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method CopyEnumerableList, addr 0x6151e64, size 0x44c, virtual false, abstract: false, final false
   inline void CopyEnumerableList(::System::Object* source, ::System::Object* dest);
 
-  /// @brief Method CreateInstance, addr 0x60e5e30, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x614d9bc, size 0x74, virtual false, abstract: false, final false
   inline ::System::Object* CreateInstance(::System::Type* type);
 
-  /// @brief Method CreateInstance, addr 0x60e8d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x615091c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, bool nonPublic);
 
-  /// @brief Method CreateList, addr 0x60e9720, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CreateList, addr 0x61512ac, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Object* CreateList(::System::Type* listType);
 
-  /// @brief Method FillList, addr 0x60ea2c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FillList, addr 0x6151e54, size 0x10, virtual false, abstract: false, final false
   inline void FillList(::System::Object* list, ::System::Object* items);
 
-  /// @brief Method FixupMembers, addr 0x60e9a38, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method FixupMembers, addr 0x61515c4, size 0x3dc, virtual false, abstract: false, final false
   inline void FixupMembers(::System::Xml::Serialization::ClassMap* map, ::System::Object* obfixup, bool isValueList);
 
-  /// @brief Method GetEnumValue, addr 0x60ea1a0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetEnumValue, addr 0x6151d2c, size 0x128, virtual false, abstract: false, final false
   inline ::System::Object* GetEnumValue(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::StringW val);
 
-  /// @brief Method GetMemberValue, addr 0x60e9100, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetMemberValue, addr 0x6150c8c, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Object* GetMemberValue(::System::Xml::Serialization::XmlTypeMapMember* member, ::System::Object* ob, bool isValueList);
 
-  /// @brief Method GetValueFromXmlString, addr 0x60e8e44, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetValueFromXmlString, addr 0x61509d0, size 0x134, virtual false, abstract: false, final false
   inline ::System::Object* GetValueFromXmlString(::StringW value, ::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlTypeMapping* typeMap);
 
-  /// @brief Method InitCallbacks, addr 0x60e52d4, size 0x3d8, virtual true, abstract: false, final false
+  /// @brief Method InitCallbacks, addr 0x614ce60, size 0x3d8, virtual true, abstract: false, final false
   inline void InitCallbacks();
 
-  /// @brief Method InitIDs, addr 0x60e56b4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InitIDs, addr 0x614d240, size 0x4, virtual true, abstract: false, final false
   inline void InitIDs();
 
-  /// @brief Method InitializeList, addr 0x60e967c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method InitializeList, addr 0x6151208, size 0x98, virtual false, abstract: false, final false
   inline ::System::Object* InitializeList(::System::Xml::Serialization::TypeData* listType);
 
-  /// @brief Method IsReadOnly, addr 0x60e9618, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsReadOnly, addr 0x61511a4, size 0x64, virtual false, abstract: false, final false
   inline bool IsReadOnly(::System::Xml::Serialization::XmlTypeMapMember* member, ::System::Xml::Serialization::TypeData* memType, ::System::Object* ob, bool isValueList);
 
   static inline ::System::Xml::Serialization::XmlSerializationReaderInterpreter* New_ctor(::System::Xml::Serialization::XmlMapping* typeMap);
 
-  /// @brief Method ProcessUnknownAttribute, addr 0x60e9e14, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ProcessUnknownAttribute, addr 0x61519a0, size 0x34, virtual true, abstract: false, final false
   inline void ProcessUnknownAttribute(::System::Object* target);
 
-  /// @brief Method ProcessUnknownElement, addr 0x60e9e48, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ProcessUnknownElement, addr 0x61519d4, size 0x34, virtual true, abstract: false, final false
   inline void ProcessUnknownElement(::System::Object* target);
 
-  /// @brief Method ReadAttributeMembers, addr 0x60e5f40, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method ReadAttributeMembers, addr 0x614dacc, size 0x3e8, virtual false, abstract: false, final false
   inline void ReadAttributeMembers(::System::Xml::Serialization::ClassMap* map, ::System::Object* ob, bool isValueList);
 
-  /// @brief Method ReadClassInstance, addr 0x60e8ad4, size 0x2bc, virtual true, abstract: false, final false
+  /// @brief Method ReadClassInstance, addr 0x6150660, size 0x2bc, virtual true, abstract: false, final false
   inline ::System::Object* ReadClassInstance(::System::Xml::Serialization::XmlTypeMapping* typeMap, bool isNullable, bool checkType);
 
-  /// @brief Method ReadClassInstanceMembers, addr 0x60e8d98, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ReadClassInstanceMembers, addr 0x6150924, size 0xac, virtual true, abstract: false, final false
   inline void ReadClassInstanceMembers(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::System::Object* ob);
 
-  /// @brief Method ReadEncodedObject, addr 0x60e5898, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ReadEncodedObject, addr 0x614d424, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Object* ReadEncodedObject(::System::Xml::Serialization::XmlTypeMapping* typeMap);
 
-  /// @brief Method ReadEnumElement, addr 0x60e88c8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ReadEnumElement, addr 0x6150454, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Object* ReadEnumElement(::System::Xml::Serialization::XmlTypeMapping* typeMap, bool isNullable);
 
-  /// @brief Method ReadListElement, addr 0x60e845c, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method ReadListElement, addr 0x614ffe8, size 0x3b8, virtual false, abstract: false, final false
   inline ::System::Object* ReadListElement(::System::Xml::Serialization::XmlTypeMapping* typeMap, bool isNullable, ::System::Object* list, bool canCreateInstance);
 
-  /// @brief Method ReadListString, addr 0x60e9f7c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ReadListString, addr 0x6151b08, size 0x224, virtual false, abstract: false, final false
   inline ::System::Object* ReadListString(::System::Xml::Serialization::XmlTypeMapping* typeMap, ::StringW values);
 
-  /// @brief Method ReadMembers, addr 0x60e6328, size 0x2024, virtual false, abstract: false, final false
+  /// @brief Method ReadMembers, addr 0x614deb4, size 0x2024, virtual false, abstract: false, final false
   inline void ReadMembers(::System::Xml::Serialization::ClassMap* map, ::System::Object* ob, bool isValueList, bool readBySoapOrder);
 
-  /// @brief Method ReadMessage, addr 0x60e5994, size 0x49c, virtual true, abstract: false, final false
+  /// @brief Method ReadMessage, addr 0x614d520, size 0x49c, virtual true, abstract: false, final false
   inline ::System::Object* ReadMessage(::System::Xml::Serialization::XmlMembersMapping* typeMap);
 
-  /// @brief Method ReadObject, addr 0x60e8364, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ReadObject, addr 0x614fef0, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Object* ReadObject(::System::Xml::Serialization::XmlTypeMapping* typeMap, bool isNullable, bool checkType);
 
-  /// @brief Method ReadObjectElement, addr 0x60e97c8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ReadObjectElement, addr 0x6151354, size 0x1c8, virtual false, abstract: false, final false
   inline ::System::Object* ReadObjectElement(::System::Xml::Serialization::XmlTypeMapElementInfo* elem);
 
-  /// @brief Method ReadPrimitiveElement, addr 0x60e8814, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ReadPrimitiveElement, addr 0x61503a0, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Object* ReadPrimitiveElement(::System::Xml::Serialization::XmlTypeMapping* typeMap, bool isNullable);
 
-  /// @brief Method ReadPrimitiveValue, addr 0x60e9e7c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ReadPrimitiveValue, addr 0x6151a08, size 0x100, virtual false, abstract: false, final false
   inline ::System::Object* ReadPrimitiveValue(::System::Xml::Serialization::XmlTypeMapElementInfo* elem);
 
-  /// @brief Method ReadRoot, addr 0x60e56b8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReadRoot, addr 0x614d244, size 0x110, virtual false, abstract: false, final false
   inline ::System::Object* ReadRoot();
 
-  /// @brief Method ReadRoot, addr 0x60e57c8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ReadRoot, addr 0x614d354, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Object* ReadRoot(::System::Xml::Serialization::XmlTypeMapping* rootMap);
 
-  /// @brief Method ReadXmlNode, addr 0x60e9990, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ReadXmlNode, addr 0x615151c, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Object* ReadXmlNode(::System::Xml::Serialization::TypeData* type, bool wrapped);
 
-  /// @brief Method ReadXmlNodeElement, addr 0x60e834c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ReadXmlNodeElement, addr 0x614fed8, size 0x18, virtual false, abstract: false, final false
   inline ::System::Object* ReadXmlNodeElement(::System::Xml::Serialization::XmlTypeMapping* typeMap, bool isNullable);
 
-  /// @brief Method ReadXmlSerializableElement, addr 0x60e8934, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method ReadXmlSerializableElement, addr 0x61504c0, size 0x1a0, virtual false, abstract: false, final false
   inline ::System::Object* ReadXmlSerializableElement(::System::Xml::Serialization::XmlTypeMapping* typeMap, bool isNullable);
 
-  /// @brief Method SetListMembersDefaults, addr 0x60e94d0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method SetListMembersDefaults, addr 0x615105c, size 0x148, virtual false, abstract: false, final false
   inline void SetListMembersDefaults(::System::Xml::Serialization::ClassMap* map, ::System::Object* ob, bool isValueList);
 
-  /// @brief Method SetMemberValue, addr 0x60e8f78, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method SetMemberValue, addr 0x6150b04, size 0x188, virtual false, abstract: false, final false
   inline void SetMemberValue(::System::Xml::Serialization::XmlTypeMapMember* member, ::System::Object* ob, ::System::Object* value, bool isValueList);
 
-  /// @brief Method SetMemberValueFromAttr, addr 0x60e5ea4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetMemberValueFromAttr, addr 0x614da30, size 0x9c, virtual false, abstract: false, final false
   inline void SetMemberValueFromAttr(::System::Xml::Serialization::XmlTypeMapMember* member, ::System::Object* ob, ::System::Object* value, bool isValueList);
 
   constexpr ::System::Xml::Serialization::SerializationFormat const& __cordl_internal_get__format() const;
@@ -355,7 +355,7 @@ public:
 
   constexpr void __cordl_internal_set__typeMap(::System::Xml::Serialization::XmlMapping* value);
 
-  /// @brief Method .ctor, addr 0x60e52b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x614ce44, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Serialization::XmlMapping* typeMap);
 
   static inline ::System::Xml::XmlQualifiedName* getStaticF_AnyType();
@@ -381,7 +381,7 @@ public:
   XmlSerializationReaderInterpreter(XmlSerializationReaderInterpreter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9508 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9512 };
 
   /// @brief Field _typeMap, offset: 0xd0, size: 0x8, def value: None
   ::System::Xml::Serialization::XmlMapping* ____typeMap;

@@ -73,36 +73,36 @@ public:
 
   __declspec(property(get = get_preview, put = set_preview)) bool preview;
 
-  /// @brief Method BeginDragResize, addr 0x6aef178, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method BeginDragResize, addr 0x6b57ffc, size 0x48, virtual false, abstract: false, final false
   inline void BeginDragResize(float_t pos);
 
-  /// @brief Method DragResize, addr 0x6aef2cc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method DragResize, addr 0x6b58150, size 0x40, virtual false, abstract: false, final false
   inline void DragResize(float_t pos);
 
-  /// @brief Method EndDragResize, addr 0x6aeef10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method EndDragResize, addr 0x6b57d94, size 0x5c, virtual false, abstract: false, final false
   inline void EndDragResize(float_t pos, bool cancelled);
 
   static inline ::UnityEngine::UIElements::Internal::ColumnResizer* New_ctor(::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method OnKeyDown, addr 0x6aeee88, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnKeyDown, addr 0x6b57d0c, size 0x88, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* e);
 
-  /// @brief Method OnPointerDown, addr 0x6aeef6c, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x6b57df0, size 0x20c, virtual false, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::UIElements::PointerDownEvent* e);
 
-  /// @brief Method OnPointerMove, addr 0x6aef1c0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnPointerMove, addr 0x6b58044, size 0x10c, virtual false, abstract: false, final false
   inline void OnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* e);
 
-  /// @brief Method OnPointerUp, addr 0x6aef30c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x6b58190, size 0x138, virtual false, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::UIElements::PointerUpEvent* e);
 
-  /// @brief Method RegisterCallbacksOnTarget, addr 0x6aeea30, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method RegisterCallbacksOnTarget, addr 0x6b578b4, size 0x22c, virtual true, abstract: false, final false
   inline void RegisterCallbacksOnTarget();
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x6aeec5c, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x6b57ae0, size 0x22c, virtual true, abstract: false, final false
   inline void UnregisterCallbacksFromTarget();
 
-  /// @brief Method UpdatePreviewPosition, addr 0x6aef444, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method UpdatePreviewPosition, addr 0x6b582c8, size 0x118, virtual false, abstract: false, final false
   inline void UpdatePreviewPosition();
 
   constexpr ::UnityEngine::UIElements::ColumnLayout* const& __cordl_internal_get__columnLayout_k__BackingField() const;
@@ -153,19 +153,19 @@ public:
 
   constexpr void __cordl_internal_set_m_Start(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x6aee968, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b577ec, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method get_columnLayout, addr 0x6aee948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnLayout, addr 0x6b577cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ColumnLayout* get_columnLayout();
 
-  /// @brief Method get_preview, addr 0x6aee958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_preview, addr 0x6b577dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_preview();
 
-  /// @brief Method set_columnLayout, addr 0x6aee950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_columnLayout, addr 0x6b577d4, size 0x8, virtual false, abstract: false, final false
   inline void set_columnLayout(::UnityEngine::UIElements::ColumnLayout* value);
 
-  /// @brief Method set_preview, addr 0x6aee960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_preview, addr 0x6b577e4, size 0x8, virtual false, abstract: false, final false
   inline void set_preview(bool value);
 
 protected:

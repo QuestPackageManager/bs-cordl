@@ -55,27 +55,27 @@ public:
   /// @brief Field peOffset, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_peOffset, put = __cordl_internal_set_peOffset)) int32_t peOffset;
 
-  /// @brief Method Close, addr 0x589057c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x58f6ec8, size 0x2c, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetHash, addr 0x589095c, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method GetHash, addr 0x58f72a8, size 0x4cc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetHash(::System::Security::Cryptography::HashAlgorithm* hash);
 
-  /// @brief Method GetSecurityEntry, addr 0x5890888, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetSecurityEntry, addr 0x58f71d4, size 0xd4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSecurityEntry();
 
   static inline ::Mono::Security::Authenticode::AuthenticodeBase* New_ctor();
 
-  /// @brief Method Open, addr 0x58904d4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x58f6e20, size 0xa8, virtual false, abstract: false, final false
   inline void Open(::StringW filename);
 
-  /// @brief Method Open, addr 0x58905a8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x58f6ef4, size 0x90, virtual false, abstract: false, final false
   inline void Open(::ArrayW<uint8_t, ::Array<uint8_t>*> rawdata);
 
-  /// @brief Method ProcessFirstBlock, addr 0x5890638, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method ProcessFirstBlock, addr 0x58f6f84, size 0x250, virtual false, abstract: false, final false
   inline int32_t ProcessFirstBlock();
 
-  /// @brief Method ReadFirstBlock, addr 0x5890408, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ReadFirstBlock, addr 0x58f6d54, size 0xcc, virtual false, abstract: false, final false
   inline void ReadFirstBlock();
 
   constexpr int32_t const& __cordl_internal_get_blockLength() const;
@@ -132,10 +132,10 @@ public:
 
   constexpr void __cordl_internal_set_peOffset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x589038c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f6cd8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_PEOffset, addr 0x58903e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_PEOffset, addr 0x58f6d2c, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_PEOffset();
 
 protected:
@@ -153,7 +153,7 @@ public:
   AuthenticodeBase(AuthenticodeBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19297 };
 
   /// @brief Field fileblock, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___fileblock;

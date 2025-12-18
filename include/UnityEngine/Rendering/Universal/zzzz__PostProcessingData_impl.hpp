@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessingData::*)(::UnityEngine::Rendering::ContextContainer*)>(
     &::UnityEngine::Rendering::Universal::PostProcessingData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66c6f28;
+  constexpr static std::size_t addrs = 0x672eab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::UniversalPostProcessingData* (
     ::UnityEngine::Rendering::Universal::PostProcessingData::*)()>(&::UnityEngine::Rendering::Universal::PostProcessingData::get_universalPostProcessingData)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x66c6f30;
+  constexpr static std::size_t addrs = 0x672eabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::UnityEngine::Rendering::Universal::ColorGradingMode> (
     ::UnityEngine::Rendering::Universal::PostProcessingData::*)()>(&::UnityEngine::Rendering::Universal::PostProcessingData::get_gradingMode)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x66c6f84;
+  constexpr static std::size_t addrs = 0x672eb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::PostProcessingData>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<int32_t> (::UnityEngine::Rendering::Universal::PostProcessingData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessingData::get_lutSize)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x66c6fe4;
+  constexpr static std::size_t addrs = 0x672eb70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::PostProcessingData>::get(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<bool> (::UnityEngine::Rendering::Universal::PostProcessingData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessingData::get_useFastSRGBLinearConversion)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x66c7044;
+  constexpr static std::size_t addrs = 0x672ebd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<bool> (::UnityEngine::Rendering::Universal::PostProcessingData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessingData::get_supportScreenSpaceLensFlare)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x66c70a4;
+  constexpr static std::size_t addrs = 0x672ec30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<bool> (::UnityEngine::Rendering::Universal::PostProcessingData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessingData::get_supportDataDrivenLensFlare)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x66c7104;
+  constexpr static std::size_t addrs = 0x672ec90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::PostProcessingData>::get(),

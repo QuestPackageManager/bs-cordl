@@ -45,12 +45,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE GPUDrivenCallbacks : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InvokeGPUDrivenLODGroupDataNativeCallback, addr 0x68f77e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InvokeGPUDrivenLODGroupDataNativeCallback, addr 0x696066c, size 0x20, virtual false, abstract: false, final false
   static inline void InvokeGPUDrivenLODGroupDataNativeCallback(::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback* callback,
                                                                ::ByRef<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative> lodGroupDataNative,
                                                                ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* target);
 
-  /// @brief Method InvokeGPUDrivenRendererDataNativeCallback, addr 0x68f7808, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InvokeGPUDrivenRendererDataNativeCallback, addr 0x696068c, size 0x20, virtual false, abstract: false, final false
   static inline void InvokeGPUDrivenRendererDataNativeCallback(::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback* callback,
                                                                ::ByRef<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative> rendererDataNative,
                                                                ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
@@ -72,7 +72,7 @@ public:
   GPUDrivenCallbacks(GPUDrivenCallbacks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10855 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -130,21 +130,21 @@ public:
   /// @brief Field supportRuntimeDebugDisplay, offset 0x39, size 0x1
   __declspec(property(get = __cordl_internal_get_supportRuntimeDebugDisplay, put = __cordl_internal_set_supportRuntimeDebugDisplay)) bool supportRuntimeDebugDisplay;
 
-  /// @brief Method GetOrCreateAPVSceneData, addr 0x665499c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateAPVSceneData, addr 0x66bc528, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProbeVolumeSceneData* GetOrCreateAPVSceneData();
 
-  /// @brief Method GetOrCreateDefaultVolumeProfile, addr 0x6654880, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateDefaultVolumeProfile, addr 0x66bc40c, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::VolumeProfile> GetOrCreateDefaultVolumeProfile(::UnityEngine::Rendering::VolumeProfile* defaultVolumeProfile);
 
-  /// @brief Method IsAtLastVersion, addr 0x6654830, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsAtLastVersion, addr 0x66bc3bc, size 0x10, virtual false, abstract: false, final false
   inline bool IsAtLastVersion();
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings* New_ctor();
 
-  /// @brief Method Reset, addr 0x6654840, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x66bc3cc, size 0x40, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ResetRenderingLayerNames, addr 0x6654914, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ResetRenderingLayerNames, addr 0x66bc4a0, size 0x88, virtual false, abstract: false, final false
   inline void ResetRenderingLayerNames();
 
   constexpr ::UnityEngine::Rendering::ProbeVolumeSceneData* const& __cordl_internal_get_apvScenesData() const;
@@ -291,22 +291,22 @@ public:
 
   constexpr void __cordl_internal_set_supportRuntimeDebugDisplay(bool value);
 
-  /// @brief Method .ctor, addr 0x66549fc, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66bc588, size 0x170, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightLayerNames, addr 0x66548cc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_lightLayerNames, addr 0x66bc458, size 0x48, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_lightLayerNames();
 
-  /// @brief Method get_prefixedLightLayerNames, addr 0x6654884, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_prefixedLightLayerNames, addr 0x66bc410, size 0x48, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_prefixedLightLayerNames();
 
-  /// @brief Method get_settingsList, addr 0x665480c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_settingsList, addr 0x66bc398, size 0x24, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>* get_settingsList();
 
-  /// @brief Method get_stripUnusedLODCrossFadeVariants, addr 0x6654800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stripUnusedLODCrossFadeVariants, addr 0x66bc38c, size 0x8, virtual false, abstract: false, final false
   inline bool get_stripUnusedLODCrossFadeVariants();
 
-  /// @brief Method set_stripUnusedLODCrossFadeVariants, addr 0x6654808, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_stripUnusedLODCrossFadeVariants, addr 0x66bc394, size 0x4, virtual false, abstract: false, final false
   inline void set_stripUnusedLODCrossFadeVariants(bool value);
 
 protected:
@@ -324,7 +324,7 @@ public:
   UniversalRenderPipelineGlobalSettings(UniversalRenderPipelineGlobalSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12721 };
 
   /// @brief Field defaultAssetName offset 0xffffffff size 0x8
   static constexpr ::ConstString defaultAssetName{ u"UniversalRenderPipelineGlobalSettings" };

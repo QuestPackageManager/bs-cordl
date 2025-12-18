@@ -63,7 +63,7 @@ public:
   static ::UnityEngine::ParticleSystemRenderSpace const World;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20623 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20648 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

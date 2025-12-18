@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::APVLeakReductionModeParameter* New_ctor(::UnityEngine::Rendering::APVLeakReductionMode value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6579f30, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65e1abc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::APVLeakReductionMode value, bool overrideState);
 
 protected:
@@ -42,7 +42,7 @@ public:
   APVLeakReductionModeParameter(APVLeakReductionModeParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12128 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

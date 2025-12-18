@@ -60,49 +60,49 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderStateBlock>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderStateBlock>*();
 
-  /// @brief Method Equals, addr 0x68f0830, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x69596b4, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x68f0680, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6959504, size 0x100, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RenderStateBlock other);
 
-  /// @brief Method GetHashCode, addr 0x68f08c4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6959748, size 0xf0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x68f04ec, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6959370, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderStateMask mask);
 
-  /// @brief Method get_depthState, addr 0x68f0634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthState, addr 0x69594b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DepthState get_depthState();
 
-  /// @brief Method get_mask, addr 0x68f0670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mask, addr 0x69594f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderStateMask get_mask();
 
-  /// @brief Method get_stencilReference, addr 0x68f0660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stencilReference, addr 0x69594e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_stencilReference();
 
-  /// @brief Method get_stencilState, addr 0x68f0644, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_stencilState, addr 0x69594c8, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::StencilState get_stencilState();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderStateBlock>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderStateBlock>* i___System__IEquatable_1___UnityEngine__Rendering__RenderStateBlock_();
 
-  /// @brief Method set_blendState, addr 0x68f0620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blendState, addr 0x69594a4, size 0x8, virtual false, abstract: false, final false
   inline void set_blendState(::UnityEngine::Rendering::BlendState value);
 
-  /// @brief Method set_depthState, addr 0x68f063c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_depthState, addr 0x69594c0, size 0x8, virtual false, abstract: false, final false
   inline void set_depthState(::UnityEngine::Rendering::DepthState value);
 
-  /// @brief Method set_mask, addr 0x68f0678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mask, addr 0x69594fc, size 0x8, virtual false, abstract: false, final false
   inline void set_mask(::UnityEngine::Rendering::RenderStateMask value);
 
-  /// @brief Method set_rasterState, addr 0x68f0628, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rasterState, addr 0x69594ac, size 0xc, virtual false, abstract: false, final false
   inline void set_rasterState(::UnityEngine::Rendering::RasterState value);
 
-  /// @brief Method set_stencilReference, addr 0x68f0668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stencilReference, addr 0x69594ec, size 0x8, virtual false, abstract: false, final false
   inline void set_stencilReference(int32_t value);
 
-  /// @brief Method set_stencilState, addr 0x68f0654, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_stencilState, addr 0x69594d8, size 0xc, virtual false, abstract: false, final false
   inline void set_stencilState(::UnityEngine::Rendering::StencilState value);
 
   // Ctor Parameters []
@@ -117,7 +117,7 @@ public:
                              ::UnityEngine::Rendering::StencilState m_StencilState, int32_t m_StencilReference, ::UnityEngine::Rendering::RenderStateMask m_Mask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10796 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10800 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x6c };

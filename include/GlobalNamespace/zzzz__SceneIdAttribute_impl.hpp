@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SceneIdAttribute::*)()>(&::GlobalNamespace::SceneIdAttribute::get_allowGameScenes)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x31da3b8;
+  constexpr static std::size_t addrs = 0x320ad54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneIdAttribute*>::get(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SceneIdAttribute::*)()>(&::GlobalNamespace::SceneIdAttribute::get_allowEnvironmentScenes)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x31da3c4;
+  constexpr static std::size_t addrs = 0x320ad60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneIdAttribute*>::get(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SceneIdAttribute::*)()>(&::GlobalNamespace::SceneIdAttribute::get_allowEmpty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x31da3d0;
+  constexpr static std::size_t addrs = 0x320ad6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneIdAttribute*>::get(), "get_allowEmpty",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SceneIdAttribute::*)()>(&::GlobalNamespace::SceneIdAttribute::get_allowAllScenes)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x31da3dc;
+  constexpr static std::size_t addrs = 0x320ad78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneIdAttribute*>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SceneIdAttribute::*)()>(
     &::GlobalNamespace::SceneIdAttribute::get_onlyAllowEnvironmentScenes)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x31da3f0;
+  constexpr static std::size_t addrs = 0x320ad8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneIdAttribute*>::get(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneIdAttribute::*)(::GlobalNamespace::BeatmapSceneIdFilter)>(
     &::GlobalNamespace::SceneIdAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x31da404;
+  constexpr static std::size_t addrs = 0x320ada0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

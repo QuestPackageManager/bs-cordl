@@ -38,19 +38,19 @@ public:
 
   __declspec(property(get = get_scenes, put = set_scenes)) ::ArrayW<::StringW, ::Array<::StringW>*> scenes;
 
-  /// @brief Method BeforeScenesWillBeActivated, addr 0x31e18a8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method BeforeScenesWillBeActivated, addr 0x3212284, size 0x4, virtual true, abstract: false, final false
   inline void BeforeScenesWillBeActivated();
 
-  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0x31e18ac, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0x3212288, size 0x94, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();
 
-  /// @brief Method Init, addr 0x31e1888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3212264, size 0x8, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::StringW, ::Array<::StringW>*> newScenes, ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> sceneSetupData);
 
-  /// @brief Method Init, addr 0x31e17e4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x32121c0, size 0x7c, virtual false, abstract: false, final false
   inline void Init(::StringW scene, ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> sceneSetupData);
 
-  /// @brief Method InstallBindings, addr 0x31deb80, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x320f54c, size 0x148, virtual false, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::ScenesTransitionSetupDataSO* New_ctor();
@@ -67,13 +67,13 @@ public:
 
   constexpr void __cordl_internal_set__scenes_k__BackingField(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x31e1868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3212244, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_scenes, addr 0x31e1898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scenes, addr 0x3212274, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_scenes();
 
-  /// @brief Method set_scenes, addr 0x31e18a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scenes, addr 0x321227c, size 0x8, virtual false, abstract: false, final false
   inline void set_scenes(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
 protected:
@@ -91,7 +91,7 @@ public:
   ScenesTransitionSetupDataSO(ScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21371 };
 
   /// @brief Field <scenes>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ____scenes_k__BackingField;

@@ -27,7 +27,7 @@ public:
   /// @brief Field BreakReasonMessages, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_BreakReasonMessages, put = setStaticF_BreakReasonMessages)) ::ArrayW<::StringW, ::Array<::StringW>*> BreakReasonMessages;
 
-  /// @brief Method .ctor, addr 0x65db710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x664329c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason reason, int32_t breakPass);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_BreakReasonMessages();
@@ -43,7 +43,7 @@ public:
   constexpr PassBreakAudit(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakReason reason, int32_t breakPass) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12469 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12473 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

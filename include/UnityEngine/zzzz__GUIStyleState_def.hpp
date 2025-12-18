@@ -35,7 +35,7 @@ namespace UnityEngine {
 class CORDL_TYPE GUIStyleState_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x69152a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x697e128, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::GUIStyleState* guiStyleState);
 
 protected:
@@ -53,7 +53,7 @@ public:
   GUIStyleState_BindingsMarshaller(GUIStyleState_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19603 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -78,19 +78,19 @@ public:
 
   __declspec(property(put = set_textColor)) ::UnityEngine::Color textColor;
 
-  /// @brief Method Cleanup, addr 0x6915120, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x697dfa4, size 0x50, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Cleanup_Injected, addr 0x6915170, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup_Injected, addr 0x697dff4, size 0x3c, virtual false, abstract: false, final false
   static inline void Cleanup_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method Finalize, addr 0x6915250, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x697e0d4, size 0x54, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetGUIStyleState, addr 0x69151f4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetGUIStyleState, addr 0x697e078, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUIStyleState* GetGUIStyleState(::UnityEngine::GUIStyle* sourceStyle, ::System::IntPtr source);
 
-  /// @brief Method Init, addr 0x69150f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x697df7c, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Init();
 
   static inline ::UnityEngine::GUIStyleState* New_ctor();
@@ -109,16 +109,16 @@ public:
 
   constexpr void __cordl_internal_set_m_SourceStyle(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method .ctor, addr 0x69151ac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x697e030, size 0x40, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x69151ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x697e070, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GUIStyle* sourceStyle, ::System::IntPtr source);
 
-  /// @brief Method set_textColor, addr 0x6914c70, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_textColor, addr 0x697daf4, size 0x68, virtual false, abstract: false, final false
   inline void set_textColor(::UnityEngine::Color value);
 
-  /// @brief Method set_textColor_Injected, addr 0x69150b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_textColor_Injected, addr 0x697df38, size 0x44, virtual false, abstract: false, final false
   static inline void set_textColor_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Color> value);
 
 protected:
@@ -136,7 +136,7 @@ public:
   GUIStyleState(GUIStyleState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19604 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

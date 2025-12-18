@@ -107,7 +107,7 @@ public:
   RemoteProcedureCall_3(RemoteProcedureCall_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18216 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18231 };
 
   /// @brief Field _value0, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T0>* ____value0;

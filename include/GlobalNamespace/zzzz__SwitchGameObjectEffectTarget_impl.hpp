@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SwitchGameObjectEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::SwitchGameObjectEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x577ce64;
+  constexpr static std::size_t addrs = 0x57e370c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SwitchGameObjectEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::SwitchGameObjectEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x577cf40;
+  constexpr static std::size_t addrs = 0x57e37e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SwitchGameObjectEffectTarget::*)(float_t)>(
     &::GlobalNamespace::SwitchGameObjectEffectTarget::SetFloat)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x577ce68;
+  constexpr static std::size_t addrs = 0x57e3710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SwitchGameObjectEffectTarget::*)()>(
     &::GlobalNamespace::SwitchGameObjectEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x577cf44;
+  constexpr static std::size_t addrs = 0x57e37ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SwitchGameObjectEffectTarget*>::get(), ".ctor",

@@ -38,7 +38,7 @@ public:
   /// @brief Convert operator to "::System::Xml::IXmlDictionary"
   constexpr operator ::System::Xml::IXmlDictionary*() noexcept;
 
-  /// @brief Method TryLookup, addr 0x5ef9760, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method TryLookup, addr 0x5f612ec, size 0xb8, virtual true, abstract: false, final true
   inline bool TryLookup(int32_t key, ::ByRef<::System::Xml::XmlDictionaryString*> result);
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Xml::XmlDictionaryString*>* const& __cordl_internal_get_stringDict() const;
@@ -71,7 +71,7 @@ public:
   XmlBinaryReaderSession(XmlBinaryReaderSession const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16925 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16939 };
 
   /// @brief Field strings, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Xml::XmlDictionaryString*, ::Array<::System::Xml::XmlDictionaryString*>*> ___strings;

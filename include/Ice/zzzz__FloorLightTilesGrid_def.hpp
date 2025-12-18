@@ -62,19 +62,19 @@ public:
 
   __declspec(property(get = get_ySize)) int32_t ySize;
 
-  /// @brief Method DespawnAll, addr 0x318d10c, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method DespawnAll, addr 0x31bcf88, size 0xd4, virtual true, abstract: false, final false
   inline void DespawnAll();
 
-  /// @brief Method DespawnTile, addr 0x318d1e0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method DespawnTile, addr 0x31bd05c, size 0x6c, virtual false, abstract: false, final false
   inline void DespawnTile(::Ice::FloorLightTile* floorLightTile);
 
-  /// @brief Method HandleFloorLightTileDidFinish, addr 0x318d24c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleFloorLightTileDidFinish, addr 0x31bd0c8, size 0x4, virtual false, abstract: false, final false
   inline void HandleFloorLightTileDidFinish(::Ice::FloorLightTile* floorLightTile);
 
-  /// @brief Method HighlightTile, addr 0x318c75c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method HighlightTile, addr 0x31bc5d8, size 0x1c4, virtual false, abstract: false, final false
   inline void HighlightTile(int32_t x, int32_t y, float_t fadeInDuration, float_t fadeOutDuration, ::UnityEngine::Color color);
 
-  /// @brief Method Init, addr 0x318c1dc, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x31bc058, size 0x1a4, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 anchorPoint, int32_t xSize, int32_t ySize, float_t tileWidth, float_t tileHeight);
 
   static inline ::Ice::FloorLightTilesGrid* New_ctor();
@@ -127,10 +127,10 @@ public:
 
   constexpr void __cordl_internal_set__ySize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x318d250, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31bd0cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ySize, addr 0x318d104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ySize, addr 0x31bcf80, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ySize();
 
 protected:
@@ -148,7 +148,7 @@ public:
   FloorLightTilesGrid(FloorLightTilesGrid const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22856 };
 
   /// @brief Field _floorLightTileMemoryPool, offset: 0x20, size: 0x8, def value: None
   ::Ice::FloorLightTile_Pool* ____floorLightTileMemoryPool;

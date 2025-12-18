@@ -26,7 +26,7 @@ public:
   /// @brief Field next, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) ::MS::Internal::Xml::XPath::Axis* next;
 
-  /// @brief Method ConvertTree, addr 0x60fb2bc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ConvertTree, addr 0x6162e48, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::DoubleLinkAxis* ConvertTree(::MS::Internal::Xml::XPath::Axis* axis);
 
   static inline ::System::Xml::Schema::DoubleLinkAxis* New_ctor(::MS::Internal::Xml::XPath::Axis* axis, ::System::Xml::Schema::DoubleLinkAxis* inputaxis);
@@ -37,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set_next(::MS::Internal::Xml::XPath::Axis* value);
 
-  /// @brief Method .ctor, addr 0x60fb264, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6162df0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::Axis* axis, ::System::Xml::Schema::DoubleLinkAxis* inputaxis);
 
-  /// @brief Method get_Next, addr 0x60fb254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Next, addr 0x6162de0, size 0x8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::Axis* get_Next();
 
-  /// @brief Method set_Next, addr 0x60fb25c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Next, addr 0x6162de8, size 0x8, virtual false, abstract: false, final false
   inline void set_Next(::MS::Internal::Xml::XPath::Axis* value);
 
 protected:
@@ -61,7 +61,7 @@ public:
   DoubleLinkAxis(DoubleLinkAxis const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9542 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9546 };
 
   /// @brief Field next, offset: 0x40, size: 0x8, def value: None
   ::MS::Internal::Xml::XPath::Axis* ___next;

@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_Filepath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5bd8c08, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c3f6e8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -61,7 +61,7 @@ public:
   AssetFileDownloadResult(AssetFileDownloadResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17977 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17991 };
 
   /// @brief Field AssetId, offset: 0x10, size: 0x8, def value: None
   uint64_t ___AssetId;

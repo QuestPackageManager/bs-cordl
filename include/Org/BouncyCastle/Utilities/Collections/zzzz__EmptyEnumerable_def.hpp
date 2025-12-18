@@ -30,12 +30,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0x3501538, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x352bd7c, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3501534, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x352bd78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IEnumerable* getStaticF_Instance();

@@ -23,12 +23,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE Vector4Parameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Vector4> {
 public:
   // Declarations
-  /// @brief Method Interp, addr 0x65ae9c8, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Interp, addr 0x6616554, size 0x30, virtual true, abstract: false, final false
   inline void Interp(::UnityEngine::Vector4 from, ::UnityEngine::Vector4 to, float_t t);
 
   static inline ::UnityEngine::Rendering::Vector4Parameter* New_ctor(::UnityEngine::Vector4 value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x65ae944, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66164d0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector4 value, bool overrideState);
 
 protected:
@@ -46,7 +46,7 @@ public:
   Vector4Parameter(Vector4Parameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12336 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

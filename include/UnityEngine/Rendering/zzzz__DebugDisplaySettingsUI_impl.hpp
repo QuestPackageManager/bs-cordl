@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsUI___c__DisplayClass3_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsUI___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x653d454;
+  constexpr static std::size_t addrs = 0x65a4fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsUI___c__DisplayClass3_0::*)(
     ::UnityEngine::Rendering::IDebugDisplaySettingsData*)>(&::UnityEngine::Rendering::DebugDisplaySettingsUI___c__DisplayClass3_0::_RegisterDebug_b__0)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x653d830;
+  constexpr static std::size_t addrs = 0x65a53bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsUI::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsUI::Reset)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x653cb94;
+  constexpr static std::size_t addrs = 0x65a4720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplaySettingsUI*>::get(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsUI::*)(::UnityEngine::Rendering::IDebugDisplaySettings*)>(
     &::UnityEngine::Rendering::DebugDisplaySettingsUI::RegisterDebug)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x653d14c;
+  constexpr static std::size_t addrs = 0x65a4cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsUI::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsUI::UnregisterDebug)> {
   constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0x653cc88;
+  constexpr static std::size_t addrs = 0x65a4814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplaySettingsUI*>::get(),
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action* (::UnityEngine::Rendering::DebugDisplaySettingsUI::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsUI::GetReset)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x653d7b0;
+  constexpr static std::size_t addrs = 0x65a533c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplaySettingsUI*>::get(),
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsUI::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsUI::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x653d82c;
+  constexpr static std::size_t addrs = 0x65a53b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugDisplaySettingsUI*>::get(),

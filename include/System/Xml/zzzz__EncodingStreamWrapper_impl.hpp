@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::EncodingStreamWrapper::*)(::System::IO::Stream*, ::System::Text::Encoding*)>(
     &::System::Xml::EncodingStreamWrapper::_ctor)> {
   constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x5ee31a8;
+  constexpr static std::size_t addrs = 0x5f4ad34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::EncodingStreamWrapper::*)(::System::Xml::EncodingStreamWrapper_SupportedEncoding)>(
     &::System::Xml::EncodingStreamWrapper::SetReadDocumentEncoding)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5ee4190;
+  constexpr static std::size_t addrs = 0x5f4bd1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)(::System::Xml::EncodingStreamWrapper_SupportedEncoding)>(
     &::System::Xml::EncodingStreamWrapper::GetEncoding)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5ee43b8;
+  constexpr static std::size_t addrs = 0x5f4bf44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Xml::EncodingStreamWrapper_SupportedEncoding)>(
     &::System::Xml::EncodingStreamWrapper::GetEncodingName)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5ee44c0;
+  constexpr static std::size_t addrs = 0x5f4c04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::EncodingStreamWrapper_SupportedEncoding (*)(::System::Text::Encoding*)>(
     &::System::Xml::EncodingStreamWrapper::GetSupportedEncoding)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x5ee3608;
+  constexpr static std::size_t addrs = 0x5f4b194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::EncodingStreamWrapper::*)(::System::IO::Stream*, ::System::Text::Encoding*, bool)>(
     &::System::Xml::EncodingStreamWrapper::_ctor)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5ee4588;
+  constexpr static std::size_t addrs = 0x5f4c114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::EncodingStreamWrapper_SupportedEncoding (::System::Xml::EncodingStreamWrapper::*)(bool)>(
     &::System::Xml::EncodingStreamWrapper::ReadBOMEncoding)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x5ee37b4;
+  constexpr static std::size_t addrs = 0x5f4b340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::EncodingStreamWrapper_SupportedEncoding (*)(uint8_t, uint8_t, uint8_t, uint8_t, bool, ::ByRef<int32_t>)>(&::System::Xml::EncodingStreamWrapper::ReadBOMEncoding)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5ee4768;
+  constexpr static std::size_t addrs = 0x5f4c2f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::EncodingStreamWrapper::*)(int32_t)>(&::System::Xml::EncodingStreamWrapper::FillBuffer)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5ee3acc;
+  constexpr static std::size_t addrs = 0x5f4b658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::EncodingStreamWrapper::*)()>(&::System::Xml::EncodingStreamWrapper::EnsureBuffers)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5ee412c;
+  constexpr static std::size_t addrs = 0x5f4bcb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::EncodingStreamWrapper*>::get(), "EnsureBuffers",
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::EncodingStreamWrapper::*)()>(&::System::Xml::EncodingStreamWrapper::EnsureByteBuffer)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5ee48d8;
+  constexpr static std::size_t addrs = 0x5f4c464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::EncodingStreamWrapper*>::get(), "EnsureByteBuffer",
@@ -192,7 +192,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Xml::EncodingStreamWrapper_SupportedEncoding, ::System::Xml::EncodingStreamWrapper_SupportedEncoding)>(
         &::System::Xml::EncodingStreamWrapper::CheckUTF8DeclarationEncoding)> {
   constexpr static std::size_t size = 0x5f0;
-  constexpr static std::size_t addrs = 0x5ee3b3c;
+  constexpr static std::size_t addrs = 0x5f4b6c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::Xml::EncodingStreamWrapper::CompareCaseInsensitive)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5ee49dc;
+  constexpr static std::size_t addrs = 0x5f4c568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::Xml::EncodingStreamWrapper::Compare)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5ee4954;
+  constexpr static std::size_t addrs = 0x5f4c4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint8_t)>(&::System::Xml::EncodingStreamWrapper::IsWhitespace)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5ee4934;
+  constexpr static std::size_t addrs = 0x5f4c4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::System::Xml::EncodingStreamWrapper_SupportedEncoding, ::System::Xml::EncodingStreamWrapper_SupportedEncoding)>(&::System::Xml::EncodingStreamWrapper::ThrowExpectedEncodingMismatch)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5ee39e8;
+  constexpr static std::size_t addrs = 0x5f4b574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Xml::EncodingStreamWrapper_SupportedEncoding)>(
     &::System::Xml::EncodingStreamWrapper::ThrowEncodingMismatch)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5ee4bcc;
+  constexpr static std::size_t addrs = 0x5f4c758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&::System::Xml::EncodingStreamWrapper::ThrowEncodingMismatch)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5ee4b14;
+  constexpr static std::size_t addrs = 0x5f4c6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::EncodingStreamWrapper::*)()>(&::System::Xml::EncodingStreamWrapper::get_CanRead)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5ee4c30;
+  constexpr static std::size_t addrs = 0x5f4c7bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::EncodingStreamWrapper::*)()>(&::System::Xml::EncodingStreamWrapper::get_CanSeek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ee4c5c;
+  constexpr static std::size_t addrs = 0x5f4c7e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::EncodingStreamWrapper::*)()>(&::System::Xml::EncodingStreamWrapper::get_CanWrite)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5ee4c64;
+  constexpr static std::size_t addrs = 0x5f4c7f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -345,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::EncodingStreamWrapper::*)()>(&::System::Xml::EncodingStreamWrapper::get_Position)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5ee4c90;
+  constexpr static std::size_t addrs = 0x5f4c81c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -359,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::EncodingStreamWrapper::*)(int64_t)>(&::System::Xml::EncodingStreamWrapper::set_Position)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5ee4cc8;
+  constexpr static std::size_t addrs = 0x5f4c854;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::EncodingStreamWrapper::*)()>(&::System::Xml::EncodingStreamWrapper::Close)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5ee4d00;
+  constexpr static std::size_t addrs = 0x5f4c88c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -387,7 +387,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::EncodingStreamWrapper::*)()>(&::System::Xml::EncodingStreamWrapper::Flush)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5ee4d44;
+  constexpr static std::size_t addrs = 0x5f4c8d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -401,7 +401,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::EncodingStreamWrapper::*)()>(&::System::Xml::EncodingStreamWrapper::ReadByte)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5ee4d64;
+  constexpr static std::size_t addrs = 0x5f4c8f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::EncodingStreamWrapper::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::EncodingStreamWrapper::Read)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x5ee4de8;
+  constexpr static std::size_t addrs = 0x5f4c974;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -430,7 +430,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::EncodingStreamWrapper::*)()>(&::System::Xml::EncodingStreamWrapper::CleanupCharBreak)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x5ee4208;
+  constexpr static std::size_t addrs = 0x5f4bd94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::EncodingStreamWrapper*>::get(), "CleanupCharBreak",
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::EncodingStreamWrapper::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::System::Xml::EncodingStreamWrapper::Seek)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5ee5034;
+  constexpr static std::size_t addrs = 0x5f4cbc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::EncodingStreamWrapper::*)(uint8_t)>(&::System::Xml::EncodingStreamWrapper::WriteByte)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5ee506c;
+  constexpr static std::size_t addrs = 0x5f4cbf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -473,7 +473,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::EncodingStreamWrapper::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::EncodingStreamWrapper::Write)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5ee50d0;
+  constexpr static std::size_t addrs = 0x5f4cc5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -487,7 +487,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::EncodingStreamWrapper::*)()>(&::System::Xml::EncodingStreamWrapper::get_CanTimeout)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5ee51e4;
+  constexpr static std::size_t addrs = 0x5f4cd70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -501,7 +501,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::EncodingStreamWrapper::*)()>(&::System::Xml::EncodingStreamWrapper::get_Length)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5ee5200;
+  constexpr static std::size_t addrs = 0x5f4cd8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -515,7 +515,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::EncodingStreamWrapper::*)()>(&::System::Xml::EncodingStreamWrapper::get_ReadTimeout)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5ee521c;
+  constexpr static std::size_t addrs = 0x5f4cda8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -529,7 +529,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::EncodingStreamWrapper::*)(int32_t)>(&::System::Xml::EncodingStreamWrapper::set_ReadTimeout)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5ee523c;
+  constexpr static std::size_t addrs = 0x5f4cdc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -543,7 +543,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::EncodingStreamWrapper::*)()>(&::System::Xml::EncodingStreamWrapper::get_WriteTimeout)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5ee525c;
+  constexpr static std::size_t addrs = 0x5f4cde8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -557,7 +557,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::EncodingStreamWrapper::*)(int32_t)>(&::System::Xml::EncodingStreamWrapper::set_WriteTimeout)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5ee527c;
+  constexpr static std::size_t addrs = 0x5f4ce08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -571,7 +571,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::EncodingStreamWrapper::*)(int64_t)>(&::System::Xml::EncodingStreamWrapper::SetLength)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5ee529c;
+  constexpr static std::size_t addrs = 0x5f4ce28;
 
   inline static ::MethodInfo const* methodInfo() {
 

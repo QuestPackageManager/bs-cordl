@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::IntegerTime::DiscreteTime::*)(float_t)>(&::Unity::IntegerTime::DiscreteTime::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6827d8c;
+  constexpr static std::size_t addrs = 0x688f904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::IntegerTime::DiscreteTime::*)(double_t)>(&::Unity::IntegerTime::DiscreteTime::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6827e80;
+  constexpr static std::size_t addrs = 0x688f9f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::IntegerTime::DiscreteTime::*)(int64_t, int32_t)>(&::Unity::IntegerTime::DiscreteTime::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6827f70;
+  constexpr static std::size_t addrs = 0x688fae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::IntegerTime::DiscreteTime (*)(int64_t)>(&::Unity::IntegerTime::DiscreteTime::FromTicks)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6827f78;
+  constexpr static std::size_t addrs = 0x688faf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::Unity::IntegerTime::DiscreteTime)>(&::Unity::IntegerTime::DiscreteTime::op_Explicit_float_t)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6827f7c;
+  constexpr static std::size_t addrs = 0x688faf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::Unity::IntegerTime::DiscreteTime)>(&::Unity::IntegerTime::DiscreteTime::op_Explicit_double_t)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6827f94;
+  constexpr static std::size_t addrs = 0x688fb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Unity::IntegerTime::DiscreteTime, ::Unity::IntegerTime::DiscreteTime)>(
     &::Unity::IntegerTime::DiscreteTime::op_Inequality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6827fa8;
+  constexpr static std::size_t addrs = 0x688fb20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Unity::IntegerTime::DiscreteTime, ::Unity::IntegerTime::DiscreteTime)>(
     &::Unity::IntegerTime::DiscreteTime::op_GreaterThan)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6827fb4;
+  constexpr static std::size_t addrs = 0x688fb2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Unity::IntegerTime::DiscreteTime, ::Unity::IntegerTime::DiscreteTime)>(
     &::Unity::IntegerTime::DiscreteTime::op_GreaterThanOrEqual)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6827fc0;
+  constexpr static std::size_t addrs = 0x688fb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::IntegerTime::DiscreteTime (*)(::Unity::IntegerTime::DiscreteTime, ::Unity::IntegerTime::DiscreteTime)>(
     &::Unity::IntegerTime::DiscreteTime::op_Addition)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6827fcc;
+  constexpr static std::size_t addrs = 0x688fb44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::IntegerTime::DiscreteTime (*)(::Unity::IntegerTime::DiscreteTime, ::Unity::IntegerTime::DiscreteTime)>(
     &::Unity::IntegerTime::DiscreteTime::op_Subtraction)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6828030;
+  constexpr static std::size_t addrs = 0x688fba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::IntegerTime::DiscreteTime::*)(::Unity::IntegerTime::DiscreteTime)>(
     &::Unity::IntegerTime::DiscreteTime::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6828094;
+  constexpr static std::size_t addrs = 0x688fc0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::IntegerTime::DiscreteTime::*)(::System::Object*)>(&::Unity::IntegerTime::DiscreteTime::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x68280a4;
+  constexpr static std::size_t addrs = 0x688fc1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::IntegerTime::DiscreteTime::*)()>(&::Unity::IntegerTime::DiscreteTime::GetHashCode)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6828140;
+  constexpr static std::size_t addrs = 0x688fcb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::IntegerTime::DiscreteTime::*)()>(&::Unity::IntegerTime::DiscreteTime::ToString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x682814c;
+  constexpr static std::size_t addrs = 0x688fcc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::IntegerTime::DiscreteTime::*)(::StringW, ::System::IFormatProvider*)>(
     &::Unity::IntegerTime::DiscreteTime::ToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x68281cc;
+  constexpr static std::size_t addrs = 0x688fd44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::IntegerTime::DiscreteTime::*)(::Unity::IntegerTime::DiscreteTime)>(
     &::Unity::IntegerTime::DiscreteTime::CompareTo)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6828264;
+  constexpr static std::size_t addrs = 0x688fddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

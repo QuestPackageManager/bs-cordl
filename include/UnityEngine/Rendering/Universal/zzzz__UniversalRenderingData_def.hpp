@@ -65,7 +65,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderingData* New_ctor();
 
-  /// @brief Method Reset, addr 0x6656df0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x66be97c, size 0x1c, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__opaqueLayerMask_k__BackingField() const;
@@ -110,28 +110,28 @@ public:
 
   constexpr void __cordl_internal_set_supportsDynamicBatching(bool value);
 
-  /// @brief Method .ctor, addr 0x6656e0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66be998, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandBuffer, addr 0x6656d3c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_commandBuffer, addr 0x66be8c8, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* get_commandBuffer();
 
-  /// @brief Method get_opaqueLayerMask, addr 0x6656dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_opaqueLayerMask, addr 0x66be95c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_opaqueLayerMask();
 
-  /// @brief Method get_renderingMode, addr 0x6656dc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderingMode, addr 0x66be94c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::RenderingMode get_renderingMode();
 
-  /// @brief Method get_transparentLayerMask, addr 0x6656de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transparentLayerMask, addr 0x66be96c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_transparentLayerMask();
 
-  /// @brief Method set_opaqueLayerMask, addr 0x6656dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_opaqueLayerMask, addr 0x66be964, size 0x8, virtual false, abstract: false, final false
   inline void set_opaqueLayerMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_renderingMode, addr 0x6656dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderingMode, addr 0x66be954, size 0x8, virtual false, abstract: false, final false
   inline void set_renderingMode(::UnityEngine::Rendering::Universal::RenderingMode value);
 
-  /// @brief Method set_transparentLayerMask, addr 0x6656de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_transparentLayerMask, addr 0x66be974, size 0x8, virtual false, abstract: false, final false
   inline void set_transparentLayerMask(::UnityEngine::LayerMask value);
 
 protected:
@@ -149,7 +149,7 @@ public:
   UniversalRenderingData(UniversalRenderingData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12726 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12730 };
 
   /// @brief Field m_CommandBuffer, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::CommandBuffer* ___m_CommandBuffer;

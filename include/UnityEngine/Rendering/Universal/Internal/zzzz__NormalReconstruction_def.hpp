@@ -41,16 +41,16 @@ public:
   /// @brief Field s_NormalReconstructionMatrixID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_NormalReconstructionMatrixID, put = setStaticF_s_NormalReconstructionMatrixID)) int32_t s_NormalReconstructionMatrixID;
 
-  /// @brief Method SetupProperties, addr 0x66d8380, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x673ff0c, size 0xa4, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd, ::ByRef<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-  /// @brief Method SetupProperties, addr 0x66d872c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x67402b8, size 0xa8, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method SetupProperties, addr 0x66d8424, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x673ffb0, size 0x90, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::ByRef<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-  /// @brief Method SetupProperties, addr 0x66d84b4, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x6740040, size 0x278, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::ByRef<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData);
 
   static inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> getStaticF_s_NormalReconstructionMatrix();
@@ -76,7 +76,7 @@ public:
   NormalReconstruction(NormalReconstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13038 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13042 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

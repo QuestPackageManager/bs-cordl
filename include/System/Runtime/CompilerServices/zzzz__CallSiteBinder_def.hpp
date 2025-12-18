@@ -106,7 +106,7 @@ public:
   CallSiteBinder_LambdaSignature_1(CallSiteBinder_LambdaSignature_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16582 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16596 };
 
   /// @brief Field Parameters, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* ___Parameters;
@@ -163,12 +163,12 @@ public:
 
   constexpr void __cordl_internal_set_Cache(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x5da5064, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e0cbf0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::LabelTarget* getStaticF__UpdateLabel_k__BackingField();
 
-  /// @brief Method get_UpdateLabel, addr 0x5da5068, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_UpdateLabel, addr 0x5e0cbf4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LabelTarget* get_UpdateLabel();
 
   static inline void setStaticF__UpdateLabel_k__BackingField(::System::Linq::Expressions::LabelTarget* value);
@@ -188,7 +188,7 @@ public:
   CallSiteBinder(CallSiteBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16583 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16597 };
 
   /// @brief Field Cache, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* ___Cache;

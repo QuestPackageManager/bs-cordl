@@ -164,7 +164,7 @@ public:
   LocalStateBuffer_3(LocalStateBuffer_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18251 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18266 };
 
   /// @brief Field kMaxSentDeltas offset 0xffffffff size 0x4
   static constexpr int32_t kMaxSentDeltas{ static_cast<int32_t>(0x4) };

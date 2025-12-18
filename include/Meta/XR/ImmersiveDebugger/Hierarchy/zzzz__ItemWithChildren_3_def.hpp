@@ -83,7 +83,7 @@ public:
   ItemWithChildren_3(ItemWithChildren_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18434 };
 
   /// @brief Field _children, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<ChildType>* ____children;

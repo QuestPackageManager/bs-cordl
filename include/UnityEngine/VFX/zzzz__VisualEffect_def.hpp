@@ -42,13 +42,13 @@ public:
 
   __declspec(property(get = get_visualEffectAsset)) ::UnityW<::UnityEngine::VFX::VisualEffectAsset> visualEffectAsset;
 
-  /// @brief Method CreateVFXEventAttribute, addr 0x6bf80d8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateVFXEventAttribute, addr 0x6c60f5c, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::VFX::VFXEventAttribute* CreateVFXEventAttribute();
 
-  /// @brief Method InvokeGetCachedEventAttributeForOutputEvent_Internal, addr 0x6bf8168, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetCachedEventAttributeForOutputEvent_Internal, addr 0x6c60fec, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::VFX::VFXEventAttribute* InvokeGetCachedEventAttributeForOutputEvent_Internal(::UnityEngine::VFX::VisualEffect* source);
 
-  /// @brief Method InvokeOutputEventReceived_Internal, addr 0x6bf81a4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method InvokeOutputEventReceived_Internal, addr 0x6c61028, size 0x34, virtual false, abstract: false, final false
   static inline void InvokeOutputEventReceived_Internal(::UnityEngine::VFX::VisualEffect* source, int32_t eventNameId);
 
   constexpr ::UnityEngine::VFX::VFXEventAttribute* const& __cordl_internal_get_m_cachedEventAttribute() const;
@@ -63,10 +63,10 @@ public:
 
   constexpr void __cordl_internal_set_outputEventReceived(::System::Action_1<::UnityEngine::VFX::VFXOutputEventArgs>* value);
 
-  /// @brief Method get_visualEffectAsset, addr 0x6bf7f4c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_visualEffectAsset, addr 0x6c60dd0, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::VFX::VisualEffectAsset> get_visualEffectAsset();
 
-  /// @brief Method get_visualEffectAsset_Injected, addr 0x6bf809c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_visualEffectAsset_Injected, addr 0x6c60f20, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_visualEffectAsset_Injected(::System::IntPtr _unity_self);
 
 protected:
@@ -84,7 +84,7 @@ public:
   VisualEffect(VisualEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22618 };
 
   /// @brief Field m_cachedEventAttribute, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::VFX::VFXEventAttribute* ___m_cachedEventAttribute;

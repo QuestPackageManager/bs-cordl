@@ -23,13 +23,13 @@ public:
 
   static inline ::UnityEngine::InputSystem::Sensor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x63477dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63af368, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_samplingFrequency, addr 0x6347630, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_samplingFrequency, addr 0x63af1bc, size 0x108, virtual false, abstract: false, final false
   inline float_t get_samplingFrequency();
 
-  /// @brief Method set_samplingFrequency, addr 0x6347738, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method set_samplingFrequency, addr 0x63af2c4, size 0xa4, virtual false, abstract: false, final false
   inline void set_samplingFrequency(float_t value);
 
 protected:
@@ -47,7 +47,7 @@ public:
   Sensor(Sensor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8739 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

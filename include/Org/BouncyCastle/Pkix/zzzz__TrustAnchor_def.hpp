@@ -67,7 +67,7 @@ public:
 
   static inline ::Org::BouncyCastle::Pkix::TrustAnchor* New_ctor(::Org::BouncyCastle::X509::X509Certificate* trustedCert, ::ArrayW<uint8_t, ::Array<uint8_t>*> nameConstraints);
 
-  /// @brief Method ToString, addr 0x34c90a0, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x34f38e4, size 0x218, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_caName() const;
@@ -106,31 +106,31 @@ public:
 
   constexpr void __cordl_internal_set_trustedCert(::Org::BouncyCastle::X509::X509Certificate* value);
 
-  /// @brief Method .ctor, addr 0x34c8eec, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34f3730, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::StringW caName, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> nameConstraints);
 
-  /// @brief Method .ctor, addr 0x34c8e34, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34f3678, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* caPrincipal, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> nameConstraints);
 
-  /// @brief Method .ctor, addr 0x34c8d18, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34f355c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* trustedCert, ::ArrayW<uint8_t, ::Array<uint8_t>*> nameConstraints);
 
-  /// @brief Method get_CA, addr 0x34c9028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CA, addr 0x34f386c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_CA();
 
-  /// @brief Method get_CAName, addr 0x34c9030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CAName, addr 0x34f3874, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CAName();
 
-  /// @brief Method get_CAPublicKey, addr 0x34c9038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CAPublicKey, addr 0x34f387c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_CAPublicKey();
 
-  /// @brief Method get_GetNameConstraints, addr 0x34c9040, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_GetNameConstraints, addr 0x34f3884, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_GetNameConstraints();
 
-  /// @brief Method get_TrustedCert, addr 0x34c9020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TrustedCert, addr 0x34f3864, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* get_TrustedCert();
 
-  /// @brief Method setNameConstraints, addr 0x34c8d78, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method setNameConstraints, addr 0x34f35bc, size 0xbc, virtual false, abstract: false, final false
   inline void setNameConstraints(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
 protected:

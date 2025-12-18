@@ -50,10 +50,10 @@ public:
   /// @brief Field _updateNoticeLocalizationKey, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__updateNoticeLocalizationKey, put = __cordl_internal_set__updateNoticeLocalizationKey)) ::StringW _updateNoticeLocalizationKey;
 
-  /// @brief Method DidActivate, addr 0x56d8e60, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x57351c8, size 0x234, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method Init, addr 0x56d9094, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x57353fc, size 0xc, virtual false, abstract: false, final false
   inline void Init(bool showUpdate, bool showIAcceptPrompt);
 
   static inline ::GlobalNamespace::PrivacyPolicyViewController* New_ctor();
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set__updateNoticeLocalizationKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x56d90a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5735408, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,7 +118,7 @@ public:
   PrivacyPolicyViewController(PrivacyPolicyViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6521 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6514 };
 
   /// @brief Field _okButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____okButton;

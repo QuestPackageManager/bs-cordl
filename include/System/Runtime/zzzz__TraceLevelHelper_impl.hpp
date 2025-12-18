@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::TraceEventType (*)(::System::Runtime::TraceEventLevel)>(
     &::System::Runtime::TraceLevelHelper::GetTraceEventType)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f6b2ec;
+  constexpr static std::size_t addrs = 0x5fd2e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Runtime::TraceEventLevel, ::System::Runtime::TraceEventOpcode)>(
     &::System::Runtime::TraceLevelHelper::LookupSeverity)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x5f6b36c;
+  constexpr static std::size_t addrs = 0x5fd2ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -37,37 +37,37 @@ namespace Unity::IO::LowLevel::Unsafe {
 class CORDL_TYPE AsyncReadManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CloseFileAsync, addr 0x682a68c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CloseFileAsync, addr 0x6892204, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle CloseFileAsync(::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle, ::Unity::Jobs::JobHandle dependency);
 
-  /// @brief Method CloseFileAsync_Injected, addr 0x682b24c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CloseFileAsync_Injected, addr 0x6892dc4, size 0x54, virtual false, abstract: false, final false
   static inline void CloseFileAsync_Injected(::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle, ::ByRef<::Unity::Jobs::JobHandle> dependency, ::ByRef<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method GetFileInfo, addr 0x682aec8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetFileInfo, addr 0x6892a40, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::IO::LowLevel::Unsafe::ReadHandle GetFileInfo(::StringW filename, ::Unity::IO::LowLevel::Unsafe::FileInfoResult* result);
 
-  /// @brief Method GetFileInfoInternal, addr 0x682ad30, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetFileInfoInternal, addr 0x68928a8, size 0x144, virtual false, abstract: false, final false
   static inline ::Unity::IO::LowLevel::Unsafe::ReadHandle GetFileInfoInternal(::StringW filename, void* cmd);
 
-  /// @brief Method GetFileInfoInternal_Injected, addr 0x682ae74, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetFileInfoInternal_Injected, addr 0x68929ec, size 0x54, virtual false, abstract: false, final false
   static inline void GetFileInfoInternal_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> filename, void* cmd, ::ByRef<::Unity::IO::LowLevel::Unsafe::ReadHandle> ret);
 
-  /// @brief Method OpenFileAsync, addr 0x682b1e8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OpenFileAsync, addr 0x6892d60, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::IO::LowLevel::Unsafe::FileHandle OpenFileAsync(::StringW fileName);
 
-  /// @brief Method OpenFileAsync_Internal, addr 0x682b070, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method OpenFileAsync_Internal, addr 0x6892be8, size 0x134, virtual false, abstract: false, final false
   static inline ::Unity::IO::LowLevel::Unsafe::FileHandle OpenFileAsync_Internal(::StringW fileName);
 
-  /// @brief Method OpenFileAsync_Internal_Injected, addr 0x682b1a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OpenFileAsync_Internal_Injected, addr 0x6892d1c, size 0x44, virtual false, abstract: false, final false
   static inline void OpenFileAsync_Internal_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> fileName, ::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle> ret);
 
-  /// @brief Method Read, addr 0x682afcc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x6892b44, size 0xa4, virtual false, abstract: false, final false
   static inline ::Unity::IO::LowLevel::Unsafe::ReadHandle Read(::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle, ::Unity::IO::LowLevel::Unsafe::ReadCommandArray readCmdArray);
 
-  /// @brief Method ReadWithHandlesInternal_NativeCopy, addr 0x682af1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadWithHandlesInternal_NativeCopy, addr 0x6892a94, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::IO::LowLevel::Unsafe::ReadHandle ReadWithHandlesInternal_NativeCopy(::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle, void* readCmdArray);
 
-  /// @brief Method ReadWithHandlesInternal_NativeCopy_Injected, addr 0x682af78, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReadWithHandlesInternal_NativeCopy_Injected, addr 0x6892af0, size 0x54, virtual false, abstract: false, final false
   static inline void ReadWithHandlesInternal_NativeCopy_Injected(::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle> fileHandle, void* readCmdArray,
                                                                  ::ByRef<::Unity::IO::LowLevel::Unsafe::ReadHandle> ret);
 
@@ -86,7 +86,7 @@ public:
   AsyncReadManager(AsyncReadManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9951 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

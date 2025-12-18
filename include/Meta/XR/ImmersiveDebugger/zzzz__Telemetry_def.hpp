@@ -117,7 +117,7 @@ public:
   static constexpr int32_t Run{ static_cast<int32_t>(0x9b81f98) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18288 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18303 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -168,7 +168,7 @@ public:
   static ::Meta::XR::ImmersiveDebugger::Telemetry_State const OnStart;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18289 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18304 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -227,7 +227,7 @@ public:
   static ::Meta::XR::ImmersiveDebugger::Telemetry_Method const Hierarchy;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18290 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18305 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -307,7 +307,7 @@ public:
   static constexpr ::ConstString Watches{ u"Watches" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18291 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18306 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -335,7 +335,7 @@ public:
   /// @brief Field _runTelemetryMarker, offset 0x28, size 0x18
   __declspec(property(get = __cordl_internal_get__runTelemetryMarker, put = __cordl_internal_set__runTelemetryMarker)) ::GlobalNamespace::OVRTelemetryMarker _runTelemetryMarker;
 
-  /// @brief Method Init, addr 0x582db98, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x58942fc, size 0x128, virtual false, abstract: false, final false
   static inline ::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker* Init(::Meta::XR::ImmersiveDebugger::Telemetry_Method method,
                                                                                 ::System::Collections::Generic::IEnumerable_1<::Meta::XR::ImmersiveDebugger::Manager::IDebugManager*>* managers,
                                                                                 ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache* cache,
@@ -345,19 +345,19 @@ public:
                                                                                     ::System::Collections::Generic::IEnumerable_1<::Meta::XR::ImmersiveDebugger::Manager::IDebugManager*>* managers,
                                                                                     ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache* cache);
 
-  /// @brief Method OnDisable, addr 0x582e8c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5895028, size 0x8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnFocusLost, addr 0x582e8bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnFocusLost, addr 0x5895020, size 0x8, virtual false, abstract: false, final false
   inline void OnFocusLost();
 
-  /// @brief Method OnStart, addr 0x582de74, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnStart, addr 0x58945d8, size 0x30, virtual false, abstract: false, final false
   inline void OnStart();
 
-  /// @brief Method SendComponentTracked, addr 0x582dec8, size 0x9f4, virtual false, abstract: false, final false
+  /// @brief Method SendComponentTracked, addr 0x589462c, size 0x9f4, virtual false, abstract: false, final false
   inline void SendComponentTracked(::Meta::XR::ImmersiveDebugger::Telemetry_State state);
 
-  /// @brief Method SendStart, addr 0x582dea4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SendStart, addr 0x5894608, size 0x24, virtual false, abstract: false, final false
   inline void SendStart();
 
   constexpr ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache* const& __cordl_internal_get__cache() const;
@@ -384,7 +384,7 @@ public:
 
   constexpr void __cordl_internal_set__runTelemetryMarker(::GlobalNamespace::OVRTelemetryMarker value);
 
-  /// @brief Method .ctor, addr 0x582dcc0, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5894424, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(::Meta::XR::ImmersiveDebugger::Telemetry_Method method, ::System::Collections::Generic::IEnumerable_1<::Meta::XR::ImmersiveDebugger::Manager::IDebugManager*>* managers,
                     ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache* cache);
 
@@ -403,7 +403,7 @@ public:
   Telemetry_TelemetryTracker(Telemetry_TelemetryTracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18292 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18307 };
 
   /// @brief Field _method, offset: 0x10, size: 0x4, def value: None
   ::Meta::XR::ImmersiveDebugger::Telemetry_Method ____method;
@@ -451,19 +451,19 @@ public:
   /// @brief Field NonCustomAssemblies, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_NonCustomAssemblies, put = setStaticF_NonCustomAssemblies)) ::System::Collections::Generic::List_1<::StringW>* NonCustomAssemblies;
 
-  /// @brief Method FetchPanel, addr 0x582d904, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method FetchPanel, addr 0x5894068, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel> FetchPanel(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* controller);
 
-  /// @brief Method GetTypeHash, addr 0x582d290, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetTypeHash, addr 0x58939f4, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW GetTypeHash(::System::Type* type);
 
-  /// @brief Method IsTypeCustom, addr 0x582d2f8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method IsTypeCustom, addr 0x5893a5c, size 0x18c, virtual false, abstract: false, final false
   static inline bool IsTypeCustom(::System::Type* type);
 
-  /// @brief Method OnButtonClicked, addr 0x582d650, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method OnButtonClicked, addr 0x5893db4, size 0x2b4, virtual false, abstract: false, final false
   static inline void OnButtonClicked(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Button* button);
 
-  /// @brief Method OnPanelActiveStateChanged, addr 0x582d484, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method OnPanelActiveStateChanged, addr 0x5893be8, size 0x1cc, virtual false, abstract: false, final false
   static inline void OnPanelActiveStateChanged(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel* panel);
 
   static inline ::System::Collections::Generic::List_1<::StringW>* getStaticF_NonCustomAssemblies();
@@ -485,7 +485,7 @@ public:
   Telemetry(Telemetry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18308 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

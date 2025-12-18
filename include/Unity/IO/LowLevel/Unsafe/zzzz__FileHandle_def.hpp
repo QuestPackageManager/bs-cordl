@@ -25,22 +25,22 @@ public:
   // Declarations
   __declspec(property(get = get_JobHandle)) ::Unity::Jobs::JobHandle JobHandle;
 
-  /// @brief Method Close, addr 0x682a5e4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x689215c, size 0xa8, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle Close(::Unity::Jobs::JobHandle dependency);
 
-  /// @brief Method GetJobHandle_Internal, addr 0x682a554, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetJobHandle_Internal, addr 0x68920cc, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle GetJobHandle_Internal(::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle> handle);
 
-  /// @brief Method GetJobHandle_Internal_Injected, addr 0x682a6e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetJobHandle_Internal_Injected, addr 0x6892260, size 0x44, virtual false, abstract: false, final false
   static inline void GetJobHandle_Internal_Injected(::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle> handle, ::ByRef<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method IsFileHandleValid, addr 0x682a518, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsFileHandleValid, addr 0x6892090, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsFileHandleValid(::ByRef<::Unity::IO::LowLevel::Unsafe::FileHandle> handle);
 
-  /// @brief Method IsValid, addr 0x682a5a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6892120, size 0x3c, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method get_JobHandle, addr 0x682a488, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_JobHandle, addr 0x6892000, size 0x90, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle get_JobHandle();
 
   // Ctor Parameters []
@@ -51,7 +51,7 @@ public:
   constexpr FileHandle(::System::IntPtr fileCommandPtr, int32_t version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9949 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

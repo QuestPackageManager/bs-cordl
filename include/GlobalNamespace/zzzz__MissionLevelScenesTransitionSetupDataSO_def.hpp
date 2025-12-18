@@ -61,10 +61,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE MissionLevelScenesTransitionSetupDataSO : public ::GlobalNamespace::LevelScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Field <missionId>k__BackingField, offset 0x40, size 0x8
+  /// @brief Field <missionId>k__BackingField, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__missionId_k__BackingField, put = __cordl_internal_set__missionId_k__BackingField)) ::StringW _missionId_k__BackingField;
 
-  /// @brief Field didFinishEvent, offset 0x38, size 0x8
+  /// @brief Field didFinishEvent, offset 0x40, size 0x8
   __declspec(property(
       get = __cordl_internal_get_didFinishEvent,
       put =
@@ -72,10 +72,10 @@ public:
 
   __declspec(property(get = get_missionId, put = set_missionId)) ::StringW missionId;
 
-  /// @brief Method Finish, addr 0x5721cdc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x577fcd4, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::MissionCompletionResults* levelCompletionResults);
 
-  /// @brief Method Init, addr 0x571bfc0, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5779dd0, size 0x458, virtual false, abstract: false, final false
   inline void Init(::StringW missionId, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                    ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives, ::GlobalNamespace::ColorScheme* playerOverrideColorScheme,
                    bool playerOverrideLightshowColors, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
@@ -97,19 +97,19 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method .ctor, addr 0x5721d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x577fcfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x571f53c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x577d184, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method get_missionId, addr 0x5721ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionId, addr 0x577fcc4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionId();
 
-  /// @brief Method remove_didFinishEvent, addr 0x571fa38, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x577d680, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method set_missionId, addr 0x5721cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missionId, addr 0x577fccc, size 0x8, virtual false, abstract: false, final false
   inline void set_missionId(::StringW value);
 
 protected:
@@ -127,22 +127,22 @@ public:
   MissionLevelScenesTransitionSetupDataSO(MissionLevelScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6840 };
 
-  /// @brief Field didFinishEvent, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* ___didFinishEvent;
 
-  /// @brief Field <missionId>k__BackingField, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field <missionId>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::StringW ____missionId_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO, ___didFinishEvent) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO, ___didFinishEvent) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO, ____missionId_k__BackingField) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO, ____missionId_k__BackingField) == 0x48, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO);

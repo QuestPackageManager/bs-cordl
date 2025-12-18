@@ -92,7 +92,7 @@ public:
   constexpr XRSystem___c__DisplayClass44_0(::UnityW<::UnityEngine::Camera> camera) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11835 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -159,83 +159,83 @@ public:
   __declspec(property(get = getStaticF_s_PassAllocator,
                       put = setStaticF_s_PassAllocator)) ::System::Func_2<::UnityEngine::Experimental::Rendering::XRPassCreateInfo, ::UnityEngine::Experimental::Rendering::XRPass*>* s_PassAllocator;
 
-  /// @brief Method BuildPass, addr 0x652d5d4, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method BuildPass, addr 0x6595160, size 0x2a0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::XRPassCreateInfo BuildPass(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass xrRenderPass,
                                                                                    ::UnityEngine::Rendering::ScriptableCullingParameters cullingParameters,
                                                                                    ::UnityEngine::Experimental::Rendering::XRLayout* layout);
 
-  /// @brief Method BuildView, addr 0x652d968, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method BuildView, addr 0x65954f4, size 0x150, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::XRView BuildView(::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass renderPass,
                                                                          ::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter renderParameter);
 
-  /// @brief Method CanUseSinglePass, addr 0x652d464, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method CanUseSinglePass, addr 0x6594ff0, size 0x170, virtual false, abstract: false, final false
   static inline bool CanUseSinglePass(::UnityEngine::Camera* camera, ::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass renderPass);
 
-  /// @brief Method CreateDefaultLayout, addr 0x65277e8, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultLayout, addr 0x658f374, size 0x4cc, virtual false, abstract: false, final false
   static inline void CreateDefaultLayout(::UnityEngine::Camera* camera, ::UnityEngine::Experimental::Rendering::XRLayout* layout);
 
-  /// @brief Method Dispose, addr 0x652d1a4, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6594d30, size 0x190, virtual false, abstract: false, final false
   static inline void Dispose();
 
-  /// @brief Method EndLayout, addr 0x652d014, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method EndLayout, addr 0x6594ba0, size 0xe4, virtual false, abstract: false, final false
   static inline void EndLayout();
 
-  /// @brief Method GetActiveDisplay, addr 0x652bee0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetActiveDisplay, addr 0x6593a6c, size 0x5c, virtual false, abstract: false, final false
   static inline Il2CppObject* GetActiveDisplay();
 
-  /// @brief Method GetDisplayMSAASamples, addr 0x652cb50, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayMSAASamples, addr 0x65946dc, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::MSAASamples GetDisplayMSAASamples();
 
-  /// @brief Method GetMirrorViewMode, addr 0x652cd0c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetMirrorViewMode, addr 0x6594898, size 0x98, virtual false, abstract: false, final false
   static inline int32_t GetMirrorViewMode();
 
-  /// @brief Method GetOcclusionMeshScale, addr 0x652cc14, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetOcclusionMeshScale, addr 0x65947a0, size 0x5c, virtual false, abstract: false, final false
   static inline float_t GetOcclusionMeshScale();
 
-  /// @brief Method GetRenderViewportScale, addr 0x652cf44, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetRenderViewportScale, addr 0x6594ad0, size 0x68, virtual false, abstract: false, final false
   static inline float_t GetRenderViewportScale();
 
-  /// @brief Method Initialize, addr 0x652c220, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6593dac, size 0x440, virtual false, abstract: false, final false
   static inline void Initialize(::System::Func_2<::UnityEngine::Experimental::Rendering::XRPassCreateInfo, ::UnityEngine::Experimental::Rendering::XRPass*>* passAllocator,
                                 ::UnityEngine::Shader* occlusionMeshPS, ::UnityEngine::Shader* mirrorViewPS);
 
-  /// @brief Method NewLayout, addr 0x652cfac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method NewLayout, addr 0x6594b38, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::XRLayout* NewLayout();
 
-  /// @brief Method ReconfigurePass, addr 0x6527e30, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method ReconfigurePass, addr 0x658f9bc, size 0x2a4, virtual false, abstract: false, final false
   static inline void ReconfigurePass(::UnityEngine::Experimental::Rendering::XRPass* xrPass, ::UnityEngine::Camera* camera);
 
-  /// @brief Method RefreshDeviceInfo, addr 0x652c660, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method RefreshDeviceInfo, addr 0x65941ec, size 0x318, virtual false, abstract: false, final false
   static inline void RefreshDeviceInfo();
 
-  /// @brief Method RenderMirrorView, addr 0x652d0f8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method RenderMirrorView, addr 0x6594c84, size 0xac, virtual false, abstract: false, final false
   static inline void RenderMirrorView(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Camera* camera);
 
-  /// @brief Method SetDisplayMSAASamples, addr 0x652c978, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method SetDisplayMSAASamples, addr 0x6594504, size 0x1d8, virtual false, abstract: false, final false
   static inline void SetDisplayMSAASamples(::UnityEngine::Rendering::MSAASamples msaaSamples);
 
-  /// @brief Method SetDisplayZRange, addr 0x6527720, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetDisplayZRange, addr 0x658f2ac, size 0xc8, virtual false, abstract: false, final false
   static inline void SetDisplayZRange(float_t zNear, float_t zFar);
 
-  /// @brief Method SetLayoutOverride, addr 0x652d334, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetLayoutOverride, addr 0x6594ec0, size 0x60, virtual false, abstract: false, final false
   static inline void SetLayoutOverride(::System::Action_2<::UnityEngine::Experimental::Rendering::XRLayout*, ::UnityW<::UnityEngine::Camera>>* action);
 
-  /// @brief Method SetMirrorViewMode, addr 0x652cc70, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetMirrorViewMode, addr 0x65947fc, size 0x9c, virtual false, abstract: false, final false
   static inline void SetMirrorViewMode(int32_t mirrorBlitMode);
 
-  /// @brief Method SetOcclusionMeshScale, addr 0x652cbac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetOcclusionMeshScale, addr 0x6594738, size 0x68, virtual false, abstract: false, final false
   static inline void SetOcclusionMeshScale(float_t occlusionMeshScale);
 
-  /// @brief Method SetRenderScale, addr 0x652cda4, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method SetRenderScale, addr 0x6594930, size 0x1a0, virtual false, abstract: false, final false
   static inline void SetRenderScale(float_t renderScale);
 
-  /// @brief Method XRSystemInit, addr 0x652d394, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method XRSystemInit, addr 0x6594f20, size 0xd0, virtual false, abstract: false, final false
   static inline void XRSystemInit();
 
-  /// @brief Method XrRenderTextureDescToUnityRenderTextureDesc, addr 0x652db30, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method XrRenderTextureDescToUnityRenderTextureDesc, addr 0x65956bc, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::RenderTextureDescriptor XrRenderTextureDescToUnityRenderTextureDesc(::UnityEngine::RenderTextureDescriptor xrDesc);
 
-  /// @brief Method <CreateDefaultLayout>g__AddViewToPass|44_0, addr 0x652d874, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method <CreateDefaultLayout>g__AddViewToPass|44_0, addr 0x6595400, size 0xf4, virtual false, abstract: false, final false
   static inline void _CreateDefaultLayout_g__AddViewToPass_44_0(::UnityEngine::Experimental::Rendering::XRPass* xrPass, ::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass renderPass,
                                                                 int32_t renderParamIndex,
                                                                 ::ByRef<::UnityEngine::Experimental::Rendering::XRSystem___c__DisplayClass44_0> _cordl_fixed_empty_name_whitespace);
@@ -266,19 +266,19 @@ public:
 
   static inline ::System::Func_2<::UnityEngine::Experimental::Rendering::XRPassCreateInfo, ::UnityEngine::Experimental::Rendering::XRPass*>* getStaticF_s_PassAllocator();
 
-  /// @brief Method get_displayActive, addr 0x6527684, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_displayActive, addr 0x658f210, size 0x9c, virtual false, abstract: false, final false
   static inline bool get_displayActive();
 
-  /// @brief Method get_dumpDebugInfo, addr 0x652c160, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_dumpDebugInfo, addr 0x6593cec, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_dumpDebugInfo();
 
-  /// @brief Method get_foveatedRenderingCaps, addr 0x652c0a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_foveatedRenderingCaps, addr 0x6593c30, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::FoveatedRenderingCaps get_foveatedRenderingCaps();
 
-  /// @brief Method get_isHDRDisplayOutputActive, addr 0x652bf3c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_isHDRDisplayOutputActive, addr 0x6593ac8, size 0xa8, virtual false, abstract: false, final false
   static inline bool get_isHDRDisplayOutputActive();
 
-  /// @brief Method get_singlePassAllowed, addr 0x652bfe4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_singlePassAllowed, addr 0x6593b70, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_singlePassAllowed();
 
   static inline void setStaticF__dumpDebugInfo_k__BackingField(bool value);
@@ -307,13 +307,13 @@ public:
 
   static inline void setStaticF_s_PassAllocator(::System::Func_2<::UnityEngine::Experimental::Rendering::XRPassCreateInfo, ::UnityEngine::Experimental::Rendering::XRPass*>* value);
 
-  /// @brief Method set_dumpDebugInfo, addr 0x652c1bc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_dumpDebugInfo, addr 0x6593d48, size 0x64, virtual false, abstract: false, final false
   static inline void set_dumpDebugInfo(bool value);
 
-  /// @brief Method set_foveatedRenderingCaps, addr 0x652c100, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_foveatedRenderingCaps, addr 0x6593c8c, size 0x60, virtual false, abstract: false, final false
   static inline void set_foveatedRenderingCaps(::UnityEngine::Rendering::FoveatedRenderingCaps value);
 
-  /// @brief Method set_singlePassAllowed, addr 0x652c040, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_singlePassAllowed, addr 0x6593bcc, size 0x64, virtual false, abstract: false, final false
   static inline void set_singlePassAllowed(bool value);
 
 protected:
@@ -331,7 +331,7 @@ public:
   XRSystem(XRSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11836 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

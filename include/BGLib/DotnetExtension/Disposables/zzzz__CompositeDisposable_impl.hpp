@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::DotnetExtension::Disposables::CompositeDisposable::*)(int32_t)>(
     &::BGLib::DotnetExtension::Disposables::CompositeDisposable::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x31e78e0;
+  constexpr static std::size_t addrs = 0x32182bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::DotnetExtension::Disposables::CompositeDisposable::*)(
     ::ArrayW<::System::IDisposable*, ::Array<::System::IDisposable*>*>)>(&::BGLib::DotnetExtension::Disposables::CompositeDisposable::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x31e7964;
+  constexpr static std::size_t addrs = 0x3218340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::DotnetExtension::Disposables::CompositeDisposable::*)(::System::IDisposable*)>(
     &::BGLib::DotnetExtension::Disposables::CompositeDisposable::Add)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x31e79c4;
+  constexpr static std::size_t addrs = 0x32183a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::DotnetExtension::Disposables::CompositeDisposable::*)(
     ::ArrayW<::System::IDisposable*, ::Array<::System::IDisposable*>*>)>(&::BGLib::DotnetExtension::Disposables::CompositeDisposable::Add)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x31e7ac4;
+  constexpr static std::size_t addrs = 0x32184a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::DotnetExtension::Disposables::CompositeDisposable::*)()>(
     &::BGLib::DotnetExtension::Disposables::CompositeDisposable::Dispose)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x31e7ba8;
+  constexpr static std::size_t addrs = 0x3218584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

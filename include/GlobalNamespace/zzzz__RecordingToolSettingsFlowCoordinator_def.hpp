@@ -49,18 +49,18 @@ public:
                       put = __cordl_internal_set__recordingToolSettingsViewController)) ::UnityW<::GlobalNamespace::RecordingToolSettingsViewController>
       _recordingToolSettingsViewController;
 
-  /// @brief Method DidActivate, addr 0x57ff3e8, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5862f00, size 0x128, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x57ff510, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5863028, size 0xb0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleRecordingToolSettingsViewControllerDidFinish, addr 0x57ff614, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HandleRecordingToolSettingsViewControllerDidFinish, addr 0x586312c, size 0x60, virtual false, abstract: false, final false
   inline void HandleRecordingToolSettingsViewControllerDidFinish();
 
   static inline ::GlobalNamespace::RecordingToolSettingsFlowCoordinator* New_ctor();
 
-  /// @brief Method Update, addr 0x57ff5c0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58630d8, size 0x54, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::RecordingToolConfigViewController> const& __cordl_internal_get__recordingToolConfigViewController() const;
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set__recordingToolSettingsViewController(::UnityW<::GlobalNamespace::RecordingToolSettingsViewController> value);
 
-  /// @brief Method .ctor, addr 0x57ff674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x586318c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -105,7 +105,7 @@ public:
   RecordingToolSettingsFlowCoordinator(RecordingToolSettingsFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6387 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6381 };
 
   /// @brief Field _recordingToolConfigViewController, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::RecordingToolConfigViewController> ____recordingToolConfigViewController;

@@ -30,12 +30,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE GPUDrivenLODGroupDataNativeCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x68f76ac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6960530, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::ByRef<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative> lodGroupDataNative, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* callback);
 
   static inline ::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x68f762c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69604b0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -53,7 +53,7 @@ public:
   GPUDrivenLODGroupDataNativeCallback(GPUDrivenLODGroupDataNativeCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10852 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

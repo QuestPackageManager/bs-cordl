@@ -22,7 +22,7 @@ namespace System::Xml::Schema {
 struct CORDL_TYPE Position {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6102100, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6169c8c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t symbol, ::System::Object* particle);
 
   // Ctor Parameters []
@@ -33,7 +33,7 @@ public:
   constexpr Position(int32_t symbol, ::System::Object* particle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9561 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9565 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -120,7 +120,7 @@ public:
   DebugManagerAddon_1(DebugManagerAddon_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18397 };
 
   /// @brief Field _instanceCache, offset: 0x10, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache* ____instanceCache;

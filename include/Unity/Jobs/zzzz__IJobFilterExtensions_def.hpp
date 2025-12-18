@@ -77,7 +77,7 @@ public:
   constexpr JobFilterProducer_1_IJobFilterExtensions_JobWrapper(::Unity::Collections::NativeList_1<int32_t> outputIndices, int32_t appendCount, T JobData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15476 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -137,7 +137,7 @@ public:
   JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction(JobFilterProducer_1_IJobFilterExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15477 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -182,7 +182,7 @@ public:
   constexpr IJobFilterExtensions_JobFilterProducer_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15478 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -247,7 +247,7 @@ public:
   IJobFilterExtensions(IJobFilterExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15479 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

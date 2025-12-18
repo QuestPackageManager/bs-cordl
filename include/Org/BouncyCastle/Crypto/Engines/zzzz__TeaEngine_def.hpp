@@ -51,18 +51,18 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Method GetBlockSize, addr 0x32a2a54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x32cd298, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method Init, addr 0x32a2a5c, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x32cd2a0, size 0x148, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::TeaEngine* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x32a2c10, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x32cd454, size 0x160, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x32a2f38, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x32cd77c, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr uint32_t const& __cordl_internal_get__a() const;
@@ -101,25 +101,25 @@ public:
 
   constexpr void __cordl_internal_set__initialised(bool value);
 
-  /// @brief Method .ctor, addr 0x32a2a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32cd244, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method decryptBlock, addr 0x32a2d70, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method decryptBlock, addr 0x32cd5b4, size 0xe4, virtual false, abstract: false, final false
   inline int32_t decryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method encryptBlock, addr 0x32a2e54, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method encryptBlock, addr 0x32cd698, size 0xe4, virtual false, abstract: false, final false
   inline int32_t encryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method get_AlgorithmName, addr 0x32a2a08, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x32cd24c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0x32a2a4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0x32cd290, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  /// @brief Method setKey, addr 0x32a2ba4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method setKey, addr 0x32cd3e8, size 0x6c, virtual false, abstract: false, final false
   inline void setKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
 protected:

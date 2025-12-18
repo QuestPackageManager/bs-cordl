@@ -25,7 +25,7 @@ namespace BeatmapDataLoaderVersion4 {
 class CORDL_TYPE FloatFxBaseDataConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x363a8e0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x3666d64, size 0x8c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::FloatFxBaseData* Convert(float_t beat, ::BeatmapSaveDataVersion4::FloatFxEvent floatFxEvent);
 
 protected:
@@ -43,7 +43,7 @@ public:
   FloatFxBaseDataConverter(FloatFxBaseDataConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15417 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

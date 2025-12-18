@@ -97,7 +97,7 @@ public:
   static ::UnityEngine::TerrainData_BoundaryValueType const MinDetailResPerPatch;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22393 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22420 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -150,13 +150,13 @@ public:
 
   __declspec(property(get = get_users)) ::ArrayW<::UnityW<::UnityEngine::Terrain>, ::Array<::UnityW<::UnityEngine::Terrain>>*> users;
 
-  /// @brief Method GetAlphamapResolutionInternal, addr 0x6985b50, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetAlphamapResolutionInternal, addr 0x69ee9d4, size 0xa8, virtual false, abstract: false, final false
   inline float_t GetAlphamapResolutionInternal();
 
-  /// @brief Method GetAlphamapResolutionInternal_Injected, addr 0x6985bf8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAlphamapResolutionInternal_Injected, addr 0x69eea7c, size 0x3c, virtual false, abstract: false, final false
   static inline float_t GetAlphamapResolutionInternal_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetBoundaryValue, addr 0x6985a08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryValue, addr 0x69ee88c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetBoundaryValue(::UnityEngine::TerrainData_BoundaryValueType type);
 
   static inline int32_t getStaticF_k_MaximumAlphamapResolution();
@@ -175,16 +175,16 @@ public:
 
   static inline int32_t getStaticF_k_MinimumDetailResolutionPerPatch();
 
-  /// @brief Method get_size, addr 0x6985a44, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x69ee8c8, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_size();
 
-  /// @brief Method get_size_Injected, addr 0x6985b0c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_size_Injected, addr 0x69ee990, size 0x44, virtual false, abstract: false, final false
   static inline void get_size_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_users, addr 0x698573c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_users, addr 0x69ee5c0, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Terrain>, ::Array<::UnityW<::UnityEngine::Terrain>>*> get_users();
 
-  /// @brief Method get_users_Injected, addr 0x6985c34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_users_Injected, addr 0x69eeab8, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Terrain>, ::Array<::UnityW<::UnityEngine::Terrain>>*> get_users_Injected(::System::IntPtr _unity_self);
 
   static inline void setStaticF_k_MaximumAlphamapResolution(int32_t value);
@@ -218,7 +218,7 @@ public:
   TerrainData(TerrainData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22394 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22421 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,12 +22,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE NoInterpRenderTextureParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityW<::UnityEngine::RenderTexture>> {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x65af21c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6616da8, size 0x108, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::NoInterpRenderTextureParameter* New_ctor(::UnityEngine::RenderTexture* value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x65af1b8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6616d44, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RenderTexture* value, bool overrideState);
 
 protected:
@@ -45,7 +45,7 @@ public:
   NoInterpRenderTextureParameter(NoInterpRenderTextureParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12339 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12343 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

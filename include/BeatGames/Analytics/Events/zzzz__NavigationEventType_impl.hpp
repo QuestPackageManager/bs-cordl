@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::Events::NavigationEventType::*)(::StringW)>(
     &::BeatGames::Analytics::Events::NavigationEventType::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3161fa4;
+  constexpr static std::size_t addrs = 0x3191c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BeatGames::Analytics::Events::NavigationEventType::*)()>(
     &::BeatGames::Analytics::Events::NavigationEventType::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3161fac;
+  constexpr static std::size_t addrs = 0x3191ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::NavigationEventType*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::Events::NavigationEventType::*)(::StringW)>(
     &::BeatGames::Analytics::Events::NavigationEventType::set_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3161fb4;
+  constexpr static std::size_t addrs = 0x3191cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatGames::Analytics::Events::NavigationEventType* (*)()>(
     &::BeatGames::Analytics::Events::NavigationEventType::get_Impression)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x316140c;
+  constexpr static std::size_t addrs = 0x3191104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::NavigationEventType*>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatGames::Analytics::Events::NavigationEventType* (*)()>(
     &::BeatGames::Analytics::Events::NavigationEventType::get_Click)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3161570;
+  constexpr static std::size_t addrs = 0x3191268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::NavigationEventType*>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatGames::Analytics::Events::NavigationEventType* (*)()>(
     &::BeatGames::Analytics::Events::NavigationEventType::get_Drag)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3161fbc;
+  constexpr static std::size_t addrs = 0x3191cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::NavigationEventType*>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatGames::Analytics::Events::NavigationEventType* (*)()>(
     &::BeatGames::Analytics::Events::NavigationEventType::get_CancelDrag)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3162024;
+  constexpr static std::size_t addrs = 0x3191d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::NavigationEventType*>::get(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BeatGames::Analytics::Events::NavigationEventType::*)()>(
     &::BeatGames::Analytics::Events::NavigationEventType::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x316208c;
+  constexpr static std::size_t addrs = 0x3191d84;
 
   inline static ::MethodInfo const* methodInfo() {
 

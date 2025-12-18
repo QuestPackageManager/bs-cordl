@@ -29,21 +29,21 @@ public:
   /// @brief Field s_NullHandle, offset 0xffffffff, size 0xc
   __declspec(property(get = getStaticF_s_NullHandle, put = setStaticF_s_NullHandle)) ::UnityEngine::Rendering::RenderGraphModule::BufferHandle s_NullHandle;
 
-  /// @brief Method IsValid, addr 0x65c583c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x662d3c8, size 0xe4, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method .ctor, addr 0x65c56f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x662d284, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h);
 
-  /// @brief Method .ctor, addr 0x65c570c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x662d298, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t handle, bool shared);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle getStaticF_s_NullHandle();
 
-  /// @brief Method get_nullHandle, addr 0x65c5698, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_nullHandle, addr 0x662d224, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle get_nullHandle();
 
-  /// @brief Method op_Implicit, addr 0x65c574c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x662d2d8, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::GraphicsBuffer* op_Implicit___UnityEngine__GraphicsBuffer_(::UnityEngine::Rendering::RenderGraphModule::BufferHandle buffer);
 
   static inline void setStaticF_s_NullHandle(::UnityEngine::Rendering::RenderGraphModule::BufferHandle value);
@@ -56,7 +56,7 @@ public:
   constexpr BufferHandle(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12414 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

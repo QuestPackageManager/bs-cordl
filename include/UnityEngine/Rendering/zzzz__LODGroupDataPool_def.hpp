@@ -119,7 +119,7 @@ public:
   LODGroupDataPool_LodGroupShaderIDs(LODGroupDataPool_LodGroupShaderIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17715 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17729 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -172,18 +172,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6612d58, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x667a8e4, size 0xb8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method FreeLODGroupData, addr 0x6613234, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FreeLODGroupData, addr 0x667adc0, size 0xa0, virtual false, abstract: false, final false
   inline void FreeLODGroupData(::Unity::Collections::NativeArray_1<int32_t> destroyedLODGroupsID);
 
   static inline ::UnityEngine::Rendering::LODGroupDataPool* New_ctor(::UnityEngine::Rendering::GPUResidentDrawerResources* resources, int32_t initialInstanceCount, bool supportDitheringCrossFade);
 
-  /// @brief Method UpdateLODGroupData, addr 0x6612f8c, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method UpdateLODGroupData, addr 0x667ab18, size 0x2a8, virtual false, abstract: false, final false
   inline void UpdateLODGroupData(::ByRef<::UnityEngine::Rendering::GPUDrivenLODGroupData> inputData);
 
-  /// @brief Method UpdateLODGroupTransformData, addr 0x6612e10, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method UpdateLODGroupTransformData, addr 0x667a99c, size 0x17c, virtual false, abstract: false, final false
   inline void UpdateLODGroupTransformData(::ByRef<::UnityEngine::Rendering::GPUDrivenLODGroupData> inputData);
 
   constexpr int32_t const& __cordl_internal_get_m_CrossfadedRendererCount() const;
@@ -222,19 +222,19 @@ public:
 
   constexpr void __cordl_internal_set_m_SupportDitheringCrossFade(bool value);
 
-  /// @brief Method .ctor, addr 0x6612c3c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x667a7c8, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::GPUResidentDrawerResources* resources, int32_t initialInstanceCount, bool supportDitheringCrossFade);
 
-  /// @brief Method get_activeLodGroupCount, addr 0x6612bd8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_activeLodGroupCount, addr 0x667a764, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_activeLodGroupCount();
 
-  /// @brief Method get_crossfadedRendererCount, addr 0x6612bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_crossfadedRendererCount, addr 0x667a75c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_crossfadedRendererCount();
 
-  /// @brief Method get_lodGroupCullingData, addr 0x6612bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lodGroupCullingData, addr 0x667a754, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData> get_lodGroupCullingData();
 
-  /// @brief Method get_lodGroupDataHash, addr 0x6612bbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_lodGroupDataHash, addr 0x667a748, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex> get_lodGroupDataHash();
 
   /// @brief Convert to "::System::IDisposable"
@@ -255,7 +255,7 @@ public:
   LODGroupDataPool(LODGroupDataPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17730 };
 
   /// @brief Field m_LODGroupData, offset: 0x10, size: 0x8, def value: None
   ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData> ___m_LODGroupData;

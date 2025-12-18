@@ -73,7 +73,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE ProbeBrickPool_BrickChunkAlloc {
 public:
   // Declarations
-  /// @brief Method flattenIndex, addr 0x656ab04, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method flattenIndex, addr 0x65d2690, size 0x14, virtual false, abstract: false, final false
   inline int32_t flattenIndex(int32_t sx, int32_t sy);
 
   // Ctor Parameters []
@@ -85,7 +85,7 @@ public:
   constexpr ProbeBrickPool_BrickChunkAlloc(int32_t x, int32_t y, int32_t z) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12053 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12057 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -118,7 +118,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE ProbeBrickPool_DataLocation {
 public:
   // Declarations
-  /// @brief Method Cleanup, addr 0x656bbf0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x65d377c, size 0xf0, virtual false, abstract: false, final false
   inline void Cleanup();
 
   // Ctor Parameters []
@@ -140,7 +140,7 @@ public:
                                         int32_t depth) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12058 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -332,108 +332,108 @@ public:
   /// @brief Field s_DataUpload_SkyShadingDirection, offset 0xffffffff, size 0x18
   __declspec(property(get = getStaticF_s_DataUpload_SkyShadingDirection, put = setStaticF_s_DataUpload_SkyShadingDirection)) ::UnityEngine::Rendering::LocalKeyword s_DataUpload_SkyShadingDirection;
 
-  /// @brief Method Allocate, addr 0x656c104, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x65d3c90, size 0x284, virtual false, abstract: false, final false
   inline bool Allocate(int32_t numberOfBrickChunks, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* outAllocations, bool ignoreErrorLog);
 
-  /// @brief Method AllocatePool, addr 0x656b43c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method AllocatePool, addr 0x65d2fc8, size 0x12c, virtual false, abstract: false, final false
   inline void AllocatePool(int32_t width, int32_t height, int32_t depth);
 
-  /// @brief Method Cleanup, addr 0x656d8d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x65d5460, size 0x8, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Clear, addr 0x656c08c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x65d3c18, size 0x60, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CreateDataLocation, addr 0x656b568, size 0x5f0, virtual false, abstract: false, final false
+  /// @brief Method CreateDataLocation, addr 0x65d30f4, size 0x5f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ProbeBrickPool_DataLocation CreateDataLocation(int32_t numProbes, bool compressed, ::UnityEngine::Rendering::ProbeVolumeSHBands bands, ::StringW name,
                                                                                          bool allocateRendertexture, bool allocateValidityData, bool allocateRenderingLayers,
                                                                                          bool allocateSkyOcclusionData, bool allocateSkyShadingDirectionData, bool allocateProbeOcclusionData,
                                                                                          ::ByRef<int32_t> allocatedBytes);
 
-  /// @brief Method CreateDataTexture, addr 0x656d6a4, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method CreateDataTexture, addr 0x65d5230, size 0x230, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture> CreateDataTexture(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::StringW name,
                                                                    bool allocateRendertexture, ::ByRef<int32_t> allocatedBytes);
 
-  /// @brief Method Deallocate, addr 0x656c388, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Deallocate, addr 0x65d3f14, size 0x154, virtual false, abstract: false, final false
   inline void Deallocate(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* allocations);
 
-  /// @brief Method DerivePoolSizeFromBudget, addr 0x656b428, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method DerivePoolSizeFromBudget, addr 0x65d2fb4, size 0x14, virtual false, abstract: false, final false
   static inline void DerivePoolSizeFromBudget(::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget memoryBudget, ::ByRef<int32_t> width, ::ByRef<int32_t> height, ::ByRef<int32_t> depth);
 
-  /// @brief Method DivRoundUp, addr 0x656ae30, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DivRoundUp, addr 0x65d29bc, size 0x10, virtual false, abstract: false, final false
   static inline int32_t DivRoundUp(int32_t x, int32_t y);
 
-  /// @brief Method EnsureTextureValidity, addr 0x656bce0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method EnsureTextureValidity, addr 0x65d386c, size 0x94, virtual false, abstract: false, final false
   inline bool EnsureTextureValidity(bool renderingLayers, bool skyOcclusion, bool skyDirection, bool probeOcclusion);
 
-  /// @brief Method EnsureTextureValidity, addr 0x656bb60, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method EnsureTextureValidity, addr 0x65d36ec, size 0x90, virtual false, abstract: false, final false
   inline void EnsureTextureValidity();
 
-  /// @brief Method EstimateMemoryCost, addr 0x656d53c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method EstimateMemoryCost, addr 0x65d50c8, size 0x28, virtual false, abstract: false, final false
   static inline int32_t EstimateMemoryCost(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
-  /// @brief Method EstimateMemoryCostForBlending, addr 0x656d564, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method EstimateMemoryCostForBlending, addr 0x65d50f0, size 0x140, virtual false, abstract: false, final false
   static inline int32_t EstimateMemoryCostForBlending(::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget memoryBudget, bool compressed, ::UnityEngine::Rendering::ProbeVolumeSHBands bands);
 
-  /// @brief Method GetChunkCount, addr 0x656c0ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetChunkCount, addr 0x65d3c78, size 0x18, virtual false, abstract: false, final false
   static inline int32_t GetChunkCount(int32_t brickCount);
 
-  /// @brief Method GetChunkSizeInBrickCount, addr 0x656bd74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetChunkSizeInBrickCount, addr 0x65d3900, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetChunkSizeInBrickCount();
 
-  /// @brief Method GetChunkSizeInProbeCount, addr 0x656bd7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetChunkSizeInProbeCount, addr 0x65d3908, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetChunkSizeInProbeCount();
 
-  /// @brief Method GetPoolDimensions, addr 0x656bd94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetPoolDimensions, addr 0x65d3920, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3Int GetPoolDimensions();
 
-  /// @brief Method GetPoolHeight, addr 0x656bd8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPoolHeight, addr 0x65d3918, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetPoolHeight();
 
-  /// @brief Method GetPoolWidth, addr 0x656bd84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPoolWidth, addr 0x65d3910, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetPoolWidth();
 
-  /// @brief Method GetProbeOcclusionTexture, addr 0x656b2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetProbeOcclusionTexture, addr 0x65d2e44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> GetProbeOcclusionTexture();
 
-  /// @brief Method GetRemainingChunkCount, addr 0x656bb58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRemainingChunkCount, addr 0x65d36e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetRemainingChunkCount();
 
-  /// @brief Method GetRuntimeResources, addr 0x656bda4, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeResources, addr 0x65d3930, size 0x2e8, virtual false, abstract: false, final false
   inline void GetRuntimeResources(::ByRef<::UnityEngine::Rendering::ProbeReferenceVolume_RuntimeResources> rr);
 
-  /// @brief Method GetSkyOcclusionTexture, addr 0x656b2a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSkyOcclusionTexture, addr 0x65d2e34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> GetSkyOcclusionTexture();
 
-  /// @brief Method GetSkyShadingDirectionIndicesTexture, addr 0x656b2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSkyShadingDirectionIndicesTexture, addr 0x65d2e3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> GetSkyShadingDirectionIndicesTexture();
 
-  /// @brief Method GetValidityTexture, addr 0x656b2a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetValidityTexture, addr 0x65d2e2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> GetValidityTexture();
 
-  /// @brief Method Initialize, addr 0x656ae50, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x65d29dc, size 0x450, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline ::UnityEngine::Rendering::ProbeBrickPool* New_ctor(::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget memoryBudget, ::UnityEngine::Rendering::ProbeVolumeSHBands shBands,
                                                                    bool allocateValidityData, bool allocateRenderingLayerData, bool allocateSkyOcclusion, bool allocateSkyShadingData,
                                                                    bool allocateProbeOcclusionData);
 
-  /// @brief Method ProbeCountToDataLocSize, addr 0x656d4d0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ProbeCountToDataLocSize, addr 0x65d505c, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3Int ProbeCountToDataLocSize(int32_t numProbes);
 
-  /// @brief Method Update, addr 0x656c98c, size 0x970, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x65d4518, size 0x970, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer* dataBuffer,
                      ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout layout,
                      ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* dstLocations, bool updateSharedData, ::UnityEngine::Texture* validityTexture,
                      ::UnityEngine::Rendering::ProbeVolumeSHBands bands, bool skyOcclusion, ::UnityEngine::Texture* skyOcclusionTexture, bool skyShadingDirections,
                      ::UnityEngine::Texture* skyShadingDirectionsTexture, bool probeOcclusion);
 
-  /// @brief Method Update, addr 0x656c4dc, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x65d4068, size 0x4b0, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Rendering::ProbeBrickPool_DataLocation source, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* srcLocations,
                      ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* dstLocations, int32_t destStartIndex,
                      ::UnityEngine::Rendering::ProbeVolumeSHBands bands);
 
-  /// @brief Method UpdateValidity, addr 0x656d330, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method UpdateValidity, addr 0x65d4ebc, size 0x1a0, virtual false, abstract: false, final false
   inline void UpdateValidity(::UnityEngine::Rendering::ProbeBrickPool_DataLocation source,
                              ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* srcLocations,
                              ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* dstLocations, int32_t destStartIndex);
@@ -504,7 +504,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SHBands(::UnityEngine::Rendering::ProbeVolumeSHBands value);
 
-  /// @brief Method .ctor, addr 0x656b2c0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65d2e4c, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget memoryBudget, ::UnityEngine::Rendering::ProbeVolumeSHBands shBands, bool allocateValidityData,
                     bool allocateRenderingLayerData, bool allocateSkyOcclusion, bool allocateSkyShadingData, bool allocateProbeOcclusionData);
 
@@ -550,7 +550,7 @@ public:
 
   static inline ::UnityEngine::Rendering::LocalKeyword getStaticF_s_DataUpload_SkyShadingDirection();
 
-  /// @brief Method get_estimatedVMemCost, addr 0x656ae40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_estimatedVMemCost, addr 0x65d29cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_estimatedVMemCost();
 
   static inline void setStaticF__Out_L0_L1Rx(int32_t value);
@@ -595,7 +595,7 @@ public:
 
   static inline void setStaticF_s_DataUpload_SkyShadingDirection(::UnityEngine::Rendering::LocalKeyword value);
 
-  /// @brief Method set_estimatedVMemCost, addr 0x656ae48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_estimatedVMemCost, addr 0x65d29d4, size 0x8, virtual false, abstract: false, final false
   inline void set_estimatedVMemCost(int32_t value);
 
 protected:
@@ -613,7 +613,7 @@ public:
   ProbeBrickPool(ProbeBrickPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12059 };
 
   /// @brief Field kBrickCellCount offset 0xffffffff size 0x4
   static constexpr int32_t kBrickCellCount{ static_cast<int32_t>(0x3) };

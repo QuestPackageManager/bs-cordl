@@ -237,7 +237,7 @@ namespace UnityEngine::UIElements::UIR {
 struct CORDL_TYPE UIRenderDevice_DeviceToFree {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x6ac6d40, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6b2fbc4, size 0x180, virtual false, abstract: false, final false
   inline void Dispose();
 
   // Ctor Parameters []
@@ -464,13 +464,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::UIRenderDevice___c* New_ctor();
 
-  /// @brief Method <.ctor>b__58_0, addr 0x6ac6f88, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__58_0, addr 0x6b2fe0c, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::MeshHandle* __ctor_b__58_0();
 
-  /// @brief Method <.ctor>b__58_1, addr 0x6ac7000, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__58_1, addr 0x6b2fe84, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__58_1(::UnityEngine::UIElements::UIR::MeshHandle* mh);
 
-  /// @brief Method .ctor, addr 0x6ac6f84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b2fe08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::UIRenderDevice___c* getStaticF___9();
@@ -661,57 +661,57 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ActiveUpdatesForMeshHandle, addr 0x6ac46cc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ActiveUpdatesForMeshHandle, addr 0x6b2d550, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::UIRenderDevice_AllocToUpdate>* ActiveUpdatesForMeshHandle(::UnityEngine::UIElements::UIR::MeshHandle* mesh);
 
-  /// @brief Method AdvanceFrame, addr 0x6ac4900, size 0x8e0, virtual false, abstract: false, final false
+  /// @brief Method AdvanceFrame, addr 0x6b2d784, size 0x8e0, virtual false, abstract: false, final false
   inline void AdvanceFrame();
 
-  /// @brief Method Allocate, addr 0x6ac3624, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x6b2c4a8, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::MeshHandle* Allocate(uint32_t vertexCount, uint32_t indexCount, ::ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData,
                                                               ::ByRef<::Unity::Collections::NativeSlice_1<uint16_t>> indexData, ::ByRef<uint16_t> indexOffset);
 
-  /// @brief Method Allocate, addr 0x6ac36f0, size 0x660, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x6b2c574, size 0x660, virtual false, abstract: false, final false
   inline void Allocate(::UnityEngine::UIElements::UIR::MeshHandle* meshHandle, uint32_t vertexCount, uint32_t indexCount,
                        ::ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData, ::ByRef<::Unity::Collections::NativeSlice_1<uint16_t>> indexData, bool shortLived);
 
-  /// @brief Method ApplyBatchState, addr 0x6ac5390, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method ApplyBatchState, addr 0x6b2e214, size 0x1cc, virtual false, abstract: false, final false
   inline void ApplyBatchState(::ByRef<::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState> st);
 
-  /// @brief Method ApplyDrawCommandState, addr 0x6ac51e0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ApplyDrawCommandState, addr 0x6b2e064, size 0x1b0, virtual false, abstract: false, final false
   inline void ApplyDrawCommandState(::UnityEngine::UIElements::UIR::RenderChainCommand* cmd, int32_t textureSlot, ::UnityEngine::Material* newMat, bool newMatDiffers,
                                     ::ByRef<::UnityEngine::UIElements::UIR::UIRenderDevice_EvaluationState> st);
 
-  /// @brief Method CompleteCreation, addr 0x6ac2eb0, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method CompleteCreation, addr 0x6b2bd34, size 0x260, virtual false, abstract: false, final false
   inline void CompleteCreation();
 
-  /// @brief Method Dispose, addr 0x6ac3130, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6b2bfb4, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6ac31a0, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6b2c024, size 0x184, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DrawRanges, addr 0x6ac65cc, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method DrawRanges, addr 0x6b2f450, size 0x1e0, virtual false, abstract: false, final false
   inline void DrawRanges(::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<uint16_t>* ib, ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<::UnityEngine::UIElements::Vertex>* vb,
                          ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::DrawBufferRange> ranges, ::UnityEngine::UIElements::UIR::CommandList* commandList);
 
-  /// @brief Method EvaluateChain, addr 0x6ac555c, size 0xd44, virtual false, abstract: false, final false
+  /// @brief Method EvaluateChain, addr 0x6b2e3e0, size 0xd44, virtual false, abstract: false, final false
   inline void EvaluateChain(::UnityEngine::UIElements::UIR::RenderChainCommand* head, ::UnityEngine::Material* initialMat, ::UnityEngine::Material* defaultMat,
                             ::UnityEngine::Texture* gradientSettings, ::UnityEngine::Texture* shaderInfo, float_t pixelsPerPoint, ::ByRef<::System::Exception*> immediateException);
 
-  /// @brief Method FlushAllPendingDeviceDisposes, addr 0x6ac6a30, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FlushAllPendingDeviceDisposes, addr 0x6b2f8b4, size 0x98, virtual false, abstract: false, final false
   static inline void FlushAllPendingDeviceDisposes();
 
-  /// @brief Method Free, addr 0x6abad9c, size 0x6f8, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x6b23c20, size 0x6f8, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::UIElements::UIR::MeshHandle* mesh);
 
-  /// @brief Method GatherDrawStatistics, addr 0x6ac6ac8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GatherDrawStatistics, addr 0x6b2f94c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::UIRenderDevice_DrawStatistics GatherDrawStatistics();
 
-  /// @brief Method InitVertexDeclaration, addr 0x6ac2d50, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method InitVertexDeclaration, addr 0x6b2bbd4, size 0x160, virtual false, abstract: false, final false
   inline void InitVertexDeclaration();
 
-  /// @brief Method KickRanges, addr 0x6ac62a0, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method KickRanges, addr 0x6b2f124, size 0x240, virtual false, abstract: false, final false
   inline void KickRanges(::UnityEngine::UIElements::UIR::DrawBufferRange* ranges, ::ByRef<int32_t> rangesReady, ::ByRef<int32_t> rangesStart, int32_t rangesCount,
                          ::UnityEngine::UIElements::UIR::Page* curPage, ::UnityEngine::UIElements::UIR::CommandList* commandList);
 
@@ -719,54 +719,54 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::UIRenderDevice* New_ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity, bool mockDevice);
 
-  /// @brief Method OnEngineUpdateGlobal, addr 0x6ac6ae0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnEngineUpdateGlobal, addr 0x6b2f964, size 0x50, virtual false, abstract: false, final false
   static inline void OnEngineUpdateGlobal();
 
-  /// @brief Method OnFlushPendingResources, addr 0x6ac6b30, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method OnFlushPendingResources, addr 0x6b2f9b4, size 0x210, virtual false, abstract: false, final false
   static inline void OnFlushPendingResources();
 
-  /// @brief Method OnFrameRenderingBegin, addr 0x6ac4850, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnFrameRenderingBegin, addr 0x6b2d6d4, size 0xb0, virtual false, abstract: false, final false
   inline void OnFrameRenderingBegin();
 
-  /// @brief Method PrepareForGfxDeviceRecreate, addr 0x6ac6968, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PrepareForGfxDeviceRecreate, addr 0x6b2f7ec, size 0x64, virtual false, abstract: false, final false
   static inline void PrepareForGfxDeviceRecreate();
 
-  /// @brief Method ProcessDeviceFreeQueue, addr 0x6ac3324, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method ProcessDeviceFreeQueue, addr 0x6b2c1a8, size 0x300, virtual false, abstract: false, final false
   static inline void ProcessDeviceFreeQueue();
 
-  /// @brief Method PruneUnusedPages, addr 0x6ac6870, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method PruneUnusedPages, addr 0x6b2f6f4, size 0xf8, virtual false, abstract: false, final false
   inline void PruneUnusedPages();
 
   /// @brief Method PtrToSlice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Unity::Collections::NativeSlice_1<T> PtrToSlice(void* p, int32_t count);
 
-  /// @brief Method TryAllocFromPage, addr 0x6ac4754, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method TryAllocFromPage, addr 0x6b2d5d8, size 0xfc, virtual false, abstract: false, final false
   inline bool TryAllocFromPage(::UnityEngine::UIElements::UIR::Page* page, uint32_t vertexCount, uint32_t indexCount, ::ByRef<::UnityEngine::UIElements::UIR::Alloc> va,
                                ::ByRef<::UnityEngine::UIElements::UIR::Alloc> ia, bool shortLived);
 
-  /// @brief Method Update, addr 0x6ac440c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6b2d290, size 0x1b8, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::UIElements::UIR::MeshHandle* mesh, uint32_t vertexCount, uint32_t indexCount,
                      ::ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData, ::ByRef<::Unity::Collections::NativeSlice_1<uint16_t>> indexData,
                      ::ByRef<uint16_t> indexOffset);
 
-  /// @brief Method Update, addr 0x6abc4ec, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6b25370, size 0x21c, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::UIElements::UIR::MeshHandle* mesh, uint32_t vertexCount, ::ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData);
 
-  /// @brief Method UpdateAfterGPUUsedData, addr 0x6ac3d50, size 0x6bc, virtual false, abstract: false, final false
+  /// @brief Method UpdateAfterGPUUsedData, addr 0x6b2cbd4, size 0x6bc, virtual false, abstract: false, final false
   inline void UpdateAfterGPUUsedData(::UnityEngine::UIElements::UIR::MeshHandle* mesh, uint32_t vertexCount, uint32_t indexCount,
                                      ::ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData, ::ByRef<::Unity::Collections::NativeSlice_1<uint16_t>> indexData,
                                      ::ByRef<uint16_t> indexOffset, ::ByRef<::UnityEngine::UIElements::UIR::UIRenderDevice_AllocToUpdate> allocToUpdate, bool copyBackIndices);
 
-  /// @brief Method UpdateCopyBackIndices, addr 0x6ac45c4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method UpdateCopyBackIndices, addr 0x6b2d448, size 0x108, virtual false, abstract: false, final false
   inline void UpdateCopyBackIndices(::UnityEngine::UIElements::UIR::MeshHandle* mesh, bool copyBackIndices);
 
-  /// @brief Method UpdateFenceValue, addr 0x6ac64e0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method UpdateFenceValue, addr 0x6b2f364, size 0xec, virtual false, abstract: false, final false
   inline void UpdateFenceValue();
 
-  /// @brief Method WaitOnCpuFence, addr 0x6ac67ac, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method WaitOnCpuFence, addr 0x6b2f630, size 0xc4, virtual false, abstract: false, final false
   inline void WaitOnCpuFence(uint32_t fence);
 
-  /// @brief Method WrapUpGfxDeviceRecreate, addr 0x6ac69cc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WrapUpGfxDeviceRecreate, addr 0x6b2f850, size 0x64, virtual false, abstract: false, final false
   static inline void WrapUpGfxDeviceRecreate();
 
   constexpr bool const& __cordl_internal_get__breakBatches_k__BackingField() const;
@@ -922,10 +922,10 @@ public:
 
   constexpr void __cordl_internal_set_m_VertexDecl(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6ac2764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b2b5e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity);
 
-  /// @brief Method .ctor, addr 0x6ac276c, size 0x5e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b2b5f0, size 0x5e4, virtual false, abstract: false, final false
   inline void _ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity, bool mockDevice);
 
   static inline int32_t getStaticF_m_ActiveDeviceCount();
@@ -950,33 +950,33 @@ public:
 
   static inline int32_t getStaticF_s_ShaderInfoTexID();
 
-  /// @brief Method get_breakBatches, addr 0x6ac23f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_breakBatches, addr 0x6b2b278, size 0x8, virtual false, abstract: false, final false
   inline bool get_breakBatches();
 
-  /// @brief Method get_commandLists, addr 0x6ac242c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_commandLists, addr 0x6b2b2b0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*,
                   ::Array<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>*>*>
   get_commandLists();
 
-  /// @brief Method get_currentFrameCommandLists, addr 0x6ac2434, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_currentFrameCommandLists, addr 0x6b2b2b8, size 0x40, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::CommandList*>* get_currentFrameCommandLists();
 
-  /// @brief Method get_disposed, addr 0x6ac3120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6b2bfa4, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_drawsInCameras, addr 0x6ac2414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawsInCameras, addr 0x6b2b298, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawsInCameras();
 
-  /// @brief Method get_frameIndex, addr 0x6ac2424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frameIndex, addr 0x6b2b2a8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_frameIndex();
 
-  /// @brief Method get_fullyCreated, addr 0x6ac3110, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_fullyCreated, addr 0x6b2bf94, size 0x10, virtual false, abstract: false, final false
   inline bool get_fullyCreated();
 
-  /// @brief Method get_isFlat, addr 0x6ac2404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isFlat, addr 0x6b2b288, size 0x8, virtual false, abstract: false, final false
   inline bool get_isFlat();
 
-  /// @brief Method get_maxVerticesPerPage, addr 0x6abd6b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxVerticesPerPage, addr 0x6b26534, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t get_maxVerticesPerPage();
 
   /// @brief Convert to "::System::IDisposable"
@@ -1004,16 +1004,16 @@ public:
 
   static inline void setStaticF_s_ShaderInfoTexID(int32_t value);
 
-  /// @brief Method set_breakBatches, addr 0x6ac23fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_breakBatches, addr 0x6b2b280, size 0x8, virtual false, abstract: false, final false
   inline void set_breakBatches(bool value);
 
-  /// @brief Method set_disposed, addr 0x6ac3128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6b2bfac, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method set_drawsInCameras, addr 0x6ac241c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_drawsInCameras, addr 0x6b2b2a0, size 0x8, virtual false, abstract: false, final false
   inline void set_drawsInCameras(bool value);
 
-  /// @brief Method set_isFlat, addr 0x6ac240c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isFlat, addr 0x6b2b290, size 0x8, virtual false, abstract: false, final false
   inline void set_isFlat(bool value);
 
 protected:

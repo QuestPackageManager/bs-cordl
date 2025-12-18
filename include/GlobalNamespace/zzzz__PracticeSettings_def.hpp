@@ -40,7 +40,7 @@ public:
 
   static inline ::GlobalNamespace::PracticeSettings* New_ctor(float_t startSongTime, float_t songSpeedMul);
 
-  /// @brief Method ResetToDefault, addr 0x3625348, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ResetToDefault, addr 0x3650bd8, size 0x18, virtual false, abstract: false, final false
   inline void ResetToDefault();
 
   constexpr float_t const& __cordl_internal_get__songSpeedMul() const;
@@ -61,34 +61,34 @@ public:
 
   constexpr void __cordl_internal_set__startSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x3623c20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x364f2e8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3625360, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3650bf0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PracticeSettings* practiceSettings);
 
-  /// @brief Method .ctor, addr 0x3623190, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x364e858, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t startSongTime, float_t songSpeedMul);
 
-  /// @brief Method get_defaultPracticeSettings, addr 0x36252ec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_defaultPracticeSettings, addr 0x3650b7c, size 0x5c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PracticeSettings* get_defaultPracticeSettings();
 
-  /// @brief Method get_songSpeedMul, addr 0x36252cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songSpeedMul, addr 0x3650b5c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songSpeedMul();
 
-  /// @brief Method get_startInAdvanceAndClearNotes, addr 0x36252dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startInAdvanceAndClearNotes, addr 0x3650b6c, size 0x8, virtual false, abstract: false, final false
   inline bool get_startInAdvanceAndClearNotes();
 
-  /// @brief Method get_startSongTime, addr 0x36252bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startSongTime, addr 0x3650b4c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startSongTime();
 
-  /// @brief Method set_songSpeedMul, addr 0x36252d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songSpeedMul, addr 0x3650b64, size 0x8, virtual false, abstract: false, final false
   inline void set_songSpeedMul(float_t value);
 
-  /// @brief Method set_startInAdvanceAndClearNotes, addr 0x36252e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startInAdvanceAndClearNotes, addr 0x3650b74, size 0x8, virtual false, abstract: false, final false
   inline void set_startInAdvanceAndClearNotes(bool value);
 
-  /// @brief Method set_startSongTime, addr 0x36252c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startSongTime, addr 0x3650b54, size 0x8, virtual false, abstract: false, final false
   inline void set_startSongTime(float_t value);
 
 protected:
@@ -106,7 +106,7 @@ public:
   PracticeSettings(PracticeSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15149 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15159 };
 
   /// @brief Field kDelayBeforeStart offset 0xffffffff size 0x4
   static constexpr float_t kDelayBeforeStart{ static_cast<float_t>(1.0f) };

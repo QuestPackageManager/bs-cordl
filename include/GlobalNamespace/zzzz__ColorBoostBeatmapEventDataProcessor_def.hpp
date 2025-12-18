@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::ColorBoostBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3164ed8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3194bd0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   ColorBoostBeatmapEventDataProcessor(ColorBoostBeatmapEventDataProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21059 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

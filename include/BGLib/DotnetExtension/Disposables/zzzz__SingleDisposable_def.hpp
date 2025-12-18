@@ -29,7 +29,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x31e8d2c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3219708, size 0xac, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::BGLib::DotnetExtension::Disposables::SingleDisposable* New_ctor();
@@ -40,16 +40,16 @@ public:
 
   constexpr void __cordl_internal_set__disposable(::System::IDisposable* value);
 
-  /// @brief Method .ctor, addr 0x31e8dd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32197b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disposable, addr 0x31e8c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposable, addr 0x321964c, size 0x8, virtual false, abstract: false, final false
   inline ::System::IDisposable* get_disposable();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposable, addr 0x31e8c78, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method set_disposable, addr 0x3219654, size 0xb4, virtual false, abstract: false, final false
   inline void set_disposable(::System::IDisposable* value);
 
 protected:
@@ -67,7 +67,7 @@ public:
   SingleDisposable(SingleDisposable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20544 };
 
   /// @brief Field _disposable, offset: 0x10, size: 0x8, def value: None
   ::System::IDisposable* ____disposable;

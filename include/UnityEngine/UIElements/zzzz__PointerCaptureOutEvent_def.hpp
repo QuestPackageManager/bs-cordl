@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerCaptureOutEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6b617cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6bca650, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerCaptureOutEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6b617c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bca64c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerCaptureOutEvent___c* getStaticF___9();
@@ -78,10 +78,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerCaptureOutEvent* New_ctor();
 
-  /// @brief Method PreDispatch, addr 0x6b616b8, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x6bca53c, size 0x64, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x6b61728, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bca5ac, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

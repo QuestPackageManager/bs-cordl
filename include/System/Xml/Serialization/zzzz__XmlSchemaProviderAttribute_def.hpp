@@ -43,16 +43,16 @@ public:
 
   constexpr void __cordl_internal_set__methodName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x60e08d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6148464, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW methodName);
 
-  /// @brief Method get_IsAny, addr 0x60e08e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAny, addr 0x6148474, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAny();
 
-  /// @brief Method get_MethodName, addr 0x60e08e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MethodName, addr 0x614846c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MethodName();
 
-  /// @brief Method set_IsAny, addr 0x60e08f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsAny, addr 0x614847c, size 0x8, virtual false, abstract: false, final false
   inline void set_IsAny(bool value);
 
 protected:
@@ -70,7 +70,7 @@ public:
   XmlSchemaProviderAttribute(XmlSchemaProviderAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9500 };
 
   /// @brief Field _methodName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____methodName;

@@ -57,10 +57,10 @@ public:
 
   static inline ::GlobalNamespace::PackDefinitionAsyncInstaller___c* New_ctor();
 
-  /// @brief Method <LoadResourcesBeforeInstall>b__5_0, addr 0x3603164, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <LoadResourcesBeforeInstall>b__5_0, addr 0x362e0a0, size 0x14, virtual false, abstract: false, final false
   inline int32_t _LoadResourcesBeforeInstall_b__5_0(::GlobalNamespace::PackDefinitionSO* asset);
 
-  /// @brief Method .ctor, addr 0x3603160, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x362e09c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::PackDefinitionAsyncInstaller___c* getStaticF___9();
@@ -86,7 +86,7 @@ public:
   PackDefinitionAsyncInstaller___c(PackDefinitionAsyncInstaller___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14973 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -111,15 +111,15 @@ public:
 
   __declspec(property(get = get_telemetryEventName)) ::StringW telemetryEventName;
 
-  /// @brief Method InstallBindings, addr 0x3602f8c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x362dec8, size 0x78, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadPackDefinitionListAsync, addr 0x3603004, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method LoadPackDefinitionListAsync, addr 0x362df40, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>>
   LoadPackDefinitionListAsync();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x3602e04, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x362dd40, size 0x188, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* assets,
                                          ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
 
@@ -131,13 +131,13 @@ public:
 
   constexpr void __cordl_internal_set__packDefinitions(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3603080, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x362dfbc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x3602d7c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x362dcb8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
-  /// @brief Method get_telemetryEventName, addr 0x3602dc0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_telemetryEventName, addr 0x362dcfc, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_telemetryEventName();
 
 protected:
@@ -155,7 +155,7 @@ public:
   PackDefinitionAsyncInstaller(PackDefinitionAsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14974 };
 
   /// @brief Field _packDefinitions, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* ____packDefinitions;

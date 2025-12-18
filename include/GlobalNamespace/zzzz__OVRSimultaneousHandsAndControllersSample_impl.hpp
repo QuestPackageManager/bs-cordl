@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::*)()>(
     &::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::Update)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5cbc558;
+  constexpr static std::size_t addrs = 0x5d23038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::*)()>(
     &::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::EnableSimultaneousHandsAndControllers)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5cbc658;
+  constexpr static std::size_t addrs = 0x5d23138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::*)()>(
     &::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::DisableSimultaneousHandsAndControllers)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5cbc6dc;
+  constexpr static std::size_t addrs = 0x5d231bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::*)()>(
     &::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cbc760;
+  constexpr static std::size_t addrs = 0x5d23240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

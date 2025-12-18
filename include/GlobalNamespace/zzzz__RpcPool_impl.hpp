@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::IRemoteProcedureCall*)>(&::GlobalNamespace::RpcPool::Release)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x321a470;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x3244d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

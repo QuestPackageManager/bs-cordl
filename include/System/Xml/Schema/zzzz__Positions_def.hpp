@@ -35,7 +35,7 @@ public:
   /// @brief Field positions, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_positions, put = __cordl_internal_set_positions)) ::System::Collections::ArrayList* positions;
 
-  /// @brief Method Add, addr 0x610210c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6169c98, size 0x90, virtual false, abstract: false, final false
   inline int32_t Add(int32_t symbol, ::System::Object* particle);
 
   static inline ::System::Xml::Schema::Positions* New_ctor();
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set_positions(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x6102254, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6169de0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x6102234, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x6169dc0, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x610219c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6169d28, size 0x98, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::Position get_Item(int32_t pos);
 
 protected:
@@ -70,7 +70,7 @@ public:
   Positions(Positions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9562 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9566 };
 
   /// @brief Field positions, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ArrayList* ___positions;

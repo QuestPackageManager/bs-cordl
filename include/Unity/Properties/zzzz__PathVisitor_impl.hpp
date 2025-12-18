@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Unity::Properties::PathVisitor_PropertyScope::*)(::Unity::Properties::PathVisitor*, ::Unity::Properties::IProperty*)>(&::Unity::Properties::PathVisitor_PropertyScope::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x696dcec;
+  constexpr static std::size_t addrs = 0x69d6b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::PathVisitor_PropertyScope::*)()>(
     &::Unity::Properties::PathVisitor_PropertyScope::Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x696dd0c;
+  constexpr static std::size_t addrs = 0x69d6b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::PathVisitor_PropertyScope>::get(), "Dispose",
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Properties::PropertyPath (::Unity::Properties::PathVisitor::*)()>(
     &::Unity::Properties::PathVisitor::get_Path)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x696dca0;
+  constexpr static std::size_t addrs = 0x69d6b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::PathVisitor*>::get(), "get_Path",
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::PathVisitor::*)(::Unity::Properties::PropertyPath)>(
     &::Unity::Properties::PathVisitor::set_Path)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x696dcb0;
+  constexpr static std::size_t addrs = 0x69d6b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::PathVisitor::*)()>(&::Unity::Properties::PathVisitor::Reset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6969ef8;
+  constexpr static std::size_t addrs = 0x69d2d7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Properties::IProperty* (::Unity::Properties::PathVisitor::*)()>(
     &::Unity::Properties::PathVisitor::get_Property)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x696dcbc;
+  constexpr static std::size_t addrs = 0x69d6b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::PathVisitor*>::get(), "get_Property",
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::PathVisitor::*)(::Unity::Properties::IProperty*)>(
     &::Unity::Properties::PathVisitor::set_Property)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x696dcc4;
+  constexpr static std::size_t addrs = 0x69d6b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::PathVisitor::*)()>(&::Unity::Properties::PathVisitor::get_ReadonlyVisit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x696dccc;
+  constexpr static std::size_t addrs = 0x69d6b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::PathVisitor*>::get(), "get_ReadonlyVisit",
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::PathVisitor::*)(bool)>(&::Unity::Properties::PathVisitor::set_ReadonlyVisit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x696dcd4;
+  constexpr static std::size_t addrs = 0x69d6b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Properties::VisitReturnCode (::Unity::Properties::PathVisitor::*)()>(
     &::Unity::Properties::PathVisitor::get_ReturnCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x696dcdc;
+  constexpr static std::size_t addrs = 0x69d6b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::PathVisitor*>::get(), "get_ReturnCode",
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::PathVisitor::*)(::Unity::Properties::VisitReturnCode)>(
     &::Unity::Properties::PathVisitor::set_ReturnCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x696dce4;
+  constexpr static std::size_t addrs = 0x69d6b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::PathVisitor::*)()>(&::Unity::Properties::PathVisitor::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6969f28;
+  constexpr static std::size_t addrs = 0x69d2dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::PathVisitor*>::get(), ".ctor",

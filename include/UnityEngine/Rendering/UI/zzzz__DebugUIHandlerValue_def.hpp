@@ -49,19 +49,19 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerValue* New_ctor();
 
-  /// @brief Method OnDeselection, addr 0x65e8568, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnDeselection, addr 0x66500f4, size 0x50, virtual true, abstract: false, final false
   inline void OnDeselection();
 
-  /// @brief Method OnEnable, addr 0x65e8480, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x665000c, size 0x8, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnSelection, addr 0x65e8510, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x665009c, size 0x58, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetWidget, addr 0x65e8488, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6650014, size 0x88, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method Update, addr 0x65e85b8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6650144, size 0x184, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Rendering::DebugUI_Value* const& __cordl_internal_get_m_Field() const;
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_valueLabel(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x65e873c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66502c8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Color getStaticF_k_ZeroColor();
@@ -110,7 +110,7 @@ public:
   DebugUIHandlerValue(DebugUIHandlerValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12512 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12516 };
 
   /// @brief Field nameLabel, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___nameLabel;

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<::GlobalNamespace::OVRTextureData>)>(
     &::GlobalNamespace::OVRKtxTexture::Load)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x5c4d794;
+  constexpr static std::size_t addrs = 0x5cb4274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRKtxTexture::*)()>(&::GlobalNamespace::OVRKtxTexture::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c4d9f8;
+  constexpr static std::size_t addrs = 0x5cb44d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRKtxTexture*>::get(), ".ctor",

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::ImmersiveDebugger::Hierarchy::Item* (
     ::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::get_Item)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5839508;
+  constexpr static std::size_t addrs = 0x589fc6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)(
     ::Meta::XR::ImmersiveDebugger::Hierarchy::Item*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::set_Item)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5839510;
+  constexpr static std::size_t addrs = 0x589fc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::get_Counter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58396c0;
+  constexpr static std::size_t addrs = 0x589fe24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)(int32_t)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::set_Counter)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x58396c8;
+  constexpr static std::size_t addrs = 0x589fe2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle> (
     ::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::get_Foldout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5839734;
+  constexpr static std::size_t addrs = 0x589fe98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel> (
     ::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::get_Label)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x583973c;
+  constexpr static std::size_t addrs = 0x589fea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::Setup)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x5839744;
+  constexpr static std::size_t addrs = 0x589fea8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)(bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::OnStateChanged)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5839cd4;
+  constexpr static std::size_t addrs = 0x58a0438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::Update)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5839dd0;
+  constexpr static std::size_t addrs = 0x58a0534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)(bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::UpdateGameObjectState)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5839628;
+  constexpr static std::size_t addrs = 0x589fd8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)(bool, bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::UpdateGameObjectState)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5839e8c;
+  constexpr static std::size_t addrs = 0x58a05f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::HierarchyItemButton::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5839f68;
+  constexpr static std::size_t addrs = 0x58a06cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

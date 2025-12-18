@@ -53,7 +53,7 @@ public:
 
   __declspec(property(get = get_triggerPressed, put = set_triggerPressed)) ::UnityEngine::InputSystem::Controls::ButtonControl* triggerPressed;
 
-  /// @brief Method FinishSetup, addr 0x62b2f60, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x631aaec, size 0x140, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::OpenVR::HandedViveTracker* New_ctor();
@@ -88,37 +88,37 @@ public:
 
   constexpr void __cordl_internal_set__triggerPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method .ctor, addr 0x62b30a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x631ac2c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_grip, addr 0x62b2f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_grip, addr 0x631aa9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_grip();
 
-  /// @brief Method get_gripPressed, addr 0x62b2f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gripPressed, addr 0x631aaac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_gripPressed();
 
-  /// @brief Method get_primary, addr 0x62b2f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_primary, addr 0x631aabc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_primary();
 
-  /// @brief Method get_trackpadPressed, addr 0x62b2f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackpadPressed, addr 0x631aacc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadPressed();
 
-  /// @brief Method get_triggerPressed, addr 0x62b2f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_triggerPressed, addr 0x631aadc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_triggerPressed();
 
-  /// @brief Method set_grip, addr 0x62b2f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_grip, addr 0x631aaa4, size 0x8, virtual false, abstract: false, final false
   inline void set_grip(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_gripPressed, addr 0x62b2f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gripPressed, addr 0x631aab4, size 0x8, virtual false, abstract: false, final false
   inline void set_gripPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_primary, addr 0x62b2f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_primary, addr 0x631aac4, size 0x8, virtual false, abstract: false, final false
   inline void set_primary(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_trackpadPressed, addr 0x62b2f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackpadPressed, addr 0x631aad4, size 0x8, virtual false, abstract: false, final false
   inline void set_trackpadPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_triggerPressed, addr 0x62b2f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_triggerPressed, addr 0x631aae4, size 0x8, virtual false, abstract: false, final false
   inline void set_triggerPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:
@@ -136,7 +136,7 @@ public:
   HandedViveTracker(HandedViveTracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8576 };
 
   /// @brief Field <grip>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____grip_k__BackingField;

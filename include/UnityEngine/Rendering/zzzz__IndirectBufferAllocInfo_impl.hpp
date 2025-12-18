@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::IndirectBufferAllocInfo::*)()>(
     &::UnityEngine::Rendering::IndirectBufferAllocInfo::IsEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x660fcd4;
+  constexpr static std::size_t addrs = 0x6677860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::IndirectBufferAllocInfo>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::IndirectBufferAllocInfo::*)(::ByRef<::UnityEngine::Rendering::IndirectBufferLimits>)>(
     &::UnityEngine::Rendering::IndirectBufferAllocInfo::IsWithinLimits)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x660fce4;
+  constexpr static std::size_t addrs = 0x6677870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::IndirectBufferAllocInfo::*)()>(
     &::UnityEngine::Rendering::IndirectBufferAllocInfo::GetExtraDrawInfoSlotIndex)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x660fd18;
+  constexpr static std::size_t addrs = 0x66778a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::IndirectBufferAllocInfo>::get(),

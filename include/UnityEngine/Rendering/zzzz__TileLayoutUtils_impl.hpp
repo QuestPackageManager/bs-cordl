@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::RectInt, uint32_t, ::ByRef<::UnityEngine::RectInt>, ::ByRef<::UnityEngine::RectInt>, ::ByRef<::UnityEngine::RectInt>, ::ByRef<::UnityEngine::RectInt>)>(
         &::UnityEngine::Rendering::TileLayoutUtils::TryLayoutByTiles)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x65aa5e8;
+  constexpr static std::size_t addrs = 0x6612174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::RectInt, uint32_t, ::ByRef<::UnityEngine::RectInt>, ::ByRef<::UnityEngine::RectInt>)>(
     &::UnityEngine::Rendering::TileLayoutUtils::TryLayoutByRow)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x65aa674;
+  constexpr static std::size_t addrs = 0x6612200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::RectInt, uint32_t, ::ByRef<::UnityEngine::RectInt>, ::ByRef<::UnityEngine::RectInt>)>(
     &::UnityEngine::Rendering::TileLayoutUtils::TryLayoutByCol)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x65aa6d4;
+  constexpr static std::size_t addrs = 0x6612260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -112,15 +112,15 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::ScoringElement*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::ScoringElement*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x57e2458, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x5848d3c, size 0xb4, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::ScoringElement* other);
 
   static inline ::GlobalNamespace::ScoringElement* New_ctor();
 
-  /// @brief Method Reinitialize, addr 0x57e250c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reinitialize, addr 0x5848df0, size 0x4, virtual true, abstract: false, final false
   inline void Reinitialize();
 
-  /// @brief Method SetMultipliers, addr 0x57e1b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMultipliers, addr 0x584842c, size 0x8, virtual false, abstract: false, final false
   inline void SetMultipliers(int32_t multiplier, int32_t maxMultiplier);
 
   constexpr bool const& __cordl_internal_get__isFinished_k__BackingField() const;
@@ -147,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set__noteData_k__BackingField(::GlobalNamespace::NoteData* value);
 
-  /// @brief Method .ctor, addr 0x57e2510, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5848df4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_cutScore, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -156,25 +156,25 @@ public:
   /// @brief Method get_executionOrder, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method get_isFinished, addr 0x57e2448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isFinished, addr 0x5848d2c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isFinished();
 
-  /// @brief Method get_maxMultiplier, addr 0x57e2438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxMultiplier, addr 0x5848d1c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxMultiplier();
 
-  /// @brief Method get_maxPossibleCutScore, addr 0x57e1b50, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_maxPossibleCutScore, addr 0x5848434, size 0x8c, virtual false, abstract: false, final false
   inline int32_t get_maxPossibleCutScore();
 
-  /// @brief Method get_multiplier, addr 0x57e2428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplier, addr 0x5848d0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_multiplier();
 
   /// @brief Method get_multiplierEventType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType get_multiplierEventType();
 
-  /// @brief Method get_noteData, addr 0x57e2418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteData, addr 0x5848cfc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteData* get_noteData();
 
-  /// @brief Method get_time, addr 0x57e1b30, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x5848414, size 0x18, virtual false, abstract: false, final false
   inline float_t get_time();
 
   /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -183,16 +183,16 @@ public:
   /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::ScoringElement*>"
   constexpr ::System::IComparable_1<::GlobalNamespace::ScoringElement*>* i___System__IComparable_1___GlobalNamespace__ScoringElement__() noexcept;
 
-  /// @brief Method set_isFinished, addr 0x57e2450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isFinished, addr 0x5848d34, size 0x8, virtual false, abstract: false, final false
   inline void set_isFinished(bool value);
 
-  /// @brief Method set_maxMultiplier, addr 0x57e2440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxMultiplier, addr 0x5848d24, size 0x8, virtual false, abstract: false, final false
   inline void set_maxMultiplier(int32_t value);
 
-  /// @brief Method set_multiplier, addr 0x57e2430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_multiplier, addr 0x5848d14, size 0x8, virtual false, abstract: false, final false
   inline void set_multiplier(int32_t value);
 
-  /// @brief Method set_noteData, addr 0x57e2420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_noteData, addr 0x5848d04, size 0x8, virtual false, abstract: false, final false
   inline void set_noteData(::GlobalNamespace::NoteData* value);
 
 protected:

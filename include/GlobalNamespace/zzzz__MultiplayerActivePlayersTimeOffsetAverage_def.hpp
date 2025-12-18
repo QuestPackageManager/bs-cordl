@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerActivePlayersTimeOffsetAverage)
 namespace GlobalNamespace {
-class IMultiplayerObservable;
+class IBeatSaberMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IMultiplayerObservable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,7 +30,7 @@ public:
 
   /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _timeOfLastValidReturnedTime, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__timeOfLastValidReturnedTime, put = __cordl_internal_set__timeOfLastValidReturnedTime)) int64_t _timeOfLastValidReturnedTime;
@@ -48,9 +48,9 @@ public:
 
   constexpr int64_t& __cordl_internal_get__lastReturnedOffsetSyncTime();
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
   constexpr int64_t const& __cordl_internal_get__timeOfLastValidReturnedTime() const;
 
@@ -58,17 +58,17 @@ public:
 
   constexpr void __cordl_internal_set__lastReturnedOffsetSyncTime(int64_t value);
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
 
   constexpr void __cordl_internal_set__timeOfLastValidReturnedTime(int64_t value);
 
-  /// @brief Method .ctor, addr 0x57bda7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5824368, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isFailed, addr 0x57bd930, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method get_isFailed, addr 0x582421c, size 0x14c, virtual true, abstract: false, final true
   inline bool get_isFailed();
 
-  /// @brief Method get_offsetSyncTime, addr 0x57bd6a4, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method get_offsetSyncTime, addr 0x5823f90, size 0x28c, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerObservable"
@@ -92,7 +92,7 @@ public:
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6133 };
 
   /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
+  ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
   /// @brief Field _lastReturnedOffsetSyncTime, offset: 0x18, size: 0x8, def value: None
   int64_t ____lastReturnedOffsetSyncTime;

@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_emptyIsAllowed(bool value);
 
-  /// @brief Method .ctor, addr 0x35d1390, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35fbbd4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW emptyExplanation);
 
 protected:
@@ -57,7 +57,7 @@ public:
   ColorSchemeIdAttribute(ColorSchemeIdAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22764 };
 
   /// @brief Field emptyIsAllowed, offset: 0x15, size: 0x1, def value: None
   bool ___emptyIsAllowed;

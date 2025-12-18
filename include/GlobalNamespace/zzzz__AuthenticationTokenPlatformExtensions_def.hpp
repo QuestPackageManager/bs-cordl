@@ -24,7 +24,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE AuthenticationTokenPlatformExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToAuthenticationTokenPlatform, addr 0x5d2a4d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ToAuthenticationTokenPlatform, addr 0x5d92030, size 0x20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::AuthenticationToken_PlatformType ToAuthenticationTokenPlatform(::GlobalNamespace::UserInfo_Platform platform);
 
 protected:
@@ -42,7 +42,7 @@ public:
   AuthenticationTokenPlatformExtensions(AuthenticationTokenPlatformExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23100 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic::*)()>(
     &::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x68d3a18;
+  constexpr static std::size_t addrs = 0x693c89c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic* (*)()>(
     &::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic::CreateUaaLApplicationLaunchAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68d3a90;
+  constexpr static std::size_t addrs = 0x693c914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

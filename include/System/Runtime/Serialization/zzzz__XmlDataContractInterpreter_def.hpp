@@ -30,10 +30,10 @@ public:
   /// @brief Field contract, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_contract, put = __cordl_internal_set_contract)) ::System::Runtime::Serialization::XmlDataContract* contract;
 
-  /// @brief Method CreateXmlSerializable, addr 0x5f60954, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CreateXmlSerializable, addr 0x5fc84e0, size 0x138, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::IXmlSerializable* CreateXmlSerializable();
 
-  /// @brief Method GetConstructor, addr 0x5f60a8c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetConstructor, addr 0x5fc8618, size 0x188, virtual false, abstract: false, final false
   inline ::System::Reflection::ConstructorInfo* GetConstructor();
 
   static inline ::System::Runtime::Serialization::XmlDataContractInterpreter* New_ctor(::System::Runtime::Serialization::XmlDataContract* contract);
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_contract(::System::Runtime::Serialization::XmlDataContract* value);
 
-  /// @brief Method .ctor, addr 0x5f6094c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc84d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::XmlDataContract* contract);
 
 protected:
@@ -62,7 +62,7 @@ public:
   XmlDataContractInterpreter(XmlDataContractInterpreter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17112 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17126 };
 
   /// @brief Field contract, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::XmlDataContract* ___contract;

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Meta::XR::ImmersiveDebugger::Manager::Category (::Meta::XR::ImmersiveDebugger::UserInterface::CategoryButton::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::CategoryButton::get_Category)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5832f68;
+  constexpr static std::size_t addrs = 0x58996cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::CategoryButton::*)(
     ::Meta::XR::ImmersiveDebugger::Manager::Category)>(&::Meta::XR::ImmersiveDebugger::UserInterface::CategoryButton::set_Category)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5832f74;
+  constexpr static std::size_t addrs = 0x58996d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Meta::XR::ImmersiveDebugger::UserInterface::CategoryButton::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::CategoryButton::get_Counter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x583300c;
+  constexpr static std::size_t addrs = 0x5899770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::CategoryButton::*)(int32_t)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::CategoryButton::set_Counter)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5833014;
+  constexpr static std::size_t addrs = 0x5899778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::CategoryButton::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::CategoryButton::Setup)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x583315c;
+  constexpr static std::size_t addrs = 0x58998c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::CategoryButton::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::CategoryButton::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5833510;
+  constexpr static std::size_t addrs = 0x5899c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

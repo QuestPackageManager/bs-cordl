@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::Setup)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5845788;
+  constexpr static std::size_t addrs = 0x58abeec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::RegisterDropdownSourceMenu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58458b0;
+  constexpr static std::size_t addrs = 0x58ac014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::OnPointerClick)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x58458b8;
+  constexpr static std::size_t addrs = 0x58ac01c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58458e0;
+  constexpr static std::size_t addrs = 0x58ac044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

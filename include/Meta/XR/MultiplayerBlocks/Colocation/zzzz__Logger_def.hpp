@@ -37,31 +37,31 @@ public:
   /// @brief Field _isWarningLogVisible, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF__isWarningLogVisible, put = setStaticF__isWarningLogVisible)) bool _isWarningLogVisible;
 
-  /// @brief Method GetPrefixMessage, addr 0x586c414, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetPrefixMessage, addr 0x58d2b78, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW GetPrefixMessage(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel logLevel);
 
-  /// @brief Method Log, addr 0x585c02c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x58c2790, size 0xf4, virtual false, abstract: false, final false
   static inline void Log(::StringW message, ::Meta::XR::MultiplayerBlocks::Colocation::LogLevel logLevel);
 
-  /// @brief Method LogError, addr 0x586c2bc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x58d2a20, size 0xac, virtual false, abstract: false, final false
   static inline void LogError(::StringW message);
 
-  /// @brief Method LogInfo, addr 0x586c164, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LogInfo, addr 0x58d28c8, size 0xac, virtual false, abstract: false, final false
   static inline void LogInfo(::StringW message);
 
-  /// @brief Method LogSharedSpatialAnchorsError, addr 0x586c368, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LogSharedSpatialAnchorsError, addr 0x58d2acc, size 0xac, virtual false, abstract: false, final false
   static inline void LogSharedSpatialAnchorsError(::StringW message);
 
-  /// @brief Method LogVerbose, addr 0x586c0b8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LogVerbose, addr 0x58d281c, size 0xac, virtual false, abstract: false, final false
   static inline void LogVerbose(::StringW message);
 
-  /// @brief Method LogWarning, addr 0x586c210, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x58d2974, size 0xac, virtual false, abstract: false, final false
   static inline void LogWarning(::StringW message);
 
-  /// @brief Method SetAllLogsVisibility, addr 0x585b27c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetAllLogsVisibility, addr 0x58c19e0, size 0x60, virtual false, abstract: false, final false
   static inline void SetAllLogsVisibility(bool value);
 
-  /// @brief Method SetLogLevelVisibility, addr 0x585b2dc, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method SetLogLevelVisibility, addr 0x58c1a40, size 0x180, virtual false, abstract: false, final false
   static inline void SetLogLevelVisibility(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel logLevel, bool value);
 
   static inline bool getStaticF__isErrorLogVisible();
@@ -99,7 +99,7 @@ public:
   Logger(Logger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20392 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20417 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

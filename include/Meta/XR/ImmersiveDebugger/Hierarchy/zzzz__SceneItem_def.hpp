@@ -34,24 +34,24 @@ public:
 
   __declspec(property(get = get_Valid)) bool Valid;
 
-  /// @brief Method BuildHandle, addr 0x5854874, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method BuildHandle, addr 0x58bafd8, size 0x18, virtual true, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle BuildHandle();
 
-  /// @brief Method CompareChildren, addr 0x5854760, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CompareChildren, addr 0x58baec4, size 0x6c, virtual true, abstract: false, final false
   inline bool CompareChildren(::UnityEngine::GameObject* lhs, ::UnityEngine::GameObject* rhs);
 
-  /// @brief Method FetchExpectedChildren, addr 0x585488c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method FetchExpectedChildren, addr 0x58baff0, size 0xc, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> FetchExpectedChildren();
 
   static inline ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5854898, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58baffc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Label, addr 0x58547cc, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_Label, addr 0x58baf30, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW get_Label();
 
-  /// @brief Method get_Valid, addr 0x5854838, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x58baf9c, size 0x3c, virtual true, abstract: false, final false
   inline bool get_Valid();
 
 protected:
@@ -69,7 +69,7 @@ public:
   SceneItem(SceneItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18422 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18437 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

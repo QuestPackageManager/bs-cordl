@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::StringW, ::Array<::StringW>*>, ::UnityEngine::Rendering::FieldPacking, int32_t, int32_t, float_t, float_t, bool, bool, bool, ::StringW)>(
     &::UnityEngine::Rendering::PackingAttribute::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6584664;
+  constexpr static std::size_t addrs = 0x65ec1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::PackingAttribute::*)(
     ::StringW, ::UnityEngine::Rendering::FieldPacking, int32_t, int32_t, float_t, float_t, bool, bool, bool, ::StringW)>(&::UnityEngine::Rendering::PackingAttribute::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6584754;
+  constexpr static std::size_t addrs = 0x65ec2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

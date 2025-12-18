@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalShadowData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalShadowData::Reset)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6657dfc;
+  constexpr static std::size_t addrs = 0x66bf988;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalShadowData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalShadowData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6657efc;
+  constexpr static std::size_t addrs = 0x66bfa88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::UniversalShadowData*>::get(),

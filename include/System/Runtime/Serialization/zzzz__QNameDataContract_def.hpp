@@ -45,25 +45,25 @@ public:
 
   static inline ::System::Runtime::Serialization::QNameDataContract* New_ctor();
 
-  /// @brief Method ReadXmlValue, addr 0x5f429b8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ReadXmlValue, addr 0x5faa544, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
 
-  /// @brief Method WriteRootElement, addr 0x5f42a58, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method WriteRootElement, addr 0x5faa5e4, size 0x100, virtual true, abstract: false, final false
   inline void WriteRootElement(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method WriteXmlValue, addr 0x5f42914, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlValue, addr 0x5faa4a0, size 0xa4, virtual true, abstract: false, final false
   inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
 
-  /// @brief Method .ctor, addr 0x5f427d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5faa360, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsPrimitive, addr 0x5f4290c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPrimitive, addr 0x5faa498, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPrimitive();
 
-  /// @brief Method get_ReadMethodName, addr 0x5f428c8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ReadMethodName, addr 0x5faa454, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ReadMethodName();
 
-  /// @brief Method get_WriteMethodName, addr 0x5f42884, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_WriteMethodName, addr 0x5faa410, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_WriteMethodName();
 
 protected:
@@ -81,7 +81,7 @@ public:
   QNameDataContract(QNameDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17077 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

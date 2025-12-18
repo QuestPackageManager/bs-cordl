@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderersParameters_ParamInfo::*)()>(
     &::UnityEngine::Rendering::RenderersParameters_ParamInfo::get_valid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6619ae4;
+  constexpr static std::size_t addrs = 0x6681670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderersParameters_ParamInfo>::get(),
@@ -132,7 +132,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Rendering::GPUInstanceDataBuffer* (*)(::UnityEngine::Rendering::RenderersParameters_Flags, ::ByRef<::UnityEngine::Rendering::InstanceNumInfo>)>(
         &::UnityEngine::Rendering::RenderersParameters::CreateInstanceDataBuffer)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x66184f8;
+  constexpr static std::size_t addrs = 0x6680084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderersParameters::*)(::ByRef<::UnityEngine::Rendering::GPUInstanceDataBuffer*>)>(
     &::UnityEngine::Rendering::RenderersParameters::_ctor)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x66188c0;
+  constexpr static std::size_t addrs = 0x668044c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderersParameters_ParamInfo (*)(
     ::ByRef<::UnityEngine::Rendering::GPUInstanceDataBuffer*>, int32_t, bool)>(&::UnityEngine::Rendering::RenderersParameters::__ctor_g__GetParamInfo_14_0)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6619614;
+  constexpr static std::size_t addrs = 0x66811a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -64,13 +64,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable"
   constexpr operator ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable*() noexcept;
 
-  /// @brief Method AddWidget, addr 0x653c8ac, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method AddWidget, addr 0x65a4438, size 0x100, virtual false, abstract: false, final false
   inline void AddWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method Clear, addr 0x653c9ac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x65a4538, size 0x78, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x653ca24, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x65a45b0, size 0x4, virtual true, abstract: false, final false
   inline void Dispose();
 
   static inline ::UnityEngine::Rendering::DebugDisplaySettingsPanel* New_ctor();
@@ -87,19 +87,19 @@ public:
 
   constexpr void __cordl_internal_set_m_Widgets(::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>* value);
 
-  /// @brief Method .ctor, addr 0x653ca28, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a45b4, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Flags, addr 0x653c8a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x65a4430, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Flags get_Flags();
 
-  /// @brief Method get_Order, addr 0x653c838, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Order, addr 0x65a43c4, size 0x18, virtual true, abstract: false, final false
   inline int32_t get_Order();
 
-  /// @brief Method get_PanelName, addr 0x653c810, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_PanelName, addr 0x65a439c, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_PanelName();
 
-  /// @brief Method get_Widgets, addr 0x653c850, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method get_Widgets, addr 0x65a43dc, size 0x54, virtual true, abstract: false, final true
   inline ::ArrayW<::UnityEngine::Rendering::DebugUI_Widget*, ::Array<::UnityEngine::Rendering::DebugUI_Widget*>*> get_Widgets();
 
   /// @brief Convert to "::System::IDisposable"
@@ -126,7 +126,7 @@ public:
   DebugDisplaySettingsPanel(DebugDisplaySettingsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11926 };
 
   /// @brief Field m_Widgets, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>* ___m_Widgets;

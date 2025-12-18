@@ -30,15 +30,15 @@ public:
 
   __declspec(property(get = get_stepCounter, put = set_stepCounter)) ::UnityEngine::InputSystem::Controls::IntegerControl* stepCounter;
 
-  /// @brief Method FinishSetup, addr 0x63490bc, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x63b0c48, size 0x70, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x6348fdc, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x63b0b68, size 0x50, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::StepCounter* New_ctor();
 
-  /// @brief Method OnRemoved, addr 0x634902c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x63b0bb8, size 0x90, virtual true, abstract: false, final false
   inline void OnRemoved();
 
   constexpr ::UnityEngine::InputSystem::Controls::IntegerControl* const& __cordl_internal_get__stepCounter_k__BackingField() const;
@@ -47,23 +47,23 @@ public:
 
   constexpr void __cordl_internal_set__stepCounter_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method .ctor, addr 0x634912c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63b0cb8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::StepCounter* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_current, addr 0x6348f40, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x63b0acc, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::StepCounter* get_current();
 
-  /// @brief Method get_stepCounter, addr 0x6348f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stepCounter, addr 0x63b0abc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_stepCounter();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::StepCounter* value);
 
-  /// @brief Method set_current, addr 0x6348f8c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x63b0b18, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::StepCounter* value);
 
-  /// @brief Method set_stepCounter, addr 0x6348f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stepCounter, addr 0x63b0ac4, size 0x8, virtual false, abstract: false, final false
   inline void set_stepCounter(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   StepCounter(StepCounter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8751 };
 
   /// @brief Field <stepCounter>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::IntegerControl* ____stepCounter_k__BackingField;

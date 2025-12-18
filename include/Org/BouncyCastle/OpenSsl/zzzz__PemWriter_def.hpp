@@ -30,13 +30,13 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::OpenSsl::PemWriter* New_ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method WriteObject, addr 0x3484380, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x34aebc4, size 0x15c, virtual false, abstract: false, final false
   inline void WriteObject(::System::Object* obj);
 
-  /// @brief Method WriteObject, addr 0x34844dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x34aed20, size 0x7c, virtual false, abstract: false, final false
   inline void WriteObject(::System::Object* obj, ::StringW algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0x348437c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34aebc0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextWriter* writer);
 
 protected:

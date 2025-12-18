@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set_m_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5a5a2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ac0bfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t cookie);
 
-  /// @brief Method get_Cookie, addr 0x5a5a2c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cookie, addr 0x5ac0c14, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Cookie();
 
-  /// @brief Method get_Value, addr 0x5a5a2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5ac0c04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method set_Value, addr 0x5a5a2c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x5ac0c0c, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::System::Object* value);
 
 protected:

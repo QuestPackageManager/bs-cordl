@@ -54,18 +54,18 @@ public:
   /// @brief Field _samples, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__samples, put = __cordl_internal_set__samples)) ::ArrayW<float_t, ::Array<float_t>*> _samples;
 
-  /// @brief Method Awake, addr 0x578d354, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x57f3bfc, size 0xb0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetFakeSamples, addr 0x578d01c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetFakeSamples, addr 0x57f38c4, size 0x144, virtual false, abstract: false, final false
   inline void GetFakeSamples(::ArrayW<float_t, ::Array<float_t>*> samples);
 
-  /// @brief Method LateUpdate, addr 0x578d404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x57f3cac, size 0x8, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::BasicSpectrogramData* New_ctor();
 
-  /// @brief Method ProcessSamples, addr 0x578d19c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ProcessSamples, addr 0x57f3a44, size 0x1b8, virtual false, abstract: false, final false
   inline void ProcessSamples(::ArrayW<float_t, ::Array<float_t>*> sourceSamples, ::System::Collections::Generic::List_1<float_t>* processedSamples);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -110,13 +110,13 @@ public:
 
   constexpr void __cordl_internal_set__samples(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x578d40c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57f3cb4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ProcessedSamples, addr 0x578d160, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessedSamples, addr 0x57f3a08, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<float_t>* get_ProcessedSamples();
 
-  /// @brief Method get_Samples, addr 0x578cf64, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_Samples, addr 0x57f380c, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_Samples();
 
 protected:

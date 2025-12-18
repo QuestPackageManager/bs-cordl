@@ -30,15 +30,15 @@ public:
 
   __declspec(property(get = get_distance, put = set_distance)) ::UnityEngine::InputSystem::Controls::AxisControl* distance;
 
-  /// @brief Method FinishSetup, addr 0x6348a68, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x63b05f4, size 0x70, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x6348988, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x63b0514, size 0x50, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::ProximitySensor* New_ctor();
 
-  /// @brief Method OnRemoved, addr 0x63489d8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x63b0564, size 0x90, virtual true, abstract: false, final false
   inline void OnRemoved();
 
   constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__distance_k__BackingField() const;
@@ -47,23 +47,23 @@ public:
 
   constexpr void __cordl_internal_set__distance_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method .ctor, addr 0x6348ad8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63b0664, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::ProximitySensor* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_current, addr 0x63488ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x63b0478, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::ProximitySensor* get_current();
 
-  /// @brief Method get_distance, addr 0x63488dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x63b0468, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_distance();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::ProximitySensor* value);
 
-  /// @brief Method set_current, addr 0x6348938, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x63b04c4, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::ProximitySensor* value);
 
-  /// @brief Method set_distance, addr 0x63488e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_distance, addr 0x63b0470, size 0x8, virtual false, abstract: false, final false
   inline void set_distance(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   ProximitySensor(ProximitySensor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8748 };
 
   /// @brief Field <distance>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____distance_k__BackingField;

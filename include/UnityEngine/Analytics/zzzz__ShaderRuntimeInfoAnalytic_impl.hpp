@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Analytics::ShaderRuntimeInfoAnalytic::*)()>(
     &::UnityEngine::Analytics::ShaderRuntimeInfoAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x68d3ae4;
+  constexpr static std::size_t addrs = 0x693c968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Analytics::ShaderRuntimeInfoAnalytic*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Analytics::ShaderRuntimeInfoAnalytic* (*)()>(
     &::UnityEngine::Analytics::ShaderRuntimeInfoAnalytic::CreateShaderRuntimeInfoAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68d3b78;
+  constexpr static std::size_t addrs = 0x693c9fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

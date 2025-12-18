@@ -43,18 +43,18 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x5ed29bc, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5f3a548, size 0x110, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x5ed2acc, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5f3a658, size 0xa8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::RangeItemHeaderValue* New_ctor(::System::Nullable_1<int64_t> from, ::System::Nullable_1<int64_t> to);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x5ed29b8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x5f3a544, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x5ed2b74, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5f3a700, size 0x11c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Nullable_1<int64_t> const& __cordl_internal_get__From_k__BackingField() const;
@@ -69,22 +69,22 @@ public:
 
   constexpr void __cordl_internal_set__To_k__BackingField(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method .ctor, addr 0x5ed285c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3a3e8, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<int64_t> from, ::System::Nullable_1<int64_t> to);
 
-  /// @brief Method get_From, addr 0x5ed2990, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_From, addr 0x5f3a51c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_From();
 
-  /// @brief Method get_To, addr 0x5ed29a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_To, addr 0x5f3a530, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_To();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_From, addr 0x5ed299c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_From, addr 0x5f3a528, size 0x8, virtual false, abstract: false, final false
   inline void set_From(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_To, addr 0x5ed29b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_To, addr 0x5f3a53c, size 0x8, virtual false, abstract: false, final false
   inline void set_To(::System::Nullable_1<int64_t> value);
 
 protected:
@@ -102,7 +102,7 @@ public:
   RangeItemHeaderValue(RangeItemHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20110 };
 
   /// @brief Field <From>k__BackingField, offset: 0x10, size: 0x10, def value: None
   ::System::Nullable_1<int64_t> ____From_k__BackingField;

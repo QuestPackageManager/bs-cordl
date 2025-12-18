@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerOverEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6b71604, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6bda488, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerOverEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6b71600, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bda484, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerOverEvent___c* getStaticF___9();
@@ -76,12 +76,12 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::PointerOverEvent___c;
 
-  /// @brief Method Dispatch, addr 0x6b7155c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x6bda3e0, size 0x4, virtual true, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   static inline ::UnityEngine::UIElements::PointerOverEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b71560, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bda3e4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

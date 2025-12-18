@@ -16,10 +16,10 @@ namespace GlobalNamespace {
 class ByteArrayNetSerializable;
 }
 namespace GlobalNamespace {
-class IBeatSaberMultiplayerSessionManager;
+class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberMultiplayerSessionManager;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -45,7 +45,7 @@ public:
   // Declarations
   /// @brief Field _latestOptionalAvatarDataDictionary, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__latestOptionalAvatarDataDictionary, put = __cordl_internal_set__latestOptionalAvatarDataDictionary)) ::System::Collections::Generic::Dictionary_2<
-      ::GlobalNamespace::IConnectedPlayer*, ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>*>* _latestOptionalAvatarDataDictionary;
+      ::GlobalNamespace::IBeatSaberConnectedPlayer*, ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>*>* _latestOptionalAvatarDataDictionary;
 
   /// @brief Field _multiplayerSessionManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
@@ -53,64 +53,66 @@ public:
 
   /// @brief Field didChangeOptionalAvatarDataEvent, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_didChangeOptionalAvatarDataEvent,
-                      put = __cordl_internal_set_didChangeOptionalAvatarDataEvent)) ::System::Action_2<::GlobalNamespace::IConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>*
+                      put = __cordl_internal_set_didChangeOptionalAvatarDataEvent)) ::System::Action_2<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>*
       didChangeOptionalAvatarDataEvent;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3172278, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x31a1f6c, size 0xc0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleOptionalAvatarDataChanged, addr 0x3172338, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method HandleOptionalAvatarDataChanged, addr 0x31a202c, size 0x2e4, virtual false, abstract: false, final false
   inline ::BeatSaber::AvatarCore::OptionalAvatarData HandleOptionalAvatarDataChanged(uint32_t dataType, ::GlobalNamespace::ByteArrayNetSerializable* data,
-                                                                                     ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+                                                                                     ::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
 
-  /// @brief Method HandleOptionalAvatarDataPacket, addr 0x317261c, size 0x80, virtual false, abstract: false, final false
-  inline void HandleOptionalAvatarDataPacket(::BeatSaber::AvatarCore::OptionalAvatarDataPacket* packet, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+  /// @brief Method HandleOptionalAvatarDataPacket, addr 0x31a2310, size 0x80, virtual false, abstract: false, final false
+  inline void HandleOptionalAvatarDataPacket(::BeatSaber::AvatarCore::OptionalAvatarDataPacket* packet, ::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
 
   static inline ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method SendOptionalAvatarData, addr 0x3171e10, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method SendOptionalAvatarData, addr 0x31a1b04, size 0x25c, virtual false, abstract: false, final false
   inline void SendOptionalAvatarData(::BeatSaber::AvatarCore::OptionalAvatarData data);
 
-  /// @brief Method TryGetAllLatestOptionalAvatarData, addr 0x3170d9c, size 0x6c, virtual false, abstract: false, final false
-  inline bool TryGetAllLatestOptionalAvatarData(::GlobalNamespace::IConnectedPlayer* connectedPlayer,
+  /// @brief Method TryGetAllLatestOptionalAvatarData, addr 0x31a0a90, size 0x6c, virtual false, abstract: false, final false
+  inline bool TryGetAllLatestOptionalAvatarData(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer,
                                                 ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>*> data);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::IConnectedPlayer*,
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::IBeatSaberConnectedPlayer*,
                                                          ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>*>* const&
   __cordl_internal_get__latestOptionalAvatarDataDictionary() const;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::IConnectedPlayer*, ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>*>*&
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::IBeatSaberConnectedPlayer*,
+                                                         ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>*>*&
   __cordl_internal_get__latestOptionalAvatarDataDictionary();
 
   constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
 
   constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::System::Action_2<::GlobalNamespace::IConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>* const& __cordl_internal_get_didChangeOptionalAvatarDataEvent() const;
+  constexpr ::System::Action_2<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>* const& __cordl_internal_get_didChangeOptionalAvatarDataEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::IConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>*& __cordl_internal_get_didChangeOptionalAvatarDataEvent();
+  constexpr ::System::Action_2<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>*& __cordl_internal_get_didChangeOptionalAvatarDataEvent();
 
   constexpr void __cordl_internal_set__latestOptionalAvatarDataDictionary(
-      ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::IConnectedPlayer*, ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>*>* value);
+      ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>*>*
+          value);
 
   constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
 
-  constexpr void __cordl_internal_set_didChangeOptionalAvatarDataEvent(::System::Action_2<::GlobalNamespace::IConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>* value);
+  constexpr void __cordl_internal_set_didChangeOptionalAvatarDataEvent(::System::Action_2<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>* value);
 
-  /// @brief Method .ctor, addr 0x317206c, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31a1d60, size 0x20c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method add_didChangeOptionalAvatarDataEvent, addr 0x3171164, size 0xc0, virtual false, abstract: false, final false
-  inline void add_didChangeOptionalAvatarDataEvent(::System::Action_2<::GlobalNamespace::IConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>* value);
+  /// @brief Method add_didChangeOptionalAvatarDataEvent, addr 0x31a0e58, size 0xc0, virtual false, abstract: false, final false
+  inline void add_didChangeOptionalAvatarDataEvent(::System::Action_2<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>* value);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_didChangeOptionalAvatarDataEvent, addr 0x31712b8, size 0xc0, virtual false, abstract: false, final false
-  inline void remove_didChangeOptionalAvatarDataEvent(::System::Action_2<::GlobalNamespace::IConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>* value);
+  /// @brief Method remove_didChangeOptionalAvatarDataEvent, addr 0x31a0fac, size 0xc0, virtual false, abstract: false, final false
+  inline void remove_didChangeOptionalAvatarDataEvent(::System::Action_2<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>* value);
 
 protected:
   // Ctor Parameters []
@@ -127,13 +129,13 @@ public:
   OptionalAvatarDataSyncHandler(OptionalAvatarDataSyncHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21447 };
 
   /// @brief Field didChangeOptionalAvatarDataEvent, offset: 0x10, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::IConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>* ___didChangeOptionalAvatarDataEvent;
+  ::System::Action_2<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::BeatSaber::AvatarCore::OptionalAvatarData>* ___didChangeOptionalAvatarDataEvent;
 
   /// @brief Field _latestOptionalAvatarDataDictionary, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::IConnectedPlayer*, ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>*>*
+  ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>*>*
       ____latestOptionalAvatarDataDictionary;
 
   /// @brief Field _multiplayerSessionManager, offset: 0x20, size: 0x8, def value: None

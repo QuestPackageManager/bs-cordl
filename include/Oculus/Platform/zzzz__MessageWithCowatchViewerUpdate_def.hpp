@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithCowatchViewerUpdate : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::CowatchViewerUpdate*> {
 public:
   // Declarations
-  /// @brief Method GetCowatchViewerUpdate, addr 0x5bc5a98, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetCowatchViewerUpdate, addr 0x5c2c578, size 0x44, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::CowatchViewerUpdate* GetCowatchViewerUpdate();
 
-  /// @brief Method GetDataFromMessage, addr 0x5bc5adc, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x5c2c5bc, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::CowatchViewerUpdate* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithCowatchViewerUpdate* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x5bc25c0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c290a0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,7 +50,7 @@ public:
   MessageWithCowatchViewerUpdate(MessageWithCowatchViewerUpdate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17848 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

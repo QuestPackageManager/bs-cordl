@@ -78,21 +78,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x56cfe48, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5877268, size 0xac, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x56cfef8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5877314, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x56cff00, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x587731c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x56cff38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5877354, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x56cfe44, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5877264, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::HealthWarningViewController> value);
 
-  /// @brief Method .ctor, addr 0x56cfe38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5877258, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -140,7 +140,7 @@ public:
   HealthWarningViewController__DismissHealthAndSafety_d__11(HealthWarningViewController__DismissHealthAndSafety_d__11 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6489 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6483 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -196,16 +196,16 @@ public:
   /// @brief Field _safeAreaRectChecker, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__safeAreaRectChecker, put = __cordl_internal_set__safeAreaRectChecker)) ::UnityW<::GlobalNamespace::SafeAreaRectChecker> _safeAreaRectChecker;
 
-  /// @brief Method DidActivate, addr 0x56cfb28, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5876f48, size 0x1e0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x56cfd5c, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x587717c, size 0xd4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method DismissHealthAndSafety, addr 0x56cfd08, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DismissHealthAndSafety, addr 0x5877128, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DismissHealthAndSafety();
 
-  /// @brief Method Init, addr 0x56cfe30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5877250, size 0x8, virtual false, abstract: false, final false
   inline void Init(bool requiresInteraction);
 
   static inline ::GlobalNamespace::HealthWarningViewController* New_ctor();
@@ -258,7 +258,7 @@ public:
 
   constexpr void __cordl_internal_set__safeAreaRectChecker(::UnityW<::GlobalNamespace::SafeAreaRectChecker> value);
 
-  /// @brief Method .ctor, addr 0x56cfe40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5877260, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -276,7 +276,7 @@ public:
   HealthWarningViewController(HealthWarningViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6490 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6484 };
 
   /// @brief Field _continueButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;

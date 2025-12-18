@@ -57,7 +57,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x66977b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x66ff33c, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_xrMirrorViewPS() const;
@@ -78,22 +78,22 @@ public:
 
   constexpr void __cordl_internal_set_m_xrOcclusionMeshPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x66979e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66ff574, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_valid, addr 0x6697920, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x66ff4ac, size 0xc8, virtual false, abstract: false, final false
   inline bool get_valid();
 
-  /// @brief Method get_version, addr 0x66977a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x66ff334, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
-  /// @brief Method get_xrMirrorViewPS, addr 0x6697830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xrMirrorViewPS, addr 0x66ff3bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_xrMirrorViewPS();
 
-  /// @brief Method get_xrMotionVector, addr 0x66978a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xrMotionVector, addr 0x66ff434, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_xrMotionVector();
 
-  /// @brief Method get_xrOcclusionMeshPS, addr 0x66977b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xrOcclusionMeshPS, addr 0x66ff344, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_xrOcclusionMeshPS();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -102,13 +102,13 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_xrMirrorViewPS, addr 0x6697838, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_xrMirrorViewPS, addr 0x66ff3c4, size 0x70, virtual false, abstract: false, final false
   inline void set_xrMirrorViewPS(::UnityEngine::Shader* value);
 
-  /// @brief Method set_xrMotionVector, addr 0x66978b0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_xrMotionVector, addr 0x66ff43c, size 0x70, virtual false, abstract: false, final false
   inline void set_xrMotionVector(::UnityEngine::Shader* value);
 
-  /// @brief Method set_xrOcclusionMeshPS, addr 0x66977c0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_xrOcclusionMeshPS, addr 0x66ff34c, size 0x70, virtual false, abstract: false, final false
   inline void set_xrOcclusionMeshPS(::UnityEngine::Shader* value);
 
 protected:
@@ -126,7 +126,7 @@ public:
   UniversalRenderPipelineRuntimeXRResources(UniversalRenderPipelineRuntimeXRResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12917 };
 
   /// @brief Field m_xrOcclusionMeshPS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_xrOcclusionMeshPS;

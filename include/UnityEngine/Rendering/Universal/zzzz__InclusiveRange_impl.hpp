@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::InclusiveRange::*)(int16_t)>(
     &::UnityEngine::Rendering::Universal::InclusiveRange::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66a1864;
+  constexpr static std::size_t addrs = 0x67093f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::InclusiveRange::*)(int16_t, int16_t)>(
     &::UnityEngine::Rendering::Universal::InclusiveRange::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66a1870;
+  constexpr static std::size_t addrs = 0x67093fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::InclusiveRange::*)(int16_t)>(
     &::UnityEngine::Rendering::Universal::InclusiveRange::Expand)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x66a187c;
+  constexpr static std::size_t addrs = 0x6709408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::InclusiveRange::*)(int16_t, int16_t)>(
     &::UnityEngine::Rendering::Universal::InclusiveRange::Clamp)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x66a1904;
+  constexpr static std::size_t addrs = 0x6709490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::InclusiveRange::*)()>(
     &::UnityEngine::Rendering::Universal::InclusiveRange::get_isEmpty)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66a1994;
+  constexpr static std::size_t addrs = 0x6709520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::InclusiveRange>::get(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::InclusiveRange::*)(int16_t)>(
     &::UnityEngine::Rendering::Universal::InclusiveRange::Contains)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x66a19a8;
+  constexpr static std::size_t addrs = 0x6709534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::InclusiveRange (*)(
     ::UnityEngine::Rendering::Universal::InclusiveRange, ::UnityEngine::Rendering::Universal::InclusiveRange)>(&::UnityEngine::Rendering::Universal::InclusiveRange::Merge)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x66a19cc;
+  constexpr static std::size_t addrs = 0x6709558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::InclusiveRange (*)()>(
     &::UnityEngine::Rendering::Universal::InclusiveRange::get_empty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a1a50;
+  constexpr static std::size_t addrs = 0x67095dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::InclusiveRange>::get(),
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::Universal::InclusiveRange::*)()>(
     &::UnityEngine::Rendering::Universal::InclusiveRange::ToString)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x66a1a58;
+  constexpr static std::size_t addrs = 0x67095e4;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerSyncState_3)
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class StateBuffer_3;
@@ -27,7 +27,7 @@ template <typename TStateTable, typename TType, typename TState>
 class CORDL_TYPE MultiplayerSyncState_3 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_player)) ::GlobalNamespace::IConnectedPlayer* player;
+  __declspec(property(get = get_player)) ::GlobalNamespace::IBeatSaberConnectedPlayer* player;
 
   __declspec(property(get = get_stateBuffer)) ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* stateBuffer;
 
@@ -49,7 +49,7 @@ public:
   inline void _ctor();
 
   /// @brief Method get_player, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::IConnectedPlayer* get_player();
+  inline ::GlobalNamespace::IBeatSaberConnectedPlayer* get_player();
 
   /// @brief Method get_stateBuffer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* get_stateBuffer();
@@ -69,7 +69,7 @@ public:
   MultiplayerSyncState_3(MultiplayerSyncState_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21225 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21252 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

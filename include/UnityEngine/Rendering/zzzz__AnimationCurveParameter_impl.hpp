@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::AnimationCurveParameter::*)(::UnityEngine::AnimationCurve*, bool)>(
     &::UnityEngine::Rendering::AnimationCurveParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x65af5fc;
+  constexpr static std::size_t addrs = 0x6617188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::AnimationCurveParameter::*)(
     ::UnityEngine::AnimationCurve*, ::UnityEngine::AnimationCurve*, float_t)>(&::UnityEngine::Rendering::AnimationCurveParameter::Interp)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65af660;
+  constexpr static std::size_t addrs = 0x66171ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::AnimationCurveParameter::*)(::UnityEngine::Rendering::VolumeParameter*)>(
     &::UnityEngine::Rendering::AnimationCurveParameter::SetValue)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x65af66c;
+  constexpr static std::size_t addrs = 0x66171f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Rendering::AnimationCurveParameter::*)()>(
     &::UnityEngine::Rendering::AnimationCurveParameter::Clone)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x65af70c;
+  constexpr static std::size_t addrs = 0x6617298;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::AnimationCurveParameter::*)()>(
     &::UnityEngine::Rendering::AnimationCurveParameter::GetHashCode)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x65af7f4;
+  constexpr static std::size_t addrs = 0x6617380;
 
   inline static ::MethodInfo const* methodInfo() {
 

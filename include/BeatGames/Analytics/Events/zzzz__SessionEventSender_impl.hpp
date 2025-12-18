@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::Events::SessionEventSender::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::BeatGames::Analytics::Events::SessionEventSender::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3161310;
+  constexpr static std::size_t addrs = 0x3191008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::Events::SessionEventSender::*)()>(
     &::BeatGames::Analytics::Events::SessionEventSender::SendSessionStart)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3161b2c;
+  constexpr static std::size_t addrs = 0x3191824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::SessionEventSender*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::Events::SessionEventSender::*)()>(
     &::BeatGames::Analytics::Events::SessionEventSender::SendSessionFinish)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3161bf4;
+  constexpr static std::size_t addrs = 0x31918ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatGames::Analytics::Events::SessionEventSender*>::get(),

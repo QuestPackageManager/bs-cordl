@@ -10,6 +10,7 @@
 #include "GlobalNamespace/zzzz__BadNoteCutEffectSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__BeatLineManager_def.hpp"
 #include "GlobalNamespace/zzzz__EffectPoolsManualInstaller_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayAdditionalInformationSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__MissedNoteEffectSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutScoreSpawner_def.hpp"
@@ -22,8 +23,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreInstaller::*)()>(&::GlobalNamespace::GameplayCoreInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x1b9c;
-  constexpr static std::size_t addrs = 0x57e73a8;
+  constexpr static std::size_t size = 0x1c08;
+  constexpr static std::size_t addrs = 0x584dc8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreInstaller::*)()>(&::GlobalNamespace::GameplayCoreInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57e8f44;
+  constexpr static std::size_t addrs = 0x584f894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayCoreInstaller*>::get(), ".ctor",
@@ -213,6 +214,19 @@ constexpr ::GlobalNamespace::SettingsManager* const& GlobalNamespace::GameplayCo
 constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingsManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::GameplayAdditionalInformationSetupData*& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__gameplayAdditionalInformationSetupData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gameplayAdditionalInformationSetupData;
+}
+constexpr ::GlobalNamespace::GameplayAdditionalInformationSetupData* const& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__gameplayAdditionalInformationSetupData() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gameplayAdditionalInformationSetupData;
+}
+constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set__gameplayAdditionalInformationSetupData(::GlobalNamespace::GameplayAdditionalInformationSetupData* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayAdditionalInformationSetupData)),
+                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__performanceToolConfig() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -36,10 +36,10 @@ public:
 
   static inline ::System::Runtime::Serialization::KnownTypeDataContractResolver* New_ctor(::System::Runtime::Serialization::XmlObjectSerializerContext* context);
 
-  /// @brief Method ResolveName, addr 0x5f3b91c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ResolveName, addr 0x5fa34a8, size 0x94, virtual true, abstract: false, final false
   inline ::System::Type* ResolveName(::StringW typeName, ::StringW typeNamespace, ::System::Type* declaredType, ::System::Runtime::Serialization::DataContractResolver* knownTypeResolver);
 
-  /// @brief Method TryResolveType, addr 0x5f3b798, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method TryResolveType, addr 0x5fa3324, size 0x11c, virtual true, abstract: false, final false
   inline bool TryResolveType(::System::Type* type, ::System::Type* declaredType, ::System::Runtime::Serialization::DataContractResolver* knownTypeResolver,
                              ::ByRef<::System::Xml::XmlDictionaryString*> typeName, ::ByRef<::System::Xml::XmlDictionaryString*> typeNamespace);
 
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_context(::System::Runtime::Serialization::XmlObjectSerializerContext* value);
 
-  /// @brief Method .ctor, addr 0x5f3b790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fa331c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::XmlObjectSerializerContext* context);
 
 protected:
@@ -67,7 +67,7 @@ public:
   KnownTypeDataContractResolver(KnownTypeDataContractResolver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17010 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17024 };
 
   /// @brief Field context, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::XmlObjectSerializerContext* ___context;

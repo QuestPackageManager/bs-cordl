@@ -34,13 +34,13 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-  /// @brief Method Deserialize, addr 0x32011dc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x31d32c8, size 0x80, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Serialize, addr 0x320115c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x31d3248, size 0x80, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method .ctor, addr 0x3201120, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31d320c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0,
                     ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
@@ -62,7 +62,7 @@ public:
                                        ::GlobalNamespace::ColorNoAlphaSerializable environmentColor1Boost) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18813 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };

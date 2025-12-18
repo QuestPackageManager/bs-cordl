@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Unity::Profiling::ProfilerMarker, int32_t)>(&::Unity::Profiling::ProfilerMarkerExtension::Begin)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6524158;
+  constexpr static std::size_t addrs = 0x658bce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Unity::Profiling::ProfilerMarker, uint32_t)>(&::Unity::Profiling::ProfilerMarkerExtension::Begin)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x652421c;
+  constexpr static std::size_t addrs = 0x658bda8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Unity::Profiling::ProfilerMarker, int64_t)>(&::Unity::Profiling::ProfilerMarkerExtension::Begin)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x65242e0;
+  constexpr static std::size_t addrs = 0x658be6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Unity::Profiling::ProfilerMarker, uint64_t)>(&::Unity::Profiling::ProfilerMarkerExtension::Begin)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x65243a4;
+  constexpr static std::size_t addrs = 0x658bf30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Unity::Profiling::ProfilerMarker, float_t)>(&::Unity::Profiling::ProfilerMarkerExtension::Begin)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6524468;
+  constexpr static std::size_t addrs = 0x658bff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Unity::Profiling::ProfilerMarker, double_t)>(&::Unity::Profiling::ProfilerMarkerExtension::Begin)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x652452c;
+  constexpr static std::size_t addrs = 0x658c0b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Unity::Profiling::ProfilerMarker, ::StringW)>(&::Unity::Profiling::ProfilerMarkerExtension::Begin)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x65245f0;
+  constexpr static std::size_t addrs = 0x658c17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

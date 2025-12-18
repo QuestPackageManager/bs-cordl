@@ -40,25 +40,25 @@ public:
 
   __declspec(property(get = get_useFastSRGBLinearConversion)) bool useFastSRGBLinearConversion;
 
-  /// @brief Method .ctor, addr 0x66c6f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x672eab4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method get_gradingMode, addr 0x66c6f84, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_gradingMode, addr 0x672eb10, size 0x60, virtual false, abstract: false, final false
   inline ::ByRef<::UnityEngine::Rendering::Universal::ColorGradingMode> get_gradingMode();
 
-  /// @brief Method get_lutSize, addr 0x66c6fe4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_lutSize, addr 0x672eb70, size 0x60, virtual false, abstract: false, final false
   inline ::ByRef<int32_t> get_lutSize();
 
-  /// @brief Method get_supportDataDrivenLensFlare, addr 0x66c7104, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportDataDrivenLensFlare, addr 0x672ec90, size 0x60, virtual false, abstract: false, final false
   inline ::ByRef<bool> get_supportDataDrivenLensFlare();
 
-  /// @brief Method get_supportScreenSpaceLensFlare, addr 0x66c70a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportScreenSpaceLensFlare, addr 0x672ec30, size 0x60, virtual false, abstract: false, final false
   inline ::ByRef<bool> get_supportScreenSpaceLensFlare();
 
-  /// @brief Method get_universalPostProcessingData, addr 0x66c6f30, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_universalPostProcessingData, addr 0x672eabc, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalPostProcessingData* get_universalPostProcessingData();
 
-  /// @brief Method get_useFastSRGBLinearConversion, addr 0x66c7044, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_useFastSRGBLinearConversion, addr 0x672ebd0, size 0x60, virtual false, abstract: false, final false
   inline ::ByRef<bool> get_useFastSRGBLinearConversion();
 
   // Ctor Parameters []
@@ -69,7 +69,7 @@ public:
   constexpr PostProcessingData(::UnityEngine::Rendering::ContextContainer* frameData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13013 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13017 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

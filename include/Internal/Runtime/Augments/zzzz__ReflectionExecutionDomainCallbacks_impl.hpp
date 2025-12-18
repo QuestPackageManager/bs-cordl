@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::*)(::System::Type*)>(
     &::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::CreateMissingMetadataException)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x58b2380;
+  constexpr static std::size_t addrs = 0x5918ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::*)()>(
     &::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58b237c;
+  constexpr static std::size_t addrs = 0x5918cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

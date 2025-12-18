@@ -35,10 +35,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PropertyChangedEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6a95f1c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6afeda0, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PropertyChangedEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6a95f18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afed9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PropertyChangedEvent___c* getStaticF___9();
@@ -82,7 +82,7 @@ public:
 
   __declspec(property(get = get_property, put = set_property)) ::UnityEngine::UIElements::BindingId property;
 
-  /// @brief Method GetPooled, addr 0x6a95e30, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x6afecb4, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PropertyChangedEvent* GetPooled(::ByRef<::UnityEngine::UIElements::BindingId> property);
 
   static inline ::UnityEngine::UIElements::PropertyChangedEvent* New_ctor();
@@ -93,13 +93,13 @@ public:
 
   constexpr void __cordl_internal_set__property_k__BackingField(::UnityEngine::UIElements::BindingId value);
 
-  /// @brief Method .ctor, addr 0x6a95dac, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afec30, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_property, addr 0x6a95d90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_property, addr 0x6afec14, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingId get_property();
 
-  /// @brief Method set_property, addr 0x6a95da0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_property, addr 0x6afec24, size 0xc, virtual false, abstract: false, final false
   inline void set_property(::UnityEngine::UIElements::BindingId value);
 
 protected:

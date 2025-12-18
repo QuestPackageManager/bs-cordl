@@ -62,7 +62,7 @@ public:
   Request_1(Request_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17946 };
 
   /// @brief Field callback_, offset: 0x20, size: 0x8, def value: None
   ::Oculus::Platform::Message_1_Callback<T>* ___callback_;

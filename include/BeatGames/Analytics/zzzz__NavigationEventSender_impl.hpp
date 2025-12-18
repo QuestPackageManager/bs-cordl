@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::NavigationEventSender::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::BeatGames::Analytics::NavigationEventSender::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3161308;
+  constexpr static std::size_t addrs = 0x3191000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::NavigationEventSender::*)(::StringW)>(
     &::BeatGames::Analytics::NavigationEventSender::SendScreenImpression)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3161320;
+  constexpr static std::size_t addrs = 0x3191018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatGames::Analytics::NavigationEventSender::*)(::StringW, ::StringW)>(
     &::BeatGames::Analytics::NavigationEventSender::SendButtonClick)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3161480;
+  constexpr static std::size_t addrs = 0x3191178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -21,7 +21,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE ShaderDebugPrintInputProducer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x6550fc0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x65b8b4c, size 0x17c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ShaderDebugPrintInput Get();
 
 protected:
@@ -39,7 +39,7 @@ public:
   ShaderDebugPrintInputProducer(ShaderDebugPrintInputProducer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12029 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12033 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

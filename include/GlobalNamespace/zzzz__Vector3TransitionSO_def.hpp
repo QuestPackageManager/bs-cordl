@@ -90,25 +90,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedState(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x6228dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6290978, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledState, addr 0x6228dc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledState, addr 0x6290954, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_disabledState();
 
-  /// @brief Method get_highlightedState, addr 0x6228db0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedState, addr 0x629093c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_highlightedState();
 
-  /// @brief Method get_normalState, addr 0x6228da4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalState, addr 0x6290930, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normalState();
 
-  /// @brief Method get_pressedState, addr 0x6228dbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedState, addr 0x6290948, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pressedState();
 
-  /// @brief Method get_selectedAndHighlightedState, addr 0x6228de0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedState, addr 0x629096c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_selectedAndHighlightedState();
 
-  /// @brief Method get_selectedState, addr 0x6228dd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedState, addr 0x6290960, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_selectedState();
 
 protected:
@@ -126,7 +126,7 @@ public:
   Vector3TransitionSO(Vector3TransitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22135 };
 
   /// @brief Field _normalState, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____normalState;

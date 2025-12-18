@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputForUI::EventSanitizer::*)()>(&::UnityEngine::InputForUI::EventSanitizer::Reset)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x692771c;
+  constexpr static std::size_t addrs = 0x69905a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputForUI::EventSanitizer>::get(), "Reset",
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputForUI::EventSanitizer::*)()>(
     &::UnityEngine::InputForUI::EventSanitizer::BeforeProviderUpdate)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6927ac0;
+  constexpr static std::size_t addrs = 0x6990944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputForUI::EventSanitizer>::get(),
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputForUI::EventSanitizer::*)()>(
     &::UnityEngine::InputForUI::EventSanitizer::AfterProviderUpdate)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6927bbc;
+  constexpr static std::size_t addrs = 0x6990a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputForUI::EventSanitizer>::get(),
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputForUI::EventSanitizer::*)(::ByRef<::UnityEngine::InputForUI::Event>)>(
     &::UnityEngine::InputForUI::EventSanitizer::Inspect)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6927618;
+  constexpr static std::size_t addrs = 0x699049c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

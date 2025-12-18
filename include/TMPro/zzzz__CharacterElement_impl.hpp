@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::CharacterElement::*)()>(&::TMPro::CharacterElement::get_Unicode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67869b8;
+  constexpr static std::size_t addrs = 0x67ee530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::CharacterElement>::get(), "get_Unicode",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::CharacterElement::*)(uint32_t)>(&::TMPro::CharacterElement::set_Unicode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67869c0;
+  constexpr static std::size_t addrs = 0x67ee538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::CharacterElement::*)(::TMPro::TMP_TextElement*)>(&::TMPro::CharacterElement::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x67869c8;
+  constexpr static std::size_t addrs = 0x67ee540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

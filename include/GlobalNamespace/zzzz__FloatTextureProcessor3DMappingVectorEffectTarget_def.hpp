@@ -219,13 +219,13 @@ public:
 
   static inline ::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x577b3b8, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x57e1c60, size 0x384, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x577b3b4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x57e1c5c, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x577b73c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x57e1fe4, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget_TextureProcessor3DChannel const& __cordl_internal_get__channel() const;
@@ -288,7 +288,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x577b740, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57e1fe8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF__propertyStrings();

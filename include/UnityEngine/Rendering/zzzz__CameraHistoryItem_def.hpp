@@ -37,24 +37,24 @@ public:
 
   __declspec(property(get = get_storage)) ::UnityEngine::Rendering::BufferedRTHandleSystem* storage;
 
-  /// @brief Method AllocHistoryFrameRT, addr 0x652df58, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AllocHistoryFrameRT, addr 0x6595ae4, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* AllocHistoryFrameRT(int32_t id, int32_t count, ::ByRef<::UnityEngine::RenderTextureDescriptor> desc, ::StringW name);
 
-  /// @brief Method GetCurrentFrameRT, addr 0x652dfa4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentFrameRT, addr 0x6595b30, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetCurrentFrameRT(int32_t id);
 
-  /// @brief Method GetPreviousFrameRT, addr 0x652dfd8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetPreviousFrameRT, addr 0x6595b64, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetPreviousFrameRT(int32_t id);
 
-  /// @brief Method MakeId, addr 0x652df48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method MakeId, addr 0x6595ad4, size 0x10, virtual false, abstract: false, final false
   inline int32_t MakeId(uint32_t index);
 
   static inline ::UnityEngine::Rendering::CameraHistoryItem* New_ctor();
 
-  /// @brief Method OnCreate, addr 0x652df34, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnCreate, addr 0x6595ac0, size 0xc, virtual true, abstract: false, final false
   inline void OnCreate(::UnityEngine::Rendering::BufferedRTHandleSystem* owner, uint32_t typeId);
 
-  /// @brief Method ReleaseHistoryFrameRT, addr 0x652dfc0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ReleaseHistoryFrameRT, addr 0x6595b4c, size 0x18, virtual false, abstract: false, final false
   inline void ReleaseHistoryFrameRT(int32_t id);
 
   constexpr uint32_t const& __cordl_internal_get_m_TypeId() const;
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set_m_owner(::UnityEngine::Rendering::BufferedRTHandleSystem* value);
 
-  /// @brief Method .ctor, addr 0x652dff4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6595b80, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_storage, addr 0x652df40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_storage, addr 0x6595acc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::BufferedRTHandleSystem* get_storage();
 
 protected:
@@ -90,7 +90,7 @@ public:
   CameraHistoryItem(CameraHistoryItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11842 };
 
   /// @brief Field m_owner, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::BufferedRTHandleSystem* ___m_owner;

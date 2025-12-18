@@ -40,10 +40,10 @@ public:
 
   static inline ::System::Threading::Tasks::ThreadPoolTaskScheduler___c* New_ctor();
 
-  /// @brief Method <.cctor>b__10_0, addr 0x5ab1dd4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__10_0, addr 0x5b18720, size 0x88, virtual false, abstract: false, final false
   inline void __cctor_b__10_0(::System::Object* s);
 
-  /// @brief Method .ctor, addr 0x5ab1dd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b1871c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::Tasks::ThreadPoolTaskScheduler___c* getStaticF___9();
@@ -89,24 +89,24 @@ public:
 
   static inline ::System::Threading::Tasks::ThreadPoolTaskScheduler* New_ctor();
 
-  /// @brief Method NotifyWorkItemProgress, addr 0x5ab1c98, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method NotifyWorkItemProgress, addr 0x5b185e4, size 0x10, virtual true, abstract: false, final false
   inline void NotifyWorkItemProgress();
 
-  /// @brief Method QueueTask, addr 0x5ab19a4, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method QueueTask, addr 0x5b182f0, size 0x210, virtual true, abstract: false, final false
   inline void QueueTask(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method TryDequeue, addr 0x5ab1c90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method TryDequeue, addr 0x5b185dc, size 0x8, virtual true, abstract: false, final false
   inline bool TryDequeue(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method TryExecuteTaskInline, addr 0x5ab1bb4, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method TryExecuteTaskInline, addr 0x5b18500, size 0xdc, virtual true, abstract: false, final false
   inline bool TryExecuteTaskInline(::System::Threading::Tasks::Task* task, bool taskWasPreviouslyQueued);
 
-  /// @brief Method .ctor, addr 0x5ab194c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b18298, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::ParameterizedThreadStart* getStaticF_s_longRunningThreadWork();
 
-  /// @brief Method get_RequiresAtomicStartTransition, addr 0x5ab1ca8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequiresAtomicStartTransition, addr 0x5b185f4, size 0x8, virtual true, abstract: false, final false
   inline bool get_RequiresAtomicStartTransition();
 
   static inline void setStaticF_s_longRunningThreadWork(::System::Threading::ParameterizedThreadStart* value);

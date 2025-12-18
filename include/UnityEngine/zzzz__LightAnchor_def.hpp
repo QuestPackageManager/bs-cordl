@@ -77,7 +77,7 @@ public:
   static ::UnityEngine::LightAnchor_UpDirection const World;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11824 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -109,7 +109,7 @@ public:
   constexpr LightAnchor_Axes(::UnityEngine::Vector3 up, ::UnityEngine::Vector3 right, ::UnityEngine::Vector3 forward) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11825 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
@@ -183,27 +183,27 @@ public:
 
   __declspec(property(get = get_yaw, put = set_yaw)) float_t yaw;
 
-  /// @brief Method GetWorldSpaceAxes, addr 0x65255d0, size 0x88c, virtual false, abstract: false, final false
+  /// @brief Method GetWorldSpaceAxes, addr 0x658d15c, size 0x88c, virtual false, abstract: false, final false
   inline ::UnityEngine::LightAnchor_Axes GetWorldSpaceAxes(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 anchor);
 
   static inline ::UnityEngine::LightAnchor* New_ctor();
 
-  /// @brief Method NormalizeAngleDegree, addr 0x6524ea8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method NormalizeAngleDegree, addr 0x658ca34, size 0x34, virtual false, abstract: false, final false
   static inline float_t NormalizeAngleDegree(float_t angle);
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x652628c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x658de18, size 0xdc, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method SynchronizeOnTransform, addr 0x65250d0, size 0x500, virtual false, abstract: false, final false
+  /// @brief Method SynchronizeOnTransform, addr 0x658cc5c, size 0x500, virtual false, abstract: false, final false
   inline void SynchronizeOnTransform(::UnityEngine::Camera* camera);
 
-  /// @brief Method Update, addr 0x6526188, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x658dd14, size 0x104, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateTransform, addr 0x6525e5c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransform, addr 0x658d9e8, size 0x68, virtual false, abstract: false, final false
   inline void UpdateTransform(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 anchor);
 
-  /// @brief Method UpdateTransform, addr 0x6525ec4, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransform, addr 0x658da50, size 0x2c4, virtual false, abstract: false, final false
   inline void UpdateTransform(::UnityEngine::Vector3 up, ::UnityEngine::Vector3 right, ::UnityEngine::Vector3 forward, ::UnityEngine::Vector3 anchor);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_AnchorPositionOffset() const;
@@ -248,52 +248,52 @@ public:
 
   constexpr void __cordl_internal_set_m_Yaw(float_t value);
 
-  /// @brief Method .ctor, addr 0x6526368, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x658def4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_anchorPosition, addr 0x6524f98, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method get_anchorPosition, addr 0x658cb24, size 0x110, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_anchorPosition();
 
-  /// @brief Method get_anchorPositionOffset, addr 0x65250b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_anchorPositionOffset, addr 0x658cc44, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_anchorPositionOffset();
 
-  /// @brief Method get_anchorPositionOverride, addr 0x65250a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_anchorPositionOverride, addr 0x658cc34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_anchorPositionOverride();
 
-  /// @brief Method get_distance, addr 0x6524f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x658cae8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_frameSpace, addr 0x6524f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frameSpace, addr 0x658cb14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LightAnchor_UpDirection get_frameSpace();
 
-  /// @brief Method get_pitch, addr 0x6524edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pitch, addr 0x658ca68, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pitch();
 
-  /// @brief Method get_roll, addr 0x6524f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_roll, addr 0x658caa8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_roll();
 
-  /// @brief Method get_yaw, addr 0x6524e68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yaw, addr 0x658c9f4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yaw();
 
-  /// @brief Method set_anchorPositionOffset, addr 0x65250c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_anchorPositionOffset, addr 0x658cc50, size 0xc, virtual false, abstract: false, final false
   inline void set_anchorPositionOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_anchorPositionOverride, addr 0x65250b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_anchorPositionOverride, addr 0x658cc3c, size 0x8, virtual false, abstract: false, final false
   inline void set_anchorPositionOverride(::UnityEngine::Transform* value);
 
-  /// @brief Method set_distance, addr 0x6524f64, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_distance, addr 0x658caf0, size 0x24, virtual false, abstract: false, final false
   inline void set_distance(float_t value);
 
-  /// @brief Method set_frameSpace, addr 0x6524f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_frameSpace, addr 0x658cb1c, size 0x8, virtual false, abstract: false, final false
   inline void set_frameSpace(::UnityEngine::LightAnchor_UpDirection value);
 
-  /// @brief Method set_pitch, addr 0x6524ee4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_pitch, addr 0x658ca70, size 0x38, virtual false, abstract: false, final false
   inline void set_pitch(float_t value);
 
-  /// @brief Method set_roll, addr 0x6524f24, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_roll, addr 0x658cab0, size 0x38, virtual false, abstract: false, final false
   inline void set_roll(float_t value);
 
-  /// @brief Method set_yaw, addr 0x6524e70, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_yaw, addr 0x658c9fc, size 0x38, virtual false, abstract: false, final false
   inline void set_yaw(float_t value);
 
 protected:
@@ -311,7 +311,7 @@ public:
   LightAnchor(LightAnchor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11826 };
 
   /// @brief Field k_ArcRadius offset 0xffffffff size 0x4
   static constexpr float_t k_ArcRadius{ static_cast<float_t>(5.0f) };

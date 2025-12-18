@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SurrogateDataContract_SurrogateDataContractCriticalHelper::*)(
     ::System::Type*, ::System::Runtime::Serialization::ISerializationSurrogate*)>(&::System::Runtime::Serialization::SurrogateDataContract_SurrogateDataContractCriticalHelper::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5f44450;
+  constexpr static std::size_t addrs = 0x5fabfdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Runtime::Serialization::ISerializationSurrogate* (::System::Runtime::Serialization::SurrogateDataContract_SurrogateDataContractCriticalHelper::*)()>(
         &::System::Runtime::Serialization::SurrogateDataContract_SurrogateDataContractCriticalHelper::get_SerializationSurrogate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f45354;
+  constexpr static std::size_t addrs = 0x5facee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SurrogateDataContract::*)(
     ::System::Type*, ::System::Runtime::Serialization::ISerializationSurrogate*)>(&::System::Runtime::Serialization::SurrogateDataContract::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5f3d0d8;
+  constexpr static std::size_t addrs = 0x5fa4c64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::ISerializationSurrogate* (
     ::System::Runtime::Serialization::SurrogateDataContract::*)()>(&::System::Runtime::Serialization::SurrogateDataContract::get_SerializationSurrogate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f44508;
+  constexpr static std::size_t addrs = 0x5fac094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SurrogateDataContract*>::get(),
@@ -120,7 +120,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Object*, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*)>(
     &::System::Runtime::Serialization::SurrogateDataContract::WriteXmlValue)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5f44520;
+  constexpr static std::size_t addrs = 0x5fac0ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +137,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Serialization::SurrogateDataContract::*)(::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::Runtime::Serialization::SurrogateDataContract::SerializationSurrogateSetObjectData)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5f44a4c;
+  constexpr static std::size_t addrs = 0x5fac5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (*)(::System::Runtime::Serialization::IObjectReference*, ::System::Runtime::Serialization::StreamingContext)>(
         &::System::Runtime::Serialization::SurrogateDataContract::GetRealObject)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5f44b30;
+  constexpr static std::size_t addrs = 0x5fac6bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::SurrogateDataContract::*)(::System::Type*)>(
     &::System::Runtime::Serialization::SurrogateDataContract::GetUninitializedObject)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f44be8;
+  constexpr static std::size_t addrs = 0x5fac774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::Runtime::Serialization::SurrogateDataContract::SerializationSurrogateGetObjectData)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5f44684;
+  constexpr static std::size_t addrs = 0x5fac210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Serialization::SurrogateDataContract::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Runtime::Serialization::XmlObjectSerializerReadContext*)>(
     &::System::Runtime::Serialization::SurrogateDataContract::ReadXmlValue)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x5f44c44;
+  constexpr static std::size_t addrs = 0x5fac7d0;
 
   inline static ::MethodInfo const* methodInfo() {
 

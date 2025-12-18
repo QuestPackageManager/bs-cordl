@@ -27,15 +27,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRichPresencePlatformHandler"
   constexpr operator ::GlobalNamespace::IRichPresencePlatformHandler*() noexcept;
 
-  /// @brief Method Clear, addr 0x570d944, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x576b730, size 0xa8, virtual true, abstract: false, final true
   inline void Clear();
 
   static inline ::GlobalNamespace::OculusRichPresencePlatformHandler* New_ctor();
 
-  /// @brief Method SetPresence, addr 0x570d610, size 0x334, virtual true, abstract: false, final true
+  /// @brief Method SetPresence, addr 0x576b3fc, size 0x334, virtual true, abstract: false, final true
   inline void SetPresence(::GlobalNamespace::IRichPresenceData* richPresenceData);
 
-  /// @brief Method .ctor, addr 0x570d9ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x576b7d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IRichPresencePlatformHandler"
@@ -56,7 +56,7 @@ public:
   OculusRichPresencePlatformHandler(OculusRichPresencePlatformHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6730 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6725 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

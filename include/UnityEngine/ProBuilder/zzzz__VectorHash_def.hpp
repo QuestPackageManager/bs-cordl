@@ -29,16 +29,16 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE VectorHash : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x64dc6bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6544248, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector2 v);
 
-  /// @brief Method GetHashCode, addr 0x64c7984, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x652f510, size 0xac, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector3 v);
 
-  /// @brief Method GetHashCode, addr 0x64dc738, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x65442c4, size 0xe0, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector4 v);
 
-  /// @brief Method HashFloat, addr 0x64dc67c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HashFloat, addr 0x6544208, size 0x40, virtual false, abstract: false, final false
   static inline int32_t HashFloat(float_t f);
 
 protected:
@@ -59,7 +59,7 @@ public:
   static constexpr float_t FltCompareResolution{ static_cast<float_t>(1000.0f) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16794 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

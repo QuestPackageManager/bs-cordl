@@ -67,7 +67,7 @@ public:
   ProxyController_1(ProxyController_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18379 };
 
   /// @brief Field <Target>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ControllerType ____Target_k__BackingField;

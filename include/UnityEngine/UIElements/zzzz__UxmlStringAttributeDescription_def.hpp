@@ -47,13 +47,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlStringAttributeDescription___c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x6a89cb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x6af2b34, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _GetValueFromBag_b__3_0(::StringW s, ::StringW t);
 
-  /// @brief Method <TryGetValueFromBag>b__4_0, addr 0x6a89cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <TryGetValueFromBag>b__4_0, addr 0x6af2b3c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _TryGetValueFromBag_b__4_0(::StringW s, ::StringW t);
 
-  /// @brief Method .ctor, addr 0x6a89cac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6af2b30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UxmlStringAttributeDescription___c* getStaticF___9();
@@ -100,15 +100,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::UxmlStringAttributeDescription___c;
 
-  /// @brief Method GetValueFromBag, addr 0x6a89914, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x6af2798, size 0x198, virtual true, abstract: false, final false
   inline ::StringW GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlStringAttributeDescription* New_ctor();
 
-  /// @brief Method TryGetValueFromBag, addr 0x6a89aac, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method TryGetValueFromBag, addr 0x6af2930, size 0x1ac, virtual false, abstract: false, final false
   inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::ByRef<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x6a7e0f0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ae6f74, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

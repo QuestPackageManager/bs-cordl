@@ -111,21 +111,21 @@ public:
 
   __declspec(property(get = get_tailAllocs)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::EntryPreProcessor_AllocSize>* tailAllocs;
 
-  /// @brief Method Add, addr 0x6aa53bc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6b0e240, size 0x168, virtual false, abstract: false, final false
   inline void Add(int32_t vertexCount, int32_t indexCount);
 
-  /// @brief Method ClearReferences, addr 0x6aa5344, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ClearReferences, addr 0x6b0e1c8, size 0x78, virtual false, abstract: false, final false
   inline void ClearReferences();
 
-  /// @brief Method DoEvaluate, addr 0x6aa4f8c, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method DoEvaluate, addr 0x6b0de10, size 0x3b8, virtual false, abstract: false, final false
   inline void DoEvaluate(::UnityEngine::UIElements::UIR::Entry* entry);
 
-  /// @brief Method Flush, addr 0x6aa5524, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x6b0e3a8, size 0xb0, virtual false, abstract: false, final false
   inline void Flush();
 
   static inline ::UnityEngine::UIElements::UIR::EntryPreProcessor* New_ctor();
 
-  /// @brief Method PreProcess, addr 0x6aa4dc0, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method PreProcess, addr 0x6b0dc44, size 0x1cc, virtual false, abstract: false, final false
   inline void PreProcess(::UnityEngine::UIElements::UIR::Entry* root);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::EntryPreProcessor_AllocSize>* const& __cordl_internal_get_m_Allocs() const;
@@ -176,19 +176,19 @@ public:
 
   constexpr void __cordl_internal_set_m_TailAllocs(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::EntryPreProcessor_AllocSize>* value);
 
-  /// @brief Method .ctor, addr 0x6aa55d4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b0e458, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_childrenIndex, addr 0x6aa4da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childrenIndex, addr 0x6b0dc24, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_childrenIndex();
 
-  /// @brief Method get_flattenedEntries, addr 0x6aa4db8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flattenedEntries, addr 0x6b0dc3c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Entry*>* get_flattenedEntries();
 
-  /// @brief Method get_headAllocs, addr 0x6aa4da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headAllocs, addr 0x6b0dc2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::EntryPreProcessor_AllocSize>* get_headAllocs();
 
-  /// @brief Method get_tailAllocs, addr 0x6aa4db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailAllocs, addr 0x6b0dc34, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::EntryPreProcessor_AllocSize>* get_tailAllocs();
 
 protected:

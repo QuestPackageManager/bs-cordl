@@ -22,13 +22,13 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE BufferUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EnsureBufferSize, addr 0x5b14de8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method EnsureBufferSize, addr 0x5b7b8c8, size 0x144, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> EnsureBufferSize(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t size, ::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
-  /// @brief Method RentBuffer, addr 0x5b14c4c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method RentBuffer, addr 0x5b7b72c, size 0xdc, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> RentBuffer(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t minSize);
 
-  /// @brief Method ReturnBuffer, addr 0x5b14d28, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ReturnBuffer, addr 0x5b7b808, size 0xc0, virtual false, abstract: false, final false
   static inline void ReturnBuffer(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, ::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
 protected:
@@ -46,7 +46,7 @@ public:
   BufferUtils(BufferUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13402 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

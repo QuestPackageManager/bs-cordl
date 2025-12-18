@@ -68,10 +68,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::SharedVertex___c* New_ctor();
 
-  /// @brief Method <SortedRemoveAndShift>b__26_0, addr 0x64d5830, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <SortedRemoveAndShift>b__26_0, addr 0x653d3bc, size 0x48, virtual false, abstract: false, final false
   inline bool _SortedRemoveAndShift_b__26_0(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> x);
 
-  /// @brief Method .ctor, addr 0x64d582c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x653d3b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::SharedVertex___c* getStaticF___9();
@@ -97,7 +97,7 @@ public:
   SharedVertex___c(SharedVertex___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16778 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -134,26 +134,26 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x64d4204, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x653bd90, size 0x64, virtual true, abstract: false, final true
   inline void Add(int32_t item);
 
-  /// @brief Method Clear, addr 0x64d4268, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x653bdf4, size 0x54, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x64d42bc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x653be48, size 0x68, virtual true, abstract: false, final true
   inline bool Contains(int32_t item);
 
-  /// @brief Method CopyTo, addr 0x64d4324, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x653beb0, size 0x18, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<int32_t, ::Array<int32_t>*> array, int32_t arrayIndex);
 
-  /// @brief Method GetEnumerator, addr 0x64d40f4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x653bc80, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* GetEnumerator();
 
-  /// @brief Method GetSharedVertexLookup, addr 0x64d43f0, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method GetSharedVertexLookup, addr 0x653bf7c, size 0x41c, virtual false, abstract: false, final false
   static inline void GetSharedVertexLookup(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices,
                                            ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup);
 
-  /// @brief Method GetSharedVerticesWithPositions, addr 0x64d337c, size 0x5c0, virtual false, abstract: false, final false
+  /// @brief Method GetSharedVerticesWithPositions, addr 0x653af08, size 0x5c0, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>
   GetSharedVerticesWithPositions(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions);
 
@@ -161,35 +161,35 @@ public:
 
   static inline ::UnityEngine::ProBuilder::SharedVertex* New_ctor(::UnityEngine::ProBuilder::SharedVertex* sharedVertex);
 
-  /// @brief Method Remove, addr 0x64d433c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x653bec8, size 0x9c, virtual true, abstract: false, final true
   inline bool Remove(int32_t item);
 
-  /// @brief Method RemoveAndShift, addr 0x64d50e0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method RemoveAndShift, addr 0x653cc6c, size 0xcc, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>
   RemoveAndShift(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup, ::System::Collections::Generic::IEnumerable_1<int32_t>* remove);
 
-  /// @brief Method SetCoincident, addr 0x64d54c0, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method SetCoincident, addr 0x653d04c, size 0x318, virtual false, abstract: false, final false
   static inline void SetCoincident(::ByRef<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> lookup, ::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
 
-  /// @brief Method ShiftIndexes, addr 0x64d480c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ShiftIndexes, addr 0x653c398, size 0x40, virtual false, abstract: false, final false
   inline void ShiftIndexes(int32_t offset);
 
-  /// @brief Method SortedRemoveAndShift, addr 0x64d51ac, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method SortedRemoveAndShift, addr 0x653cd38, size 0x314, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>
   SortedRemoveAndShift(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup, ::System::Collections::Generic::List_1<int32_t>* remove);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x64d4200, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x653bd8c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method ToSharedVertices, addr 0x64d4f78, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method ToSharedVertices, addr 0x653cb04, size 0x168, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>
   ToSharedVertices(::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<int32_t>*>* list);
 
-  /// @brief Method ToSharedVertices, addr 0x64d484c, size 0x72c, virtual false, abstract: false, final false
+  /// @brief Method ToSharedVertices, addr 0x653c3d8, size 0x72c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>
   ToSharedVertices(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t>>* lookup);
 
-  /// @brief Method ToString, addr 0x64d4198, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x653bd24, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_Vertices() const;
@@ -198,22 +198,22 @@ public:
 
   constexpr void __cordl_internal_set_m_Vertices(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x64d32d0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x653ae5c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<int32_t>* indexes);
 
-  /// @brief Method .ctor, addr 0x64d3fe0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x653bb6c, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::SharedVertex* sharedVertex);
 
-  /// @brief Method get_Count, addr 0x64d40ac, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x653bc38, size 0x18, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly, addr 0x64d43d8, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x653bf64, size 0x18, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Item, addr 0x64c7954, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x652f4e0, size 0x30, virtual false, abstract: false, final false
   inline int32_t get_Item(int32_t i);
 
-  /// @brief Method get_arrayInternal, addr 0x64d3fd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_arrayInternal, addr 0x653bb64, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_arrayInternal();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<int32_t>"
@@ -225,7 +225,7 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method set_Item, addr 0x64d40c4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x653bc50, size 0x30, virtual false, abstract: false, final false
   inline void set_Item(int32_t i, int32_t value);
 
 protected:
@@ -243,7 +243,7 @@ public:
   SharedVertex(SharedVertex const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16779 };
 
   /// @brief Field m_Vertices, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ___m_Vertices;

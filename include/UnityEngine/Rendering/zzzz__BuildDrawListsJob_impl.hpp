@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t*)>(&::UnityEngine::Rendering::BuildDrawListsJob::IncrementCounter)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x65fd3e8;
+  constexpr static std::size_t addrs = 0x6664f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::BuildDrawListsJob::*)(int32_t)>(
     &::UnityEngine::Rendering::BuildDrawListsJob::Execute)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x65fd438;
+  constexpr static std::size_t addrs = 0x6664fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

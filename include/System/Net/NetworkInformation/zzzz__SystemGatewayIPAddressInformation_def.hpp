@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Net::NetworkInformation::SystemGatewayIPAddressInformation* New_ctor(::System::Net::IPAddress* address);
 
-  /// @brief Method ToGatewayIpAddressInformationCollection, addr 0x6135ed8, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method ToGatewayIpAddressInformationCollection, addr 0x619da64, size 0x2ac, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* ToGatewayIpAddressInformationCollection(::System::Net::NetworkInformation::IPAddressCollection* addresses);
 
   constexpr ::System::Net::IPAddress* const& __cordl_internal_get_address() const;
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_address(::System::Net::IPAddress* value);
 
-  /// @brief Method .ctor, addr 0x6135ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x619da5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPAddress* address);
 
 protected:
@@ -59,7 +59,7 @@ public:
   SystemGatewayIPAddressInformation(SystemGatewayIPAddressInformation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11650 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11654 };
 
   /// @brief Field address, offset: 0x10, size: 0x8, def value: None
   ::System::Net::IPAddress* ___address;

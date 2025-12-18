@@ -27,18 +27,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE LocalLeaderboardsAsyncLoader : public ::BGLib::AppFlow::Initialization::AsyncInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x3648c60, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3675a70, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x3648ba0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x36759b0, size 0x60, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
-  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x3648c00, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x3675a10, size 0x60, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::LocalLeaderboardsAsyncLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3648c64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3675a74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,7 +56,7 @@ public:
   LocalLeaderboardsAsyncLoader(LocalLeaderboardsAsyncLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21006 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

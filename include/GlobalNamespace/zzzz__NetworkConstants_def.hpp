@@ -35,34 +35,13 @@ public:
   NetworkConstants(NetworkConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18177 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18191 };
 
   /// @brief Field backgroundedState offset 0xffffffff size 0x8
   static constexpr ::ConstString backgroundedState{ u"backgrounded" };
 
-  /// @brief Field dedicatedServerState offset 0xffffffff size 0x8
-  static constexpr ::ConstString dedicatedServerState{ u"dedicated_server" };
-
-  /// @brief Field finishedLevel offset 0xffffffff size 0x8
-  static constexpr ::ConstString finishedLevel{ u"finished_level" };
-
-  /// @brief Field isActive offset 0xffffffff size 0x8
-  static constexpr ::ConstString isActive{ u"is_active" };
-
-  /// @brief Field kDedicatedServerMasterServerMessageType offset 0xffffffff size 0x4
-  static constexpr uint32_t kDedicatedServerMasterServerMessageType{ static_cast<uint32_t>(0x2u) };
-
-  /// @brief Field kGameLiftMessageType offset 0xffffffff size 0x4
-  static constexpr uint32_t kGameLiftMessageType{ static_cast<uint32_t>(0x3u) };
-
-  /// @brief Field kHandshakeMessageType offset 0xffffffff size 0x4
-  static constexpr uint32_t kHandshakeMessageType{ static_cast<uint32_t>(0xbe475abeu) };
-
   /// @brief Field kProtocolVersion offset 0xffffffff size 0x4
   static constexpr uint32_t kProtocolVersion{ static_cast<uint32_t>(0x9u) };
-
-  /// @brief Field kUserMasterServerMessageType offset 0xffffffff size 0x4
-  static constexpr uint32_t kUserMasterServerMessageType{ static_cast<uint32_t>(0x1u) };
 
   /// @brief Field playerState offset 0xffffffff size 0x8
   static constexpr ::ConstString playerState{ u"player" };
@@ -72,12 +51,6 @@ public:
 
   /// @brief Field terminatingState offset 0xffffffff size 0x8
   static constexpr ::ConstString terminatingState{ u"terminating" };
-
-  /// @brief Field wantsToPlayNextLevel offset 0xffffffff size 0x8
-  static constexpr ::ConstString wantsToPlayNextLevel{ u"wants_to_play_next_level" };
-
-  /// @brief Field wasActiveAtLevelStart offset 0xffffffff size 0x8
-  static constexpr ::ConstString wasActiveAtLevelStart{ u"was_active_at_level_start" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

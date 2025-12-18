@@ -52,16 +52,16 @@ public:
 
   static inline ::BeatSaber::BeatAvatarAdapter::BeatAvatar* New_ctor();
 
-  /// @brief Method SetLightColor, addr 0x3175234, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method SetLightColor, addr 0x31a4f28, size 0x1c, virtual true, abstract: false, final false
   inline void SetLightColor(::UnityEngine::Color lightColor);
 
-  /// @brief Method UpdateAvatarFromOptionalData, addr 0x317543c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateAvatarFromOptionalData, addr 0x31a5130, size 0x4, virtual true, abstract: false, final false
   inline void UpdateAvatarFromOptionalData(::BeatSaber::AvatarCore::OptionalAvatarData data, int64_t playbackDelayMs);
 
-  /// @brief Method UpdateAvatarFromPose, addr 0x3175250, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method UpdateAvatarFromPose, addr 0x31a4f44, size 0x78, virtual true, abstract: false, final false
   inline void UpdateAvatarFromPose(::BeatSaber::AvatarCore::AvatarPoseData currentPose);
 
-  /// @brief Method UpdateAvatarFromVisualData, addr 0x31752c8, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method UpdateAvatarFromVisualData, addr 0x31a4fbc, size 0x174, virtual true, abstract: false, final false
   inline void UpdateAvatarFromVisualData(::GlobalNamespace::MultiplayerAvatarsData visualData);
 
   constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController> const& __cordl_internal_get__avatarPoseController() const;
@@ -76,10 +76,10 @@ public:
 
   constexpr void __cordl_internal_set__avatarVisualController(::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> value);
 
-  /// @brief Method .ctor, addr 0x3175440, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31a5134, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bodyCenterWorldPosition, addr 0x3175210, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_bodyCenterWorldPosition, addr 0x31a4f04, size 0x24, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_bodyCenterWorldPosition();
 
 protected:
@@ -97,7 +97,7 @@ public:
   BeatAvatar(BeatAvatar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21467 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21494 };
 
   /// @brief Field _avatarVisualController, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> ____avatarVisualController;

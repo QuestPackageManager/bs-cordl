@@ -57,18 +57,18 @@ public:
 
   __declspec(property(get = get_maxTotalIntensity)) float_t maxTotalIntensity;
 
-  /// @brief Method GetLightmapLights, addr 0x5657e6c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetLightmapLights, addr 0x56b8b14, size 0x124, virtual false, abstract: false, final false
   inline void GetLightmapLights();
 
-  /// @brief Method GetNormalizationMultiplier, addr 0x5657f90, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetNormalizationMultiplier, addr 0x56b8c38, size 0x70, virtual false, abstract: false, final false
   inline float_t GetNormalizationMultiplier();
 
-  /// @brief Method LateUpdate, addr 0x5657c04, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x56b88ac, size 0x5c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::BakedLightsNormalizer* New_ctor();
 
-  /// @brief Method UpdateGrayscaleTotal, addr 0x5657c60, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method UpdateGrayscaleTotal, addr 0x56b8908, size 0x20c, virtual false, abstract: false, final false
   inline void UpdateGrayscaleTotal();
 
   constexpr bool const& __cordl_internal_get__grayscaleCalculatedOnce() const;
@@ -115,13 +115,13 @@ public:
 
   constexpr void __cordl_internal_set__newUpdates(bool value);
 
-  /// @brief Method .ctor, addr 0x5658000, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56b8ca8, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightmapLightDict, addr 0x5657bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapLightDict, addr 0x56b889c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants_BakeId, ::UnityW<::GlobalNamespace::LightmapLightWithIds>>* get_lightmapLightDict();
 
-  /// @brief Method get_maxTotalIntensity, addr 0x5657bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxTotalIntensity, addr 0x56b88a4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxTotalIntensity();
 
 protected:
@@ -139,7 +139,7 @@ public:
   BakedLightsNormalizer(BakedLightsNormalizer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19675 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19701 };
 
   /// @brief Field kMaxFramesWithoutUpdate offset 0xffffffff size 0x4
   static constexpr int32_t kMaxFramesWithoutUpdate{ static_cast<int32_t>(0x5) };

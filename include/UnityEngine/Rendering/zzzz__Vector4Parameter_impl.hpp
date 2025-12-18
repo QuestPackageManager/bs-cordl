@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Vector4Parameter::*)(::UnityEngine::Vector4, bool)>(
     &::UnityEngine::Rendering::Vector4Parameter::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x65ae944;
+  constexpr static std::size_t addrs = 0x66164d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Vector4Parameter::*)(::UnityEngine::Vector4, ::UnityEngine::Vector4, float_t)>(
     &::UnityEngine::Rendering::Vector4Parameter::Interp)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65ae9c8;
+  constexpr static std::size_t addrs = 0x6616554;
 
   inline static ::MethodInfo const* methodInfo() {
 

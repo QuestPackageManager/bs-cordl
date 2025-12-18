@@ -30,10 +30,10 @@ public:
   /// @brief Field _sceneEffectContainer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneEffectContainer, put = __cordl_internal_set__sceneEffectContainer)) ::UnityW<::GlobalNamespace::MainEffectContainerSO> _sceneEffectContainer;
 
-  /// @brief Method AddRenderPasses, addr 0x5d2da9c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x5d955bc, size 0x4, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x5d2da98, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x5d955b8, size 0x4, virtual true, abstract: false, final false
   inline void Create();
 
   static inline ::GlobalNamespace::MainEffectRendererFeature* New_ctor();
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneEffectContainer(::UnityW<::GlobalNamespace::MainEffectContainerSO> value);
 
-  /// @brief Method .ctor, addr 0x5d2daa0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d955c0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -62,7 +62,7 @@ public:
   MainEffectRendererFeature(MainEffectRendererFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20787 };
 
   /// @brief Field _sceneEffectContainer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectContainerSO> ____sceneEffectContainer;

@@ -29,16 +29,16 @@ namespace Unity::Collections::LowLevel::Unsafe::NotBurstCompatible {
 class CORDL_TYPE Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddNBC, addr 0x62b1c50, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddNBC, addr 0x63197dc, size 0x90, virtual false, abstract: false, final false
   static inline void AddNBC(::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer> buffer, ::StringW value);
 
-  /// @brief Method ReadNextNBC, addr 0x62b1d94, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReadNextNBC, addr 0x6319920, size 0xe4, virtual false, abstract: false, final false
   static inline void ReadNextNBC(::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader> reader, ::ByRef<::StringW> value);
 
   /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> ToArray(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> set);
 
-  /// @brief Method ToBytesNBC, addr 0x62b1ce0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ToBytesNBC, addr 0x631986c, size 0xb4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToBytesNBC(::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer> buffer);
 
 protected:
@@ -56,7 +56,7 @@ public:
   Extensions(Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15799 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

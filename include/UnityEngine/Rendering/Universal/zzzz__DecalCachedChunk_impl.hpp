@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DecalCachedChunk::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::DecalCachedChunk::RemoveAtSwapBack)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x663ebe4;
+  constexpr static std::size_t addrs = 0x66a6770;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DecalCachedChunk::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::DecalCachedChunk::SetCapacity)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x663eee0;
+  constexpr static std::size_t addrs = 0x66a6a6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DecalCachedChunk::*)()>(
     &::UnityEngine::Rendering::Universal::DecalCachedChunk::Dispose)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x663f164;
+  constexpr static std::size_t addrs = 0x66a6cf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DecalCachedChunk::*)()>(
     &::UnityEngine::Rendering::Universal::DecalCachedChunk::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x663d2f4;
+  constexpr static std::size_t addrs = 0x66a4e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::DecalCachedChunk*>::get(),

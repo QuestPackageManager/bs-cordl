@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::Layout::LayoutNode, float_t, float_t, ::UnityEngine::UIElements::Layout::LayoutDirection)>(
     &::UnityEngine::UIElements::Layout::LayoutProcessorNative::UnityEngine_UIElements_Layout_ILayoutProcessor_CalculateLayout)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6acf880;
+  constexpr static std::size_t addrs = 0x6b38704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutProcessorNative::*)()>(
     &::UnityEngine::UIElements::Layout::LayoutProcessorNative::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6acde04;
+  constexpr static std::size_t addrs = 0x6b36c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Layout::LayoutProcessorNative*>::get(),

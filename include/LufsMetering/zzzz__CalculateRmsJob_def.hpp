@@ -30,10 +30,10 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x575ed78, size 0x294, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x57c5594, size 0x294, virtual true, abstract: false, final true
   inline void Execute(int32_t i);
 
-  /// @brief Method .ctor, addr 0x575ed64, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57c5580, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<float_t> inputData, ::Unity::Collections::NativeArray_1<float_t> outputData, float_t step, float_t timeGate, int32_t rate);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -49,7 +49,7 @@ public:
   constexpr CalculateRmsJob(::Unity::Collections::NativeArray_1<float_t> inputData, ::Unity::Collections::NativeArray_1<float_t> outputData, float_t step, float_t timeGate, int32_t rate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7000 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7004 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

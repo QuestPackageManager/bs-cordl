@@ -42,40 +42,40 @@ public:
 
   __declspec(property(get = get_velocity, put = set_velocity)) ::UnityEngine::Vector3 velocity;
 
-  /// @brief Method get_angularVelocity, addr 0x67c29c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_angularVelocity, addr 0x682a53c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_angularVelocity();
 
-  /// @brief Method get_isTracked, addr 0x67c295c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTracked, addr 0x682a4d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isTracked();
 
-  /// @brief Method get_position, addr 0x67c297c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x682a4f4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_rotation, addr 0x67c2994, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x682a50c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method get_trackingState, addr 0x67c296c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackingState, addr 0x682a4e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::InputTrackingState get_trackingState();
 
-  /// @brief Method get_velocity, addr 0x67c29ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_velocity, addr 0x682a524, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_velocity();
 
-  /// @brief Method set_angularVelocity, addr 0x67c29d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_angularVelocity, addr 0x682a548, size 0xc, virtual false, abstract: false, final false
   inline void set_angularVelocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_isTracked, addr 0x67c2964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isTracked, addr 0x682a4dc, size 0x8, virtual false, abstract: false, final false
   inline void set_isTracked(bool value);
 
-  /// @brief Method set_position, addr 0x67c2988, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x682a500, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_rotation, addr 0x67c29a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x682a518, size 0xc, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_trackingState, addr 0x67c2974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackingState, addr 0x682a4ec, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingState(::UnityEngine::XR::InputTrackingState value);
 
-  /// @brief Method set_velocity, addr 0x67c29b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_velocity, addr 0x682a530, size 0xc, virtual false, abstract: false, final false
   inline void set_velocity(::UnityEngine::Vector3 value);
 
   // Ctor Parameters []
@@ -90,7 +90,7 @@ public:
                  ::UnityEngine::Quaternion _rotation_k__BackingField, ::UnityEngine::Vector3 _velocity_k__BackingField, ::UnityEngine::Vector3 _angularVelocity_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18516 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };

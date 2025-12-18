@@ -108,7 +108,7 @@ public:
   MethodProvider_1(MethodProvider_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14530 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14534 };
 
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationParameters*() noexcept;
 
-  /// @brief Method GetSeed, addr 0x32ee6c4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetSeed, addr 0x3318f08, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::MgfParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x32ee624, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3318e68, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method .ctor, addr 0x32ee63c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3318e80, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t off, int32_t len);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"

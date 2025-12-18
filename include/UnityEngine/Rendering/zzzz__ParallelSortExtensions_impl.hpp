@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketCountJob::*)(int32_t)>(
     &::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketCountJob::Execute)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x661a5b0;
+  constexpr static std::size_t addrs = 0x668213c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::Unity::Collections::NativeArray_1<int32_t>)>(
     &::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBatchPrefixSumJob::AtomicIncrement)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x661a618;
+  constexpr static std::size_t addrs = 0x66821a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBatchPrefixSumJob::*)(int32_t, int32_t)>(
     &::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBatchPrefixSumJob::JobIndexPrefixSum)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x661a680;
+  constexpr static std::size_t addrs = 0x668220c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBatchPrefixSumJob::*)(int32_t)>(
     &::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBatchPrefixSumJob::Execute)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x661a6c8;
+  constexpr static std::size_t addrs = 0x6682254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ParallelSortExtensions_RadixSortPrefixSumJob::*)(int32_t)>(
     &::UnityEngine::Rendering::ParallelSortExtensions_RadixSortPrefixSumJob::Execute)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x661a7b4;
+  constexpr static std::size_t addrs = 0x6682340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketSortJob::*)(int32_t)>(
     &::UnityEngine::Rendering::ParallelSortExtensions_RadixSortBucketSortJob::Execute)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x661a82c;
+  constexpr static std::size_t addrs = 0x66823b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (*)(::Unity::Collections::NativeArray_1<int32_t>)>(
     &::UnityEngine::Rendering::ParallelSortExtensions::ParallelSort)> {
   constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x661a0b4;
+  constexpr static std::size_t addrs = 0x6681c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::ByRef<::Unity::Collections::NativeArray_1<int32_t>>, ::ByRef<::Unity::Collections::NativeArray_1<int32_t>>)>(&::UnityEngine::Rendering::ParallelSortExtensions::_ParallelSort_g__Swap_2_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x661a594;
+  constexpr static std::size_t addrs = 0x6682120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

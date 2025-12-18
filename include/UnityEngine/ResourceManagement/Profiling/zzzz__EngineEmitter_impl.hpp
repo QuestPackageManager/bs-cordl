@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::Profiling::EngineEmitter::*)()>(
     &::UnityEngine::ResourceManagement::Profiling::EngineEmitter::get_IsEnabled)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x670447c;
+  constexpr static std::size_t addrs = 0x676bff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Profiling::EngineEmitter::*)(::System::Guid, int32_t, ::System::Array*)>(
     &::UnityEngine::ResourceManagement::Profiling::EngineEmitter::EmitFrameMetaData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67044a4;
+  constexpr static std::size_t addrs = 0x676c01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Profiling::EngineEmitter::*)(::System::Action_1<float_t>*)>(
     &::UnityEngine::ResourceManagement::Profiling::EngineEmitter::InitialiseCallbacks)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x67044a8;
+  constexpr static std::size_t addrs = 0x676c020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Profiling::EngineEmitter::*)()>(
     &::UnityEngine::ResourceManagement::Profiling::EngineEmitter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6704500;
+  constexpr static std::size_t addrs = 0x676c078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

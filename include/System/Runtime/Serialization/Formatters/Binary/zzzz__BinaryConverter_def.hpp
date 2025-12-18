@@ -50,26 +50,26 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 class CORDL_TYPE BinaryConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetBinaryTypeInfo, addr 0x593fc18, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method GetBinaryTypeInfo, addr 0x59a6564, size 0x2f0, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum
   GetBinaryTypeInfo(::System::Type* type, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, ::StringW typeName,
                     ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter, ::ByRef<::System::Object*> typeInformation, ::ByRef<int32_t> assemId);
 
-  /// @brief Method GetParserBinaryTypeInfo, addr 0x59401b4, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetParserBinaryTypeInfo, addr 0x59a6b00, size 0x1d8, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum GetParserBinaryTypeInfo(::System::Type* type, ::ByRef<::System::Object*> typeInformation);
 
-  /// @brief Method ReadTypeInfo, addr 0x5940740, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method ReadTypeInfo, addr 0x59a708c, size 0x1f4, virtual false, abstract: false, final false
   static inline ::System::Object* ReadTypeInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum,
                                                ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input, ::ByRef<int32_t> assemId);
 
-  /// @brief Method TypeFromInfo, addr 0x5940934, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method TypeFromInfo, addr 0x59a7280, size 0x350, virtual false, abstract: false, final false
   static inline void TypeFromInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::System::Object* typeInformation,
                                   ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader,
                                   ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo,
                                   ::ByRef<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE> primitiveTypeEnum, ::ByRef<::StringW> typeString, ::ByRef<::System::Type*> type,
                                   ::ByRef<bool> isVariant);
 
-  /// @brief Method WriteTypeInfo, addr 0x59404b0, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method WriteTypeInfo, addr 0x59a6dfc, size 0x234, virtual false, abstract: false, final false
   static inline void WriteTypeInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::System::Object* typeInformation, int32_t assemId,
                                    ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 

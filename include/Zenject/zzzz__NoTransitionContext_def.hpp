@@ -38,7 +38,7 @@ public:
 
   __declspec(property(get = get_postInstallMethod)) ::System::Action_1<::Zenject::DiContainer*>* postInstallMethod;
 
-  /// @brief Method Awake, addr 0x6c4ecb4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6cb7b38, size 0x7c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Zenject::NoTransitionContext* New_ctor();
@@ -49,16 +49,16 @@ public:
 
   constexpr void __cordl_internal_set__noScenesTransitionInstaller(::UnityW<::Zenject::NoTransitionInstaller> value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c4ed34, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6cb7bb8, size 0x148, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6c4ed30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb7bb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_installMethod, addr 0x6c4ebcc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_installMethod, addr 0x6cb7a50, size 0x74, virtual false, abstract: false, final false
   inline ::System::Action_1<::Zenject::DiContainer*>* get_installMethod();
 
-  /// @brief Method get_postInstallMethod, addr 0x6c4ec40, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_postInstallMethod, addr 0x6cb7ac4, size 0x74, virtual false, abstract: false, final false
   inline ::System::Action_1<::Zenject::DiContainer*>* get_postInstallMethod();
 
 protected:
@@ -76,7 +76,7 @@ public:
   NoTransitionContext(NoTransitionContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14502 };
 
   /// @brief Field _noScenesTransitionInstaller, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Zenject::NoTransitionInstaller> ____noScenesTransitionInstaller;

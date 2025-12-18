@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CameraHistoryItem::*)(::UnityEngine::Rendering::BufferedRTHandleSystem*, uint32_t)>(
     &::UnityEngine::Rendering::CameraHistoryItem::OnCreate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x652df34;
+  constexpr static std::size_t addrs = 0x6595ac0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::BufferedRTHandleSystem* (::UnityEngine::Rendering::CameraHistoryItem::*)()>(
     &::UnityEngine::Rendering::CameraHistoryItem::get_storage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x652df40;
+  constexpr static std::size_t addrs = 0x6595acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CameraHistoryItem*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CameraHistoryItem::*)(uint32_t)>(
     &::UnityEngine::Rendering::CameraHistoryItem::MakeId)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x652df48;
+  constexpr static std::size_t addrs = 0x6595ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RTHandle* (
     ::UnityEngine::Rendering::CameraHistoryItem::*)(int32_t, int32_t, ::ByRef<::UnityEngine::RenderTextureDescriptor>, ::StringW)>(&::UnityEngine::Rendering::CameraHistoryItem::AllocHistoryFrameRT)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x652df58;
+  constexpr static std::size_t addrs = 0x6595ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CameraHistoryItem::*)(int32_t)>(
     &::UnityEngine::Rendering::CameraHistoryItem::ReleaseHistoryFrameRT)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x652dfc0;
+  constexpr static std::size_t addrs = 0x6595b4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::CameraHistoryItem::*)(int32_t)>(
     &::UnityEngine::Rendering::CameraHistoryItem::GetPreviousFrameRT)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x652dfd8;
+  constexpr static std::size_t addrs = 0x6595b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::CameraHistoryItem::*)(int32_t)>(
     &::UnityEngine::Rendering::CameraHistoryItem::GetCurrentFrameRT)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x652dfa4;
+  constexpr static std::size_t addrs = 0x6595b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::CameraHistoryItem::*)()>(&::UnityEngine::Rendering::CameraHistoryItem::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x652dff4;
+  constexpr static std::size_t addrs = 0x6595b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CameraHistoryItem*>::get(), ".ctor",

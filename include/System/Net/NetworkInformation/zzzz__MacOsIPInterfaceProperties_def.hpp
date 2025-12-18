@@ -36,13 +36,13 @@ public:
   static inline ::System::Net::NetworkInformation::MacOsIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::MacOsNetworkInterface* iface,
                                                                                         ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method ParseRouteInfo_icall, addr 0x61397b4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ParseRouteInfo_icall, addr 0x61a1340, size 0x94, virtual false, abstract: false, final false
   static inline bool ParseRouteInfo_icall(::StringW iface, ::ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> gw_addr_list);
 
-  /// @brief Method .ctor, addr 0x613974c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61a12d8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::NetworkInformation::MacOsNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method get_GatewayAddresses, addr 0x61397b4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_GatewayAddresses, addr 0x61a1340, size 0x94, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
 
 protected:
@@ -60,7 +60,7 @@ public:
   MacOsIPInterfaceProperties(MacOsIPInterfaceProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11677 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

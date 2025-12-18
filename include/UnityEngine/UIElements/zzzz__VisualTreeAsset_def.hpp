@@ -166,7 +166,7 @@ public:
   /// @brief Field comparer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_comparer, put = setStaticF_comparer)) ::System::Collections::Generic::IComparer_1<::UnityEngine::UIElements::VisualTreeAsset_UsingEntry>* comparer;
 
-  /// @brief Method .ctor, addr 0x6a92f78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afbdfc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW alias, ::StringW path);
 
   static inline ::System::Collections::Generic::IComparer_1<::UnityEngine::UIElements::VisualTreeAsset_UsingEntry>* getStaticF_comparer();
@@ -218,12 +218,12 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::UIElements::VisualTreeAsset_UsingEntry>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::UIElements::VisualTreeAsset_UsingEntry>*() noexcept;
 
-  /// @brief Method Compare, addr 0x6a9352c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x6afc3b0, size 0x10, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::UIElements::VisualTreeAsset_UsingEntry x, ::UnityEngine::UIElements::VisualTreeAsset_UsingEntry y);
 
   static inline ::UnityEngine::UIElements::VisualTreeAsset_UsingEntryComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a93528, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afc3ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::UIElements::VisualTreeAsset_UsingEntry>"
@@ -332,13 +332,13 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE VisualTreeAsset_UxmlObjectEntry {
 public:
   // Declarations
-  /// @brief Method GetField, addr 0x6a903d0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetField, addr 0x6af9254, size 0x130, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UxmlObjectAsset* GetField(::StringW fieldName);
 
-  /// @brief Method ToString, addr 0x6a9353c, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6afc3c0, size 0x104, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6a8ff60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6af8de4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t parentId, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlObjectAsset*>* uxmlObjectAssets);
 
   // Ctor Parameters []
@@ -384,16 +384,16 @@ public:
 
   __declspec(property(get = get_type)) ::System::Type* type;
 
-  /// @brief Method .ctor, addr 0x6a90fe0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6af9e64, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, ::System::Type* type, ::UnityEngine::Object* asset);
 
-  /// @brief Method get_asset, addr 0x6a9114c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_asset, addr 0x6af9fd0, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_asset();
 
-  /// @brief Method get_path, addr 0x6a93640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_path, addr 0x6afc4c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_path();
 
-  /// @brief Method get_type, addr 0x6a90e60, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6af9ce4, size 0x90, virtual false, abstract: false, final false
   inline ::System::Type* get_type();
 
   // Ctor Parameters []
@@ -455,7 +455,7 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualTreeAsset___c__DisplayClass76_0* New_ctor();
 
-  /// @brief Method <CloneSetupRecursively>b__0, addr 0x6a93648, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <CloneSetupRecursively>b__0, addr 0x6afc4cc, size 0x20, virtual false, abstract: false, final false
   inline bool _CloneSetupRecursively_b__0(::UnityEngine::UIElements::VisualTreeAsset_SlotUsageEntry u);
 
   constexpr ::UnityEngine::UIElements::VisualElementAsset* const& __cordl_internal_get_childVea() const;
@@ -464,7 +464,7 @@ public:
 
   constexpr void __cordl_internal_set_childVea(::UnityEngine::UIElements::VisualElementAsset* value);
 
-  /// @brief Method .ctor, addr 0x6a92df4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afbc78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -590,27 +590,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6a937fc, size 0x620, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6afc680, size 0x620, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__31* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.StyleSheet>.GetEnumerator, addr 0x6a93f3c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.StyleSheet>.GetEnumerator, addr 0x6afcdc0, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* System_Collections_Generic_IEnumerable_UnityEngine_UIElements_StyleSheet__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.UIElements.StyleSheet>.get_Current, addr 0x6a93ef4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.UIElements.StyleSheet>.get_Current, addr 0x6afcd78, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::UIElements::StyleSheet> System_Collections_Generic_IEnumerator_UnityEngine_UIElements_StyleSheet__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6a93fd4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6afce58, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6a93efc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6afcd80, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6a93f34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6afcdb8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x6a93668, size 0x194, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6afc4ec, size 0x194, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -685,16 +685,16 @@ public:
 
   constexpr void __cordl_internal_set__vea_5__3(::UnityEngine::UIElements::VisualElementAsset* value);
 
-  /// @brief Method <>m__Finally1, addr 0x6a93eac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x6afcd30, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x6a93e1c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x6afcca0, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method <>m__Finally3, addr 0x6a93e64, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally3, addr 0x6afcce8, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally3();
 
-  /// @brief Method .ctor, addr 0x6a8f6ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6af8570, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>"
@@ -850,28 +850,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6a94044, size 0x4e4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6afcec8, size 0x4e4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__27* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.VisualTreeAsset>.GetEnumerator, addr 0x6a945b8, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.VisualTreeAsset>.GetEnumerator, addr 0x6afd43c, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*
   System_Collections_Generic_IEnumerable_UnityEngine_UIElements_VisualTreeAsset__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.UIElements.VisualTreeAsset>.get_Current, addr 0x6a94570, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.UIElements.VisualTreeAsset>.get_Current, addr 0x6afd3f4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> System_Collections_Generic_IEnumerator_UnityEngine_UIElements_VisualTreeAsset__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6a94650, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6afd4d4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6a94578, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6afd3fc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6a945b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6afd434, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x6a93fd8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6afce5c, size 0x6c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -922,10 +922,10 @@ public:
 
   constexpr void __cordl_internal_set__vta_5__4(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
 
-  /// @brief Method <>m__Finally1, addr 0x6a94528, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x6afd3ac, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x6a8f65c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6af84e0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>"
@@ -1120,113 +1120,113 @@ public:
 
   __declspec(property(get = get_visualElementAssets)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>* visualElementAssets;
 
-  /// @brief Method AddUxmlObject, addr 0x6a8ff6c, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method AddUxmlObject, addr 0x6af8df0, size 0x40c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UxmlObjectAsset* AddUxmlObject(::UnityEngine::UIElements::UxmlAsset* parent, ::StringW fieldUxmlName, ::StringW fullTypeName,
                                                                    ::UnityEngine::UIElements::UxmlNamespaceDefinition xmlNamespace);
 
-  /// @brief Method AssetEntryExists, addr 0x6a90cec, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method AssetEntryExists, addr 0x6af9b70, size 0x174, virtual false, abstract: false, final false
   inline bool AssetEntryExists(::StringW path, ::System::Type* type);
 
-  /// @brief Method AssignClassListFromAssetToElement, addr 0x6a91a04, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AssignClassListFromAssetToElement, addr 0x6afa888, size 0x6c, virtual false, abstract: false, final false
   static inline void AssignClassListFromAssetToElement(::UnityEngine::UIElements::VisualElementAsset* asset, ::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method AssignStyleSheetFromAssetToElement, addr 0x6a91a70, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method AssignStyleSheetFromAssetToElement, addr 0x6afa8f4, size 0x1c4, virtual false, abstract: false, final false
   static inline void AssignStyleSheetFromAssetToElement(::UnityEngine::UIElements::VisualElementAsset* asset, ::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method CloneSetupRecursively, addr 0x6a91c34, size 0xb20, virtual false, abstract: false, final false
+  /// @brief Method CloneSetupRecursively, addr 0x6afaab8, size 0xb20, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement*
   CloneSetupRecursively(::UnityEngine::UIElements::VisualElementAsset* root,
                         ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>*>* idToChildren,
                         ::UnityEngine::UIElements::CreationContext context);
 
-  /// @brief Method CloneTree, addr 0x6a917dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CloneTree, addr 0x6afa660, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TemplateContainer* CloneTree();
 
-  /// @brief Method CloneTree, addr 0x6a917e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CloneTree, addr 0x6afa664, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TemplateContainer* CloneTree(::StringW bindingPath);
 
-  /// @brief Method CloneTree, addr 0x6a91800, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CloneTree, addr 0x6afa684, size 0x18, virtual false, abstract: false, final false
   inline void CloneTree(::UnityEngine::UIElements::VisualElement* target);
 
-  /// @brief Method CloneTree, addr 0x6a88328, size 0x80c, virtual false, abstract: false, final false
+  /// @brief Method CloneTree, addr 0x6af11ac, size 0x80c, virtual false, abstract: false, final false
   inline void CloneTree(::UnityEngine::UIElements::VisualElement* target, ::UnityEngine::UIElements::CreationContext cc);
 
-  /// @brief Method CloneTree, addr 0x6a91818, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method CloneTree, addr 0x6afa69c, size 0x1ec, virtual false, abstract: false, final false
   inline void CloneTree(::UnityEngine::UIElements::VisualElement* target, ::ByRef<int32_t> firstElementIndex, ::ByRef<int32_t> elementAddedCount);
 
-  /// @brief Method CollectUxmlObjectAssets, addr 0x6a90730, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method CollectUxmlObjectAssets, addr 0x6af95b4, size 0x298, virtual false, abstract: false, final false
   inline void CollectUxmlObjectAssets(::UnityEngine::UIElements::UxmlAsset* parent, ::StringW fieldName,
                                       ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlObjectAsset*>* foundEntries);
 
-  /// @brief Method CompareForOrder, addr 0x6a92df8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CompareForOrder, addr 0x6afbc7c, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t CompareForOrder(::UnityEngine::UIElements::VisualElementAsset* a, ::UnityEngine::UIElements::VisualElementAsset* b);
 
-  /// @brief Method Create, addr 0x6a92754, size 0x5dc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6afb5d8, size 0x5dc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::VisualElementAsset* asset, ::UnityEngine::UIElements::CreationContext ctx);
 
-  /// @brief Method GetAsset, addr 0x6a8b95c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetAsset, addr 0x6af47e0, size 0x178, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetAsset(::StringW path, ::System::Type* type);
 
   /// @brief Method GetAsset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetAsset(::StringW path);
 
-  /// @brief Method GetAssetType, addr 0x6a8b830, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetAssetType, addr 0x6af46b4, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Type* GetAssetType(::StringW path);
 
-  /// @brief Method GetNextChildSerialNumber, addr 0x6a8f470, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetNextChildSerialNumber, addr 0x6af82f4, size 0x174, virtual false, abstract: false, final false
   inline int32_t GetNextChildSerialNumber();
 
-  /// @brief Method GetNextUxmlAssetId, addr 0x6a90378, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetNextUxmlAssetId, addr 0x6af91fc, size 0x58, virtual false, abstract: false, final false
   inline int32_t GetNextUxmlAssetId(int32_t parentId);
 
-  /// @brief Method GetUxmlObjectEntry, addr 0x6a8fe54, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetUxmlObjectEntry, addr 0x6af8cd8, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualTreeAsset_UxmlObjectEntry GetUxmlObjectEntry(int32_t id);
 
-  /// @brief Method GetUxmlObjectFactory, addr 0x6a911c4, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method GetUxmlObjectFactory, addr 0x6afa048, size 0x354, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IBaseUxmlObjectFactory* GetUxmlObjectFactory(::UnityEngine::UIElements::UxmlObjectAsset* uxmlObjectAsset);
 
   /// @brief Method GetUxmlObjects, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::System::Collections::Generic::List_1<T>* GetUxmlObjects(::UnityEngine::UIElements::IUxmlAttributes* asset, ::UnityEngine::UIElements::CreationContext cc);
 
-  /// @brief Method Instantiate, addr 0x6a915a0, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x6afa424, size 0x21c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TemplateContainer* Instantiate();
 
-  /// @brief Method Instantiate, addr 0x6a917bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x6afa640, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TemplateContainer* Instantiate(::StringW bindingPath);
 
   static inline ::UnityEngine::UIElements::VisualTreeAsset* New_ctor();
 
-  /// @brief Method RegisterAssetEntry, addr 0x6a90ef0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method RegisterAssetEntry, addr 0x6af9d74, size 0xf0, virtual false, abstract: false, final false
   inline void RegisterAssetEntry(::StringW path, ::System::Type* type, ::UnityEngine::Object* asset);
 
-  /// @brief Method RegisterUxmlObject, addr 0x6a8fbf8, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method RegisterUxmlObject, addr 0x6af8a7c, size 0x25c, virtual false, abstract: false, final false
   inline void RegisterUxmlObject(::UnityEngine::UIElements::UxmlObjectAsset* uxmlObjectAsset);
 
-  /// @brief Method RemoveElementAndDependencies, addr 0x6a8f72c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RemoveElementAndDependencies, addr 0x6af85b0, size 0x84, virtual false, abstract: false, final false
   inline void RemoveElementAndDependencies(::UnityEngine::UIElements::VisualElementAsset* asset);
 
-  /// @brief Method RemoveUxmlObject, addr 0x6a90500, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method RemoveUxmlObject, addr 0x6af9384, size 0x230, virtual false, abstract: false, final false
   inline void RemoveUxmlObject(int32_t id, bool onlyIfIsField);
 
-  /// @brief Method RemoveUxmlObjectEntryDependencies, addr 0x6a8f7b0, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method RemoveUxmlObjectEntryDependencies, addr 0x6af8634, size 0x448, virtual false, abstract: false, final false
   inline void RemoveUxmlObjectEntryDependencies(int32_t parentId);
 
-  /// @brief Method ResolveTemplate, addr 0x6a880fc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ResolveTemplate, addr 0x6af0f80, size 0x174, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> ResolveTemplate(::StringW templateName);
 
-  /// @brief Method SetUxmlObjectAssets, addr 0x6a909c8, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method SetUxmlObjectAssets, addr 0x6af984c, size 0x324, virtual false, abstract: false, final false
   inline void SetUxmlObjectAssets(::UnityEngine::UIElements::UxmlAsset* parent, ::StringW fieldName, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlObjectAsset*>* entries);
 
-  /// @brief Method TransferAssetEntries, addr 0x6a91094, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method TransferAssetEntries, addr 0x6af9f18, size 0xb8, virtual false, abstract: false, final false
   inline void TransferAssetEntries(::UnityEngine::UIElements::VisualTreeAsset* otherVta);
 
-  /// @brief Method TryGetSlotInsertionPoint, addr 0x6a92d30, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method TryGetSlotInsertionPoint, addr 0x6afbbb4, size 0xc4, virtual false, abstract: false, final false
   inline bool TryGetSlotInsertionPoint(int32_t insertionPointId, ::ByRef<::StringW> slotName);
 
-  /// @brief Method TryGetUsingEntry, addr 0x6a92e24, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method TryGetUsingEntry, addr 0x6afbca8, size 0x154, virtual false, abstract: false, final false
   inline bool TryGetUsingEntry(::StringW templateName, ::ByRef<::UnityEngine::UIElements::VisualTreeAsset_UsingEntry> entry);
 
-  /// @brief Method <Create>g__CreateError|81_0, addr 0x6a92f84, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method <Create>g__CreateError|81_0, addr 0x6afbe08, size 0x1a8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* _Create_g__CreateError_81_0(::ByRef<::UnityEngine::UIElements::VisualTreeAsset___c__DisplayClass81_0> _cordl_fixed_empty_name_whitespace);
 
   constexpr ::UnityW<::UnityEngine::UIElements::StyleSheet> const& __cordl_internal_get_inlineSheet() const;
@@ -1307,7 +1307,7 @@ public:
 
   constexpr void __cordl_internal_set_m_VisualElementAssets(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>* value);
 
-  /// @brief Method .ctor, addr 0x6a9313c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afbfc0, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_LinkedVEAInTemplatePropertyName();
@@ -1318,43 +1318,43 @@ public:
 
   static inline ::System::Collections::Generic::List_1<int32_t>* getStaticF_s_VeaIdsPath();
 
-  /// @brief Method get_contentContainerId, addr 0x6a91590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentContainerId, addr 0x6afa414, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_contentContainerId();
 
-  /// @brief Method get_contentHash, addr 0x6a9312c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentHash, addr 0x6afbfb0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_contentHash();
 
-  /// @brief Method get_importedWithErrors, addr 0x6a8f440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_importedWithErrors, addr 0x6af82c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_importedWithErrors();
 
-  /// @brief Method get_importedWithWarnings, addr 0x6a8f460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_importedWithWarnings, addr 0x6af82e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_importedWithWarnings();
 
-  /// @brief Method get_importerWithUpdatedUrls, addr 0x6a8f450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_importerWithUpdatedUrls, addr 0x6af82d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_importerWithUpdatedUrls();
 
-  /// @brief Method get_slots, addr 0x6a91588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_slots, addr 0x6afa40c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_SlotDefinition>* get_slots();
 
-  /// @brief Method get_stylesheets, addr 0x6a8f67c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_stylesheets, addr 0x6af8500, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_stylesheets();
 
-  /// @brief Method get_templateAssets, addr 0x6a8f714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_templateAssets, addr 0x6af8598, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>* get_templateAssets();
 
-  /// @brief Method get_templateDependencies, addr 0x6a8f5ec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_templateDependencies, addr 0x6af8470, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* get_templateDependencies();
 
-  /// @brief Method get_usings, addr 0x6a8f5e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usings, addr 0x6af8468, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_UsingEntry>* get_usings();
 
-  /// @brief Method get_uxmlObjectEntries, addr 0x6a8f71c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_uxmlObjectEntries, addr 0x6af85a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_UxmlObjectEntry>* get_uxmlObjectEntries();
 
-  /// @brief Method get_uxmlObjectIds, addr 0x6a8f724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_uxmlObjectIds, addr 0x6af85a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<int32_t>* get_uxmlObjectIds();
 
-  /// @brief Method get_visualElementAssets, addr 0x6a8f70c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visualElementAssets, addr 0x6af8590, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>* get_visualElementAssets();
 
   static inline void setStaticF_LinkedVEAInTemplatePropertyName(::StringW value);
@@ -1365,19 +1365,19 @@ public:
 
   static inline void setStaticF_s_VeaIdsPath(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method set_contentContainerId, addr 0x6a91598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_contentContainerId, addr 0x6afa41c, size 0x8, virtual false, abstract: false, final false
   inline void set_contentContainerId(int32_t value);
 
-  /// @brief Method set_contentHash, addr 0x6a93134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_contentHash, addr 0x6afbfb8, size 0x8, virtual false, abstract: false, final false
   inline void set_contentHash(int32_t value);
 
-  /// @brief Method set_importedWithErrors, addr 0x6a8f448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_importedWithErrors, addr 0x6af82cc, size 0x8, virtual false, abstract: false, final false
   inline void set_importedWithErrors(bool value);
 
-  /// @brief Method set_importedWithWarnings, addr 0x6a8f468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_importedWithWarnings, addr 0x6af82ec, size 0x8, virtual false, abstract: false, final false
   inline void set_importedWithWarnings(bool value);
 
-  /// @brief Method set_importerWithUpdatedUrls, addr 0x6a8f458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_importerWithUpdatedUrls, addr 0x6af82dc, size 0x8, virtual false, abstract: false, final false
   inline void set_importerWithUpdatedUrls(bool value);
 
 protected:

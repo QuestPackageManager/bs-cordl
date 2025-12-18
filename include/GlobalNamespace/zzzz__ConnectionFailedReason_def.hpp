@@ -39,7 +39,7 @@ public:
     __E_ServerIsTerminating = static_cast<int32_t>(0xd),
     __E_Timeout = static_cast<int32_t>(0xe),
     __E_FailedToFindMatch = static_cast<int32_t>(0xf),
-    __E_MismatchedServerEnvironment = static_cast<int32_t>(0x10),
+    __E_IncompatibleServerEnvironment = static_cast<int32_t>(0x10),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -71,11 +71,11 @@ public:
   /// @brief Field FailedToFindMatch value: I32(15)
   static ::GlobalNamespace::ConnectionFailedReason const FailedToFindMatch;
 
+  /// @brief Field IncompatibleServerEnvironment value: I32(16)
+  static ::GlobalNamespace::ConnectionFailedReason const IncompatibleServerEnvironment;
+
   /// @brief Field InvalidPassword value: I32(8)
   static ::GlobalNamespace::ConnectionFailedReason const InvalidPassword;
-
-  /// @brief Field MismatchedServerEnvironment value: I32(16)
-  static ::GlobalNamespace::ConnectionFailedReason const MismatchedServerEnvironment;
 
   /// @brief Field MultiplayerApiUnreachable value: I32(9)
   static ::GlobalNamespace::ConnectionFailedReason const MultiplayerApiUnreachable;
@@ -111,7 +111,7 @@ public:
   static ::GlobalNamespace::ConnectionFailedReason const VersionMismatch;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18091 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18104 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

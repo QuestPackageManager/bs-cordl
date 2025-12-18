@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::DoubleRewindableAllocators::*)()>(
     &::Unity::Collections::DoubleRewindableAllocators::Update)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x629067c;
+  constexpr static std::size_t addrs = 0x62f8208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::DoubleRewindableAllocators>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::DoubleRewindableAllocators::*)()>(
     &::Unity::Collections::DoubleRewindableAllocators::CheckIsCreated)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6290784;
+  constexpr static std::size_t addrs = 0x62f8310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::DoubleRewindableAllocators>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::Unity::Collections::RewindableAllocator> (::Unity::Collections::DoubleRewindableAllocators::*)()>(
     &::Unity::Collections::DoubleRewindableAllocators::get_Allocator)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6290740;
+  constexpr static std::size_t addrs = 0x62f82cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::DoubleRewindableAllocators>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::DoubleRewindableAllocators::*)()>(
     &::Unity::Collections::DoubleRewindableAllocators::get_IsCreated)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62907dc;
+  constexpr static std::size_t addrs = 0x62f8368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::DoubleRewindableAllocators>::get(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::DoubleRewindableAllocators::*)(
     ::Unity::Collections::AllocatorManager_AllocatorHandle, int32_t)>(&::Unity::Collections::DoubleRewindableAllocators::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x62907ec;
+  constexpr static std::size_t addrs = 0x62f8378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::DoubleRewindableAllocators::*)(
     ::Unity::Collections::AllocatorManager_AllocatorHandle, int32_t)>(&::Unity::Collections::DoubleRewindableAllocators::Initialize)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6290800;
+  constexpr static std::size_t addrs = 0x62f838c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::DoubleRewindableAllocators::*)()>(
     &::Unity::Collections::DoubleRewindableAllocators::Dispose)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6290924;
+  constexpr static std::size_t addrs = 0x62f84b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::DoubleRewindableAllocators>::get(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Collections::DoubleRewindableAllocators::*)()>(
     &::Unity::Collections::DoubleRewindableAllocators::get_EnableBlockFree)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6290a08;
+  constexpr static std::size_t addrs = 0x62f8594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::DoubleRewindableAllocators>::get(),
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::DoubleRewindableAllocators::*)(bool)>(
     &::Unity::Collections::DoubleRewindableAllocators::set_EnableBlockFree)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6290a74;
+  constexpr static std::size_t addrs = 0x62f8600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

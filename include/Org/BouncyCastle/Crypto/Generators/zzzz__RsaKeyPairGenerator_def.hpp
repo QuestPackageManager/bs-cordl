@@ -55,13 +55,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
 
-  /// @brief Method ChooseRandomPrime, addr 0x32be078, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method ChooseRandomPrime, addr 0x32e88bc, size 0x234, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ChooseRandomPrime(int32_t bitlength, ::Org::BouncyCastle::Math::BigInteger* e);
 
-  /// @brief Method GenerateKeyPair, addr 0x32bdcfc, size 0x37c, virtual true, abstract: false, final false
+  /// @brief Method GenerateKeyPair, addr 0x32e8540, size 0x37c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method Init, addr 0x32bdbdc, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x32e8420, size 0x120, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator* New_ctor();
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters* value);
 
-  /// @brief Method .ctor, addr 0x32be3ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e8c30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_DefaultPublicExponent();

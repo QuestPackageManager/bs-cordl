@@ -92,13 +92,13 @@ public:
 
   __declspec(property(get = get_sign, put = set_sign)) bool sign;
 
-  /// @brief Method get_digits, addr 0x5a40de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_digits, addr 0x5aa7734, size 0x8, virtual false, abstract: false, final false
   inline char16_t* get_digits();
 
-  /// @brief Method get_sign, addr 0x5a40dcc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_sign, addr 0x5aa7718, size 0x10, virtual false, abstract: false, final false
   inline bool get_sign();
 
-  /// @brief Method set_sign, addr 0x5a40ddc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_sign, addr 0x5aa7728, size 0xc, virtual false, abstract: false, final false
   inline void set_sign(bool value);
 
   // Ctor Parameters []
@@ -187,303 +187,303 @@ public:
   /// @brief Field s_rgval64Power10By16, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_rgval64Power10By16, put = setStaticF_s_rgval64Power10By16)) ::ArrayW<uint64_t, ::Array<uint64_t>*> s_rgval64Power10By16;
 
-  /// @brief Method DecimalToNumber, addr 0x5a34f38, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method DecimalToNumber, addr 0x5a9b884, size 0x214, virtual false, abstract: false, final false
   static inline void DecimalToNumber(::System::Decimal value, ::ByRef<::System::Number_NumberBuffer> number);
 
-  /// @brief Method DigitsToInt, addr 0x5a402d4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DigitsToInt, addr 0x5aa6c20, size 0x34, virtual false, abstract: false, final false
   static inline uint32_t DigitsToInt(char16_t* p, int32_t count);
 
-  /// @brief Method DoubleToNumber, addr 0x5a3711c, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method DoubleToNumber, addr 0x5a9da68, size 0x48c, virtual false, abstract: false, final false
   static inline void DoubleToNumber(double_t value, int32_t precision, ::ByRef<::System::Number_NumberBuffer> number);
 
-  /// @brief Method FindSection, addr 0x5a3b8b0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method FindSection, addr 0x5aa21fc, size 0x138, virtual false, abstract: false, final false
   static inline int32_t FindSection(::System::ReadOnlySpan_1<char16_t> format, int32_t section);
 
-  /// @brief Method FormatCurrency, addr 0x5a3a618, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method FormatCurrency, addr 0x5aa0f64, size 0x268, virtual false, abstract: false, final false
   static inline void FormatCurrency(::ByRef<::System::Text::ValueStringBuilder> sb, ::ByRef<::System::Number_NumberBuffer> number, int32_t nMinDigits, int32_t nMaxDigits,
                                     ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method FormatDecimal, addr 0x5a34c48, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method FormatDecimal, addr 0x5a9b594, size 0x1a4, virtual false, abstract: false, final false
   static inline ::StringW FormatDecimal(::System::Decimal value, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method FormatDouble, addr 0x5a36be0, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method FormatDouble, addr 0x5a9d52c, size 0x2f4, virtual false, abstract: false, final false
   static inline ::StringW FormatDouble(::ByRef<::System::Text::ValueStringBuilder> sb, double_t value, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method FormatDouble, addr 0x5a36a9c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method FormatDouble, addr 0x5a9d3e8, size 0x144, virtual false, abstract: false, final false
   static inline ::StringW FormatDouble(double_t value, ::StringW format, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method FormatExponent, addr 0x5a3b9e8, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method FormatExponent, addr 0x5aa2334, size 0x2d8, virtual false, abstract: false, final false
   static inline void FormatExponent(::ByRef<::System::Text::ValueStringBuilder> sb, ::System::Globalization::NumberFormatInfo* info, int32_t value, char16_t expChar, int32_t minDigits,
                                     bool positiveSign);
 
-  /// @brief Method FormatFixed, addr 0x5a3a880, size 0x54c, virtual false, abstract: false, final false
+  /// @brief Method FormatFixed, addr 0x5aa11cc, size 0x54c, virtual false, abstract: false, final false
   static inline void FormatFixed(::ByRef<::System::Text::ValueStringBuilder> sb, ::ByRef<::System::Number_NumberBuffer> number, int32_t nMinDigits, int32_t nMaxDigits,
                                  ::System::Globalization::NumberFormatInfo* info, ::ArrayW<int32_t, ::Array<int32_t>*> groupDigits, ::StringW sDecimal, ::StringW sGroup);
 
-  /// @brief Method FormatGeneral, addr 0x5a3b28c, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method FormatGeneral, addr 0x5aa1bd8, size 0x3bc, virtual false, abstract: false, final false
   static inline void FormatGeneral(::ByRef<::System::Text::ValueStringBuilder> sb, ::ByRef<::System::Number_NumberBuffer> number, int32_t nMinDigits, int32_t nMaxDigits,
                                    ::System::Globalization::NumberFormatInfo* info, char16_t expChar, bool bSuppressScientific);
 
-  /// @brief Method FormatInt32, addr 0x5a2d8f0, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method FormatInt32, addr 0x5a9423c, size 0x3fc, virtual false, abstract: false, final false
   static inline ::StringW FormatInt32(int32_t value, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider);
 
-  /// @brief Method FormatInt64, addr 0x5a30b4c, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method FormatInt64, addr 0x5a97498, size 0x314, virtual false, abstract: false, final false
   static inline ::StringW FormatInt64(int64_t value, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider);
 
-  /// @brief Method FormatNumber, addr 0x5a3adcc, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method FormatNumber, addr 0x5aa1718, size 0x254, virtual false, abstract: false, final false
   static inline void FormatNumber(::ByRef<::System::Text::ValueStringBuilder> sb, ::ByRef<::System::Number_NumberBuffer> number, int32_t nMinDigits, int32_t nMaxDigits,
                                   ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method FormatPercent, addr 0x5a3b648, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method FormatPercent, addr 0x5aa1f94, size 0x268, virtual false, abstract: false, final false
   static inline void FormatPercent(::ByRef<::System::Text::ValueStringBuilder> sb, ::ByRef<::System::Number_NumberBuffer> number, int32_t nMinDigits, int32_t nMaxDigits,
                                    ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method FormatScientific, addr 0x5a3b020, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method FormatScientific, addr 0x5aa196c, size 0x26c, virtual false, abstract: false, final false
   static inline void FormatScientific(::ByRef<::System::Text::ValueStringBuilder> sb, ::ByRef<::System::Number_NumberBuffer> number, int32_t nMinDigits, int32_t nMaxDigits,
                                       ::System::Globalization::NumberFormatInfo* info, char16_t expChar);
 
-  /// @brief Method FormatSingle, addr 0x5a37bbc, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method FormatSingle, addr 0x5a9e508, size 0x2fc, virtual false, abstract: false, final false
   static inline ::StringW FormatSingle(::ByRef<::System::Text::ValueStringBuilder> sb, float_t value, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method FormatSingle, addr 0x5a37a78, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method FormatSingle, addr 0x5a9e3c4, size 0x144, virtual false, abstract: false, final false
   static inline ::StringW FormatSingle(float_t value, ::StringW format, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method FormatUInt32, addr 0x5a2dee4, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method FormatUInt32, addr 0x5a94830, size 0x37c, virtual false, abstract: false, final false
   static inline ::StringW FormatUInt32(uint32_t value, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider);
 
-  /// @brief Method FormatUInt64, addr 0x5a39b74, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method FormatUInt64, addr 0x5aa04c0, size 0x2a4, virtual false, abstract: false, final false
   static inline ::StringW FormatUInt64(uint64_t value, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider);
 
-  /// @brief Method High32, addr 0x5a3a520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method High32, addr 0x5aa0e6c, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t High32(uint64_t value);
 
-  /// @brief Method Int32ToHexChars, addr 0x5a3a3a0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Int32ToHexChars, addr 0x5aa0cec, size 0x54, virtual false, abstract: false, final false
   static inline char16_t* Int32ToHexChars(char16_t* buffer, uint32_t value, int32_t hexBase, int32_t digits);
 
-  /// @brief Method Int32ToHexStr, addr 0x5a38360, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Int32ToHexStr, addr 0x5a9ecac, size 0x144, virtual false, abstract: false, final false
   static inline ::StringW Int32ToHexStr(int32_t value, char16_t hexBase, int32_t digits);
 
-  /// @brief Method Int32ToNumber, addr 0x5a3a2a0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Int32ToNumber, addr 0x5aa0bec, size 0x100, virtual false, abstract: false, final false
   static inline void Int32ToNumber(int32_t value, ::ByRef<::System::Number_NumberBuffer> number);
 
-  /// @brief Method Int64DivMod1E9, addr 0x5a3a4e8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Int64DivMod1E9, addr 0x5aa0e34, size 0x38, virtual false, abstract: false, final false
   static inline uint32_t Int64DivMod1E9(::ByRef<uint64_t> value);
 
-  /// @brief Method Int64ToHexStr, addr 0x5a38f6c, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Int64ToHexStr, addr 0x5a9f8b8, size 0x214, virtual false, abstract: false, final false
   static inline ::StringW Int64ToHexStr(int64_t value, char16_t hexBase, int32_t digits);
 
-  /// @brief Method Int64ToNumber, addr 0x5a39180, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Int64ToNumber, addr 0x5a9facc, size 0x1ac, virtual false, abstract: false, final false
   static inline void Int64ToNumber(int64_t input, ::ByRef<::System::Number_NumberBuffer> number);
 
-  /// @brief Method IsDigit, addr 0x5a3ecc0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsDigit, addr 0x5aa560c, size 0x10, virtual false, abstract: false, final false
   static inline bool IsDigit(int32_t ch);
 
-  /// @brief Method IsWhite, addr 0x5a3ec44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsWhite, addr 0x5aa5590, size 0x14, virtual false, abstract: false, final false
   static inline bool IsWhite(int32_t ch);
 
-  /// @brief Method Low32, addr 0x5a3a528, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Low32, addr 0x5aa0e74, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t Low32(uint64_t value);
 
-  /// @brief Method MatchChars, addr 0x5a3ec58, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method MatchChars, addr 0x5aa55a4, size 0x68, virtual false, abstract: false, final false
   static inline char16_t* MatchChars(char16_t* p, char16_t* pEnd, ::StringW value);
 
-  /// @brief Method Mul32x32To64, addr 0x5a40308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Mul32x32To64, addr 0x5aa6c54, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t Mul32x32To64(uint32_t a, uint32_t b);
 
-  /// @brief Method Mul64Lossy, addr 0x5a40310, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Mul64Lossy, addr 0x5aa6c5c, size 0x9c, virtual false, abstract: false, final false
   static inline uint64_t Mul64Lossy(uint64_t a, uint64_t b, ::ByRef<int32_t> pexp);
 
-  /// @brief Method NegativeInt32ToDecStr, addr 0x5a381b0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method NegativeInt32ToDecStr, addr 0x5a9eafc, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW NegativeInt32ToDecStr(int32_t value, int32_t digits, ::StringW sNegative);
 
-  /// @brief Method NegativeInt64ToDecStr, addr 0x5a38c7c, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method NegativeInt64ToDecStr, addr 0x5a9f5c8, size 0x2f0, virtual false, abstract: false, final false
   static inline ::StringW NegativeInt64ToDecStr(int64_t input, int32_t digits, ::StringW sNegative);
 
-  /// @brief Method NumberBufferToDecimal, addr 0x5a3f2a8, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method NumberBufferToDecimal, addr 0x5aa5bf4, size 0x30c, virtual false, abstract: false, final false
   static inline bool NumberBufferToDecimal(::ByRef<::System::Number_NumberBuffer> number, ::ByRef<::System::Decimal> value);
 
-  /// @brief Method NumberBufferToDouble, addr 0x5a3fa50, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method NumberBufferToDouble, addr 0x5aa639c, size 0x8c, virtual false, abstract: false, final false
   static inline bool NumberBufferToDouble(::ByRef<::System::Number_NumberBuffer> number, ::ByRef<double_t> value);
 
-  /// @brief Method NumberToDouble, addr 0x5a375a8, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method NumberToDouble, addr 0x5a9def4, size 0x4d0, virtual false, abstract: false, final false
   static inline double_t NumberToDouble(::ByRef<::System::Number_NumberBuffer> number);
 
-  /// @brief Method NumberToInt32, addr 0x5a3bcc0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method NumberToInt32, addr 0x5aa260c, size 0x8c, virtual false, abstract: false, final false
   static inline bool NumberToInt32(::ByRef<::System::Number_NumberBuffer> number, ::ByRef<int32_t> value);
 
-  /// @brief Method NumberToInt64, addr 0x5a3bd4c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method NumberToInt64, addr 0x5aa2698, size 0x88, virtual false, abstract: false, final false
   static inline bool NumberToInt64(::ByRef<::System::Number_NumberBuffer> number, ::ByRef<int64_t> value);
 
-  /// @brief Method NumberToString, addr 0x5a3514c, size 0x590, virtual false, abstract: false, final false
+  /// @brief Method NumberToString, addr 0x5a9ba98, size 0x590, virtual false, abstract: false, final false
   static inline void NumberToString(::ByRef<::System::Text::ValueStringBuilder> sb, ::ByRef<::System::Number_NumberBuffer> number, char16_t format, int32_t nMaxDigits,
                                     ::System::Globalization::NumberFormatInfo* info, bool isDecimal);
 
-  /// @brief Method NumberToStringFormat, addr 0x5a356dc, size 0x11b4, virtual false, abstract: false, final false
+  /// @brief Method NumberToStringFormat, addr 0x5a9c028, size 0x11b4, virtual false, abstract: false, final false
   static inline void NumberToStringFormat(::ByRef<::System::Text::ValueStringBuilder> sb, ::ByRef<::System::Number_NumberBuffer> number, ::System::ReadOnlySpan_1<char16_t> format,
                                           ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method NumberToUInt32, addr 0x5a3bdd4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method NumberToUInt32, addr 0x5aa2720, size 0x84, virtual false, abstract: false, final false
   static inline bool NumberToUInt32(::ByRef<::System::Number_NumberBuffer> number, ::ByRef<uint32_t> value);
 
-  /// @brief Method NumberToUInt64, addr 0x5a3be58, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method NumberToUInt64, addr 0x5aa27a4, size 0x84, virtual false, abstract: false, final false
   static inline bool NumberToUInt64(::ByRef<::System::Number_NumberBuffer> number, ::ByRef<uint64_t> value);
 
-  /// @brief Method ParseDecimal, addr 0x5a3f180, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ParseDecimal, addr 0x5aa5acc, size 0x128, virtual false, abstract: false, final false
   static inline ::System::Decimal ParseDecimal(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method ParseDouble, addr 0x5a3f5b4, size 0x49c, virtual false, abstract: false, final false
+  /// @brief Method ParseDouble, addr 0x5aa5f00, size 0x49c, virtual false, abstract: false, final false
   static inline double_t ParseDouble(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method ParseFormatSpecifier, addr 0x5a34dec, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ParseFormatSpecifier, addr 0x5a9b738, size 0x14c, virtual false, abstract: false, final false
   static inline char16_t ParseFormatSpecifier(::System::ReadOnlySpan_1<char16_t> format, ::ByRef<int32_t> digits);
 
-  /// @brief Method ParseInt32, addr 0x5a2ee34, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method ParseInt32, addr 0x5a95780, size 0x1f4, virtual false, abstract: false, final false
   static inline int32_t ParseInt32(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method ParseInt64, addr 0x5a31530, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method ParseInt64, addr 0x5a97e7c, size 0x1f4, virtual false, abstract: false, final false
   static inline int64_t ParseInt64(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method ParseNumber, addr 0x5a3e50c, size 0x738, virtual false, abstract: false, final false
+  /// @brief Method ParseNumber, addr 0x5aa4e58, size 0x738, virtual false, abstract: false, final false
   static inline bool ParseNumber(::ByRef<char16_t*> str, char16_t* strEnd, ::System::Globalization::NumberStyles styles, ::ByRef<::System::Number_NumberBuffer> number,
                                  ::System::Globalization::NumberFormatInfo* info, bool parseDecimal);
 
-  /// @brief Method ParseSingle, addr 0x5a3fadc, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method ParseSingle, addr 0x5aa6428, size 0x4b0, virtual false, abstract: false, final false
   static inline float_t ParseSingle(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method ParseUInt32, addr 0x5a3d414, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ParseUInt32, addr 0x5aa3d60, size 0x1e0, virtual false, abstract: false, final false
   static inline uint32_t ParseUInt32(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method ParseUInt64, addr 0x5a3dc84, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ParseUInt64, addr 0x5aa45d0, size 0x1e0, virtual false, abstract: false, final false
   static inline uint64_t ParseUInt64(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method RoundNumber, addr 0x5a3a52c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method RoundNumber, addr 0x5aa0e78, size 0xec, virtual false, abstract: false, final false
   static inline void RoundNumber(::ByRef<::System::Number_NumberBuffer> number, int32_t pos);
 
-  /// @brief Method StringToNumber, addr 0x5a3c924, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method StringToNumber, addr 0x5aa3270, size 0x12c, virtual false, abstract: false, final false
   static inline void StringToNumber(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::ByRef<::System::Number_NumberBuffer> number,
                                     ::System::Globalization::NumberFormatInfo* info, bool parseDecimal);
 
-  /// @brief Method ThrowOverflowOrFormatException, addr 0x5a3c550, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ThrowOverflowOrFormatException, addr 0x5aa2e9c, size 0x90, virtual false, abstract: false, final false
   static inline void ThrowOverflowOrFormatException(bool overflow, ::StringW overflowResourceKey);
 
-  /// @brief Method TrailingZeros, addr 0x5a3edec, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method TrailingZeros, addr 0x5aa5738, size 0xa4, virtual false, abstract: false, final false
   static inline bool TrailingZeros(::System::ReadOnlySpan_1<char16_t> value, int32_t index);
 
-  /// @brief Method TryCopyTo, addr 0x5a37034, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TryCopyTo, addr 0x5a9d980, size 0xe8, virtual false, abstract: false, final false
   static inline bool TryCopyTo(::StringW source, ::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method TryFormatDecimal, addr 0x5a36890, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method TryFormatDecimal, addr 0x5a9d1dc, size 0x1b8, virtual false, abstract: false, final false
   static inline bool TryFormatDecimal(::System::Decimal value, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::NumberFormatInfo* info, ::System::Span_1<char16_t> destination,
                                       ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method TryFormatDouble, addr 0x5a36ed4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method TryFormatDouble, addr 0x5a9d820, size 0x160, virtual false, abstract: false, final false
   static inline bool TryFormatDouble(double_t value, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::NumberFormatInfo* info, ::System::Span_1<char16_t> destination,
                                      ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method TryFormatInt32, addr 0x5a2e734, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method TryFormatInt32, addr 0x5a95080, size 0x454, virtual false, abstract: false, final false
   static inline bool TryFormatInt32(int32_t value, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider, ::System::Span_1<char16_t> destination,
                                     ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method TryFormatInt64, addr 0x5a31114, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method TryFormatInt64, addr 0x5a97a60, size 0x36c, virtual false, abstract: false, final false
   static inline bool TryFormatInt64(int64_t value, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider, ::System::Span_1<char16_t> destination,
                                     ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method TryFormatSingle, addr 0x5a37eb8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method TryFormatSingle, addr 0x5a9e804, size 0x160, virtual false, abstract: false, final false
   static inline bool TryFormatSingle(float_t value, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::NumberFormatInfo* info, ::System::Span_1<char16_t> destination,
                                      ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method TryFormatUInt32, addr 0x5a2e384, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method TryFormatUInt32, addr 0x5a94cd0, size 0x3b0, virtual false, abstract: false, final false
   static inline bool TryFormatUInt32(uint32_t value, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider, ::System::Span_1<char16_t> destination,
                                      ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method TryFormatUInt64, addr 0x5a39fb8, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method TryFormatUInt64, addr 0x5aa0904, size 0x2e8, virtual false, abstract: false, final false
   static inline bool TryFormatUInt64(uint64_t value, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider, ::System::Span_1<char16_t> destination,
                                      ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method TryInt32ToHexStr, addr 0x5a38864, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method TryInt32ToHexStr, addr 0x5a9f1b0, size 0x180, virtual false, abstract: false, final false
   static inline bool TryInt32ToHexStr(int32_t value, char16_t hexBase, int32_t digits, ::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method TryInt64ToHexStr, addr 0x5a39924, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method TryInt64ToHexStr, addr 0x5aa0270, size 0x250, virtual false, abstract: false, final false
   static inline bool TryInt64ToHexStr(int64_t value, char16_t hexBase, int32_t digits, ::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method TryNegativeInt32ToDecStr, addr 0x5a38678, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method TryNegativeInt32ToDecStr, addr 0x5a9efc4, size 0x1ec, virtual false, abstract: false, final false
   static inline bool TryNegativeInt32ToDecStr(int32_t value, int32_t digits, ::StringW sNegative, ::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method TryNegativeInt64ToDecStr, addr 0x5a395f8, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method TryNegativeInt64ToDecStr, addr 0x5a9ff44, size 0x32c, virtual false, abstract: false, final false
   static inline bool TryNegativeInt64ToDecStr(int64_t input, int32_t digits, ::StringW sNegative, ::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method TryParseDecimal, addr 0x5a3ff8c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method TryParseDecimal, addr 0x5aa68d8, size 0x108, virtual false, abstract: false, final false
   static inline bool TryParseDecimal(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info,
                                      ::ByRef<::System::Decimal> result);
 
-  /// @brief Method TryParseDouble, addr 0x5a40094, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method TryParseDouble, addr 0x5aa69e0, size 0x108, virtual false, abstract: false, final false
   static inline bool TryParseDouble(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info, ::ByRef<double_t> result);
 
-  /// @brief Method TryParseInt32, addr 0x5a2f220, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method TryParseInt32, addr 0x5a95b6c, size 0x178, virtual false, abstract: false, final false
   static inline bool TryParseInt32(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info, ::ByRef<int32_t> result);
 
-  /// @brief Method TryParseInt32IntegerStyle, addr 0x5a3bedc, size 0x674, virtual false, abstract: false, final false
+  /// @brief Method TryParseInt32IntegerStyle, addr 0x5aa2828, size 0x674, virtual false, abstract: false, final false
   static inline bool TryParseInt32IntegerStyle(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info,
                                                ::ByRef<int32_t> result, ::ByRef<bool> failureIsOverflow);
 
-  /// @brief Method TryParseInt64, addr 0x5a31980, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method TryParseInt64, addr 0x5a982cc, size 0x178, virtual false, abstract: false, final false
   static inline bool TryParseInt64(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info, ::ByRef<int64_t> result);
 
-  /// @brief Method TryParseInt64IntegerStyle, addr 0x5a3ca50, size 0x680, virtual false, abstract: false, final false
+  /// @brief Method TryParseInt64IntegerStyle, addr 0x5aa339c, size 0x680, virtual false, abstract: false, final false
   static inline bool TryParseInt64IntegerStyle(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info,
                                                ::ByRef<int64_t> result, ::ByRef<bool> failureIsOverflow);
 
-  /// @brief Method TryParseSingle, addr 0x5a4019c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method TryParseSingle, addr 0x5aa6ae8, size 0x138, virtual false, abstract: false, final false
   static inline bool TryParseSingle(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info, ::ByRef<float_t> result);
 
-  /// @brief Method TryParseUInt32, addr 0x5a3ee90, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method TryParseUInt32, addr 0x5aa57dc, size 0x178, virtual false, abstract: false, final false
   static inline bool TryParseUInt32(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info, ::ByRef<uint32_t> result);
 
-  /// @brief Method TryParseUInt32HexNumberStyle, addr 0x5a3c5e0, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method TryParseUInt32HexNumberStyle, addr 0x5aa2f2c, size 0x344, virtual false, abstract: false, final false
   static inline bool TryParseUInt32HexNumberStyle(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info,
                                                   ::ByRef<uint32_t> result, ::ByRef<bool> failureIsOverflow);
 
-  /// @brief Method TryParseUInt32IntegerStyle, addr 0x5a3d5f4, size 0x690, virtual false, abstract: false, final false
+  /// @brief Method TryParseUInt32IntegerStyle, addr 0x5aa3f40, size 0x690, virtual false, abstract: false, final false
   static inline bool TryParseUInt32IntegerStyle(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info,
                                                 ::ByRef<uint32_t> result, ::ByRef<bool> failureIsOverflow);
 
-  /// @brief Method TryParseUInt64, addr 0x5a3f008, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method TryParseUInt64, addr 0x5aa5954, size 0x178, virtual false, abstract: false, final false
   static inline bool TryParseUInt64(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info, ::ByRef<uint64_t> result);
 
-  /// @brief Method TryParseUInt64HexNumberStyle, addr 0x5a3d0d0, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method TryParseUInt64HexNumberStyle, addr 0x5aa3a1c, size 0x344, virtual false, abstract: false, final false
   static inline bool TryParseUInt64HexNumberStyle(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info,
                                                   ::ByRef<uint64_t> result, ::ByRef<bool> failureIsOverflow);
 
-  /// @brief Method TryParseUInt64IntegerStyle, addr 0x5a3de64, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method TryParseUInt64IntegerStyle, addr 0x5aa47b0, size 0x6a8, virtual false, abstract: false, final false
   static inline bool TryParseUInt64IntegerStyle(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* info,
                                                 ::ByRef<uint64_t> result, ::ByRef<bool> failureIsOverflow);
 
-  /// @brief Method TryStringToNumber, addr 0x5a3ecd0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method TryStringToNumber, addr 0x5aa561c, size 0x11c, virtual false, abstract: false, final false
   static inline bool TryStringToNumber(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles styles, ::ByRef<::System::Number_NumberBuffer> number,
                                        ::System::Globalization::NumberFormatInfo* info, bool parseDecimal);
 
-  /// @brief Method TryUInt32ToDecStr, addr 0x5a384a4, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method TryUInt32ToDecStr, addr 0x5a9edf0, size 0x1d4, virtual false, abstract: false, final false
   static inline bool TryUInt32ToDecStr(uint32_t value, int32_t digits, ::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method TryUInt64ToDecStr, addr 0x5a3932c, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method TryUInt64ToDecStr, addr 0x5a9fc78, size 0x2cc, virtual false, abstract: false, final false
   static inline bool TryUInt64ToDecStr(uint64_t value, int32_t digits, ::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method UInt32ToDecChars, addr 0x5a36a48, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method UInt32ToDecChars, addr 0x5a9d394, size 0x54, virtual false, abstract: false, final false
   static inline char16_t* UInt32ToDecChars(char16_t* bufferEnd, uint32_t value, int32_t digits);
 
-  /// @brief Method UInt32ToDecStr, addr 0x5a38018, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method UInt32ToDecStr, addr 0x5a9e964, size 0x198, virtual false, abstract: false, final false
   static inline ::StringW UInt32ToDecStr(uint32_t value, int32_t digits);
 
-  /// @brief Method UInt32ToNumber, addr 0x5a3a3f4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method UInt32ToNumber, addr 0x5aa0d40, size 0xf4, virtual false, abstract: false, final false
   static inline void UInt32ToNumber(uint32_t value, ::ByRef<::System::Number_NumberBuffer> number);
 
-  /// @brief Method UInt64ToDecStr, addr 0x5a389e4, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method UInt64ToDecStr, addr 0x5a9f330, size 0x298, virtual false, abstract: false, final false
   static inline ::StringW UInt64ToDecStr(uint64_t value, int32_t digits);
 
-  /// @brief Method UInt64ToNumber, addr 0x5a39e18, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method UInt64ToNumber, addr 0x5aa0764, size 0x1a0, virtual false, abstract: false, final false
   static inline void UInt64ToNumber(uint64_t value, ::ByRef<::System::Number_NumberBuffer> number);
 
-  /// @brief Method abs, addr 0x5a403ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method abs, addr 0x5aa6cf8, size 0xc, virtual false, abstract: false, final false
   static inline int32_t abs(int32_t value);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_s_charToHexLookup();

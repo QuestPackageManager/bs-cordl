@@ -25,7 +25,7 @@ public:
   /// @brief Field s_CameraTypeNames, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_CameraTypeNames, put = setStaticF_s_CameraTypeNames)) ::ArrayW<::StringW, ::Array<::StringW>*> s_CameraTypeNames;
 
-  /// @brief Method GetName, addr 0x66a8508, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x6710094, size 0xb4, virtual false, abstract: false, final false
   static inline ::StringW GetName(::UnityEngine::Rendering::Universal::CameraRenderType type);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_s_CameraTypeNames();
@@ -47,7 +47,7 @@ public:
   CameraTypeUtility(CameraTypeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12960 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12964 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

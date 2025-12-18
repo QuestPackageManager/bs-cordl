@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NotInstruction_NotBoolean* New_ctor();
 
-  /// @brief Method Run, addr 0x5d9cd58, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5e048e4, size 0x78, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5d9cd34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e048c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   NotInstruction_NotBoolean(NotInstruction_NotBoolean const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16510 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -78,7 +78,7 @@ public:
   static ::UnityEngine::Timeline::DirectorControlPlayable_PauseAction const StopDirector;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18865 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19052 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -115,43 +115,43 @@ public:
   /// @brief Field pauseAction, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_pauseAction, put = __cordl_internal_set_pauseAction)) ::UnityEngine::Timeline::DirectorControlPlayable_PauseAction pauseAction;
 
-  /// @brief Method Create, addr 0x67a2d0c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x680a884, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::DirectorControlPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph,
                                                                                                                      ::UnityEngine::Playables::PlayableDirector* director);
 
-  /// @brief Method DetectDiscontinuity, addr 0x67a84f4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method DetectDiscontinuity, addr 0x681006c, size 0x11c, virtual false, abstract: false, final false
   inline bool DetectDiscontinuity(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method DetectOutOfSync, addr 0x67a8cc4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method DetectOutOfSync, addr 0x681083c, size 0x154, virtual false, abstract: false, final false
   inline bool DetectOutOfSync(::UnityEngine::Playables::Playable playable);
 
   static inline ::UnityEngine::Timeline::DirectorControlPlayable* New_ctor();
 
-  /// @brief Method OnBehaviourPause, addr 0x67a8958, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x68104d0, size 0x11c, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPlay, addr 0x67a8880, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x68103f8, size 0xd8, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnPlayableDestroy, addr 0x67a8280, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x680fdf8, size 0xc4, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method PrepareFrame, addr 0x67a8344, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x680febc, size 0x1b0, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method ProcessFrame, addr 0x67a8a74, size 0x250, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x68105ec, size 0x250, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method SyncSpeed, addr 0x67a8610, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SyncSpeed, addr 0x6810188, size 0x158, virtual false, abstract: false, final false
   inline void SyncSpeed(double_t speed);
 
-  /// @brief Method SyncStart, addr 0x67a8768, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SyncStart, addr 0x68102e0, size 0x118, virtual false, abstract: false, final false
   inline void SyncStart(::UnityEngine::Playables::PlayableGraph graph, double_t time);
 
-  /// @brief Method SyncStop, addr 0x67a8fac, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SyncStop, addr 0x6810b24, size 0xf8, virtual false, abstract: false, final false
   inline void SyncStop(::UnityEngine::Playables::PlayableGraph graph, double_t time);
 
-  /// @brief Method UpdateTime, addr 0x67a8e18, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method UpdateTime, addr 0x6810990, size 0x194, virtual false, abstract: false, final false
   inline void UpdateTime(::UnityEngine::Playables::Playable playable);
 
   constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get_director() const;
@@ -178,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set_pauseAction(::UnityEngine::Timeline::DirectorControlPlayable_PauseAction value);
 
-  /// @brief Method .ctor, addr 0x67a90a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6810c1c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -196,7 +196,7 @@ public:
   DirectorControlPlayable(DirectorControlPlayable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19053 };
 
   /// @brief Field director, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ___director;

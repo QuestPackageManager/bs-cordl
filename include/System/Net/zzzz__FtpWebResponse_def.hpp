@@ -50,7 +50,7 @@ public:
   // Declarations
   static inline ::System::Net::FtpWebResponse_EmptyStream* New_ctor();
 
-  /// @brief Method .ctor, addr 0x61ed950, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62554dc, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   FtpWebResponse_EmptyStream(FtpWebResponse_EmptyStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11447 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11451 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -124,19 +124,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x61ed9f8, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x6255584, size 0xfc, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetResponseStream, addr 0x61ed8ec, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetResponseStream, addr 0x6255478, size 0x64, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetResponseStream();
 
   static inline ::System::Net::FtpWebResponse* New_ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri, ::System::Net::FtpStatusCode statusCode,
                                                         ::StringW statusLine, ::System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage);
 
-  /// @brief Method SetResponseStream, addr 0x61ed130, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetResponseStream, addr 0x6254cbc, size 0xa4, virtual false, abstract: false, final false
   inline void SetResponseStream(::System::IO::Stream* stream);
 
-  /// @brief Method UpdateStatus, addr 0x61ebad0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UpdateStatus, addr 0x625365c, size 0x10, virtual false, abstract: false, final false
   inline void UpdateStatus(::System::Net::FtpStatusCode statusCode, ::StringW statusLine, ::StringW exitMessage);
 
   constexpr ::StringW const& __cordl_internal_get__bannerMessage() const;
@@ -199,17 +199,17 @@ public:
 
   constexpr void __cordl_internal_set__welcomeMessage(::StringW value);
 
-  /// @brief Method .ctor, addr 0x61ed1d4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6254d60, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri, ::System::Net::FtpStatusCode statusCode, ::StringW statusLine,
                     ::System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage);
 
-  /// @brief Method get_Headers, addr 0x61edaf4, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x6255680, size 0x110, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_ResponseUri, addr 0x61edc04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ResponseUri, addr 0x6255790, size 0x8, virtual true, abstract: false, final false
   inline ::System::Uri* get_ResponseUri();
 
-  /// @brief Method get_StatusCode, addr 0x61edc0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusCode, addr 0x6255798, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::FtpStatusCode get_StatusCode();
 
   /// @brief Convert to "::System::IDisposable"
@@ -230,7 +230,7 @@ public:
   FtpWebResponse(FtpWebResponse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11452 };
 
   /// @brief Field _responseStream, offset: 0x20, size: 0x8, def value: None
   ::System::IO::Stream* ____responseStream;

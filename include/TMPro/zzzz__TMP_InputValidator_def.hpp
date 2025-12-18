@@ -25,7 +25,7 @@ public:
   /// @brief Method Validate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline char16_t Validate(::ByRef<::StringW> text, ::ByRef<int32_t> pos, char16_t ch);
 
-  /// @brief Method .ctor, addr 0x677476c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67dc2e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -43,7 +43,7 @@ public:
   TMP_InputValidator(TMP_InputValidator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15921 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

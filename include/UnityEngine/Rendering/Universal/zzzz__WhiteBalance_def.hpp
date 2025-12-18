@@ -33,10 +33,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x66600c4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x66c7c50, size 0x5c, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// @brief Method IsTileCompatible, addr 0x6660120, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x66c7cac, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::WhiteBalance* New_ctor();
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_tint(::UnityEngine::Rendering::ClampedFloatParameter* value);
 
-  /// @brief Method .ctor, addr 0x6660128, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66c7cb4, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -74,7 +74,7 @@ public:
   WhiteBalance(WhiteBalance const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12793 };
 
   /// @brief Field temperature, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___temperature;

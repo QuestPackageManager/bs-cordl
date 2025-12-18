@@ -78,7 +78,7 @@ public:
 
   static inline ::BGLib::UnityExtension::UnityWebRequestExtensions___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <GetAwaiter>g__SetResult|0, addr 0x31fe8e0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method <GetAwaiter>g__SetResult|0, addr 0x322f30c, size 0xd8, virtual false, abstract: false, final false
   inline void _GetAwaiter_g__SetResult_0(::UnityEngine::AsyncOperation* _);
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::UnityWebRequest_Result>* const& __cordl_internal_get_tcs() const;
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_webRequestOperation(::UnityEngine::Networking::UnityWebRequestAsyncOperation* value);
 
-  /// @brief Method .ctor, addr 0x31fe8dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322f308, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -111,7 +111,7 @@ public:
   UnityWebRequestExtensions___c__DisplayClass1_0(UnityWebRequestExtensions___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20750 };
 
   /// @brief Field webRequestOperation, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Networking::UnityWebRequestAsyncOperation* ___webRequestOperation;
@@ -140,10 +140,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x31fe9b8, size 0x65c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x322f3e4, size 0x65c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x31ff014, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x322fa40, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -170,7 +170,7 @@ public:
                                                                 ::System::Runtime::CompilerServices::ValueTaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20726 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20751 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -242,11 +242,11 @@ public:
 
   using __c__DisplayClass1_0 = ::BGLib::UnityExtension::UnityWebRequestExtensions___c__DisplayClass1_0;
 
-  /// @brief Method GetAwaiter, addr 0x31fe2dc, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x322ed08, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result>
   GetAwaiter(::UnityEngine::Networking::UnityWebRequestAsyncOperation* webRequestOperation);
 
-  /// @brief Method SendWebRequestAsync, addr 0x31fe7e8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SendWebRequestAsync, addr 0x322f214, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityEngine::Networking::UnityWebRequest_Result>* SendWebRequestAsync(::UnityEngine::Networking::UnityWebRequest* request,
                                                                                                                            ::System::Threading::CancellationToken cancellationToken);
 
@@ -265,7 +265,7 @@ public:
   UnityWebRequestExtensions(UnityWebRequestExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20752 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

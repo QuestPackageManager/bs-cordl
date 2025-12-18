@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65cef48;
+  constexpr static std::size_t addrs = 0x6636ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources::get_coreCopyPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65cef50;
+  constexpr static std::size_t addrs = 0x6636adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources::set_coreCopyPS)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x65cef58;
+  constexpr static std::size_t addrs = 0x6636ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::Util::RenderGraphUtilsResources::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65cefc8;
+  constexpr static std::size_t addrs = 0x6636b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

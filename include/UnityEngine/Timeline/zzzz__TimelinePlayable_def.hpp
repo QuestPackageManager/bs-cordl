@@ -85,45 +85,45 @@ public:
   /// @brief Field muteAudioScrubbing, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_muteAudioScrubbing, put = setStaticF_muteAudioScrubbing)) bool muteAudioScrubbing;
 
-  /// @brief Method CacheTrack, addr 0x67ac8ec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CacheTrack, addr 0x6814464, size 0x8c, virtual false, abstract: false, final false
   inline void CacheTrack(::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::Playables::Playable playable, int32_t port, ::UnityEngine::Playables::Playable parent);
 
-  /// @brief Method Compile, addr 0x67ab5f4, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method Compile, addr 0x681316c, size 0x2c0, virtual false, abstract: false, final false
   inline void Compile(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable,
                       ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go, bool autoRebalance, bool createOutputs);
 
-  /// @brief Method CompileTrackList, addr 0x67ab8b4, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method CompileTrackList, addr 0x681342c, size 0x378, virtual false, abstract: false, final false
   inline void CompileTrackList(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable,
                                ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go, bool createOutputs);
 
-  /// @brief Method Create, addr 0x67ab3d0, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6812f48, size 0x224, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimelinePlayable*>
   Create(::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go,
          bool autoRebalance, bool createOutputs);
 
-  /// @brief Method CreateTrackOutput, addr 0x67ac044, size 0x6c8, virtual false, abstract: false, final false
+  /// @brief Method CreateTrackOutput, addr 0x6813bbc, size 0x6c8, virtual false, abstract: false, final false
   inline void CreateTrackOutput(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::GameObject* go, ::UnityEngine::Playables::Playable playable,
                                 int32_t port);
 
-  /// @brief Method CreateTrackPlayable, addr 0x67abc2c, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method CreateTrackPlayable, addr 0x68137a4, size 0x418, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreateTrackPlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable,
                                                                 ::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::GameObject* go, bool createOutputs);
 
-  /// @brief Method Evaluate, addr 0x67ac9a4, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x681451c, size 0x520, virtual false, abstract: false, final false
   inline void Evaluate(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData frameData);
 
-  /// @brief Method EvaluateAnimationPreviewUpdateCallback, addr 0x67ac7fc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method EvaluateAnimationPreviewUpdateCallback, addr 0x6814374, size 0xf0, virtual false, abstract: false, final false
   inline void EvaluateAnimationPreviewUpdateCallback(::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::Animations::AnimationPlayableOutput animOutput);
 
-  /// @brief Method EvaluateWeightsForAnimationPlayableOutput, addr 0x67ac70c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method EvaluateWeightsForAnimationPlayableOutput, addr 0x6814284, size 0xf0, virtual false, abstract: false, final false
   inline void EvaluateWeightsForAnimationPlayableOutput(::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::Animations::AnimationPlayableOutput animOutput);
 
-  /// @brief Method ForAOTCompilationOnly, addr 0x67acec4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ForAOTCompilationOnly, addr 0x6814a3c, size 0x64, virtual false, abstract: false, final false
   static inline void ForAOTCompilationOnly();
 
   static inline ::UnityEngine::Timeline::TimelinePlayable* New_ctor();
 
-  /// @brief Method PrepareFrame, addr 0x67ac978, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x68144f0, size 0x2c, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
   constexpr int32_t const& __cordl_internal_get_m_ActiveBit() const;
@@ -162,7 +162,7 @@ public:
 
   constexpr void __cordl_internal_set_m_PlayableCache(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityEngine::Playables::Playable>* value);
 
-  /// @brief Method .ctor, addr 0x67acf28, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6814aa0, size 0x170, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF_muteAudioScrubbing();
@@ -184,7 +184,7 @@ public:
   TimelinePlayable(TimelinePlayable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19078 };
 
   /// @brief Field m_IntervalTree, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>* ___m_IntervalTree;

@@ -41,13 +41,13 @@ public:
   /// @brief Field _exceptionType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__exceptionType, put = __cordl_internal_set__exceptionType)) ::System::Type* _exceptionType;
 
-  /// @brief Method Matches, addr 0x5d8469c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Matches, addr 0x5dec228, size 0x20, virtual false, abstract: false, final false
   inline bool Matches(::System::Type* exceptionType);
 
   static inline ::System::Linq::Expressions::Interpreter::ExceptionHandler* New_ctor(int32_t labelIndex, int32_t handlerStartIndex, int32_t handlerEndIndex, ::System::Type* exceptionType,
                                                                                      ::System::Linq::Expressions::Interpreter::ExceptionFilter* filter);
 
-  /// @brief Method ToString, addr 0x5d846bc, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5dec248, size 0x114, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Linq::Expressions::Interpreter::ExceptionFilter* const& __cordl_internal_get_Filter() const;
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set__exceptionType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5d84688, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dec214, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t labelIndex, int32_t handlerStartIndex, int32_t handlerEndIndex, ::System::Type* exceptionType, ::System::Linq::Expressions::Interpreter::ExceptionFilter* filter);
 
 protected:
@@ -98,7 +98,7 @@ public:
   ExceptionHandler(ExceptionHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16388 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16402 };
 
   /// @brief Field _exceptionType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____exceptionType;

@@ -40,18 +40,18 @@ namespace Org::BouncyCastle::Crypto::Signers {
 class CORDL_TYPE Ed25519ctxSigner_Buffer : public ::System::IO::MemoryStream {
 public:
   // Declarations
-  /// @brief Method GenerateSignature, addr 0x32ff8c4, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x332a108, size 0x190, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature(::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Ed25519ctxSigner_Buffer* New_ctor();
 
-  /// @brief Method Reset, addr 0x32ffc9c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x332a4e0, size 0xe0, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method VerifySignature, addr 0x32ffad0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x332a314, size 0x1b8, virtual false, abstract: false, final false
   inline bool VerifySignature(::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* publicKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method .ctor, addr 0x32ff6d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3329f14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -106,24 +106,24 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x32ff82c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x332a070, size 0x20, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method GenerateSignature, addr 0x32ff84c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x332a090, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method Init, addr 0x32ff71c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3329f60, size 0xf0, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Ed25519ctxSigner* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> context);
 
-  /// @brief Method Reset, addr 0x32ffc88, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x332a4cc, size 0x14, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x32ff80c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x332a050, size 0x20, virtual true, abstract: false, final false
   inline void Update(uint8_t b);
 
-  /// @brief Method VerifySignature, addr 0x32ffa54, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x332a298, size 0x7c, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   constexpr ::Org::BouncyCastle::Crypto::Signers::Ed25519ctxSigner_Buffer* const& __cordl_internal_get_buffer() const;
@@ -156,10 +156,10 @@ public:
 
   constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x32ff630, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3329e74, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> context);
 
-  /// @brief Method get_AlgorithmName, addr 0x32ff6d8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x3329f1c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"

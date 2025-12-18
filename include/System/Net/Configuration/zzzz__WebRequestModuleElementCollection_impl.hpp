@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Configuration::WebRequestModuleElementCollection::*)()>(
     &::System::Net::Configuration::WebRequestModuleElementCollection::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6155a80;
+  constexpr static std::size_t addrs = 0x61bd60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

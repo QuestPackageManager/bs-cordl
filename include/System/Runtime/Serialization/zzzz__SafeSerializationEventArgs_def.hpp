@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_m_streamingContext(::System::Runtime::Serialization::StreamingContext value);
 
-  /// @brief Method .ctor, addr 0x593d630, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a3f7c, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_SerializedStates, addr 0x593d6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializedStates, addr 0x59a402c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::Object*>* get_SerializedStates();
 
 protected:

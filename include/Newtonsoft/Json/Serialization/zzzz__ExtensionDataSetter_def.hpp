@@ -31,18 +31,18 @@ namespace Newtonsoft::Json::Serialization {
 class CORDL_TYPE ExtensionDataSetter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5b2ceac, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5b9398c, size 0x2c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* o, ::StringW key, ::System::Object* value, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5b2ced8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5b939b8, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5b2ce98, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5b93978, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* o, ::StringW key, ::System::Object* value);
 
   static inline ::Newtonsoft::Json::Serialization::ExtensionDataSetter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5b235a4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b8a084, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -60,7 +60,7 @@ public:
   ExtensionDataSetter(ExtensionDataSetter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13470 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13474 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

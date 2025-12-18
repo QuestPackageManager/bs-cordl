@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_UserId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5bdb8a8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c42388, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -70,7 +70,7 @@ public:
   LinkedAccount(LinkedAccount const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18028 };
 
   /// @brief Field AccessToken, offset: 0x10, size: 0x8, def value: None
   ::StringW ___AccessToken;

@@ -24,7 +24,7 @@ public:
 
   static inline ::GlobalNamespace::OVRWaitCursor* New_ctor();
 
-  /// @brief Method Update, addr 0x5d02fc8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5d69aa8, size 0x80, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rotateSpeeds() const;
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_rotateSpeeds(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x5d03048, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d69b28, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +51,7 @@ public:
   OVRWaitCursor(OVRWaitCursor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7984 };
 
   /// @brief Field rotateSpeeds, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___rotateSpeeds;

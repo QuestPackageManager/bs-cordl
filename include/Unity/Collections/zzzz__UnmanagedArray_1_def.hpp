@@ -63,7 +63,7 @@ public:
   constexpr UnmanagedArray_1(::System::IntPtr m_pointer, int32_t m_length, ::Unity::Collections::AllocatorManager_AllocatorHandle m_allocator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15680 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

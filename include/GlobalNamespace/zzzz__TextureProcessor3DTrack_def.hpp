@@ -28,12 +28,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE TextureProcessor3DTrack : public ::UnityEngine::Timeline::TrackAsset {
 public:
   // Declarations
-  /// @brief Method CreateTrackMixer, addr 0x571834c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method CreateTrackMixer, addr 0x577615c, size 0xac, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, int32_t inputCount);
 
   static inline ::GlobalNamespace::TextureProcessor3DTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x57183f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5776208, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +51,7 @@ public:
   TextureProcessor3DTrack(TextureProcessor3DTrack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6781 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

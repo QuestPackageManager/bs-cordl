@@ -59,7 +59,7 @@ public:
   FactoryToChoiceBinder_6(FactoryToChoiceBinder_6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14180 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

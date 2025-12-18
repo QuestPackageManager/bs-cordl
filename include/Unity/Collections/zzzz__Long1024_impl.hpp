@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Collections::Long1024::*)()>(&::Unity::Collections::Long1024::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x628e354;
+  constexpr static std::size_t addrs = 0x62f5ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::Long1024>::get(), "get_Length",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::Long1024::*)(int32_t)>(&::Unity::Collections::Long1024::set_Length)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x628e35c;
+  constexpr static std::size_t addrs = 0x62f5ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<int64_t> (::Unity::Collections::Long1024::*)(int32_t)>(&::Unity::Collections::Long1024::ElementAt)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x628ac20;
+  constexpr static std::size_t addrs = 0x62f27ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

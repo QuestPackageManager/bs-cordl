@@ -25,10 +25,10 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_monthDay* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5fa39dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x600b568, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x5faa0b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x6011c44, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -46,7 +46,7 @@ public:
   Datatype_monthDay(Datatype_monthDay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9611 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9615 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

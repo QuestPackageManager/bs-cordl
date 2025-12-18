@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings (*)(
     ::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest>)>(&::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings::FromSpan)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6610f90;
+  constexpr static std::size_t addrs = 0x6678b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

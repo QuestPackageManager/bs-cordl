@@ -37,21 +37,21 @@ public:
   /// @brief Field _useRandom, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__useRandom, put = __cordl_internal_set__useRandom)) bool _useRandom;
 
-  /// @brief Method ApplySeed, addr 0x5774104, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ApplySeed, addr 0x57da9ac, size 0x20, virtual false, abstract: false, final false
   inline void ApplySeed();
 
-  /// @brief Method GetSeed, addr 0x57741f4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetSeed, addr 0x57daa9c, size 0x48, virtual false, abstract: false, final false
   inline uint32_t GetSeed();
 
-  /// @brief Method HandleDeterminismSync, addr 0x577423c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleDeterminismSync, addr 0x57daae4, size 0x20, virtual false, abstract: false, final false
   inline void HandleDeterminismSync(bool _);
 
   static inline ::GlobalNamespace::SetParticleSystemSeed* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5774124, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x57da9cc, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5773f78, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x57da820, size 0x18c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::DeterminismConfig* const& __cordl_internal_get__determinismConfig() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__useRandom(bool value);
 
-  /// @brief Method .ctor, addr 0x577425c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57dab04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

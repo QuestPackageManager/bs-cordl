@@ -28,7 +28,7 @@ public:
   constexpr ArchiveFileInfo(::StringW Filename, uint64_t FileSize) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9957 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

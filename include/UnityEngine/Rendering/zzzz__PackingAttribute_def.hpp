@@ -113,11 +113,11 @@ public:
 
   constexpr void __cordl_internal_set_sizeInBits(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6584754, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65ec2e0, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::UnityEngine::Rendering::FieldPacking packingScheme, int32_t bitSize, int32_t offsetInSource, float_t minValue, float_t maxValue, bool isDirection,
                     bool sRGBDisplay, bool checkIsNormalized, ::StringW preprocessor);
 
-  /// @brief Method .ctor, addr 0x6584664, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65ec1f0, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> displayNames, ::UnityEngine::Rendering::FieldPacking packingScheme, int32_t bitSize, int32_t offsetInSource, float_t minValue,
                     float_t maxValue, bool isDirection, bool sRGBDisplay, bool checkIsNormalized, ::StringW preprocessor);
 
@@ -136,7 +136,7 @@ public:
   PackingAttribute(PackingAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12179 };
 
   /// @brief Field displayNames, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___displayNames;

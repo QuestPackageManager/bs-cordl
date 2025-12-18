@@ -19,12 +19,12 @@ namespace System::Xml {
 class CORDL_TYPE Ucs4Decoder1234 : public ::System::Xml::Ucs4Decoder {
 public:
   // Declarations
-  /// @brief Method GetFullChars, addr 0x60c7b74, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method GetFullChars, addr 0x612f700, size 0x200, virtual true, abstract: false, final false
   inline int32_t GetFullChars(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex);
 
   static inline ::System::Xml::Ucs4Decoder1234* New_ctor();
 
-  /// @brief Method .ctor, addr 0x60c71c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x612ed4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   Ucs4Decoder1234(Ucs4Decoder1234 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9429 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

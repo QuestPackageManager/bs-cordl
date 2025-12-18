@@ -35,19 +35,19 @@ public:
 
   __declspec(property(get = get_value, put = set_value)) float_t value;
 
-  /// @brief Method .ctor, addr 0x56ed528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5749f78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t value, float_t time);
 
-  /// @brief Method get_time, addr 0x56ed558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x5749fa8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_value, addr 0x56ed548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x5749f98, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method set_time, addr 0x56ed560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x5749fb0, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method set_value, addr 0x56ed550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x5749fa0, size 0x8, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
   // Ctor Parameters []
@@ -59,7 +59,7 @@ public:
   constexpr AveragingValueRecorder_AverageValueData(float_t _value_k__BackingField, float_t _time_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6597 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -120,18 +120,18 @@ public:
   /// @brief Field _time, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__time, put = __cordl_internal_set__time)) float_t _time;
 
-  /// @brief Method GetAverageValue, addr 0x56ed530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAverageValue, addr 0x5749f80, size 0x8, virtual false, abstract: false, final false
   inline float_t GetAverageValue();
 
-  /// @brief Method GetHistoryValues, addr 0x56ed540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetHistoryValues, addr 0x5749f90, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Queue_1<float_t>* GetHistoryValues();
 
-  /// @brief Method GetLastValue, addr 0x56ed538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLastValue, addr 0x5749f88, size 0x8, virtual false, abstract: false, final false
   inline float_t GetLastValue();
 
   static inline ::GlobalNamespace::AveragingValueRecorder* New_ctor(float_t averageWindowDuration, float_t historyWindowDuration, float_t historyValuesPerSecond);
 
-  /// @brief Method Update, addr 0x56ed2a0, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5749cf0, size 0x288, virtual false, abstract: false, final false
   inline void Update(float_t value, float_t deltaTime);
 
   constexpr float_t const& __cordl_internal_get__averageValue() const;
@@ -194,7 +194,7 @@ public:
 
   constexpr void __cordl_internal_set__time(float_t value);
 
-  /// @brief Method .ctor, addr 0x56ed178, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5749bc8, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(float_t averageWindowDuration, float_t historyWindowDuration, float_t historyValuesPerSecond);
 
 protected:
@@ -212,7 +212,7 @@ public:
   AveragingValueRecorder(AveragingValueRecorder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6598 };
 
   /// @brief Field _averageWindowDuration, offset: 0x10, size: 0x4, def value: None
   float_t ____averageWindowDuration;

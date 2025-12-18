@@ -137,7 +137,7 @@ public:
   FromBinderGeneric_1___c__1_1(FromBinderGeneric_1___c__1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14237 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -190,7 +190,7 @@ public:
   FromBinderGeneric_1___c__DisplayClass14_0(FromBinderGeneric_1___c__DisplayClass14_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14238 };
 
   /// @brief Field predicate, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<TContract, bool>* ___predicate;
@@ -246,7 +246,7 @@ public:
   FromBinderGeneric_1___c__DisplayClass15_0(FromBinderGeneric_1___c__DisplayClass15_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14235 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14239 };
 
   /// @brief Field predicate, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<TContract, bool>* ___predicate;
@@ -302,7 +302,7 @@ public:
   FromBinderGeneric_1___c__DisplayClass3_0(FromBinderGeneric_1___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14236 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14240 };
 
   /// @brief Field method, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<TContract>* ___method;
@@ -395,7 +395,7 @@ public:
   FromBinderGeneric_1(FromBinderGeneric_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14237 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14241 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

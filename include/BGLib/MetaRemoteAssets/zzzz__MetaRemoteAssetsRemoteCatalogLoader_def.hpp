@@ -62,10 +62,10 @@ public:
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader___c* New_ctor();
 
-  /// @brief Method <LoadRemoteCatalogAsync>b__0_0, addr 0x31f22dc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method <LoadRemoteCatalogAsync>b__0_0, addr 0x3222d08, size 0xdc, virtual false, abstract: false, final false
   inline bool _LoadRemoteCatalogAsync_b__0_0(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* locator);
 
-  /// @brief Method .ctor, addr 0x31f22d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3222d04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader___c* getStaticF___9();
@@ -91,7 +91,7 @@ public:
   MetaRemoteAssetsRemoteCatalogLoader___c(MetaRemoteAssetsRemoteCatalogLoader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22225 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -109,10 +109,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x31f23b8, size 0x50c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3222de4, size 0x50c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x31f28c4, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32232f0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -130,7 +130,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22226 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -170,12 +170,12 @@ public:
   /// @brief Convert operator to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
   constexpr operator ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*() noexcept;
 
-  /// @brief Method LoadRemoteCatalogAsync, addr 0x31f21a8, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method LoadRemoteCatalogAsync, addr 0x3222bd4, size 0xd8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* LoadRemoteCatalogAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x31f2280, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3222cac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
@@ -196,7 +196,7 @@ public:
   MetaRemoteAssetsRemoteCatalogLoader(MetaRemoteAssetsRemoteCatalogLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22227 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

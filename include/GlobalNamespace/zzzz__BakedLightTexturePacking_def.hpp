@@ -38,7 +38,7 @@ public:
   /// @brief Field _texPropertyIds, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__texPropertyIds, put = setStaticF__texPropertyIds)) ::ArrayW<int32_t, ::Array<int32_t>*> _texPropertyIds;
 
-  /// @brief Method PackTextures, addr 0x56f2b6c, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method PackTextures, addr 0x574f548, size 0x378, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> PackTextures(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::RenderTexture>>* textures,
                                                                     ::UnityEngine::RenderTextureDescriptor descriptor);
 
@@ -65,7 +65,7 @@ public:
   BakedLightTexturePacking(BakedLightTexturePacking const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6612 };
 
   /// @brief Field kBakedLightTexturePackingShaderName offset 0xffffffff size 0x8
   static constexpr ::ConstString kBakedLightTexturePackingShaderName{ u"Hidden/BakedLightTexturePacking" };

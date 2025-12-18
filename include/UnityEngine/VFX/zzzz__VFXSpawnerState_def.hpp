@@ -40,27 +40,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CreateSpawnerStateWrapper, addr 0x6bf7be0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateSpawnerStateWrapper, addr 0x6c60a64, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::VFX::VFXSpawnerState* CreateSpawnerStateWrapper();
 
-  /// @brief Method Dispose, addr 0x6bf7e38, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c60cbc, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x6bf7df4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6c60c78, size 0x44, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Internal_Destroy, addr 0x6bf7db8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Destroy, addr 0x6c60c3c, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr ptr);
 
   static inline ::UnityEngine::VFX::VFXSpawnerState* New_ctor(::System::IntPtr ptr, bool owner);
 
-  /// @brief Method PrepareWrapper, addr 0x6bf7c3c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method PrepareWrapper, addr 0x6c60ac0, size 0x90, virtual false, abstract: false, final false
   inline void PrepareWrapper();
 
-  /// @brief Method Release, addr 0x6bf7d60, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x6c60be4, size 0x58, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method SetWrapValue, addr 0x6bf7ccc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetWrapValue, addr 0x6c60b50, size 0x94, virtual false, abstract: false, final false
   inline void SetWrapValue(::System::IntPtr ptrToSpawnerState, ::System::IntPtr ptrToEventAttribute);
 
   constexpr bool const& __cordl_internal_get_m_Owner() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_m_WrapEventAttribute(::UnityEngine::VFX::VFXEventAttribute* value);
 
-  /// @brief Method .ctor, addr 0x6bf7bd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c60a58, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr, bool owner);
 
   /// @brief Convert to "::System::IDisposable"
@@ -102,7 +102,7 @@ public:
   VFXSpawnerState(VFXSpawnerState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22614 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

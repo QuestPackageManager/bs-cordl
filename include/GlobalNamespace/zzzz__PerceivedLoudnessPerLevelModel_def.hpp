@@ -36,16 +36,16 @@ public:
   __declspec(property(get = __cordl_internal_get__loudnessLevelPerLevelId,
                       put = __cordl_internal_set__loudnessLevelPerLevelId)) ::System::Collections::Generic::Dictionary_2<::StringW, float_t>* _loudnessLevelPerLevelId;
 
-  /// @brief Method GetLoudnessByLevelId, addr 0x3607f70, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetLoudnessByLevelId, addr 0x3632ec0, size 0x80, virtual false, abstract: false, final false
   inline float_t GetLoudnessByLevelId(::StringW levelId);
 
-  /// @brief Method GetLoudnessByLevelIdOrNull, addr 0x3608008, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetLoudnessByLevelIdOrNull, addr 0x3632f58, size 0x98, virtual false, abstract: false, final false
   inline ::System::Nullable_1<float_t> GetLoudnessByLevelIdOrNull(::StringW levelId);
 
-  /// @brief Method GetLoudnessCorrectionByLevelId, addr 0x3607f4c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetLoudnessCorrectionByLevelId, addr 0x3632e9c, size 0x24, virtual false, abstract: false, final false
   inline float_t GetLoudnessCorrectionByLevelId(::StringW levelId);
 
-  /// @brief Method GetMaxSfxVolumeByLevelId, addr 0x3607ff0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSfxVolumeByLevelId, addr 0x3632f40, size 0x18, virtual false, abstract: false, final false
   inline float_t GetMaxSfxVolumeByLevelId(::StringW levelId);
 
   static inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* loudnessPerLeveDataList);
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__loudnessLevelPerLevelId(::System::Collections::Generic::Dictionary_2<::StringW, float_t>* value);
 
-  /// @brief Method .ctor, addr 0x3607964, size 0x5e8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36328b4, size 0x5e8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* loudnessPerLeveDataList);
 
 protected:
@@ -74,7 +74,7 @@ public:
   PerceivedLoudnessPerLevelModel(PerceivedLoudnessPerLevelModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15006 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15015 };
 
   /// @brief Field kDefaultLoudness offset 0xffffffff size 0x4
   static constexpr float_t kDefaultLoudness{ static_cast<float_t>(-6.0f) };

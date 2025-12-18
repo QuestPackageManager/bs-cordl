@@ -44,7 +44,7 @@ public:
 
   __declspec(property(get = get_rotation)) ::UnityEngine::Quaternion rotation;
 
-  /// @brief Method Awake, addr 0x56f71e4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5753bc0, size 0x64, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::MainCamera* New_ctor();
@@ -61,19 +61,19 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x56f7248, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5753c24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_camera, addr 0x56f7184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_camera, addr 0x5753b60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_camera();
 
-  /// @brief Method get_position, addr 0x56f71b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x5753b90, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_rotation, addr 0x56f71cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x5753ba8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method set_enableCamera, addr 0x56f718c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableCamera, addr 0x5753b68, size 0x28, virtual false, abstract: false, final false
   inline void set_enableCamera(bool value);
 
 protected:
@@ -91,7 +91,7 @@ public:
   MainCamera(MainCamera const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6647 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6642 };
 
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;

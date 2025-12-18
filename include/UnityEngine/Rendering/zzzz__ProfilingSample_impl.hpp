@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProfilingSample::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::StringW, ::UnityEngine::Profiling::CustomSampler*)>(&::UnityEngine::Rendering::ProfilingSample::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x654f0d0;
+  constexpr static std::size_t addrs = 0x65b6c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::Rendering::ProfilingSample::*)(::UnityEngine::Rendering::CommandBuffer*, ::StringW, ::System::Object*)>(&::UnityEngine::Rendering::ProfilingSample::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x654f160;
+  constexpr static std::size_t addrs = 0x65b6cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProfilingSample::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::UnityEngine::Rendering::ProfilingSample::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x654f1c8;
+  constexpr static std::size_t addrs = 0x65b6d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProfilingSample::*)()>(&::UnityEngine::Rendering::ProfilingSample::Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x654f204;
+  constexpr static std::size_t addrs = 0x65b6d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ProfilingSample>::get(), "Dispose",
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProfilingSample::*)(bool)>(&::UnityEngine::Rendering::ProfilingSample::Dispose)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x654f20c;
+  constexpr static std::size_t addrs = 0x65b6d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PushNotificationResult*>* (*)()>(
     &::Oculus::Platform::PushNotification::Register)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5bd5a7c;
+  constexpr static std::size_t addrs = 0x5c3c55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::PushNotification*>::get(), "Register",

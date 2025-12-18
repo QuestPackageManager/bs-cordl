@@ -80,42 +80,42 @@ public:
   /// @brief Field _sphericalCoordinates, offset 0xb0, size 0xc
   __declspec(property(get = __cordl_internal_get__sphericalCoordinates, put = __cordl_internal_set__sphericalCoordinates)) ::UnityEngine::Vector3 _sphericalCoordinates;
 
-  /// @brief Method Init, addr 0x5846d00, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x58ad464, size 0x4c, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method LateUpdate, addr 0x5847578, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x58adcdc, size 0x18, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x58475ec, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x58add50, size 0x84, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5847590, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x58adcf4, size 0x5c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnHoverChanged, addr 0x584727c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method OnHoverChanged, addr 0x58ad9e0, size 0x48, virtual true, abstract: false, final false
   inline void OnHoverChanged();
 
-  /// @brief Method OnTransparencyChanged, addr 0x5847208, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method OnTransparencyChanged, addr 0x58ad96c, size 0x74, virtual true, abstract: false, final false
   inline void OnTransparencyChanged();
 
-  /// @brief Method RefreshCanvas, addr 0x58473a0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method RefreshCanvas, addr 0x58adb04, size 0xcc, virtual false, abstract: false, final false
   inline void RefreshCanvas();
 
-  /// @brief Method RefreshRaycaster, addr 0x5847484, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RefreshRaycaster, addr 0x58adbe8, size 0xf4, virtual false, abstract: false, final false
   inline void RefreshRaycaster();
 
-  /// @brief Method SetExpectedPixelsPerUnit, addr 0x5847174, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetExpectedPixelsPerUnit, addr 0x58ad8d8, size 0x94, virtual false, abstract: false, final false
   inline void SetExpectedPixelsPerUnit(float_t pixelsPerUnit, float_t dynamicPixelsPerUnit, float_t referencePixelsPerUnit);
 
-  /// @brief Method SetPosition, addr 0x5846fac, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetPosition, addr 0x58ad710, size 0xe0, virtual false, abstract: false, final false
   inline void SetPosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method Setup, addr 0x5846b6c, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x58ad2d0, size 0x15c, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
-  /// @brief Method SphericalToCartesian, addr 0x5846f3c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SphericalToCartesian, addr 0x58ad6a0, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 SphericalToCartesian(float_t radius, float_t theta, float_t phi);
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background> const& __cordl_internal_get_Background() const;
@@ -160,32 +160,32 @@ public:
 
   constexpr void __cordl_internal_set__sphericalCoordinates(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x5846ce4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ad448, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRHapticsClip* getStaticF__hapticsClip();
 
-  /// @brief Method get_HapticsClip, addr 0x5846d4c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method get_HapticsClip, addr 0x58ad4b0, size 0x158, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRHapticsClip* get_HapticsClip();
 
-  /// @brief Method get_Interface, addr 0x584708c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Interface, addr 0x58ad7f0, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface> get_Interface();
 
-  /// @brief Method get_PixelsPerUnit, addr 0x5846ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PixelsPerUnit, addr 0x58ad608, size 0x8, virtual false, abstract: false, final false
   inline float_t get_PixelsPerUnit();
 
-  /// @brief Method get_SphericalCoordinates, addr 0x5846eb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_SphericalCoordinates, addr 0x58ad618, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_SphericalCoordinates();
 
   static inline void setStaticF__hapticsClip(::GlobalNamespace::OVRHapticsClip* value);
 
-  /// @brief Method set_BackgroundStyle, addr 0x584710c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_BackgroundStyle, addr 0x58ad870, size 0x68, virtual false, abstract: false, final false
   inline void set_BackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
 
-  /// @brief Method set_PixelsPerUnit, addr 0x5846eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PixelsPerUnit, addr 0x58ad610, size 0x8, virtual false, abstract: false, final false
   inline void set_PixelsPerUnit(float_t value);
 
-  /// @brief Method set_SphericalCoordinates, addr 0x5846ec0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_SphericalCoordinates, addr 0x58ad624, size 0x7c, virtual false, abstract: false, final false
   inline void set_SphericalCoordinates(::UnityEngine::Vector3 value);
 
 protected:
@@ -203,7 +203,7 @@ public:
   Panel(Panel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18369 };
 
   /// @brief Field _canvas, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Canvas> ____canvas;

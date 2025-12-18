@@ -59,7 +59,7 @@ public:
   constexpr ObjectPool_1_PooledObject(T m_ToReturn, ::UnityEngine::Rendering::ObjectPool_1<T>* m_Pool) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11897 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -178,7 +178,7 @@ public:
   ObjectPool_1(ObjectPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11898 };
 
   /// @brief Field m_Stack, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<T>* ___m_Stack;

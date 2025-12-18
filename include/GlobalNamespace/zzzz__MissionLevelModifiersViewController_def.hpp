@@ -57,7 +57,7 @@ public:
 
   static inline ::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <RefreshContent>b__0, addr 0x56d1cb0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <RefreshContent>b__0, addr 0x5878ae4, size 0x80, virtual false, abstract: false, final false
   inline void _RefreshContent_b__0(int32_t idx, ::GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* const& __cordl_internal_get_modifierParamsList() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_modifierParamsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value);
 
-  /// @brief Method .ctor, addr 0x56d1ca8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5878adc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   MissionLevelModifiersViewController___c__DisplayClass7_0(MissionLevelModifiersViewController___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6497 };
 
   /// @brief Field modifierParamsList, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* ___modifierParamsList;
@@ -124,15 +124,15 @@ public:
   /// @brief Field _titleText, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__titleText, put = __cordl_internal_set__titleText)) ::UnityW<::TMPro::TextMeshProUGUI> _titleText;
 
-  /// @brief Method DidActivate, addr 0x56d1ca4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5878ad8, size 0x4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::MissionLevelModifiersViewController* New_ctor();
 
-  /// @brief Method RefreshContent, addr 0x56d1ac0, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method RefreshContent, addr 0x58788f4, size 0x1e4, virtual false, abstract: false, final false
   inline void RefreshContent();
 
-  /// @brief Method Setup, addr 0x56d1a94, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x58788c8, size 0x2c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> const& __cordl_internal_get__gameplayModifierInfoListItemsList() const;
@@ -165,7 +165,7 @@ public:
 
   constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x56d1cac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5878ae0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -183,7 +183,7 @@ public:
   MissionLevelModifiersViewController(MissionLevelModifiersViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6498 };
 
   /// @brief Field _gameplayModifiersModel, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;

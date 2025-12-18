@@ -76,40 +76,40 @@ public:
 
   __declspec(property(get = get_overrideMaterial, put = set_overrideMaterial)) ::UnityW<::UnityEngine::Material> overrideMaterial;
 
-  /// @brief Method Draw, addr 0x663b6a8, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method Draw, addr 0x66a3234, size 0x250, virtual false, abstract: false, final false
   inline void Draw(::ByRef<::UnityEngine::Rendering::Universal::CameraData> cameraData, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
                    ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk);
 
-  /// @brief Method Draw, addr 0x663ad88, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Draw, addr 0x66a2914, size 0x220, virtual false, abstract: false, final false
   inline void Draw(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
                    ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk, int32_t passIndex);
 
-  /// @brief Method DrawInstanced, addr 0x663b3f4, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method DrawInstanced, addr 0x66a2f80, size 0x2b4, virtual false, abstract: false, final false
   inline void DrawInstanced(::ByRef<::UnityEngine::Rendering::Universal::CameraData> cameraData, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
                             ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk);
 
-  /// @brief Method DrawInstanced, addr 0x663ab18, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method DrawInstanced, addr 0x66a26a4, size 0x270, virtual false, abstract: false, final false
   inline void DrawInstanced(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
                             ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk, int32_t passIndex);
 
-  /// @brief Method Execute, addr 0x663b068, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x66a2bf4, size 0x1d4, virtual false, abstract: false, final false
   inline void Execute(::ByRef<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-  /// @brief Method Execute, addr 0x663b23c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x66a2dc8, size 0x1b8, virtual false, abstract: false, final false
   inline void Execute(::ByRef<::UnityEngine::Rendering::Universal::CameraData> cameraData, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
                       ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk, int32_t count);
 
-  /// @brief Method Execute, addr 0x663a8cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x66a2458, size 0x74, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method Execute, addr 0x6635074, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x669cc00, size 0x1d4, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::RasterCommandBuffer* cmd);
 
-  /// @brief Method Execute, addr 0x663a940, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x66a24cc, size 0x1c4, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk,
                       ::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk, ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* decalDrawCallChunk, int32_t count);
 
-  /// @brief Method GetMaterial, addr 0x663ab04, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetMaterial, addr 0x66a2690, size 0x14, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetMaterial(::UnityEngine::Rendering::Universal::DecalEntityChunk* decalEntityChunk);
 
   /// @brief Method GetPassIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -153,17 +153,17 @@ public:
 
   constexpr void __cordl_internal_set_m_WorldToDecals(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value);
 
-  /// @brief Method .ctor, addr 0x6633774, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x669b300, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::StringW sampler, ::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
 
   static inline uint32_t getStaticF_MaxBatchSize();
 
-  /// @brief Method get_overrideMaterial, addr 0x663a8bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideMaterial, addr 0x66a2448, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_overrideMaterial();
 
   static inline void setStaticF_MaxBatchSize(uint32_t value);
 
-  /// @brief Method set_overrideMaterial, addr 0x663a8c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideMaterial, addr 0x66a2450, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideMaterial(::UnityEngine::Material* value);
 
 protected:
@@ -181,7 +181,7 @@ public:
   DecalDrawSystem(DecalDrawSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12667 };
 
   /// @brief Field m_EntityManager, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DecalEntityManager* ___m_EntityManager;

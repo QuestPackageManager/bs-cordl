@@ -53,13 +53,13 @@ public:
   /// @brief Field s_RuntimeWorldMaterial, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_RuntimeWorldMaterial, put = setStaticF_s_RuntimeWorldMaterial)) ::UnityW<::UnityEngine::Material> s_RuntimeWorldMaterial;
 
-  /// @brief Method Acquire, addr 0x6abcf60, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x6b25de4, size 0x64, virtual false, abstract: false, final false
   static inline void Acquire();
 
-  /// @brief Method GetOrCreateMaterial, addr 0x6abcd18, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateMaterial, addr 0x6b25b9c, size 0x188, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetOrCreateMaterial(::ByRef<::UnityEngine::Material*> material, ::StringW shaderName);
 
-  /// @brief Method Release, addr 0x6abcfc4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x6b25e48, size 0x154, virtual false, abstract: false, final false
   static inline void Release();
 
   static inline ::StringW getStaticF_k_AtlasBlit();
@@ -82,13 +82,13 @@ public:
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF_s_RuntimeWorldMaterial();
 
-  /// @brief Method get_editorMaterial, addr 0x6abcf00, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_editorMaterial, addr 0x6b25d84, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_editorMaterial();
 
-  /// @brief Method get_runtimeMaterial, addr 0x6abccb8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_runtimeMaterial, addr 0x6b25b3c, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_runtimeMaterial();
 
-  /// @brief Method get_runtimeWorldMaterial, addr 0x6abcea0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_runtimeWorldMaterial, addr 0x6b25d24, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_runtimeWorldMaterial();
 
   static inline void setStaticF_k_AtlasBlit(::StringW value);

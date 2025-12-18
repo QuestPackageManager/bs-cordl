@@ -32,184 +32,184 @@ public:
   /// @brief Field roundPower10Double, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_roundPower10Double, put = setStaticF_roundPower10Double)) ::ArrayW<double_t, ::Array<double_t>*> roundPower10Double;
 
-  /// @brief Method Abs, addr 0x5a32f50, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Abs, addr 0x5a9989c, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Decimal Abs(::System::Decimal value);
 
-  /// @brief Method Abs, addr 0x5a33a9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Abs, addr 0x5a9a3e8, size 0x8, virtual false, abstract: false, final false
   static inline double_t Abs(double_t value);
 
-  /// @brief Method Abs, addr 0x5a33aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Abs, addr 0x5a9a3f0, size 0x8, virtual false, abstract: false, final false
   static inline float_t Abs(float_t value);
 
-  /// @brief Method Abs, addr 0x5a32e34, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Abs, addr 0x5a99780, size 0x68, virtual false, abstract: false, final false
   static inline int32_t Abs(int32_t value);
 
-  /// @brief Method Abs, addr 0x5a32ee8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Abs, addr 0x5a99834, size 0x68, virtual false, abstract: false, final false
   static inline int64_t Abs(int64_t value);
 
-  /// @brief Method Acos, addr 0x5a33aac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Acos, addr 0x5a9a3f8, size 0x4, virtual false, abstract: false, final false
   static inline double_t Acos(double_t d);
 
-  /// @brief Method Asin, addr 0x5a33ab0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Asin, addr 0x5a9a3fc, size 0x4, virtual false, abstract: false, final false
   static inline double_t Asin(double_t d);
 
-  /// @brief Method Atan, addr 0x5a33ab4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Atan, addr 0x5a9a400, size 0x4, virtual false, abstract: false, final false
   static inline double_t Atan(double_t d);
 
-  /// @brief Method Atan2, addr 0x5a33ab8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Atan2, addr 0x5a9a404, size 0x4, virtual false, abstract: false, final false
   static inline double_t Atan2(double_t y, double_t x);
 
-  /// @brief Method Ceiling, addr 0x5a33abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Ceiling, addr 0x5a9a408, size 0x8, virtual false, abstract: false, final false
   static inline double_t Ceiling(double_t a);
 
-  /// @brief Method Clamp, addr 0x5a33070, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x5a999bc, size 0xb8, virtual false, abstract: false, final false
   static inline float_t Clamp(float_t value, float_t min, float_t max);
 
-  /// @brief Method Clamp, addr 0x5a32fcc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x5a99918, size 0xa4, virtual false, abstract: false, final false
   static inline int32_t Clamp(int32_t value, int32_t min, int32_t max);
 
-  /// @brief Method Cos, addr 0x5a33ac4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Cos, addr 0x5a9a410, size 0x4, virtual false, abstract: false, final false
   static inline double_t Cos(double_t d);
 
-  /// @brief Method Cosh, addr 0x5a33ac8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Cosh, addr 0x5a9a414, size 0x4, virtual false, abstract: false, final false
   static inline double_t Cosh(double_t value);
 
-  /// @brief Method DivRem, addr 0x5a32fb8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method DivRem, addr 0x5a99904, size 0x14, virtual false, abstract: false, final false
   static inline int32_t DivRem(int32_t a, int32_t b, ::ByRef<int32_t> result);
 
-  /// @brief Method Exp, addr 0x5a33acc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Exp, addr 0x5a9a418, size 0x4, virtual false, abstract: false, final false
   static inline double_t Exp(double_t d);
 
-  /// @brief Method Floor, addr 0x5a33ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Floor, addr 0x5a9a41c, size 0x8, virtual false, abstract: false, final false
   static inline double_t Floor(double_t d);
 
-  /// @brief Method Log, addr 0x5a33128, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x5a99a74, size 0xe0, virtual false, abstract: false, final false
   static inline double_t Log(double_t a, double_t newBase);
 
-  /// @brief Method Log, addr 0x5a33ad8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x5a9a424, size 0x4, virtual false, abstract: false, final false
   static inline double_t Log(double_t d);
 
-  /// @brief Method Log10, addr 0x5a33adc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Log10, addr 0x5a9a428, size 0x4, virtual false, abstract: false, final false
   static inline double_t Log10(double_t d);
 
-  /// @brief Method Max, addr 0x5a3321c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x5a99b68, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Decimal Max(::System::Decimal val1, ::System::Decimal val2);
 
-  /// @brief Method Max, addr 0x5a332b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x5a99c04, size 0x1c, virtual false, abstract: false, final false
   static inline double_t Max(double_t val1, double_t val2);
 
-  /// @brief Method Max, addr 0x5a33314, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x5a99c60, size 0x1c, virtual false, abstract: false, final false
   static inline float_t Max(float_t val1, float_t val2);
 
-  /// @brief Method Max, addr 0x5a332d4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x5a99c20, size 0x14, virtual false, abstract: false, final false
   static inline int16_t Max(int16_t val1, int16_t val2);
 
-  /// @brief Method Max, addr 0x5a332e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x5a99c34, size 0xc, virtual false, abstract: false, final false
   static inline int32_t Max(int32_t val1, int32_t val2);
 
-  /// @brief Method Max, addr 0x5a332f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x5a99c40, size 0xc, virtual false, abstract: false, final false
   static inline int64_t Max(int64_t val1, int64_t val2);
 
-  /// @brief Method Max, addr 0x5a33300, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x5a99c4c, size 0x14, virtual false, abstract: false, final false
   static inline int8_t Max(int8_t val1, int8_t val2);
 
-  /// @brief Method Max, addr 0x5a33330, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x5a99c7c, size 0x14, virtual false, abstract: false, final false
   static inline uint16_t Max(uint16_t val1, uint16_t val2);
 
-  /// @brief Method Max, addr 0x5a33344, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x5a99c90, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t Max(uint32_t val1, uint32_t val2);
 
-  /// @brief Method Max, addr 0x5a33350, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x5a99c9c, size 0xc, virtual false, abstract: false, final false
   static inline uint64_t Max(uint64_t val1, uint64_t val2);
 
-  /// @brief Method Max, addr 0x5a33208, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x5a99b54, size 0x14, virtual false, abstract: false, final false
   static inline uint8_t Max(uint8_t val1, uint8_t val2);
 
-  /// @brief Method Min, addr 0x5a33370, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x5a99cbc, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Decimal Min(::System::Decimal val1, ::System::Decimal val2);
 
-  /// @brief Method Min, addr 0x5a3340c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x5a99d58, size 0x1c, virtual false, abstract: false, final false
   static inline double_t Min(double_t val1, double_t val2);
 
-  /// @brief Method Min, addr 0x5a33468, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x5a99db4, size 0x1c, virtual false, abstract: false, final false
   static inline float_t Min(float_t val1, float_t val2);
 
-  /// @brief Method Min, addr 0x5a33428, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x5a99d74, size 0x14, virtual false, abstract: false, final false
   static inline int16_t Min(int16_t val1, int16_t val2);
 
-  /// @brief Method Min, addr 0x5a3343c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x5a99d88, size 0xc, virtual false, abstract: false, final false
   static inline int32_t Min(int32_t val1, int32_t val2);
 
-  /// @brief Method Min, addr 0x5a33448, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x5a99d94, size 0xc, virtual false, abstract: false, final false
   static inline int64_t Min(int64_t val1, int64_t val2);
 
-  /// @brief Method Min, addr 0x5a33454, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x5a99da0, size 0x14, virtual false, abstract: false, final false
   static inline int8_t Min(int8_t val1, int8_t val2);
 
-  /// @brief Method Min, addr 0x5a33484, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x5a99dd0, size 0x14, virtual false, abstract: false, final false
   static inline uint16_t Min(uint16_t val1, uint16_t val2);
 
-  /// @brief Method Min, addr 0x5a33498, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x5a99de4, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t Min(uint32_t val1, uint32_t val2);
 
-  /// @brief Method Min, addr 0x5a334a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x5a99df0, size 0xc, virtual false, abstract: false, final false
   static inline uint64_t Min(uint64_t val1, uint64_t val2);
 
-  /// @brief Method Min, addr 0x5a3335c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x5a99ca8, size 0x14, virtual false, abstract: false, final false
   static inline uint8_t Min(uint8_t val1, uint8_t val2);
 
-  /// @brief Method ModF, addr 0x5a33930, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ModF, addr 0x5a9a27c, size 0x4, virtual false, abstract: false, final false
   static inline double_t ModF(double_t x, double_t* intptr);
 
-  /// @brief Method Pow, addr 0x5a33ae0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Pow, addr 0x5a9a42c, size 0x4, virtual false, abstract: false, final false
   static inline double_t Pow(double_t x, double_t y);
 
-  /// @brief Method Round, addr 0x5a334b0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Round, addr 0x5a99dfc, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Decimal Round(::System::Decimal d);
 
-  /// @brief Method Round, addr 0x5a33520, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Round, addr 0x5a99e6c, size 0x84, virtual false, abstract: false, final false
   static inline double_t Round(double_t a);
 
-  /// @brief Method Round, addr 0x5a335a4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Round, addr 0x5a99ef0, size 0x6c, virtual false, abstract: false, final false
   static inline double_t Round(double_t value, int32_t digits);
 
-  /// @brief Method Round, addr 0x5a33610, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method Round, addr 0x5a99f5c, size 0x2b4, virtual false, abstract: false, final false
   static inline double_t Round(double_t value, int32_t digits, ::System::MidpointRounding mode);
 
-  /// @brief Method Round, addr 0x5a338c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Round, addr 0x5a9a210, size 0x6c, virtual false, abstract: false, final false
   static inline double_t Round(double_t value, ::System::MidpointRounding mode);
 
-  /// @brief Method Sign, addr 0x5a33934, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Sign, addr 0x5a9a280, size 0x78, virtual false, abstract: false, final false
   static inline int32_t Sign(double_t value);
 
-  /// @brief Method Sign, addr 0x5a339ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Sign, addr 0x5a9a2f8, size 0x14, virtual false, abstract: false, final false
   static inline int32_t Sign(int64_t value);
 
-  /// @brief Method Sin, addr 0x5a33ae4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Sin, addr 0x5a9a430, size 0x4, virtual false, abstract: false, final false
   static inline double_t Sin(double_t a);
 
-  /// @brief Method Sinh, addr 0x5a33ae8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Sinh, addr 0x5a9a434, size 0x4, virtual false, abstract: false, final false
   static inline double_t Sinh(double_t value);
 
-  /// @brief Method Sqrt, addr 0x5a33aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Sqrt, addr 0x5a9a438, size 0x8, virtual false, abstract: false, final false
   static inline double_t Sqrt(double_t d);
 
-  /// @brief Method Tan, addr 0x5a33af4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Tan, addr 0x5a9a440, size 0x4, virtual false, abstract: false, final false
   static inline double_t Tan(double_t a);
 
-  /// @brief Method Tanh, addr 0x5a33af8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Tanh, addr 0x5a9a444, size 0x4, virtual false, abstract: false, final false
   static inline double_t Tanh(double_t value);
 
-  /// @brief Method ThrowAbsOverflow, addr 0x5a32e9c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowAbsOverflow, addr 0x5a997e8, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowAbsOverflow();
 
   /// @brief Method ThrowMinMaxException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ThrowMinMaxException(T min, T max);
 
-  /// @brief Method Truncate, addr 0x5a339c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Truncate, addr 0x5a9a30c, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Decimal Truncate(::System::Decimal d);
 
-  /// @brief Method Truncate, addr 0x5a33a2c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Truncate, addr 0x5a9a378, size 0x70, virtual false, abstract: false, final false
   static inline double_t Truncate(double_t d);
 
   static inline double_t getStaticF_doubleRoundLimit();

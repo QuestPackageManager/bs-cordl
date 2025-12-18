@@ -11,7 +11,7 @@
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
 #include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatSaberConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
@@ -43,24 +43,24 @@ template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1_Netwo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____playerModel, value);
 }
-template <typename T> constexpr ::GlobalNamespace::IConnectedPlayer*& GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>::__cordl_internal_get__connectedPlayer() {
+template <typename T> constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>::__cordl_internal_get__connectedPlayer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
-template <typename T> constexpr ::GlobalNamespace::IConnectedPlayer* const& GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>::__cordl_internal_get__connectedPlayer() const {
+template <typename T> constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>::__cordl_internal_get__connectedPlayer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
-template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>::__cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value) {
+template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>::__cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____connectedPlayer, value);
 }
 template <typename T>
-inline void GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>::_ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel, ::GlobalNamespace::IConnectedPlayer* connectedPlayer) {
+inline void GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>::_ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel, ::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NetworkPlayerModel_1<T>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectedPlayer*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberConnectedPlayer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playerModel, connectedPlayer);
 }
 template <typename T> inline ::StringW GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>::get_userId() {
@@ -103,10 +103,10 @@ template <typename T> inline bool GlobalNamespace::NetworkPlayerModel_1_NetworkP
                                                                              "get_isMyPartyOwner", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-template <typename T> inline ::GlobalNamespace::IConnectedPlayer* GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>::get_connectedPlayer() {
+template <typename T> inline ::GlobalNamespace::IBeatSaberConnectedPlayer* GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>::get_connectedPlayer() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>::get(),
                                                                              "get_connectedPlayer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IConnectedPlayer*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IBeatSaberConnectedPlayer*, false>(this, ___internal_method);
 }
 template <typename T> inline bool GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>::get_canJoin() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>::get(),
@@ -203,7 +203,7 @@ template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1_NetworkP
 }
 template <typename T>
 inline ::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>::New_ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel,
-                                                                                                                                  ::GlobalNamespace::IConnectedPlayer* connectedPlayer) {
+                                                                                                                                  ::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>(playerModel, connectedPlayer));
 }
 /// @brief Convert operator to "::GlobalNamespace::INetworkPlayer"
@@ -411,10 +411,10 @@ template <typename T> inline ::GlobalNamespace::GameplayServerConfiguration Glob
                                                                              "get_configuration", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::GameplayServerConfiguration, false>(this, ___internal_method);
 }
-template <typename T> inline ::GlobalNamespace::IConnectedPlayer* GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>::get_connectedPlayer() {
+template <typename T> inline ::GlobalNamespace::IBeatSaberConnectedPlayer* GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>::get_connectedPlayer() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>*>::get(),
                                                                              "get_connectedPlayer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IConnectedPlayer*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IBeatSaberConnectedPlayer*, false>(this, ___internal_method);
 }
 template <typename T> inline bool GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>::get_isMyPartyOwner() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>*>::get(),
@@ -1385,22 +1385,22 @@ template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1<T>::Conn
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1<T>*>::get(), 53)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reason);
 }
-template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1<T>::PlayerConnected(::GlobalNamespace::IConnectedPlayer* player) {
+template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1<T>::PlayerConnected(::GlobalNamespace::IBeatSaberConnectedPlayer* player) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1<T>*>::get(), 54)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, player);
 }
-template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1<T>::PlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player) {
+template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1<T>::PlayerDisconnected(::GlobalNamespace::IBeatSaberConnectedPlayer* player) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1<T>*>::get(), 55)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, player);
 }
-template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1<T>::PlayerStateChanged(::GlobalNamespace::IConnectedPlayer* connectedPlayer) {
+template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1<T>::PlayerStateChanged(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1<T>*>::get(), 56)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, connectedPlayer);
 }
-template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1<T>::PlayerOrderChanged(::GlobalNamespace::IConnectedPlayer* connectedPlayer) {
+template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1<T>::PlayerOrderChanged(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1<T>*>::get(), 58)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, connectedPlayer);

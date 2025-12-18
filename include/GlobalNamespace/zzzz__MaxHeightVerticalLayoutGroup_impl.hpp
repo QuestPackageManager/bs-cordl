@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MaxHeightVerticalLayoutGroup::*)()>(
     &::GlobalNamespace::MaxHeightVerticalLayoutGroup::get_maxHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31fc1d0;
+  constexpr static std::size_t addrs = 0x322cbfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaxHeightVerticalLayoutGroup*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaxHeightVerticalLayoutGroup::*)(float_t)>(
     &::GlobalNamespace::MaxHeightVerticalLayoutGroup::set_maxHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31fc1d8;
+  constexpr static std::size_t addrs = 0x322cc04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaxHeightVerticalLayoutGroup::*)()>(
     &::GlobalNamespace::MaxHeightVerticalLayoutGroup::CalculateLayoutInputHorizontal)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x31fc1e0;
+  constexpr static std::size_t addrs = 0x322cc0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaxHeightVerticalLayoutGroup::*)()>(
     &::GlobalNamespace::MaxHeightVerticalLayoutGroup::CalculateLayoutInputVertical)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x31fc208;
+  constexpr static std::size_t addrs = 0x322cc34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaxHeightVerticalLayoutGroup::*)()>(
     &::GlobalNamespace::MaxHeightVerticalLayoutGroup::SetLayoutHorizontal)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x31fc218;
+  constexpr static std::size_t addrs = 0x322cc44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaxHeightVerticalLayoutGroup::*)()>(
     &::GlobalNamespace::MaxHeightVerticalLayoutGroup::SetLayoutVertical)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x31fc2a8;
+  constexpr static std::size_t addrs = 0x322ccd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaxHeightVerticalLayoutGroup::*)()>(
     &::GlobalNamespace::MaxHeightVerticalLayoutGroup::SetMaxWidthAndHeight)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x31fc23c;
+  constexpr static std::size_t addrs = 0x322cc68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaxHeightVerticalLayoutGroup*>::get(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaxHeightVerticalLayoutGroup::*)()>(
     &::GlobalNamespace::MaxHeightVerticalLayoutGroup::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x31fc2cc;
+  constexpr static std::size_t addrs = 0x322ccf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaxHeightVerticalLayoutGroup*>::get(), ".ctor",

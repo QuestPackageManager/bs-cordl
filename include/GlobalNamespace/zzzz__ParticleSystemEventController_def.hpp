@@ -32,7 +32,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::ParticleSystemEventController_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x578684c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57ed0f4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,24 +80,24 @@ public:
 
   __declspec(property(get = get_startTime, put = set_startTime)) float_t startTime;
 
-  /// @brief Method Init, addr 0x5785c90, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x57ec538, size 0x2c, virtual false, abstract: false, final false
   inline void Init(float_t startTime);
 
-  /// @brief Method InitSpeed, addr 0x578673c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InitSpeed, addr 0x57ecfe4, size 0x54, virtual false, abstract: false, final false
   inline void InitSpeed(float_t simulationSpeedMultiplier);
 
-  /// @brief Method ManualUpdate, addr 0x5786050, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x57ec8f8, size 0x68, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t time, float_t deltaTime);
 
   static inline ::GlobalNamespace::ParticleSystemEventController* New_ctor();
 
-  /// @brief Method Pause, addr 0x5786518, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x57ecdc0, size 0x18, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Play, addr 0x5786664, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x57ecf0c, size 0x18, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method Stop, addr 0x578596c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x57ec214, size 0x1c, virtual false, abstract: false, final false
   inline void Stop();
 
   constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem() const;
@@ -118,16 +118,16 @@ public:
 
   constexpr void __cordl_internal_set__startTime_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x5786848, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57ed0f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_endTime, addr 0x5786044, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_endTime, addr 0x57ec8ec, size 0xc, virtual false, abstract: false, final false
   inline float_t get_endTime();
 
-  /// @brief Method get_startTime, addr 0x5786838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x57ed0e0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startTime();
 
-  /// @brief Method set_startTime, addr 0x5786840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startTime, addr 0x57ed0e8, size 0x8, virtual false, abstract: false, final false
   inline void set_startTime(float_t value);
 
 protected:

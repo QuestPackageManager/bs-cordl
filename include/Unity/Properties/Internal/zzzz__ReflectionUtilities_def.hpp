@@ -22,7 +22,7 @@ namespace Unity::Properties::Internal {
 class CORDL_TYPE ReflectionUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SanitizeMemberName, addr 0x696d7e0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SanitizeMemberName, addr 0x69d6664, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW SanitizeMemberName(::System::Reflection::MemberInfo* info);
 
 protected:
@@ -40,7 +40,7 @@ public:
   ReflectionUtilities(ReflectionUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19484 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

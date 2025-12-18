@@ -36,7 +36,7 @@ public:
 
   static inline ::GlobalNamespace::SimpleRandom* New_ctor(int32_t seed);
 
-  /// @brief Method Sample, addr 0x31e5910, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Sample, addr 0x32162ec, size 0x1c, virtual true, abstract: false, final true
   inline double_t Sample();
 
   constexpr ::System::Random* const& __cordl_internal_get__random() const;
@@ -45,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set__random(::System::Random* value);
 
-  /// @brief Method .ctor, addr 0x31e5888, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3216264, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x31e58a4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3216280, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t seed);
 
   /// @brief Convert to "::GlobalNamespace::IRandom"
@@ -69,7 +69,7 @@ public:
   SimpleRandom(SimpleRandom const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20511 };
 
   /// @brief Field _random, offset: 0x10, size: 0x8, def value: None
   ::System::Random* ____random;

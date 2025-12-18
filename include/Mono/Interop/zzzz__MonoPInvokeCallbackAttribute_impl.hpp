@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Interop::MonoPInvokeCallbackAttribute::*)(::System::Type*)>(
     &::Mono::Interop::MonoPInvokeCallbackAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x589b014;
+  constexpr static std::size_t addrs = 0x5901960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

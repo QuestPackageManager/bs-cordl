@@ -53,7 +53,7 @@ public:
   /// @brief Convert operator to "::OculusStudios::GraphQL::ClientInterface::IGraphQLInputObject"
   constexpr operator ::OculusStudios::GraphQL::ClientInterface::IGraphQLInputObject*() noexcept;
 
-  /// @brief Method GetParams, addr 0x319bf4c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetParams, addr 0x31cbdc8, size 0xc, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>* GetParams();
 
   static inline ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* New_ctor();
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__params(::System::Collections::Generic::SortedDictionary_2<::StringW, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x319bf58, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cbdd4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryOrder"
@@ -73,10 +73,10 @@ public:
   /// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IGraphQLInputObject"
   constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLInputObject* i___OculusStudios__GraphQL__ClientInterface__IGraphQLInputObject() noexcept;
 
-  /// @brief Method set_By, addr 0x319bdf4, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method set_By, addr 0x31cbc70, size 0xac, virtual true, abstract: false, final true
   inline void set_By(::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapLeaderboardEntryOrderBySubject value);
 
-  /// @brief Method set_Desc, addr 0x319bea0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method set_Desc, addr 0x31cbd1c, size 0xac, virtual true, abstract: false, final true
   inline void set_Desc(::System::Nullable_1<bool> value);
 
 protected:
@@ -94,7 +94,7 @@ public:
   XOCBeatGamesBeatmapLeaderboardEntryOrder(XOCBeatGamesBeatmapLeaderboardEntryOrder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20944 };
 
   /// @brief Field _params, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::SortedDictionary_2<::StringW, ::System::Object*>* ____params;

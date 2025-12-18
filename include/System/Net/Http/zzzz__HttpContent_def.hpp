@@ -98,15 +98,15 @@ public:
   /// @brief Field maxSize, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_maxSize, put = __cordl_internal_set_maxSize)) int64_t maxSize;
 
-  /// @brief Method CheckOverflow, addr 0x5ec11d8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CheckOverflow, addr 0x5f28d64, size 0xa4, virtual false, abstract: false, final false
   inline void CheckOverflow(int32_t count);
 
   static inline ::System::Net::Http::HttpContent_FixedMemoryStream* New_ctor(int64_t maxSize);
 
-  /// @brief Method Write, addr 0x5ec1318, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5f28ea4, size 0x48, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteByte, addr 0x5ec12e8, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x5f28e74, size 0x30, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t value);
 
   constexpr int64_t const& __cordl_internal_get_maxSize() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_maxSize(int64_t value);
 
-  /// @brief Method .ctor, addr 0x5ec0d9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f28928, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int64_t maxSize);
 
 protected:
@@ -133,7 +133,7 @@ public:
   HttpContent_FixedMemoryStream(HttpContent_FixedMemoryStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20045 };
 
   /// @brief Field maxSize, offset: 0x50, size: 0x8, def value: None
   int64_t ___maxSize;
@@ -156,10 +156,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5ec1360, size 0x224, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f28eec, size 0x224, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5ec1584, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f29110, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -177,7 +177,7 @@ public:
                                                             ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20134 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20046 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -218,10 +218,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5ec1604, size 0x2bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f29190, size 0x2bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5ec18c0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f2944c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -239,7 +239,7 @@ public:
                                                    int64_t maxBufferSize, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20047 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -285,10 +285,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5ec192c, size 0x3c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f294b8, size 0x3c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5ec1cf0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f2987c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -307,7 +307,7 @@ public:
                                                  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20048 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -348,10 +348,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5ec1d70, size 0x248, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f298fc, size 0x248, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5ec1fb8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f29b44, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -369,7 +369,7 @@ public:
                                                     ::System::Net::Http::HttpContent* __4__this, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20137 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20049 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -410,10 +410,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5ec2038, size 0x3cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f29bc4, size 0x3cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5ec2588, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f2a114, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -430,7 +430,7 @@ public:
                                                  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20138 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20050 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -499,51 +499,51 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CopyToAsync, addr 0x5ebdf1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyToAsync, addr 0x5f25aa8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* stream);
 
-  /// @brief Method CopyToAsync, addr 0x5ec0bc0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CopyToAsync, addr 0x5f2874c, size 0x98, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method CreateContentReadStreamAsync, addr 0x5ec0c58, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method CreateContentReadStreamAsync, addr 0x5f287e4, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* CreateContentReadStreamAsync();
 
-  /// @brief Method CreateFixedMemoryStream, addr 0x5ec0d3c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateFixedMemoryStream, addr 0x5f288c8, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Net::Http::HttpContent_FixedMemoryStream* CreateFixedMemoryStream(int64_t maxBufferSize);
 
-  /// @brief Method Dispose, addr 0x5ec0dc4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5f28950, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x5ec0dd4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5f28960, size 0x34, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetEncodingFromBuffer, addr 0x5ec0fd8, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingFromBuffer, addr 0x5f28b64, size 0x180, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t length, ::ByRef<int32_t> preambleLength);
 
-  /// @brief Method LoadIntoBufferAsync, addr 0x5ec0e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LoadIntoBufferAsync, addr 0x5f28994, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadIntoBufferAsync();
 
-  /// @brief Method LoadIntoBufferAsync, addr 0x5ebde5c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LoadIntoBufferAsync, addr 0x5f259e8, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadIntoBufferAsync(int64_t maxBufferSize);
 
   static inline ::System::Net::Http::HttpContent* New_ctor();
 
-  /// @brief Method ReadAsByteArrayAsync, addr 0x5ec0ef4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReadAsByteArrayAsync, addr 0x5f28a80, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* ReadAsByteArrayAsync();
 
-  /// @brief Method ReadAsStreamAsync, addr 0x5ec0e10, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReadAsStreamAsync, addr 0x5f2899c, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* ReadAsStreamAsync();
 
-  /// @brief Method ReadAsStringAsync, addr 0x5ec0984, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReadAsStringAsync, addr 0x5f28510, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAsStringAsync();
 
   /// @brief Method SerializeToStreamAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method SerializeToStreamAsync_internal, addr 0x5ec11cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SerializeToStreamAsync_internal, addr 0x5f28d58, size 0xc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SerializeToStreamAsync_internal(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method StartsWith, addr 0x5ec1158, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x5f28ce4, size 0x74, virtual false, abstract: false, final false
   static inline int32_t StartsWith(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   /// @brief Method TryComputeLength, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -573,13 +573,13 @@ public:
 
   constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x5ebe5e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f26174, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Headers, addr 0x5ebbccc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x5f23858, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpContentHeaders* get_Headers();
 
-  /// @brief Method get_LoadedBufferLength, addr 0x5ec0b5c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_LoadedBufferLength, addr 0x5f286e8, size 0x64, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_LoadedBufferLength();
 
   /// @brief Convert to "::System::IDisposable"
@@ -600,7 +600,7 @@ public:
   HttpContent(HttpContent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20139 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20051 };
 
   /// @brief Field buffer, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Http::HttpContent_FixedMemoryStream* ___buffer;

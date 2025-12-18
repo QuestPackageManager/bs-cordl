@@ -25,12 +25,12 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE DecalDrawGBufferSystem : public ::UnityEngine::Rendering::Universal::DecalDrawSystem {
 public:
   // Declarations
-  /// @brief Method GetPassIndex, addr 0x6640cf8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetPassIndex, addr 0x66a8884, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetPassIndex(::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk);
 
   static inline ::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem* New_ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
 
-  /// @brief Method .ctor, addr 0x6640c74, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66a8800, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
 
 protected:
@@ -48,7 +48,7 @@ public:
   DecalDrawGBufferSystem(DecalDrawGBufferSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12678 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12682 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

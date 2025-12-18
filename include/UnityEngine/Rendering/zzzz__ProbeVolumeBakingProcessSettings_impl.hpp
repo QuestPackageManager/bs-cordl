@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings (*)()>(
     &::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings::get_Default)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6573048;
+  constexpr static std::size_t addrs = 0x65dabd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings::*)(
     ::UnityEngine::Rendering::ProbeDilationSettings, ::UnityEngine::Rendering::VirtualOffsetSettings)>(&::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x65730cc;
+  constexpr static std::size_t addrs = 0x65dac58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings::SetDefaults)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6573090;
+  constexpr static std::size_t addrs = 0x65dac1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings::Upgrade)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65730f8;
+  constexpr static std::size_t addrs = 0x65dac84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

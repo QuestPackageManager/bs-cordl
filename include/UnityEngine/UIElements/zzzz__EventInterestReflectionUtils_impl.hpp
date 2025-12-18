@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::UnityEngine::UIElements::EventInterestReflectionUtils::GetDefaultEventInterests)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x6a95f70;
+  constexpr static std::size_t addrs = 0x6afedf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Type*, ::StringW)>(
     &::UnityEngine::UIElements::EventInterestReflectionUtils::ComputeDefaultEventInterests)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x6a96294;
+  constexpr static std::size_t addrs = 0x6aff118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::EventCategory (*)(::System::Type*)>(
     &::UnityEngine::UIElements::EventInterestReflectionUtils::GetEventCategory)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x6a9648c;
+  constexpr static std::size_t addrs = 0x6aff310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

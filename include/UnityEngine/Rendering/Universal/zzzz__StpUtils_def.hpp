@@ -46,16 +46,16 @@ public:
   /// @brief Field s_JitterFunc, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_JitterFunc, put = setStaticF_s_JitterFunc)) ::UnityEngine::Rendering::Universal::TemporalAA_JitterFunc* s_JitterFunc;
 
-  /// @brief Method CalculateJitter, addr 0x669e4f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CalculateJitter, addr 0x670607c, size 0x80, virtual false, abstract: false, final false
   static inline void CalculateJitter(int32_t frameIndex, ::ByRef<::UnityEngine::Vector2> jitter, ::ByRef<bool> allowScaling);
 
-  /// @brief Method Execute, addr 0x669eb48, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x67066d4, size 0x2fc, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                              ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputColor,
                              ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputDepth, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputMotion,
                              ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Texture2D* noiseTexture);
 
-  /// @brief Method PopulateStpConfig, addr 0x669e570, size 0x598, virtual false, abstract: false, final false
+  /// @brief Method PopulateStpConfig, addr 0x67060fc, size 0x598, virtual false, abstract: false, final false
   static inline void PopulateStpConfig(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputColor,
                                        ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputDepth, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputMotion,
                                        int32_t debugViewIndex, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle debugView,
@@ -81,7 +81,7 @@ public:
   StpUtils(StpUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12934 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12938 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

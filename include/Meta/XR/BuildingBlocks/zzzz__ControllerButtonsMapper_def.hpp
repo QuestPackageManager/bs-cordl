@@ -90,7 +90,7 @@ public:
   static ::Meta::XR::BuildingBlocks::ButtonClickAction_ControllerButtonsMapper_ButtonClickMode const OnButtonUp;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21160 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -115,7 +115,7 @@ public:
   // Declarations
   using ButtonClickMode = ::Meta::XR::BuildingBlocks::ButtonClickAction_ControllerButtonsMapper_ButtonClickMode;
 
-  /// @brief Method OnCallbackWithContext, addr 0x581e29c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OnCallbackWithContext, addr 0x5884a00, size 0x78, virtual false, abstract: false, final false
   inline void OnCallbackWithContext(::UnityEngine::InputSystem::InputAction_CallbackContext callbackContext);
 
   // Ctor Parameters []
@@ -134,7 +134,7 @@ public:
                                                       ::UnityEngine::Events::UnityEvent* Callback) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21134 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21161 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -192,24 +192,24 @@ public:
                       put =
                           __cordl_internal_set__buttonClickActions)) ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction>* _buttonClickActions;
 
-  /// @brief Method IsActionTriggered, addr 0x581e0c0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsActionTriggered, addr 0x5884824, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsActionTriggered(::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction buttonClickAction);
 
-  /// @brief Method IsLegacyInputActionTriggered, addr 0x581e10c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsLegacyInputActionTriggered, addr 0x5884870, size 0xf8, virtual false, abstract: false, final false
   static inline bool IsLegacyInputActionTriggered(::Meta::XR::BuildingBlocks::ButtonClickAction_ControllerButtonsMapper_ButtonClickMode buttonMode, ::GlobalNamespace::OVRInput_Button button);
 
-  /// @brief Method IsNewInputSystemActionTriggered, addr 0x581e204, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsNewInputSystemActionTriggered, addr 0x5884968, size 0x94, virtual false, abstract: false, final false
   static inline bool IsNewInputSystemActionTriggered(::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction buttonClickAction);
 
   static inline ::Meta::XR::BuildingBlocks::ControllerButtonsMapper* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x581dd30, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5884494, size 0x258, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x581dad8, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x588423c, size 0x258, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x581df88, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58846ec, size 0x138, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction>* const& __cordl_internal_get__buttonClickActions() const;
@@ -218,13 +218,13 @@ public:
 
   constexpr void __cordl_internal_set__buttonClickActions(::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction>* value);
 
-  /// @brief Method .ctor, addr 0x581e298, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58849fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ButtonClickActions, addr 0x581dac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ButtonClickActions, addr 0x588422c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction>* get_ButtonClickActions();
 
-  /// @brief Method set_ButtonClickActions, addr 0x581dad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ButtonClickActions, addr 0x5884234, size 0x8, virtual false, abstract: false, final false
   inline void set_ButtonClickActions(::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction>* value);
 
 protected:
@@ -248,7 +248,7 @@ public:
   static constexpr bool UseNewInputSystem{ true };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21162 };
 
   /// @brief Field _buttonClickActions, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::ControllerButtonsMapper_ButtonClickAction>* ____buttonClickActions;

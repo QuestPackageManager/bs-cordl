@@ -40,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set__cultureName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x595c748, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c3094, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x595c7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c3128, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x595c7a8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c30f4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW cultureName);
 
 protected:

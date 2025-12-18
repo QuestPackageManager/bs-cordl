@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::X509PalImpl* (*)()>(&::Mono::X509Pal::get_Instance)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5db3cc8;
+  constexpr static std::size_t addrs = 0x5e1b854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::X509Pal*>::get(), "get_Instance",

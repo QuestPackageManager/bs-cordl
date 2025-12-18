@@ -44,7 +44,7 @@ public:
   /// @brief Field parameters, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters)) ::Org::BouncyCastle::Asn1::Asn1Object* parameters;
 
-  /// @brief Method GetInstance, addr 0x35589b4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x35831f8, size 0x9c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* New_ctor(int32_t m, int32_t k1);
@@ -55,7 +55,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3559988, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x35841cc, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_id() const;
@@ -70,22 +70,22 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method .ctor, addr 0x3558bf0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3583434, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k1);
 
-  /// @brief Method .ctor, addr 0x3558bfc, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3583440, size 0x3e8, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3);
 
-  /// @brief Method .ctor, addr 0x3558b4c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3583390, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* primeP);
 
-  /// @brief Method .ctor, addr 0x35598bc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3584100, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Identifier, addr 0x3559978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x35841bc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Identifier();
 
-  /// @brief Method get_Parameters, addr 0x3559980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x35841c4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_Parameters();
 
 protected:

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::UnsafeQueueBlockPoolData* (*)()>(
     &::Unity::Collections::UnsafeQueueBlockPool::GetQueueBlockPool)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x62ab080;
+  constexpr static std::size_t addrs = 0x6312c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::UnsafeQueueBlockPool*>::get(),
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Collections::UnsafeQueueBlockPool::AppDomainOnDomainUnload)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x62ab1ac;
+  constexpr static std::size_t addrs = 0x6312d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::UnsafeQueueBlockPool*>::get(),
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::EventArgs*)>(&::Unity::Collections::UnsafeQueueBlockPool::OnDomainUnload)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x62ab240;
+  constexpr static std::size_t addrs = 0x6312dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::UnsafeQueueBlockPool::*)()>(&::Unity::Collections::UnsafeQueueBlockPool::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62ab330;
+  constexpr static std::size_t addrs = 0x6312ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::UnsafeQueueBlockPool*>::get(), ".ctor",

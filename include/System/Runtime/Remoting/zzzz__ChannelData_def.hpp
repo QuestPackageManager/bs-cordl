@@ -52,7 +52,7 @@ public:
   /// @brief Field _serverProviders, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__serverProviders, put = __cordl_internal_set__serverProviders)) ::System::Collections::ArrayList* _serverProviders;
 
-  /// @brief Method CopyFrom, addr 0x5911940, size 0x888, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x597828c, size 0x888, virtual false, abstract: false, final false
   inline void CopyFrom(::System::Runtime::Remoting::ChannelData* other);
 
   static inline ::System::Runtime::Remoting::ChannelData* New_ctor();
@@ -99,16 +99,16 @@ public:
 
   constexpr void __cordl_internal_set__serverProviders(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x59128c4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5979210, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ClientProviders, addr 0x591186c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_ClientProviders, addr 0x59781b8, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_ClientProviders();
 
-  /// @brief Method get_CustomProperties, addr 0x59118d4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_CustomProperties, addr 0x5978220, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_CustomProperties();
 
-  /// @brief Method get_ServerProviders, addr 0x5911804, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_ServerProviders, addr 0x5978150, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_ServerProviders();
 
 protected:

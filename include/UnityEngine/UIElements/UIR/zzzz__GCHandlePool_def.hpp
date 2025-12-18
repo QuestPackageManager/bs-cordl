@@ -51,21 +51,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6a9e840, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6b076c4, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6a9e8a8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6b0772c, size 0x130, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Get, addr 0x6a9e568, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x6b073ec, size 0x1e0, virtual false, abstract: false, final false
   inline ::System::Runtime::InteropServices::GCHandle Get(::System::Object* target);
 
-  /// @brief Method GetIntPtr, addr 0x6a9e748, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetIntPtr, addr 0x6b075cc, size 0x10, virtual false, abstract: false, final false
   inline ::System::IntPtr GetIntPtr(::System::Object* target);
 
   static inline ::UnityEngine::UIElements::UIR::GCHandlePool* New_ctor(int32_t capacity, int32_t allocBatchSize);
 
-  /// @brief Method ReturnAll, addr 0x6a9e758, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReturnAll, addr 0x6b075dc, size 0xd8, virtual false, abstract: false, final false
   inline void ReturnAll();
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -92,16 +92,16 @@ public:
 
   constexpr void __cordl_internal_set_m_UsedHandlesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6a9e4dc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b07360, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, int32_t allocBatchSize);
 
-  /// @brief Method get_disposed, addr 0x6a9e830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6b076b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x6a9e838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6b076bc, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

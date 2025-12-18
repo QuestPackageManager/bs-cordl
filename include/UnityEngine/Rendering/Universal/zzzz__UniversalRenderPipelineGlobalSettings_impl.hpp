@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::get_stripUnusedLODCrossFadeVariants)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6654800;
+  constexpr static std::size_t addrs = 0x66bc38c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::*)(bool)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::set_stripUnusedLODCrossFadeVariants)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6654808;
+  constexpr static std::size_t addrs = 0x66bc394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>* (
     ::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::get_settingsList)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x665480c;
+  constexpr static std::size_t addrs = 0x66bc398;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::IsAtLastVersion)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6654830;
+  constexpr static std::size_t addrs = 0x66bc3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6654840;
+  constexpr static std::size_t addrs = 0x66bc3cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Rendering::VolumeProfile> (*)(::UnityEngine::Rendering::VolumeProfile*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::GetOrCreateDefaultVolumeProfile)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6654880;
+  constexpr static std::size_t addrs = 0x66bc40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (
     ::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::get_prefixedLightLayerNames)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6654884;
+  constexpr static std::size_t addrs = 0x66bc410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (
     ::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::get_lightLayerNames)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x66548cc;
+  constexpr static std::size_t addrs = 0x66bc458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::ResetRenderingLayerNames)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6654914;
+  constexpr static std::size_t addrs = 0x66bc4a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::ProbeVolumeSceneData* (
     ::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::GetOrCreateAPVSceneData)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x665499c;
+  constexpr static std::size_t addrs = 0x66bc528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineGlobalSettings::_ctor)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x66549fc;
+  constexpr static std::size_t addrs = 0x66bc588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

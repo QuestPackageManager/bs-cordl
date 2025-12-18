@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::VolumeParameter::*)()>(
     &::UnityEngine::Rendering::VolumeParameter::get_overrideState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65ad9ac;
+  constexpr static std::size_t addrs = 0x6615538;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeParameter::*)(bool)>(
     &::UnityEngine::Rendering::VolumeParameter::set_overrideState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65ad9b4;
+  constexpr static std::size_t addrs = 0x6615540;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeParameter::*)()>(&::UnityEngine::Rendering::VolumeParameter::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65ad9bc;
+  constexpr static std::size_t addrs = 0x6615548;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeParameter::*)()>(&::UnityEngine::Rendering::VolumeParameter::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65ad9c0;
+  constexpr static std::size_t addrs = 0x661554c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::UnityEngine::Rendering::VolumeParameter::IsObjectParameter)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x65ad53c;
+  constexpr static std::size_t addrs = 0x66150c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeParameter::*)()>(&::UnityEngine::Rendering::VolumeParameter::Release)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65ad9c4;
+  constexpr static std::size_t addrs = 0x6615550;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::VolumeParameter::*)()>(&::UnityEngine::Rendering::VolumeParameter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65ad9c8;
+  constexpr static std::size_t addrs = 0x6615554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::VolumeParameter*>::get(), ".ctor",

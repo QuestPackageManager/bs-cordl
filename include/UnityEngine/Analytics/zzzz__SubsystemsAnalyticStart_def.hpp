@@ -18,12 +18,12 @@ namespace UnityEngine::Analytics {
 class CORDL_TYPE SubsystemsAnalyticStart : public ::UnityEngine::Analytics::SubsystemsAnalyticBase {
 public:
   // Declarations
-  /// @brief Method CreateSubsystemsAnalyticStart, addr 0x6bf010c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateSubsystemsAnalyticStart, addr 0x6c58f90, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Analytics::SubsystemsAnalyticStart* CreateSubsystemsAnalyticStart();
 
   static inline ::UnityEngine::Analytics::SubsystemsAnalyticStart* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6bf0078, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c58efc, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   SubsystemsAnalyticStart(SubsystemsAnalyticStart const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22572 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

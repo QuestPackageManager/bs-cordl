@@ -38,7 +38,7 @@ namespace System::Xml::Schema {
 struct CORDL_TYPE SequenceNode_SequenceConstructPosContext {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6102dbc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x616a948, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::SequenceNode* node, ::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos);
 
   // Ctor Parameters []
@@ -52,7 +52,7 @@ public:
                                                      ::System::Xml::Schema::BitSet* lastposLeft, ::System::Xml::Schema::BitSet* firstposRight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9567 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9571 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -99,19 +99,19 @@ public:
 
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  /// @brief Method ConstructPos, addr 0x6102a4c, size 0x370, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x616a5d8, size 0x370, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method ExpandTree, addr 0x6102f34, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x616aac0, size 0x4, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::SequenceNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6102f38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x616aac4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsNullable, addr 0x6102dcc, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x616a958, size 0x168, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
 protected:
@@ -129,7 +129,7 @@ public:
   SequenceNode(SequenceNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9572 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

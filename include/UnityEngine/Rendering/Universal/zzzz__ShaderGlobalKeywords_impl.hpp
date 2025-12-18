@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::Rendering::Universal::ShaderGlobalKeywords::InitializeShaderGlobalKeywords)> {
   constexpr static std::size_t size = 0x1090;
-  constexpr static std::size_t addrs = 0x66c7164;
+  constexpr static std::size_t addrs = 0x672ecf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

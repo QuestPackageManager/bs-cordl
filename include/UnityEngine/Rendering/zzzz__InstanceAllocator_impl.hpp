@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::InstanceAllocator::*)()>(
     &::UnityEngine::Rendering::InstanceAllocator::get_length)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6604888;
+  constexpr static std::size_t addrs = 0x666c414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::InstanceAllocator>::get(), "get_length",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::InstanceAllocator::*)(int32_t)>(
     &::UnityEngine::Rendering::InstanceAllocator::set_length)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6604894;
+  constexpr static std::size_t addrs = 0x666c420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::InstanceAllocator::*)()>(&::UnityEngine::Rendering::InstanceAllocator::get_valid)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x66048a0;
+  constexpr static std::size_t addrs = 0x666c42c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::InstanceAllocator>::get(), "get_valid",
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::InstanceAllocator::*)(int32_t, int32_t)>(
     &::UnityEngine::Rendering::InstanceAllocator::Initialize)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x66048ec;
+  constexpr static std::size_t addrs = 0x666c478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::InstanceAllocator::*)()>(&::UnityEngine::Rendering::InstanceAllocator::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x66049a4;
+  constexpr static std::size_t addrs = 0x666c530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::InstanceAllocator>::get(), "Dispose",
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::InstanceAllocator::*)()>(
     &::UnityEngine::Rendering::InstanceAllocator::AllocateInstance)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6604a14;
+  constexpr static std::size_t addrs = 0x666c5a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::InstanceAllocator>::get(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::InstanceAllocator::*)(int32_t)>(
     &::UnityEngine::Rendering::InstanceAllocator::FreeInstance)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6604b5c;
+  constexpr static std::size_t addrs = 0x666c6e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::InstanceAllocator::*)()>(
     &::UnityEngine::Rendering::InstanceAllocator::GetNumAllocated)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6604bbc;
+  constexpr static std::size_t addrs = 0x666c748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::InstanceAllocator>::get(),

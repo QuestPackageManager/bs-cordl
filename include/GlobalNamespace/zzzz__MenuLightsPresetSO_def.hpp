@@ -36,13 +36,13 @@ public:
 
   constexpr void __cordl_internal_set__lightIdColorPairs(::ArrayW<::GlobalNamespace::LightIdColorPair*, ::Array<::GlobalNamespace::LightIdColorPair*>*> value);
 
-  /// @brief Method .ctor, addr 0x581a9a4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5881108, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightIdColorPairs, addr 0x581a994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightIdColorPairs, addr 0x58810f8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::LightIdColorPair*, ::Array<::GlobalNamespace::LightIdColorPair*>*> get_lightIdColorPairs();
 
-  /// @brief Method set_lightIdColorPairs, addr 0x581a99c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightIdColorPairs, addr 0x5881100, size 0x8, virtual false, abstract: false, final false
   inline void set_lightIdColorPairs(::ArrayW<::GlobalNamespace::LightIdColorPair*, ::Array<::GlobalNamespace::LightIdColorPair*>*> value);
 
 protected:
@@ -60,7 +60,7 @@ public:
   MenuLightsPresetSO(MenuLightsPresetSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23317 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23351 };
 
   /// @brief Field _lightIdColorPairs, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::LightIdColorPair*, ::Array<::GlobalNamespace::LightIdColorPair*>*> ____lightIdColorPairs;

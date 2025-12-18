@@ -77,19 +77,19 @@ namespace System {
 struct CORDL_TYPE Enum_EnumResult {
 public:
   // Declarations
-  /// @brief Method GetEnumParseException, addr 0x5a64fec, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetEnumParseException, addr 0x5acb938, size 0x194, virtual false, abstract: false, final false
   inline ::System::Exception* GetEnumParseException();
 
-  /// @brief Method Init, addr 0x5a64978, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5acb2c4, size 0x38, virtual false, abstract: false, final false
   inline void Init(bool canMethodThrow);
 
-  /// @brief Method SetFailure, addr 0x5a651b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x5acbb04, size 0x3c, virtual false, abstract: false, final false
   inline void SetFailure(::GlobalNamespace::Enum_ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument);
 
-  /// @brief Method SetFailure, addr 0x5a65180, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x5acbacc, size 0x38, virtual false, abstract: false, final false
   inline void SetFailure(::GlobalNamespace::Enum_ParseFailureKind failure, ::StringW failureParameter);
 
-  /// @brief Method SetFailure, addr 0x5a656bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x5acc008, size 0x10, virtual false, abstract: false, final false
   inline void SetFailure(::System::Exception* unhandledException);
 
   // Ctor Parameters []
@@ -177,7 +177,7 @@ public:
 
   constexpr void __cordl_internal_set_Values(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x5a63fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aca934, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names);
 
 protected:

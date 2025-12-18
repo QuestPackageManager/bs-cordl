@@ -19,25 +19,25 @@ namespace UnityEngine::XR {
 class CORDL_TYPE HashCodeHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Combine, addr 0x6c020c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x6c6af48, size 0x10, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2);
 
-  /// @brief Method Combine, addr 0x6c020d4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x6c6af58, size 0x14, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3);
 
-  /// @brief Method Combine, addr 0x6c020e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x6c6af6c, size 0x18, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4);
 
-  /// @brief Method Combine, addr 0x6c02100, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x6c6af84, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4, int32_t hash5);
 
-  /// @brief Method Combine, addr 0x6c0211c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x6c6afa0, size 0x20, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4, int32_t hash5, int32_t hash6);
 
-  /// @brief Method Combine, addr 0x6c0213c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x6c6afc0, size 0x24, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4, int32_t hash5, int32_t hash6, int32_t hash7);
 
-  /// @brief Method Combine, addr 0x6c02160, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x6c6afe4, size 0x28, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t hash1, int32_t hash2, int32_t hash3, int32_t hash4, int32_t hash5, int32_t hash6, int32_t hash7, int32_t hash8);
 
 protected:
@@ -55,7 +55,7 @@ public:
   HashCodeHelper(HashCodeHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21964 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

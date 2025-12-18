@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<uint8_t>> (*)(
     ::ByRef<::Unity::Collections::LowLevel::Unsafe::UnsafeText>)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeTextExtensions::AsUnsafeListOfBytes)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x62b1258;
+  constexpr static std::size_t addrs = 0x6318de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<uint8_t> (*)(
     ::Unity::Collections::LowLevel::Unsafe::UnsafeText)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeTextExtensions::AsUnsafeListOfBytesRO)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x62b129c;
+  constexpr static std::size_t addrs = 0x6318e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

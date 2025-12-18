@@ -46,16 +46,16 @@ public:
   /// @brief Convert operator to "::System::Net::ICredentials"
   constexpr operator ::System::Net::ICredentials*() noexcept;
 
-  /// @brief Method GetCredential, addr 0x61f146c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetCredential, addr 0x6258ff8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Net::NetworkCredential* GetCredential(::System::Uri* uri, ::StringW authType);
 
-  /// @brief Method InternalGetDomain, addr 0x61f1464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InternalGetDomain, addr 0x6258ff0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW InternalGetDomain();
 
-  /// @brief Method InternalGetPassword, addr 0x61f1448, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InternalGetPassword, addr 0x6258fd4, size 0xc, virtual false, abstract: false, final false
   inline ::StringW InternalGetPassword();
 
-  /// @brief Method InternalGetUserName, addr 0x61f145c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InternalGetUserName, addr 0x6258fe8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW InternalGetUserName();
 
   static inline ::System::Net::NetworkCredential* New_ctor(::StringW userName, ::StringW password);
@@ -80,31 +80,31 @@ public:
 
   constexpr void __cordl_internal_set_m_userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x61e75bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x624f148, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW userName, ::StringW password);
 
-  /// @brief Method .ctor, addr 0x61ed45c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6254fe8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::StringW userName, ::StringW password, ::StringW domain);
 
-  /// @brief Method get_Domain, addr 0x61f1454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Domain, addr 0x6258fe0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Domain();
 
-  /// @brief Method get_Password, addr 0x61f143c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Password, addr 0x6258fc8, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_Password();
 
-  /// @brief Method get_UserName, addr 0x61f1434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserName, addr 0x6258fc0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_UserName();
 
   /// @brief Convert to "::System::Net::ICredentials"
   constexpr ::System::Net::ICredentials* i___System__Net__ICredentials() noexcept;
 
-  /// @brief Method set_Domain, addr 0x61f1418, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_Domain, addr 0x6258fa4, size 0x1c, virtual false, abstract: false, final false
   inline void set_Domain(::StringW value);
 
-  /// @brief Method set_Password, addr 0x61f13f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_Password, addr 0x6258f84, size 0x20, virtual false, abstract: false, final false
   inline void set_Password(::StringW value);
 
-  /// @brief Method set_UserName, addr 0x61f13dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_UserName, addr 0x6258f68, size 0x1c, virtual false, abstract: false, final false
   inline void set_UserName(::StringW value);
 
 protected:
@@ -122,7 +122,7 @@ public:
   NetworkCredential(NetworkCredential const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11480 };
 
   /// @brief Field m_domain, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_domain;

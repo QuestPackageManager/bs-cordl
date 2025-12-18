@@ -10,4 +10,5 @@ constexpr ::GlobalNamespace::BeatmapLevelOrPackIdFilter::BeatmapLevelOrPackIdFil
 constexpr ::GlobalNamespace::BeatmapLevelOrPackIdFilter GlobalNamespace::BeatmapLevelOrPackIdFilter::Packs{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::BeatmapLevelOrPackIdFilter GlobalNamespace::BeatmapLevelOrPackIdFilter::Levels{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::BeatmapLevelOrPackIdFilter GlobalNamespace::BeatmapLevelOrPackIdFilter::Empty{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::BeatmapLevelOrPackIdFilter GlobalNamespace::BeatmapLevelOrPackIdFilter::AllNonEmpty{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::BeatmapLevelOrPackIdFilter GlobalNamespace::BeatmapLevelOrPackIdFilter::All{ static_cast<int32_t>(0x7) };

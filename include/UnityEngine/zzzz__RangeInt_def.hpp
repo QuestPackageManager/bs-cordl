@@ -21,10 +21,10 @@ public:
   // Declarations
   __declspec(property(get = get_end)) int32_t end;
 
-  /// @brief Method .ctor, addr 0x68b2618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x691b49c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t length);
 
-  /// @brief Method get_end, addr 0x68b260c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_end, addr 0x691b490, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_end();
 
   // Ctor Parameters []
@@ -35,7 +35,7 @@ public:
   constexpr RangeInt(int32_t start, int32_t length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10336 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

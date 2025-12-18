@@ -41,25 +41,25 @@ public:
 
   __declspec(property(get = get_prefabInstance)) ::UnityW<::UnityEngine::GameObject> prefabInstance;
 
-  /// @brief Method Create, addr 0x67a9688, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6811200, size 0x154, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::PrefabControlPlayable*>
   Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* prefabGameObject, ::UnityEngine::Transform* parentTransform);
 
-  /// @brief Method Initialize, addr 0x67a97dc, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6811354, size 0x28c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> Initialize(::UnityEngine::GameObject* prefabGameObject, ::UnityEngine::Transform* parentTransform);
 
   static inline ::UnityEngine::Timeline::PrefabControlPlayable* New_ctor();
 
-  /// @brief Method OnBehaviourPause, addr 0x67a9f5c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x6811ad4, size 0xa8, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPlay, addr 0x67a9ed0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x6811a48, size 0x8c, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnPlayableDestroy, addr 0x67a9dd4, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x681194c, size 0xfc, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method SetHideFlagsRecursive, addr 0x67a9a70, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method SetHideFlagsRecursive, addr 0x68115e8, size 0x364, virtual false, abstract: false, final false
   static inline void SetHideFlagsRecursive(::UnityEngine::GameObject* gameObject);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_Instance() const;
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Instance(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x67aa004, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6811b7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_prefabInstance, addr 0x67a9a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefabInstance, addr 0x68115e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_prefabInstance();
 
 protected:
@@ -89,7 +89,7 @@ public:
   PrefabControlPlayable(PrefabControlPlayable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18870 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19057 };
 
   /// @brief Field m_Instance, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_Instance;

@@ -64,7 +64,7 @@ public:
   GenericSignal_1(GenericSignal_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20283 };
 
   /// @brief Field _floatEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<T>* ____floatEvent;

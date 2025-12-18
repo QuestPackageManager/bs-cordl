@@ -29,16 +29,16 @@ public:
 
   __declspec(property(get = get_size)) float_t size;
 
-  /// @brief Method get_localReferencePoint, addr 0x68743f4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_localReferencePoint, addr 0x68dbf6c, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localReferencePoint();
 
-  /// @brief Method get_localReferencePoint_Injected, addr 0x6874494, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_localReferencePoint_Injected, addr 0x68dc00c, size 0x44, virtual false, abstract: false, final false
   static inline void get_localReferencePoint_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_size, addr 0x68744d8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x68dc050, size 0x80, virtual false, abstract: false, final false
   inline float_t get_size();
 
-  /// @brief Method get_size_Injected, addr 0x6874558, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_size_Injected, addr 0x68dc0d0, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_size_Injected(::System::IntPtr _unity_self);
 
 protected:
@@ -56,7 +56,7 @@ public:
   LODGroup(LODGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10189 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10193 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

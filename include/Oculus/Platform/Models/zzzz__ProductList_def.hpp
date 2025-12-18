@@ -26,7 +26,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::ProductList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x5bdcecc, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c439ac, size 0x1fc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:
@@ -44,7 +44,7 @@ public:
   ProductList(ProductList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18054 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

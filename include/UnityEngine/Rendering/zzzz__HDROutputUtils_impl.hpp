@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::HDROutputUtils_HDRDisplayInformation::*)(int32_t, int32_t, int32_t, float_t)>(
     &::UnityEngine::Rendering::HDROutputUtils_HDRDisplayInformation::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x65a75e8;
+  constexpr static std::size_t addrs = 0x660f174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ColorGamut, ::ByRef<int32_t>)>(
     &::UnityEngine::Rendering::HDROutputUtils::GetColorSpaceForGamut)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x65a699c;
+  constexpr static std::size_t addrs = 0x660e528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ColorGamut, ::ByRef<int32_t>)>(
     &::UnityEngine::Rendering::HDROutputUtils::GetColorEncodingForGamut)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x65a6bf0;
+  constexpr static std::size_t addrs = 0x660e77c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::ColorGamut, ::UnityEngine::Rendering::HDROutputUtils_Operation)>(
     &::UnityEngine::Rendering::HDROutputUtils::ConfigureHDROutput)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x65a6d9c;
+  constexpr static std::size_t addrs = 0x660e928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::ColorGamut)>(
     &::UnityEngine::Rendering::HDROutputUtils::ConfigureHDROutput)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x65a6fe4;
+  constexpr static std::size_t addrs = 0x660eb70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Rendering::HDROutputUtils_Operation)>(
     &::UnityEngine::Rendering::HDROutputUtils::ConfigureHDROutput)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x65a70ac;
+  constexpr static std::size_t addrs = 0x660ec38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::ComputeShader*, ::UnityEngine::ColorGamut, ::UnityEngine::Rendering::HDROutputUtils_Operation)>(&::UnityEngine::Rendering::HDROutputUtils::ConfigureHDROutput)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x65a7230;
+  constexpr static std::size_t addrs = 0x660edbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rendering::ShaderKeywordSet, bool)>(
     &::UnityEngine::Rendering::HDROutputUtils::IsShaderVariantValid)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x65a7480;
+  constexpr static std::size_t addrs = 0x660f00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

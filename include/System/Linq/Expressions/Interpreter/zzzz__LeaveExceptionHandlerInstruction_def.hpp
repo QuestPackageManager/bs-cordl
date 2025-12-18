@@ -37,12 +37,12 @@ public:
                                                                                     ::Array<::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction*>*>
       s_cache;
 
-  /// @brief Method Create, addr 0x5d749f0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5ddc57c, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction* Create(int32_t labelIndex, bool hasValue);
 
   static inline ::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction* New_ctor(int32_t labelIndex, bool hasValue);
 
-  /// @brief Method Run, addr 0x5d74b04, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5ddc690, size 0x24, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr bool const& __cordl_internal_get__hasValue() const;
@@ -51,19 +51,19 @@ public:
 
   constexpr void __cordl_internal_set__hasValue(bool value);
 
-  /// @brief Method .ctor, addr 0x5d74990, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ddc51c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t labelIndex, bool hasValue);
 
   static inline ::ArrayW<::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction*, ::Array<::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction*>*>
   getStaticF_s_cache();
 
-  /// @brief Method get_ConsumedStack, addr 0x5d749e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5ddc56c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5d7499c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5ddc528, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5d749e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5ddc574, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_cache(
@@ -84,7 +84,7 @@ public:
   LeaveExceptionHandlerInstruction(LeaveExceptionHandlerInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16258 };
 
   /// @brief Field _hasValue, offset: 0x14, size: 0x1, def value: None
   bool ____hasValue;

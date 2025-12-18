@@ -202,81 +202,81 @@ public:
   /// @brief Field underlyingType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_underlyingType, put = __cordl_internal_set_underlyingType)) ::System::Type* underlyingType;
 
-  /// @brief Method AssignDataContractToId, addr 0x5f2bedc, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method AssignDataContractToId, addr 0x5f93a68, size 0x180, virtual false, abstract: false, final false
   static inline void AssignDataContractToId(::System::Runtime::Serialization::DataContract* dataContract, int32_t id);
 
-  /// @brief Method ContractMatches, addr 0x5f2c05c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ContractMatches, addr 0x5f93be8, size 0x5c, virtual false, abstract: false, final false
   static inline bool ContractMatches(::System::Runtime::Serialization::DataContract* contract, ::System::Runtime::Serialization::DataContract* cachedContract);
 
-  /// @brief Method CreateDataContract, addr 0x5f2b684, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method CreateDataContract, addr 0x5f93210, size 0x59c, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* CreateDataContract(int32_t id, ::System::RuntimeTypeHandle typeHandle, ::System::Type* type);
 
-  /// @brief Method CreateGetOnlyCollectionDataContract, addr 0x5f2bc20, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method CreateGetOnlyCollectionDataContract, addr 0x5f937ac, size 0x2bc, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* CreateGetOnlyCollectionDataContract(int32_t id, ::System::RuntimeTypeHandle typeHandle, ::System::Type* type);
 
-  /// @brief Method GetBuiltInDataContract, addr 0x5f239f4, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltInDataContract, addr 0x5f8b580, size 0x2d8, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetBuiltInDataContract(::StringW name, ::StringW ns);
 
-  /// @brief Method GetBuiltInDataContract, addr 0x5f236bc, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltInDataContract, addr 0x5f8b248, size 0x2d0, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetBuiltInDataContract(::System::Type* type);
 
-  /// @brief Method GetBuiltInDataContract, addr 0x5f23d24, size 0xd74, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltInDataContract, addr 0x5f8b8b0, size 0xd74, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetBuiltInDataContract(::StringW typeName);
 
-  /// @brief Method GetClrTypeString, addr 0x5f24eac, size 0x5e4, virtual false, abstract: false, final false
+  /// @brief Method GetClrTypeString, addr 0x5f8ca38, size 0x5e4, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDictionaryString* GetClrTypeString(::StringW key);
 
-  /// @brief Method GetDataContractAdapterType, addr 0x5f2b114, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetDataContractAdapterType, addr 0x5f92ca0, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Type* GetDataContractAdapterType(::System::Type* type);
 
-  /// @brief Method GetDataContractAdapterTypeHandle, addr 0x5f2c0b8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetDataContractAdapterTypeHandle, addr 0x5f93c44, size 0xac, virtual false, abstract: false, final false
   static inline ::System::RuntimeTypeHandle GetDataContractAdapterTypeHandle(::System::RuntimeTypeHandle typeHandle);
 
-  /// @brief Method GetDataContractForInitialization, addr 0x5f23038, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetDataContractForInitialization, addr 0x5f8abc4, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetDataContractForInitialization(int32_t id);
 
-  /// @brief Method GetDataContractOriginalType, addr 0x5f2c708, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetDataContractOriginalType, addr 0x5f94294, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Type* GetDataContractOriginalType(::System::Type* type);
 
-  /// @brief Method GetDataContractSkipValidation, addr 0x5f22c84, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetDataContractSkipValidation, addr 0x5f8a810, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetDataContractSkipValidation(int32_t id, ::System::RuntimeTypeHandle typeHandle, ::System::Type* type);
 
-  /// @brief Method GetGetOnlyCollectionDataContractSkipValidation, addr 0x5f22f20, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetGetOnlyCollectionDataContractSkipValidation, addr 0x5f8aaac, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetGetOnlyCollectionDataContractSkipValidation(int32_t id, ::System::RuntimeTypeHandle typeHandle, ::System::Type* type);
 
-  /// @brief Method GetId, addr 0x5f23310, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x5f8ae9c, size 0x354, virtual false, abstract: false, final false
   static inline int32_t GetId(::System::RuntimeTypeHandle typeHandle);
 
-  /// @brief Method GetIdForInitialization, addr 0x5f2315c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetIdForInitialization, addr 0x5f8ace8, size 0x1b4, virtual false, abstract: false, final false
   static inline int32_t GetIdForInitialization(::System::Runtime::Serialization::ClassDataContract* classContract);
 
-  /// @brief Method GetNamespace, addr 0x5f24af0, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method GetNamespace, addr 0x5f8c67c, size 0x364, virtual false, abstract: false, final false
   static inline ::StringW GetNamespace(::StringW key);
 
-  /// @brief Method GetNextId, addr 0x5f2c164, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetNextId, addr 0x5f93cf0, size 0x140, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::IntRef* GetNextId();
 
   static inline ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper* New_ctor(::System::Type* type);
 
-  /// @brief Method SetDataContractName, addr 0x5f2e838, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetDataContractName, addr 0x5f963c4, size 0x30, virtual false, abstract: false, final false
   inline void SetDataContractName(::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method SetDataContractName, addr 0x5f2e790, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetDataContractName, addr 0x5f9631c, size 0xa8, virtual false, abstract: false, final false
   inline void SetDataContractName(::System::Xml::XmlQualifiedName* stableName);
 
-  /// @brief Method SetTypeForInitialization, addr 0x5f2e658, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetTypeForInitialization, addr 0x5f961e4, size 0xa4, virtual false, abstract: false, final false
   inline void SetTypeForInitialization(::System::Type* classType);
 
-  /// @brief Method ThrowInvalidDataContractException, addr 0x5f2e868, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidDataContractException, addr 0x5f963f4, size 0x60, virtual false, abstract: false, final false
   inline void ThrowInvalidDataContractException(::StringW message);
 
-  /// @brief Method ThrowInvalidDataContractException, addr 0x5f25490, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidDataContractException, addr 0x5f8d01c, size 0x31c, virtual false, abstract: false, final false
   static inline void ThrowInvalidDataContractException(::StringW message, ::System::Type* type);
 
-  /// @brief Method TryCreateBuiltInDataContract, addr 0x5f2d0a8, size 0x14c4, virtual false, abstract: false, final false
+  /// @brief Method TryCreateBuiltInDataContract, addr 0x5f94c34, size 0x14c4, virtual false, abstract: false, final false
   static inline bool TryCreateBuiltInDataContract(::StringW name, ::StringW ns, ::ByRef<::System::Runtime::Serialization::DataContract*> dataContract);
 
-  /// @brief Method TryCreateBuiltInDataContract, addr 0x5f2c88c, size 0x81c, virtual false, abstract: false, final false
+  /// @brief Method TryCreateBuiltInDataContract, addr 0x5f94418, size 0x81c, virtual false, abstract: false, final false
   static inline bool TryCreateBuiltInDataContract(::System::Type* type, ::ByRef<::System::Runtime::Serialization::DataContract*> dataContract);
 
   constexpr bool const& __cordl_internal_get_isReference() const;
@@ -327,7 +327,7 @@ public:
 
   constexpr void __cordl_internal_set_underlyingType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5f21a6c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f895f8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
   static inline ::System::Object* getStaticF_cacheLock();
@@ -360,46 +360,46 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::TypeHandleRef*, ::System::Runtime::Serialization::IntRef*>* getStaticF_typeToIDCache();
 
-  /// @brief Method get_HasRoot, addr 0x5f2e774, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasRoot, addr 0x5f96300, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasRoot();
 
-  /// @brief Method get_IsBuiltInDataContract, addr 0x5f2e704, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsBuiltInDataContract, addr 0x5f96290, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsBuiltInDataContract();
 
-  /// @brief Method get_IsISerializable, addr 0x5f2e74c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsISerializable, addr 0x5f962d8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsISerializable();
 
-  /// @brief Method get_IsReference, addr 0x5f2e714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReference, addr 0x5f962a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReference();
 
-  /// @brief Method get_IsValueType, addr 0x5f2e724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsValueType, addr 0x5f962b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsValueType();
 
-  /// @brief Method get_KnownDataContracts, addr 0x5f2e744, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_KnownDataContracts, addr 0x5f962d0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* get_KnownDataContracts();
 
-  /// @brief Method get_Name, addr 0x5f2e754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5f962e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_Name();
 
-  /// @brief Method get_Namespace, addr 0x5f2e764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x5f962f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_Namespace();
 
-  /// @brief Method get_OriginalUnderlyingType, addr 0x5f257c8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_OriginalUnderlyingType, addr 0x5f8d354, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Type* get_OriginalUnderlyingType();
 
-  /// @brief Method get_StableName, addr 0x5f2e734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StableName, addr 0x5f962c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_StableName();
 
-  /// @brief Method get_TopLevelElementName, addr 0x5f2e780, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TopLevelElementName, addr 0x5f9630c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_TopLevelElementName();
 
-  /// @brief Method get_TopLevelElementNamespace, addr 0x5f2e788, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TopLevelElementNamespace, addr 0x5f96314, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_TopLevelElementNamespace();
 
-  /// @brief Method get_TypeForInitialization, addr 0x5f2e70c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeForInitialization, addr 0x5f96298, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_TypeForInitialization();
 
-  /// @brief Method get_UnderlyingType, addr 0x5f2e6fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnderlyingType, addr 0x5f96288, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_UnderlyingType();
 
   static inline void setStaticF_cacheLock(::System::Object* value);
@@ -432,22 +432,22 @@ public:
 
   static inline void setStaticF_typeToIDCache(::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::TypeHandleRef*, ::System::Runtime::Serialization::IntRef*>* value);
 
-  /// @brief Method set_HasRoot, addr 0x5f2e77c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_HasRoot, addr 0x5f96308, size 0x4, virtual true, abstract: false, final false
   inline void set_HasRoot(bool value);
 
-  /// @brief Method set_IsReference, addr 0x5f2e71c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsReference, addr 0x5f962a8, size 0x8, virtual false, abstract: false, final false
   inline void set_IsReference(bool value);
 
-  /// @brief Method set_IsValueType, addr 0x5f2e72c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsValueType, addr 0x5f962b8, size 0x8, virtual false, abstract: false, final false
   inline void set_IsValueType(bool value);
 
-  /// @brief Method set_Name, addr 0x5f2e75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x5f962e8, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::System::Xml::XmlDictionaryString* value);
 
-  /// @brief Method set_Namespace, addr 0x5f2e76c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Namespace, addr 0x5f962f8, size 0x8, virtual false, abstract: false, final false
   inline void set_Namespace(::System::Xml::XmlDictionaryString* value);
 
-  /// @brief Method set_StableName, addr 0x5f2e73c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StableName, addr 0x5f962c8, size 0x8, virtual false, abstract: false, final false
   inline void set_StableName(::System::Xml::XmlQualifiedName* value);
 
 protected:
@@ -465,7 +465,7 @@ public:
   DataContract_DataContractCriticalHelper(DataContract_DataContractCriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16968 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16982 };
 
   /// @brief Field underlyingType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___underlyingType;
@@ -566,238 +566,238 @@ public:
   /// @brief Field ns, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns)) ::System::Xml::XmlDictionaryString* ns;
 
-  /// @brief Method CheckAndAdd, addr 0x5f2ab7c, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method CheckAndAdd, addr 0x5f92708, size 0x308, virtual false, abstract: false, final false
   static inline void CheckAndAdd(::System::Type* type, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* typesChecked,
                                  ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*> nameToDataContractTable);
 
-  /// @brief Method CheckExplicitDataContractNamespaceUri, addr 0x5f275c8, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method CheckExplicitDataContractNamespaceUri, addr 0x5f8f154, size 0x250, virtual false, abstract: false, final false
   static inline void CheckExplicitDataContractNamespaceUri(::StringW dataContractNs, ::System::Type* type);
 
-  /// @brief Method CreateQualifiedName, addr 0x5f21e28, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CreateQualifiedName, addr 0x5f899b4, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* CreateQualifiedName(::StringW localName, ::StringW ns);
 
-  /// @brief Method EncodeLocalName, addr 0x5f21750, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method EncodeLocalName, addr 0x5f892dc, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW EncodeLocalName(::StringW localName);
 
-  /// @brief Method Equals, addr 0x5f2b1b0, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5f92d3c, size 0xd4, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x5f2b284, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5f92e10, size 0x118, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other, ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*, ::System::Object*>* checkedContracts);
 
-  /// @brief Method ExpandGenericParameters, addr 0x5f29640, size 0x958, virtual false, abstract: false, final false
+  /// @brief Method ExpandGenericParameters, addr 0x5f911cc, size 0x958, virtual false, abstract: false, final false
   static inline ::StringW ExpandGenericParameters(::StringW format, ::System::Runtime::Serialization::IGenericNameProvider* genericNameProvider);
 
-  /// @brief Method ExpandGenericParameters, addr 0x5f26dc4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ExpandGenericParameters, addr 0x5f8e950, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW ExpandGenericParameters(::StringW format, ::System::Type* type);
 
-  /// @brief Method GetArrayPrefix, addr 0x5f27d68, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetArrayPrefix, addr 0x5f8f8f4, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetArrayPrefix(::ByRef<::System::Type*> itemType);
 
-  /// @brief Method GetBuiltInDataContract, addr 0x5f2398c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltInDataContract, addr 0x5f8b518, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetBuiltInDataContract(::StringW name, ::StringW ns);
 
-  /// @brief Method GetBuiltInDataContract, addr 0x5f23664, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltInDataContract, addr 0x5f8b1f0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetBuiltInDataContract(::System::Type* type);
 
-  /// @brief Method GetBuiltInDataContract, addr 0x5f23ccc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltInDataContract, addr 0x5f8b858, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetBuiltInDataContract(::StringW typeName);
 
-  /// @brief Method GetClrAssemblyName, addr 0x5f28964, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetClrAssemblyName, addr 0x5f904f0, size 0x120, virtual false, abstract: false, final false
   static inline ::StringW GetClrAssemblyName(::System::Type* type, ::ByRef<bool> hasTypeForwardedFrom);
 
-  /// @brief Method GetClrNameAndNamespace, addr 0x5f28e3c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetClrNameAndNamespace, addr 0x5f909c8, size 0xe8, virtual false, abstract: false, final false
   static inline void GetClrNameAndNamespace(::StringW fullTypeName, ::ByRef<::StringW> localName, ::ByRef<::StringW> ns);
 
-  /// @brief Method GetClrTypeFullName, addr 0x5f21618, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetClrTypeFullName, addr 0x5f891a4, size 0x138, virtual false, abstract: false, final false
   static inline ::StringW GetClrTypeFullName(::System::Type* type);
 
-  /// @brief Method GetClrTypeFullNameForArray, addr 0x5f28ac0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetClrTypeFullNameForArray, addr 0x5f9064c, size 0x10c, virtual false, abstract: false, final false
   static inline ::StringW GetClrTypeFullNameForArray(::System::Type* type);
 
-  /// @brief Method GetClrTypeFullNameForNonArrayTypes, addr 0x5f28bcc, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method GetClrTypeFullNameForNonArrayTypes, addr 0x5f90758, size 0x270, virtual false, abstract: false, final false
   static inline ::StringW GetClrTypeFullNameForNonArrayTypes(::System::Type* type);
 
-  /// @brief Method GetClrTypeFullNameUsingTypeForwardedFromAttribute, addr 0x5f28a84, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetClrTypeFullNameUsingTypeForwardedFromAttribute, addr 0x5f90610, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetClrTypeFullNameUsingTypeForwardedFromAttribute(::System::Type* type);
 
-  /// @brief Method GetClrTypeString, addr 0x5f24e54, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetClrTypeString, addr 0x5f8c9e0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDictionaryString* GetClrTypeString(::StringW key);
 
-  /// @brief Method GetCollectionNamespace, addr 0x5f27e24, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetCollectionNamespace, addr 0x5f8f9b0, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW GetCollectionNamespace(::StringW elementNs);
 
-  /// @brief Method GetCollectionStableName, addr 0x5f22098, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetCollectionStableName, addr 0x5f89c24, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* GetCollectionStableName(::System::Type* type, ::System::Type* itemType,
                                                                          ::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*> collectionContractAttribute);
 
-  /// @brief Method GetCollectionStableName, addr 0x5f278d0, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method GetCollectionStableName, addr 0x5f8f45c, size 0x314, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* GetCollectionStableName(::System::Type* type, ::System::Type* itemType,
                                                                          ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* previousCollectionTypes,
                                                                          ::ByRef<::System::Runtime::Serialization::CollectionDataContractAttribute*> collectionContractAttribute);
 
-  /// @brief Method GetDCTypeStableName, addr 0x5f26b5c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method GetDCTypeStableName, addr 0x5f8e6e8, size 0x1bc, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* GetDCTypeStableName(::System::Type* type, ::System::Runtime::Serialization::DataContractAttribute* dataContractAttribute);
 
-  /// @brief Method GetDataContract, addr 0x5f22be4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetDataContract, addr 0x5f8a770, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetDataContract(int32_t id, ::System::RuntimeTypeHandle typeHandle, ::System::Runtime::Serialization::SerializationMode mode);
 
-  /// @brief Method GetDataContract, addr 0x5f22548, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetDataContract, addr 0x5f8a0d4, size 0x34, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetDataContract(::System::Type* type);
 
-  /// @brief Method GetDataContract, addr 0x5f22b64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDataContract, addr 0x5f8a6f0, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetDataContract(::System::RuntimeTypeHandle typeHandle, ::System::Type* type, ::System::Runtime::Serialization::SerializationMode mode);
 
-  /// @brief Method GetDataContractForInitialization, addr 0x5f22fe0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetDataContractForInitialization, addr 0x5f8ab6c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetDataContractForInitialization(int32_t id);
 
-  /// @brief Method GetDataContractNameForGenericName, addr 0x5f27f30, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method GetDataContractNameForGenericName, addr 0x5f8fabc, size 0x3d0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<int32_t>* GetDataContractNameForGenericName(::StringW typeName, ::System::Text::StringBuilder* localName);
 
-  /// @brief Method GetDataContractSkipValidation, addr 0x5f22c14, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetDataContractSkipValidation, addr 0x5f8a7a0, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetDataContractSkipValidation(int32_t id, ::System::RuntimeTypeHandle typeHandle, ::System::Type* type);
 
-  /// @brief Method GetDefaultDataContractNamespace, addr 0x5f27818, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultDataContractNamespace, addr 0x5f8f3a4, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW GetDefaultDataContractNamespace(::System::Type* type);
 
-  /// @brief Method GetDefaultStableLocalName, addr 0x5f26e30, size 0x798, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultStableLocalName, addr 0x5f8e9bc, size 0x798, virtual false, abstract: false, final false
   static inline ::StringW GetDefaultStableLocalName(::System::Type* type);
 
-  /// @brief Method GetDefaultStableName, addr 0x5f27f00, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultStableName, addr 0x5f8fa8c, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* GetDefaultStableName(::System::Type* type);
 
-  /// @brief Method GetDefaultStableName, addr 0x5f28f24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultStableName, addr 0x5f90ab0, size 0x78, virtual false, abstract: false, final false
   static inline void GetDefaultStableName(::StringW fullTypeName, ::ByRef<::StringW> localName, ::ByRef<::StringW> ns);
 
-  /// @brief Method GetDefaultStableName, addr 0x5f28f9c, size 0x644, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultStableName, addr 0x5f90b28, size 0x644, virtual false, abstract: false, final false
   static inline void GetDefaultStableName(::System::Runtime::Serialization::CodeTypeReference* typeReference, ::ByRef<::StringW> localName, ::ByRef<::StringW> ns);
 
-  /// @brief Method GetDefaultStableNamespace, addr 0x5f287b0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultStableNamespace, addr 0x5f9033c, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW GetDefaultStableNamespace(::StringW clrNs);
 
-  /// @brief Method GetDefaultStableNamespace, addr 0x5f27be4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultStableNamespace, addr 0x5f8f770, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW GetDefaultStableNamespace(::System::Type* type);
 
-  /// @brief Method GetGetOnlyCollectionDataContract, addr 0x5f22d50, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetGetOnlyCollectionDataContract, addr 0x5f8a8dc, size 0x148, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetGetOnlyCollectionDataContract(int32_t id, ::System::RuntimeTypeHandle typeHandle, ::System::Type* type,
                                                                                                  ::System::Runtime::Serialization::SerializationMode mode);
 
-  /// @brief Method GetGetOnlyCollectionDataContractSkipValidation, addr 0x5f22e98, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetGetOnlyCollectionDataContractSkipValidation, addr 0x5f8aa24, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::DataContract* GetGetOnlyCollectionDataContractSkipValidation(int32_t id, ::System::RuntimeTypeHandle typeHandle, ::System::Type* type);
 
-  /// @brief Method GetGlobalDataContractNamespace, addr 0x5f284d8, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalDataContractNamespace, addr 0x5f90064, size 0x2d8, virtual false, abstract: false, final false
   static inline ::StringW GetGlobalDataContractNamespace(::StringW clrNs, ::System::Reflection::ICustomAttributeProvider* customAttribuetProvider);
 
-  /// @brief Method GetHashCode, addr 0x5f2b494, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5f93020, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetId, addr 0x5f22b8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x5f8a718, size 0x58, virtual false, abstract: false, final false
   static inline int32_t GetId(::System::RuntimeTypeHandle typeHandle);
 
-  /// @brief Method GetIdForInitialization, addr 0x5f23104, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetIdForInitialization, addr 0x5f8ac90, size 0x58, virtual false, abstract: false, final false
   static inline int32_t GetIdForInitialization(::System::Runtime::Serialization::ClassDataContract* classContract);
 
-  /// @brief Method GetNamespace, addr 0x5f24a98, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetNamespace, addr 0x5f8c624, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW GetNamespace(::StringW key);
 
-  /// @brief Method GetNamespacesDigest, addr 0x5f28300, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetNamespacesDigest, addr 0x5f8fe8c, size 0x1d8, virtual false, abstract: false, final false
   static inline ::StringW GetNamespacesDigest(::StringW namespaces);
 
-  /// @brief Method GetNonDCTypeStableName, addr 0x5f26d18, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetNonDCTypeStableName, addr 0x5f8e8a4, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* GetNonDCTypeStableName(::System::Type* type,
                                                                         ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* previousCollectionTypes);
 
-  /// @brief Method GetStableName, addr 0x5f218c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetStableName, addr 0x5f89450, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* GetStableName(::System::Type* type);
 
-  /// @brief Method GetStableName, addr 0x5f267c4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetStableName, addr 0x5f8e350, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* GetStableName(::System::Type* type, ::ByRef<bool> hasDataContract);
 
-  /// @brief Method GetStableName, addr 0x5f26870, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetStableName, addr 0x5f8e3fc, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* GetStableName(::System::Type* type, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* previousCollectionTypes,
                                                                ::ByRef<bool> hasDataContract);
 
-  /// @brief Method GetValidContract, addr 0x5f25bf4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetValidContract, addr 0x5f8d780, size 0x4, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* GetValidContract();
 
-  /// @brief Method GetValidContract, addr 0x5f25bf0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetValidContract, addr 0x5f8d77c, size 0x4, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* GetValidContract(::System::Runtime::Serialization::SerializationMode mode);
 
-  /// @brief Method ImportKnownTypeAttributes, addr 0x5f22708, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ImportKnownTypeAttributes, addr 0x5f8a294, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* ImportKnownTypeAttributes(::System::Type* type);
 
-  /// @brief Method ImportKnownTypeAttributes, addr 0x5f2a04c, size 0xa34, virtual false, abstract: false, final false
+  /// @brief Method ImportKnownTypeAttributes, addr 0x5f91bd8, size 0xa34, virtual false, abstract: false, final false
   static inline void
   ImportKnownTypeAttributes(::System::Type* type, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* typesChecked,
                             ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*> knownDataContracts);
 
-  /// @brief Method IsAlpha, addr 0x5f26628, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsAlpha, addr 0x5f8e1b4, size 0x18, virtual false, abstract: false, final false
   static inline bool IsAlpha(char16_t ch);
 
-  /// @brief Method IsAsciiLocalName, addr 0x5f26654, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsAsciiLocalName, addr 0x5f8e1e0, size 0x90, virtual false, abstract: false, final false
   static inline bool IsAsciiLocalName(::StringW localName);
 
-  /// @brief Method IsBuiltInNamespace, addr 0x5f27e7c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsBuiltInNamespace, addr 0x5f8fa08, size 0x84, virtual false, abstract: false, final false
   static inline bool IsBuiltInNamespace(::StringW ns);
 
-  /// @brief Method IsDigit, addr 0x5f26640, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsDigit, addr 0x5f8e1cc, size 0x14, virtual false, abstract: false, final false
   static inline bool IsDigit(char16_t ch);
 
-  /// @brief Method IsEqualOrChecked, addr 0x5f2b39c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method IsEqualOrChecked, addr 0x5f92f28, size 0xf0, virtual false, abstract: false, final false
   inline bool IsEqualOrChecked(::System::Object* other, ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*, ::System::Object*>* checkedContracts);
 
-  /// @brief Method IsTypeNullable, addr 0x5f21538, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method IsTypeNullable, addr 0x5f890c4, size 0xe0, virtual false, abstract: false, final false
   static inline bool IsTypeNullable(::System::Type* type);
 
-  /// @brief Method IsTypeSerializable, addr 0x5f25c00, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method IsTypeSerializable, addr 0x5f8d78c, size 0x9c, virtual false, abstract: false, final false
   static inline bool IsTypeSerializable(::System::Type* type);
 
-  /// @brief Method IsTypeSerializable, addr 0x5f25c9c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method IsTypeSerializable, addr 0x5f8d828, size 0x160, virtual false, abstract: false, final false
   static inline bool IsTypeSerializable(::System::Type* type, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* previousCollectionTypes);
 
-  /// @brief Method IsValidContract, addr 0x5f25bf8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsValidContract, addr 0x5f8d784, size 0x8, virtual true, abstract: false, final false
   inline bool IsValidContract(::System::Runtime::Serialization::SerializationMode mode);
 
-  /// @brief Method IsValidNCName, addr 0x5f266e4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method IsValidNCName, addr 0x5f8e270, size 0xe0, virtual false, abstract: false, final false
   static inline bool IsValidNCName(::StringW name);
 
-  /// @brief Method LoadKnownTypesFromConfig, addr 0x5f2b110, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LoadKnownTypesFromConfig, addr 0x5f92c9c, size 0x4, virtual false, abstract: false, final false
   static inline void
   LoadKnownTypesFromConfig(::System::Type* type, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* typesChecked,
                            ::ByRef<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>*> knownDataContracts);
 
   static inline ::System::Runtime::Serialization::DataContract* New_ctor(::System::Runtime::Serialization::DataContract_DataContractCriticalHelper* helper);
 
-  /// @brief Method ReadXmlValue, addr 0x5f25964, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method ReadXmlValue, addr 0x5f8d4f0, size 0xdc, virtual true, abstract: false, final false
   inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
 
-  /// @brief Method ThrowInvalidDataContractException, addr 0x5f224ec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidDataContractException, addr 0x5f8a078, size 0x5c, virtual false, abstract: false, final false
   static inline void ThrowInvalidDataContractException(::StringW message, ::System::Type* type);
 
-  /// @brief Method ThrowTypeNotSerializable, addr 0x5f29f98, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ThrowTypeNotSerializable, addr 0x5f91b24, size 0xb4, virtual false, abstract: false, final false
   static inline void ThrowTypeNotSerializable(::System::Type* type);
 
-  /// @brief Method TryGetBuiltInXmlAndArrayTypeStableName, addr 0x5f268f0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method TryGetBuiltInXmlAndArrayTypeStableName, addr 0x5f8e47c, size 0x174, virtual false, abstract: false, final false
   static inline bool TryGetBuiltInXmlAndArrayTypeStableName(::System::Type* type, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* previousCollectionTypes,
                                                             ::ByRef<::System::Xml::XmlQualifiedName*> stableName);
 
-  /// @brief Method TryGetDCAttribute, addr 0x5f26a64, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method TryGetDCAttribute, addr 0x5f8e5f0, size 0xf8, virtual false, abstract: false, final false
   static inline bool TryGetDCAttribute(::System::Type* type, ::ByRef<::System::Runtime::Serialization::DataContractAttribute*> dataContractAttribute);
 
-  /// @brief Method UnwrapNullableType, addr 0x5f217d4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method UnwrapNullableType, addr 0x5f89360, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Type* UnwrapNullableType(::System::Type* type);
 
-  /// @brief Method UnwrapRedundantNullableType, addr 0x5f26410, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method UnwrapRedundantNullableType, addr 0x5f8df9c, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Type* UnwrapRedundantNullableType(::System::Type* type);
 
-  /// @brief Method ValidatePreviousCollectionTypes, addr 0x5f25ff4, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method ValidatePreviousCollectionTypes, addr 0x5f8db80, size 0x41c, virtual false, abstract: false, final false
   static inline void ValidatePreviousCollectionTypes(::System::Type* collectionType, ::System::Type* itemType,
                                                      ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* previousCollectionTypes);
 
-  /// @brief Method WriteRootElement, addr 0x5f25b08, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteRootElement, addr 0x5f8d694, size 0xe8, virtual true, abstract: false, final false
   inline void WriteRootElement(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method WriteXmlValue, addr 0x5f25888, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlValue, addr 0x5f8d414, size 0xdc, virtual true, abstract: false, final false
   inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
 
   constexpr ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper* const& __cordl_internal_get_helper() const;
@@ -818,58 +818,58 @@ public:
 
   constexpr void __cordl_internal_set_ns(::System::Xml::XmlDictionaryString* value);
 
-  /// @brief Method .ctor, addr 0x5f22b48, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f8a6d4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::DataContract_DataContractCriticalHelper* helper);
 
-  /// @brief Method get_CanContainReferences, addr 0x5f25af8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanContainReferences, addr 0x5f8d684, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanContainReferences();
 
-  /// @brief Method get_HasRoot, addr 0x5f25ab8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasRoot, addr 0x5f8d644, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasRoot();
 
-  /// @brief Method get_Helper, addr 0x5f257ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Helper, addr 0x5f8d338, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract_DataContractCriticalHelper* get_Helper();
 
-  /// @brief Method get_IsBuiltInDataContract, addr 0x5f25854, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_IsBuiltInDataContract, addr 0x5f8d3e0, size 0x1c, virtual true, abstract: false, final false
   inline bool get_IsBuiltInDataContract();
 
-  /// @brief Method get_IsISerializable, addr 0x5f25a8c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_IsISerializable, addr 0x5f8d618, size 0x1c, virtual true, abstract: false, final false
   inline bool get_IsISerializable();
 
-  /// @brief Method get_IsPrimitive, addr 0x5f25b00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPrimitive, addr 0x5f8d68c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPrimitive();
 
-  /// @brief Method get_IsReference, addr 0x5f25a58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsReference, addr 0x5f8d5e4, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsReference();
 
-  /// @brief Method get_IsValueType, addr 0x5f25a40, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsValueType, addr 0x5f8d5cc, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsValueType();
 
-  /// @brief Method get_KnownDataContracts, addr 0x5f25a70, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_KnownDataContracts, addr 0x5f8d5fc, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* get_KnownDataContracts();
 
-  /// @brief Method get_Name, addr 0x5f25aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5f8d634, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_Name();
 
-  /// @brief Method get_Namespace, addr 0x5f25ab0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x5f8d63c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_Namespace();
 
-  /// @brief Method get_OriginalUnderlyingType, addr 0x5f257b4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_OriginalUnderlyingType, addr 0x5f8d340, size 0x14, virtual false, abstract: false, final false
   inline ::System::Type* get_OriginalUnderlyingType();
 
-  /// @brief Method get_StableName, addr 0x5f21e10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_StableName, addr 0x5f8999c, size 0x18, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_StableName();
 
-  /// @brief Method get_TopLevelElementName, addr 0x5f25ac0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_TopLevelElementName, addr 0x5f8d64c, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_TopLevelElementName();
 
-  /// @brief Method get_TopLevelElementNamespace, addr 0x5f25adc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_TopLevelElementNamespace, addr 0x5f8d668, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_TopLevelElementNamespace();
 
-  /// @brief Method get_TypeForInitialization, addr 0x5f25870, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_TypeForInitialization, addr 0x5f8d3fc, size 0x18, virtual false, abstract: false, final false
   inline ::System::Type* get_TypeForInitialization();
 
-  /// @brief Method get_UnderlyingType, addr 0x5f22f08, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_UnderlyingType, addr 0x5f8aa94, size 0x18, virtual false, abstract: false, final false
   inline ::System::Type* get_UnderlyingType();
 
 protected:
@@ -887,7 +887,7 @@ public:
   DataContract(DataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16983 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlDictionaryString* ___name;

@@ -22,10 +22,10 @@ namespace UnityEngine {
 class CORDL_TYPE NameFormatter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FormatVariableName, addr 0x68c0384, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method FormatVariableName, addr 0x6929208, size 0x1ac, virtual false, abstract: false, final false
   static inline ::StringW FormatVariableName(::StringW name);
 
-  /// @brief Method FormatVariableName_Injected, addr 0x68c053c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FormatVariableName_Injected, addr 0x69293c0, size 0x44, virtual false, abstract: false, final false
   static inline void FormatVariableName_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> name, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
 protected:
@@ -43,7 +43,7 @@ public:
   NameFormatter(NameFormatter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10390 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10394 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

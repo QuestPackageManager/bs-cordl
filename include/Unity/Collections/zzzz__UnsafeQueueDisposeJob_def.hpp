@@ -25,7 +25,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x62ab46c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6312ff8, size 0x10, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -39,7 +39,7 @@ public:
   constexpr UnsafeQueueDisposeJob(::Unity::Collections::UnsafeQueueDispose Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15708 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

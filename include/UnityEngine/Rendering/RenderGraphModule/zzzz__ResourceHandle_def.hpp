@@ -45,41 +45,41 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>*();
 
-  /// @brief Method Equals, addr 0x65cb13c, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6632cc8, size 0x94, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle hdl);
 
-  /// @brief Method IsNull, addr 0x65cb0cc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x6632c58, size 0x60, virtual false, abstract: false, final false
   inline bool IsNull();
 
-  /// @brief Method IsValid, addr 0x65cb028, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6632bb4, size 0xa4, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method NewFrame, addr 0x65c71ac, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method NewFrame, addr 0x662ed38, size 0xc4, virtual false, abstract: false, final false
   static inline void NewFrame(int32_t executionIndex);
 
-  /// @brief Method .ctor, addr 0x65c786c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x662f3f8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> h, int32_t version);
 
-  /// @brief Method .ctor, addr 0x65c5320, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x662ceac, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(int32_t value, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType type, bool shared);
 
   static inline uint32_t getStaticF_s_CurrentValidBit();
 
   static inline uint32_t getStaticF_s_SharedResourceValidBit();
 
-  /// @brief Method get_IsVersioned, addr 0x65cb12c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsVersioned, addr 0x6632cb8, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsVersioned();
 
-  /// @brief Method get_iType, addr 0x65cafb0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_iType, addr 0x6632b3c, size 0x58, virtual false, abstract: false, final false
   inline int32_t get_iType();
 
-  /// @brief Method get_index, addr 0x65cafa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_index, addr 0x6632b34, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_index();
 
-  /// @brief Method get_type, addr 0x65cb018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6632ba4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType get_type();
 
-  /// @brief Method get_version, addr 0x65cb008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x6632b94, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_version();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>"
@@ -89,10 +89,10 @@ public:
 
   static inline void setStaticF_s_SharedResourceValidBit(uint32_t value);
 
-  /// @brief Method set_type, addr 0x65cb020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x6632bac, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType value);
 
-  /// @brief Method set_version, addr 0x65cb010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_version, addr 0x6632b9c, size 0x8, virtual false, abstract: false, final false
   inline void set_version(int32_t value);
 
   // Ctor Parameters []
@@ -104,7 +104,7 @@ public:
   constexpr ResourceHandle(uint32_t m_Value, int32_t m_Version, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType _type_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12433 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

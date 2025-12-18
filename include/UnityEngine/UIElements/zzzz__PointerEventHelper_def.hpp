@@ -34,7 +34,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE PointerEventHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPooled, addr 0x6b6f0cc, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x6bd7f50, size 0x1c4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventBase* GetPooled(::UnityEngine::EventType eventType, ::UnityEngine::Vector3 mousePosition, ::UnityEngine::Vector2 delta, int32_t button,
                                                                 int32_t clickCount, ::UnityEngine::EventModifiers modifiers, int32_t displayIndex);
 

@@ -33,22 +33,22 @@ namespace MidiParser {
 class CORDL_TYPE MidiFile_Reader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Read16, addr 0x586c9e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Read16, addr 0x58d3144, size 0x54, virtual false, abstract: false, final false
   static inline int32_t Read16(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ByRef<int32_t> i);
 
-  /// @brief Method Read32, addr 0x586c950, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Read32, addr 0x58d30b4, size 0x90, virtual false, abstract: false, final false
   static inline int32_t Read32(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ByRef<int32_t> i);
 
-  /// @brief Method Read8, addr 0x586cf44, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Read8, addr 0x58d36a8, size 0x38, virtual false, abstract: false, final false
   static inline uint8_t Read8(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ByRef<int32_t> i);
 
-  /// @brief Method ReadAllBytesFromStream, addr 0x586cf7c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ReadAllBytesFromStream, addr 0x58d36e0, size 0x1fc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAllBytesFromStream(::System::IO::Stream* input);
 
-  /// @brief Method ReadString, addr 0x586c8f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReadString, addr 0x58d305c, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW ReadString(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ByRef<int32_t> i, int32_t length);
 
-  /// @brief Method ReadVarInt, addr 0x586ce40, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReadVarInt, addr 0x58d35a4, size 0x90, virtual false, abstract: false, final false
   static inline int32_t ReadVarInt(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ByRef<int32_t> i);
 
 protected:
@@ -66,7 +66,7 @@ public:
   MidiFile_Reader(MidiFile_Reader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23189 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23223 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -99,10 +99,10 @@ public:
 
   static inline ::MidiParser::MidiFile* New_ctor(::StringW path);
 
-  /// @brief Method ParseMetaEvent, addr 0x586cd50, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ParseMetaEvent, addr 0x58d34b4, size 0xf0, virtual false, abstract: false, final false
   static inline bool ParseMetaEvent(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ByRef<int32_t> position, uint8_t metaEventType, ::ByRef<int32_t> data1, ::ByRef<int32_t> data2);
 
-  /// @brief Method ParseTrack, addr 0x586ca34, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method ParseTrack, addr 0x58d3198, size 0x31c, virtual false, abstract: false, final false
   static inline ::MidiParser::MidiTrack* ParseTrack(int32_t index, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ByRef<int32_t> position);
 
   constexpr int32_t const& __cordl_internal_get_format() const;
@@ -129,10 +129,10 @@ public:
 
   constexpr void __cordl_internal_set_tracksCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x586c5a4, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d2d08, size 0x354, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x586c580, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d2ce4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW path);
 
 protected:
@@ -150,7 +150,7 @@ public:
   MidiFile(MidiFile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23190 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23224 };
 
   /// @brief Field format, offset: 0x10, size: 0x4, def value: None
   int32_t ___format;

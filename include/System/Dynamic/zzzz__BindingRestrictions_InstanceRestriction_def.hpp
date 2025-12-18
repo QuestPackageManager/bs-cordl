@@ -31,13 +31,13 @@ public:
   /// @brief Field _instance, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__instance, put = __cordl_internal_set__instance)) ::System::Object* _instance;
 
-  /// @brief Method Equals, addr 0x5da6000, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5e0db8c, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetExpression, addr 0x5da60e4, size 0x370, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x5e0dc70, size 0x370, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression();
 
-  /// @brief Method GetHashCode, addr 0x5da6098, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5e0dc24, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::GlobalNamespace::BindingRestrictions_InstanceRestriction* New_ctor(::System::Linq::Expressions::Expression* parameter, ::System::Object* instance);
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__instance(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5da574c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e0d2d8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* parameter, ::System::Object* instance);
 
 protected:
@@ -72,7 +72,7 @@ public:
   BindingRestrictions_InstanceRestriction(BindingRestrictions_InstanceRestriction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16612 };
 
   /// @brief Field _expression, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____expression;

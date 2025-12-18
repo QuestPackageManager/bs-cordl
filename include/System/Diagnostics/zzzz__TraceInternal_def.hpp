@@ -47,7 +47,7 @@ public:
   /// @brief Field useGlobalLock, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_useGlobalLock, put = setStaticF_useGlobalLock)) bool useGlobalLock;
 
-  /// @brief Method InitializeSettings, addr 0x617b1f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InitializeSettings, addr 0x61e2d80, size 0x4, virtual false, abstract: false, final false
   static inline void InitializeSettings();
 
   static inline ::StringW getStaticF_appName();
@@ -64,19 +64,19 @@ public:
 
   static inline bool getStaticF_useGlobalLock();
 
-  /// @brief Method get_AutoFlush, addr 0x617aa1c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_AutoFlush, addr 0x61e25a8, size 0x60, virtual false, abstract: false, final false
   static inline bool get_AutoFlush();
 
-  /// @brief Method get_IndentLevel, addr 0x617b4f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_IndentLevel, addr 0x61e3084, size 0x80, virtual false, abstract: false, final false
   static inline int32_t get_IndentLevel();
 
-  /// @brief Method get_IndentSize, addr 0x617b578, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_IndentSize, addr 0x61e3104, size 0x60, virtual false, abstract: false, final false
   static inline int32_t get_IndentSize();
 
-  /// @brief Method get_Listeners, addr 0x617a72c, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method get_Listeners, addr 0x61e22b8, size 0x2a0, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::TraceListenerCollection* get_Listeners();
 
-  /// @brief Method get_UseGlobalLock, addr 0x617b498, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_UseGlobalLock, addr 0x61e3024, size 0x60, virtual false, abstract: false, final false
   static inline bool get_UseGlobalLock();
 
   static inline void setStaticF_appName(::StringW value);
@@ -108,7 +108,7 @@ public:
   TraceInternal(TraceInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11109 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11113 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

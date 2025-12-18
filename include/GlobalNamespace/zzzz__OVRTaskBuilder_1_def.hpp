@@ -102,7 +102,7 @@ public:
   OVRTaskBuilder_1_PooledStateMachine(OVRTaskBuilder_1_PooledStateMachine const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7843 };
 
   /// @brief Field Task, offset: 0x10, size: 0x14, def value: None
   ::System::Nullable_1<::GlobalNamespace::OVRTask_1<T>> ___Task;
@@ -173,7 +173,7 @@ public:
   OVRTaskBuilder_1_PooledStateMachine_1(OVRTaskBuilder_1_PooledStateMachine_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7844 };
 
   /// @brief Field StateMachine, offset: 0x30, size: 0x8, def value: None
   TStateMachine ___StateMachine;
@@ -233,7 +233,7 @@ public:
   constexpr OVRTaskBuilder_1(::GlobalNamespace::OVRTaskBuilder_1_PooledStateMachine<T>* _pooledStateMachine, ::System::Nullable_1<::GlobalNamespace::OVRTask_1<T>> _task) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7845 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

@@ -61,7 +61,7 @@ public:
   NativeParallelHashSetDebuggerTypeProxy_1(NativeParallelHashSetDebuggerTypeProxy_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15636 };
 
   /// @brief Field Data, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeParallelHashSet_1<T> ___Data;

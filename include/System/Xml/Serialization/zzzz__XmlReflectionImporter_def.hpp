@@ -80,10 +80,10 @@ public:
 
   static inline ::System::Xml::Serialization::XmlReflectionImporter___c* New_ctor();
 
-  /// @brief Method <ImportClassMapping>b__28_0, addr 0x60e0730, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <ImportClassMapping>b__28_0, addr 0x61482bc, size 0x54, virtual false, abstract: false, final false
   inline int32_t _ImportClassMapping_b__28_0(::System::Xml::Serialization::XmlReflectionMember* m1, ::System::Xml::Serialization::XmlReflectionMember* m2);
 
-  /// @brief Method .ctor, addr 0x60e072c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61482b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Serialization::XmlReflectionImporter___c* getStaticF___9();
@@ -109,7 +109,7 @@ public:
   XmlReflectionImporter___c(XmlReflectionImporter___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9492 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9496 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -153,91 +153,91 @@ public:
   /// @brief Field relatedMaps, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_relatedMaps, put = __cordl_internal_set_relatedMaps)) ::System::Collections::ArrayList* relatedMaps;
 
-  /// @brief Method CanBeNull, addr 0x60dccb0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method CanBeNull, addr 0x614483c, size 0x48, virtual false, abstract: false, final false
   inline bool CanBeNull(::System::Xml::Serialization::TypeData* type);
 
-  /// @brief Method CreateMapMember, addr 0x60ddbe4, size 0x8fc, virtual false, abstract: false, final false
+  /// @brief Method CreateMapMember, addr 0x6145770, size 0x8fc, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapMember* CreateMapMember(::System::Type* declaringType, ::System::Xml::Serialization::XmlReflectionMember* rmember, ::StringW defaultNamespace);
 
-  /// @brief Method CreateTypeMapping, addr 0x60dc8c0, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method CreateTypeMapping, addr 0x614444c, size 0x3f0, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* CreateTypeMapping(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root,
                                                                          ::StringW defaultXmlType, ::StringW defaultNamespace);
 
-  /// @brief Method GetDefaultValue, addr 0x60dfc9c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultValue, addr 0x6147828, size 0x1c4, virtual false, abstract: false, final false
   inline ::System::Object* GetDefaultValue(::System::Xml::Serialization::TypeData* typeData, ::System::Object* defaultValue);
 
-  /// @brief Method GetReflectionMembers, addr 0x60dced8, size 0xca4, virtual false, abstract: false, final false
+  /// @brief Method GetReflectionMembers, addr 0x6144a64, size 0xca4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Xml::Serialization::XmlReflectionMember*>* GetReflectionMembers(::System::Type* type);
 
-  /// @brief Method GetTypeNamespace, addr 0x60dcdac, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetTypeNamespace, addr 0x6144938, size 0x12c, virtual false, abstract: false, final false
   inline ::StringW GetTypeNamespace(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
 
-  /// @brief Method ImportAnyElementInfo, addr 0x60de78c, size 0x620, virtual false, abstract: false, final false
+  /// @brief Method ImportAnyElementInfo, addr 0x6146318, size 0x620, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapElementInfoList* ImportAnyElementInfo(::StringW defaultNamespace, ::System::Xml::Serialization::XmlReflectionMember* rmember,
                                                                                        ::System::Xml::Serialization::XmlTypeMapMemberElement* member,
                                                                                        ::System::Xml::Serialization::XmlAttributes* atts);
 
-  /// @brief Method ImportClassMapping, addr 0x60dcd18, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ImportClassMapping, addr 0x61448a4, size 0x94, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* ImportClassMapping(::System::Type* type, ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace, bool isBaseType);
 
-  /// @brief Method ImportClassMapping, addr 0x60da51c, size 0xe24, virtual false, abstract: false, final false
+  /// @brief Method ImportClassMapping, addr 0x61420a8, size 0xe24, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* ImportClassMapping(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root,
                                                                           ::StringW defaultNamespace, bool isBaseType);
 
-  /// @brief Method ImportElementInfo, addr 0x60dedac, size 0xef0, virtual false, abstract: false, final false
+  /// @brief Method ImportElementInfo, addr 0x6146938, size 0xef0, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapElementInfoList* ImportElementInfo(::System::Type* cls, ::StringW defaultName, ::StringW defaultNamespace, ::System::Type* defaultType,
                                                                                     ::System::Xml::Serialization::XmlTypeMapMemberElement* member, ::System::Xml::Serialization::XmlAttributes* atts);
 
-  /// @brief Method ImportEnumMapping, addr 0x60dc1c8, size 0x5d8, virtual false, abstract: false, final false
+  /// @brief Method ImportEnumMapping, addr 0x6143d54, size 0x5d8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* ImportEnumMapping(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root,
                                                                          ::StringW defaultNamespace);
 
-  /// @brief Method ImportIncludedTypes, addr 0x60de5c0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ImportIncludedTypes, addr 0x614614c, size 0x11c, virtual false, abstract: false, final false
   inline void ImportIncludedTypes(::System::Type* type, ::StringW defaultNamespace);
 
-  /// @brief Method ImportListMapping, addr 0x60de6dc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ImportListMapping, addr 0x6146268, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* ImportListMapping(::System::Type* type, ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace,
                                                                          ::System::Xml::Serialization::XmlAttributes* atts, int32_t nestingLevel);
 
-  /// @brief Method ImportListMapping, addr 0x60db340, size 0xc4c, virtual false, abstract: false, final false
+  /// @brief Method ImportListMapping, addr 0x6142ecc, size 0xc4c, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* ImportListMapping(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root,
                                                                          ::StringW defaultNamespace, ::System::Xml::Serialization::XmlAttributes* atts, int32_t nestingLevel);
 
-  /// @brief Method ImportPrimitiveMapping, addr 0x60dc10c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ImportPrimitiveMapping, addr 0x6143c98, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* ImportPrimitiveMapping(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root,
                                                                               ::StringW defaultNamespace);
 
-  /// @brief Method ImportTextElementInfo, addr 0x60dfe60, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method ImportTextElementInfo, addr 0x61479ec, size 0x35c, virtual false, abstract: false, final false
   inline void ImportTextElementInfo(::System::Xml::Serialization::XmlTypeMapElementInfoList* list, ::System::Type* defaultType, ::System::Xml::Serialization::XmlTypeMapMemberElement* member,
                                     ::System::Xml::Serialization::XmlAttributes* atts, ::StringW defaultNamespace);
 
-  /// @brief Method ImportTypeMapping, addr 0x60d9f04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ImportTypeMapping, addr 0x6141a90, size 0xc, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* ImportTypeMapping(::System::Type* type);
 
-  /// @brief Method ImportTypeMapping, addr 0x60da0b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ImportTypeMapping, addr 0x6141c44, size 0xc, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* ImportTypeMapping(::System::Type* type, ::StringW defaultNamespace);
 
-  /// @brief Method ImportTypeMapping, addr 0x60d9f10, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ImportTypeMapping, addr 0x6141a9c, size 0x1a8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* ImportTypeMapping(::System::Type* type, ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
 
-  /// @brief Method ImportTypeMapping, addr 0x60da0c4, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method ImportTypeMapping, addr 0x6141c50, size 0x458, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* ImportTypeMapping(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root,
                                                                          ::StringW defaultNamespace);
 
-  /// @brief Method ImportXmlNodeMapping, addr 0x60dbf8c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ImportXmlNodeMapping, addr 0x6143b18, size 0x180, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* ImportXmlNodeMapping(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root,
                                                                             ::StringW defaultNamespace);
 
-  /// @brief Method ImportXmlSerializableMapping, addr 0x60dc7a0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ImportXmlSerializableMapping, addr 0x614432c, size 0x120, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* ImportXmlSerializableMapping(::System::Xml::Serialization::TypeData* typeData, ::System::Xml::Serialization::XmlRootAttribute* root,
                                                                                     ::StringW defaultNamespace);
 
-  /// @brief Method IncludeType, addr 0x60e01bc, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method IncludeType, addr 0x6147d48, size 0x48c, virtual false, abstract: false, final false
   inline void IncludeType(::System::Type* type);
 
   static inline ::System::Xml::Serialization::XmlReflectionImporter* New_ctor(::System::Xml::Serialization::XmlAttributeOverrides* attributeOverrides, ::StringW defaultNamespace);
 
-  /// @brief Method RegisterDerivedMap, addr 0x60de4e0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RegisterDerivedMap, addr 0x614606c, size 0xe0, virtual false, abstract: false, final false
   inline void RegisterDerivedMap(::System::Xml::Serialization::XmlTypeMapping* map, ::System::Xml::Serialization::XmlTypeMapping* derivedMap);
 
   constexpr bool const& __cordl_internal_get_allowPrivateTypes() const;
@@ -282,7 +282,7 @@ public:
 
   constexpr void __cordl_internal_set_relatedMaps(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x60d9e14, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61419a0, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Serialization::XmlAttributeOverrides* attributeOverrides, ::StringW defaultNamespace);
 
   static inline ::StringW getStaticF_errSimple();
@@ -308,7 +308,7 @@ public:
   XmlReflectionImporter(XmlReflectionImporter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9497 };
 
   /// @brief Field initialDefaultNamespace, offset: 0x10, size: 0x8, def value: None
   ::StringW ___initialDefaultNamespace;

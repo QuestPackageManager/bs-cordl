@@ -28,10 +28,10 @@ public:
 
   static inline ::System::AppDomainUnloadedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5a534c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ab9e14, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5a53524, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ab9e70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:

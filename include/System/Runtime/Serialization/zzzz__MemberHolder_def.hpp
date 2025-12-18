@@ -35,10 +35,10 @@ public:
   /// @brief Field _memberType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__memberType, put = __cordl_internal_set__memberType)) ::System::Type* _memberType;
 
-  /// @brief Method Equals, addr 0x5935c88, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x599c5d4, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x5935c6c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x599c5b8, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Runtime::Serialization::MemberHolder* New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext ctx);
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__memberType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5935c60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599c5ac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext ctx);
 
 protected:

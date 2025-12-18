@@ -89,21 +89,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x57f65a8, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5859f78, size 0x138, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x57f66e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x585a0b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x57f66e8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x585a0b8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x57f6720, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x585a0f0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x57f65a4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5859f74, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set_input(::UnityW<::HMUI::InputFieldView> value);
 
-  /// @brief Method .ctor, addr 0x57f6598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5859f68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -157,7 +157,7 @@ public:
   UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20(UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6347 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -218,39 +218,39 @@ public:
   /// @brief Field systemKeyboard, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_systemKeyboard, put = __cordl_internal_set_systemKeyboard)) ::UnityEngine::TouchScreenKeyboard* systemKeyboard;
 
-  /// @brief Method CloseKeyboard, addr 0x57f6130, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CloseKeyboard, addr 0x5859b00, size 0xa0, virtual false, abstract: false, final false
   inline void CloseKeyboard();
 
-  /// @brief Method HandleKeyboardOkButton, addr 0x57f6430, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method HandleKeyboardOkButton, addr 0x5859e00, size 0x168, virtual false, abstract: false, final false
   inline void HandleKeyboardOkButton();
 
   static inline ::GlobalNamespace::UIKeyboardManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57f5dd0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58597a0, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x57f5d40, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5859710, size 0x90, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x57f5cb0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5859680, size 0x90, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OpenKeyboardFor, addr 0x57f5ed0, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method OpenKeyboardFor, addr 0x58598a0, size 0x200, virtual false, abstract: false, final false
   inline void OpenKeyboardFor(::HMUI::InputFieldView* input);
 
-  /// @brief Method ProcessMousePress, addr 0x57f62c0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ProcessMousePress, addr 0x5859c90, size 0x170, virtual false, abstract: false, final false
   inline void ProcessMousePress(::UnityEngine::GameObject* currentOverGo);
 
-  /// @brief Method ShouldCloseKeyboard, addr 0x57f6268, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ShouldCloseKeyboard, addr 0x5859c38, size 0x58, virtual false, abstract: false, final false
   inline bool ShouldCloseKeyboard(::UnityEngine::GameObject* root);
 
-  /// @brief Method Start, addr 0x57f5bbc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x585958c, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method SummonSystemKeyboardAndWaitForResponse, addr 0x57f60d0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SummonSystemKeyboardAndWaitForResponse, addr 0x5859aa0, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SummonSystemKeyboardAndWaitForResponse(::HMUI::InputFieldView* input);
 
-  /// @brief Method TransferKeyboardTo, addr 0x57f61d0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TransferKeyboardTo, addr 0x5859ba0, size 0x98, virtual false, abstract: false, final false
   inline void TransferKeyboardTo(::HMUI::InputFieldView* nextInput);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__keyboardContainerTransform() const;
@@ -295,10 +295,10 @@ public:
 
   constexpr void __cordl_internal_set_systemKeyboard(::UnityEngine::TouchScreenKeyboard* value);
 
-  /// @brief Method .ctor, addr 0x57f65a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5859f70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_keyboard, addr 0x57f5bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyboard, addr 0x5859584, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::UIKeyboard> get_keyboard();
 
 protected:
@@ -316,7 +316,7 @@ public:
   UIKeyboardManager(UIKeyboardManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6348 };
 
   /// @brief Field kKeyboardTopOffset offset 0xffffffff size 0x4
   static constexpr float_t kKeyboardTopOffset{ static_cast<float_t>(5.0f) };

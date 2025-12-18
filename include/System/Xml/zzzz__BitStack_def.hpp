@@ -30,19 +30,19 @@ public:
 
   static inline ::System::Xml::BitStack* New_ctor();
 
-  /// @brief Method PeekBit, addr 0x5f900e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method PeekBit, addr 0x5ff7c74, size 0xc, virtual false, abstract: false, final false
   inline bool PeekBit();
 
-  /// @brief Method PopBit, addr 0x5f9007c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method PopBit, addr 0x5ff7c08, size 0x28, virtual false, abstract: false, final false
   inline bool PopBit();
 
-  /// @brief Method PopCurr, addr 0x5f900a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PopCurr, addr 0x5ff7c30, size 0x44, virtual false, abstract: false, final false
   inline void PopCurr();
 
-  /// @brief Method PushBit, addr 0x5f8ff64, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method PushBit, addr 0x5ff7af0, size 0x38, virtual false, abstract: false, final false
   inline void PushBit(bool bit);
 
-  /// @brief Method PushCurr, addr 0x5f8ff9c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method PushCurr, addr 0x5ff7b28, size 0xe0, virtual false, abstract: false, final false
   inline void PushCurr();
 
   constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_bitStack() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_stackPos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5f8ff58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ff7ae4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   BitStack(BitStack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9238 };
 
   /// @brief Field bitStack, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint32_t, ::Array<uint32_t>*> ___bitStack;

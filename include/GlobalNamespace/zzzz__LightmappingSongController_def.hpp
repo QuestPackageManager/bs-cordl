@@ -20,16 +20,16 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LightmappingSongController* New_ctor();
 
-  /// @brief Method PauseSong, addr 0x57e2fb8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PauseSong, addr 0x584989c, size 0x4, virtual true, abstract: false, final false
   inline void PauseSong();
 
-  /// @brief Method ResumeSong, addr 0x57e2fbc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResumeSong, addr 0x58498a0, size 0x4, virtual true, abstract: false, final false
   inline void ResumeSong();
 
-  /// @brief Method StopSong, addr 0x57e2fb4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method StopSong, addr 0x5849898, size 0x4, virtual true, abstract: false, final false
   inline void StopSong();
 
-  /// @brief Method .ctor, addr 0x57e2fc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58498a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

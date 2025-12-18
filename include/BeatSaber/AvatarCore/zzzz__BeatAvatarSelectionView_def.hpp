@@ -48,27 +48,27 @@ public:
   __declspec(property(get = __cordl_internal_get__beatAvatarVisualController, put = __cordl_internal_set__beatAvatarVisualController)) ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController>
       _beatAvatarVisualController;
 
-  /// @brief Method Activate, addr 0x3174794, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Activate, addr 0x31a4488, size 0x3c, virtual true, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0x31747d0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x31a44c4, size 0x14, virtual true, abstract: false, final false
   inline void Deactivate();
 
-  /// @brief Method HandleAvatarDataModelDidChangeAvatarData, addr 0x31747e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarDataModelDidChangeAvatarData, addr 0x31a44d8, size 0x4, virtual false, abstract: false, final false
   inline void HandleAvatarDataModelDidChangeAvatarData(::BeatSaber::BeatAvatarSDK::AvatarData* data);
 
-  /// @brief Method Init, addr 0x3174604, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x31a42f8, size 0x98, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::BeatSaber::AvatarCore::BeatAvatarSelectionView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x31746c4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x31a43b8, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetCreated, addr 0x317475c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SetCreated, addr 0x31a4450, size 0x38, virtual true, abstract: false, final false
   inline void SetCreated(bool isCreated);
 
-  /// @brief Method UpdateAvatarVisuals, addr 0x317469c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UpdateAvatarVisuals, addr 0x31a4390, size 0x28, virtual false, abstract: false, final false
   inline void UpdateAvatarVisuals();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__avatarContainer() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__beatAvatarVisualController(::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> value);
 
-  /// @brief Method .ctor, addr 0x31747e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31a44dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   BeatAvatarSelectionView(BeatAvatarSelectionView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21492 };
 
   /// @brief Field _avatarContainer, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____avatarContainer;

@@ -36,7 +36,7 @@ public:
   /// @brief Field _prefabProvider, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__prefabProvider, put = __cordl_internal_set__prefabProvider)) ::Zenject::IPrefabProvider* _prefabProvider;
 
-  /// @brief Method CreateGameObject, addr 0x6c55fe4, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method CreateGameObject, addr 0x6cbee68, size 0x1d4, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(::ByRef<bool> shouldMakeActive);
 
   static inline ::Zenject::SubContainerCreatorByNewPrefabDynamicContext* New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__prefabProvider(::Zenject::IPrefabProvider* value);
 
-  /// @brief Method .ctor, addr 0x6c55fd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbee5c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
 protected:
@@ -72,7 +72,7 @@ public:
   SubContainerCreatorByNewPrefabDynamicContext(SubContainerCreatorByNewPrefabDynamicContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14601 };
 
   /// @brief Field _prefabProvider, offset: 0x18, size: 0x8, def value: None
   ::Zenject::IPrefabProvider* ____prefabProvider;

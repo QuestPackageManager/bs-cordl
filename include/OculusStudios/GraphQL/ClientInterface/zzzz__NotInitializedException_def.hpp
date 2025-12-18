@@ -28,13 +28,13 @@ public:
 
   static inline ::OculusStudios::GraphQL::ClientInterface::NotInitializedException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x5d1736c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7de4c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5d173c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7dea4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5d17430, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7df10, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:
@@ -52,7 +52,7 @@ public:
   NotInitializedException(NotInitializedException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22462 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

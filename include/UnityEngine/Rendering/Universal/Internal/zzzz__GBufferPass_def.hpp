@@ -172,7 +172,7 @@ public:
 
   constexpr void __cordl_internal_set_rendererListHdl(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
 
-  /// @brief Method .ctor, addr 0x66e6104, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x674dc90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -190,7 +190,7 @@ public:
   GBufferPass_PassData(GBufferPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13075 };
 
   /// @brief Field gbuffer, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::Array<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>*> ___gbuffer;
@@ -250,10 +250,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::GBufferPass___c* New_ctor();
 
-  /// @brief Method <Render>b__21_0, addr 0x66e7984, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__21_0, addr 0x674f510, size 0xa8, virtual false, abstract: false, final false
   inline void _Render_b__21_0(::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x66e7980, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x674f50c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::GBufferPass___c* getStaticF___9();
@@ -282,7 +282,7 @@ public:
   GBufferPass___c(GBufferPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13072 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13076 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -346,20 +346,20 @@ public:
   __declspec(property(get = getStaticF_s_ShaderTagValues, put = setStaticF_s_ShaderTagValues)) ::ArrayW<::UnityEngine::Rendering::ShaderTagId, ::Array<::UnityEngine::Rendering::ShaderTagId>*>
       s_ShaderTagValues;
 
-  /// @brief Method Configure, addr 0x66e611c, size 0x298, virtual true, abstract: false, final false
+  /// @brief Method Configure, addr 0x674dca8, size 0x298, virtual true, abstract: false, final false
   inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
 
-  /// @brief Method Dispose, addr 0x66e6108, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x674dc94, size 0x14, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Execute, addr 0x66e63b4, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x674df40, size 0x2d4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x66e6a10, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x674e59c, size 0x140, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData* data,
                                  ::UnityEngine::Rendering::RendererList rendererList, ::UnityEngine::Rendering::RendererList errorRendererList);
 
-  /// @brief Method InitRendererLists, addr 0x66e6688, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method InitRendererLists, addr 0x674e214, size 0x388, virtual false, abstract: false, final false
   inline void InitRendererLists(::ByRef<::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData*> passData, ::UnityEngine::Rendering::ScriptableRenderContext context,
                                 ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData,
                                 ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData, bool useRenderGraph);
@@ -369,7 +369,7 @@ public:
                                                                                      ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference,
                                                                                      ::UnityEngine::Rendering::Universal::Internal::DeferredLights* deferredLights);
 
-  /// @brief Method Render, addr 0x66e6b50, size 0xc00, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x674e6dc, size 0xc00, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle cameraColor, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle cameraDepth, bool setGlobalTextures);
 
@@ -397,7 +397,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RenderStateBlock(::UnityEngine::Rendering::RenderStateBlock value);
 
-  /// @brief Method .ctor, addr 0x66e5bf0, size 0x514, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x674d77c, size 0x514, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask,
                     ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference, ::UnityEngine::Rendering::Universal::Internal::DeferredLights* deferredLights);
 
@@ -456,7 +456,7 @@ public:
   GBufferPass(GBufferPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13077 };
 
   /// @brief Field m_DeferredLights, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::Internal::DeferredLights* ___m_DeferredLights;

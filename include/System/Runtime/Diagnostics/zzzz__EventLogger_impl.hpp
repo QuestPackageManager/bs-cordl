@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Diagnostics::EventLogger::*)()>(&::System::Runtime::Diagnostics::EventLogger::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f74cb4;
+  constexpr static std::size_t addrs = 0x5fdc840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Diagnostics::EventLogger*>::get(), ".ctor",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Runtime::Diagnostics::EventLogger::*)(::StringW, ::System::Runtime::Diagnostics::DiagnosticTraceBase*)>(&::System::Runtime::Diagnostics::EventLogger::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5f70c80;
+  constexpr static std::size_t addrs = 0x5fd880c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Diagnostics::EventLogger* (*)(::StringW, ::System::Runtime::Diagnostics::DiagnosticTraceBase*)>(
     &::System::Runtime::Diagnostics::EventLogger::UnsafeCreateEventLogger)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f6fff8;
+  constexpr static std::size_t addrs = 0x5fd7b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Diagnostics::EventLogger::*)(
     ::System::Diagnostics::TraceEventType, uint16_t, uint32_t, bool, ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::System::Runtime::Diagnostics::EventLogger::UnsafeLogEvent)> {
   constexpr static std::size_t size = 0x554;
-  constexpr static std::size_t addrs = 0x5f70068;
+  constexpr static std::size_t addrs = 0x5fd7bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Diagnostics::EventLogger::*)(
     ::System::Diagnostics::TraceEventType, uint16_t, uint32_t, bool, ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::System::Runtime::Diagnostics::EventLogger::LogEvent)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5f70da4;
+  constexpr static std::size_t addrs = 0x5fd8930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::EventLogEntryType (*)(::System::Diagnostics::TraceEventType)>(
     &::System::Runtime::Diagnostics::EventLogger::EventLogEntryTypeFromEventType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f7547c;
+  constexpr static std::size_t addrs = 0x5fdd008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Diagnostics::EventLogger::*)(
     ::System::Diagnostics::TraceEventType, uint16_t, uint32_t, bool, ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::System::Runtime::Diagnostics::EventLogger::SafeLogEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f75474;
+  constexpr static std::size_t addrs = 0x5fdd000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Diagnostics::EventLogger::*)(::StringW)>(
     &::System::Runtime::Diagnostics::EventLogger::SafeSetLogSourceName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f7549c;
+  constexpr static std::size_t addrs = 0x5fdd028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Diagnostics::EventLogger::*)(
     ::StringW, ::System::Runtime::Diagnostics::DiagnosticTraceBase*)>(&::System::Runtime::Diagnostics::EventLogger::SetLogSourceName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f74e9c;
+  constexpr static std::size_t addrs = 0x5fdca28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Diagnostics::EventLogger::*)()>(
     &::System::Runtime::Diagnostics::EventLogger::IsInPartialTrust)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x5f74cd0;
+  constexpr static std::size_t addrs = 0x5fdc85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Diagnostics::EventLogger*>::get(),
@@ -172,7 +172,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Diagnostics::TraceEventType, uint16_t, uint32_t, ::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Runtime::InteropServices::GCHandle)>(
     &::System::Runtime::Diagnostics::EventLogger::UnsafeWriteEventLog)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x5f7529c;
+  constexpr static std::size_t addrs = 0x5fdce28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Diagnostics::EventLogger::*)()>(
     &::System::Runtime::Diagnostics::EventLogger::UnsafeGetProcessName)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5f75038;
+  constexpr static std::size_t addrs = 0x5fdcbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Diagnostics::EventLogger*>::get(),
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Diagnostics::EventLogger::*)()>(
     &::System::Runtime::Diagnostics::EventLogger::UnsafeGetProcessId)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x5f75168;
+  constexpr static std::size_t addrs = 0x5fdccf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Diagnostics::EventLogger*>::get(),
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Runtime::Diagnostics::EventLogger::NormalizeEventLogParameter)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5f74ea4;
+  constexpr static std::size_t addrs = 0x5fdca30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

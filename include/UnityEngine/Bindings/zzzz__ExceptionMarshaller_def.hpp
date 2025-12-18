@@ -24,7 +24,7 @@ public:
   /// @brief Field s_pendingException, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_pendingException, put = setStaticF_s_pendingException)) ::System::Exception* s_pendingException;
 
-  /// @brief Method SetPendingException, addr 0x68cb0f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetPendingException, addr 0x6933f7c, size 0x84, virtual false, abstract: false, final false
   static inline void SetPendingException(::System::Exception* ex);
 
   static inline ::System::Exception* getStaticF_s_pendingException();
@@ -46,7 +46,7 @@ public:
   ExceptionMarshaller(ExceptionMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10452 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

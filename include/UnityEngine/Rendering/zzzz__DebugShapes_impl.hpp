@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::DebugShapes* (*)()>(&::UnityEngine::Rendering::DebugShapes::get_instance)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6548e2c;
+  constexpr static std::size_t addrs = 0x65b09b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugShapes*>::get(), "get_instance",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugShapes::*)(::ByRef<::UnityEngine::Mesh*>, float_t, uint32_t, uint32_t)>(
     &::UnityEngine::Rendering::DebugShapes::BuildSphere)> {
   constexpr static std::size_t size = 0x720;
-  constexpr static std::size_t addrs = 0x6548ea0;
+  constexpr static std::size_t addrs = 0x65b0a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugShapes::*)(::ByRef<::UnityEngine::Mesh*>, float_t, float_t, float_t)>(
     &::UnityEngine::Rendering::DebugShapes::BuildBox)> {
   constexpr static std::size_t size = 0x7b4;
-  constexpr static std::size_t addrs = 0x65495c0;
+  constexpr static std::size_t addrs = 0x65b114c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugShapes::*)(::ByRef<::UnityEngine::Mesh*>, float_t, float_t, float_t, int32_t)>(
     &::UnityEngine::Rendering::DebugShapes::BuildCone)> {
   constexpr static std::size_t size = 0x928;
-  constexpr static std::size_t addrs = 0x6549d74;
+  constexpr static std::size_t addrs = 0x65b1900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugShapes::*)(::ByRef<::UnityEngine::Mesh*>, float_t, float_t, float_t)>(
     &::UnityEngine::Rendering::DebugShapes::BuildPyramid)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x654a69c;
+  constexpr static std::size_t addrs = 0x65b2228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugShapes::*)()>(&::UnityEngine::Rendering::DebugShapes::BuildShapes)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x654a99c;
+  constexpr static std::size_t addrs = 0x65b2528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugShapes*>::get(), "BuildShapes",
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugShapes::*)()>(&::UnityEngine::Rendering::DebugShapes::RebuildResources)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x654aa90;
+  constexpr static std::size_t addrs = 0x65b261c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugShapes*>::get(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::Rendering::DebugShapes::*)()>(
     &::UnityEngine::Rendering::DebugShapes::RequestSphereMesh)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x654ab84;
+  constexpr static std::size_t addrs = 0x65b2710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugShapes*>::get(),
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::Rendering::DebugShapes::*)(float_t, uint32_t, uint32_t)>(
     &::UnityEngine::Rendering::DebugShapes::BuildCustomSphereMesh)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x654ab9c;
+  constexpr static std::size_t addrs = 0x65b2728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::Rendering::DebugShapes::*)()>(
     &::UnityEngine::Rendering::DebugShapes::RequestBoxMesh)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x654ac30;
+  constexpr static std::size_t addrs = 0x65b27bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugShapes*>::get(), "RequestBoxMesh",
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::Rendering::DebugShapes::*)()>(
     &::UnityEngine::Rendering::DebugShapes::RequestConeMesh)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x654ac48;
+  constexpr static std::size_t addrs = 0x65b27d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugShapes*>::get(), "RequestConeMesh",
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::Rendering::DebugShapes::*)()>(
     &::UnityEngine::Rendering::DebugShapes::RequestPyramidMesh)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x654ac60;
+  constexpr static std::size_t addrs = 0x65b27ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugShapes*>::get(),
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::DebugShapes::*)()>(&::UnityEngine::Rendering::DebugShapes::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6548e9c;
+  constexpr static std::size_t addrs = 0x65b0a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::DebugShapes*>::get(), ".ctor",

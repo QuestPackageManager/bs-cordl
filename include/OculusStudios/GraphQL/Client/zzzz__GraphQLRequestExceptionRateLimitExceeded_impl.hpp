@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLRequestExceptionRateLimitExceeded::*)(int32_t, ::StringW)>(
     &::OculusStudios::GraphQL::Client::GraphQLRequestExceptionRateLimitExceeded::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d09bbc;
+  constexpr static std::size_t addrs = 0x5d7069c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

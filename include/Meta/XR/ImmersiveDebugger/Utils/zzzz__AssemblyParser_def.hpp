@@ -77,13 +77,13 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c* New_ctor();
 
-  /// @brief Method <LoadAssembliesAsync>b__19_0, addr 0x582fc18, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method <LoadAssembliesAsync>b__19_0, addr 0x589637c, size 0x12c, virtual false, abstract: false, final false
   inline bool _LoadAssembliesAsync_b__19_0(::System::Type* t);
 
-  /// @brief Method <LoadAssembliesAsync>b__19_1, addr 0x582fd44, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <LoadAssembliesAsync>b__19_1, addr 0x58964a8, size 0x58, virtual false, abstract: false, final false
   inline bool _LoadAssembliesAsync_b__19_1(::System::Reflection::MemberInfo* m);
 
-  /// @brief Method .ctor, addr 0x582fc14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5896378, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Meta::XR::ImmersiveDebugger::Utils::AssemblyParser___c* getStaticF___9();
@@ -113,7 +113,7 @@ public:
   AssemblyParser___c(AssemblyParser___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18295 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18310 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -131,10 +131,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x582fd9c, size 0x398, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5896500, size 0x398, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5830134, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5896898, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -151,7 +151,7 @@ public:
                                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18296 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18311 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -212,37 +212,37 @@ public:
   /// @brief Field _types, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__types, put = setStaticF__types)) ::System::Collections::Generic::List_1<::System::Type*>* _types;
 
-  /// @brief Method GetAllAssemblies, addr 0x582ed34, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetAllAssemblies, addr 0x5895498, size 0x1c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::Assembly*, ::Array<::System::Reflection::Assembly*>*> GetAllAssemblies();
 
-  /// @brief Method GetImmersiveDebuggerEnabled, addr 0x582ec64, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetImmersiveDebuggerEnabled, addr 0x58953c8, size 0x60, virtual false, abstract: false, final false
   static inline bool GetImmersiveDebuggerEnabled();
 
-  /// @brief Method Init, addr 0x582e940, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x58950a4, size 0xb8, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method LoadAssembliesAsync, addr 0x582ef2c, size 0xa04, virtual false, abstract: false, final false
+  /// @brief Method LoadAssembliesAsync, addr 0x5895690, size 0xa04, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* LoadAssembliesAsync();
 
-  /// @brief Method LoadAssembliesMainThread, addr 0x582ee74, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method LoadAssembliesMainThread, addr 0x58955d8, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* LoadAssembliesMainThread(bool ignorePrebakedAsset);
 
-  /// @brief Method OnLoad, addr 0x582ed50, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnLoad, addr 0x58954b4, size 0x54, virtual false, abstract: false, final false
   static inline void OnLoad();
 
-  /// @brief Method Refresh, addr 0x582eda4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5895508, size 0x7c, virtual false, abstract: false, final false
   static inline void Refresh(bool ignorePrebakedAsset);
 
-  /// @brief Method RefreshWhenPlaying, addr 0x582ee20, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RefreshWhenPlaying, addr 0x5895584, size 0x54, virtual false, abstract: false, final false
   static inline void RefreshWhenPlaying();
 
-  /// @brief Method RegisterAssemblyTypes, addr 0x582f930, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method RegisterAssemblyTypes, addr 0x5896094, size 0xec, virtual false, abstract: false, final false
   static inline void RegisterAssemblyTypes(::System::Action_1<::System::Collections::Generic::List_1<::System::Type*>*>* del);
 
-  /// @brief Method Unregister, addr 0x582fa1c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x5896180, size 0x58, virtual false, abstract: false, final false
   static inline void Unregister(::System::Action_1<::System::Collections::Generic::List_1<::System::Type*>*>* del);
 
-  /// @brief Method add_OnAssemblyParsed, addr 0x582e9f8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method add_OnAssemblyParsed, addr 0x589515c, size 0x108, virtual false, abstract: false, final false
   static inline void add_OnAssemblyParsed(::System::Action_1<::System::Collections::Generic::List_1<::System::Type*>*>* value);
 
   static inline ::System::Action_1<::System::Collections::Generic::List_1<::System::Type*>*>* getStaticF_OnAssemblyParsed();
@@ -257,13 +257,13 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::System::Type*>* getStaticF__types();
 
-  /// @brief Method get_Enabled, addr 0x582ecc4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_Enabled, addr 0x5895428, size 0x70, virtual false, abstract: false, final false
   static inline bool get_Enabled();
 
-  /// @brief Method get_Ready, addr 0x582ec08, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Ready, addr 0x589536c, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_Ready();
 
-  /// @brief Method remove_OnAssemblyParsed, addr 0x582eb00, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method remove_OnAssemblyParsed, addr 0x5895264, size 0x108, virtual false, abstract: false, final false
   static inline void remove_OnAssemblyParsed(::System::Action_1<::System::Collections::Generic::List_1<::System::Type*>*>* value);
 
   static inline void setStaticF_OnAssemblyParsed(::System::Action_1<::System::Collections::Generic::List_1<::System::Type*>*>* value);
@@ -293,7 +293,7 @@ public:
   AssemblyParser(AssemblyParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18297 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18312 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

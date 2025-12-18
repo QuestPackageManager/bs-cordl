@@ -29,13 +29,13 @@ namespace BeatmapSaveDataVersion3 {
 class CORDL_TYPE LightColorEventBoxGroup : public ::BeatmapSaveDataVersion3::EventBoxGroup_1<::BeatmapSaveDataVersion3::LightColorEventBox*> {
 public:
   // Declarations
-  /// @brief Method CopyWith, addr 0x3634cdc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CopyWith, addr 0x3661160, size 0x118, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion3::LightColorEventBoxGroup* CopyWith(::System::Nullable_1<float_t> newBeat, ::System::Nullable_1<int32_t> newGroupId);
 
   static inline ::BeatmapSaveDataVersion3::LightColorEventBoxGroup* New_ctor(float_t beat, int32_t groupId,
                                                                              ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorEventBox*>* eventBoxes);
 
-  /// @brief Method .ctor, addr 0x3634c74, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36610f8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t groupId, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorEventBox*>* eventBoxes);
 
 protected:
@@ -53,7 +53,7 @@ public:
   LightColorEventBoxGroup(LightColorEventBoxGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15322 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

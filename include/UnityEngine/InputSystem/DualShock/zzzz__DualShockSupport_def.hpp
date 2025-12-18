@@ -18,7 +18,7 @@ namespace UnityEngine::InputSystem::DualShock {
 class CORDL_TYPE DualShockSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x638d604, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x63f5190, size 0x78, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:
@@ -36,7 +36,7 @@ public:
   DualShockSupport(DualShockSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8895 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

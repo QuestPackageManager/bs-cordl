@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_rendererListHandle(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
 
-  /// @brief Method .ctor, addr 0x5d3298c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9a518, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,7 +78,7 @@ public:
   ScreenDisplacementEffectDrawPass_PassData(ScreenDisplacementEffectDrawPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20808 };
 
   /// @brief Field rendererListHandle, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle ___rendererListHandle;
@@ -109,15 +109,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5d313d4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5d98f54, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::ScreenDisplacementEffectDrawPass* New_ctor(::UnityEngine::LayerMask layerMask);
 
-  /// @brief Method RecordRenderGraph, addr 0x5d31cdc, size 0x9dc, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x5d99868, size 0x9dc, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method Render, addr 0x5d326b8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x5d9a244, size 0xbc, virtual false, abstract: false, final false
   inline void Render(::GlobalNamespace::ScreenDisplacementEffectDrawPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
   constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__layerMask() const;
@@ -126,7 +126,7 @@ public:
 
   constexpr void __cordl_internal_set__layerMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method .ctor, addr 0x5d312cc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d98e4c, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::LayerMask layerMask);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* getStaticF__shaderTagIdList();
@@ -151,7 +151,7 @@ public:
   ScreenDisplacementEffectDrawPass(ScreenDisplacementEffectDrawPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20809 };
 
   /// @brief Field _layerMask, offset: 0xb8, size: 0x4, def value: None
   ::UnityEngine::LayerMask ____layerMask;

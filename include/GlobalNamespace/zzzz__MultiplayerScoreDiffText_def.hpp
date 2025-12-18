@@ -11,7 +11,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerScoreDiffText)
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
 class MultiplayerLeadPlayerProvider;
@@ -184,7 +184,7 @@ public:
   __declspec(property(get = __cordl_internal_get__backgroundSpriteRenderer, put = __cordl_internal_set__backgroundSpriteRenderer)) ::UnityW<::UnityEngine::SpriteRenderer> _backgroundSpriteRenderer;
 
   /// @brief Field _connectedPlayer, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* _connectedPlayer;
 
   /// @brief Field _currentBackgroundColor, offset 0x80, size 0x10
   __declspec(property(get = __cordl_internal_get__currentBackgroundColor, put = __cordl_internal_set__currentBackgroundColor)) ::UnityEngine::Color _currentBackgroundColor;
@@ -213,36 +213,36 @@ public:
   /// @brief Field _useAutomaticLeadPlayerSelection, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get__useAutomaticLeadPlayerSelection, put = __cordl_internal_set__useAutomaticLeadPlayerSelection)) bool _useAutomaticLeadPlayerSelection;
 
-  /// @brief Method AnimateHide, addr 0x57ab9d0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method AnimateHide, addr 0x5812278, size 0x124, virtual false, abstract: false, final false
   inline void AnimateHide();
 
-  /// @brief Method AnimateIsLeadPlayer, addr 0x57abaf4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AnimateIsLeadPlayer, addr 0x581239c, size 0x50, virtual false, abstract: false, final false
   inline void AnimateIsLeadPlayer(bool isLeader);
 
-  /// @brief Method AnimateScoreDiff, addr 0x57ab7d0, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method AnimateScoreDiff, addr 0x5812078, size 0x200, virtual false, abstract: false, final false
   inline void AnimateScoreDiff(int32_t scoreDiff);
 
-  /// @brief Method HandleNewLeaderWasSelected, addr 0x57abb44, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleNewLeaderWasSelected, addr 0x58123ec, size 0xcc, virtual false, abstract: false, final false
   inline void HandleNewLeaderWasSelected(::StringW userId);
 
   static inline ::GlobalNamespace::MultiplayerScoreDiffText* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57ab5e0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5811e88, size 0x118, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetHorizontalPositionRelativeToLocalPlayer, addr 0x57ab6f8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetHorizontalPositionRelativeToLocalPlayer, addr 0x5811fa0, size 0xd8, virtual false, abstract: false, final false
   inline void SetHorizontalPositionRelativeToLocalPlayer(::GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition relativePosition);
 
-  /// @brief Method Start, addr 0x57ab444, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5811cec, size 0x19c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <AnimateHide>b__18_0, addr 0x57abc90, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <AnimateHide>b__18_0, addr 0x5812538, size 0x30, virtual false, abstract: false, final false
   inline void _AnimateHide_b__18_0();
 
-  /// @brief Method <AnimateScoreDiff>b__17_0, addr 0x57abc84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <AnimateScoreDiff>b__17_0, addr 0x581252c, size 0xc, virtual false, abstract: false, final false
   inline void _AnimateScoreDiff_b__17_0();
 
-  /// @brief Method <Start>b__14_0, addr 0x57abc28, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__14_0, addr 0x58124d0, size 0x5c, virtual false, abstract: false, final false
   inline void _Start_b__14_0(float_t val);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__activeTextColor() const;
@@ -253,9 +253,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::SpriteRenderer>& __cordl_internal_get__backgroundSpriteRenderer();
 
-  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
+  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__currentBackgroundColor() const;
 
@@ -297,7 +297,7 @@ public:
 
   constexpr void __cordl_internal_set__backgroundSpriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
   constexpr void __cordl_internal_set__currentBackgroundColor(::UnityEngine::Color value);
 
@@ -317,7 +317,7 @@ public:
 
   constexpr void __cordl_internal_set__useAutomaticLeadPlayerSelection(bool value);
 
-  /// @brief Method .ctor, addr 0x57abc10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58124b8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -359,7 +359,7 @@ public:
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
   /// @brief Field _connectedPlayer, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
+  ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;
 
   /// @brief Field _leadPlayerProvider, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLeadPlayerProvider> ____leadPlayerProvider;

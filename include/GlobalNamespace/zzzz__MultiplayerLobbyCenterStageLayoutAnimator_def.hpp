@@ -44,18 +44,18 @@ public:
   /// @brief Field _tweeningManager, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Move, addr 0x5804bc8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x58688a4, size 0x1a4, virtual false, abstract: false, final false
   inline void Move(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, float_t duration);
 
   static inline ::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator* New_ctor();
 
-  /// @brief Method StartCountdown, addr 0x5804b44, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method StartCountdown, addr 0x5868820, size 0x84, virtual false, abstract: false, final false
   inline void StartCountdown();
 
-  /// @brief Method StopCountdown, addr 0x5804d6c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StopCountdown, addr 0x5868a48, size 0xa0, virtual false, abstract: false, final false
   inline void StopCountdown(bool instant);
 
-  /// @brief Method <Move>b__7_0, addr 0x5804e10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Move>b__7_0, addr 0x5868aec, size 0x18, virtual false, abstract: false, final false
   inline void _Move_b__7_0(::UnityEngine::Vector3 pos);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__nextLevelBasePosition() const;
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x5804e0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5868ae8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -106,7 +106,7 @@ public:
   MultiplayerLobbyCenterStageLayoutAnimator(MultiplayerLobbyCenterStageLayoutAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6413 };
 
   /// @brief Field _nextLevelTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____nextLevelTransform;

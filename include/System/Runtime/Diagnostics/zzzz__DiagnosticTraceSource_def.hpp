@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Runtime::Diagnostics::DiagnosticTraceSource* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x5f70638, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd81c4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
 protected:
@@ -39,7 +39,7 @@ public:
   DiagnosticTraceSource(DiagnosticTraceSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21101 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21128 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::get_handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65cae58;
+  constexpr static std::size_t addrs = 0x66329e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::*)(int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::set_handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65cae60;
+  constexpr static std::size_t addrs = 0x66329ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::*)(
     int32_t, ::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType)>(&::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65c8e6c;
+  constexpr static std::size_t addrs = 0x66309f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle)>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::op_Implicit_int32_t)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65c6454;
+  constexpr static std::size_t addrs = 0x662dfe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RendererList (*)(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle)>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::op_Implicit___UnityEngine__Rendering__RendererList)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x65cae68;
+  constexpr static std::size_t addrs = 0x66329f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::IsValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65caf84;
+  constexpr static std::size_t addrs = 0x6632b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

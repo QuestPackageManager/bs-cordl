@@ -31,7 +31,7 @@ public:
                       put = __cordl_internal_set__particleSystemEventControllerPrefab)) ::UnityW<::GlobalNamespace::ParticleSystemEventController>
       _particleSystemEventControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x5786790, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x57ed038, size 0xa4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::ParticleSystemEmitEventEffectInstaller* New_ctor();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__particleSystemEventControllerPrefab(::UnityW<::GlobalNamespace::ParticleSystemEventController> value);
 
-  /// @brief Method .ctor, addr 0x5786834, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57ed0dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

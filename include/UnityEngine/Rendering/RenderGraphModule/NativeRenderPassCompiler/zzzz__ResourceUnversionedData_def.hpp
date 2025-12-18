@@ -38,20 +38,20 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE ResourceUnversionedData {
 public:
   // Declarations
-  /// @brief Method GetName, addr 0x65de194, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x6645d20, size 0x24, virtual false, abstract: false, final false
   inline ::StringW GetName(Il2CppObject* ctx, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h);
 
-  /// @brief Method InitializeNullResource, addr 0x65de2a0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method InitializeNullResource, addr 0x6645e2c, size 0x14, virtual false, abstract: false, final false
   inline void InitializeNullResource();
 
-  /// @brief Method .ctor, addr 0x65de210, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6645d9c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* rll, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::BufferDesc> _, bool isResourceShared);
 
-  /// @brief Method .ctor, addr 0x65de258, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6645de4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* rll, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureDesc> _,
                     bool isResourceShared);
 
-  /// @brief Method .ctor, addr 0x65de1b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6645d44, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* rll, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo> info,
                     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc, bool isResourceShared);
 
@@ -70,7 +70,7 @@ public:
                                     int32_t volumeDepth, int32_t msaaSamples, int32_t latestVersionNumber, bool clear, bool discard, bool bindMS) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12476 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

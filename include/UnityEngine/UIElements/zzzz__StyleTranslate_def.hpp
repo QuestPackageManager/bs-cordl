@@ -47,31 +47,31 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Translate>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Translate>*();
 
-  /// @brief Method Equals, addr 0x6a5fe38, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6ac8cbc, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6a5fda4, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6ac8c28, size 0x94, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleTranslate other);
 
-  /// @brief Method GetHashCode, addr 0x6a5fecc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6ac8d50, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6a5fef0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6ac8d74, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6a5fcd8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac8b5c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x6a5fc9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac8b20, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Translate v);
 
-  /// @brief Method .ctor, addr 0x6a5fcc0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac8b44, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Translate v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x6a5fc8c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x6ac8b10, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x6a5fb80, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x6ac8a04, size 0xd8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Translate get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleTranslate>"
@@ -80,19 +80,19 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Translate>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Translate>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Translate_();
 
-  /// @brief Method op_Equality, addr 0x6a5fce8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6ac8b6c, size 0x94, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleTranslate lhs, ::UnityEngine::UIElements::StyleTranslate rhs);
 
-  /// @brief Method op_Implicit, addr 0x6a5fd7c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6ac8c00, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleTranslate op_Implicit___UnityEngine__UIElements__StyleTranslate(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method op_Implicit, addr 0x6a5fd8c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6ac8c10, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleTranslate op_Implicit___UnityEngine__UIElements__StyleTranslate(::UnityEngine::UIElements::Translate v);
 
-  /// @brief Method set_keyword, addr 0x6a5fc94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_keyword, addr 0x6ac8b18, size 0x8, virtual true, abstract: false, final true
   inline void set_keyword(::UnityEngine::UIElements::StyleKeyword value);
 
-  /// @brief Method set_value, addr 0x6a5fc74, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method set_value, addr 0x6ac8af8, size 0x18, virtual true, abstract: false, final true
   inline void set_value(::UnityEngine::UIElements::Translate value);
 
   // Ctor Parameters []

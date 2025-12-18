@@ -23,13 +23,13 @@ namespace System::Xml {
 class CORDL_TYPE BinHexEncoder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Encode, addr 0x5f76eb8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x5fdea44, size 0x13c, virtual false, abstract: false, final false
   static inline ::StringW Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> inArray, int32_t offsetIn, int32_t count);
 
-  /// @brief Method Encode, addr 0x5f76d88, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x5fde914, size 0x130, virtual false, abstract: false, final false
   static inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> inArray, int32_t offsetIn, int32_t count, ::ArrayW<char16_t, ::Array<char16_t>*> outArray);
 
-  /// @brief Method Encode, addr 0x5f76be8, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x5fde774, size 0x1a0, virtual false, abstract: false, final false
   static inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count, ::System::Xml::XmlWriter* writer);
 
 protected:
@@ -47,7 +47,7 @@ public:
   BinHexEncoder(BinHexEncoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9225 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -87,21 +87,21 @@ public:
   /// @brief Field vertices, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_vertices, put = setStaticF_vertices)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices;
 
-  /// @brief Method Awake, addr 0x56ced40, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x572fa1c, size 0x74, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateBox, addr 0x56cedb4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method CreateBox, addr 0x572fa90, size 0x148, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> CreateBox();
 
   static inline ::GlobalNamespace::StretchableCube* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x56ceefc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x572fbd8, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RecalculateUVs, addr 0x56cef08, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method RecalculateUVs, addr 0x572fbe4, size 0x1f4, virtual false, abstract: false, final false
   inline void RecalculateUVs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs);
 
-  /// @brief Method RefreshUVs, addr 0x56cf0fc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method RefreshUVs, addr 0x572fdd8, size 0x98, virtual false, abstract: false, final false
   inline void RefreshUVs();
 
   constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set__uvs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
 
-  /// @brief Method .ctor, addr 0x56cf194, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x572fe70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Vector3 getStaticF_back();

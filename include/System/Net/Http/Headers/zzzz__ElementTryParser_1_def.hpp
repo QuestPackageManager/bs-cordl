@@ -55,7 +55,7 @@ public:
   ElementTryParser_1(ElementTryParser_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20154 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20066 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -404,10 +404,10 @@ public:
   /// @brief Field uber, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_uber, put = __cordl_internal_set_uber)) ::UnityW<::UnityEngine::Material> uber;
 
-  /// @brief Method Cleanup, addr 0x6669b74, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x66d1700, size 0x170, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Load, addr 0x667c6cc, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x66e4258, size 0x188, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> Load(::UnityEngine::Shader* shader);
 
   static inline ::UnityEngine::Rendering::Universal::PostProcessPass_MaterialLibrary* New_ctor(::UnityEngine::Rendering::Universal::PostProcessData* data);
@@ -514,7 +514,7 @@ public:
 
   constexpr void __cordl_internal_set_uber(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x66697ec, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66d1378, size 0x220, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::PostProcessData* data);
 
 protected:
@@ -532,7 +532,7 @@ public:
   PostProcessPass_MaterialLibrary(PostProcessPass_MaterialLibrary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12821 };
 
   /// @brief Field stopNaN, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___stopNaN;
@@ -997,7 +997,7 @@ public:
   PostProcessPass_ShaderConstants(PostProcessPass_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12822 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1023,7 +1023,7 @@ public:
 
   constexpr void __cordl_internal_set_newCameraTargetSize(::UnityEngine::Vector2Int value);
 
-  /// @brief Method .ctor, addr 0x667d250, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4ddc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1041,7 +1041,7 @@ public:
   PostProcessPass_UpdateCameraResolutionPassData(PostProcessPass_UpdateCameraResolutionPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12823 };
 
   /// @brief Field newCameraTargetSize, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Vector2Int ___newCameraTargetSize;
@@ -1090,7 +1090,7 @@ public:
 
   constexpr void __cordl_internal_set_stopNaNTarget(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x667d254, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4de0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1108,7 +1108,7 @@ public:
   PostProcessPass_StopNaNsPassData(PostProcessPass_StopNaNsPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12824 };
 
   /// @brief Field stopNaNTarget, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___stopNaNTarget;
@@ -1203,7 +1203,7 @@ public:
 
   constexpr void __cordl_internal_set_stencilRef(float_t value);
 
-  /// @brief Method .ctor, addr 0x667d258, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4de4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1221,7 +1221,7 @@ public:
   PostProcessPass_SMAASetupPassData(PostProcessPass_SMAASetupPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12825 };
 
   /// @brief Field metrics, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___metrics;
@@ -1318,7 +1318,7 @@ public:
 
   constexpr void __cordl_internal_set_sourceTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x667d25c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4de8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1336,7 +1336,7 @@ public:
   PostProcessPass_SMAAPassData(PostProcessPass_SMAAPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12826 };
 
   /// @brief Field destinationTexture, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___destinationTexture;
@@ -1441,7 +1441,7 @@ public:
 
   constexpr void __cordl_internal_set_uberMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x667d260, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4dec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1459,7 +1459,7 @@ public:
   PostProcessPass_UberSetupBloomPassData(PostProcessPass_UberSetupBloomPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12823 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12827 };
 
   /// @brief Field bloomParams, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___bloomParams;
@@ -1572,7 +1572,7 @@ public:
 
   constexpr void __cordl_internal_set_upsampleMaterials(::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> value);
 
-  /// @brief Method .ctor, addr 0x667d264, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4df0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1590,7 +1590,7 @@ public:
   PostProcessPass_BloomPassData(PostProcessPass_BloomPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12824 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12828 };
 
   /// @brief Field mipCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___mipCount;
@@ -1635,7 +1635,7 @@ namespace UnityEngine::Rendering::Universal {
 struct CORDL_TYPE PostProcessPass_BloomMaterialParams {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x6674984, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x66dc510, size 0x68, virtual false, abstract: false, final false
   inline bool Equals(::ByRef<::UnityEngine::Rendering::Universal::PostProcessPass_BloomMaterialParams> other);
 
   // Ctor Parameters []
@@ -1647,7 +1647,7 @@ public:
   constexpr PostProcessPass_BloomMaterialParams(::UnityEngine::Vector4 parameters, bool highQualityFiltering, bool enableAlphaOutput) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12829 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
@@ -1810,7 +1810,7 @@ public:
 
   constexpr void __cordl_internal_set_sourceTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x667d268, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4df4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1828,7 +1828,7 @@ public:
   PostProcessPass_DoFGaussianPassData(PostProcessPass_DoFGaussianPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12830 };
 
   /// @brief Field downsample, offset: 0x10, size: 0x4, def value: None
   int32_t ___downsample;
@@ -2041,7 +2041,7 @@ public:
 
   constexpr void __cordl_internal_set_uvMargin(float_t value);
 
-  /// @brief Method .ctor, addr 0x667d2bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4e48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2059,7 +2059,7 @@ public:
   PostProcessPass_DoFBokehPassData(PostProcessPass_DoFBokehPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12831 };
 
   /// @brief Field bokehKernel, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ___bokehKernel;
@@ -2200,7 +2200,7 @@ public:
 
   constexpr void __cordl_internal_set_sourceTextureDesc(::UnityEngine::RenderTextureDescriptor value);
 
-  /// @brief Method .ctor, addr 0x667d2c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4e4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2218,7 +2218,7 @@ public:
   PostProcessPass_PaniniProjectionPassData(PostProcessPass_PaniniProjectionPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12828 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12832 };
 
   /// @brief Field destinationTexture, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___destinationTexture;
@@ -2355,7 +2355,7 @@ public:
 
   constexpr void __cordl_internal_set_xr(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-  /// @brief Method .ctor, addr 0x667d2c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4e50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2373,7 +2373,7 @@ public:
   PostProcessPass_MotionBlurPassData(PostProcessPass_MotionBlurPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12833 };
 
   /// @brief Field destinationTexture, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___destinationTexture;
@@ -2530,7 +2530,7 @@ public:
 
   constexpr void __cordl_internal_set_width(float_t value);
 
-  /// @brief Method .ctor, addr 0x667d2c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4e54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2548,7 +2548,7 @@ public:
   PostProcessPass_LensFlarePassData(PostProcessPass_LensFlarePassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12834 };
 
   /// @brief Field destinationTexture, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___destinationTexture;
@@ -2717,7 +2717,7 @@ public:
 
   constexpr void __cordl_internal_set_streakTmpTexture2(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x667d2cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4e58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2735,7 +2735,7 @@ public:
   PostProcessPass_LensFlareScreenSpacePassData(PostProcessPass_LensFlareScreenSpacePassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12835 };
 
   /// @brief Field destinationTexture, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___destinationTexture;
@@ -2843,7 +2843,7 @@ public:
 
   constexpr void __cordl_internal_set_sourceTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x667d2d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4e5c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2861,7 +2861,7 @@ public:
   PostProcessPass_PostProcessingFinalSetupPassData(PostProcessPass_PostProcessingFinalSetupPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12836 };
 
   /// @brief Field destinationTexture, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___destinationTexture;
@@ -2934,7 +2934,7 @@ public:
 
   constexpr void __cordl_internal_set_sourceTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x667d2d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4e60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2952,7 +2952,7 @@ public:
   PostProcessPass_PostProcessingFinalFSRScalePassData(PostProcessPass_PostProcessingFinalFSRScalePassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12837 };
 
   /// @brief Field destinationTexture, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___destinationTexture;
@@ -2987,7 +2987,7 @@ namespace UnityEngine::Rendering::Universal {
 struct CORDL_TYPE PostProcessPass_FinalBlitSettings {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x667d2dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x66e4e68, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::PostProcessPass_FinalBlitSettings Create();
 
   // Ctor Parameters []
@@ -3002,7 +3002,7 @@ public:
                                               ::UnityEngine::Rendering::HDROutputUtils_Operation hdrOperations) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12839 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -3102,7 +3102,7 @@ public:
 
   constexpr void __cordl_internal_set_sourceTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x667d2d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4e64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3120,7 +3120,7 @@ public:
   PostProcessPass_PostProcessingFinalBlitPassData(PostProcessPass_PostProcessingFinalBlitPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12838 };
 
   /// @brief Field destinationTexture, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___destinationTexture;
@@ -3279,7 +3279,7 @@ public:
 
   constexpr void __cordl_internal_set_userLutTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x667d2e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4e74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3297,7 +3297,7 @@ public:
   PostProcessPass_UberPostPassData(PostProcessPass_UberPostPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12840 };
 
   /// @brief Field destinationTexture, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___destinationTexture;
@@ -3379,7 +3379,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::Universal::PostProcessPass_PostFXSetupPassData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x667d2ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4e78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3397,7 +3397,7 @@ public:
   PostProcessPass_PostFXSetupPassData(PostProcessPass_PostFXSetupPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12841 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3531,88 +3531,88 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::PostProcessPass___c* New_ctor();
 
-  /// @brief Method <LensFlareDataDrivenComputeOcclusion>b__147_0, addr 0x667f92c, size 0x68c, virtual false, abstract: false, final false
+  /// @brief Method <LensFlareDataDrivenComputeOcclusion>b__147_0, addr 0x66e74b8, size 0x68c, virtual false, abstract: false, final false
   inline void _LensFlareDataDrivenComputeOcclusion_b__147_0(::UnityEngine::Rendering::Universal::PostProcessPass_LensFlarePassData* data,
                                                             ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* ctx);
 
-  /// @brief Method <LensFlareDataDriven>b__98_0, addr 0x667d348, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <LensFlareDataDriven>b__98_0, addr 0x66e4ed4, size 0x94, virtual false, abstract: false, final false
   inline float_t _LensFlareDataDriven_b__98_0(::UnityEngine::Light* light, ::UnityEngine::Camera* cam, ::UnityEngine::Vector3 wo);
 
-  /// @brief Method <LensFlareDataDriven>b__98_1, addr 0x667d3dc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <LensFlareDataDriven>b__98_1, addr 0x66e4f68, size 0x94, virtual false, abstract: false, final false
   inline float_t _LensFlareDataDriven_b__98_1(::UnityEngine::Light* light, ::UnityEngine::Camera* cam, ::UnityEngine::Vector3 wo);
 
-  /// @brief Method <RenderBloomTexture>b__132_0, addr 0x667de34, size 0x5c8, virtual false, abstract: false, final false
+  /// @brief Method <RenderBloomTexture>b__132_0, addr 0x66e59c0, size 0x5c8, virtual false, abstract: false, final false
   inline void _RenderBloomTexture_b__132_0(::UnityEngine::Rendering::Universal::PostProcessPass_BloomPassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method <RenderDoFBokeh>b__137_0, addr 0x667ed08, size 0x65c, virtual false, abstract: false, final false
+  /// @brief Method <RenderDoFBokeh>b__137_0, addr 0x66e6894, size 0x65c, virtual false, abstract: false, final false
   inline void _RenderDoFBokeh_b__137_0(::UnityEngine::Rendering::Universal::PostProcessPass_DoFBokehPassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method <RenderDoFGaussian>b__135_0, addr 0x667e3fc, size 0x89c, virtual false, abstract: false, final false
+  /// @brief Method <RenderDoFGaussian>b__135_0, addr 0x66e5f88, size 0x89c, virtual false, abstract: false, final false
   inline void _RenderDoFGaussian_b__135_0(::UnityEngine::Rendering::Universal::PostProcessPass_DoFGaussianPassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method <RenderFinalBlit>b__158_0, addr 0x6680fb0, size 0x47c, virtual false, abstract: false, final false
+  /// @brief Method <RenderFinalBlit>b__158_0, addr 0x66e8b3c, size 0x47c, virtual false, abstract: false, final false
   inline void _RenderFinalBlit_b__158_0(::UnityEngine::Rendering::Universal::PostProcessPass_PostProcessingFinalBlitPassData* data,
                                         ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <RenderFinalFSRScale>b__155_0, addr 0x6680db0, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method <RenderFinalFSRScale>b__155_0, addr 0x66e893c, size 0x200, virtual false, abstract: false, final false
   inline void _RenderFinalFSRScale_b__155_0(::UnityEngine::Rendering::Universal::PostProcessPass_PostProcessingFinalFSRScalePassData* data,
                                             ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <RenderFinalSetup>b__153_0, addr 0x6680cc8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method <RenderFinalSetup>b__153_0, addr 0x66e8854, size 0xe8, virtual false, abstract: false, final false
   inline void _RenderFinalSetup_b__153_0(::UnityEngine::Rendering::Universal::PostProcessPass_PostProcessingFinalSetupPassData* data,
                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <RenderLensFlareDataDriven>b__148_0, addr 0x667ffb8, size 0x7d8, virtual false, abstract: false, final false
+  /// @brief Method <RenderLensFlareDataDriven>b__148_0, addr 0x66e7b44, size 0x7d8, virtual false, abstract: false, final false
   inline void _RenderLensFlareDataDriven_b__148_0(::UnityEngine::Rendering::Universal::PostProcessPass_LensFlarePassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* ctx);
 
-  /// @brief Method <RenderLensFlareDataDriven>b__148_1, addr 0x6680790, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <RenderLensFlareDataDriven>b__148_1, addr 0x66e831c, size 0x94, virtual false, abstract: false, final false
   inline float_t _RenderLensFlareDataDriven_b__148_1(::UnityEngine::Light* light, ::UnityEngine::Camera* cam, ::UnityEngine::Vector3 wo);
 
-  /// @brief Method <RenderLensFlareDataDriven>b__148_2, addr 0x6680824, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <RenderLensFlareDataDriven>b__148_2, addr 0x66e83b0, size 0x94, virtual false, abstract: false, final false
   inline float_t _RenderLensFlareDataDriven_b__148_2(::UnityEngine::Light* light, ::UnityEngine::Camera* cam, ::UnityEngine::Vector3 wo);
 
-  /// @brief Method <RenderLensFlareScreenSpace>b__150_0, addr 0x66808b8, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method <RenderLensFlareScreenSpace>b__150_0, addr 0x66e8444, size 0x410, virtual false, abstract: false, final false
   inline void _RenderLensFlareScreenSpace_b__150_0(::UnityEngine::Rendering::Universal::PostProcessPass_LensFlareScreenSpacePassData* data,
                                                    ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method <RenderMotionBlur>b__145_0, addr 0x667f560, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method <RenderMotionBlur>b__145_0, addr 0x66e70ec, size 0x288, virtual false, abstract: false, final false
   inline void _RenderMotionBlur_b__145_0(::UnityEngine::Rendering::Universal::PostProcessPass_MotionBlurPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <RenderPaniniProjection>b__139_0, addr 0x667f364, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method <RenderPaniniProjection>b__139_0, addr 0x66e6ef0, size 0x1fc, virtual false, abstract: false, final false
   inline void _RenderPaniniProjection_b__139_0(::UnityEngine::Rendering::Universal::PostProcessPass_PaniniProjectionPassData* data,
                                                ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <RenderPostProcessingRenderGraph>b__164_0, addr 0x66816dc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method <RenderPostProcessingRenderGraph>b__164_0, addr 0x66e9268, size 0x12c, virtual false, abstract: false, final false
   inline void _RenderPostProcessingRenderGraph_b__164_0(::UnityEngine::Rendering::Universal::PostProcessPass_PostFXSetupPassData* data,
                                                         ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <RenderSMAA>b__127_0, addr 0x667d668, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method <RenderSMAA>b__127_0, addr 0x66e51f4, size 0x1a0, virtual false, abstract: false, final false
   inline void _RenderSMAA_b__127_0(::UnityEngine::Rendering::Universal::PostProcessPass_SMAASetupPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <RenderSMAA>b__127_1, addr 0x667d808, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method <RenderSMAA>b__127_1, addr 0x66e5394, size 0x150, virtual false, abstract: false, final false
   inline void _RenderSMAA_b__127_1(::UnityEngine::Rendering::Universal::PostProcessPass_SMAAPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <RenderSMAA>b__127_2, addr 0x667d958, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method <RenderSMAA>b__127_2, addr 0x66e54e4, size 0x150, virtual false, abstract: false, final false
   inline void _RenderSMAA_b__127_2(::UnityEngine::Rendering::Universal::PostProcessPass_SMAAPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <RenderSMAA>b__127_3, addr 0x667daa8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method <RenderSMAA>b__127_3, addr 0x66e5634, size 0x1a8, virtual false, abstract: false, final false
   inline void _RenderSMAA_b__127_3(::UnityEngine::Rendering::Universal::PostProcessPass_SMAAPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <RenderStopNaN>b__124_0, addr 0x667d518, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method <RenderStopNaN>b__124_0, addr 0x66e50a4, size 0x150, virtual false, abstract: false, final false
   inline void _RenderStopNaN_b__124_0(::UnityEngine::Rendering::Universal::PostProcessPass_StopNaNsPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <RenderUberPost>b__162_0, addr 0x668142c, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method <RenderUberPost>b__162_0, addr 0x66e8fb8, size 0x2b0, virtual false, abstract: false, final false
   inline void _RenderUberPost_b__162_0(::UnityEngine::Rendering::Universal::PostProcessPass_UberPostPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <UberPostSetupBloomPass>b__129_0, addr 0x667dc50, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method <UberPostSetupBloomPass>b__129_0, addr 0x66e57dc, size 0x1e4, virtual false, abstract: false, final false
   inline void _UberPostSetupBloomPass_b__129_0(::UnityEngine::Rendering::Universal::PostProcessPass_UberSetupBloomPassData* data,
                                                ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <UpdateCameraResolution>b__122_0, addr 0x667d470, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <UpdateCameraResolution>b__122_0, addr 0x66e4ffc, size 0xa8, virtual false, abstract: false, final false
   inline void _UpdateCameraResolution_b__122_0(::UnityEngine::Rendering::Universal::PostProcessPass_UpdateCameraResolutionPassData* data,
                                                ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* ctx);
 
-  /// @brief Method .ctor, addr 0x667d344, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66e4ed0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::PostProcessPass___c* getStaticF___9();
@@ -3790,7 +3790,7 @@ public:
   PostProcessPass___c(PostProcessPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12842 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3817,7 +3817,7 @@ public:
                                                   ::UnityEngine::Rendering::CommandBuffer* cmd) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12843 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -4121,164 +4121,164 @@ public:
   /// @brief Field s_CameraDepthTextureID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_CameraDepthTextureID, put = setStaticF_s_CameraDepthTextureID)) int32_t s_CameraDepthTextureID;
 
-  /// @brief Method CalcCropExtents, addr 0x6671510, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CalcCropExtents, addr 0x66d909c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 CalcCropExtents(::UnityEngine::Camera* camera, float_t d);
 
-  /// @brief Method CalcViewExtents, addr 0x66714b4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CalcViewExtents, addr 0x66d9040, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 CalcViewExtents(::UnityEngine::Camera* camera);
 
-  /// @brief Method CanRunOnTile, addr 0x666a054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CanRunOnTile, addr 0x66d1be0, size 0x8, virtual false, abstract: false, final false
   inline bool CanRunOnTile();
 
-  /// @brief Method Cleanup, addr 0x6669b50, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x66d16dc, size 0x24, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Dispose, addr 0x6669ce4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x66d1870, size 0x1b4, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method DoBokehDepthOfField, addr 0x66707d0, size 0x62c, virtual false, abstract: false, final false
+  /// @brief Method DoBokehDepthOfField, addr 0x66d835c, size 0x62c, virtual false, abstract: false, final false
   inline void DoBokehDepthOfField(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination,
                                   ::UnityEngine::Rect pixelRect, bool enableAlphaOutput);
 
-  /// @brief Method DoDepthOfField, addr 0x666cbd8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method DoDepthOfField, addr 0x66d4764, size 0xfc, virtual false, abstract: false, final false
   inline void DoDepthOfField(::ByRef<::UnityEngine::Rendering::Universal::CameraData> cameraData, ::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source,
                              ::UnityEngine::Rendering::RTHandle* destination, ::UnityEngine::Rect pixelRect);
 
-  /// @brief Method DoGaussianDepthOfField, addr 0x6670080, size 0x750, virtual false, abstract: false, final false
+  /// @brief Method DoGaussianDepthOfField, addr 0x66d7c0c, size 0x750, virtual false, abstract: false, final false
   inline void DoGaussianDepthOfField(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination,
                                      ::UnityEngine::Rect pixelRect, bool enableAlphaOutput);
 
-  /// @brief Method DoLensFlareScreenSpace, addr 0x666dde4, size 0x654, virtual false, abstract: false, final false
+  /// @brief Method DoLensFlareScreenSpace, addr 0x66d5970, size 0x654, virtual false, abstract: false, final false
   inline void DoLensFlareScreenSpace(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier source,
                                      ::UnityEngine::Rendering::RTHandle* originalBloomTexture, ::UnityEngine::Rendering::RTHandle* screenSpaceLensFlareBloomMipTexture);
 
-  /// @brief Method DoMotionBlur, addr 0x666ccd4, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method DoMotionBlur, addr 0x66d4860, size 0x2d8, virtual false, abstract: false, final false
   inline void DoMotionBlur(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination,
                            ::UnityEngine::Rendering::RTHandle* motionVectors, ::ByRef<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-  /// @brief Method DoPaniniProjection, addr 0x666cfac, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method DoPaniniProjection, addr 0x66d4b38, size 0x254, virtual false, abstract: false, final false
   inline void DoPaniniProjection(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source,
                                  ::UnityEngine::Rendering::RTHandle* destination);
 
-  /// @brief Method DoSubpixelMorphologicalAntialiasing, addr 0x666c5fc, size 0x5dc, virtual false, abstract: false, final false
+  /// @brief Method DoSubpixelMorphologicalAntialiasing, addr 0x66d4188, size 0x5dc, virtual false, abstract: false, final false
   inline void DoSubpixelMorphologicalAntialiasing(::ByRef<::UnityEngine::Rendering::Universal::CameraData> cameraData, ::UnityEngine::Rendering::CommandBuffer* cmd,
                                                   ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination);
 
-  /// @brief Method Execute, addr 0x666a05c, size 0x374, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x66d1be8, size 0x374, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method GetCompatibleDescriptor, addr 0x666c1d4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetCompatibleDescriptor, addr 0x66d3d60, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTextureDescriptor GetCompatibleDescriptor();
 
-  /// @brief Method GetCompatibleDescriptor, addr 0x666c2f8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetCompatibleDescriptor, addr 0x66d3e84, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::RenderTextureDescriptor GetCompatibleDescriptor(::UnityEngine::RenderTextureDescriptor desc, int32_t width, int32_t height,
                                                                                ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                                                                ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat);
 
-  /// @brief Method GetCompatibleDescriptor, addr 0x666c21c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetCompatibleDescriptor, addr 0x66d3da8, size 0xdc, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTextureDescriptor GetCompatibleDescriptor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                                                         ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat);
 
-  /// @brief Method GetLensFlareLightAttenuation, addr 0x6671070, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method GetLensFlareLightAttenuation, addr 0x66d8bfc, size 0x24c, virtual false, abstract: false, final false
   static inline float_t GetLensFlareLightAttenuation(::UnityEngine::Light* light, ::UnityEngine::Camera* cam, ::UnityEngine::Vector3 wo);
 
-  /// @brief Method GetMaxBokehRadiusInPixels, addr 0x6671054, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetMaxBokehRadiusInPixels, addr 0x66d8be0, size 0x1c, virtual false, abstract: false, final false
   static inline float_t GetMaxBokehRadiusInPixels(float_t viewportHeight);
 
-  /// @brief Method IsAlphaFormat, addr 0x6669ad8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsAlphaFormat, addr 0x66d1664, size 0x78, virtual false, abstract: false, final false
   inline bool IsAlphaFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
-  /// @brief Method IsHDRFormat, addr 0x6669a0c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsHDRFormat, addr 0x66d1598, size 0xcc, virtual false, abstract: false, final false
   inline bool IsHDRFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
-  /// @brief Method LensFlareDataDriven, addr 0x666ec1c, size 0x7cc, virtual false, abstract: false, final false
+  /// @brief Method LensFlareDataDriven, addr 0x66d67a8, size 0x7cc, virtual false, abstract: false, final false
   inline void LensFlareDataDriven(::ByRef<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData, ::UnityEngine::Rendering::CommandBuffer* cmd,
                                   ::UnityEngine::Rendering::RenderTargetIdentifier source, bool usePanini, float_t paniniDistance, float_t paniniCropToFit);
 
-  /// @brief Method LensFlareDataDrivenComputeOcclusion, addr 0x666e438, size 0x7e4, virtual false, abstract: false, final false
+  /// @brief Method LensFlareDataDrivenComputeOcclusion, addr 0x66d5fc4, size 0x7e4, virtual false, abstract: false, final false
   inline void LensFlareDataDrivenComputeOcclusion(::ByRef<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData, ::UnityEngine::Rendering::CommandBuffer* cmd,
                                                   ::UnityEngine::Rendering::RenderTargetIdentifier source, bool usePanini, float_t paniniDistance, float_t paniniCropToFit);
 
-  /// @brief Method LensFlareDataDrivenComputeOcclusion, addr 0x6677610, size 0x5d4, virtual false, abstract: false, final false
+  /// @brief Method LensFlareDataDrivenComputeOcclusion, addr 0x66df19c, size 0x5d4, virtual false, abstract: false, final false
   inline void LensFlareDataDrivenComputeOcclusion(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                                                   ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
   static inline ::UnityEngine::Rendering::Universal::PostProcessPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::Universal::PostProcessData* data,
                                                                                ::ByRef<::UnityEngine::Rendering::Universal::PostProcessParams> postProcessParams);
 
-  /// @brief Method OnCameraSetup, addr 0x666a048, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnCameraSetup, addr 0x66d1bd4, size 0xc, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method PrepareBokehKernel, addr 0x6670dfc, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method PrepareBokehKernel, addr 0x66d8988, size 0x258, virtual false, abstract: false, final false
   inline void PrepareBokehKernel(float_t maxRadius, float_t rcpAspect);
 
-  /// @brief Method Render, addr 0x666ad80, size 0x1454, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x66d290c, size 0x1454, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::CommandBuffer* cmd, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method RenderBloomTexture, addr 0x6673ad8, size 0xeac, virtual false, abstract: false, final false
+  /// @brief Method RenderBloomTexture, addr 0x66db664, size 0xeac, virtual false, abstract: false, final false
   inline void RenderBloomTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                                  ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination, bool enableAlphaOutput);
 
-  /// @brief Method RenderDoF, addr 0x66749ec, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method RenderDoF, addr 0x66dc578, size 0x288, virtual false, abstract: false, final false
   inline void RenderDoF(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                         ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                         ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
 
-  /// @brief Method RenderDoFBokeh, addr 0x6675748, size 0xa8c, virtual false, abstract: false, final false
+  /// @brief Method RenderDoFBokeh, addr 0x66dd2d4, size 0xa8c, virtual false, abstract: false, final false
   inline void RenderDoFBokeh(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                              ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                              ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination, ::ByRef<::UnityEngine::Material*> dofMaterial);
 
-  /// @brief Method RenderDoFGaussian, addr 0x6674c74, size 0xad4, virtual false, abstract: false, final false
+  /// @brief Method RenderDoFGaussian, addr 0x66dc800, size 0xad4, virtual false, abstract: false, final false
   inline void RenderDoFGaussian(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                                 ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                                 ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::ByRef<::UnityEngine::Material*> dofMaterial);
 
-  /// @brief Method RenderFinalBlit, addr 0x66798a0, size 0x6bc, virtual false, abstract: false, final false
+  /// @brief Method RenderFinalBlit, addr 0x66e142c, size 0x6bc, virtual false, abstract: false, final false
   inline void RenderFinalBlit(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                               ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture,
                               ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> postProcessingTarget,
                               ::ByRef<::UnityEngine::Rendering::Universal::PostProcessPass_FinalBlitSettings> settings);
 
-  /// @brief Method RenderFinalFSRScale, addr 0x66793a0, size 0x500, virtual false, abstract: false, final false
+  /// @brief Method RenderFinalFSRScale, addr 0x66e0f2c, size 0x500, virtual false, abstract: false, final false
   inline void RenderFinalFSRScale(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                                   ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination, bool enableAlphaOutput);
 
-  /// @brief Method RenderFinalPass, addr 0x666a3d0, size 0x9b0, virtual false, abstract: false, final false
+  /// @brief Method RenderFinalPass, addr 0x66d1f5c, size 0x9b0, virtual false, abstract: false, final false
   inline void RenderFinalPass(::UnityEngine::Rendering::CommandBuffer* cmd, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method RenderFinalPassRenderGraph, addr 0x6679f5c, size 0x6a4, virtual false, abstract: false, final false
+  /// @brief Method RenderFinalPassRenderGraph, addr 0x66e1ae8, size 0x6a4, virtual false, abstract: false, final false
   inline void RenderFinalPassRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                                          ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                                          ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture,
                                          ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> postProcessingTarget, bool enableColorEncodingIfNeeded);
 
-  /// @brief Method RenderFinalSetup, addr 0x6678d34, size 0x66c, virtual false, abstract: false, final false
+  /// @brief Method RenderFinalSetup, addr 0x66e08c0, size 0x66c, virtual false, abstract: false, final false
   inline void RenderFinalSetup(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
                                ::ByRef<::UnityEngine::Rendering::Universal::PostProcessPass_FinalBlitSettings> settings);
 
-  /// @brief Method RenderLensFlareDataDriven, addr 0x6677be4, size 0x658, virtual false, abstract: false, final false
+  /// @brief Method RenderLensFlareDataDriven, addr 0x66df770, size 0x658, virtual false, abstract: false, final false
   inline void RenderLensFlareDataDriven(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                                         ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
 
-  /// @brief Method RenderLensFlareScreenSpace, addr 0x667823c, size 0x8a0, virtual false, abstract: false, final false
+  /// @brief Method RenderLensFlareScreenSpace, addr 0x66dfdc8, size 0x8a0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle RenderLensFlareScreenSpace(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Camera* camera,
                                                                                                ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination,
                                                                                                ::UnityEngine::Rendering::RenderGraphModule::TextureHandle originalBloomTexture,
                                                                                                ::UnityEngine::Rendering::RenderGraphModule::TextureHandle screenSpaceLensFlareBloomMipTexture,
                                                                                                bool enableXR);
 
-  /// @brief Method RenderMotionBlur, addr 0x6676d68, size 0x8a8, virtual false, abstract: false, final false
+  /// @brief Method RenderMotionBlur, addr 0x66de8f4, size 0x8a8, virtual false, abstract: false, final false
   inline void RenderMotionBlur(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                                ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                                ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
 
-  /// @brief Method RenderPaniniProjection, addr 0x66761d4, size 0x728, virtual false, abstract: false, final false
+  /// @brief Method RenderPaniniProjection, addr 0x66ddd60, size 0x728, virtual false, abstract: false, final false
   inline void RenderPaniniProjection(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Camera* camera,
                                      ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
 
-  /// @brief Method RenderPostProcessingRenderGraph, addr 0x667b4fc, size 0x1000, virtual false, abstract: false, final false
+  /// @brief Method RenderPostProcessingRenderGraph, addr 0x66e3088, size 0x1000, virtual false, abstract: false, final false
   inline void RenderPostProcessingRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                                               ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> activeCameraColorTexture,
                                               ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> lutTexture,
@@ -4286,96 +4286,96 @@ public:
                                               ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> postProcessingTarget, bool hasFinalPass, bool resolveToDebugScreen,
                                               bool enableColorEndingIfNeeded);
 
-  /// @brief Method RenderSMAA, addr 0x6671edc, size 0x1454, virtual false, abstract: false, final false
+  /// @brief Method RenderSMAA, addr 0x66d9a68, size 0x1454, virtual false, abstract: false, final false
   inline void RenderSMAA(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                          ::UnityEngine::Rendering::Universal::AntialiasingQuality antialiasingQuality, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                          ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> SMAATarget);
 
-  /// @brief Method RenderSTP, addr 0x6676ad4, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method RenderSTP, addr 0x66de660, size 0x294, virtual false, abstract: false, final false
   inline void RenderSTP(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                         ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                         ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
 
-  /// @brief Method RenderStopNaN, addr 0x6671960, size 0x57c, virtual false, abstract: false, final false
+  /// @brief Method RenderStopNaN, addr 0x66d94ec, size 0x57c, virtual false, abstract: false, final false
   inline void RenderStopNaN(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::RenderTextureDescriptor cameraTargetDescriptor,
                             ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> activeCameraColor, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> stopNaNTarget);
 
-  /// @brief Method RenderTemporalAA, addr 0x66768fc, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method RenderTemporalAA, addr 0x66de488, size 0x1d8, virtual false, abstract: false, final false
   inline void RenderTemporalAA(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                                ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> source,
                                ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destination);
 
-  /// @brief Method RenderUberPost, addr 0x667a810, size 0xcec, virtual false, abstract: false, final false
+  /// @brief Method RenderUberPost, addr 0x66e239c, size 0xcec, virtual false, abstract: false, final false
   inline void RenderUberPost(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                              ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Rendering::Universal::UniversalPostProcessingData* postProcessingData,
                              ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> sourceTexture, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> destTexture,
                              ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> lutTexture, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> overlayUITexture,
                              bool requireHDROutput, bool enableAlphaOutput, bool resolveToDebugScreen, bool hasFinalPass);
 
-  /// @brief Method RequireHDROutput, addr 0x666c364, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RequireHDROutput, addr 0x66d3ef0, size 0x3c, virtual false, abstract: false, final false
   inline bool RequireHDROutput(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method RequireSRGBConversionBlitToBackBuffer, addr 0x666c348, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RequireSRGBConversionBlitToBackBuffer, addr 0x66d3ed4, size 0x1c, virtual false, abstract: false, final false
   inline bool RequireSRGBConversionBlitToBackBuffer(bool requireSrgbConversion);
 
-  /// @brief Method ScaleViewportAndBlit, addr 0x6678adc, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ScaleViewportAndBlit, addr 0x66e0668, size 0x258, virtual false, abstract: false, final false
   static inline void ScaleViewportAndBlit(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* sourceTextureHdl, ::UnityEngine::Rendering::RTHandle* dest,
                                           ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Material* material, bool hasFinalPass);
 
-  /// @brief Method Setup, addr 0x6669e98, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x66d1a24, size 0x110, virtual false, abstract: false, final false
   inline void Setup(::ByRef<::UnityEngine::RenderTextureDescriptor> baseDescriptor, ::ByRef<::UnityEngine::Rendering::RTHandle*> source, bool resolveToScreen,
                     ::ByRef<::UnityEngine::Rendering::RTHandle*> depth, ::ByRef<::UnityEngine::Rendering::RTHandle*> internalLut, ::ByRef<::UnityEngine::Rendering::RTHandle*> motionVectors,
                     bool hasFinalPass, bool enableColorEncoding);
 
-  /// @brief Method SetupBloom, addr 0x666d200, size 0xbe4, virtual false, abstract: false, final false
+  /// @brief Method SetupBloom, addr 0x66d4d8c, size 0xbe4, virtual false, abstract: false, final false
   inline void SetupBloom(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Material* uberMaterial, bool enableAlphaOutput);
 
-  /// @brief Method SetupChromaticAberration, addr 0x666f6f4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SetupChromaticAberration, addr 0x66d7280, size 0x10c, virtual false, abstract: false, final false
   inline void SetupChromaticAberration(::UnityEngine::Material* material);
 
-  /// @brief Method SetupColorGrading, addr 0x666fa44, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method SetupColorGrading, addr 0x66d75d0, size 0x36c, virtual false, abstract: false, final false
   inline void SetupColorGrading(::UnityEngine::Rendering::CommandBuffer* cmd, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData, ::UnityEngine::Material* material);
 
-  /// @brief Method SetupDithering, addr 0x666fe64, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetupDithering, addr 0x66d79f0, size 0xa0, virtual false, abstract: false, final false
   inline void SetupDithering(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Material* material);
 
-  /// @brief Method SetupFinalPass, addr 0x6669fa8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetupFinalPass, addr 0x66d1b34, size 0xa0, virtual false, abstract: false, final false
   inline void SetupFinalPass(::ByRef<::UnityEngine::Rendering::RTHandle*> source, bool useSwapBuffer, bool enableColorEncoding);
 
-  /// @brief Method SetupGrain, addr 0x666fdb0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetupGrain, addr 0x66d793c, size 0xb4, virtual false, abstract: false, final false
   inline void SetupGrain(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Material* material);
 
-  /// @brief Method SetupHDROutput, addr 0x666ff04, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method SetupHDROutput, addr 0x66d7a90, size 0x17c, virtual false, abstract: false, final false
   inline void SetupHDROutput(::UnityEngine::Rendering::HDROutputUtils_HDRDisplayInformation hdrDisplayInformation, ::UnityEngine::ColorGamut hdrDisplayColorGamut, ::UnityEngine::Material* material,
                              ::UnityEngine::Rendering::HDROutputUtils_Operation hdrOperations, bool rendersOverlayUI);
 
-  /// @brief Method SetupLensDistortion, addr 0x666f3e8, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method SetupLensDistortion, addr 0x66d6f74, size 0x30c, virtual false, abstract: false, final false
   inline void SetupLensDistortion(::UnityEngine::Material* material, bool isSceneView);
 
-  /// @brief Method SetupVignette, addr 0x666f800, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method SetupVignette, addr 0x66d738c, size 0x244, virtual false, abstract: false, final false
   inline void SetupVignette(::UnityEngine::Material* material, ::UnityEngine::Experimental::Rendering::XRPass* xrPass);
 
-  /// @brief Method TryGetCachedUserLutTextureHandle, addr 0x667a600, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method TryGetCachedUserLutTextureHandle, addr 0x66e218c, size 0x210, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle TryGetCachedUserLutTextureHandle(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
-  /// @brief Method UberPostSetupBloomPass, addr 0x6673330, size 0x7a8, virtual false, abstract: false, final false
+  /// @brief Method UberPostSetupBloomPass, addr 0x66daebc, size 0x7a8, virtual false, abstract: false, final false
   inline void UberPostSetupBloomPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* rendergraph, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> bloomTexture,
                                      ::UnityEngine::Material* uberMaterial);
 
-  /// @brief Method UpdateCameraResolution, addr 0x6671564, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method UpdateCameraResolution, addr 0x66d90f0, size 0x3fc, virtual false, abstract: false, final false
   inline void UpdateCameraResolution(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                      ::UnityEngine::Vector2Int newCameraTargetSize);
 
-  /// @brief Method UpdateMotionBlurMatrices, addr 0x66712bc, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method UpdateMotionBlurMatrices, addr 0x66d8e48, size 0x1f8, virtual false, abstract: false, final false
   static inline void UpdateMotionBlurMatrices(::ByRef<::UnityEngine::Material*> material, ::UnityEngine::Camera* camera, ::UnityEngine::Experimental::Rendering::XRPass* xr);
 
-  /// @brief Method <Render>g__GetDestination|89_1, addr 0x666c3a8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method <Render>g__GetDestination|89_1, addr 0x66d3f34, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* _Render_g__GetDestination_89_1(::ByRef<::UnityEngine::Rendering::Universal::PostProcessPass___c__DisplayClass89_0> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method <Render>g__GetSource|89_0, addr 0x666c3a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <Render>g__GetSource|89_0, addr 0x66d3f2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* _Render_g__GetSource_89_0(::ByRef<::UnityEngine::Rendering::Universal::PostProcessPass___c__DisplayClass89_0> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method <Render>g__Swap|89_2, addr 0x666c4e4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method <Render>g__Swap|89_2, addr 0x66d4070, size 0x118, virtual false, abstract: false, final false
   inline void _Render_g__Swap_89_2(::ByRef<::UnityEngine::Rendering::Universal::ScriptableRenderer*> r,
                                    ::ByRef<::UnityEngine::Rendering::Universal::PostProcessPass___c__DisplayClass89_0> _cordl_fixed_empty_name_whitespace);
 
@@ -4734,7 +4734,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Vignette(::UnityW<::UnityEngine::Rendering::Universal::Vignette> value);
 
-  /// @brief Method .ctor, addr 0x66690f0, size 0x6fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66d0c7c, size 0x6fc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::Universal::PostProcessData* data,
                     ::ByRef<::UnityEngine::Rendering::Universal::PostProcessParams> postProcessParams);
 
@@ -4787,7 +4787,7 @@ public:
   static constexpr ::ConstString _UpscaledColorTargetName{ u"_UpscaledColorTarget" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12844 };
 
   /// @brief Field k_BokehDoFPassBlur offset 0xffffffff size 0x4
   static constexpr int32_t k_BokehDoFPassBlur{ static_cast<int32_t>(0x2) };

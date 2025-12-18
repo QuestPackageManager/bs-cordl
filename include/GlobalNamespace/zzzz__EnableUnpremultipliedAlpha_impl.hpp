@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnableUnpremultipliedAlpha::*)()>(&::GlobalNamespace::EnableUnpremultipliedAlpha::Start)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x581ba08;
+  constexpr static std::size_t addrs = 0x588216c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnableUnpremultipliedAlpha*>::get(), "Start",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnableUnpremultipliedAlpha::*)()>(&::GlobalNamespace::EnableUnpremultipliedAlpha::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x581ba60;
+  constexpr static std::size_t addrs = 0x58821c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnableUnpremultipliedAlpha*>::get(), ".ctor",

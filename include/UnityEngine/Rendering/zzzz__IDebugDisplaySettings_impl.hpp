@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::IDebugDisplaySettingsData* (
     ::UnityEngine::Rendering::IDebugDisplaySettings::*)(::UnityEngine::Rendering::IDebugDisplaySettingsData*)>(&::UnityEngine::Rendering::IDebugDisplaySettings::Add)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x654eb30;
+  constexpr static std::size_t addrs = 0x65b66bc;
 
   inline static ::MethodInfo const* methodInfo() {
 

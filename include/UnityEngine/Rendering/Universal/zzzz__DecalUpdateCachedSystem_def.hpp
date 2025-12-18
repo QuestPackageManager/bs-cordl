@@ -68,13 +68,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::Jobs::IJobParallelForTransform"
   constexpr operator ::UnityEngine::Jobs::IJobParallelForTransform*();
 
-  /// @brief Method DistanceBetweenQuaternions, addr 0x663f840, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method DistanceBetweenQuaternions, addr 0x66a73cc, size 0x30, virtual false, abstract: false, final false
   inline float_t DistanceBetweenQuaternions(::Unity::Mathematics::quaternion a, ::Unity::Mathematics::quaternion b);
 
-  /// @brief Method Execute, addr 0x663f870, size 0x664, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x66a73fc, size 0x664, virtual true, abstract: false, final true
   inline void Execute(int32_t index, ::UnityEngine::Jobs::TransformAccess transform);
 
-  /// @brief Method GetDecalProjectBoundingSphere, addr 0x663fed4, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method GetDecalProjectBoundingSphere, addr 0x66a7a60, size 0x388, virtual false, abstract: false, final false
   inline ::UnityEngine::BoundingSphere GetDecalProjectBoundingSphere(::UnityEngine::Matrix4x4 decalToWorld);
 
   static inline ::Unity::Mathematics::quaternion getStaticF_k_MinusYtoZRotation();
@@ -106,7 +106,7 @@ public:
                                                         ::Unity::Collections::NativeArray_1<::UnityEngine::BoundingSphere> boundingSpheres, float_t minDistance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12677 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };
@@ -185,10 +185,10 @@ public:
   /// @brief Field m_SamplerJob, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SamplerJob, put = __cordl_internal_set_m_SamplerJob)) ::UnityEngine::Rendering::ProfilingSampler* m_SamplerJob;
 
-  /// @brief Method Execute, addr 0x663f438, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x66a6fc4, size 0x170, virtual false, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method Execute, addr 0x663f5a8, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x66a7134, size 0x298, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::Universal::DecalEntityChunk* entityChunk, ::UnityEngine::Rendering::Universal::DecalCachedChunk* cachedChunk, int32_t count);
 
   static inline ::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem* New_ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
@@ -211,7 +211,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SamplerJob(::UnityEngine::Rendering::ProfilingSampler* value);
 
-  /// @brief Method .ctor, addr 0x663f37c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66a6f08, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
 
 protected:
@@ -229,7 +229,7 @@ public:
   DecalUpdateCachedSystem(DecalUpdateCachedSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12678 };
 
   /// @brief Field m_EntityManager, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DecalEntityManager* ___m_EntityManager;

@@ -23,24 +23,24 @@ namespace UnityEngine::XR::OpenXR::Features {
 class CORDL_TYPE FoveatedRenderingFeature : public ::UnityEngine::XR::OpenXR::Features::OpenXRFeature {
 public:
   // Declarations
-  /// @brief Method HookGetInstanceProcAddr, addr 0x67c2ff0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method HookGetInstanceProcAddr, addr 0x682ab68, size 0x8, virtual true, abstract: false, final false
   inline ::System::IntPtr HookGetInstanceProcAddr(::System::IntPtr func);
 
-  /// @brief Method Internal_Unity_GetUseFoveatedRenderingLegacyMode, addr 0x67c3074, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Unity_GetUseFoveatedRenderingLegacyMode, addr 0x682abec, size 0x6c, virtual false, abstract: false, final false
   static inline bool Internal_Unity_GetUseFoveatedRenderingLegacyMode();
 
-  /// @brief Method Internal_Unity_SetUseFoveatedRenderingLegacyMode, addr 0x67c2f6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Unity_SetUseFoveatedRenderingLegacyMode, addr 0x682aae4, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_Unity_SetUseFoveatedRenderingLegacyMode(bool value);
 
-  /// @brief Method Internal_Unity_intercept_xrGetInstanceProcAddr, addr 0x67c2ff8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Unity_intercept_xrGetInstanceProcAddr, addr 0x682ab70, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Unity_intercept_xrGetInstanceProcAddr(::System::IntPtr func);
 
   static inline ::UnityEngine::XR::OpenXR::Features::FoveatedRenderingFeature* New_ctor();
 
-  /// @brief Method OnInstanceCreate, addr 0x67c2ec8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x682aa40, size 0xa4, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t instance);
 
-  /// @brief Method .ctor, addr 0x67c30e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x682ac58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,7 +61,7 @@ public:
   static constexpr ::ConstString Library{ u"UnityOpenXR" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18518 };
 
   /// @brief Field featureId offset 0xffffffff size 0x8
   static constexpr ::ConstString featureId{ u"com.unity.openxr.feature.foveatedrendering" };

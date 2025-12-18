@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::NativeTextGenerationSettings___c::*)()>(
     &::UnityEngine::TextCore::NativeTextGenerationSettings___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x698df90;
+  constexpr static std::size_t addrs = 0x69f6e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::NativeTextGenerationSettings___c::*)(::UnityEngine::TextCore::TextSpan)>(
     &::UnityEngine::TextCore::NativeTextGenerationSettings___c::_get_hasLink_b__20_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x698df94;
+  constexpr static std::size_t addrs = 0x69f6e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::NativeTextGenerationSettings::*)()>(
     &::UnityEngine::TextCore::NativeTextGenerationSettings::get_hasLink)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x698cdf8;
+  constexpr static std::size_t addrs = 0x69f5c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::NativeTextGenerationSettings>::get(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::TextSpan (::UnityEngine::TextCore::NativeTextGenerationSettings::*)()>(
     &::UnityEngine::TextCore::NativeTextGenerationSettings::CreateTextSpan)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x698cf14;
+  constexpr static std::size_t addrs = 0x69f5d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::NativeTextGenerationSettings>::get(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::NativeTextGenerationSettings (*)()>(
     &::UnityEngine::TextCore::NativeTextGenerationSettings::get_Default)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x698cf38;
+  constexpr static std::size_t addrs = 0x69f5dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::NativeTextGenerationSettings>::get(),
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::NativeTextGenerationSettings::*)()>(
     &::UnityEngine::TextCore::NativeTextGenerationSettings::ToString)> {
   constexpr static std::size_t size = 0xb18;
-  constexpr static std::size_t addrs = 0x698cf84;
+  constexpr static std::size_t addrs = 0x69f5e08;
 
   inline static ::MethodInfo const* methodInfo() {
 

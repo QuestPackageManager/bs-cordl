@@ -28,10 +28,10 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x65fdfb0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6665b3c, size 0x6c, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method ProcessMaterial, addr 0x65fdecc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ProcessMaterial, addr 0x6665a58, size 0xe4, virtual false, abstract: false, final false
   inline void ProcessMaterial(int32_t i);
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -49,7 +49,7 @@ public:
                                              ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialHash) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17641 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

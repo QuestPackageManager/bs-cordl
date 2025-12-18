@@ -160,7 +160,7 @@ public:
   TreeSubSet_SortedSet_1___c__DisplayClass9_0(TreeSubSet_SortedSet_1___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11391 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11395 };
 
   /// @brief Field toRemove, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* ___toRemove;
@@ -335,7 +335,7 @@ public:
   SortedSet_1_Node(SortedSet_1_Node const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11393 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11397 };
 
   /// @brief Field <Item>k__BackingField, offset: 0x10, size: 0x8, def value: None
   T ____Item_k__BackingField;
@@ -453,7 +453,7 @@ public:
                                    bool _reverse) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11394 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11398 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -494,7 +494,7 @@ public:
   constexpr SortedSet_1_ElementCount(int32_t UniqueCount, int32_t UnfoundCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11399 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -568,7 +568,7 @@ public:
   SortedSet_1___c__DisplayClass52_0(SortedSet_1___c__DisplayClass52_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11400 };
 
   /// @brief Field index, offset: 0x10, size: 0x4, def value: None
   int32_t ___index;
@@ -633,7 +633,7 @@ public:
   SortedSet_1___c__DisplayClass53_0(SortedSet_1___c__DisplayClass53_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11397 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11401 };
 
   /// @brief Field index, offset: 0x10, size: 0x4, def value: None
   int32_t ___index;
@@ -1002,7 +1002,7 @@ public:
   SortedSet_1(SortedSet_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11402 };
 
   /// @brief Field root, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::SortedSet_1_Node<T>* ___root;

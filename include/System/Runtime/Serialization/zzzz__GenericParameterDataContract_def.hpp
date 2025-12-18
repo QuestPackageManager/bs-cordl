@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_parameterPosition(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5f391f8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fa0d84, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
 protected:
@@ -58,7 +58,7 @@ public:
   GenericParameterDataContract_GenericParameterDataContractCriticalHelper(GenericParameterDataContract_GenericParameterDataContractCriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17000 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17014 };
 
   /// @brief Field parameterPosition, offset: 0x48, size: 0x4, def value: None
   int32_t ___parameterPosition;
@@ -94,10 +94,10 @@ public:
 
   constexpr void __cordl_internal_set_helper(::System::Runtime::Serialization::GenericParameterDataContract_GenericParameterDataContractCriticalHelper* value);
 
-  /// @brief Method .ctor, addr 0x5f2c364, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f93ef0, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_IsBuiltInDataContract, addr 0x5f3929c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsBuiltInDataContract, addr 0x5fa0e28, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsBuiltInDataContract();
 
 protected:
@@ -115,7 +115,7 @@ public:
   GenericParameterDataContract(GenericParameterDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17001 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17015 };
 
   /// @brief Field helper, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::Serialization::GenericParameterDataContract_GenericParameterDataContractCriticalHelper* ___helper;

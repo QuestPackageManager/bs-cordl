@@ -22,7 +22,7 @@ namespace UnityEngine::VFX {
 struct CORDL_TYPE VFXOutputEventArgs {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6bf7f40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c60dc4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t nameId, ::UnityEngine::VFX::VFXEventAttribute* eventAttribute);
 
   // Ctor Parameters []
@@ -34,7 +34,7 @@ public:
   constexpr VFXOutputEventArgs(int32_t _nameId_k__BackingField, ::UnityEngine::VFX::VFXEventAttribute* _eventAttribute_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22617 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

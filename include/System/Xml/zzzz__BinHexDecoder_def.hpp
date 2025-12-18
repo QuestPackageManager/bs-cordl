@@ -45,25 +45,25 @@ public:
   /// @brief Field startIndex, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_startIndex, put = __cordl_internal_set_startIndex)) int32_t startIndex;
 
-  /// @brief Method Decode, addr 0x5f76a08, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x5fde594, size 0x1dc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::ArrayW<char16_t, ::Array<char16_t>*> chars, bool allowOddChars);
 
-  /// @brief Method Decode, addr 0x5f7650c, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x5fde098, size 0x150, virtual true, abstract: false, final false
   inline int32_t Decode(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t startPos, int32_t len);
 
-  /// @brief Method Decode, addr 0x5f76808, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x5fde394, size 0x14c, virtual true, abstract: false, final false
   inline int32_t Decode(::StringW str, int32_t startPos, int32_t len);
 
-  /// @brief Method Decode, addr 0x5f7665c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x5fde1e8, size 0x1ac, virtual false, abstract: false, final false
   static inline void Decode(char16_t* pChars, char16_t* pCharsEndPos, uint8_t* pBytes, uint8_t* pBytesEndPos, ::ByRef<bool> hasHalfByteCached, ::ByRef<uint8_t> cachedHalfByte,
                             ::ByRef<int32_t> charsDecoded, ::ByRef<int32_t> bytesDecoded);
 
   static inline ::System::Xml::BinHexDecoder* New_ctor();
 
-  /// @brief Method Reset, addr 0x5f76954, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x5fde4e0, size 0x8, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetNextOutputBuffer, addr 0x5f7695c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method SetNextOutputBuffer, addr 0x5fde4e8, size 0xac, virtual true, abstract: false, final false
   inline void SetNextOutputBuffer(::System::Array* buffer, int32_t index, int32_t count);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
@@ -102,13 +102,13 @@ public:
 
   constexpr void __cordl_internal_set_startIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5f76be4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fde770, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DecodedCount, addr 0x5f764f0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_DecodedCount, addr 0x5fde07c, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_DecodedCount();
 
-  /// @brief Method get_IsFull, addr 0x5f764fc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_IsFull, addr 0x5fde088, size 0x10, virtual true, abstract: false, final false
   inline bool get_IsFull();
 
 protected:
@@ -126,7 +126,7 @@ public:
   BinHexDecoder(BinHexDecoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9224 };
 
   /// @brief Field buffer, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___buffer;

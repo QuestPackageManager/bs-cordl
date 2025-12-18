@@ -20,13 +20,13 @@ namespace UnityEngine::InputSystem::Android::LowLevel {
 struct CORDL_TYPE AndroidSensorCapabilities {
 public:
   // Declarations
-  /// @brief Method FromJson, addr 0x638eba4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x63f6730, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilities FromJson(::StringW json);
 
-  /// @brief Method ToJson, addr 0x638eb40, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x63f66cc, size 0x64, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
-  /// @brief Method ToString, addr 0x638ec3c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x63f67c8, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
   constexpr AndroidSensorCapabilities(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType sensorType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8924 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8928 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

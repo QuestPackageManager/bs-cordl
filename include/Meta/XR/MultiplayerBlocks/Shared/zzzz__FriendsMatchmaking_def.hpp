@@ -140,7 +140,7 @@ public:
 
   static inline ::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass21_0* New_ctor();
 
-  /// @brief Method <LaunchFriendsInvitePanelAsync>b__0, addr 0x585ff00, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method <LaunchFriendsInvitePanelAsync>b__0, addr 0x58c6664, size 0xe8, virtual false, abstract: false, final false
   inline void _LaunchFriendsInvitePanelAsync_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::InvitePanelResultInfo*>* message);
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::InvitePanelResultInfo*>*>* const& __cordl_internal_get_tcs() const;
@@ -149,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::InvitePanelResultInfo*>*>* value);
 
-  /// @brief Method .ctor, addr 0x585f4c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c5c2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -167,7 +167,7 @@ public:
   FriendsMatchmaking___c__DisplayClass21_0(FriendsMatchmaking___c__DisplayClass21_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20327 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20352 };
 
   /// @brief Field tcs, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::InvitePanelResultInfo*>*>* ___tcs;
@@ -192,7 +192,7 @@ public:
 
   static inline ::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass23_0* New_ctor();
 
-  /// @brief Method <LaunchRosterPanelAsync>b__0, addr 0x585ffe8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method <LaunchRosterPanelAsync>b__0, addr 0x58c674c, size 0xe8, virtual false, abstract: false, final false
   inline void _LaunchRosterPanelAsync_b__0(::Oculus::Platform::Message* message);
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message*>* const& __cordl_internal_get_tcs() const;
@@ -201,7 +201,7 @@ public:
 
   constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message*>* value);
 
-  /// @brief Method .ctor, addr 0x585f63c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c5da0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -219,7 +219,7 @@ public:
   FriendsMatchmaking___c__DisplayClass23_0(FriendsMatchmaking___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20328 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20353 };
 
   /// @brief Field tcs, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message*>* ___tcs;
@@ -244,7 +244,7 @@ public:
 
   static inline ::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass28_0* New_ctor();
 
-  /// @brief Method <ClearGroupPresence>b__0, addr 0x58600d0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method <ClearGroupPresence>b__0, addr 0x58c6834, size 0xe8, virtual false, abstract: false, final false
   inline void _ClearGroupPresence_b__0(::Oculus::Platform::Message* message);
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message*>* const& __cordl_internal_get_tcs() const;
@@ -253,7 +253,7 @@ public:
 
   constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message*>* value);
 
-  /// @brief Method .ctor, addr 0x585f9bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c6120, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -271,7 +271,7 @@ public:
   FriendsMatchmaking___c__DisplayClass28_0(FriendsMatchmaking___c__DisplayClass28_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20329 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20354 };
 
   /// @brief Field tcs, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message*>* ___tcs;
@@ -296,7 +296,7 @@ public:
 
   static inline ::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking___c__DisplayClass29_0* New_ctor();
 
-  /// @brief Method <SetGroupPresence>b__0, addr 0x58601b8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <SetGroupPresence>b__0, addr 0x58c691c, size 0x64, virtual false, abstract: false, final false
   inline void _SetGroupPresence_b__0(::Oculus::Platform::Message* message);
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message*>* const& __cordl_internal_get_tcs() const;
@@ -305,7 +305,7 @@ public:
 
   constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message*>* value);
 
-  /// @brief Method .ctor, addr 0x585faf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c625c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -323,7 +323,7 @@ public:
   FriendsMatchmaking___c__DisplayClass29_0(FriendsMatchmaking___c__DisplayClass29_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20355 };
 
   /// @brief Field tcs, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message*>* ___tcs;
@@ -346,10 +346,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x586021c, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58c6980, size 0x28c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x58604a8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x58c6c0c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -369,7 +369,7 @@ public:
                                                ::System::Runtime::CompilerServices::TaskAwaiter_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20331 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20356 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -420,10 +420,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5860514, size 0x250, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58c6c78, size 0x250, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5860764, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x58c6ec8, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -444,7 +444,7 @@ public:
                                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20357 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -490,10 +490,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x586076c, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58c6ed0, size 0x198, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5860904, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x58c7068, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -514,7 +514,7 @@ public:
                                                             ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20333 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20358 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -560,10 +560,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x586090c, size 0x314, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58c7070, size 0x314, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5860c20, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x58c7384, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -583,7 +583,7 @@ public:
                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20334 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20359 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -686,61 +686,61 @@ public:
       get = __cordl_internal_get_onMatchRequestFound,
       put = __cordl_internal_set_onMatchRequestFound)) ::UnityEngine::Events::UnityEvent_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>* onMatchRequestFound;
 
-  /// @brief Method Awake, addr 0x585eac4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58c5228, size 0x154, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ClearGroupPresence, addr 0x585f7c4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ClearGroupPresence, addr 0x58c5f28, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::Oculus::Platform::Message*>* ClearGroupPresence();
 
-  /// @brief Method ClearGroupPresenceCallback, addr 0x585f7c0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ClearGroupPresenceCallback, addr 0x58c5f24, size 0x4, virtual true, abstract: false, final false
   inline void ClearGroupPresenceCallback();
 
-  /// @brief Method GetGroupPresenceOptions, addr 0x585fdac, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method GetGroupPresenceOptions, addr 0x58c6510, size 0xe0, virtual true, abstract: false, final false
   inline ::Oculus::Platform::GroupPresenceOptions* GetGroupPresenceOptions(::StringW roomId, ::StringW roomPassword);
 
-  /// @brief Method JoinRoom, addr 0x585f6fc, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method JoinRoom, addr 0x58c5e60, size 0xc4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* JoinRoom(::StringW roomId, ::StringW roomPassword);
 
-  /// @brief Method LaunchFriendsInvitePanel, addr 0x585f340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LaunchFriendsInvitePanel, addr 0x58c5aa4, size 0x8, virtual false, abstract: false, final false
   inline void LaunchFriendsInvitePanel();
 
-  /// @brief Method LaunchFriendsInvitePanelAsync, addr 0x585f348, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method LaunchFriendsInvitePanelAsync, addr 0x58c5aac, size 0x180, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::InvitePanelResultInfo*>*>*
   LaunchFriendsInvitePanelAsync(::Oculus::Platform::InviteOptions* inviteOptions);
 
-  /// @brief Method LaunchRosterPanel, addr 0x585f4cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LaunchRosterPanel, addr 0x58c5c30, size 0x8, virtual false, abstract: false, final false
   inline void LaunchRosterPanel();
 
-  /// @brief Method LaunchRosterPanelAsync, addr 0x585f4d4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method LaunchRosterPanelAsync, addr 0x58c5c38, size 0x168, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::Oculus::Platform::Message*>* LaunchRosterPanelAsync(::Oculus::Platform::RosterOptions* rosterOptions);
 
   static inline ::Meta::XR::MultiplayerBlocks::Shared::FriendsMatchmaking* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x585f15c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x58c58c0, size 0x1e4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x585ef78, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x58c56dc, size 0x1e4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnEntitlementFinished, addr 0x585fafc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method OnEntitlementFinished, addr 0x58c6260, size 0x124, virtual false, abstract: false, final false
   inline void OnEntitlementFinished(::Meta::XR::MultiplayerBlocks::Shared::PlatformInfo info);
 
-  /// @brief Method OnInvitationsSent, addr 0x585fccc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnInvitationsSent, addr 0x58c6430, size 0x70, virtual false, abstract: false, final false
   inline void OnInvitationsSent(::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchInvitePanelFlowResult*>* message);
 
-  /// @brief Method OnJoinIntentReceived, addr 0x585fc20, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method OnJoinIntentReceived, addr 0x58c6384, size 0xac, virtual true, abstract: false, final false
   inline void OnJoinIntentReceived(::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceJoinIntent*>* message);
 
-  /// @brief Method OnLeaveIntentNotification, addr 0x585fd3c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnLeaveIntentNotification, addr 0x58c64a0, size 0x70, virtual false, abstract: false, final false
   inline void OnLeaveIntentNotification(::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceLeaveIntent*>* message);
 
-  /// @brief Method OnRoomOperationResult, addr 0x585f640, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method OnRoomOperationResult, addr 0x58c5da4, size 0xbc, virtual true, abstract: false, final false
   inline void OnRoomOperationResult(::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult result);
 
-  /// @brief Method RegisterGameRoom, addr 0x585f8f4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method RegisterGameRoom, addr 0x58c6058, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RegisterGameRoom(::StringW roomId, ::StringW roomPassword);
 
-  /// @brief Method SetGroupPresence, addr 0x585f9c0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method SetGroupPresence, addr 0x58c6124, size 0x138, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::Oculus::Platform::Message*>* SetGroupPresence(::Oculus::Platform::GroupPresenceOptions* groupPresenceOptions);
 
   constexpr ::UnityW<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking> const& __cordl_internal_get__customMatchmaking() const;
@@ -785,25 +785,25 @@ public:
 
   constexpr void __cordl_internal_set_onMatchRequestFound(::UnityEngine::Events::UnityEvent_1<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmaking_RoomOperationResult>* value);
 
-  /// @brief Method .ctor, addr 0x585fe8c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c65f0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DestinationApi, addr 0x585ea94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DestinationApi, addr 0x58c51f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DestinationApi();
 
-  /// @brief Method get_InviteMessage, addr 0x585eaa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InviteMessage, addr 0x58c5208, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InviteMessage();
 
-  /// @brief Method get_MaxRetries, addr 0x585eab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxRetries, addr 0x58c5218, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_MaxRetries();
 
-  /// @brief Method set_DestinationApi, addr 0x585ea9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DestinationApi, addr 0x58c5200, size 0x8, virtual false, abstract: false, final false
   inline void set_DestinationApi(::StringW value);
 
-  /// @brief Method set_InviteMessage, addr 0x585eaac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InviteMessage, addr 0x58c5210, size 0x8, virtual false, abstract: false, final false
   inline void set_InviteMessage(::StringW value);
 
-  /// @brief Method set_MaxRetries, addr 0x585eabc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxRetries, addr 0x58c5220, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxRetries(uint32_t value);
 
 protected:
@@ -824,7 +824,7 @@ public:
   static constexpr ::ConstString DebugCategory{ u"Friends Matchmaking" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20335 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20360 };
 
   /// @brief Field destinationApi, offset: 0x20, size: 0x8, def value: None
   ::StringW ___destinationApi;

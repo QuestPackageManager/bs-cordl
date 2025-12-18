@@ -13,13 +13,16 @@ namespace Analytics::Model {
 class TelemetryModel;
 }
 namespace GlobalNamespace {
+class GameplayAdditionalInformationSetupData;
+}
+namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-struct LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__7;
+struct LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__11;
 }
 namespace System::Diagnostics {
 class Stopwatch;
@@ -35,25 +38,25 @@ namespace GlobalNamespace {
 class LevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-struct LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__7;
+struct LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__11;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LevelScenesTransitionSetupDataSO);
-MARK_VAL_T(::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__7);
+MARK_VAL_T(::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__11);
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: LevelScenesTransitionSetupDataSO/<BeforeScenesWillBeActivatedAsync>d__7
-struct CORDL_TYPE LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__7 {
+// CS Name: LevelScenesTransitionSetupDataSO/<BeforeScenesWillBeActivatedAsync>d__11
+struct CORDL_TYPE LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__11 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x571fd50, size 0x3f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x577d9a8, size 0x3f8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5720148, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x577dda0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -61,19 +64,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__7();
+  constexpr LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__11();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelScenesTransitionSetupDataSO>",
   // modifiers: "", def_value: None }, CppParam { name: "_stopwatch_5__2", ty: "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__7(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                                                    ::UnityW<::GlobalNamespace::LevelScenesTransitionSetupDataSO> __4__this,
-                                                                                    ::System::Diagnostics::Stopwatch* _stopwatch_5__2,
-                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+  constexpr LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__11(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                                     ::UnityW<::GlobalNamespace::LevelScenesTransitionSetupDataSO> __4__this,
+                                                                                     ::System::Diagnostics::Stopwatch* _stopwatch_5__2,
+                                                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6830 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -96,17 +99,17 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__7, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__11, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__7, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__11, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__7, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__11, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__7, _stopwatch_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__11, _stopwatch_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__7, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__11, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__7, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__11, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies ScenesTransitionSetupDataSO
@@ -116,7 +119,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE LevelScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
   // Declarations
-  using _BeforeScenesWillBeActivatedAsync_d__7 = ::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__7;
+  using _BeforeScenesWillBeActivatedAsync_d__11 = ::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__11;
+
+  /// @brief Field <gameplayAdditionalInformationSetupData>k__BackingField, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameplayAdditionalInformationSetupData_k__BackingField,
+                      put = __cordl_internal_set__gameplayAdditionalInformationSetupData_k__BackingField)) ::GlobalNamespace::GameplayAdditionalInformationSetupData*
+      _gameplayAdditionalInformationSetupData_k__BackingField;
 
   /// @brief Field <gameplayCoreSceneSetupData>k__BackingField, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__gameplayCoreSceneSetupData_k__BackingField,
@@ -125,17 +133,24 @@ public:
   /// @brief Field _telemetryModel, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__telemetryModel, put = __cordl_internal_set__telemetryModel)) ::Analytics::Model::TelemetryModel* _telemetryModel;
 
+  __declspec(property(get = get_gameplayAdditionalInformationSetupData,
+                      put = set_gameplayAdditionalInformationSetupData)) ::GlobalNamespace::GameplayAdditionalInformationSetupData* gameplayAdditionalInformationSetupData;
+
   __declspec(property(get = get_gameplayCoreSceneSetupData, put = set_gameplayCoreSceneSetupData)) ::GlobalNamespace::GameplayCoreSceneSetupData* gameplayCoreSceneSetupData;
 
   __declspec(property(get = get_transformedBeatmapData)) ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData;
 
-  /// @brief Method BeforeScenesWillBeActivated, addr 0x571fd2c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method BeforeScenesWillBeActivated, addr 0x577d984, size 0x14, virtual true, abstract: false, final false
   inline void BeforeScenesWillBeActivated();
 
-  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0x571fc78, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0x577d8d0, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();
 
   static inline ::GlobalNamespace::LevelScenesTransitionSetupDataSO* New_ctor();
+
+  constexpr ::GlobalNamespace::GameplayAdditionalInformationSetupData* const& __cordl_internal_get__gameplayAdditionalInformationSetupData_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::GameplayAdditionalInformationSetupData*& __cordl_internal_get__gameplayAdditionalInformationSetupData_k__BackingField();
 
   constexpr ::GlobalNamespace::GameplayCoreSceneSetupData* const& __cordl_internal_get__gameplayCoreSceneSetupData_k__BackingField() const;
 
@@ -145,23 +160,31 @@ public:
 
   constexpr ::Analytics::Model::TelemetryModel*& __cordl_internal_get__telemetryModel();
 
+  constexpr void __cordl_internal_set__gameplayAdditionalInformationSetupData_k__BackingField(::GlobalNamespace::GameplayAdditionalInformationSetupData* value);
+
   constexpr void __cordl_internal_set__gameplayCoreSceneSetupData_k__BackingField(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
   constexpr void __cordl_internal_set__telemetryModel(::Analytics::Model::TelemetryModel* value);
 
-  /// @brief Method <>n__0, addr 0x571fd48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x577d9a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* __n__0();
 
-  /// @brief Method .ctor, addr 0x571fd40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x577d998, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameplayCoreSceneSetupData, addr 0x571fc68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayAdditionalInformationSetupData, addr 0x577d8c0, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::GameplayAdditionalInformationSetupData* get_gameplayAdditionalInformationSetupData();
+
+  /// @brief Method get_gameplayCoreSceneSetupData, addr 0x577d8b0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayCoreSceneSetupData* get_gameplayCoreSceneSetupData();
 
-  /// @brief Method get_transformedBeatmapData, addr 0x571fc50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_transformedBeatmapData, addr 0x577d898, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
 
-  /// @brief Method set_gameplayCoreSceneSetupData, addr 0x571fc70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayAdditionalInformationSetupData, addr 0x577d8c8, size 0x8, virtual false, abstract: false, final false
+  inline void set_gameplayAdditionalInformationSetupData(::GlobalNamespace::GameplayAdditionalInformationSetupData* value);
+
+  /// @brief Method set_gameplayCoreSceneSetupData, addr 0x577d8b8, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayCoreSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
 protected:
@@ -179,13 +202,16 @@ public:
   LevelScenesTransitionSetupDataSO(LevelScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6831 };
 
   /// @brief Field _telemetryModel, offset: 0x28, size: 0x8, def value: None
   ::Analytics::Model::TelemetryModel* ____telemetryModel;
 
   /// @brief Field <gameplayCoreSceneSetupData>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____gameplayCoreSceneSetupData_k__BackingField;
+
+  /// @brief Field <gameplayAdditionalInformationSetupData>k__BackingField, offset: 0x38, size: 0x8, def value: None
+  ::GlobalNamespace::GameplayAdditionalInformationSetupData* ____gameplayAdditionalInformationSetupData_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -194,9 +220,11 @@ static_assert(offsetof(::GlobalNamespace::LevelScenesTransitionSetupDataSO, ____
 
 static_assert(offsetof(::GlobalNamespace::LevelScenesTransitionSetupDataSO, ____gameplayCoreSceneSetupData_k__BackingField) == 0x30, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelScenesTransitionSetupDataSO, 0x38>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelScenesTransitionSetupDataSO, ____gameplayAdditionalInformationSetupData_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelScenesTransitionSetupDataSO, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelScenesTransitionSetupDataSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelScenesTransitionSetupDataSO*, "", "LevelScenesTransitionSetupDataSO");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__7, "", "LevelScenesTransitionSetupDataSO/<BeforeScenesWillBeActivatedAsync>d__7");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelScenesTransitionSetupDataSO__BeforeScenesWillBeActivatedAsync_d__11, "", "LevelScenesTransitionSetupDataSO/<BeforeScenesWillBeActivatedAsync>d__11");

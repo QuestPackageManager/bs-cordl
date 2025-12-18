@@ -58,10 +58,10 @@ public:
   /// @brief Field s_InvokeMeasureFunctionMarker, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_InvokeMeasureFunctionMarker, put = setStaticF_s_InvokeMeasureFunctionMarker)) ::Unity::Profiling::ProfilerMarker s_InvokeMeasureFunctionMarker;
 
-  /// @brief Method InvokeBaselineFunction, addr 0x6ace1f4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method InvokeBaselineFunction, addr 0x6b37078, size 0x174, virtual false, abstract: false, final false
   static inline float_t InvokeBaselineFunction(::ByRef<::UnityEngine::UIElements::Layout::LayoutNode> node, float_t width, float_t height);
 
-  /// @brief Method InvokeMeasureFunction, addr 0x6acdf60, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method InvokeMeasureFunction, addr 0x6b36de4, size 0x294, virtual false, abstract: false, final false
   static inline void InvokeMeasureFunction(::ByRef<::UnityEngine::UIElements::Layout::LayoutNode> node, float_t width, ::UnityEngine::UIElements::Layout::LayoutMeasureMode widthMode, float_t height,
                                            ::UnityEngine::UIElements::Layout::LayoutMeasureMode heightMode, ::ByRef<::System::IntPtr> exception,
                                            ::ByRef<::UnityEngine::UIElements::Layout::LayoutSize> result);

@@ -36,13 +36,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IConnectionRequestHandler"
   constexpr operator ::GlobalNamespace::IConnectionRequestHandler*() noexcept;
 
-  /// @brief Method GetConnectionMessage, addr 0x31a279c, size 0x70, virtual true, abstract: false, final true
-  inline void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
+  /// @brief Method GetConnectionMessage, addr 0x31d3e08, size 0x84, virtual true, abstract: false, final true
+  inline void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner, ::StringW compatibilityVersion);
 
   static inline ::GlobalNamespace::GameLiftClientConnectionRequestHandler* New_ctor();
 
-  /// @brief Method ValidateConnectionMessage, addr 0x31a280c, size 0x14, virtual true, abstract: false, final true
-  inline bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ::ByRef<::StringW> userId, ::ByRef<::StringW> userName, ::ByRef<bool> isConnectionOwner);
+  /// @brief Method ValidateConnectionMessage, addr 0x31d3e8c, size 0x78, virtual true, abstract: false, final true
+  inline bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ::ByRef<::StringW> userId, ::ByRef<::StringW> userName, ::ByRef<bool> isConnectionOwner,
+                                        ::ByRef<::StringW> compatibilityVersion);
 
   constexpr ::StringW const& __cordl_internal_get__playerSessionId_k__BackingField() const;
 
@@ -50,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set__playerSessionId_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x31a2820, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31d3f04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_playerSessionId, addr 0x31a278c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerSessionId, addr 0x31d3df8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerSessionId();
 
   /// @brief Convert to "::GlobalNamespace::IConnectionRequestHandler"
   constexpr ::GlobalNamespace::IConnectionRequestHandler* i___GlobalNamespace__IConnectionRequestHandler() noexcept;
 
-  /// @brief Method set_playerSessionId, addr 0x31a2794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerSessionId, addr 0x31d3e00, size 0x8, virtual false, abstract: false, final false
   inline void set_playerSessionId(::StringW value);
 
 protected:
@@ -77,7 +78,7 @@ public:
   GameLiftClientConnectionRequestHandler(GameLiftClientConnectionRequestHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18819 };
 
   /// @brief Field <playerSessionId>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____playerSessionId_k__BackingField;

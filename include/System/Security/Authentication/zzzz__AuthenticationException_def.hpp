@@ -35,13 +35,13 @@ public:
   static inline ::System::Security::Authentication::AuthenticationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                                       ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x6183180, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61ead0c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x61831d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61ead5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x61831d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61ead64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
 protected:
@@ -59,7 +59,7 @@ public:
   AuthenticationException(AuthenticationException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11132 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11136 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

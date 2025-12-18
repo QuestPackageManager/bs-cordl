@@ -49,25 +49,25 @@ public:
 
   __declspec(property(get = get_universalRenderingData)) ::UnityEngine::Rendering::Universal::UniversalRenderingData* universalRenderingData;
 
-  /// @brief Method .ctor, addr 0x66c35f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x672b180, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method get_commandBuffer, addr 0x66c3658, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_commandBuffer, addr 0x672b1e4, size 0xb8, virtual false, abstract: false, final false
   inline ::ByRef<::UnityEngine::Rendering::CommandBuffer*> get_commandBuffer();
 
-  /// @brief Method get_cullResults, addr 0x66c3710, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_cullResults, addr 0x672b29c, size 0x60, virtual false, abstract: false, final false
   inline ::ByRef<::UnityEngine::Rendering::CullingResults> get_cullResults();
 
-  /// @brief Method get_perObjectData, addr 0x66c37d0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_perObjectData, addr 0x672b35c, size 0x60, virtual false, abstract: false, final false
   inline ::ByRef<::UnityEngine::Rendering::PerObjectData> get_perObjectData();
 
-  /// @brief Method get_postProcessingEnabled, addr 0x66c3830, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_postProcessingEnabled, addr 0x672b3bc, size 0x60, virtual false, abstract: false, final false
   inline ::ByRef<bool> get_postProcessingEnabled();
 
-  /// @brief Method get_supportsDynamicBatching, addr 0x66c3770, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportsDynamicBatching, addr 0x672b2fc, size 0x60, virtual false, abstract: false, final false
   inline ::ByRef<bool> get_supportsDynamicBatching();
 
-  /// @brief Method get_universalRenderingData, addr 0x66c3604, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_universalRenderingData, addr 0x672b190, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalRenderingData* get_universalRenderingData();
 
   // Ctor Parameters []
@@ -82,7 +82,7 @@ public:
                           ::UnityEngine::Rendering::Universal::ShadowData shadowData, ::UnityEngine::Rendering::Universal::PostProcessingData postProcessingData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13005 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13009 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

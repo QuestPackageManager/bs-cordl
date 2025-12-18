@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerSyncStateManager_5)
 namespace GlobalNamespace {
+class IBeatSaberConnectedPlayer;
+}
+namespace GlobalNamespace {
 class IBeatSaberMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
@@ -94,7 +97,7 @@ public:
   MultiplayerSyncStateManager_5___c(MultiplayerSyncStateManager_5___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21228 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21255 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -167,7 +170,7 @@ public:
   inline ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetSyncStateForPlayer(::GlobalNamespace::IConnectedPlayer* player);
 
   /// @brief Method HandlePlayerConnected, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void HandlePlayerConnected(::GlobalNamespace::IConnectedPlayer* player);
+  inline void HandlePlayerConnected(::GlobalNamespace::IBeatSaberConnectedPlayer* player);
 
   /// @brief Method HandlePlayerDisconnected, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
@@ -279,7 +282,7 @@ public:
   MultiplayerSyncStateManager_5(MultiplayerSyncStateManager_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21256 };
 
   /// @brief Field _multiplayerSessionManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;

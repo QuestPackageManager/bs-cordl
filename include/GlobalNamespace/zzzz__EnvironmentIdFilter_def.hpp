@@ -1,0 +1,74 @@
+#pragma once
+// IWYU pragma private; include "GlobalNamespace/EnvironmentIdFilter.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include <cstddef>
+#include <cstdint>
+CORDL_MODULE_EXPORT(EnvironmentIdFilter)
+// Forward declare root types
+namespace GlobalNamespace {
+struct EnvironmentIdFilter;
+}
+// Write type traits
+MARK_VAL_T(::GlobalNamespace::EnvironmentIdFilter);
+// Dependencies
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: EnvironmentIdFilter
+struct CORDL_TYPE EnvironmentIdFilter {
+public:
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
+  /// @brief Nested struct __EnvironmentIdFilter_Unwrapped
+  enum struct __EnvironmentIdFilter_Unwrapped : int32_t {
+    __E_None = static_cast<int32_t>(0x0),
+    __E_ExcludeTutorial = static_cast<int32_t>(0x1),
+    __E_ExcludeMultiplayer = static_cast<int32_t>(0x2),
+  };
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __EnvironmentIdFilter_Unwrapped() const noexcept {
+    return static_cast<__EnvironmentIdFilter_Unwrapped>(this->value__);
+  }
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnvironmentIdFilter();
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr EnvironmentIdFilter(int32_t value__) noexcept;
+
+  /// @brief Field ExcludeMultiplayer value: I32(2)
+  static ::GlobalNamespace::EnvironmentIdFilter const ExcludeMultiplayer;
+
+  /// @brief Field ExcludeTutorial value: I32(1)
+  static ::GlobalNamespace::EnvironmentIdFilter const ExcludeTutorial;
+
+  /// @brief Field None value: I32(0)
+  static ::GlobalNamespace::EnvironmentIdFilter const None;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14990 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::GlobalNamespace::EnvironmentIdFilter, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentIdFilter, 0x4>, "Size mismatch!");
+
+} // namespace GlobalNamespace
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentIdFilter, "", "EnvironmentIdFilter");

@@ -56,21 +56,21 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method GetValue, addr 0x69804a4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x69e9328, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetValue(::ByRef<::System::Version*> container);
 
   static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x69804bc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x69e9340, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(::ByRef<::System::Version*> container, int32_t value);
 
-  /// @brief Method .ctor, addr 0x6980228, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e90ac, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x698049c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x69e9320, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6980458, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x69e92dc, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -88,7 +88,7 @@ public:
   SystemVersionPropertyBag_MajorProperty(SystemVersionPropertyBag_MajorProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19471 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -107,21 +107,21 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method GetValue, addr 0x698050c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x69e9390, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetValue(::ByRef<::System::Version*> container);
 
   static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6980524, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x69e93a8, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(::ByRef<::System::Version*> container, int32_t value);
 
-  /// @brief Method .ctor, addr 0x69802b4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e9138, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6980504, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x69e9388, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x69804c0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x69e9344, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -139,7 +139,7 @@ public:
   SystemVersionPropertyBag_MinorProperty(SystemVersionPropertyBag_MinorProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19472 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -158,21 +158,21 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method GetValue, addr 0x6980574, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x69e93f8, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetValue(::ByRef<::System::Version*> container);
 
   static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x698058c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x69e9410, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(::ByRef<::System::Version*> container, int32_t value);
 
-  /// @brief Method .ctor, addr 0x6980340, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e91c4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x698056c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x69e93f0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6980528, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x69e93ac, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -190,7 +190,7 @@ public:
   SystemVersionPropertyBag_BuildProperty(SystemVersionPropertyBag_BuildProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19447 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19473 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -209,21 +209,21 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method GetValue, addr 0x69805dc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x69e9460, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetValue(::ByRef<::System::Version*> container);
 
   static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x69805f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x69e9478, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(::ByRef<::System::Version*> container, int32_t value);
 
-  /// @brief Method .ctor, addr 0x69803cc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e9250, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x69805d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x69e9458, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6980590, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x69e9414, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -241,7 +241,7 @@ public:
   SystemVersionPropertyBag_RevisionProperty(SystemVersionPropertyBag_RevisionProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19474 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -266,7 +266,7 @@ public:
 
   static inline ::Unity::Properties::Internal::SystemVersionPropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x697eecc, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e7d50, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -284,7 +284,7 @@ public:
   SystemVersionPropertyBag(SystemVersionPropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19449 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19475 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

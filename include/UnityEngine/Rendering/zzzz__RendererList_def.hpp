@@ -28,12 +28,12 @@ public:
   /// @brief Field nullRendererList, offset 0xffffffff, size 0x18
   __declspec(property(get = getStaticF_nullRendererList, put = setStaticF_nullRendererList)) ::UnityEngine::Rendering::RendererList nullRendererList;
 
-  /// @brief Method .ctor, addr 0x68f0b18, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x695999c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::UIntPtr ctx, uint32_t indx);
 
   static inline ::UnityEngine::Rendering::RendererList getStaticF_nullRendererList();
 
-  /// @brief Method get_isValid, addr 0x68f0adc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x6959960, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isValid();
 
   static inline void setStaticF_nullRendererList(::UnityEngine::Rendering::RendererList value);
@@ -48,7 +48,7 @@ public:
   constexpr RendererList(::System::UIntPtr context, uint32_t index, uint32_t frame, uint32_t type, uint32_t contextID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10803 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

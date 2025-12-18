@@ -35,10 +35,10 @@ public:
   /// @brief Field data, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::Org::BouncyCastle::Bcpg::CompressedDataPacket* data;
 
-  /// @brief Method GetDataStream, addr 0x3454f98, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetDataStream, addr 0x347f7dc, size 0x17c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetDataStream();
 
-  /// @brief Method GetInputStream, addr 0x3454f80, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x347f7c4, size 0x18, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set_data(::Org::BouncyCastle::Bcpg::CompressedDataPacket* value);
 
-  /// @brief Method .ctor, addr 0x3454e4c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x347f690, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method get_Algorithm, addr 0x3454f68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x347f7ac, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag get_Algorithm();
 
 protected:

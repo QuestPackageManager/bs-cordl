@@ -42,18 +42,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE NetworkStatisticsState_NetworkStatisticsUpdateDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x32159c4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x323fc60, size 0x90, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3215a54, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x323fcf0, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x32159b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x323fc4c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState);
 
   static inline ::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3215934, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x323fbd0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -71,7 +71,7 @@ public:
   NetworkStatisticsState_NetworkStatisticsUpdateDelegate(NetworkStatisticsState_NetworkStatisticsUpdateDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18201 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -88,12 +88,12 @@ public:
   // Declarations
   using NetworkStatisticsUpdateDelegate = ::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate;
 
-  /// @brief Method .ctor, addr 0x32134b0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x323d020, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int64_t packetsSent, int64_t packetsReceived, int64_t bytesSent, int64_t bytesReceived, int64_t packetsLost, int64_t packetsSentEncrypted, int64_t packetsSentPlaintext,
                     int64_t packetsSentRejected, int64_t packetsReceivedEncrypted, int64_t packetsReceivedPlaintext, int64_t packetsReceivedRejected, int64_t encryptionProcessingTime,
                     int64_t decryptionProcessingTime);
 
-  /// @brief Method op_Subtraction, addr 0x32158b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x323fb50, size 0x50, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NetworkStatisticsDelta op_Subtraction(::ByRef<::GlobalNamespace::NetworkStatisticsState> a, ::ByRef<::GlobalNamespace::NetworkStatisticsState> b);
 
   // Ctor Parameters []
@@ -112,7 +112,7 @@ public:
                                    int64_t encryptionProcessingTime, int64_t decryptionProcessingTime) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18202 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };

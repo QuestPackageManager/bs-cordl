@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlStreamNodeWriter::*)()>(&::System::Xml::XmlStreamNodeWriter::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5f0ce98;
+  constexpr static std::size_t addrs = 0x5f74a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlStreamNodeWriter*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlStreamNodeWriter::*)(::System::IO::Stream*, bool, ::System::Text::Encoding*)>(
     &::System::Xml::XmlStreamNodeWriter::SetOutput)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f0cf28;
+  constexpr static std::size_t addrs = 0x5f74ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlStreamNodeWriter::*)()>(&::System::Xml::XmlStreamNodeWriter::get_Position)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5f0cf40;
+  constexpr static std::size_t addrs = 0x5f74acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlStreamNodeWriter*>::get(), "get_Position",
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Xml::XmlStreamNodeWriter::*)(int32_t, ::ByRef<int32_t>)>(
     &::System::Xml::XmlStreamNodeWriter::GetBuffer)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5f0cf74;
+  constexpr static std::size_t addrs = 0x5f74b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlStreamNodeWriter::*)(int32_t)>(&::System::Xml::XmlStreamNodeWriter::Advance)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f0cfc0;
+  constexpr static std::size_t addrs = 0x5f74b4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlStreamNodeWriter::*)()>(&::System::Xml::XmlStreamNodeWriter::EnsureByte)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f0cfd0;
+  constexpr static std::size_t addrs = 0x5f74b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlStreamNodeWriter*>::get(), "EnsureByte",
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlStreamNodeWriter::*)(uint8_t)>(&::System::Xml::XmlStreamNodeWriter::WriteByte)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f0cff0;
+  constexpr static std::size_t addrs = 0x5f74b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlStreamNodeWriter::*)(char16_t)>(&::System::Xml::XmlStreamNodeWriter::WriteByte)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f0d05c;
+  constexpr static std::size_t addrs = 0x5f74be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlStreamNodeWriter::*)(uint8_t, uint8_t)>(&::System::Xml::XmlStreamNodeWriter::WriteBytes)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5f0d060;
+  constexpr static std::size_t addrs = 0x5f74bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlStreamNodeWriter::*)(char16_t, char16_t)>(&::System::Xml::XmlStreamNodeWriter::WriteBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f0d0f8;
+  constexpr static std::size_t addrs = 0x5f74c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlStreamNodeWriter::*)(int32_t)>(&::System::Xml::XmlStreamNodeWriter::WriteUTF8Char)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5f0d0fc;
+  constexpr static std::size_t addrs = 0x5f74c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlStreamNodeWriter::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlStreamNodeWriter::WriteUTF8Chars)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5f0d3cc;
+  constexpr static std::size_t addrs = 0x5f74f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlStreamNodeWriter::*)(::StringW)>(&::System::Xml::XmlStreamNodeWriter::WriteUTF8Chars)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5f0d494;
+  constexpr static std::size_t addrs = 0x5f75020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlStreamNodeWriter::*)(char16_t*, int32_t)>(
     &::System::Xml::XmlStreamNodeWriter::UnsafeWriteUTF8Chars)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5f0d19c;
+  constexpr static std::size_t addrs = 0x5f74d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlStreamNodeWriter::*)(char16_t*, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::Xml::XmlStreamNodeWriter::UnsafeGetUTF8Chars)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5f0d4b8;
+  constexpr static std::size_t addrs = 0x5f75044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlStreamNodeWriter::*)()>(&::System::Xml::XmlStreamNodeWriter::FlushBuffer)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5f0d5c4;
+  constexpr static std::size_t addrs = 0x5f75150;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlStreamNodeWriter::*)()>(&::System::Xml::XmlStreamNodeWriter::Flush)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5f0d604;
+  constexpr static std::size_t addrs = 0x5f75190;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlStreamNodeWriter::*)()>(&::System::Xml::XmlStreamNodeWriter::Close)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5f0d63c;
+  constexpr static std::size_t addrs = 0x5f751c8;
 
   inline static ::MethodInfo const* methodInfo() {
 

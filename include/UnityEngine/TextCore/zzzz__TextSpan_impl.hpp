@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::TextSpan::*)()>(&::UnityEngine::TextCore::TextSpan::ToString)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x698da9c;
+  constexpr static std::size_t addrs = 0x69f6920;
 
   inline static ::MethodInfo const* methodInfo() {
 

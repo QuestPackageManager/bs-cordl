@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::InspectorName::InspectorLabelAttribute::*)(::StringW)>(
     &::BeatSaber::InspectorName::InspectorLabelAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x31fd6b8;
+  constexpr static std::size_t addrs = 0x322e0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -86,7 +86,7 @@ public:
   PoolableMemoryPoolProvider_6(PoolableMemoryPoolProvider_6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14547 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14551 };
 
   /// @brief Field _pool, offset: 0x28, size: 0x8, def value: None
   TMemoryPool ____pool;

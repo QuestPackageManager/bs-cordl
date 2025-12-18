@@ -80,22 +80,22 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::ConsoleLine* New_ctor();
 
-  /// @brief Method OnHoverChanged, addr 0x5837490, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method OnHoverChanged, addr 0x589dbf4, size 0xa0, virtual true, abstract: false, final false
   inline void OnHoverChanged();
 
-  /// @brief Method OnPointerClick, addr 0x5837410, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x589db74, size 0x10, virtual true, abstract: false, final false
   inline void OnPointerClick();
 
-  /// @brief Method OnTransparencyChanged, addr 0x5837300, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method OnTransparencyChanged, addr 0x589da64, size 0x8c, virtual true, abstract: false, final false
   inline void OnTransparencyChanged();
 
-  /// @brief Method RefreshLogCounter, addr 0x5836b84, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method RefreshLogCounter, addr 0x589d2e8, size 0x1a4, virtual false, abstract: false, final false
   inline void RefreshLogCounter();
 
-  /// @brief Method Setup, addr 0x5836df0, size 0x510, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x589d554, size 0x510, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
-  /// @brief Method ShowCounter, addr 0x5837390, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ShowCounter, addr 0x589daf4, size 0x80, virtual false, abstract: false, final false
   inline void ShowCounter(bool show);
 
   constexpr ::UnityEngine::Events::UnityEvent_1<::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry*>* const& __cordl_internal_get_OnClick() const;
@@ -152,25 +152,25 @@ public:
 
   constexpr void __cordl_internal_set__pill(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background> value);
 
-  /// @brief Method .ctor, addr 0x5837530, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x589dc94, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Entry, addr 0x5836a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Entry, addr 0x589d164, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* get_Entry();
 
-  /// @brief Method get_Label, addr 0x5836d28, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Label, addr 0x589d48c, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Label();
 
-  /// @brief Method set_BackgroundStyle, addr 0x5836d54, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_BackgroundStyle, addr 0x589d4b8, size 0x9c, virtual false, abstract: false, final false
   inline void set_BackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
 
-  /// @brief Method set_Entry, addr 0x5836a08, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_Entry, addr 0x589d16c, size 0x88, virtual false, abstract: false, final false
   inline void set_Entry(::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* value);
 
-  /// @brief Method set_Label, addr 0x5836abc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_Label, addr 0x589d220, size 0x2c, virtual false, abstract: false, final false
   inline void set_Label(::StringW value);
 
-  /// @brief Method set_PillStyle, addr 0x5836ae8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_PillStyle, addr 0x589d24c, size 0x9c, virtual false, abstract: false, final false
   inline void set_PillStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
 
 protected:
@@ -197,7 +197,7 @@ public:
   static constexpr int32_t MaxLabelCharacterSize{ static_cast<int32_t>(0x74) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18328 };
 
   /// @brief Field _label, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label> ____label;

@@ -36,17 +36,17 @@ public:
   // Declarations
   __declspec(property(get = get_binding)) ::UnityEngine::UIElements::Binding* binding;
 
-  /// @brief Method FromBindingData, addr 0x6a10634, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FromBindingData, addr 0x6a794b8, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BindingInfo FromBindingData(::ByRef<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData);
 
-  /// @brief Method FromRequest, addr 0x6a10584, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method FromRequest, addr 0x6a79408, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BindingInfo FromRequest(::UnityEngine::UIElements::VisualElement* target, ::ByRef<::Unity::Properties::PropertyPath> targetPath,
                                                                    ::UnityEngine::UIElements::Binding* binding);
 
-  /// @brief Method .ctor, addr 0x6a10554, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a793d8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* targetElement, ::ByRef<::UnityEngine::UIElements::BindingId> bindingId, ::UnityEngine::UIElements::Binding* binding);
 
-  /// @brief Method get_binding, addr 0x6a1054c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_binding, addr 0x6a793d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Binding* get_binding();
 
   // Ctor Parameters []

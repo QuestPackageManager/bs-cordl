@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set_Data(::Unity::Collections::BitField64 value);
 
-  /// @brief Method .ctor, addr 0x628dbfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62f5788, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::BitField64 data);
 
-  /// @brief Method get_Bits, addr 0x628dc04, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_Bits, addr 0x62f5790, size 0x8c, virtual false, abstract: false, final false
   inline ::ArrayW<bool, ::Array<bool>*> get_Bits();
 
 protected:
@@ -56,7 +56,7 @@ public:
   BitField64DebugView(BitField64DebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15524 };
 
   /// @brief Field Data, offset: 0x10, size: 0x8, def value: None
   ::Unity::Collections::BitField64 ___Data;

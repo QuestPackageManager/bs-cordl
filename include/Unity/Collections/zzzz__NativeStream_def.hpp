@@ -91,37 +91,37 @@ public:
   /// @brief Convert operator to "::Unity::Collections::INativeDisposable"
   constexpr operator ::Unity::Collections::INativeDisposable*();
 
-  /// @brief Method AllocateBlock, addr 0x62a5100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AllocateBlock, addr 0x630cc8c, size 0x8, virtual false, abstract: false, final false
   static inline void AllocateBlock(::ByRef<::Unity::Collections::NativeStream> stream, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method AllocateForEach, addr 0x62a565c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AllocateForEach, addr 0x630d1e8, size 0x4, virtual false, abstract: false, final false
   inline void AllocateForEach(int32_t forEachCount);
 
-  /// @brief Method AsReader, addr 0x62a5340, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AsReader, addr 0x630cecc, size 0x24, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeStream_Reader AsReader();
 
-  /// @brief Method AsWriter, addr 0x62a5388, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method AsWriter, addr 0x630cf14, size 0x38, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeStream_Writer AsWriter();
 
-  /// @brief Method CheckForEachCountGreaterThanZero, addr 0x62a5660, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CheckForEachCountGreaterThanZero, addr 0x630d1ec, size 0x70, virtual false, abstract: false, final false
   static inline void CheckForEachCountGreaterThanZero(int32_t forEachCount);
 
-  /// @brief Method CheckRead, addr 0x62a56d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckRead, addr 0x630d25c, size 0x4, virtual false, abstract: false, final false
   inline void CheckRead();
 
-  /// @brief Method Count, addr 0x62a5400, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Count, addr 0x630cf8c, size 0x4, virtual false, abstract: false, final false
   inline int32_t Count();
 
-  /// @brief Method Dispose, addr 0x62a5478, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x630d004, size 0x98, virtual true, abstract: false, final true
   inline ::Unity::Jobs::JobHandle Dispose(::Unity::Jobs::JobHandle inputDeps);
 
-  /// @brief Method Dispose, addr 0x62a5458, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x630cfe4, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method IsEmpty, addr 0x62a52a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x630ce2c, size 0x4, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method ScheduleConstruct, addr 0x62a51fc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ScheduleConstruct, addr 0x630cd88, size 0xa4, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleConstruct(::ByRef<::Unity::Collections::NativeStream> stream, ::Unity::Collections::NativeArray_1<int32_t> bufferCount,
                                                            ::Unity::Jobs::JobHandle dependency, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
@@ -133,13 +133,13 @@ public:
   /// @brief Method ToNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Unity::Collections::NativeArray_1<T> ToNativeArray(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method .ctor, addr 0x62a50d4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x630cc60, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t bufferCount, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method get_ForEachCount, addr 0x62a5310, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ForEachCount, addr 0x630ce9c, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_ForEachCount();
 
-  /// @brief Method get_IsCreated, addr 0x62a5300, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCreated, addr 0x630ce8c, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
   /// @brief Convert to "::System::IDisposable"
@@ -156,7 +156,7 @@ public:
   constexpr NativeStream(::Unity::Collections::LowLevel::Unsafe::UnsafeStream m_Stream) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15672 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -182,7 +182,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x62a56d4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x630d260, size 0x18, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -197,7 +197,7 @@ public:
   constexpr NativeStream_ConstructJobList(::Unity::Collections::NativeStream Container, ::Unity::Collections::LowLevel::Unsafe::UntypedUnsafeList* List) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15668 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -228,7 +228,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x62a56ec, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x630d278, size 0xc, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -243,7 +243,7 @@ public:
   constexpr NativeStream_ConstructJob(::Unity::Collections::NativeStream Container, ::Unity::Collections::NativeArray_1<int32_t> Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15669 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -276,34 +276,34 @@ public:
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ByRef<T> Allocate();
 
-  /// @brief Method Allocate, addr 0x62a57e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x630d374, size 0x4, virtual false, abstract: false, final false
   inline uint8_t* Allocate(int32_t size);
 
-  /// @brief Method BeginForEachIndex, addr 0x62a5758, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method BeginForEachIndex, addr 0x630d2e4, size 0x1c, virtual false, abstract: false, final false
   inline void BeginForEachIndex(int32_t foreachIndex);
 
-  /// @brief Method CheckAllocateSize, addr 0x62a5880, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckAllocateSize, addr 0x630d40c, size 0x4, virtual false, abstract: false, final false
   inline void CheckAllocateSize(int32_t size);
 
-  /// @brief Method CheckBeginForEachIndex, addr 0x62a5878, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckBeginForEachIndex, addr 0x630d404, size 0x4, virtual false, abstract: false, final false
   inline void CheckBeginForEachIndex(int32_t foreachIndex);
 
-  /// @brief Method CheckEndForEachIndex, addr 0x62a587c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckEndForEachIndex, addr 0x630d408, size 0x4, virtual false, abstract: false, final false
   inline void CheckEndForEachIndex();
 
-  /// @brief Method EndForEachIndex, addr 0x62a5790, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method EndForEachIndex, addr 0x630d31c, size 0x4, virtual false, abstract: false, final false
   inline void EndForEachIndex();
 
-  /// @brief Method PatchMinMaxRange, addr 0x62a5754, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PatchMinMaxRange, addr 0x630d2e0, size 0x4, virtual false, abstract: false, final false
   inline void PatchMinMaxRange(int32_t foreEachIndex);
 
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Write(T value);
 
-  /// @brief Method .ctor, addr 0x62a53c0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x630cf4c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<::Unity::Collections::NativeStream> stream);
 
-  /// @brief Method get_ForEachCount, addr 0x62a5724, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ForEachCount, addr 0x630d2b0, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_ForEachCount();
 
   // Ctor Parameters []
@@ -314,7 +314,7 @@ public:
   constexpr NativeStream_Writer(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Writer m_Writer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15670 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -341,28 +341,28 @@ public:
 
   __declspec(property(get = get_RemainingItemCount)) int32_t RemainingItemCount;
 
-  /// @brief Method BeginForEachIndex, addr 0x62a5898, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method BeginForEachIndex, addr 0x630d424, size 0x4, virtual false, abstract: false, final false
   inline int32_t BeginForEachIndex(int32_t foreachIndex);
 
-  /// @brief Method CheckBeginForEachIndex, addr 0x62a59f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckBeginForEachIndex, addr 0x630d57c, size 0x4, virtual false, abstract: false, final false
   inline void CheckBeginForEachIndex(int32_t forEachIndex);
 
-  /// @brief Method CheckEndForEachIndex, addr 0x62a59f4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CheckEndForEachIndex, addr 0x630d580, size 0x88, virtual false, abstract: false, final false
   inline void CheckEndForEachIndex();
 
-  /// @brief Method CheckNotReadingOutOfBounds, addr 0x62a59e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckNotReadingOutOfBounds, addr 0x630d570, size 0x4, virtual false, abstract: false, final false
   inline void CheckNotReadingOutOfBounds(int32_t size);
 
-  /// @brief Method CheckRead, addr 0x62a59e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckRead, addr 0x630d574, size 0x4, virtual false, abstract: false, final false
   inline void CheckRead();
 
-  /// @brief Method CheckReadSize, addr 0x62a59ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckReadSize, addr 0x630d578, size 0x4, virtual false, abstract: false, final false
   inline void CheckReadSize(int32_t size);
 
-  /// @brief Method Count, addr 0x62a598c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Count, addr 0x630d518, size 0x4, virtual false, abstract: false, final false
   inline int32_t Count();
 
-  /// @brief Method EndForEachIndex, addr 0x62a58f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method EndForEachIndex, addr 0x630d47c, size 0x4, virtual false, abstract: false, final false
   inline void EndForEachIndex();
 
   /// @brief Method Peek, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -371,16 +371,16 @@ public:
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ByRef<T> Read();
 
-  /// @brief Method ReadUnsafePtr, addr 0x62a5930, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadUnsafePtr, addr 0x630d4bc, size 0x5c, virtual false, abstract: false, final false
   inline uint8_t* ReadUnsafePtr(int32_t size);
 
-  /// @brief Method .ctor, addr 0x62a5364, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x630cef0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<::Unity::Collections::NativeStream> stream);
 
-  /// @brief Method get_ForEachCount, addr 0x62a58f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ForEachCount, addr 0x630d484, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_ForEachCount();
 
-  /// @brief Method get_RemainingItemCount, addr 0x62a5928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RemainingItemCount, addr 0x630d4b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RemainingItemCount();
 
   // Ctor Parameters []
@@ -391,7 +391,7 @@ public:
   constexpr NativeStream_Reader(::Unity::Collections::LowLevel::Unsafe::UnsafeStream_Reader m_Reader) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15671 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

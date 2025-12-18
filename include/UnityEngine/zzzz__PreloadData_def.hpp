@@ -18,7 +18,7 @@ namespace UnityEngine {
 class CORDL_TYPE PreloadData : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method PreloadDataDontStripMe, addr 0x68bc77c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PreloadDataDontStripMe, addr 0x6925600, size 0x4, virtual false, abstract: false, final false
   inline void PreloadDataDontStripMe();
 
 protected:
@@ -36,7 +36,7 @@ public:
   PreloadData(PreloadData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10376 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10380 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

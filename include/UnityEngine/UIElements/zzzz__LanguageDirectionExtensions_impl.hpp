@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LanguageDirection (*)(::UnityEngine::UIElements::LanguageDirection)>(
     &::UnityEngine::UIElements::LanguageDirectionExtensions::toTextCore)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6a94ca0;
+  constexpr static std::size_t addrs = 0x6afdb24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

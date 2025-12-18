@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::OnXmlDictionaryReaderClose::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Xml::OnXmlDictionaryReaderClose::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5f03c8c;
+  constexpr static std::size_t addrs = 0x5f6b818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::OnXmlDictionaryReaderClose::*)(::System::Xml::XmlDictionaryReader*)>(
     &::System::Xml::OnXmlDictionaryReaderClose::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f03dd0;
+  constexpr static std::size_t addrs = 0x5f6b95c;
 
   inline static ::MethodInfo const* methodInfo() {
 

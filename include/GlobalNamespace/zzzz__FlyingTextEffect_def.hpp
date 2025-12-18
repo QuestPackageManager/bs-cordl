@@ -46,7 +46,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::FlyingTextEffect_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x576eb34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57d53dc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,10 +90,10 @@ public:
   /// @brief Field _text, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshPro> _text;
 
-  /// @brief Method InitAndPresent, addr 0x576ea24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x57d52cc, size 0x78, virtual false, abstract: false, final false
   inline void InitAndPresent(::StringW text, float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Color color, float_t fontSize, bool shake);
 
-  /// @brief Method ManualUpdate, addr 0x576ea9c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x57d5344, size 0x64, virtual true, abstract: false, final false
   inline void ManualUpdate(float_t t);
 
   static inline ::GlobalNamespace::FlyingTextEffect* New_ctor();
@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x576eb00, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57d53a8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

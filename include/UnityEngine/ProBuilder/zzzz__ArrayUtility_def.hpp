@@ -60,16 +60,16 @@ namespace UnityEngine::ProBuilder {
 struct CORDL_TYPE ArrayUtility_SearchRange {
 public:
   // Declarations
-  /// @brief Method Center, addr 0x6494568, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Center, addr 0x64fc0f4, size 0x18, virtual false, abstract: false, final false
   inline int32_t Center();
 
-  /// @brief Method ToString, addr 0x6494580, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x64fc10c, size 0x158, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Valid, addr 0x6494554, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Valid, addr 0x64fc0e0, size 0x14, virtual false, abstract: false, final false
   inline bool Valid();
 
-  /// @brief Method .ctor, addr 0x649454c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64fc0d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t begin, int32_t end);
 
   // Ctor Parameters []
@@ -80,7 +80,7 @@ public:
   constexpr ArrayUtility_SearchRange(int32_t begin, int32_t end) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16673 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -147,7 +147,7 @@ public:
   ArrayUtility___c__23_1(ArrayUtility___c__23_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16660 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16674 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -203,7 +203,7 @@ public:
   ArrayUtility___c__DisplayClass21_0_2(ArrayUtility___c__DisplayClass21_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16675 };
 
   /// @brief Field knownKeys, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<TKey>* ___knownKeys;
@@ -315,7 +315,7 @@ public:
   ArrayUtility(ArrayUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16676 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -120,10 +120,10 @@ public:
 
   constexpr void __cordl_internal_set_Tweakable(bool value);
 
-  /// @brief Method .ctor, addr 0x5843260, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58a99c4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Meta::XR::ImmersiveDebugger::DebugColor color);
 
-  /// @brief Method .ctor, addr 0x5843314, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58a9a78, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW colorString);
 
   static inline ::System::Collections::Generic::Dictionary_2<::Meta::XR::ImmersiveDebugger::DebugColor, ::UnityEngine::Color>* getStaticF_ParsedColors();
@@ -148,7 +148,7 @@ public:
   static constexpr ::ConstString DisplayNameTooltip{ u"Optional name override to be used in the Inspector Panel" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23215 };
 
   /// @brief Field GizmoType, offset: 0x10, size: 0x4, def value: None
   ::Meta::XR::ImmersiveDebugger::DebugGizmoType ___GizmoType;

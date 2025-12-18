@@ -28,10 +28,10 @@ public:
   /// @brief Field object2, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_object2, put = __cordl_internal_set_object2)) ::System::Object* object2;
 
-  /// @brief Method Equals, addr 0x5f2ecdc, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5f96868, size 0xcc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode, addr 0x5f2eda8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5f96934, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Runtime::Serialization::DataContractPairKey* New_ctor(::System::Object* object1, ::System::Object* object2);
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_object2(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5f2b48c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f93018, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object1, ::System::Object* object2);
 
 protected:
@@ -66,7 +66,7 @@ public:
   DataContractPairKey(DataContractPairKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16986 };
 
   /// @brief Field object1, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___object1;

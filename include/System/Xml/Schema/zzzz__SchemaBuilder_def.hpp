@@ -45,7 +45,7 @@ public:
   /// @brief Method StartChildren, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void StartChildren();
 
-  /// @brief Method .ctor, addr 0x5fce34c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6035ed8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   SchemaBuilder(SchemaBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9678 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9682 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

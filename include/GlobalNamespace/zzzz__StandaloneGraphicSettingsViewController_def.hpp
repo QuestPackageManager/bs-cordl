@@ -57,34 +57,34 @@ public:
   /// @brief Field _vrRenderingScale, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__vrRenderingScale, put = __cordl_internal_set__vrRenderingScale)) ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _vrRenderingScale;
 
-  /// @brief Method DidActivate, addr 0x56dc020, size 0x598, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x57388d4, size 0x598, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x56dc5b8, size 0x444, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5738e6c, size 0x444, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAntiAliasingLevelChanged, addr 0x56dc9fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleAntiAliasingLevelChanged, addr 0x57392b0, size 0x18, virtual false, abstract: false, final false
   inline void HandleAntiAliasingLevelChanged(int32_t newValue);
 
-  /// @brief Method HandleFullscreenToggled, addr 0x56dca2c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleFullscreenToggled, addr 0x57392e0, size 0x1c, virtual false, abstract: false, final false
   inline void HandleFullscreenToggled(bool newValue);
 
-  /// @brief Method HandleMainEffectChanged, addr 0x56dca9c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleMainEffectChanged, addr 0x573934c, size 0x18, virtual false, abstract: false, final false
   inline void HandleMainEffectChanged(int32_t newValue);
 
-  /// @brief Method HandleMirrorChanged, addr 0x56dcab4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleMirrorChanged, addr 0x5739364, size 0x18, virtual false, abstract: false, final false
   inline void HandleMirrorChanged(int32_t newValue);
 
-  /// @brief Method HandleScreenDisplacementToggled, addr 0x56dca80, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleScreenDisplacementToggled, addr 0x5739330, size 0x1c, virtual false, abstract: false, final false
   inline void HandleScreenDisplacementToggled(bool newValue);
 
-  /// @brief Method HandleShockwaveMaxParticlesChanged, addr 0x56dca48, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleShockwaveMaxParticlesChanged, addr 0x57392fc, size 0x18, virtual false, abstract: false, final false
   inline void HandleShockwaveMaxParticlesChanged(int32_t newValue);
 
-  /// @brief Method HandleSmokeToggled, addr 0x56dca60, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleSmokeToggled, addr 0x5739314, size 0x1c, virtual false, abstract: false, final false
   inline void HandleSmokeToggled(bool newValue);
 
-  /// @brief Method HandleVrRenderingScaleChanged, addr 0x56dca14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleVrRenderingScaleChanged, addr 0x57392c8, size 0x18, virtual false, abstract: false, final false
   inline void HandleVrRenderingScaleChanged(::GlobalNamespace::FormattedFloatListSettingsController* _, float_t newValue);
 
   static inline ::GlobalNamespace::StandaloneGraphicSettingsViewController* New_ctor();
@@ -137,7 +137,7 @@ public:
 
   constexpr void __cordl_internal_set__vrRenderingScale(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
 
-  /// @brief Method .ctor, addr 0x56dcacc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x573937c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -155,7 +155,7 @@ public:
   StandaloneGraphicSettingsViewController(StandaloneGraphicSettingsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6533 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6526 };
 
   /// @brief Field _antiAliasingLevel, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NamedIntListSettingsController> ____antiAliasingLevel;

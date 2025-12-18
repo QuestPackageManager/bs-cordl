@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::Text::TextElementInfo::*)()>(
     &::UnityEngine::TextCore::Text::TextElementInfo::ToString)> {
   constexpr static std::size_t size = 0x1774;
-  constexpr static std::size_t addrs = 0x69ce39c;
+  constexpr static std::size_t addrs = 0x6a37220;
 
   inline static ::MethodInfo const* methodInfo() {
 

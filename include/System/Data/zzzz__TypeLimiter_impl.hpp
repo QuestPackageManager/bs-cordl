@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Scope_TypeLimiter___c::*)()>(&::System::Data::Scope_TypeLimiter___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dff49c;
+  constexpr static std::size_t addrs = 0x5e67028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Scope_TypeLimiter___c*>::get(), ".ctor",
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::Scope_TypeLimiter___c::*)(::System::Type*)>(
     &::System::Data::Scope_TypeLimiter___c::__ctor_b__3_0)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5dff4a0;
+  constexpr static std::size_t addrs = 0x5e6702c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::TypeLimiter_Scope::*)(
     ::System::Data::TypeLimiter_Scope*, ::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(&::System::Data::TypeLimiter_Scope::_ctor)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x5dfe288;
+  constexpr static std::size_t addrs = 0x5e65e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::TypeLimiter_Scope::*)()>(&::System::Data::TypeLimiter_Scope::Dispose)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5dfe6d0;
+  constexpr static std::size_t addrs = 0x5e6625c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::TypeLimiter_Scope*>::get(), "Dispose",
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::TypeLimiter_Scope::*)(::System::Type*)>(&::System::Data::TypeLimiter_Scope::IsAllowedType)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5dfde48;
+  constexpr static std::size_t addrs = 0x5e659d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::System::Data::TypeLimiter_Scope::IsTypeUnconditionallyAllowed)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5dfe7f0;
+  constexpr static std::size_t addrs = 0x5e6637c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::TypeLimiter___c::*)()>(&::System::Data::TypeLimiter___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dff520;
+  constexpr static std::size_t addrs = 0x5e670ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::TypeLimiter___c*>::get(), ".ctor",
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Data::TypeLimiter___c::*)(::System::Data::DataColumn*)>(
     &::System::Data::TypeLimiter___c::_GetPreviouslyDeclaredDataTypes_b__10_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5dff524;
+  constexpr static std::size_t addrs = 0x5e670b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>* (
     ::System::Data::TypeLimiter___c::*)(::System::Data::DataTable*)>(&::System::Data::TypeLimiter___c::_GetPreviouslyDeclaredDataTypes_b__11_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dff538;
+  constexpr static std::size_t addrs = 0x5e670c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::TypeLimiter::*)(::System::Data::TypeLimiter_Scope*)>(&::System::Data::TypeLimiter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dfdc64;
+  constexpr static std::size_t addrs = 0x5e657f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Data::TypeLimiter::get_IsTypeLimitingDisabled)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5dfdc6c;
+  constexpr static std::size_t addrs = 0x5e657f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::TypeLimiter*>::get(),
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::TypeLimiter* (*)()>(&::System::Data::TypeLimiter::Capture)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5dfdcf8;
+  constexpr static std::size_t addrs = 0x5e65884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::TypeLimiter*>::get(), "Capture",
@@ -332,7 +332,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::System::Data::TypeLimiter*)>(&::System::Data::TypeLimiter::EnsureTypeIsAllowed)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5dfdd80;
+  constexpr static std::size_t addrs = 0x5e6590c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IDisposable* (*)(::System::Data::DataSet*)>(&::System::Data::TypeLimiter::EnterRestrictedScope)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5dfdfcc;
+  constexpr static std::size_t addrs = 0x5e65b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -361,7 +361,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IDisposable* (*)(::System::Data::DataTable*)>(&::System::Data::TypeLimiter::EnterRestrictedScope)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5dfe414;
+  constexpr static std::size_t addrs = 0x5e65fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>* (*)(::System::Data::DataTable*)>(
     &::System::Data::TypeLimiter::GetPreviouslyDeclaredDataTypes)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5dfe51c;
+  constexpr static std::size_t addrs = 0x5e660a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>* (*)(::System::Data::DataSet*)>(
     &::System::Data::TypeLimiter::GetPreviouslyDeclaredDataTypes)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5dfe0d4;
+  constexpr static std::size_t addrs = 0x5e65c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::*)()>(
     &::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x669a398;
+  constexpr static std::size_t addrs = 0x6701f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::*)()>(
     &::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::get_stripUnusedPostProcessingVariants)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x669a3a0;
+  constexpr static std::size_t addrs = 0x6701f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::*)(bool)>(
     &::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::set_stripUnusedPostProcessingVariants)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x669a3a8;
+  constexpr static std::size_t addrs = 0x6701f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::*)()>(
     &::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::get_stripUnusedVariants)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x669a418;
+  constexpr static std::size_t addrs = 0x6701fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::*)(bool)>(
     &::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::set_stripUnusedVariants)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x669a420;
+  constexpr static std::size_t addrs = 0x6701fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::*)()>(
     &::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::get_stripScreenCoordOverrideVariants)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x669a490;
+  constexpr static std::size_t addrs = 0x670201c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::*)(bool)>(
     &::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::set_stripScreenCoordOverrideVariants)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x669a498;
+  constexpr static std::size_t addrs = 0x6702024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::*)()>(
     &::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x669a508;
+  constexpr static std::size_t addrs = 0x6702094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

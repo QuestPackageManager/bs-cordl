@@ -28,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Security::GeneralSecurityException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x34a1640, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34cbe84, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x34a1698, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34cbedc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x34a1704, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34cbf48, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionInstaller::*)()>(
     &::GlobalNamespace::VideoProjectionInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x578a394;
+  constexpr static std::size_t addrs = 0x57f0c3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionInstaller::*)()>(&::GlobalNamespace::VideoProjectionInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x578a464;
+  constexpr static std::size_t addrs = 0x57f0d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VideoProjectionInstaller*>::get(), ".ctor",

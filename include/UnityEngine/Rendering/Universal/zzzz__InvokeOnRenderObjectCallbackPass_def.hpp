@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_depthTarget(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x6667154, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66cece0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,7 +93,7 @@ public:
   InvokeOnRenderObjectCallbackPass_PassData(InvokeOnRenderObjectCallbackPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12814 };
 
   /// @brief Field colorTarget, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___colorTarget;
@@ -128,10 +128,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c* New_ctor();
 
-  /// @brief Method <Render>b__3_0, addr 0x66671b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__3_0, addr 0x66ced3c, size 0x20, virtual false, abstract: false, final false
   inline void _Render_b__3_0(::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method .ctor, addr 0x66671ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66ced38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c* getStaticF___9();
@@ -160,7 +160,7 @@ public:
   InvokeOnRenderObjectCallbackPass___c(InvokeOnRenderObjectCallbackPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12815 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -179,16 +179,16 @@ public:
 
   using __c = ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c;
 
-  /// @brief Method Execute, addr 0x6666cac, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x66ce838, size 0x38, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
   static inline ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method Render, addr 0x6666ce4, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x66ce870, size 0x470, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorTarget,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthTarget);
 
-  /// @brief Method .ctor, addr 0x6666be0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66ce76c, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
 protected:
@@ -206,7 +206,7 @@ public:
   InvokeOnRenderObjectCallbackPass(InvokeOnRenderObjectCallbackPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12816 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

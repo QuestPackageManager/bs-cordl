@@ -36,7 +36,7 @@ public:
   /// @brief Field Token, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_Token, put = __cordl_internal_set_Token)) ::System::Threading::CancellationToken Token;
 
-  /// @brief Method Complete, addr 0x5aaea7c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x5b153c8, size 0x188, virtual false, abstract: false, final false
   inline void Complete();
 
   static inline ::GlobalNamespace::Task_DelayPromise* New_ctor(::System::Threading::CancellationToken token);
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_Token(::System::Threading::CancellationToken value);
 
-  /// @brief Method .ctor, addr 0x5aace60, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b137ac, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationToken token);
 
 protected:

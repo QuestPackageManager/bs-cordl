@@ -22,7 +22,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE IndirectBufferContextHandles {
 public:
   // Declarations
-  /// @brief Method UseForOcclusionTest, addr 0x6611040, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method UseForOcclusionTest, addr 0x6678bcc, size 0x208, virtual false, abstract: false, final false
   inline void UseForOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* builder);
 
   // Ctor Parameters []
@@ -36,7 +36,7 @@ public:
                                          ::UnityEngine::Rendering::RenderGraphModule::BufferHandle argsBuffer, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle drawInfoBuffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17715 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

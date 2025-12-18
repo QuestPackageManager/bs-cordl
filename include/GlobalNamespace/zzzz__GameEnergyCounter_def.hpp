@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set_noFail(bool value);
 
-  /// @brief Method .ctor, addr 0x57d9ac0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58403a4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayModifiers_EnergyType energyType, bool noFail, bool instaFail, bool failOnSaberClash);
 
 protected:
@@ -219,24 +219,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IGameEnergyCounter"
   constexpr operator ::GlobalNamespace::IGameEnergyCounter*() noexcept;
 
-  /// @brief Method HandleNoteWasCut, addr 0x57d995c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x5840240, size 0xec, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleNoteWasMissed, addr 0x57d9a48, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x584032c, size 0x64, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method LateUpdate, addr 0x57d955c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x583fe40, size 0x124, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::GameEnergyCounter* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57d945c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x583fd40, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ProcessEnergyChange, addr 0x57d96d8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ProcessEnergyChange, addr 0x583ffbc, size 0xec, virtual false, abstract: false, final false
   inline void ProcessEnergyChange(float_t energyChange);
 
-  /// @brief Method Start, addr 0x57d92cc, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x583fbb0, size 0x190, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr int32_t const& __cordl_internal_get__batteryLives() const;
@@ -335,67 +335,67 @@ public:
 
   constexpr void __cordl_internal_set_gameEnergyDidReach0Event(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x57d9aac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5840390, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didInitEvent, addr 0x57d8db0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_didInitEvent, addr 0x583f694, size 0xac, virtual true, abstract: false, final true
   inline void add_didInitEvent(::System::Action* value);
 
-  /// @brief Method add_gameEnergyDidChangeEvent, addr 0x57d9060, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_gameEnergyDidChangeEvent, addr 0x583f944, size 0xc0, virtual true, abstract: false, final true
   inline void add_gameEnergyDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method add_gameEnergyDidReach0Event, addr 0x57d8f08, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_gameEnergyDidReach0Event, addr 0x583f7ec, size 0xac, virtual true, abstract: false, final true
   inline void add_gameEnergyDidReach0Event(::System::Action* value);
 
-  /// @brief Method get_batteryEnergy, addr 0x57d91f8, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method get_batteryEnergy, addr 0x583fadc, size 0x8c, virtual true, abstract: false, final true
   inline int32_t get_batteryEnergy();
 
-  /// @brief Method get_batteryLives, addr 0x57d9284, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_batteryLives, addr 0x583fb68, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_batteryLives();
 
-  /// @brief Method get_energy, addr 0x57d91e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_energy, addr 0x583facc, size 0x8, virtual true, abstract: false, final true
   inline float_t get_energy();
 
-  /// @brief Method get_energyType, addr 0x57d928c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_energyType, addr 0x583fb70, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::GameplayModifiers_EnergyType get_energyType();
 
-  /// @brief Method get_failOnSaberClash, addr 0x57d92bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_failOnSaberClash, addr 0x583fba0, size 0x8, virtual true, abstract: false, final true
   inline bool get_failOnSaberClash();
 
-  /// @brief Method get_instaFail, addr 0x57d929c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_instaFail, addr 0x583fb80, size 0x8, virtual true, abstract: false, final true
   inline bool get_instaFail();
 
-  /// @brief Method get_isInitialized, addr 0x57d91e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isInitialized, addr 0x583fac4, size 0x8, virtual true, abstract: false, final true
   inline bool get_isInitialized();
 
-  /// @brief Method get_noFail, addr 0x57d92ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_noFail, addr 0x583fb90, size 0x8, virtual true, abstract: false, final true
   inline bool get_noFail();
 
   /// @brief Convert to "::GlobalNamespace::IGameEnergyCounter"
   constexpr ::GlobalNamespace::IGameEnergyCounter* i___GlobalNamespace__IGameEnergyCounter() noexcept;
 
-  /// @brief Method remove_didInitEvent, addr 0x57d8e5c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_didInitEvent, addr 0x583f740, size 0xac, virtual true, abstract: false, final true
   inline void remove_didInitEvent(::System::Action* value);
 
-  /// @brief Method remove_gameEnergyDidChangeEvent, addr 0x57d9120, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_gameEnergyDidChangeEvent, addr 0x583fa04, size 0xc0, virtual true, abstract: false, final true
   inline void remove_gameEnergyDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_gameEnergyDidReach0Event, addr 0x57d8fb4, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_gameEnergyDidReach0Event, addr 0x583f898, size 0xac, virtual true, abstract: false, final true
   inline void remove_gameEnergyDidReach0Event(::System::Action* value);
 
-  /// @brief Method set_energy, addr 0x57d91f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_energy, addr 0x583fad4, size 0x8, virtual false, abstract: false, final false
   inline void set_energy(float_t value);
 
-  /// @brief Method set_energyType, addr 0x57d9294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_energyType, addr 0x583fb78, size 0x8, virtual false, abstract: false, final false
   inline void set_energyType(::GlobalNamespace::GameplayModifiers_EnergyType value);
 
-  /// @brief Method set_failOnSaberClash, addr 0x57d92c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_failOnSaberClash, addr 0x583fba8, size 0x8, virtual false, abstract: false, final false
   inline void set_failOnSaberClash(bool value);
 
-  /// @brief Method set_instaFail, addr 0x57d92a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_instaFail, addr 0x583fb88, size 0x8, virtual false, abstract: false, final false
   inline void set_instaFail(bool value);
 
-  /// @brief Method set_noFail, addr 0x57d92b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_noFail, addr 0x583fb98, size 0x8, virtual false, abstract: false, final false
   inline void set_noFail(bool value);
 
 protected:

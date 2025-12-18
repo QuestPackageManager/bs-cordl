@@ -35,16 +35,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::RefreshRate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::RefreshRate>*();
 
-  /// @brief Method CompareTo, addr 0x6850550, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x68b80c8, size 0x44, virtual true, abstract: false, final true
   inline int32_t CompareTo(::UnityEngine::RefreshRate other);
 
-  /// @brief Method Equals, addr 0x6850514, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x68b808c, size 0x3c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::RefreshRate other);
 
-  /// @brief Method ToString, addr 0x6850594, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x68b810c, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_value, addr 0x6850500, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x68b8078, size 0x14, virtual false, abstract: false, final false
   inline double_t get_value();
 
   /// @brief Convert to "::System::IComparable_1<::UnityEngine::RefreshRate>"
@@ -61,7 +61,7 @@ public:
   constexpr RefreshRate(uint32_t numerator, uint32_t denominator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10109 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10113 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

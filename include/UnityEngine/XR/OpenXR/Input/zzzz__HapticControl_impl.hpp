@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::OpenXR::Input::HapticControl::*)()>(
     &::UnityEngine::XR::OpenXR::Input::HapticControl::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x67be9f0;
+  constexpr static std::size_t addrs = 0x6826568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::OpenXR::Input::HapticControl*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::XR::OpenXR::Input::Haptic (::UnityEngine::XR::OpenXR::Input::HapticControl::*)(void*)>(
     &::UnityEngine::XR::OpenXR::Input::HapticControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67bea70;
+  constexpr static std::size_t addrs = 0x68265e8;
 
   inline static ::MethodInfo const* methodInfo() {
 

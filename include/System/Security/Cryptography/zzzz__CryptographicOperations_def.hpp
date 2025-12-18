@@ -22,7 +22,7 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE CryptographicOperations : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ZeroMemory, addr 0x58e0618, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ZeroMemory, addr 0x5946f64, size 0x5c, virtual false, abstract: false, final false
   static inline void ZeroMemory(::System::Span_1<uint8_t> buffer);
 
 protected:

@@ -25,7 +25,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE PropertyPathInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6a10678, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a794fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<::Unity::Properties::PropertyPath> propertyPath, ::System::Type* type);
 
   // Ctor Parameters []

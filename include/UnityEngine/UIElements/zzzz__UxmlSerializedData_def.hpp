@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_uxmlAssetId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6a8cc54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6af5ad8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UxmlSerializedData_UxmlAttributeFlags getStaticF_s_CurrentDeserializeFlags();

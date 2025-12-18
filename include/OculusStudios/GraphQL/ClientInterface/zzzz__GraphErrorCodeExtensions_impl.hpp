@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions::IsGraphQLErrorCode)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5d175dc;
+  constexpr static std::size_t addrs = 0x5d7e0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OculusStudios::GraphQL::ClientInterface::GraphErrorCode (*)(int32_t)>(
     &::OculusStudios::GraphQL::ClientInterface::GraphErrorCodeExtensions::GetGraphQLErrorCode)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5d1768c;
+  constexpr static std::size_t addrs = 0x5d7e16c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

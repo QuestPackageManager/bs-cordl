@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)()>(
     &::UnityEngine::Rendering::Universal::RTHandleResourcePool::get_staleResourceCapacity)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66983b4;
+  constexpr static std::size_t addrs = 0x66fff40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::RTHandleResourcePool::set_staleResourceCapacity)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6698410;
+  constexpr static std::size_t addrs = 0x66fff9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>, ::UnityEngine::Rendering::RTHandle*, int32_t)>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::AddResourceToPool)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x669896c;
+  constexpr static std::size_t addrs = 0x67004f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>, ::ByRef<::UnityEngine::Rendering::RTHandle*>, bool)>(
     &::UnityEngine::Rendering::Universal::RTHandleResourcePool::TryGetResource)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6698bd8;
+  constexpr static std::size_t addrs = 0x6700764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)()>(
     &::UnityEngine::Rendering::Universal::RTHandleResourcePool::Cleanup)> {
   constexpr static std::size_t size = 0x4bc;
-  constexpr static std::size_t addrs = 0x66984b0;
+  constexpr static std::size_t addrs = 0x670003c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, int32_t)>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::ShouldReleaseResource)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6698dc0;
+  constexpr static std::size_t addrs = 0x670094c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::RTHandleResourcePool::PurgeUnusedResources)> {
   constexpr static std::size_t size = 0x608;
-  constexpr static std::size_t addrs = 0x6698e38;
+  constexpr static std::size_t addrs = 0x67009c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)()>(
     &::UnityEngine::Rendering::Universal::RTHandleResourcePool::LogDebugInfo)> {
   constexpr static std::size_t size = 0x89c;
-  constexpr static std::size_t addrs = 0x6699440;
+  constexpr static std::size_t addrs = 0x6700fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>)>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::GetHashCodeWithNameHash)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6698b80;
+  constexpr static std::size_t addrs = 0x670070c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +158,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::RenderTextureDescriptor, ::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode, int32_t, float_t, ::UnityEngine::FilterMode, ::UnityEngine::TextureWrapMode, ::StringW)>(
     &::UnityEngine::Rendering::Universal::RTHandleResourcePool::CreateTextureDesc)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6699cdc;
+  constexpr static std::size_t addrs = 0x6701868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)()>(
     &::UnityEngine::Rendering::Universal::RTHandleResourcePool::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6699e1c;
+  constexpr static std::size_t addrs = 0x67019a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

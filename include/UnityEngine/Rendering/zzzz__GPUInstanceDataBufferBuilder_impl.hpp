@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::MetadataValue (::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::*)(
     int32_t, int32_t, bool)>(&::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::CreateMetadataValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x660216c;
+  constexpr static std::size_t addrs = 0x6669cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::*)(
     int32_t, bool, int32_t, bool, ::UnityEngine::Rendering::InstanceType, ::UnityEngine::Rendering::InstanceComponentGroup)>(&::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::AddComponent)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6602188;
+  constexpr static std::size_t addrs = 0x6669d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::GPUInstanceDataBuffer* (
     ::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::*)(::ByRef<::UnityEngine::Rendering::InstanceNumInfo>)>(&::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::Build)> {
   constexpr static std::size_t size = 0x88c;
-  constexpr static std::size_t addrs = 0x66022b4;
+  constexpr static std::size_t addrs = 0x6669e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::*)()>(
     &::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::Dispose)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6602b40;
+  constexpr static std::size_t addrs = 0x666a6cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUInstanceDataBufferBuilder>::get(),

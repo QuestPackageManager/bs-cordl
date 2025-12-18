@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::BitField32DebugView::*)(::Unity::Collections::BitField32)>(
     &::Unity::Collections::BitField32DebugView::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x628d908;
+  constexpr static std::size_t addrs = 0x62f5494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool, ::Array<bool>*> (::Unity::Collections::BitField32DebugView::*)()>(
     &::Unity::Collections::BitField32DebugView::get_Bits)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x628d910;
+  constexpr static std::size_t addrs = 0x62f549c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::BitField32DebugView*>::get(), "get_Bits",

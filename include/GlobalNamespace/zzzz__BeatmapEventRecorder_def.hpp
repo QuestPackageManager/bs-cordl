@@ -51,7 +51,7 @@ public:
   constexpr BeatmapEventRecorder_EventCounts(int32_t bpm, int32_t jumpSpeed, int32_t basic, int32_t boost, int32_t color, int32_t rotation, int32_t translation, int32_t fx) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6681 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6676 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -126,27 +126,27 @@ public:
   /// @brief Field _samples, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__samples, put = __cordl_internal_set__samples)) ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventRecorder_EventCounts>* _samples;
 
-  /// @brief Method Begin, addr 0x56fd28c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x5759c68, size 0x4, virtual false, abstract: false, final false
   inline void Begin(::GlobalNamespace::BeatmapCallbacksController* callbackController);
 
-  /// @brief Method CaptureFrame, addr 0x56fd34c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CaptureFrame, addr 0x5759d28, size 0xec, virtual false, abstract: false, final false
   inline void CaptureFrame();
 
-  /// @brief Method ClearCallbacks, addr 0x56fd4dc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ClearCallbacks, addr 0x5759eb8, size 0x30, virtual false, abstract: false, final false
   inline void ClearCallbacks();
 
-  /// @brief Method Finish, addr 0x56fd438, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x5759e14, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BeatmapEventRecorder_EventCounts, ::Array<::GlobalNamespace::BeatmapEventRecorder_EventCounts>*> Finish();
 
-  /// @brief Method GenerateTableReport, addr 0x56fd50c, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method GenerateTableReport, addr 0x5759ee8, size 0x540, virtual false, abstract: false, final false
   static inline ::StringW GenerateTableReport(::ArrayW<::GlobalNamespace::BeatmapEventRecorder_EventCounts, ::Array<::GlobalNamespace::BeatmapEventRecorder_EventCounts>*> samples);
 
-  /// @brief Method HandleBeatmapEvent, addr 0x56fda4c, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x575a428, size 0x2cc, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BeatmapEventData* data);
 
   static inline ::GlobalNamespace::BeatmapEventRecorder* New_ctor(int32_t initialFrameCapacity);
 
-  /// @brief Method SetupCallbacks, addr 0x56fd290, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetupCallbacks, addr 0x5759c6c, size 0xbc, virtual false, abstract: false, final false
   inline void SetupCallbacks(::GlobalNamespace::BeatmapCallbacksController* callbackController);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__callbackController() const;
@@ -179,7 +179,7 @@ public:
 
   constexpr void __cordl_internal_set__samples(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventRecorder_EventCounts>* value);
 
-  /// @brief Method .ctor, addr 0x56fd208, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5759be4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialFrameCapacity);
 
 protected:
@@ -197,7 +197,7 @@ public:
   BeatmapEventRecorder(BeatmapEventRecorder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6677 };
 
   /// @brief Field _samples, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventRecorder_EventCounts>* ____samples;

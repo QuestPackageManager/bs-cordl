@@ -82,7 +82,7 @@ public:
   /// @brief Field _settingsManager, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Method InstallBindings, addr 0x571be74, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x5779c84, size 0x14c, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::MissionLevelNoTransitionInstaller* New_ctor();
@@ -147,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x571c37c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x577a228, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -165,7 +165,7 @@ public:
   MissionLevelNoTransitionInstaller(MissionLevelNoTransitionInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6800 };
 
   /// @brief Field _beatmapLevelSo, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapLevelSO> ____beatmapLevelSo;

@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_player(::Oculus::Haptics::HapticClipPlayer* value);
 
-  /// @brief Method .ctor, addr 0x5642aa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56a7a68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,7 +107,7 @@ public:
   OculusAdvancedHapticFeedbackPlayer_HapticPlayerState(OculusAdvancedHapticFeedbackPlayer_HapticPlayerState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20313 };
 
   /// @brief Field player, offset: 0x10, size: 0x8, def value: None
   ::Oculus::Haptics::HapticClipPlayer* ___player;
@@ -168,30 +168,30 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method CanPlayHapticPreset, addr 0x5642ae0, size 0x1d4, virtual true, abstract: false, final true
+  /// @brief Method CanPlayHapticPreset, addr 0x56a7aa4, size 0x1d4, virtual true, abstract: false, final true
   inline bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset, ::UnityEngine::XR::XRNode node);
 
-  /// @brief Method Dispose, addr 0x5642e40, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x56a7e04, size 0x1ec, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetHapticClip, addr 0x5642aa8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetHapticClip, addr 0x56a7a6c, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityW<::Oculus::Haptics::HapticClip> GetHapticClip(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method HandleApplicationQuitting, addr 0x5643268, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleApplicationQuitting, addr 0x56a822c, size 0x70, virtual false, abstract: false, final false
   inline void HandleApplicationQuitting();
 
-  /// @brief Method Initialize, addr 0x5642d98, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x56a7d5c, size 0xa8, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method IsTouchControllerSupported, addr 0x56431e0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsTouchControllerSupported, addr 0x56a81a4, size 0x88, virtual false, abstract: false, final false
   static inline bool IsTouchControllerSupported(::UnityEngine::XR::XRNode node);
 
   static inline ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer* New_ctor();
 
-  /// @brief Method PlayHapticFeedback, addr 0x56427c8, size 0x2dc, virtual true, abstract: false, final true
+  /// @brief Method PlayHapticFeedback, addr 0x56a778c, size 0x2dc, virtual true, abstract: false, final true
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method Tick, addr 0x564302c, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x56a7ff0, size 0x1b4, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>, ::UnityEngine::XR::XRNode>,
@@ -230,7 +230,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x56432d8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56a829c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IHapticFeedbackPlayer"
@@ -260,7 +260,7 @@ public:
   OculusAdvancedHapticFeedbackPlayer(OculusAdvancedHapticFeedbackPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20314 };
 
   /// @brief Field _vrPlatformHelper, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;

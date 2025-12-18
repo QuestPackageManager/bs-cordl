@@ -43,7 +43,7 @@ public:
   EventTraceActivity(EventTraceActivity const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21135 };
 
   /// @brief Field ActivityId, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___ActivityId;

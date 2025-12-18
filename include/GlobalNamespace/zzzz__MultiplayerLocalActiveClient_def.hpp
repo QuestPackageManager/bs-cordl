@@ -94,39 +94,39 @@ public:
   /// @brief Field _scoreSyncStateManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreSyncStateManager, put = __cordl_internal_set__scoreSyncStateManager)) ::GlobalNamespace::IScoreSyncStateManager* _scoreSyncStateManager;
 
-  /// @brief Method HandleComboDidChange, addr 0x57b38c4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleComboDidChange, addr 0x581a16c, size 0xdc, virtual false, abstract: false, final false
   inline void HandleComboDidChange(int32_t combo);
 
-  /// @brief Method HandleMultiplierDidChange, addr 0x57b39a0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplierDidChange, addr 0x581a248, size 0xdc, virtual false, abstract: false, final false
   inline void HandleMultiplierDidChange(int32_t multiplier, float_t multiplierProgress);
 
-  /// @brief Method HandleNoteWasAdded, addr 0x57b31a8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasAdded, addr 0x5819a50, size 0x160, virtual false, abstract: false, final false
   inline void HandleNoteWasAdded(::GlobalNamespace::NoteData* noteData, ::GlobalNamespace::NoteSpawnData noteSpawnData);
 
-  /// @brief Method HandleNoteWasCut, addr 0x57b3700, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x5819fa8, size 0x1c4, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleNoteWasMissed, addr 0x57b35f0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x5819e98, size 0x110, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleObstacleWasAdded, addr 0x57b3308, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleWasAdded, addr 0x5819bb0, size 0x15c, virtual false, abstract: false, final false
   inline void HandleObstacleWasAdded(::GlobalNamespace::ObstacleData* obstacleData, ::GlobalNamespace::ObstacleSpawnData obstacleSpawnData, float_t rotation);
 
-  /// @brief Method HandleScoreDidChange, addr 0x57b3a7c, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreDidChange, addr 0x581a324, size 0x25c, virtual false, abstract: false, final false
   inline void HandleScoreDidChange(int32_t multipliedScore, int32_t modifiedScore);
 
-  /// @brief Method HandleSliderWasAdded, addr 0x57b3464, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasAdded, addr 0x5819d0c, size 0x18c, virtual false, abstract: false, final false
   inline void HandleSliderWasAdded(::GlobalNamespace::SliderData* sliderData, ::GlobalNamespace::SliderSpawnData sliderSpawnData);
 
-  /// @brief Method LateUpdate, addr 0x57b2e98, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5819740, size 0x310, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MultiplayerLocalActiveClient* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x57b29c8, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5819270, size 0x4d0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x57b2284, size 0x744, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5818b2c, size 0x744, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -177,7 +177,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreSyncStateManager(::GlobalNamespace::IScoreSyncStateManager* value);
 
-  /// @brief Method .ctor, addr 0x57b3cd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x581a580, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_MaterialLibrary::*)(
     ::UnityEngine::Rendering::Universal::PostProcessData*)>(&::UnityEngine::Rendering::Universal::PostProcessPass_MaterialLibrary::_ctor)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x66697ec;
+  constexpr static std::size_t addrs = 0x66d1378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::Rendering::Universal::PostProcessPass_MaterialLibrary::*)(
     ::UnityEngine::Shader*)>(&::UnityEngine::Rendering::Universal::PostProcessPass_MaterialLibrary::Load)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x667c6cc;
+  constexpr static std::size_t addrs = 0x66e4258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_MaterialLibrary::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_MaterialLibrary::Cleanup)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6669b74;
+  constexpr static std::size_t addrs = 0x66d1700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -747,7 +747,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_UpdateCameraResolutionPassData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_UpdateCameraResolutionPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667d250;
+  constexpr static std::size_t addrs = 0x66e4ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -785,7 +785,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_StopNaNsPassData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_StopNaNsPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667d254;
+  constexpr static std::size_t addrs = 0x66e4de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -847,7 +847,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_SMAASetupPassData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_SMAASetupPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667d258;
+  constexpr static std::size_t addrs = 0x66e4de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -957,7 +957,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_SMAAPassData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_SMAAPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667d25c;
+  constexpr static std::size_t addrs = 0x66e4de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1043,7 +1043,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_UberSetupBloomPassData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_UberSetupBloomPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667d260;
+  constexpr static std::size_t addrs = 0x66e4dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1153,7 +1153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_BloomPassData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_BloomPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667d264;
+  constexpr static std::size_t addrs = 0x66e4df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1260,7 +1260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::PostProcessPass_BloomMaterialParams::*)(
     ::ByRef<::UnityEngine::Rendering::Universal::PostProcessPass_BloomMaterialParams>)>(&::UnityEngine::Rendering::Universal::PostProcessPass_BloomMaterialParams::Equals)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6674984;
+  constexpr static std::size_t addrs = 0x66dc510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1291,7 +1291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_DoFGaussianPassData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_DoFGaussianPassData::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x667d268;
+  constexpr static std::size_t addrs = 0x66e4df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1488,7 +1488,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_DoFBokehPassData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_DoFBokehPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667d2bc;
+  constexpr static std::size_t addrs = 0x66e4e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1682,7 +1682,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_PaniniProjectionPassData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_PaniniProjectionPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667d2c0;
+  constexpr static std::size_t addrs = 0x66e4e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1781,7 +1781,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_MotionBlurPassData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_MotionBlurPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667d2c4;
+  constexpr static std::size_t addrs = 0x66e4e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1927,7 +1927,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_LensFlarePassData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_LensFlarePassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667d2c8;
+  constexpr static std::size_t addrs = 0x66e4e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2073,7 +2073,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_LensFlareScreenSpacePassData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_LensFlareScreenSpacePassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667d2cc;
+  constexpr static std::size_t addrs = 0x66e4e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2245,7 +2245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_PostProcessingFinalSetupPassData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_PostProcessingFinalSetupPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667d2d0;
+  constexpr static std::size_t addrs = 0x66e4e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2324,7 +2324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_PostProcessingFinalFSRScalePassData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_PostProcessingFinalFSRScalePassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667d2d4;
+  constexpr static std::size_t addrs = 0x66e4e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2403,7 +2403,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::Universal::PostProcessPass_FinalBlitSettings (*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_FinalBlitSettings::Create)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x667d2dc;
+  constexpr static std::size_t addrs = 0x66e4e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2441,7 +2441,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_PostProcessingFinalBlitPassData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_PostProcessingFinalBlitPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667d2d8;
+  constexpr static std::size_t addrs = 0x66e4e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2533,7 +2533,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_UberPostPassData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_UberPostPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667d2e8;
+  constexpr static std::size_t addrs = 0x66e4e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2715,7 +2715,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass_PostFXSetupPassData::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass_PostFXSetupPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667d2ec;
+  constexpr static std::size_t addrs = 0x66e4e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2741,7 +2741,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667d344;
+  constexpr static std::size_t addrs = 0x66e4ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::PostProcessPass___c*>::get(),
@@ -2755,7 +2755,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::Universal::PostProcessPass___c::*)(
     ::UnityEngine::Light*, ::UnityEngine::Camera*, ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::Universal::PostProcessPass___c::_LensFlareDataDriven_b__98_0)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x667d348;
+  constexpr static std::size_t addrs = 0x66e4ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2773,7 +2773,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::Universal::PostProcessPass___c::*)(
     ::UnityEngine::Light*, ::UnityEngine::Camera*, ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::Universal::PostProcessPass___c::_LensFlareDataDriven_b__98_1)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x667d3dc;
+  constexpr static std::size_t addrs = 0x66e4f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2792,7 +2792,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_UpdateCameraResolutionPassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_UpdateCameraResolution_b__122_0)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x667d470;
+  constexpr static std::size_t addrs = 0x66e4ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2810,7 +2810,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_StopNaNsPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderStopNaN_b__124_0)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x667d518;
+  constexpr static std::size_t addrs = 0x66e50a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2827,7 +2827,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_SMAASetupPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderSMAA_b__127_0)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x667d668;
+  constexpr static std::size_t addrs = 0x66e51f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2844,7 +2844,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_SMAAPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderSMAA_b__127_1)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x667d808;
+  constexpr static std::size_t addrs = 0x66e5394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2861,7 +2861,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_SMAAPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderSMAA_b__127_2)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x667d958;
+  constexpr static std::size_t addrs = 0x66e54e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2878,7 +2878,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_SMAAPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderSMAA_b__127_3)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x667daa8;
+  constexpr static std::size_t addrs = 0x66e5634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2895,7 +2895,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_UberSetupBloomPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_UberPostSetupBloomPass_b__129_0)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x667dc50;
+  constexpr static std::size_t addrs = 0x66e57dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2913,7 +2913,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_BloomPassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderBloomTexture_b__132_0)> {
   constexpr static std::size_t size = 0x5c8;
-  constexpr static std::size_t addrs = 0x667de34;
+  constexpr static std::size_t addrs = 0x66e59c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2931,7 +2931,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_DoFGaussianPassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderDoFGaussian_b__135_0)> {
   constexpr static std::size_t size = 0x89c;
-  constexpr static std::size_t addrs = 0x667e3fc;
+  constexpr static std::size_t addrs = 0x66e5f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2949,7 +2949,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_DoFBokehPassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderDoFBokeh_b__137_0)> {
   constexpr static std::size_t size = 0x65c;
-  constexpr static std::size_t addrs = 0x667ed08;
+  constexpr static std::size_t addrs = 0x66e6894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2966,7 +2966,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_PaniniProjectionPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderPaniniProjection_b__139_0)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x667f364;
+  constexpr static std::size_t addrs = 0x66e6ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2984,7 +2984,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_MotionBlurPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderMotionBlur_b__145_0)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x667f560;
+  constexpr static std::size_t addrs = 0x66e70ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3002,7 +3002,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_LensFlarePassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_LensFlareDataDrivenComputeOcclusion_b__147_0)> {
   constexpr static std::size_t size = 0x68c;
-  constexpr static std::size_t addrs = 0x667f92c;
+  constexpr static std::size_t addrs = 0x66e74b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3020,7 +3020,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_LensFlarePassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderLensFlareDataDriven_b__148_0)> {
   constexpr static std::size_t size = 0x7d8;
-  constexpr static std::size_t addrs = 0x667ffb8;
+  constexpr static std::size_t addrs = 0x66e7b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3037,7 +3037,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::Universal::PostProcessPass___c::*)(
     ::UnityEngine::Light*, ::UnityEngine::Camera*, ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderLensFlareDataDriven_b__148_1)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6680790;
+  constexpr static std::size_t addrs = 0x66e831c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3055,7 +3055,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::Universal::PostProcessPass___c::*)(
     ::UnityEngine::Light*, ::UnityEngine::Camera*, ::UnityEngine::Vector3)>(&::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderLensFlareDataDriven_b__148_2)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6680824;
+  constexpr static std::size_t addrs = 0x66e83b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3074,7 +3074,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_LensFlareScreenSpacePassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderLensFlareScreenSpace_b__150_0)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x66808b8;
+  constexpr static std::size_t addrs = 0x66e8444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3092,7 +3092,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_PostProcessingFinalSetupPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderFinalSetup_b__153_0)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6680cc8;
+  constexpr static std::size_t addrs = 0x66e8854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3110,7 +3110,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_PostProcessingFinalFSRScalePassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderFinalFSRScale_b__155_0)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x6680db0;
+  constexpr static std::size_t addrs = 0x66e893c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3128,7 +3128,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_PostProcessingFinalBlitPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderFinalBlit_b__158_0)> {
   constexpr static std::size_t size = 0x47c;
-  constexpr static std::size_t addrs = 0x6680fb0;
+  constexpr static std::size_t addrs = 0x66e8b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3145,7 +3145,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_UberPostPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderUberPost_b__162_0)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x668142c;
+  constexpr static std::size_t addrs = 0x66e8fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3162,7 +3162,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::PostProcessPass_PostFXSetupPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass___c::_RenderPostProcessingRenderGraph_b__164_0)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x66816dc;
+  constexpr static std::size_t addrs = 0x66e9268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3785,7 +3785,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::Rendering::Universal::PostProcessData*, ::ByRef<::UnityEngine::Rendering::Universal::PostProcessParams>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::_ctor)> {
   constexpr static std::size_t size = 0x6fc;
-  constexpr static std::size_t addrs = 0x66690f0;
+  constexpr static std::size_t addrs = 0x66d0c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3802,7 +3802,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::Cleanup)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6669b50;
+  constexpr static std::size_t addrs = 0x66d16dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::PostProcessPass*>::get(),
@@ -3816,7 +3816,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::Dispose)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x6669ce4;
+  constexpr static std::size_t addrs = 0x66d1870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::PostProcessPass*>::get(),
@@ -3831,7 +3831,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::RenderTextureDescriptor>, ::ByRef<::UnityEngine::Rendering::RTHandle*>, bool, ::ByRef<::UnityEngine::Rendering::RTHandle*>, ::ByRef<::UnityEngine::Rendering::RTHandle*>,
     ::ByRef<::UnityEngine::Rendering::RTHandle*>, bool, bool)>(&::UnityEngine::Rendering::Universal::PostProcessPass::Setup)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6669e98;
+  constexpr static std::size_t addrs = 0x66d1a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3852,7 +3852,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass::*)(
     ::ByRef<::UnityEngine::Rendering::RTHandle*>, bool, bool)>(&::UnityEngine::Rendering::Universal::PostProcessPass::SetupFinalPass)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6669fa8;
+  constexpr static std::size_t addrs = 0x66d1b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3868,7 +3868,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::PostProcessPass::OnCameraSetup)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x666a048;
+  constexpr static std::size_t addrs = 0x66d1bd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3884,7 +3884,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::PostProcessPass::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::CanRunOnTile)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x666a054;
+  constexpr static std::size_t addrs = 0x66d1be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::PostProcessPass*>::get(),
@@ -3898,7 +3898,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass::*)(
     ::UnityEngine::Rendering::ScriptableRenderContext, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::PostProcessPass::Execute)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x666a05c;
+  constexpr static std::size_t addrs = 0x66d1be8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3914,7 +3914,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::PostProcessPass::*)(
     ::UnityEngine::Experimental::Rendering::GraphicsFormat)>(&::UnityEngine::Rendering::Universal::PostProcessPass::IsHDRFormat)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6669a0c;
+  constexpr static std::size_t addrs = 0x66d1598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3929,7 +3929,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::PostProcessPass::*)(
     ::UnityEngine::Experimental::Rendering::GraphicsFormat)>(&::UnityEngine::Rendering::Universal::PostProcessPass::IsAlphaFormat)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6669ad8;
+  constexpr static std::size_t addrs = 0x66d1664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3944,7 +3944,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderTextureDescriptor (::UnityEngine::Rendering::Universal::PostProcessPass::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::GetCompatibleDescriptor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x666c1d4;
+  constexpr static std::size_t addrs = 0x66d3d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::PostProcessPass*>::get(),
@@ -3959,7 +3959,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::GetCompatibleDescriptor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x666c21c;
+  constexpr static std::size_t addrs = 0x66d3da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3977,7 +3977,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::RenderTextureDescriptor, int32_t, int32_t, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::GetCompatibleDescriptor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x666c2f8;
+  constexpr static std::size_t addrs = 0x66d3e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3995,7 +3995,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::PostProcessPass::*)(bool)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::RequireSRGBConversionBlitToBackBuffer)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x666c348;
+  constexpr static std::size_t addrs = 0x66d3ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4010,7 +4010,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::Universal::PostProcessPass::*)(
     ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(&::UnityEngine::Rendering::Universal::PostProcessPass::RequireHDROutput)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x666c364;
+  constexpr static std::size_t addrs = 0x66d3ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4025,7 +4025,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::PostProcessPass::Render)> {
   constexpr static std::size_t size = 0x1454;
-  constexpr static std::size_t addrs = 0x666ad80;
+  constexpr static std::size_t addrs = 0x66d290c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4042,7 +4042,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::Universal::CameraData>, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::DoSubpixelMorphologicalAntialiasing)> {
   constexpr static std::size_t size = 0x5dc;
-  constexpr static std::size_t addrs = 0x666c5fc;
+  constexpr static std::size_t addrs = 0x66d4188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4062,7 +4062,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::Universal::CameraData>, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rect)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::DoDepthOfField)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x666cbd8;
+  constexpr static std::size_t addrs = 0x66d4764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4082,7 +4082,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rect, bool)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::DoGaussianDepthOfField)> {
   constexpr static std::size_t size = 0x750;
-  constexpr static std::size_t addrs = 0x6670080;
+  constexpr static std::size_t addrs = 0x66d7c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4100,7 +4100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass::*)(float_t, float_t)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::PrepareBokehKernel)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x6670dfc;
+  constexpr static std::size_t addrs = 0x66d8988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4114,7 +4114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t)>(&::UnityEngine::Rendering::Universal::PostProcessPass::GetMaxBokehRadiusInPixels)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6671054;
+  constexpr static std::size_t addrs = 0x66d8be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4130,7 +4130,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rect, bool)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::DoBokehDepthOfField)> {
   constexpr static std::size_t size = 0x62c;
-  constexpr static std::size_t addrs = 0x66707d0;
+  constexpr static std::size_t addrs = 0x66d835c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4148,7 +4148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Light*, ::UnityEngine::Camera*, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::GetLensFlareLightAttenuation)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x6671070;
+  constexpr static std::size_t addrs = 0x66d8bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4166,7 +4166,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::Universal::UniversalCameraData*>, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, bool, float_t, float_t)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::LensFlareDataDrivenComputeOcclusion)> {
   constexpr static std::size_t size = 0x7e4;
-  constexpr static std::size_t addrs = 0x666e438;
+  constexpr static std::size_t addrs = 0x66d5fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4187,7 +4187,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::Universal::UniversalCameraData*>, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, bool, float_t, float_t)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::LensFlareDataDriven)> {
   constexpr static std::size_t size = 0x7cc;
-  constexpr static std::size_t addrs = 0x666ec1c;
+  constexpr static std::size_t addrs = 0x66d67a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4207,7 +4207,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Camera*, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::DoLensFlareScreenSpace)> {
   constexpr static std::size_t size = 0x654;
-  constexpr static std::size_t addrs = 0x666dde4;
+  constexpr static std::size_t addrs = 0x66d5970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4226,7 +4226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Material*>, ::UnityEngine::Camera*, ::UnityEngine::Experimental::Rendering::XRPass*)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::UpdateMotionBlurMatrices)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x66712bc;
+  constexpr static std::size_t addrs = 0x66d8e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4244,7 +4244,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*,
     ::ByRef<::UnityEngine::Rendering::Universal::CameraData>)>(&::UnityEngine::Rendering::Universal::PostProcessPass::DoMotionBlur)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x666ccd4;
+  constexpr static std::size_t addrs = 0x66d4860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4264,7 +4264,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Camera*, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::DoPaniniProjection)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x666cfac;
+  constexpr static std::size_t addrs = 0x66d4b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4282,7 +4282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::Universal::PostProcessPass::*)(::UnityEngine::Camera*)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::CalcViewExtents)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66714b4;
+  constexpr static std::size_t addrs = 0x66d9040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4297,7 +4297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::Universal::PostProcessPass::*)(::UnityEngine::Camera*, float_t)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::CalcCropExtents)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6671510;
+  constexpr static std::size_t addrs = 0x66d909c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::Universal::PostProcessPass*>::get(),
@@ -4313,7 +4313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Material*, bool)>(&::UnityEngine::Rendering::Universal::PostProcessPass::SetupBloom)> {
   constexpr static std::size_t size = 0xbe4;
-  constexpr static std::size_t addrs = 0x666d200;
+  constexpr static std::size_t addrs = 0x66d4d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4331,7 +4331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass::*)(::UnityEngine::Material*, bool)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::SetupLensDistortion)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x666f3e8;
+  constexpr static std::size_t addrs = 0x66d6f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4347,7 +4347,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass::*)(::UnityEngine::Material*)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::SetupChromaticAberration)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x666f6f4;
+  constexpr static std::size_t addrs = 0x66d7280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4362,7 +4362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass::*)(
     ::UnityEngine::Material*, ::UnityEngine::Experimental::Rendering::XRPass*)>(&::UnityEngine::Rendering::Universal::PostProcessPass::SetupVignette)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x666f800;
+  constexpr static std::size_t addrs = 0x66d738c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4379,7 +4379,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::CommandBuffer*, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData>, ::UnityEngine::Material*)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::SetupColorGrading)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x666fa44;
+  constexpr static std::size_t addrs = 0x66d75d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4396,7 +4396,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass::*)(
     ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Material*)>(&::UnityEngine::Rendering::Universal::PostProcessPass::SetupGrain)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x666fdb0;
+  constexpr static std::size_t addrs = 0x66d793c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4412,7 +4412,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass::*)(
     ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Material*)>(&::UnityEngine::Rendering::Universal::PostProcessPass::SetupDithering)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x666fe64;
+  constexpr static std::size_t addrs = 0x66d79f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4429,7 +4429,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::HDROutputUtils_HDRDisplayInformation, ::UnityEngine::ColorGamut, ::UnityEngine::Material*, ::UnityEngine::Rendering::HDROutputUtils_Operation, bool)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::SetupHDROutput)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x666ff04;
+  constexpr static std::size_t addrs = 0x66d7a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4447,7 +4447,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPass::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::PostProcessPass::RenderFinalPass)> {
   constexpr static std::size_t size = 0x9b0;
-  constexpr static std::size_t addrs = 0x666a3d0;
+  constexpr static std::size_t addrs = 0x66d1f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4464,7 +4464,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Vector2Int)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::UpdateCameraResolution)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x6671564;
+  constexpr static std::size_t addrs = 0x66d90f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4482,7 +4482,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::RenderTextureDescriptor, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(&::UnityEngine::Rendering::Universal::PostProcessPass::RenderStopNaN)> {
   constexpr static std::size_t size = 0x57c;
-  constexpr static std::size_t addrs = 0x6671960;
+  constexpr static std::size_t addrs = 0x66d94ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4502,7 +4502,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::RenderSMAA)> {
   constexpr static std::size_t size = 0x1454;
-  constexpr static std::size_t addrs = 0x6671edc;
+  constexpr static std::size_t addrs = 0x66d9a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4522,7 +4522,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::UnityEngine::Material*)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::UberPostSetupBloomPass)> {
   constexpr static std::size_t size = 0x7a8;
-  constexpr static std::size_t addrs = 0x6673330;
+  constexpr static std::size_t addrs = 0x66daebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4540,7 +4540,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
     bool)>(&::UnityEngine::Rendering::Universal::PostProcessPass::RenderBloomTexture)> {
   constexpr static std::size_t size = 0xeac;
-  constexpr static std::size_t addrs = 0x6673ad8;
+  constexpr static std::size_t addrs = 0x66db664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4560,7 +4560,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::RenderDoF)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x66749ec;
+  constexpr static std::size_t addrs = 0x66dc578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4581,7 +4581,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::ByRef<::UnityEngine::Material*>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::RenderDoFGaussian)> {
   constexpr static std::size_t size = 0xad4;
-  constexpr static std::size_t addrs = 0x6674c74;
+  constexpr static std::size_t addrs = 0x66dc800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4603,7 +4603,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::ByRef<::UnityEngine::Material*>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::RenderDoFBokeh)> {
   constexpr static std::size_t size = 0xa8c;
-  constexpr static std::size_t addrs = 0x6675748;
+  constexpr static std::size_t addrs = 0x66dd2d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4624,7 +4624,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Camera*, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(&::UnityEngine::Rendering::Universal::PostProcessPass::RenderPaniniProjection)> {
   constexpr static std::size_t size = 0x728;
-  constexpr static std::size_t addrs = 0x66761d4;
+  constexpr static std::size_t addrs = 0x66ddd60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4644,7 +4644,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::RenderTemporalAA)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x66768fc;
+  constexpr static std::size_t addrs = 0x66de488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4665,7 +4665,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::RenderSTP)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x6676ad4;
+  constexpr static std::size_t addrs = 0x66de660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4686,7 +4686,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::RenderMotionBlur)> {
   constexpr static std::size_t size = 0x8a8;
-  constexpr static std::size_t addrs = 0x6676d68;
+  constexpr static std::size_t addrs = 0x66de8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4706,7 +4706,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalResourceData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::LensFlareDataDrivenComputeOcclusion)> {
   constexpr static std::size_t size = 0x5d4;
-  constexpr static std::size_t addrs = 0x6677610;
+  constexpr static std::size_t addrs = 0x66df19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4725,7 +4725,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalResourceData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*,
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(&::UnityEngine::Rendering::Universal::PostProcessPass::RenderLensFlareDataDriven)> {
   constexpr static std::size_t size = 0x658;
-  constexpr static std::size_t addrs = 0x6677be4;
+  constexpr static std::size_t addrs = 0x66df770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4745,7 +4745,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, bool)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::RenderLensFlareScreenSpace)> {
   constexpr static std::size_t size = 0x8a0;
-  constexpr static std::size_t addrs = 0x667823c;
+  constexpr static std::size_t addrs = 0x66dfdc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4766,7 +4766,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*,
                          ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Material*, bool)>(&::UnityEngine::Rendering::Universal::PostProcessPass::ScaleViewportAndBlit)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x6678adc;
+  constexpr static std::size_t addrs = 0x66e0668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4788,7 +4788,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::ByRef<::UnityEngine::Rendering::Universal::PostProcessPass_FinalBlitSettings>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::RenderFinalSetup)> {
   constexpr static std::size_t size = 0x66c;
-  constexpr static std::size_t addrs = 0x6678d34;
+  constexpr static std::size_t addrs = 0x66e08c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4808,7 +4808,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
     bool)>(&::UnityEngine::Rendering::Universal::PostProcessPass::RenderFinalFSRScale)> {
   constexpr static std::size_t size = 0x500;
-  constexpr static std::size_t addrs = 0x66793a0;
+  constexpr static std::size_t addrs = 0x66e0f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4828,7 +4828,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
     ::ByRef<::UnityEngine::Rendering::Universal::PostProcessPass_FinalBlitSettings>)>(&::UnityEngine::Rendering::Universal::PostProcessPass::RenderFinalBlit)> {
   constexpr static std::size_t size = 0x6bc;
-  constexpr static std::size_t addrs = 0x66798a0;
+  constexpr static std::size_t addrs = 0x66e142c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4850,7 +4850,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, bool)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::RenderFinalPassRenderGraph)> {
   constexpr static std::size_t size = 0x6a4;
-  constexpr static std::size_t addrs = 0x6679f5c;
+  constexpr static std::size_t addrs = 0x66e1ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4870,7 +4870,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureHandle (::UnityEngine::Rendering::Universal::PostProcessPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*)>(&::UnityEngine::Rendering::Universal::PostProcessPass::TryGetCachedUserLutTextureHandle)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x667a600;
+  constexpr static std::size_t addrs = 0x66e218c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4889,7 +4889,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, bool, bool, bool, bool)>(&::UnityEngine::Rendering::Universal::PostProcessPass::RenderUberPost)> {
   constexpr static std::size_t size = 0xcec;
-  constexpr static std::size_t addrs = 0x667a810;
+  constexpr static std::size_t addrs = 0x66e239c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4915,7 +4915,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
     ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, bool, bool, bool)>(&::UnityEngine::Rendering::Universal::PostProcessPass::RenderPostProcessingRenderGraph)> {
   constexpr static std::size_t size = 0x1000;
-  constexpr static std::size_t addrs = 0x667b4fc;
+  constexpr static std::size_t addrs = 0x66e3088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4939,7 +4939,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::PostProcessPass::*)(::ByRef<::UnityEngine::Rendering::Universal::PostProcessPass___c__DisplayClass89_0>)>(
         &::UnityEngine::Rendering::Universal::PostProcessPass::_Render_g__GetSource_89_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x666c3a0;
+  constexpr static std::size_t addrs = 0x66d3f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4955,7 +4955,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::PostProcessPass::*)(::ByRef<::UnityEngine::Rendering::Universal::PostProcessPass___c__DisplayClass89_0>)>(
         &::UnityEngine::Rendering::Universal::PostProcessPass::_Render_g__GetDestination_89_1)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x666c3a8;
+  constexpr static std::size_t addrs = 0x66d3f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4972,7 +4972,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Rendering::Universal::ScriptableRenderer*>, ::ByRef<::UnityEngine::Rendering::Universal::PostProcessPass___c__DisplayClass89_0>)>(
     &::UnityEngine::Rendering::Universal::PostProcessPass::_Render_g__Swap_89_2)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x666c4e4;
+  constexpr static std::size_t addrs = 0x66d4070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

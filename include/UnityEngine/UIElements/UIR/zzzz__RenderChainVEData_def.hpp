@@ -56,28 +56,28 @@ public:
 
   __declspec(property(get = get_lastTailOrHeadCommand)) ::UnityEngine::UIElements::UIR::RenderChainCommand* lastTailOrHeadCommand;
 
-  /// @brief Method AllocatesID, addr 0x6ab7dec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method AllocatesID, addr 0x6b20c70, size 0x70, virtual false, abstract: false, final false
   static inline bool AllocatesID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method InheritsID, addr 0x6ab7e6c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InheritsID, addr 0x6b20cf0, size 0x6c, virtual false, abstract: false, final false
   static inline bool InheritsID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method get_hasExtraData, addr 0x6ab7efc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasExtraData, addr 0x6b20d80, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasExtraData();
 
-  /// @brief Method get_hasExtraMeshes, addr 0x6ab7f08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasExtraMeshes, addr 0x6b20d8c, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasExtraMeshes();
 
-  /// @brief Method get_isGroupTransform, addr 0x6ab7ee4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isGroupTransform, addr 0x6b20d68, size 0xc, virtual false, abstract: false, final false
   inline bool get_isGroupTransform();
 
-  /// @brief Method get_isIgnoringDynamicColorHint, addr 0x6ab7ef0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isIgnoringDynamicColorHint, addr 0x6b20d74, size 0xc, virtual false, abstract: false, final false
   inline bool get_isIgnoringDynamicColorHint();
 
-  /// @brief Method get_isInChain, addr 0x6ab7ed8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isInChain, addr 0x6b20d5c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isInChain();
 
-  /// @brief Method get_lastTailOrHeadCommand, addr 0x6ab7dd4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_lastTailOrHeadCommand, addr 0x6b20c58, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_lastTailOrHeadCommand();
 
   // Ctor Parameters []

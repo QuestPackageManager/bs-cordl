@@ -38,7 +38,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::GradientRemap* New_ctor();
 
-  /// @brief Method Reset, addr 0x6ac19b4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6b2a838, size 0x6c, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::UIElements::TextureId const& __cordl_internal_get_atlas() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_origIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6ac1964, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b2a7e8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

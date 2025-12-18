@@ -99,33 +99,33 @@ public:
   /// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
   constexpr operator ::Tayx::Graphy::UI::IMovable*() noexcept;
 
-  /// @brief Method Awake, addr 0x62241a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x628bd30, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x621e590, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x628611c, size 0x4c4, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Audio::G_AudioManager* New_ctor();
 
-  /// @brief Method RefreshParameters, addr 0x6220118, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method RefreshParameters, addr 0x6287ca4, size 0x164, virtual false, abstract: false, final false
   inline void RefreshParameters();
 
-  /// @brief Method RestorePreviousState, addr 0x621d9f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RestorePreviousState, addr 0x6285580, size 0xc, virtual false, abstract: false, final false
   inline void RestorePreviousState();
 
-  /// @brief Method SetGraphActive, addr 0x62241ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetGraphActive, addr 0x628bd38, size 0x44, virtual false, abstract: false, final false
   inline void SetGraphActive(bool active);
 
-  /// @brief Method SetPosition, addr 0x621b1e8, size 0x32c, virtual true, abstract: false, final true
+  /// @brief Method SetPosition, addr 0x6282d74, size 0x32c, virtual true, abstract: false, final true
   inline void SetPosition(::Tayx::Graphy::GraphyManager_ModulePosition newModulePosition);
 
-  /// @brief Method SetState, addr 0x621be28, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method SetState, addr 0x62839b4, size 0x154, virtual true, abstract: false, final true
   inline void SetState(::Tayx::Graphy::GraphyManager_ModuleState state, bool silentUpdate);
 
-  /// @brief Method Start, addr 0x62241a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x628bd34, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateParameters, addr 0x621bfa0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x6283b2c, size 0x16c, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_audioDbText() const;
@@ -194,7 +194,7 @@ public:
 
   constexpr void __cordl_internal_set_m_rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x6224404, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x628bf90, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
@@ -218,7 +218,7 @@ public:
   G_AudioManager(G_AudioManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21205 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21232 };
 
   /// @brief Field m_audioGraphGameObject, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_audioGraphGameObject;

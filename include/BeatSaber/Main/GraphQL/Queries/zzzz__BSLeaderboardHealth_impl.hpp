@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::*)()>(
     &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::GetVariableNames)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x319a858;
+  constexpr static std::size_t addrs = 0x31ca6d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::*)()>(
     &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::GetPersistedQueryID)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x319a8c8;
+  constexpr static std::size_t addrs = 0x31ca744;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::*)()>(
     &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x319a8dc;
+  constexpr static std::size_t addrs = 0x31ca758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*>::get(),

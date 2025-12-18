@@ -99,7 +99,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x6ba2320, size 0x27c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6c0b1a4, size 0x27c, virtual true, abstract: false, final true
   inline void Execute(int32_t i);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -190,23 +190,23 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6ba11c4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c0a048, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6ba1ed4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c0ad58, size 0xc0, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::Painter2D* New_ctor();
 
   static inline ::UnityEngine::UIElements::Painter2D* New_ctor(Il2CppObject* ctx);
 
-  /// @brief Method OnMeshGeneration, addr 0x6ba221c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnMeshGeneration, addr 0x6c0b0a0, size 0x48, virtual false, abstract: false, final false
   inline void OnMeshGeneration(Il2CppObject* ctx, ::System::Object* data);
 
-  /// @brief Method Reset, addr 0x6ba1040, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6c09ec4, size 0x48, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ScheduleJobs, addr 0x6ba1ff8, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ScheduleJobs, addr 0x6c0ae7c, size 0x224, virtual false, abstract: false, final false
   inline void ScheduleJobs(Il2CppObject* mgc);
 
   constexpr Il2CppObject* const& __cordl_internal_get_m_Ctx() const;
@@ -251,10 +251,10 @@ public:
 
   constexpr void __cordl_internal_set_m_OnMeshGenerationDelegate(::UnityEngine::UIElements::UIR::MeshGenerationCallback* value);
 
-  /// @brief Method .ctor, addr 0x6ba1d48, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c0abcc, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6ba0934, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c097b8, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(Il2CppObject* ctx);
 
   static inline bool getStaticF__isPainterActive_k__BackingField();
@@ -272,7 +272,7 @@ public:
 
   static inline void setStaticF_s_StrokeMarker(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_isPainterActive, addr 0x6ba1f94, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_isPainterActive, addr 0x6c0ae18, size 0x64, virtual false, abstract: false, final false
   static inline void set_isPainterActive(bool value);
 
 protected:

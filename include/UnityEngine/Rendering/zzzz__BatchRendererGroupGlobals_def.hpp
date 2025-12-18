@@ -34,27 +34,27 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::BatchRendererGroupGlobals>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::BatchRendererGroupGlobals>*();
 
-  /// @brief Method Equals, addr 0x6596d70, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x65fe8fc, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6596c50, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x65fe7dc, size 0x120, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::BatchRendererGroupGlobals other);
 
-  /// @brief Method GetHashCode, addr 0x6596e14, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x65fe9a0, size 0x118, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline int32_t getStaticF_kGlobalsPropertyId();
 
-  /// @brief Method get_Default, addr 0x6596af0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x65fe67c, size 0x160, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::BatchRendererGroupGlobals get_Default();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::BatchRendererGroupGlobals>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::BatchRendererGroupGlobals>* i___System__IEquatable_1___UnityEngine__Rendering__BatchRendererGroupGlobals_();
 
-  /// @brief Method op_Equality, addr 0x6596f2c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x65feab8, size 0x88, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::BatchRendererGroupGlobals left, ::UnityEngine::Rendering::BatchRendererGroupGlobals right);
 
-  /// @brief Method op_Inequality, addr 0x6596fb4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x65feb40, size 0x8c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rendering::BatchRendererGroupGlobals left, ::UnityEngine::Rendering::BatchRendererGroupGlobals right);
 
   static inline void setStaticF_kGlobalsPropertyId(int32_t value);
@@ -70,7 +70,7 @@ public:
                                       ::UnityEngine::Rendering::SHCoefficients SHCoefficients) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12227 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12231 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb0 };

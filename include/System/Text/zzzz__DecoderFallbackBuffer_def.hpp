@@ -33,24 +33,24 @@ public:
   /// @brief Method GetNextChar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method InternalFallback, addr 0x5ab53cc, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method InternalFallback, addr 0x5b1bd18, size 0x160, virtual true, abstract: false, final false
   inline bool InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, uint8_t* pBytes, ::ByRef<char16_t*> chars);
 
-  /// @brief Method InternalFallback, addr 0x5ab552c, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method InternalFallback, addr 0x5b1be78, size 0x140, virtual true, abstract: false, final false
   inline int32_t InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, uint8_t* pBytes);
 
-  /// @brief Method InternalInitialize, addr 0x5ab3928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InternalInitialize, addr 0x5b1a274, size 0x8, virtual false, abstract: false, final false
   inline void InternalInitialize(uint8_t* byteStart, char16_t* charEnd);
 
-  /// @brief Method InternalReset, addr 0x5ab3bd0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method InternalReset, addr 0x5b1a51c, size 0x10, virtual false, abstract: false, final false
   inline void InternalReset();
 
   static inline ::System::Text::DecoderFallbackBuffer* New_ctor();
 
-  /// @brief Method Reset, addr 0x5ab53a4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x5b1bcf0, size 0x28, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ThrowLastBytesRecursive, addr 0x5ab566c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method ThrowLastBytesRecursive, addr 0x5b1bfb8, size 0x218, virtual false, abstract: false, final false
   inline void ThrowLastBytesRecursive(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown);
 
   constexpr uint8_t* const& __cordl_internal_get_byteStart() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_charEnd(char16_t* value);
 
-  /// @brief Method .ctor, addr 0x5ab4d78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b1b6c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Remaining, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

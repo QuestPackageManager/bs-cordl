@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_particle2(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x6100ba4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6168730, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* particle1, ::System::Object* particle2);
 
-  /// @brief Method get_Particle1, addr 0x6100c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Particle1, addr 0x61687a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Particle1();
 
-  /// @brief Method get_Particle2, addr 0x6100c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Particle2, addr 0x61687a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Particle2();
 
 protected:
@@ -69,7 +69,7 @@ public:
   UpaException(UpaException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9563 };
 
   /// @brief Field particle1, offset: 0x90, size: 0x8, def value: None
   ::System::Object* ___particle1;

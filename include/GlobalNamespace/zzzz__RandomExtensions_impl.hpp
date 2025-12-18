@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::GlobalNamespace::IRandom*, float_t, float_t)>(&::GlobalNamespace::RandomExtensions::GetRange)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x31e4c68;
+  constexpr static std::size_t addrs = 0x3215644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::IRandom*)>(&::GlobalNamespace::RandomExtensions::GetBool)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x31e4d40;
+  constexpr static std::size_t addrs = 0x321571c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::GlobalNamespace::IRandom*)>(&::GlobalNamespace::RandomExtensions::NextDouble)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31e4ca0;
+  constexpr static std::size_t addrs = 0x321567c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::GlobalNamespace::IRandom*)>(&::GlobalNamespace::RandomExtensions::NextFloat)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x31e4e64;
+  constexpr static std::size_t addrs = 0x3215840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::IRandom*, int32_t)>(&::GlobalNamespace::RandomExtensions::Next)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x31e4d5c;
+  constexpr static std::size_t addrs = 0x3215738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

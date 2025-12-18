@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::DefaultElementBuilder::*)(::UnityEngine::UIElements::UIR::RenderChain*)>(
     &::UnityEngine::UIElements::UIR::DefaultElementBuilder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6aa2218;
+  constexpr static std::size_t addrs = 0x6b0b09c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::DefaultElementBuilder::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::DefaultElementBuilder::RequiresStencilMask)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6aa2220;
+  constexpr static std::size_t addrs = 0x6b0b0a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::DefaultElementBuilder::*)(Il2CppObject*)>(
     &::UnityEngine::UIElements::UIR::DefaultElementBuilder::DrawVisualElementBackground)> {
   constexpr static std::size_t size = 0x11ec;
-  constexpr static std::size_t addrs = 0x6aa22ac;
+  constexpr static std::size_t addrs = 0x6b0b130;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::DefaultElementBuilder::*)(Il2CppObject*)>(
     &::UnityEngine::UIElements::UIR::DefaultElementBuilder::DrawVisualElementBorder)> {
   constexpr static std::size_t size = 0x990;
-  constexpr static std::size_t addrs = 0x6aa3498;
+  constexpr static std::size_t addrs = 0x6b0c31c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::DefaultElementBuilder::*)(Il2CppObject*)>(
     &::UnityEngine::UIElements::UIR::DefaultElementBuilder::DrawVisualElementStencilMask)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6aa3e28;
+  constexpr static std::size_t addrs = 0x6b0ccac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Il2CppObject*)>(
     &::UnityEngine::UIElements::UIR::DefaultElementBuilder::GenerateStencilClipEntryForRoundedRectBackground)> {
   constexpr static std::size_t size = 0x728;
-  constexpr static std::size_t addrs = 0x6aa3ec8;
+  constexpr static std::size_t addrs = 0x6b0cd4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::DefaultElementBuilder*>::get(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::DefaultElementBuilder::*)(Il2CppObject*)>(
     &::UnityEngine::UIElements::UIR::DefaultElementBuilder::ScheduleMeshGenerationJobs)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6aa45f0;
+  constexpr static std::size_t addrs = 0x6b0d474;
 
   inline static ::MethodInfo const* methodInfo() {
 

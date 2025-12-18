@@ -47,28 +47,28 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>*();
 
-  /// @brief Method Equals, addr 0x6a5e2f0, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6ac7174, size 0xd8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6a5e274, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6ac70f8, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleBackgroundSize other);
 
-  /// @brief Method GetHashCode, addr 0x6a5e3c8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6ac724c, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6a5e3f0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6ac7274, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6a5e1c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac704c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x6a5e1d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac7058, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BackgroundSize v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x6a5e1b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x6ac703c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x6a5e164, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x6ac6fe8, size 0x40, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::BackgroundSize get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundSize>"
@@ -77,16 +77,16 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__BackgroundSize_();
 
-  /// @brief Method op_Equality, addr 0x6a5e1ec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6ac7070, size 0x7c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleBackgroundSize lhs, ::UnityEngine::UIElements::StyleBackgroundSize rhs);
 
-  /// @brief Method op_Implicit, addr 0x6a5e268, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6ac70ec, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleBackgroundSize op_Implicit___UnityEngine__UIElements__StyleBackgroundSize(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method set_keyword, addr 0x6a5e1c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_keyword, addr 0x6ac7044, size 0x8, virtual true, abstract: false, final true
   inline void set_keyword(::UnityEngine::UIElements::StyleKeyword value);
 
-  /// @brief Method set_value, addr 0x6a5e1a4, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method set_value, addr 0x6ac7028, size 0x14, virtual true, abstract: false, final true
   inline void set_value(::UnityEngine::UIElements::BackgroundSize value);
 
   // Ctor Parameters []

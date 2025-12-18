@@ -27,12 +27,12 @@ namespace System::Data {
 class CORDL_TYPE DataTableClearEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x5e12660, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5e7a1ec, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Data::DataTableClearEventArgs* e);
 
   static inline ::System::Data::DataTableClearEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5e12518, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e7a0a4, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -50,7 +50,7 @@ public:
   DataTableClearEventHandler(DataTableClearEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13765 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

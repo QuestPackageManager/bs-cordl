@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__ConsistencyGuarantee_k__BackingField(::System::Runtime::ConstrainedExecution::Consistency value);
 
-  /// @brief Method .ctor, addr 0x5958f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59bf8d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee, ::System::Runtime::ConstrainedExecution::Cer cer);
 
 protected:

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::TripleDESCryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::TripleDESCryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x58f1594;
+  constexpr static std::size_t addrs = 0x5957ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Cryptography::TripleDESCryptoServiceProvider::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::TripleDESCryptoServiceProvider::CreateEncryptor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x58f1978;
+  constexpr static std::size_t addrs = 0x59582c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Cryptography::TripleDESCryptoServiceProvider::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::TripleDESCryptoServiceProvider::CreateDecryptor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x58f1a84;
+  constexpr static std::size_t addrs = 0x59583d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::TripleDESCryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::TripleDESCryptoServiceProvider::GenerateKey)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x58f1b90;
+  constexpr static std::size_t addrs = 0x59584dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::TripleDESCryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::TripleDESCryptoServiceProvider::GenerateIV)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x58f1d04;
+  constexpr static std::size_t addrs = 0x5958650;
 
   inline static ::MethodInfo const* methodInfo() {
 

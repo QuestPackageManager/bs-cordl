@@ -28,10 +28,10 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x564da4c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x56ae694, size 0x7c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetRenderer, addr 0x564dbf4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetRenderer, addr 0x56ae83c, size 0x90, virtual false, abstract: false, final false
   inline void SetRenderer(::UnityEngine::Renderer* renderer);
 
   constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
@@ -40,10 +40,10 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method .ctor, addr 0x564dd4c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56ae994, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_renderer, addr 0x564da44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x56ae68c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
 protected:
@@ -61,7 +61,7 @@ public:
   BloomPrePassBackgroundNonLightDynamicRenderer(BloomPrePassBackgroundNonLightDynamicRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19621 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19647 };
 
   /// @brief Field _renderer, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ____renderer;

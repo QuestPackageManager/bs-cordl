@@ -40,56 +40,56 @@ namespace System::IO {
 class CORDL_TYPE Directory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateDirectory, addr 0x59f00d8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method CreateDirectory, addr 0x5a56a24, size 0x14c, virtual false, abstract: false, final false
   static inline ::System::IO::DirectoryInfo* CreateDirectory(::StringW path);
 
-  /// @brief Method Delete, addr 0x59f0814, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Delete, addr 0x5a57160, size 0x70, virtual false, abstract: false, final false
   static inline void Delete(::StringW path, bool recursive);
 
-  /// @brief Method EnumerateDirectories, addr 0x59f07f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method EnumerateDirectories, addr 0x5a57144, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* EnumerateDirectories(::StringW path, ::StringW searchPattern, ::System::IO::EnumerationOptions* enumerationOptions);
 
-  /// @brief Method EnumerateDirectories, addr 0x59f0620, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method EnumerateDirectories, addr 0x5a56f6c, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* EnumerateDirectories(::StringW path, ::StringW searchPattern, ::System::IO::SearchOption searchOption);
 
-  /// @brief Method EnumerateFileSystemEntries, addr 0x59df760, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method EnumerateFileSystemEntries, addr 0x5a460ac, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* EnumerateFileSystemEntries(::StringW path);
 
-  /// @brief Method EnumerateFileSystemEntries, addr 0x59f0804, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method EnumerateFileSystemEntries, addr 0x5a57150, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* EnumerateFileSystemEntries(::StringW path, ::StringW searchPattern, ::System::IO::EnumerationOptions* enumerationOptions);
 
-  /// @brief Method Exists, addr 0x59ddf3c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Exists, addr 0x5a44888, size 0x190, virtual false, abstract: false, final false
   static inline bool Exists(::StringW path);
 
-  /// @brief Method GetAccessControl, addr 0x59f0900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAccessControl, addr 0x5a5724c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Security::AccessControl::DirectorySecurity* GetAccessControl(::StringW path);
 
-  /// @brief Method GetAccessControl, addr 0x59f0888, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetAccessControl, addr 0x5a571d4, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Security::AccessControl::DirectorySecurity* GetAccessControl(::StringW path, ::System::Security::AccessControl::AccessControlSections includeSections);
 
-  /// @brief Method GetCurrentDirectory, addr 0x59f0810, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentDirectory, addr 0x5a5715c, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetCurrentDirectory();
 
-  /// @brief Method GetFiles, addr 0x59f0270, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetFiles, addr 0x5a56bbc, size 0xc0, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFiles(::StringW path);
 
-  /// @brief Method GetFiles, addr 0x59f039c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetFiles, addr 0x5a56ce8, size 0xac, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFiles(::StringW path, ::StringW searchPattern);
 
-  /// @brief Method GetFiles, addr 0x59f0330, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetFiles, addr 0x5a56c7c, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFiles(::StringW path, ::StringW searchPattern, ::System::IO::EnumerationOptions* enumerationOptions);
 
-  /// @brief Method GetLogicalDrives, addr 0x59f0884, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetLogicalDrives, addr 0x5a571d0, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetLogicalDrives();
 
-  /// @brief Method InsecureGetCurrentDirectory, addr 0x59f0908, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method InsecureGetCurrentDirectory, addr 0x5a57254, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW InsecureGetCurrentDirectory();
 
-  /// @brief Method InternalEnumeratePaths, addr 0x59f0448, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method InternalEnumeratePaths, addr 0x5a56d94, size 0x1d8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* InternalEnumeratePaths(::StringW path, ::StringW searchPattern, ::System::IO::SearchTarget searchTarget,
                                                                                                  ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method InternalGetDirectoryRoot, addr 0x59dee50, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InternalGetDirectoryRoot, addr 0x5a4579c, size 0xb0, virtual false, abstract: false, final false
   static inline ::StringW InternalGetDirectoryRoot(::StringW path);
 
 protected:

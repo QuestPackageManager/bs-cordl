@@ -55,10 +55,10 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaWriter___c* New_ctor();
 
-  /// @brief Method <WriteType>b__7_0, addr 0x5b5348c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <WriteType>b__7_0, addr 0x5bb9f6c, size 0xc, virtual false, abstract: false, final false
   inline bool _WriteType_b__7_0(::Newtonsoft::Json::Schema::JsonSchemaType v);
 
-  /// @brief Method .ctor, addr 0x5b53488, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bb9f68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaWriter___c* getStaticF___9();
@@ -84,7 +84,7 @@ public:
   JsonSchemaWriter___c(JsonSchemaWriter___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13527 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13531 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -109,23 +109,23 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaWriter* New_ctor(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Schema::JsonSchemaResolver* resolver);
 
-  /// @brief Method ReferenceOrWriteSchema, addr 0x5b52578, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ReferenceOrWriteSchema, addr 0x5bb9058, size 0xf4, virtual false, abstract: false, final false
   inline void ReferenceOrWriteSchema(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method WriteItems, addr 0x5b52f94, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method WriteItems, addr 0x5bb9a74, size 0x4a0, virtual false, abstract: false, final false
   inline void WriteItems(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method WritePropertyIfNotNull, addr 0x5b5266c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WritePropertyIfNotNull, addr 0x5bb914c, size 0x64, virtual false, abstract: false, final false
   inline void WritePropertyIfNotNull(::Newtonsoft::Json::JsonWriter* writer, ::StringW propertyName, ::System::Object* value);
 
-  /// @brief Method WriteSchema, addr 0x5b48eb4, size 0x1050, virtual false, abstract: false, final false
+  /// @brief Method WriteSchema, addr 0x5baf994, size 0x1050, virtual false, abstract: false, final false
   inline void WriteSchema(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method WriteSchemaDictionaryIfNotNull, addr 0x5b52c34, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method WriteSchemaDictionaryIfNotNull, addr 0x5bb9714, size 0x360, virtual false, abstract: false, final false
   inline void WriteSchemaDictionaryIfNotNull(::Newtonsoft::Json::JsonWriter* writer, ::StringW propertyName,
                                              ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* properties);
 
-  /// @brief Method WriteType, addr 0x5b526d0, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method WriteType, addr 0x5bb91b0, size 0x564, virtual false, abstract: false, final false
   inline void WriteType(::StringW propertyName, ::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Schema::JsonSchemaType type);
 
   constexpr ::Newtonsoft::Json::Schema::JsonSchemaResolver* const& __cordl_internal_get__resolver() const;
@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set__writer(::Newtonsoft::Json::JsonWriter* value);
 
-  /// @brief Method .ctor, addr 0x5b48e4c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5baf92c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Schema::JsonSchemaResolver* resolver);
 
 protected:
@@ -158,7 +158,7 @@ public:
   JsonSchemaWriter(JsonSchemaWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13528 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13532 };
 
   /// @brief Field _writer, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonWriter* ____writer;

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::NoInterpClampedFloatParameter::*)()>(
     &::UnityEngine::Rendering::NoInterpClampedFloatParameter::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65ae1f4;
+  constexpr static std::size_t addrs = 0x6615d80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::NoInterpClampedFloatParameter::*)(float_t)>(
     &::UnityEngine::Rendering::NoInterpClampedFloatParameter::set_value)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x65ae1fc;
+  constexpr static std::size_t addrs = 0x6615d88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::NoInterpClampedFloatParameter::*)(float_t, float_t, float_t, bool)>(
     &::UnityEngine::Rendering::NoInterpClampedFloatParameter::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x65ae218;
+  constexpr static std::size_t addrs = 0x6615da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

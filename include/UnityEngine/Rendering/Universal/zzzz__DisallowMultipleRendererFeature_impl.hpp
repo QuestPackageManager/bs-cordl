@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DisallowMultipleRendererFeature::*)(::StringW)>(
     &::UnityEngine::Rendering::Universal::DisallowMultipleRendererFeature::set_customTitle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x668f664;
+  constexpr static std::size_t addrs = 0x66f71f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::Universal::DisallowMultipleRendererFeature::*)()>(
     &::UnityEngine::Rendering::Universal::DisallowMultipleRendererFeature::get_customTitle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x668f66c;
+  constexpr static std::size_t addrs = 0x66f71f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::DisallowMultipleRendererFeature::*)(::StringW)>(
     &::UnityEngine::Rendering::Universal::DisallowMultipleRendererFeature::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x668f674;
+  constexpr static std::size_t addrs = 0x66f7200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

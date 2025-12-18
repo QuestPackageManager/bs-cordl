@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ObjectReferenceStack::*)(::System::Object*)>(
     &::System::Runtime::Serialization::ObjectReferenceStack::Push)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x5f3d28c;
+  constexpr static std::size_t addrs = 0x5fa4e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ObjectReferenceStack::*)(::System::Object*)>(
     &::System::Runtime::Serialization::ObjectReferenceStack::EnsureSetAsIsReference)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5f3d4a4;
+  constexpr static std::size_t addrs = 0x5fa5030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ObjectReferenceStack::*)(::System::Object*)>(
     &::System::Runtime::Serialization::ObjectReferenceStack::Pop)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f3d5e8;
+  constexpr static std::size_t addrs = 0x5fa5174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::ObjectReferenceStack::*)(::System::Object*)>(
     &::System::Runtime::Serialization::ObjectReferenceStack::Contains)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5f3d668;
+  constexpr static std::size_t addrs = 0x5fa51f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Serialization::ObjectReferenceStack::*)()>(
     &::System::Runtime::Serialization::ObjectReferenceStack::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3d760;
+  constexpr static std::size_t addrs = 0x5fa52ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ObjectReferenceStack>::get(),

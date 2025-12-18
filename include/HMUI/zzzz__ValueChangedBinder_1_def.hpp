@@ -84,7 +84,7 @@ public:
   ValueChangedBinder_1(ValueChangedBinder_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19128 };
 
   /// @brief Field _bindings, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>* ____bindings;

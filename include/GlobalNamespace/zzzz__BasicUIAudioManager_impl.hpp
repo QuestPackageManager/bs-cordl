@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicUIAudioManager::*)()>(&::GlobalNamespace::BasicUIAudioManager::Start)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x57ebf48;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5852918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicUIAudioManager*>::get(), "Start",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicUIAudioManager::*)()>(&::GlobalNamespace::BasicUIAudioManager::OnEnable)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x57ebfe4;
+  constexpr static std::size_t addrs = 0x58529e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicUIAudioManager*>::get(), "OnEnable",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicUIAudioManager::*)()>(&::GlobalNamespace::BasicUIAudioManager::OnDisable)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x57ec100;
+  constexpr static std::size_t addrs = 0x5852b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicUIAudioManager*>::get(), "OnDisable",
@@ -50,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicUIAudioManager::*)()>(
     &::GlobalNamespace::BasicUIAudioManager::HandleButtonClickEvent)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x57ec204;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x5852c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicUIAudioManager*>::get(),
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicUIAudioManager::*)()>(&::GlobalNamespace::BasicUIAudioManager::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x57ec310;
+  constexpr static std::size_t addrs = 0x5852dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicUIAudioManager*>::get(), ".ctor",
@@ -84,17 +84,17 @@ constexpr void GlobalNamespace::BasicUIAudioManager::__cordl_internal_set__butto
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttonClickEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::AudioSource>& GlobalNamespace::BasicUIAudioManager::__cordl_internal_get__audioSource() {
+constexpr ::ArrayW<::UnityW<::UnityEngine::AudioSource>, ::Array<::UnityW<::UnityEngine::AudioSource>>*>& GlobalNamespace::BasicUIAudioManager::__cordl_internal_get__audioSources() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____audioSource;
+  return this->____audioSources;
 }
-constexpr ::UnityW<::UnityEngine::AudioSource> const& GlobalNamespace::BasicUIAudioManager::__cordl_internal_get__audioSource() const {
+constexpr ::ArrayW<::UnityW<::UnityEngine::AudioSource>, ::Array<::UnityW<::UnityEngine::AudioSource>>*> const& GlobalNamespace::BasicUIAudioManager::__cordl_internal_get__audioSources() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____audioSource;
+  return this->____audioSources;
 }
-constexpr void GlobalNamespace::BasicUIAudioManager::__cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value) {
+constexpr void GlobalNamespace::BasicUIAudioManager::__cordl_internal_set__audioSources(::ArrayW<::UnityW<::UnityEngine::AudioSource>, ::Array<::UnityW<::UnityEngine::AudioSource>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSources)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*>& GlobalNamespace::BasicUIAudioManager::__cordl_internal_get__clickSounds() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -131,6 +131,18 @@ constexpr float_t const& GlobalNamespace::BasicUIAudioManager::__cordl_internal_
 constexpr void GlobalNamespace::BasicUIAudioManager::__cordl_internal_set__maxPitch(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxPitch = value;
+}
+constexpr int32_t& GlobalNamespace::BasicUIAudioManager::__cordl_internal_get__index() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____index;
+}
+constexpr int32_t const& GlobalNamespace::BasicUIAudioManager::__cordl_internal_get__index() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____index;
+}
+constexpr void GlobalNamespace::BasicUIAudioManager::__cordl_internal_set__index(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____index = value;
 }
 constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*& GlobalNamespace::BasicUIAudioManager::__cordl_internal_get__randomSoundPicker() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

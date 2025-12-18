@@ -55,25 +55,25 @@ public:
   // Declarations
   __declspec(property(get = get_IsValid)) bool IsValid;
 
-  /// @brief Method GetBaselineFunction, addr 0x6acea00, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetBaselineFunction, addr 0x6b37884, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutBaselineFunction* GetBaselineFunction(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method GetComputedData, addr 0x6ace74c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetComputedData, addr 0x6b375d0, size 0x64, virtual false, abstract: false, final false
   inline ::ByRef<::UnityEngine::UIElements::Layout::LayoutComputedData> GetComputedData(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method GetConfigData, addr 0x6ace7b0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetConfigData, addr 0x6b37634, size 0x60, virtual false, abstract: false, final false
   inline ::ByRef<::UnityEngine::UIElements::Layout::LayoutConfigData> GetConfigData(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method GetMeasureFunction, addr 0x6ace810, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetMeasureFunction, addr 0x6b37694, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutMeasureFunction* GetMeasureFunction(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method GetNodeData, addr 0x6ace688, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetNodeData, addr 0x6b3750c, size 0x60, virtual false, abstract: false, final false
   inline ::ByRef<::UnityEngine::UIElements::Layout::LayoutNodeData> GetNodeData(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method GetOwner, addr 0x6ace908, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetOwner, addr 0x6b3778c, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetOwner(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method GetStyleData, addr 0x6ace6e8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetStyleData, addr 0x6b3756c, size 0x64, virtual false, abstract: false, final false
   inline ::ByRef<::UnityEngine::UIElements::Layout::LayoutStyleData> GetStyleData(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
   /// @brief Method GetTypedConfigDataRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -82,16 +82,16 @@ public:
   /// @brief Method GetTypedNodeDataRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ByRef<T> GetTypedNodeDataRef(::UnityEngine::UIElements::Layout::LayoutHandle handle, ::UnityEngine::UIElements::Layout::LayoutNodeDataType type);
 
-  /// @brief Method SetMeasureFunction, addr 0x6ace888, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetMeasureFunction, addr 0x6b3770c, size 0x80, virtual false, abstract: false, final false
   inline void SetMeasureFunction(::UnityEngine::UIElements::Layout::LayoutHandle handle, ::UnityEngine::UIElements::Layout::LayoutMeasureFunction* value);
 
-  /// @brief Method SetOwner, addr 0x6ace980, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetOwner, addr 0x6b37804, size 0x80, virtual false, abstract: false, final false
   inline void SetOwner(::UnityEngine::UIElements::Layout::LayoutHandle handle, ::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x6aca8a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b3372c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t manager, ::UnityEngine::UIElements::Layout::LayoutDataStore nodes, ::UnityEngine::UIElements::Layout::LayoutDataStore configs);
 
-  /// @brief Method get_IsValid, addr 0x6acb260, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x6b340e4, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
   // Ctor Parameters []

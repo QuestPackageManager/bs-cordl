@@ -47,37 +47,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>"
   constexpr operator ::System::IEquatable_1<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>*();
 
-  /// @brief Method Equals, addr 0x5831cf4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5898458, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5831ca0, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5898404, size 0x54, virtual true, abstract: false, final true
   inline bool Equals(::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle other);
 
-  /// @brief Method GetHashCode, addr 0x5831d94, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x58984f8, size 0x8c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Static, addr 0x5831c88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Static, addr 0x58983ec, size 0x18, virtual false, abstract: false, final false
   static inline ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle Static(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x5831c0c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5898370, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method .ctor, addr 0x582b7c0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5891f24, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::UnityEngine::Object* instance);
 
-  /// @brief Method get_Instance, addr 0x5831be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x5898348, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_Instance();
 
-  /// @brief Method get_InstanceId, addr 0x5831bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstanceId, addr 0x5898358, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_InstanceId();
 
-  /// @brief Method get_IsStatic, addr 0x5831bfc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsStatic, addr 0x5898360, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsStatic();
 
-  /// @brief Method get_Type, addr 0x5831bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x5898350, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method get_Valid, addr 0x5831a04, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x5898168, size 0xe8, virtual false, abstract: false, final false
   inline bool get_Valid();
 
   /// @brief Convert to "::System::IEquatable_1<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle>"
@@ -92,7 +92,7 @@ public:
   constexpr InstanceHandle(::UnityW<::UnityEngine::Object> _Instance_k__BackingField, ::System::Type* _Type_k__BackingField, int32_t _InstanceId_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18317 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

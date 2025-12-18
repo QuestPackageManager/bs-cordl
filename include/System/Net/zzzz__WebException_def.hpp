@@ -58,7 +58,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x61f2228, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x6259db4, size 0x8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   static inline ::System::Net::WebException* New_ctor();
@@ -85,7 +85,7 @@ public:
 
   static inline ::System::Net::WebException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x61f221c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x6259da8, size 0xc, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
@@ -107,42 +107,42 @@ public:
 
   constexpr void __cordl_internal_set_m_Status(::System::Net::WebExceptionStatus value);
 
-  /// @brief Method .ctor, addr 0x61f1fc0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6259b4c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x61f0cac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6258838, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x61f2004, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6259b90, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW data, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response);
 
-  /// @brief Method .ctor, addr 0x61f2104, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6259c90, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW data, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response,
                     ::System::Net::WebExceptionInternalStatus internalStatus);
 
-  /// @brief Method .ctor, addr 0x61ebaa4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6253630, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x61eba90, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x625361c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response);
 
-  /// @brief Method .ctor, addr 0x61f1fec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6259b78, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response,
                     ::System::Net::WebExceptionInternalStatus internalStatus);
 
-  /// @brief Method .ctor, addr 0x61eaef0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6252a7c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Net::WebExceptionStatus status);
 
-  /// @brief Method .ctor, addr 0x61f1fd0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6259b5c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Net::WebExceptionStatus status, ::System::Net::WebExceptionInternalStatus internalStatus, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x61f220c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6259d98, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_Response, addr 0x61f2238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Response, addr 0x6259dc4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebResponse* get_Response();
 
-  /// @brief Method get_Status, addr 0x61f2230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x6259dbc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebExceptionStatus get_Status();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -163,7 +163,7 @@ public:
   WebException(WebException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11480 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11484 };
 
   /// @brief Field m_Status, offset: 0x8c, size: 0x4, def value: None
   ::System::Net::WebExceptionStatus ___m_Status;

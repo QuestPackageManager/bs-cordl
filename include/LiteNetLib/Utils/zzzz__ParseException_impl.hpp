@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::ParseException::*)(::StringW)>(&::LiteNetLib::Utils::ParseException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x569803c;
+  constexpr static std::size_t addrs = 0x56f8ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

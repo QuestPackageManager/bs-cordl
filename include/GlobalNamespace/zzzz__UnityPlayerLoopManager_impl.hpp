@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::UnityPlayerLoopManager::InitializePlayerLoop)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x5637f08;
+  constexpr static std::size_t addrs = 0x569cd1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityPlayerLoopManager*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::UnityEngine::LowLevel::PlayerLoopSystem>, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(
     &::GlobalNamespace::UnityPlayerLoopManager::RemoveDisabledSubsystems)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x56380c4;
+  constexpr static std::size_t addrs = 0x569ced8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -5,6 +5,7 @@ module;
 #pragma once
 #include "LiteNetLib/Utils/CRC32C.hpp"
 #include "LiteNetLib/Utils/FastBitConverter.hpp"
+#include "LiteNetLib/Utils/INetImmutableSerializable.hpp"
 #include "LiteNetLib/Utils/INetImmutableSerializable_1.hpp"
 #include "LiteNetLib/Utils/INetSerializable.hpp"
 #include "LiteNetLib/Utils/InvalidTypeException.hpp"

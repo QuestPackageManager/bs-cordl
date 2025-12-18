@@ -62,43 +62,43 @@ public:
 
   __declspec(property(get = get_rightController, put = set_rightController)) ::BeatSaber::GameSettings::Controller rightController;
 
-  /// @brief Method Activate, addr 0x31938a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x31c3720, size 0x8, virtual false, abstract: false, final false
   inline void Activate(::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
 
-  /// @brief Method CopyFromLeftToRight, addr 0x31938ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CopyFromLeftToRight, addr 0x31c3728, size 0x14, virtual false, abstract: false, final false
   inline void CopyFromLeftToRight();
 
-  /// @brief Method CopyFromOtherControllerProfile, addr 0x3193984, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CopyFromOtherControllerProfile, addr 0x31c3800, size 0x38, virtual false, abstract: false, final false
   inline void CopyFromOtherControllerProfile(::BeatSaber::GameSettings::ControllerProfile* other);
 
-  /// @brief Method CopyFromRightToLeft, addr 0x3193970, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CopyFromRightToLeft, addr 0x31c37ec, size 0x14, virtual false, abstract: false, final false
   inline void CopyFromRightToLeft();
 
-  /// @brief Method Deactivate, addr 0x31925d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x31c2450, size 0x8, virtual false, abstract: false, final false
   inline void Deactivate();
 
-  /// @brief Method FromSaveData, addr 0x31936a4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method FromSaveData, addr 0x31c3520, size 0xdc, virtual false, abstract: false, final false
   static inline ::BeatSaber::GameSettings::ControllerProfile* FromSaveData(::BeatSaber::GameSettings::ControllerProfileSaveData* controllerProfileSaveData, int32_t index);
 
-  /// @brief Method HasDefaultValues, addr 0x3193780, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HasDefaultValues, addr 0x31c35fc, size 0x58, virtual false, abstract: false, final false
   inline bool HasDefaultValues();
 
   static inline ::BeatSaber::GameSettings::ControllerProfile* New_ctor(::StringW localizationKey, int32_t index, bool modifiable, bool alternativeHandling,
                                                                        ::BeatSaber::GameSettings::Controller leftController, ::BeatSaber::GameSettings::Controller rightController);
 
-  /// @brief Method RefreshControllers, addr 0x31938c0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method RefreshControllers, addr 0x31c373c, size 0xb0, virtual false, abstract: false, final false
   inline void RefreshControllers();
 
-  /// @brief Method SetRotateThanMove, addr 0x31939bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetRotateThanMove, addr 0x31c3838, size 0x8, virtual false, abstract: false, final false
   inline void SetRotateThanMove(bool value);
 
-  /// @brief Method ToSaveData, addr 0x3192d54, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ToSaveData, addr 0x31c2bd0, size 0x9c, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::ControllerProfileSaveData* ToSaveData();
 
-  /// @brief Method UpdateControllerPosition, addr 0x3193ab4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method UpdateControllerPosition, addr 0x31c3930, size 0x74, virtual false, abstract: false, final false
   inline void UpdateControllerPosition(bool isLeft, ::UnityEngine::Vector3 value);
 
-  /// @brief Method UpdateControllerRotation, addr 0x3193b28, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UpdateControllerRotation, addr 0x31c39a4, size 0x20, virtual false, abstract: false, final false
   inline void UpdateControllerRotation(bool isLeft, ::UnityEngine::Vector3 value);
 
   constexpr bool const& __cordl_internal_get__alternativeHandling_k__BackingField() const;
@@ -143,26 +143,26 @@ public:
 
   constexpr void __cordl_internal_set_modifiable(bool value);
 
-  /// @brief Method .ctor, addr 0x3192b44, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31c29c0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW localizationKey, int32_t index, bool modifiable, bool alternativeHandling, ::BeatSaber::GameSettings::Controller leftController,
                     ::BeatSaber::GameSettings::Controller rightController);
 
-  /// @brief Method get_alternativeHandling, addr 0x3193844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_alternativeHandling, addr 0x31c36c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_alternativeHandling();
 
-  /// @brief Method get_leftController, addr 0x3193854, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_leftController, addr 0x31c36d0, size 0x14, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::Controller get_leftController();
 
-  /// @brief Method get_rightController, addr 0x319387c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_rightController, addr 0x31c36f8, size 0x14, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::Controller get_rightController();
 
-  /// @brief Method set_alternativeHandling, addr 0x319384c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_alternativeHandling, addr 0x31c36c8, size 0x8, virtual false, abstract: false, final false
   inline void set_alternativeHandling(bool value);
 
-  /// @brief Method set_leftController, addr 0x3193868, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_leftController, addr 0x31c36e4, size 0x14, virtual false, abstract: false, final false
   inline void set_leftController(::BeatSaber::GameSettings::Controller value);
 
-  /// @brief Method set_rightController, addr 0x3193890, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_rightController, addr 0x31c370c, size 0x14, virtual false, abstract: false, final false
   inline void set_rightController(::BeatSaber::GameSettings::Controller value);
 
 protected:
@@ -180,7 +180,7 @@ public:
   ControllerProfile(ControllerProfile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21879 };
 
   /// @brief Field localizationKey, offset: 0x10, size: 0x8, def value: None
   ::StringW ___localizationKey;

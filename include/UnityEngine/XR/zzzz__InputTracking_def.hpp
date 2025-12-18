@@ -82,7 +82,7 @@ public:
   static ::UnityEngine::XR::InputTracking_TrackingStateEventType const TrackingLost;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21906 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21933 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -119,25 +119,25 @@ public:
   /// @brief Field trackingLost, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_trackingLost, put = setStaticF_trackingLost)) ::System::Action_1<::UnityEngine::XR::XRNodeState>* trackingLost;
 
-  /// @brief Method GetDeviceIdAtXRNode, addr 0x6bff8cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceIdAtXRNode, addr 0x6c68750, size 0x3c, virtual false, abstract: false, final false
   static inline uint64_t GetDeviceIdAtXRNode(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetNodeStates, addr 0x6bff640, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStates, addr 0x6c684c4, size 0x9c, virtual false, abstract: false, final false
   static inline void GetNodeStates(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates);
 
-  /// @brief Method GetNodeStates_Internal, addr 0x6bff6dc, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStates_Internal, addr 0x6c68560, size 0x1b4, virtual false, abstract: false, final false
   static inline void GetNodeStates_Internal(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates);
 
-  /// @brief Method GetNodeStates_Internal_Injected, addr 0x6bff890, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStates_Internal_Injected, addr 0x6c68714, size 0x3c, virtual false, abstract: false, final false
   static inline void GetNodeStates_Internal_Injected(::ByRef<::UnityEngine::Bindings::BlittableListWrapper> nodeStates);
 
-  /// @brief Method InvokeTrackingEvent, addr 0x6bff494, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method InvokeTrackingEvent, addr 0x6c68318, size 0x190, virtual false, abstract: false, final false
   static inline void InvokeTrackingEvent(::UnityEngine::XR::InputTracking_TrackingStateEventType eventType, ::UnityEngine::XR::XRNode nodeType, int64_t uniqueID, bool tracked);
 
-  /// @brief Method add_nodeAdded, addr 0x6bff104, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method add_nodeAdded, addr 0x6c67f88, size 0xe4, virtual false, abstract: false, final false
   static inline void add_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
-  /// @brief Method add_nodeRemoved, addr 0x6bff2cc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method add_nodeRemoved, addr 0x6c68150, size 0xe4, virtual false, abstract: false, final false
   static inline void add_nodeRemoved(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
   static inline ::System::Action_1<::UnityEngine::XR::XRNodeState>* getStaticF_nodeAdded();
@@ -148,10 +148,10 @@ public:
 
   static inline ::System::Action_1<::UnityEngine::XR::XRNodeState>* getStaticF_trackingLost();
 
-  /// @brief Method remove_nodeAdded, addr 0x6bff1e8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method remove_nodeAdded, addr 0x6c6806c, size 0xe4, virtual false, abstract: false, final false
   static inline void remove_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
-  /// @brief Method remove_nodeRemoved, addr 0x6bff3b0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method remove_nodeRemoved, addr 0x6c68234, size 0xe4, virtual false, abstract: false, final false
   static inline void remove_nodeRemoved(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
   static inline void setStaticF_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
@@ -177,7 +177,7 @@ public:
   InputTracking(InputTracking const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21934 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

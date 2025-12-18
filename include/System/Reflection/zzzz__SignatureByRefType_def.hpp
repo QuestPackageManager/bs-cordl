@@ -29,30 +29,30 @@ public:
 
   __declspec(property(get = get_Suffix)) ::StringW Suffix;
 
-  /// @brief Method GetArrayRank, addr 0x596ae18, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method GetArrayRank, addr 0x59d1764, size 0x4c, virtual true, abstract: false, final true
   inline int32_t GetArrayRank();
 
-  /// @brief Method IsArrayImpl, addr 0x596adf0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsArrayImpl, addr 0x59d173c, size 0x8, virtual true, abstract: false, final true
   inline bool IsArrayImpl();
 
-  /// @brief Method IsByRefImpl, addr 0x596adf8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsByRefImpl, addr 0x59d1744, size 0x8, virtual true, abstract: false, final true
   inline bool IsByRefImpl();
 
-  /// @brief Method IsPointerImpl, addr 0x596ae00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsPointerImpl, addr 0x59d174c, size 0x8, virtual true, abstract: false, final true
   inline bool IsPointerImpl();
 
   static inline ::System::Reflection::SignatureByRefType* New_ctor(::System::Reflection::SignatureType* elementType);
 
-  /// @brief Method .ctor, addr 0x596adb8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d1704, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::SignatureType* elementType);
 
-  /// @brief Method get_IsSZArray, addr 0x596ae08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSZArray, addr 0x59d1754, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSZArray();
 
-  /// @brief Method get_IsVariableBoundArray, addr 0x596ae10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsVariableBoundArray, addr 0x59d175c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsVariableBoundArray();
 
-  /// @brief Method get_Suffix, addr 0x596ae64, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_Suffix, addr 0x59d17b0, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_Suffix();
 
 protected:

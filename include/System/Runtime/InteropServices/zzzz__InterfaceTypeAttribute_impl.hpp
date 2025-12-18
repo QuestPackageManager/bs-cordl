@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::InterfaceTypeAttribute::*)(
     ::System::Runtime::InteropServices::ComInterfaceType)>(&::System::Runtime::InteropServices::InterfaceTypeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5955b5c;
+  constexpr static std::size_t addrs = 0x59bc4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

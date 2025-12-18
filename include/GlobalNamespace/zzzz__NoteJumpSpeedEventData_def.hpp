@@ -48,13 +48,13 @@ public:
   /// @brief Field usePreviousValue, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_usePreviousValue, put = __cordl_internal_set_usePreviousValue)) bool usePreviousValue;
 
-  /// @brief Method ChangeRelativeNoteJumpSpeed, addr 0x3164968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ChangeRelativeNoteJumpSpeed, addr 0x3194660, size 0x8, virtual false, abstract: false, final false
   inline void ChangeRelativeNoteJumpSpeed(float_t value);
 
-  /// @brief Method GetCopy, addr 0x3164970, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x3194668, size 0x88, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0x31649f8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x31946f0, size 0x5c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::NoteJumpSpeedEventData* New_ctor(float_t time, float_t relativeNoteJumpSpeed, ::GlobalNamespace::EaseType easeType, bool usePreviousValue);
@@ -77,23 +77,23 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousValue(bool value);
 
-  /// @brief Method .ctor, addr 0x3164940, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3194638, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t relativeNoteJumpSpeed, ::GlobalNamespace::EaseType easeType, bool usePreviousValue);
 
   static inline ::GlobalNamespace::NoteJumpSpeedEventData* getStaticF__default();
 
-  /// @brief Method get_nextSameTypeEventData, addr 0x31648b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_nextSameTypeEventData, addr 0x31945ac, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteJumpSpeedEventData* get_nextSameTypeEventData();
 
-  /// @brief Method get_previousSameTypeEventData, addr 0x3164838, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_previousSameTypeEventData, addr 0x3194530, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteJumpSpeedEventData* get_previousSameTypeEventData();
 
-  /// @brief Method get_relativeNoteJumpSpeed, addr 0x3164930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_relativeNoteJumpSpeed, addr 0x3194628, size 0x8, virtual false, abstract: false, final false
   inline float_t get_relativeNoteJumpSpeed();
 
   static inline void setStaticF__default(::GlobalNamespace::NoteJumpSpeedEventData* value);
 
-  /// @brief Method set_relativeNoteJumpSpeed, addr 0x3164938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_relativeNoteJumpSpeed, addr 0x3194630, size 0x8, virtual false, abstract: false, final false
   inline void set_relativeNoteJumpSpeed(float_t value);
 
 protected:
@@ -111,7 +111,7 @@ public:
   NoteJumpSpeedEventData(NoteJumpSpeedEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20977 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21056 };
 
   /// @brief Field <relativeNoteJumpSpeed>k__BackingField, offset: 0x30, size: 0x4, def value: None
   float_t ____relativeNoteJumpSpeed_k__BackingField;

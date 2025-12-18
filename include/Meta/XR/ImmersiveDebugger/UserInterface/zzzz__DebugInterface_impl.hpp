@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::get_FollowOverride)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x583821c;
+  constexpr static std::size_t addrs = 0x589e980;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::*)(bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::set_FollowOverride)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5838234;
+  constexpr static std::size_t addrs = 0x589e998;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::get_RotateOverride)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5838260;
+  constexpr static std::size_t addrs = 0x589e9c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::*)(bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::set_RotateOverride)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5838278;
+  constexpr static std::size_t addrs = 0x589e9dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::get_OpacityOverride)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58382a4;
+  constexpr static std::size_t addrs = 0x589ea08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::*)(bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::set_OpacityOverride)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x58382bc;
+  constexpr static std::size_t addrs = 0x589ea20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*, bool)>(&::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::SetTransparencyRecursive)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5838448;
+  constexpr static std::size_t addrs = 0x589ebac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::Awake)> {
   constexpr static std::size_t size = 0x9ec;
-  constexpr static std::size_t addrs = 0x58385a4;
+  constexpr static std::size_t addrs = 0x589ed08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::ToggleDistances)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5839100;
+  constexpr static std::size_t addrs = 0x589f864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::ToggleFollowTranslation)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5839148;
+  constexpr static std::size_t addrs = 0x589f8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::ToggleFollowRotation)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5839178;
+  constexpr static std::size_t addrs = 0x589f8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::UpdateVisibility)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x58391a8;
+  constexpr static std::size_t addrs = 0x589f90c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::Update)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x58392a4;
+  constexpr static std::size_t addrs = 0x589fa08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::IsInspectorPanelVisible)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x58393d4;
+  constexpr static std::size_t addrs = 0x589fb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x58393fc;
+  constexpr static std::size_t addrs = 0x589fb60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::DebugInterface::_Awake_b__20_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58394ac;
+  constexpr static std::size_t addrs = 0x589fc10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

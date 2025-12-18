@@ -33,10 +33,10 @@ public:
   static inline ::UnityEngine::Rendering::Universal::DBufferCopyDepthPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* copyDepthShader, bool shouldClear,
                                                                                     bool copyToDepth, bool copyResolvedDepth);
 
-  /// @brief Method RecordRenderGraph, addr 0x66334ac, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x669b038, size 0x244, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method .ctor, addr 0x66334a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x669b02c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* copyDepthShader, bool shouldClear, bool copyToDepth, bool copyResolvedDepth);
 
 protected:
@@ -54,7 +54,7 @@ public:
   DBufferCopyDepthPass(DBufferCopyDepthPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12641 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12645 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

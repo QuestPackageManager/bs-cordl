@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::PowerOfTwoTextureAtlas___c::*)()>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x658c11c;
+  constexpr static std::size_t addrs = 0x65f3ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::PowerOfTwoTextureAtlas___c*>::get(),
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ValueTuple_2<int32_t, ::UnityEngine::Vector2Int>, ::System::ValueTuple_2<int32_t, ::UnityEngine::Vector2Int>)>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas___c::_RelayoutEntries_b__23_0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x658c120;
+  constexpr static std::size_t addrs = 0x65f3cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::PowerOfTwoTextureAtlas::*)(
     int32_t, int32_t, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::FilterMode, ::StringW, bool)>(&::UnityEngine::Rendering::PowerOfTwoTextureAtlas::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x658ab34;
+  constexpr static std::size_t addrs = 0x65f26c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::PowerOfTwoTextureAtlas::*)()>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::get_mipPadding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658ac58;
+  constexpr static std::size_t addrs = 0x65f27e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::PowerOfTwoTextureAtlas*>::get(),
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::PowerOfTwoTextureAtlas::*)()>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetTexturePadding)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x658ac60;
+  constexpr static std::size_t addrs = 0x65f27ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::PowerOfTwoTextureAtlas*>::get(),
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::PowerOfTwoTextureAtlas::*)(
     ::UnityEngine::Texture*, ::ByRef<::UnityEngine::Vector4>)>(&::UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetPayloadScaleOffset)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x658ac90;
+  constexpr static std::size_t addrs = 0x65f281c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(
     ::ByRef<::UnityEngine::Vector2>, ::ByRef<::UnityEngine::Vector2>, ::ByRef<::UnityEngine::Vector4>)>(&::UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetPayloadScaleOffset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x658adec;
+  constexpr static std::size_t addrs = 0x65f2978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -177,7 +177,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Vector4, ::UnityEngine::Texture*, ::UnityEngine::Vector4, bool, ::UnityEngine::Rendering::PowerOfTwoTextureAtlas_BlitType)>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::Blit2DTexture)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x658ae24;
+  constexpr static std::size_t addrs = 0x65f29b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -197,7 +197,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Vector4, ::UnityEngine::Texture*, ::UnityEngine::Vector4, bool, int32_t)>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::BlitTexture)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x658b1ac;
+  constexpr static std::size_t addrs = 0x65f2d38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -214,7 +214,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Vector4, ::UnityEngine::Texture*, ::UnityEngine::Vector4, bool, int32_t)>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::BlitTextureMultiply)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x658b2b8;
+  constexpr static std::size_t addrs = 0x65f2e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -234,7 +234,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Vector4, ::UnityEngine::Texture*, ::UnityEngine::Vector4, bool, int32_t)>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::BlitOctahedralTexture)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x658b3c4;
+  constexpr static std::size_t addrs = 0x65f2f50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -251,7 +251,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Vector4, ::UnityEngine::Texture*, ::UnityEngine::Vector4, bool, int32_t)>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::BlitOctahedralTextureMultiply)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x658b4d0;
+  constexpr static std::size_t addrs = 0x65f305c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::PowerOfTwoTextureAtlas::*)(
     ::UnityEngine::Texture*, ::ByRef<int32_t>, ::ByRef<int32_t>)>(&::UnityEngine::Rendering::PowerOfTwoTextureAtlas::TextureSizeToPowerOfTwo)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x658b5dc;
+  constexpr static std::size_t addrs = 0x65f3168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::PowerOfTwoTextureAtlas::*)(::UnityEngine::Texture*)>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetPowerOfTwoTextureSize)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x658ad60;
+  constexpr static std::size_t addrs = 0x65f28ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -303,7 +303,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::CommandBuffer*, ::ByRef<::UnityEngine::Vector4>, ::UnityEngine::Texture*, int32_t, int32_t, int32_t)>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::AllocateTexture)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x658b628;
+  constexpr static std::size_t addrs = 0x65f31b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::PowerOfTwoTextureAtlas::*)()>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::ResetRequestedTexture)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x658b814;
+  constexpr static std::size_t addrs = 0x65f33a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::PowerOfTwoTextureAtlas*>::get(),
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::PowerOfTwoTextureAtlas::*)(::UnityEngine::Texture*)>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::ReserveSpace)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x658b868;
+  constexpr static std::size_t addrs = 0x65f33f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::PowerOfTwoTextureAtlas::*)(::UnityEngine::Texture*, int32_t, int32_t)>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::ReserveSpace)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x658b8d8;
+  constexpr static std::size_t addrs = 0x65f3464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::PowerOfTwoTextureAtlas::*)(
     ::UnityEngine::Texture*, ::UnityEngine::Texture*, int32_t, int32_t)>(&::UnityEngine::Rendering::PowerOfTwoTextureAtlas::ReserveSpace)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x658ba68;
+  constexpr static std::size_t addrs = 0x65f35f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::PowerOfTwoTextureAtlas::*)(int32_t, int32_t, int32_t)>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::ReserveSpace)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x658b91c;
+  constexpr static std::size_t addrs = 0x65f34a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::PowerOfTwoTextureAtlas::*)()>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::RelayoutEntries)> {
   constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x658baa0;
+  constexpr static std::size_t addrs = 0x65f362c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::PowerOfTwoTextureAtlas*>::get(),
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int32_t, int32_t, bool, ::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetApproxCacheSizeInByte)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x658bebc;
+  constexpr static std::size_t addrs = 0x65f3a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -428,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, bool, ::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Rendering::PowerOfTwoTextureAtlas::GetMaxCacheSizeForWeightInByte)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x658bfa4;
+  constexpr static std::size_t addrs = 0x65f3b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

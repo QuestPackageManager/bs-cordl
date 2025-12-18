@@ -57,19 +57,19 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IEntitlementModel"
   constexpr operator ::GlobalNamespace::IEntitlementModel*() noexcept;
 
-  /// @brief Method AddAlwaysOwnedPack, addr 0x35fd9c0, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method AddAlwaysOwnedPack, addr 0x36288fc, size 0x334, virtual false, abstract: false, final false
   inline void AddAlwaysOwnedPack(::GlobalNamespace::PackDefinitionSO* pack);
 
-  /// @brief Method GetExcludedLevelIdsAsync, addr 0x35fe040, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetExcludedLevelIdsAsync, addr 0x3628f7c, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW, ::Array<::StringW>*>>* GetExcludedLevelIdsAsync(::System::Threading::CancellationToken token);
 
-  /// @brief Method GetLevelDataVersionAsync, addr 0x35fdf80, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method GetLevelDataVersionAsync, addr 0x3628ebc, size 0xc0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* GetLevelDataVersionAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method GetLevelEntitlementStatusAsync, addr 0x35fdcf4, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method GetLevelEntitlementStatusAsync, addr 0x3628c30, size 0x144, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method GetPackEntitlementStatusAsync, addr 0x35fde38, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method GetPackEntitlementStatusAsync, addr 0x3628d74, size 0x148, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
   static inline ::GlobalNamespace::BeatmapLevelsEntitlementModel* New_ctor(::GlobalNamespace::IAdditionalContentEntitlementModel* additionalContentEntitlementModel);
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set__alwaysOwnedPacksIds(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x35fd924, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3628860, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAdditionalContentEntitlementModel* additionalContentEntitlementModel);
 
   /// @brief Convert to "::GlobalNamespace::IEntitlementModel"
@@ -113,7 +113,7 @@ public:
   BeatmapLevelsEntitlementModel(BeatmapLevelsEntitlementModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14946 };
 
   /// @brief Field _additionalContentEntitlementModel, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IAdditionalContentEntitlementModel* ____additionalContentEntitlementModel;

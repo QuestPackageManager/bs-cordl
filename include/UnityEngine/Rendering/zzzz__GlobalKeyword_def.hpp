@@ -23,28 +23,28 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE GlobalKeyword {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x68f8e88, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6961d0c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GlobalKeyword Create(::StringW name);
 
-  /// @brief Method CreateGlobalKeyword, addr 0x68f8d28, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CreateGlobalKeyword, addr 0x6961bac, size 0x124, virtual false, abstract: false, final false
   static inline void CreateGlobalKeyword(::StringW keyword);
 
-  /// @brief Method CreateGlobalKeyword_Injected, addr 0x68f8e4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CreateGlobalKeyword_Injected, addr 0x6961cd0, size 0x3c, virtual false, abstract: false, final false
   static inline void CreateGlobalKeyword_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
 
-  /// @brief Method GetGlobalKeywordCount, addr 0x68f8b98, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalKeywordCount, addr 0x6961a1c, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t GetGlobalKeywordCount();
 
-  /// @brief Method GetGlobalKeywordIndex, addr 0x68f8bc0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalKeywordIndex, addr 0x6961a44, size 0x12c, virtual false, abstract: false, final false
   static inline uint32_t GetGlobalKeywordIndex(::StringW keyword);
 
-  /// @brief Method GetGlobalKeywordIndex_Injected, addr 0x68f8cec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalKeywordIndex_Injected, addr 0x6961b70, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t GetGlobalKeywordIndex_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
 
-  /// @brief Method ToString, addr 0x68f8ff0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6961e74, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x68f8eb8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6961d3c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   // Ctor Parameters []
@@ -55,7 +55,7 @@ public:
   constexpr GlobalKeyword(::StringW m_Name, uint32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10862 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10866 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::Universal::URPHelpURLAttribute* New_ctor(::StringW pageName, ::StringW pageHash);
 
-  /// @brief Method .ctor, addr 0x6654b6c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66bc6f8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW pageName, ::StringW pageHash);
 
 protected:
@@ -39,7 +39,7 @@ public:
   URPHelpURLAttribute(URPHelpURLAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12722 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

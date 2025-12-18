@@ -154,87 +154,87 @@ public:
   /// @brief Field s_DefaultShaderInfoTextureRefCount, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_DefaultShaderInfoTextureRefCount, put = setStaticF_s_DefaultShaderInfoTextureRefCount)) int32_t s_DefaultShaderInfoTextureRefCount;
 
-  /// @brief Method AcquireDefaultShaderInfoTexture, addr 0x6ac0240, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method AcquireDefaultShaderInfoTexture, addr 0x6b290c4, size 0x2c4, virtual false, abstract: false, final false
   static inline void AcquireDefaultShaderInfoTexture();
 
-  /// @brief Method AllocClipRect, addr 0x6abb544, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AllocClipRect, addr 0x6b243c8, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::BMPAlloc AllocClipRect();
 
-  /// @brief Method AllocColor, addr 0x6abc708, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AllocColor, addr 0x6b2558c, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::BMPAlloc AllocColor();
 
-  /// @brief Method AllocOpacity, addr 0x6abb5a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AllocOpacity, addr 0x6b24428, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::BMPAlloc AllocOpacity();
 
-  /// @brief Method AllocTextCoreSettings, addr 0x6abc048, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AllocTextCoreSettings, addr 0x6b24ecc, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::BMPAlloc AllocTextCoreSettings(::UnityEngine::UIElements::UIR::TextCoreSettings settings);
 
-  /// @brief Method AllocToTexelCoord, addr 0x6ac05c4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AllocToTexelCoord, addr 0x6b29448, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int AllocToTexelCoord(::ByRef<::UnityEngine::UIElements::UIR::BitmapAllocator32> allocator, ::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method AllocTransform, addr 0x6ab9a44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AllocTransform, addr 0x6b228c8, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::BMPAlloc AllocTransform();
 
-  /// @brief Method AtlasRectMatchesPage, addr 0x6ac0614, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method AtlasRectMatchesPage, addr 0x6b29498, size 0x170, virtual false, abstract: false, final false
   static inline bool AtlasRectMatchesPage(::ByRef<::UnityEngine::UIElements::UIR::BitmapAllocator32> allocator, ::UnityEngine::UIElements::UIR::BMPAlloc defAlloc, ::UnityEngine::RectInt atlasRect);
 
-  /// @brief Method ClipRectAllocToVertexData, addr 0x6ac0e7c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ClipRectAllocToVertexData, addr 0x6b29d00, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color32 ClipRectAllocToVertexData(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method ColorAllocToVertexData, addr 0x6ac1074, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ColorAllocToVertexData, addr 0x6b29ef8, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color32 ColorAllocToVertexData(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method Dispose, addr 0x6ac0d00, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6b29b84, size 0x68, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method FreeClipRect, addr 0x6abac5c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FreeClipRect, addr 0x6b23ae0, size 0xa0, virtual false, abstract: false, final false
   inline void FreeClipRect(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method FreeColor, addr 0x6ababbc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FreeColor, addr 0x6b23a40, size 0xa0, virtual false, abstract: false, final false
   inline void FreeColor(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method FreeOpacity, addr 0x6abab1c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FreeOpacity, addr 0x6b239a0, size 0xa0, virtual false, abstract: false, final false
   inline void FreeOpacity(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method FreeTextCoreSettings, addr 0x6abaa7c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FreeTextCoreSettings, addr 0x6b23900, size 0xa0, virtual false, abstract: false, final false
   inline void FreeTextCoreSettings(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method FreeTransform, addr 0x6abacfc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FreeTransform, addr 0x6b23b80, size 0xa0, virtual false, abstract: false, final false
   inline void FreeTransform(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method IssuePendingStorageChanges, addr 0x6ac0d68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IssuePendingStorageChanges, addr 0x6b29bec, size 0x18, virtual false, abstract: false, final false
   inline void IssuePendingStorageChanges();
 
   static inline ::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator* New_ctor(::UnityEngine::ColorSpace colorSpace);
 
-  /// @brief Method OpacityAllocToVertexData, addr 0x6ac0f78, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method OpacityAllocToVertexData, addr 0x6b29dfc, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color32 OpacityAllocToVertexData(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method ReallyCreateStorage, addr 0x6ac0948, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method ReallyCreateStorage, addr 0x6b297cc, size 0x3b8, virtual false, abstract: false, final false
   inline void ReallyCreateStorage();
 
-  /// @brief Method ReleaseDefaultShaderInfoTexture, addr 0x6ac0504, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ReleaseDefaultShaderInfoTexture, addr 0x6b29388, size 0xc0, virtual false, abstract: false, final false
   static inline void ReleaseDefaultShaderInfoTexture();
 
-  /// @brief Method SetClipRectValue, addr 0x6abb920, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method SetClipRectValue, addr 0x6b247a4, size 0x11c, virtual false, abstract: false, final false
   inline void SetClipRectValue(::UnityEngine::UIElements::UIR::BMPAlloc alloc, ::UnityEngine::Vector4 clipRect);
 
-  /// @brief Method SetColorValue, addr 0x6abc730, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method SetColorValue, addr 0x6b255b4, size 0x1a4, virtual false, abstract: false, final false
   inline void SetColorValue(::UnityEngine::UIElements::UIR::BMPAlloc alloc, ::UnityEngine::Color color);
 
-  /// @brief Method SetOpacityValue, addr 0x6abb5cc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetOpacityValue, addr 0x6b24450, size 0x108, virtual false, abstract: false, final false
   inline void SetOpacityValue(::UnityEngine::UIElements::UIR::BMPAlloc alloc, float_t opacity);
 
-  /// @brief Method SetTextCoreSettingValue, addr 0x6abc070, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method SetTextCoreSettingValue, addr 0x6b24ef4, size 0x3a0, virtual false, abstract: false, final false
   inline void SetTextCoreSettingValue(::UnityEngine::UIElements::UIR::BMPAlloc alloc, ::UnityEngine::UIElements::UIR::TextCoreSettings settings);
 
-  /// @brief Method SetTransformValue, addr 0x6aba490, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SetTransformValue, addr 0x6b23314, size 0x168, virtual false, abstract: false, final false
   inline void SetTransformValue(::UnityEngine::UIElements::UIR::BMPAlloc alloc, ::UnityEngine::Matrix4x4 xform);
 
-  /// @brief Method TextCoreSettingsToVertexData, addr 0x6ac1170, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method TextCoreSettingsToVertexData, addr 0x6b29ff4, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color32 TextCoreSettingsToVertexData(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method TransformAllocToVertexData, addr 0x6ac0d80, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method TransformAllocToVertexData, addr 0x6b29c04, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color32 TransformAllocToVertexData(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
   constexpr ::UnityEngine::UIElements::UIR::BitmapAllocator32 const& __cordl_internal_get_m_ClipRectAllocator() const;
@@ -285,7 +285,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TransformAllocator(::UnityEngine::UIElements::UIR::BitmapAllocator32 value);
 
-  /// @brief Method .ctor, addr 0x6ac080c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b29690, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ColorSpace colorSpace);
 
   static inline ::UnityEngine::UIElements::UIR::BMPAlloc getStaticF_clearColor();
@@ -328,13 +328,13 @@ public:
 
   static inline int32_t getStaticF_s_DefaultShaderInfoTextureRefCount();
 
-  /// @brief Method get_atlas, addr 0x6ac0784, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_atlas, addr 0x6b29608, size 0x88, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_atlas();
 
-  /// @brief Method get_pageHeight, addr 0x6ac0238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pageHeight, addr 0x6b290bc, size 0x8, virtual false, abstract: false, final false
   static inline int32_t get_pageHeight();
 
-  /// @brief Method get_pageWidth, addr 0x6ac0230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pageWidth, addr 0x6b290b4, size 0x8, virtual false, abstract: false, final false
   static inline int32_t get_pageWidth();
 
   static inline void setStaticF_clearColor(::UnityEngine::UIElements::UIR::BMPAlloc value);

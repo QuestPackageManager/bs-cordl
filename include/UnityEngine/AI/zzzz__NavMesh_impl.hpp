@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x67e6a70;
+  constexpr static std::size_t addrs = 0x684e5e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate::*)()>(&::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67e6ad8;
+  constexpr static std::size_t addrs = 0x684e650;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::AI::NavMesh::ClearPreUpdateListeners)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x67e6a24;
+  constexpr static std::size_t addrs = 0x684e59c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AI::NavMesh*>::get(), "ClearPreUpdateListeners",

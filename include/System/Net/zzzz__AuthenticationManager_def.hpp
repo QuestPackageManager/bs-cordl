@@ -46,16 +46,16 @@ public:
   /// @brief Field modules, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_modules, put = setStaticF_modules)) ::System::Collections::ArrayList* modules;
 
-  /// @brief Method Authenticate, addr 0x6209e7c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Authenticate, addr 0x6271a08, size 0x104, virtual false, abstract: false, final false
   static inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method DoAuthenticate, addr 0x6209f80, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method DoAuthenticate, addr 0x6271b0c, size 0x480, virtual false, abstract: false, final false
   static inline ::System::Net::Authorization* DoAuthenticate(::StringW challenge, ::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method EnsureModules, addr 0x6209c10, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method EnsureModules, addr 0x627179c, size 0x264, virtual false, abstract: false, final false
   static inline void EnsureModules();
 
-  /// @brief Method PreAuthenticate, addr 0x620a400, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method PreAuthenticate, addr 0x6271f8c, size 0x4cc, virtual false, abstract: false, final false
   static inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
 
   static inline ::System::Net::ICredentialPolicy* getStaticF_credential_policy();
@@ -85,7 +85,7 @@ public:
   AuthenticationManager(AuthenticationManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11543 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11547 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

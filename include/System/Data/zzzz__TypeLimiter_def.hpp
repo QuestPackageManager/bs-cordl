@@ -71,10 +71,10 @@ public:
 
   static inline ::System::Data::Scope_TypeLimiter___c* New_ctor();
 
-  /// @brief Method <.ctor>b__3_0, addr 0x5dff4a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__3_0, addr 0x5e6702c, size 0x2c, virtual false, abstract: false, final false
   inline bool __ctor_b__3_0(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x5dff49c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e67028, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Data::Scope_TypeLimiter___c* getStaticF___9();
@@ -100,7 +100,7 @@ public:
   Scope_TypeLimiter___c(Scope_TypeLimiter___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13722 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -129,13 +129,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5dfe6d0, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5e6625c, size 0x120, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method IsAllowedType, addr 0x5dfde48, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method IsAllowedType, addr 0x5e659d4, size 0x184, virtual false, abstract: false, final false
   inline bool IsAllowedType(::System::Type* type);
 
-  /// @brief Method IsTypeUnconditionallyAllowed, addr 0x5dfe7f0, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method IsTypeUnconditionallyAllowed, addr 0x5e6637c, size 0x1b4, virtual false, abstract: false, final false
   static inline bool IsTypeUnconditionallyAllowed(::System::Type* type);
 
   static inline ::System::Data::TypeLimiter_Scope* New_ctor(::System::Data::TypeLimiter_Scope* previousScope, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* allowedTypes);
@@ -152,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set_m_previousScope(::System::Data::TypeLimiter_Scope* value);
 
-  /// @brief Method .ctor, addr 0x5dfe288, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e65e14, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::TypeLimiter_Scope* previousScope, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* allowedTypes);
 
   static inline ::System::Collections::Generic::HashSet_1<::System::Type*>* getStaticF_s_allowedTypes();
@@ -177,7 +177,7 @@ public:
   TypeLimiter_Scope(TypeLimiter_Scope const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13719 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13723 };
 
   /// @brief Field m_allowedTypes, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::System::Type*>* ___m_allowedTypes;
@@ -213,13 +213,13 @@ public:
 
   static inline ::System::Data::TypeLimiter___c* New_ctor();
 
-  /// @brief Method <GetPreviouslyDeclaredDataTypes>b__10_0, addr 0x5dff524, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <GetPreviouslyDeclaredDataTypes>b__10_0, addr 0x5e670b0, size 0x14, virtual false, abstract: false, final false
   inline ::System::Type* _GetPreviouslyDeclaredDataTypes_b__10_0(::System::Data::DataColumn* column);
 
-  /// @brief Method <GetPreviouslyDeclaredDataTypes>b__11_0, addr 0x5dff538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetPreviouslyDeclaredDataTypes>b__11_0, addr 0x5e670c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* _GetPreviouslyDeclaredDataTypes_b__11_0(::System::Data::DataTable* table);
 
-  /// @brief Method .ctor, addr 0x5dff520, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e670ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Data::TypeLimiter___c* getStaticF___9();
@@ -249,7 +249,7 @@ public:
   TypeLimiter___c(TypeLimiter___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13724 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -274,22 +274,22 @@ public:
   /// @brief Field s_activeScope, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_activeScope, put = setStaticF_s_activeScope)) ::System::Data::TypeLimiter_Scope* s_activeScope;
 
-  /// @brief Method Capture, addr 0x5dfdcf8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Capture, addr 0x5e65884, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Data::TypeLimiter* Capture();
 
-  /// @brief Method EnsureTypeIsAllowed, addr 0x5dfdd80, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method EnsureTypeIsAllowed, addr 0x5e6590c, size 0xc8, virtual false, abstract: false, final false
   static inline void EnsureTypeIsAllowed(::System::Type* type, ::System::Data::TypeLimiter* capturedLimiter);
 
-  /// @brief Method EnterRestrictedScope, addr 0x5dfdfcc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method EnterRestrictedScope, addr 0x5e65b58, size 0x108, virtual false, abstract: false, final false
   static inline ::System::IDisposable* EnterRestrictedScope(::System::Data::DataSet* dataSet);
 
-  /// @brief Method EnterRestrictedScope, addr 0x5dfe414, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method EnterRestrictedScope, addr 0x5e65fa0, size 0x108, virtual false, abstract: false, final false
   static inline ::System::IDisposable* EnterRestrictedScope(::System::Data::DataTable* dataTable);
 
-  /// @brief Method GetPreviouslyDeclaredDataTypes, addr 0x5dfe0d4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetPreviouslyDeclaredDataTypes, addr 0x5e65c60, size 0x1b4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetPreviouslyDeclaredDataTypes(::System::Data::DataSet* dataSet);
 
-  /// @brief Method GetPreviouslyDeclaredDataTypes, addr 0x5dfe51c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetPreviouslyDeclaredDataTypes, addr 0x5e660a8, size 0x1b4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetPreviouslyDeclaredDataTypes(::System::Data::DataTable* dataTable);
 
   static inline ::System::Data::TypeLimiter* New_ctor(::System::Data::TypeLimiter_Scope* scope);
@@ -300,12 +300,12 @@ public:
 
   constexpr void __cordl_internal_set_m_instanceScope(::System::Data::TypeLimiter_Scope* value);
 
-  /// @brief Method .ctor, addr 0x5dfdc64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e657f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::TypeLimiter_Scope* scope);
 
   static inline ::System::Data::TypeLimiter_Scope* getStaticF_s_activeScope();
 
-  /// @brief Method get_IsTypeLimitingDisabled, addr 0x5dfdc6c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_IsTypeLimitingDisabled, addr 0x5e657f8, size 0x8c, virtual false, abstract: false, final false
   static inline bool get_IsTypeLimitingDisabled();
 
   static inline void setStaticF_s_activeScope(::System::Data::TypeLimiter_Scope* value);
@@ -325,7 +325,7 @@ public:
   TypeLimiter(TypeLimiter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13725 };
 
   /// @brief Field m_instanceScope, offset: 0x10, size: 0x8, def value: None
   ::System::Data::TypeLimiter_Scope* ___m_instanceScope;

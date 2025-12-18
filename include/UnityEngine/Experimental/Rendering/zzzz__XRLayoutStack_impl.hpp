@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::Rendering::XRLayout* (::UnityEngine::Experimental::Rendering::XRLayoutStack::*)()>(
     &::UnityEngine::Experimental::Rendering::XRLayoutStack::New)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6528838;
+  constexpr static std::size_t addrs = 0x65903c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::XRLayoutStack*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::Rendering::XRLayout* (::UnityEngine::Experimental::Rendering::XRLayoutStack::*)()>(
     &::UnityEngine::Experimental::Rendering::XRLayoutStack::get_top)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x65288f0;
+  constexpr static std::size_t addrs = 0x659047c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::XRLayoutStack*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::Rendering::XRLayoutStack::*)()>(
     &::UnityEngine::Experimental::Rendering::XRLayoutStack::Release)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6528944;
+  constexpr static std::size_t addrs = 0x65904d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::XRLayoutStack*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::Rendering::XRLayoutStack::*)()>(
     &::UnityEngine::Experimental::Rendering::XRLayoutStack::Dispose)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6528a50;
+  constexpr static std::size_t addrs = 0x65905dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::XRLayoutStack*>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::Rendering::XRLayoutStack::*)()>(
     &::UnityEngine::Experimental::Rendering::XRLayoutStack::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6528aec;
+  constexpr static std::size_t addrs = 0x6590678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::XRLayoutStack*>::get(),

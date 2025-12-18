@@ -26,13 +26,13 @@ public:
   /// @brief Field t_cachedInstance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_t_cachedInstance, put = setStaticF_t_cachedInstance)) ::System::Text::StringBuilder* t_cachedInstance;
 
-  /// @brief Method Acquire, addr 0x58c50d0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x592ba1c, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* Acquire(int32_t capacity);
 
-  /// @brief Method GetStringAndRelease, addr 0x58c52ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetStringAndRelease, addr 0x592bbf8, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetStringAndRelease(::System::Text::StringBuilder* sb);
 
-  /// @brief Method Release, addr 0x58c51f4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x592bb40, size 0xb8, virtual false, abstract: false, final false
   static inline void Release(::System::Text::StringBuilder* sb);
 
   static inline ::System::Text::StringBuilder* getStaticF_t_cachedInstance();

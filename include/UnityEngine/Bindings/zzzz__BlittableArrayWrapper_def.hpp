@@ -74,7 +74,7 @@ public:
   static ::UnityEngine::Bindings::BlittableArrayWrapper_UpdateFlags const SizeChanged;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10449 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -102,7 +102,7 @@ public:
   /// @brief Method Unmarshal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Unmarshal(::ByRef<::ArrayW<T, ::Array<T>*>> array);
 
-  /// @brief Method .ctor, addr 0x68cb0e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6933f64, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(void* data, int32_t size);
 
   // Ctor Parameters []
@@ -114,7 +114,7 @@ public:
   constexpr BlittableArrayWrapper(void* data, int32_t size, ::UnityEngine::Bindings::BlittableArrayWrapper_UpdateFlags updateFlags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10450 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

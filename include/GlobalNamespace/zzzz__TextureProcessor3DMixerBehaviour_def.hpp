@@ -35,7 +35,7 @@ public:
 
   static inline ::GlobalNamespace::TextureProcessor3DMixerBehaviour* New_ctor();
 
-  /// @brief Method ProcessFrame, addr 0x57178ec, size 0xa5c, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x57756fc, size 0xa5c, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr ::UnityW<::GlobalNamespace::TextureProcessor3D> const& __cordl_internal_get__trackBinding() const;
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__trackBinding(::UnityW<::GlobalNamespace::TextureProcessor3D> value);
 
-  /// @brief Method .ctor, addr 0x5718348, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5776158, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -62,7 +62,7 @@ public:
   TextureProcessor3DMixerBehaviour(TextureProcessor3DMixerBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6780 };
 
   /// @brief Field _trackBinding, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TextureProcessor3D> ____trackBinding;

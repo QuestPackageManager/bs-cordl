@@ -18,10 +18,10 @@ namespace Meta::XR::ImmersiveDebugger {
 class CORDL_TYPE SceneSetup : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method OnLoad, addr 0x582cee8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnLoad, addr 0x589364c, size 0x5c, virtual false, abstract: false, final false
   static inline void OnLoad();
 
-  /// @brief Method SetupImmersiveDebugger, addr 0x582cf44, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method SetupImmersiveDebugger, addr 0x58936a8, size 0x34c, virtual false, abstract: false, final false
   static inline void SetupImmersiveDebugger();
 
 protected:
@@ -39,7 +39,7 @@ public:
   SceneSetup(SceneSetup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18287 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18302 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

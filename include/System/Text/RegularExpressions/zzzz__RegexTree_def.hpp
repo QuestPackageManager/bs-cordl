@@ -97,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set_Root(::System::Text::RegularExpressions::RegexNode* value);
 
-  /// @brief Method .ctor, addr 0x61720f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61d9c7c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::RegexNode* root, ::System::Collections::Hashtable* caps, ::ArrayW<int32_t, ::Array<int32_t>*> capNumList, int32_t capTop,
                     ::System::Collections::Hashtable* capNames, ::ArrayW<::StringW, ::Array<::StringW>*> capsList, ::System::Text::RegularExpressions::RegexOptions options);
 
@@ -116,7 +116,7 @@ public:
   RegexTree(RegexTree const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11100 };
 
   /// @brief Field Root, offset: 0x10, size: 0x8, def value: None
   ::System::Text::RegularExpressions::RegexNode* ___Root;

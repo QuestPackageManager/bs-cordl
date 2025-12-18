@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerRow::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerRow::OnEnable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65e6ff0;
+  constexpr static std::size_t addrs = 0x664eb7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::Rendering::UI::DebugUIHandlerRow::*)(int32_t)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerRow::GetChild)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x65e6ff8;
+  constexpr static std::size_t addrs = 0x664eb84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerRow::*)(int32_t, ::ByRef<::UnityEngine::GameObject*>)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerRow::TryGetChild)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x65e712c;
+  constexpr static std::size_t addrs = 0x664ecb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerRow::*)(
     ::UnityEngine::Rendering::DebugUI_Table*, int32_t, ::UnityEngine::GameObject*)>(&::UnityEngine::Rendering::UI::DebugUIHandlerRow::IsActive)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x65e71b0;
+  constexpr static std::size_t addrs = 0x664ed3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerRow::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerRow::Update)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x65e72f0;
+  constexpr static std::size_t addrs = 0x664ee7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::UI::DebugUIHandlerRow*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerRow::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerRow::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65e76ec;
+  constexpr static std::size_t addrs = 0x664f278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::UI::DebugUIHandlerRow*>::get(), ".ctor",

@@ -24,12 +24,12 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE MeshGenerationCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6aaa02c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6b12eb0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(Il2CppObject* meshGenerationContext, ::System::Object* userData);
 
   static inline ::UnityEngine::UIElements::UIR::MeshGenerationCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6aa9ee4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b12d68, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

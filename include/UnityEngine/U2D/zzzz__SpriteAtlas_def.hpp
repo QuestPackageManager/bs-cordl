@@ -35,58 +35,58 @@ public:
 
   __declspec(property(get = get_tag)) ::StringW tag;
 
-  /// @brief Method CanBindTo, addr 0x68fe094, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CanBindTo, addr 0x6966f18, size 0xe4, virtual false, abstract: false, final false
   inline bool CanBindTo(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method CanBindTo_Injected, addr 0x68fe178, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CanBindTo_Injected, addr 0x6966ffc, size 0x44, virtual false, abstract: false, final false
   static inline bool CanBindTo_Injected(::System::IntPtr _unity_self, ::System::IntPtr sprite);
 
-  /// @brief Method GetSprite, addr 0x68fe1bc, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method GetSprite, addr 0x6967040, size 0x298, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> GetSprite(::StringW name);
 
-  /// @brief Method GetSprite_Injected, addr 0x68fe454, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSprite_Injected, addr 0x69672d8, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetSprite_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
-  /// @brief Method GetSprites, addr 0x68fe498, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetSprites, addr 0x696731c, size 0x4, virtual false, abstract: false, final false
   inline int32_t GetSprites(::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*> sprites);
 
-  /// @brief Method GetSprites, addr 0x68fe52c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetSprites, addr 0x69673b0, size 0x4, virtual false, abstract: false, final false
   inline int32_t GetSprites(::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*> sprites, ::StringW name);
 
-  /// @brief Method GetSpritesScripting, addr 0x68fe49c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetSpritesScripting, addr 0x6967320, size 0x90, virtual false, abstract: false, final false
   inline int32_t GetSpritesScripting(::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*> sprites);
 
-  /// @brief Method GetSpritesScripting_Injected, addr 0x68fe6ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSpritesScripting_Injected, addr 0x6967530, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetSpritesScripting_Injected(::System::IntPtr _unity_self, ::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*> sprites);
 
-  /// @brief Method GetSpritesWithNameScripting, addr 0x68fe530, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetSpritesWithNameScripting, addr 0x69673b4, size 0x17c, virtual false, abstract: false, final false
   inline int32_t GetSpritesWithNameScripting(::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*> sprites, ::StringW name);
 
-  /// @brief Method GetSpritesWithNameScripting_Injected, addr 0x68fe6f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSpritesWithNameScripting_Injected, addr 0x6967574, size 0x54, virtual false, abstract: false, final false
   static inline int32_t GetSpritesWithNameScripting_Injected(::System::IntPtr _unity_self, ::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*> sprites,
                                                              ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
   static inline ::UnityEngine::U2D::SpriteAtlas* New_ctor();
 
-  /// @brief Method .ctor, addr 0x68fe744, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69675c8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isVariant, addr 0x68fdda4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_isVariant, addr 0x6966c28, size 0x80, virtual false, abstract: false, final false
   inline bool get_isVariant();
 
-  /// @brief Method get_isVariant_Injected, addr 0x68fde24, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isVariant_Injected, addr 0x6966ca8, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isVariant_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_spriteCount, addr 0x68fdfd8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_spriteCount, addr 0x6966e5c, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_spriteCount();
 
-  /// @brief Method get_spriteCount_Injected, addr 0x68fe058, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spriteCount_Injected, addr 0x6966edc, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_spriteCount_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_tag, addr 0x68fde60, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method get_tag, addr 0x6966ce4, size 0x134, virtual false, abstract: false, final false
   inline ::StringW get_tag();
 
-  /// @brief Method get_tag_Injected, addr 0x68fdf94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_tag_Injected, addr 0x6966e18, size 0x44, virtual false, abstract: false, final false
   static inline void get_tag_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
 protected:
@@ -104,7 +104,7 @@ public:
   SpriteAtlas(SpriteAtlas const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10906 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10910 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

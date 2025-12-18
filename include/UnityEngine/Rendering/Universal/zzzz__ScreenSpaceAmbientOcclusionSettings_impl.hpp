@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x66850b4;
+  constexpr static std::size_t addrs = 0x66ecc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

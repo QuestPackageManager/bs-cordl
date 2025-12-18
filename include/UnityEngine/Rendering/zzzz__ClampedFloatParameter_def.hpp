@@ -41,13 +41,13 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x65ae1cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6615d58, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t value, float_t min, float_t max, bool overrideState);
 
-  /// @brief Method get_value, addr 0x65ae1a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x6615d34, size 0x8, virtual true, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method set_value, addr 0x65ae1b0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x6615d3c, size 0x1c, virtual true, abstract: false, final false
   inline void set_value(float_t value);
 
 protected:
@@ -65,7 +65,7 @@ public:
   ClampedFloatParameter(ClampedFloatParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12326 };
 
   /// @brief Field min, offset: 0x18, size: 0x4, def value: None
   float_t ___min;

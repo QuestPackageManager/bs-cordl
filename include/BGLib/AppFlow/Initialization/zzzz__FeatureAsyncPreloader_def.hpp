@@ -62,10 +62,10 @@ public:
 
   static inline ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c* New_ctor();
 
-  /// @brief Method <PreloadAsync>b__1_0, addr 0x31e32f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <PreloadAsync>b__1_0, addr 0x3213cd4, size 0x20, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _PreloadAsync_b__1_0(::BGLib::AppFlow::Initialization::AsyncPreloader* preloader);
 
-  /// @brief Method .ctor, addr 0x31e32f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3213cd0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c* getStaticF___9();
@@ -91,7 +91,7 @@ public:
   FeatureAsyncPreloader___c(FeatureAsyncPreloader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21389 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -109,10 +109,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x31e3318, size 0x90c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3213cf4, size 0x90c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x31e3c24, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3214600, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -132,7 +132,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21390 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -176,10 +176,10 @@ public:
 
   static inline ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader* New_ctor();
 
-  /// @brief Method PreloadAsync, addr 0x31e31f0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x3213bcc, size 0xac, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-  /// @brief Method .ctor, addr 0x31e329c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3213c78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -197,7 +197,7 @@ public:
   FeatureAsyncPreloader(FeatureAsyncPreloader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21391 };
 
   /// @brief Field kFeatureAsyncPreloader offset 0xffffffff size 0x8
   static constexpr ::ConstString kFeatureAsyncPreloader{ u"FeatureAsyncPreloader" };

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::OVRSpatialAnchor> (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::get_CameraAlignmentAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x586450c;
+  constexpr static std::size_t addrs = 0x58cac70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)(::GlobalNamespace::OVRSpatialAnchor*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::set_CameraAlignmentAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5864514;
+  constexpr static std::size_t addrs = 0x58cac78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x586451c;
+  constexpr static std::size_t addrs = 0x58cac80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::RealignToAnchor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x585c5a8;
+  constexpr static std::size_t addrs = 0x58c2d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)(::UnityEngine::Transform*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::Align)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5864520;
+  constexpr static std::size_t addrs = 0x58cac84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AlignCameraToAnchor::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5864720;
+  constexpr static std::size_t addrs = 0x58cae84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -34,14 +34,14 @@ public:
   /// @brief Field kDefaultOrder, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kDefaultOrder, put = setStaticF_kDefaultOrder)) ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* kDefaultOrder;
 
-  /// @brief Method CreateQuery, addr 0x31a141c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CreateQuery, addr 0x31d129c, size 0x17c, virtual false, abstract: false, final false
   static inline ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN* CreateQuery(::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers, int64_t amountEntries,
                                                                                     ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* order);
 
   static inline ::BeatSaber::Main::Leaderboards::QueryLeaderboardTopN* New_ctor(::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers, int64_t amountEntries,
                                                                                 ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* order);
 
-  /// @brief Method .ctor, addr 0x319ea78, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ce8f4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers, int64_t amountEntries,
                     ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* order);
 
@@ -64,7 +64,7 @@ public:
   QueryLeaderboardTopN(QueryLeaderboardTopN const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20950 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20975 };
 
   /// @brief Field kDefaultAmountEntries offset 0xffffffff size 0x8
   static constexpr int64_t kDefaultAmountEntries{ static_cast<int64_t>(0xa) };

@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_Next(::System::Xml::Schema::IdRefNode* value);
 
-  /// @brief Method .ctor, addr 0x602079c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6088328, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::IdRefNode* next, ::StringW id, int32_t lineNo, int32_t linePos);
 
 protected:
@@ -76,7 +76,7 @@ public:
   IdRefNode(IdRefNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9801 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9805 };
 
   /// @brief Field Id, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Id;

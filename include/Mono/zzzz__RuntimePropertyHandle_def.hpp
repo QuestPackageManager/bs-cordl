@@ -28,16 +28,16 @@ public:
   // Declarations
   __declspec(property(get = get_Value)) ::System::IntPtr Value;
 
-  /// @brief Method Equals, addr 0x5898794, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x58ff0e0, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x589887c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x58ff1c8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x5898784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ff0d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr v);
 
-  /// @brief Method get_Value, addr 0x589878c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x58ff0d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Value();
 
   // Ctor Parameters []

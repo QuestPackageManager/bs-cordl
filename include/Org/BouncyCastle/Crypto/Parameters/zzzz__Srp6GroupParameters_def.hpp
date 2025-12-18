@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x32f1400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x331bc44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method get_G, addr 0x32f1408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0x331bc4c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_N, addr 0x32f1410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_N, addr 0x331bc54, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_N();
 
 protected:

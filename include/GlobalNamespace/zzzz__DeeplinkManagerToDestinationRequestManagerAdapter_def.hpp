@@ -5,6 +5,9 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DeeplinkManagerToDestinationRequestManagerAdapter)
+namespace Analytics::Model {
+class TelemetryModel;
+}
 namespace GlobalNamespace {
 class BeatmapCharacteristicCollection;
 }
@@ -22,6 +25,9 @@ class IDestinationRequestManager;
 }
 namespace GlobalNamespace {
 class MenuDestination;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -46,26 +52,32 @@ public:
   /// @brief Field _beatmapLevelsModel, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel)) ::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
 
-  /// @brief Field _currentMenuDestinationRequest, offset 0x28, size 0x8
+  /// @brief Field _currentMenuDestinationRequest, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__currentMenuDestinationRequest,
                       put = __cordl_internal_set__currentMenuDestinationRequest)) ::GlobalNamespace::MenuDestination* _currentMenuDestinationRequest;
 
+  /// @brief Field _playerDataModel, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
+
+  /// @brief Field _telemetryModel, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__telemetryModel, put = __cordl_internal_set__telemetryModel)) ::Analytics::Model::TelemetryModel* _telemetryModel;
+
   __declspec(property(get = get_currentMenuDestinationRequest, put = set_currentMenuDestinationRequest)) ::GlobalNamespace::MenuDestination* currentMenuDestinationRequest;
 
-  /// @brief Field didSendMenuDestinationRequestEvent, offset 0x20, size 0x8
+  /// @brief Field didSendMenuDestinationRequestEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_didSendMenuDestinationRequestEvent,
                       put = __cordl_internal_set_didSendMenuDestinationRequestEvent)) ::System::Action_1<::GlobalNamespace::MenuDestination*>* didSendMenuDestinationRequestEvent;
 
   /// @brief Convert operator to "::GlobalNamespace::IDestinationRequestManager"
   constexpr operator ::GlobalNamespace::IDestinationRequestManager*() noexcept;
 
-  /// @brief Method Clear, addr 0x5769d90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x57d0638, size 0x8, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method HandleDeeplinkManagerDidReceiveDeeplink, addr 0x576978c, size 0x604, virtual false, abstract: false, final false
+  /// @brief Method HandleDeeplinkManagerDidReceiveDeeplink, addr 0x57cffa8, size 0x690, virtual false, abstract: false, final false
   inline void HandleDeeplinkManagerDidReceiveDeeplink(::GlobalNamespace::Deeplink* deeplink);
 
-  /// @brief Method Init, addr 0x57695b8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x57cfdd4, size 0x1d4, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::IDeeplinkManager* deeplinkManager);
 
   static inline ::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter* New_ctor();
@@ -82,6 +94,14 @@ public:
 
   constexpr ::GlobalNamespace::MenuDestination*& __cordl_internal_get__currentMenuDestinationRequest();
 
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
+
+  constexpr ::Analytics::Model::TelemetryModel* const& __cordl_internal_get__telemetryModel() const;
+
+  constexpr ::Analytics::Model::TelemetryModel*& __cordl_internal_get__telemetryModel();
+
   constexpr ::System::Action_1<::GlobalNamespace::MenuDestination*>* const& __cordl_internal_get_didSendMenuDestinationRequestEvent() const;
 
   constexpr ::System::Action_1<::GlobalNamespace::MenuDestination*>*& __cordl_internal_get_didSendMenuDestinationRequestEvent();
@@ -92,24 +112,28 @@ public:
 
   constexpr void __cordl_internal_set__currentMenuDestinationRequest(::GlobalNamespace::MenuDestination* value);
 
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
+
+  constexpr void __cordl_internal_set__telemetryModel(::Analytics::Model::TelemetryModel* value);
+
   constexpr void __cordl_internal_set_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
 
-  /// @brief Method .ctor, addr 0x5769d98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57d0640, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSendMenuDestinationRequestEvent, addr 0x5769410, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_didSendMenuDestinationRequestEvent, addr 0x57cfc2c, size 0xc0, virtual true, abstract: false, final true
   inline void add_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
 
-  /// @brief Method get_currentMenuDestinationRequest, addr 0x5769590, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_currentMenuDestinationRequest, addr 0x57cfdac, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest();
 
   /// @brief Convert to "::GlobalNamespace::IDestinationRequestManager"
   constexpr ::GlobalNamespace::IDestinationRequestManager* i___GlobalNamespace__IDestinationRequestManager() noexcept;
 
-  /// @brief Method remove_didSendMenuDestinationRequestEvent, addr 0x57694d0, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_didSendMenuDestinationRequestEvent, addr 0x57cfcec, size 0xc0, virtual true, abstract: false, final true
   inline void remove_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
 
-  /// @brief Method set_currentMenuDestinationRequest, addr 0x5769598, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method set_currentMenuDestinationRequest, addr 0x57cfdb4, size 0x20, virtual true, abstract: false, final true
   inline void set_currentMenuDestinationRequest(::GlobalNamespace::MenuDestination* value);
 
 protected:
@@ -135,10 +159,16 @@ public:
   /// @brief Field _beatmapCharacteristicCollection, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCharacteristicCollection* ____beatmapCharacteristicCollection;
 
-  /// @brief Field didSendMenuDestinationRequestEvent, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _playerDataModel, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
+
+  /// @brief Field _telemetryModel, offset: 0x28, size: 0x8, def value: None
+  ::Analytics::Model::TelemetryModel* ____telemetryModel;
+
+  /// @brief Field didSendMenuDestinationRequestEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::MenuDestination*>* ___didSendMenuDestinationRequestEvent;
 
-  /// @brief Field _currentMenuDestinationRequest, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _currentMenuDestinationRequest, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::MenuDestination* ____currentMenuDestinationRequest;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -148,11 +178,15 @@ static_assert(offsetof(::GlobalNamespace::DeeplinkManagerToDestinationRequestMan
 
 static_assert(offsetof(::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter, ____beatmapCharacteristicCollection) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter, ___didSendMenuDestinationRequestEvent) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter, ____playerDataModel) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter, ____currentMenuDestinationRequest) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter, ____telemetryModel) == 0x28, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter, ___didSendMenuDestinationRequestEvent) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter, ____currentMenuDestinationRequest) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter);

@@ -34,13 +34,13 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Hierarchy::Manager* New_ctor();
 
-  /// @brief Method ProcessItem, addr 0x5853bc0, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method ProcessItem, addr 0x58ba324, size 0x3c8, virtual false, abstract: false, final false
   inline void ProcessItem(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* item);
 
-  /// @brief Method Refresh, addr 0x5854a90, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x58bb1f4, size 0x48, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method UnprocessItem, addr 0x58539d8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method UnprocessItem, addr 0x58ba13c, size 0x168, virtual false, abstract: false, final false
   inline void UnprocessItem(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* item);
 
   constexpr ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry* const& __cordl_internal_get__sceneRegistry() const;
@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set__sceneRegistry(::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry* value);
 
-  /// @brief Method .ctor, addr 0x5854ad8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bb23c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Method, addr 0x5854a88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Method, addr 0x58bb1ec, size 0x8, virtual true, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Telemetry_Method get_Method();
 
 protected:
@@ -70,7 +70,7 @@ public:
   Manager(Manager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18439 };
 
   /// @brief Field _sceneRegistry, offset: 0x20, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry* ____sceneRegistry;

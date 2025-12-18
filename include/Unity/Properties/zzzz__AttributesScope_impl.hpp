@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::AttributesScope::*)(::Unity::Properties::IProperty*, ::Unity::Properties::IProperty*)>(
     &::Unity::Properties::AttributesScope::_ctor)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x696a35c;
+  constexpr static std::size_t addrs = 0x69d31e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::AttributesScope::*)(
     ::Unity::Properties::Internal::IAttributes*, ::System::Collections::Generic::List_1<::System::Attribute*>*)>(&::Unity::Properties::AttributesScope::_ctor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x696a530;
+  constexpr static std::size_t addrs = 0x69d33b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::AttributesScope::*)()>(&::Unity::Properties::AttributesScope::Dispose)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x696a648;
+  constexpr static std::size_t addrs = 0x69d34cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::AttributesScope>::get(), "Dispose",

@@ -55,15 +55,15 @@ public:
   /// @brief Field _transform, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method FollowPosition, addr 0x316cf50, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method FollowPosition, addr 0x319cc48, size 0xe4, virtual false, abstract: false, final false
   inline void FollowPosition(::UnityEngine::Vector3 followPosition);
 
   static inline ::BeatSaber::AvatarCore::AvatarShadowController* New_ctor();
 
-  /// @brief Method Start, addr 0x316ce88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x319cb80, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x316cea4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x319cb9c, size 0xac, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__alpha() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x316d034, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x319cd2c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -132,7 +132,7 @@ public:
   AvatarShadowController(AvatarShadowController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21389 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21416 };
 
   /// @brief Field _spriteRenderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;

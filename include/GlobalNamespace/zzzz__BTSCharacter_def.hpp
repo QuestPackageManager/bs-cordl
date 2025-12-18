@@ -62,7 +62,7 @@ public:
 
   static inline ::GlobalNamespace::BTSCharacter* New_ctor();
 
-  /// @brief Method SetAlternativeAnimationAndMaterial, addr 0x3184c0c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method SetAlternativeAnimationAndMaterial, addr 0x31b4a38, size 0x1e4, virtual false, abstract: false, final false
   inline void SetAlternativeAnimationAndMaterial(::UnityEngine::AnimationClip* animation, bool alternativeMaterialOn);
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -95,19 +95,19 @@ public:
 
   constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  /// @brief Method .ctor, addr 0x3185004, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b4e30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animator, addr 0x3184bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animator, addr 0x31b4a28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Animator> get_animator();
 
-  /// @brief Method get_characterName, addr 0x3184bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characterName, addr 0x31b4a18, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_characterName();
 
-  /// @brief Method get_headTransform, addr 0x3184c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headTransform, addr 0x31b4a30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_headTransform();
 
-  /// @brief Method get_materialPropertyBlockController, addr 0x3184bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlockController, addr 0x31b4a20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> get_materialPropertyBlockController();
 
 protected:
@@ -125,7 +125,7 @@ public:
   BTSCharacter(BTSCharacter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21458 };
 
   /// @brief Field _characterName, offset: 0x20, size: 0x8, def value: None
   ::StringW ____characterName;

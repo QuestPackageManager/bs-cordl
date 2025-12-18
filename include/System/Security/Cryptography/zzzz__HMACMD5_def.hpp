@@ -23,10 +23,10 @@ public:
 
   static inline ::System::Security::Cryptography::HMACMD5* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x58e51a0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x594baec, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x58e51c4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x594bb10, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
 protected:

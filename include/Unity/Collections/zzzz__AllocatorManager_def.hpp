@@ -217,18 +217,18 @@ namespace Unity::Collections {
 class CORDL_TYPE AllocatorManager_TryFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x628aa70, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x62f25fc, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr allocatorState, ::ByRef<::Unity::Collections::AllocatorManager_Block> block, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x628ab18, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x62f26a4, size 0x24, virtual true, abstract: false, final false
   inline int32_t EndInvoke(::ByRef<::Unity::Collections::AllocatorManager_Block> block, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x628aa5c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x62f25e8, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(::System::IntPtr allocatorState, ::ByRef<::Unity::Collections::AllocatorManager_Block> block);
 
   static inline ::Unity::Collections::AllocatorManager_TryFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x628a9f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62f257c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -246,7 +246,7 @@ public:
   AllocatorManager_TryFunction(AllocatorManager_TryFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15491 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -292,64 +292,64 @@ public:
   /// @brief Method AllocateBlock, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Unity::Collections::AllocatorManager_Block AllocateBlock(int32_t items);
 
-  /// @brief Method CheckAllocatedSuccessfully, addr 0x628ac80, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CheckAllocatedSuccessfully, addr 0x62f280c, size 0x80, virtual false, abstract: false, final false
   static inline void CheckAllocatedSuccessfully(int32_t error);
 
-  /// @brief Method CompareTo, addr 0x628afc0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x62f2b4c, size 0xc, virtual true, abstract: false, final true
   inline int32_t CompareTo(::Unity::Collections::AllocatorManager_AllocatorHandle other);
 
-  /// @brief Method Dispose, addr 0x628ae78, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x62f2a04, size 0x14, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Equals, addr 0x628ae8c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x62f2a18, size 0xac, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x628af48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x62f2ad4, size 0x10, virtual false, abstract: false, final false
   inline bool Equals(::Unity::Collections::Allocator other);
 
-  /// @brief Method Equals, addr 0x628af38, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x62f2ac4, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Collections::AllocatorManager_AllocatorHandle other);
 
-  /// @brief Method GetHashCode, addr 0x628af58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x62f2ae4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IncrementVersion, addr 0x628ac70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method IncrementVersion, addr 0x62f27fc, size 0x4, virtual false, abstract: false, final false
   inline void IncrementVersion();
 
-  /// @brief Method Install, addr 0x628a37c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Install, addr 0x62f1f08, size 0x24, virtual false, abstract: false, final false
   inline void Install(::Unity::Collections::AllocatorManager_TableEntry tableEntry);
 
-  /// @brief Method Rewind, addr 0x628ac74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Rewind, addr 0x62f2800, size 0x4, virtual false, abstract: false, final false
   inline void Rewind();
 
-  /// @brief Method Try, addr 0x628ad08, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Try, addr 0x62f2894, size 0x6c, virtual true, abstract: false, final true
   inline int32_t Try(::ByRef<::Unity::Collections::AllocatorManager_Block> block);
 
   /// @brief Method TryAllocateBlock, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline int32_t TryAllocateBlock(::ByRef<::Unity::Collections::AllocatorManager_Block> block, int32_t items);
 
-  /// @brief Method get_Function, addr 0x628ad00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Function, addr 0x62f288c, size 0x8, virtual true, abstract: false, final true
   inline ::Unity::Collections::AllocatorManager_TryFunction* get_Function();
 
-  /// @brief Method get_Handle, addr 0x6289f08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Handle, addr 0x62f1a94, size 0x8, virtual true, abstract: false, final true
   inline ::Unity::Collections::AllocatorManager_AllocatorHandle get_Handle();
 
-  /// @brief Method get_IsAutoDispose, addr 0x628ad94, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method get_IsAutoDispose, addr 0x62f2920, size 0xe4, virtual true, abstract: false, final true
   inline bool get_IsAutoDispose();
 
-  /// @brief Method get_IsCustomAllocator, addr 0x628ad84, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_IsCustomAllocator, addr 0x62f2910, size 0x10, virtual true, abstract: false, final true
   inline bool get_IsCustomAllocator();
 
-  /// @brief Method get_IsInstalled, addr 0x628ab3c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_IsInstalled, addr 0x62f26c8, size 0xe4, virtual false, abstract: false, final false
   inline bool get_IsInstalled();
 
-  /// @brief Method get_TableEntry, addr 0x6289d2c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_TableEntry, addr 0x62f18b8, size 0xcc, virtual false, abstract: false, final false
   inline ::ByRef<::Unity::Collections::AllocatorManager_TableEntry> get_TableEntry();
 
-  /// @brief Method get_ToAllocator, addr 0x628ad7c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ToAllocator, addr 0x62f2908, size 0x8, virtual true, abstract: false, final true
   inline ::Unity::Collections::Allocator get_ToAllocator();
 
-  /// @brief Method get_Value, addr 0x628ac78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x62f2804, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Value();
 
   /// @brief Convert to "::System::IComparable_1<::Unity::Collections::AllocatorManager_AllocatorHandle>"
@@ -364,28 +364,28 @@ public:
   /// @brief Convert to "::Unity::Collections::AllocatorManager_IAllocator"
   constexpr ::Unity::Collections::AllocatorManager_IAllocator* i___Unity__Collections__AllocatorManager_IAllocator();
 
-  /// @brief Method op_Equality, addr 0x628af60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x62f2aec, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Equality(::Unity::Collections::AllocatorManager_AllocatorHandle lhs, ::Unity::Collections::AllocatorManager_AllocatorHandle rhs);
 
-  /// @brief Method op_GreaterThan, addr 0x628af90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x62f2b1c, size 0x10, virtual false, abstract: false, final false
   static inline bool op_GreaterThan(::Unity::Collections::AllocatorManager_AllocatorHandle lhs, ::Unity::Collections::AllocatorManager_AllocatorHandle rhs);
 
-  /// @brief Method op_GreaterThanOrEqual, addr 0x628afb0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThanOrEqual, addr 0x62f2b3c, size 0x10, virtual false, abstract: false, final false
   static inline bool op_GreaterThanOrEqual(::Unity::Collections::AllocatorManager_AllocatorHandle lhs, ::Unity::Collections::AllocatorManager_AllocatorHandle rhs);
 
-  /// @brief Method op_Implicit, addr 0x628a078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x62f1c04, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Collections::AllocatorManager_AllocatorHandle op_Implicit___Unity__Collections__AllocatorManager_AllocatorHandle(::Unity::Collections::Allocator a);
 
-  /// @brief Method op_Inequality, addr 0x628af70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x62f2afc, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Inequality(::Unity::Collections::AllocatorManager_AllocatorHandle lhs, ::Unity::Collections::AllocatorManager_AllocatorHandle rhs);
 
-  /// @brief Method op_LessThan, addr 0x628af80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x62f2b0c, size 0x10, virtual false, abstract: false, final false
   static inline bool op_LessThan(::Unity::Collections::AllocatorManager_AllocatorHandle lhs, ::Unity::Collections::AllocatorManager_AllocatorHandle rhs);
 
-  /// @brief Method op_LessThanOrEqual, addr 0x628afa0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_LessThanOrEqual, addr 0x62f2b2c, size 0x10, virtual false, abstract: false, final false
   static inline bool op_LessThanOrEqual(::Unity::Collections::AllocatorManager_AllocatorHandle lhs, ::Unity::Collections::AllocatorManager_AllocatorHandle rhs);
 
-  /// @brief Method set_Handle, addr 0x628ad74, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Handle, addr 0x62f2900, size 0x8, virtual true, abstract: false, final true
   inline void set_Handle(::Unity::Collections::AllocatorManager_AllocatorHandle value);
 
   // Ctor Parameters []
@@ -396,7 +396,7 @@ public:
   constexpr AllocatorManager_AllocatorHandle(uint16_t Index, uint16_t Version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15478 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15492 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -432,7 +432,7 @@ public:
   constexpr AllocatorManager_BlockHandle(uint16_t Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15479 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15493 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
@@ -458,7 +458,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x628afcc, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x62f2b58, size 0x3c, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// @brief Convert to "::System::IDisposable"
@@ -473,7 +473,7 @@ public:
   constexpr AllocatorManager_Range(::System::IntPtr Pointer, int32_t Items, ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15480 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15494 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -515,40 +515,40 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Allocate, addr 0x628b10c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x62f2c98, size 0x4, virtual false, abstract: false, final false
   inline void Allocate();
 
-  /// @brief Method CheckFailedToAllocate, addr 0x628b114, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CheckFailedToAllocate, addr 0x62f2ca0, size 0xac, virtual false, abstract: false, final false
   inline void CheckFailedToAllocate(int32_t error);
 
-  /// @brief Method CheckFailedToFree, addr 0x628b1c0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CheckFailedToFree, addr 0x62f2d4c, size 0xac, virtual false, abstract: false, final false
   inline void CheckFailedToFree(int32_t error);
 
-  /// @brief Method Dispose, addr 0x628b008, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x62f2b94, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Free, addr 0x628b110, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x62f2c9c, size 0x4, virtual false, abstract: false, final false
   inline void Free();
 
-  /// @brief Method TryAllocate, addr 0x628b0b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TryAllocate, addr 0x62f2c3c, size 0x5c, virtual false, abstract: false, final false
   inline int32_t TryAllocate();
 
-  /// @brief Method TryFree, addr 0x628b054, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TryFree, addr 0x62f2be0, size 0x5c, virtual false, abstract: false, final false
   inline int32_t TryFree();
 
-  /// @brief Method get_Alignment, addr 0x628a068, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Alignment, addr 0x62f1bf4, size 0x10, virtual false, abstract: false, final false
   inline int32_t get_Alignment();
 
-  /// @brief Method get_AllocatedBytes, addr 0x628b00c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_AllocatedBytes, addr 0x62f2b98, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_AllocatedBytes();
 
-  /// @brief Method get_Bytes, addr 0x628a058, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Bytes, addr 0x62f1be4, size 0x10, virtual false, abstract: false, final false
   inline int64_t get_Bytes();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method set_Alignment, addr 0x628b018, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_Alignment, addr 0x62f2ba4, size 0x3c, virtual false, abstract: false, final false
   inline void set_Alignment(int32_t value);
 
   // Ctor Parameters []
@@ -563,7 +563,7 @@ public:
                                    uint32_t Padding2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15495 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -638,7 +638,7 @@ public:
   /// @brief Method get_Handle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Unity::Collections::AllocatorManager_AllocatorHandle get_Handle();
 
-  /// @brief Method get_IsAutoDispose, addr 0x628b26c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsAutoDispose, addr 0x62f2df8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsAutoDispose();
 
   /// @brief Method get_IsCustomAllocator, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -658,7 +658,7 @@ public:
   AllocatorManager_IAllocator(AllocatorManager_IAllocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15496 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -671,20 +671,20 @@ namespace Unity::Collections {
 class CORDL_TYPE StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x628b4ec, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x62f3078, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr allocatorState, ::ByRef<::Unity::Collections::AllocatorManager_Block> block, ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
                                              ::System::Object* _cordl_fixed_empty_name_whitespace_param_3);
 
-  /// @brief Method EndInvoke, addr 0x628b594, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x62f3120, size 0x24, virtual true, abstract: false, final false
   inline int32_t EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x628b4d8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x62f3064, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(::System::IntPtr allocatorState, ::ByRef<::Unity::Collections::AllocatorManager_Block> block);
 
   static inline ::Unity::Collections::StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate* New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
                                                                                                                   ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
-  /// @brief Method .ctor, addr 0x628b46c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62f2ff8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
 protected:
@@ -702,7 +702,7 @@ public:
   StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate(StackAllocator_AllocatorManager_Try_000000AB$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15497 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -720,13 +720,13 @@ public:
   /// @brief Field Pointer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Pointer, put = setStaticF_Pointer)) ::System::IntPtr Pointer;
 
-  /// @brief Method GetFunctionPointer, addr 0x628b6c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointer, addr 0x62f3250, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
-  /// @brief Method GetFunctionPointerDiscard, addr 0x628b5b8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointerDiscard, addr 0x62f3144, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::ByRef<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x628b350, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x62f2edc, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t Invoke(::System::IntPtr allocatorState, ::ByRef<::Unity::Collections::AllocatorManager_Block> block);
 
   static inline ::System::IntPtr getStaticF_Pointer();
@@ -748,7 +748,7 @@ public:
   StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCall(StackAllocator_AllocatorManager_Try_000000AB$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15484 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15498 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -781,31 +781,31 @@ public:
   /// @brief Convert operator to "::Unity::Collections::AllocatorManager_IAllocator"
   constexpr operator ::Unity::Collections::AllocatorManager_IAllocator*();
 
-  /// @brief Method Dispose, addr 0x628b464, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x62f2ff0, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Initialize, addr 0x628b2a0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x62f2e2c, size 0x14, virtual false, abstract: false, final false
   inline void Initialize(::Unity::Collections::AllocatorManager_Block storage);
 
-  /// @brief Method Try, addr 0x628b274, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Try, addr 0x62f2e00, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Try(::System::IntPtr allocatorState, ::ByRef<::Unity::Collections::AllocatorManager_Block> block);
 
-  /// @brief Method Try, addr 0x628b2b4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Try, addr 0x62f2e40, size 0x9c, virtual true, abstract: false, final true
   inline int32_t Try(::ByRef<::Unity::Collections::AllocatorManager_Block> block);
 
-  /// @brief Method Try$BurstManaged, addr 0x628b468, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Try$BurstManaged, addr 0x62f2ff4, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Try$BurstManaged(::System::IntPtr allocatorState, ::ByRef<::Unity::Collections::AllocatorManager_Block> block);
 
-  /// @brief Method get_Function, addr 0x628b3f0, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method get_Function, addr 0x62f2f7c, size 0x74, virtual true, abstract: false, final true
   inline ::Unity::Collections::AllocatorManager_TryFunction* get_Function();
 
-  /// @brief Method get_Handle, addr 0x628b278, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Handle, addr 0x62f2e04, size 0x8, virtual true, abstract: false, final true
   inline ::Unity::Collections::AllocatorManager_AllocatorHandle get_Handle();
 
-  /// @brief Method get_IsCustomAllocator, addr 0x628b290, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_IsCustomAllocator, addr 0x62f2e1c, size 0x10, virtual true, abstract: false, final true
   inline bool get_IsCustomAllocator();
 
-  /// @brief Method get_ToAllocator, addr 0x628b288, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ToAllocator, addr 0x62f2e14, size 0x8, virtual true, abstract: false, final true
   inline ::Unity::Collections::Allocator get_ToAllocator();
 
   /// @brief Convert to "::System::IDisposable"
@@ -814,7 +814,7 @@ public:
   /// @brief Convert to "::Unity::Collections::AllocatorManager_IAllocator"
   constexpr ::Unity::Collections::AllocatorManager_IAllocator* i___Unity__Collections__AllocatorManager_IAllocator();
 
-  /// @brief Method set_Handle, addr 0x628b280, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Handle, addr 0x62f2e0c, size 0x8, virtual true, abstract: false, final true
   inline void set_Handle(::Unity::Collections::AllocatorManager_AllocatorHandle value);
 
   // Ctor Parameters []
@@ -826,7 +826,7 @@ public:
   constexpr AllocatorManager_StackAllocator(::Unity::Collections::AllocatorManager_AllocatorHandle m_handle, ::Unity::Collections::AllocatorManager_Block m_storage, int64_t m_top) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15499 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -859,20 +859,20 @@ namespace Unity::Collections {
 class CORDL_TYPE SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x628bc4c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x62f37d8, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr allocatorState, ::ByRef<::Unity::Collections::AllocatorManager_Block> block, ::System::AsyncCallback* _cordl_fixed_empty_name_whitespace,
                                              ::System::Object* _cordl_fixed_empty_name_whitespace_param_3);
 
-  /// @brief Method EndInvoke, addr 0x628bcf4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x62f3880, size 0x24, virtual true, abstract: false, final false
   inline int32_t EndInvoke(::System::IAsyncResult* _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x628bc38, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x62f37c4, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(::System::IntPtr allocatorState, ::ByRef<::Unity::Collections::AllocatorManager_Block> block);
 
   static inline ::Unity::Collections::SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate* New_ctor(::System::Object* _cordl_fixed_empty_name_whitespace,
                                                                                                                  ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
-  /// @brief Method .ctor, addr 0x628bbcc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62f3758, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* _cordl_fixed_empty_name_whitespace, ::System::IntPtr _cordl_fixed_empty_name_whitespace_param_1);
 
 protected:
@@ -890,7 +890,7 @@ public:
   SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate(SlabAllocator_AllocatorManager_Try_000000B9$PostfixBurstDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15500 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -908,13 +908,13 @@ public:
   /// @brief Field Pointer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Pointer, put = setStaticF_Pointer)) ::System::IntPtr Pointer;
 
-  /// @brief Method GetFunctionPointer, addr 0x628be24, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointer, addr 0x62f39b0, size 0x18, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointer();
 
-  /// @brief Method GetFunctionPointerDiscard, addr 0x628bd18, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointerDiscard, addr 0x62f38a4, size 0x10c, virtual false, abstract: false, final false
   static inline void GetFunctionPointerDiscard(::ByRef<::System::IntPtr> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method Invoke, addr 0x628bab0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x62f363c, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t Invoke(::System::IntPtr allocatorState, ::ByRef<::Unity::Collections::AllocatorManager_Block> block);
 
   static inline ::System::IntPtr getStaticF_Pointer();
@@ -936,7 +936,7 @@ public:
   SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCall(SlabAllocator_AllocatorManager_Try_000000B9$BurstDirectCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15501 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -977,43 +977,43 @@ public:
   /// @brief Convert operator to "::Unity::Collections::AllocatorManager_IAllocator"
   constexpr operator ::Unity::Collections::AllocatorManager_IAllocator*();
 
-  /// @brief Method Dispose, addr 0x628bbc4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x62f3750, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Initialize, addr 0x628b780, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x62f330c, size 0x108, virtual false, abstract: false, final false
   inline void Initialize(::Unity::Collections::AllocatorManager_Block storage, int32_t slabSizeInBytes, int64_t budget);
 
-  /// @brief Method Try, addr 0x628b6dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Try, addr 0x62f3268, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Try(::System::IntPtr allocatorState, ::ByRef<::Unity::Collections::AllocatorManager_Block> block);
 
-  /// @brief Method Try, addr 0x628b888, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method Try, addr 0x62f3414, size 0x228, virtual true, abstract: false, final true
   inline int32_t Try(::ByRef<::Unity::Collections::AllocatorManager_Block> block);
 
-  /// @brief Method Try$BurstManaged, addr 0x628bbc8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Try$BurstManaged, addr 0x62f3754, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Try$BurstManaged(::System::IntPtr allocatorState, ::ByRef<::Unity::Collections::AllocatorManager_Block> block);
 
-  /// @brief Method get_AllocatedBytes, addr 0x628b710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllocatedBytes, addr 0x62f329c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_AllocatedBytes();
 
-  /// @brief Method get_BudgetInBytes, addr 0x628b708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BudgetInBytes, addr 0x62f3294, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_BudgetInBytes();
 
-  /// @brief Method get_Function, addr 0x628bb50, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method get_Function, addr 0x62f36dc, size 0x74, virtual true, abstract: false, final true
   inline ::Unity::Collections::AllocatorManager_TryFunction* get_Function();
 
-  /// @brief Method get_Handle, addr 0x628b6e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Handle, addr 0x62f326c, size 0x8, virtual true, abstract: false, final true
   inline ::Unity::Collections::AllocatorManager_AllocatorHandle get_Handle();
 
-  /// @brief Method get_IsCustomAllocator, addr 0x628b6f8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_IsCustomAllocator, addr 0x62f3284, size 0x10, virtual true, abstract: false, final true
   inline bool get_IsCustomAllocator();
 
-  /// @brief Method get_SlabSizeInBytes, addr 0x628b718, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_SlabSizeInBytes, addr 0x62f32a4, size 0x10, virtual false, abstract: false, final false
   inline int32_t get_SlabSizeInBytes();
 
-  /// @brief Method get_Slabs, addr 0x628b768, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Slabs, addr 0x62f32f4, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Slabs();
 
-  /// @brief Method get_ToAllocator, addr 0x628b6f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ToAllocator, addr 0x62f327c, size 0x8, virtual true, abstract: false, final true
   inline ::Unity::Collections::Allocator get_ToAllocator();
 
   /// @brief Convert to "::System::IDisposable"
@@ -1022,10 +1022,10 @@ public:
   /// @brief Convert to "::Unity::Collections::AllocatorManager_IAllocator"
   constexpr ::Unity::Collections::AllocatorManager_IAllocator* i___Unity__Collections__AllocatorManager_IAllocator();
 
-  /// @brief Method set_Handle, addr 0x628b6e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Handle, addr 0x62f3274, size 0x8, virtual true, abstract: false, final true
   inline void set_Handle(::Unity::Collections::AllocatorManager_AllocatorHandle value);
 
-  /// @brief Method set_SlabSizeInBytes, addr 0x628b728, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_SlabSizeInBytes, addr 0x62f32b4, size 0x40, virtual false, abstract: false, final false
   inline void set_SlabSizeInBytes(int32_t value);
 
   // Ctor Parameters []
@@ -1040,7 +1040,7 @@ public:
                                            ::Unity::Collections::FixedList4096Bytes_1<int32_t> Occupied, int64_t budgetInBytes, int64_t allocatedBytes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15502 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1040 };
@@ -1096,7 +1096,7 @@ public:
   constexpr AllocatorManager_TableEntry(::System::IntPtr function, ::System::IntPtr state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15489 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15503 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -1139,7 +1139,7 @@ public:
   constexpr AllocatorManager_Array16_1(T f0, T f1, T f2, T f3, T f4, T f5, T f6, T f7, T f8, T f9, T f10, T f11, T f12, T f13, T f14, T f15) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15490 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15504 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -1230,7 +1230,7 @@ public:
                                         ::Unity::Collections::AllocatorManager_Array16_1<T> f14, ::Unity::Collections::AllocatorManager_Array16_1<T> f15) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15505 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x800 };
@@ -1321,7 +1321,7 @@ public:
                                          ::Unity::Collections::AllocatorManager_Array256_1<T> f14, ::Unity::Collections::AllocatorManager_Array256_1<T> f15) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15492 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15506 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8000 };
@@ -1420,7 +1420,7 @@ public:
                                           ::Unity::Collections::AllocatorManager_Array4096_1<T> f6, ::Unity::Collections::AllocatorManager_Array4096_1<T> f7) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15507 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40000 };
@@ -1465,7 +1465,7 @@ public:
 
   static inline ::Unity::Collections::SharedStatics_AllocatorManager_IsInstalled* New_ctor();
 
-  /// @brief Method .ctor, addr 0x628be40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62f39cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Burst::SharedStatic_1<::Unity::Collections::Long1024> getStaticF_Ref();
@@ -1487,7 +1487,7 @@ public:
   SharedStatics_AllocatorManager_IsInstalled(SharedStatics_AllocatorManager_IsInstalled const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15494 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15508 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1509,7 +1509,7 @@ public:
 
   static inline ::Unity::Collections::SharedStatics_AllocatorManager_TableEntry* New_ctor();
 
-  /// @brief Method .ctor, addr 0x628bec8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62f3a54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Burst::SharedStatic_1<::Unity::Collections::AllocatorManager_Array32768_1<::Unity::Collections::AllocatorManager_TableEntry>> getStaticF_Ref();
@@ -1531,7 +1531,7 @@ public:
   SharedStatics_AllocatorManager_TableEntry(SharedStatics_AllocatorManager_TableEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15509 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1551,7 +1551,7 @@ public:
 
   static inline ::Unity::Collections::SharedStatics_AllocatorManager_IsAutoDispose* New_ctor();
 
-  /// @brief Method .ctor, addr 0x628bf50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62f3adc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Burst::SharedStatic_1<::Unity::Collections::Long1024> getStaticF_Ref();
@@ -1573,7 +1573,7 @@ public:
   SharedStatics_AllocatorManager_IsAutoDispose(SharedStatics_AllocatorManager_IsAutoDispose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15510 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1596,7 +1596,7 @@ public:
 
   static inline ::Unity::Collections::AllocatorManager_SharedStatics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x628be3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62f39c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1614,7 +1614,7 @@ public:
   AllocatorManager_SharedStatics(AllocatorManager_SharedStatics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15497 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15511 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1634,10 +1634,10 @@ public:
                       put = setStaticF_TryFunctionDelegates)) ::ArrayW<::Unity::Collections::AllocatorManager_TryFunction*, ::Array<::Unity::Collections::AllocatorManager_TryFunction*>*>
       TryFunctionDelegates;
 
-  /// @brief Method RegisterDelegate, addr 0x628a3a0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method RegisterDelegate, addr 0x62f1f2c, size 0xdc, virtual false, abstract: false, final false
   static inline void RegisterDelegate(int32_t index, ::Unity::Collections::AllocatorManager_TryFunction* function);
 
-  /// @brief Method UnregisterDelegate, addr 0x628bfd8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method UnregisterDelegate, addr 0x62f3b64, size 0xd0, virtual false, abstract: false, final false
   static inline void UnregisterDelegate(int32_t index);
 
   static inline ::ArrayW<::Unity::Collections::AllocatorManager_TryFunction*, ::Array<::Unity::Collections::AllocatorManager_TryFunction*>*> getStaticF_TryFunctionDelegates();
@@ -1659,7 +1659,7 @@ public:
   AllocatorManager_Managed(AllocatorManager_Managed const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15512 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1705,7 +1705,7 @@ public:
   AllocatorManager_AllocatorCache_1(AllocatorManager_AllocatorCache_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15499 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15513 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1786,7 +1786,7 @@ public:
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename U> static inline U* Allocate(::ByRef<T> t, U u, int32_t items);
 
-  /// @brief Method Allocate, addr 0x6289a58, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x62f15e4, size 0xa0, virtual false, abstract: false, final false
   static inline void* Allocate(::Unity::Collections::AllocatorManager_AllocatorHandle handle, int32_t itemSizeInBytes, int32_t alignmentInBytes, int32_t items);
 
   /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1801,19 +1801,19 @@ public:
   /// @brief Method AllocateStruct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename U> static inline void* AllocateStruct(::ByRef<T> t, U u, int32_t items);
 
-  /// @brief Method CheckDelegate, addr 0x6289c30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CheckDelegate, addr 0x62f17bc, size 0xc, virtual false, abstract: false, final false
   static inline void CheckDelegate(::ByRef<bool> useDelegate);
 
-  /// @brief Method CheckFailedToAllocate, addr 0x628a850, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CheckFailedToAllocate, addr 0x62f23dc, size 0x54, virtual false, abstract: false, final false
   static inline void CheckFailedToAllocate(int32_t error);
 
-  /// @brief Method CheckFailedToFree, addr 0x628a8a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CheckFailedToFree, addr 0x62f2430, size 0x54, virtual false, abstract: false, final false
   static inline void CheckFailedToFree(int32_t error);
 
-  /// @brief Method CheckValid, addr 0x628a8f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckValid, addr 0x62f2484, size 0x4, virtual false, abstract: false, final false
   static inline void CheckValid(::Unity::Collections::AllocatorManager_AllocatorHandle handle);
 
-  /// @brief Method ConvertToAllocatorHandle, addr 0x6289c2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConvertToAllocatorHandle, addr 0x62f17b8, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::Collections::AllocatorManager_AllocatorHandle ConvertToAllocatorHandle(::Unity::Collections::Allocator a);
 
   /// @brief Method CreateAllocator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1825,10 +1825,10 @@ public:
   /// @brief Method Free, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Free(::Unity::Collections::AllocatorManager_AllocatorHandle handle, T* pointer, int32_t items);
 
-  /// @brief Method Free, addr 0x6289ba0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x62f172c, size 0x8c, virtual false, abstract: false, final false
   static inline void Free(::Unity::Collections::AllocatorManager_AllocatorHandle handle, void* pointer);
 
-  /// @brief Method Free, addr 0x6289af8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x62f1684, size 0xa8, virtual false, abstract: false, final false
   static inline void Free(::Unity::Collections::AllocatorManager_AllocatorHandle handle, void* pointer, int32_t itemSizeInBytes, int32_t alignmentInBytes, int32_t items);
 
   /// @brief Method Free, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1840,24 +1840,24 @@ public:
   /// @brief Method FreeBlock, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void FreeBlock(::ByRef<T> t, ::ByRef<::Unity::Collections::AllocatorManager_Block> block);
 
-  /// @brief Method Initialize, addr 0x628a154, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x62f1ce0, size 0x4, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method Install, addr 0x628a47c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Install, addr 0x62f2008, size 0xe8, virtual false, abstract: false, final false
   static inline void Install(::Unity::Collections::AllocatorManager_AllocatorHandle handle, ::System::IntPtr allocatorState, ::Unity::Collections::AllocatorManager_TryFunction* function);
 
-  /// @brief Method Install, addr 0x628a158, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Install, addr 0x62f1ce4, size 0x218, virtual false, abstract: false, final false
   static inline void Install(::Unity::Collections::AllocatorManager_AllocatorHandle handle, ::System::IntPtr allocatorState,
                              ::Unity::Burst::FunctionPointer_1<::Unity::Collections::AllocatorManager_TryFunction*> functionPointer, ::Unity::Collections::AllocatorManager_TryFunction* function,
                              bool IsAutoDispose);
 
-  /// @brief Method IsCustomAllocator, addr 0x628a844, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsCustomAllocator, addr 0x62f23d0, size 0xc, virtual false, abstract: false, final false
   static inline bool IsCustomAllocator(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method LegacyOf, addr 0x6289f10, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method LegacyOf, addr 0x62f1a9c, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Collections::Allocator LegacyOf(::Unity::Collections::AllocatorManager_AllocatorHandle handle);
 
-  /// @brief Method Register, addr 0x628a564, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x62f20f0, size 0x2dc, virtual false, abstract: false, final false
   static inline ::Unity::Collections::AllocatorManager_AllocatorHandle Register(::System::IntPtr allocatorState,
                                                                                 ::Unity::Burst::FunctionPointer_1<::Unity::Collections::AllocatorManager_TryFunction*> functionPointer,
                                                                                 bool IsAutoDispose, bool isGlobal, int32_t globalIndex);
@@ -1865,13 +1865,13 @@ public:
   /// @brief Method Register, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Register(::ByRef<T> t, bool IsAutoDispose, bool isGlobal, int32_t globalIndex);
 
-  /// @brief Method Shutdown, addr 0x628a840, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Shutdown, addr 0x62f23cc, size 0x4, virtual false, abstract: false, final false
   static inline void Shutdown();
 
-  /// @brief Method Try, addr 0x628a080, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Try, addr 0x62f1c0c, size 0xd4, virtual false, abstract: false, final false
   static inline int32_t Try(::ByRef<::Unity::Collections::AllocatorManager_Block> block);
 
-  /// @brief Method TryLegacy, addr 0x6289f24, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method TryLegacy, addr 0x62f1ab0, size 0x134, virtual false, abstract: false, final false
   static inline int32_t TryLegacy(::ByRef<::Unity::Collections::AllocatorManager_Block> block);
 
   /// @brief Method UnmanagedUnregister, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1880,13 +1880,13 @@ public:
   /// @brief Method Unregister, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Unregister(::ByRef<T> t);
 
-  /// @brief Method UseDelegate, addr 0x6289c3c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method UseDelegate, addr 0x62f17c8, size 0x54, virtual false, abstract: false, final false
   static inline bool UseDelegate();
 
-  /// @brief Method allocate_block, addr 0x6289c90, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method allocate_block, addr 0x62f181c, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t allocate_block(::ByRef<::Unity::Collections::AllocatorManager_Block> block);
 
-  /// @brief Method forward_mono_allocate_block, addr 0x6289df8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method forward_mono_allocate_block, addr 0x62f1984, size 0x110, virtual false, abstract: false, final false
   static inline void forward_mono_allocate_block(::ByRef<::Unity::Collections::AllocatorManager_Block> block, ::ByRef<int32_t> error);
 
   static inline ::Unity::Collections::AllocatorManager_AllocatorHandle getStaticF_AudioKernel();
@@ -1950,7 +1950,7 @@ public:
   static constexpr uint16_t MaxNumCustomAllocators{ static_cast<uint16_t>(0x8000u) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15514 };
 
   /// @brief Field kErrorBufferOverflow offset 0xffffffff size 0x4
   static constexpr int32_t kErrorBufferOverflow{ static_cast<int32_t>(0xffffffff) };

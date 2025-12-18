@@ -61,13 +61,13 @@ public:
 
   static inline ::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <GetEntitlementInformation>g__CheckEntitlement|1, addr 0x5863690, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method <GetEntitlementInformation>g__CheckEntitlement|1, addr 0x58c9df4, size 0x234, virtual false, abstract: false, final false
   inline void _GetEntitlementInformation_g__CheckEntitlement_1(::Oculus::Platform::Message* msg);
 
-  /// @brief Method <GetEntitlementInformation>g__GetAccessTokenComplete|2, addr 0x58638c4, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method <GetEntitlementInformation>g__GetAccessTokenComplete|2, addr 0x58ca028, size 0x2d8, virtual false, abstract: false, final false
   inline void _GetEntitlementInformation_g__GetAccessTokenComplete_2(::Oculus::Platform::Message_1<::StringW>* msg);
 
-  /// @brief Method <GetEntitlementInformation>g__InitializeComplete|0, addr 0x586349c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method <GetEntitlementInformation>g__InitializeComplete|0, addr 0x58c9c00, size 0x1f4, virtual false, abstract: false, final false
   inline void _GetEntitlementInformation_g__InitializeComplete_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>* msg);
 
   constexpr ::System::Action_1<::Meta::XR::MultiplayerBlocks::Shared::PlatformInfo>* const& __cordl_internal_get_callback() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_callback(::System::Action_1<::Meta::XR::MultiplayerBlocks::Shared::PlatformInfo>* value);
 
-  /// @brief Method .ctor, addr 0x5863498, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c9bfc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,7 +94,7 @@ public:
   PlatformInit___c__DisplayClass5_0(PlatformInit___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20378 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::Meta::XR::MultiplayerBlocks::Shared::PlatformInfo>* ___callback;
@@ -123,7 +123,7 @@ public:
 
   static inline ::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_1* New_ctor();
 
-  /// @brief Method <GetEntitlementInformation>b__3, addr 0x5863ba0, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method <GetEntitlementInformation>b__3, addr 0x58ca304, size 0x214, virtual false, abstract: false, final false
   inline void _GetEntitlementInformation_b__3(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>* msg);
 
   constexpr ::Meta::XR::MultiplayerBlocks::Shared::PlatformInit___c__DisplayClass5_0* const& __cordl_internal_get_CS$__8__locals1() const;
@@ -138,7 +138,7 @@ public:
 
   constexpr void __cordl_internal_set_accessToken(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5863b9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ca300, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -156,7 +156,7 @@ public:
   PlatformInit___c__DisplayClass5_1(PlatformInit___c__DisplayClass5_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20379 };
 
   /// @brief Field accessToken, offset: 0x10, size: 0x8, def value: None
   ::StringW ___accessToken;
@@ -191,21 +191,21 @@ public:
   /// @brief Field <status>k__BackingField, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__status_k__BackingField, put = setStaticF__status_k__BackingField)) ::Meta::XR::MultiplayerBlocks::Shared::BBPlatformInitStatus _status_k__BackingField;
 
-  /// @brief Method GetEntitlementInformation, addr 0x585ec18, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method GetEntitlementInformation, addr 0x58c537c, size 0x360, virtual false, abstract: false, final false
   static inline void GetEntitlementInformation(::System::Action_1<::Meta::XR::MultiplayerBlocks::Shared::PlatformInfo>* callback);
 
   static inline ::Meta::XR::MultiplayerBlocks::Shared::PlatformInfo getStaticF__info();
 
   static inline ::Meta::XR::MultiplayerBlocks::Shared::BBPlatformInitStatus getStaticF__status_k__BackingField();
 
-  /// @brief Method get_status, addr 0x58633fc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_status, addr 0x58c9b60, size 0x4c, virtual false, abstract: false, final false
   static inline ::Meta::XR::MultiplayerBlocks::Shared::BBPlatformInitStatus get_status();
 
   static inline void setStaticF__info(::Meta::XR::MultiplayerBlocks::Shared::PlatformInfo value);
 
   static inline void setStaticF__status_k__BackingField(::Meta::XR::MultiplayerBlocks::Shared::BBPlatformInitStatus value);
 
-  /// @brief Method set_status, addr 0x5863448, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_status, addr 0x58c9bac, size 0x50, virtual false, abstract: false, final false
   static inline void set_status(::Meta::XR::MultiplayerBlocks::Shared::BBPlatformInitStatus value);
 
 protected:
@@ -223,7 +223,7 @@ public:
   PlatformInit(PlatformInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20380 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

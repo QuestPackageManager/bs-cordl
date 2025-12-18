@@ -66,7 +66,7 @@ public:
   static ::GlobalNamespace::EnvironmentIntensityReductionOptions_CompressExpandReductionType const RemoveWithStrobeFilter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14808 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -121,7 +121,7 @@ public:
   static ::GlobalNamespace::EnvironmentIntensityReductionOptions_RotateRingsReductionType const RemoveWithStrobeFilter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14809 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -173,13 +173,13 @@ public:
 
   constexpr void __cordl_internal_set__rotateRings(::GlobalNamespace::EnvironmentIntensityReductionOptions_RotateRingsReductionType value);
 
-  /// @brief Method .ctor, addr 0x35e0cd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360bb38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_compressExpand, addr 0x35e0cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_compressExpand, addr 0x360bb28, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentIntensityReductionOptions_CompressExpandReductionType get_compressExpand();
 
-  /// @brief Method get_rotateRings, addr 0x35e0ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotateRings, addr 0x360bb30, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentIntensityReductionOptions_RotateRingsReductionType get_rotateRings();
 
 protected:
@@ -197,7 +197,7 @@ public:
   EnvironmentIntensityReductionOptions(EnvironmentIntensityReductionOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14810 };
 
   /// @brief Field _compressExpand, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentIntensityReductionOptions_CompressExpandReductionType ____compressExpand;

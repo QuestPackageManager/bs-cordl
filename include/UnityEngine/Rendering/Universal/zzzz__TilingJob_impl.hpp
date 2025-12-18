@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::TilingJob::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::TilingJob::Execute)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x66a2318;
+  constexpr static std::size_t addrs = 0x6709ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::TilingJob::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::TilingJob::TileLight)> {
   constexpr static std::size_t size = 0x1b90;
-  constexpr static std::size_t addrs = 0x66a3098;
+  constexpr static std::size_t addrs = 0x670ac24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::TilingJob::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::TilingJob::TileLightOrthographic)> {
   constexpr static std::size_t size = 0xc68;
-  constexpr static std::size_t addrs = 0x66a2430;
+  constexpr static std::size_t addrs = 0x6709fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::TilingJob::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::TilingJob::TileReflectionProbe)> {
   constexpr static std::size_t size = 0x7dc;
-  constexpr static std::size_t addrs = 0x66a4c28;
+  constexpr static std::size_t addrs = 0x670c7b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float2 (::UnityEngine::Rendering::Universal::TilingJob::*)(::Unity::Mathematics::float3)>(
     &::UnityEngine::Rendering::Universal::TilingJob::ViewToTileSpace)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x66a671c;
+  constexpr static std::size_t addrs = 0x670e2a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float2 (::UnityEngine::Rendering::Universal::TilingJob::*)(::Unity::Mathematics::float3)>(
     &::UnityEngine::Rendering::Universal::TilingJob::ViewToTileSpaceOrthographic)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x66a75b4;
+  constexpr static std::size_t addrs = 0x670f140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::TilingJob::*)(::Unity::Mathematics::float3)>(
     &::UnityEngine::Rendering::Universal::TilingJob::ExpandY)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x66a5404;
+  constexpr static std::size_t addrs = 0x670cf90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::TilingJob::*)(::Unity::Mathematics::float3)>(
     &::UnityEngine::Rendering::Universal::TilingJob::ExpandOrthographic)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x66a72cc;
+  constexpr static std::size_t addrs = 0x670ee58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::Universal::TilingJob::*)(
     ::ByRef<::UnityEngine::Rendering::Universal::InclusiveRange>, float_t)>(&::UnityEngine::Rendering::Universal::TilingJob::ExpandRangeOrthographic)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x66a74d8;
+  constexpr static std::size_t addrs = 0x670f064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t)>(&::UnityEngine::Rendering::Universal::TilingJob::square)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a5520;
+  constexpr static std::size_t addrs = 0x670d0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Unity::Mathematics::float2, float_t, float_t, float_t, ::ByRef<::Unity::Mathematics::float2>,
                                                                                            ::ByRef<::Unity::Mathematics::float2>)>(&::UnityEngine::Rendering::Universal::TilingJob::GetSphereHorizon)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x66a5528;
+  constexpr static std::size_t addrs = 0x670d0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -221,7 +221,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::Unity::Mathematics::float3, float_t, float_t, float_t, float_t, ::ByRef<::Unity::Mathematics::float3>, ::ByRef<::Unity::Mathematics::float3>)>(
         &::UnityEngine::Rendering::Universal::TilingJob::GetSphereYPlaneHorizon)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x66a6ebc;
+  constexpr static std::size_t addrs = 0x670ea48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,7 +241,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::Unity::Mathematics::float3, ::Unity::Mathematics::float3, float_t, float_t, ::ByRef<::Unity::Mathematics::float3>, ::ByRef<::Unity::Mathematics::float3>)>(
         &::UnityEngine::Rendering::Universal::TilingJob::GetCircleClipPoints)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x66a5a9c;
+  constexpr static std::size_t addrs = 0x670d628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_2<float_t, float_t> (*)(float_t, float_t, ::Unity::Mathematics::float3)>(
     &::UnityEngine::Rendering::Universal::TilingJob::IntersectEllipseLine)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x66a7628;
+  constexpr static std::size_t addrs = 0x670f1b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -277,7 +277,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::ByRef<::Unity::Mathematics::float2>, ::ByRef<::Unity::Mathematics::float2>)>(
     &::UnityEngine::Rendering::Universal::TilingJob::GetProjectedCircleHorizon)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x66a588c;
+  constexpr static std::size_t addrs = 0x670d418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -297,7 +297,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(float_t, ::Unity::Mathematics::float3, ::Unity::Mathematics::float3, ::Unity::Mathematics::float3, ::Unity::Mathematics::float3, float_t,
                          ::ByRef<::Unity::Mathematics::float3>, ::ByRef<::Unity::Mathematics::float3>)>(&::UnityEngine::Rendering::Universal::TilingJob::IntersectCircleYPlane)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x66a67a0;
+  constexpr static std::size_t addrs = 0x670e32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -318,7 +318,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::Unity::Mathematics::float3, ::Unity::Mathematics::float3, float_t, float_t, float_t, float_t, ::Unity::Mathematics::float3, ::Unity::Mathematics::float3,
                          ::ByRef<::Unity::Mathematics::float3>, ::ByRef<::Unity::Mathematics::float3>)>(&::UnityEngine::Rendering::Universal::TilingJob::GetConeSideTangentPoints)> {
   constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x66a6238;
+  constexpr static std::size_t addrs = 0x670ddc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -340,7 +340,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Mathematics::float3 (*)(float_t, ::Unity::Mathematics::float3, ::Unity::Mathematics::float3, float_t, ::Unity::Mathematics::float3, ::Unity::Mathematics::float3, float_t)>(
         &::UnityEngine::Rendering::Universal::TilingJob::EvaluateNearConic)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x66a5f38;
+  constexpr static std::size_t addrs = 0x670dac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -360,7 +360,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Mathematics::float2 (*)(::Unity::Mathematics::float2, ::Unity::Mathematics::float2, float_t, ::Unity::Mathematics::float2, ::Unity::Mathematics::float2)>(
         &::UnityEngine::Rendering::Universal::TilingJob::FindNearConicTangentTheta)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x66a5cb0;
+  constexpr static std::size_t addrs = 0x670d83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -379,7 +379,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Mathematics::float2 (*)(float_t, ::Unity::Mathematics::float3, ::Unity::Mathematics::float3, float_t, ::Unity::Mathematics::float3, ::Unity::Mathematics::float3, float_t)>(
         &::UnityEngine::Rendering::Universal::TilingJob::FindNearConicYTheta)> {
   constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x66a6a44;
+  constexpr static std::size_t addrs = 0x670e5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -399,7 +399,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::Unity::Mathematics::float3, ::ByRef<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0>)>(
         &::UnityEngine::Rendering::Universal::TilingJob::_TileLight_g__SpherePointIsValid_19_0)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x66a579c;
+  constexpr static std::size_t addrs = 0x670d328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -417,7 +417,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::Unity::Mathematics::float3, ::ByRef<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass19_0>)>(
         &::UnityEngine::Rendering::Universal::TilingJob::_TileLight_g__ConicPointIsValid_19_1)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x66a6118;
+  constexpr static std::size_t addrs = 0x670dca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -434,7 +434,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::Unity::Mathematics::float3, ::ByRef<::UnityEngine::Rendering::Universal::TilingJob___c__DisplayClass20_0>)>(
         &::UnityEngine::Rendering::Universal::TilingJob::_TileLightOrthographic_g__SpherePointIsValid_20_0)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x66a73e8;
+  constexpr static std::size_t addrs = 0x670ef74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

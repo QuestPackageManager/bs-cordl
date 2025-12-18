@@ -23,4 +23,4 @@ constexpr ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::ConnectionF
 constexpr ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::ConnectionFailedReason::ServerIsTerminating{ static_cast<int32_t>(0xd) };
 constexpr ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::ConnectionFailedReason::Timeout{ static_cast<int32_t>(0xe) };
 constexpr ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::ConnectionFailedReason::FailedToFindMatch{ static_cast<int32_t>(0xf) };
-constexpr ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::ConnectionFailedReason::MismatchedServerEnvironment{ static_cast<int32_t>(0x10) };
+constexpr ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::ConnectionFailedReason::IncompatibleServerEnvironment{ static_cast<int32_t>(0x10) };
