@@ -1,20 +1,26 @@
 #! /usr/bin/pwsh
 
 Param(
-    [Parameter(Mandatory=$false)]
-    [String] $file=""
+    [Parameter(Mandatory=$true)]
+    [String] $ApkFile="",
+    [Switch] $NoCommit,
+    [Switch] $IgnoreChanges
 )
 
-if($file -eq "") {
-    Write-Output "Expected apk filename as input"
+if(-not (Test-Path $ApkFile)) {
+    Write-Output "File does not exist"
     exit 1
 }
 
-# Reset files beforehand so nothing incorrect is commited
-git reset --hard origin/main
+git fetch origin main
+$githead = git log origin/main..HEAD
+if("$githead".Length -ne 0 -and -not $IgnoreChanges) {
+    Write-Output 'You have unpushed local changes, it is recomended to reset the git tree using `git reset --hard origin/main`'
+    Write-Output 'If you would like to continue anyway, re-run this script with `--IgnoreChanges`'
+}
 
 # Extract il2cpp files from apk
-apktool d $file -f -o $PSScriptRoot/apk
+apktool d $ApkFile -f -o $PSScriptRoot/apk
 Copy-Item apk/lib/arm64-v8a/libil2cpp.so $PSScriptRoot
 Copy-Item apk/assets/bin/Data/Managed/Metadata/global-metadata.dat $PSScriptRoot
 
@@ -48,5 +54,12 @@ Remove-Item -Force global-metadata.dat
 qpm restore --update
 qpm s build
 
-git add include qpm.json qpm.shared.json types.json.zip
-git commit -m "Update for $version"
+if($LASTEXITCODE -ne 0) {
+    exit $LASTEXITCODE
+}
+
+if(-not $NoCommit) {
+    git add include qpm.json qpm.shared.json types.json.zip
+    git commit -m "Update for $version"
+    Write-Output "Commited changes, use `git push` to push changes to remote"
+}
